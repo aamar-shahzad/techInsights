@@ -50,8 +50,9 @@ CATEGORY_LABELS = {
     "security": "Security",
 }
 
-MAX_STORIES_PER_CATEGORY = 15
+MAX_STORIES_PER_CATEGORY = 10
 MAX_DESCRIPTION_LENGTH = 200
+TOP_STORIES_COUNT = 10
 
 PROJECT_ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
@@ -139,6 +140,7 @@ def fetch_feed(source_name: str, url: str) -> list[dict]:
                 "date_str": pub_date.strftime("%b %d, %Y"),
                 "time_ago": time_ago(pub_date),
                 "is_new": hours_old < 6,
+                "hours_old": hours_old,
             })
     except Exception as e:
         print(f"Error fetching {source_name} ({url}): {e}")
@@ -168,21 +170,42 @@ def build_site():
     print("Building Tech Insights...")
 
     categories_data = []
+    all_stories = []
+    
     for category_id in ["ai", "devtools", "tech", "startups", "security"]:
         print(f"\nCategory: {CATEGORY_LABELS[category_id]}")
         stories = fetch_category(category_id)
         print(f"  Found {len(stories)} stories")
+        
+        for story in stories:
+            story["category"] = category_id
+            story["category_label"] = CATEGORY_LABELS[category_id]
+        
+        all_stories.extend(stories)
         categories_data.append({
             "id": category_id,
             "label": CATEGORY_LABELS[category_id],
             "stories": stories,
         })
 
+    all_stories.sort(key=lambda x: x["date"], reverse=True)
+    seen_urls = set()
+    top_stories = []
+    for story in all_stories:
+        if story["link"] not in seen_urls and story["hours_old"] < 24:
+            seen_urls.add(story["link"])
+            top_stories.append(story)
+            if len(top_stories) >= TOP_STORIES_COUNT:
+                break
+    
+    print(f"\nTop Stories: {len(top_stories)} from last 24 hours")
+
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     template = env.get_template("page.html")
 
     now = datetime.now(timezone.utc)
     html_content = template.render(
+        top_stories=top_stories,
         categories=categories_data,
         updated_at=now.strftime("%B %d, %Y at %H:%M UTC"),
         year=now.year,
