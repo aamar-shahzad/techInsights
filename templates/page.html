@@ -112,7 +112,7 @@
                 {% for story in category.stories %}
                 <article class="story-card{% if story.is_new %} story-card--new{% endif %}">
                     <div class="story-meta">
-                        <span class="story-source">{{ story.source }}</span>
+                        <span class="story-source" data-source="{{ story.source }}">{{ story.source }}</span>
                         <span class="story-date">{{ story.time_ago }}{% if story.is_new %} <span class="badge-new">New</span>{% endif %}</span>
                     </div>
                     <h3 class="story-title">

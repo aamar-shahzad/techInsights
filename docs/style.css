@@ -45,7 +45,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 17px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -340,15 +340,15 @@ main {
 
 .stories-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1.5rem;
 }
 
 .story-card {
     background-color: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
-    padding: 1.25rem 1.5rem;
+    padding: 1.5rem 1.75rem;
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
@@ -386,8 +386,30 @@ main {
 
 .story-source {
     font-weight: 600;
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.6875rem;
+    background-color: var(--color-bg-secondary);
     color: var(--color-text-secondary);
 }
+
+.story-source[data-source="TechCrunch AI"] { background-color: #0a0; color: white; }
+.story-source[data-source="MIT Tech Review"] { background-color: #c00; color: white; }
+.story-source[data-source="Wired AI"] { background-color: #000; color: white; }
+.story-source[data-source="OpenAI Blog"] { background-color: #10a37f; color: white; }
+.story-source[data-source="Google AI Blog"] { background-color: #4285f4; color: white; }
+.story-source[data-source="Hugging Face Blog"] { background-color: #ff9d00; color: black; }
+.story-source[data-source="Dev.to"] { background-color: #0a0a0a; color: white; }
+.story-source[data-source="GitHub Blog"] { background-color: #24292e; color: white; }
+.story-source[data-source="Hacker News"] { background-color: #ff6600; color: white; }
+.story-source[data-source="The Verge"] { background-color: #e5127d; color: white; }
+.story-source[data-source="Ars Technica"] { background-color: #ff4e00; color: white; }
+.story-source[data-source="Y Combinator"] { background-color: #f26522; color: white; }
+.story-source[data-source="a16z"] { background-color: #000; color: white; }
+.story-source[data-source="First Round Review"] { background-color: #0066cc; color: white; }
+.story-source[data-source="Krebs on Security"] { background-color: #333; color: white; }
+.story-source[data-source="The Hacker News"] { background-color: #1a1a2e; color: white; }
+.story-source[data-source="Schneier on Security"] { background-color: #003366; color: white; }
 
 .story-date {
     color: var(--color-text-secondary);
@@ -454,8 +476,12 @@ main {
     gap: 0.5rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     border-bottom: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    background-color: var(--color-bg);
+    z-index: 50;
 }
 
 .category-nav a {
