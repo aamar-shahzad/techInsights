@@ -239,6 +239,7 @@ def build_site():
     generate_archive(env, now, all_stories)
     generate_structured_data(now)
     generate_rss_feed(now, top_stories, all_stories)
+    generate_category_pages(env, now, categories_data)
 
 
 def generate_sitemap(now: datetime):
@@ -249,6 +250,13 @@ def generate_sitemap(now: datetime):
         {"loc": SITE_URL + "/", "changefreq": "daily", "priority": "1.0"},
         {"loc": SITE_URL + "/archive/", "changefreq": "weekly", "priority": "0.8"},
     ]
+    
+    for cat_id in CATEGORY_LABELS.keys():
+        urls.append({
+            "loc": f"{SITE_URL}/{cat_id}/",
+            "changefreq": "daily",
+            "priority": "0.9"
+        })
     
     if archive_dir.exists():
         for week_file in sorted(archive_dir.glob("week-*.html"), reverse=True)[:12]:
@@ -388,6 +396,25 @@ def generate_rss_feed(now: datetime, top_stories: list, all_stories: list):
     feed_file = OUTPUT_DIR / "feed.xml"
     feed_file.write_text(rss)
     print(f"Generated {feed_file}")
+
+
+def generate_category_pages(env: Environment, now: datetime, categories_data: list):
+    """Generate individual category pages for SEO."""
+    template = env.get_template("category.html")
+    
+    for category in categories_data:
+        cat_dir = OUTPUT_DIR / category["id"]
+        cat_dir.mkdir(exist_ok=True)
+        
+        html_content = template.render(
+            category=category,
+            updated_at=now.strftime("%B %d, %Y at %H:%M UTC"),
+            year=now.year,
+        )
+        
+        output_file = cat_dir / "index.html"
+        output_file.write_text(html_content)
+        print(f"Generated {output_file}")
 
 
 if __name__ == "__main__":
