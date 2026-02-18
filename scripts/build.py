@@ -1,0 +1,150 @@
+#!/usr/bin/env python3
+"""
+Build script for Tech Insights news aggregator.
+Fetches RSS feeds, filters stories, and generates a static HTML page.
+"""
+
+import html
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+
+import feedparser
+from jinja2 import Environment, FileSystemLoader
+
+FEEDS = {
+    "ai": [
+        ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
+        ("MIT Tech Review", "https://www.technologyreview.com/feed/"),
+        ("Wired AI", "https://www.wired.com/feed/tag/ai/latest/rss"),
+    ],
+    "devtools": [
+        ("Dev.to", "https://dev.to/feed/"),
+        ("GitHub Blog", "https://github.blog/feed/"),
+        ("Hacker News", "https://hnrss.org/frontpage"),
+    ],
+    "tech": [
+        ("The Verge", "https://www.theverge.com/rss/index.xml"),
+        ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab"),
+    ],
+}
+
+CATEGORY_LABELS = {
+    "ai": "AI",
+    "devtools": "Developer Tools",
+    "tech": "Tech Industry",
+}
+
+MAX_STORIES_PER_CATEGORY = 15
+MAX_DESCRIPTION_LENGTH = 200
+
+PROJECT_ROOT = Path(__file__).parent.parent
+TEMPLATES_DIR = PROJECT_ROOT / "templates"
+OUTPUT_DIR = PROJECT_ROOT / "docs"
+
+
+def strip_html(text: str) -> str:
+    """Remove HTML tags and decode entities."""
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", "", text)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def truncate(text: str, max_length: int) -> str:
+    """Truncate text to max_length, adding ellipsis if needed."""
+    if len(text) <= max_length:
+        return text
+    return text[: max_length - 3].rsplit(" ", 1)[0] + "..."
+
+
+def parse_date(entry) -> datetime:
+    """Extract published date from feed entry."""
+    if hasattr(entry, "published_parsed") and entry.published_parsed:
+        return datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+    if hasattr(entry, "updated_parsed") and entry.updated_parsed:
+        return datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+    return datetime.now(timezone.utc)
+
+
+def fetch_feed(source_name: str, url: str) -> list[dict]:
+    """Fetch and parse a single RSS feed."""
+    stories = []
+    try:
+        feed = feedparser.parse(url)
+        for entry in feed.entries:
+            link = entry.get("link", "")
+            if not link:
+                continue
+
+            title = entry.get("title", "Untitled")
+            description = strip_html(entry.get("summary", entry.get("description", "")))
+            description = truncate(description, MAX_DESCRIPTION_LENGTH)
+            pub_date = parse_date(entry)
+
+            stories.append({
+                "title": title,
+                "link": link,
+                "description": description,
+                "source": source_name,
+                "date": pub_date,
+                "date_str": pub_date.strftime("%b %d, %Y"),
+            })
+    except Exception as e:
+        print(f"Error fetching {source_name} ({url}): {e}")
+
+    return stories
+
+
+def fetch_category(category: str) -> list[dict]:
+    """Fetch all feeds for a category and deduplicate."""
+    all_stories = []
+    seen_urls = set()
+
+    for source_name, url in FEEDS[category]:
+        print(f"  Fetching {source_name}...")
+        stories = fetch_feed(source_name, url)
+        for story in stories:
+            if story["link"] not in seen_urls:
+                seen_urls.add(story["link"])
+                all_stories.append(story)
+
+    all_stories.sort(key=lambda x: x["date"], reverse=True)
+    return all_stories[:MAX_STORIES_PER_CATEGORY]
+
+
+def build_site():
+    """Main build function."""
+    print("Building Tech Insights...")
+
+    categories_data = []
+    for category_id in ["ai", "devtools", "tech"]:
+        print(f"\nCategory: {CATEGORY_LABELS[category_id]}")
+        stories = fetch_category(category_id)
+        print(f"  Found {len(stories)} stories")
+        categories_data.append({
+            "id": category_id,
+            "label": CATEGORY_LABELS[category_id],
+            "stories": stories,
+        })
+
+    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
+    template = env.get_template("page.html")
+
+    now = datetime.now(timezone.utc)
+    html_content = template.render(
+        categories=categories_data,
+        updated_at=now.strftime("%B %d, %Y at %H:%M UTC"),
+        year=now.year,
+    )
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_file = OUTPUT_DIR / "index.html"
+    output_file.write_text(html_content)
+    print(f"\nGenerated {output_file}")
+
+
+if __name__ == "__main__":
+    build_site()

@@ -1,0 +1,310 @@
+:root {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+    --color-bg: #ffffff;
+    --color-bg-secondary: #f8f9fa;
+    --color-text: #1a1a2e;
+    --color-text-secondary: #6c757d;
+    --color-border: #e9ecef;
+    --color-link: #0066cc;
+    --color-link-hover: #004499;
+    
+    --color-ai: #6366f1;
+    --color-devtools: #10b981;
+    --color-tech: #f59e0b;
+    
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+    
+    --radius: 8px;
+    --container-width: 1200px;
+}
+
+[data-theme="dark"] {
+    --color-bg: #0f0f1a;
+    --color-bg-secondary: #1a1a2e;
+    --color-text: #e9ecef;
+    --color-text-secondary: #adb5bd;
+    --color-border: #2d2d44;
+    --color-link: #60a5fa;
+    --color-link-hover: #93c5fd;
+    
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: var(--font-sans);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+.site-header {
+    background-color: var(--color-bg-secondary);
+    border-bottom: 1px solid var(--color-border);
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.brand h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.tagline {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.125rem;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.updated {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+}
+
+.theme-toggle {
+    background: none;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+    background-color: var(--color-bg-secondary);
+    border-color: var(--color-text-secondary);
+}
+
+.icon-moon {
+    display: none;
+}
+
+[data-theme="dark"] .icon-sun {
+    display: none;
+}
+
+[data-theme="dark"] .icon-moon {
+    display: block;
+}
+
+main {
+    flex: 1;
+    padding: 2rem 0;
+}
+
+.category {
+    margin-bottom: 3rem;
+}
+
+.category:last-child {
+    margin-bottom: 0;
+}
+
+.category-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.category-indicator {
+    width: 4px;
+    height: 1.25rem;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.category--ai .category-indicator {
+    background-color: var(--color-ai);
+}
+
+.category--devtools .category-indicator {
+    background-color: var(--color-devtools);
+}
+
+.category--tech .category-indicator {
+    background-color: var(--color-tech);
+}
+
+.story-count {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+    margin-left: auto;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+}
+
+.story-card {
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.story-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-text-secondary);
+}
+
+.category--ai .story-card:hover {
+    border-color: var(--color-ai);
+}
+
+.category--devtools .story-card:hover {
+    border-color: var(--color-devtools);
+}
+
+.category--tech .story-card:hover {
+    border-color: var(--color-tech);
+}
+
+.story-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.story-source {
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.story-date {
+    color: var(--color-text-secondary);
+}
+
+.story-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.story-title a {
+    color: var(--color-text);
+}
+
+.story-title a:hover {
+    color: var(--color-link);
+}
+
+.story-description {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+.no-stories {
+    color: var(--color-text-secondary);
+    font-style: italic;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--color-bg-secondary);
+    border-radius: var(--radius);
+}
+
+.site-footer {
+    background-color: var(--color-bg-secondary);
+    border-top: 1px solid var(--color-border);
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+}
+
+.site-footer p {
+    margin-bottom: 0.25rem;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}
+
+@media (max-width: 640px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header-actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .stories-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .category-title {
+        font-size: 1.125rem;
+    }
+}
