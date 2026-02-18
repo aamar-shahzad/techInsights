@@ -188,17 +188,33 @@ def build_site():
             "stories": stories,
         })
 
-    all_stories.sort(key=lambda x: x["date"], reverse=True)
-    seen_urls = set()
     top_stories = []
-    for story in all_stories:
-        if story["link"] not in seen_urls and story["hours_old"] < 24:
-            seen_urls.add(story["link"])
-            top_stories.append(story)
-            if len(top_stories) >= TOP_STORIES_COUNT:
-                break
+    seen_urls = set()
+    category_counts = {}
+    max_per_category = 3
     
-    print(f"\nTop Stories: {len(top_stories)} from last 24 hours")
+    all_stories.sort(key=lambda x: x["date"], reverse=True)
+    
+    for story in all_stories:
+        if story["link"] in seen_urls:
+            continue
+        if story["hours_old"] >= 24:
+            continue
+            
+        cat = story["category"]
+        if category_counts.get(cat, 0) >= max_per_category:
+            continue
+        
+        seen_urls.add(story["link"])
+        top_stories.append(story)
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+        
+        if len(top_stories) >= TOP_STORIES_COUNT:
+            break
+    
+    top_stories.sort(key=lambda x: x["date"], reverse=True)
+    
+    print(f"\nTop Stories: {len(top_stories)} from last 24 hours (max {max_per_category} per category)")
 
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     template = env.get_template("page.html")
