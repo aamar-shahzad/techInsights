@@ -30,12 +30,24 @@ FEEDS = {
         ("The Verge", "https://www.theverge.com/rss/index.xml"),
         ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab"),
     ],
+    "startups": [
+        ("Y Combinator", "https://www.ycombinator.com/blog/rss/"),
+        ("a16z", "https://a16z.com/feed/"),
+        ("First Round Review", "https://review.firstround.com/feed.xml"),
+    ],
+    "security": [
+        ("Krebs on Security", "https://krebsonsecurity.com/feed/"),
+        ("The Hacker News", "https://feeds.feedburner.com/TheHackersNews"),
+        ("Schneier on Security", "https://www.schneier.com/feed/"),
+    ],
 }
 
 CATEGORY_LABELS = {
     "ai": "AI",
     "devtools": "Developer Tools",
     "tech": "Tech Industry",
+    "startups": "Startups & VC",
+    "security": "Security",
 }
 
 MAX_STORIES_PER_CATEGORY = 15
@@ -63,6 +75,34 @@ def truncate(text: str, max_length: int) -> str:
     return text[: max_length - 3].rsplit(" ", 1)[0] + "..."
 
 
+def time_ago(dt: datetime) -> str:
+    """Convert datetime to human-readable 'time ago' format."""
+    now = datetime.now(timezone.utc)
+    diff = now - dt
+    
+    seconds = diff.total_seconds()
+    if seconds < 0:
+        return "just now"
+    
+    minutes = seconds / 60
+    hours = minutes / 60
+    days = hours / 24
+    
+    if seconds < 60:
+        return "just now"
+    elif minutes < 60:
+        m = int(minutes)
+        return f"{m} min ago" if m == 1 else f"{m} mins ago"
+    elif hours < 24:
+        h = int(hours)
+        return f"{h} hour ago" if h == 1 else f"{h} hours ago"
+    elif days < 7:
+        d = int(days)
+        return f"{d} day ago" if d == 1 else f"{d} days ago"
+    else:
+        return dt.strftime("%b %d, %Y")
+
+
 def parse_date(entry) -> datetime:
     """Extract published date from feed entry."""
     if hasattr(entry, "published_parsed") and entry.published_parsed:
@@ -87,6 +127,9 @@ def fetch_feed(source_name: str, url: str) -> list[dict]:
             description = truncate(description, MAX_DESCRIPTION_LENGTH)
             pub_date = parse_date(entry)
 
+            now = datetime.now(timezone.utc)
+            hours_old = (now - pub_date).total_seconds() / 3600
+            
             stories.append({
                 "title": title,
                 "link": link,
@@ -94,6 +137,8 @@ def fetch_feed(source_name: str, url: str) -> list[dict]:
                 "source": source_name,
                 "date": pub_date,
                 "date_str": pub_date.strftime("%b %d, %Y"),
+                "time_ago": time_ago(pub_date),
+                "is_new": hours_old < 6,
             })
     except Exception as e:
         print(f"Error fetching {source_name} ({url}): {e}")
@@ -123,7 +168,7 @@ def build_site():
     print("Building Tech Insights...")
 
     categories_data = []
-    for category_id in ["ai", "devtools", "tech"]:
+    for category_id in ["ai", "devtools", "tech", "startups", "security"]:
         print(f"\nCategory: {CATEGORY_LABELS[category_id]}")
         stories = fetch_category(category_id)
         print(f"  Found {len(stories)} stories")
