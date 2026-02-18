@@ -17,6 +17,9 @@ FEEDS = {
         ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
         ("MIT Tech Review", "https://www.technologyreview.com/feed/"),
         ("Wired AI", "https://www.wired.com/feed/tag/ai/latest/rss"),
+        ("OpenAI Blog", "https://openai.com/blog/rss.xml"),
+        ("Google AI Blog", "https://blog.google/technology/ai/rss/"),
+        ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
     ],
     "devtools": [
         ("Dev.to", "https://dev.to/feed/"),
