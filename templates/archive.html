@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ week_label }} - Tech Insights Archive</title>
+    <meta name="description" content="Tech news archive for {{ week_label }}. AI, developer tools, and tech industry stories.">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='white'>TI</text></svg>">
+    <link rel="canonical" href="https://aamar-shahzad.github.io/techInsights/archive/{{ week_id }}.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ week_label }} - Tech Insights Archive">
+    <meta property="og:description" content="Tech news archive for {{ week_label }}">
+    
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <a href="../" class="brand-link">
+                        <h1>Tech Insights</h1>
+                        <p class="tagline">Archive</p>
+                    </a>
+                </div>
+                <div class="header-actions">
+                    <a href="../" class="back-link">Back to Today</a>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="archive-section">
+            <h2 class="archive-title">{{ week_label }}</h2>
+            <p class="archive-subtitle">{{ stories|length }} stories from this week</p>
+            
+            <div class="archive-list">
+                {% for story in stories %}
+                <article class="archive-item">
+                    <div class="archive-item-meta">
+                        <span class="category-tag category-tag--{{ story.category }}">{{ story.category_label }}</span>
+                        <span class="archive-item-source">{{ story.source }}</span>
+                        <span class="archive-item-date">{{ story.date_str }}</span>
+                    </div>
+                    <h3 class="archive-item-title">
+                        <a href="{{ story.link }}" target="_blank" rel="noopener noreferrer">
+                            {{ story.title }}
+                        </a>
+                    </h3>
+                    {% if story.description %}
+                    <p class="archive-item-description">{{ story.description }}</p>
+                    {% endif %}
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p><a href="./">View all archives</a></p>
+            <p class="copyright">&copy; {{ year }} Tech Insights</p>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            const html = document.documentElement;
+            const STORAGE_KEY = 'theme-preference';
+            function getPreference() {
+                const stored = localStorage.getItem(STORAGE_KEY);
+                if (stored) return stored;
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            function setTheme(theme) {
+                html.setAttribute('data-theme', theme);
+                localStorage.setItem(STORAGE_KEY, theme);
+            }
+            setTheme(getPreference());
+            toggle.addEventListener('click', function() {
+                const current = html.getAttribute('data-theme');
+                setTheme(current === 'dark' ? 'light' : 'dark');
+            });
+        })();
+    </script>
+</body>
+</html>

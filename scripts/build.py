@@ -5,12 +5,15 @@ Fetches RSS feeds, filters stories, and generates a static HTML page.
 """
 
 import html
+import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
 from jinja2 import Environment, FileSystemLoader
+
+SITE_URL = "https://aamar-shahzad.github.io/techInsights"
 
 FEEDS = {
     "ai": [
@@ -231,6 +234,116 @@ def build_site():
     output_file = OUTPUT_DIR / "index.html"
     output_file.write_text(html_content)
     print(f"\nGenerated {output_file}")
+
+    generate_sitemap(now)
+    generate_archive(env, now, all_stories)
+    generate_structured_data(now)
+
+
+def generate_sitemap(now: datetime):
+    """Generate sitemap.xml for SEO."""
+    archive_dir = OUTPUT_DIR / "archive"
+    
+    urls = [
+        {"loc": SITE_URL + "/", "changefreq": "daily", "priority": "1.0"},
+        {"loc": SITE_URL + "/archive/", "changefreq": "weekly", "priority": "0.8"},
+    ]
+    
+    if archive_dir.exists():
+        for week_file in sorted(archive_dir.glob("week-*.html"), reverse=True)[:12]:
+            week_name = week_file.stem
+            urls.append({
+                "loc": f"{SITE_URL}/archive/{week_name}.html",
+                "changefreq": "monthly",
+                "priority": "0.6"
+            })
+    
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    
+    for url in urls:
+        sitemap += "  <url>\n"
+        sitemap += f"    <loc>{url['loc']}</loc>\n"
+        sitemap += f"    <lastmod>{now.strftime('%Y-%m-%d')}</lastmod>\n"
+        sitemap += f"    <changefreq>{url['changefreq']}</changefreq>\n"
+        sitemap += f"    <priority>{url['priority']}</priority>\n"
+        sitemap += "  </url>\n"
+    
+    sitemap += "</urlset>"
+    
+    sitemap_file = OUTPUT_DIR / "sitemap.xml"
+    sitemap_file.write_text(sitemap)
+    print(f"Generated {sitemap_file}")
+
+
+def generate_archive(env: Environment, now: datetime, all_stories: list):
+    """Generate weekly archive pages."""
+    archive_dir = OUTPUT_DIR / "archive"
+    archive_dir.mkdir(exist_ok=True)
+    
+    year, week_num, _ = now.isocalendar()
+    week_id = f"week-{year}-{week_num:02d}"
+    
+    week_stories = [s for s in all_stories if s["hours_old"] < 168]
+    week_stories.sort(key=lambda x: x["date"], reverse=True)
+    
+    seen = set()
+    unique_stories = []
+    for s in week_stories:
+        if s["link"] not in seen:
+            seen.add(s["link"])
+            unique_stories.append(s)
+    
+    template = env.get_template("archive.html")
+    html_content = template.render(
+        week_id=week_id,
+        week_label=f"Week {week_num}, {year}",
+        stories=unique_stories[:50],
+        updated_at=now.strftime("%B %d, %Y"),
+        year=now.year,
+    )
+    
+    archive_file = archive_dir / f"{week_id}.html"
+    archive_file.write_text(html_content)
+    print(f"Generated {archive_file}")
+    
+    weeks = []
+    for f in sorted(archive_dir.glob("week-*.html"), reverse=True)[:12]:
+        name = f.stem
+        parts = name.replace("week-", "").split("-")
+        if len(parts) == 2:
+            weeks.append({"id": name, "label": f"Week {parts[1]}, {parts[0]}", "file": f"{name}.html"})
+    
+    index_template = env.get_template("archive_index.html")
+    index_content = index_template.render(weeks=weeks, year=now.year)
+    (archive_dir / "index.html").write_text(index_content)
+    print(f"Generated {archive_dir}/index.html")
+
+
+def generate_structured_data(now: datetime):
+    """Generate JSON-LD structured data for SEO."""
+    structured_data = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Tech Insights",
+        "description": "Daily curated news on AI, developer tools, and the tech industry",
+        "url": SITE_URL,
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": f"{SITE_URL}/?q={{search_term_string}}",
+            "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Tech Insights",
+            "url": SITE_URL
+        },
+        "dateModified": now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    }
+    
+    json_file = OUTPUT_DIR / "structured-data.json"
+    json_file.write_text(json.dumps(structured_data, indent=2))
+    print(f"Generated {json_file}")
 
 
 if __name__ == "__main__":
