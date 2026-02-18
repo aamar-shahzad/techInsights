@@ -238,6 +238,7 @@ def build_site():
     generate_sitemap(now)
     generate_archive(env, now, all_stories)
     generate_structured_data(now)
+    generate_rss_feed(now, top_stories, all_stories)
 
 
 def generate_sitemap(now: datetime):
@@ -344,6 +345,49 @@ def generate_structured_data(now: datetime):
     json_file = OUTPUT_DIR / "structured-data.json"
     json_file.write_text(json.dumps(structured_data, indent=2))
     print(f"Generated {json_file}")
+
+
+def generate_rss_feed(now: datetime, top_stories: list, all_stories: list):
+    """Generate RSS feed for subscribers."""
+    
+    def escape_xml(text: str) -> str:
+        return (text
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;")
+            .replace("'", "&apos;"))
+    
+    recent = sorted(all_stories, key=lambda x: x["date"], reverse=True)[:30]
+    
+    rss = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    rss += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+    rss += '<channel>\n'
+    rss += '  <title>Tech Insights</title>\n'
+    rss += f'  <link>{SITE_URL}/</link>\n'
+    rss += '  <description>Daily curated news on AI, developer tools, and the tech industry</description>\n'
+    rss += '  <language>en-us</language>\n'
+    rss += f'  <lastBuildDate>{now.strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>\n'
+    rss += f'  <atom:link href="{SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+    
+    for story in recent:
+        rss += '  <item>\n'
+        rss += f'    <title>{escape_xml(story["title"])}</title>\n'
+        rss += f'    <link>{escape_xml(story["link"])}</link>\n'
+        rss += f'    <guid>{escape_xml(story["link"])}</guid>\n'
+        rss += f'    <pubDate>{story["date"].strftime("%a, %d %b %Y %H:%M:%S +0000")}</pubDate>\n'
+        rss += f'    <source url="{SITE_URL}/">{escape_xml(story["source"])}</source>\n'
+        if story.get("description"):
+            rss += f'    <description>{escape_xml(story["description"])}</description>\n'
+        rss += f'    <category>{escape_xml(story["category_label"])}</category>\n'
+        rss += '  </item>\n'
+    
+    rss += '</channel>\n'
+    rss += '</rss>'
+    
+    feed_file = OUTPUT_DIR / "feed.xml"
+    feed_file.write_text(rss)
+    print(f"Generated {feed_file}")
 
 
 if __name__ == "__main__":
