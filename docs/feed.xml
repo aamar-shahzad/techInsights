@@ -5,97 +5,214 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 19 Feb 2026 09:04:56 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Feb 2026 13:43:00 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>What It Takes to Make Agentic AI Work in Retail</title>
+    <title>Kafka KRaft Internals: Life After ZooKeeper</title>
+    <link>https://dev.to/shyam_btm_cd923edadc18440/kafka-kraft-internals-life-after-zookeeper-3cig</link>
+    <guid>https://dev.to/shyam_btm_cd923edadc18440/kafka-kraft-internals-life-after-zookeeper-3cig</guid>
+    <pubDate>Thu, 19 Feb 2026 13:32:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>For years, Apache Kafka relied on Apache ZooKeeper for cluster metadata management, controller election, and broker coordination. ZooKeeper worked — but it also introduced operational complexity,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Vault in the Cloud: Securing Azure Files and Blob Storage</title>
+    <link>https://dev.to/pirrezz/the-vault-in-the-cloud-securing-azure-files-and-blob-storage-3n0i</link>
+    <guid>https://dev.to/pirrezz/the-vault-in-the-cloud-securing-azure-files-and-blob-storage-3n0i</guid>
+    <pubDate>Thu, 19 Feb 2026 13:31:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Case for Data Fortification In the modern enterprise, data is the most valuable asset and the most targeted. Whether you are utilizing Azure Files for serverless file shares or Azure Blob...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Role-Based Student Management System in Rust (egui + PostgreSQL)</title>
+    <link>https://dev.to/manjushaps/building-a-role-based-student-management-system-in-rust-egui-postgresql-3a94</link>
+    <guid>https://dev.to/manjushaps/building-a-role-based-student-management-system-in-rust-egui-postgresql-3a94</guid>
+    <pubDate>Thu, 19 Feb 2026 13:30:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Authentication answers one question: Who are you? Authorization answers the next: What are you allowed to do? After connecting the login system to PostgreSQL, the Teacher Assistant application...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Starting My First Salesforce Project: What Is Salesforce?</title>
+    <link>https://dev.to/rubasri_srikanthan/starting-my-first-salesforce-project-what-is-salesforce-1kda</link>
+    <guid>https://dev.to/rubasri_srikanthan/starting-my-first-salesforce-project-what-is-salesforce-1kda</guid>
+    <pubDate>Thu, 19 Feb 2026 13:30:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When I started my job as a Salesforce Developer, my Amma asked: “So Salesforce is the technology you&apos;re working on… is it a sales job? Do you need to sell?😅” I paused. Then I laughed. I told her:...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Build Idempotent Cloud Tasks Handlers in Python (The Pattern That Eliminated Our Duplicate Record Bugs)</title>
+    <link>https://dev.to/humzakt/how-to-build-idempotent-cloud-tasks-handlers-in-python-the-pattern-that-eliminated-our-duplicate-4gml</link>
+    <guid>https://dev.to/humzakt/how-to-build-idempotent-cloud-tasks-handlers-in-python-the-pattern-that-eliminated-our-duplicate-4gml</guid>
+    <pubDate>Thu, 19 Feb 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Google Cloud Tasks guarantees at-least-once delivery. That means your handler WILL be called multiple times for the same task. If you&apos;re not handling this, you have bugs. You might not know it...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Tailwind CSS vs MUI vs Ant Design — Which One Should You Choose in 2026?</title>
+    <link>https://dev.to/wafa_bergaoui/tailwind-css-vs-mui-vs-ant-design-which-one-should-you-choose-in-2026-2nk3</link>
+    <guid>https://dev.to/wafa_bergaoui/tailwind-css-vs-mui-vs-ant-design-which-one-should-you-choose-in-2026-2nk3</guid>
+    <pubDate>Thu, 19 Feb 2026 13:28:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction Frontend development in 2026 is no longer just about building interfaces. It’s about: Shipping faster Scaling teams Maintaining design consistency Ensuring accessibility Optimizing...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Laravel DTOs in Practice: Cleaner Controllers with Typed Input Objects</title>
+    <link>https://dev.to/blamsa0mine/laravel-dtos-in-practice-cleaner-controllers-with-typed-input-objects-1p7n</link>
+    <guid>https://dev.to/blamsa0mine/laravel-dtos-in-practice-cleaner-controllers-with-typed-input-objects-1p7n</guid>
+    <pubDate>Thu, 19 Feb 2026 13:25:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Controllers in Laravel tend to grow for a very predictable reason: input handling. As a project scales, you often find yourself with duplicated validation arrays, ad-hoc input transformations...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building an AI Phone Agent for Trade Businesses: Lessons from the Irish Market</title>
+    <link>https://dev.to/voicefleet/building-an-ai-phone-agent-for-trade-businesses-lessons-from-the-irish-market-2808</link>
+    <guid>https://dev.to/voicefleet/building-an-ai-phone-agent-for-trade-businesses-lessons-from-the-irish-market-2808</guid>
+    <pubDate>Thu, 19 Feb 2026 13:20:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Building an AI Phone Agent for Trade Businesses One of the most interesting use cases for voice AI isn&apos;t in tech — it&apos;s in trades. Plumbers, electricians, and HVAC technicians miss 40–60% of...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building AI Voice Agents for Irish Tradespeople: Lessons from Production</title>
+    <link>https://dev.to/voicefleet/building-ai-voice-agents-for-irish-tradespeople-lessons-from-production-48fe</link>
+    <guid>https://dev.to/voicefleet/building-ai-voice-agents-for-irish-tradespeople-lessons-from-production-48fe</guid>
+    <pubDate>Thu, 19 Feb 2026 13:19:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>We&apos;ve been running AI voice agents in production for small businesses in Ireland — plumbers, electricians, dental practices, restaurants. Here&apos;s what we&apos;ve learned about the trades vertical...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building AI Phone Agents That Actually Book Appointments: Dentally API Integration</title>
+    <link>https://dev.to/voicefleet/building-ai-phone-agents-that-actually-book-appointments-dentally-api-integration-5bm</link>
+    <guid>https://dev.to/voicefleet/building-ai-phone-agents-that-actually-book-appointments-dentally-api-integration-5bm</guid>
+    <pubDate>Thu, 19 Feb 2026 13:19:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Building AI Phone Agents That Actually Book Appointments Most &quot;AI receptionists&quot; are fancy voicemail. They answer, transcribe, email you. That&apos;s a pipeline, not a solution. The real engineering...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Download: autonomous narco submarines, and virtue signaling chatbots</title>
+    <link>https://www.technologyreview.com/2026/02/19/1133339/the-download-autonomous-narco-submarines-and-virtue-signaling-chatbots/</link>
+    <guid>https://www.technologyreview.com/2026/02/19/1133339/the-download-autonomous-narco-submarines-and-virtue-signaling-chatbots/</guid>
+    <pubDate>Thu, 19 Feb 2026 13:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How uncrewed narco subs could transform the Colombian drug...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Freeform raises $67M Series B to scale up laser AI manufacturing</title>
+    <link>https://techcrunch.com/2026/02/19/freeform-raises-67m-series-b-to-scale-up-laser-ai-manufacturing/</link>
+    <guid>https://techcrunch.com/2026/02/19/freeform-raises-67m-series-b-to-scale-up-laser-ai-manufacturing/</guid>
+    <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>“I think we&apos;re the only quote-unquote manufacturing company out there that has H200 clusters in a data center on site.&quot;</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The RAM shortage is coming for everything you care about</title>
+    <link>https://www.theverge.com/tech/880812/ramageddon-ram-shortage-memory-crisis-price-2026-phones-laptops</link>
+    <guid>https://www.theverge.com/tech/880812/ramageddon-ram-shortage-memory-crisis-price-2026-phones-laptops</guid>
+    <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Maybe you&apos;ve heard: Memory is expensive now. The price of RAM has tripled, quadrupled, even sextupled depending on the type of chip, all because AI companies are gobbling it up. But maybe you&apos;ve...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Malicious AI</title>
+    <link>https://www.schneier.com/blog/archives/2026/02/malicious-ai.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/02/malicious-ai.html</guid>
+    <pubDate>Thu, 19 Feb 2026 12:05:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Interesting: Summary: An AI agent of unknown ownership autonomously wrote and published a personalized hit piece about me after I rejected its code, attempting to damage my reputation and shame me...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>From Exposure to Exploitation: How AI Collapses Your Response Window</title>
+    <link>https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html</link>
+    <guid>https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html</guid>
+    <pubDate>Thu, 19 Feb 2026 11:55:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>We’ve all seen this before: a developer deploys a new cloud workload and grants overly broad permissions just to keep the sprint moving. An engineer generates a &quot;temporary&quot; API key for testing and...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Reliance unveils $110B AI investment plan as India ramps up tech ambitions</title>
+    <link>https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/</link>
+    <guid>https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/</guid>
+    <pubDate>Thu, 19 Feb 2026 11:39:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Reliance has begun building multi-gigawatt AI data centers in Jamnagar, with more than 120 MW of capacity expected to come online in 2026.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How uncrewed narco subs could transform the Colombian drug trade</title>
+    <link>https://www.technologyreview.com/2026/02/19/1132619/uncrewed-narco-subs-transform-columbian-drug-trade/</link>
+    <guid>https://www.technologyreview.com/2026/02/19/1132619/uncrewed-narco-subs-transform-columbian-drug-trade/</guid>
+    <pubDate>Thu, 19 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>On a bright morning last April, a surveillance plane operated by the Colombian military spotted a 40-foot-long shark-like silhouette idling in the ocean just off Tayrona National Park. It was,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The building legal case for global climate justice</title>
+    <link>https://www.technologyreview.com/2026/02/19/1132877/legal-climate-justice/</link>
+    <guid>https://www.technologyreview.com/2026/02/19/1132877/legal-climate-justice/</guid>
+    <pubDate>Thu, 19 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The United States and the European Union grew into economic superpowers by committing climate atrocities. They have burned a wildly disproportionate share of the world’s oil and gas, planting...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The biggest app in the whole wide world</title>
+    <link>https://www.theverge.com/tech/876196/top-app-store-apps-developers</link>
+    <guid>https://www.theverge.com/tech/876196/top-app-store-apps-developers</guid>
+    <pubDate>Thu, 19 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Last summer, Bria Sullivan was getting ready to launch her app, an adorable companion called Focus Friend meant to help people manage their screen time. Her outlandish dream was to get 100,000...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>This AI Tool Will Tell You to Stop Slacking Off</title>
+    <link>https://www.wired.com/story/fomi-ai-will-tell-you-to-stop-slacking-off/</link>
+    <guid>https://www.wired.com/story/fomi-ai-will-tell-you-to-stop-slacking-off/</guid>
+    <pubDate>Thu, 19 Feb 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Fomi watches you work, then scolds you when your attention wanders. It’s helpful, but there are privacy issues to consider.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Fake IPTV Apps Spread Massiv Android Malware Targeting Mobile Banking Users</title>
+    <link>https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html</link>
+    <guid>https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html</guid>
+    <pubDate>Thu, 19 Feb 2026 10:24:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a new Android trojan called Massiv that&apos;s designed to facilitate device takeover (DTO) attacks for financial theft. The malware, according to...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>What it takes to make agentic AI work in retail</title>
     <link>https://www.technologyreview.com/2026/02/19/1133324/what-it-takes-to-make-agentic-ai-work-in-retail/</link>
     <guid>https://www.technologyreview.com/2026/02/19/1133324/what-it-takes-to-make-agentic-ai-work-in-retail/</guid>
     <pubDate>Thu, 19 Feb 2026 08:54:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Prasad Banala, Director of Software Engineering at a large...</description>
+    <description>Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Prasad Banala, director of software engineering at a large...</description>
     <category>AI</category>
   </item>
   <item>
-    <title>How I Built 11 AI Agents and 14 Custom Commands for Claude Code</title>
-    <link>https://dev.to/nazarf/how-i-built-11-ai-agents-and-14-custom-commands-for-claude-code-5km</link>
-    <guid>https://dev.to/nazarf/how-i-built-11-ai-agents-and-14-custom-commands-for-claude-code-5km</guid>
-    <pubDate>Thu, 19 Feb 2026 08:52:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent 2 months turning Claude Code from &quot;just a CLI&quot; into a fully custom dev environment. Here&apos;s how I built 14 slash commands, 11 specialized AI agents, and a real-time usage tracker — and why...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>From Integration Chaos to Digital Clarity: Nutrien Ag Solutions’ Post-Acquisition Reset</title>
+    <title>From integration chaos to digital clarity: Nutrien Ag Solutions’ post-acquisition reset</title>
     <link>https://www.technologyreview.com/2026/02/19/1133320/from-integration-chaos-to-digital-clarity-nutrien-ag-solutions-post-acquisition-reset/</link>
     <guid>https://www.technologyreview.com/2026/02/19/1133320/from-integration-chaos-to-digital-clarity-nutrien-ag-solutions-post-acquisition-reset/</guid>
     <pubDate>Thu, 19 Feb 2026 08:48:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Sriram Kalyan, Head of Applications and Data at Nutrien Ag...</description>
+    <description>Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Sriram Kalyan, head of applications and data at Nutrien Ag...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>I Turned Claude Code Into a Personal AI You Can Reach From Anywhere Using Webhooks</title>
-    <link>https://dev.to/theabecaster/i-turned-claude-code-into-a-personal-ai-you-can-reach-from-anywhere-using-webhooks-45em</link>
-    <guid>https://dev.to/theabecaster/i-turned-claude-code-into-a-personal-ai-you-can-reach-from-anywhere-using-webhooks-45em</guid>
-    <pubDate>Thu, 19 Feb 2026 08:41:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve spent the last year paying per-token overages on Claude Code because I keep hitting my weekly limit. That&apos;s not a complaint. That&apos;s context. I use Claude Code the way most developers...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why I Built InnoStore: Helping Vendors Move Beyond ‘DM to Order’</title>
-    <link>https://dev.to/bikeinnocent/why-i-built-innostore-helping-vendors-move-beyond-dm-to-order-1ki8</link>
-    <guid>https://dev.to/bikeinnocent/why-i-built-innostore-helping-vendors-move-beyond-dm-to-order-1ki8</guid>
-    <pubDate>Thu, 19 Feb 2026 08:31:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why I Built InnoStore: Helping Vendors Move Beyond “DM to Order” When I started building software, I mostly built tools for developers. But something kept bothering me. In many small businesses —...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Daily Challenge #7 : The &quot;Recursive&quot; Folder Tree 📂</title>
-    <link>https://dev.to/bingkahu/daily-challenge-7-the-recursive-folder-tree-54mn</link>
-    <guid>https://dev.to/bingkahu/daily-challenge-7-the-recursive-folder-tree-54mn</guid>
-    <pubDate>Thu, 19 Feb 2026 08:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It is February 19th. Today, we are stepping away from UI fluff and diving into structural architecture. Your mission is to build a nested file explorer. The Mission Create a directory tree...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Single Point of Failure in Google SSO</title>
-    <link>https://dev.to/samywrites/the-single-point-of-failure-in-google-sso-3l7h</link>
-    <guid>https://dev.to/samywrites/the-single-point-of-failure-in-google-sso-3l7h</guid>
-    <pubDate>Thu, 19 Feb 2026 08:27:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We’ve all seen that one button. The simple, and straightforward one that’s on most login and sign up pages on almost every login page today. “Continue with Google” It just works. It’s fast, and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>AI Partnership Over Replacement: Stanford&apos;s $10B Misalignment Problem</title>
-    <link>https://dev.to/dr_hernani_costa/ai-partnership-over-replacement-stanfords-10b-misalignment-problem-49c7</link>
-    <guid>https://dev.to/dr_hernani_costa/ai-partnership-over-replacement-stanfords-10b-misalignment-problem-49c7</guid>
-    <pubDate>Thu, 19 Feb 2026 08:23:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When 41% of AI investments target tasks workers actively resist, you&apos;re not building competitive advantage—you&apos;re funding organizational friction. Stanford&apos;s landmark 2025 study of 1,500 workers...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Your AI Tools Make You 10x Faster. So Why Isn&apos;t Your Company 10x Productive?</title>
-    <link>https://dev.to/nader0913/your-ai-tools-make-you-10x-faster-so-why-isnt-your-company-10x-productive-ime</link>
-    <guid>https://dev.to/nader0913/your-ai-tools-make-you-10x-faster-so-why-isnt-your-company-10x-productive-ime</guid>
-    <pubDate>Thu, 19 Feb 2026 08:23:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A Fortune article trending on Hacker News today dropped a quiet bombshell: thousands of CEOs in a new study admitted AI has had no measurable impact on employment or productivity. Meanwhile,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a Real-Time Solana Narrative Detector: On-Chain Signals, GitHub Trends, and Market Data</title>
-    <link>https://dev.to/theauroraai/building-a-real-time-solana-narrative-detector-on-chain-signals-github-trends-and-market-data-49i8</link>
-    <guid>https://dev.to/theauroraai/building-a-real-time-solana-narrative-detector-on-chain-signals-github-trends-and-market-data-49i8</guid>
-    <pubDate>Thu, 19 Feb 2026 08:22:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every two weeks, new narratives emerge in the Solana ecosystem. AI agents start transacting autonomously. A new token extension gains traction. MEV activity spikes after a protocol upgrade. But...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware</title>
@@ -105,24 +222,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Cybersecurity researchers have disclosed details of a new campaign dubbed CRESCENTHARVEST, likely targeting supporters of Iran&apos;s ongoing protests to conduct information theft and long-term...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Ethereum’s Role in AI, L2 Interop Highlights, Robinhood L2 Testnet, 2026 Smart Contract Risks</title>
-    <link>https://dev.to/etherspot/ethereums-role-in-ai-l2-interop-highlights-robinhood-l2-testnet-2026-smart-contract-risks-3f7m</link>
-    <guid>https://dev.to/etherspot/ethereums-role-in-ai-l2-interop-highlights-robinhood-l2-testnet-2026-smart-contract-risks-3f7m</guid>
-    <pubDate>Thu, 19 Feb 2026 08:10:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We are welcoming you to our weekly digest! Here, we discuss the latest trends and advancements in account abstraction, chain abstraction and everything related, as well as bring some insights from...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built a Screenshot API in a Weekend - Here&apos;s What I Learned</title>
-    <link>https://dev.to/grabshot_dev/i-built-a-screenshot-api-in-a-weekend-heres-what-i-learned-3gn2</link>
-    <guid>https://dev.to/grabshot_dev/i-built-a-screenshot-api-in-a-weekend-heres-what-i-learned-3gn2</guid>
-    <pubDate>Thu, 19 Feb 2026 08:09:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I needed a screenshot API for a side project. The existing options were either too expensive ($29+/mo for basic usage) or too complex (100+ parameters to configure). So I built one. The Problem...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>OpenAI taps Tata for 100MW AI data center capacity in India, eyes 1GW</title>
@@ -143,15 +242,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>AI Impact Summit 2026</title>
-    <link>https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/</link>
-    <guid>https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/</guid>
-    <pubDate>Thu, 19 Feb 2026 04:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>A look at the partnerships and investments Google announced at the AI Impact Summit 2026.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Mark Zuckerberg and his Ray-Ban entourage have their day in court</title>
     <link>https://www.theverge.com/policy/881210/mark-zuckerberg-meta-ceo-testimony-filters</link>
     <guid>https://www.theverge.com/policy/881210/mark-zuckerberg-meta-ceo-testimony-filters</guid>
@@ -159,15 +249,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Meta CEO Mark Zuckerberg entered a downtown Los Angeles courthouse in largely the same way as all the attorneys, reporters, and advocates who&apos;d come to watch his landmark trial testimony, but with...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI deepens India push with Pine Labs fintech partnership</title>
-    <link>https://techcrunch.com/2026/02/18/openai-deepens-india-push-with-pine-labs-fintech-partnership/</link>
-    <guid>https://techcrunch.com/2026/02/18/openai-deepens-india-push-with-pine-labs-fintech-partnership/</guid>
-    <pubDate>Thu, 19 Feb 2026 03:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI moves beyond ChatGPT in India with a Pine Labs deal targeting enterprise payments and AI-driven commerce.</description>
-    <category>AI</category>
   </item>
   <item>
     <title>The RAM crunch could kill products and even entire companies, memory exec admits</title>
@@ -194,87 +275,6 @@
     <pubDate>Wed, 18 Feb 2026 22:54:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Meta is planning to launch a smartwatch with health tracking and AI features later this year, along with an updated version of its Meta Ray-Ban Display smart glasses, The Information reports. The...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The best iPad deals you can get right now</title>
-    <link>https://www.theverge.com/21280354/best-ipad-deals-apple</link>
-    <guid>https://www.theverge.com/21280354/best-ipad-deals-apple</guid>
-    <pubDate>Wed, 18 Feb 2026 22:12:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>While the best iPad deals usually land during major sale events like Black Friday, many great iPad deals are available outside of those times. The day-to-day discounts come and go like changing...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Social media on trial: tech giants face lawsuits over addiction, safety, and mental health</title>
-    <link>https://www.theverge.com/policy/880850/social-media-lawsuits-meta-facebook-instagram-tiktok</link>
-    <guid>https://www.theverge.com/policy/880850/social-media-lawsuits-meta-facebook-instagram-tiktok</guid>
-    <pubDate>Wed, 18 Feb 2026 21:27:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A set of bellwether cases alleging that social media platforms harmed teens’ safety and mental health is going to trial this year, putting executives like Meta CEO Mark Zuckerberg on the stand to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Is your startup’s check engine light on? Google Cloud’s VP explains what to do</title>
-    <link>https://techcrunch.com/video/is-your-startups-check-engine-light-on-google-clouds-vp-explains-what-to-do/</link>
-    <guid>https://techcrunch.com/video/is-your-startups-check-engine-light-on-google-clouds-vp-explains-what-to-do/</guid>
-    <pubDate>Wed, 18 Feb 2026 21:07:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Startup founders are being pushed to move faster than ever, using AI while facing tighter funding, rising infrastructure costs, and more pressure to show real traction early. Cloud credits, access...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Ring’s AI-powered Search Party won’t stop at finding lost dogs, leaked email shows</title>
-    <link>https://www.theverge.com/tech/880906/ring-siminoff-email-leak-search-party-expansion</link>
-    <guid>https://www.theverge.com/tech/880906/ring-siminoff-email-leak-search-party-expansion</guid>
-    <pubDate>Wed, 18 Feb 2026 21:01:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A leaked internal email obtained by 404 Media shows that Ring has bigger plans for its AI-powered neighborhood search capability than just looking for lost dogs. The outlet reports the email, sent...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Introducing OpenAI for India</title>
-    <link>https://openai.com/index/openai-for-india</link>
-    <guid>https://openai.com/index/openai-for-india</guid>
-    <pubDate>Wed, 18 Feb 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google Cloud’s VP for startups on reading your ‘check engine light’ before it’s too late</title>
-    <link>https://techcrunch.com/podcast/google-clouds-vp-for-startups-on-reading-your-check-engine-light-before-its-too-late/</link>
-    <guid>https://techcrunch.com/podcast/google-clouds-vp-for-startups-on-reading-your-check-engine-light-before-its-too-late/</guid>
-    <pubDate>Wed, 18 Feb 2026 20:22:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Startup founders are being pushed to move faster than ever, using AI while facing tighter funding, rising infrastructure costs, and more pressure to show real traction early. Cloud credits, access...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Here are the best AirPods deals you can get right now</title>
-    <link>https://www.theverge.com/21302051/best-apple-airpods-deals</link>
-    <guid>https://www.theverge.com/21302051/best-apple-airpods-deals</guid>
-    <pubDate>Wed, 18 Feb 2026 20:00:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you know where to look, you can often score deals on Apple’s ever-expanding AirPods lineup. Both the AirPods Max and AirPods 4 (with and without ANC) now consistently receive discounts, as do...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>This Defense Company Made AI Agents That Blow Things Up</title>
-    <link>https://www.wired.com/story/ai-lab-scout-ai-is-using-ai-agents-to-blow-things-up/</link>
-    <guid>https://www.wired.com/story/ai-lab-scout-ai-is-using-ai-agents-to-blow-things-up/</guid>
-    <pubDate>Wed, 18 Feb 2026 19:47:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Scout AI is using technology borrowed from the AI industry to power lethal weapons—and recently demonstrated its explosive potential.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Polestar aims to shake off EV doldrums with 4 new models in 3 years</title>
-    <link>https://www.theverge.com/transportation/880808/polestar-four-new-models-ev-europe</link>
-    <guid>https://www.theverge.com/transportation/880808/polestar-four-new-models-ev-europe</guid>
-    <pubDate>Wed, 18 Feb 2026 19:21:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Polestar says it will release four new electric models over the next three years, including a new SUV and a revamped version of its Polestar 2 sedan. The Swedish automaker, which is owned by...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
