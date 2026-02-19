@@ -5,277 +5,275 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 19 Feb 2026 13:43:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Feb 2026 17:14:12 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Kafka KRaft Internals: Life After ZooKeeper</title>
-    <link>https://dev.to/shyam_btm_cd923edadc18440/kafka-kraft-internals-life-after-zookeeper-3cig</link>
-    <guid>https://dev.to/shyam_btm_cd923edadc18440/kafka-kraft-internals-life-after-zookeeper-3cig</guid>
-    <pubDate>Thu, 19 Feb 2026 13:32:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>For years, Apache Kafka relied on Apache ZooKeeper for cluster metadata management, controller election, and broker coordination. ZooKeeper worked — but it also introduced operational complexity,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Vault in the Cloud: Securing Azure Files and Blob Storage</title>
-    <link>https://dev.to/pirrezz/the-vault-in-the-cloud-securing-azure-files-and-blob-storage-3n0i</link>
-    <guid>https://dev.to/pirrezz/the-vault-in-the-cloud-securing-azure-files-and-blob-storage-3n0i</guid>
-    <pubDate>Thu, 19 Feb 2026 13:31:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Case for Data Fortification In the modern enterprise, data is the most valuable asset and the most targeted. Whether you are utilizing Azure Files for serverless file shares or Azure Blob...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a Role-Based Student Management System in Rust (egui + PostgreSQL)</title>
-    <link>https://dev.to/manjushaps/building-a-role-based-student-management-system-in-rust-egui-postgresql-3a94</link>
-    <guid>https://dev.to/manjushaps/building-a-role-based-student-management-system-in-rust-egui-postgresql-3a94</guid>
-    <pubDate>Thu, 19 Feb 2026 13:30:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Authentication answers one question: Who are you? Authorization answers the next: What are you allowed to do? After connecting the login system to PostgreSQL, the Teacher Assistant application...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Starting My First Salesforce Project: What Is Salesforce?</title>
-    <link>https://dev.to/rubasri_srikanthan/starting-my-first-salesforce-project-what-is-salesforce-1kda</link>
-    <guid>https://dev.to/rubasri_srikanthan/starting-my-first-salesforce-project-what-is-salesforce-1kda</guid>
-    <pubDate>Thu, 19 Feb 2026 13:30:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I started my job as a Salesforce Developer, my Amma asked: “So Salesforce is the technology you&apos;re working on… is it a sales job? Do you need to sell?😅” I paused. Then I laughed. I told her:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Build Idempotent Cloud Tasks Handlers in Python (The Pattern That Eliminated Our Duplicate Record Bugs)</title>
-    <link>https://dev.to/humzakt/how-to-build-idempotent-cloud-tasks-handlers-in-python-the-pattern-that-eliminated-our-duplicate-4gml</link>
-    <guid>https://dev.to/humzakt/how-to-build-idempotent-cloud-tasks-handlers-in-python-the-pattern-that-eliminated-our-duplicate-4gml</guid>
-    <pubDate>Thu, 19 Feb 2026 13:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Google Cloud Tasks guarantees at-least-once delivery. That means your handler WILL be called multiple times for the same task. If you&apos;re not handling this, you have bugs. You might not know it...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Tailwind CSS vs MUI vs Ant Design — Which One Should You Choose in 2026?</title>
-    <link>https://dev.to/wafa_bergaoui/tailwind-css-vs-mui-vs-ant-design-which-one-should-you-choose-in-2026-2nk3</link>
-    <guid>https://dev.to/wafa_bergaoui/tailwind-css-vs-mui-vs-ant-design-which-one-should-you-choose-in-2026-2nk3</guid>
-    <pubDate>Thu, 19 Feb 2026 13:28:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Frontend development in 2026 is no longer just about building interfaces. It’s about: Shipping faster Scaling teams Maintaining design consistency Ensuring accessibility Optimizing...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Laravel DTOs in Practice: Cleaner Controllers with Typed Input Objects</title>
-    <link>https://dev.to/blamsa0mine/laravel-dtos-in-practice-cleaner-controllers-with-typed-input-objects-1p7n</link>
-    <guid>https://dev.to/blamsa0mine/laravel-dtos-in-practice-cleaner-controllers-with-typed-input-objects-1p7n</guid>
-    <pubDate>Thu, 19 Feb 2026 13:25:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Controllers in Laravel tend to grow for a very predictable reason: input handling. As a project scales, you often find yourself with duplicated validation arrays, ad-hoc input transformations...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building an AI Phone Agent for Trade Businesses: Lessons from the Irish Market</title>
-    <link>https://dev.to/voicefleet/building-an-ai-phone-agent-for-trade-businesses-lessons-from-the-irish-market-2808</link>
-    <guid>https://dev.to/voicefleet/building-an-ai-phone-agent-for-trade-businesses-lessons-from-the-irish-market-2808</guid>
-    <pubDate>Thu, 19 Feb 2026 13:20:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building an AI Phone Agent for Trade Businesses One of the most interesting use cases for voice AI isn&apos;t in tech — it&apos;s in trades. Plumbers, electricians, and HVAC technicians miss 40–60% of...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building AI Voice Agents for Irish Tradespeople: Lessons from Production</title>
-    <link>https://dev.to/voicefleet/building-ai-voice-agents-for-irish-tradespeople-lessons-from-production-48fe</link>
-    <guid>https://dev.to/voicefleet/building-ai-voice-agents-for-irish-tradespeople-lessons-from-production-48fe</guid>
-    <pubDate>Thu, 19 Feb 2026 13:19:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We&apos;ve been running AI voice agents in production for small businesses in Ireland — plumbers, electricians, dental practices, restaurants. Here&apos;s what we&apos;ve learned about the trades vertical...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building AI Phone Agents That Actually Book Appointments: Dentally API Integration</title>
-    <link>https://dev.to/voicefleet/building-ai-phone-agents-that-actually-book-appointments-dentally-api-integration-5bm</link>
-    <guid>https://dev.to/voicefleet/building-ai-phone-agents-that-actually-book-appointments-dentally-api-integration-5bm</guid>
-    <pubDate>Thu, 19 Feb 2026 13:19:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building AI Phone Agents That Actually Book Appointments Most &quot;AI receptionists&quot; are fancy voicemail. They answer, transcribe, email you. That&apos;s a pipeline, not a solution. The real engineering...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Download: autonomous narco submarines, and virtue signaling chatbots</title>
-    <link>https://www.technologyreview.com/2026/02/19/1133339/the-download-autonomous-narco-submarines-and-virtue-signaling-chatbots/</link>
-    <guid>https://www.technologyreview.com/2026/02/19/1133339/the-download-autonomous-narco-submarines-and-virtue-signaling-chatbots/</guid>
-    <pubDate>Thu, 19 Feb 2026 13:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How uncrewed narco subs could transform the Colombian drug...</description>
+    <title>Train AI models with Unsloth and Hugging Face Jobs for FREE</title>
+    <link>https://huggingface.co/blog/unsloth-jobs</link>
+    <guid>https://huggingface.co/blog/unsloth-jobs</guid>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
   </item>
   <item>
-    <title>Freeform raises $67M Series B to scale up laser AI manufacturing</title>
-    <link>https://techcrunch.com/2026/02/19/freeform-raises-67m-series-b-to-scale-up-laser-ai-manufacturing/</link>
-    <guid>https://techcrunch.com/2026/02/19/freeform-raises-67m-series-b-to-scale-up-laser-ai-manufacturing/</guid>
-    <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
+    <title>West Virginia sues Apple for allegedly letting child abuse spread in iCloud</title>
+    <link>https://www.theverge.com/tech/881433/apple-west-virginia-lawsuit-icloud-csam</link>
+    <guid>https://www.theverge.com/tech/881433/apple-west-virginia-lawsuit-icloud-csam</guid>
+    <pubDate>Thu, 19 Feb 2026 17:02:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>West Virginia has filed a lawsuit against Apple, accusing the company of allowing the distribution and storage of child sexual abuse material (CSAM) in iCloud. In a lawsuit filed on Thursday, West...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Analytics without surveillance: explicit consent, layered gates, and never sending Class A data</title>
+    <link>https://dev.to/crisiscoresystems/analytics-without-surveillance-explicit-consent-layered-gates-and-never-sending-class-a-data-59f1</link>
+    <guid>https://dev.to/crisiscoresystems/analytics-without-surveillance-explicit-consent-layered-gates-and-never-sending-class-a-data-59f1</guid>
+    <pubDate>Thu, 19 Feb 2026 17:02:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Series: Start here · Part 1 · Part 2 · Part 3 · Part 4 · Part 5 · Part 6 · Part 7 · Part 8 · Part 9 · Part 10 Analytics in health-adjacent apps has a special failure mode: you add “just one...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How AI is reshaping developer choice (and Octoverse data proves it)</title>
+    <link>https://github.blog/ai-and-ml/generative-ai/how-ai-is-reshaping-developer-choice-and-octoverse-data-proves-it/</link>
+    <guid>https://github.blog/ai-and-ml/generative-ai/how-ai-is-reshaping-developer-choice-and-octoverse-data-proves-it/</guid>
+    <pubDate>Thu, 19 Feb 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">GitHub Blog</source>
+    <description>AI is rewiring developer preferences through convenience loops. Octoverse 2025 reveals how AI compatibility is becoming the new standard for technology choice. The post How AI is reshaping...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Back to Vanilla: A Retrospective on Building a JavaScript SDK in 2014</title>
+    <link>https://dev.to/rpi1337/back-to-vanilla-a-retrospective-on-building-a-javascript-sdk-in-2014-9m2</link>
+    <guid>https://dev.to/rpi1337/back-to-vanilla-a-retrospective-on-building-a-javascript-sdk-in-2014-9m2</guid>
+    <pubDate>Thu, 19 Feb 2026 16:59:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Looking back at code written a decade ago is like opening a time capsule. It transports you back to an entirely different era of web development—a time before ES6, before the native fetch API, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Probabilistic vs. Deterministic: Choosing the Right Code Generator.</title>
+    <link>https://dev.to/carracedo/probabilistic-vs-deterministic-choosing-the-right-code-generator-1nin</link>
+    <guid>https://dev.to/carracedo/probabilistic-vs-deterministic-choosing-the-right-code-generator-1nin</guid>
+    <pubDate>Thu, 19 Feb 2026 16:55:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>async function isOdd(n) { const response = await chatGpt(&quot;Is the number ${n} odd? Answer only YES or NO&quot;); return response === &quot;YES&quot;; } For some time now, a certain type of joke has been...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>New York drops plan to legalize robotaxis in setback for Waymo</title>
+    <link>https://www.theverge.com/transportation/881354/new-york-drops-plan-to-legalize-robotaxis-waymo</link>
+    <guid>https://www.theverge.com/transportation/881354/new-york-drops-plan-to-legalize-robotaxis-waymo</guid>
+    <pubDate>Thu, 19 Feb 2026 16:53:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>New York Governor Kathy Hochul (D) dropped her proposal to allow robotaxi companies to launch commercially in cities other than New York City, citing a lack of support among state legislators,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>I&apos;m 18 and Building the European Pusher Alternative — Here&apos;s Why It Doesn&apos;t Exist Yet</title>
+    <link>https://dev.to/juzi19/im-18-and-building-the-european-pusher-alternative-heres-why-it-doesnt-exist-yet-3207</link>
+    <guid>https://dev.to/juzi19/im-18-and-building-the-european-pusher-alternative-heres-why-it-doesnt-exist-yet-3207</guid>
+    <pubDate>Thu, 19 Feb 2026 16:48:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Two friends of mine run small software companies in Germany. Both needed realtime infrastructure — one for a live dashboard, the other for in-app notifications. Simple stuff. Pusher, Ably, done,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Turtle Beach’s new PC controller with swiveling sticks is 30 percent off</title>
+    <link>https://www.theverge.com/gadgets/881030/turtle-beach-stealth-pivot-controller-lego-mario-yoshi-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/881030/turtle-beach-stealth-pivot-controller-lego-mario-yoshi-deal-sale</guid>
+    <pubDate>Thu, 19 Feb 2026 16:42:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Many modern gamepads have adopted a modular design in recent years, from the Victrix Pro BFG Reloaded to Hyperkin’s clamp-on X5 Alteron for the Nintendo Switch. However, few of them are quite as...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Why I Ended Up Adding Sessions to a JWT-Based System</title>
+    <link>https://dev.to/sauravdhakal12/why-i-ended-up-adding-sessions-to-a-jwt-based-system-4m2i</link>
+    <guid>https://dev.to/sauravdhakal12/why-i-ended-up-adding-sessions-to-a-jwt-based-system-4m2i</guid>
+    <pubDate>Thu, 19 Feb 2026 16:33:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Recently, I was working on an application where a new requirement came up: users should be able to see all the devices they are logged in from and log out from a specific device if needed. This...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The next iTunes may be vibe-coded</title>
+    <link>https://www.theverge.com/column/881256/parachord-vibe-coded-music-streaming-app</link>
+    <guid>https://www.theverge.com/column/881256/parachord-vibe-coded-music-streaming-app</guid>
+    <pubDate>Thu, 19 Feb 2026 16:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Wouldn&apos;t it be great if you...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Sprite Pipeline Playbook #1: Building a Production-Ready Character Pack from One Reference</title>
+    <link>https://dev.to/grace_lungu_bae72c2681d25/sprite-pipeline-playbook-1-from-one-reference-to-a-usable-character-pack-34p7</link>
+    <guid>https://dev.to/grace_lungu_bae72c2681d25/sprite-pipeline-playbook-1-from-one-reference-to-a-usable-character-pack-34p7</guid>
+    <pubDate>Thu, 19 Feb 2026 16:27:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most indie teams do not need a fully polished character library before they can ship progress. What they need is a repeatable system that turns one strong visual reference into a usable motion...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Capo2Keys : A Tool for Converting Guitar Chord Charts for Piano</title>
+    <link>https://dev.to/reprodev/capo2keys-a-tool-for-converting-guitar-chord-charts-for-piano-1ac1</link>
+    <guid>https://dev.to/reprodev/capo2keys-a-tool-for-converting-guitar-chord-charts-for-piano-1ac1</guid>
+    <pubDate>Thu, 19 Feb 2026 16:21:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Well hello, it&apos;s been a hot minute since I&apos;ve last posted on this blog but so much has gone on since my last post about Docker almost 2 years ago. I&apos;ve not had as much free time but I&apos;ve been busy...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We Scanned 20 SaaS Tools for Trust Readiness — Here’s What Buyers Can See</title>
+    <link>https://dev.to/socialsatprarysoft/title-we-scanned-20-saas-tools-for-trust-readiness-heres-what-buyers-can-see-4j8l</link>
+    <guid>https://dev.to/socialsatprarysoft/title-we-scanned-20-saas-tools-for-trust-readiness-heres-what-buyers-can-see-4j8l</guid>
+    <pubDate>Thu, 19 Feb 2026 16:21:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Using TrustSignal&apos;s outside-in scanner, we analyzed the publicly verifiable trust posture of 20 well-known SaaS companies. The results reveal widespread gaps that buyers, procurement teams, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AI made coding more enjoyable</title>
+    <link>https://weberdominik.com/blog/ai-coding-enjoyable/</link>
+    <guid>https://weberdominik.com/blog/ai-coding-enjoyable/</guid>
+    <pubDate>Thu, 19 Feb 2026 16:20:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://weberdominik.com/blog/ai-coding-enjoyable/ Comments URL: https://news.ycombinator.com/item?id=47075400 Points: 39 # Comments: 29</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>GE made a smaller version of its nugget ice maker that needs less counter space</title>
+    <link>https://www.theverge.com/tech/881365/ge-profile-opal-mini-nugget-ice-maker-pro-chewable-appliance</link>
+    <guid>https://www.theverge.com/tech/881365/ge-profile-opal-mini-nugget-ice-maker-pro-chewable-appliance</guid>
+    <pubDate>Thu, 19 Feb 2026 16:12:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>GE has announced two new versions of its popular Opal nugget ice machines with smaller footprints that take up less counter space, and more affordable price tags. Like GE&apos;s larger and pricier Opal...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Mastodon is testing easier ways to get you started in the fediverse</title>
+    <link>https://www.theverge.com/tech/881352/mastodon-default-server-recommendations-experiment</link>
+    <guid>https://www.theverge.com/tech/881352/mastodon-default-server-recommendations-experiment</guid>
+    <pubDate>Thu, 19 Feb 2026 16:03:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>New users on the decentralized social network Mastodon could soon have an easier time getting started. Mastodon is running &quot;onboarding experiments&quot; to test ways to improve the new user experience,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft has a new plan to prove what’s real and what’s AI online</title>
+    <link>https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/</link>
+    <guid>https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/</guid>
+    <pubDate>Thu, 19 Feb 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>AI-enabled deception now permeates our online lives. There are the high-profile cases you may easily spot, like when White House officials recently shared a manipulated image of a protester in...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>OpenAI reportedly finalizing $100B deal at more than $850B valuation</title>
+    <link>https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/</link>
+    <guid>https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/</guid>
+    <pubDate>Thu, 19 Feb 2026 15:35:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>“I think we&apos;re the only quote-unquote manufacturing company out there that has H200 clusters in a data center on site.&quot;</description>
+    <description>OpenAI is reportedly getting close to closing a $100 billion deal, with backers including Amazon, Nvidia, SoftBank, and Microsoft. The deal would value the ChatGPT-maker at $850 billion.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>The RAM shortage is coming for everything you care about</title>
-    <link>https://www.theverge.com/tech/880812/ramageddon-ram-shortage-memory-crisis-price-2026-phones-laptops</link>
-    <guid>https://www.theverge.com/tech/880812/ramageddon-ram-shortage-memory-crisis-price-2026-phones-laptops</guid>
-    <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
+    <title>Xenoblade Chronicles X is $20 off in time for its Switch 2 upgrade</title>
+    <link>https://www.theverge.com/gadgets/881331/xenoblade-chronicles-x-switch-2-upgrade-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/881331/xenoblade-chronicles-x-switch-2-upgrade-deal-sale</guid>
+    <pubDate>Thu, 19 Feb 2026 15:35:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Maybe you&apos;ve heard: Memory is expensive now. The price of RAM has tripled, quadrupled, even sextupled depending on the type of chip, all because AI companies are gobbling it up. But maybe you&apos;ve...</description>
+    <description>Nintendo just released a Switch 2 upgrade for Xenoblade Chronicles X: Definitive Edition. The upgrade is $4.99 for owners of the Switch game, or $64.99 if you buy the Switch 2 version. Don’t buy...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Malicious AI</title>
-    <link>https://www.schneier.com/blog/archives/2026/02/malicious-ai.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/02/malicious-ai.html</guid>
-    <pubDate>Thu, 19 Feb 2026 12:05:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Interesting: Summary: An AI agent of unknown ownership autonomously wrote and published a personalized hit piece about me after I rejected its code, attempting to damage my reputation and shame me...</description>
-    <category>Security</category>
+    <title>「データ不足」の壁を越える：合成ペルソナが日本のAI開発を加速</title>
+    <link>https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata-ja</link>
+    <guid>https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata-ja</guid>
+    <pubDate>Thu, 19 Feb 2026 15:32:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
   </item>
   <item>
-    <title>From Exposure to Exploitation: How AI Collapses Your Response Window</title>
-    <link>https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html</link>
-    <guid>https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html</guid>
-    <pubDate>Thu, 19 Feb 2026 11:55:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>We’ve all seen this before: a developer deploys a new cloud workload and grants overly broad permissions just to keep the sprint moving. An engineer generates a &quot;temporary&quot; API key for testing and...</description>
-    <category>Security</category>
+    <title>The speech police came for Colbert</title>
+    <link>https://www.theverge.com/podcast/881222/fcc-colbert-talarico-brendan-carr-vergecast</link>
+    <guid>https://www.theverge.com/podcast/881222/fcc-colbert-talarico-brendan-carr-vergecast</guid>
+    <pubDate>Thu, 19 Feb 2026 15:08:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Generally speaking, arcane and mostly unenforced FCC rules are not the province of late night talk shows. FCC Commissioner Brendan Carr seems intent on changing that, though; not long after...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Reliance unveils $110B AI investment plan as India ramps up tech ambitions</title>
-    <link>https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/</link>
-    <guid>https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/</guid>
-    <pubDate>Thu, 19 Feb 2026 11:39:17 +0000</pubDate>
+    <title>Reload wants to give your AI agents a shared memory</title>
+    <link>https://techcrunch.com/2026/02/19/reload-an-ai-employee-agent-management-platform-raises-2-275m-and-launches-an-ai-employee/</link>
+    <guid>https://techcrunch.com/2026/02/19/reload-an-ai-employee-agent-management-platform-raises-2-275m-and-launches-an-ai-employee/</guid>
+    <pubDate>Thu, 19 Feb 2026 15:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Reliance has begun building multi-gigawatt AI data centers in Jamnagar, with more than 120 MW of capacity expected to come online in 2026.</description>
+    <description>Reload announces a $2.275 million raise in a round led by Anthemis and the launch of its first AI employee, Epic.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>How uncrewed narco subs could transform the Colombian drug trade</title>
-    <link>https://www.technologyreview.com/2026/02/19/1132619/uncrewed-narco-subs-transform-columbian-drug-trade/</link>
-    <guid>https://www.technologyreview.com/2026/02/19/1132619/uncrewed-narco-subs-transform-columbian-drug-trade/</guid>
-    <pubDate>Thu, 19 Feb 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>On a bright morning last April, a surveillance plane operated by the Colombian military spotted a 40-foot-long shark-like silhouette idling in the ocean just off Tayrona National Park. It was,...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The building legal case for global climate justice</title>
-    <link>https://www.technologyreview.com/2026/02/19/1132877/legal-climate-justice/</link>
-    <guid>https://www.technologyreview.com/2026/02/19/1132877/legal-climate-justice/</guid>
-    <pubDate>Thu, 19 Feb 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The United States and the European Union grew into economic superpowers by committing climate atrocities. They have burned a wildly disproportionate share of the world’s oil and gas, planting...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The biggest app in the whole wide world</title>
-    <link>https://www.theverge.com/tech/876196/top-app-store-apps-developers</link>
-    <guid>https://www.theverge.com/tech/876196/top-app-store-apps-developers</guid>
-    <pubDate>Thu, 19 Feb 2026 11:00:00 +0000</pubDate>
+    <title>Money no longer matters to AI’s top talent</title>
+    <link>https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo</link>
+    <guid>https://www.theverge.com/podcast/880778/ai-talent-war-hiring-frenzy-openai-anthropic-ipo</guid>
+    <pubDate>Thu, 19 Feb 2026 15:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Last summer, Bria Sullivan was getting ready to launch her app, an adorable companion called Focus Friend meant to help people manage their screen time. Her outlandish dream was to get 100,000...</description>
+    <description>Today on Decoder we’re going to talk about the war for AI talent. Right now, the hottest job market on the planet is for AI researchers. The vast majority of these people are concentrated into a...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>This AI Tool Will Tell You to Stop Slacking Off</title>
-    <link>https://www.wired.com/story/fomi-ai-will-tell-you-to-stop-slacking-off/</link>
-    <guid>https://www.wired.com/story/fomi-ai-will-tell-you-to-stop-slacking-off/</guid>
-    <pubDate>Thu, 19 Feb 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Fomi watches you work, then scolds you when your attention wanders. It’s helpful, but there are privacy issues to consider.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Fake IPTV Apps Spread Massiv Android Malware Targeting Mobile Banking Users</title>
-    <link>https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html</link>
-    <guid>https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html</guid>
-    <pubDate>Thu, 19 Feb 2026 10:24:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a new Android trojan called Massiv that&apos;s designed to facilitate device takeover (DTO) attacks for financial theft. The malware, according to...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>What it takes to make agentic AI work in retail</title>
-    <link>https://www.technologyreview.com/2026/02/19/1133324/what-it-takes-to-make-agentic-ai-work-in-retail/</link>
-    <guid>https://www.technologyreview.com/2026/02/19/1133324/what-it-takes-to-make-agentic-ai-work-in-retail/</guid>
-    <pubDate>Thu, 19 Feb 2026 08:54:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Prasad Banala, director of software engineering at a large...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>From integration chaos to digital clarity: Nutrien Ag Solutions’ post-acquisition reset</title>
-    <link>https://www.technologyreview.com/2026/02/19/1133320/from-integration-chaos-to-digital-clarity-nutrien-ag-solutions-post-acquisition-reset/</link>
-    <guid>https://www.technologyreview.com/2026/02/19/1133320/from-integration-chaos-to-digital-clarity-nutrien-ag-solutions-post-acquisition-reset/</guid>
-    <pubDate>Thu, 19 Feb 2026 08:48:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Sriram Kalyan, head of applications and data at Nutrien Ag...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware</title>
-    <link>https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html</link>
-    <guid>https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html</guid>
-    <pubDate>Thu, 19 Feb 2026 08:13:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a new campaign dubbed CRESCENTHARVEST, likely targeting supporters of Iran&apos;s ongoing protests to conduct information theft and long-term...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI taps Tata for 100MW AI data center capacity in India, eyes 1GW</title>
-    <link>https://techcrunch.com/2026/02/18/openai-taps-tata-for-100mw-ai-data-center-capacity-in-india-eyes-1gw/</link>
-    <guid>https://techcrunch.com/2026/02/18/openai-taps-tata-for-100mw-ai-data-center-capacity-in-india-eyes-1gw/</guid>
-    <pubDate>Thu, 19 Feb 2026 05:34:25 +0000</pubDate>
+    <title>OpenAI, Reliance partner to add AI search to JioHotstar</title>
+    <link>https://techcrunch.com/2026/02/19/openai-reliance-partner-to-add-ai-search-to-jiohotstar/</link>
+    <guid>https://techcrunch.com/2026/02/19/openai-reliance-partner-to-add-ai-search-to-jiohotstar/</guid>
+    <pubDate>Thu, 19 Feb 2026 14:45:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI also plans to expand its presence in India with new offices in Mumbai and Bengaluru later this year.</description>
+    <description>The rollout includes two-way integration that surfaces streaming links directly inside ChatGPT.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>“No technology has me dreaming bigger than AI”</title>
-    <link>https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/</link>
-    <guid>https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/</guid>
-    <pubDate>Thu, 19 Feb 2026 04:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>a stylized design resembling the Ashoka Chakra with colorful network lines and text reading &quot;भारत 2026 INDIA.&quot; A vertical line separates it from the Google logo on the right, all set against a...</description>
+    <title>Co-founders behind Reface and Prisma join hands to improve on-device model inference with Mirai</title>
+    <link>https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/</link>
+    <guid>https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/</guid>
+    <pubDate>Thu, 19 Feb 2026 14:43:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Mirai raised a $10 million seed to improve how AI models run on devices like smartphones and laptops.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Mark Zuckerberg and his Ray-Ban entourage have their day in court</title>
-    <link>https://www.theverge.com/policy/881210/mark-zuckerberg-meta-ceo-testimony-filters</link>
-    <guid>https://www.theverge.com/policy/881210/mark-zuckerberg-meta-ceo-testimony-filters</guid>
-    <pubDate>Thu, 19 Feb 2026 04:13:17 +0000</pubDate>
+    <title>ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws &amp; 20+ Stories</title>
+    <link>https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html</link>
+    <guid>https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html</guid>
+    <pubDate>Thu, 19 Feb 2026 14:35:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The cyber threat space doesn’t pause, and this week makes that clear. New risks, new tactics, and new security gaps are showing up across platforms, tools, and industries — often all at the same...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>For open-source programs, AI coding tools are a mixed blessing</title>
+    <link>https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/</link>
+    <guid>https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/</guid>
+    <pubDate>Thu, 19 Feb 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI coding tools have enabled a flood of bad code that threatens to overwhelm many projects. Building new features is easier but maintaining them is just as hard.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Abxylute’s new Switch 2 controller prototype has one big problem</title>
+    <link>https://www.theverge.com/tech/880971/abxylute-n6-switch-2-hands-on-controller</link>
+    <guid>https://www.theverge.com/tech/880971/abxylute-n6-switch-2-hands-on-controller</guid>
+    <pubDate>Thu, 19 Feb 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta CEO Mark Zuckerberg entered a downtown Los Angeles courthouse in largely the same way as all the attorneys, reporters, and advocates who&apos;d come to watch his landmark trial testimony, but with...</description>
+    <description>Gaming accessory company Abxylute has launched a Kickstarter campaign for its upcoming N6 and GameCube-style N9C Switch 2 dock-style controllers. If the ergonomics of Nintendo&apos;s Joy-Cons don&apos;t...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>The RAM crunch could kill products and even entire companies, memory exec admits</title>
-    <link>https://www.theverge.com/tech/881062/ram-shortage-kill-products-companies-phison-ceo-interview</link>
-    <guid>https://www.theverge.com/tech/881062/ram-shortage-kill-products-companies-phison-ceo-interview</guid>
-    <pubDate>Thu, 19 Feb 2026 00:32:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Phison is one of the leading makers of controller chips for SSDs and other flash memory devices - and CEO Pua Khein-Seng has now become a leading voice for just how bad the RAM shortage might get....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Dyson turned its skinny PencilVac into a lightweight wet floor cleaner</title>
-    <link>https://www.theverge.com/tech/880594/dyson-pencilwash-wet-floor-cleaner-thin-battery-handle</link>
-    <guid>https://www.theverge.com/tech/880594/dyson-pencilwash-wet-floor-cleaner-thin-battery-handle</guid>
-    <pubDate>Wed, 18 Feb 2026 23:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Dyson has announced an alternate version of its skinny PencilVac that&apos;s designed to clean spills and stains on hard floors instead of sucking up dirt and debris. Like the PencilVac, which Dyson...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta is reportedly planning to launch a smartwatch this year</title>
-    <link>https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026</link>
-    <guid>https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026</guid>
-    <pubDate>Wed, 18 Feb 2026 22:54:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta is planning to launch a smartwatch with health tracking and AI features later this year, along with an updated version of its Meta Ray-Ban Display smart glasses, The Information reports. The...</description>
-    <category>Tech Industry</category>
+    <title>Altman and Amodei share a moment of awkwardness at India’s big AI summit</title>
+    <link>https://techcrunch.com/2026/02/19/altman-and-amodei-share-a-moment-of-awkwardness-at-indias-big-ai-summit/</link>
+    <guid>https://techcrunch.com/2026/02/19/altman-and-amodei-share-a-moment-of-awkwardness-at-indias-big-ai-summit/</guid>
+    <pubDate>Thu, 19 Feb 2026 13:49:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>When Prime Minister Narendra Modi prompted speakers at the event to join hands and raise them in a show of unity, all executives on stage obliged, except OpenAI&apos;s Sam Altman and Anthropic&apos;s Dario...</description>
+    <category>AI</category>
   </item>
 </channel>
 </rss>
