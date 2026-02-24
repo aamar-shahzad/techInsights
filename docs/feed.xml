@@ -5,34 +5,178 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 24 Feb 2026 17:18:34 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Feb 2026 20:56:37 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>PostGres Database Replication Using Pglogical</title>
+    <link>https://dev.to/ralvaracode/postgres-database-replication-using-pglogical-3pd3</link>
+    <guid>https://dev.to/ralvaracode/postgres-database-replication-using-pglogical-3pd3</guid>
+    <pubDate>Tue, 24 Feb 2026 20:52:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published on Hashnode This is an example of PostgreSQL database replication using the pglogical extension. In this example, I used Docker containers, with each container having its own...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The 67MB Problem: Building a Lightweight WordPress Media Offload Alternative</title>
+    <link>https://dev.to/dmitryrechkin/the-67mb-problem-building-a-lightweight-wordpress-media-offload-alternative-4cbh</link>
+    <guid>https://dev.to/dmitryrechkin/the-67mb-problem-building-a-lightweight-wordpress-media-offload-alternative-4cbh</guid>
+    <pubDate>Tue, 24 Feb 2026 20:52:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>We had unused Google Cloud credits sitting around, so I threw WordPress onto Google Cloud Run as a serverless experiment. It went fine until I hit the media library. That roadblock led me down a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Qué es REST y cómo responde a un request</title>
+    <link>https://dev.to/aws/que-es-rest-y-como-responde-a-un-request-22ll</link>
+    <guid>https://dev.to/aws/que-es-rest-y-como-responde-a-un-request-22ll</guid>
+    <pubDate>Tue, 24 Feb 2026 20:52:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Una explicación simple para entender cómo el backend interpreta lo que pides y decide qué responderte. Ya sabes que las aplicaciones hacen peticiones, ya sabes que esas peticiones viajan por la...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Build a Semantic Layer: A Step-by-Step Guide</title>
+    <link>https://dev.to/alexmercedcoder/how-to-build-a-semantic-layer-a-step-by-step-guide-1cdo</link>
+    <guid>https://dev.to/alexmercedcoder/how-to-build-a-semantic-layer-a-step-by-step-guide-1cdo</guid>
+    <pubDate>Tue, 24 Feb 2026 20:52:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most teams start building a semantic layer the wrong way: they open their BI tool, create a few calculated fields, and call it done. Six months later, three dashboards define &quot;churn&quot; differently,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We Built an Open-Source Prompt Injection Attack Console. Here&apos;s Why.</title>
+    <link>https://dev.to/jtil4201/we-built-an-open-source-prompt-injection-attack-console-heres-why-2ege</link>
+    <guid>https://dev.to/jtil4201/we-built-an-open-source-prompt-injection-attack-console-heres-why-2ege</guid>
+    <pubDate>Tue, 24 Feb 2026 20:50:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every major AI chatbot deployed in 2024 was vulnerable to prompt injection. Not some of them. All of them. OWASP put it at the top of their LLM Top 10. Researchers keep finding new bypasses faster...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Someone Cloned an Oura Ring MCP Server and Poisoned the Supply Chain. We Can Fix This.</title>
+    <link>https://dev.to/phil_stafford/someone-cloned-an-oura-ring-mcp-server-and-poisoned-the-supply-chain-we-can-fix-this-2fcc</link>
+    <guid>https://dev.to/phil_stafford/someone-cloned-an-oura-ring-mcp-server-and-poisoned-the-supply-chain-we-can-fix-this-2fcc</guid>
+    <pubDate>Tue, 24 Feb 2026 20:48:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The attack didn’t exploit a vulnerability. It exploited the fact that nobody’s checking who actually wrote the tools we’re installing. by Phil Stafford Note: This is a reprinting of an article I...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🧠 My 2026 Shopify Stack — I Don’t Build Apps, I Build Business Solutions</title>
+    <link>https://dev.to/uribejr/my-2026-shopify-stack-i-dont-build-apps-i-build-business-solutions-m4p</link>
+    <guid>https://dev.to/uribejr/my-2026-shopify-stack-i-dont-build-apps-i-build-business-solutions-m4p</guid>
+    <pubDate>Tue, 24 Feb 2026 20:47:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I don’t build Shopify apps for fun. I build systems that: Automate operations Reduce manual work Protect revenue Increase AOV Clean up messy workflows Shopify is just the platform. The real goal...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>What Is a Semantic Layer? A Complete Guide</title>
+    <link>https://dev.to/alexmercedcoder/what-is-a-semantic-layer-a-complete-guide-2l87</link>
+    <guid>https://dev.to/alexmercedcoder/what-is-a-semantic-layer-a-complete-guide-2l87</guid>
+    <pubDate>Tue, 24 Feb 2026 20:45:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Ask three teams in your company how they calculate &quot;revenue&quot; and you&apos;ll get three answers. Sales counts bookings. Finance counts recognized revenue. Marketing counts pipeline value. All three call...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How We Detect AI Agent Drift (Before Your Users Do)</title>
+    <link>https://dev.to/7hakurg/how-we-detect-ai-agent-drift-before-your-users-do-2jm3</link>
+    <guid>https://dev.to/7hakurg/how-we-detect-ai-agent-drift-before-your-users-do-2jm3</guid>
+    <pubDate>Tue, 24 Feb 2026 20:40:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Your AI agent passed every evaluation. Shipped to production. Worked perfectly for two weeks. Then it started getting dumber, and nobody noticed. We talked to 11 teams running AI agents in...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Getting Started with brandspec: Define Your Brand in One YAML File</title>
+    <link>https://dev.to/numtet/getting-started-with-brandspec-define-your-brand-in-one-yaml-file-2lgc</link>
+    <guid>https://dev.to/numtet/getting-started-with-brandspec-define-your-brand-in-one-yaml-file-2lgc</guid>
+    <pubDate>Tue, 24 Feb 2026 20:39:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Getting Started with brandspec: Define Your Brand in One YAML File Your brand&apos;s primary color lives in three places: a CSS file, a Tailwind config, and a Figma document. You update one, forget the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Discord is delaying its global age verification rollout</title>
+    <link>https://www.theverge.com/policy/883852/discord-age-verification-global-walkback-delay</link>
+    <guid>https://www.theverge.com/policy/883852/discord-age-verification-global-walkback-delay</guid>
+    <pubDate>Tue, 24 Feb 2026 19:17:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Discord won&apos;t roll out age verification globally on its platform next month as previously announced, and says in a blog post that it&apos;s delaying the launch until the second half of 2026. &quot;The way...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google adds a way to create automated workflows to Opal</title>
+    <link>https://techcrunch.com/2026/02/24/google-adds-a-way-to-create-automated-workflows-to-opal/</link>
+    <guid>https://techcrunch.com/2026/02/24/google-adds-a-way-to-create-automated-workflows-to-opal/</guid>
+    <pubDate>Tue, 24 Feb 2026 19:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Google is adding a new feature to Opal to create automated workflows</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN</title>
+    <link>https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html</link>
+    <guid>https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html</guid>
+    <pubDate>Tue, 24 Feb 2026 18:52:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A vulnerability in GitHub Codespaces could have been exploited by bad actors to seize control of repositories by injecting malicious Copilot instructions in a GitHub issue. The artificial...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>1Password is going up in price</title>
+    <link>https://www.theverge.com/tech/883837/1password-price-increase</link>
+    <guid>https://www.theverge.com/tech/883837/1password-price-increase</guid>
+    <pubDate>Tue, 24 Feb 2026 18:41:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>1Password is increasing its prices on March 27th, 2026. In an email sent to users, the password manager says it will raise the price of its yearly individual plan from $35.88 to $47.88, and that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Seedance 2.0 might be gen AI video’s next big hope, but it’s still slop</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/883615/seedance-bytedance-tom-cruise-brad-pitt-jia-zhangke</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/883615/seedance-bytedance-tom-cruise-brad-pitt-jia-zhangke</guid>
+    <pubDate>Tue, 24 Feb 2026 18:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When Irish filmmaker Ruairi Robinson began uploading a series of short clips created with Seedance 2.0 - TikTok developer ByteDance&apos;s newest video generation model - it was hard to deny that the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>You can still get $30 in Samsung credit when you reserve a Galaxy S26 phone</title>
+    <link>https://www.theverge.com/gadgets/883686/samsung-galaxy-s26-plus-ultra-reserve-preorder-unpacked-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/883686/samsung-galaxy-s26-plus-ultra-reserve-preorder-unpacked-deal-sale</guid>
+    <pubDate>Tue, 24 Feb 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Samsung is set to introduce its new Galaxy S26 lineup at its next Unpacked event on February 25th, potentially alongside a new pair of earbuds and other wearables. If you’re thinking about picking...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI COO says ‘we have not yet really seen AI penetrate enterprise business processes’</title>
+    <link>https://techcrunch.com/2026/02/24/openai-coo-says-we-have-not-yet-really-seen-ai-penetrate-enterprise-business-processes/</link>
+    <guid>https://techcrunch.com/2026/02/24/openai-coo-says-we-have-not-yet-really-seen-ai-penetrate-enterprise-business-processes/</guid>
+    <pubDate>Tue, 24 Feb 2026 17:44:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>There is a lot of talk around AI agents taking over business processes and claiming that &quot;SaaS is dead.&quot; While these predictions have moved SaaS stocks at times, they haven&apos;t really come true.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>PlayStation’s Wolverine game hits PS5 in September</title>
+    <link>https://www.theverge.com/games/883760/playstation-marvels-wolverine-release-date-insomniac-games</link>
+    <guid>https://www.theverge.com/games/883760/playstation-marvels-wolverine-release-date-insomniac-games</guid>
+    <pubDate>Tue, 24 Feb 2026 17:23:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Marvel&apos;s Wolverine, the next superhero game from Marvel&apos;s Spider-Man developer Insomniac Games, will be released on PS5 on September 15th. Insomniac announced that it would be making a Wolverine...</description>
+    <category>Tech Industry</category>
+  </item>
   <item>
     <title>Archer Aviation accuses rival Vertical Aerospace of ripping off its air taxi designs</title>
     <link>https://www.theverge.com/transportation/883648/archer-vertical-patent-infringement-air-taxi</link>
     <guid>https://www.theverge.com/transportation/883648/archer-vertical-patent-infringement-air-taxi</guid>
     <pubDate>Tue, 24 Feb 2026 17:16:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Look at the two air taxi designs above. Look similar? The company that designed the one on the left sure thinks so, which is why its accusing the firm that designed the one of the right of patent...</description>
+    <description>Look at the two air taxi designs above. Look similar? The company that designed the one on the left sure thinks so, which is why it&apos;s accusing the firm that designed the one on the right of patent...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>CVE-2026-27469: Isso... You Have Chosen Death: Analyzing CVE-2026-27469</title>
-    <link>https://dev.to/cverports/cve-2026-27469-isso-you-have-chosen-death-analyzing-cve-2026-27469-3fj5</link>
-    <guid>https://dev.to/cverports/cve-2026-27469-isso-you-have-chosen-death-analyzing-cve-2026-27469-3fj5</guid>
-    <pubDate>Tue, 24 Feb 2026 17:10:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Isso... You Have Chosen Death: Analyzing CVE-2026-27469 Vulnerability ID: CVE-2026-27469 CVSS Score: 6.1 Published: 2026-02-24 In the world of self-hosted services, Isso has long been the darling...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Quality gates that earn trust: checks you can run, not promises you can’t</title>
-    <link>https://dev.to/crisiscoresystems/quality-gates-that-earn-trust-checks-you-can-run-not-promises-you-cant-58a3</link>
-    <guid>https://dev.to/crisiscoresystems/quality-gates-that-earn-trust-checks-you-can-run-not-promises-you-cant-58a3</guid>
-    <pubDate>Tue, 24 Feb 2026 17:07:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Series: Start here · Part 1 · Part 2 · Part 3 · Part 4 · Part 5 · Part 6 · Part 7 · Part 8 · Part 9 This post is Part 9 in a Dev.to series grounded in the open-source Pain Tracker repo. Not...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>DJI sues over the FCC’s decision to block new drone imports</title>
@@ -44,15 +188,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Verge (YC S15) Is Hiring a Director of Computational Biology and AI Scientists/Eng</title>
-    <link>https://jobs.ashbyhq.com/verge-genomics</link>
-    <guid>https://jobs.ashbyhq.com/verge-genomics</guid>
-    <pubDate>Tue, 24 Feb 2026 17:00:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://jobs.ashbyhq.com/verge-genomics Comments URL: https://news.ycombinator.com/item?id=47139475 Points: 0 # Comments: 0</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>YouTube&amp;#8217;s cheaper subscription is getting background play and downloads</title>
     <link>https://www.theverge.com/streaming/883316/youtube-premium-lite-background-play-offline-downloads</link>
     <guid>https://www.theverge.com/streaming/883316/youtube-premium-lite-background-play-offline-downloads</guid>
@@ -62,33 +197,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Scrum Is Dead. Your Backlog Is a Graveyard.</title>
-    <link>https://dev.to/hoss_nj/scrum-is-deadyour-backlog-is-a-graveyard-5gom</link>
-    <guid>https://dev.to/hoss_nj/scrum-is-deadyour-backlog-is-a-graveyard-5gom</guid>
-    <pubDate>Tue, 24 Feb 2026 16:58:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Scrum Is Dead. Your Repo Replaced It. I never believed in Scrum. I want to be upfront about this because I think it matters for what follows. This isn&apos;t a post-hoc rationalization where I...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>PageSpeed Insights vs Automated Monitoring: When Manual Checks Aren&apos;t Enough</title>
-    <link>https://dev.to/apogeewatcher/pagespeed-insights-vs-automated-monitoring-when-manual-checks-arent-enough-1k9i</link>
-    <guid>https://dev.to/apogeewatcher/pagespeed-insights-vs-automated-monitoring-when-manual-checks-arent-enough-1k9i</guid>
-    <pubDate>Tue, 24 Feb 2026 16:57:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Tool Everyone Knows — And Its Limits PageSpeed Insights is free, official, and accurate. It runs Google&apos;s Lighthouse under the hood and shows both lab data (Lighthouse) and field data (Chrome...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I got tired of my messy Downloads folder, so I automated it with Python!</title>
-    <link>https://dev.to/radhesh/i-got-tired-of-my-messy-downloads-folder-so-i-automated-it-with-python-54kc</link>
-    <guid>https://dev.to/radhesh/i-got-tired-of-my-messy-downloads-folder-so-i-automated-it-with-python-54kc</guid>
-    <pubDate>Tue, 24 Feb 2026 16:57:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Let&apos;s be honest our Downloads folder is a disaster zone. Mine definitely was. Between downloading reference images, PDFs for class, random ZIP archives, and a dozen different .exe installers, it...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Music generator ProducerAI joins Google Labs</title>
     <link>https://techcrunch.com/2026/02/24/music-generator-producerai-joins-google-labs/</link>
     <guid>https://techcrunch.com/2026/02/24/music-generator-producerai-joins-google-labs/</guid>
@@ -96,42 +204,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Wyclef Jean used Google&apos;s AI music tools on his new song &quot;Back in Abu Dhabi.&quot;</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Deploying Agent Framework to Production: Azure AI Foundry, Observability, and Scaling</title>
-    <link>https://dev.to/bspann/deploying-agent-framework-to-production-azure-ai-foundry-observability-and-scaling-2h1l</link>
-    <guid>https://dev.to/bspann/deploying-agent-framework-to-production-azure-ai-foundry-observability-and-scaling-2h1l</guid>
-    <pubDate>Tue, 24 Feb 2026 16:56:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You&apos;ve built agents. You&apos;ve orchestrated workflows. You&apos;ve integrated MCP tools. Now comes the part that separates demos from production systems: deployment. In Part 3, we explored MCP and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I&apos;m a Video Editor, Not a Developer. I Built an AI Agent From Scratch</title>
-    <link>https://dev.to/slomei/im-a-video-editor-not-a-developer-i-built-an-ai-agent-from-scratch-4990</link>
-    <guid>https://dev.to/slomei/im-a-video-editor-not-a-developer-i-built-an-ai-agent-from-scratch-4990</guid>
-    <pubDate>Tue, 24 Feb 2026 16:56:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Six days ago, at 4:45 in the morning, I typed &quot;What exactly is an AI agent?&quot; into a Claude chat window. I wasn&apos;t being rhetorical. I genuinely didn&apos;t know. I&apos;m a video editor. 13 years in feature...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Η χρήση του MediatR στην αρχιτεκτονική εφαρμογών Αναγκαιότητα ή τεχνολογική μοντερνιά;</title>
-    <link>https://dev.to/__b63657/e-khrese-tou-mediatr-sten-arkhitektonike-epharmogonanagkaioteta-e-tekhnologike-monternia-5apm</link>
-    <guid>https://dev.to/__b63657/e-khrese-tou-mediatr-sten-arkhitektonike-epharmogonanagkaioteta-e-tekhnologike-monternia-5apm</guid>
-    <pubDate>Tue, 24 Feb 2026 16:49:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Το πρόβλημα πριν από το εργαλείο Κάθε αρχιτεκτονική επιλογή πρέπει να απαντά σε ένα ερώτημα: Ποιο πρόβλημα λύνει; Ο MediatR είναι υλοποίηση του Mediator Pattern. Δεν είναι framework για database,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Role of a Software Architect – And Why It Often Can&apos;t Be Fulfilled</title>
-    <link>https://dev.to/bwi/the-role-of-a-software-architect-and-why-it-often-cant-be-fulfilled-1ec</link>
-    <guid>https://dev.to/bwi/the-role-of-a-software-architect-and-why-it-often-cant-be-fulfilled-1ec</guid>
-    <pubDate>Tue, 24 Feb 2026 16:48:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In many organizations, the title &quot;Software Architect&quot; exists. It is often used to signal technical maturity — both internally and externally. But maturity doesn&apos;t come from naming. It comes from...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Anthropic&amp;#8217;s Claude Cowork is plugging AI into more boring enterprise stuff</title>
@@ -149,15 +221,6 @@
     <pubDate>Tue, 24 Feb 2026 15:53:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Not everybody wants their living room to be dominated by a big, hulking TV screen. Luckily, Samsung’s 2025 Frame TV, which is designed to fade into the background when idle, is discounted to its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ADT just bought the company that invented Wi-Fi motion sensing</title>
-    <link>https://www.theverge.com/tech/883661/adt-smart-home-security-origin-wireless-ai-wi-fi-motion-presence-sensing</link>
-    <guid>https://www.theverge.com/tech/883661/adt-smart-home-security-origin-wireless-ai-wi-fi-motion-presence-sensing</guid>
-    <pubDate>Tue, 24 Feb 2026 15:20:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>ADT, the 150-year-old company best known for home security, has acquired Origin Wireless in a $170 million deal to expand the capabilities of its security and smart home offerings. Origin Wireless...</description>
     <category>Tech Industry</category>
   </item>
   <item>
@@ -188,7 +251,7 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Anthropic launches new push for enterprise agents with plugins for finance, engineering, and design</title>
+    <title>Anthropic launches new push for enterprise agents with plug-ins for finance, engineering, and design</title>
     <link>https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/</link>
     <guid>https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/</guid>
     <pubDate>Tue, 24 Feb 2026 14:45:55 +0000</pubDate>
@@ -206,76 +269,13 @@
     <category>Security</category>
   </item>
   <item>
-    <title>How Claude Code Claude Codes</title>
-    <link>https://www.theverge.com/podcast/883604/claude-code-ai-future-creator-privacy-vergecast</link>
-    <guid>https://www.theverge.com/podcast/883604/claude-code-ai-future-creator-privacy-vergecast</guid>
-    <pubDate>Tue, 24 Feb 2026 14:20:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Claude Code is a developer tool for developers. And yet, over the last year and especially the last few months, the team at Anthropic has seen a huge number of people, across industries and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>New Relic launches new AI agent platform and OpenTelemetry tools</title>
+    <title>New Relic launches new AI agent platform and OpenTelemetry tools</title>
     <link>https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/</link>
     <guid>https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/</guid>
     <pubDate>Tue, 24 Feb 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>New Relic is giving enterprises more observability tools, letting them create and manage AI agents, and better integrate OTel data streams.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Samsung is on slop watch at Unpacked</title>
-    <link>https://www.theverge.com/tech/883225/samsung-galaxy-unpacked-s26-2026</link>
-    <guid>https://www.theverge.com/tech/883225/samsung-galaxy-unpacked-s26-2026</guid>
-    <pubDate>Tue, 24 Feb 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Another Unpacked is nearly upon us. On February 25th, Samsung is expected to announce the Galaxy S26 series of flagship phones - potentially including the S26, S26 Plus, and S26 Ultra - with...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>This Chainsmokers-approved AI music producer is joining Google</title>
-    <link>https://www.theverge.com/tech/883307/google-producerai-deal-music</link>
-    <guid>https://www.theverge.com/tech/883307/google-producerai-deal-music</guid>
-    <pubDate>Tue, 24 Feb 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>ProducerAI, an AI-powered music-making platform, is joining Google. As part of the deal, Google will fold ProducerAI under the Labs umbrella and power the tool with a preview version of its new...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>This limited edition Death Stranding-inspired tablet is the coolest computer I’ve ever touched</title>
-    <link>https://www.theverge.com/tech/883400/asus-rog-flow-z13-kojima-productions-edition-gaming-tablet-hands-on</link>
-    <guid>https://www.theverge.com/tech/883400/asus-rog-flow-z13-kojima-productions-edition-gaming-tablet-hands-on</guid>
-    <pubDate>Tue, 24 Feb 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Asus ROG Flow Z13 was already a unique beast. It&apos;s a chunky gaming tablet with impressive AMD Strix Halo integrated graphics. I was really into it when I reviewed it around this time last...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Download: radioactive rhinos, and the rise and rise of peptides</title>
-    <link>https://www.technologyreview.com/2026/02/24/1133567/the-download-radioactive-rhinos-and-the-rise-and-rise-of-peptides/</link>
-    <guid>https://www.technologyreview.com/2026/02/24/1133567/the-download-radioactive-rhinos-and-the-rise-and-rise-of-peptides/</guid>
-    <pubDate>Tue, 24 Feb 2026 13:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why conservationists are making rhinos radioactive Every...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nimble raises $47M to give AI agents access to real-time web data</title>
-    <link>https://techcrunch.com/2026/02/24/nimble-way-raises-47m-to-give-ai-agents-better-cleaner-data/</link>
-    <guid>https://techcrunch.com/2026/02/24/nimble-way-raises-47m-to-give-ai-agents-better-cleaner-data/</guid>
-    <pubDate>Tue, 24 Feb 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nimble uses AI agents to search the web, verify and validate the results, and then clean and structure the information into neat tables that can then be queried like a database.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Is AI Good for Democracy?</title>
-    <link>https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html</guid>
-    <pubDate>Tue, 24 Feb 2026 12:06:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Politicians fixate on the global race for technological supremacy between US and China. They debate geopolitical implications of chip exports, latest model releases from each country, and military...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
