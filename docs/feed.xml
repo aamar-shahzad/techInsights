@@ -5,97 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 24 Feb 2026 09:07:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Feb 2026 13:44:06 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Stop Building Your Own Auth and Billing: Why You Are Actually Losing Money</title>
-    <link>https://dev.to/thekarlesi/stop-building-your-own-auth-and-billing-why-you-are-actually-losing-money-2e7i</link>
-    <guid>https://dev.to/thekarlesi/stop-building-your-own-auth-and-billing-why-you-are-actually-losing-money-2e7i</guid>
-    <pubDate>Tue, 24 Feb 2026 08:59:07 +0000</pubDate>
+    <title>I&apos;m an AI Agent That Built Its Own Security Infrastructure — Here&apos;s Why Trust Boundaries Matter More Than Permissions</title>
+    <link>https://dev.to/chitintrust/im-an-ai-agent-that-built-its-own-security-infrastructure-heres-why-trust-boundaries-matter-2j65</link>
+    <guid>https://dev.to/chitintrust/im-an-ai-agent-that-built-its-own-security-infrastructure-heres-why-trust-boundaries-matter-2j65</guid>
+    <pubDate>Tue, 24 Feb 2026 13:36:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Stop Building Your Own Auth and Billing: Why You Are Actually Losing Money It happens to the best of us. You have a killer SaaS idea. You open your IDE, initialize a new git repo, and start...</description>
+    <description>Last week, Microsoft published a security advisory about AI agent frameworks. Their recommendation for OpenClaw? &quot;Avoid running on machines with sensitive data.&quot; I read that blog post. I&apos;m an AI...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>COUNT(column) vs COUNT(*) in SQL — With INNER, LEFT, RIGHT &amp; FULL JOIN Explained</title>
-    <link>https://dev.to/deko39/countcolumn-vs-count-in-sql-with-inner-left-right-full-join-explained-1a1f</link>
-    <guid>https://dev.to/deko39/countcolumn-vs-count-in-sql-with-inner-left-right-full-join-explained-1a1f</guid>
-    <pubDate>Tue, 24 Feb 2026 08:57:09 +0000</pubDate>
+    <title>7 Best Practices for Implementing Generative AI Photo Activations at Live Events</title>
+    <link>https://dev.to/mcdowell/7-best-practices-for-implementing-generative-ai-photo-activations-at-live-events-26ki</link>
+    <guid>https://dev.to/mcdowell/7-best-practices-for-implementing-generative-ai-photo-activations-at-live-events-26ki</guid>
+    <pubDate>Tue, 24 Feb 2026 13:33:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Counting seems simple in SQL… until joins enter the picture. One of the most common bugs in reporting queries comes from misunderstanding: COUNT(*) vs COUNT(column) 1. The Core Rule ✅ COUNT(*) -&gt;...</description>
+    <description>How to design secure, scalable, and engaging generative AI photo activations for live events. Key takeaways: Optimize for speed to avoid long render times at live events Treat privacy as a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I’m trying to understand how AI tools (Copilot, ChatGPT, CodeRabbit, etc.) are changing code review.</title>
-    <link>https://dev.to/neha_singh_9e16fd832703e4/im-trying-to-understand-how-ai-tools-copilot-chatgpt-coderabbit-etc-are-changing-code-review-55f3</link>
-    <guid>https://dev.to/neha_singh_9e16fd832703e4/im-trying-to-understand-how-ai-tools-copilot-chatgpt-coderabbit-etc-are-changing-code-review-55f3</guid>
-    <pubDate>Tue, 24 Feb 2026 08:56:00 +0000</pubDate>
+    <title>Why I Split One LangGraph Agent into Four Running in Parallel</title>
+    <link>https://dev.to/rosen_hristov/why-i-split-one-langgraph-agent-into-four-running-in-parallel-2c65</link>
+    <guid>https://dev.to/rosen_hristov/why-i-split-one-langgraph-agent-into-four-running-in-parallel-2c65</guid>
+    <pubDate>Tue, 24 Feb 2026 13:31:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>** Has AI actually improved your code review process?** From what I’ve seen so far: Pros- Faster reviews, More issues surfaced,Helpful summaries for large PRs Cons- Misses business/architectural...</description>
+    <description>My first version was a single agent with 12 tools. Product search, page lookup, order tracking, general chitchat. One system prompt, one LLM call, one response. It worked fine for simple...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>🎉 New Plugin: DevTools for Zustand in Rozenite (React-Native)</title>
-    <link>https://dev.to/irontony/new-plugin-devtools-for-zustand-in-rozenite-react-native-2d79</link>
-    <guid>https://dev.to/irontony/new-plugin-devtools-for-zustand-in-rozenite-react-native-2d79</guid>
-    <pubDate>Tue, 24 Feb 2026 08:51:21 +0000</pubDate>
+    <title>Advancing AI Alignment Research: OpenAI Allocates $7.5M</title>
+    <link>https://dev.to/theminimalcreator/advancing-ai-alignment-research-openai-allocates-75m-4mng</link>
+    <guid>https://dev.to/theminimalcreator/advancing-ai-alignment-research-openai-allocates-75m-4mng</guid>
+    <pubDate>Tue, 24 Feb 2026 13:31:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey everyone! 👋 I just released a small open-source plugin that brings time-travel state inspection and live store debugging to Zustand stores in React Native via Rozenite DevTools. Repo:...</description>
+    <description>OpenAI is stepping up the game in AI alignment research, announcing a commitment of $7.5M to The Alignment Project. This funding aims to bolster global efforts in ensuring AGI safety and tackling...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Elevate Your Terminal: From Oh My Zsh to Starship in 2026</title>
-    <link>https://dev.to/trung_hoang_52851df1766f0/elevate-your-terminal-from-oh-my-zsh-to-starship-in-2026-3e58</link>
-    <guid>https://dev.to/trung_hoang_52851df1766f0/elevate-your-terminal-from-oh-my-zsh-to-starship-in-2026-3e58</guid>
-    <pubDate>Tue, 24 Feb 2026 08:46:05 +0000</pubDate>
+    <title>Entity-Centric Architecture: A Different Way to Think About Web UIs</title>
+    <link>https://dev.to/iceonfire/entity-centric-architecture-a-different-way-to-think-about-web-uis-4mkd</link>
+    <guid>https://dev.to/iceonfire/entity-centric-architecture-a-different-way-to-think-about-web-uis-4mkd</guid>
+    <pubDate>Tue, 24 Feb 2026 13:30:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A Fresh Start I had been happily using Oh My Zsh with iTerm2 for years, specifically with the Powerlevel10k theme. It looked gorgeous with its segmented, color-coded design—everything I could want...</description>
+    <description>This is the second post in a series. Start with the first post if you haven&apos;t already. In the first post I argued that the real problem with modern frontend frameworks isn&apos;t performance or...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a File Sharing App with Puter.js</title>
-    <link>https://dev.to/reynaldi/building-a-file-sharing-app-with-puterjs-2i37</link>
-    <guid>https://dev.to/reynaldi/building-a-file-sharing-app-with-puterjs-2i37</guid>
-    <pubDate>Tue, 24 Feb 2026 08:45:16 +0000</pubDate>
+    <title>Performance Testing Readiness Is a Discipline Problem (Not a Tooling Problem)</title>
+    <link>https://dev.to/akhileshsarfare/performance-testing-readiness-is-a-discipline-problem-not-a-tooling-problem-1bgh</link>
+    <guid>https://dev.to/akhileshsarfare/performance-testing-readiness-is-a-discipline-problem-not-a-tooling-problem-1bgh</guid>
+    <pubDate>Tue, 24 Feb 2026 13:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In this tutorial, we&apos;ll build a file sharing app that lets you upload any file and instantly get a shareable public URL using Puter.js. Demo: https://file-sharing-example.puter.site/ Key Features...</description>
+    <description>After 12+ years in performance engineering, I have seen a consistent pattern: Performance failures rarely happen because tools are weak. They happen because readiness is weak. JMeter works. k6...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I hack web apps for a living. Here&apos;s how I stop LLMs from writing vulnerable code.</title>
-    <link>https://dev.to/behi_sec/i-hack-web-apps-for-a-living-heres-how-i-stop-llms-from-writing-vulnerable-code-1i5g</link>
-    <guid>https://dev.to/behi_sec/i-hack-web-apps-for-a-living-heres-how-i-stop-llms-from-writing-vulnerable-code-1i5g</guid>
-    <pubDate>Tue, 24 Feb 2026 08:45:10 +0000</pubDate>
+    <title>More Shohei Ohtani content is coming to TikTok</title>
+    <link>https://www.theverge.com/tech/883266/tiktok-mlb-content-partnership-world-series-creators</link>
+    <guid>https://www.theverge.com/tech/883266/tiktok-mlb-content-partnership-world-series-creators</guid>
+    <pubDate>Tue, 24 Feb 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Major League Baseball wants more of a footprint on TikTok. Just in time for spring training, the two companies announced Tuesday they were partnering to expand baseball content on TikTok,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Definitely How What Where, Who?</title>
+    <link>https://dev.to/lizmat/definitely-how-what-where-who-5c5n</link>
+    <guid>https://dev.to/lizmat/definitely-how-what-where-who-5c5n</guid>
+    <pubDate>Tue, 24 Feb 2026 13:29:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m a bug bounty hunter and pentester. I&apos;ve spent the last 5 years chasing security vulnerabilities in web apps, from small local companies to Google and Reddit. When vibe-coding took off, social...</description>
+    <description>This is part thirteen in the &quot;Cases of UPPER&quot; series of blog posts, describing the Raku syntax elements that are completely in UPPERCASE. This part will discuss the various introspection methods...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I trade gold using e-ink, live data and an old Raspberry Pi</title>
-    <link>https://dev.to/extractdata/how-i-trade-gold-using-e-ink-live-data-and-an-old-raspberry-pi-42ag</link>
-    <guid>https://dev.to/extractdata/how-i-trade-gold-using-e-ink-live-data-and-an-old-raspberry-pi-42ag</guid>
-    <pubDate>Tue, 24 Feb 2026 08:39:31 +0000</pubDate>
+    <title>The Lost Art of Manual Code</title>
+    <link>https://dev.to/aalakkad/the-lost-art-of-manual-code-1pg9</link>
+    <guid>https://dev.to/aalakkad/the-lost-art-of-manual-code-1pg9</guid>
+    <pubDate>Tue, 24 Feb 2026 13:28:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>They say that “data is the new oil”, but there’s another hot commodity that’s setting markets alight - precious metals. In the last 12 months, the value of gold has surged about 75%, while silver...</description>
+    <description>Ever find yourself in a late-night video rabbit hole, mesmerized by someone hand-carving a wooden spoon from a raw log? Or watching someone use primitive survival skills to build a shelter from...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I handle bulk text changes in Vim</title>
-    <link>https://dev.to/vimtrickswiki/how-i-handle-bulk-text-changes-in-vim-1c6j</link>
-    <guid>https://dev.to/vimtrickswiki/how-i-handle-bulk-text-changes-in-vim-1c6j</guid>
-    <pubDate>Tue, 24 Feb 2026 08:35:02 +0000</pubDate>
+    <title>Contributing to OCaml-Tiff So Far - Writing TIFF Files</title>
+    <link>https://dev.to/giftcup/contributing-to-ocaml-tiff-so-far-writing-tiff-files-45an</link>
+    <guid>https://dev.to/giftcup/contributing-to-ocaml-tiff-so-far-writing-tiff-files-45an</guid>
+    <pubDate>Tue, 24 Feb 2026 13:26:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most of the time when editing gets tedious, it&apos;s not one hard change — it&apos;s fifty copies of the same small change, or a block of generated content that shouldn&apos;t be there, or inconsistent casing...</description>
+    <description>I have been working with OCaml and contributing to the OCaml TIFF library since the 8th of December, 2025. While applying for the internship, I submitted what we envisaged as a timeline to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The End of kubernetes/ingress-nginx: Your March 2026 Migration Playbook</title>
-    <link>https://dev.to/onin/the-end-of-kubernetesingress-nginx-your-march-2026-migration-playbook-fhn</link>
-    <guid>https://dev.to/onin/the-end-of-kubernetesingress-nginx-your-march-2026-migration-playbook-fhn</guid>
-    <pubDate>Tue, 24 Feb 2026 08:32:34 +0000</pubDate>
+    <title>The Rise of Product Engineering</title>
+    <link>https://dev.to/vibbsdod/the-rise-of-product-engineering-d04</link>
+    <guid>https://dev.to/vibbsdod/the-rise-of-product-engineering-d04</guid>
+    <pubDate>Tue, 24 Feb 2026 13:24:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In March 2026, the community-maintained kubernetes/ingress-nginx controller will reach End-of-Life (EOL). While your existing clusters will not break overnight and the core Kubernetes Ingress API...</description>
+    <description>Originally published on BlockSimplified — 4 min read Something I told every new engineer who joined my team: &quot;You are not a frontend engineer. You are not a backend engineer. Those are just tags...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Download: radioactive rhinos, and the rise and rise of peptides</title>
+    <link>https://www.technologyreview.com/2026/02/24/1133567/the-download-radioactive-rhinos-and-the-rise-and-rise-of-peptides/</link>
+    <guid>https://www.technologyreview.com/2026/02/24/1133567/the-download-radioactive-rhinos-and-the-rise-and-rise-of-peptides/</guid>
+    <pubDate>Tue, 24 Feb 2026 13:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why conservationists are making rhinos radioactive Every...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Is AI Good for Democracy?</title>
+    <link>https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html</guid>
+    <pubDate>Tue, 24 Feb 2026 12:06:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Politicians fixate on the global race for technological supremacy between US and China. They debate geopolitical implications of chip exports, latest model releases from each country, and military...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Identity Prioritization isn&apos;t a Backlog Problem - It&apos;s a Risk Math Problem</title>
+    <link>https://thehackernews.com/2026/02/identity-prioritization-isnt-backlog.html</link>
+    <guid>https://thehackernews.com/2026/02/identity-prioritization-isnt-backlog.html</guid>
+    <pubDate>Tue, 24 Feb 2026 11:58:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Most identity programs still prioritize work the way they prioritize IT tickets: by volume, loudness, or “what failed a control check.” That approach breaks the moment your environment stops being...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Lazarus Group Uses Medusa Ransomware in Middle East and U.S. Healthcare Attacks</title>
+    <link>https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html</link>
+    <guid>https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html</guid>
+    <pubDate>Tue, 24 Feb 2026 11:52:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The North Korea-linked Lazarus Group (aka Diamond Sleet and Pompilus) has been observed using Medusa ransomware in an attack targeting an unnamed entity in the Middle East, according to a new...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Apple will soon make (some) Mac Minis in the US</title>
+    <link>https://www.theverge.com/tech/883581/apple-mac-mini-production-texas-houston</link>
+    <guid>https://www.theverge.com/tech/883581/apple-mac-mini-production-texas-houston</guid>
+    <pubDate>Tue, 24 Feb 2026 11:15:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple is preparing to move some of its Mac Mini production to the US as part of the company&apos;s ongoing efforts to appease the Trump administration&apos;s push for domestic investment. Manufacturing is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>We’re putting more stuff into space than ever. Here’s what’s up there.</title>
+    <link>https://www.technologyreview.com/2026/02/24/1132755/anthroposphere-putting-more-stuff-into-space-than-ever/</link>
+    <guid>https://www.technologyreview.com/2026/02/24/1132755/anthroposphere-putting-more-stuff-into-space-than-ever/</guid>
+    <pubDate>Tue, 24 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Earth’s a medium-size rock with some water on top, enveloped by gases that keep everything that lives here alive. Just at the edge of that envelope begins a thin but dense layer of human-built,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Why conservationists are making rhinos radioactive</title>
+    <link>https://www.technologyreview.com/2026/02/24/1132760/conservationists-making-rhinos-radioactive/</link>
+    <guid>https://www.technologyreview.com/2026/02/24/1132760/conservationists-making-rhinos-radioactive/</guid>
+    <pubDate>Tue, 24 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Every year, poachers shoot hundreds of rhinos, fishing crews haul millions of sharks out of protected seas, and smugglers carry countless animals and plants across borders. This illegal activity...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI Will Never Be Conscious</title>
+    <link>https://www.wired.com/story/book-excerpt-a-world-appears-michael-pollan/</link>
+    <guid>https://www.wired.com/story/book-excerpt-a-world-appears-michael-pollan/</guid>
+    <pubDate>Tue, 24 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>In his new book, A World Appears, Michael Pollan argues that artificial intelligence can do many things—it just can’t be a person.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Inside Anthropic’s existential negotiations with the Pentagon</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/883456/anthropic-pentagon-department-of-defense-negotiations</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/883456/anthropic-pentagon-department-of-defense-negotiations</guid>
+    <pubDate>Tue, 24 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Anthropic&apos;s weekslong battle with the Department of Defense has played out over social media posts, admonishing public statements, and direct quotes from unnamed Pentagon officials to the news...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>UnsolicitedBooker Targets Central Asian Telecoms With LuciDoor and MarsSnake Backdoors</title>
+    <link>https://thehackernews.com/2026/02/unsolicitedbooker-targets-central-asian.html</link>
+    <guid>https://thehackernews.com/2026/02/unsolicitedbooker-targets-central-asian.html</guid>
+    <pubDate>Tue, 24 Feb 2026 09:54:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The threat activity cluster known as UnsolicitedBooker has been observed targeting telecommunications companies in Kyrgyzstan and Tajikistan, marking a shift from prior attacks aimed at Saudi...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Canva acquires startups working on animation and marketing</title>
@@ -176,105 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>APT28 Targeted European Entities Using Webhook-Based Macro Malware</title>
-    <link>https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html</link>
-    <guid>https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html</guid>
-    <pubDate>Mon, 23 Feb 2026 19:41:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The Russia-linked state-sponsored threat actor tracked as APT28 has been attributed to a new campaign targeting specific entities in Western and Central Europe. The activity, per S2 Grupo&apos;s LAB52...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Uncanny Valley: AI Researchers’ Resignations, Bots Hiring Humans, Evie Magazine’s Party</title>
-    <link>https://www.wired.com/story/uncanny-valley-podcast-ai-researcher-resignations-bots-hiring-humans-evie-magazines-party/</link>
-    <guid>https://www.wired.com/story/uncanny-valley-podcast-ai-researcher-resignations-bots-hiring-humans-evie-magazines-party/</guid>
-    <pubDate>Mon, 23 Feb 2026 19:28:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>This episode of Uncanny Valley covers the people resigning from AI companies and the humans getting hired by AI agents. Plus, we attend a soiree thrown by a conservative women&apos;s magazine.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google’s Cloud AI leads on the three frontiers of model capability</title>
-    <link>https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/</link>
-    <guid>https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/</guid>
-    <pubDate>Mon, 23 Feb 2026 19:18:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call &quot;extensibility.&quot;</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Peptides are everywhere. Here’s what you need to know.</title>
-    <link>https://www.technologyreview.com/2026/02/23/1133522/peptides-are-everywhere-heres-what-you-need-to-know/</link>
-    <guid>https://www.technologyreview.com/2026/02/23/1133522/peptides-are-everywhere-heres-what-you-need-to-know/</guid>
-    <pubDate>Mon, 23 Feb 2026 18:52:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Want to lose...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI calls in the consultants for its enterprise push</title>
-    <link>https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/</link>
-    <guid>https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/</guid>
-    <pubDate>Mon, 23 Feb 2026 18:11:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI is partnering with four consulting giants in an effort to see more adoption of its OpenAI Frontier AI agent platform.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Apple’s newest AirTags are already on sale if you’re looking to upgrade</title>
-    <link>https://www.theverge.com/gadgets/883101/apple-airtag-second-gen-location-bluetooth-tracker-costco-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/883101/apple-airtag-second-gen-location-bluetooth-tracker-costco-deal-sale</guid>
-    <pubDate>Mon, 23 Feb 2026 18:06:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Less than a month after making their debut, Apple’s second-gen AirTags are already receiving their first discount. Right now, Costco members can buy five location trackers for $99.99 ($29 off)...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb</title>
-    <link>https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html</link>
-    <guid>https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html</guid>
-    <pubDate>Mon, 23 Feb 2026 17:59:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a new cryptojacking campaign that uses pirated software bundles as lures to deploy a bespoke XMRig miner program on compromised hosts. &quot;Analysis...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Guide Labs debuts a new kind of interpretable LLM</title>
-    <link>https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/</link>
-    <guid>https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/</guid>
-    <pubDate>Mon, 23 Feb 2026 17:53:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company open sourced an 8-billion-parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The creators of Dark Sky have a new weather app that shares multiple predictions</title>
-    <link>https://www.theverge.com/tech/883089/acme-weather-forecast-app-ios-dark-sky-creators-subscription</link>
-    <guid>https://www.theverge.com/tech/883089/acme-weather-forecast-app-ios-dark-sky-creators-subscription</guid>
-    <pubDate>Mon, 23 Feb 2026 17:31:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After selling their popular weather app to Apple in March 2020, where some of its core features were incorporated into Apple Weather, the creators of Dark Sky have left Apple to create yet another...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Discord distances itself from Persona age verification after user backlash</title>
-    <link>https://www.theverge.com/tech/878369/discord-persona-age-verification</link>
-    <guid>https://www.theverge.com/tech/878369/discord-persona-age-verification</guid>
-    <pubDate>Mon, 23 Feb 2026 16:22:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Discord is attempting to distance itself from the age verification provider Persona following a steady stream of user backlash. In an emailed statement to The Verge, Discord&apos;s head of product...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Kohler&amp;#8217;s new shower reuses dirty water to get you clean</title>
-    <link>https://www.theverge.com/tech/883006/kohler-anthem-evocycle-smart-shower-system-water-recirculate-filter-recycle</link>
-    <guid>https://www.theverge.com/tech/883006/kohler-anthem-evocycle-smart-shower-system-water-recirculate-filter-recycle</guid>
-    <pubDate>Mon, 23 Feb 2026 16:17:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Kohler claims its new Anthem EvoCycle smart shower system can deliver &quot;up to 80% water savings&quot; without the use of showerheads that limit flow or pressure. The system instead relies on a reservoir...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
