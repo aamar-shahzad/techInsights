@@ -5,97 +5,205 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Feb 2026 09:06:11 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Feb 2026 13:43:45 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>From Shadow AI to Enterprise Asset: A Seven-Layer Reference Architecture for Docker&apos;s AI Stack</title>
-    <link>https://dev.to/aldenweaver/from-shadow-ai-to-enterprise-asset-a-seven-layer-reference-architecture-for-dockers-ai-stack-58oh</link>
-    <guid>https://dev.to/aldenweaver/from-shadow-ai-to-enterprise-asset-a-seven-layer-reference-architecture-for-dockers-ai-stack-58oh</guid>
-    <pubDate>Thu, 26 Feb 2026 09:00:53 +0000</pubDate>
+    <title>RFC 8705 Deep Dive: Turning Access Tokens into &quot;Unstealable Tokens&quot; with mTLS</title>
+    <link>https://dev.to/kanywst/rfc-8705-deep-dive-turning-access-tokens-into-unstealable-tokens-with-mtls-406</link>
+    <guid>https://dev.to/kanywst/rfc-8705-deep-dive-turning-access-tokens-into-unstealable-tokens-with-mtls-406</guid>
+    <pubDate>Thu, 26 Feb 2026 13:39:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most organizations are already using AI agents in their development workflows. The question is whether those agents are governed or fall under the category of &quot;shadow AI&quot;. Docker&apos;s recent...</description>
+    <description>Introduction In my previous article exploring RFC 6750 (Bearer Token Usage), I concluded with the following statement: If theft resistance is required, consider DPoP (RFC 9449) or mTLS (RFC 8705)...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Angular 21.2’s Arrow Functions in Templates: How They Work (and Where They Break)</title>
-    <link>https://dev.to/karol_modelski/angular-212s-arrow-functions-in-templates-how-they-work-and-where-they-break-1knh</link>
-    <guid>https://dev.to/karol_modelski/angular-212s-arrow-functions-in-templates-how-they-work-and-where-they-break-1knh</guid>
-    <pubDate>Thu, 26 Feb 2026 09:00:00 +0000</pubDate>
+    <title>The Token Economy</title>
+    <link>https://dev.to/dannwaneri/the-token-economy-3cd9</link>
+    <guid>https://dev.to/dannwaneri/the-token-economy-3cd9</guid>
+    <pubDate>Thu, 26 Feb 2026 13:36:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ever stared at your Angular component, drowning in a sea of one-liner methods just to nudge a signal with update()? It&apos;s like building a Lego castle only to realize half the bricks are pointless...</description>
+    <description>In 2161, time is money. Literally. When you are born, a clock starts on your arm. One year. When it runs out, you die. The rich accumulate centuries. The poor watch seconds. Will Salas wakes up...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Shadow AI to Enterprise Asset: A Seven-Layer Reference Architecture for Docker&apos;s AI Stack - The Deep Dive</title>
-    <link>https://dev.to/aldenweaver/from-shadow-ai-to-enterprise-asset-a-seven-layer-reference-architecture-for-dockers-ai-stack--39f7</link>
-    <guid>https://dev.to/aldenweaver/from-shadow-ai-to-enterprise-asset-a-seven-layer-reference-architecture-for-dockers-ai-stack--39f7</guid>
-    <pubDate>Thu, 26 Feb 2026 08:58:46 +0000</pubDate>
+    <title>Stop Guessing If Your AI Agent Works: 3 Eval Patterns That Catch Failures First</title>
+    <link>https://dev.to/klement_gunndu/stop-guessing-if-your-ai-agent-works-3-eval-patterns-that-catch-failures-first-1paf</link>
+    <guid>https://dev.to/klement_gunndu/stop-guessing-if-your-ai-agent-works-3-eval-patterns-that-catch-failures-first-1paf</guid>
+    <pubDate>Thu, 26 Feb 2026 13:34:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Most organizations are already using AI agents in their development workflows. The question is whether those agents are governed or fall under the category of &apos;shadow AI&apos;. Without a...</description>
+    <description>72% of LLM-based agents exhibit non-deterministic behavior in production. You can&apos;t unit test randomness the same way you test a REST endpoint. But you can evaluate it. We run 82 AI agents in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Personalized Meal Recommendation System</title>
-    <link>https://dev.to/albert_nahas_cdc8469a6ae8/building-a-personalized-meal-recommendation-system-1ec0</link>
-    <guid>https://dev.to/albert_nahas_cdc8469a6ae8/building-a-personalized-meal-recommendation-system-1ec0</guid>
-    <pubDate>Thu, 26 Feb 2026 08:55:59 +0000</pubDate>
+    <title>Does Increasing AWS Lambda Memory to 10GB Really Make It Faster? (AWS Lambda chDB/DuckDB PyIceberg Benchmark)</title>
+    <link>https://dev.to/datapenguin/does-increasing-aws-lambda-memory-to-10gb-really-make-it-faster-aws-lambda-chdbduckdb-pyiceberg-19j2</link>
+    <guid>https://dev.to/datapenguin/does-increasing-aws-lambda-memory-to-10gb-really-make-it-faster-aws-lambda-chdbduckdb-pyiceberg-19j2</guid>
+    <pubDate>Thu, 26 Feb 2026 13:33:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Personalized meal recommendation systems are transforming the way we approach healthy eating, providing tailored suggestions that take into account individual preferences and nutritional needs. By...</description>
+    <description>Original Japanese article: AWS Lambdaを10GBにすると本当に速くなるのか？（AWS Lambda×chDB/DuckDB×PyIceberg検証） Introduction I&apos;m Aki, an AWS Community Builder (@jitepengin). In a previous article, I benchmarked...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Animating SVG Icons with CSS and Framer Motion</title>
-    <link>https://dev.to/albert_nahas_cdc8469a6ae8/animating-svg-icons-with-css-and-framer-motion-1l15</link>
-    <guid>https://dev.to/albert_nahas_cdc8469a6ae8/animating-svg-icons-with-css-and-framer-motion-1l15</guid>
-    <pubDate>Thu, 26 Feb 2026 08:55:36 +0000</pubDate>
+    <title>How I Built a Semgrep-Like Scanner for AI Agent Skills</title>
+    <link>https://dev.to/0x711/how-i-built-a-semgrep-like-scanner-for-ai-agent-skills-hgh</link>
+    <guid>https://dev.to/0x711/how-i-built-a-semgrep-like-scanner-for-ai-agent-skills-hgh</guid>
+    <pubDate>Thu, 26 Feb 2026 13:33:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>SVG icons are everywhere in modern web interfaces, but too often they’re static, missing an opportunity to inject personality and feedback into your UI. Thoughtfully animated SVG icons can guide...</description>
+    <description>I built Aguara, an open-source static security scanner specifically for AI agent skills and MCP server configurations. 148 detection rules, 13 threat categories, no LLM, no cloud, no API keys. One...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Field Guide v0.1 is Live</title>
-    <link>https://dev.to/crisiscoresystems/field-guide-v01-is-live-3f0a</link>
-    <guid>https://dev.to/crisiscoresystems/field-guide-v01-is-live-3f0a</guid>
-    <pubDate>Thu, 26 Feb 2026 08:54:00 +0000</pubDate>
+    <title>I built a native macOS companion app for Claude Code in a weekend</title>
+    <link>https://dev.to/leocardz/i-built-a-native-macos-companion-app-for-claude-code-in-a-weekend-2hcg</link>
+    <guid>https://dev.to/leocardz/i-built-a-native-macos-companion-app-for-claude-code-in-a-weekend-2hcg</guid>
+    <pubDate>Thu, 26 Feb 2026 13:24:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Field Guide v0.1 is Live Protective Computing now has a second citable artifact. Foundation artifact: The Overton Framework v1.3 (DOI: https://doi.org/10.5281/zenodo.18688516) Practice artifact:...</description>
+    <description>The problem If you use Claude Code, all your sessions are stored locally as JSONL files. There&apos;s no built-in way to go back and browse them, search through old conversations, check what files were...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When “Just Calling a Function” Isn’t That Simple Anymore</title>
-    <link>https://dev.to/yceruto/when-just-calling-a-function-isnt-that-simple-anymore-4ppb</link>
-    <guid>https://dev.to/yceruto/when-just-calling-a-function-isnt-that-simple-anymore-4ppb</guid>
-    <pubDate>Thu, 26 Feb 2026 08:51:58 +0000</pubDate>
+    <title>How I Fixed Claude&apos;s Context Window Problem in a 462 File Folder</title>
+    <link>https://dev.to/hughtopiangif/how-i-fixed-claudes-context-window-problem-in-a-462-file-folder-6n4</link>
+    <guid>https://dev.to/hughtopiangif/how-i-fixed-claudes-context-window-problem-in-a-462-file-folder-6n4</guid>
+    <pubDate>Thu, 26 Feb 2026 13:21:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>At some point in almost every project, something small starts to feel heavier than it should. You begin with a clean controller that delegates to a handler, then you add validation, then logging....</description>
+    <description>I&apos;ve been running Anthropic&apos;s Claude Desktop (Cowork mode) across several project folders at my consulting firm. One of them… an enterprise transformation programme… has 462 files. Strategy docs,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Run Docker and Kubernetes on your Apple Silicon in an Enterprise Environment</title>
-    <link>https://dev.to/ollitron/run-docker-and-kubernetes-on-your-apple-silicon-in-an-enterprise-environment-45m</link>
-    <guid>https://dev.to/ollitron/run-docker-and-kubernetes-on-your-apple-silicon-in-an-enterprise-environment-45m</guid>
-    <pubDate>Thu, 26 Feb 2026 08:41:10 +0000</pubDate>
+    <title>Question of the Day #23 [Talk::Overflow]</title>
+    <link>https://dev.to/valpetaltechlabs/question-of-the-day-23-talkoverflow-1i8d</link>
+    <guid>https://dev.to/valpetaltechlabs/question-of-the-day-23-talkoverflow-1i8d</guid>
+    <pubDate>Thu, 26 Feb 2026 13:19:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In many companies secure web gateways from providers like Zscaler, Cloudflare and Palo Alto Networks are applied between the computers of the employees and the Internet. These systems act as a...</description>
+    <description>Why parseInt(0.0000005) returns 5: The dangerous interaction between scientific notation and string coercion. This post explains a quiz originally shared as a LinkedIn poll. 🔹 The Question What...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Make Your OpenClaw Agent Call Any API Without Exposing Your Keys</title>
-    <link>https://dev.to/the_seventeen/how-to-make-your-openclaw-agent-call-any-api-without-exposing-your-keys-43a1</link>
-    <guid>https://dev.to/the_seventeen/how-to-make-your-openclaw-agent-call-any-api-without-exposing-your-keys-43a1</guid>
-    <pubDate>Thu, 26 Feb 2026 08:38:59 +0000</pubDate>
+    <title>I made a css named twigwind -- looking for feedback</title>
+    <link>https://dev.to/adhavan_yuvaraj_ee8efd1da/i-made-a-css-named-twigwind-looking-for-feedback-nn8</link>
+    <guid>https://dev.to/adhavan_yuvaraj_ee8efd1da/i-made-a-css-named-twigwind-looking-for-feedback-nn8</guid>
+    <pubDate>Thu, 26 Feb 2026 13:18:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your OpenClaw agent is smart. It can browse the web, write code, manage files. But the moment you need it to call Stripe, or hit the GitHub API, or query a database, you&apos;re stuck pasting API keys...</description>
+    <description>I made a css framework named twigwind. As a small project, I got the idea when i was playing with document.queryselectAll() function i thought that many css frameworks use staticly generated css...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to auto-generate OG images when you publish a new blog post</title>
-    <link>https://dev.to/custodiaadmin/how-to-auto-generate-og-images-when-you-publish-a-new-blog-post-4pg1</link>
-    <guid>https://dev.to/custodiaadmin/how-to-auto-generate-og-images-when-you-publish-a-new-blog-post-4pg1</guid>
-    <pubDate>Thu, 26 Feb 2026 08:20:02 +0000</pubDate>
+    <title>Perjalanan Mastering Linux CLI Hari 1</title>
+    <link>https://dev.to/devfajar/perjalanan-mastering-linux-cli-5f4e</link>
+    <guid>https://dev.to/devfajar/perjalanan-mastering-linux-cli-5f4e</guid>
+    <pubDate>Thu, 26 Feb 2026 13:16:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How to Auto-Generate OG Images When You Publish a New Blog Post Every blog post needs an OG image — the preview card that shows up when someone shares your link on Twitter, LinkedIn, or Slack....</description>
+    <description>Hari Pertama perjalanan saya belajar infrastruktur akhirnya dimulai. Selama ini, interaksi saya dengan Linux mungkin sama seperti kebanyakan orang: copy-paste command dari StackOverflow dan...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Download: how America lost its lead in the hunt for alien life, and ambitious battery claims</title>
+    <link>https://www.technologyreview.com/2026/02/26/1133734/the-download-how-america-lost-its-lead-in-the-hunt-for-alien-life-and-ambitious-battery-claims/</link>
+    <guid>https://www.technologyreview.com/2026/02/26/1133734/the-download-how-america-lost-its-lead-in-the-hunt-for-alien-life-and-ambitious-battery-claims/</guid>
+    <pubDate>Thu, 26 Feb 2026 13:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. America was winning the race to find Martian life. Then...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Burger King will use AI to check if employees say ‘please’ and ‘thank you’</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty</guid>
+    <pubDate>Thu, 26 Feb 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Burger King is launching an AI chatbot that will live in the headsets used by employees. The voice-enabled chatbot, called &quot;Patty,&quot; is part of an overarching BK Assistant platform that will not...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The smart lock standard that could replace your keys is finally here</title>
+    <link>https://www.theverge.com/tech/885002/aliro-smart-lock-standard-launches-apple-google-samsung-promise-support</link>
+    <guid>https://www.theverge.com/tech/885002/aliro-smart-lock-standard-launches-apple-google-samsung-promise-support</guid>
+    <pubDate>Thu, 26 Feb 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Aliro has officially arrived. The smart lock standard, first announced in 2023, finally has a 1.0 spec, meaning companies can now get hardware certified and roll out support. Aliro is an open...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>LLMs Generate Predictable Passwords</title>
+    <link>https://www.schneier.com/blog/archives/2026/02/llms-generate-predictable-passwords.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/02/llms-generate-predictable-passwords.html</guid>
+    <pubDate>Thu, 26 Feb 2026 12:07:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>LLMs are bad at generating passwords: There are strong noticeable patterns among these 50 passwords that can be seen easily: All of the passwords start with a letter, usually uppercase G, almost...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Expert Recommends: Prepare for PQC Right Now</title>
+    <link>https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html</link>
+    <guid>https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html</guid>
+    <pubDate>Thu, 26 Feb 2026 12:06:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Introduction: Steal It Today, Break It in a Decade Digital evolution is unstoppable, and though the pace may vary, things tend to fall into place sooner rather than later. That, of course, applies...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Who’s Your Daddy? A Chatbot</title>
+    <link>https://www.wired.com/story/whos-your-daddy-a-chatbot/</link>
+    <guid>https://www.wired.com/story/whos-your-daddy-a-chatbot/</guid>
+    <pubDate>Thu, 26 Feb 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>More people are turning to AI to explore their BDSM fantasies, but some in the community feel it’s a cop-out.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Instagram will alert parents if their kids &amp;#8216;repeatedly&amp;#8217; search for self-harm topics</title>
+    <link>https://www.theverge.com/tech/885110/meta-instagram-parent-alert-teen-self-harm-suicide</link>
+    <guid>https://www.theverge.com/tech/885110/meta-instagram-parent-alert-teen-self-harm-suicide</guid>
+    <pubDate>Thu, 26 Feb 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Starting next week, Instagram will notify parents to check on their teen searching for terms related to self-harm or suicide. Meta says a similar alert system for its AI chatbots is coming later...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google takes control of ‘Android of robotics’ project in quest for physical AI</title>
+    <link>https://www.theverge.com/tech/885113/google-swallows-ai-robotics-moonshot-intrinsic</link>
+    <guid>https://www.theverge.com/tech/885113/google-swallows-ai-robotics-moonshot-intrinsic</guid>
+    <pubDate>Thu, 26 Feb 2026 11:06:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google is folding Alphabet&apos;s AI robotics &quot;moonshot,&quot; Intrinsic, into the company after five years as an independent unit. The move marks a strategic shift as Google doubles down on physical AI and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>This company claims a battery breakthrough. Now they need to prove it.</title>
+    <link>https://www.technologyreview.com/2026/02/26/1133722/solid-state-batteries-donut-lab/</link>
+    <guid>https://www.technologyreview.com/2026/02/26/1133722/solid-state-batteries-donut-lab/</guid>
+    <pubDate>Thu, 26 Feb 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>When a company claims to have created what’s essentially the holy grail of batteries, there are bound to be some questions. Interest has been swirling since Donut Lab, a Finnish company, announced...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft Warns Developers of Fake Next.js Job Repos Delivering In-Memory Malware</title>
+    <link>https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html</link>
+    <guid>https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html</guid>
+    <pubDate>Thu, 26 Feb 2026 10:35:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A &quot;coordinated developer-targeting campaign&quot; is using malicious repositories disguised as legitimate Next.js projects and technical assessments to trick victims into executing them and establish...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Malicious StripeApi NuGet Package Mimicked Official Library and Stole API Tokens</title>
+    <link>https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html</link>
+    <guid>https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html</guid>
+    <pubDate>Thu, 26 Feb 2026 10:09:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a new malicious package discovered on the NuGet Gallery, impersonating a library from financial services firm Stripe in an attempt to target the...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>America was winning the race to find Martian life. Then China jumped in.</title>
+    <link>https://www.technologyreview.com/2026/02/26/1133584/america-china-mars-sample-return-space-race-nasa/</link>
+    <guid>https://www.technologyreview.com/2026/02/26/1133584/america-china-mars-sample-return-space-race-nasa/</guid>
+    <pubDate>Thu, 26 Feb 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>To most people, rocks are just rocks. To geologists, they are much, much more: crystal-filled time capsules with the power to reveal the state of the planet at the very moment they were forged....</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023 for Admin Access</title>
@@ -122,6 +230,14 @@
     <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Gushwork has raised $9 million in a seed round led by SIG and Lightspeed. The startup has seen early customer traction from AI search tools like ChatGPT.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Mixture of Experts (MoEs) in Transformers</title>
+    <link>https://huggingface.co/blog/moe-transformers</link>
+    <guid>https://huggingface.co/blog/moe-transformers</guid>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
   </item>
   <item>
@@ -158,123 +274,6 @@
     <pubDate>Wed, 25 Feb 2026 22:26:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Samsung has just announced its new Galaxy S26 lineup, which includes the S26, S26 Plus, and S26 Ultra. While they aren&apos;t radical departures from last year&apos;s models, they bring a handful of notable...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Corsair is halting Drop sales after March 25th</title>
-    <link>https://www.theverge.com/news/884824/corsair-ending-drop-shopping-site</link>
-    <guid>https://www.theverge.com/news/884824/corsair-ending-drop-shopping-site</guid>
-    <pubDate>Wed, 25 Feb 2026 21:58:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Drop store, which was acquired by gaming gear giant Corsair in 2023, was a haven for mechanical keyboard enthusiasts and audiophiles to discover and buy hard-to-find gear - sometimes at...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Roundtables: Why 2026 Is the Year for Sodium-Ion Batteries</title>
-    <link>https://www.technologyreview.com/2026/02/25/1132873/roundtables-why-2026-is-the-year-for-sodium-ion-batteries/</link>
-    <guid>https://www.technologyreview.com/2026/02/25/1132873/roundtables-why-2026-is-the-year-for-sodium-ion-batteries/</guid>
-    <pubDate>Wed, 25 Feb 2026 21:15:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Listen to the session or watch below Sodium-based batteries could be a cheaper, safer alternative to lithium-ion, and the technology is finally making its way into cars—and energy storage arrays...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Peace Corps is recruiting volunteers to sell AI to developing nations</title>
-    <link>https://www.theverge.com/policy/884625/peace-corps-tech-promote-american-ai</link>
-    <guid>https://www.theverge.com/policy/884625/peace-corps-tech-promote-american-ai</guid>
-    <pubDate>Wed, 25 Feb 2026 20:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>For more than six decades, the Peace Corps has represented itself as an agency focused on helping underserved communities around the globe. But a new initiative, called the &quot;Tech Corps,&quot; threatens...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The White House wants AI companies to cover rate hikes. Most have already said they would.</title>
-    <link>https://techcrunch.com/2026/02/25/the-white-house-wants-ai-companies-to-cover-rate-hikes-most-have-already-said-they-would/</link>
-    <guid>https://techcrunch.com/2026/02/25/the-white-house-wants-ai-companies-to-cover-rate-hikes-most-have-already-said-they-would/</guid>
-    <pubDate>Wed, 25 Feb 2026 20:42:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Many hyperscalers have already made public commitments to cover electricity cost increases.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Trump claims tech companies will sign deals next week to pay for their own power supply</title>
-    <link>https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump</link>
-    <guid>https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump</guid>
-    <pubDate>Wed, 25 Feb 2026 20:37:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>President Donald Trump tried to quell Americans&apos; concerns about rising electricity costs during his State of the Union speech - and now we&apos;re learning that the deals he promised could land next...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Here’s how the new Samsung Galaxy S26 compares with last year’s S25</title>
-    <link>https://www.theverge.com/gadgets/884281/samsung-galaxy-s26-plus-ultra-vs-s25-specs-features</link>
-    <guid>https://www.theverge.com/gadgets/884281/samsung-galaxy-s26-plus-ultra-vs-s25-specs-features</guid>
-    <pubDate>Wed, 25 Feb 2026 20:09:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Samsung unveiled its Galaxy S26 lineup at its recent Unpacked event in San Francisco. As expected, the new series consists of the baseline S26, which starts at $899.99, and the bigger S26 Plus,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Alphabet-owned robotics software company Intrinsic joins Google</title>
-    <link>https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google/</link>
-    <guid>https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google/</guid>
-    <pubDate>Wed, 25 Feb 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nearly five years after graduating into an independent Alphabet company, Intrinsic is moving under Google&apos;s domain.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Riley Walz, the Jester of Silicon Valley, Is Joining OpenAI</title>
-    <link>https://www.wired.com/story/openai-hires-riley-walz/</link>
-    <guid>https://www.wired.com/story/openai-hires-riley-walz/</guid>
-    <pubDate>Wed, 25 Feb 2026 19:59:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The software engineer is famous for his online stunts. Now he’s joining the company behind ChatGPT to work on new ways for humans to use AI systems.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google and Samsung just launched the AI features Apple couldn’t with Siri</title>
-    <link>https://www.theverge.com/tech/884703/google-samsung-galaxy-s26-gemini-apple-siri</link>
-    <guid>https://www.theverge.com/tech/884703/google-samsung-galaxy-s26-gemini-apple-siri</guid>
-    <pubDate>Wed, 25 Feb 2026 19:56:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google just announced that Gemini will soon be able to take care of some multistep tasks on your phone, like ordering food or hailing a car, starting first with the Pixel 10, Pixel 10 Pro, and the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Wearable startup CUDIS launches a new health ring line with an AI-fueled ‘coach’</title>
-    <link>https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/</link>
-    <guid>https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/</guid>
-    <pubDate>Wed, 25 Feb 2026 19:10:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The wearable incentivizes healthy behavior with points that can be redeemed for health products.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Preorders for Samsung’s S26 phones come with up to $200 in gift cards</title>
-    <link>https://www.theverge.com/gadgets/883829/samsung-galaxy-s26-plus-ultra-how-to-buy-preorder-price-release-date</link>
-    <guid>https://www.theverge.com/gadgets/883829/samsung-galaxy-s26-plus-ultra-how-to-buy-preorder-price-release-date</guid>
-    <pubDate>Wed, 25 Feb 2026 19:09:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>As expected, Samsung has taken the wraps off its flagship lineup for 2026. Introduced during the company&apos;s recent Unpacked event, the new Galaxy devices - which include the standard S26, the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The public opposition to AI infrastructure is heating up</title>
-    <link>https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/</link>
-    <guid>https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/</guid>
-    <pubDate>Wed, 25 Feb 2026 19:03:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Public backlash over the data center boom is leading to a variety of draconian policies — including bans on new construction.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Kalshi says it fined a MrBeast editor and a politician for insider trading</title>
-    <link>https://www.theverge.com/policy/884570/kalshi-insider-trading-mrbeast-fines</link>
-    <guid>https://www.theverge.com/policy/884570/kalshi-insider-trading-mrbeast-fines</guid>
-    <pubDate>Wed, 25 Feb 2026 18:20:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Kalshi, the prediction betting market, has disclosed its first fines for insider trading, as reported earlier by The Wall Street Journal. In addition to handing down a $20,000 fine to a MrBeast...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
