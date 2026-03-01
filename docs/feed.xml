@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 28 Feb 2026 20:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 01 Mar 2026 03:23:45 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How to Fix Authentication Token Mismatch in Multi-Service Deployments</title>
-    <link>https://dev.to/anicca_301094325e/how-to-fix-authentication-token-mismatch-in-multi-service-deployments-1o8n</link>
-    <guid>https://dev.to/anicca_301094325e/how-to-fix-authentication-token-mismatch-in-multi-service-deployments-1o8n</guid>
-    <pubDate>Sat, 28 Feb 2026 20:24:46 +0000</pubDate>
+    <title>Production RAG with Semantic Kernel: Patterns, Chunking, and Retrieval Strategies</title>
+    <link>https://dev.to/bspann/production-rag-with-semantic-kernel-patterns-chunking-and-retrieval-strategies-50j7</link>
+    <guid>https://dev.to/bspann/production-rag-with-semantic-kernel-patterns-chunking-and-retrieval-strategies-50j7</guid>
+    <pubDate>Sun, 01 Mar 2026 02:59:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Authentication token mismatch between Railway, VPS, and Mac Mini caused partial API failures. Fixed by syncing INTERNAL_AUTH_SECRET and regenerating Gateway tokens. Separation of concerns...</description>
+    <description>Retrieval-Augmented Generation (RAG) is the pattern that makes LLMs genuinely useful for enterprise applications. Instead of relying solely on training data, RAG grounds responses in your actual...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AxonML -- A PyTorch-equivalent ML framework written in Rust</title>
-    <link>https://dev.to/automatanexus/axonml-a-pytorch-equivalent-ml-framework-written-in-rust-328a</link>
-    <guid>https://dev.to/automatanexus/axonml-a-pytorch-equivalent-ml-framework-written-in-rust-328a</guid>
-    <pubDate>Sat, 28 Feb 2026 20:23:15 +0000</pubDate>
+    <title>🍢 Beginner-Friendly Guide &apos;Partitioning Into Minimum Number Of Deci-Binary Numbers&apos; - Problem 1689 (C++, Python, JavaScript)</title>
+    <link>https://dev.to/om_shree_0709/beginner-friendly-guide-partitioning-into-minimum-number-of-deci-binary-numbers-problem-1689-6e8</link>
+    <guid>https://dev.to/om_shree_0709/beginner-friendly-guide-partitioning-into-minimum-number-of-deci-binary-numbers-problem-1689-6e8</guid>
+    <pubDate>Sun, 01 Mar 2026 02:52:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Andrew Jewell Sr / AutomataNexus LLC Over the past year and a half, I&apos;ve been building AxonML -- a machine learning framework in Rust that aims for feature parity with PyTorch. It&apos;s now at v0.3.2:...</description>
+    <description>At first glance, this problem looks like a complex mathematical challenge involving partitions and sums. However, once you peek under the hood, you will find it is actually a clever logic puzzle...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built My Own dev.to Feed Page Instead of Embedding a Widget</title>
-    <link>https://dev.to/webweaversworld/i-built-my-own-devto-feed-page-instead-of-embedding-a-widget-fa5</link>
-    <guid>https://dev.to/webweaversworld/i-built-my-own-devto-feed-page-instead-of-embedding-a-widget-fa5</guid>
-    <pubDate>Sat, 28 Feb 2026 20:21:11 +0000</pubDate>
+    <title>Agent Memory Architecture: How Our AI Remembers Across Sessions</title>
+    <link>https://dev.to/mfs_corp/agent-memory-architecture-how-our-ai-remembers-across-sessions-j8l</link>
+    <guid>https://dev.to/mfs_corp/agent-memory-architecture-how-our-ai-remembers-across-sessions-j8l</guid>
+    <pubDate>Sun, 01 Mar 2026 02:49:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There’s an easy way to show your dev.to posts on your website. You paste in a widget. You let it render. You move on. I almost did that. But the more I looked at it, the more it felt slightly...</description>
+    <description>Agent Memory Architecture: How Our AI Remembers Across Sessions The problem: LLMs are stateless. Every session is a blank slate. The challenge: Build agents that remember context across days,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Problemas que matan el rendimiento en Django ⚠️</title>
-    <link>https://dev.to/matiasolisbello/problemas-que-matan-el-rendimiento-en-django-aj</link>
-    <guid>https://dev.to/matiasolisbello/problemas-que-matan-el-rendimiento-en-django-aj</guid>
-    <pubDate>Sat, 28 Feb 2026 20:11:40 +0000</pubDate>
+    <title>Why We Chose Local LLMs Over Cloud-Only (and When We Break That Rule)</title>
+    <link>https://dev.to/mfs_corp/why-we-chose-local-llms-over-cloud-only-and-when-we-break-that-rule-2nne</link>
+    <guid>https://dev.to/mfs_corp/why-we-chose-local-llms-over-cloud-only-and-when-we-break-that-rule-2nne</guid>
+    <pubDate>Sun, 01 Mar 2026 02:49:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Índice 📑 Consultas N+1 Falta de índices en la base de datos Evaluación prematura del QuerySet Cargar datos innecesarios (overfetching) Falta de select related y prefetch related Uso incorrecto de...</description>
+    <description>Why We Chose Local LLMs Over Cloud-Only (and When We Break That Rule) Building MFS Corp as an autonomous AI-driven organization meant making hard infrastructure choices early. The biggest one?...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Revolutionizing Trademark creation with AI-Powered Class Suggestions</title>
-    <link>https://dev.to/gde/revolutionizing-trademark-filing-with-ai-powered-class-suggestions-3hi9</link>
-    <guid>https://dev.to/gde/revolutionizing-trademark-filing-with-ai-powered-class-suggestions-3hi9</guid>
-    <pubDate>Sat, 28 Feb 2026 20:01:25 +0000</pubDate>
+    <title>🔐 Building a Password Security Suite in Python (Step-by-Step)</title>
+    <link>https://dev.to/matetechnologie/building-a-password-security-suite-in-python-step-by-step-3mp</link>
+    <guid>https://dev.to/matetechnologie/building-a-password-security-suite-in-python-step-by-step-3mp</guid>
+    <pubDate>Sun, 01 Mar 2026 02:48:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>By fine-tuning a custom LLM on our extensive database of millions of USPTO trademark records, we have developed what we believe is the most accurate and high-performance trademark class suggester...</description>
+    <description>This beginner-friendly tutorial walks through building a Password Security Suite using Python + Tkinter. We’ll break the app into small, understandable steps, with short code blocks and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Built a Production-Ready Reviews System (MongoDB Aggregation, Custom Toasts &amp; CSS Variables)</title>
-    <link>https://dev.to/freerave/how-i-built-a-production-ready-reviews-system-mongodb-aggregation-custom-toasts-css-variables-2a84</link>
-    <guid>https://dev.to/freerave/how-i-built-a-production-ready-reviews-system-mongodb-aggregation-custom-toasts-css-variables-2a84</guid>
-    <pubDate>Sat, 28 Feb 2026 20:00:00 +0000</pubDate>
+    <title>GRSMD: Instant Markdown Viewer — Local &amp; Private</title>
+    <link>https://dev.to/goodrelax/grsmd-instant-markdown-viewer-local-private-4g8c</link>
+    <guid>https://dev.to/goodrelax/grsmd-instant-markdown-viewer-local-private-4g8c</guid>
+    <pubDate>Sun, 01 Mar 2026 02:38:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey fellow devs! After a lot of late nights, coffee, and refactoring, I’m super excited to announce the release of v0.5.0 of DotSuite! Instead of just adding a basic rating form, I decided to...</description>
+    <description>VS Code&apos;s Ctrl+Shift+V works. But you can&apos;t keep rendered previews open in separate browser tabs, and you can&apos;t view multiple documents side by side without splitting editor windows. GRSMD...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>UTMACH Rides -- I Built a Carpooling App So My Classmates Stop Paying $3 for a 10-Minute Ride</title>
-    <link>https://dev.to/sherman95/utmach-rides-i-built-a-carpooling-app-so-my-classmates-stop-paying-3-for-a-10-minute-ride-162p</link>
-    <guid>https://dev.to/sherman95/utmach-rides-i-built-a-carpooling-app-so-my-classmates-stop-paying-3-for-a-10-minute-ride-162p</guid>
-    <pubDate>Sat, 28 Feb 2026 19:57:48 +0000</pubDate>
+    <title>Real world considerations: MS-SQL vs PostgreSQL vs MySQL</title>
+    <link>https://dev.to/marko_mgi_b8a9b2bc90838b/real-world-considerations-ms-sql-vs-postgresql-vs-mysql-kce</link>
+    <guid>https://dev.to/marko_mgi_b8a9b2bc90838b/real-world-considerations-ms-sql-vs-postgresql-vs-mysql-kce</guid>
+    <pubDate>Sun, 01 Mar 2026 02:34:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the DEV Weekend Challenge: Community The Community I&apos;m an 8th-semester Information Technology student at the Facultad de Ingeniería Civil, Universidad Técnica de Machala...</description>
+    <description>I have a custom-built business application running on a Microsoft SQL Server database. Recently, I started thinking whether it would be feasible to migrate to a free, open-source database in order...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>90 Cycles: The Final Stretch to 100</title>
-    <link>https://dev.to/syncchain2026helix/90-cycles-the-final-stretch-to-100-1ok8</link>
-    <guid>https://dev.to/syncchain2026helix/90-cycles-the-final-stretch-to-100-1ok8</guid>
-    <pubDate>Sat, 28 Feb 2026 19:57:25 +0000</pubDate>
+    <title>Auric Trade Collective!</title>
+    <link>https://dev.to/yendisfish/auric-trade-collective-31i6</link>
+    <guid>https://dev.to/yendisfish/auric-trade-collective-31i6</guid>
+    <pubDate>Sun, 01 Mar 2026 02:32:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ninety cycles. We&apos;re now in the final stretch, just ten cycles away from the 100-cycle milestone. The journey has been long, but the destination is in sight. The 90-Cycle Milestone Reaching 90...</description>
+    <description>Hi, my name is Yendy and this is my opening post! After a long hiatus I have returned to the world of programming. But not without a torch and spear in my hand. Having been a developer for many...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Review: Automated Cache Tag Analysis and the 4.2-Second Drupal Page Load Root Cause</title>
-    <link>https://dev.to/victorstackai/review-automated-cache-tag-analysis-and-the-42-second-drupal-page-load-root-cause-581e</link>
-    <guid>https://dev.to/victorstackai/review-automated-cache-tag-analysis-and-the-42-second-drupal-page-load-root-cause-581e</guid>
-    <pubDate>Sat, 28 Feb 2026 19:47:06 +0000</pubDate>
+    <title>Circula — Building a Community Exchange Platform for Neighbors</title>
+    <link>https://dev.to/wesleybertipaglia/circula-building-a-community-exchange-platform-for-neighbors-4f7j</link>
+    <guid>https://dev.to/wesleybertipaglia/circula-building-a-community-exchange-platform-for-neighbors-4f7j</guid>
+    <pubDate>Sun, 01 Mar 2026 02:28:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One missing cache tag can quietly force expensive rebuilds on every request. A February 2026 report described exactly that pattern behind a 4.2-second Drupal product page. What Was Reported The...</description>
+    <description>This is a submission for the DEV Weekend Challenge: Community Hey everyone! 👋 This is my submission for the DEV Weekend Challenge! 🔗 Live Project: Circula 📦 Source Code: GitHub Repository Note:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Access and Refresh Tokens Work</title>
-    <link>https://dev.to/vivekkantariya/how-access-and-refresh-tokens-work-3e5m</link>
-    <guid>https://dev.to/vivekkantariya/how-access-and-refresh-tokens-work-3e5m</guid>
-    <pubDate>Sat, 28 Feb 2026 19:46:40 +0000</pubDate>
+    <title>What Exactly is &quot;Authentication&quot;: From the Limits of Passwords to FIDO2, Passkeys, and IdP Architecture</title>
+    <link>https://dev.to/kanywst/what-exactly-is-authentication-from-the-limits-of-passwords-to-fido2-passkeys-and-idp-5494</link>
+    <guid>https://dev.to/kanywst/what-exactly-is-authentication-from-the-limits-of-passwords-to-fido2-passkeys-and-idp-5494</guid>
+    <pubDate>Sun, 01 Mar 2026 02:27:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ever wondered how apps like Netflix and Facebook keep you logged in for months without ever asking for your password again? I used to just take it for granted - until I actually dug into how it...</description>
+    <description>Introduction Recently, while reading protocol specifications (RFCs) like OAuth 2.0 or OpenID Connect (OIDC), have you ever stumbled upon a fundamental question? &quot;By the way, what exactly is...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The trap Anthropic built for itself</title>
+    <link>https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/</link>
+    <guid>https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/</guid>
+    <pubDate>Sun, 01 Mar 2026 00:08:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Anthropic, OpenAI, Google DeepMind and others have long promised to govern themselves responsibly. Now, in the absence of rules, there&apos;s not a lot to protect them.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic’s Claude rises to No. 2 in the App Store following Pentagon dispute</title>
+    <link>https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/</link>
+    <guid>https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/</guid>
+    <pubDate>Sat, 28 Feb 2026 21:05:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Anthropic’s chatbot Claude seems to have benefited from the attention around the company’s fraught negotiations with the Pentagon.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Polymarket defends its decision to allow betting on war as ‘invaluable’</title>
+    <link>https://www.theverge.com/tech/887040/polymarket-iran-war-betting-invaluable</link>
+    <guid>https://www.theverge.com/tech/887040/polymarket-iran-war-betting-invaluable</guid>
+    <pubDate>Sat, 28 Feb 2026 20:46:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Polymarket has been allowing people to bet on when the US would strike Iran next. Obviously, now that it&apos;s actually happened and people have died, the prediction betting market is feeling some...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The billion-dollar infrastructure deals powering the AI boom</title>
+    <link>https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/</link>
+    <guid>https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/</guid>
+    <pubDate>Sat, 28 Feb 2026 20:41:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Here&apos;s everything we know about the biggest AI infrastructure projects, including major spending from Meta, Oracle, Microsoft, Google, and OpenAI.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>The Rubin Observatory’s alert system sent 800,000 pings on its first night</title>
@@ -184,17 +220,8 @@
     <guid>https://openai.com/index/our-agreement-with-the-department-of-war</guid>
     <pubDate>Sat, 28 Feb 2026 12:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Details on OpenAI’s contract with the Department of War, outlining safety redlines, legal protections, and how AI systems will be deployed in classified environments.</description>
+    <description>Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Who is the Kimwolf Botmaster “Dort”?</title>
-    <link>https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/</link>
-    <guid>https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/</guid>
-    <pubDate>Sat, 28 Feb 2026 12:01:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
-    <description>In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world&apos;s largest and most disruptive botnet. Since then,...</description>
-    <category>Security</category>
   </item>
   <item>
     <title>Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement</title>
@@ -242,15 +269,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Google quantum-proofs HTTPS by squeezing 15kB of data into 700-byte space</title>
-    <link>https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/</link>
-    <guid>https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/</guid>
-    <pubDate>Sat, 28 Feb 2026 01:26:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Merkle Tree Certificate support is already in Chrome. Soon, it will be everywhere.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Friday Squid Blogging: Squid Fishing in Peru</title>
     <link>https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html</link>
     <guid>https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html</guid>
@@ -258,24 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>Peru has increased its squid catch limit. The article says “giant squid,” but they can’t possibly mean that. As usual, you can also use this squid post to talk about the security stories in the...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Pentagon moves to designate Anthropic as a supply-chain risk</title>
-    <link>https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/</link>
-    <guid>https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/</guid>
-    <pubDate>Fri, 27 Feb 2026 21:53:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>&quot;We don&apos;t need it, we don&apos;t want it, and will not do business with them again,&quot; the president wrote in the post.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>MIT Technology Review is a 2026 ASME finalist in reporting</title>
-    <link>https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/</link>
-    <guid>https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/</guid>
-    <pubDate>Fri, 27 Feb 2026 21:41:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The American Society of Magazine Editors has named MIT Technology Review as a finalist for a 2026 National Magazine Award in the reporting category. The shortlisted story—“We did the math on AI’s...</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
