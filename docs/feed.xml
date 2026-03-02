@@ -5,70 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 02 Mar 2026 05:20:25 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Mar 2026 09:02:15 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Retrofitマルチパート完全ガイド — ファイルアップロード/画像送信/進捗表示</title>
-    <link>https://dev.to/myougatheaxo/retrofitmarutipatowan-quan-gaido-huairuatupurodohua-xiang-song-xin-jin-bu-biao-shi-n12</link>
-    <guid>https://dev.to/myougatheaxo/retrofitmarutipatowan-quan-gaido-huairuatupurodohua-xiang-song-xin-jin-bu-biao-shi-n12</guid>
-    <pubDate>Mon, 02 Mar 2026 05:09:11 +0000</pubDate>
+    <title>Tecno’s latest concept phone is lit by neon</title>
+    <link>https://www.theverge.com/gadgets/886923/tecnos-latest-concept-phone-is-lit-by-neon</link>
+    <guid>https://www.theverge.com/gadgets/886923/tecnos-latest-concept-phone-is-lit-by-neon</guid>
+    <pubDate>Mon, 02 Mar 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After teasing a magnetic, modular smartphone concept the other day, Tecno has followed that up with another two phone designs centered around color-changing finishes: one with E Ink, and the other...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Here are a few options, from most direct to more story-driven: **Option 1 (Recommended):** Solved: From Dart to TypeScript: ...</title>
+    <link>https://dev.to/techresolve/here-are-a-few-options-from-most-direct-to-more-story-driven-option-1-recommended-solved-4e36</link>
+    <guid>https://dev.to/techresolve/here-are-a-few-options-from-most-direct-to-more-story-driven-option-1-recommended-solved-4e36</guid>
+    <pubDate>Mon, 02 Mar 2026 08:59:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>この記事で学べること Retrofitマルチパート（ファイルアップロード、画像送信、進捗表示、複数ファイル）を解説します。 API定義 interface UploadApi { @Multipart @POST(&quot;upload&quot;) suspend fun uploadFile( @Part file: MultipartBody.Part, @Part(&quot;description&quot;)...</description>
+    <description>🚀 Executive Summary TL;DR: A Dart developer’s streaming JSON parser in TypeScript, using event-emitter callbacks, is not idiomatic for modern TS. The article guides transitioning from...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Kubernetes Cluster Attacks Surge in 2026: How to Harden Your K8s</title>
-    <link>https://dev.to/deepseax/kubernetes-cluster-attacks-surge-in-2026-how-to-harden-your-k8s-foo</link>
-    <guid>https://dev.to/deepseax/kubernetes-cluster-attacks-surge-in-2026-how-to-harden-your-k8s-foo</guid>
-    <pubDate>Mon, 02 Mar 2026 05:08:56 +0000</pubDate>
+    <title>Did that actually help? Evaluating AI coding assistants with hard numbers</title>
+    <link>https://dev.to/danielbutlerirl/did-that-actually-help-evaluating-ai-coding-assistants-with-hard-numbers-417k</link>
+    <guid>https://dev.to/danielbutlerirl/did-that-actually-help-evaluating-ai-coding-assistants-with-hard-numbers-417k</guid>
+    <pubDate>Mon, 02 Mar 2026 08:58:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As Kubernetes adoption surges across enterprise environments, attackers are developing increasingly sophisticated exploits targeting misconfigured clusters. In March 2026, CSO Online reported a...</description>
+    <description>You are building a Skill, an MCP server, or a custom prompt strategy that is supposed to make an AI coding assistant better at a specific job. You make a change. The next session feels smoother....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building SoloQuest: Letting Gemini Be the DM, and Code Be the Referee</title>
-    <link>https://dev.to/austin_amento_860aebb9f55/building-soloquest-letting-gemini-be-the-dm-and-code-be-the-referee-3e89</link>
-    <guid>https://dev.to/austin_amento_860aebb9f55/building-soloquest-letting-gemini-be-the-dm-and-code-be-the-referee-3e89</guid>
-    <pubDate>Mon, 02 Mar 2026 05:08:09 +0000</pubDate>
+    <title>How to Hash Passwords in Python and Encrypt Sensitive Data the Right Way</title>
+    <link>https://dev.to/devasservice/how-to-hash-passwords-in-python-and-encrypt-sensitive-data-the-right-way-4n38</link>
+    <guid>https://dev.to/devasservice/how-to-hash-passwords-in-python-and-encrypt-sensitive-data-the-right-way-4n38</guid>
+    <pubDate>Mon, 02 Mar 2026 08:58:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Built with Google Gemini: Writing Challenge What I Built with Google Gemini SoloQuest started with a question that felt a little absurd and a little irresistible:...</description>
+    <description>You’re building your first serious application, a chat app, a password manager, maybe even an e-commerce platform. Everything looks solid until someone asks: “How are user passwords stored?”...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Navigation Result完全ガイド — 画面間データ返却/SavedStateHandle/previousBackStackEntry</title>
-    <link>https://dev.to/myougatheaxo/navigation-resultwan-quan-gaido-hua-mian-jian-detafan-que-savedstatehandlepreviousbackstackentry-2id3</link>
-    <guid>https://dev.to/myougatheaxo/navigation-resultwan-quan-gaido-hua-mian-jian-detafan-que-savedstatehandlepreviousbackstackentry-2id3</guid>
-    <pubDate>Mon, 02 Mar 2026 05:07:58 +0000</pubDate>
+    <title>Parsing Nutrition Labels with AI: From Image to Structured Data</title>
+    <link>https://dev.to/albert_nahas_cdc8469a6ae8/parsing-nutrition-labels-with-ai-from-image-to-structured-data-56b2</link>
+    <guid>https://dev.to/albert_nahas_cdc8469a6ae8/parsing-nutrition-labels-with-ai-from-image-to-structured-data-56b2</guid>
+    <pubDate>Mon, 02 Mar 2026 08:55:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>この記事で学べること Navigation Result（画面間のデータ返却、SavedStateHandle、previousBackStackEntry、型安全なResult）を解説します。 SavedStateHandleでResult返却 // 選択画面: 結果をセット @Composable fun ColorPickerScreen(navController:...</description>
+    <description>The rise of health-conscious consumers and digital wellness tools has fueled a growing demand for accurate, structured nutrition data. Whether you&apos;re building a calorie tracker, a diet-friendly...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building the Agent Harness: Why the Environment Matters More Than the Model</title>
-    <link>https://dev.to/skhandelwal/building-the-agent-harness-why-the-environment-matters-more-than-the-model-39ie</link>
-    <guid>https://dev.to/skhandelwal/building-the-agent-harness-why-the-environment-matters-more-than-the-model-39ie</guid>
-    <pubDate>Mon, 02 Mar 2026 05:02:36 +0000</pubDate>
+    <title>A maze to solve when you&apos;re bored</title>
+    <link>https://dev.to/jusfkinaroundiguess/a-maze-to-solve-when-youre-bored-4j76</link>
+    <guid>https://dev.to/jusfkinaroundiguess/a-maze-to-solve-when-youre-bored-4j76</guid>
+    <pubDate>Mon, 02 Mar 2026 08:55:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How system prompts define agent behavior, why the codebase around the agent is what makes it productive, and where the industry is heading. Everything I&apos;m about to share comes from roughly a month...</description>
+    <description>I was bored so I decided to make this little game for other programmers who might be in the same predicament. Ever had those moments when you&apos;re just tired of reading logs on your black screen...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SSL/TLS Certificate News 2026</title>
-    <link>https://dev.to/certera_/ssltls-certificate-news-2026-2b7j</link>
-    <guid>https://dev.to/certera_/ssltls-certificate-news-2026-2b7j</guid>
-    <pubDate>Mon, 02 Mar 2026 05:00:14 +0000</pubDate>
+    <title>Preocupado com os riscos da IA ao executar comandos? Descubra as proteções de segurança do TRAE</title>
+    <link>https://dev.to/captaincc/preocupado-com-os-riscos-da-ia-ao-executar-comandos-descubra-as-protecoes-de-seguranca-do-trae-1ge3</link>
+    <guid>https://dev.to/captaincc/preocupado-com-os-riscos-da-ia-ao-executar-comandos-descubra-as-protecoes-de-seguranca-do-trae-1ge3</guid>
+    <pubDate>Mon, 02 Mar 2026 08:54:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>SSL/TLS Certificates Validity Public SSL/TLS Certificates will no longer be issued for one year; they will now be valid for 199 days with shorter renewal periods. DigiCert DigiCert will implement...</description>
+    <description>01 TRAE: Segurança e Confiança como Pilares do seu IDE Com a evolução exponencial dos modelos de IA e das capacidades dos Agentes, os assistentes de programação tornaram-se &quot;copilotos&quot;...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Numbers That Deflate the AI Hype About Replacing Coders—and Ease FOMO</title>
-    <link>https://dev.to/canro91/the-numbers-that-deflate-the-ai-hype-about-replacing-coders-and-ease-fomo-3a0g</link>
-    <guid>https://dev.to/canro91/the-numbers-that-deflate-the-ai-hype-about-replacing-coders-and-ease-fomo-3a0g</guid>
-    <pubDate>Mon, 02 Mar 2026 05:00:00 +0000</pubDate>
+    <title>Lesser-Known but Powerful Vue Features</title>
+    <link>https://dev.to/jacobandrewsky/lesser-known-but-powerful-vue-features-1pp0</link>
+    <guid>https://dev.to/jacobandrewsky/lesser-known-but-powerful-vue-features-1pp0</guid>
+    <pubDate>Mon, 02 Mar 2026 08:51:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Only 25% of developers regularly use AI agents, according to Sonar&apos;s survey. After surveying more than 1,100 developers across the globe, they found: 90% of respondents use AI for assisting...</description>
+    <description>Vue is often praised for its simplicity and clean API. Most developers are familiar with: ref() reactive() computed() watch() v-if / v-for But Vue also includes several lesser-known features that...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>TRAE Skills: Potencialize sua IA com Módulos de Especialização</title>
+    <link>https://dev.to/captaincc/trae-skills-potencialize-sua-ia-com-modulos-de-especializacao-17fl</link>
+    <guid>https://dev.to/captaincc/trae-skills-potencialize-sua-ia-com-modulos-de-especializacao-17fl</guid>
+    <pubDate>Mon, 02 Mar 2026 08:51:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>O TRAE acaba de lançar as Skills (Beta), agora totalmente integradas ao modo SOLO. Construídas sob o padrão aberto de Agent Skills, elas permitem encapsular instruções, scripts e recursos em um...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Caching Strategies That Will Make Your App 100x Faster</title>
+    <link>https://dev.to/_85e8844dcca5f98bfa936/caching-strategies-that-will-make-your-app-100x-faster-3e1j</link>
+    <guid>https://dev.to/_85e8844dcca5f98bfa936/caching-strategies-that-will-make-your-app-100x-faster-3e1j</guid>
+    <pubDate>Mon, 02 Mar 2026 08:51:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Caching is the single most impactful optimization you can make. Here&apos;s a practical guide to caching strategies, patterns, and pitfalls. Why Cache? A database query takes 5-50ms. A cache hit takes...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building RoomLink: A Community-Driven Housing Platform for Nigerians</title>
+    <link>https://dev.to/mrsolomon/building-roomlink-a-community-driven-housing-platform-for-nigerians-1ahf</link>
+    <guid>https://dev.to/mrsolomon/building-roomlink-a-community-driven-housing-platform-for-nigerians-1ahf</guid>
+    <pubDate>Mon, 02 Mar 2026 08:51:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This is a submission for the DEV Weekend Challenge: Community The Community RoomLink was built for students, young professionals, NYSC members, and working-class Nigerians who struggle to find...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Vivo’s next phone will launch with a professional camera rig</title>
+    <link>https://www.theverge.com/gadgets/887250/vivo-x300-ultra-global-launch-telephoto-camera-cage</link>
+    <guid>https://www.theverge.com/gadgets/887250/vivo-x300-ultra-global-launch-telephoto-camera-cage</guid>
+    <pubDate>Mon, 02 Mar 2026 08:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Vivo rarely has a presence at MWC, but this year it bucked that trend in a big way, with the reveal of its next flagship phone, the X300 Ultra, alongside an upgraded telephoto extender lens and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Qualcomm’s new chip is geared toward wearable AI gadgets</title>
+    <link>https://www.theverge.com/tech/886434/qualcomm-snapdragon-wear-elite-wearables</link>
+    <guid>https://www.theverge.com/tech/886434/qualcomm-snapdragon-wear-elite-wearables</guid>
+    <pubDate>Mon, 02 Mar 2026 07:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Like it or not, more AI wearables may be on the horizon - or at least Qualcomm seems to think so. Today the company announced its new Snapdragon Wear Elite chip. At a press briefing, Qualcomm said...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>The Motorola Razr Fold is shaping up to be pure flagship</title>
@@ -78,33 +132,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Motorola has revealed a little more about its upcoming folding phone, and all signs point toward a premium option - not the budget-friendlier alternative the category could use. For starters, the...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Book Chapter</title>
-    <link>https://dev.to/kathleen_bonaventure/book-chapter-3jpl</link>
-    <guid>https://dev.to/kathleen_bonaventure/book-chapter-3jpl</guid>
-    <pubDate>Mon, 02 Mar 2026 04:53:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the DEV Weekend Challenge: Community The Community Book clubs foster human connections and relationships. They are everywhere and, in modern times, have also transitioned...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Anime x Code: Forge Your Isekai ID</title>
-    <link>https://dev.to/konark_13/anime-x-code-forge-your-isekai-id-1cal</link>
-    <guid>https://dev.to/konark_13/anime-x-code-forge-your-isekai-id-1cal</guid>
-    <pubDate>Mon, 02 Mar 2026 04:45:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the DEV Weekend Challenge: Community I am a huge fan of anime. I love watching anime. Anime is a very big part of how I spend my free time, there&apos;s so much I learned from...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building an AI Agent on OpenEMR: What the Docs Don&apos;t Tell You</title>
-    <link>https://dev.to/faheem_syed/building-an-ai-agent-on-openemr-what-the-docs-dont-tell-you-4kkj</link>
-    <guid>https://dev.to/faheem_syed/building-an-ai-agent-on-openemr-what-the-docs-dont-tell-you-4kkj</guid>
-    <pubDate>Mon, 02 Mar 2026 04:44:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>OpenEMR is one of the most widely deployed open-source EHR systems in the world, but building an AI agent on top of it involves a handful of non-obvious gotchas that will burn you if you go in...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>A robot arm with puppy dog eyes is just one of Lenovo&amp;#8217;s new desktop AI concepts</title>
@@ -161,15 +188,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Kalshi voids some bets on Khamenei’s ouster because it’s ‘directly tied to death’</title>
-    <link>https://www.theverge.com/tech/887210/kalshi-void-bets-khamenei-death</link>
-    <guid>https://www.theverge.com/tech/887210/kalshi-void-bets-khamenei-death</guid>
-    <pubDate>Sun, 01 Mar 2026 18:06:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In a statement on X, Kalshi CEO Tarek Mansour said his company would pay out positions on &quot;Ali Khamenei out as Supreme Leader?&quot; at the last trading price before his death. Mansour said that Kalshi...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Google looks to tackle longstanding RCS spam in India — but not alone</title>
     <link>https://techcrunch.com/2026/03/01/google-looks-to-tackle-longstanding-rcs-spam-in-india-but-not-alone/</link>
     <guid>https://techcrunch.com/2026/03/01/google-looks-to-tackle-longstanding-rcs-spam-in-india-but-not-alone/</guid>
@@ -186,24 +204,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>By CEO Sam Altman’s own admission, OpenAI’s deal with the Department of Defense was “definitely rushed,” and “the optics don’t look good.”</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Lego’s Smart Brick is here, and it transforms these new Star Wars sets</title>
-    <link>https://www.theverge.com/gadgets/886014/lego-smart-brick-star-wars-set-price-availability-release-date-buy</link>
-    <guid>https://www.theverge.com/gadgets/886014/lego-smart-brick-star-wars-set-price-availability-release-date-buy</guid>
-    <pubDate>Sun, 01 Mar 2026 16:00:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Lego&apos;s new Smart Brick is a pretty big deal. It packs a miniature computer, a microphone, and NFC tech into a classic 2×4 Lego brick, which can power all sorts of new experiences with select sets....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Soundcore’s Space 2 are an evolution of its budget headphones</title>
-    <link>https://www.theverge.com/tech/886180/soundcore-space-2-announcement-mwc-2026</link>
-    <guid>https://www.theverge.com/tech/886180/soundcore-space-2-announcement-mwc-2026</guid>
-    <pubDate>Sun, 01 Mar 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>We finally have an update to the Soundcore Space One that launched two and a half years ago. At MWC 2026, Soundcore has announced the Space 2, which will be available in the US on April 21st in...</description>
-    <category>Tech Industry</category>
   </item>
   <item>
     <title>Anthropic’s Claude rises to No. 1 in the App Store following Pentagon dispute</title>
