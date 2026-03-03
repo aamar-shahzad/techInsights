@@ -5,25 +5,160 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 02 Mar 2026 20:52:04 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Mar 2026 03:14:19 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How I catch AI code mistakes before they break my project</title>
-    <link>https://dev.to/joelaben/how-i-catch-ai-code-mistakes-before-they-break-my-project-34f6</link>
-    <guid>https://dev.to/joelaben/how-i-catch-ai-code-mistakes-before-they-break-my-project-34f6</guid>
-    <pubDate>Mon, 02 Mar 2026 20:48:03 +0000</pubDate>
+    <title>Claude Code, 깔아놓고 채팅만 하고 있다면 — CLAUDE.md, Hooks, MCP 설정법</title>
+    <link>https://dev.to/ji_ai/claude-code-ggalanohgo-caetingman-hago-issdamyeon-claudemd-hooks-mcp-seoljeongbeob-3o18</link>
+    <guid>https://dev.to/ji_ai/claude-code-ggalanohgo-caetingman-hago-issdamyeon-claudemd-hooks-mcp-seoljeongbeob-3o18</guid>
+    <pubDate>Tue, 03 Mar 2026 03:06:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hi Dev community, I built a VS Code AI copilot that not only generates code but also catches subtle AI mistakes before they reach your repo. It forces structured specs, lets you refine requests,...</description>
+    <description>Claude Code를 깔았다. claude를 치면 대화창이 뜬다. 거기서 “이 버그 고쳐줘” “테스트 짜줘”를 한다. 여기서 멈춰있는 사람이 많다. Claude Code의 진짜 힘은 채팅창이 아니라 설정 파일 3개에 있다. CLAUDE.md, Hooks 설정, MCP 서버 연결. 이 셋만 잡아도 체감이 완전히 달라진다. CLAUDE.md — 세션이...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Selenium Gets Detected? How to Hide the Fact of Browser Automation</title>
-    <link>https://dev.to/onlineproxy_io/why-selenium-gets-detected-how-to-hide-the-fact-of-browser-automation-3ade</link>
-    <guid>https://dev.to/onlineproxy_io/why-selenium-gets-detected-how-to-hide-the-fact-of-browser-automation-3ade</guid>
-    <pubDate>Mon, 02 Mar 2026 20:45:58 +0000</pubDate>
+    <title>If You Installed Claude Code and Only Chat With It — You’re Missing the Point</title>
+    <link>https://dev.to/ji_ai/if-you-installed-claude-code-and-only-chat-with-it-youre-missing-the-point-4elg</link>
+    <guid>https://dev.to/ji_ai/if-you-installed-claude-code-and-only-chat-with-it-youre-missing-the-point-4elg</guid>
+    <pubDate>Tue, 03 Mar 2026 03:05:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every automation engineer eventually hits &quot;The Wall.&quot; You write a script. It works flawlessly on your local machine. It passes staging. Then, you point it at production or a sophisticated target...</description>
+    <description>You installed Claude Code. You type claude. A chat opens. You ask it to fix bugs and write tests. If that’s where you stopped, you’re using maybe 20% of it. Claude Code’s real power lives in three...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Claude API로 앱 만들기 — Tool Use, RAG, Agent 패턴 전부 정리</title>
+    <link>https://dev.to/ji_ai/claude-apiro-aeb-mandeulgi-tool-use-rag-agent-paeteon-jeonbu-jeongri-g57</link>
+    <guid>https://dev.to/ji_ai/claude-apiro-aeb-mandeulgi-tool-use-rag-agent-paeteon-jeonbu-jeongri-g57</guid>
+    <pubDate>Tue, 03 Mar 2026 03:04:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Claude API를 호출하는 건 쉽다. messages.create에 프롬프트 넣으면 답이 온다. 근데 이것만으로는 서비스가 안 된다. 진짜 앱을 만들려면 3가지가 더 필요하다. Tool Use, RAG, Agent/Workflow 패턴. Tool Use — Claude에게 손을 달아주는 것 Tool Use를 쓰면 Claude가 외부 함수를 호출할...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building Real Apps With the Claude API — Tool Use, RAG, and Agent Patterns Explained</title>
+    <link>https://dev.to/ji_ai/building-real-apps-with-the-claude-api-tool-use-rag-and-agent-patterns-explained-kcb</link>
+    <guid>https://dev.to/ji_ai/building-real-apps-with-the-claude-api-tool-use-rag-and-agent-patterns-explained-kcb</guid>
+    <pubDate>Tue, 03 Mar 2026 03:04:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Calling the Claude API is easy. Put a prompt in messages.create, get an answer back. But that alone doesn’t make a product. To build a real app, you need three more things: Tool Use, RAG, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Anthropic이 공짜로 풀어놓은 13개 강의, 내가 다 뜯어봤다</title>
+    <link>https://dev.to/ji_ai/anthropici-gongjjaro-puleonoheun-13gae-gangyi-naega-da-ddeudeobwassda-3h0d</link>
+    <guid>https://dev.to/ji_ai/anthropici-gongjjaro-puleonoheun-13gae-gangyi-naega-da-ddeudeobwassda-3h0d</guid>
+    <pubDate>Tue, 03 Mar 2026 03:03:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Anthropic이 Skilljar라는 플랫폼에 강의 13개를 올려놨다. 전부 무료. 수료증도 준다. Anthropic 계정도 필요 없고, 이메일로 Skilljar 가입만 하면 바로 들을 수 있다. 근데 13개를 전부 들을 시간은 없다. 나도 없었다. 그래서 커리큘럼을 전부 뜯어보고, 공개된 요약, 노트, 리뷰까지 다 긁어서 정리했다. 결론부터...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Anthropic Dropped 13 Free Courses — I Broke Down Every Single One</title>
+    <link>https://dev.to/ji_ai/anthropic-dropped-13-free-courses-i-broke-down-every-single-one-p87</link>
+    <guid>https://dev.to/ji_ai/anthropic-dropped-13-free-courses-i-broke-down-every-single-one-p87</guid>
+    <pubDate>Tue, 03 Mar 2026 03:03:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Anthropic quietly put 13 courses on a platform called Skilljar. All free. Certificates included. You don’t even need an Anthropic account — just sign up with your email and you’re in. But nobody...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How I Built a Credit Card Management Dashboard (And Why Spreadsheets Were Not Cutting It)</title>
+    <link>https://dev.to/stackeasy/how-i-built-a-credit-card-management-dashboard-and-why-spreadsheets-were-not-cutting-it-il1</link>
+    <guid>https://dev.to/stackeasy/how-i-built-a-credit-card-management-dashboard-and-why-spreadsheets-were-not-cutting-it-il1</guid>
+    <pubDate>Tue, 03 Mar 2026 02:56:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I had 17 credit cards open. Each one had a purpose. 0% APR on a balance transfer expiring in four months. A business card earning 3x on advertising. A personal card with rotating 5% categories....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>P2P Communication Between Android and HarmonyOS Wearable (FA + Stage Model) Device - Technical Guide</title>
+    <link>https://dev.to/harmonyos/p2p-communication-between-android-and-next-wearable-fa-stage-model-device-technical-guide-3d9e</link>
+    <guid>https://dev.to/harmonyos/p2p-communication-between-android-and-next-wearable-fa-stage-model-device-technical-guide-3d9e</guid>
+    <pubDate>Tue, 03 Mar 2026 02:55:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Read the original article：P2P Communication Between Android and HarmonyOS Wearable (FA + Stage Model) Device - Technical Guide Problem Description Establishing reliable peer-to-peer (P2P)...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>A Practical Guide to Manual Testing Techniques and Their Future</title>
+    <link>https://dev.to/gayathri_n_655d0ba138c9f2/a-practical-guide-to-manual-testing-techniques-and-their-future-28jf</link>
+    <guid>https://dev.to/gayathri_n_655d0ba138c9f2/a-practical-guide-to-manual-testing-techniques-and-their-future-28jf</guid>
+    <pubDate>Tue, 03 Mar 2026 02:53:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Common Manual Testing Techniques Manual testing plays a vital role in ensuring software quality, especially during the early stages of development. It relies on a tester’s understanding,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>SentinelOne Intelligence Brief: Iranian Cyber Activity Outlook</title>
+    <link>https://dev.to/mark0_617b45cda9782a/sentinelone-intelligence-brief-iranian-cyber-activity-outlook-3hjm</link>
+    <guid>https://dev.to/mark0_617b45cda9782a/sentinelone-intelligence-brief-iranian-cyber-activity-outlook-3hjm</guid>
+    <pubDate>Tue, 03 Mar 2026 02:50:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>⚠️ Region Alert: UAE/Middle East Recent geopolitical escalations between Iran, the United States, and Israel have significantly heightened the risk of Iranian state-aligned cyber activity. Iran...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Cursor has reportedly surpassed $2B in annualized revenue</title>
+    <link>https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/</link>
+    <guid>https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/</guid>
+    <pubDate>Tue, 03 Mar 2026 01:53:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The four-year-old startup saw its revenue run rate double over the past three months, according to one Bloomberg source.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>What Is That Mysterious Metallic Device US Chief Design Officer Joe Gebbia Is Using?</title>
+    <link>https://www.wired.com/story/joe-gebbia-mystery-metallic-device/</link>
+    <guid>https://www.wired.com/story/joe-gebbia-mystery-metallic-device/</guid>
+    <pubDate>Tue, 03 Mar 2026 01:06:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Gebbia was reportedly spotted at a San Francisco coffee shop using an unidentified pair of earbuds with a circular disc that looks similar to the device seen in a recent OpenAI hoax ad.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>This AI Agent Is Ready to Serve, Mid-Phone Call</title>
+    <link>https://www.wired.com/story/deutsche-telekom-elevenlabs-ai-phone-calls-mwc-2026/</link>
+    <guid>https://www.wired.com/story/deutsche-telekom-elevenlabs-ai-phone-calls-mwc-2026/</guid>
+    <pubDate>Tue, 03 Mar 2026 00:25:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Deutsche Telekom, the German cell provider—which holds a majority stake in T-Mobile—is partnering with ElevenLabs to enable an AI assistant on all of its network’s calls in Germany. No app required.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>ChatGPT uninstalls surged by 295% after DoD deal</title>
+    <link>https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/</link>
+    <guid>https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/</guid>
+    <pubDate>Tue, 03 Mar 2026 00:03:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Many consumers ditched ChatGPT&apos;s app after news of its DoD deal went live, while Claude&apos;s downloads grew.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>No one has a good plan for how AI companies should work with the government</title>
+    <link>https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/</link>
+    <guid>https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/</guid>
+    <pubDate>Mon, 02 Mar 2026 22:59:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>As OpenAI transitions from a wildly successful consumer startup into a piece of national security infrastructure, the company seems unequipped to manage its new responsibilities.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic upgrades Claude’s memory to attract AI switchers</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/887885/anthropic-claude-memory-upgrades-importing</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/887885/anthropic-claude-memory-upgrades-importing</guid>
+    <pubDate>Mon, 02 Mar 2026 22:29:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Anthropic is making it easier to switch to its Claude AI from other chatbots with an update that brings Claude&apos;s memory feature to users on the free plan, along with a new prompt and dedicated...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple’s cheapest AirPods have hit $89</title>
+    <link>https://www.theverge.com/gadgets/887839/apple-airpods-4-active-noise-cancellation-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/887839/apple-airpods-4-active-noise-cancellation-deal-sale</guid>
+    <pubDate>Mon, 02 Mar 2026 22:03:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It’s a good day for Apple fans on a budget. Not only did the company introduce a new budget phone, its entry-level AirPods 4 are also on sale. Right now, you can snag a pair of Apple’s AirPods 4...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>How the new iPhone 17E stacks up against Apple’s pricier phones</title>
@@ -35,60 +170,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Tsonnet #31 - Taking back control of equality</title>
-    <link>https://dev.to/bitmaybewise/tsonnet-31-taking-back-control-of-equality-5gn6</link>
-    <guid>https://dev.to/bitmaybewise/tsonnet-31-taking-back-control-of-equality-5gn6</guid>
-    <pubDate>Mon, 02 Mar 2026 20:40:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Welcome to the Tsonnet series! If you&apos;re not following along, check out how it all started in the first post of the series. In the previous post, I implemented the equality operator: Tsonnet #30 -...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>From Vibe Coding to Spec-Driven Development (Building a Car Classifieds App)</title>
-    <link>https://dev.to/incomplete_developer/from-vibe-coding-to-spec-driven-development-building-a-car-classifieds-app-5f50</link>
-    <guid>https://dev.to/incomplete_developer/from-vibe-coding-to-spec-driven-development-building-a-car-classifieds-app-5f50</guid>
-    <pubDate>Mon, 02 Mar 2026 20:39:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI coding tools make it incredibly easy to build quick prototypes. Most developers are familiar with “vibe coding” — prompting an AI in chat and getting a working application almost instantly. For...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Solved: how I used Webflow + automation + SEO to replace $1.2K/month in Upwork leads</title>
-    <link>https://dev.to/techresolve/solved-how-i-used-webflow-automation-seo-to-replace-12kmonth-in-upwork-leads-1hme</link>
-    <guid>https://dev.to/techresolve/solved-how-i-used-webflow-automation-seo-to-replace-12kmonth-in-upwork-leads-1hme</guid>
-    <pubDate>Mon, 02 Mar 2026 20:35:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🚀 Executive Summary TL;DR: Freelancers relying on platforms like Upwork face dependency and inconsistent lead flow, leading to commoditization. The solution involves building an owned, automated...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Meet BlokJS - 9 KB, No Build Step, Standalone, Full FE Framework</title>
-    <link>https://dev.to/maleta/meet-blokjs-9-kb-no-build-step-standalone-full-fe-framework-3gfg</link>
-    <guid>https://dev.to/maleta/meet-blokjs-9-kb-no-build-step-standalone-full-fe-framework-3gfg</guid>
-    <pubDate>Mon, 02 Mar 2026 20:32:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>BlokJS - Zero-Build, Zero-Dependency, Standalone, Reactive, Lightweight UI Framework New project, new frontend. Install Node. Pick a bundler. Configure TypeScript. Install a router package....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Expanding the Dataset: A Comprehensive Guide to SQL Joins and Window Functions</title>
-    <link>https://dev.to/dennis_ogaka_2d188ab5bef7/expanding-the-dataset-a-comprehensive-guide-to-sql-joins-and-window-functions-gg7</link>
-    <guid>https://dev.to/dennis_ogaka_2d188ab5bef7/expanding-the-dataset-a-comprehensive-guide-to-sql-joins-and-window-functions-gg7</guid>
-    <pubDate>Mon, 02 Mar 2026 20:25:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Joins and Window Functions in SQL Joins and Window Functions in SQL are two concepts that significantly elevate querying skills. These tools allow you to combine datasets and perform advanced...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>GoodMonkey - 57% Reduction* in Claude Code Context via Extensible Proxy</title>
-    <link>https://dev.to/simplemindedrobot/goodmonkey-57-reduction-in-claude-code-context-via-extensible-proxy-5bh7</link>
-    <guid>https://dev.to/simplemindedrobot/goodmonkey-57-reduction-in-claude-code-context-via-extensible-proxy-5bh7</guid>
-    <pubDate>Mon, 02 Mar 2026 20:24:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been running Claude Code since it launched — long sessions, heavy tool use, complex multi-file work. And I kept hitting the same wall: around 200 turns, the model starts losing track....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Apple might use Google servers to store data for its upgraded AI Siri</title>
     <link>https://www.theverge.com/tech/887802/apple-ai-siri-google-servers</link>
     <guid>https://www.theverge.com/tech/887802/apple-ai-siri-google-servers</guid>
@@ -96,24 +177,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Apple has asked Google to look into &quot;setting up servers&quot; for a new version of Siri that&apos;s Gemini-powered and meets Apple&apos;s privacy requirements, The Information reports. Apple had already...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Design a Rate Limiter</title>
-    <link>https://dev.to/josephakayesi/design-a-rate-limiter-4bkf</link>
-    <guid>https://dev.to/josephakayesi/design-a-rate-limiter-4bkf</guid>
-    <pubDate>Mon, 02 Mar 2026 20:21:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Rate Limiting — System Design Deep Dive A rate limiter is a piece of software that regulates how much traffic a client can send to a server within a given period of time. At scale, rate limiting...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Killed MarketingNow and Built XPilot Instead. Here&apos;s Why.</title>
-    <link>https://dev.to/alexcloudstar/i-killed-marketingnow-and-built-xpilot-instead-heres-why-13hp</link>
-    <guid>https://dev.to/alexcloudstar/i-killed-marketingnow-and-built-xpilot-instead-heres-why-13hp</guid>
-    <pubDate>Mon, 02 Mar 2026 20:21:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent months building MarketingNow, watched it flatline in real time, and then built the right product in a fraction of the time. This is the story of what went wrong, what I actually learned...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Mastodon now has a button for sharing content from other websites</title>
@@ -134,7 +197,7 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Users are ditching ChatGPT for Claude. Here’s how to make the switch</title>
+    <title>Users are ditching ChatGPT for Claude — here’s how to make the switch</title>
     <link>https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/</link>
     <guid>https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/</guid>
     <pubDate>Mon, 02 Mar 2026 18:42:11 +0000</pubDate>
@@ -213,69 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Google has announced a new program in its Chrome browser to ensure that HTTPS certificates are secure against the future risk posed by quantum computers. &quot;To ensure the scalability and efficiency...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>The Analogue Pocket will be back in stock and slightly more expensive</title>
-    <link>https://www.theverge.com/tech/887599/analogue-pocket-restock-tariffs-available</link>
-    <guid>https://www.theverge.com/tech/887599/analogue-pocket-restock-tariffs-available</guid>
-    <pubDate>Mon, 02 Mar 2026 16:46:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Analogue announced a restock for its Pocket handheld, but for the second time since late 2021, it&apos;s getting a price bump, this time to $239.99. The Pocket will once again be available for preorder...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Magic Keyboard cases for the latest iPad Pro are up to $85 off</title>
-    <link>https://www.theverge.com/gadgets/887501/ipad-magic-keyboard-case-m4-pro-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/887501/ipad-magic-keyboard-case-m4-pro-deal-sale</guid>
-    <pubDate>Mon, 02 Mar 2026 16:30:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple’s Magic Keyboard cases offer a fantastic typing experience, elevating the iPad to laptop status with a large trackpad that offers haptic feedback, and an articulating hinge to help you angle...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>A married founder duo’s company, 14.ai, is replacing customer support teams at startups</title>
-    <link>https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/</link>
-    <guid>https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/</guid>
-    <pubDate>Mon, 02 Mar 2026 15:14:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>14.ai also launched a consumer brand to understand how much AI can handle customer support tasks.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Anthropic’s Claude reports widespread outage</title>
-    <link>https://techcrunch.com/2026/03/02/anthropics-claude-reports-widespread-outage/</link>
-    <guid>https://techcrunch.com/2026/03/02/anthropics-claude-reports-widespread-outage/</guid>
-    <pubDate>Mon, 02 Mar 2026 13:31:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic&apos;s AI chatbot Claude experienced widespread service disruptions on Monday morning, with thousands of users reporting issues accessing the bot.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>⚡ Weekly Recap: SD-WAN 0-Day, Critical CVEs, Telegram Probe, Smart TV Proxy SDK and More</title>
-    <link>https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html</link>
-    <guid>https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html</guid>
-    <pubDate>Mon, 02 Mar 2026 13:26:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>This week is not about one big event. It shows where things are moving. Network systems, cloud setups, AI tools, and common apps are all being pushed in different ways. Small gaps in access...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Download: protesting AI, and what’s floating in space</title>
-    <link>https://www.technologyreview.com/2026/03/02/1133811/the-download-protesting-ai-and-whats-floating-in-space/</link>
-    <guid>https://www.technologyreview.com/2026/03/02/1133811/the-download-protesting-ai-and-whats-floating-in-space/</guid>
-    <pubDate>Mon, 02 Mar 2026 13:20:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I checked out one of the biggest anti-AI protests ever...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>I checked out one of the biggest anti-AI protests ever</title>
-    <link>https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/</link>
-    <guid>https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/</guid>
-    <pubDate>Mon, 02 Mar 2026 12:55:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Pull the plug! Pull the plug! Stop the slop! Stop the slop! For a few hours this Saturday, February 28, I watched as a couple of hundred anti-AI protesters marched through London’s King’s Cross...</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
