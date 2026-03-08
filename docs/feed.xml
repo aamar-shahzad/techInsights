@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 08 Mar 2026 08:48:20 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Mar 2026 13:10:45 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How to Scale Your Engineering Team from 10 to 100</title>
-    <link>https://dev.to/mikael_danielian_0f5a0e0/how-to-scale-your-engineering-team-from-10-to-100-1nbl</link>
-    <guid>https://dev.to/mikael_danielian_0f5a0e0/how-to-scale-your-engineering-team-from-10-to-100-1nbl</guid>
-    <pubDate>Sun, 08 Mar 2026 08:47:29 +0000</pubDate>
+    <title>HTTP 402 Was Reserved in 1997. AI Agents Finally Make It Useful.</title>
+    <link>https://dev.to/arthur_liao_8a/http-402-was-reserved-in-1997-ai-agents-finally-make-it-useful-2d5o</link>
+    <guid>https://dev.to/arthur_liao_8a/http-402-was-reserved-in-1997-ai-agents-finally-make-it-useful-2d5o</guid>
+    <pubDate>Sun, 08 Mar 2026 13:00:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>March 06, 2026 / Mikael Danielian Most engineering leaders hit a wall somewhere between 10 and 30 people. What worked when you could hold the whole team in one standup stops working — fast. The...</description>
+    <description>Last month, one of my AI agents tried to call another agent&apos;s skin analysis API. It had the credentials. It had the data. But there was no way to pay $0.002 for that single inference call without...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How a 2% Latency Spike Collapses a 20-Service System and How to Prevent It</title>
-    <link>https://dev.to/mlondy/how-a-2-latency-spike-collapses-a-20-service-system-and-how-to-prevent-it-2a3p</link>
-    <guid>https://dev.to/mlondy/how-a-2-latency-spike-collapses-a-20-service-system-and-how-to-prevent-it-2a3p</guid>
-    <pubDate>Sun, 08 Mar 2026 08:46:35 +0000</pubDate>
+    <title>NestJS 멀티테넌트 DB 커넥션 풀 동적 관리: Promise 캐싱과 Lazy Loading</title>
+    <link>https://dev.to/artistrator/nestjs-meoltiteneonteu-db-keonegsyeon-pul-dongjeog-gwanri-promise-kaesinggwa-lazy-loading-2a7e</link>
+    <guid>https://dev.to/artistrator/nestjs-meoltiteneonteu-db-keonegsyeon-pul-dongjeog-gwanri-promise-kaesinggwa-lazy-loading-2a7e</guid>
+    <pubDate>Sun, 08 Mar 2026 12:57:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last week, we modeled cascading database connection pool exhaustion in a distributed microservices architecture. No servers were killed. No regions failed. No database crashed. But the system...</description>
+    <description>배경 / 문제 상황 SaaS 서비스를 운영하다 보면 테넌트마다 별도 데이터베이스를 써야 하는 경우가 있다. 우리 서비스는 각 고객사가 독립된 DB를 사용하는 구조인데, 처음에는 단순하게 접근했다. // 초기 접근: 요청마다 DataSource 생성 async getRepository(tenantCode: string, entity:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>NestJS 마이크로서비스에서 SSE 스트리밍 추상화하기 — Redis Pub/Sub 기반 3-Tier Base Class 설계</title>
-    <link>https://dev.to/artistrator/nestjs-maikeuroseobiseueseo-sse-seuteuriming-cusanghwahagi-redis-pubsub-giban-3-tier-base-class-seolgye-2n8k</link>
-    <guid>https://dev.to/artistrator/nestjs-maikeuroseobiseueseo-sse-seuteuriming-cusanghwahagi-redis-pubsub-giban-3-tier-base-class-seolgye-2n8k</guid>
-    <pubDate>Sun, 08 Mar 2026 08:44:55 +0000</pubDate>
+    <title>NestJS MSA에서 TypeORM FindOperator가 사라지는 문제 — Interceptor로 해결하기</title>
+    <link>https://dev.to/artistrator/nestjs-msaeseo-typeorm-findoperatorga-sarajineun-munje-interceptorro-haegyeolhagi-cpo</link>
+    <guid>https://dev.to/artistrator/nestjs-msaeseo-typeorm-findoperatorga-sarajineun-munje-interceptorro-haegyeolhagi-cpo</guid>
+    <pubDate>Sun, 08 Mar 2026 12:56:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>NestJS 마이크로서비스에서 SSE 스트리밍 추상화하기 — Redis Pub/Sub 기반 3-Tier Base Class 설계 배경 / 문제 상황 MSA 환경에서 실시간 이벤트를 클라이언트에 전달해야 했다. 우리 서비스는 ECS 위에 여러 인스턴스가 뜨고, 이벤트를 발행하는 마이크로서비스와 SSE를 내려보내는 Gateway가 물리적으로 다른...</description>
+    <description>문제: TCP로 보내면 FindOperator가 깨진다 NestJS 마이크로서비스 아키텍처에서 Gateway → Microservice 간 TCP 통신을 사용한다. 문제는 TypeORM의 FindOperator가 클래스 인스턴스라는 점이다. // Gateway에서 이렇게 보내면...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Solved: Bundle Size Investigation: A Step-by-Step Guide to Shrinking Your JavaScript</title>
-    <link>https://dev.to/techresolve/solved-bundle-size-investigation-a-step-by-step-guide-to-shrinking-your-javascript-1a7n</link>
-    <guid>https://dev.to/techresolve/solved-bundle-size-investigation-a-step-by-step-guide-to-shrinking-your-javascript-1a7n</guid>
-    <pubDate>Sun, 08 Mar 2026 08:43:59 +0000</pubDate>
+    <title>Writing My First Redux Code — And Realizing How Similar It Is to useReducer</title>
+    <link>https://dev.to/usama_dev/writing-my-first-redux-code-and-realizing-how-similar-it-is-to-usereducer-1hb9</link>
+    <guid>https://dev.to/usama_dev/writing-my-first-redux-code-and-realizing-how-similar-it-is-to-usereducer-1hb9</guid>
+    <pubDate>Sun, 08 Mar 2026 12:56:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🚀 Executive Summary TL;DR: Bloated JavaScript bundles lead to slow web app performance and poor user experience, often stemming from excessive dependency imports and inefficient loading. This...</description>
+    <description>Yesterday I started exploring Redux and one thing immediately stood out to me. Redux feels very similar to React’s useReducer hook. Yesterday I mostly observed and tried to understand the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Spot the Savings 🎯 Run Non-Critical Workloads on Azure Spot VMs and Save Up to 90%</title>
-    <link>https://dev.to/suhas_mallesh/spot-the-savings-run-non-critical-workloads-on-azure-spot-vms-and-save-up-to-90-2bcd</link>
-    <guid>https://dev.to/suhas_mallesh/spot-the-savings-run-non-critical-workloads-on-azure-spot-vms-and-save-up-to-90-2bcd</guid>
-    <pubDate>Sun, 08 Mar 2026 08:42:44 +0000</pubDate>
+    <title>Stop using magic strings in your Firestore .NET queries</title>
+    <link>https://dev.to/mihail_brinza/stop-using-magic-strings-in-your-firestore-net-queries-59p4</link>
+    <guid>https://dev.to/mihail_brinza/stop-using-magic-strings-in-your-firestore-net-queries-59p4</guid>
+    <pubDate>Sun, 08 Mar 2026 12:54:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your CI runners, batch jobs, and dev environments don&apos;t need guaranteed availability. Azure Spot VMs use unused capacity at up to 90% discount. Here&apos;s how to deploy them safely with Terraform,...</description>
+    <description>If you use Firestore with .NET, you&apos;ve probably written code like this: query.WhereEqualTo(&quot;Location.home_country&quot;, &quot;Portugal&quot;); That &quot;Location.home_country&quot; is a string. Nobody checks it at...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Self-Contract Pattern: Why Scalable AI Agents Have Three Required Files</title>
-    <link>https://dev.to/askpatrick/the-self-contract-pattern-why-scalable-ai-agents-have-three-required-files-2mpi</link>
-    <guid>https://dev.to/askpatrick/the-self-contract-pattern-why-scalable-ai-agents-have-three-required-files-2mpi</guid>
-    <pubDate>Sun, 08 Mar 2026 08:42:20 +0000</pubDate>
+    <title>Stop Writing JSON Schemas by Hand: I Built a Generator That Creates Them Automatically</title>
+    <link>https://dev.to/devadatta_baireddy/stop-writing-json-schemas-by-hand-i-built-a-generator-that-creates-them-automatically-ibf</link>
+    <guid>https://dev.to/devadatta_baireddy/stop-writing-json-schemas-by-hand-i-built-a-generator-that-creates-them-automatically-ibf</guid>
+    <pubDate>Sun, 08 Mar 2026 12:53:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most AI agents fail the same way: they drift. Not dramatically. Gradually. The agent that was crisp and reliable on day one starts hallucinating its own scope on day thirty. It tries things it...</description>
+    <description>Stop Writing JSON Schemas by Hand: I Built a Generator That Creates Them Automatically Here&apos;s a problem every API developer faces: You have a JSON response from your API. Something like: { &quot;id&quot;:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Turn Telegram into your AI Terminal: Introducing Telegram Coding Bridge (Now Open Source!)</title>
-    <link>https://dev.to/rahul_kumar_455bdcde9a880/turn-telegram-into-your-ai-terminal-introducing-telegram-coding-bridge-now-open-source-48kb</link>
-    <guid>https://dev.to/rahul_kumar_455bdcde9a880/turn-telegram-into-your-ai-terminal-introducing-telegram-coding-bridge-now-open-source-48kb</guid>
-    <pubDate>Sun, 08 Mar 2026 08:42:19 +0000</pubDate>
+    <title>Open Source Project of the Day (Part 10): AgentEvolver - Self-Evolving Agent System for Autonomous Learning and Evolution</title>
+    <link>https://dev.to/wonderlab/open-source-project-of-the-day-part-10-agentevolver-self-evolving-agent-system-for-autonomous-5636</link>
+    <guid>https://dev.to/wonderlab/open-source-project-of-the-day-part-10-agentevolver-self-evolving-agent-system-for-autonomous-5636</guid>
+    <pubDate>Sun, 08 Mar 2026 12:53:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Have you ever needed to quickly drop a file onto your local machine, restart a dev server, or even ask an AI to refactor a file while you&apos;re away from your desk? I just open-sourced Telegram...</description>
+    <description>Introduction &quot;If AI agents could evolve like biological organisms — autonomously discovering problems, accumulating experience, and optimizing strategies — they would no longer be static tools,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Claude Code를 팀의 시니어 개발자로 만들기: .claude 디렉토리 설계 전략</title>
-    <link>https://dev.to/artistrator/claude-codereul-timyi-sinieo-gaebaljaro-mandeulgi-claude-diregtori-seolgye-jeonryag-5cmo</link>
-    <guid>https://dev.to/artistrator/claude-codereul-timyi-sinieo-gaebaljaro-mandeulgi-claude-diregtori-seolgye-jeonryag-5cmo</guid>
-    <pubDate>Sun, 08 Mar 2026 08:41:59 +0000</pubDate>
+    <title>The Validate Phase: How I Catch AI Code Issues Before They Reach My Tests</title>
+    <link>https://dev.to/rickjms/the-validate-phase-how-i-catch-ai-code-issues-before-they-reach-my-tests-31c8</link>
+    <guid>https://dev.to/rickjms/the-validate-phase-how-i-catch-ai-code-issues-before-they-reach-my-tests-31c8</guid>
+    <pubDate>Sun, 08 Mar 2026 12:52:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>배경 / 문제 상황 AI 코딩 도구를 사용하다 보면 한 가지 불만이 생긴다. 매번 같은 규칙을 알려줘야 한다는 것. &quot;Entity에는 반드시 comment를 넣어줘&quot;, &quot;DTO에는 ApiProperty 빼먹지 마&quot;, &quot;import 순서는 이렇게 해&quot;... 프로젝트 컨벤션을 매번 프롬프트에 넣는 건 비효율적이다. Claude Code의 .claude...</description>
+    <description>Series context: This is a deep-dive follow-up to How I Automate Parts of My SDLC with AI Agents. If you haven&apos;t read that post, the short version: I built an agentic dev workflow (ADW) that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Solved: Are we ignoring the main source of AI cost? Not the GPU price, but wasted training &amp; serving minutes.</title>
-    <link>https://dev.to/techresolve/solved-are-we-ignoring-the-main-source-of-ai-cost-not-the-gpu-price-but-wasted-training--3e1c</link>
-    <guid>https://dev.to/techresolve/solved-are-we-ignoring-the-main-source-of-ai-cost-not-the-gpu-price-but-wasted-training--3e1c</guid>
-    <pubDate>Sun, 08 Mar 2026 08:41:43 +0000</pubDate>
+    <title>Building Your Own AI Agent: A Practical Guide with LangGraph</title>
+    <link>https://dev.to/midas126/building-your-own-ai-agent-a-practical-guide-with-langgraph-4gfj</link>
+    <guid>https://dev.to/midas126/building-your-own-ai-agent-a-practical-guide-with-langgraph-4gfj</guid>
+    <pubDate>Sun, 08 Mar 2026 12:51:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🚀 Executive Summary TL;DR: The true cost of AI stems from wasted training and serving minutes, not GPU hardware prices, often due to a ‘fire and forget’ mentality. Solutions range from quick ‘Dead...</description>
+    <description>From Chatbots to Autonomous Agents: The Next AI Frontier We&apos;ve all interacted with AI chatbots. You ask a question, it provides an answer. But what if your AI could not just answer, but act? What...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I&apos;d Build an AI Agent to Predict the T20 World Cup 2026</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/how-id-build-an-ai-agent-to-predict-the-t20-world-cup-2026-5aha</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/how-id-build-an-ai-agent-to-predict-the-t20-world-cup-2026-5aha</guid>
-    <pubDate>Sun, 08 Mar 2026 08:39:18 +0000</pubDate>
+    <title>When AI Tries to contact the FBI</title>
+    <link>https://dev.to/helixcipher/when-ai-tries-to-contact-the-fbi-5cg6</link>
+    <guid>https://dev.to/helixcipher/when-ai-tries-to-contact-the-fbi-5cg6</guid>
+    <pubDate>Sun, 08 Mar 2026 12:51:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How I&apos;d Build an AI Agent to Predict the T20 World Cup 2026 Twenty teams. Spinning dustbowls in Kandy. Flat batting decks in Mumbai. The ICC Men&apos;s T20 World Cup 2026 is heading to India and Sri...</description>
+    <description>Anthropic’s “Claudius” — an experiment that gives its Claude model autonomy, tools and Slack access to run office vending machines, once panicked over a lingering $2 charge and drafted an urgent...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The cute and cursed story of Furby</title>
+    <link>https://www.theverge.com/podcast/891124/the-cute-and-cursed-story-of-furby</link>
+    <guid>https://www.theverge.com/podcast/891124/the-cute-and-cursed-story-of-furby</guid>
+    <pubDate>Sun, 08 Mar 2026 12:17:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The hottest toy of 1998 was sort of adorable, and sort of annoying. It couldn&apos;t do much - couldn&apos;t do anything, really - but it could look at you, it could say some nonsense phrases, and it seemed...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The uncomfortable truth about hybrid vehicles</title>
+    <link>https://www.theverge.com/column/890135/truth-hybrid-vehicles</link>
+    <guid>https://www.theverge.com/column/890135/truth-hybrid-vehicles</guid>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the EV struggle, follow Andrew J. Hawkins. The Stepback arrives in our subscribers&apos;...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>A roadmap for AI, if anyone will listen</title>
@@ -242,15 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Valve says it still plans to ship the Steam Machine in 2026</title>
-    <link>https://www.theverge.com/games/890986/valve-steam-machine-frame-controller-delay-ram-memory</link>
-    <guid>https://www.theverge.com/games/890986/valve-steam-machine-frame-controller-delay-ram-memory</guid>
-    <pubDate>Fri, 06 Mar 2026 23:39:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A blog post from Valve on Friday initially seemed to throw cold water on the idea that the Steam Machine, Steam Frame, and Steam Controller would arrive in 2026 at all. But Valve tells The Verge...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Friday Squid Blogging: Squid in Byzantine Monk Cooking</title>
     <link>https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-squid-in-byzantine-monk-cooking.html</link>
     <guid>https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-squid-in-byzantine-monk-cooking.html</guid>
@@ -258,15 +267,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>This is a very weird story about how squid stayed on the menu of Byzantine monks by falling between the cracks of dietary rules. At Constantinople’s Monastery of Stoudios, the kitchen didn’t...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Grammarly is using our identities without permission</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews</guid>
-    <pubDate>Fri, 06 Mar 2026 20:58:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Grammarly&apos;s &quot;expert review&quot; feature offers to give users writing advice &quot;inspired by&quot; subject matter experts, including recently deceased professors, as Wired reported on Wednesday. When I tried...</description>
-    <category>Tech Industry</category>
   </item>
   <item>
     <title>Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers</title>
