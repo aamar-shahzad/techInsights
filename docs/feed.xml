@@ -5,25 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 10 Mar 2026 05:15:33 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 10 Mar 2026 09:00:39 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Your Agent Is a Small, Low-Stakes HAL</title>
-    <link>https://dev.to/romanonthego/your-agent-is-a-small-low-stakes-hal-59j8</link>
-    <guid>https://dev.to/romanonthego/your-agent-is-a-small-low-stakes-hal-59j8</guid>
-    <pubDate>Tue, 10 Mar 2026 05:08:29 +0000</pubDate>
+    <title>You Could Be Next</title>
+    <link>https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor</link>
+    <guid>https://www.theverge.com/cs/features/877388/white-collar-workers-training-ai-mercor</guid>
+    <pubDate>Tue, 10 Mar 2026 09:00:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The LinkedIn post seemed like yet another scam job offer, but Katya was desperate enough to click. After college, she’d struggled to make a living as a freelance journalist, gone to grad school,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>I built MLShip — deploy your Streamlit or Gradio ML app in 60 seconds. No Docker. No AWS.</title>
+    <link>https://dev.to/uday_yadav/i-built-mlship-deploy-your-streamlit-or-gradio-ml-app-in-60-seconds-no-docker-no-aws-1en</link>
+    <guid>https://dev.to/uday_yadav/i-built-mlship-deploy-your-streamlit-or-gradio-ml-app-in-60-seconds-no-docker-no-aws-1en</guid>
+    <pubDate>Tue, 10 Mar 2026 08:51:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I work with multi-agent systems that review code, plan architecture, find faults, and critique designs. They fail in ways that are quiet and structural. An agent invents a file that does not...</description>
+    <description>I am a CS student who built something and I am trying to make it better by talking to the right people. That is it. MLShip is a one-click deployment platform for Streamlit and Gradio ML apps. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Directory of 3,900+ Tools for AI Agents</title>
-    <link>https://dev.to/rachel_su_54a233e53a87523/directory-of-3900-tools-for-ai-agents-10kf</link>
-    <guid>https://dev.to/rachel_su_54a233e53a87523/directory-of-3900-tools-for-ai-agents-10kf</guid>
-    <pubDate>Tue, 10 Mar 2026 05:01:20 +0000</pubDate>
+    <title>SQL Joins and Window Functions</title>
+    <link>https://dev.to/njagiii/sql-joins-and-window-functions-3fe7</link>
+    <guid>https://dev.to/njagiii/sql-joins-and-window-functions-3fe7</guid>
+    <pubDate>Tue, 10 Mar 2026 08:50:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I kept running into the same problem: my AI agent would try to build a custom integration from scratch when a perfectly good API already existed. So I built agent101 — an open directory of near...</description>
+    <description>1. JOINS Sometimes it is very difficult to look through data to get specific things. For example, you want the name of customers who made purchases as well as the name of the products they bought....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Zero-Friction Publishing: A Human-in-the-Loop Agentic CMS powered by Notion MCP</title>
+    <link>https://dev.to/lwgena/zero-friction-publishing-a-human-in-the-loop-agentic-cms-powered-by-notion-mcp-12nn</link>
+    <guid>https://dev.to/lwgena/zero-friction-publishing-a-human-in-the-loop-agentic-cms-powered-by-notion-mcp-12nn</guid>
+    <pubDate>Tue, 10 Mar 2026 08:48:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This is a submission for the Notion MCP Challenge What I Built Me: I intend to submit to the Notion MCP challenge. Will the workflow below be a good application? Claude: This is a strong...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The AI Cold Start That Breaks Kubernetes Autoscaling</title>
+    <link>https://dev.to/namratha_3/the-ai-cold-start-that-breaks-kubernetes-autoscaling-280n</link>
+    <guid>https://dev.to/namratha_3/the-ai-cold-start-that-breaks-kubernetes-autoscaling-280n</guid>
+    <pubDate>Tue, 10 Mar 2026 08:47:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Autoscaling usually works extremely well for microservices. When traffic increases, Kubernetes spins up new pods and they begin serving requests within seconds . But AI inference systems behave...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Data Paradigms for the Agent Era: From Human-Readable to AI-Understandable</title>
+    <link>https://dev.to/andrew202510/data-paradigms-for-the-agent-era-from-human-readable-to-ai-understandable-535</link>
+    <guid>https://dev.to/andrew202510/data-paradigms-for-the-agent-era-from-human-readable-to-ai-understandable-535</guid>
+    <pubDate>Tue, 10 Mar 2026 08:47:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>HTML, PDF, JSON — every data format in existence was designed for humans to read. When AI Agents become the primary data consumers, we need to rethink from first principles: what format is best...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building Multi-Agent Slack Routing with OpenClaw</title>
+    <link>https://dev.to/natarajan_murugesan_b00c4/building-multi-agent-slack-routing-with-openclaw-4n5o</link>
+    <guid>https://dev.to/natarajan_murugesan_b00c4/building-multi-agent-slack-routing-with-openclaw-4n5o</guid>
+    <pubDate>Tue, 10 Mar 2026 08:46:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>As AI systems evolve, a single assistant is often not enough. Many workflows benefit from multiple specialized agents — each with its own personality, capabilities, and routing logic. Recently I...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Understanding Core React Hooks with Practical Examples</title>
+    <link>https://dev.to/addwebsolutionpvtltd/understanding-core-react-hooks-with-practical-examples-1okn</link>
+    <guid>https://dev.to/addwebsolutionpvtltd/understanding-core-react-hooks-with-practical-examples-1okn</guid>
+    <pubDate>Tue, 10 Mar 2026 08:46:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>“React Hooks turned complex class components into simple, reusable functions.” Key Takeaways React Hooks replaced class components as the standard way to write React. useState, useEffect, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Getting Started with SQL subqueries. A complete beginner guide with examples.</title>
+    <link>https://dev.to/njagiii/getting-started-with-sql-subqueries-a-complete-beginner-guide-with-examples-2iel</link>
+    <guid>https://dev.to/njagiii/getting-started-with-sql-subqueries-a-complete-beginner-guide-with-examples-2iel</guid>
+    <pubDate>Tue, 10 Mar 2026 08:38:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction Imagine a family unit (parent(s) and children). Every child has their own unique traits i.e height, weight, voice, complexion etc... Now children are to parent(s) what subqueries are...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Introducing the AI Governance Glossary (v1.3.0): A Vocabulary for Behavioral AI Governance</title>
+    <link>https://dev.to/hollowhouse/introducing-the-ai-governance-glossary-v130-a-vocabulary-for-behavioral-ai-governance-40ao</link>
+    <guid>https://dev.to/hollowhouse/introducing-the-ai-governance-glossary-v130-a-vocabulary-for-behavioral-ai-governance-40ao</guid>
+    <pubDate>Tue, 10 Mar 2026 08:33:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI governance discussions usually begin with models, agents, and automation. But complex systems rarely fail because of the technology alone. They fail because behavioral patterns shift faster...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Code doesn’t quit, but people do: Clean Code, Technical Debt, and the Bus Factor</title>
+    <link>https://dev.to/gavincettolo/code-doesnt-quit-but-people-do-why-clean-code-protects-your-company-from-technical-debt-41k2</link>
+    <guid>https://dev.to/gavincettolo/code-doesnt-quit-but-people-do-why-clean-code-protects-your-company-from-technical-debt-41k2</guid>
+    <pubDate>Tue, 10 Mar 2026 08:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR Technical debt isn’t just a developer inconvenience, it’s a business risk with compound interest. When developers leave, they often take the “why” behind the code with them. Clean Code isn’t...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool</title>
+    <link>https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html</link>
+    <guid>https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html</guid>
+    <pubDate>Tue, 10 Mar 2026 07:17:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Salesforce has warned of an increase in threat actor activity that&apos;s aimed at exploiting misconfigurations in publicly accessible Experience Cloud sites by making use of a customized version of an...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited</title>
+    <link>https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html</link>
+    <guid>https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html</guid>
+    <pubDate>Tue, 10 Mar 2026 06:17:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added three security flaws to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Yann LeCun’s AMI Labs raises $1.03 billion to build world models</title>
@@ -40,80 +139,8 @@
     <guid>https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/</guid>
     <pubDate>Tue, 10 Mar 2026 05:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Meta’s former chief AI scientist has long argued that human-level AI will come from mastering the physical world, not language. His new startup, AMI, plans to prove it.</description>
+    <description>Meta’s former chief AI scientist has long argued that human-level AI will come from mastering the physical world, not language. His new startup, AMI, aims to prove it.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>[Open Source] ADEval — A Tool for Evaluating Tool-Use Capabilities of Google ADK AI Agents</title>
-    <link>https://dev.to/gde/open-source-adeval-a-tool-for-evaluating-tool-use-capabilities-of-google-adk-ai-agents-3284</link>
-    <guid>https://dev.to/gde/open-source-adeval-a-tool-for-evaluating-tool-use-capabilities-of-google-adk-ai-agents-3284</guid>
-    <pubDate>Tue, 10 Mar 2026 04:58:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I. Introduction: Why Building a &quot;Stable&quot; AI Agent is Hard As developers, we all know that scaffolding an AI Agent using Google’s Agent Development Kit (ADK) or various LLM frameworks is relatively...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>[Boost]</title>
-    <link>https://dev.to/elizabethfuentes12/-26k9</link>
-    <guid>https://dev.to/elizabethfuentes12/-26k9</guid>
-    <pubDate>Tue, 10 Mar 2026 04:58:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AWS Strands Replaced 40 Lines of LangGraph With 3. Here’s the Full Story Tetiana Mostova for AWS Community Builders ・ Mar 8 #agents #ai #aws #llm</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Evolution of Data: From Codd&apos;s Tables to the NoSQL Rebellion</title>
-    <link>https://dev.to/shubham_pandeyconnoisse/the-evolution-of-data-from-codds-tables-to-the-nosql-rebellion-gjp</link>
-    <guid>https://dev.to/shubham_pandeyconnoisse/the-evolution-of-data-from-codds-tables-to-the-nosql-rebellion-gjp</guid>
-    <pubDate>Tue, 10 Mar 2026 04:54:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A 4-minute history of how the internet broke the rules of data storage The World Before 1970: Organized Chaos Before the relational database existed, storing data was a deeply physical problem....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Git Adventures --- Part 1: Five Developers, One Repo, and the &quot;It Works on My Machine&quot; Era</title>
-    <link>https://dev.to/amareshpati/git-adventures-part-1-five-developers-one-repo-and-the-it-works-on-my-machine-era-118n</link>
-    <guid>https://dev.to/amareshpati/git-adventures-part-1-five-developers-one-repo-and-the-it-works-on-my-machine-era-118n</guid>
-    <pubDate>Tue, 10 Mar 2026 04:50:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every software project begins the same way. Someone says &quot;Let&apos;s build something amazing.&quot; Ten minutes later someone asks: &quot;Wait... who created the Git repo?&quot; This is the story of a five-person...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Secret Life of JavaScript: The Observer</title>
-    <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-observer-53n4</link>
-    <guid>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-observer-53n4</guid>
-    <pubDate>Tue, 10 Mar 2026 04:45:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Stop Polling the DOM: Mastering the Intersection Observer API Timothy leaned back in his chair, listening to the sudden, aggressive whir of his laptop fan. He had just finished implementing a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Weekly Reset Log #1 — Revising ML, DSA, and Fixing Knowledge Gaps</title>
-    <link>https://dev.to/casperday11/weekly-reset-log-1-revising-ml-dsa-and-fixing-knowledge-gaps-hlh</link>
-    <guid>https://dev.to/casperday11/weekly-reset-log-1-revising-ml-dsa-and-fixing-knowledge-gaps-hlh</guid>
-    <pubDate>Tue, 10 Mar 2026 04:43:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I said I would post weekly updates instead of disappearing again, so here’s the first one. This week wasn’t about building anything big. It was mostly about getting back to fundamentals again....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The 60-Year-Old Developer Who Broke Hacker News: This Is What Vibe Coding Actually Looks Like</title>
-    <link>https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7</link>
-    <guid>https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7</guid>
-    <pubDate>Tue, 10 Mar 2026 04:34:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A viral post about rediscovered passion reveals what vibe coding really means — and who benefits most The Story That Hit 1,000+ Points Three days ago, a 17-hour-old Hacker News account posted...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Sift: Local Hybrid Search Without the Infrastructure Tax</title>
-    <link>https://dev.to/rupurt/sift-local-hybrid-search-without-the-infrastructure-tax-487n</link>
-    <guid>https://dev.to/rupurt/sift-local-hybrid-search-without-the-infrastructure-tax-487n</guid>
-    <pubDate>Tue, 10 Mar 2026 04:33:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>sift is a local Rust CLI for document retrieval. Point it at a directory, ask a question, and it runs a full hybrid search pipeline, BM25, dense vector, fusion, optional reranking, and returns...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Nvidia Is Planning to Launch an Open-Source AI Agent Platform</title>
@@ -242,38 +269,11 @@
     <category>AI</category>
   </item>
   <item>
-    <title>‘Cash Apples’ is giving away $500,000 to people who click on trees in a web browser</title>
-    <link>https://www.theverge.com/games/891544/cash-apples-is-giving-away-500000-to-people-who-click-on-trees-in-a-web-browser</link>
-    <guid>https://www.theverge.com/games/891544/cash-apples-is-giving-away-500000-to-people-who-click-on-trees-in-a-web-browser</guid>
-    <pubDate>Mon, 09 Mar 2026 19:30:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Want to make real money just by clicking on virtual trees? Starting today at 1PM PT / 4PM ET, residents of the United States can begin an online hunt for golden apples in a cutesy web game -...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge</title>
     <link>https://huggingface.co/blog/ibm-granite/granite-4-speech</link>
     <guid>https://huggingface.co/blog/ibm-granite/granite-4-speech</guid>
     <pubDate>Mon, 09 Mar 2026 18:36:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials</title>
-    <link>https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html</link>
-    <guid>https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html</guid>
-    <pubDate>Mon, 09 Mar 2026 18:31:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have discovered a malicious npm package that masquerades as an OpenClaw installer to deploy a remote access trojan (RAT) and steal sensitive data from compromised hosts....</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI acquires Promptfoo to secure its AI agents</title>
-    <link>https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/</link>
-    <guid>https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/</guid>
-    <pubDate>Mon, 09 Mar 2026 17:49:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations.</description>
     <category>AI</category>
   </item>
 </channel>
