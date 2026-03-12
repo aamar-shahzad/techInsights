@@ -5,43 +5,205 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 12 Mar 2026 17:10:45 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Mar 2026 20:52:05 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Implementing Pollard&apos;s Kangaroo Algorithm on CUDA</title>
-    <link>https://dev.to/raphaelbgr/implementing-pollards-kangaroo-algorithm-on-cuda-c4j</link>
-    <guid>https://dev.to/raphaelbgr/implementing-pollards-kangaroo-algorithm-on-cuda-c4j</guid>
-    <pubDate>Thu, 12 Mar 2026 17:02:11 +0000</pubDate>
+    <title>I got fed up with my city’s bike-share, so I built BiziData</title>
+    <link>https://dev.to/gcaguilar/i-got-fed-up-with-my-citys-bike-share-so-i-built-bizidata-2mgj</link>
+    <guid>https://dev.to/gcaguilar/i-got-fed-up-with-my-citys-bike-share-so-i-built-bizidata-2mgj</guid>
+    <pubDate>Thu, 12 Mar 2026 20:37:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Implementing Pollard&apos;s Kangaroo Algorithm on CUDA Pollard&apos;s Kangaroo is an algorithm for solving the elliptic curve discrete logarithm problem (ECDLP) when the private key is known to lie in a...</description>
+    <description>Like many of you, I use bike-share system pretty regularly. And, honestly, it drives me nuts: either there’s not a single bike when I need one, or the station is packed and I can’t return mine. It...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Get good at coding to stand out. No doubt! But your code won&apos;t speak for you. Here&apos;s what will:</title>
-    <link>https://dev.to/canro91/get-good-at-coding-to-stand-out-no-doubt-but-your-code-wont-speak-for-you-heres-what-will-56bb</link>
-    <guid>https://dev.to/canro91/get-good-at-coding-to-stand-out-no-doubt-but-your-code-wont-speak-for-you-heres-what-will-56bb</guid>
-    <pubDate>Thu, 12 Mar 2026 17:01:17 +0000</pubDate>
+    <title>Why Your RAG System Needs a Graph Database (Not Just Vectors)</title>
+    <link>https://dev.to/nathanhamlett/why-your-rag-system-needs-a-graph-database-not-just-vectors-52i3</link>
+    <guid>https://dev.to/nathanhamlett/why-your-rag-system-needs-a-graph-database-not-just-vectors-52i3</guid>
+    <pubDate>Thu, 12 Mar 2026 20:22:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Forget Syntax and Lines of Code. Do This to Stand Out Cesar Aguirre ・ Mar 9 #coding #beginners #career #careerdevelopment</description>
+    <description>Why Your RAG System Needs a Graph Database (Not Just Vectors) The standard RAG stack is: embed your documents, store them in a vector database, retrieve the top-k most similar chunks at query...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building Dubai Twin — AI Digital Assistant for Dubai</title>
-    <link>https://dev.to/elhassan_abusharia_9e047d/building-dubai-twin-ai-digital-assistant-for-dubai-5g56</link>
-    <guid>https://dev.to/elhassan_abusharia_9e047d/building-dubai-twin-ai-digital-assistant-for-dubai-5g56</guid>
-    <pubDate>Thu, 12 Mar 2026 17:00:58 +0000</pubDate>
+    <title>Building Conversational AI: Memory Patterns, Context Management, and Conversation Design</title>
+    <link>https://dev.to/bspann/building-conversational-ai-memory-patterns-context-management-and-conversation-design-2i58</link>
+    <guid>https://dev.to/bspann/building-conversational-ai-memory-patterns-context-management-and-conversation-design-2i58</guid>
+    <pubDate>Thu, 12 Mar 2026 20:21:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building Dubai Twin — AI Digital Assistant for Dubai Dubai Twin is an AI-powered digital assistant platform designed to help residents and visitors access trusted information about Dubai and the...</description>
+    <description>Chatbots are easy to build. Conversational AI that actually works is hard. The difference? State management. A real conversation requires remembering what was said, managing context limits, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Structure Every Spring Boot Application as a Senior Developer</title>
-    <link>https://dev.to/paszekdev/how-i-structure-every-spring-boot-application-as-a-senior-developer-5ack</link>
-    <guid>https://dev.to/paszekdev/how-i-structure-every-spring-boot-application-as-a-senior-developer-5ack</guid>
-    <pubDate>Thu, 12 Mar 2026 17:00:00 +0000</pubDate>
+    <title>Reliable AI Outputs: Function Calling, JSON Mode, and Structured Generation in C#</title>
+    <link>https://dev.to/bspann/reliable-ai-outputs-function-calling-json-mode-and-structured-generation-in-c-2m87</link>
+    <guid>https://dev.to/bspann/reliable-ai-outputs-function-calling-json-mode-and-structured-generation-in-c-2m87</guid>
+    <pubDate>Thu, 12 Mar 2026 20:17:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How I Structure Every Spring Boot Application as a Senior Developer Six months ago I reviewed a Spring Boot codebase that had been running in production for two years. 40,000 lines of code. Eight...</description>
+    <description>LLMs are impressive text generators, but production applications need more than prose. You need structured data—JSON objects you can deserialize, decisions you can act on, and outputs that fit...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I was spending an hour every week on spreadsheets to figure out if my apps were profitable - so I automated it</title>
+    <link>https://dev.to/domingo56/i-was-spending-an-hour-every-week-on-spreadsheets-to-figure-out-if-my-apps-were-profitable-so-i-2l4</link>
+    <guid>https://dev.to/domingo56/i-was-spending-an-hour-every-week-on-spreadsheets-to-figure-out-if-my-apps-were-profitable-so-i-2l4</guid>
+    <pubDate>Thu, 12 Mar 2026 20:13:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every week I&apos;d open four different dashboards: Google Play Console → revenue from Android apps App Store Connect → revenue from iOS apps AdMob → ad earnings Google Ads → ad spent on android user...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Bringing Chrome to ARM64 Linux Devices</title>
+    <link>https://blog.chromium.org/2026/03/bringing-chrome-to-arm64-linux-devices.html</link>
+    <guid>https://blog.chromium.org/2026/03/bringing-chrome-to-arm64-linux-devices.html</guid>
+    <pubDate>Thu, 12 Mar 2026 20:13:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://blog.chromium.org/2026/03/bringing-chrome-to-arm64-linux-devices.html Comments URL: https://news.ycombinator.com/item?id=47356392 Points: 6 # Comments: 1</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>95% of Nostr Relays Can&apos;t Cover Costs. Here&apos;s Why That Matters.</title>
+    <link>https://dev.to/jonathan_greenallidoizc/95-of-nostr-relays-cant-cover-costs-heres-why-that-matters-189l</link>
+    <guid>https://dev.to/jonathan_greenallidoizc/95-of-nostr-relays-cant-cover-costs-heres-why-that-matters-189l</guid>
+    <pubDate>Thu, 12 Mar 2026 20:13:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Running on Faith You run a relay because you believe in something. Censorship resistance. Permissionless publishing. A social protocol that nobody controls. You set it up on a VPS, configured the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Remote Teams Are Spending 40% More on AI Tools—Here&apos;s What Actually Works</title>
+    <link>https://dev.to/derivinate/remote-teams-are-spending-40-more-on-ai-tools-heres-what-actually-works-14h7</link>
+    <guid>https://dev.to/derivinate/remote-teams-are-spending-40-more-on-ai-tools-heres-what-actually-works-14h7</guid>
+    <pubDate>Thu, 12 Mar 2026 20:09:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The meeting summarizer space is crowded. The async communication market is flooded. Project management tools now all claim AI. And remote teams are drowning in options. Here&apos;s what&apos;s actually...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your AI Agent Just Sent PHI Through a Third-Party Server</title>
+    <link>https://dev.to/teoslayer/your-ai-agent-just-sent-phi-through-a-third-party-server-2h5n</link>
+    <guid>https://dev.to/teoslayer/your-ai-agent-just-sent-phi-through-a-third-party-server-2h5n</guid>
+    <pubDate>Thu, 12 Mar 2026 20:05:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A hospital deploys an AI agent to summarize patient records. The agent sends those summaries to a specialist&apos;s AI assistant for review. The communication crosses a network boundary. The summaries...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Write One Query Class Instead of Many: The AQC Design Pattern</title>
+    <link>https://dev.to/raheelshan/write-one-query-class-instead-of-many-the-aqc-design-pattern-5f6l</link>
+    <guid>https://dev.to/raheelshan/write-one-query-class-instead-of-many-the-aqc-design-pattern-5f6l</guid>
+    <pubDate>Thu, 12 Mar 2026 20:04:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When I introduced the Atomic Query Construction (AQC) design pattern, a few people asked: &quot;Is this something new? Or is it just a renamed version of something that already exists?&quot; Fair question....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>iPhones and iPads Approved for NATO Classified Data</title>
+    <link>https://www.schneier.com/blog/archives/2026/03/iphones-and-ipads-approved-for-nato-classified-data.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/03/iphones-and-ipads-approved-for-nato-classified-data.html</guid>
+    <pubDate>Thu, 12 Mar 2026 19:59:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Apple announcement: …iPhone and iPad are the first and only consumer devices in compliance with the information assurance requirements of NATO nations. This enables iPhone and iPad to be used with...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>‘Uncanny Valley’: Anthropic’s DOD Lawsuit, War Memes, and AI Coming for VC Jobs</title>
+    <link>https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/</link>
+    <guid>https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/</guid>
+    <pubDate>Thu, 12 Mar 2026 19:48:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>In today’s episode, we discuss how the saga between Anthropic and the Department of Defense is far from over.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>What it was like to watch grieving parents stare down Mark Zuckerberg in court</title>
+    <link>https://www.theverge.com/policy/893930/social-media-addiction-trial-los-angeles-zuckerberg-instagram-youtube</link>
+    <guid>https://www.theverge.com/policy/893930/social-media-addiction-trial-los-angeles-zuckerberg-instagram-youtube</guid>
+    <pubDate>Thu, 12 Mar 2026 18:58:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Around a dozen parents huddled in the dim hallway outside the courtroom in February, nervously gripping paper tickets. They were glaring at a gray tote bag held by a member of the court staff -...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The original AirTag is the cheapest it’s ever been</title>
+    <link>https://www.theverge.com/gadgets/894007/apple-airtag-first-generation-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/894007/apple-airtag-first-generation-deal-sale</guid>
+    <pubDate>Thu, 12 Mar 2026 18:50:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Despite the fact Apple released a new AirTag in January, the first-generation AirTag is still a top-notch tracker if you’re embedded in Apple’s ecosystem. And right now, it’s on sale for $13.91...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>KPop Demon Hunters is getting a sequel, obviously</title>
+    <link>https://www.theverge.com/entertainment/894014/kpop-demon-hunters-sequel</link>
+    <guid>https://www.theverge.com/entertainment/894014/kpop-demon-hunters-sequel</guid>
+    <pubDate>Thu, 12 Mar 2026 18:45:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Get ready to get even more K-pop, demonier, and as huntery as possible. Netflix&apos;s smash-hit, Oscar-nominated animated film KPop Demon Hunters is returning for a sequel, with the fictional Korean...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Facebook Marketplace now lets Meta AI respond to buyers’ messages</title>
+    <link>https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/</link>
+    <guid>https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/</guid>
+    <pubDate>Thu, 12 Mar 2026 18:20:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>When buyers inquire about an item’s availability, sellers can use Meta AI to automatically draft replies using information from their listing, such as the description, availability, pickup...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Google Is Not Ruling Out Ads in Gemini</title>
+    <link>https://www.wired.com/story/google-nick-fox-advertising-search-ai-gemini/</link>
+    <guid>https://www.wired.com/story/google-nick-fox-advertising-search-ai-gemini/</guid>
+    <pubDate>Thu, 12 Mar 2026 18:15:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>WIRED spoke with Nick Fox, Google’s SVP of knowledge and information, about how AI is changing the company’s advertising business.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Tinder tries to lure people back to online dating with IRL events, virtual speed dating</title>
+    <link>https://techcrunch.com/2026/03/12/tinder-tries-to-lure-people-back-to-online-dating-with-irl-events-virtual-speed-dating/</link>
+    <guid>https://techcrunch.com/2026/03/12/tinder-tries-to-lure-people-back-to-online-dating-with-irl-events-virtual-speed-dating/</guid>
+    <pubDate>Thu, 12 Mar 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Tinder just got a major revamp as it attempts to re-engange its user base and attract younger daters. This includes in-person events, AI enhancements, and even virtual speed dating.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages</title>
+    <link>https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings</link>
+    <guid>https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings</guid>
+    <pubDate>Thu, 12 Mar 2026 17:59:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on the platform a little more efficient. One feature will use Meta AI to automatically...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays</title>
+    <link>https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html</link>
+    <guid>https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html</guid>
+    <pubDate>Thu, 12 Mar 2026 17:31:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a new banking malware targeting Brazilian users that&apos;s written in Rust, marking a significant departure from other known Delphi-based malware...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Atlassian follows Block’s footsteps and cuts staff in the name of AI</title>
+    <link>https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/</link>
+    <guid>https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/</guid>
+    <pubDate>Thu, 12 Mar 2026 17:20:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Atlassian laid off 10% of its workforce, around 1,600 people, as the company looks to funnel more funds to AI.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks</title>
+    <link>https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html</link>
+    <guid>https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html</guid>
+    <pubDate>Thu, 12 Mar 2026 17:02:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a suspected artificial intelligence (AI)-generated malware codenamed Slopoly put to use by a financially motivated threat actor named Hive0163....</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Gemini’s task automation is here and it’s wild</title>
@@ -53,42 +215,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>50% of Your Users Don&apos;t Have Eyes</title>
-    <link>https://dev.to/moebiusansa/50-of-your-users-dont-have-eyes-1507</link>
-    <guid>https://dev.to/moebiusansa/50-of-your-users-dont-have-eyes-1507</guid>
-    <pubDate>Thu, 12 Mar 2026 16:56:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>&quot;Thirty years of change is being compressed into three years.&quot; — Satya Nadella Adrian Levy&apos;s recent piece in UX Collective makes a striking claim: you&apos;re still designing for an architecture that...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a Crypto Payment Flow</title>
-    <link>https://dev.to/cryptoesim/building-a-crypto-payment-flow-18b3</link>
-    <guid>https://dev.to/cryptoesim/building-a-crypto-payment-flow-18b3</guid>
-    <pubDate>Thu, 12 Mar 2026 16:55:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you’re building a digital product and want to accept cryptocurrency payments, the technical implementation is more straightforward than you might expect. Here’s a practical overview of how we...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built curl for Modbus</title>
-    <link>https://dev.to/bernardkibathi/i-built-curl-for-modbus-1c42</link>
-    <guid>https://dev.to/bernardkibathi/i-built-curl-for-modbus-1c42</guid>
-    <pubDate>Thu, 12 Mar 2026 16:54:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent three years managing 2,500 IoT fuel dispensing kiosks across Kenya and Rwanda. Every one of them had Modbus sensors: flow meters, level sensors, temperature probes, all talking RS485...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Rebuilding domenicotenace.dev: How Pure Astro and CSS Reminded Me That Simple Is Better 🌟</title>
-    <link>https://dev.to/playfulprogramming/rebuilding-domenicotenacedev-how-pure-astro-and-css-reminded-me-that-simple-is-better-2gpe</link>
-    <guid>https://dev.to/playfulprogramming/rebuilding-domenicotenacedev-how-pure-astro-and-css-reminded-me-that-simple-is-better-2gpe</guid>
-    <pubDate>Thu, 12 Mar 2026 16:52:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Overview Hey everyone 👋 I recently did something that felt almost rebellious in today&apos;s web development landscape: I completely refactored my personal website using only Astro and vanilla CSS. No...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Bumble to launch an AI dating assistant, ‘Bee’</title>
     <link>https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/</link>
     <guid>https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/</guid>
@@ -96,24 +222,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Bumble&apos;s new AI assistant Bee will move the dating app beyond the swipe by matching people based on compatibility and goals.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>From Curiosity to Contribution: My Journey with OWASP BLT and the Road to GSoC 2026</title>
-    <link>https://dev.to/swaparup36/from-curiosity-to-contribution-my-journey-with-owasp-blt-and-the-road-to-gsoc-2026-1017</link>
-    <guid>https://dev.to/swaparup36/from-curiosity-to-contribution-my-journey-with-owasp-blt-and-the-road-to-gsoc-2026-1017</guid>
-    <pubDate>Thu, 12 Mar 2026 16:51:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My journey into open source didn’t start with a perfectly planned goal or roadmap. Like many developers, I had been using open-source tools for years without really thinking about what it meant to...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Reproducibility of Analytical Decisions: Introducing a Deterministic Analytical Runtime</title>
-    <link>https://dev.to/panorama_engine/reproducibility-of-analytical-decisions-introducing-a-deterministic-analytical-runtime-3nn0</link>
-    <guid>https://dev.to/panorama_engine/reproducibility-of-analytical-decisions-introducing-a-deterministic-analytical-runtime-3nn0</guid>
-    <pubDate>Thu, 12 Mar 2026 16:49:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The problem of reconstructing analytical processes Modern analytical systems generate increasingly complex decisions through pipelines composed of data ingestion, transformations, models, and...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>A writer is suing Grammarly for turning her and other authors into ‘AI editors’ without consent</title>
@@ -168,114 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Rajesh Jha, executive vice president of Microsoft&apos;s experiences and devices group, is retiring after more than 35 years at the software giant. Jha was a big part of the team that helped move...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>PEGI&amp;#8217;s new age ratings will restrict FC 27 to kids over 16</title>
-    <link>https://www.theverge.com/entertainment/893751/video-game-age-ratings-pegi-loot-boxes</link>
-    <guid>https://www.theverge.com/entertainment/893751/video-game-age-ratings-pegi-loot-boxes</guid>
-    <pubDate>Thu, 12 Mar 2026 15:16:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Pan-European Game Information (PEGI) body previously assigned its age ratings based on the presence of sex, drugs, violence, bad language, and fear. Now it&apos;s adding four new options that tie...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Alexa+ gets a new ‘adults only’ personality option that curses but won’t get into NSFW content</title>
-    <link>https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-get-into-nsfw-content/</link>
-    <guid>https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-get-into-nsfw-content/</guid>
-    <pubDate>Thu, 12 Mar 2026 15:16:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The new Sassy style can curse and roast you, but the fun ends there.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>WordPress launches an in-browser website creator</title>
-    <link>https://www.theverge.com/tech/893766/wordpress-browser-website-creator</link>
-    <guid>https://www.theverge.com/tech/893766/wordpress-browser-website-creator</guid>
-    <pubDate>Thu, 12 Mar 2026 15:15:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>WordPress.org is launching a new tool that lets you create a private website directly in your browser, according to an announcement on Wednesday. You can access the tool by heading to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Wonderful raises $150M Series B at $2B valuation</title>
-    <link>https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/</link>
-    <guid>https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/</guid>
-    <pubDate>Thu, 12 Mar 2026 15:12:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The funding round, led by Insight Partners, comes just four months after Wonderful raised a $100 million Series A.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How AI is helping improve heart health in rural Australia</title>
-    <link>https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/</link>
-    <guid>https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/</guid>
-    <pubDate>Thu, 12 Mar 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>A doctor is sitting across a desk from a patient. The doctor is holding a tablet and a pen. Medical charts renderings are in the background.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Rivian R2 prices revealed: you’re going to have to wait longer for that $45,000 version</title>
-    <link>https://www.theverge.com/transportation/893058/rivian-r2-price-specs-range-performance-charging</link>
-    <guid>https://www.theverge.com/transportation/893058/rivian-r2-price-specs-range-performance-charging</guid>
-    <pubDate>Thu, 12 Mar 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When Rivian first revealed the R2 in 2024, a lot of the excitement was centered on the starting price of $45,000 - placing it slightly below the current average selling price for a new internal...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Dyson’s new stain-spotting AI robovac is now available</title>
-    <link>https://www.theverge.com/tech/893133/dyson-spot-scrub-ai-robot-vacuum-mop-lasers-multifunction-dock-availability-price</link>
-    <guid>https://www.theverge.com/tech/893133/dyson-spot-scrub-ai-robot-vacuum-mop-lasers-multifunction-dock-availability-price</guid>
-    <pubDate>Thu, 12 Mar 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Dyson&apos;s latest autonomous robot vacuum cleaner first debuted during IFA 2025 in Berlin last September. The Spot+Scrub Ai Robot is the company&apos;s follow-up to its 360 Vis Nav robovac launched in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Honda cancels Zero Series EVs, citing ‘extremely challenging’ situation</title>
-    <link>https://www.theverge.com/transportation/893750/honda-zero-ev-cancel-tariff-acura</link>
-    <guid>https://www.theverge.com/transportation/893750/honda-zero-ev-cancel-tariff-acura</guid>
-    <pubDate>Thu, 12 Mar 2026 14:58:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Farewell, Honda Zero. We never knew thee. Honda is cancelling its Zero Series SUV and Saloon, as well as the Acura RSX EVs, citing an &quot;extremely challenging earnings situation.&quot; The Japanese...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs</title>
-    <link>https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html</link>
-    <guid>https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html</guid>
-    <pubDate>Thu, 12 Mar 2026 13:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Phishing has quietly turned into one of the hardest enterprise threats to expose early. Instead of crude lures and obvious payloads, modern campaigns rely on trusted infrastructure,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack &amp; More</title>
-    <link>https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html</link>
-    <guid>https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html</guid>
-    <pubDate>Thu, 12 Mar 2026 13:14:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Another Thursday, another pile of weird security stuff that somehow happened in just seven days. Some of it is clever. Some of it is lazy. A few bits fall into that uncomfortable category of...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Download: Early adopters cash in on China’s OpenClaw craze, and US batteries slump</title>
-    <link>https://www.technologyreview.com/2026/03/12/1134207/the-download-china-openclaw-ai-craze-us-battery-industry-downturn/</link>
-    <guid>https://www.technologyreview.com/2026/03/12/1134207/the-download-china-openclaw-ai-craze-us-battery-industry-downturn/</guid>
-    <pubDate>Thu, 12 Mar 2026 13:02:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Hustlers are cashing in on China’s OpenClaw AI craze In...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google is using old news reports and AI to predict flash floods</title>
-    <link>https://techcrunch.com/2026/03/12/google-is-using-old-news-reports-and-ai-to-predict-flash-floods/</link>
-    <guid>https://techcrunch.com/2026/03/12/google-is-using-old-news-reports-and-ai-to-predict-flash-floods/</guid>
-    <pubDate>Thu, 12 Mar 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>A new way to solve data scarcity: Turning qualitative reports into quantitative data with an LLM.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
