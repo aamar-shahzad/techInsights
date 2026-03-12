@@ -5,7 +5,7 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 12 Mar 2026 03:11:52 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Mar 2026 05:21:00 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>How AI is helping improve heart health in rural Australia</title>
@@ -17,94 +17,102 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Understanding APIs and Their Role in OSM-Based Web Applications</title>
-    <link>https://dev.to/devi1701/understanding-apis-and-their-role-in-osm-based-web-applications-gpb</link>
-    <guid>https://dev.to/devi1701/understanding-apis-and-their-role-in-osm-based-web-applications-gpb</guid>
-    <pubDate>Thu, 12 Mar 2026 02:56:43 +0000</pubDate>
+    <title>How I built root cause analysis into my free API uptime monitor</title>
+    <link>https://dev.to/acrticsludge/how-i-built-root-cause-analysis-into-my-free-api-uptime-monitor-56pe</link>
+    <guid>https://dev.to/acrticsludge/how-i-built-root-cause-analysis-into-my-free-api-uptime-monitor-56pe</guid>
+    <pubDate>Thu, 12 Mar 2026 05:09:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>API (Application Programming Interface) is a set of rules and protocols that allows one software application to interact with another. Example: A weather app uses a weather API to get temperature...</description>
+    <description>Most uptime monitors tell you your API is down. Mine tells you why. I got tired of waking up to a vague &quot;monitor failed&quot; alert with zero context. Is it a DNS issue? Did the server crash? Is it a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>ANR Troubleshooting Practice: Log Analysis and Tool Practice</title>
-    <link>https://dev.to/wonderlab/anr-troubleshooting-practice-log-analysis-and-tool-practice-110b</link>
-    <guid>https://dev.to/wonderlab/anr-troubleshooting-practice-log-analysis-and-tool-practice-110b</guid>
-    <pubDate>Thu, 12 Mar 2026 02:49:47 +0000</pubDate>
+    <title>A Developer&apos;s Guide to Choosing a GPU for Machine Learning in 2025-2026</title>
+    <link>https://dev.to/maxvyaznikov/a-developers-guide-to-choosing-a-gpu-for-machine-learning-in-2025-2026-5d4f</link>
+    <guid>https://dev.to/maxvyaznikov/a-developers-guide-to-choosing-a-gpu-for-machine-learning-in-2025-2026-5d4f</guid>
+    <pubDate>Thu, 12 Mar 2026 05:04:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Troubleshooting ANR is not about luck, but about methodology—master the methodology, and you can be like a detective, finding the truth from clues. Introduction: An Emergency Troubleshooting at 2...</description>
+    <description>Choosing the right GPU for ML is confusing. Marketing specs don&apos;t tell you what matters for training and inference. Here&apos;s what actually counts. The Four Specs That Matter 1. VRAM (Most Important)...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>RAG Security 101: Protecting Your Retrieval-Augmented Generation Pipeline</title>
-    <link>https://dev.to/botguard/rag-security-101-protecting-your-retrieval-augmented-generation-pipeline-4e1o</link>
-    <guid>https://dev.to/botguard/rag-security-101-protecting-your-retrieval-augmented-generation-pipeline-4e1o</guid>
-    <pubDate>Thu, 12 Mar 2026 02:47:43 +0000</pubDate>
+    <title>5 React Prompts That Save Me Hours Every Week</title>
+    <link>https://dev.to/longpam19/5-react-prompts-that-save-me-hours-every-week-23om</link>
+    <guid>https://dev.to/longpam19/5-react-prompts-that-save-me-hours-every-week-23om</guid>
+    <pubDate>Thu, 12 Mar 2026 04:53:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A single maliciously crafted input can bring down an entire Retrieval-Augmented Generation (RAG) pipeline, exposing sensitive data and disrupting critical services. The Problem import numpy as np...</description>
+    <description>I&apos;ve been using AI to write React code for over a year. For the first few months, the output was consistently mediocre — wrong patterns, missing types, no error handling. I kept thinking the AI...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Cognitive Costs of AI Chatbots and a Framework for Better Design</title>
-    <link>https://dev.to/yaaooo/the-cognitive-costs-of-ai-chatbots-and-a-framework-for-better-design-533l</link>
-    <guid>https://dev.to/yaaooo/the-cognitive-costs-of-ai-chatbots-and-a-framework-for-better-design-533l</guid>
-    <pubDate>Thu, 12 Mar 2026 02:44:01 +0000</pubDate>
+    <title>From Foreground Services to WorkManager: How We Cut Battery Drain by 70%</title>
+    <link>https://dev.to/suridevs_861b8a311a101be4/from-foreground-services-to-workmanager-how-we-cut-battery-drain-by-70-2d2c</link>
+    <guid>https://dev.to/suridevs_861b8a311a101be4/from-foreground-services-to-workmanager-how-we-cut-battery-drain-by-70-2d2c</guid>
+    <pubDate>Thu, 12 Mar 2026 04:51:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As engineers, when we talk about the &quot;cost&quot; of using AI, we tend to focus on billing costs — the cost of running OpenSearch clusters, invoking models through Bedrock, provisioning instances, etc....</description>
+    <description>40% of my users on Android 14 were crashing. Every. Single. Day. The crash logs all said the same thing: ForegroundServiceStartNotAllowedException. My auto backup service that had worked fine for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Regex Generator: Build Accurate Patterns from Plain English in Seconds</title>
-    <link>https://dev.to/luoyao_dev/ai-regex-generator-build-accurate-patterns-from-plain-english-in-seconds-1123</link>
-    <guid>https://dev.to/luoyao_dev/ai-regex-generator-build-accurate-patterns-from-plain-english-in-seconds-1123</guid>
-    <pubDate>Thu, 12 Mar 2026 02:40:16 +0000</pubDate>
+    <title>Your Agents Are Burning Money on Duplicate API Calls (And You Can&apos;t See It)</title>
+    <link>https://dev.to/custodiaadmin/your-agents-are-burning-money-on-duplicate-api-calls-and-you-cant-see-it-328c</link>
+    <guid>https://dev.to/custodiaadmin/your-agents-are-burning-money-on-duplicate-api-calls-and-you-cant-see-it-328c</guid>
+    <pubDate>Thu, 12 Mar 2026 04:39:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Regular expressions are one of the most powerful tools in a developer&apos;s arsenal — and one of the most painful to write from scratch. The syntax is dense, the edge cases are numerous, and the Stack...</description>
+    <description>Your Agents Are Burning Money on Duplicate API Calls (And You Can&apos;t See It) Your agent runs once per hour. It fetches customer data from an API. Each call costs $0.01. That&apos;s $240/month. But your...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>CVE-2026-26127: CVE-2026-26127: .NET Denial of Service via Base64Url Out-of-Bounds Read</title>
-    <link>https://dev.to/cverports/cve-2026-26127-cve-2026-26127-net-denial-of-service-via-base64url-out-of-bounds-read-53fb</link>
-    <guid>https://dev.to/cverports/cve-2026-26127-cve-2026-26127-net-denial-of-service-via-base64url-out-of-bounds-read-53fb</guid>
-    <pubDate>Thu, 12 Mar 2026 02:40:06 +0000</pubDate>
+    <title>Day 6 of My Cloud Journey: Building Secure AWS Networks with VPC, VPC Peering &amp; Billing Alerts</title>
+    <link>https://dev.to/avinashwagh/day-6-of-my-cloud-journey-building-secure-aws-networks-with-vpc-vpc-peering-billing-alerts-4gk8</link>
+    <guid>https://dev.to/avinashwagh/day-6-of-my-cloud-journey-building-secure-aws-networks-with-vpc-vpc-peering-billing-alerts-4gk8</guid>
+    <pubDate>Thu, 12 Mar 2026 04:37:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>CVE-2026-26127: .NET Denial of Service via Base64Url Out-of-Bounds Read Vulnerability ID: CVE-2026-26127 CVSS Score: 7.5 Published: 2026-03-11 CVE-2026-26127 is a Denial of Service (DoS)...</description>
+    <description>When I first started learning cloud computing, I mostly focused on launching servers and deploying applications. But as I continued exploring AWS services, I realized something important:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Your Agent-Extracted Data Is Wrong (And You Don&apos;t Know It)</title>
-    <link>https://dev.to/custodiaadmin/why-your-agent-extracted-data-is-wrong-and-you-dont-know-it-4c87</link>
-    <guid>https://dev.to/custodiaadmin/why-your-agent-extracted-data-is-wrong-and-you-dont-know-it-4c87</guid>
-    <pubDate>Thu, 12 Mar 2026 02:39:22 +0000</pubDate>
+    <title>Your runbook says one thing. Your infra does another. When did you last compare them?</title>
+    <link>https://dev.to/jariase540/your-runbook-says-one-thing-your-infra-does-another-when-did-you-last-compare-them-313f</link>
+    <guid>https://dev.to/jariase540/your-runbook-says-one-thing-your-infra-does-another-when-did-you-last-compare-them-313f</guid>
+    <pubDate>Thu, 12 Mar 2026 04:31:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why Your Agent-Extracted Data Is Wrong (And You Don&apos;t Know It) Your agent extracts customer data from websites. Names, addresses, phone numbers, order history. It processes 5,000 records a day....</description>
+    <description>There&apos;s a conversation that happens in almost every Cloud Operations team, and it almost never happens in a formal meeting. It happens in the hallway, in a direct message, or in the Slack thread...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I stopped burning money on AI and attention at the same time (9 rules for solo builders)</title>
-    <link>https://dev.to/godnick/how-i-stopped-burning-money-on-ai-and-attention-at-the-same-time-9-rules-for-solo-builders-5fa2</link>
-    <guid>https://dev.to/godnick/how-i-stopped-burning-money-on-ai-and-attention-at-the-same-time-9-rules-for-solo-builders-5fa2</guid>
-    <pubDate>Thu, 12 Mar 2026 02:38:36 +0000</pubDate>
+    <title>I Built a Claude Plugin to Fix AI-Generated Interfaces&apos; User Experience.</title>
+    <link>https://dev.to/mistyhx/i-built-a-claude-plugin-to-fix-ai-generated-interfaces-user-experience-42m8</link>
+    <guid>https://dev.to/mistyhx/i-built-a-claude-plugin-to-fix-ai-generated-interfaces-user-experience-42m8</guid>
+    <pubDate>Thu, 12 Mar 2026 04:30:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you’re a solo builder shipping with Claude/Codex/Cursor, you already know this trap: your AI bill climbs quietly your focus drops loudly you end each day feeling &quot;busy&quot; but not finished I kept...</description>
+    <description>AI Can Ship a UI in Minutes. But It Takes a Trained Eye to See Everything It Gets Wrong. I&apos;ve spent a decade reviewing interfaces as a UX Designer — conducting heuristic evaluations, running...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built an iOS app to turn online discoveries into searchable knowledge</title>
-    <link>https://dev.to/tmd_55e0380c14fa562/i-built-an-ios-app-to-turn-online-discoveries-into-searchable-knowledge-531c</link>
-    <guid>https://dev.to/tmd_55e0380c14fa562/i-built-an-ios-app-to-turn-online-discoveries-into-searchable-knowledge-531c</guid>
-    <pubDate>Thu, 12 Mar 2026 02:38:23 +0000</pubDate>
+    <title>Building a Trust Layer for 10,000 AI Agents — Architecture Deep Dive</title>
+    <link>https://dev.to/taskpod/building-a-trust-layer-for-10000-ai-agents-architecture-deep-dive-25i</link>
+    <guid>https://dev.to/taskpod/building-a-trust-layer-for-10000-ai-agents-architecture-deep-dive-25i</guid>
+    <pubDate>Thu, 12 Mar 2026 04:30:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I recently released an iOS app called Notivx. The idea came from a problem I kept running into for years. Whenever I discovered something useful online — SNS posts, videos, articles — they ended...</description>
+    <description>When we started building TaskPod, the question wasn&apos;t &quot;can we build an agent registry?&quot; — that&apos;s a CRUD app. The real question was: how do you decide which agent to trust with a task when there...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Optimizing Power Efficiency with TI&apos;s TPS63060 and LTC3115-1 Power Management ICs</title>
-    <link>https://dev.to/hknova/optimizing-power-efficiency-with-tis-tps63060-and-ltc3115-1-power-management-ics-584i</link>
-    <guid>https://dev.to/hknova/optimizing-power-efficiency-with-tis-tps63060-and-ltc3115-1-power-management-ics-584i</guid>
-    <pubDate>Thu, 12 Mar 2026 02:37:33 +0000</pubDate>
+    <title>Real-Time Email: How JMAP Push Eliminates the 15-Minute Delay</title>
+    <link>https://dev.to/nubo_mail/real-time-email-how-jmap-push-eliminates-the-15-minute-delay-36bf</link>
+    <guid>https://dev.to/nubo_mail/real-time-email-how-jmap-push-eliminates-the-15-minute-delay-36bf</guid>
+    <pubDate>Thu, 12 Mar 2026 04:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Optimizing Power Efficiency with TI&apos;s TPS63060 and LTC3115-1 Power Management ICs In the fast-evolving landscape of power management solutions, optimizing power efficiency is a critical task for...</description>
+    <description>Real-Time Email: How JMAP Push Eliminates the 15-Minute Delay Open your email settings on any traditional email client. Somewhere in there, you will find a setting that says &apos;Check for new mail...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How NVIDIA AI-Q Reached \#1 on DeepResearch Bench I and II</title>
+    <link>https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench</link>
+    <guid>https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench</guid>
+    <pubDate>Thu, 12 Mar 2026 03:53:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
   </item>
   <item>
     <title>AI ‘actor’ Tilly Norwood put out the worst song I’ve ever heard</title>
@@ -267,15 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>OpenAI&apos;s Sora video generator could soon become a built-in feature in ChatGPT, as reported by The Information. Sora is currently only available on its website or as a standalone app, which has...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>WordPress debuts a private workspace that runs in your browser via a new service, my.WordPress.net</title>
-    <link>https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/</link>
-    <guid>https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/</guid>
-    <pubDate>Wed, 11 Mar 2026 16:43:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>WordPress’s new browser-based service lets users create private sites without hosting or signing up, turning the platform into a personal workspace for writing, research, and AI tools.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
