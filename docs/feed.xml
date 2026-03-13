@@ -5,97 +5,159 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 12 Mar 2026 20:52:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Mar 2026 03:08:41 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I got fed up with my city’s bike-share, so I built BiziData</title>
-    <link>https://dev.to/gcaguilar/i-got-fed-up-with-my-citys-bike-share-so-i-built-bizidata-2mgj</link>
-    <guid>https://dev.to/gcaguilar/i-got-fed-up-with-my-citys-bike-share-so-i-built-bizidata-2mgj</guid>
-    <pubDate>Thu, 12 Mar 2026 20:37:08 +0000</pubDate>
+    <title>5 Production Incidents Every DevOps Engineer Should Know How to Debug</title>
+    <link>https://dev.to/cdnsteve/5-production-incidents-every-devops-engineer-should-know-how-to-debug-1np2</link>
+    <guid>https://dev.to/cdnsteve/5-production-incidents-every-devops-engineer-should-know-how-to-debug-1np2</guid>
+    <pubDate>Fri, 13 Mar 2026 02:53:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Like many of you, I use bike-share system pretty regularly. And, honestly, it drives me nuts: either there’s not a single bike when I need one, or the station is packed and I can’t return mine. It...</description>
+    <description>It&apos;s 2 AM. Your phone is screaming. The dashboard is red. Users are tweeting. You have been on call long enough to know that the gap between &quot;I think I know what&apos;s wrong&quot; and &quot;I know exactly...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Your RAG System Needs a Graph Database (Not Just Vectors)</title>
-    <link>https://dev.to/nathanhamlett/why-your-rag-system-needs-a-graph-database-not-just-vectors-52i3</link>
-    <guid>https://dev.to/nathanhamlett/why-your-rag-system-needs-a-graph-database-not-just-vectors-52i3</guid>
-    <pubDate>Thu, 12 Mar 2026 20:22:26 +0000</pubDate>
+    <title>Preventing Rogue AI Agents</title>
+    <link>https://dev.to/willvelida/preventing-rogue-ai-agents-53n2</link>
+    <guid>https://dev.to/willvelida/preventing-rogue-ai-agents-53n2</guid>
+    <pubDate>Fri, 13 Mar 2026 02:48:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why Your RAG System Needs a Graph Database (Not Just Vectors) The standard RAG stack is: embed your documents, store them in a vector database, retrieve the top-k most similar chunks at query...</description>
+    <description>What happens when the agent itself becomes the threat? Not because of a prompt injection (ASI01) or tool misuse (ASI02), but because the Claude model produces systematically wrong analysis, the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building Conversational AI: Memory Patterns, Context Management, and Conversation Design</title>
-    <link>https://dev.to/bspann/building-conversational-ai-memory-patterns-context-management-and-conversation-design-2i58</link>
-    <guid>https://dev.to/bspann/building-conversational-ai-memory-patterns-context-management-and-conversation-design-2i58</guid>
-    <pubDate>Thu, 12 Mar 2026 20:21:32 +0000</pubDate>
+    <title>Preventing Human-Agent Trust Exploitation in AI Agents</title>
+    <link>https://dev.to/willvelida/preventing-human-agent-trust-exploitation-in-ai-agents-5d8f</link>
+    <guid>https://dev.to/willvelida/preventing-human-agent-trust-exploitation-in-ai-agents-5d8f</guid>
+    <pubDate>Fri, 13 Mar 2026 02:47:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Chatbots are easy to build. Conversational AI that actually works is hard. The difference? State management. A real conversation requires remembering what was said, managing context limits, and...</description>
+    <description>Your health data agent says: &quot;Your sleep quality improved 23% this month compared to last month.&quot; You adjust your bedtime routine, change your medication timing, or skip a doctor&apos;s appointment...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Reliable AI Outputs: Function Calling, JSON Mode, and Structured Generation in C#</title>
-    <link>https://dev.to/bspann/reliable-ai-outputs-function-calling-json-mode-and-structured-generation-in-c-2m87</link>
-    <guid>https://dev.to/bspann/reliable-ai-outputs-function-calling-json-mode-and-structured-generation-in-c-2m87</guid>
-    <pubDate>Thu, 12 Mar 2026 20:17:17 +0000</pubDate>
+    <title>Preventing Cascading Failures in AI Agents</title>
+    <link>https://dev.to/willvelida/preventing-cascading-failures-in-ai-agents-p3c</link>
+    <guid>https://dev.to/willvelida/preventing-cascading-failures-in-ai-agents-p3c</guid>
+    <pubDate>Fri, 13 Mar 2026 02:46:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>LLMs are impressive text generators, but production applications need more than prose. You need structured data—JSON objects you can deserialize, decisions you can act on, and outputs that fit...</description>
+    <description>Your AI agent depends on a chain of services. In my side project (Biotrackr), the chain looks like this: Claude API for reasoning, APIM for routing, downstream APIs for health data, and Cosmos DB...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I was spending an hour every week on spreadsheets to figure out if my apps were profitable - so I automated it</title>
-    <link>https://dev.to/domingo56/i-was-spending-an-hour-every-week-on-spreadsheets-to-figure-out-if-my-apps-were-profitable-so-i-2l4</link>
-    <guid>https://dev.to/domingo56/i-was-spending-an-hour-every-week-on-spreadsheets-to-figure-out-if-my-apps-were-profitable-so-i-2l4</guid>
-    <pubDate>Thu, 12 Mar 2026 20:13:50 +0000</pubDate>
+    <title>Preventing Insecure Inter-Agent Communication in AI Agents</title>
+    <link>https://dev.to/willvelida/preventing-insecure-inter-agent-communication-in-ai-agents-hnp</link>
+    <guid>https://dev.to/willvelida/preventing-insecure-inter-agent-communication-in-ai-agents-hnp</guid>
+    <pubDate>Fri, 13 Mar 2026 02:44:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every week I&apos;d open four different dashboards: Google Play Console → revenue from Android apps App Store Connect → revenue from iOS apps AdMob → ad earnings Google Ads → ad spent on android user...</description>
+    <description>Biotrackr is a single-agent system. One agent, twelve tools, one identity. That is an architectural choice that eliminates an entire vulnerability class Insecure Inter-Agent Communication (ASI07)....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Bringing Chrome to ARM64 Linux Devices</title>
-    <link>https://blog.chromium.org/2026/03/bringing-chrome-to-arm64-linux-devices.html</link>
-    <guid>https://blog.chromium.org/2026/03/bringing-chrome-to-arm64-linux-devices.html</guid>
-    <pubDate>Thu, 12 Mar 2026 20:13:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://blog.chromium.org/2026/03/bringing-chrome-to-arm64-linux-devices.html Comments URL: https://news.ycombinator.com/item?id=47356392 Points: 6 # Comments: 1</description>
+    <title>Preventing Memory and Context Poisoning in AI Agents</title>
+    <link>https://dev.to/willvelida/preventing-memory-and-context-poisoning-in-ai-agents-1icf</link>
+    <guid>https://dev.to/willvelida/preventing-memory-and-context-poisoning-in-ai-agents-1icf</guid>
+    <pubDate>Fri, 13 Mar 2026 02:42:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every time your AI agent saves a conversation, you&apos;re creating a potential attack vector. ASI06 (Memory and Context Poisoning) asks a deceptively simple question: &quot;can previous conversations...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>95% of Nostr Relays Can&apos;t Cover Costs. Here&apos;s Why That Matters.</title>
-    <link>https://dev.to/jonathan_greenallidoizc/95-of-nostr-relays-cant-cover-costs-heres-why-that-matters-189l</link>
-    <guid>https://dev.to/jonathan_greenallidoizc/95-of-nostr-relays-cant-cover-costs-heres-why-that-matters-189l</guid>
-    <pubDate>Thu, 12 Mar 2026 20:13:00 +0000</pubDate>
+    <title>Preventing Unexpected Code Execution in AI Agents</title>
+    <link>https://dev.to/willvelida/preventing-unexpected-code-execution-in-ai-agents-5gcd</link>
+    <guid>https://dev.to/willvelida/preventing-unexpected-code-execution-in-ai-agents-5gcd</guid>
+    <pubDate>Fri, 13 Mar 2026 02:41:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Running on Faith You run a relay because you believe in something. Censorship resistance. Permissionless publishing. A social protocol that nobody controls. You set it up on a VPS, configured the...</description>
+    <description>Can your AI Agent run code? If not, you probably don&apos;t think that unexpected code execution applies to you. However, this goes a lot deeper than eval(). Input validation, container security,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Remote Teams Are Spending 40% More on AI Tools—Here&apos;s What Actually Works</title>
-    <link>https://dev.to/derivinate/remote-teams-are-spending-40-more-on-ai-tools-heres-what-actually-works-14h7</link>
-    <guid>https://dev.to/derivinate/remote-teams-are-spending-40-more-on-ai-tools-heres-what-actually-works-14h7</guid>
-    <pubDate>Thu, 12 Mar 2026 20:09:25 +0000</pubDate>
+    <title>Preventing Agentic Supply Chain Vulnerabilities</title>
+    <link>https://dev.to/willvelida/preventing-agentic-supply-chain-vulnerabilities-230n</link>
+    <guid>https://dev.to/willvelida/preventing-agentic-supply-chain-vulnerabilities-230n</guid>
+    <pubDate>Fri, 13 Mar 2026 02:40:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The meeting summarizer space is crowded. The async communication market is flooded. Project management tools now all claim AI. And remote teams are drowning in options. Here&apos;s what&apos;s actually...</description>
+    <description>Your AI Agent&apos;s security is only as strong as its weakest dependency. Whatever packages you are using within your agents, you&apos;re trusting that those packages that have been published haven&apos;t been...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your AI Agent Just Sent PHI Through a Third-Party Server</title>
-    <link>https://dev.to/teoslayer/your-ai-agent-just-sent-phi-through-a-third-party-server-2h5n</link>
-    <guid>https://dev.to/teoslayer/your-ai-agent-just-sent-phi-through-a-third-party-server-2h5n</guid>
-    <pubDate>Thu, 12 Mar 2026 20:05:32 +0000</pubDate>
+    <title>Apple M5 Fusion Architecture Explained - Two Dies, One Chip, Infinite Possibilities</title>
+    <link>https://dev.to/tyson_cung/apple-m5-fusion-architecture-explained-two-dies-one-chip-infinite-possibilities-o9e</link>
+    <guid>https://dev.to/tyson_cung/apple-m5-fusion-architecture-explained-two-dies-one-chip-infinite-possibilities-o9e</guid>
+    <pubDate>Fri, 13 Mar 2026 02:40:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A hospital deploys an AI agent to summarize patient records. The agent sends those summaries to a specialist&apos;s AI assistant for review. The communication crosses a network boundary. The summaries...</description>
+    <description>👆 Watch the full walkthrough above Apple just rewrote the rules of chip design with the M5 Pro and M5 Max. After years of monolithic silicon, theyve introduced Fusion Architecture - a radically...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Write One Query Class Instead of Many: The AQC Design Pattern</title>
-    <link>https://dev.to/raheelshan/write-one-query-class-instead-of-many-the-aqc-design-pattern-5f6l</link>
-    <guid>https://dev.to/raheelshan/write-one-query-class-instead-of-many-the-aqc-design-pattern-5f6l</guid>
-    <pubDate>Thu, 12 Mar 2026 20:04:52 +0000</pubDate>
+    <title>Atlassian Fires 1,600 Engineers to Bet Everything on AI - The New Playbook</title>
+    <link>https://dev.to/tyson_cung/atlassian-fires-1600-engineers-to-bet-everything-on-ai-the-new-playbook-2nnp</link>
+    <guid>https://dev.to/tyson_cung/atlassian-fires-1600-engineers-to-bet-everything-on-ai-the-new-playbook-2nnp</guid>
+    <pubDate>Fri, 13 Mar 2026 02:39:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I introduced the Atomic Query Construction (AQC) design pattern, a few people asked: &quot;Is this something new? Or is it just a renamed version of something that already exists?&quot; Fair question....</description>
+    <description>👆 Watch the 60-second breakdown above Atlassian just laid off 10% of its global workforce - 1,600 people - and they&apos;re not hiding why. CEO Mike Cannon-Brookes called it the &quot;right decision&quot; for...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation</title>
+    <link>https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place</link>
+    <guid>https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place</guid>
+    <pubDate>Fri, 13 Mar 2026 01:02:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How to watch Jensen Huang’s Nvidia GTC 2026 keynote</title>
+    <link>https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/</link>
+    <guid>https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/</guid>
+    <pubDate>Thu, 12 Mar 2026 23:25:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>GTC — which stands for GPU Technology Conference — is Nvidia&apos;s flagship annual event, where the chipmaker typically uses the spotlight to announce new products, champion partnerships, and lay out...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The best Bluetooth trackers for Apple and Android phones</title>
+    <link>https://www.theverge.com/23769840/best-bluetooth-trackers</link>
+    <guid>https://www.theverge.com/23769840/best-bluetooth-trackers</guid>
+    <pubDate>Thu, 12 Mar 2026 22:30:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Some people rarely lose things. Wallets are always exactly where they’re supposed to be, keys never go missing, and remotes never slip between the couch cushions. And then there’s the rest of us —...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Sales automation startup Rox AI hits $1.2B valuation, sources say</title>
+    <link>https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/</link>
+    <guid>https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/</guid>
+    <pubDate>Thu, 12 Mar 2026 22:25:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Rox, founded in 2024 by the former chief growth officer of New Relic, offers an AI-native alternative to CRM tools.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A defense official reveals how AI chatbots could be used for targeting decisions</title>
+    <link>https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/</link>
+    <guid>https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/</guid>
+    <pubDate>Thu, 12 Mar 2026 22:23:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The who, what, and why of the attack that has shut down Stryker&apos;s Windows network</title>
+    <link>https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/</link>
+    <guid>https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/</guid>
+    <pubDate>Thu, 12 Mar 2026 22:18:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Company says it doesn&apos;t know how long it will take to restore its Microsoft environment.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google Chrome is coming to Arm-powered Linux devices later this year</title>
+    <link>https://www.theverge.com/tech/894095/google-chrome-for-arm-linux</link>
+    <guid>https://www.theverge.com/tech/894095/google-chrome-for-arm-linux</guid>
+    <pubDate>Thu, 12 Mar 2026 21:33:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>You can download Chrome for Linux, and you can download Chrome for Arm devices - but if you&apos;ve got a computer running Linux on Arm, not so much! Now, Google says it&apos;s finally bringing Chrome to...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>iPhones and iPads Approved for NATO Classified Data</title>
@@ -166,7 +228,7 @@
     <guid>https://techcrunch.com/2026/03/12/tinder-tries-to-lure-people-back-to-online-dating-with-irl-events-virtual-speed-dating/</guid>
     <pubDate>Thu, 12 Mar 2026 18:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Tinder just got a major revamp as it attempts to re-engange its user base and attract younger daters. This includes in-person events, AI enhancements, and even virtual speed dating.</description>
+    <description>Tinder just got a major revamp as it attempts to reengage its user base and attract younger daters. This includes in-person events, AI enhancements, and even virtual speed dating.</description>
     <category>AI</category>
   </item>
   <item>
@@ -212,69 +274,6 @@
     <pubDate>Thu, 12 Mar 2026 16:59:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automation. Starting with food delivery and rideshare apps, Gemini would be able...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Bumble to launch an AI dating assistant, ‘Bee’</title>
-    <link>https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/</link>
-    <guid>https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/</guid>
-    <pubDate>Thu, 12 Mar 2026 16:52:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Bumble&apos;s new AI assistant Bee will move the dating app beyond the swipe by matching people based on compatibility and goals.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A writer is suing Grammarly for turning her and other authors into ‘AI editors’ without consent</title>
-    <link>https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/</link>
-    <guid>https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/</guid>
-    <pubDate>Thu, 12 Mar 2026 16:42:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Journalist Julia Angwin is leading a class action lawsuit against Grammarly for violating her privacy and publicity rights.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google’s TV Streamer 4K doubles as a smart home hub and it’s on sale</title>
-    <link>https://www.theverge.com/gadgets/893822/google-tv-streamer-4k-oscars-march-madness-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/893822/google-tv-streamer-4k-oscars-march-madness-deal-sale</guid>
-    <pubDate>Thu, 12 Mar 2026 16:37:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Between March Madness and the Oscars, now might be a good time to improve your TV setup. Google’s TV Streamer 4K is currently on sale for $79.99 ($20 off) at Amazon, Target, and Walmart, which is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic&amp;#8217;s Claude AI can respond with charts, diagrams, and other visuals now</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams</guid>
-    <pubDate>Thu, 12 Mar 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anthropic&apos;s latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizations during your conversation. If Claude determines a visual is useful based...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder</title>
-    <link>https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/</link>
-    <guid>https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/</guid>
-    <pubDate>Thu, 12 Mar 2026 15:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>As companies race to adopt AI, Benchmark general partner Everett Randle believes the key to success lies in empowering every worker with AI superpowers, and Gumloop’s intuitive agent builder is an...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meta exec hopes VR teens will stick around</title>
-    <link>https://www.theverge.com/column/893526/meta-vr-games-teens</link>
-    <guid>https://www.theverge.com/column/893526/meta-vr-games-teens</guid>
-    <pubDate>Thu, 12 Mar 2026 15:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. &quot;It is a pretty rough time for...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft&amp;#8217;s head of experiences and devices is retiring, triggering a shakeup</title>
-    <link>https://www.theverge.com/news/893755/microsoft-rajesh-jha-retirement-head-of-experiences-and-devices-shakeup</link>
-    <guid>https://www.theverge.com/news/893755/microsoft-rajesh-jha-retirement-head-of-experiences-and-devices-shakeup</guid>
-    <pubDate>Thu, 12 Mar 2026 15:17:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Rajesh Jha, executive vice president of Microsoft&apos;s experiences and devices group, is retiring after more than 35 years at the software giant. Jha was a big part of the team that helped move...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
