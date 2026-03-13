@@ -5,96 +5,105 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 13 Mar 2026 03:08:41 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Mar 2026 05:18:43 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>5 Production Incidents Every DevOps Engineer Should Know How to Debug</title>
-    <link>https://dev.to/cdnsteve/5-production-incidents-every-devops-engineer-should-know-how-to-debug-1np2</link>
-    <guid>https://dev.to/cdnsteve/5-production-incidents-every-devops-engineer-should-know-how-to-debug-1np2</guid>
-    <pubDate>Fri, 13 Mar 2026 02:53:21 +0000</pubDate>
+    <title>Firecrawl Part 2: The Confidence Gate That Decides When Bing Gets a Vote</title>
+    <link>https://dev.to/daniel_romitelli_44e77dc6/firecrawl-part-2-the-confidence-gate-that-decides-when-bing-gets-a-vote-doa</link>
+    <guid>https://dev.to/daniel_romitelli_44e77dc6/firecrawl-part-2-the-confidence-gate-that-decides-when-bing-gets-a-vote-doa</guid>
+    <pubDate>Fri, 13 Mar 2026 04:58:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It&apos;s 2 AM. Your phone is screaming. The dashboard is red. Users are tweeting. You have been on call long enough to know that the gap between &quot;I think I know what&apos;s wrong&quot; and &quot;I know exactly...</description>
+    <description>I found the bug in the most boring place: a company record that looked &quot;complete enough&quot; to pass a quick glance, but still had an Unknown-ish name and no usable location. The pipeline hadn&apos;t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Preventing Rogue AI Agents</title>
-    <link>https://dev.to/willvelida/preventing-rogue-ai-agents-53n2</link>
-    <guid>https://dev.to/willvelida/preventing-rogue-ai-agents-53n2</guid>
-    <pubDate>Fri, 13 Mar 2026 02:48:37 +0000</pubDate>
+    <title>AI for DevOps and Platform Engineering: Practical Use Cases That Actually Work</title>
+    <link>https://dev.to/yogesh_vk/ai-for-devops-and-platform-engineering-practical-use-cases-that-actually-work-2a63</link>
+    <guid>https://dev.to/yogesh_vk/ai-for-devops-and-platform-engineering-practical-use-cases-that-actually-work-2a63</guid>
+    <pubDate>Fri, 13 Mar 2026 04:53:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What happens when the agent itself becomes the threat? Not because of a prompt injection (ASI01) or tool misuse (ASI02), but because the Claude model produces systematically wrong analysis, the...</description>
+    <description>Moving beyond hype to real workflows where AI improves infrastructure engineering, and where AI is actually useful for DevOps and Platform Engineering teams today. INTRODUCTION AI is rapidly...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Preventing Human-Agent Trust Exploitation in AI Agents</title>
-    <link>https://dev.to/willvelida/preventing-human-agent-trust-exploitation-in-ai-agents-5d8f</link>
-    <guid>https://dev.to/willvelida/preventing-human-agent-trust-exploitation-in-ai-agents-5d8f</guid>
-    <pubDate>Fri, 13 Mar 2026 02:47:38 +0000</pubDate>
+    <title>Understanding the Model Router in Microsoft Foundry</title>
+    <link>https://dev.to/sreeni5018/understanding-the-model-router-in-microsoft-foundry-3hg</link>
+    <guid>https://dev.to/sreeni5018/understanding-the-model-router-in-microsoft-foundry-3hg</guid>
+    <pubDate>Fri, 13 Mar 2026 04:44:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your health data agent says: &quot;Your sleep quality improved 23% this month compared to last month.&quot; You adjust your bedtime routine, change your medication timing, or skip a doctor&apos;s appointment...</description>
+    <description>Introduction As generative AI applications move from prototypes to production systems, developers increasingly face a new architectural challenge is choosing the right model for each task. Modern...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Preventing Cascading Failures in AI Agents</title>
-    <link>https://dev.to/willvelida/preventing-cascading-failures-in-ai-agents-p3c</link>
-    <guid>https://dev.to/willvelida/preventing-cascading-failures-in-ai-agents-p3c</guid>
-    <pubDate>Fri, 13 Mar 2026 02:46:15 +0000</pubDate>
+    <title>What Building Voxitale for the Gemini Live Contest Taught Me About Working With Multiple AI Tools</title>
+    <link>https://dev.to/aaron_melton_0601b97a4b57/what-building-voxitale-for-the-gemini-live-contest-taught-me-about-working-with-multiple-ai-tools-3bjb</link>
+    <guid>https://dev.to/aaron_melton_0601b97a4b57/what-building-voxitale-for-the-gemini-live-contest-taught-me-about-working-with-multiple-ai-tools-3bjb</guid>
+    <pubDate>Fri, 13 Mar 2026 04:41:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your AI agent depends on a chain of services. In my side project (Biotrackr), the chain looks like this: Claude API for reasoning, APIM for routing, downstream APIs for health data, and Cosmos DB...</description>
+    <description>For the Gemini Live contest I built Voxitale, a voice-first storytelling app for young children. A child talks to a character named Amelia directly in the browser. They guide the adventure out...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Preventing Insecure Inter-Agent Communication in AI Agents</title>
-    <link>https://dev.to/willvelida/preventing-insecure-inter-agent-communication-in-ai-agents-hnp</link>
-    <guid>https://dev.to/willvelida/preventing-insecure-inter-agent-communication-in-ai-agents-hnp</guid>
-    <pubDate>Fri, 13 Mar 2026 02:44:55 +0000</pubDate>
+    <title>Proof-of-Execution: verifying what AI agents actually execute</title>
+    <link>https://dev.to/ladebw/proof-of-execution-verifying-what-ai-agents-actually-execute-5aoc</link>
+    <guid>https://dev.to/ladebw/proof-of-execution-verifying-what-ai-agents-actually-execute-5aoc</guid>
+    <pubDate>Fri, 13 Mar 2026 04:39:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Biotrackr is a single-agent system. One agent, twelve tools, one identity. That is an architectural choice that eliminates an entire vulnerability class Insecure Inter-Agent Communication (ASI07)....</description>
+    <description>I’ve been working on a protocol called Proof-of-Execution (PoE). The idea is simple: AI agents today are evaluated mostly on their outputs, but outputs can be correct even if the agent didn’t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Preventing Memory and Context Poisoning in AI Agents</title>
-    <link>https://dev.to/willvelida/preventing-memory-and-context-poisoning-in-ai-agents-1icf</link>
-    <guid>https://dev.to/willvelida/preventing-memory-and-context-poisoning-in-ai-agents-1icf</guid>
-    <pubDate>Fri, 13 Mar 2026 02:42:49 +0000</pubDate>
+    <title>Why Context Engineering Will Replace Traditional Architecture Thinking</title>
+    <link>https://dev.to/jaideepparashar/why-context-engineering-will-replace-traditional-architecture-thinking-4e39</link>
+    <guid>https://dev.to/jaideepparashar/why-context-engineering-will-replace-traditional-architecture-thinking-4e39</guid>
+    <pubDate>Fri, 13 Mar 2026 04:38:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every time your AI agent saves a conversation, you&apos;re creating a potential attack vector. ASI06 (Memory and Context Poisoning) asks a deceptively simple question: &quot;can previous conversations...</description>
+    <description>Invitation: Now, I am officially active on X (Twitter). For new DevOps ideas, you can join me on X (Twitter) as well. Click Here Article Abstract: For most of the history of software engineering,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Preventing Unexpected Code Execution in AI Agents</title>
-    <link>https://dev.to/willvelida/preventing-unexpected-code-execution-in-ai-agents-5gcd</link>
-    <guid>https://dev.to/willvelida/preventing-unexpected-code-execution-in-ai-agents-5gcd</guid>
-    <pubDate>Fri, 13 Mar 2026 02:41:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Can your AI Agent run code? If not, you probably don&apos;t think that unexpected code execution applies to you. However, this goes a lot deeper than eval(). Input validation, container security,...</description>
+    <title>Vite 8.0 Is Out</title>
+    <link>https://vite.dev/blog/announcing-vite8</link>
+    <guid>https://vite.dev/blog/announcing-vite8</guid>
+    <pubDate>Fri, 13 Mar 2026 04:36:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://vite.dev/blog/announcing-vite8 Comments URL: https://news.ycombinator.com/item?id=47360730 Points: 12 # Comments: 1</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Preventing Agentic Supply Chain Vulnerabilities</title>
-    <link>https://dev.to/willvelida/preventing-agentic-supply-chain-vulnerabilities-230n</link>
-    <guid>https://dev.to/willvelida/preventing-agentic-supply-chain-vulnerabilities-230n</guid>
-    <pubDate>Fri, 13 Mar 2026 02:40:25 +0000</pubDate>
+    <title>Truecaller now lets you hang up on scammers — on behalf of your family</title>
+    <link>https://techcrunch.com/2026/03/12/truecallers-now-lets-you-hang-up-on-scammers-on-behalf-of-your-family/</link>
+    <guid>https://techcrunch.com/2026/03/12/truecallers-now-lets-you-hang-up-on-scammers-on-behalf-of-your-family/</guid>
+    <pubDate>Fri, 13 Mar 2026 04:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Caller identity platform Truecaller recently launched a new feature that lets one person become an admin of a family group, get alerts about fraud calls received by other members, and even end a...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How I Learned and Built AI-Integrated Software Development</title>
+    <link>https://dev.to/vishaluttammane/how-i-learned-and-built-ai-integrated-software-development-2e3e</link>
+    <guid>https://dev.to/vishaluttammane/how-i-learned-and-built-ai-integrated-software-development-2e3e</guid>
+    <pubDate>Fri, 13 Mar 2026 04:27:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your AI Agent&apos;s security is only as strong as its weakest dependency. Whatever packages you are using within your agents, you&apos;re trusting that those packages that have been published haven&apos;t been...</description>
+    <description>The world of software development is changing rapidly. A few years ago, building applications meant writing every piece of logic manually, debugging line by line, and spending countless hours...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Apple M5 Fusion Architecture Explained - Two Dies, One Chip, Infinite Possibilities</title>
-    <link>https://dev.to/tyson_cung/apple-m5-fusion-architecture-explained-two-dies-one-chip-infinite-possibilities-o9e</link>
-    <guid>https://dev.to/tyson_cung/apple-m5-fusion-architecture-explained-two-dies-one-chip-infinite-possibilities-o9e</guid>
-    <pubDate>Fri, 13 Mar 2026 02:40:14 +0000</pubDate>
+    <title>Systems follow what they repeat, not what you write down</title>
+    <link>https://dev.to/hollowhouse/systems-follow-what-they-repeat-not-what-you-write-down-5d31</link>
+    <guid>https://dev.to/hollowhouse/systems-follow-what-they-repeat-not-what-you-write-down-5d31</guid>
+    <pubDate>Fri, 13 Mar 2026 04:25:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>👆 Watch the full walkthrough above Apple just rewrote the rules of chip design with the M5 Pro and M5 Max. After years of monolithic silicon, theyve introduced Fusion Architecture - a radically...</description>
+    <description>Governance failures rarely start with bad policies. They start with repeated behavior. In Behavioral AI Governance, we use a simple idea to explain why systems—codebases, teams, and AI...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Atlassian Fires 1,600 Engineers to Bet Everything on AI - The New Playbook</title>
-    <link>https://dev.to/tyson_cung/atlassian-fires-1600-engineers-to-bet-everything-on-ai-the-new-playbook-2nnp</link>
-    <guid>https://dev.to/tyson_cung/atlassian-fires-1600-engineers-to-bet-everything-on-ai-the-new-playbook-2nnp</guid>
-    <pubDate>Fri, 13 Mar 2026 02:39:01 +0000</pubDate>
+    <title>AI Reviews Your Code Before You Even Open the PR — Claude Code Review Changes Everything</title>
+    <link>https://dev.to/philliphades/ai-reviews-your-code-before-you-even-open-the-pr-claude-code-review-changes-everything-4dfh</link>
+    <guid>https://dev.to/philliphades/ai-reviews-your-code-before-you-even-open-the-pr-claude-code-review-changes-everything-4dfh</guid>
+    <pubDate>Fri, 13 Mar 2026 04:24:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>👆 Watch the 60-second breakdown above Atlassian just laid off 10% of its global workforce - 1,600 people - and they&apos;re not hiding why. CEO Mike Cannon-Brookes called it the &quot;right decision&quot; for...</description>
+    <description>A developer changed one line of code. Looked totally normal. The kind of change that gets approved in 30 seconds. Claude Code Review flagged it as a critical bug. That single line would have...</description>
     <category>Developer Tools</category>
   </item>
   <item>
@@ -266,15 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Cybersecurity researchers have disclosed details of a suspected artificial intelligence (AI)-generated malware codenamed Slopoly put to use by a financially motivated threat actor named Hive0163....</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Gemini’s task automation is here and it’s wild</title>
-    <link>https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10</link>
-    <guid>https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10</guid>
-    <pubDate>Thu, 12 Mar 2026 16:59:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automation. Starting with food delivery and rideshare apps, Gemini would be able...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
