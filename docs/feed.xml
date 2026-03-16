@@ -5,61 +5,160 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 16 Mar 2026 13:54:59 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Mar 2026 17:17:24 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Unified Authentication for OAuth2 and API Keys via Edge Token Normalization</title>
-    <link>https://dev.to/mberwanger/unified-authentication-for-oauth2-and-api-keys-via-edge-token-normalization-43cl</link>
-    <guid>https://dev.to/mberwanger/unified-authentication-for-oauth2-and-api-keys-via-edge-token-normalization-43cl</guid>
-    <pubDate>Mon, 16 Mar 2026 13:46:11 +0000</pubDate>
+    <title>How to convert a any vibe coded website to WordPress (without banging your head against the wall)</title>
+    <link>https://dev.to/eliotdill/how-to-convert-a-any-vibe-coded-website-to-wordpress-without-banging-your-head-against-the-wall-4e1m</link>
+    <guid>https://dev.to/eliotdill/how-to-convert-a-any-vibe-coded-website-to-wordpress-without-banging-your-head-against-the-wall-4e1m</guid>
+    <pubDate>Mon, 16 Mar 2026 17:13:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Recently, I was building a developer-facing API and ran into a problem I couldn’t find a clean answer to anywhere. I needed to support long-running, fully automated, user-delegated access with no...</description>
+    <description>After developing websites for clients for over 20 years, I&apos;m seeing a couple of new trends emerge with the popularity of AI. Trend 1: Tech-Savvy, DIYers using AI First, I&apos;m seeing &quot;tech-savvy&quot;...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Tool That Lets You Contribute to Open Source in Any Language</title>
-    <link>https://dev.to/pavitra0/i-built-a-tool-that-lets-you-contribute-to-open-source-in-any-language-jok</link>
-    <guid>https://dev.to/pavitra0/i-built-a-tool-that-lets-you-contribute-to-open-source-in-any-language-jok</guid>
-    <pubDate>Mon, 16 Mar 2026 13:45:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I was browsing a really interesting React issue on GitHub. Somebody had found a genuinly clever edge case with Suspense boundaries. The discussion was detailed, technical, and... entirely in...</description>
+    <title>Launch HN: Chamber (YC W26) – An AI Teammate for GPU Infrastructure</title>
+    <link>https://www.usechamber.io/</link>
+    <guid>https://www.usechamber.io/</guid>
+    <pubDate>Mon, 16 Mar 2026 17:09:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Hey HN, we&apos;re Jie Shen, Charles, Andreas, and Shaocheng. We built Chamber (https://usechamber.io), an AI agent that manages GPU infrastructure for you. You talk to it wherever your team already...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>MCP Development with Amazon Lambda and Gemini CLI</title>
-    <link>https://dev.to/gde/mcp-development-with-amazon-lambda-and-gemini-cli-20kc</link>
-    <guid>https://dev.to/gde/mcp-development-with-amazon-lambda-and-gemini-cli-20kc</guid>
-    <pubDate>Mon, 16 Mar 2026 13:38:46 +0000</pubDate>
+    <title>Cold Starts en AWS Lambda: Qué son, por qué ocurren y cómo solucionarlos</title>
+    <link>https://dev.to/aws/cold-starts-en-aws-lambda-que-son-por-que-ocurren-y-como-solucionarlos-13no</link>
+    <guid>https://dev.to/aws/cold-starts-en-aws-lambda-que-son-por-que-ocurren-y-como-solucionarlos-13no</guid>
+    <pubDate>Mon, 16 Mar 2026 17:08:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Leveraging Gemini CLI and the underlying Gemini LLM to build Model Context Protocol (MCP) AI applications with Python from a local development environment deployed to the Lambda service on AWS....</description>
+    <description>Todo lo que necesitas saber sobre cold starts en Lambda y las estrategias para reducir su impacto. La primera vez que me topé con un cold start, no tenía idea de qué estaba pasando. Había...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Ansible for DevOps: Automate Server Configuration in 30 Minutes (Not 30 Days)</title>
-    <link>https://dev.to/sanjaysundarmurthy/ansible-for-devops-automate-server-configuration-in-30-minutes-not-30-days-1030</link>
-    <guid>https://dev.to/sanjaysundarmurthy/ansible-for-devops-automate-server-configuration-in-30-minutes-not-30-days-1030</guid>
-    <pubDate>Mon, 16 Mar 2026 13:38:25 +0000</pubDate>
+    <title>Switch from Ruby CSV to SmarterCSV in 5 Minutes</title>
+    <link>https://dev.to/tilo_sloboda/switch-from-ruby-csv-to-smartercsv-in-5-minutes-3636</link>
+    <guid>https://dev.to/tilo_sloboda/switch-from-ruby-csv-to-smartercsv-in-5-minutes-3636</guid>
+    <pubDate>Mon, 16 Mar 2026 17:06:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You have 15 servers. Each one needs the same packages, the same users, the same firewall rules, the same monitoring agent, and the same application configuration. You can SSH into each one and run...</description>
+    <description>Why switch? → 10 Ways Ruby&apos;s CSV.read Can Silently Corrupt or Lose Your Data In this article we&apos;ll explore how easy it is to switch from Ruby CSV to SmarterCSV — often just a single line change....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>MCP Development with Gemini CLI and Amazon Fargate</title>
-    <link>https://dev.to/gde/mcp-development-with-gemini-cli-and-amazon-fargate-el8</link>
-    <guid>https://dev.to/gde/mcp-development-with-gemini-cli-and-amazon-fargate-el8</guid>
-    <pubDate>Mon, 16 Mar 2026 13:37:01 +0000</pubDate>
+    <title>🚀 Day 19 of My Automation Journey – Method Overloading Tricky Questions</title>
+    <link>https://dev.to/bala_dkaveri_443d4beb9c8/day-19-of-my-automation-journey-method-overloading-tricky-questions-3md1</link>
+    <guid>https://dev.to/bala_dkaveri_443d4beb9c8/day-19-of-my-automation-journey-method-overloading-tricky-questions-3md1</guid>
+    <pubDate>Mon, 16 Mar 2026 17:06:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Leveraging Gemini CLI and the underlying Gemini LLM to build Model Context Protocol (MCP) AI applications with Python from a local development environment deployed to the Fargate serverless...</description>
+    <description>Today I practiced some tricky scenarios of Java Method Overloading. Method overloading is a very common concept in Java, but the way Java decides which method to call can sometimes be confusing....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Diagramify - automatic diagram creation for Notion</title>
-    <link>https://dev.to/utak3r/diagramify-automatic-diagram-creation-for-notion-131k</link>
-    <guid>https://dev.to/utak3r/diagramify-automatic-diagram-creation-for-notion-131k</guid>
-    <pubDate>Mon, 16 Mar 2026 13:35:09 +0000</pubDate>
+    <title>Tracing a RAG Chain End-to-End: Where OpenTelemetry Stops and Where You Need to Instrument Yourself</title>
+    <link>https://dev.to/erythix_6d20050c4f1039b32/tracing-a-rag-chain-end-to-end-where-opentelemetry-stops-and-where-you-need-to-instrument-yourself-2840</link>
+    <guid>https://dev.to/erythix_6d20050c4f1039b32/tracing-a-rag-chain-end-to-end-where-opentelemetry-stops-and-where-you-need-to-instrument-yourself-2840</guid>
+    <pubDate>Mon, 16 Mar 2026 17:05:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m often writing descriptions and ideas on projects in Notion. And I thought: it&apos;d be nice to have such system descriptions summarized in a diagram of proper kind, be it a flow diagram, decision...</description>
+    <description>There are already plenty of &quot;Getting started with OpenTelemetry&quot; tutorials. This is not one of them. This article starts with a candid observation: if you have OTel running in your infrastructure...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why &lt;label&gt; and &lt;button&gt; Are Better Than &lt;div&gt; for Forms</title>
+    <link>https://dev.to/pawar-shivam7/why-and-are-better-than-for-forms-1mhj</link>
+    <guid>https://dev.to/pawar-shivam7/why-and-are-better-than-for-forms-1mhj</guid>
+    <pubDate>Mon, 16 Mar 2026 17:05:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Small HTML Choices That Affect Accessibility Many developers focus on JavaScript frameworks and UI styling, but forget that HTML semantics already provide powerful built-in functionality. Two...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit</guid>
+    <pubDate>Mon, 16 Mar 2026 17:04:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>On Friday, Encyclopedia Britannica and dictionary publisher Merriam-Webster filed a lawsuit against OpenAI alleging that it used their copyrighted content to train its AI, then generated responses...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>10 Ways Ruby&apos;s CSV.read Can Silently Corrupt or Lose Your Data</title>
+    <link>https://dev.to/tilo_sloboda/10-ways-rubys-csvread-can-silently-corrupt-or-lose-your-data-1g02</link>
+    <guid>https://dev.to/tilo_sloboda/10-ways-rubys-csvread-can-silently-corrupt-or-lose-your-data-1g02</guid>
+    <pubDate>Mon, 16 Mar 2026 17:03:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When having to parse CSV files, many developers go straight to the Ruby CSV library — but it comes at the cost of writing boilerplate post-processing, and there are some dangerous pitfalls you...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Kaizen (YC P25) Hiring Eng, GTM, Cos to Automate BPOs</title>
+    <link>https://www.kaizenautomation.com/careers</link>
+    <guid>https://www.kaizenautomation.com/careers</guid>
+    <pubDate>Mon, 16 Mar 2026 17:00:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://www.kaizenautomation.com/careers Comments URL: https://news.ycombinator.com/item?id=47401618 Points: 0 # Comments: 0</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Context Engineering Is Not a Replacement for Architecture</title>
+    <link>https://dev.to/narnaiezzsshaa/context-engineering-is-not-a-replacement-for-architecture-4ifl</link>
+    <guid>https://dev.to/narnaiezzsshaa/context-engineering-is-not-a-replacement-for-architecture-4ifl</guid>
+    <pubDate>Mon, 16 Mar 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Context is a last-mile influence layer, not a defining layer. Architecture still governs behavior, constraints, and system physics. Context Engineering Is Not a Replacement for Architecture...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Amazon’s Fire TV Stick 4K Max and 4K Plus sticks are up to 50 percent off</title>
+    <link>https://www.theverge.com/gadgets/895340/fire-tv-stick-4k-max-plus-amazon-early-big-spring-sale-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/895340/fire-tv-stick-4k-max-plus-amazon-early-big-spring-sale-deal-sale</guid>
+    <pubDate>Mon, 16 Mar 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Since Amazon rolled out its redesigned Fire TV OS, Amazon’s latest streaming sticks are even better than ever. And right now, both the Fire TV Stick 4K Max and Fire TV Stick 4K Plus are back at...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon’s best Echo speakers and screens just got their biggest discounts</title>
+    <link>https://www.theverge.com/gadgets/895201/echo-show-dot-max-studio-amazon-apple-watch-ultra-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/895201/echo-show-dot-max-studio-amazon-apple-watch-ultra-deal-sale</guid>
+    <pubDate>Mon, 16 Mar 2026 15:14:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>While Amazon’s previous lineup of Echo speakers and smart displays was boring, frankly, its late 2025 hardware refresh brought better hardware, improved performance, and Alexa Plus to several...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Yahoo CEO Jim Lanzone on reviving the web&amp;#8217;s homepage</title>
+    <link>https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web</link>
+    <guid>https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web</guid>
+    <pubDate>Mon, 16 Mar 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Today, I’m talking with Jim Lanzone, who is the CEO of Yahoo. It’s basically impossible to sum up the Yahoo story, but the short version of it is that a long time ago Yahoo paid Google to run the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>This chair gives half-worn clothes a home</title>
+    <link>https://www.theverge.com/tech/895194/laundry-chair-kickstarter-simone-giertz</link>
+    <guid>https://www.theverge.com/tech/895194/laundry-chair-kickstarter-simone-giertz</guid>
+    <pubDate>Mon, 16 Mar 2026 14:55:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Seating technology may have reached its peak for those of us who struggle to keep our lightly worn clothing piles away from furniture. The Laundry Chair - developed by YouTuber and viral inventor...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How to watch Jensen Huang’s Nvidia GTC 2026 keynote — and what to expect</title>
+    <link>https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/</link>
+    <guid>https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/</guid>
+    <pubDate>Mon, 16 Mar 2026 14:30:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>GTC is Nvidia&apos;s flagship annual event, where the chipmaker typically announces new products, partnerships, and its vision for the future of computing. Huang&apos;s keynote will focus on Nvidia&apos;s role...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents &amp; More</title>
+    <link>https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html</link>
+    <guid>https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html</guid>
+    <pubDate>Mon, 16 Mar 2026 14:17:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Some weeks in security feel normal. Then you read a few tabs and get that immediate “ah, great, we’re doing this now” feeling. This week has that energy. Fresh messes, old problems getting...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Apple&amp;#8217;s $549 AirPods Max 2 add better ANC and live translation</title>
@@ -67,44 +166,8 @@
     <guid>https://www.theverge.com/tech/895155/apple-airpods-max-2-pricing-availability</guid>
     <pubDate>Mon, 16 Mar 2026 13:30:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple has just announced the AirPods Max 2 with better noise cancellation and sound quality. The second generation of Apple&apos;s over-ear headphones starts at $549 and comes equipped with an H2 chip,...</description>
+    <description>Apple has just announced the AirPods Max 2 with better noise cancellation and sound quality. The second generation of Apple&apos;s over-ear headphones starts at $549 and comes equipped with an H2 chip...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How I Built Niobe: An AI Waitress with Gemini Live and Google Cloud</title>
-    <link>https://dev.to/provydon/how-i-built-niobe-an-ai-waitress-with-gemini-live-and-google-cloud-2o28</link>
-    <guid>https://dev.to/provydon/how-i-built-niobe-an-ai-waitress-with-gemini-live-and-google-cloud-2o28</guid>
-    <pubDate>Mon, 16 Mar 2026 13:30:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclaimer: I created this blog post for the purposes of entering the Gemini Live Agent Challenge hackathon. When sharing on social media, use the hashtag #GeminiLiveAgentChallenge. What is Niobe?...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Meme Monday</title>
-    <link>https://dev.to/ben/meme-monday-cc9</link>
-    <guid>https://dev.to/ben/meme-monday-cc9</guid>
-    <pubDate>Mon, 16 Mar 2026 13:27:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Meme Monday! Today&apos;s cover image comes from the last thread. DEV is an inclusive space! Humor in poor taste will be downvoted by mods.</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Stop Overpaying for VectorDBs: Architecting Serverless RAG on AWS</title>
-    <link>https://dev.to/dhananjay_lakkawar/stop-overpaying-for-vectordbs-architecting-serverless-rag-on-aws-1pjf</link>
-    <guid>https://dev.to/dhananjay_lakkawar/stop-overpaying-for-vectordbs-architecting-serverless-rag-on-aws-1pjf</guid>
-    <pubDate>Mon, 16 Mar 2026 13:26:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building a Retrieval-Augmented Generation (RAG) prototype takes a weekend. Taking that prototype to production without burning through your infrastructure budget is a completely different...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Modernización sin fricción: AWS Transform en acción (VMware EC2 nativo). Parte 2: Hands-on</title>
-    <link>https://dev.to/oscar_gaviria_2b862594738/modernizacion-sin-friccion-aws-transform-en-accion-vmware-ec2-nativo-parte-2-hands-on-3plh</link>
-    <guid>https://dev.to/oscar_gaviria_2b862594738/modernizacion-sin-friccion-aws-transform-en-accion-vmware-ec2-nativo-parte-2-hands-on-3plh</guid>
-    <pubDate>Mon, 16 Mar 2026 13:25:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🧠Introducción En la Parte 1 expliqué por qué AWS Transform para VMware está cambiando la forma en que planificamos migraciones a escala: discovery, traducción de red y wave planning asistidos por...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Nurturing agentic AI beyond the toddler stage</title>
@@ -211,69 +274,6 @@
     <pubDate>Mon, 16 Mar 2026 09:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Dozens of Telegram channels reviewed by WIRED include job listings for “AI face models.” The (mostly) women who land these gigs are likely being used to dupe victims out of their money.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse</title>
-    <link>https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html</link>
-    <guid>https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html</guid>
-    <pubDate>Mon, 16 Mar 2026 05:43:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Google is testing a new security feature as part of Android Advanced Protection Mode (AAPM) that prevents certain kinds of apps from using the accessibility services API. The change, incorporated...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Google, Accel India accelerator chooses 5 startups and none are ‘AI wrappers’</title>
-    <link>https://techcrunch.com/2026/03/15/google-and-accel-cut-through-wrappers-in-4000-ai-startup-pitches-to-pick-five-tied-to-india/</link>
-    <guid>https://techcrunch.com/2026/03/15/google-and-accel-cut-through-wrappers-in-4000-ai-startup-pitches-to-pick-five-tied-to-india/</guid>
-    <pubDate>Mon, 16 Mar 2026 00:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google and Accel say about 70% of AI startup pitches tied to India were &quot;wrappers&quot; as they reviewed more than 4,000 applications for their Atoms cohort.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>ByteDance reportedly pauses global launch of its Seedance 2.0 video generator</title>
-    <link>https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/</link>
-    <guid>https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/</guid>
-    <pubDate>Sun, 15 Mar 2026 21:01:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company is reportedly delaying the launch as its engineers and lawyers work to avert further legal issues.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Aether OS is a computer in a browser built for the AT Protocol</title>
-    <link>https://www.theverge.com/tech/895083/aether-os-browser-at-protocol</link>
-    <guid>https://www.theverge.com/tech/895083/aether-os-browser-at-protocol</guid>
-    <pubDate>Sun, 15 Mar 2026 19:35:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Aether OS puts a full-fledged desktop in your browser that ties directly into the AT Protocol. That means it connects to your Bluesky account and other public records. It offers a pretty full...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Lawyer behind AI psychosis cases warns of mass casualty risks</title>
-    <link>https://techcrunch.com/2026/03/15/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/</link>
-    <guid>https://techcrunch.com/2026/03/15/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/</guid>
-    <pubDate>Sun, 15 Mar 2026 18:49:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>AI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technology is moving faster than the safeguards.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Sotomayor’s Wabi Sabi is the funnest record of 2026</title>
-    <link>https://www.theverge.com/entertainment/895065/sotomayor-wabi-sabi-review</link>
-    <guid>https://www.theverge.com/entertainment/895065/sotomayor-wabi-sabi-review</guid>
-    <pubDate>Sun, 15 Mar 2026 16:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Shout out to subscriber N_Gorski for today&apos;s pick. They popped into the comments on last week&apos;s recommendation to ask what I thought of the new Sotomayor record. Well, I hadn&apos;t actually heard it...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Wiz investor unpacks Google’s $32B acquisition</title>
-    <link>https://techcrunch.com/2026/03/15/wiz-investor-unpacks-googles-32b-acquisition/</link>
-    <guid>https://techcrunch.com/2026/03/15/wiz-investor-unpacks-googles-32b-acquisition/</guid>
-    <pubDate>Sun, 15 Mar 2026 15:30:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Shardul Shah of Index Ventures walks us through Google&apos;s biggest acquisition ever.</description>
     <category>AI</category>
   </item>
 </channel>
