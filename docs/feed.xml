@@ -5,106 +5,213 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 16 Mar 2026 09:13:47 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Mar 2026 13:54:59 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Unified Authentication for OAuth2 and API Keys via Edge Token Normalization</title>
+    <link>https://dev.to/mberwanger/unified-authentication-for-oauth2-and-api-keys-via-edge-token-normalization-43cl</link>
+    <guid>https://dev.to/mberwanger/unified-authentication-for-oauth2-and-api-keys-via-edge-token-normalization-43cl</guid>
+    <pubDate>Mon, 16 Mar 2026 13:46:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Recently, I was building a developer-facing API and ran into a problem I couldn’t find a clean answer to anywhere. I needed to support long-running, fully automated, user-delegated access with no...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Built a Tool That Lets You Contribute to Open Source in Any Language</title>
+    <link>https://dev.to/pavitra0/i-built-a-tool-that-lets-you-contribute-to-open-source-in-any-language-jok</link>
+    <guid>https://dev.to/pavitra0/i-built-a-tool-that-lets-you-contribute-to-open-source-in-any-language-jok</guid>
+    <pubDate>Mon, 16 Mar 2026 13:45:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I was browsing a really interesting React issue on GitHub. Somebody had found a genuinly clever edge case with Suspense boundaries. The discussion was detailed, technical, and... entirely in...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>MCP Development with Amazon Lambda and Gemini CLI</title>
+    <link>https://dev.to/gde/mcp-development-with-amazon-lambda-and-gemini-cli-20kc</link>
+    <guid>https://dev.to/gde/mcp-development-with-amazon-lambda-and-gemini-cli-20kc</guid>
+    <pubDate>Mon, 16 Mar 2026 13:38:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Leveraging Gemini CLI and the underlying Gemini LLM to build Model Context Protocol (MCP) AI applications with Python from a local development environment deployed to the Lambda service on AWS....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Ansible for DevOps: Automate Server Configuration in 30 Minutes (Not 30 Days)</title>
+    <link>https://dev.to/sanjaysundarmurthy/ansible-for-devops-automate-server-configuration-in-30-minutes-not-30-days-1030</link>
+    <guid>https://dev.to/sanjaysundarmurthy/ansible-for-devops-automate-server-configuration-in-30-minutes-not-30-days-1030</guid>
+    <pubDate>Mon, 16 Mar 2026 13:38:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You have 15 servers. Each one needs the same packages, the same users, the same firewall rules, the same monitoring agent, and the same application configuration. You can SSH into each one and run...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>MCP Development with Gemini CLI and Amazon Fargate</title>
+    <link>https://dev.to/gde/mcp-development-with-gemini-cli-and-amazon-fargate-el8</link>
+    <guid>https://dev.to/gde/mcp-development-with-gemini-cli-and-amazon-fargate-el8</guid>
+    <pubDate>Mon, 16 Mar 2026 13:37:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Leveraging Gemini CLI and the underlying Gemini LLM to build Model Context Protocol (MCP) AI applications with Python from a local development environment deployed to the Fargate serverless...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Diagramify - automatic diagram creation for Notion</title>
+    <link>https://dev.to/utak3r/diagramify-automatic-diagram-creation-for-notion-131k</link>
+    <guid>https://dev.to/utak3r/diagramify-automatic-diagram-creation-for-notion-131k</guid>
+    <pubDate>Mon, 16 Mar 2026 13:35:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m often writing descriptions and ideas on projects in Notion. And I thought: it&apos;d be nice to have such system descriptions summarized in a diagram of proper kind, be it a flow diagram, decision...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apple&amp;#8217;s $549 AirPods Max 2 add better ANC and live translation</title>
+    <link>https://www.theverge.com/tech/895155/apple-airpods-max-2-pricing-availability</link>
+    <guid>https://www.theverge.com/tech/895155/apple-airpods-max-2-pricing-availability</guid>
+    <pubDate>Mon, 16 Mar 2026 13:30:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple has just announced the AirPods Max 2 with better noise cancellation and sound quality. The second generation of Apple&apos;s over-ear headphones starts at $549 and comes equipped with an H2 chip,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How I Built Niobe: An AI Waitress with Gemini Live and Google Cloud</title>
+    <link>https://dev.to/provydon/how-i-built-niobe-an-ai-waitress-with-gemini-live-and-google-cloud-2o28</link>
+    <guid>https://dev.to/provydon/how-i-built-niobe-an-ai-waitress-with-gemini-live-and-google-cloud-2o28</guid>
+    <pubDate>Mon, 16 Mar 2026 13:30:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Disclaimer: I created this blog post for the purposes of entering the Gemini Live Agent Challenge hackathon. When sharing on social media, use the hashtag #GeminiLiveAgentChallenge. What is Niobe?...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
     <title>Meme Monday</title>
-    <link>https://dev.to/thiraisuvadu_dev/meme-monday-26</link>
-    <guid>https://dev.to/thiraisuvadu_dev/meme-monday-26</guid>
-    <pubDate>Mon, 16 Mar 2026 09:08:07 +0000</pubDate>
+    <link>https://dev.to/ben/meme-monday-cc9</link>
+    <guid>https://dev.to/ben/meme-monday-cc9</guid>
+    <pubDate>Mon, 16 Mar 2026 13:27:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tired of waiting for the official Meme Monday post, so sorry I&apos;m starting the thread myself. Let&apos;s go!</description>
+    <description>Meme Monday! Today&apos;s cover image comes from the last thread. DEV is an inclusive space! Humor in poor taste will be downvoted by mods.</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Tested 50 AI App Prompts for Injection Attacks. 90% Scored CRITICAL.</title>
-    <link>https://dev.to/vibewrench/i-tested-50-ai-app-prompts-for-injection-attacks-90-scored-critical-17aj</link>
-    <guid>https://dev.to/vibewrench/i-tested-50-ai-app-prompts-for-injection-attacks-90-scored-critical-17aj</guid>
-    <pubDate>Mon, 16 Mar 2026 09:07:59 +0000</pubDate>
+    <title>Stop Overpaying for VectorDBs: Architecting Serverless RAG on AWS</title>
+    <link>https://dev.to/dhananjay_lakkawar/stop-overpaying-for-vectordbs-architecting-serverless-rag-on-aws-1pjf</link>
+    <guid>https://dev.to/dhananjay_lakkawar/stop-overpaying-for-vectordbs-architecting-serverless-rag-on-aws-1pjf</guid>
+    <pubDate>Mon, 16 Mar 2026 13:26:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>So I spent last week doing something slightly unhinged. I pulled 50 system prompts out of public AI app repos on GitHub — just sitting there in the code, plain text — and ran every single one...</description>
+    <description>Building a Retrieval-Augmented Generation (RAG) prototype takes a weekend. Taking that prototype to production without burning through your infrastructure budget is a completely different...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Integrating Autype with LLM Agents (MCP): Templates, Schema Validation and Feedback Loops</title>
-    <link>https://dev.to/kesimo/integrating-autype-with-llm-agents-mcp-templates-schema-validation-and-feedback-loops-128k</link>
-    <guid>https://dev.to/kesimo/integrating-autype-with-llm-agents-mcp-templates-schema-validation-and-feedback-loops-128k</guid>
-    <pubDate>Mon, 16 Mar 2026 09:06:54 +0000</pubDate>
+    <title>Modernización sin fricción: AWS Transform en acción (VMware EC2 nativo). Parte 2: Hands-on</title>
+    <link>https://dev.to/oscar_gaviria_2b862594738/modernizacion-sin-friccion-aws-transform-en-accion-vmware-ec2-nativo-parte-2-hands-on-3plh</link>
+    <guid>https://dev.to/oscar_gaviria_2b862594738/modernizacion-sin-friccion-aws-transform-en-accion-vmware-ec2-nativo-parte-2-hands-on-3plh</guid>
+    <pubDate>Mon, 16 Mar 2026 13:25:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you connect an LLM agent to a document generation system, you quickly hit a wall. The agent produces output, but the output needs to fit a strict schema. One missing field, one wrong type,...</description>
+    <description>🧠Introducción En la Parte 1 expliqué por qué AWS Transform para VMware está cambiando la forma en que planificamos migraciones a escala: discovery, traducción de red y wave planning asistidos por...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What Is a Capture Card? A Technical Guide to Video Capture Cards for Professional Workflows</title>
-    <link>https://dev.to/wixom/what-is-a-capture-card-a-technical-guide-to-video-capture-cards-for-professional-workflows-3oi5</link>
-    <guid>https://dev.to/wixom/what-is-a-capture-card-a-technical-guide-to-video-capture-cards-for-professional-workflows-3oi5</guid>
-    <pubDate>Mon, 16 Mar 2026 09:02:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Many professionals eventually encounter the same limitation: a computer can display video signals, but it cannot always ingest external video sources reliably. This becomes a problem...</description>
-    <category>Developer Tools</category>
+    <title>Nurturing agentic AI beyond the toddler stage</title>
+    <link>https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/</link>
+    <guid>https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/</guid>
+    <pubDate>Mon, 16 Mar 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a...</description>
+    <category>AI</category>
   </item>
   <item>
-    <title>What Happens When Your AI Agent Has a Permanent Address</title>
-    <link>https://dev.to/agenium_platform/what-happens-when-your-ai-agent-has-a-permanent-address-1a9l</link>
-    <guid>https://dev.to/agenium_platform/what-happens-when-your-ai-agent-has-a-permanent-address-1a9l</guid>
-    <pubDate>Mon, 16 Mar 2026 09:02:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your phone number doesn&apos;t change every time you restart your phone. Your email address doesn&apos;t reset when you log out. But your AI agent? It starts fresh every single conversation, with no...</description>
-    <category>Developer Tools</category>
+    <title>This is not a fly uploaded to a computer</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload</guid>
+    <pubDate>Mon, 16 Mar 2026 12:49:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Last week, a few posts about a so-called virtual &quot;embodied fly&quot; tore through X, boosted by AI hype accounts and excited commenters who didn&apos;t seem to understand what it was they were excited...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Zero Lines of Code: How Claude Code and Gemini Built My SaaS</title>
-    <link>https://dev.to/tomokiikeda/zero-lines-of-code-how-claude-code-and-gemini-built-my-saas-35cn</link>
-    <guid>https://dev.to/tomokiikeda/zero-lines-of-code-how-claude-code-and-gemini-built-my-saas-35cn</guid>
-    <pubDate>Mon, 16 Mar 2026 09:02:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I didn&apos;t write a single line of code. Not one. Claude Code (Anthropic) wrote every line — frontend, backend, database, infra, tests. Gemini (Google) powers all the AI features in production. Two...</description>
-    <category>Developer Tools</category>
+    <title>The Download: glass chips and “AI-free” logos</title>
+    <link>https://www.technologyreview.com/2026/03/16/1134301/the-download-glass-ai-chips-ai-free-logo/</link>
+    <guid>https://www.technologyreview.com/2026/03/16/1134301/the-download-glass-ai-chips-ai-free-logo/</guid>
+    <pubDate>Mon, 16 Mar 2026 12:35:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Future AI chips could be built on glass Human-made glass...</description>
+    <category>AI</category>
   </item>
   <item>
-    <title>Rise, Shatter, Lead.</title>
-    <link>https://dev.to/rohan_mirjankar/rise-shatter-lead-3pi5</link>
-    <guid>https://dev.to/rohan_mirjankar/rise-shatter-lead-3pi5</guid>
-    <pubDate>Mon, 16 Mar 2026 09:00:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the 2026 WeCoded Challenge: Frontend Art What did I build ?? What inspired me ?? The glass ceiling is one of the most enduring metaphors in gender equity — and I wanted to...</description>
-    <category>Developer Tools</category>
+    <title>The classic Apple Macintosh mouse inspired Spigen’s retro AirPods case</title>
+    <link>https://www.theverge.com/tech/893636/spigen-apple-airpods-pro-3-macintosh-magsafe-wallet-retro</link>
+    <guid>https://www.theverge.com/tech/893636/spigen-apple-airpods-pro-3-macintosh-magsafe-wallet-retro</guid>
+    <pubDate>Mon, 16 Mar 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you&apos;ve already given your iPhone 17 Pro and Pro Max a retro &apos;80s facelift with Spigen&apos;s Macintosh 128K and Apple Lisa-inspired Classic LS cases, you might as well make your wireless earbuds...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>‘100 Video Calls Per Day’: Models Are Applying to Be the Face of AI Scams</title>
+    <title>Why Security Validation Is Becoming Agentic</title>
+    <link>https://thehackernews.com/2026/03/why-security-validation-is-becoming.html</link>
+    <guid>https://thehackernews.com/2026/03/why-security-validation-is-becoming.html</guid>
+    <pubDate>Mon, 16 Mar 2026 11:58:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>If you run security at any reasonably complex organization, your validation stack probably looks something like this: a BAS tool in one corner. A pentest engagement, or maybe an automated...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers</title>
+    <link>https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html</link>
+    <guid>https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html</guid>
+    <pubDate>Mon, 16 Mar 2026 11:41:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Three different ClickFix campaigns have been found to act as a delivery vector for the deployment of a macOS information stealer called MacSync. &quot;Unlike traditional exploit-based attacks, this...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>OpenAI&amp;#8217;s adult mode will reportedly be smutty, not pornographic</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/895130/openai-chatgpt-adult-mode-text-smut-written-erotica</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/895130/openai-chatgpt-adult-mode-text-smut-written-erotica</guid>
+    <pubDate>Mon, 16 Mar 2026 11:18:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>OpenAI&apos;s delayed &quot;adult mode&quot; for ChatGPT is expected to support saucy text conversations at launch, but not the chatbot&apos;s ability to generate images, voice, or video. Speaking to The Wall Street...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Securing digital assets against future threats</title>
+    <link>https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/</link>
+    <guid>https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/</guid>
+    <pubDate>Mon, 16 Mar 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>My fitness tracker is a secret weapon against my chronic illness</title>
+    <link>https://www.theverge.com/features/889835/fitness-trackers-chronic-illness-visible-whoop</link>
+    <guid>https://www.theverge.com/features/889835/fitness-trackers-chronic-illness-visible-whoop</guid>
+    <pubDate>Mon, 16 Mar 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>One of the first major crashes I experienced as a chronically ill person happened on an unusually sunny January day in New York City. It was 2023, and I was riding my bike with a friend, flying...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Possible New Result in Quantum Factorization</title>
+    <link>https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/03/possible-new-result-in-quantum-factorization.html</guid>
+    <pubDate>Mon, 16 Mar 2026 09:46:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>I’m skeptical about—and not qualified to review—this new result in factorization with a quantum computer, but if it’s true it’s a theoretical improvement in the speed of factoring large numbers...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage</title>
+    <link>https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html</link>
+    <guid>https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html</guid>
+    <pubDate>Mon, 16 Mar 2026 09:07:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Ukrainian entities have emerged as the target of a new campaign likely orchestrated by threat actors linked to Russia, according to a report from S2 Grupo&apos;s LAB52 threat intelligence team. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Models Are Applying to Be the Face of AI Scams</title>
     <link>https://www.wired.com/story/models-are-applying-to-be-the-face-of-ai-scams/</link>
     <guid>https://www.wired.com/story/models-are-applying-to-be-the-face-of-ai-scams/</guid>
     <pubDate>Mon, 16 Mar 2026 09:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Dozens of Telegram channels reviewed by WIRED include job listings for “AI face models.” The (mostly) women who land these gigs are likely being used to dupe victims out of their money.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>A fully functional, cross-platform (even on the server) IDE that uses 30 MiB of RAM? Yes, please!</title>
-    <link>https://dev.to/xander4x/a-fully-functional-cross-platform-even-on-the-server-ide-that-uses-30-mib-of-ram-yes-please-l2p</link>
-    <guid>https://dev.to/xander4x/a-fully-functional-cross-platform-even-on-the-server-ide-that-uses-30-mib-of-ram-yes-please-l2p</guid>
-    <pubDate>Mon, 16 Mar 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The shortage and high price of RAM in 2026 have become a problem that is hard to ignore. I use an IDE for work every day. I also run some VMs on my laptop daily. At the same time my laptop has...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Zero Orphaned Resources: Force Deleting Any CloudFormation Stack</title>
-    <link>https://dev.to/aws-heroes/zero-orphaned-resources-force-deleting-any-cloudformation-stack-3b1h</link>
-    <guid>https://dev.to/aws-heroes/zero-orphaned-resources-force-deleting-any-cloudformation-stack-3b1h</guid>
-    <pubDate>Mon, 16 Mar 2026 08:59:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>DELETE_FAILED and FORCE_DELETE_STACK If you&apos;ve ever worked with AWS CloudFormation, chances are you&apos;ve encountered DELETE_FAILED. A non-empty S3 bucket, an ECR repository with images still in it,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Stopped Paying $15/Month for Wispr Flow. Here&apos;s the Open-Source Replacement.</title>
-    <link>https://dev.to/omachala/i-stopped-paying-15month-for-wispr-flow-heres-the-open-source-replacement-313i</link>
-    <guid>https://dev.to/omachala/i-stopped-paying-15month-for-wispr-flow-heres-the-open-source-replacement-313i</guid>
-    <pubDate>Mon, 16 Mar 2026 08:58:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I paid for Wispr Flow for five months. $15/month. Every month. For voice-to-text on my iPhone. It&apos;s a good product. But every time I used it, the same thought: my voice is going to their cloud....</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse</title>
@@ -168,114 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Shardul Shah of Index Ventures walks us through Google&apos;s biggest acquisition ever.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>AI Czar David Sacks wants Trump to ‘get out’ of Iran</title>
-    <link>https://www.theverge.com/policy/895059/trump-ai-czar-out-of-iran</link>
-    <guid>https://www.theverge.com/policy/895059/trump-ai-czar-out-of-iran</guid>
-    <pubDate>Sun, 15 Mar 2026 14:13:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>David Sacks, the White House&apos;s AI and crypto czar, has warned that a continued war in Iran could be catastrophic. On the All In podcast, Sacks said that &quot;we should try to find the off-ramp.&quot; He...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AI companies want to harvest improv actors’ skills to train AI on human emotion</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data</guid>
-    <pubDate>Sun, 15 Mar 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you&apos;ve got strong creative instincts, the ability to authentically portray emotion, and are capable of staying true to a character&apos;s voice throughout a scene, there&apos;s a job listing calling for...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Samsung’s Galaxy Buds 4 Pro are the choice — if you have a Galaxy phone</title>
-    <link>https://www.theverge.com/tech/894501/samsung-galaxy-buds-4-pro-review</link>
-    <guid>https://www.theverge.com/tech/894501/samsung-galaxy-buds-4-pro-review</guid>
-    <pubDate>Sun, 15 Mar 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Samsung promised &quot;more than a design refresh&quot; for its new top-end Galaxy Buds - it added upgraded woofers for improved, dual-amped hi-fi sound, a new blade design, clearer call performance, and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The fast rise and epic fall of Clubhouse</title>
-    <link>https://www.theverge.com/podcast/895044/clubhouse-audio-social-network-version-history</link>
-    <guid>https://www.theverge.com/podcast/895044/clubhouse-audio-social-network-version-history</guid>
-    <pubDate>Sun, 15 Mar 2026 12:24:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In 2020 and 2021, the social media world seemed to be on the verge of complete change. A new app called TikTok was ascendant, bringing a whole new kind of vertical video to phones everywhere. And...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Live-service games are a mess</title>
-    <link>https://www.theverge.com/column/893294/live-service-games-mess</link>
-    <guid>https://www.theverge.com/column/893294/live-service-games-mess</guid>
-    <pubDate>Sun, 15 Mar 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the slow-motion disaster of live-service games, follow Andrew Webster. The Stepback...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The $100,000 fee for H-1Bs is causing all sorts of problems</title>
-    <link>https://www.theverge.com/policy/894537/h1b-fee-increase-trump-teacher-shortage-tech-workers</link>
-    <guid>https://www.theverge.com/policy/894537/h1b-fee-increase-trump-teacher-shortage-tech-workers</guid>
-    <pubDate>Sun, 15 Mar 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Last fall, President Donald Trump&apos;s executive order raising the fee for H-1B visas to $100,000 - like many of his immigration policies - led to near-immediate chaos. Thousands of workers who had...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Trump administration is allegedly collecting $10 billion on the TikTok deal</title>
-    <link>https://www.theverge.com/policy/895039/trump-10-billion-tiktok</link>
-    <guid>https://www.theverge.com/policy/895039/trump-10-billion-tiktok</guid>
-    <pubDate>Sat, 14 Mar 2026 21:57:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In September, Donald Trump claimed that &quot;the United States is getting a tremendous fee&quot; for brokering the TikTok deal. Now sources tell the Wall Street Journal and the New York Times that fee is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>US Army announces contract with Anduril worth up to $20B</title>
-    <link>https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/</link>
-    <guid>https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/</guid>
-    <pubDate>Sat, 14 Mar 2026 20:47:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The Army described this as a single enterprise contract consolidating more than 120 separate &quot;procurement actions.&quot;</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meta is reportedly laying off up to 20 percent of its staff</title>
-    <link>https://www.theverge.com/business/895026/meta-laying-off-20-percent</link>
-    <guid>https://www.theverge.com/business/895026/meta-laying-off-20-percent</guid>
-    <pubDate>Sat, 14 Mar 2026 18:48:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>According to Reuters, Meta is looking to offset spending on AI and data centers with a massive round of layoffs. Sources familiar with the matter say the company could lay off as much as 20...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta reportedly considering layoffs that could affect 20% of the company</title>
-    <link>https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/</link>
-    <guid>https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/</guid>
-    <pubDate>Sat, 14 Mar 2026 16:28:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>These layoffs could help Facebook&apos;s parent company offset its aggressive spending on AI infrastructure, as well as AI-related acquisitions and hiring.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration</title>
-    <link>https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html</link>
-    <guid>https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html</guid>
-    <pubDate>Sat, 14 Mar 2026 16:17:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>China&apos;s National Computer Network Emergency Response Technical Team (CNCERT) has issued a warning about the security stemming from the use of OpenClaw (formerly Clawdbot and Moltbot), an...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Upcoming Speaking Engagements</title>
-    <link>https://www.schneier.com/blog/archives/2026/03/upcoming-speaking-engagements-54.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/03/upcoming-speaking-engagements-54.html</guid>
-    <pubDate>Sat, 14 Mar 2026 16:02:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>This is a current list of where and when I am scheduled to speak: I’m giving the Ross Anderson Lecture at the University of Cambridge’s Churchill College at 5:30 PM GMT on Thursday, March 19,...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
