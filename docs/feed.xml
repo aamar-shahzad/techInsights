@@ -5,52 +5,223 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 18 Mar 2026 13:54:17 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Mar 2026 17:17:28 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Rebel Audio is a new AI podcasting tool aimed at first-time creators</title>
+    <link>https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/</link>
+    <guid>https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/</guid>
+    <pubDate>Wed, 18 Mar 2026 17:15:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Rebel Audio is a new all-in-one podcasting tool that allows creators to record podcasts, edit, clip content for social, and publish episodes, all without ever leaving the platform.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>3 New IteraTools Endpoints: Google Calendar, JSON Validator &amp; RSS Feed Parser</title>
+    <link>https://dev.to/fredpsantos33/3-new-iteratools-endpoints-google-calendar-json-validator-rss-feed-parser-11oj</link>
+    <guid>https://dev.to/fredpsantos33/3-new-iteratools-endpoints-google-calendar-json-validator-rss-feed-parser-11oj</guid>
+    <pubDate>Wed, 18 Mar 2026 17:11:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>What&apos;s New in IteraTools We&apos;ve been shipping fast. Here&apos;s a recap of the three most recent additions to IteraTools — the API toolkit designed for AI agents and developers who need reliable,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>EIP-7702 Broke Your tx.origin Check: How Ethereum&apos;s Pectra Upgrade Created a New Class of Account Confusion Vulnerabilities</title>
+    <link>https://dev.to/ohmygod/eip-7702-broke-your-txorigin-check-how-ethereums-pectra-upgrade-created-a-new-class-of-account-g8o</link>
+    <guid>https://dev.to/ohmygod/eip-7702-broke-your-txorigin-check-how-ethereums-pectra-upgrade-created-a-new-class-of-account-g8o</guid>
+    <pubDate>Wed, 18 Mar 2026 17:10:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>On May 7, 2025, Ethereum&apos;s Pectra upgrade went live. Among 11 EIPs, one change quietly invalidated a security assumption that thousands of deployed contracts rely on: EIP-7702 made EOAs capable of...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I built 180+ free browser-side developer tools — no login, no data uploads</title>
+    <link>https://dev.to/saravanan_s/i-built-180-free-browser-side-developer-tools-no-login-no-data-uploads-4f3f</link>
+    <guid>https://dev.to/saravanan_s/i-built-180-free-browser-side-developer-tools-no-login-no-data-uploads-4f3f</guid>
+    <pubDate>Wed, 18 Mar 2026 17:09:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I got tired of having 12 different browser tabs open for developer tools. One tab for JSON formatting. Another for Base64. One for regex testing. One for JWT decoding. Another for converting that...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>fastpdf2png: PDF to PNG at 1,500 pages/s with SIMD and PDFium</title>
+    <link>https://dev.to/n_c_9d57ca535480141520fcf/fastpdf2png-pdf-to-png-at-1500-pagess-with-simd-and-pdfium-3eib</link>
+    <guid>https://dev.to/n_c_9d57ca535480141520fcf/fastpdf2png-pdf-to-png-at-1500-pagess-with-simd-and-pdfium-3eib</guid>
+    <pubDate>Wed, 18 Mar 2026 17:09:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>What My Project Does I was working on a document extraction pipeline and got frustrated with how slow PDF to PNG conversion was. PyMuPDF, MuPDF, ImageMagick, none of them were fast enough when...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🚀 JavaScript Async/Await vs `.then()` : The Microtask &amp; Event Loop Secret</title>
+    <link>https://dev.to/keshav___dev/javascript-asyncawait-vs-then-the-microtask-event-loop-secret-2e8n</link>
+    <guid>https://dev.to/keshav___dev/javascript-asyncawait-vs-then-the-microtask-event-loop-secret-2e8n</guid>
+    <pubDate>Wed, 18 Mar 2026 17:09:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Ever seen this and wondered why the output changes just by reordering lines? async function hi() { return &quot;there&quot;; } // Version A const waitedhi = await hi(); console.log(waitedhi); hi().then(res...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Deleted 1,462 Lines from My Landing Page. Here&apos;s What Was in Them.</title>
+    <link>https://dev.to/agent_paaru/i-deleted-1462-lines-from-my-landing-page-heres-what-was-in-them-15m0</link>
+    <guid>https://dev.to/agent_paaru/i-deleted-1462-lines-from-my-landing-page-heres-what-was-in-them-15m0</guid>
+    <pubDate>Wed, 18 Mar 2026 17:08:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I built a SaaS landing page. Then I deleted half of it. Not because it was ugly. It wasn&apos;t. It had all the classics: scrolling logo clouds, &quot;10,000+ brands served&quot;, glowing testimonials from Sarah...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Multi-Tenant SaaS App with React and Node.js in 2026</title>
+    <link>https://dev.to/waqarhabib/building-a-multi-tenant-saas-app-with-react-and-nodejs-in-2026-31ih</link>
+    <guid>https://dev.to/waqarhabib/building-a-multi-tenant-saas-app-with-react-and-nodejs-in-2026-31ih</guid>
+    <pubDate>Wed, 18 Mar 2026 17:08:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Multi-tenancy is one of those SaaS architecture decisions that looks simple on day one and becomes your biggest constraint by year two. The decision you make early: How to isolate tenant data, how...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>&quot;Easter 2026 Is 18 Days Away — Turn 3 PTO Days Into a 10-Day Vacation&quot;</title>
+    <link>https://dev.to/eastkap/easter-2026-is-18-days-away-turn-3-pto-days-into-a-10-day-vacation-cdc</link>
+    <guid>https://dev.to/eastkap/easter-2026-is-18-days-away-turn-3-pto-days-into-a-10-day-vacation-cdc</guid>
+    <pubDate>Wed, 18 Mar 2026 17:06:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>It&apos;s mid-March. Easter is April 5th. And here&apos;s what most people don&apos;t realize: with just 3 strategically placed PTO days, you can get 10 consecutive days off for Easter 2026. Not in theory....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Introducing Frankie — The Programming Language — “It’s alive!” 🧟⚡</title>
+    <link>https://dev.to/blag/introducing-frankie-the-programming-language-its-alive-3lk6</link>
+    <guid>https://dev.to/blag/introducing-frankie-the-programming-language-its-alive-3lk6</guid>
+    <pubDate>Wed, 18 Mar 2026 17:06:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You might or might not, but I like to call myself a Programming Languages Archaeologist, mainly because I like to find and learn old programming languages that most likely nobody uses in modern...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>ScraperAPI Review 2026: Pricing, Features, and Honest Assessment</title>
+    <link>https://dev.to/agenthustler/scraperapi-review-2026-pricing-features-and-honest-assessment-3hd5</link>
+    <guid>https://dev.to/agenthustler/scraperapi-review-2026-pricing-features-and-honest-assessment-3hd5</guid>
+    <pubDate>Wed, 18 Mar 2026 17:04:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>ScraperAPI Review 2026: Pricing, Features, and Honest Assessment Last updated: March 2026 If you&apos;ve spent any time scraping the web, you know the real challenge isn&apos;t writing the scraper — it&apos;s...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Weird Nintendo never went away</title>
+    <link>https://www.theverge.com/entertainment/896736/talking-flower-weird-nintendo</link>
+    <guid>https://www.theverge.com/entertainment/896736/talking-flower-weird-nintendo</guid>
+    <pubDate>Wed, 18 Mar 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Nintendo has been playing it safe of late, whether it&apos;s the conservative nature of its Switch successor or the squeaky-clean image presented in its museum. As the company has expanded its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>PSA: Hackers can raid iOS 18 with an infected link</title>
+    <link>https://www.theverge.com/tech/896841/iphone-ios-18-attack-darksword</link>
+    <guid>https://www.theverge.com/tech/896841/iphone-ios-18-attack-darksword</guid>
+    <pubDate>Wed, 18 Mar 2026 16:45:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you&apos;ve been putting off an update to iOS 26, now might be the time to do it. On Wednesday, security researchers published findings on a new hacking tool that targets iPhones running iOS 18.4 to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Gemini-powered features in Google Workspace that are worth using</title>
+    <link>https://techcrunch.com/2026/03/18/the-gemini-powered-features-in-google-workspace-that-are-worth-using/</link>
+    <guid>https://techcrunch.com/2026/03/18/the-gemini-powered-features-in-google-workspace-that-are-worth-using/</guid>
+    <pubDate>Wed, 18 Mar 2026 16:43:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>From summarizing emails, drafting content, organizing data, and tracking meetings, here are all the best Gemini features in Google Workspace.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The leaderboard “you can’t game,” funded by the companies it ranks</title>
+    <link>https://techcrunch.com/video/the-leaderboard-you-cant-game-funded-by-the-companies-it-ranks/</link>
+    <guid>https://techcrunch.com/video/the-leaderboard-you-cant-game-funded-by-the-companies-it-ranks/</guid>
+    <pubDate>Wed, 18 Mar 2026 16:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Artificial intelligence models are multiplying fast, and competition is stiff. With so many players crowding the space, which one will be the best — and who decides that? Arena, formerly LM Arena,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>This startup wants to make enterprise software look more like a prompt</title>
+    <link>https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/</link>
+    <guid>https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/</guid>
+    <pubDate>Wed, 18 Mar 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company has raised $12 million in seed funding to build an AI operating system for enterprise.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access</title>
+    <link>https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html</link>
+    <guid>https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html</guid>
+    <pubDate>Wed, 18 Mar 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Amazon Threat Intelligence is warning of an active Interlock ransomware campaign that&apos;s exploiting a recently disclosed critical security flaw in Cisco Secure Firewall Management Center (FMC)...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Sequen snags $16M to bring TikTok-style personalization tech to any consumer company</title>
+    <link>https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/</link>
+    <guid>https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/</guid>
+    <pubDate>Wed, 18 Mar 2026 15:58:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>With its Series A, Sequen is bringing its proprietary AI ranking and personalization technology to large consumer business.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The best early Amazon Big Spring Sale deals you can get right now</title>
+    <link>https://www.theverge.com/gadgets/895635/best-amazon-big-spring-sale-early-deals-2026</link>
+    <guid>https://www.theverge.com/gadgets/895635/best-amazon-big-spring-sale-early-deals-2026</guid>
+    <pubDate>Wed, 18 Mar 2026 15:52:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon’s Prime Day sale may arrive earlier than usual this year, but there’s a deal event happening much sooner: Amazon’s annual Big Spring Sale, which is happening March 25th through the 31st....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft hires the team of Sequoia-backed AI collaboration platform, Cove</title>
+    <link>https://techcrunch.com/2026/03/18/microsoft-hires-the-team-of-sequioa-backed-ai-collaboration-platform-cove/</link>
+    <guid>https://techcrunch.com/2026/03/18/microsoft-hires-the-team-of-sequioa-backed-ai-collaboration-platform-cove/</guid>
+    <pubDate>Wed, 18 Mar 2026 15:33:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI collaboration startup Cove is shutting down after its team joined Microsoft, with service ending April 1 and customer data set for deletion.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Philips’ new audio gear brings back the bright, bold colors of the ’80s</title>
+    <link>https://www.theverge.com/tech/896593/philips-moving-sound-bluetooth-speaker-wireless-headphones-earbuds</link>
+    <guid>https://www.theverge.com/tech/896593/philips-moving-sound-bluetooth-speaker-wireless-headphones-earbuds</guid>
+    <pubDate>Wed, 18 Mar 2026 15:04:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Not even electronics were able to escape the dominant &apos;80s aesthetic of garishly bright colors. Both Sony and Philips offered devices wrapped in yellow plastic during that era, but Philips has...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The PhD students who became the judges of the AI industry</title>
+    <link>https://techcrunch.com/podcast/the-phd-students-who-became-the-judges-of-the-ai-industry/</link>
+    <guid>https://techcrunch.com/podcast/the-phd-students-who-became-the-judges-of-the-ai-industry/</guid>
+    <pubDate>Wed, 18 Mar 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Artificial intelligence models are multiplying fast, and competition is stiff. With so many players crowding the space, which one will be the best — and who decides that? Arena, formerly LM Arena,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Oh, you think the government will regulate Kalshi and Polymarket? Wanna bet?</title>
+    <link>https://www.theverge.com/business/896517/kalshi-cftc-insider-trading-polymarket</link>
+    <guid>https://www.theverge.com/business/896517/kalshi-cftc-insider-trading-polymarket</guid>
+    <pubDate>Wed, 18 Mar 2026 14:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Commodity Futures Trading Commission has a problem: It&apos;s not very good at policing insider trading. And insider trading has become a pressing concern for prediction markets. Even Kalshi&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
   <item>
     <title>DOD says Anthropic’s ‘red lines’ make it an ‘unacceptable risk to national security’</title>
     <link>https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/</link>
     <guid>https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/</guid>
     <pubDate>Wed, 18 Mar 2026 13:40:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The Defense Department said concerns that Anthropic might &quot;attempt to disable its technology&quot; during &quot;warfighting operations&quot; validate its decision to label the AI firm a supply chain risk.</description>
+    <description>The Defense Department said concerns that Anthropic might &quot;attempt to disable its technology&quot; during &quot;warfighting operations&quot; validate its decision to label the AI firm a supply-chain risk.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Silicon-Anode Batteries: What Lenovo&apos;s StoreDot Bet Means for 20-Minute Laptop Charging [2026]</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/silicon-anode-batteries-what-lenovos-storedot-bet-means-for-20-minute-laptop-charging-2026-54of</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/silicon-anode-batteries-what-lenovos-storedot-bet-means-for-20-minute-laptop-charging-2026-54of</guid>
-    <pubDate>Wed, 18 Mar 2026 13:38:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You open your laptop at a coffee shop, glance at the battery icon, see 12%, and immediately start scanning for the nearest outlet. The laptop itself is a marvel. The battery inside it? Basically...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>jemalloc vs malloc vs tcmalloc: Why Your Server&apos;s Default Allocator Is Killing P99 Latency [2026 Guide]</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/jemalloc-vs-malloc-vs-tcmalloc-why-your-servers-default-allocator-is-killing-p99-latency-2026-2bdn</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/jemalloc-vs-malloc-vs-tcmalloc-why-your-servers-default-allocator-is-killing-p99-latency-2026-2bdn</guid>
-    <pubDate>Wed, 18 Mar 2026 13:38:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>jemalloc vs malloc vs tcmalloc: Why Your Server&apos;s Default Allocator Is Killing P99 Latency ScyllaDB switched their memory allocator and saw a 40% performance improvement. No code changes. No...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building Pattern Atlas: An AI-Powered, Browser-Only Design Pattern Reference</title>
-    <link>https://dev.to/be11amer/building-pattern-atlas-an-ai-powered-browser-only-design-pattern-reference-3dmj</link>
-    <guid>https://dev.to/be11amer/building-pattern-atlas-an-ai-powered-browser-only-design-pattern-reference-3dmj</guid>
-    <pubDate>Wed, 18 Mar 2026 13:37:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;re a software engineer, you&apos;ve probably spent hours staring at dry UML diagrams or reading walls of text trying to figure out if you should use a Strategy pattern or a State pattern....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>LibreFang 0.6.1 Released</title>
-    <link>https://dev.to/suzukazehaduki/librefang-061-released-3e2k</link>
-    <guid>https://dev.to/suzukazehaduki/librefang-061-released-3e2k</guid>
-    <pubDate>Wed, 18 Mar 2026 13:37:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>LibreFang 0.6.1 Released LibreFang 0.6.1 is here! This release focuses on polishing the CLI and API layers with numerous fixes for real-world integration scenarios. Whether you&apos;re spinning up...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The hits keep coming in Spider-Man: Brand New Day’s first trailer</title>
@@ -60,60 +231,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The first trailer for Spider-Man: Brand New Day is finally here, and it looks like Marvel and Sony are about to put Peter Parker through a different kind of existential crisis. Though nobody in...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Oracle&apos;s AI Earnings Surprise: Why a Revenue Miss Sent the Stock Higher [2024 Analysis]</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/oracles-ai-earnings-surprise-why-a-revenue-miss-sent-the-stock-higher-2024-analysis-42c8</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/oracles-ai-earnings-surprise-why-a-revenue-miss-sent-the-stock-higher-2024-analysis-42c8</guid>
-    <pubDate>Wed, 18 Mar 2026 13:37:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Oracle&apos;s AI Earnings Surprise: Why a Revenue Miss Sent the Stock Higher [2024 Analysis] Oracle posted $14.3 billion in Q4 FY2024 revenue. That&apos;s 3% year-over-year growth. For most enterprise...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Tinder&apos;s IRL Events Pivot: Can Speed Dating Fix What Swiping Broke?</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/tinders-irl-events-pivot-can-speed-dating-fix-what-swiping-broke-32oo</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/tinders-irl-events-pivot-can-speed-dating-fix-what-swiping-broke-32oo</guid>
-    <pubDate>Wed, 18 Mar 2026 13:37:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tinder&apos;s parent company just spent tens of millions of dollars acquiring a small events startup called See You There. The pitch: integrate IRL events directly into Tinder so users stop endlessly...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>DLSS Ray Reconstruction: The NVIDIA Feature That Matters More Than Frame Generation [2026]</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/dlss-ray-reconstruction-the-nvidia-feature-that-matters-more-than-frame-generation-2026-28fl</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/dlss-ray-reconstruction-the-nvidia-feature-that-matters-more-than-frame-generation-2026-28fl</guid>
-    <pubDate>Wed, 18 Mar 2026 13:37:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>DLSS Ray Reconstruction: The NVIDIA Feature That Matters More Than Frame Generation [2026] When NVIDIA announced DLSS 3, the entire internet lost its mind over Frame Generation. YouTube thumbnails...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>MediaTek Audio DSP Vulnerability: How a Nothing Phone Could Have Been Hacked (Except It Wasn&apos;t)</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/mediatek-audio-dsp-vulnerability-how-a-nothing-phone-could-have-been-hacked-except-it-wasnt-2cla</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/mediatek-audio-dsp-vulnerability-how-a-nothing-phone-could-have-been-hacked-except-it-wasnt-2cla</guid>
-    <pubDate>Wed, 18 Mar 2026 13:37:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>MediaTek Audio DSP Vulnerability: How a Nothing Phone Could Have Been Hacked (Except It Wasn&apos;t) A security researcher at Check Point Software found a way to turn MediaTek&apos;s audio chip into a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Tested Every Gemini Model in Claude Code Router — Here&apos;s What Actually Works</title>
-    <link>https://dev.to/ayyazzafar/i-tested-every-gemini-model-in-claude-code-router-heres-what-actually-works-kh1</link>
-    <guid>https://dev.to/ayyazzafar/i-tested-every-gemini-model-in-claude-code-router-heres-what-actually-works-kh1</guid>
-    <pubDate>Wed, 18 Mar 2026 13:37:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent hours testing every Gemini model inside Claude Code Router — and the results were honestly surprising. Some models worked perfectly, some completely failed, and one model had this really...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Google Agreed to Pay $32 Billion for Wiz: Why Cloud Security Was Worth Every Dollar [2026]</title>
-    <link>https://dev.to/kunal_d6a8fea2309e1571ee7/google-agreed-to-pay-32-billion-for-wiz-why-cloud-security-was-worth-every-dollar-2026-1lk0</link>
-    <guid>https://dev.to/kunal_d6a8fea2309e1571ee7/google-agreed-to-pay-32-billion-for-wiz-why-cloud-security-was-worth-every-dollar-2026-1lk0</guid>
-    <pubDate>Wed, 18 Mar 2026 13:36:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Google just wrote a $32 billion check for a four-year-old cloud security startup. That&apos;s not a typo. The Alphabet subsidiary&apos;s acquisition of Wiz is the largest cybersecurity deal in history. It...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The great EV pullback: all the obstacles, cancellations, and delays</title>
@@ -159,122 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Claude Code Security and Magecart: Getting the Threat Model Right</title>
-    <link>https://thehackernews.com/2026/03/claude-code-security-and-magecart.html</link>
-    <guid>https://thehackernews.com/2026/03/claude-code-security-and-magecart.html</guid>
-    <pubDate>Wed, 18 Mar 2026 11:58:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>When a Magecart payload hides inside the EXIF data of a dynamically loaded third-party favicon, no repository scanner will catch it – because the malicious code never actually touches your repo....</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors</title>
-    <link>https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html</link>
-    <guid>https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html</guid>
-    <pubDate>Wed, 18 Mar 2026 11:42:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have warned about the risks posed by low-cost IP KVM (Keyboard, Video, Mouse over Internet Protocol) devices, which can grant attackers extensive control over compromised...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Meta’s AI Glasses and Privacy</title>
-    <link>https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html</guid>
-    <pubDate>Wed, 18 Mar 2026 11:07:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Surprising no one, Meta’s new AI glasses are a privacy disaster. I’m not sure what can be done here. This is a technology that will exist, whether we like it or not. Meanwhile, there is a new...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Product Walkthrough: How Mesh CSMA Reveals and Breaks Attack Paths to Crown Jewels</title>
-    <link>https://thehackernews.com/2026/03/product-walkthrough-how-mesh-csma.html</link>
-    <guid>https://thehackernews.com/2026/03/product-walkthrough-how-mesh-csma.html</guid>
-    <pubDate>Wed, 18 Mar 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Security teams today are not short on tools or data. They are overwhelmed by both. Yet within the terabytes of alerts, exposures, and misconfigurations – security teams still struggle to...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>BMW brings back the i3 as a funky four-door EV</title>
-    <link>https://www.theverge.com/transportation/895265/bmw-i3-neue-klasse-ev-price-specs</link>
-    <guid>https://www.theverge.com/transportation/895265/bmw-i3-neue-klasse-ev-price-specs</guid>
-    <pubDate>Wed, 18 Mar 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>BMW&apos;s new class of EVs begins with the iX3 SUV, but you had to know it wouldn&apos;t end there. The company&apos;s engineers didn&apos;t spend all that time working up a completely redesigned and substantially...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>What do new nuclear reactors mean for waste?</title>
-    <link>https://www.technologyreview.com/2026/03/18/1134345/advanced-nuclear-reactors-waste/</link>
-    <guid>https://www.technologyreview.com/2026/03/18/1134345/advanced-nuclear-reactors-waste/</guid>
-    <pubDate>Wed, 18 Mar 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. The way the world...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit</title>
-    <link>https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html</link>
-    <guid>https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html</guid>
-    <pubDate>Wed, 18 Mar 2026 08:08:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A high-severity security flaw affecting default installations of Ubuntu Desktop versions 24.04 and later could be exploited to escalate privileges to the root level. Tracked as CVE-2026-3888 (CVSS...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS</title>
-    <link>https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html</link>
-    <guid>https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html</guid>
-    <pubDate>Wed, 18 Mar 2026 06:31:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that affects iOS, iPadOS, and macOS. The vulnerability, tracked as CVE-2026-20643...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Justice Department Says Anthropic Can’t Be Trusted With Warfighting Systems</title>
-    <link>https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/</link>
-    <guid>https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/</guid>
-    <pubDate>Wed, 18 Mar 2026 00:51:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>In response to Anthropic’s lawsuit, the government said it lawfully penalized the company for trying to limit how its Claude AI models could be used by the military.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nemotron 3 Nano 4B: A Compact Hybrid Model for Efficient Local AI</title>
-    <link>https://huggingface.co/blog/nvidia/nemotron-3-nano-4b</link>
-    <guid>https://huggingface.co/blog/nvidia/nemotron-3-nano-4b</guid>
-    <pubDate>Tue, 17 Mar 2026 23:17:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Pentagon is planning for AI companies to train on classified data, defense official says</title>
-    <link>https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/</link>
-    <guid>https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/</guid>
-    <pubDate>Tue, 17 Mar 2026 22:30:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise</title>
-    <link>https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/</link>
-    <guid>https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/</guid>
-    <pubDate>Tue, 17 Mar 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Mistral Forge lets enterprises train custom AI models from scratch on their own data, challenging rivals that rely on fine-tuning and retrieval-based approaches.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Why Garry Tan’s Claude Code setup has gotten so much love, and hate</title>
-    <link>https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/</link>
-    <guid>https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/</guid>
-    <pubDate>Tue, 17 Mar 2026 20:50:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Thousands of people are trying Garry Tan&apos;s Claude Code setup, which was shared on GitHub. And everyone has an opinion: even Claude, ChatGPT, and Gemini.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
