@@ -5,52 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 19 Mar 2026 17:15:13 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Mar 2026 20:56:40 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>KI als Pair-Programming-Partner: Warum ich nie Code merge, den ich nicht erklären kann</title>
-    <link>https://dev.to/ivo_sa/ki-als-pair-programming-partner-warum-ich-nie-code-merge-den-ich-nicht-erklaren-kann-5hb8</link>
-    <guid>https://dev.to/ivo_sa/ki-als-pair-programming-partner-warum-ich-nie-code-merge-den-ich-nicht-erklaren-kann-5hb8</guid>
-    <pubDate>Thu, 19 Mar 2026 17:08:35 +0000</pubDate>
+    <title>CI/CD na Magalu Cloud com GitHub Actions</title>
+    <link>https://dev.to/magalucloud/cicd-na-magalu-cloud-com-github-actions-382p</link>
+    <guid>https://dev.to/magalucloud/cicd-na-magalu-cloud-com-github-actions-382p</guid>
+    <pubDate>Thu, 19 Mar 2026 20:50:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>&quot;Ich kann dir den Code schreiben, aber verstehst du auch, was er macht?&quot; – Diese Frage hat mir Claude letzte Woche gestellt. Und ehrlich gesagt hat sie mich mehr beschäftigt als jede Fehlermeldung...</description>
+    <description>Um dos problemas mais comuns em times de desenvolvimento não está no código em si, mas na forma como ele chega até produção. Mesmo equipes organizadas enfrentam situações como: diferenças entre...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Claude Code Hooks</title>
-    <link>https://dev.to/helderberto/claude-code-hooks-1k7a</link>
-    <guid>https://dev.to/helderberto/claude-code-hooks-1k7a</guid>
-    <pubDate>Thu, 19 Mar 2026 17:05:16 +0000</pubDate>
+    <title>Why Is Zod v4 Fast — and Where Is Its Ceiling?</title>
+    <link>https://dev.to/wakita181009/why-is-zod-v4-fast-and-where-is-its-ceiling-280l</link>
+    <guid>https://dev.to/wakita181009/why-is-zod-v4-fast-and-where-is-its-ceiling-280l</guid>
+    <pubDate>Thu, 19 Mar 2026 20:48:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Claude Code moves fast: editing files, running commands, pushing code in quick succession. Hooks let you intercept that flow and enforce your standards automatically. What Are Hooks? Hooks are...</description>
+    <description>Zod v4 is faster than v3. But almost nobody knows why. It&apos;s not just a cleaner codebase or smaller bundle — Zod v4 has a JIT-like code generator that builds specialized validation functions at...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Battle of the Titans (Part 1): The Ultimate Go Lambda on AWS Graviton</title>
-    <link>https://dev.to/aleh_karachun/battle-of-the-titans-part-1-the-ultimate-go-lambda-on-aws-graviton-2632</link>
-    <guid>https://dev.to/aleh_karachun/battle-of-the-titans-part-1-the-ultimate-go-lambda-on-aws-graviton-2632</guid>
-    <pubDate>Thu, 19 Mar 2026 17:04:03 +0000</pubDate>
+    <title>Ng-News 26/09: AI &amp; Angular, debounced() in v22, Oxidation Compiler in Analog</title>
+    <link>https://dev.to/playfulprogramming-angular/ng-news-2609-ai-angular-debounced-in-v22-oxidation-compiler-in-analog-4n3</link>
+    <guid>https://dev.to/playfulprogramming-angular/ng-news-2609-ai-angular-debounced-in-v22-oxidation-compiler-in-analog-4n3</guid>
+    <pubDate>Thu, 19 Mar 2026 20:43:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hi everyone! Welcome to the first part of my series exploring AWS Lambda performance. My goal is to compare Go and .NET Native AOT in a realistic serverless environment. To make this a fair...</description>
+    <description>Ng-News 26-09 features three topics: the new Signal-based debounced API, the Oxidation compiler benchmark in Analog.js, and AI &amp; Angular. Angular XSS Advisory A Cross-Site Scripting (XSS)...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Your Hero Section Is Killing LCP</title>
-    <link>https://dev.to/pawar-shivam7/why-your-hero-section-is-killing-lcp-24dm</link>
-    <guid>https://dev.to/pawar-shivam7/why-your-hero-section-is-killing-lcp-24dm</guid>
-    <pubDate>Thu, 19 Mar 2026 17:03:40 +0000</pubDate>
+    <title>Stop decompressing entire archives to get one file — introducing ARCX</title>
+    <link>https://dev.to/highpass_studio_382ce5641/stop-decompressing-entire-archives-to-get-one-file-introducing-arcx-5dhn</link>
+    <guid>https://dev.to/highpass_studio_382ce5641/stop-decompressing-entire-archives-to-get-one-file-introducing-arcx-5dhn</guid>
+    <pubDate>Thu, 19 Mar 2026 20:43:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The most visible part of your UI might be hurting your performance and SEO. ☐ Your Hero Section Looks Good — But Is It Slowing Your Page? Most landing pages start with a large hero section....</description>
+    <description>Most archive formats make a simple task unnecessarily expensive: you need one file, so you download and decompress everything. I built ARCX, a compressed archive format designed to fix that. ARCX...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Tried Vite+ and Replaced My Entire Frontend Toolchain</title>
-    <link>https://dev.to/erikch/i-tried-vite-and-replaced-my-entire-frontend-toolchain-4cgb</link>
-    <guid>https://dev.to/erikch/i-tried-vite-and-replaced-my-entire-frontend-toolchain-4cgb</guid>
-    <pubDate>Thu, 19 Mar 2026 17:02:19 +0000</pubDate>
+    <title>Gathering Hyrox Race Insights with Python</title>
+    <link>https://dev.to/jamesives/gathering-hyrox-race-insights-with-python-1kp9</link>
+    <guid>https://dev.to/jamesives/gathering-hyrox-race-insights-with-python-1kp9</guid>
+    <pubDate>Thu, 19 Mar 2026 20:40:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;re a frontend developer in 2026, you&apos;ve probably had to deal with a lot of different tooling. Package managers, linters, formatters, pre-commit hooks, test runners. The list goes on. And...</description>
+    <description>Overview I&apos;ve been training for a while now for a series of Hyrox races. I did a mixed doubles race over the holidays, my first solo race last month, and I&apos;m currently working up for another solo...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🚀 Build a Schema-Based Wizard Form in Vue 3 (No Templates Needed)</title>
+    <link>https://dev.to/parsajiravand/build-a-schema-based-wizard-form-in-vue-3-no-templates-needed-2h8p</link>
+    <guid>https://dev.to/parsajiravand/build-a-schema-based-wizard-form-in-vue-3-no-templates-needed-2h8p</guid>
+    <pubDate>Thu, 19 Mar 2026 20:40:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve ever built multi-step forms in Vue, you know the usual pain: Managing step state manually Handling validation across steps Conditionally showing steps Keeping everything in sync What if...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Cockpit is a web-based graphical interface for servers</title>
+    <link>https://github.com/cockpit-project/cockpit</link>
+    <guid>https://github.com/cockpit-project/cockpit</guid>
+    <pubDate>Thu, 19 Mar 2026 20:33:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://github.com/cockpit-project/cockpit Comments URL: https://news.ycombinator.com/item?id=47445599 Points: 14 # Comments: 0</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Handling DodoPayments Webhooks with Firebase Cloud Functions</title>
+    <link>https://dev.to/shadai_scott/handling-dodopayments-webhooks-with-firebase-cloud-functions-2gla</link>
+    <guid>https://dev.to/shadai_scott/handling-dodopayments-webhooks-with-firebase-cloud-functions-2gla</guid>
+    <pubDate>Thu, 19 Mar 2026 20:32:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This guide walks through integrating DodoPayments webhook events into a Firebase Cloud Function. Firebase is a natural choice for handling webhooks because it provides a serverless environment...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Stop Fighting with PDF Libraries: Generate Dynamic PDFs Using HTML &amp; JSON</title>
+    <link>https://dev.to/maccilyas/stop-fighting-with-pdf-libraries-generate-dynamic-pdfs-using-html-json-jk1</link>
+    <guid>https://dev.to/maccilyas/stop-fighting-with-pdf-libraries-generate-dynamic-pdfs-using-html-json-jk1</guid>
+    <pubDate>Thu, 19 Mar 2026 20:29:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Generating PDFs in a web application is a task that almost every developer dreads. Whether it’s an invoice, a shipping label, or an event ticket, we usually find ourselves stuck between two...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Best Free CRM Tools for Freelancers 2026: Land More Clients Without Breaking Budget</title>
+    <link>https://dev.to/theawesomeblog/best-free-crm-tools-for-freelancers-2026-land-more-clients-without-breaking-budget-2nj1</link>
+    <guid>https://dev.to/theawesomeblog/best-free-crm-tools-for-freelancers-2026-land-more-clients-without-breaking-budget-2nj1</guid>
+    <pubDate>Thu, 19 Mar 2026 20:28:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR: Most freelancers waste 15+ hours/week on manual client management. The best free CRMs in 2026 — HubSpot, Zoho, and Pipedrive — can automate lead tracking, client communications, and project...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Marc Andreessen is a philosophical zombie</title>
+    <link>https://www.theverge.com/tldr/897566/marc-andreessen-is-a-philosophical-zombie</link>
+    <guid>https://www.theverge.com/tldr/897566/marc-andreessen-is-a-philosophical-zombie</guid>
+    <pubDate>Thu, 19 Mar 2026 20:07:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I admit, this is an innovation I did not see coming: Silicon Valley has invented the philosophical zombie from the classic thought experiment &quot;lol how crazy would it be if there were a...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The coolest game controller for your phone is $50 off</title>
+    <link>https://www.theverge.com/gadgets/897465/ohsnap-mcon-phone-controller-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/897465/ohsnap-mcon-phone-controller-deal-sale</guid>
+    <pubDate>Thu, 19 Mar 2026 19:47:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The MCON is the closest to a Swiss army knife that a controller can be. No, it doesn’t contain a can opener, but it makes up for it with a surprising array of features. Once you attach your...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers</title>
+    <link>https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html</link>
+    <guid>https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html</guid>
+    <pubDate>Thu, 19 Mar 2026 19:16:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged a new malware dubbed Speagle that hijacks the functionality and infrastructure of a legitimate program called Cobra DocGuard. &quot;Speagle is designed to...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says</title>
+    <link>https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/</link>
+    <guid>https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/</guid>
+    <pubDate>Thu, 19 Mar 2026 19:09:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI bots may outnumber humans online by 2027, says Cloudflare CEO Matthew Prince, as generative AI agents dramatically increase web traffic and infrastructure demands.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Hermès doesn’t include a power adapter with its $5,150 charging case</title>
+    <link>https://www.theverge.com/tech/897474/hermes-paddock-wireless-charger-apple-watch-airpods-iphone-leather-luxury</link>
+    <guid>https://www.theverge.com/tech/897474/hermes-paddock-wireless-charger-apple-watch-airpods-iphone-leather-luxury</guid>
+    <pubDate>Thu, 19 Mar 2026 19:08:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Over a decade after Apple first partnered with Hermès for a special Apple Watch collaboration, the French luxury goods maker has released a new collection of leather-wrapped charging accessories...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>54 EDR Killers Use BYOVD to Exploit 34 Signed Vulnerable Drivers and Disable Security</title>
+    <link>https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html</link>
+    <guid>https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html</guid>
+    <pubDate>Thu, 19 Mar 2026 18:52:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new analysis of endpoint detection and response (EDR) killers has revealed that 54 of them leverage a technique known as bring your own vulnerable driver (BYOVD) by abusing a total of 34...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>A rogue AI led to a serious security incident at Meta</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident</guid>
+    <pubDate>Thu, 19 Mar 2026 18:20:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>For almost two hours last week, Meta employees had unauthorized access to company and user data thanks to an AI agent that gave an employee inaccurate technical advice, as previously reported by...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft’s go-to Xbox controller is selling at its best price of the year</title>
+    <link>https://www.theverge.com/gadgets/897334/xbox-wireless-controller-pc-steam-deck-amazon-big-spring-sale-2026-deal</link>
+    <guid>https://www.theverge.com/gadgets/897334/xbox-wireless-controller-pc-steam-deck-amazon-big-spring-sale-2026-deal</guid>
+    <pubDate>Thu, 19 Mar 2026 18:16:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Microsoft’s Xbox console strategy needs work, but its Bluetooth-ready controller that shipped alongside the Xbox Series X and Series S is fantastic. We think it’s one of the best Xbox controllers...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze</title>
+    <link>https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents/</link>
+    <guid>https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents/</guid>
+    <pubDate>Thu, 19 Mar 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>As Silicon Valley obsesses over a new wave of AI coding agents, Google and other AI labs are shifting their bets.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>All the wrong EVs are getting canceled</title>
+    <link>https://www.theverge.com/transportation/897399/all-the-wrong-evs-are-getting-cancelled</link>
+    <guid>https://www.theverge.com/transportation/897399/all-the-wrong-evs-are-getting-cancelled</guid>
+    <pubDate>Thu, 19 Mar 2026 17:44:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>These past few weeks have been particularly brutal for the EV industry - and anyone who believes that electric vehicles are the future. Thanks to slowing demand and policy whiplashes, automakers...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta rolls out new AI content enforcement systems while reducing reliance on third-party vendors</title>
+    <link>https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/</link>
+    <guid>https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/</guid>
+    <pubDate>Thu, 19 Mar 2026 17:24:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Meta believes these AI systems can detect more violations with greater accuracy, better prevent scams, respond more quickly to real-world events, and reduce over-enforcement.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Prediction markets are trying to lure journalists with partnership deals</title>
@@ -69,51 +213,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Google has revealed the &quot;advanced flow&quot; that will be required to install certain Android apps once the company introduces mandatory developer verification later this year. The company had...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Forensic Team: Architecting Multi-Agent Handoffs with MCP</title>
-    <link>https://dev.to/kenwalger/the-forensic-team-architecting-multi-agent-handoffs-with-mcp-5fme</link>
-    <guid>https://dev.to/kenwalger/the-forensic-team-architecting-multi-agent-handoffs-with-mcp-5fme</guid>
-    <pubDate>Thu, 19 Mar 2026 17:00:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why One LLM Isn&apos;t Enough—And How to Build a Specialized Agentic Workforce In my last post, we explored the &quot;Zero-Glue&quot; architecture of the Model Context Protocol (MCP). We established that...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Launch HN: Voltair (YC W26) – Drone and charging network for power utilities</title>
-    <link>https://news.ycombinator.com/item?id=47442452</link>
-    <guid>https://news.ycombinator.com/item?id=47442452</guid>
-    <pubDate>Thu, 19 Mar 2026 16:57:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Hey HN! We’re Hayden, Ronan, Avi, and Warren of Voltair (https://voltairlabs.com/). We’re making weatherized, hybrid-fixed drones deployed for power utility inspections.Here’s some footage:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>AD9833 DDS Generator Board</title>
-    <link>https://dev.to/ua3mqj/ad9833-dds-generator-board-10p7</link>
-    <guid>https://dev.to/ua3mqj/ad9833-dds-generator-board-10p7</guid>
-    <pubDate>Thu, 19 Mar 2026 16:52:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A frequency generator board based on the AD9833 chip. Purchased as a frequency-tunable clock signal source. The board is equipped with a 25 MHz oscillator. It can generate signals from 0 to 12.5...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>A low-cost idea to automate your e-commerce platform with Payload CMS and Hermes Agent</title>
-    <link>https://dev.to/elys_m/a-low-cost-idea-to-automate-your-e-commerce-platform-with-payload-cms-and-hermes-agent-4j55</link>
-    <guid>https://dev.to/elys_m/a-low-cost-idea-to-automate-your-e-commerce-platform-with-payload-cms-and-hermes-agent-4j55</guid>
-    <pubDate>Thu, 19 Mar 2026 16:50:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A few days ago, I saw this tweet on Indonesian X about how sellers are moving to their own marketplace platforms due to increasing e-commerce platform fees: // Detect dark theme var iframe =...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>A survey on LLMs for spreadsheet intelligence</title>
-    <link>https://orbilu.uni.lu/handle/10993/67962</link>
-    <guid>https://orbilu.uni.lu/handle/10993/67962</guid>
-    <pubDate>Thu, 19 Mar 2026 16:47:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://orbilu.uni.lu/handle/10993/67962 Comments URL: https://news.ycombinator.com/item?id=47442297 Points: 4 # Comments: 0</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Meta is actually keeping its VR metaverse running, for now</title>
@@ -152,42 +251,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Harlowe has a cheaper solution for lighting 360-degree shoots</title>
-    <link>https://www.theverge.com/tech/897360/harlowe-omni-360-omnidirectional-camera-light</link>
-    <guid>https://www.theverge.com/tech/897360/harlowe-omni-360-omnidirectional-camera-light</guid>
-    <pubDate>Thu, 19 Mar 2026 15:30:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Companies like Bushman already sell omnidirectional camera lights for 360-degree shoots, but they start at over $300, which is more than half the price of popular 360-degree cameras from companies...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Paid streaming for cheapskates is having a moment</title>
-    <link>https://www.theverge.com/column/897098/cheap-streaming-howdy-roku</link>
-    <guid>https://www.theverge.com/column/897098/cheap-streaming-howdy-roku</guid>
-    <pubDate>Thu, 19 Mar 2026 15:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Streaming is getting expensive:...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Lina Khan was right</title>
-    <link>https://www.theverge.com/report/896820/lina-khan-ftc-meta-supernatural-antitrust</link>
-    <guid>https://www.theverge.com/report/896820/lina-khan-ftc-meta-supernatural-antitrust</guid>
-    <pubDate>Thu, 19 Mar 2026 15:12:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In 2021, the virtual world was the future of the internet. The pandemic had sequestered everyone indoors, heightening the appeal of digital communities. Facebook rebranded to Meta - a sign of the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Belkin’s wireless HDMI adapter freed me from a long annoying cable when I travel</title>
-    <link>https://www.theverge.com/tech/889512/belkin-connectair-wireless-hdmi-display-adapter-hands-on</link>
-    <guid>https://www.theverge.com/tech/889512/belkin-connectair-wireless-hdmi-display-adapter-hands-on</guid>
-    <pubDate>Thu, 19 Mar 2026 15:01:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>I&apos;ve never been comfortable logging into streaming services on a hotel or Airbnb TV. My alternative for watching our favorite shows on a big screen is traveling with a 10-foot HDMI cable and a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>TechCrunch Startup Battlefield 200 nominations are still open</title>
     <link>https://techcrunch.com/2026/03/19/techcrunch-startup-battlefield-200-nominations-are-still-open/</link>
     <guid>https://techcrunch.com/2026/03/19/techcrunch-startup-battlefield-200-nominations-are-still-open/</guid>
@@ -195,15 +258,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Nominate your startup, or one you know, for TechCrunch Startup Battlefield 200 before May 27. Chance to win $100,000 equity-free funding and VC access.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Waymo hits 170 million miles while avoiding serious mayhem</title>
-    <link>https://www.theverge.com/transportation/896837/waymo-170-million-miles-safety-crashes-injuries</link>
-    <guid>https://www.theverge.com/transportation/896837/waymo-170-million-miles-safety-crashes-injuries</guid>
-    <pubDate>Thu, 19 Mar 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Waymo says its autonomous vehicles have now traveled over 170 million miles while continuing to avoid serious crashes and injuries at a rate much better than human drivers. The company updated its...</description>
-    <category>Tech Industry</category>
   </item>
   <item>
     <title>ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish &amp; More</title>
@@ -215,15 +269,6 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Tesla&amp;#8217;s Full Self-Driving is on the cusp of a recall</title>
-    <link>https://www.theverge.com/transportation/897303/tesla-full-self-driving-nhtsa-probe-march-2026</link>
-    <guid>https://www.theverge.com/transportation/897303/tesla-full-self-driving-nhtsa-probe-march-2026</guid>
-    <pubDate>Thu, 19 Mar 2026 14:15:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Tesla&apos;s Full Self-Driving system is facing an expanded investigation by the National Highway Traffic Safety Administration over its safety during poor road visibility conditions, as previously...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Signal’s Creator Is Helping Encrypt Meta AI</title>
     <link>https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/</link>
     <guid>https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/</guid>
@@ -231,50 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Moxie Marlinspike says the technology powering his encrypted AI chatbot, Confer, will be integrated into Meta AI. The move could help protect the AI conversations of millions of people.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>**Introducing SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding**</title>
-    <link>https://huggingface.co/blog/nvidia/speed-bench</link>
-    <guid>https://huggingface.co/blog/nvidia/speed-bench</guid>
-    <pubDate>Thu, 19 Mar 2026 14:04:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>New Perseus Android Banking Malware Monitors Notes Apps to Extract Sensitive Data</title>
-    <link>https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html</link>
-    <guid>https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html</guid>
-    <pubDate>Thu, 19 Mar 2026 12:43:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed a new Android malware family called Perseus that&apos;s being actively distributed in the wild with an aim to conduct device takeover (DTO) and financial fraud....</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Amazon brings Alexa+ to the UK</title>
-    <link>https://techcrunch.com/2026/03/19/amazon-brings-alexa-to-the-uk/</link>
-    <guid>https://techcrunch.com/2026/03/19/amazon-brings-alexa-to-the-uk/</guid>
-    <pubDate>Thu, 19 Mar 2026 12:27:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company is currently letting users in the U.K. try out Alexa+ for free via an early access program.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Download: Quantum computing for health, and why the world doesn’t recycle more nuclear waste</title>
-    <link>https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/</link>
-    <guid>https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/</guid>
-    <pubDate>Thu, 19 Mar 2026 12:17:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A $5 million prize awaits proof that quantum computers can...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How Ceros Gives Security Teams Visibility and Control in Claude Code</title>
-    <link>https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html</link>
-    <guid>https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html</guid>
-    <pubDate>Thu, 19 Mar 2026 10:58:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Security teams have spent years building identity and access controls for human users and service accounts. But a new category of actor has quietly entered most enterprise environments, and it...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
