@@ -5,8 +5,224 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 19 Mar 2026 09:01:37 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Mar 2026 13:42:55 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Introducing Backlit: Lit SSR for Drupal, Hold the Node</title>
+    <link>https://dev.to/bennypowers/introducing-backlit-lit-ssr-for-drupal-hold-the-node-20om</link>
+    <guid>https://dev.to/bennypowers/introducing-backlit-lit-ssr-for-drupal-hold-the-node-20om</guid>
+    <pubDate>Thu, 19 Mar 2026 13:38:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Two years ago I wrote about server rendering Lit web components with Drupal. The approach worked, but it required a Node.js HTTP service running alongside Drupal in a container. That meant...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Most AI failures today are not model failures,they are control failures.</title>
+    <link>https://dev.to/hollowhouse/most-ai-failures-today-are-not-model-failuresthey-are-control-failures-58ag</link>
+    <guid>https://dev.to/hollowhouse/most-ai-failures-today-are-not-model-failuresthey-are-control-failures-58ag</guid>
+    <pubDate>Thu, 19 Mar 2026 13:36:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI systems increasingly operate inside environments where decisions are not explicitly bounded. Without a defined Decision Boundary, systems continue execution beyond intended scope, often guided...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building an Enterprise-Grade File Organizer with .NET and Avalonia UI</title>
+    <link>https://dev.to/furkiak/building-an-enterprise-grade-file-organizer-with-net-and-avalonia-ui-fcf</link>
+    <guid>https://dev.to/furkiak/building-an-enterprise-grade-file-organizer-with-net-and-avalonia-ui-fcf</guid>
+    <pubDate>Thu, 19 Mar 2026 13:35:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Motivation We&apos;ve all been there: the Downloads folder that looks like a digital jungle. I wanted to build something more than just a simple script; I wanted a robust, silent, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Avoiding malloc for Small Strings in C With Variable Length Arrays (VLAs)</title>
+    <link>https://dev.to/yairlenga/avoiding-malloc-for-small-strings-in-c-with-variable-length-arrays-vlas-2ig7</link>
+    <guid>https://dev.to/yairlenga/avoiding-malloc-for-small-strings-in-c-with-variable-length-arrays-vlas-2ig7</guid>
+    <pubDate>Thu, 19 Mar 2026 13:31:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Many C programs allocate small temporary buffers using malloc(), even when the buffer only lives for the duration of a function call. In many cases, stack allocation using VLAs can be...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How I Built Aegis — A Credential Isolation Proxy for AI Agents</title>
+    <link>https://dev.to/sjwarren91/how-i-built-aegis-a-credential-isolation-proxy-for-ai-agents-3bgb</link>
+    <guid>https://dev.to/sjwarren91/how-i-built-aegis-a-credential-isolation-proxy-for-ai-agents-3bgb</guid>
+    <pubDate>Thu, 19 Mar 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI agents are getting really good at calling APIs. But the way we usually give them access — pasting raw API keys into config files, env vars, or MCP settings — is broken from a security...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Rails Engine #12 -- Beyond CSV: JSON and API Sources</title>
+    <link>https://dev.to/seryllns_/building-a-rails-engine-12-beyond-csv-json-and-api-sources-1ljb</link>
+    <guid>https://dev.to/seryllns_/building-a-rails-engine-12-beyond-csv-json-and-api-sources-1ljb</guid>
+    <pubDate>Thu, 19 Mar 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Beyond CSV: JSON and API Sources CSV is the king of data import -- but in the real world, data also arrives as JSON from a file, or directly from a third-party API. Here is how DataPorter extends...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Web Pentesting Beginner Roadmap (2026): From Recon to Server-Side Attacks</title>
+    <link>https://dev.to/itsmegsg/web-pentesting-beginner-roadmap-2026-from-recon-to-server-side-attacks-57gp</link>
+    <guid>https://dev.to/itsmegsg/web-pentesting-beginner-roadmap-2026-from-recon-to-server-side-attacks-57gp</guid>
+    <pubDate>Thu, 19 Mar 2026 13:26:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Web Pentesting Beginner’s Roadmap: From Recon to Server-Side A structured reference guide for anyone who just finished their first web security course. After completing the Hacksmarter Web...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why You Should Use context.logger in Lambda Durable Functions</title>
+    <link>https://dev.to/aws-builders/why-you-should-use-contextlogger-in-lambda-durable-functions-11f</link>
+    <guid>https://dev.to/aws-builders/why-you-should-use-contextlogger-in-lambda-durable-functions-11f</guid>
+    <pubDate>Thu, 19 Mar 2026 13:25:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This article is a machine translation of the contents of the following URL, which I wrote in Japanese: Lambda Durable Functions のロギングには context.logger を使用しよう #Python - Qiita はじめに こんにちは、ほうき星...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>GlassWorm Malware Campaign Steals Crypto Seeds via Obfuscation, Chrome Exploit, and Social Engineering: Mitigation Strategies</title>
+    <link>https://dev.to/kserude/glassworm-malware-campaign-steals-crypto-seeds-via-obfuscation-chrome-exploit-and-social-28j2</link>
+    <guid>https://dev.to/kserude/glassworm-malware-campaign-steals-crypto-seeds-via-obfuscation-chrome-exploit-and-social-28j2</guid>
+    <pubDate>Thu, 19 Mar 2026 13:23:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction &amp; Threat Overview The GlassWorm malware campaign represents a critical evolution in cybercriminal tactics, specifically designed to exfiltrate cryptocurrency wallet seed phrases...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why we chose Ceph as part of our storage-related solutions for production-scale AI</title>
+    <link>https://dev.to/steliadevs/why-we-chose-ceph-as-part-of-our-storage-related-solutions-for-production-scale-ai-22c5</link>
+    <guid>https://dev.to/steliadevs/why-we-chose-ceph-as-part-of-our-storage-related-solutions-for-production-scale-ai-22c5</guid>
+    <pubDate>Thu, 19 Mar 2026 13:23:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>In the fast-paced world of DevOps and cloud infrastructure, there is a natural gravitation toward tools that offer instant gratification. We value the &quot;Day 1&quot; experience: the single binary...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Tubi and TikTok are partnering to produce long form series</title>
+    <link>https://www.theverge.com/entertainment/896648/tubi-tiktok-creatorverse-incubator</link>
+    <guid>https://www.theverge.com/entertainment/896648/tubi-tiktok-creatorverse-incubator</guid>
+    <pubDate>Thu, 19 Mar 2026 13:05:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Soon, some of TikTok&apos;s biggest personalities are going to be launching new streaming series on Tubi. Today, Tubi and TikTok announced that they are working together to launch a new Creatorverse...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nothing Phone 4A Pro review: That flagship feeling</title>
+    <link>https://www.theverge.com/tech/896626/nothing-phone-4a-pro-review-design-specs-battery-camera</link>
+    <guid>https://www.theverge.com/tech/896626/nothing-phone-4a-pro-review-design-specs-battery-camera</guid>
+    <pubDate>Thu, 19 Mar 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>CEO Carl Pei says Nothing won&apos;t release a flagship phone this year. So instead we have the 4A Pro, a $499 phone that looks and feels higher-end than last year&apos;s flagship Phone 3, helped in large...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Adobe’s AI image generator can now be trained on your own art</title>
+    <link>https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta</link>
+    <guid>https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta</guid>
+    <pubDate>Thu, 19 Mar 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Adobe is launching customizable AI image generators that can mimic specific artistic styles and character designs. The Firefly Custom Models are available in public beta starting today, allowing...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>New Perseus Android Banking Malware Monitors Notes Apps to Extract Sensitive Data</title>
+    <link>https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html</link>
+    <guid>https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html</guid>
+    <pubDate>Thu, 19 Mar 2026 12:43:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed a new Android malware family called Perseus that&apos;s being actively distributed in the wild with an aim to conduct device takeover (DTO) and financial fraud....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Amazon brings Alexa+ to the UK</title>
+    <link>https://techcrunch.com/2026/03/19/amazon-brings-alexa-to-the-uk/</link>
+    <guid>https://techcrunch.com/2026/03/19/amazon-brings-alexa-to-the-uk/</guid>
+    <pubDate>Thu, 19 Mar 2026 12:27:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company is currently letting users in the U.K. try out Alexa+ for free via an early access program.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Fitbit&amp;#8217;s AI health coach will soon be able to read your medical records</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/897250/fitbits-ai-health-coach-reads-medical-records</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/897250/fitbits-ai-health-coach-reads-medical-records</guid>
+    <pubDate>Thu, 19 Mar 2026 12:27:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Would you share your medical records with a personal trainer? How about a virtual one? Google, which this week announced it is giving Fitbit&apos;s AI health coach the ability to read your medical...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: Quantum computing for health, and why the world doesn’t recycle more nuclear waste</title>
+    <link>https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/</link>
+    <guid>https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/</guid>
+    <pubDate>Thu, 19 Mar 2026 12:17:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A $5 million prize awaits proof that quantum computers can...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Uber to invest $1.25 billion in Rivian as part of new robotaxi deal</title>
+    <link>https://www.theverge.com/transportation/897105/uber-rivian-robotaxi-investment-deal</link>
+    <guid>https://www.theverge.com/transportation/897105/uber-rivian-robotaxi-investment-deal</guid>
+    <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Uber and Rivian are joining forces to deploy 50,000 fully autonomous robotaxis over the next several decades, the companies announced Thursday. As part of the deal, Uber will invest $1.25 billion...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How Ceros Gives Security Teams Visibility and Control in Claude Code</title>
+    <link>https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html</link>
+    <guid>https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html</guid>
+    <pubDate>Thu, 19 Mar 2026 10:58:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Security teams have spent years building identity and access controls for human users and service accounts. But a new category of actor has quietly entered most enterprise environments, and it...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>A $5 million prize awaits proof that quantum computers can solve health care problems</title>
+    <link>https://www.technologyreview.com/2026/03/19/1134409/a-5-million-prize-awaits-proof-that-quantum-computers-can-solve-health-care-problems/</link>
+    <guid>https://www.technologyreview.com/2026/03/19/1134409/a-5-million-prize-awaits-proof-that-quantum-computers-can-solve-health-care-problems/</guid>
+    <pubDate>Thu, 19 Mar 2026 10:51:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>I’m standing in front of a quantum computer built out of atoms and light at the UK’s National Quantum Computing Centre on the outskirts of Oxford. On a laboratory table, a complex matrix of...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Why the world doesn’t recycle more nuclear waste</title>
+    <link>https://www.technologyreview.com/2026/03/19/1134399/nuclear-waste-reprocessing/</link>
+    <guid>https://www.technologyreview.com/2026/03/19/1134399/nuclear-waste-reprocessing/</guid>
+    <pubDate>Thu, 19 Mar 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The prospect of making trash useful is always fascinating to me. Whether it’s used batteries, solar panels, or spent nuclear fuel, getting use out of something destined for disposal sounds like a...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Fight to Hold AI Companies Accountable for Children’s Deaths</title>
+    <link>https://www.wired.com/story/how-ai-chatbots-drove-families-to-the-brink-and-the-lawyer-fighting-back/</link>
+    <guid>https://www.wired.com/story/how-ai-chatbots-drove-families-to-the-brink-and-the-lawyer-fighting-back/</guid>
+    <pubDate>Thu, 19 Mar 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>After a series of suicides allegedly linked to AI chatbots, one lawyer is trying to hold companies like OpenAI accountable.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Hacking a Robot Vacuum</title>
+    <link>https://www.schneier.com/blog/archives/2026/03/hacking-a-robot-vacuum.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/03/hacking-a-robot-vacuum.html</guid>
+    <pubDate>Thu, 19 Mar 2026 09:47:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Someone tries to remote control his own DJI Romo vacuum, and ends up controlling 7,000 of them from all around the world. The IoT is horribly insecure, but we already knew that.</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover</title>
+    <link>https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html</link>
+    <guid>https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html</guid>
+    <pubDate>Thu, 19 Mar 2026 09:14:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new exploit kit for Apple iOS devices designed to steal sensitive data from is being wielded by multiple threat actors since at least November 2025, according to reports from Google Threat...</description>
+    <category>Security</category>
+  </item>
   <item>
     <title>Trump is threatening international students, and a new bill could help stop him</title>
     <link>https://www.theverge.com/policy/897097/opt-bill-international-student-visas</link>
@@ -15,96 +231,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>A bipartisan duo is pushing back on President Donald Trump&apos;s attempts to end a program that lets hundreds of thousands of foreign students work in the US for a year after graduation. Reps. Sam...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>We&apos;ve Seen This Movie Before</title>
-    <link>https://dev.to/wynandpieters/weve-seen-this-movie-before-3719</link>
-    <guid>https://dev.to/wynandpieters/weve-seen-this-movie-before-3719</guid>
-    <pubDate>Thu, 19 Mar 2026 08:54:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been sitting on this comparison for a while, trying to decide if it was too obvious to write about. Then a good friend of mine DM&apos;d me on Slack about &quot;every vibe coding tech bro is now vibe...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>DEV&apos;s Unfiltered Slop Era?!</title>
-    <link>https://dev.to/ingosteinke/unfiltered-slop-era-7a7</link>
-    <guid>https://dev.to/ingosteinke/unfiltered-slop-era-7a7</guid>
-    <pubDate>Thu, 19 Mar 2026 08:53:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Recently, many meta discussions mock and condemn content trends on DEV an everywhere else. I already regret recently writing about online community demise and why DEV is different (at least a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Got Tired of Jumping Between 10 Different Sites Just to Format JSON — So I Built My Own</title>
-    <link>https://dev.to/umadhar/i-got-tired-of-jumping-between-10-different-sites-just-to-format-json-so-i-built-my-own-1kop</link>
-    <guid>https://dev.to/umadhar/i-got-tired-of-jumping-between-10-different-sites-just-to-format-json-so-i-built-my-own-1kop</guid>
-    <pubDate>Thu, 19 Mar 2026 08:45:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every developer knows the drill. You&apos;re deep in a debugging session. You need to quickly decode a Base64 string, or format a minified JSON blob so you can actually read it, or generate a UUID for...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Inside a Production RAG System: Architecture, Stack, and Lessons Learned</title>
-    <link>https://dev.to/seasia_infotech_899dc2c59/inside-a-production-rag-system-architecture-stack-and-lessons-learned-28h7</link>
-    <guid>https://dev.to/seasia_infotech_899dc2c59/inside-a-production-rag-system-architecture-stack-and-lessons-learned-28h7</guid>
-    <pubDate>Thu, 19 Mar 2026 08:42:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Retrieval-augmented generation has moved well beyond demos. In production, a RAG system is not “an LLM plus a vector database.” It is a full operational system that must retrieve the right...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Intrducing momo-kiji: CUDA for Apple Neural Engine</title>
-    <link>https://dev.to/rdreilly58/intrducing-momo-kiji-cuda-for-apple-neural-engine-10gn</link>
-    <guid>https://dev.to/rdreilly58/intrducing-momo-kiji-cuda-for-apple-neural-engine-10gn</guid>
-    <pubDate>Thu, 19 Mar 2026 08:42:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introducing momo-kiji: CUDA for Apple Neural Engine Cross-posted to Medium and Hashnode The Problem Every Apple device has an Apple Neural Engine. Every single one. Billions of them. Yet most ML...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Scanned 100 AI Codebases - Here&apos;s What I Found</title>
-    <link>https://dev.to/itskondrat/i-scanned-100-ai-codebases-heres-what-i-found-55be</link>
-    <guid>https://dev.to/itskondrat/i-scanned-100-ai-codebases-heres-what-i-found-55be</guid>
-    <pubDate>Thu, 19 Mar 2026 08:41:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been building VibeCheck for the past few months - it&apos;s a security scanner specifically for AI-generated code. And after scanning over a hundred real codebases that people built with Cursor,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a Real-Time System Monitor with Zig, Bun, and WebSockets</title>
-    <link>https://dev.to/ize/building-a-real-time-system-monitor-with-zig-bun-and-websockets-1kbh</link>
-    <guid>https://dev.to/ize/building-a-real-time-system-monitor-with-zig-bun-and-websockets-1kbh</guid>
-    <pubDate>Thu, 19 Mar 2026 08:41:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Intro Most monitoring tools are either bloated or cloud-dependent. I wanted something minimal, local, and fast so I built one using Zig for system-level collection and Bun for a real-time...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Secure Ransomware Development 101 ~ understanding compiler optimizations</title>
-    <link>https://dev.to/7mo_sec/secure-ransomware-development-101-understanding-compiler-optimizations-4jml</link>
-    <guid>https://dev.to/7mo_sec/secure-ransomware-development-101-understanding-compiler-optimizations-4jml</guid>
-    <pubDate>Thu, 19 Mar 2026 08:39:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>PLEASE NOTE: Despite the provocative title, this article is strictly an educational deep-dive into ransomware internals and memory forensics. I’m showing you how the tech works under the hood—I am...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>교육 산업을 읽는 법: 신문 스크랩을 시작하며</title>
-    <link>https://dev.to/seungyeon_/gyoyug-saneobeul-ilgneun-beob-sinmun-seukeuraebeul-sijaghamyeo-188g</link>
-    <guid>https://dev.to/seungyeon_/gyoyug-saneobeul-ilgneun-beob-sinmun-seukeuraebeul-sijaghamyeo-188g</guid>
-    <pubDate>Thu, 19 Mar 2026 08:35:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>2025년 12월 21에 작성한 글입니다. 취업 준비 중 지원동기를 고민하다가 우연히 경제 신문 스크랩에 관한 영상을 보게 됐다. (영상 링크는 아래에 있다.) 처음엔 지원동기 작성에 도움이 될까 싶어 본 영상이었는데, 보다 보니 &apos;신문 스크랩으로 산업을 분석할 수 있다&apos;는 지점이 눈에 들어왔다. 스크랩 아카이브 링크 왜 필요한가 나는 도메인을...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Announcing Dashtera: a powerful dashboarding platform</title>
-    <link>https://dev.to/omar_lightningchart/announcing-dashtera-a-powerful-dashboarding-platform-24kg</link>
-    <guid>https://dev.to/omar_lightningchart/announcing-dashtera-a-powerful-dashboarding-platform-24kg</guid>
-    <pubDate>Thu, 19 Mar 2026 08:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We&apos;re excited to announce the official release of Dashtera®: a no-code, cloud-based data visualization platform powered by the LightningChart engine, built for high-performance, real-time...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Multiverse Computing pushes its compressed AI models into the mainstream</title>
@@ -125,6 +251,15 @@
     <category>Security</category>
   </item>
   <item>
+    <title>OpenAI to acquire Astral</title>
+    <link>https://openai.com/index/openai-to-acquire-astral</link>
+    <guid>https://openai.com/index/openai-to-acquire-astral</guid>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>Accelerates Codex growth to power the next generation of Python developer tools</description>
+    <category>AI</category>
+  </item>
+  <item>
     <title>Meta is having trouble with rogue AI agents</title>
     <link>https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/</link>
     <guid>https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/</guid>
@@ -140,141 +275,6 @@
     <pubDate>Wed, 18 Mar 2026 23:12:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Altman expresses gratitude for people who knew how to write their code from scratch. The internet replies with salty jokes.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The FBI is buying Americans’ location data</title>
-    <link>https://www.theverge.com/news/897145/kash-patel-ron-wyden-fbi-location-data-no-warrant</link>
-    <guid>https://www.theverge.com/news/897145/kash-patel-ron-wyden-fbi-location-data-no-warrant</guid>
-    <pubDate>Wed, 18 Mar 2026 21:52:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>FBI director Kash Patel admitted that the agency is buying location data that can be used to track people&apos;s movements. Unlike information obtained from cell phone providers, this data can be...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Amazon doesn’t want the blame for the Post Office going under</title>
-    <link>https://www.theverge.com/tech/897114/amazon-usps-contract-money-running-out</link>
-    <guid>https://www.theverge.com/tech/897114/amazon-usps-contract-money-running-out</guid>
-    <pubDate>Wed, 18 Mar 2026 20:55:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon is going on the defensive after a report from The Wall Street Journal revealed that the ecommerce giant plans to slash shipments with the United States Postal Service, which said this week...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Congress considers blowing up internet law</title>
-    <link>https://www.theverge.com/policy/897106/section-230-reform-hearing-jawboning-social-media</link>
-    <guid>https://www.theverge.com/policy/897106/section-230-reform-hearing-jawboning-social-media</guid>
-    <pubDate>Wed, 18 Mar 2026 20:54:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Internet platforms&apos; liability shield Section 230 faced another round of attack at a Senate Commerce Committee hearing on Wednesday, this time with two distinct undercurrents complicating the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place</title>
-    <link>https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/</link>
-    <guid>https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/</guid>
-    <pubDate>Wed, 18 Mar 2026 20:30:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nothing CEO Carl Pei says AI agents will eventually replace apps, shifting smartphones toward systems that understand intent and act on a user&apos;s behalf.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Hoto’s powerful PixelDrive electric screwdriver is 25 percent off</title>
-    <link>https://www.theverge.com/gadgets/897056/hoto-pixeldrive-electric-screwdriver-amazon-big-spring-sale-deal</link>
-    <guid>https://www.theverge.com/gadgets/897056/hoto-pixeldrive-electric-screwdriver-amazon-big-spring-sale-deal</guid>
-    <pubDate>Wed, 18 Mar 2026 20:10:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Hoto makes electric screwdrivers for different budgets. If you don’t want to spend much, you can get its most basic model, which we’ve recommended many times. That one comes with 25 bits, and has...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nvidia is quietly building a multibillion-dollar behemoth to rival its chips business</title>
-    <link>https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/</link>
-    <guid>https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/</guid>
-    <pubDate>Wed, 18 Mar 2026 20:01:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nvidia&apos;s networking business raked in $11 billion last quarter despite getting significantly less fanfare than chips and gaming.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The best deals on MacBooks right now</title>
-    <link>https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals</link>
-    <guid>https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals</guid>
-    <pubDate>Wed, 18 Mar 2026 19:35:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It’s 2026, and that means Apple sells MacBooks equipped with not just its capable M-series processors but A-series chips that were previously exclusive to the iPhone. With the MacBook Neo starting...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>David Sacks’ big Iran warning gets big time ignored</title>
-    <link>https://www.theverge.com/column/896949/regulator-david-sacks-iran-polymarket</link>
-    <guid>https://www.theverge.com/column/896949/regulator-david-sacks-iran-polymarket</guid>
-    <pubDate>Wed, 18 Mar 2026 18:44:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Hello and welcome to Regulator, a newsletter for Verge subscribers about the politics of technology and the technology of politics - now landing in your inbox on Wednesdays! If someone has...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Robinhood is making a social network</title>
-    <link>https://www.theverge.com/tech/896989/robinhood-social-network-beta</link>
-    <guid>https://www.theverge.com/tech/896989/robinhood-social-network-beta</guid>
-    <pubDate>Wed, 18 Mar 2026 18:32:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Robinhood is now beta testing a Twitter-like social media platform it calls Robinhood Social. The trading-focused platform was announced last September at the company&apos;s HOOD Summit, but it&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ChatGPT did not cure a dog’s cancer</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/896878/ai-did-not-cure-this-dogs-cancer</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/896878/ai-did-not-cure-this-dogs-cancer</guid>
-    <pubDate>Wed, 18 Mar 2026 18:14:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When an Australian tech entrepreneur with no background in biology or medicine said ChatGPT helped save his dog from cancer, the story spread with the kind of validation Big Tech has long craved:...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal</title>
-    <link>https://www.wired.com/story/ai-lab-walmart-openai-shaking-up-agentic-shopping-deal/</link>
-    <guid>https://www.wired.com/story/ai-lab-walmart-openai-shaking-up-agentic-shopping-deal/</guid>
-    <pubDate>Wed, 18 Mar 2026 18:01:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>After OpenAI’s Instant Checkout feature fell short, Walmart is instead embedding its Sparky chatbot directly into ChatGPT and Google Gemini.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Patreon CEO calls AI companies’ fair use argument ‘bogus,’ says creators should be paid</title>
-    <link>https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/</link>
-    <guid>https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/</guid>
-    <pubDate>Wed, 18 Mar 2026 17:54:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Patreon CEO Jack Conte says AI companies should pay creators for training data, arguing their fair use defense falls apart when they license content from major publishers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Kasa’s Matter-compatible smart plugs are on sale for $11 a pop</title>
-    <link>https://www.theverge.com/gadgets/896899/kasa-smart-wi-fi-plug-slim-amazon-early-big-spring-sale-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/896899/kasa-smart-wi-fi-plug-slim-amazon-early-big-spring-sale-deal-sale</guid>
-    <pubDate>Wed, 18 Mar 2026 17:43:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re looking for an easy and affordable way to add smarts to your home, you can buy two Kasa Smart Wi-Fi Plug Slim smart plugs on sale for $21.99 ($8 off) at Amazon and B&amp;H Photo. That’s the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OFAC Sanctions DPRK IT Worker Network Funding WMD Programs Through Fake Remote Jobs</title>
-    <link>https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html</link>
-    <guid>https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html</guid>
-    <pubDate>Wed, 18 Mar 2026 17:26:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Department of the Treasury&apos;s Office of Foreign Assets Control (OFAC) has sanctioned six individuals and two entities for their involvement in the Democratic People&apos;s Republic of Korea...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Rebel Audio is a new AI podcasting tool aimed at first-time creators</title>
-    <link>https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/</link>
-    <guid>https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/</guid>
-    <pubDate>Wed, 18 Mar 2026 17:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Rebel Audio is a new all-in-one podcasting tool that allows creators to record podcasts, edit, clip content for social, and publish episodes, all without ever leaving the platform.</description>
     <category>AI</category>
   </item>
 </channel>
