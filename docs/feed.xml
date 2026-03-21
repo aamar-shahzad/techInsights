@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 21 Mar 2026 05:12:33 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Mar 2026 08:50:24 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Automating Container Image Updates with FluxCD (Hands-On Tutorial)</title>
-    <link>https://dev.to/pilgrim2go/automating-container-image-updates-with-fluxcd-hands-on-tutorial-88k</link>
-    <guid>https://dev.to/pilgrim2go/automating-container-image-updates-with-fluxcd-hands-on-tutorial-88k</guid>
-    <pubDate>Sat, 21 Mar 2026 05:06:50 +0000</pubDate>
+    <title>Why I Shipped a Linux Desktop App as an AppImage (and Skipped Snap/Flatpak)</title>
+    <link>https://dev.to/jamie_folsom_fc88c37582d8/why-i-shipped-a-linux-desktop-app-as-an-appimage-and-skipped-snapflatpak-53kb</link>
+    <guid>https://dev.to/jamie_folsom_fc88c37582d8/why-i-shipped-a-linux-desktop-app-as-an-appimage-and-skipped-snapflatpak-53kb</guid>
+    <pubDate>Sat, 21 Mar 2026 08:40:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Modern GitOps workflows aim to keep your Kubernetes cluster fully synchronized with what is defined in Git. One powerful feature of Flux is Image Automation, which automatically updates container...</description>
+    <description>Linux packaging is where good desktop apps go to die. If you’ve shipped a Linux desktop application, you already know the pain: you can build something solid, fast, and stable… and then lose days...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>FluxCD Image Automation Error Troubleshooting</title>
-    <link>https://dev.to/pilgrim2go/fluxcd-image-automation-error-troubleshooting-1el2</link>
-    <guid>https://dev.to/pilgrim2go/fluxcd-image-automation-error-troubleshooting-1el2</guid>
-    <pubDate>Sat, 21 Mar 2026 05:05:02 +0000</pubDate>
+    <title>How I Built a SaaS in a Weekend That Replaces Google Alerts</title>
+    <link>https://dev.to/mplacona/how-i-built-a-saas-in-a-weekend-that-replaces-google-alerts-240d</link>
+    <guid>https://dev.to/mplacona/how-i-built-a-saas-in-a-weekend-that-replaces-google-alerts-240d</guid>
+    <pubDate>Sat, 21 Mar 2026 08:40:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Problem Running: flux reconcile image update flux-system Result: failed to update source: failed to push to remote ERROR: The key you are authenticating with has been marked as read only And: flux...</description>
+    <description>Google Alerts has been broken for years. It misses most mentions, delivers them days late, and gives you zero context about what was said. I know because I tracked it. Out of 10 real mentions of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a CLI Tool in Rust: From Zero to Published on crates.io</title>
-    <link>https://dev.to/young_gao/building-a-cli-tool-in-rust-from-zero-to-published-on-cratesio-2pam</link>
-    <guid>https://dev.to/young_gao/building-a-cli-tool-in-rust-from-zero-to-published-on-cratesio-2pam</guid>
-    <pubDate>Sat, 21 Mar 2026 04:57:53 +0000</pubDate>
+    <title>I Used Skill Creator v2 to Improve One of My Agent Skills in VS Code</title>
+    <link>https://dev.to/debs_obrien/i-used-skill-creator-v2-to-improve-one-of-my-agent-skills-in-vs-code-fhd</link>
+    <guid>https://dev.to/debs_obrien/i-used-skill-creator-v2-to-improve-one-of-my-agent-skills-in-vs-code-fhd</guid>
+    <pubDate>Sat, 21 Mar 2026 08:32:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most CLI tools are written in Python or Node. They work, but they are slow to start, need a runtime, and distribute poorly. Rust gives you single-binary distribution, sub-millisecond startup, and...</description>
+    <description>I just published a video showing how I used Skill Creator v2 to improve an existing AI skill inside VS Code, and honestly, I was seriously surprised at how much this thing does. What impressed me...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Agents Are Replacing Developers? My Honest Experience Using Them</title>
-    <link>https://dev.to/vishaluttammane/ai-agents-are-replacing-developers-my-honest-experience-using-them-3mig</link>
-    <guid>https://dev.to/vishaluttammane/ai-agents-are-replacing-developers-my-honest-experience-using-them-3mig</guid>
-    <pubDate>Sat, 21 Mar 2026 04:56:36 +0000</pubDate>
+    <title>Hey Dev.to! I built a visual stack builder to stop wasting hours on stack decisions</title>
+    <link>https://dev.to/stagevia_dev/hey-devto-i-built-a-visual-stack-builder-to-stop-wasting-hours-on-stack-decisions-5fcc</link>
+    <guid>https://dev.to/stagevia_dev/hey-devto-i-built-a-visual-stack-builder-to-stop-wasting-hours-on-stack-decisions-5fcc</guid>
+    <pubDate>Sat, 21 Mar 2026 08:32:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Over the past few months, I have been experimenting with AI coding tools, not just simple assistants but full AI agents that can plan, write, test, and even deploy code. At some point, it stopped...</description>
+    <description>👋 I&apos;m Rahul, and I just built StageVia - a visual stack builder for indie hackers. The Problem Every time I start a new MVP, I waste hours on deciding stack or imagine how it looks like or how it...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Angular Cheat Sheet for Beginners (Quick Revision Guide)</title>
-    <link>https://dev.to/quipoin_a9cb84280f6225b1e/angular-cheat-sheet-for-beginners-quick-revision-guide-5cjc</link>
-    <guid>https://dev.to/quipoin_a9cb84280f6225b1e/angular-cheat-sheet-for-beginners-quick-revision-guide-5cjc</guid>
-    <pubDate>Sat, 21 Mar 2026 04:51:04 +0000</pubDate>
+    <title>Claude Code vs Goose: Why This Free AI Coding Agent is Making Developers Rethink the $200/Month Option</title>
+    <link>https://dev.to/ajay_kumar_1daef5fe089885/claude-code-vs-goose-why-this-free-ai-coding-agent-is-making-developers-rethink-the-200month-307i</link>
+    <guid>https://dev.to/ajay_kumar_1daef5fe089885/claude-code-vs-goose-why-this-free-ai-coding-agent-is-making-developers-rethink-the-200month-307i</guid>
+    <pubDate>Sat, 21 Mar 2026 08:21:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;re learning Angular or preparing for interviews, remembering everything can feel overwhelming. So here’s a simple, quick, and practical Angular Cheat Sheet to help you revise faster What is...</description>
+    <description>If you have been watching the AI coding space lately, you have probably noticed something interesting happening. Developers are starting to question whether they need to pay $200 a month for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Technical Careers Are Becoming Non-Linear</title>
-    <link>https://dev.to/jaideepparashar/why-technical-careers-are-becoming-non-linear-2jmh</link>
-    <guid>https://dev.to/jaideepparashar/why-technical-careers-are-becoming-non-linear-2jmh</guid>
-    <pubDate>Sat, 21 Mar 2026 04:49:45 +0000</pubDate>
+    <title>Role-Based Access Control in Node.js: Beyond Simple Middleware</title>
+    <link>https://dev.to/young_gao/role-based-access-control-in-nodejs-beyond-simple-middleware-3f5n</link>
+    <guid>https://dev.to/young_gao/role-based-access-control-in-nodejs-beyond-simple-middleware-3f5n</guid>
+    <pubDate>Sat, 21 Mar 2026 08:21:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>For a long time, technical careers followed a predictable path. Learn a language. Join a company. Gain experience. Move from junior to senior. Eventually lead teams or specialize deeply. It was a...</description>
+    <description>Here&apos;s the article body markdown: You&apos;ve shipped your auth. Login works. JWT tokens fly around. Then someone asks: &quot;Can editors publish but not delete?&quot; and your beautiful `if (user.role ===...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Taiwan CYBERSEC 2020 Kicks Off with 250 Global Exhibitors: What You Need to Know</title>
-    <link>https://dev.to/aloycwl/taiwan-cybersec-2020-kicks-off-with-250-global-exhibitors-what-you-need-to-know-4hpa</link>
-    <guid>https://dev.to/aloycwl/taiwan-cybersec-2020-kicks-off-with-250-global-exhibitors-what-you-need-to-know-4hpa</guid>
-    <pubDate>Sat, 21 Mar 2026 04:49:20 +0000</pubDate>
+    <title>How to Test Any MCP Server Online — No Setup Required</title>
+    <link>https://dev.to/rupa_tiwari_dd308948d710f/how-to-test-any-mcp-server-online-no-setup-required-ad4</link>
+    <guid>https://dev.to/rupa_tiwari_dd308948d710f/how-to-test-any-mcp-server-online-no-setup-required-ad4</guid>
+    <pubDate>Sat, 21 Mar 2026 08:18:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Taiwan CYBERSEC 2020 Kicks Off with 250 Global Exhibitors: What You Need to Know The 2020 edition of Taiwan CYBERSEC opened its doors with an impressive lineup of 250 exhibitors representing...</description>
+    <description>TL;DR Go to MCP Playground → Test MCP Server — free, no sign-up Paste your server URL, add a Bearer token if required, click Connect Browse tools, prompts, and resources; execute tools with custom...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Claude Code v2.1.76~81 심층 분석: --channels 텔레그램 연동, --bare CI/CD 모드, /remote-control 원격 제어</title>
-    <link>https://dev.to/_46ea277e677b888e0cd13/claude-code-v217681-simceung-bunseog-channels-telregeuraem-yeondong-bare-cicd-modeu-remote-control-weongyeog-jeeo-1h19</link>
-    <guid>https://dev.to/_46ea277e677b888e0cd13/claude-code-v217681-simceung-bunseog-channels-telregeuraem-yeondong-bare-cicd-modeu-remote-control-weongyeog-jeeo-1h19</guid>
-    <pubDate>Sat, 21 Mar 2026 04:48:21 +0000</pubDate>
+    <title>Bringing History to the Modern Web: Introducing moment-shahanshahi for JavaScript &amp; React 👑</title>
+    <link>https://dev.to/vahid_afshari_c08e82fa58f/bringing-history-to-the-modern-web-introducing-moment-shahanshahi-for-javascript-react-4jm4</link>
+    <guid>https://dev.to/vahid_afshari_c08e82fa58f/bringing-history-to-the-modern-web-introducing-moment-shahanshahi-for-javascript-react-4jm4</guid>
+    <pubDate>Sat, 21 Mar 2026 08:18:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Claude Code v2.1.76~81 심층 분석: 9가지 핵심 기능의 아키텍처와 실전 활용 2026년 3월 14일부터 20일까지, Claude Code는 6개 버전(v2.1.76~81)을 연속 릴리즈하며 외부 메시징 연동, CI/CD 전용 모드, 모바일 원격 제어, 컨텍스트 4배 확장, MCP 프로토콜 강화까지 아우르는 대규모 업데이트를...</description>
+    <description>As developers, we often deal with timezones and calendars. While the Gregorian calendar is the global standard, many cultures use their own traditional systems. In the Iranian context, while the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Visualize Temperature &amp; Humidity with Raspberry Pi Pico W DHT11 — Build an IoT Prototype with Miniviz</title>
-    <link>https://dev.to/yoshidataisei/visualize-temperature-humidity-with-raspberry-pi-pico-w-x-dht11-build-an-iot-prototype-with-aia</link>
-    <guid>https://dev.to/yoshidataisei/visualize-temperature-humidity-with-raspberry-pi-pico-w-x-dht11-build-an-iot-prototype-with-aia</guid>
-    <pubDate>Sat, 21 Mar 2026 04:35:56 +0000</pubDate>
+    <title>Request Validation at the Edge: Zod Schemas, OpenAPI, and Type-Safe APIs</title>
+    <link>https://dev.to/young_gao/request-validation-at-the-edge-zod-schemas-openapi-and-type-safe-apis-1kib</link>
+    <guid>https://dev.to/young_gao/request-validation-at-the-edge-zod-schemas-openapi-and-type-safe-apis-1kib</guid>
+    <pubDate>Sat, 21 Mar 2026 08:18:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Visualize Temperature &amp; Humidity with Raspberry Pi Pico W × DHT11 — Build an IoT Prototype with Miniviz Japanese: devto_pico_temphumi.ja.md This guide walks through reading temperature and...</description>
+    <description>Your TypeScript types vanish at runtime. Every req.body is any wearing a costume. The Gap Between Types and Reality TypeScript gives you compile-time safety. But HTTP requests don&apos;t come from your...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I&apos;m a backend engineer with zero game dev experience. I built a browser game anyway — it got 5,000+ views on Reddit in 2 days.</title>
-    <link>https://dev.to/yuma_t_431ef04c4ac53c3585/im-a-backend-engineer-with-zero-game-dev-experience-i-built-a-browser-game-anyway-it-got-5000-j8n</link>
-    <guid>https://dev.to/yuma_t_431ef04c4ac53c3585/im-a-backend-engineer-with-zero-game-dev-experience-i-built-a-browser-game-anyway-it-got-5000-j8n</guid>
-    <pubDate>Sat, 21 Mar 2026 04:33:01 +0000</pubDate>
+    <title>5 CLAUDE.md Patterns That Actually Work in Production</title>
+    <link>https://dev.to/hideyoshi_th/5-claudemd-patterns-that-actually-work-in-production-5ho</link>
+    <guid>https://dev.to/hideyoshi_th/5-claudemd-patterns-that-actually-work-in-production-5ho</guid>
+    <pubDate>Sat, 21 Mar 2026 08:12:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>First, just try it. Ego Clicker — a browser clicker game about growing your following as an influencer. 🔗 Play: https://egoclicker.com 🔗 itch.io: https://yuma-0501.itch.io/ego-clicker 48 hours...</description>
+    <description>Everyone&apos;s talking about AI coding agents. Most people are still writing CLAUDE.md files that look like this: Use TypeScript. Follow best practices. Be helpful. That&apos;s a style guide, not a system...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The improved battery-powered Starlink Mini is here</title>
+    <link>https://www.theverge.com/reviews/898580/peakdo-linkpower-2-review-starlink-mini-battery</link>
+    <guid>https://www.theverge.com/reviews/898580/peakdo-linkpower-2-review-starlink-mini-battery</guid>
+    <pubDate>Sat, 21 Mar 2026 07:29:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>My Starlink Mini has radically changed the way I live. It&apos;s the biggest reason I can work remotely from my converted van, providing fast and reliable internet in places that traditional 4G and 5G...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages</title>
+    <link>https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html</link>
+    <guid>https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html</guid>
+    <pubDate>Sat, 21 Mar 2026 07:28:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The threat actors behind the supply chain attack targeting the popular Trivy scanner are suspected to be conducting follow-on attacks that have led to the compromise of a large number of npm...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput</title>
@@ -257,24 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The Trump administration on Friday unveiled its new legislative blueprint for AI regulation, and the seven-point plan includes a clear message: The federal government should avoid many AI...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>These electronic Polaroids are powered by your phone’s NFC chip</title>
-    <link>https://www.theverge.com/tech/898162/vidabay-classic-plus-nfc-e-ink-fridge-magnet</link>
-    <guid>https://www.theverge.com/tech/898162/vidabay-classic-plus-nfc-e-ink-fridge-magnet</guid>
-    <pubDate>Fri, 20 Mar 2026 18:05:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>E Ink displays have expanded beyond e-readers. They&apos;re now used in digital photo frames, smartphones, and even the price tags found on grocery store shelves. VidaBay&apos;s Classic Plus NFC E-Ink...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets</title>
-    <link>https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html</link>
-    <guid>https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html</guid>
-    <pubDate>Fri, 20 Mar 2026 17:47:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets. The...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
