@@ -5,34 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 23 Mar 2026 17:08:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Mar 2026 20:54:50 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Why z-index Doesn’t Work (And How to Fix It)</title>
-    <link>https://dev.to/pawar-shivam7/why-z-index-doesnt-work-and-how-to-fix-it-4m3c</link>
-    <guid>https://dev.to/pawar-shivam7/why-z-index-doesnt-work-and-how-to-fix-it-4m3c</guid>
-    <pubDate>Mon, 23 Mar 2026 17:06:22 +0000</pubDate>
+    <title>I applied Haskell&apos;s Applicative Functors to Kotlin Coroutines. Here&apos;s what happened.</title>
+    <link>https://dev.to/damian_lattenero/i-applied-haskells-applicative-functors-to-kotlin-coroutines-heres-what-happened-l06</link>
+    <guid>https://dev.to/damian_lattenero/i-applied-haskells-applicative-functors-to-kotlin-coroutines-heres-what-happened-l06</guid>
+    <pubDate>Mon, 23 Mar 2026 20:46:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>=&gt; Why z-index Is Not Working? You write this: .modal { position: absolute; z-index: 9999; } But still… 👉 It appears behind other elements. =&gt; The Real Problem z-index only works within the same...</description>
+    <description>How currying, functors, applicative functors and monads from Haskell led me to build a parallel orchestration library for Kotlin coroutines with zero overhead. tags: kotlin, functionalprogramming,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SWIFT Is Killing MT940 — Here&apos;s How to Future-Proof Your Bank Statement Pipeline</title>
-    <link>https://dev.to/zerolooplabs/swift-is-killing-mt940-heres-how-to-future-proof-your-bank-statement-pipeline-267i</link>
-    <guid>https://dev.to/zerolooplabs/swift-is-killing-mt940-heres-how-to-future-proof-your-bank-statement-pipeline-267i</guid>
-    <pubDate>Mon, 23 Mar 2026 17:06:11 +0000</pubDate>
+    <title>#showdev: CAN Playground — a local-first CAN bus analysis tool</title>
+    <link>https://dev.to/numbpill3d/showdev-can-playground-a-local-first-can-bus-analysis-tool-4ap6</link>
+    <guid>https://dev.to/numbpill3d/showdev-can-playground-a-local-first-can-bus-analysis-tool-4ap6</guid>
+    <pubDate>Mon, 23 Mar 2026 20:43:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On November 22, 2025, SWIFT pulled the plug on legacy MT payment messages. Cross-border payments now run exclusively on ISO 20022&apos;s MX format. MT940 — the bank account statement format your...</description>
+    <description>A log file sits open, thousands of frames deep. Nothing looks wrong. Then one byte flips. Not randomly. Not cleanly. It flickers between two values like it’s tied to something you haven’t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I needed to move 500 GB between cloud services. So I built a free tool to do it.</title>
-    <link>https://dev.to/ozymandiashh/i-needed-to-move-500-gb-between-cloud-services-so-i-built-a-free-tool-to-do-it-4ih2</link>
-    <guid>https://dev.to/ozymandiashh/i-needed-to-move-500-gb-between-cloud-services-so-i-built-a-free-tool-to-do-it-4ih2</guid>
-    <pubDate>Mon, 23 Mar 2026 17:05:26 +0000</pubDate>
+    <title>kubectl context like a pro</title>
+    <link>https://dev.to/aws-builders/kubectl-context-like-a-pro-1gch</link>
+    <guid>https://dev.to/aws-builders/kubectl-context-like-a-pro-1gch</guid>
+    <pubDate>Mon, 23 Mar 2026 20:42:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I had 500 GB on OneDrive and needed to move everything to Google Drive. The options were: Download and re-upload — would take days and eat my local storage Paid services (MultCloud, Cloudsfer) —...</description>
+    <description>If your work involves working with multiple Kubernetes clusters, then this might be for you. ☸️ A file that is used to configure access to a cluster is called kubeconfig(usually placed at...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Vue 3 Reactivity Trap: Why Large Datasets Crash Your Browser</title>
+    <link>https://dev.to/ameer-pk/the-vue-3-reactivity-trap-why-large-datasets-crash-your-browser-1ikb</link>
+    <guid>https://dev.to/ameer-pk/the-vue-3-reactivity-trap-why-large-datasets-crash-your-browser-1ikb</guid>
+    <pubDate>Mon, 23 Mar 2026 20:35:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you’ve ever loaded a table with 10,000 rows in Vue 3 and watched the browser tab freeze, memory usage spike, and the CPU fan spin up like a jet engine, you’ve fallen into the reactivity trap....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Automation as Art: Designing Workflows That Feel Alive</title>
+    <link>https://dev.to/numbpill3d/automation-as-art-designing-workflows-that-feel-alive-50fh</link>
+    <guid>https://dev.to/numbpill3d/automation-as-art-designing-workflows-that-feel-alive-50fh</guid>
+    <pubDate>Mon, 23 Mar 2026 20:35:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The room was quiet in that particular way that only shows up late. Not silence, exactly. A low electrical presence. Something running somewhere it shouldn’t be. On the second monitor, a folder...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your coding agent already knows how to test your AI agent (we just turned it into a Skill)</title>
+    <link>https://dev.to/draismaaaa/your-coding-agent-already-knows-how-to-test-your-ai-agent-we-just-turned-it-into-a-skill-5f0g</link>
+    <guid>https://dev.to/draismaaaa/your-coding-agent-already-knows-how-to-test-your-ai-agent-we-just-turned-it-into-a-skill-5f0g</guid>
+    <pubDate>Mon, 23 Mar 2026 20:34:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>We’re adding something new at LangWatch: Skills. And the idea is pretty simple: your coding agent already knows how to do a lot of the work you’re still doing manually You just haven’t packaged it...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AES Cipher Encryption &amp; Decryption with Example</title>
+    <link>https://dev.to/sharan_biradar_071/aes-cipher-encryption-decryption-with-example-3f11</link>
+    <guid>https://dev.to/sharan_biradar_071/aes-cipher-encryption-decryption-with-example-3f11</guid>
+    <pubDate>Mon, 23 Mar 2026 20:34:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AES Cipher (AES) is a symmetric encryption algorithm that converts plaintext (readable text) into ciphertext (unreadable text) using a secret key. 1. INPUTS Plaintext (ASCII → Hex) &quot;Password...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Art of Ethical Persuasion in a Hyper-Automated World</title>
+    <link>https://dev.to/numbpill3d/the-art-of-ethical-persuasion-in-a-hyper-automated-world-12fi</link>
+    <guid>https://dev.to/numbpill3d/the-art-of-ethical-persuasion-in-a-hyper-automated-world-12fi</guid>
+    <pubDate>Mon, 23 Mar 2026 20:32:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The notification appears at the top of the screen, then dissolves before you fully read it. You catch just enough to feel like you missed something relevant. Important, maybe. Or maybe just...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building Reusable Infrastructure: The Art of Terraform Modules</title>
+    <link>https://dev.to/ovrobin/building-reusable-infrastructure-the-art-of-terraform-modules-431h</link>
+    <guid>https://dev.to/ovrobin/building-reusable-infrastructure-the-art-of-terraform-modules-431h</guid>
+    <pubDate>Mon, 23 Mar 2026 20:31:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you are writing Terraform by putting all your resources into a single main.tf file, you aren&apos;t building infrastructure; you are just writing a very long deployment script. On Day 6 of my...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Immutable vs. Mutable Infrastructure: Choosing the Right Approach for DevOps and IaC</title>
+    <link>https://dev.to/fganai/immutable-vs-mutable-infrastructure-choosing-the-right-approach-for-devops-and-iac-58ie</link>
+    <guid>https://dev.to/fganai/immutable-vs-mutable-infrastructure-choosing-the-right-approach-for-devops-and-iac-58ie</guid>
+    <pubDate>Mon, 23 Mar 2026 20:29:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I have been asked several times by customer executives who have embraced the DevOps way of life but struggle with the right approach to updating or changing infrastructure and software. This post...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Kalshi says it will block politicians and athletes from trading in markets they’re tied to</title>
+    <link>https://www.theverge.com/tech/899097/kalshi-politicians-athletes-insider-trading-blocked</link>
+    <guid>https://www.theverge.com/tech/899097/kalshi-politicians-athletes-insider-trading-blocked</guid>
+    <pubDate>Mon, 23 Mar 2026 20:24:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The prediction market platform Kalshi says it&apos;s rolling out new guardrails to &quot;preemptively block&quot; political candidates and athletes from trading in their own markets, as reported earlier by...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great</title>
+    <link>https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/</link>
+    <guid>https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/</guid>
+    <pubDate>Mon, 23 Mar 2026 20:15:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Sen. Bernie Sanders thinks he&apos;s tricked Claude into revealing the AI industry&apos;s secrets, but he really just exposed how agreeable chatbots can become.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Google’s new Pixel 10 ads made me go ‘Wait, WHAT are they trying to sell?’</title>
+    <link>https://www.theverge.com/tech/898992/google-pixel-10-ads-moving-on-stalker-lying-beach-view-100-zoom</link>
+    <guid>https://www.theverge.com/tech/898992/google-pixel-10-ads-moving-on-stalker-lying-beach-view-100-zoom</guid>
+    <pubDate>Mon, 23 Mar 2026 19:49:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Ever watch a TV ad and wonder, &quot;How did this get approved?&quot; Today, Google has not one but two new ad spots for its six-month-old Pixel 10 phones, and… let&apos;s just say they may not come across as...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nvidia CEO Jensen Huang says &amp;#8216;I think we&amp;#8217;ve achieved AGI&amp;#8217;</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi</guid>
+    <pubDate>Mon, 23 Mar 2026 19:42:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>On a Monday episode of the Lex Fridman podcast, Nvidia CEO Jensen Huang made a hot-button statement: &quot;I think we&apos;ve achieved AGI.&quot; AGI, or artificial general intelligence, is a vaguely defined...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Two of my favorite color e-book readers are the cheapest they’ve been in months</title>
+    <link>https://www.theverge.com/gadgets/899019/kindle-colorsoft-kobo-libra-colour-ebook-reader-amazon-big-spring-sale-2026-deal</link>
+    <guid>https://www.theverge.com/gadgets/899019/kindle-colorsoft-kobo-libra-colour-ebook-reader-amazon-big-spring-sale-2026-deal</guid>
+    <pubDate>Mon, 23 Mar 2026 19:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Color isn’t essential in an e-reader, but let’s be honest, it’s a nice perk that can bring digital books, magazines, comics, cookbooks, and other publications to life. The catch is that color...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple could put ads in Maps as soon as this summer</title>
+    <link>https://www.theverge.com/tech/899053/apple-maps-advertising-rumor</link>
+    <guid>https://www.theverge.com/tech/899053/apple-maps-advertising-rumor</guid>
+    <pubDate>Mon, 23 Mar 2026 18:54:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple will soon bring advertisements to its Maps app on mobile and the web, according to a report from Bloomberg&apos;s Mark Gurman. The ads, which Apple could reportedly announce this month before...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Vibe-coding startup Lovable is on the hunt for acquisitions</title>
+    <link>https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/</link>
+    <guid>https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/</guid>
+    <pubDate>Mon, 23 Mar 2026 18:22:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Lovable&apos;s founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware</title>
+    <link>https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html</link>
+    <guid>https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html</guid>
+    <pubDate>Mon, 23 Mar 2026 18:09:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed to a malware family tracked as StoatWaffle that&apos;s distributed via malicious...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Apple sets June date for WWDC 2026, teasing ‘AI advancements’</title>
+    <link>https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/</link>
+    <guid>https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/</guid>
+    <pubDate>Mon, 23 Mar 2026 18:00:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Apple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Donut Lab’s solid-state battery could barely hold a charge after getting damaged</title>
+    <link>https://www.theverge.com/transportation/898881/donut-lab-solid-state-battery-damage-test</link>
+    <guid>https://www.theverge.com/transportation/898881/donut-lab-solid-state-battery-damage-test</guid>
+    <pubDate>Mon, 23 Mar 2026 17:35:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Donut Lab is on a mission to prove to the world its solid-state battery is real, one independent test at a time. We&apos;ve seen speed charging tests, extreme heat tests, and not-a-supercapacitor...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple’s WWDC 2026 event starts June 8th</title>
+    <link>https://www.theverge.com/news/898997/apple-wwdc-2026-june-8-ios-27-ai-siri</link>
+    <guid>https://www.theverge.com/news/898997/apple-wwdc-2026-june-8-ios-27-ai-siri</guid>
+    <pubDate>Mon, 23 Mar 2026 17:21:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple has set a date for this year&apos;s Worldwide Developers Conference (WWDC), scheduling the keynote and Platforms State of the Union for June 8th through June 12th at Apple Park. As usual, we will...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>PDP’s wireless guitar controller has returned to its best price to date</title>
@@ -44,69 +206,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>IP address and Subnet</title>
-    <link>https://dev.to/srimaha_17/ip-address-and-subnet-91d</link>
-    <guid>https://dev.to/srimaha_17/ip-address-and-subnet-91d</guid>
-    <pubDate>Mon, 23 Mar 2026 17:02:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>IP Address It is the unique ID for your device. Also an Identity It’s how the internet knows exactly where to send your data so it doesn&apos;t get lost. Parts of Ip: 1.Network ID:Tells which network...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Inside SQLite’s Frontend: How the WHERE Clause Drives Optimization</title>
-    <link>https://dev.to/lovestaco/inside-sqlites-frontend-how-the-where-clause-drives-optimization-2l4</link>
-    <guid>https://dev.to/lovestaco/inside-sqlites-frontend-how-the-where-clause-drives-optimization-2l4</guid>
-    <pubDate>Mon, 23 Mar 2026 17:01:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hello, I&apos;m Maneshwar. I&apos;m building git-lrc, an AI code reviewer that runs on every commit. It is free, unlimited, and source-available on Github. Star Us to help devs discover the project. Do give...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>When Runtime Controls Fail, Substrate Governance Must Hold</title>
-    <link>https://dev.to/narnaiezzsshaa/when-runtime-controls-fail-substrate-governance-must-hold-h4d</link>
-    <guid>https://dev.to/narnaiezzsshaa/when-runtime-controls-fail-substrate-governance-must-hold-h4d</guid>
-    <pubDate>Mon, 23 Mar 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Clinical Observation A cloud-hosted &quot;sandboxed&quot; agent was found capable of issuing DNS queries from within its execution environment. This created a covert channel for command-and-control...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The DP Mistake Most Developers Make</title>
-    <link>https://dev.to/codewithishwar/the-dp-mistake-most-developers-make-45ij</link>
-    <guid>https://dev.to/codewithishwar/the-dp-mistake-most-developers-make-45ij</guid>
-    <pubDate>Mon, 23 Mar 2026 16:59:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The DP Mistake Most Developers Make Most developers approach Dynamic Programming by tracking only the maximum value. It feels natural. But in some problems… that approach fails. 🧩 The Problem I...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built a $19/mo dunning tool because Churn Buster costs $249</title>
-    <link>https://dev.to/heocoi/i-built-a-19mo-dunning-tool-because-churn-buster-costs-249-56lb</link>
-    <guid>https://dev.to/heocoi/i-built-a-19mo-dunning-tool-because-churn-buster-costs-249-56lb</guid>
-    <pubDate>Mon, 23 Mar 2026 16:55:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The problem If you run a SaaS on Stripe, around 9% of your MRR is silently leaking every month. Cards expire. Banks decline. Customers don&apos;t notice. Stripe retries the charge a few times, but it...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Every AI Presentation Tool Gets It Wrong (And What a Show Really Needs)</title>
-    <link>https://dev.to/pitchshowai/why-every-ai-presentation-tool-gets-it-wrong-and-what-a-show-really-needs-246i</link>
-    <guid>https://dev.to/pitchshowai/why-every-ai-presentation-tool-gets-it-wrong-and-what-a-show-really-needs-246i</guid>
-    <pubDate>Mon, 23 Mar 2026 16:51:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The $7 Billion Mistake Here&apos;s something that keeps bothering me. The presentation software market hit $7.27 billion in 2025 and is racing toward $22 billion by 2033 (SNS Insider). Gamma alone...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Detecting Account Takeover Attempts with Fingerprint</title>
-    <link>https://dev.to/shadai_scott/detecting-account-takeover-attempts-with-fingerprint-4600</link>
-    <guid>https://dev.to/shadai_scott/detecting-account-takeover-attempts-with-fingerprint-4600</guid>
-    <pubDate>Mon, 23 Mar 2026 16:50:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When a hacker executes an account takeover (ATO), their main goal is to gain control of an account and exploit it for profit. For SaaS platforms this is dangerous for three reasons: High-Value...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>The hardest question to answer about AI-fueled delusions</title>
     <link>https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/</link>
     <guid>https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/</guid>
@@ -116,21 +215,21 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen</title>
-    <link>https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/</link>
-    <guid>https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/</guid>
-    <pubDate>Mon, 23 Mar 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way</title>
     <link>https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/</link>
     <guid>https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/</guid>
     <pubDate>Mon, 23 Mar 2026 16:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen</title>
+    <link>https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/</link>
+    <guid>https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/</guid>
+    <pubDate>Mon, 23 Mar 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.</description>
     <category>AI</category>
   </item>
   <item>
@@ -161,120 +260,21 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>In-hub motors make this humble Hyundai a monster on ice</title>
-    <link>https://www.theverge.com/transportation/898131/elaphe-in-hub-motor-hyundai-ice-traction</link>
-    <guid>https://www.theverge.com/transportation/898131/elaphe-in-hub-motor-hyundai-ice-traction</guid>
-    <pubDate>Mon, 23 Mar 2026 15:33:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In-wheel motors have been around since the very beginning of electric motoring. Ferdinand Porsche developed one way back in 1900, and the US sent them to the moon in our Lunar Roving Vehicles in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Elizabeth Warren calls Pentagon’s decision to bar Anthropic ‘retaliation’</title>
     <link>https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/</link>
     <guid>https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/</guid>
     <pubDate>Mon, 23 Mar 2026 15:22:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>In a letter to Defense Secretary Pete Hegseth, Senator Elizabeth Warren (D-MA) equated the DoD&apos;s decision to label Anthropic a &quot;supply chain risk&quot; as retaliation, arguing that the Pentagon could...</description>
+    <description>In a letter to Defense Secretary Pete Hegseth, Senator Elizabeth Warren (D-MA) equated the DOD&apos;s decision to label Anthropic a &quot;supply-chain risk&quot; as retaliation, arguing that the Pentagon could...</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Sam Altman-backed fusion startup Helion in talks with OpenAI</title>
-    <link>https://techcrunch.com/2026/03/23/sam-altman-backed-fusion-startup-helion-in-talks-with-openai/</link>
-    <guid>https://techcrunch.com/2026/03/23/sam-altman-backed-fusion-startup-helion-in-talks-with-openai/</guid>
+    <title>Sam Altman-backed fusion startup Helion in talks to sell power to OpenAI</title>
+    <link>https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/</link>
+    <guid>https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/</guid>
     <pubDate>Mon, 23 Mar 2026 15:03:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Helion is reportedly negotiating a deal that would see it sell 12.5% of its power output to OpenAI.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Confronting the CEO of the AI company that impersonated me</title>
-    <link>https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation</link>
-    <guid>https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation</guid>
-    <pubDate>Mon, 23 Mar 2026 13:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Today, I’m talking with Shishir Mehrotra, who is CEO of Superhuman — that’s the company formerly known as Grammarly, which is still its flagship product. Shishir also used to be the chief product...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers &amp; More</title>
-    <link>https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html</link>
-    <guid>https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html</guid>
-    <pubDate>Mon, 23 Mar 2026 13:14:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories. This edition...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Download: animal welfare gets AGI-pilled, and the White House unveils its AI policy</title>
-    <link>https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/</link>
-    <guid>https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/</guid>
-    <pubDate>Mon, 23 Mar 2026 12:17:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Bay Area’s animal welfare movement wants to recruit AI...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Every bulb on Govee’s new outdoor string lights can display multicolor effects</title>
-    <link>https://www.theverge.com/tech/897950/govee-outdoor-chromatic-string-lights-weatherproof-color-changing-price-availability</link>
-    <guid>https://www.theverge.com/tech/897950/govee-outdoor-chromatic-string-lights-weatherproof-color-changing-price-availability</guid>
-    <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Govee has announced a new set of outdoor string lights that allows for more color customization than competitors&apos; products, as well as the company&apos;s existing color-changing set. Similar to its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>We Found Eight Attack Vectors Inside AWS Bedrock. Here&apos;s What Attackers Can Do with Them</title>
-    <link>https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html</link>
-    <guid>https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html</guid>
-    <pubDate>Mon, 23 Mar 2026 11:55:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>AWS Bedrock is Amazon&apos;s platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Microsoft Xbox One Hacked</title>
-    <link>https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html</guid>
-    <pubDate>Mon, 23 Mar 2026 11:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>It’s an impressive feat, over a decade after the box was released: Since reset glitching wasn’t possible, Gaasedelen thought some voltage glitching could do the trick. So, instead of tinkering...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware</title>
-    <link>https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html</link>
-    <guid>https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html</guid>
-    <pubDate>Mon, 23 Mar 2026 10:55:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft has warned of fresh campaigns that are capitalizing on the upcoming tax season in the U.S. to harvest credentials and deliver malware. The email campaigns take advantage of the urgency...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Meet the Gods of AI Warfare</title>
-    <link>https://www.wired.com/story/project-maven-katrina-manson-book-excerpt/</link>
-    <guid>https://www.wired.com/story/project-maven-katrina-manson-book-excerpt/</guid>
-    <pubDate>Mon, 23 Mar 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>In its early days, the AI initiative known as Project Maven had its fair share of skeptics at the Pentagon. Today, many of them are true believers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Samsung adds native AirDrop support to Galaxy S26 devices</title>
-    <link>https://www.theverge.com/tech/898815/samsung-quick-share-airdrop-support-galaxy-s26</link>
-    <guid>https://www.theverge.com/tech/898815/samsung-quick-share-airdrop-support-galaxy-s26</guid>
-    <pubDate>Mon, 23 Mar 2026 09:47:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Samsung is bringing AirDrop support to the Quick Share feature on Galaxy devices, starting with the S26 series. The new AirDrop feature will begin rolling out in Korea starting today, according to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Bay Area’s animal welfare movement wants to recruit AI</title>
-    <link>https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/</link>
-    <guid>https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/</guid>
-    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>In early February, animal welfare advocates and AI researchers gathered in stocking feet at Mox, a scrappy, shoes-free coworking space in San Francisco. Yellow and red canopies billowed overhead,...</description>
+    <description>OpenAI CEO Sam Altman is stepping down as board chair of Helion. His departure comes as reports that the two companies are negotiating a deal that would see Helion sell 12.5% of its power output...</description>
     <category>AI</category>
   </item>
 </channel>
