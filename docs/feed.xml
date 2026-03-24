@@ -5,151 +5,241 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 24 Mar 2026 13:51:28 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Mar 2026 17:14:18 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>sha256sum, shasum, Get-FileHash — and still no good way to compare hashes</title>
-    <link>https://dev.to/priyanshurav/sha256sum-shasum-get-filehash-and-still-no-good-way-to-compare-hashes-4mak</link>
-    <guid>https://dev.to/priyanshurav/sha256sum-shasum-get-filehash-and-still-no-good-way-to-compare-hashes-4mak</guid>
-    <pubDate>Tue, 24 Mar 2026 13:46:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I download a file. The website has a SHA-256 hash next to it. I want to verify it. So I run sha256sum, get a wall of hex, paste the expected hash next to it, and squint at two 64-character strings...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Your AI Agent&apos;s Phone Number Gets Blocked (And How to Fix It)</title>
-    <link>https://dev.to/fathin_dosunmu/why-your-ai-agents-phone-number-gets-blocked-and-how-to-fix-it-48k5</link>
-    <guid>https://dev.to/fathin_dosunmu/why-your-ai-agents-phone-number-gets-blocked-and-how-to-fix-it-48k5</guid>
-    <pubDate>Tue, 24 Mar 2026 13:46:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You built an AI agent that onboards to a new service, creates an account, fills in a form, and gets all the way to SMS verification — then hits a wall. &quot;This phone number cannot be used for...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Notion Reverse Autopilot - AI That Watches Your Chaos and Builds Order</title>
-    <link>https://dev.to/muhammadusmangm/notion-reverse-autopilot-ai-that-watches-your-chaos-and-builds-order-3nej</link>
-    <guid>https://dev.to/muhammadusmangm/notion-reverse-autopilot-ai-that-watches-your-chaos-and-builds-order-3nej</guid>
-    <pubDate>Tue, 24 Mar 2026 13:41:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Notion MCP Challenge What I Built Notion Reverse Autopilot - an AI agent that flips the productivity paradigm on its head. Every productivity tool assumes you&apos;re...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Monte Carlo Simulation for Stock Price Forecasting: Historical vs Implied Volatility in Python</title>
-    <link>https://dev.to/ayratmurtazin/monte-carlo-simulation-for-stock-price-forecasting-historical-vs-implied-volatility-in-python-4b6h</link>
-    <guid>https://dev.to/ayratmurtazin/monte-carlo-simulation-for-stock-price-forecasting-historical-vs-implied-volatility-in-python-4b6h</guid>
-    <pubDate>Tue, 24 Mar 2026 13:37:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. Introduction Forecasting financial markets is a sophisticated fusion of quantitative precision and global economic nuance. In this quest, the Monte Carlo simulation stands out as a premier...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>BASIC QUERIES FOR SQL</title>
-    <link>https://dev.to/arul_selviml_7/basic-queries-for-sql-heo</link>
-    <guid>https://dev.to/arul_selviml_7/basic-queries-for-sql-heo</guid>
-    <pubDate>Tue, 24 Mar 2026 13:36:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. Movies with Rental Rate Greater Than 3 ```sql id=&quot;m1a2b3&quot; SELECT * FROM film WHERE rental_rate &gt; 3; This query returns all movies with a rental rate greater than 3. --- ## 2. Movies with Rental...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built an AI Second Brain on SurrealDB - and connected it to Claude via MCP</title>
-    <link>https://dev.to/jakubb_ing/i-built-an-ai-second-brain-on-surrealdb-and-connected-it-to-claude-via-mcp-3970</link>
-    <guid>https://dev.to/jakubb_ing/i-built-an-ai-second-brain-on-surrealdb-and-connected-it-to-claude-via-mcp-3970</guid>
-    <pubDate>Tue, 24 Mar 2026 13:35:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In my previous posts, I talked about why SurrealDB feels like the Swiss army knife of databases - graph relations, vector search, schemaful tables, and record links all in one engine. I wanted to...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Anthropic’s Claude Code and Cowork can control your computer</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/899430/anthropic-claude-code-cowork-ai-control-computer</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/899430/anthropic-claude-code-cowork-ai-control-computer</guid>
-    <pubDate>Tue, 24 Mar 2026 13:32:23 +0000</pubDate>
+    <title>ChatGPT and Gemini are fighting to be the AI bot that sells you stuff</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/899677/openai-google-gemini-ai-shopping-features</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/899677/openai-google-gemini-ai-shopping-features</guid>
+    <pubDate>Tue, 24 Mar 2026 17:13:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anthropic has updated Claude to perform tasks in its Code and Cowork AI tools autonomously by using your computer for you. The new feature can be used to automatically open files, use web browsers...</description>
+    <description>The AI-powered shopping rivalry is heating up as Google and OpenAI launch new features to help you buy things while interacting with their chatbots. Now, Google is teaming up with Gap Inc to allow...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Suspense is a symptom</title>
-    <link>https://dev.to/iceonfire/suspense-is-a-symptom-clj</link>
-    <guid>https://dev.to/iceonfire/suspense-is-a-symptom-clj</guid>
-    <pubDate>Tue, 24 Mar 2026 13:32:00 +0000</pubDate>
+    <title># Sorted Squares of a Sorted Array (Java) – Efficient Two-Pointer Approach</title>
+    <link>https://dev.to/sharmi_sabari_09/-sorted-squares-of-a-sorted-array-java-efficient-two-pointer-approach-2bp5</link>
+    <guid>https://dev.to/sharmi_sabari_09/-sorted-squares-of-a-sorted-array-java-efficient-two-pointer-approach-2bp5</guid>
+    <pubDate>Tue, 24 Mar 2026 17:06:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This post is part of a series on Inglorious Web. You can start from the beginning, or read it standalone — the argument here is self-contained. Inglorious Web didn&apos;t start as a React alternative....</description>
+    <description>When working with sorted arrays, a seemingly simple transformation—like squaring each element—can break the order. This problem is a great example of how understanding patterns in data can help us...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Share your cancer code!</title>
-    <link>https://dev.to/epigene/share-your-cancer-code-2afg</link>
-    <guid>https://dev.to/epigene/share-your-cancer-code-2afg</guid>
-    <pubDate>Tue, 24 Mar 2026 13:31:54 +0000</pubDate>
+    <title>⛓️‍💥 AI Agents broke my Dev setup</title>
+    <link>https://dev.to/ariel_sh_badacdbc56554713/ai-agents-broke-my-dev-setup-4hlm</link>
+    <guid>https://dev.to/ariel_sh_badacdbc56554713/ai-agents-broke-my-dev-setup-4hlm</guid>
+    <pubDate>Tue, 24 Mar 2026 17:02:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Today I was doing a read-through of existing code to prepare for an upcoming feature, and I came across this abomination. # controller code # GET /project_team_tasks def show @teams =...</description>
+    <description>I had a setup that worked perfectly for me, 3 screens (Actually 2 screen + Macbook Pro) one with IDE (WebStorm, Vscode and from time to time just sublime). Second with Terminal (started with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Documenting a Narcissist Smear Campaign in Text Messages</title>
-    <link>https://dev.to/skippy_magnificent_8cce24/documenting-a-narcissist-smear-campaign-in-text-messages-34m0</link>
-    <guid>https://dev.to/skippy_magnificent_8cce24/documenting-a-narcissist-smear-campaign-in-text-messages-34m0</guid>
-    <pubDate>Tue, 24 Mar 2026 13:31:13 +0000</pubDate>
+    <title>Postgres pipelines from the JVM with Bpdbi</title>
+    <link>https://dev.to/cies/postgres-pipelines-from-the-jvm-with-bpdbi-14cd</link>
+    <guid>https://dev.to/cies/postgres-pipelines-from-the-jvm-with-bpdbi-14cd</guid>
+    <pubDate>Tue, 24 Mar 2026 17:00:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Something feels off. You just received a text from someone you barely know, saying something about you that isn&apos;t true. Or maybe it&apos;s from a friend who suddenly turned cold, referencing things you...</description>
+    <description>Every time your JVM app talks to Postgres, something wasteful happens. Your code sends a query, waits for the response, sends the next query, waits again. Each wait is a full network round-trip...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The 5-Layer Memory Architecture That Keeps Our AI Agent Running 24/7 Without Forgetting</title>
-    <link>https://dev.to/talon8575/the-5-layer-memory-architecture-that-keeps-our-ai-agent-running-247-without-forgetting-3a44</link>
-    <guid>https://dev.to/talon8575/the-5-layer-memory-architecture-that-keeps-our-ai-agent-running-247-without-forgetting-3a44</guid>
-    <pubDate>Tue, 24 Mar 2026 13:30:05 +0000</pubDate>
+    <title>Deploying AG-UI Agents to Production with Amazon Bedrock AgentCore</title>
+    <link>https://dev.to/copilotkit/deploying-ag-ui-agents-to-production-with-amazon-bedrock-agentcore-3ok0</link>
+    <guid>https://dev.to/copilotkit/deploying-ag-ui-agents-to-production-with-amazon-bedrock-agentcore-3ok0</guid>
+    <pubDate>Tue, 24 Mar 2026 17:00:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most AI agents have amnesia. You close the chat window. They forget everything. Every session starts from zero. Every context window fills up and dumps the earliest memories to make room for new...</description>
+    <description>The Agent-User Interaction Protocol (AG-UI) standardizes how AI agents communicate with user applications. But deploying those agents means the same manual work: configuring SSE endpoints, writing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Ayaneo says selling its Windows gaming handheld &amp;#8216;is no longer sustainable&amp;#8217;</title>
-    <link>https://www.theverge.com/games/899357/ayaneo-windows-gaming-handheld-sustainable-ram</link>
-    <guid>https://www.theverge.com/games/899357/ayaneo-windows-gaming-handheld-sustainable-ram</guid>
-    <pubDate>Tue, 24 Mar 2026 13:05:15 +0000</pubDate>
+    <title>Arm Is Now Making Its Own Chips</title>
+    <link>https://www.wired.com/story/chip-design-firm-arm-is-making-its-own-ai-cpu/</link>
+    <guid>https://www.wired.com/story/chip-design-firm-arm-is-making-its-own-ai-cpu/</guid>
+    <pubDate>Tue, 24 Mar 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The chip design firm says Meta, OpenAI, Cerebras, and Cloudflare are among the first customers of its new artificial intelligence hardware.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Welp, I bought an iPhone again</title>
+    <link>https://www.theverge.com/tech/899602/best-phone-android-ios-app-store</link>
+    <guid>https://www.theverge.com/tech/899602/best-phone-android-ios-app-store</guid>
+    <pubDate>Tue, 24 Mar 2026 17:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Ayaneo is suspending preorders for its $1,999 Next 2 gaming handheld due to the skyrocketing price of digital storage. In a post on Monday, Ayaneo says the overall cost to build its Windows...</description>
+    <description>It takes a week to switch phones. First, there&apos;s the technical process of moving eSIMs across devices, which takes either a few minutes (if you&apos;re switching from one Android phone to another) or...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Mirage raises $75M to continue building models for its AI video editing app Captions</title>
+    <title>Stop Guessing Why Your App is Slow: A Pragmatic Guide to Big O Notation</title>
+    <link>https://dev.to/erickg123/stop-guessing-why-your-app-is-slow-a-pragmatic-guide-to-big-o-notation-4g2g</link>
+    <guid>https://dev.to/erickg123/stop-guessing-why-your-app-is-slow-a-pragmatic-guide-to-big-o-notation-4g2g</guid>
+    <pubDate>Tue, 24 Mar 2026 16:56:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Let’s be real for a second. When we start coding, our main goal is just making things work. If the feature ships and the bugs are squashed, we’re happy. But then, your user base grows, your...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>25 Dicas de performance com .NET 10</title>
+    <link>https://dev.to/unhacked/25-dicas-de-performance-com-net-10-368p</link>
+    <guid>https://dev.to/unhacked/25-dicas-de-performance-com-net-10-368p</guid>
+    <pubDate>Tue, 24 Mar 2026 16:53:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>O .NET 10 traz melhorias significativas de performance, mas conhecer as técnicas certas faz toda a diferença. Este artigo reúne 25 dicas práticas para extrair o máximo de suas aplicações. 1....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title># Finding First and Last Occurrence in a Sorted Array (Java)</title>
+    <link>https://dev.to/sharmi_sabari_09/-finding-first-and-last-occurrence-in-a-sorted-array-java-417l</link>
+    <guid>https://dev.to/sharmi_sabari_09/-finding-first-and-last-occurrence-in-a-sorted-array-java-417l</guid>
+    <pubDate>Tue, 24 Mar 2026 16:53:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When working with sorted arrays, one common problem is to find the first and last occurrence of a given element. This becomes especially interesting when the array contains duplicate values. In...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Run NemoClaw with a Local LLM &amp; Connect to Telegram (Without Losing Your Mind)</title>
+    <link>https://dev.to/minhiu/how-to-run-nemoclaw-with-a-local-llm-connect-to-telegram-without-losing-your-mind-3lk</link>
+    <guid>https://dev.to/minhiu/how-to-run-nemoclaw-with-a-local-llm-connect-to-telegram-without-losing-your-mind-3lk</guid>
+    <pubDate>Tue, 24 Mar 2026 16:51:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I just spent a full day wrestling with NemoClaw so you don’t have to. NemoClaw is an incredible agentic framework, but because it is still in beta, it has its fair share of quirks, undocumented...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AI&apos;s Infrastructure &amp; Agents: From Chips to Code Automation</title>
+    <link>https://dev.to/soytuber/ais-infrastructure-agents-from-chips-to-code-automation-19e8</link>
+    <guid>https://dev.to/soytuber/ais-infrastructure-agents-from-chips-to-code-automation-19e8</guid>
+    <pubDate>Tue, 24 Mar 2026 16:50:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI&apos;s Infrastructure &amp; Agents: From Chips to Code Automation Today&apos;s Highlights This week, we dive into critical advancements shaping AI development, from groundbreaking solutions for inference...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I&apos;m Building: AgentGuard360: Free Open Source AI Agent Security Python App</title>
+    <link>https://dev.to/moebiusansa/im-building-agentguard360-free-open-source-ai-agent-security-python-app-4ok8</link>
+    <guid>https://dev.to/moebiusansa/im-building-agentguard360-free-open-source-ai-agent-security-python-app-4ok8</guid>
+    <pubDate>Tue, 24 Mar 2026 16:48:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;ve been posting on Reddit about an open source agent security tool I&apos;m building called AgentGuard360, and I thought I&apos;d share information about it here as well. What makes this app unique is its...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>This scientist rewarmed and studied pieces of his friend’s cryopreserved brain</title>
+    <link>https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/</link>
+    <guid>https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/</guid>
+    <pubDate>Tue, 24 Mar 2026 16:43:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>L. Stephen Coles’s brain sits cushioned in a vat at a storage facility in Arizona. It has been held there at a temperature of around −146 degrees °C for over a decade, largely undisturbed. That...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents</title>
+    <link>https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html</link>
+    <guid>https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html</guid>
+    <pubDate>Tue, 24 Mar 2026 16:36:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>On February 25, 2026, Gartner published its inaugural Market Guide for Guardian Agents, marking an important milestone for this emerging category. For those unfamiliar with the various Gartner...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner</title>
+    <link>https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html</link>
+    <guid>https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html</guid>
+    <pubDate>Tue, 24 Mar 2026 16:35:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An ongoing phishing campaign is targeting French-speaking corporate environments with fake resumes that lead to the deployment of cryptocurrency miners and information stealers. &quot;The campaign uses...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>A BlackBerry you might actually want just landed on Kickstarter</title>
+    <link>https://www.theverge.com/tech/899632/unihertz-titan-2-elite-pro-android-blackberry-smartphone-pricing-kickstarter-preorder</link>
+    <guid>https://www.theverge.com/tech/899632/unihertz-titan-2-elite-pro-android-blackberry-smartphone-pricing-kickstarter-preorder</guid>
+    <pubDate>Tue, 24 Mar 2026 16:27:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When The Verge&apos;s Allison Johnson went hands-on with the company&apos;s Titan 2 Elite phone at MWC 2026, Unihertz didn&apos;t divulge pricing info. But the compact Android phone with a BlackBerry-inspired...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meet the former Apple designer building a new AI interface at Hark</title>
+    <link>https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/</link>
+    <guid>https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/</guid>
+    <pubDate>Tue, 24 Mar 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company said it would design models, hardware, and interfaces in tandem to deliver a &quot;seamless end-to-end personal intelligence product.&quot;</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Life is Strange: Reunion is a full-circle moment for its stars</title>
+    <link>https://www.theverge.com/entertainment/897984/life-is-strange-reunion-cast-interview</link>
+    <guid>https://www.theverge.com/entertainment/897984/life-is-strange-reunion-cast-interview</guid>
+    <pubDate>Tue, 24 Mar 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Fans thought they were done with the original Life is Strange duo of Max and Chloe. Following the first game and its 2017 prequel, players said their tearful goodbyes to these beloved characters -...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google’s Android Automotive is moving from the dashboard to the ‘brain’ of the car</title>
+    <link>https://www.theverge.com/tech/899034/google-android-automotive-os-software-defined-vehicle</link>
+    <guid>https://www.theverge.com/tech/899034/google-android-automotive-os-software-defined-vehicle</guid>
+    <pubDate>Tue, 24 Mar 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google announced a new version of its Android Automotive open-source operating system for software-defined vehicles. Whereas previously Android Automotive operated exclusively in the car&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple Maps will introduce ads this summer</title>
+    <link>https://www.theverge.com/tech/899597/apple-maps-ads-launch-summer-2026</link>
+    <guid>https://www.theverge.com/tech/899597/apple-maps-ads-launch-summer-2026</guid>
+    <pubDate>Tue, 24 Mar 2026 15:44:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple will soon allow businesses to buy advertisements in its Maps app. In an announcement on Tuesday, Apple says ads may appear at the top of your search results in Maps, as well as in a new...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Pokémon Champions is coming to the Nintendo Switch on April 8th</title>
+    <link>https://www.theverge.com/games/899535/pokemon-champions-is-coming-to-the-nintendo-switch-on-april-8th</link>
+    <guid>https://www.theverge.com/games/899535/pokemon-champions-is-coming-to-the-nintendo-switch-on-april-8th</guid>
+    <pubDate>Tue, 24 Mar 2026 15:10:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Right now, Pokopia has everyone busy building houses and beautifying the world, but next month, we&apos;ll be making our pocket monster friends fight for sport in Pokémon Champions. Today, Nintendo and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta’s reckoning over kids safety is in the hands of two juries</title>
+    <link>https://www.theverge.com/policy/899494/meta-new-mexico-los-angeles-kids-safety-jury-trial</link>
+    <guid>https://www.theverge.com/policy/899494/meta-new-mexico-los-angeles-kids-safety-jury-trial</guid>
+    <pubDate>Tue, 24 Mar 2026 14:56:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Two juries are currently deliberating a series of cases that could either usher in a legal reckoning for Meta, or maintain the status quo in an uphill battle to impose changes or penalties on tech...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Fortnite maker Epic is laying off over 1,000 workers</title>
+    <link>https://www.theverge.com/games/899529/epic-games-layoffs-fortnite</link>
+    <guid>https://www.theverge.com/games/899529/epic-games-layoffs-fortnite</guid>
+    <pubDate>Tue, 24 Mar 2026 14:54:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Layoffs have hit Fortnite developer Epic Games again. Today CEO Tim Sweeney announced that the company is cutting more than 1,000 jobs, citing a downturn in engagement for Fortnite dating back to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>John Deere, Garmin, and Philips may have undermined military right to repair</title>
+    <link>https://www.theverge.com/policy/899471/military-right-to-repair-john-deere-philips-garmin</link>
+    <guid>https://www.theverge.com/policy/899471/military-right-to-repair-john-deere-philips-garmin</guid>
+    <pubDate>Tue, 24 Mar 2026 14:34:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Last year, Congress dropped widely supported military right-to-repair provisions from the annual defense policy bill - and now we may know who was pushing them to do it. Recently released lobbying...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Mirage raises $75M to continue building models for its AI video-editing app Captions</title>
     <link>https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/</link>
     <guid>https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/</guid>
     <pubDate>Tue, 24 Mar 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Mirage, the maker of video editing app Captions, has raised $75 million in growth financing from General Catalyst&apos;s Customer Value Fund (CVF).</description>
+    <description>Mirage, the maker of video-editing app Captions, has raised $75 million in growth financing from General Catalyst&apos;s Customer Value Fund (CVF).</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>The Hisense U7SG is a great midrange TV you shouldn’t buy yet</title>
-    <link>https://www.theverge.com/tech/899160/hisense-u7sg-tv-review</link>
-    <guid>https://www.theverge.com/tech/899160/hisense-u7sg-tv-review</guid>
-    <pubDate>Tue, 24 Mar 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>With all of the focus on RGB LED technology, it seemed like more affordable mini-LED TVs had been shooed to the side. But with the Hisense U7SG, we&apos;re getting our first great midrange general-use...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Zoox is bringing its robotaxis to Austin and Miami</title>
-    <link>https://www.theverge.com/transportation/899323/zoox-robotaxi-las-vegas-san-francisco-austin-miami</link>
-    <guid>https://www.theverge.com/transportation/899323/zoox-robotaxi-las-vegas-san-francisco-austin-miami</guid>
-    <pubDate>Tue, 24 Mar 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Zoox is stretching out its legs. The Amazon-owned robotaxi today announced that it&apos;s gearing up to expand its service in San Francisco and Las Vegas, while also eyeing two additional cities -...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nuki adds Apple Home Key to its smart lock</title>
-    <link>https://www.theverge.com/tech/899330/nuki-keypad-2-nfc-aliro-apple-homekey-launch</link>
-    <guid>https://www.theverge.com/tech/899330/nuki-keypad-2-nfc-aliro-apple-homekey-launch</guid>
-    <pubDate>Tue, 24 Mar 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This week, my top pick for a retrofit smart lock launched the first Aliro-compatible keypad. The Nuki Keypad 2 NFC ($179) brings tap-to-unlock via Apple&apos;s Home Key and Samsung&apos;s Digital Home Key...</description>
-    <category>Tech Industry</category>
   </item>
   <item>
     <title>The Download: tracing AI-fueled delusions, and OpenAI admits Microsoft risks</title>
@@ -170,6 +260,15 @@
     <category>AI</category>
   </item>
   <item>
+    <title>The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills</title>
+    <link>https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html</link>
+    <guid>https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html</guid>
+    <pubDate>Tue, 24 Mar 2026 12:01:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity has changed fast. Roles are more specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the same...</description>
+    <category>Security</category>
+  </item>
+  <item>
     <title>Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials</title>
     <link>https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html</link>
     <guid>https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html</guid>
@@ -177,104 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Nintendo cuts Switch 2 production amid weakening console sales</title>
-    <link>https://www.theverge.com/games/899291/nintendo-switch-2-production-cut-weak-us-sales</link>
-    <guid>https://www.theverge.com/games/899291/nintendo-switch-2-production-cut-weak-us-sales</guid>
-    <pubDate>Tue, 24 Mar 2026 11:45:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nintendo will produce fewer Switch 2 units than it previously projected in response to weakening demand for the console in the US, Bloomberg reports. Four million units of Nintendo&apos;s flagship...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents</title>
-    <link>https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html</link>
-    <guid>https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html</guid>
-    <pubDate>Tue, 24 Mar 2026 11:37:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>On February 25, 2026, Gartner published its inaugural Market Guide for Guardian Agents, marking an important milestone for this emerging category. For those unfamiliar with the various Gartner...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Team Mirai and Democracy</title>
-    <link>https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html</guid>
-    <pubDate>Tue, 24 Mar 2026 11:03:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Japan’s election last month and the rise of the country’s newest and most innovative political party, Team Mirai, illustrates the viability of a different way to do politics. In this model,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials</title>
-    <link>https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html</link>
-    <guid>https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html</guid>
-    <pubDate>Tue, 24 Mar 2026 10:38:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Two more GitHub Actions workflows have become the latest to be compromised by credential-stealing malware by a threat actor known as TeamPCP, the cloud-native cybercriminal operation also behind...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Chris Hayes Has Some Advice for Keeping Up With the News</title>
-    <link>https://www.wired.com/story/the-big-interview-podcast-chris-hayes/</link>
-    <guid>https://www.wired.com/story/the-big-interview-podcast-chris-hayes/</guid>
-    <pubDate>Tue, 24 Mar 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The host of MS Now’s All In, knows how hard it is to stay current. But he also knows where you should focus your attention—and it starts with a sober view of AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Your Body Is Betraying Your Right to Privacy</title>
-    <link>https://www.wired.com/story/book-excerpt-your-data-will-be-used-against-you-andrew-guthrie-ferguson/</link>
-    <guid>https://www.wired.com/story/book-excerpt-your-data-will-be-used-against-you-andrew-guthrie-ferguson/</guid>
-    <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Attachment to smart devices and biometric surveillance leaves Americans more vulnerable to police searches than ever. Left unchecked it will only get worse.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills</title>
-    <link>https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html</link>
-    <guid>https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html</guid>
-    <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity has changed fast. Roles are more specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the same...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage</title>
-    <link>https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html</link>
-    <guid>https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html</guid>
-    <pubDate>Tue, 24 Mar 2026 06:49:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A 26-year-old Russian citizen has been sentenced in the U.S. to 6.75 years (81 months) in prison for his role in assisting major cybercrime groups, including the Yanluowang ransomware crew, in...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Citrix Urges Patching Critical NetScaler Flaw Allowing Unauthenticated Data Leaks</title>
-    <link>https://thehackernews.com/2026/03/citrix-urges-patching-critical.html</link>
-    <guid>https://thehackernews.com/2026/03/citrix-urges-patching-critical.html</guid>
-    <pubDate>Tue, 24 Mar 2026 05:59:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Citrix has released security updates to address two vulnerabilities in NetScaler ADC and NetScaler Gateway, including a critical flaw that could be exploited to leak sensitive data from the...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>A New Framework for Evaluating Voice Agents (EVA)</title>
-    <link>https://huggingface.co/blog/ServiceNow-AI/eva</link>
-    <guid>https://huggingface.co/blog/ServiceNow-AI/eva</guid>
-    <pubDate>Tue, 24 Mar 2026 02:01:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The US government just banned consumer routers made outside the US</title>
-    <link>https://www.theverge.com/news/899172/fcc-foreign-router-ban</link>
-    <guid>https://www.theverge.com/news/899172/fcc-foreign-router-ban</guid>
-    <pubDate>Mon, 23 Mar 2026 22:47:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In December, the Federal Communications Commission banned all future drones made in foreign countries from being imported into the United States, unless or until their maker gets an exemption....</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
