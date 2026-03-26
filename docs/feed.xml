@@ -5,61 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Mar 2026 13:58:43 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Mar 2026 17:18:49 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Stop Paying for Cloud: Deploy a Highly Available Cluster on Your Own Hardware in Minutes</title>
-    <link>https://dev.to/axrisi/stop-paying-for-cloud-deploy-a-highly-available-cluster-on-your-own-hardware-in-minutes-14f0</link>
-    <guid>https://dev.to/axrisi/stop-paying-for-cloud-deploy-a-highly-available-cluster-on-your-own-hardware-in-minutes-14f0</guid>
-    <pubDate>Thu, 26 Mar 2026 13:53:03 +0000</pubDate>
+    <title>connpool: A Zero-Alloc TCP Connection Pool for Go</title>
+    <link>https://dev.to/veysi/connpool-a-zero-alloc-tcp-connection-pool-for-go-2hbj</link>
+    <guid>https://dev.to/veysi/connpool-a-zero-alloc-tcp-connection-pool-for-go-2hbj</guid>
+    <pubDate>Thu, 26 Mar 2026 17:11:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A 4-node highly available cluster with distributed storage, software-defined networking, and automatic failover. About 30 minutes to deploy. No Terraform. No Ansible playbooks. No 47-page...</description>
+    <description>The Story Years ago, when I first needed TCP connection pooling in Go, I found fatih/pool. It was elegant, simple, and it taught me a lot about channel-based pooling design. It was a real...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Site Is Up. Your Site Is Broken. Both Are True.</title>
-    <link>https://dev.to/sitewatch/your-site-is-up-your-site-is-broken-both-are-true-2l11</link>
-    <guid>https://dev.to/sitewatch/your-site-is-up-your-site-is-broken-both-are-true-2l11</guid>
-    <pubDate>Thu, 26 Mar 2026 13:52:15 +0000</pubDate>
+    <title>Build for Consumability, The Provider to Consumer Model That Makes AWS Scale.</title>
+    <link>https://dev.to/leewynne/build-for-consumability-the-provider-to-consumer-model-that-makes-aws-scale-oco</link>
+    <guid>https://dev.to/leewynne/build-for-consumability-the-provider-to-consumer-model-that-makes-aws-scale-oco</guid>
+    <pubDate>Thu, 26 Mar 2026 17:09:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every monitoring tool on the market will tell you when your site is down. None of them will tell you when your site returns HTTP 200 OK but serves a broken experience. We built Sitewatch to close...</description>
+    <description>Most platform teams think their job is to build infrastructure. They&apos;re wrong. Their job is to build infrastructure that other teams can consume without thinking about it. The difference matters...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When the App Goes Silent: The Hidden Cost of “No Orders”</title>
-    <link>https://dev.to/tarun_aadarshbcse_3321c/when-the-app-goes-silent-the-hidden-cost-of-no-orders-1kne</link>
-    <guid>https://dev.to/tarun_aadarshbcse_3321c/when-the-app-goes-silent-the-hidden-cost-of-no-orders-1kne</guid>
-    <pubDate>Thu, 26 Mar 2026 13:51:45 +0000</pubDate>
+    <title>Why Erlang C Always Understaffs Your Call Center (And What to Use Instead)</title>
+    <link>https://dev.to/gamlin/why-erlang-c-always-understaffs-your-call-center-and-what-to-use-instead-3gbp</link>
+    <guid>https://dev.to/gamlin/why-erlang-c-always-understaffs-your-call-center-and-what-to-use-instead-3gbp</guid>
+    <pubDate>Thu, 26 Mar 2026 17:06:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Team GigEase | Guidewire DEVTrails 2026 — Scale Phase When the App Goes Silent: The Hidden Cost of “No Orders” Team [Your Team Name] | Guidewire DEVTrails 2026 — Scale Phase Picture this. It’s a...</description>
+    <description>A.K. Erlang published his queuing formula in 1917 to figure out how many telephone circuits the Copenhagen Telephone Company needed. Over a century later, call center managers still plug three...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Got Tired of Cold Outreach. So I Made Claude Do It.</title>
-    <link>https://dev.to/thecodedaniel/i-got-tired-of-cold-outreach-so-i-made-claude-do-it-5flp</link>
-    <guid>https://dev.to/thecodedaniel/i-got-tired-of-cold-outreach-so-i-made-claude-do-it-5flp</guid>
-    <pubDate>Thu, 26 Mar 2026 13:49:37 +0000</pubDate>
+    <title>5 AI Coding Mistakes That Waste Hours (and the Prompts That Fix Them)</title>
+    <link>https://dev.to/novaelvaris/5-ai-coding-mistakes-that-waste-hours-and-the-prompts-that-fix-them-208i</link>
+    <guid>https://dev.to/novaelvaris/5-ai-coding-mistakes-that-waste-hours-and-the-prompts-that-fix-them-208i</guid>
+    <pubDate>Thu, 26 Mar 2026 17:05:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built an MCP That Turns Claude Into a Cold Outreach Machine — and It Actually Works Submitted for the Notion MCP Challenge 2026 Let me be honest with you. Cold outreach is broken. Not because...</description>
+    <description>You paste code into ChatGPT. You get an answer. It looks right. You ship it. Two hours later, it breaks. I&apos;ve made every AI coding mistake in the book. Here are the five that cost me the most time...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Xperience Community: Content Repositories</title>
-    <link>https://dev.to/vhugogarcia/xperience-community-content-repositories-1gaf</link>
-    <guid>https://dev.to/vhugogarcia/xperience-community-content-repositories-1gaf</guid>
-    <pubDate>Thu, 26 Mar 2026 13:47:51 +0000</pubDate>
+    <title>🚀 The Future is Now: AI, 6G &amp; Space Tech.</title>
+    <link>https://dev.to/zeed_xo/the-future-is-now-ai-6g-space-tech-3odk</link>
+    <guid>https://dev.to/zeed_xo/the-future-is-now-ai-6g-space-tech-3odk</guid>
+    <pubDate>Thu, 26 Mar 2026 17:04:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you have been building with Xperience by Kentico, you are probably familiar with the repetitive ceremony around fetching web page content: URL resolution, language detection, caching, null...</description>
+    <description>👋 Hey everyone! I’m Mazeed — telecom engineer turned AI &amp; space tech enthusiast. I’m obsessed with pushing the boundaries of technology, from next-gen networks to AI-driven space systems. This...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Show HN: Agent Skill Harbor – a GitHub-native skill platform for teams</title>
-    <link>https://news.ycombinator.com/item?id=47530391</link>
-    <guid>https://news.ycombinator.com/item?id=47530391</guid>
-    <pubDate>Thu, 26 Mar 2026 13:43:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>There are already many services for discovering public skills, and many ways to manage your own personal skills.What still feels missing is the middle layer: how teams and organizations share AI...</description>
+    <title>The Power of Simple Tools: Why Sometimes All You Need is a Counter</title>
+    <link>https://dev.to/chao_xue_34ee576abba0e8ed/the-power-of-simple-tools-why-sometimes-all-you-need-is-a-counter-2f3j</link>
+    <guid>https://dev.to/chao_xue_34ee576abba0e8ed/the-power-of-simple-tools-why-sometimes-all-you-need-is-a-counter-2f3j</guid>
+    <pubDate>Thu, 26 Mar 2026 17:00:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>As developers and tech enthusiasts, we often get caught up in the &quot;feature race.&quot; We build complex systems, integrate AI into everything, and obsess over syncing data across every possible cloud....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Lazy Developer&apos;s Guide to Perfect Social Media Previews</title>
+    <link>https://dev.to/narender_singh_6c6e271c67/the-lazy-developers-guide-to-perfect-social-media-previews-39im</link>
+    <guid>https://dev.to/narender_singh_6c6e271c67/the-lazy-developers-guide-to-perfect-social-media-previews-39im</guid>
+    <pubDate>Thu, 26 Mar 2026 17:00:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You finally ship your project. You share the link on Twitter. And the preview looks like... nothing. A blank card. Or worse, some random text fragment from your footer. I&apos;ve been there. Multiple...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Evaluate LLM code generation with LLM-as-judge evaluators</title>
+    <link>https://dev.to/sattensil888/evaluate-llm-code-generation-with-llm-as-judge-evaluators-3epi</link>
+    <guid>https://dev.to/sattensil888/evaluate-llm-code-generation-with-llm-as-judge-evaluators-3epi</guid>
+    <pubDate>Thu, 26 Mar 2026 16:58:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Which AI model writes the best code for your codebase? Not &quot;best&quot; in general, but best for your security requirements, your API schemas, and your team&apos;s blind spots. This tutorial shows you how to...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Lean Caching - A Custom NetworkBoundResource in Kotlin</title>
+    <link>https://dev.to/zoos1ne/lean-caching-a-custom-networkboundresource-in-kotlin-52el</link>
+    <guid>https://dev.to/zoos1ne/lean-caching-a-custom-networkboundresource-in-kotlin-52el</guid>
+    <pubDate>Thu, 26 Mar 2026 16:57:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Orchestrating data between a remote API and a local database is a foundational problem in mobile development. While the industry consensus rightly leans toward the Single Source of Truth pattern,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>What Happens to Your Calls After 5 PM? An Honest Cost Comparison</title>
+    <link>https://dev.to/gamlin/what-happens-to-your-calls-after-5-pm-an-honest-cost-comparison-320e</link>
+    <guid>https://dev.to/gamlin/what-happens-to-your-calls-after-5-pm-an-honest-cost-comparison-320e</guid>
+    <pubDate>Thu, 26 Mar 2026 16:55:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>It&apos;s 6:17 PM. A prospect who&apos;s been thinking about your product all day finally has time to call. They&apos;ve been on your website, read the comparison page, they&apos;re ready to talk to someone. They...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Govee’s color-changing smart lamps are on sale for up to 30 percent off</title>
+    <link>https://www.theverge.com/gadgets/901580/govee-rgb-table-lamp-2-pro-speaker-amazon-big-spring-sale-2026-deal</link>
+    <guid>https://www.theverge.com/gadgets/901580/govee-rgb-table-lamp-2-pro-speaker-amazon-big-spring-sale-2026-deal</guid>
+    <pubDate>Thu, 26 Mar 2026 16:44:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Speaking from experience, better lighting can completely change how a space feels. Over the years, I’ve filled my apartment with Govee’s color-changing lights, and they’ve made it feel calmer and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta gets ready to launch two new Ray-Ban AI glasses</title>
+    <link>https://www.theverge.com/column/901314/meta-new-ray-ban-ai-glasses</link>
+    <guid>https://www.theverge.com/column/901314/meta-new-ray-ban-ai-glasses</guid>
+    <pubDate>Thu, 26 Mar 2026 16:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Meta and its AI glasses...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Transform your headphones into a live personal translator on iOS.</title>
+    <link>https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/</link>
+    <guid>https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/</guid>
+    <pubDate>Thu, 26 Mar 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>Google Translate’s Live translate with headphones is officially arriving on iOS! And we&apos;re expanding the capability for both iOS and Android users to even more countries…</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Everyone hates Ticketmaster. Why’d Trump go easy on them?</title>
+    <link>https://www.theverge.com/podcast/900540/live-nation-ticketmaster-lawsuit-antitrust-trump-doj-settlement</link>
+    <guid>https://www.theverge.com/podcast/900540/live-nation-ticketmaster-lawsuit-antitrust-trump-doj-settlement</guid>
+    <pubDate>Thu, 26 Mar 2026 15:31:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Today on Decoder, we’re talking about the major antitrust lawsuit against Live Nation, and what it might mean for antitrust and competition law in general now that the Justice Department under...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut</title>
+    <link>https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/</link>
+    <guid>https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/</guid>
+    <pubDate>Thu, 26 Mar 2026 15:25:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The new model in CapCut will have built-in protections for making video from real faces or unauthorized intellectual property.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Gemini 3.1 Flash Live: Making audio AI more natural and reliable</title>
+    <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/</link>
+    <guid>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/</guid>
+    <pubDate>Thu, 26 Mar 2026 15:21:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>The Gemini emblem sits next to text reading &apos;Gemini 3.1 Flash Live&apos;. The background has blue, multicolored dots making up a microphone icon</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Wikipedia bans AI-generated articles</title>
+    <link>https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban</link>
+    <guid>https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban</guid>
+    <pubDate>Thu, 26 Mar 2026 15:02:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia&apos;s guidelines late last week, cites the tendency for AI-written articles to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The best deals we’ve found from Amazon’s Big Spring Sale (so far)</title>
+    <link>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</link>
+    <guid>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</guid>
+    <pubDate>Thu, 26 Mar 2026 15:01:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which starts today and runs through March 31st, the retail...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Search Live is expanding globally</title>
+    <link>https://blog.google/products-and-platforms/products/search/search-live-global-expansion/</link>
+    <guid>https://blog.google/products-and-platforms/products/search/search-live-global-expansion/</guid>
+    <pubDate>Thu, 26 Mar 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>A graphic with the words Search Live shown underneath a waveform icon. To the right, a phone shows the Google app with Search Live open. The camera is pointing at trees in a forest.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Senators are pushing to find out how much electricity data centers actually use</title>
+    <link>https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers</link>
+    <guid>https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers</guid>
+    <pubDate>Thu, 26 Mar 2026 14:25:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>On Thursday, senators Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a letter to the Energy Information Administration (EIA) asking it to collect &quot;comprehensive, annual energy-use...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Why a two-seater robotaxi makes more sense than you think</title>
+    <link>https://www.theverge.com/transportation/900559/robotaxi-two-seater-tesla-lucid-drag-cost</link>
+    <guid>https://www.theverge.com/transportation/900559/robotaxi-two-seater-tesla-lucid-drag-cost</guid>
+    <pubDate>Thu, 26 Mar 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When Tesla revealed the Cybercab in 2024, many people were baffled by the automaker&apos;s decision to make it a two-seater. I had similar thoughts when I first saw it at the LA Auto Show later that...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems</title>
@@ -71,43 +206,7 @@
     <category>AI</category>
   </item>
   <item>
-    <title>#holochain Built an experimental Holochain voting hApp for transparent org/community pilots #p2p #holo try it . https://github.com/ta10101/holochain-ballot</title>
-    <link>https://dev.to/ta10101/holochain-built-an-experimental-holochain-voting-happ-for-transparent-orgcommunity-pilots-p2p-1ae9</link>
-    <guid>https://dev.to/ta10101/holochain-built-an-experimental-holochain-voting-happ-for-transparent-orgcommunity-pilots-p2p-1ae9</guid>
-    <pubDate>Thu, 26 Mar 2026 13:39:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>GitHub - ta10101/holochain-ballot: Experimental Holochain voting hApp with transparent tallies for demos and org/community pilots · GitHub Experimental Holochain voting hApp with transparent...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Cloud Egress Costs Explained: Why Your Architecture Is Paying a Tax You Never Modeled</title>
-    <link>https://dev.to/ntctech/cloud-egress-costs-explained-why-your-architecture-is-paying-a-tax-you-never-modeled-554c</link>
-    <guid>https://dev.to/ntctech/cloud-egress-costs-explained-why-your-architecture-is-paying-a-tax-you-never-modeled-554c</guid>
-    <pubDate>Thu, 26 Mar 2026 13:38:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You modeled compute. You modeled storage. You built cost estimates, ran capacity planning, and got sign-off on the architecture before a single resource was provisioned. You did not model what it...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>We Built a LlamaIndex Integration. They Closed the PR. The Code Still Works.</title>
-    <link>https://dev.to/gpubridge/we-built-a-llamaindex-integration-they-closed-the-pr-the-code-still-works-68m</link>
-    <guid>https://dev.to/gpubridge/we-built-a-llamaindex-integration-they-closed-the-pr-the-code-still-works-68m</guid>
-    <pubDate>Thu, 26 Mar 2026 13:35:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last week, a maintainer at LlamaIndex closed our pull request. Not because of code quality. Not because of test failures. The reason: &quot;We are pausing contributions that contribute net-new...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>JavaScript Closures Explained Simply</title>
-    <link>https://dev.to/kathirvel-s/javascript-closures-explained-simply-2mf3</link>
-    <guid>https://dev.to/kathirvel-s/javascript-closures-explained-simply-2mf3</guid>
-    <pubDate>Thu, 26 Mar 2026 13:32:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Let’s be honest. Closures in JavaScript sound scary at first. You’ve probably seen definitions like: “A closure is a function that retains access to its lexical scope…” And your brain immediately...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Cohere launches an open-source voice model specifically for transcription</title>
+    <title>Cohere launches an open source voice model specifically for transcription</title>
     <link>https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/</link>
     <guid>https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/</guid>
     <pubDate>Thu, 26 Mar 2026 13:30:00 +0000</pubDate>
@@ -161,15 +260,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>EU backs nude app ban and delays to landmark AI rules</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/901315/eu-ai-act-delays-ban-nudify-apps</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/901315/eu-ai-act-delays-ban-nudify-apps</guid>
-    <pubDate>Thu, 26 Mar 2026 12:49:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>European lawmakers have voted to delay key parts of the EU AI Act, the bloc&apos;s flagship law for regulating artificial intelligence, while also backing proposals to ban nudify apps. The measures,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>The Download: a battery pivot to AI, and rewriting math</title>
     <link>https://www.technologyreview.com/2026/03/26/1134697/the-download-battery-ai-pivot-new-ai-tool-math/</link>
     <guid>https://www.technologyreview.com/2026/03/26/1134697/the-download-battery-ai-pivot-new-ai-tool-math/</guid>
@@ -185,96 +275,6 @@
     <pubDate>Thu, 26 Mar 2026 12:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Fears of AI-driven job loss are growing fast, and they’re fueling backlash against data centers. Sen. Mark Warner suggests taxing them to help workers survive the transition.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Senators Demand to Know How Much Energy Data Centers Use</title>
-    <link>https://www.wired.com/story/senators-demand-to-know-how-much-energy-data-centers-use/</link>
-    <guid>https://www.wired.com/story/senators-demand-to-know-how-much-energy-data-centers-use/</guid>
-    <pubDate>Thu, 26 Mar 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>In a letter sent Thursday morning, Elizabeth Warren and Josh Hawley press the Energy Information Agency to mandate annual electricity disclosure for data centers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>DJI’s Avata 360 is a more functional, flexible 360 drone</title>
-    <link>https://www.theverge.com/tech/899735/dji-avata-360-release-date-price-specs-impressions-antigravity-a1-comparison</link>
-    <guid>https://www.theverge.com/tech/899735/dji-avata-360-release-date-price-specs-impressions-antigravity-a1-comparison</guid>
-    <pubDate>Thu, 26 Mar 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>DJI&apos;s Avata 360 finds the company at an odd time. For one, it&apos;s been beaten to the punch - upstart Antigravity&apos;s A1 became the first 360-degree drone when it launched last December, and DJI is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI shelves erotic chatbot &amp;#8216;indefinitely&amp;#8217;</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/901293/openai-adult-mode-erotic-chatbot-shelved-indefinitely</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/901293/openai-adult-mode-erotic-chatbot-shelved-indefinitely</guid>
-    <pubDate>Thu, 26 Mar 2026 11:58:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI ​has paused plans to release a sexualized &quot;adult mode&quot; for ChatGPT, in its latest move to refocus on the company&apos;s core ​products. According to The Financial Times, the erotic chatbot has...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception</title>
-    <link>https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html</link>
-    <guid>https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html</guid>
-    <pubDate>Thu, 26 Mar 2026 11:58:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Unmasking impostors is something the art world has faced for decades, and there are valuable lessons from the works of Elmyr de Hory that can apply to the world of defensive cybersecurity. During...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits &amp; 20 More Stories</title>
-    <link>https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html</link>
-    <guid>https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html</guid>
-    <pubDate>Thu, 26 Mar 2026 11:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Some weeks in security feel loud. This one feels sneaky. Less big dramatic fireworks, more of that slow creeping sense that too many people are getting way too comfortable abusing things they...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Mistral releases a new open-source model for speech generation</title>
-    <link>https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/</link>
-    <guid>https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/</guid>
-    <pubDate>Thu, 26 Mar 2026 11:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Mistral&apos;s new speech model can run on a smartwatch or a smartphone.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Coruna iOS Kit Reuses 2023 Triangulation Exploit Code in New Mass Attacks</title>
-    <link>https://thehackernews.com/2026/03/coruna-ios-kit-reuses-2023.html</link>
-    <guid>https://thehackernews.com/2026/03/coruna-ios-kit-reuses-2023.html</guid>
-    <pubDate>Thu, 26 Mar 2026 11:07:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The kernel exploit for two security vulnerabilities used in the recently uncovered Apple iOS exploit kit known as Coruna is an updated version of the same exploit that was used in the Operation...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>As the US Midterms Approach, AI Is Going to Emerge as a Key Issue Concerning Voters</title>
-    <link>https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html</guid>
-    <pubDate>Thu, 26 Mar 2026 11:06:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>In December, the Trump administration signed an executive order that neutered states’ ability to regulate AI by ordering his administration to both sue and withhold funds from states that try to...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>‘She’s Never Going to Age’: Porn Stars Are Embracing AI Clones to Stay Forever Young</title>
-    <link>https://www.wired.com/story/shes-never-going-to-age-porn-stars-are-embracing-ai-clones-to-stay-forever-young/</link>
-    <guid>https://www.wired.com/story/shes-never-going-to-age-porn-stars-are-embracing-ai-clones-to-stay-forever-young/</guid>
-    <pubDate>Thu, 26 Mar 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>AI companion platforms like OhChat and SinfulX are offering adult creators digital twins, who are always at their peak and stay monetizing.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The snow gods: How a couple of ski bums built the internet’s best weather app</title>
-    <link>https://www.technologyreview.com/2026/03/26/1134470/the-snow-gods-how-a-couple-of-ski-bums-built-the-internets-best-weather-app/</link>
-    <guid>https://www.technologyreview.com/2026/03/26/1134470/the-snow-gods-how-a-couple-of-ski-bums-built-the-internets-best-weather-app/</guid>
-    <pubDate>Thu, 26 Mar 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The best snow-forecasting app for skiers and snowboarders isn’t from any of the federally funded weather services. Nor from any of the big-name brands. It’s an independent app startup that...</description>
     <category>AI</category>
   </item>
 </channel>
