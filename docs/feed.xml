@@ -5,97 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Mar 2026 17:18:49 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Mar 2026 20:51:28 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>connpool: A Zero-Alloc TCP Connection Pool for Go</title>
-    <link>https://dev.to/veysi/connpool-a-zero-alloc-tcp-connection-pool-for-go-2hbj</link>
-    <guid>https://dev.to/veysi/connpool-a-zero-alloc-tcp-connection-pool-for-go-2hbj</guid>
-    <pubDate>Thu, 26 Mar 2026 17:11:11 +0000</pubDate>
+    <title>Copilot CLI Extensions Cookbook: 16 Production-Ready Examples You Can Copy Today</title>
+    <link>https://dev.to/htekdev/copilot-cli-extensions-cookbook-15-production-ready-examples-you-can-copy-today-2e06</link>
+    <guid>https://dev.to/htekdev/copilot-cli-extensions-cookbook-15-production-ready-examples-you-can-copy-today-2e06</guid>
+    <pubDate>Thu, 26 Mar 2026 20:35:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Story Years ago, when I first needed TCP connection pooling in Go, I found fatih/pool. It was elegant, simple, and it taught me a lot about channel-based pooling design. It was a real...</description>
+    <description>I&apos;ve been building Copilot CLI extensions for weeks now, and I keep discovering patterns I wish I&apos;d had from day one. Not theory — actual working code that solves real problems. Every time I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Build for Consumability, The Provider to Consumer Model That Makes AWS Scale.</title>
-    <link>https://dev.to/leewynne/build-for-consumability-the-provider-to-consumer-model-that-makes-aws-scale-oco</link>
-    <guid>https://dev.to/leewynne/build-for-consumability-the-provider-to-consumer-model-that-makes-aws-scale-oco</guid>
-    <pubDate>Thu, 26 Mar 2026 17:09:59 +0000</pubDate>
+    <title>How to Monetize Your MCP Server in 2026: The Complete Guide</title>
+    <link>https://dev.to/lexwhiting/how-to-monetize-your-mcp-server-in-2026-the-complete-guide-2pg9</link>
+    <guid>https://dev.to/lexwhiting/how-to-monetize-your-mcp-server-in-2026-the-complete-guide-2pg9</guid>
+    <pubDate>Thu, 26 Mar 2026 20:34:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most platform teams think their job is to build infrastructure. They&apos;re wrong. Their job is to build infrastructure that other teams can consume without thinking about it. The difference matters...</description>
+    <description>There are over 20,000 MCP servers in the wild. Less than 5% make a single dollar. The rest are donated labor — talented developers building useful tools and getting nothing for it. This guide...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Erlang C Always Understaffs Your Call Center (And What to Use Instead)</title>
-    <link>https://dev.to/gamlin/why-erlang-c-always-understaffs-your-call-center-and-what-to-use-instead-3gbp</link>
-    <guid>https://dev.to/gamlin/why-erlang-c-always-understaffs-your-call-center-and-what-to-use-instead-3gbp</guid>
-    <pubDate>Thu, 26 Mar 2026 17:06:19 +0000</pubDate>
+    <title>Pull SEC EDGAR Filings into Your App with One API Call</title>
+    <link>https://dev.to/donnyautomation/pull-sec-edgar-filings-into-your-app-with-one-api-call-40k9</link>
+    <guid>https://dev.to/donnyautomation/pull-sec-edgar-filings-into-your-app-with-one-api-call-40k9</guid>
+    <pubDate>Thu, 26 Mar 2026 20:18:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A.K. Erlang published his queuing formula in 1917 to figure out how many telephone circuits the Copenhagen Telephone Company needed. Over a century later, call center managers still plug three...</description>
+    <description>If you&apos;ve ever tried scraping SEC EDGAR for company filings, you know the pain: inconsistent HTML, rate limits, and parsing headaches. The SEC EDGAR Filings API wraps all of that complexity into a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>5 AI Coding Mistakes That Waste Hours (and the Prompts That Fix Them)</title>
-    <link>https://dev.to/novaelvaris/5-ai-coding-mistakes-that-waste-hours-and-the-prompts-that-fix-them-208i</link>
-    <guid>https://dev.to/novaelvaris/5-ai-coding-mistakes-that-waste-hours-and-the-prompts-that-fix-them-208i</guid>
-    <pubDate>Thu, 26 Mar 2026 17:05:00 +0000</pubDate>
+    <title>We Spent Days Fighting a Zebra Card Printer. So You Don&apos;t Have To.</title>
+    <link>https://dev.to/alex_purpleowl/we-spent-days-fighting-a-zebra-card-printer-so-you-dont-have-to-3hg</link>
+    <guid>https://dev.to/alex_purpleowl/we-spent-days-fighting-a-zebra-card-printer-so-you-dont-have-to-3hg</guid>
+    <pubDate>Thu, 26 Mar 2026 20:09:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You paste code into ChatGPT. You get an answer. It looks right. You ship it. Two hours later, it breaks. I&apos;ve made every AI coding mistake in the book. Here are the five that cost me the most time...</description>
+    <description>If you&apos;ve ever tried to programmatically control a Zebra ZC350 card printer, you already know the pain. And if you haven&apos;t, let me save you some time: it&apos;s considerable. I want to save you the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>🚀 The Future is Now: AI, 6G &amp; Space Tech.</title>
-    <link>https://dev.to/zeed_xo/the-future-is-now-ai-6g-space-tech-3odk</link>
-    <guid>https://dev.to/zeed_xo/the-future-is-now-ai-6g-space-tech-3odk</guid>
-    <pubDate>Thu, 26 Mar 2026 17:04:06 +0000</pubDate>
+    <title>Let&apos;s Work together as front-end developer</title>
+    <link>https://dev.to/shah_ce535b7ff81cbb5/lets-work-together-as-front-end-developer-1mol</link>
+    <guid>https://dev.to/shah_ce535b7ff81cbb5/lets-work-together-as-front-end-developer-1mol</guid>
+    <pubDate>Thu, 26 Mar 2026 20:00:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>👋 Hey everyone! I’m Mazeed — telecom engineer turned AI &amp; space tech enthusiast. I’m obsessed with pushing the boundaries of technology, from next-gen networks to AI-driven space systems. This...</description>
+    <description>Hey everyone! I&apos;ve been learning a front-end development. I have make some simple project simply put I make clones that get some online design. I am done all alone siting at my room and cloning...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Power of Simple Tools: Why Sometimes All You Need is a Counter</title>
-    <link>https://dev.to/chao_xue_34ee576abba0e8ed/the-power-of-simple-tools-why-sometimes-all-you-need-is-a-counter-2f3j</link>
-    <guid>https://dev.to/chao_xue_34ee576abba0e8ed/the-power-of-simple-tools-why-sometimes-all-you-need-is-a-counter-2f3j</guid>
-    <pubDate>Thu, 26 Mar 2026 17:00:54 +0000</pubDate>
+    <title>Vibe Coding Needs Telemetry</title>
+    <link>https://dev.to/aabdullahbos/vibe-coding-needs-telemetry-29mi</link>
+    <guid>https://dev.to/aabdullahbos/vibe-coding-needs-telemetry-29mi</guid>
+    <pubDate>Thu, 26 Mar 2026 20:00:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As developers and tech enthusiasts, we often get caught up in the &quot;feature race.&quot; We build complex systems, integrate AI into everything, and obsess over syncing data across every possible cloud....</description>
+    <description>Originally published at: https://www.aquilabdullah.com/your-post-url I recently noticed something strange in the backend telemetry of a code base that I was working on. A single API request was...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Lazy Developer&apos;s Guide to Perfect Social Media Previews</title>
-    <link>https://dev.to/narender_singh_6c6e271c67/the-lazy-developers-guide-to-perfect-social-media-previews-39im</link>
-    <guid>https://dev.to/narender_singh_6c6e271c67/the-lazy-developers-guide-to-perfect-social-media-previews-39im</guid>
-    <pubDate>Thu, 26 Mar 2026 17:00:40 +0000</pubDate>
+    <title>GitHub Copilot vs Tabnine: The Complete Comparison (2026)</title>
+    <link>https://dev.to/rahulxsingh/github-copilot-vs-tabnine-the-complete-comparison-2026-49d8</link>
+    <guid>https://dev.to/rahulxsingh/github-copilot-vs-tabnine-the-complete-comparison-2026-49d8</guid>
+    <pubDate>Thu, 26 Mar 2026 20:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You finally ship your project. You share the link on Twitter. And the preview looks like... nothing. A blank card. Or worse, some random text fragment from your footer. I&apos;ve been there. Multiple...</description>
+    <description>Quick verdict GitHub Copilot and Tabnine are both established AI code assistants, but they serve fundamentally different audiences. Copilot prioritizes raw AI capability, multi-model access, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Evaluate LLM code generation with LLM-as-judge evaluators</title>
-    <link>https://dev.to/sattensil888/evaluate-llm-code-generation-with-llm-as-judge-evaluators-3epi</link>
-    <guid>https://dev.to/sattensil888/evaluate-llm-code-generation-with-llm-as-judge-evaluators-3epi</guid>
-    <pubDate>Thu, 26 Mar 2026 16:58:55 +0000</pubDate>
+    <title>Supercharge Your Web Apps: AI in the Background with Service Workers</title>
+    <link>https://dev.to/programmingcentral/supercharge-your-web-apps-ai-in-the-background-with-service-workers-502k</link>
+    <guid>https://dev.to/programmingcentral/supercharge-your-web-apps-ai-in-the-background-with-service-workers-502k</guid>
+    <pubDate>Thu, 26 Mar 2026 20:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Which AI model writes the best code for your codebase? Not &quot;best&quot; in general, but best for your security requirements, your API schemas, and your team&apos;s blind spots. This tutorial shows you how to...</description>
+    <description>I created a new website: Free Access to the 8 Volumes on Typescript &amp; AI Masterclass, no registration required. Choose Volume and chapter on the menu on the left. 160 Chapters and hundreds of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Lean Caching - A Custom NetworkBoundResource in Kotlin</title>
-    <link>https://dev.to/zoos1ne/lean-caching-a-custom-networkboundresource-in-kotlin-52el</link>
-    <guid>https://dev.to/zoos1ne/lean-caching-a-custom-networkboundresource-in-kotlin-52el</guid>
-    <pubDate>Thu, 26 Mar 2026 16:57:33 +0000</pubDate>
+    <title>How To Prevent Website Downtime</title>
+    <link>https://dev.to/vincentbean/how-to-prevent-website-downtime-1i6l</link>
+    <guid>https://dev.to/vincentbean/how-to-prevent-website-downtime-1i6l</guid>
+    <pubDate>Thu, 26 Mar 2026 19:59:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Orchestrating data between a remote API and a local database is a foundational problem in mobile development. While the industry consensus rightly leans toward the Single Source of Truth pattern,...</description>
+    <description>Downtime can happen for many reasons: infrastructure failures, network issues, software bugs, or simple configuration mistakes. Some of these problems are unavoidable, but most can be prevented by...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What Happens to Your Calls After 5 PM? An Honest Cost Comparison</title>
-    <link>https://dev.to/gamlin/what-happens-to-your-calls-after-5-pm-an-honest-cost-comparison-320e</link>
-    <guid>https://dev.to/gamlin/what-happens-to-your-calls-after-5-pm-an-honest-cost-comparison-320e</guid>
-    <pubDate>Thu, 26 Mar 2026 16:55:12 +0000</pubDate>
+    <title>LocalStack Is Gone. Floci vs. Moto vs. Testcontainers: Which One Replaces It?</title>
+    <link>https://dev.to/peytongreen_dev/localstack-is-gone-floci-vs-moto-vs-testcontainers-which-one-replaces-it-c7c</link>
+    <guid>https://dev.to/peytongreen_dev/localstack-is-gone-floci-vs-moto-vs-testcontainers-which-one-replaces-it-c7c</guid>
+    <pubDate>Thu, 26 Mar 2026 19:55:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It&apos;s 6:17 PM. A prospect who&apos;s been thinking about your product all day finally has time to call. They&apos;ve been on your website, read the comparison page, they&apos;re ready to talk to someone. They...</description>
+    <description>On March 23, 2026, LocalStack archived its public GitHub repository and moved all images behind authentication. If you ran docker pull localstack/localstack in CI without a token, your pipeline...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Streaming keeps getting more expensive: all the latest price hikes</title>
+    <link>https://www.theverge.com/23901586/streaming-service-prices-netflix-disney-hulu-peacock-max</link>
+    <guid>https://www.theverge.com/23901586/streaming-service-prices-netflix-disney-hulu-peacock-max</guid>
+    <pubDate>Thu, 26 Mar 2026 19:13:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Death. Taxes. All your streaming services getting a little more expensive all the time. These are the new certainties in life, it seems. Netflix has raised the cost of its subscription repeatedly...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Netflix is raising prices again</title>
+    <link>https://www.theverge.com/streaming/901833/netflix-subscription-pricing-increase-2026</link>
+    <guid>https://www.theverge.com/streaming/901833/netflix-subscription-pricing-increase-2026</guid>
+    <pubDate>Thu, 26 Mar 2026 19:05:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Netflix&apos;s prices just went up, with its cheapest, ad-supported tier now reaching $8.99 / month (up from $7.99 / month), according to an updated support page spotted earlier by Android Authority....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google&amp;#8217;s &amp;#8216;live&amp;#8217; AI search assistant can handle conversations in dozens more languages</title>
+    <link>https://www.theverge.com/tech/901816/google-search-live-ai-assistant-expansion</link>
+    <guid>https://www.theverge.com/tech/901816/google-search-live-ai-assistant-expansion</guid>
+    <pubDate>Thu, 26 Mar 2026 18:47:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google is expanding access to Search Live, a feature that lets you search for information using your voice and camera. The AI search assistant is now available in more than 200 countries and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Fitbit’s budget-friendly Inspire 3 is $30 off, matching its best price</title>
+    <link>https://www.theverge.com/tech/901765/fitbit-inspire-3-amazon-big-spring-sale-2026-deal</link>
+    <guid>https://www.theverge.com/tech/901765/fitbit-inspire-3-amazon-big-spring-sale-2026-deal</guid>
+    <pubDate>Thu, 26 Mar 2026 18:41:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon’s Big Spring Sale has delivered discounts on wearables like the latest Apple Watch SE 3 and Fitbit’s Charge 6. But they’re not exactly cheap even though they’re on sale. If you want...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI abandons yet another side quest: ChatGPT’s erotic mode</title>
+    <link>https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/</link>
+    <guid>https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/</guid>
+    <pubDate>Thu, 26 Mar 2026 18:34:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>It&apos;s only the latest of several side projects that the AI startup has ditched over the past week.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Data centers get ready — the Senate wants to see your power bills</title>
+    <link>https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/</link>
+    <guid>https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/</guid>
+    <pubDate>Thu, 26 Mar 2026 18:23:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Senators Josh Hawley and Elizabeth Warren want the Energy Information Administration to gather more details about how data centers use power — and how that affects the grid.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meet the Tech Reporters Using AI to Help Write and Edit Their Stories</title>
+    <link>https://www.wired.com/story/tech-reporters-using-ai-write-edit-stories/</link>
+    <guid>https://www.wired.com/story/tech-reporters-using-ai-write-edit-stories/</guid>
+    <pubDate>Thu, 26 Mar 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Independent writers are using AI agents all throughout their reporting process. What’s the value of a human journalist, anyway?</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Xbox’s latest games showcase had Hades 2, The Expanse, and Bluey</title>
+    <link>https://www.theverge.com/games/901384/xbox-partner-preview-games-news-trailers</link>
+    <guid>https://www.theverge.com/games/901384/xbox-partner-preview-games-news-trailers</guid>
+    <pubDate>Thu, 26 Mar 2026 17:42:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s a weird time for Xbox, with a big leadership shakeup that has many wondering what the future of the platform looks like, and what exactly it stands for. In the meantime, though, Microsoft is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks</title>
+    <link>https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html</link>
+    <guid>https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html</guid>
+    <pubDate>Thu, 26 Mar 2026 17:40:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks. The strategic positioning...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>My brief, weird time with the Samsung TriFold</title>
+    <link>https://www.theverge.com/tech/901525/samsung-galaxy-z-trifold-hands-on-singapore-rom</link>
+    <guid>https://www.theverge.com/tech/901525/samsung-galaxy-z-trifold-hands-on-singapore-rom</guid>
+    <pubDate>Thu, 26 Mar 2026 17:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I was ready to give up on the Galaxy Z TriFold. We had a strong case for getting a refund from the eBay seller - they&apos;d claimed it was the version sold in Taiwan, but the phone that arrived at my...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Watch James Manyika talk AI and creativity with LL COOL J.</title>
+    <link>https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/</link>
+    <guid>https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/</guid>
+    <pubDate>Thu, 26 Mar 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>In the latest episode of our Dialogues on Technology and Society series, LL COOL J sits down with James Manyika.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Govee’s color-changing smart lamps are on sale for up to 30 percent off</title>
@@ -161,15 +260,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>The best deals we’ve found from Amazon’s Big Spring Sale (so far)</title>
-    <link>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</link>
-    <guid>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</guid>
-    <pubDate>Thu, 26 Mar 2026 15:01:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which starts today and runs through March 31st, the retail...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Search Live is expanding globally</title>
     <link>https://blog.google/products-and-platforms/products/search/search-live-global-expansion/</link>
     <guid>https://blog.google/products-and-platforms/products/search/search-live-global-expansion/</guid>
@@ -179,102 +269,12 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Senators are pushing to find out how much electricity data centers actually use</title>
-    <link>https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers</link>
-    <guid>https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers</guid>
-    <pubDate>Thu, 26 Mar 2026 14:25:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>On Thursday, senators Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a letter to the Energy Information Administration (EIA) asking it to collect &quot;comprehensive, annual energy-use...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Why a two-seater robotaxi makes more sense than you think</title>
-    <link>https://www.theverge.com/transportation/900559/robotaxi-two-seater-tesla-lucid-drag-cost</link>
-    <guid>https://www.theverge.com/transportation/900559/robotaxi-two-seater-tesla-lucid-drag-cost</guid>
-    <pubDate>Thu, 26 Mar 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When Tesla revealed the Cybercab in 2024, many people were baffled by the automaker&apos;s decision to make it a two-seater. I had similar thoughts when I first saw it at the LA Auto Show later that...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems</title>
     <link>https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/</link>
     <guid>https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/</guid>
     <pubDate>Thu, 26 Mar 2026 13:41:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Cohere launches an open source voice model specifically for transcription</title>
-    <link>https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/</link>
-    <guid>https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/</guid>
-    <pubDate>Thu, 26 Mar 2026 13:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Relatively light at just 2 billion parameters, the model is meant for use with consumer-grade GPUs for those who want to self-host it. It currently supports 14 languages.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks</title>
-    <link>https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html</link>
-    <guid>https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html</guid>
-    <pubDate>Thu, 26 Mar 2026 13:12:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control. But one question usually stays...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website</title>
-    <link>https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html</link>
-    <guid>https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html</guid>
-    <pubDate>Thu, 26 Mar 2026 13:11:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed a vulnerability in Anthropic&apos;s Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page....</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Some of our favorite Apple tech is cheaper than ever during Amazon’s Big Spring Sale</title>
-    <link>https://www.theverge.com/gadgets/900953/best-apple-deals-amazon-big-spring-sale-2026</link>
-    <guid>https://www.theverge.com/gadgets/900953/best-apple-deals-amazon-big-spring-sale-2026</guid>
-    <pubDate>Thu, 26 Mar 2026 13:07:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It feels like nearly everything is receiving some sort of discount as part of Amazon’s Big Spring Sale — that is, except for most Apple devices. Don’t worry, though; you’re not completely out of...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Webtoon is adding AI localization tools to its comics platform</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/899108/webtoon-canvas-ai-translation-localization-yongsoo-kim</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/899108/webtoon-canvas-ai-translation-localization-yongsoo-kim</guid>
-    <pubDate>Thu, 26 Mar 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Canvas, Webtoon&apos;s platform for user-uploaded comics, is about to get a major overhaul that&apos;s designed to help creators make more money and share their art with a wider audience. Today, Webtoon...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The versatile Play speaker is a great way into the Sonos world</title>
-    <link>https://www.theverge.com/tech/901105/sonos-play-speaker-review</link>
-    <guid>https://www.theverge.com/tech/901105/sonos-play-speaker-review</guid>
-    <pubDate>Thu, 26 Mar 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It&apos;s been nearly a year and a half since Sonos released a consumer product, and those last two releases - the Arc Ultra and Sub 4 - were updates to existing products. The $299 Sonos Play, however,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Download: a battery pivot to AI, and rewriting math</title>
-    <link>https://www.technologyreview.com/2026/03/26/1134697/the-download-battery-ai-pivot-new-ai-tool-math/</link>
-    <guid>https://www.technologyreview.com/2026/03/26/1134697/the-download-battery-ai-pivot-new-ai-tool-math/</guid>
-    <pubDate>Thu, 26 Mar 2026 12:42:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why this battery company is pivoting to AI Qichao Hu...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses</title>
-    <link>https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/</link>
-    <guid>https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/</guid>
-    <pubDate>Thu, 26 Mar 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Fears of AI-driven job loss are growing fast, and they’re fueling backlash against data centers. Sen. Mark Warner suggests taxing them to help workers survive the transition.</description>
     <category>AI</category>
   </item>
 </channel>
