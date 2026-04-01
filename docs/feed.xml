@@ -5,106 +5,250 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Apr 2026 09:35:40 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Apr 2026 14:04:45 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I Asked ChatGPT What WIRED’s Reviewers Recommend—Its Answers Were All Wrong</title>
+    <title>My Python tests passed. Production still broke.</title>
+    <link>https://dev.to/nicodev__/my-python-tests-passed-production-still-broke-5g2n</link>
+    <guid>https://dev.to/nicodev__/my-python-tests-passed-production-still-broke-5g2n</guid>
+    <pubDate>Wed, 01 Apr 2026 14:01:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Deployed yesterday. Tests green. Production crashed 3 hours later. The bug? A datetime object I created in tests wasn&apos;t aware of timezones. Production API expects UTC timestamps. My test just used...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Kafka Inbox/Outbox in Go — Guaranteeing Exactly-Once Delivery in a Multi-Tenant ERP</title>
+    <link>https://dev.to/md_zonieedhossain_d19709/kafka-inboxoutbox-in-go-guaranteeing-exactly-once-delivery-in-a-multi-tenant-erp-320k</link>
+    <guid>https://dev.to/md_zonieedhossain_d19709/kafka-inboxoutbox-in-go-guaranteeing-exactly-once-delivery-in-a-multi-tenant-erp-320k</guid>
+    <pubDate>Wed, 01 Apr 2026 14:00:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Kafka Inbox/Outbox in Go — Guaranteeing Exactly-Once Delivery in a Multi-Tenant ERP The Problem In a multi-tenant ERP handling concurrent stock and order updates, duplicate event processing is not...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How Fintech Companies Use AI IT Ops Agents Daily</title>
+    <link>https://dev.to/afzaal_a/how-fintech-companies-use-ai-it-ops-agents-daily-59d4</link>
+    <guid>https://dev.to/afzaal_a/how-fintech-companies-use-ai-it-ops-agents-daily-59d4</guid>
+    <pubDate>Wed, 01 Apr 2026 14:00:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Why Fintech IT Operations Break Before They Scale I&apos;ve watched three fintech companies go from 50 employees to 300 in under two years. Every single one hit the same wall: their IT operations...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How I Handle Nested Tables and Rowspans (The Hard Parts of HTML Table Parsing)</title>
+    <link>https://dev.to/circobit/how-i-handle-nested-tables-and-rowspans-the-hard-parts-of-html-table-parsing-3lc1</link>
+    <guid>https://dev.to/circobit/how-i-handle-nested-tables-and-rowspans-the-hard-parts-of-html-table-parsing-3lc1</guid>
+    <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Parsing HTML tables seems straightforward until you encounter real-world data. Wikipedia tables have navigation rows. Financial sites use complex rowspans. Sports statistics sites nest headers two...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>DeepSource GitHub Integration: Setup and Configuration Guide</title>
+    <link>https://dev.to/rahulxsingh/deepsource-github-integration-setup-and-configuration-guide-ncg</link>
+    <guid>https://dev.to/rahulxsingh/deepsource-github-integration-setup-and-configuration-guide-ncg</guid>
+    <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>What you will learn This guide walks through every step of integrating DeepSource with GitHub - from creating your account and installing the GitHub App to configuring analyzers, transformers, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>A YouTuber channeled his distaste for the PS5’s design into slick console covers</title>
+    <link>https://www.theverge.com/tech/904086/boxplates-ps5-pro-slim-console-covers-hands-on</link>
+    <guid>https://www.theverge.com/tech/904086/boxplates-ps5-pro-slim-console-covers-hands-on</guid>
+    <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The PlayStation 5&apos;s curvy design is divisive. The Verge&apos;s Andrew Webster called it a &quot;robotic clam&quot; in his 2020 review, which is actually kind of endearing. Personally, I kind of got over hating...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google Zanzibar Deep Dive: Handling 2 Trillion ACLs in Under 10ms</title>
+    <link>https://dev.to/kanywst/google-zanzibar-deep-dive-handling-2-trillion-acls-in-under-10ms-f06</link>
+    <guid>https://dev.to/kanywst/google-zanzibar-deep-dive-handling-2-trillion-acls-in-under-10ms-f06</guid>
+    <pubDate>Wed, 01 Apr 2026 13:58:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction Spend any time in the authorization space and you&apos;ll notice that SpiceDB and OpenFGA both claim to be &quot;inspired by Google Zanzibar.&quot; I got curious and pulled up the 2019 USENIX ATC...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why we built a programming language for AI prompts instead of another GUI</title>
+    <link>https://dev.to/gorealai/why-we-built-a-programming-language-for-ai-prompts-instead-of-another-gui-j13</link>
+    <guid>https://dev.to/gorealai/why-we-built-a-programming-language-for-ai-prompts-instead-of-another-gui-j13</guid>
+    <pubDate>Wed, 01 Apr 2026 13:57:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The first version of our AI product had this in the codebase: system_prompt = f&quot;&quot;&quot; You are a customer support agent for {company}. {premium_instructions if tier == &apos;premium&apos; else...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Made a new software: BetterYoutube Desktop!</title>
+    <link>https://dev.to/itspixelatd/made-a-new-software-betteryoutube-desktop-4m67</link>
+    <guid>https://dev.to/itspixelatd/made-a-new-software-betteryoutube-desktop-4m67</guid>
+    <pubDate>Wed, 01 Apr 2026 13:56:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>What is BetterYoutube? BetterYoutube is a multiplatform, desktop youtube client made with electron, but with adblocker, and userscript built in the app. The app supports Windows, Debian-based...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>(Avengers Already Warned You) CS Isn’t Dead. You’re Just Watching It Mutate</title>
+    <link>https://dev.to/heytechomaima/avengers-already-warned-you-cs-isnt-dead-youre-just-watching-it-mutate-424g</link>
+    <guid>https://dev.to/heytechomaima/avengers-already-warned-you-cs-isnt-dead-youre-just-watching-it-mutate-424g</guid>
+    <pubDate>Wed, 01 Apr 2026 13:54:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Okay so let’s drop the fake motivation for a second. The shift is real and yeah - it’s uncomfortable (as hell). People are getting laid off. Tools are evolving faster than we can even process....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I built an open-source project OpenHarness🪼</title>
+    <link>https://dev.to/zhijiewong/i-built-an-open-source-project-openharness-2lc6</link>
+    <guid>https://dev.to/zhijiewong/i-built-an-open-source-project-openharness-2lc6</guid>
+    <pubDate>Wed, 01 Apr 2026 13:54:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I built OpenHarness — an open-source terminal coding agent with 17 tools and 16 slash commands. It works with Ollama (free, local), OpenAI, Anthropic, OpenRouter, Deepseek, Qwen or any...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We’re creating a new satellite imagery map to help protect Brazil’s forests.</title>
+    <link>https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/</link>
+    <guid>https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/</guid>
+    <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>Google partnered with the Brazilian government on a satellite imagery map to help protect the country’s forests.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Nintendo is weathering the storm</title>
+    <link>https://www.theverge.com/games/904653/nintendo-games-industry-success</link>
+    <guid>https://www.theverge.com/games/904653/nintendo-games-industry-success</guid>
+    <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Things aren&apos;t going so well in the video game industry. Consoles are getting more expensive, games are shutting down, layoffs are prevalent, the live-service space is a mess, major platforms are...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Today is the final day to save up to $150 on a PS5 before the price goes up</title>
+    <link>https://www.theverge.com/gadgets/904614/playstation-5-ps5-pro-digital-edition-refurbished-deal-sale-price-increase</link>
+    <guid>https://www.theverge.com/gadgets/904614/playstation-5-ps5-pro-digital-edition-refurbished-deal-sale-price-increase</guid>
+    <pubDate>Wed, 01 Apr 2026 13:21:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The cost of the PlayStation Portal and every PlayStation 5 console is going up tomorrow, April 2nd, by as much as $150 in some cases. That means time is running out if you want to save yourself...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The latest AI news we announced in March 2026</title>
+    <link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/</link>
+    <guid>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/</guid>
+    <pubDate>Wed, 01 Apr 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>March 2026 AI Recap showing new updates</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Block the Prompt, Not the Work: The End of &quot;Doctor No&quot;</title>
+    <link>https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html</link>
+    <guid>https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html</guid>
+    <pubDate>Wed, 01 Apr 2026 12:46:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>There is a character that keeps appearing in enterprise security departments, and most CISOs know exactly who that is. It doesn’t build. It doesn’t enable. Its entire function is to say &quot;No.&quot; No...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI can push your Stream Deck buttons for you</title>
+    <link>https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update</link>
+    <guid>https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update</guid>
+    <pubDate>Wed, 01 Apr 2026 12:38:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you&apos;re tired of controlling Stream Deck devices by manually pushing buttons, then good news: Elgato will now let you delegate that task to a chatbot instead. The Stream Deck 7.4 software update...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures</title>
+    <link>https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html</link>
+    <guid>https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html</guid>
+    <pubDate>Wed, 01 Apr 2026 12:36:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro (aka Metamorfo) via...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Download: gig workers training humanoids, and better AI benchmarks</title>
+    <link>https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/</link>
+    <guid>https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/</guid>
+    <pubDate>Wed, 01 Apr 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The gig workers who are training humanoid robots at home...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass</title>
+    <link>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</link>
+    <guid>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</guid>
+    <pubDate>Wed, 01 Apr 2026 11:49:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released</title>
+    <link>https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html</link>
+    <guid>https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html</guid>
+    <pubDate>Wed, 01 Apr 2026 11:42:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Google on Thursday released security updates for its Chrome web browser to address 21 vulnerabilities, including a zero-day flaw that it said has been exploited in the wild. The high-severity...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The gig workers who are training humanoid robots at home</title>
+    <link>https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/</link>
+    <guid>https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/</guid>
+    <pubDate>Wed, 01 Apr 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>When Zeus, a medical student living in a hilltop city in central Nigeria, returns to his studio apartment from a long day at the hospital, he turns on his ring light, straps his iPhone to his...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>3 Reasons Attackers Are Using Your Trusted Tools Against You (And Why You Don’t See It Coming)</title>
+    <link>https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html</link>
+    <guid>https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html</guid>
+    <pubDate>Wed, 01 Apr 2026 10:58:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>For years, cybersecurity has followed a familiar model: block malware, stop the attack. Now, attackers are moving on to what’s next. Threat actors now use malware less frequently in favor of...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Baidu’s robotaxis froze in traffic, creating chaos</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china</guid>
+    <pubDate>Wed, 01 Apr 2026 10:39:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Numerous robotaxis operated by Chinese tech giant Baidu froze in a major city on Tuesday, reportedly trapping passengers inside, stranding them on highways, and causing at least one accident in...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Watching a 7.5-Hour Movie in Theaters Made Me More Hopeful About Our Collective Brain Rot</title>
+    <link>https://www.wired.com/story/watching-a-75-hour-movie-in-theaters-made-me-more-hopeful-about-our-collective-brainrot/</link>
+    <guid>https://www.wired.com/story/watching-a-75-hour-movie-in-theaters-made-me-more-hopeful-about-our-collective-brainrot/</guid>
+    <pubDate>Wed, 01 Apr 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Sátántango is considered a holy rite for hardcore cinephiles. In a packed screening with no cellphones in sight, it also offered a salve for brain rot.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A Taxonomy of Cognitive Security</title>
+    <link>https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html</guid>
+    <pubDate>Wed, 01 Apr 2026 09:59:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Last week, I listened to a fascinating talk by K. Melton on cognitive security, cognitive hacking, and reality pentesting. The slides from the talk are here, but—even better—Menton has a long...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>I Asked ChatGPT What WIRED’s Reviewers Recommend. Its Answers Were All Wrong</title>
     <link>https://www.wired.com/story/i-asked-chatgpt-what-wired-reviewers-recommend-its-answers-were-all-wrong/</link>
     <guid>https://www.wired.com/story/i-asked-chatgpt-what-wired-reviewers-recommend-its-answers-were-all-wrong/</guid>
     <pubDate>Wed, 01 Apr 2026 09:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Want to know what our reviewers have actually tested and picked as the best TVs, headphones, and laptops? Ask ChatGPT, and it&apos;ll give you the wrong answers.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Beyond CRUD: A Practical Guide to Modeling Business Processes in REST APIs</title>
-    <link>https://dev.to/ivankahl/beyond-crud-a-practical-guide-to-modeling-business-processes-in-rest-apis-1029</link>
-    <guid>https://dev.to/ivankahl/beyond-crud-a-practical-guide-to-modeling-business-processes-in-rest-apis-1029</guid>
-    <pubDate>Wed, 01 Apr 2026 09:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most developers agree that naming things is one of the hardest parts of our job. Designing a clear, effective RESTful API comes in as a close runner-up. On the surface, REST makes a lot of sense....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What Is Persistent Memory in AI? How It Works &amp; Why It Matters</title>
-    <link>https://dev.to/memorylake_ai/what-is-persistent-memory-in-ai-how-it-works-why-it-matters-393g</link>
-    <guid>https://dev.to/memorylake_ai/what-is-persistent-memory-in-ai-how-it-works-why-it-matters-393g</guid>
-    <pubDate>Wed, 01 Apr 2026 09:28:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction What is persistent memory in AI? Persistent memory in AI is a dedicated infrastructure layer that enables artificial intelligence systems to retain, update, and recall user facts,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Orange Cats Share One Braincell</title>
-    <link>https://dev.to/anak_wannaphaschaiyong_11/why-orange-cats-share-one-braincell-lec</link>
-    <guid>https://dev.to/anak_wannaphaschaiyong_11/why-orange-cats-share-one-braincell-lec</guid>
-    <pubDate>Wed, 01 Apr 2026 09:26:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why Orange Cats Share One Braincell Posted April 1, 2026 — and no, this is not an April Fool&apos;s joke. The cats are really like this. If you have ever watched an orange cat confidently stride off a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Key Apache IoTDB Distributed Tuning Details You Must Understand</title>
-    <link>https://dev.to/timechodb/key-apache-iotdb-distributed-tuning-details-you-must-understand-2gfh</link>
-    <guid>https://dev.to/timechodb/key-apache-iotdb-distributed-tuning-details-you-must-understand-2gfh</guid>
-    <pubDate>Wed, 01 Apr 2026 09:26:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How many databases should you create? How should you model your data to fully utilize hardware resources? When deploying Apache IoTDB in distributed mode, teams often face the same challenge: how...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>🚀 Frontend Form Validation Made Simple (React Hook Form + Zod)</title>
-    <link>https://dev.to/vishwark/frontend-form-validation-made-simple-react-hook-form-zod-3m9j</link>
-    <guid>https://dev.to/vishwark/frontend-form-validation-made-simple-react-hook-form-zod-3m9j</guid>
-    <pubDate>Wed, 01 Apr 2026 09:19:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Form validation is something every frontend developer deals with. But the way we implement it makes a big difference. In many projects, validation starts simple… and slowly becomes messy: Too many...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built an AI Tool That Detects AND Humanizes AI Text (Here’s Why)</title>
-    <link>https://dev.to/indiesaassdev/i-built-an-ai-tool-that-detects-and-humanizes-ai-text-heres-why-2ol1</link>
-    <guid>https://dev.to/indiesaassdev/i-built-an-ai-tool-that-detects-and-humanizes-ai-text-heres-why-2ol1</guid>
-    <pubDate>Wed, 01 Apr 2026 09:19:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI writing tools are everywhere now. From students writing assignments to marketers generating blogs, tools like ChatGPT have completely changed how content is created. But this shift also created...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Step‑by‑Step Guide: Create an Autonomous Agent in Copilot Studio</title>
-    <link>https://dev.to/seenakhan/step-by-step-guide-create-an-autonomous-agent-in-copilot-studio-291j</link>
-    <guid>https://dev.to/seenakhan/step-by-step-guide-create-an-autonomous-agent-in-copilot-studio-291j</guid>
-    <pubDate>Wed, 01 Apr 2026 09:18:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Autonomous agents in Microsoft Copilot Studio can independently perform tasks, make decisions, call workflows, and generate outputs without continuous user interaction. This guide...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built a Free Browser-Based Digital Logic Simulator for Learning Boolean Algebra</title>
-    <link>https://dev.to/boolflow_site/i-built-a-free-browser-based-digital-logic-simulator-for-learning-boolean-algebra-57m7</link>
-    <guid>https://dev.to/boolflow_site/i-built-a-free-browser-based-digital-logic-simulator-for-learning-boolean-algebra-57m7</guid>
-    <pubDate>Wed, 01 Apr 2026 09:18:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Boolean algebra and digital logic are much easier to understand when you can build and test circuits visually. That idea is exactly why I created Boolflow — a free browser-based digital logic...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Speech Recognition API Requires a Different Architecture</title>
-    <link>https://dev.to/smallestai-community/why-speech-recognition-api-requires-a-different-architecture-46ed</link>
-    <guid>https://dev.to/smallestai-community/why-speech-recognition-api-requires-a-different-architecture-46ed</guid>
-    <pubDate>Wed, 01 Apr 2026 09:18:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Speech Recognition API: Streaming, WebSockets and Latency A speech recognition API that accepts a file and returns a transcript is a solved problem.The architecture is simple because the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why fetch() Can Be Safer Than Axios After the 2026 Axios Hack</title>
-    <link>https://dev.to/asmaa-almadhoun/why-fetch-can-be-safer-than-axios-after-the-2026-axios-hack-6n5</link>
-    <guid>https://dev.to/asmaa-almadhoun/why-fetch-can-be-safer-than-axios-after-the-2026-axios-hack-6n5</guid>
-    <pubDate>Wed, 01 Apr 2026 09:16:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The question isn’t whether Axios is a “bad” library; it’s about risk surface. The Axios NPM compromise in March 2026 exposed a structural weakness in depending on third‑party libraries for...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069</title>
@@ -131,150 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error. &quot;No sensitive...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Gradient Labs gives every bank customer an AI account manager</title>
-    <link>https://openai.com/index/gradient-labs</link>
-    <guid>https://openai.com/index/gradient-labs</guid>
-    <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project</title>
-    <link>https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/</link>
-    <guid>https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/</guid>
-    <pubDate>Wed, 01 Apr 2026 01:42:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company&apos;s systems.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The best deals to shop during the last few hours of Amazon’s Big Spring Sale</title>
-    <link>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</link>
-    <guid>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</guid>
-    <pubDate>Wed, 01 Apr 2026 01:14:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which runs through 11:59PM PT tonight, the retail behemoth...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Amazon&amp;#8217;s Big Spring Sale 2026: all of the latest deals</title>
-    <link>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</link>
-    <guid>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</guid>
-    <pubDate>Wed, 01 Apr 2026 00:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re looking for the best time to get a deal this spring, it might very well be during Amazon’s Big Spring Sale, which runs through 11:59PM PT tonight. We’re still highlighting the best that...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic is having a month</title>
-    <link>https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/</link>
-    <guid>https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/</guid>
-    <pubDate>Tue, 31 Mar 2026 23:58:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>A human really borks things at Anthropic for the second time this week.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The AirPods Pro 3 are nearly matching their best-ever price for Amazon’s Big Spring Sale</title>
-    <link>https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal</link>
-    <guid>https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal</guid>
-    <pubDate>Tue, 31 Mar 2026 23:53:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Earlier this month, Apple announced the AirPods Max 2, a pair of over-ear headphones that leverage the company’s H2 chip for AI-powered live translation, conversation awareness, and a host of...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale</title>
-    <link>https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals</link>
-    <guid>https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals</guid>
-    <pubDate>Tue, 31 Mar 2026 23:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon’s Big Spring Sale may not have been as “big” as Black Friday or even Prime Day, but depending on what you’re after, the discounts are more appealing than you might think. Take charging...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Salesforce announces an AI-heavy makeover for Slack, with 30 new features</title>
-    <link>https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/</link>
-    <guid>https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/</guid>
-    <pubDate>Tue, 31 Mar 2026 22:46:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Slack just got a whole lot more useful.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak</guid>
-    <pubDate>Tue, 31 Mar 2026 22:24:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After Anthropic released Claude Code&apos;s 2.1.88 update, users quickly discovered that it contained a package with a source map file containing its TypeScript codebase, with one person on X calling...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>You can grab a four-pack of Govee’s color-changing smart bulbs for just $27</title>
-    <link>https://www.theverge.com/gadgets/904698/govee-smart-a19-led-color-bulbs-amazon-big-spring-sale-2026-deal</link>
-    <guid>https://www.theverge.com/gadgets/904698/govee-smart-a19-led-color-bulbs-amazon-big-spring-sale-2026-deal</guid>
-    <pubDate>Tue, 31 Mar 2026 21:59:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Spring cleaning isn’t just about clearing things out. It’s also a chance to refresh your living space, and a simple place to start is smart lighting — specifically, Govee’s Smart A19 LED Light...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise</title>
-    <link>https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/</link>
-    <guid>https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/</guid>
-    <pubDate>Tue, 31 Mar 2026 21:25:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI&apos;s latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>You can now use ChatGPT with Apple’s CarPlay</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt</guid>
-    <pubDate>Tue, 31 Mar 2026 21:03:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>ChatGPT is now accessible from your CarPlay dashboard if you have iOS 26.4 or newer and the latest version of the ChatGPT app, 9to5Mac reports. Apple&apos;s recently launched iOS 26.4 update added...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Yupp shuts down after raising $33M from a16z crypto’s Chris Dixon</title>
-    <link>https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/</link>
-    <guid>https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/</guid>
-    <pubDate>Tue, 31 Mar 2026 20:01:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Samsung’s new app claims to alleviate motion sickness using sound</title>
-    <link>https://www.theverge.com/tech/904579/samsung-hearapy-mobile-app-galaxy-buds-motion-sickness-symptoms</link>
-    <guid>https://www.theverge.com/tech/904579/samsung-hearapy-mobile-app-galaxy-buds-motion-sickness-symptoms</guid>
-    <pubDate>Tue, 31 Mar 2026 19:56:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Samsung released a new free app today called Hearapy, now available for Android devices through the Google Play store, that it claims can reduce the symptoms of motion sickness using just sound....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anker&amp;#8217;s power bank with built-in cables is one of my favorite gadgets, and it&amp;#8217;s cheaper than usual</title>
-    <link>https://www.theverge.com/gadgets/904523/anker-laptop-power-bank-amazon-big-spring-sale-2026-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/904523/anker-laptop-power-bank-amazon-big-spring-sale-2026-deal-sale</guid>
-    <pubDate>Tue, 31 Mar 2026 19:36:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anker’s Laptop Power Bank is one of the more useful gadgets I’ve bought in recent years. I know, it’s just a portable battery, but it’s packed with power and thoughtful features that are tough to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Super Mario Galaxy Movie is beautiful but a little too busy</title>
-    <link>https://www.theverge.com/entertainment/904033/the-super-mario-galaxy-movie-review</link>
-    <guid>https://www.theverge.com/entertainment/904033/the-super-mario-galaxy-movie-review</guid>
-    <pubDate>Tue, 31 Mar 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>With The Super Mario Bros. Movie, Nintendo entered the next phase of its plan to become a different kind of entertainment giant. Though it wasn&apos;t the company&apos;s first go at putting its iconic...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
