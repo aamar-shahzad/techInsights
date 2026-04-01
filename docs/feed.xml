@@ -5,52 +5,222 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Apr 2026 14:04:45 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Apr 2026 17:11:34 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>My Python tests passed. Production still broke.</title>
-    <link>https://dev.to/nicodev__/my-python-tests-passed-production-still-broke-5g2n</link>
-    <guid>https://dev.to/nicodev__/my-python-tests-passed-production-still-broke-5g2n</guid>
-    <pubDate>Wed, 01 Apr 2026 14:01:54 +0000</pubDate>
+    <title>🔐 AES-256 Finally Makes Sense (And It’s Way Simpler Than You Think)</title>
+    <link>https://dev.to/rolan_r_n_r/aes-256-finally-makes-sense-and-its-way-simpler-than-you-think-3kmc</link>
+    <guid>https://dev.to/rolan_r_n_r/aes-256-finally-makes-sense-and-its-way-simpler-than-you-think-3kmc</guid>
+    <pubDate>Wed, 01 Apr 2026 17:11:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Deployed yesterday. Tests green. Production crashed 3 hours later. The bug? A datetime object I created in tests wasn&apos;t aware of timezones. Production API expects UTC timestamps. My test just used...</description>
+    <description>Let’s be honest… We’ve all heard this everywhere: “Your data is secured with AES-256 encryption” Cool… but what does that even mean? I used to just nod like: “Yeah yeah… sounds secure 😌” But...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Kafka Inbox/Outbox in Go — Guaranteeing Exactly-Once Delivery in a Multi-Tenant ERP</title>
-    <link>https://dev.to/md_zonieedhossain_d19709/kafka-inboxoutbox-in-go-guaranteeing-exactly-once-delivery-in-a-multi-tenant-erp-320k</link>
-    <guid>https://dev.to/md_zonieedhossain_d19709/kafka-inboxoutbox-in-go-guaranteeing-exactly-once-delivery-in-a-multi-tenant-erp-320k</guid>
-    <pubDate>Wed, 01 Apr 2026 14:00:54 +0000</pubDate>
+    <title>I Built an OPA Plugin That Turns It Into an AuthZEN-Compatible PDP</title>
+    <link>https://dev.to/kanywst/i-built-an-opa-plugin-that-turns-it-into-an-authzen-compatible-pdp-i81</link>
+    <guid>https://dev.to/kanywst/i-built-an-opa-plugin-that-turns-it-into-an-authzen-compatible-pdp-i81</guid>
+    <pubDate>Wed, 01 Apr 2026 17:10:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Kafka Inbox/Outbox in Go — Guaranteeing Exactly-Once Delivery in a Multi-Tenant ERP The Problem In a multi-tenant ERP handling concurrent stock and order updates, duplicate event processing is not...</description>
+    <description>Introduction In my previous article, I did a deep dive into the AuthZEN Authorization API 1.0 spec. It standardizes communication between PEPs and PDPs. You send a JSON request asking &quot;can this...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Fintech Companies Use AI IT Ops Agents Daily</title>
-    <link>https://dev.to/afzaal_a/how-fintech-companies-use-ai-it-ops-agents-daily-59d4</link>
-    <guid>https://dev.to/afzaal_a/how-fintech-companies-use-ai-it-ops-agents-daily-59d4</guid>
-    <pubDate>Wed, 01 Apr 2026 14:00:01 +0000</pubDate>
+    <title>📦 Monorepo Architecture with pnpm Workspace, Turborepo &amp; Changesets</title>
+    <link>https://dev.to/yasinatesim/monorepo-architecture-with-pnpm-workspace-turborepo-changesets-g0j</link>
+    <guid>https://dev.to/yasinatesim/monorepo-architecture-with-pnpm-workspace-turborepo-changesets-g0j</guid>
+    <pubDate>Wed, 01 Apr 2026 17:10:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why Fintech IT Operations Break Before They Scale I&apos;ve watched three fintech companies go from 50 employees to 300 in under two years. Every single one hit the same wall: their IT operations...</description>
+    <description>When you&apos;re developing a project with multiple packages, managing each one in its own repo can quickly turn into a nightmare. In this article, we&apos;ll set up a monorepo architecture from scratch...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Handle Nested Tables and Rowspans (The Hard Parts of HTML Table Parsing)</title>
-    <link>https://dev.to/circobit/how-i-handle-nested-tables-and-rowspans-the-hard-parts-of-html-table-parsing-3lc1</link>
-    <guid>https://dev.to/circobit/how-i-handle-nested-tables-and-rowspans-the-hard-parts-of-html-table-parsing-3lc1</guid>
+    <title>Reimplementing COMMAND.COM in Go for Unix-like Platforms: Challenges and Solutions</title>
+    <link>https://dev.to/viklogix/reimplementing-commandcom-in-go-for-unix-like-platforms-challenges-and-solutions-k3k</link>
+    <guid>https://dev.to/viklogix/reimplementing-commandcom-in-go-for-unix-like-platforms-challenges-and-solutions-k3k</guid>
+    <pubDate>Wed, 01 Apr 2026 17:09:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction Reimplementing COMMAND.COM in Go for Unix-like platforms is more than a nostalgic exercise—it’s a technical bridge between legacy DOS functionality and modern systems. At its core,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Build a Voice-Enabled AI Agent in n8n</title>
+    <link>https://dev.to/kfuras/build-a-voice-enabled-ai-agent-in-n8n-3oke</link>
+    <guid>https://dev.to/kfuras/build-a-voice-enabled-ai-agent-in-n8n-3oke</guid>
+    <pubDate>Wed, 01 Apr 2026 17:08:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published at kjetilfuras.com When I started playing with AI Agents inside n8n, I wanted to go beyond just asking questions. I wanted a real assistant—something I could talk to...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Automate WordPress Blog Publishing with Airtable and n8n</title>
+    <link>https://dev.to/kfuras/automate-wordpress-blog-publishing-with-airtable-and-n8n-1phk</link>
+    <guid>https://dev.to/kfuras/automate-wordpress-blog-publishing-with-airtable-and-n8n-1phk</guid>
+    <pubDate>Wed, 01 Apr 2026 17:08:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published at kjetilfuras.com I wanted to automate WordPress blog publishing because the manual process was killing my productivity. Between writing content, make featured images,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Docker Compose and .env Can Break NFS Bind Mounts</title>
+    <link>https://dev.to/kfuras/why-docker-compose-and-env-can-break-nfs-bind-mounts-24fd</link>
+    <guid>https://dev.to/kfuras/why-docker-compose-and-env-can-break-nfs-bind-mounts-24fd</guid>
+    <pubDate>Wed, 01 Apr 2026 17:07:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published at kjetilfuras.com Recently while setting up a Docker Compose-based media stack, I ran into a tricky issue. It looked like everything was working, the containers were up, the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Adding Bluesky Rich Link Preview cards to Postiz</title>
+    <link>https://dev.to/kfuras/adding-bluesky-rich-link-preview-cards-to-postiz-1ikf</link>
+    <guid>https://dev.to/kfuras/adding-bluesky-rich-link-preview-cards-to-postiz-1ikf</guid>
+    <pubDate>Wed, 01 Apr 2026 17:07:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published at kjetilfuras.com Rich link preview cards make a real difference on Bluesky—the clickable previews that show a title, description, and image when you share a URL. Same thing...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>HyperMind AI: The Future of Unnecessary Intelligence</title>
+    <link>https://dev.to/srijan-xi/hypermind-ai-the-future-of-unnecessary-intelligence-ooc</link>
+    <guid>https://dev.to/srijan-xi/hypermind-ai-the-future-of-unnecessary-intelligence-ooc</guid>
+    <pubDate>Wed, 01 Apr 2026 17:07:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This is a submission for the DEV April Fools Challenge The moment I saw the DEV April Fools Challenge, I knew my calling. We&apos;ve all watched the AI startup parade march by — &quot;quantum processing,&quot;...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>LiteLLM vs AegisFlow: honest comparison from someone who built the alternative</title>
+    <link>https://dev.to/saivedant169/litellm-vs-aegisflow-honest-comparison-from-someone-who-built-the-alternative-37f</link>
+    <guid>https://dev.to/saivedant169/litellm-vs-aegisflow-honest-comparison-from-someone-who-built-the-alternative-37f</guid>
+    <pubDate>Wed, 01 Apr 2026 17:07:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I built AegisFlow because I needed an LLM proxy and kept running into things with LiteLLM that didn&apos;t work for me. This isn&apos;t a takedown. LiteLLM has a huge community, 100+ providers, and a lot of...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Is “Hackback” Official US Cybersecurity Strategy?</title>
+    <link>https://www.schneier.com/blog/archives/2026/04/is-hackback-official-us-cybersecurity-strategy.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/04/is-hackback-official-us-cybersecurity-strategy.html</guid>
+    <pubDate>Wed, 01 Apr 2026 16:57:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>The 2026 US “Cyber Strategy for America” document is mostly the same thing we’ve seen out of the White House for over a decade, but with a more aggressive tone. But one sentence stood out: “We...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Holo3: Breaking the Computer Use Frontier</title>
+    <link>https://huggingface.co/blog/Hcompany/holo3</link>
+    <guid>https://huggingface.co/blog/Hcompany/holo3</guid>
+    <pubDate>Wed, 01 Apr 2026 16:36:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>I tested a living room full of cheap Ikea speakers against Sonos and Bose</title>
+    <link>https://www.theverge.com/tech/904822/ikea-kallsup-bluetooth-speaker-review</link>
+    <guid>https://www.theverge.com/tech/904822/ikea-kallsup-bluetooth-speaker-review</guid>
+    <pubDate>Wed, 01 Apr 2026 16:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Ikea&apos;s $10 Kallsup Bluetooth speaker is fun and colorful and sounds better than its price suggests. It&apos;s not mind-blowing (it is a $10 speaker, after all), and there are no features to speak of,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Snapchat&amp;#8217;s &amp;#8216;Reals&amp;#8217; joke mocks Instagram&amp;#8217;s many ripoffs</title>
+    <link>https://www.theverge.com/tech/905272/snapchat-reals-spotlight-instagram-feed-april-fools-day-2026</link>
+    <guid>https://www.theverge.com/tech/905272/snapchat-reals-spotlight-instagram-feed-april-fools-day-2026</guid>
+    <pubDate>Wed, 01 Apr 2026 16:24:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s April Fools&apos; Day, and Snap is using the occasion to &quot;announce&quot; that it&apos;s switching the name of Snapchat&apos;s Spotlight feed, the app&apos;s Instagram Reels-like feed of shortform vertical videos, to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Cognichip wants AI to design the chips that power AI, and just raised $60M to try</title>
+    <link>https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/</link>
+    <guid>https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/</guid>
+    <pubDate>Wed, 01 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The firm says it can can reduce the cost of chip development by more than 75% and cut the timeline by more than half.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Trump administration&amp;#8217;s antitrust honeymoon is over</title>
+    <link>https://www.theverge.com/policy/905222/antitrust-trump-tech-live-nation</link>
+    <guid>https://www.theverge.com/policy/905222/antitrust-trump-tech-live-nation</guid>
+    <pubDate>Wed, 01 Apr 2026 15:55:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>&quot;It&apos;s not personal, Sonny, it&apos;s strictly business.&quot; That quote was first delivered by mob boss Michael Corleone in The Godfather, but last Monday, it became the title of a speech by the Justice...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>SpaceX reportedly files for IPO but it’s keeping the numbers secret (for now)</title>
+    <link>https://www.theverge.com/science/904991/spacex-announces-ipo-but-its-keeping-the-numbers-secret-for-now</link>
+    <guid>https://www.theverge.com/science/904991/spacex-announces-ipo-but-its-keeping-the-numbers-secret-for-now</guid>
+    <pubDate>Wed, 01 Apr 2026 15:34:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>What&apos;s expected to be the biggest IPO in human history is reportedly underway. SpaceX has filed for an initial public offering with the Securities and Exchange Commission, according to a report...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>These Raspberry Pi price hikes are no joke</title>
+    <link>https://www.theverge.com/gadgets/905189/raspberry-pi-price-increases-pi-4-3gb</link>
+    <guid>https://www.theverge.com/gadgets/905189/raspberry-pi-price-increases-pi-4-3gb</guid>
+    <pubDate>Wed, 01 Apr 2026 15:13:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As of today, the price of the 16GB version of the Raspberry Pi 5 is going up by $100, a price bump that&apos;s almost as much as the original $120 price tag. Driven by the ongoing RAM shortage,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon&amp;#8217;s Big Spring Sale 2026: all of the latest deals</title>
+    <link>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</link>
+    <guid>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</guid>
+    <pubDate>Wed, 01 Apr 2026 14:44:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you were looking for the best time to get a deal this spring, it might have just passed you by, as Amazon’s Big Spring Sale is over. That being said, several deals are still happening (some...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>April Fools’ Day 2026: the best and cringiest pranks</title>
+    <link>https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst</link>
+    <guid>https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst</guid>
+    <pubDate>Wed, 01 Apr 2026 14:44:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Welcome to the worst day on the internet! As Chaim Gartenberg pointed out years ago, brands and a holiday dedicated to hoaxes are rarely a winning combo. If you’re a company with any kind of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The best Amazon Big Spring Sale deals you can still get</title>
+    <link>https://www.theverge.com/gadgets/905059/best-amazon-big-spring-sale-2026-deals-you-can-still-get</link>
+    <guid>https://www.theverge.com/gadgets/905059/best-amazon-big-spring-sale-2026-deals-you-can-still-get</guid>
+    <pubDate>Wed, 01 Apr 2026 14:41:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon’s Big Spring Sale is technically over, but not all of the deals are gone. In fact, dozens of deals are still here and selling at the same prices, while other discounts aren’t quite as low...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Korg Handytraxx Play finally got me learning to scratch</title>
+    <link>https://www.theverge.com/tech/898696/korg-handytraxx-play-dj-scratching-turntable-review</link>
+    <guid>https://www.theverge.com/tech/898696/korg-handytraxx-play-dj-scratching-turntable-review</guid>
+    <pubDate>Wed, 01 Apr 2026 14:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>About 20 years ago, I bought a turntable with the idea that it would be a staple of my music-making setup. I dreamed of learning to scratch and digging through dollar bin vinyl for samples....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass</title>
+    <link>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</link>
+    <guid>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</guid>
+    <pubDate>Wed, 01 Apr 2026 14:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together</title>
+    <link>https://techcrunch.com/2026/04/01/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/</link>
+    <guid>https://techcrunch.com/2026/04/01/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/</guid>
     <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Parsing HTML tables seems straightforward until you encounter real-world data. Wikipedia tables have navigation rows. Financial sites use complex rowspans. Sports statistics sites nest headers two...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>DeepSource GitHub Integration: Setup and Configuration Guide</title>
-    <link>https://dev.to/rahulxsingh/deepsource-github-integration-setup-and-configuration-guide-ncg</link>
-    <guid>https://dev.to/rahulxsingh/deepsource-github-integration-setup-and-configuration-guide-ncg</guid>
-    <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What you will learn This guide walks through every step of integrating DeepSource with GitHub - from creating your account and installing the GitHub App to configuring analyzers, transformers, and...</description>
-    <category>Developer Tools</category>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together on April 30. Space is limited. Register here for your pass.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>A YouTuber channeled his distaste for the PS5’s design into slick console covers</title>
@@ -62,51 +232,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Google Zanzibar Deep Dive: Handling 2 Trillion ACLs in Under 10ms</title>
-    <link>https://dev.to/kanywst/google-zanzibar-deep-dive-handling-2-trillion-acls-in-under-10ms-f06</link>
-    <guid>https://dev.to/kanywst/google-zanzibar-deep-dive-handling-2-trillion-acls-in-under-10ms-f06</guid>
-    <pubDate>Wed, 01 Apr 2026 13:58:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Spend any time in the authorization space and you&apos;ll notice that SpiceDB and OpenFGA both claim to be &quot;inspired by Google Zanzibar.&quot; I got curious and pulled up the 2019 USENIX ATC...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why we built a programming language for AI prompts instead of another GUI</title>
-    <link>https://dev.to/gorealai/why-we-built-a-programming-language-for-ai-prompts-instead-of-another-gui-j13</link>
-    <guid>https://dev.to/gorealai/why-we-built-a-programming-language-for-ai-prompts-instead-of-another-gui-j13</guid>
-    <pubDate>Wed, 01 Apr 2026 13:57:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The first version of our AI product had this in the codebase: system_prompt = f&quot;&quot;&quot; You are a customer support agent for {company}. {premium_instructions if tier == &apos;premium&apos; else...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Made a new software: BetterYoutube Desktop!</title>
-    <link>https://dev.to/itspixelatd/made-a-new-software-betteryoutube-desktop-4m67</link>
-    <guid>https://dev.to/itspixelatd/made-a-new-software-betteryoutube-desktop-4m67</guid>
-    <pubDate>Wed, 01 Apr 2026 13:56:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What is BetterYoutube? BetterYoutube is a multiplatform, desktop youtube client made with electron, but with adblocker, and userscript built in the app. The app supports Windows, Debian-based...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>(Avengers Already Warned You) CS Isn’t Dead. You’re Just Watching It Mutate</title>
-    <link>https://dev.to/heytechomaima/avengers-already-warned-you-cs-isnt-dead-youre-just-watching-it-mutate-424g</link>
-    <guid>https://dev.to/heytechomaima/avengers-already-warned-you-cs-isnt-dead-youre-just-watching-it-mutate-424g</guid>
-    <pubDate>Wed, 01 Apr 2026 13:54:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Okay so let’s drop the fake motivation for a second. The shift is real and yeah - it’s uncomfortable (as hell). People are getting laid off. Tools are evolving faster than we can even process....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built an open-source project OpenHarness🪼</title>
-    <link>https://dev.to/zhijiewong/i-built-an-open-source-project-openharness-2lc6</link>
-    <guid>https://dev.to/zhijiewong/i-built-an-open-source-project-openharness-2lc6</guid>
-    <pubDate>Wed, 01 Apr 2026 13:54:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I built OpenHarness — an open-source terminal coding agent with 17 tools and 16 slash commands. It works with Ollama (free, local), OpenAI, Anthropic, OpenRouter, Deepseek, Qwen or any...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>We’re creating a new satellite imagery map to help protect Brazil’s forests.</title>
     <link>https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/</link>
     <guid>https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/</guid>
@@ -114,24 +239,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
     <description>Google partnered with the Brazilian government on a satellite imagery map to help protect the country’s forests.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Nintendo is weathering the storm</title>
-    <link>https://www.theverge.com/games/904653/nintendo-games-industry-success</link>
-    <guid>https://www.theverge.com/games/904653/nintendo-games-industry-success</guid>
-    <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Things aren&apos;t going so well in the video game industry. Consoles are getting more expensive, games are shutting down, layoffs are prevalent, the live-service space is a mess, major platforms are...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Today is the final day to save up to $150 on a PS5 before the price goes up</title>
-    <link>https://www.theverge.com/gadgets/904614/playstation-5-ps5-pro-digital-edition-refurbished-deal-sale-price-increase</link>
-    <guid>https://www.theverge.com/gadgets/904614/playstation-5-ps5-pro-digital-edition-refurbished-deal-sale-price-increase</guid>
-    <pubDate>Wed, 01 Apr 2026 13:21:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The cost of the PlayStation Portal and every PlayStation 5 console is going up tomorrow, April 2nd, by as much as $150 in some cases. That means time is running out if you want to save yourself...</description>
-    <category>Tech Industry</category>
   </item>
   <item>
     <title>The latest AI news we announced in March 2026</title>
@@ -152,15 +259,6 @@
     <category>Security</category>
   </item>
   <item>
-    <title>AI can push your Stream Deck buttons for you</title>
-    <link>https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update</link>
-    <guid>https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update</guid>
-    <pubDate>Wed, 01 Apr 2026 12:38:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you&apos;re tired of controlling Stream Deck devices by manually pushing buttons, then good news: Elgato will now let you delegate that task to a chatbot instead. The Stream Deck 7.4 software update...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures</title>
     <link>https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html</link>
     <guid>https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html</guid>
@@ -177,104 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
     <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The gig workers who are training humanoid robots at home...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass</title>
-    <link>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</link>
-    <guid>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</guid>
-    <pubDate>Wed, 01 Apr 2026 11:49:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released</title>
-    <link>https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html</link>
-    <guid>https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html</guid>
-    <pubDate>Wed, 01 Apr 2026 11:42:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Google on Thursday released security updates for its Chrome web browser to address 21 vulnerabilities, including a zero-day flaw that it said has been exploited in the wild. The high-severity...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The gig workers who are training humanoid robots at home</title>
-    <link>https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/</link>
-    <guid>https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/</guid>
-    <pubDate>Wed, 01 Apr 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>When Zeus, a medical student living in a hilltop city in central Nigeria, returns to his studio apartment from a long day at the hospital, he turns on his ring light, straps his iPhone to his...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>3 Reasons Attackers Are Using Your Trusted Tools Against You (And Why You Don’t See It Coming)</title>
-    <link>https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html</link>
-    <guid>https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html</guid>
-    <pubDate>Wed, 01 Apr 2026 10:58:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>For years, cybersecurity has followed a familiar model: block malware, stop the attack. Now, attackers are moving on to what’s next. Threat actors now use malware less frequently in favor of...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Baidu’s robotaxis froze in traffic, creating chaos</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china</guid>
-    <pubDate>Wed, 01 Apr 2026 10:39:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Numerous robotaxis operated by Chinese tech giant Baidu froze in a major city on Tuesday, reportedly trapping passengers inside, stranding them on highways, and causing at least one accident in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Watching a 7.5-Hour Movie in Theaters Made Me More Hopeful About Our Collective Brain Rot</title>
-    <link>https://www.wired.com/story/watching-a-75-hour-movie-in-theaters-made-me-more-hopeful-about-our-collective-brainrot/</link>
-    <guid>https://www.wired.com/story/watching-a-75-hour-movie-in-theaters-made-me-more-hopeful-about-our-collective-brainrot/</guid>
-    <pubDate>Wed, 01 Apr 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Sátántango is considered a holy rite for hardcore cinephiles. In a packed screening with no cellphones in sight, it also offered a salve for brain rot.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A Taxonomy of Cognitive Security</title>
-    <link>https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/04/a-taxonomy-of-cognitive-security.html</guid>
-    <pubDate>Wed, 01 Apr 2026 09:59:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Last week, I listened to a fascinating talk by K. Melton on cognitive security, cognitive hacking, and reality pentesting. The slides from the talk are here, but—even better—Menton has a long...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>I Asked ChatGPT What WIRED’s Reviewers Recommend. Its Answers Were All Wrong</title>
-    <link>https://www.wired.com/story/i-asked-chatgpt-what-wired-reviewers-recommend-its-answers-were-all-wrong/</link>
-    <guid>https://www.wired.com/story/i-asked-chatgpt-what-wired-reviewers-recommend-its-answers-were-all-wrong/</guid>
-    <pubDate>Wed, 01 Apr 2026 09:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Want to know what our reviewers have actually tested and picked as the best TVs, headphones, and laptops? Ask ChatGPT, and it&apos;ll give you the wrong answers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069</title>
-    <link>https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html</link>
-    <guid>https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html</guid>
-    <pubDate>Wed, 01 Apr 2026 07:44:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Google has formally attributed the supply chain compromise of the popular Axios npm package to a financially motivated North Korean threat activity cluster tracked as UNC1069. &quot;We have attributed...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Falcon Perception</title>
-    <link>https://huggingface.co/blog/tiiuae/falcon-perception</link>
-    <guid>https://huggingface.co/blog/tiiuae/falcon-perception</guid>
-    <pubDate>Wed, 01 Apr 2026 07:13:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms</title>
-    <link>https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html</link>
-    <guid>https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html</guid>
-    <pubDate>Wed, 01 Apr 2026 06:12:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error. &quot;No sensitive...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
