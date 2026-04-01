@@ -5,97 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 31 Mar 2026 20:57:07 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Apr 2026 03:45:41 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Building a Production-Ready Serverless App on Google Cloud (Part 1: Architecture)</title>
-    <link>https://dev.to/gde/building-a-production-ready-serverless-app-on-google-cloud-part-1-architecture-49d</link>
-    <guid>https://dev.to/gde/building-a-production-ready-serverless-app-on-google-cloud-part-1-architecture-49d</guid>
-    <pubDate>Tue, 31 Mar 2026 20:52:09 +0000</pubDate>
+    <title>What the Claude Code source leak reveals about how it actually works (and what to do with that)</title>
+    <link>https://dev.to/subprime2010/what-the-claude-code-source-leak-reveals-about-how-it-actually-works-and-what-to-do-with-that-21nm</link>
+    <guid>https://dev.to/subprime2010/what-the-claude-code-source-leak-reveals-about-how-it-actually-works-and-what-to-do-with-that-21nm</guid>
+    <pubDate>Wed, 01 Apr 2026 03:38:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem In my previous post, I shared how I used an AI agent framework during a train ride to build a Proof of Concept (POC) for a project called the Dog Finder App. The response was great,...</description>
+    <description>What the Claude Code source leak reveals about how it actually works Yesterday, a source map file accidentally left in the Claude Code NPM package exposed what appears to be Anthropic&apos;s internal...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Enterprise Blockchain in TypeScript: Real-World Case Studies, Protocol Mappings, MPC, HSM &amp; Post-Quantum Patterns That Actually Run</title>
-    <link>https://dev.to/psavelis/enterprise-blockchain-in-typescript-real-world-case-studies-protocol-mappings-mpc-hsm--2m74</link>
-    <guid>https://dev.to/psavelis/enterprise-blockchain-in-typescript-real-world-case-studies-protocol-mappings-mpc-hsm--2m74</guid>
-    <pubDate>Tue, 31 Mar 2026 20:50:29 +0000</pubDate>
+    <title>Detecting Prompt Injection in LLM Apps (Python Library)</title>
+    <link>https://dev.to/yuichi/detecting-prompt-injection-in-llm-apps-python-library-1fgp</link>
+    <guid>https://dev.to/yuichi/detecting-prompt-injection-in-llm-apps-python-library-1fgp</guid>
+    <pubDate>Wed, 01 Apr 2026 03:31:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most enterprise blockchain projects die in PoC hell. You&apos;ve seen it: a flashy demo, some Hyperledger slides, a proof-of-concept that &quot;works on my machine,&quot; and then... silence. The pilot never...</description>
+    <description>I&apos;ve been working on LLM-backed applications and ran into a recurring issue: prompt injection via user input. Typical examples: &quot;Ignore all previous instructions&quot; &quot;Reveal your system prompt&quot; &quot;Act...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Mastering Quantum Logic with Quantum Studio</title>
-    <link>https://dev.to/vishalmysore/mastering-quantum-logic-with-quantum-studio-29lc</link>
-    <guid>https://dev.to/vishalmysore/mastering-quantum-logic-with-quantum-studio-29lc</guid>
-    <pubDate>Tue, 31 Mar 2026 20:45:43 +0000</pubDate>
+    <title>QuillSort — A data sorter</title>
+    <link>https://dev.to/dragonbreathit_/quillsort-a-data-sorter-3dnf</link>
+    <guid>https://dev.to/dragonbreathit_/quillsort-a-data-sorter-3dnf</guid>
+    <pubDate>Wed, 01 Apr 2026 03:29:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What is Quantum Computing? At its core, Quantum Computing is a fundamentally different way of processing information. While classical computers (the one you&apos;re using right now) use bits—which are...</description>
+    <description>Most of the time, Python’s built-in sorted() and list.sort() are all you need. But if you ever try to sort a lot of data—millions to billions of values, big numeric logs, or giant SQL exports—you...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Generate Website Screenshots with Python in 3 Lines of Code</title>
-    <link>https://dev.to/screenshotapis/how-to-generate-website-screenshots-with-python-in-3-lines-of-code-36a7</link>
-    <guid>https://dev.to/screenshotapis/how-to-generate-website-screenshots-with-python-in-3-lines-of-code-36a7</guid>
-    <pubDate>Tue, 31 Mar 2026 20:44:55 +0000</pubDate>
+    <title>One Command to Save 90% of Your Claude Code Tokens</title>
+    <link>https://dev.to/ji_ai/one-command-to-save-90-of-your-claude-code-tokens-31ma</link>
+    <guid>https://dev.to/ji_ai/one-command-to-save-90-of-your-claude-code-tokens-31ma</guid>
+    <pubDate>Wed, 01 Apr 2026 03:29:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ever needed to capture a screenshot of a website programmatically? Maybe for generating link previews, monitoring pages, or creating PDF reports. Here&apos;s how to do it with Python in just a few...</description>
+    <description>You just ran npm install inside Claude Code. 847 lines of output. Deprecation warnings, progress bars, ANSI color codes, duplicate messages. Claude read every single one of them. And now your...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AWS Snowflake Lakehouse: 2 Practical Apache Iceberg Integration Patterns</title>
-    <link>https://dev.to/aws-builders/aws-snowflake-lakehouse-2-practical-apache-iceberg-integration-patterns-812</link>
-    <guid>https://dev.to/aws-builders/aws-snowflake-lakehouse-2-practical-apache-iceberg-integration-patterns-812</guid>
-    <pubDate>Tue, 31 Mar 2026 20:44:32 +0000</pubDate>
+    <title>Sending files shouldn’t be this hard</title>
+    <link>https://dev.to/xubuntubro/sending-files-shouldnt-be-this-hard-2l4a</link>
+    <guid>https://dev.to/xubuntubro/sending-files-shouldnt-be-this-hard-2l4a</guid>
+    <pubDate>Wed, 01 Apr 2026 03:27:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Original Japanese article: AWSのレイクハウス（Apache Iceberg）をSnowflakeと連携する2つのパターンを整理する Introduction I&apos;m Aki, an AWS Community Builder (@jitepengin). In recent years, it has become increasingly common to...</description>
+    <description>Every developer knows this feeling. You&apos;re working on your laptop and need a file on your phone. Or the other way around. So what do you do? Email it to yourself. Send it on WhatsApp.Upload to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>51万行源码泄露：全面解构 Claude Code 如何成为 AI 编程天花板</title>
-    <link>https://dev.to/white_satomini/51mo-xing-yuan-ma-xie-lu-quan-mian-jie-gou-claude-code-ru-he-cheng-wei-ai-bian-cheng-tian-hua-ban-1cgn</link>
-    <guid>https://dev.to/white_satomini/51mo-xing-yuan-ma-xie-lu-quan-mian-jie-gou-claude-code-ru-he-cheng-wei-ai-bian-cheng-tian-hua-ban-1cgn</guid>
-    <pubDate>Tue, 31 Mar 2026 20:41:52 +0000</pubDate>
+    <title>Automating Checkout Add-On Recommendations in WordPress for WooCommerce</title>
+    <link>https://dev.to/nexuwp/automating-checkout-add-on-recommendations-in-wordpress-for-woocommerce-1g1e</link>
+    <guid>https://dev.to/nexuwp/automating-checkout-add-on-recommendations-in-wordpress-for-woocommerce-1g1e</guid>
+    <pubDate>Wed, 01 Apr 2026 03:26:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>51万行源码泄露：全面解构 Claude Code 如何成为 AI 编程天花板 原文链接：https://warpnav.com/claude-code-source-map 2026年3月31日，安全研究者 Chaofan Shou 发现了一个“史诗级”的构建疏漏。 Anthropic 发布到 npm 的 Claude Code (v2.1.88) 包体积从 17MB 暴涨到了...</description>
+    <description>I built a WooCommerce plugin to solve a problem I kept seeing in stores: checkout add-ons and post-purchase offers usually feel either too manual to manage or too aggressive for customers. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Database Sharding in System Design</title>
-    <link>https://dev.to/code_2/database-sharding-in-system-design-414e</link>
-    <guid>https://dev.to/code_2/database-sharding-in-system-design-414e</guid>
-    <pubDate>Tue, 31 Mar 2026 20:41:12 +0000</pubDate>
+    <title>I Built an npm Package to Scrape and Slim Down YAML Files</title>
+    <link>https://dev.to/segur/i-built-an-npm-package-to-scrape-and-slim-down-yaml-files-3c3k</link>
+    <guid>https://dev.to/segur/i-built-an-npm-package-to-scrape-and-slim-down-yaml-files-3c3k</guid>
+    <pubDate>Wed, 01 Apr 2026 03:16:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What Is Database Sharding Database Sharding represents a fundamental horizontal scaling technique in system design that divides a single large database into multiple smaller, independent shards....</description>
+    <description>I Built a Library That Scrapes and Slims Down YAML Files I created an npm module that strips YAML files down to size. It can delete specific elements or replace them with empty values. Published...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Three Things Had to Align: The Real Story Behind the LLM Revolution</title>
-    <link>https://dev.to/zoricic/three-things-had-to-align-the-real-story-behind-the-llm-revolution-3kmm</link>
-    <guid>https://dev.to/zoricic/three-things-had-to-align-the-real-story-behind-the-llm-revolution-3kmm</guid>
-    <pubDate>Tue, 31 Mar 2026 20:39:35 +0000</pubDate>
+    <title>I built a private LLM API in one morning that logs nothing — here&apos;s exactly how</title>
+    <link>https://dev.to/vaibhav_chris_66a1613b0b5/i-built-a-private-llm-api-in-one-morning-that-logs-nothing-heres-exactly-how-26o2</link>
+    <guid>https://dev.to/vaibhav_chris_66a1613b0b5/i-built-a-private-llm-api-in-one-morning-that-logs-nothing-heres-exactly-how-26o2</guid>
+    <pubDate>Wed, 01 Apr 2026 03:15:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>ChatGPT didn&apos;t come out of nowhere. It&apos;s the result of 60 years of dead ends, one accidental breakthrough, and three completely separate technologies all maturing at exactly the same moment....</description>
+    <description>I was frustrated. Every LLM API provider logs your prompts. OpenAI. Anthropic. Google. All of them. For teams building on sensitive data — healthcare, fintech, legal — this is a blocker. So this...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>REST vs GraphQL vs WebSockets vs Webhooks: A Real-World Decision Guide (With Code)</title>
-    <link>https://dev.to/rosewabere/rest-vs-graphql-vs-websockets-vs-webhooks-a-real-world-decision-guide-with-code-2bem</link>
-    <guid>https://dev.to/rosewabere/rest-vs-graphql-vs-websockets-vs-webhooks-a-real-world-decision-guide-with-code-2bem</guid>
-    <pubDate>Tue, 31 Mar 2026 20:34:03 +0000</pubDate>
+    <title>Building Infinite Scroll Galleries with GSAP and Three.js Shaders</title>
+    <link>https://dev.to/jjangik/building-infinite-scroll-galleries-with-gsap-and-threejs-shaders-bgj</link>
+    <guid>https://dev.to/jjangik/building-infinite-scroll-galleries-with-gsap-and-threejs-shaders-bgj</guid>
+    <pubDate>Wed, 01 Apr 2026 03:14:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You have used all of these. But when someone asks you, maybe in an interview, or in a system design meeting, why you chose WebSockets over polling, or webhooks over a queue, can you answer...</description>
+    <description>I&apos;ve been experimenting with infinite scroll gallery interactions — the kind you see on Awwwards-winning sites — and built two components I wanted to share. 1. Infinite 2D Grid An omnidirectional...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Ruby CSV Import Ran Successfully — Your Data May Still Be Wrong</title>
-    <link>https://dev.to/tilo_sloboda/your-ruby-csv-import-ran-successfully-your-data-may-still-be-wrong-5h5a</link>
-    <guid>https://dev.to/tilo_sloboda/your-ruby-csv-import-ran-successfully-your-data-may-still-be-wrong-5h5a</guid>
-    <pubDate>Tue, 31 Mar 2026 20:28:53 +0000</pubDate>
+    <title>Persistent VMs in Podman: Install Alpine to a qcow2 Disk Image</title>
+    <link>https://dev.to/davidtio/persistent-vms-in-podman-install-alpine-to-a-qcow2-disk-image-go6</link>
+    <guid>https://dev.to/davidtio/persistent-vms-in-podman-install-alpine-to-a-qcow2-disk-image-go6</guid>
+    <pubDate>Wed, 01 Apr 2026 03:14:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Are you sure that Ruby CSV imported all your data — and correctly? 🤔 I wasn&apos;t looking for bugs. I was improving the performance of smarter_csv, then added a new round of tests — including some...</description>
+    <description>Persistent VMs in Podman: Install Alpine to a Disk Image Quick one-liner: Create a qcow2 disk image with qemu-img, install Alpine Linux into it, and boot from disk — so your VM survives container...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project</title>
+    <link>https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/</link>
+    <guid>https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/</guid>
+    <pubDate>Wed, 01 Apr 2026 01:42:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company&apos;s systems.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The best deals to shop during the last few hours of Amazon’s Big Spring Sale</title>
+    <link>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</link>
+    <guid>https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals</guid>
+    <pubDate>Wed, 01 Apr 2026 01:14:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which runs through 11:59PM PT tonight, the retail behemoth...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon&amp;#8217;s Big Spring Sale 2026: all of the latest deals</title>
+    <link>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</link>
+    <guid>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</guid>
+    <pubDate>Wed, 01 Apr 2026 00:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you’re looking for the best time to get a deal this spring, it might very well be during Amazon’s Big Spring Sale, which runs through 11:59PM PT tonight. We’re still highlighting the best that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic is having a month</title>
+    <link>https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/</link>
+    <guid>https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/</guid>
+    <pubDate>Tue, 31 Mar 2026 23:58:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>A human really borks things at Anthropic for the second time this week.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The AirPods Pro 3 are nearly matching their best-ever price for Amazon’s Big Spring Sale</title>
+    <link>https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal</link>
+    <guid>https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal</guid>
+    <pubDate>Tue, 31 Mar 2026 23:53:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Earlier this month, Apple announced the AirPods Max 2, a pair of over-ear headphones that leverage the company’s H2 chip for AI-powered live translation, conversation awareness, and a host of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale</title>
+    <link>https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals</link>
+    <guid>https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals</guid>
+    <pubDate>Tue, 31 Mar 2026 23:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon’s Big Spring Sale may not have been as “big” as Black Friday or even Prime Day, but depending on what you’re after, the discounts are more appealing than you might think. Take charging...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Salesforce announces an AI-heavy makeover for Slack, with 30 new features</title>
+    <link>https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/</link>
+    <guid>https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/</guid>
+    <pubDate>Tue, 31 Mar 2026 22:46:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Slack just got a whole lot more useful.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak</guid>
+    <pubDate>Tue, 31 Mar 2026 22:24:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After Anthropic released Claude Code&apos;s 2.1.88 update, users quickly discovered that it contained a package with a source map file containing its TypeScript codebase, with one person on X calling...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>You can grab a four-pack of Govee’s color-changing smart bulbs for just $27</title>
+    <link>https://www.theverge.com/gadgets/904698/govee-smart-a19-led-color-bulbs-amazon-big-spring-sale-2026-deal</link>
+    <guid>https://www.theverge.com/gadgets/904698/govee-smart-a19-led-color-bulbs-amazon-big-spring-sale-2026-deal</guid>
+    <pubDate>Tue, 31 Mar 2026 21:59:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Spring cleaning isn’t just about clearing things out. It’s also a chance to refresh your living space, and a simple place to start is smart lighting — specifically, Govee’s Smart A19 LED Light...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise</title>
+    <link>https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/</link>
+    <guid>https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/</guid>
+    <pubDate>Tue, 31 Mar 2026 21:25:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>OpenAI&apos;s latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>You can now use ChatGPT with Apple’s CarPlay</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt</guid>
+    <pubDate>Tue, 31 Mar 2026 21:03:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>ChatGPT is now accessible from your CarPlay dashboard if you have iOS 26.4 or newer and the latest version of the ChatGPT app, 9to5Mac reports. Apple&apos;s recently launched iOS 26.4 update added...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Yupp shuts down after raising $33M from a16z crypto’s Chris Dixon</title>
@@ -134,24 +233,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Evercade’s new handheld has a larger screen and dual thumbsticks for 3D games</title>
-    <link>https://www.theverge.com/tech/904543/evercade-nexus-handheld-console-retro-gaming-preorder-pricing-availability</link>
-    <guid>https://www.theverge.com/tech/904543/evercade-nexus-handheld-console-retro-gaming-preorder-pricing-availability</guid>
-    <pubDate>Tue, 31 Mar 2026 18:34:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After releasing smaller versions of its handhelds, Evercade has announced a new portable console called the Nexus featuring a large 5.89-inch screen. That&apos;s larger than the 4.3-inch screen on...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>No Kings is taking back Americana</title>
-    <link>https://www.theverge.com/policy/904405/no-kings-protests-portland-americana</link>
-    <guid>https://www.theverge.com/policy/904405/no-kings-protests-portland-americana</guid>
-    <pubDate>Tue, 31 Mar 2026 18:31:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>&quot;I was hoping we were going to have a bigger crowd than this, especially with the nice weather and everything,&quot; Michael Maria told me. &quot;I&apos;m a little disappointed because the last march, I think...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Android Developer Verification Rollout Begins Ahead of September Enforcement</title>
     <link>https://thehackernews.com/2026/03/android-developer-verification-rollout.html</link>
     <guid>https://thehackernews.com/2026/03/android-developer-verification-rollout.html</guid>
@@ -161,33 +242,6 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Quantum computers need vastly fewer resources than thought to break vital encryption</title>
-    <link>https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/</link>
-    <guid>https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/</guid>
-    <pubDate>Tue, 31 Mar 2026 18:25:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>No, the sky isn&apos;t falling, but Q Day is coming, and it won&apos;t be as expensive as thought.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Galaxy S26’s photo app can sloppify your memories</title>
-    <link>https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop</link>
-    <guid>https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop</guid>
-    <pubDate>Tue, 31 Mar 2026 18:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Google Pixel 9 walked so that the Samsung Galaxy S26 could run. Google introduced AI editing tools to Photos slowly. It started with changes to the background - make the sky more blue, or...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Hisense’s 75-inch U6 mini-LED TV is cheaper than its 65-inch model</title>
-    <link>https://www.theverge.com/gadgets/904372/hisense-u6-mini-led-tv-4k-amazon-big-spring-sale-2026-deal</link>
-    <guid>https://www.theverge.com/gadgets/904372/hisense-u6-mini-led-tv-4k-amazon-big-spring-sale-2026-deal</guid>
-    <pubDate>Tue, 31 Mar 2026 18:00:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re keen to get a new 4K TV that has built-in streaming services provided by Amazon’s Fire TV software, it’s tough to get more for your money than with Hisense’s U6. The company’s 75-inch,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Alexa+ gets new food ordering experiences with Uber Eats and Grubhub</title>
     <link>https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/</link>
     <guid>https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/</guid>
@@ -195,24 +249,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>You can now order from Uber Eats and Grubhub using Alexa+, an experience Amazon says will be similar to chatting with a waiter at a restaurant or placing an order at a drive-thru.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>The Sonos Play and mic-less Era 100 SL are now available</title>
-    <link>https://www.theverge.com/gadgets/903746/sonos-play-era-100-sl-speakers-price-release-date-availability</link>
-    <guid>https://www.theverge.com/gadgets/903746/sonos-play-era-100-sl-speakers-price-release-date-availability</guid>
-    <pubDate>Tue, 31 Mar 2026 17:36:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After a couple of quiet years, Sonos is back with two new consumer speakers: the portable Sonos Play and the more affordable Era 100 SL. They retail for $299 and $189, respectively, and both are...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The latest Matter update improves camera streaming</title>
-    <link>https://www.theverge.com/tech/904361/matter-spec-update1-5-1-camera-video-streaming-heic-doorbell-chimes</link>
-    <guid>https://www.theverge.com/tech/904361/matter-spec-update1-5-1-camera-video-streaming-heic-doorbell-chimes</guid>
-    <pubDate>Tue, 31 Mar 2026 17:01:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Connectivity Standards Alliance (CSA) released Matter 1.5.1 today, building upon the camera and video doorbell support added as part of the Matter 1.5 update last November. Although 1.5.1 is a...</description>
-    <category>Tech Industry</category>
   </item>
   <item>
     <title>TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks</title>
@@ -239,42 +275,6 @@
     <pubDate>Tue, 31 Mar 2026 15:10:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles</title>
-    <link>https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/</link>
-    <guid>https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/</guid>
-    <pubDate>Tue, 31 Mar 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company turns footage from robots into structured, searchable datasets with a deep learning model.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Shifting to AI model customization is an architectural imperative</title>
-    <link>https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/</link>
-    <guid>https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/</guid>
-    <pubDate>Tue, 31 Mar 2026 14:12:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>In the early days of large language models (LLMs), we grew accustomed to massive 10x jumps in reasoning and coding capability with every new model iteration. Today, those jumps have flattened into...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups</title>
-    <link>https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/</link>
-    <guid>https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/</guid>
-    <pubDate>Tue, 31 Mar 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Runway is launching a $10 million fund and startup program to back companies building with its AI video models, as it pushes toward interactive, real-time “video intelligence” applications.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts</title>
-    <link>https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html</link>
-    <guid>https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html</guid>
-    <pubDate>Tue, 31 Mar 2026 13:09:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed a security &quot;blind spot&quot; in Google Cloud&apos;s Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
