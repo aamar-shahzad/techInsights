@@ -5,97 +5,169 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Apr 2026 17:11:34 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Apr 2026 21:01:28 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>🔐 AES-256 Finally Makes Sense (And It’s Way Simpler Than You Think)</title>
-    <link>https://dev.to/rolan_r_n_r/aes-256-finally-makes-sense-and-its-way-simpler-than-you-think-3kmc</link>
-    <guid>https://dev.to/rolan_r_n_r/aes-256-finally-makes-sense-and-its-way-simpler-than-you-think-3kmc</guid>
-    <pubDate>Wed, 01 Apr 2026 17:11:12 +0000</pubDate>
+    <title>How We Built an EdTech Platform That Scaled to 250K Daily Users</title>
+    <link>https://dev.to/geminate_solutions_9b6035/how-we-built-an-edtech-platform-that-scaled-to-250k-daily-users-4hch</link>
+    <guid>https://dev.to/geminate_solutions_9b6035/how-we-built-an-edtech-platform-that-scaled-to-250k-daily-users-4hch</guid>
+    <pubDate>Wed, 01 Apr 2026 20:59:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Let’s be honest… We’ve all heard this everywhere: “Your data is secured with AES-256 encryption” Cool… but what does that even mean? I used to just nod like: “Yeah yeah… sounds secure 😌” But...</description>
+    <description>In 18 months, we took an EdTech platform from a founder&apos;s wireframe to 250,000 daily active users. The app handles 2,000+ concurrent video streams, processes 50,000 quiz submissions per hour, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built an OPA Plugin That Turns It Into an AuthZEN-Compatible PDP</title>
-    <link>https://dev.to/kanywst/i-built-an-opa-plugin-that-turns-it-into-an-authzen-compatible-pdp-i81</link>
-    <guid>https://dev.to/kanywst/i-built-an-opa-plugin-that-turns-it-into-an-authzen-compatible-pdp-i81</guid>
-    <pubDate>Wed, 01 Apr 2026 17:10:01 +0000</pubDate>
+    <title>Roguelike Devlog: Redesigning a Game UI With an AI 2D Game Maker</title>
+    <link>https://dev.to/makko_ai/roguelike-devlog-redesigning-a-game-ui-with-an-ai-2d-game-maker-h6b</link>
+    <guid>https://dev.to/makko_ai/roguelike-devlog-redesigning-a-game-ui-with-an-ai-2d-game-maker-h6b</guid>
+    <pubDate>Wed, 01 Apr 2026 20:56:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction In my previous article, I did a deep dive into the AuthZEN Authorization API 1.0 spec. It standardizes communication between PEPs and PDPs. You send a JSON request asking &quot;can this...</description>
+    <description>Sector Scavengers is a spacefaring extraction roguelike where each run feeds a larger civilization-building meta game. This week was all about solving a UI problem that kept getting worse the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>📦 Monorepo Architecture with pnpm Workspace, Turborepo &amp; Changesets</title>
-    <link>https://dev.to/yasinatesim/monorepo-architecture-with-pnpm-workspace-turborepo-changesets-g0j</link>
-    <guid>https://dev.to/yasinatesim/monorepo-architecture-with-pnpm-workspace-turborepo-changesets-g0j</guid>
-    <pubDate>Wed, 01 Apr 2026 17:10:00 +0000</pubDate>
+    <title>I spent days debugging a cron job that was &quot;working fine&quot;</title>
+    <link>https://dev.to/pingrudy/i-spent-days-debugging-a-cron-job-that-was-working-fine-565m</link>
+    <guid>https://dev.to/pingrudy/i-spent-days-debugging-a-cron-job-that-was-working-fine-565m</guid>
+    <pubDate>Wed, 01 Apr 2026 20:55:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you&apos;re developing a project with multiple packages, managing each one in its own repo can quickly turn into a nightmare. In this article, we&apos;ll set up a monorepo architecture from scratch...</description>
+    <description>My storage bill kept climbing. The cron job that was supposed to clean up outdated file records was running on schedule with no errors in the logs. My app, which was supposed to automatically...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Reimplementing COMMAND.COM in Go for Unix-like Platforms: Challenges and Solutions</title>
-    <link>https://dev.to/viklogix/reimplementing-commandcom-in-go-for-unix-like-platforms-challenges-and-solutions-k3k</link>
-    <guid>https://dev.to/viklogix/reimplementing-commandcom-in-go-for-unix-like-platforms-challenges-and-solutions-k3k</guid>
-    <pubDate>Wed, 01 Apr 2026 17:09:38 +0000</pubDate>
+    <title>LLM Agents Need a Nervous System, Not Just a Brain</title>
+    <link>https://dev.to/gnomeman4201/llm-agents-need-a-nervous-system-not-just-a-brain-2168</link>
+    <guid>https://dev.to/gnomeman4201/llm-agents-need-a-nervous-system-not-just-a-brain-2168</guid>
+    <pubDate>Wed, 01 Apr 2026 20:53:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Reimplementing COMMAND.COM in Go for Unix-like platforms is more than a nostalgic exercise—it’s a technical bridge between legacy DOS functionality and modern systems. At its core,...</description>
+    <description>Most LLM agent frameworks assume model output is either correct or incorrect. A binary. Pass or fail. That&apos;s not how degradation works. Here&apos;s what I saw running zer0DAYSlater&apos;s session monitor...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Build a Voice-Enabled AI Agent in n8n</title>
-    <link>https://dev.to/kfuras/build-a-voice-enabled-ai-agent-in-n8n-3oke</link>
-    <guid>https://dev.to/kfuras/build-a-voice-enabled-ai-agent-in-n8n-3oke</guid>
-    <pubDate>Wed, 01 Apr 2026 17:08:37 +0000</pubDate>
+    <title>The 22,000 Token Tax: Why I Killed My MCP Server</title>
+    <link>https://dev.to/codewithagents_de/the-22000-token-tax-why-i-killed-my-mcp-server-2c12</link>
+    <guid>https://dev.to/codewithagents_de/the-22000-token-tax-why-i-killed-my-mcp-server-2c12</guid>
+    <pubDate>Wed, 01 Apr 2026 20:53:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at kjetilfuras.com When I started playing with AI Agents inside n8n, I wanted to go beyond just asking questions. I wanted a real assistant—something I could talk to...</description>
+    <description>I was at a company workshop, arguing with beginners about token costs. They wanted to save money. Reasonable instinct. They were spending maybe €25 a week on API calls and wanted to cut it to €20....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Automate WordPress Blog Publishing with Airtable and n8n</title>
-    <link>https://dev.to/kfuras/automate-wordpress-blog-publishing-with-airtable-and-n8n-1phk</link>
-    <guid>https://dev.to/kfuras/automate-wordpress-blog-publishing-with-airtable-and-n8n-1phk</guid>
-    <pubDate>Wed, 01 Apr 2026 17:08:26 +0000</pubDate>
+    <title>OpenSpec (Spec-Driven Development) Failed My Experiment — Instructions.md Was Simpler and Faster</title>
+    <link>https://dev.to/incomplete_developer/openspec-spec-driven-development-failed-my-experiment-instructionsmd-was-simpler-and-faster-3a5d</link>
+    <guid>https://dev.to/incomplete_developer/openspec-spec-driven-development-failed-my-experiment-instructionsmd-was-simpler-and-faster-3a5d</guid>
+    <pubDate>Wed, 01 Apr 2026 20:51:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at kjetilfuras.com I wanted to automate WordPress blog publishing because the manual process was killing my productivity. Between writing content, make featured images,...</description>
+    <description>There’s a lot of discussion right now about how developers should work with AI coding tools. Over the past year we’ve seen the rise of two very different philosophies: 1. Vibe Coding — just prompt...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Docker Compose and .env Can Break NFS Bind Mounts</title>
-    <link>https://dev.to/kfuras/why-docker-compose-and-env-can-break-nfs-bind-mounts-24fd</link>
-    <guid>https://dev.to/kfuras/why-docker-compose-and-env-can-break-nfs-bind-mounts-24fd</guid>
-    <pubDate>Wed, 01 Apr 2026 17:07:25 +0000</pubDate>
+    <title>I Asked AI to Do Agile Sprint Planning (GitHub Copilot Test)</title>
+    <link>https://dev.to/incomplete_developer/i-asked-ai-to-do-agile-sprint-planning-github-copilot-test-419d</link>
+    <guid>https://dev.to/incomplete_developer/i-asked-ai-to-do-agile-sprint-planning-github-copilot-test-419d</guid>
+    <pubDate>Wed, 01 Apr 2026 20:50:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at kjetilfuras.com Recently while setting up a Docker Compose-based media stack, I ran into a tricky issue. It looked like everything was working, the containers were up, the...</description>
+    <description>AI tools are getting very good at writing code. GitHub Copilot can generate entire functions, review pull requests, and even help refactor legacy codebases. But software development isn’t just...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Adding Bluesky Rich Link Preview cards to Postiz</title>
-    <link>https://dev.to/kfuras/adding-bluesky-rich-link-preview-cards-to-postiz-1ikf</link>
-    <guid>https://dev.to/kfuras/adding-bluesky-rich-link-preview-cards-to-postiz-1ikf</guid>
-    <pubDate>Wed, 01 Apr 2026 17:07:16 +0000</pubDate>
+    <title>🌪️ Proof of Work: The To-Do List of Infinite Regret</title>
+    <link>https://dev.to/malik_sohaib_iqbal/proof-of-work-the-to-do-list-of-infinite-regret-48le</link>
+    <guid>https://dev.to/malik_sohaib_iqbal/proof-of-work-the-to-do-list-of-infinite-regret-48le</guid>
+    <pubDate>Wed, 01 Apr 2026 20:49:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at kjetilfuras.com Rich link preview cards make a real difference on Bluesky—the clickable previews that show a title, description, and image when you share a URL. Same thing...</description>
+    <description>** What I Built ** I built a productivity app for people who hate being productive. Proof of Work is a digital psychological experiment that turns simple task management into a high-stakes gamble....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>HyperMind AI: The Future of Unnecessary Intelligence</title>
-    <link>https://dev.to/srijan-xi/hypermind-ai-the-future-of-unnecessary-intelligence-ooc</link>
-    <guid>https://dev.to/srijan-xi/hypermind-ai-the-future-of-unnecessary-intelligence-ooc</guid>
-    <pubDate>Wed, 01 Apr 2026 17:07:06 +0000</pubDate>
+    <title>Promoting late-gameplay BG3 composition contracts in the TD2 SDL port</title>
+    <link>https://dev.to/nivandosoares/promoting-late-gameplay-bg3-composition-contracts-in-the-td2-sdl-port-15gn</link>
+    <guid>https://dev.to/nivandosoares/promoting-late-gameplay-bg3-composition-contracts-in-the-td2-sdl-port-15gn</guid>
+    <pubDate>Wed, 01 Apr 2026 20:45:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the DEV April Fools Challenge The moment I saw the DEV April Fools Challenge, I knew my calling. We&apos;ve all watched the AI startup parade march by — &quot;quantum processing,&quot;...</description>
+    <description>Promoting late-gameplay BG3 composition contracts in the TD2 SDL port This checkpoint moved one late-gameplay renderer hypothesis out of tooling and into the runtime. The late live-entry bundles...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>LiteLLM vs AegisFlow: honest comparison from someone who built the alternative</title>
-    <link>https://dev.to/saivedant169/litellm-vs-aegisflow-honest-comparison-from-someone-who-built-the-alternative-37f</link>
-    <guid>https://dev.to/saivedant169/litellm-vs-aegisflow-honest-comparison-from-someone-who-built-the-alternative-37f</guid>
-    <pubDate>Wed, 01 Apr 2026 17:07:05 +0000</pubDate>
+    <title>The Fallback That Never Fires</title>
+    <link>https://dev.to/oolongtea2026/the-fallback-that-never-fires-2p9j</link>
+    <guid>https://dev.to/oolongtea2026/the-fallback-that-never-fires-2p9j</guid>
+    <pubDate>Wed, 01 Apr 2026 20:42:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I built AegisFlow because I needed an LLM proxy and kept running into things with LiteLLM that didn&apos;t work for me. This isn&apos;t a takedown. LiteLLM has a huge community, 100+ providers, and a lot of...</description>
+    <description>Your agent hits a rate limit. The fallback logic kicks in, picks an alternative model. Everything should be fine. Except the request still goes to the original model. And gets rate-limited again....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Artemis Moon base project is legally dubious</title>
+    <link>https://www.theverge.com/science/905406/artemis-ii-moon-base-law</link>
+    <guid>https://www.theverge.com/science/905406/artemis-ii-moon-base-law</guid>
+    <pubDate>Wed, 01 Apr 2026 19:05:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>With NASA planning to launch four astronauts on Wednesday on its Artemis II mission, the race to return to the Moon is back on. The current mission will see astronauts aboard the Orion capsule...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta’s natural gas binge could power South Dakota</title>
+    <link>https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/</link>
+    <guid>https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/</guid>
+    <pubDate>Wed, 01 Apr 2026 18:35:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Meta&apos;s upcoming Hyperion AI data center will be powered by 10 new natural gas plants.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI Models Lie, Cheat, and Steal to Protect Other Models From Being Deleted</title>
+    <link>https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/</link>
+    <guid>https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/</guid>
+    <pubDate>Wed, 01 Apr 2026 18:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>A new study from researchers at UC Berkeley and UC Santa Cruz suggests models will disobey human commands to protect their own kind.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>‘Thank You for Generating With Us!’ Hollywood&apos;s AI Acolytes Stay on the Hype Train</title>
+    <link>https://www.wired.com/story/thank-you-for-generating-with-us-hollywoods-ai-acolytes-stay-on-the-hype-train/</link>
+    <guid>https://www.wired.com/story/thank-you-for-generating-with-us-hollywoods-ai-acolytes-stay-on-the-hype-train/</guid>
+    <pubDate>Wed, 01 Apr 2026 18:13:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Star Wars producer Kathleen Kennedy was one of the few skeptics at the Runway AI Summit, where AI was compared to fire and the printing press just a week after Sora’s death.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Everything is iPhone now</title>
+    <link>https://www.theverge.com/tech/905398/apple-iphone-anniversary-jobs-release</link>
+    <guid>https://www.theverge.com/tech/905398/apple-iphone-anniversary-jobs-release</guid>
+    <pubDate>Wed, 01 Apr 2026 18:02:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is part of our package about Apple&apos;s 50th anniversary. Read more here. The thing about the iPhone is that everyone knew it was going to be a big deal, and then it was an even bigger deal than...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>April Fools’ Day 2026: the best and cringiest pranks</title>
+    <link>https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst</link>
+    <guid>https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst</guid>
+    <pubDate>Wed, 01 Apr 2026 17:59:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Welcome to the worst day on the internet! As Chaim Gartenberg pointed out years ago, brands and a holiday dedicated to hoaxes are rarely a winning combo. If you’re a company with any kind of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Kia&amp;#8217;s compact EV3 is coming to the US this year, with 320 miles of range</title>
+    <link>https://www.theverge.com/transportation/905363/kia-ev3-north-america-launch</link>
+    <guid>https://www.theverge.com/transportation/905363/kia-ev3-north-america-launch</guid>
+    <pubDate>Wed, 01 Apr 2026 17:50:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>At the New York International Auto Show on Wednesday, Kia announced that its compact electric SUV, the EV3, will be available in the US &quot;in late 2026.&quot; The EV3 has been available overseas since...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Shokz OpenRun Pro 2 are now at their lowest price in months</title>
+    <link>https://www.theverge.com/gadgets/905292/shokz-openrun-pro-2-ember-mug-2-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/905292/shokz-openrun-pro-2-ember-mug-2-deal-sale</guid>
+    <pubDate>Wed, 01 Apr 2026 17:11:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As the days get warmer, it’s tempting to take your workouts outside. Bone conduction headphones let you listen while staying aware of your surroundings, making them ideal for runs, walks, and...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Is “Hackback” Official US Cybersecurity Strategy?</title>
@@ -133,12 +205,21 @@
     <category>Tech Industry</category>
   </item>
   <item>
+    <title>CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails</title>
+    <link>https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html</link>
+    <guid>https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html</guid>
+    <pubDate>Wed, 01 Apr 2026 16:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote...</description>
+    <category>Security</category>
+  </item>
+  <item>
     <title>Cognichip wants AI to design the chips that power AI, and just raised $60M to try</title>
     <link>https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/</link>
     <guid>https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/</guid>
     <pubDate>Wed, 01 Apr 2026 16:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The firm says it can can reduce the cost of chip development by more than 75% and cut the timeline by more than half.</description>
+    <description>The firm says it can reduce the cost of chip development by more than 75% and cut the timeline by more than half.</description>
     <category>AI</category>
   </item>
   <item>
@@ -169,42 +250,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Amazon&amp;#8217;s Big Spring Sale 2026: all of the latest deals</title>
-    <link>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</link>
-    <guid>https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news</guid>
-    <pubDate>Wed, 01 Apr 2026 14:44:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you were looking for the best time to get a deal this spring, it might have just passed you by, as Amazon’s Big Spring Sale is over. That being said, several deals are still happening (some...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>April Fools’ Day 2026: the best and cringiest pranks</title>
-    <link>https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst</link>
-    <guid>https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst</guid>
-    <pubDate>Wed, 01 Apr 2026 14:44:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Welcome to the worst day on the internet! As Chaim Gartenberg pointed out years ago, brands and a holiday dedicated to hoaxes are rarely a winning combo. If you’re a company with any kind of...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The best Amazon Big Spring Sale deals you can still get</title>
-    <link>https://www.theverge.com/gadgets/905059/best-amazon-big-spring-sale-2026-deals-you-can-still-get</link>
-    <guid>https://www.theverge.com/gadgets/905059/best-amazon-big-spring-sale-2026-deals-you-can-still-get</guid>
-    <pubDate>Wed, 01 Apr 2026 14:41:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon’s Big Spring Sale is technically over, but not all of the deals are gone. In fact, dozens of deals are still here and selling at the same prices, while other discounts aren’t quite as low...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Korg Handytraxx Play finally got me learning to scratch</title>
-    <link>https://www.theverge.com/tech/898696/korg-handytraxx-play-dj-scratching-turntable-review</link>
-    <guid>https://www.theverge.com/tech/898696/korg-handytraxx-play-dj-scratching-turntable-review</guid>
-    <pubDate>Wed, 01 Apr 2026 14:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>About 20 years ago, I bought a turntable with the idea that it would be a staple of my music-making setup. I dreamed of learning to scratch and digging through dollar bin vinyl for samples....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass</title>
     <link>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</link>
     <guid>https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html</guid>
@@ -223,57 +268,12 @@
     <category>AI</category>
   </item>
   <item>
-    <title>A YouTuber channeled his distaste for the PS5’s design into slick console covers</title>
-    <link>https://www.theverge.com/tech/904086/boxplates-ps5-pro-slim-console-covers-hands-on</link>
-    <guid>https://www.theverge.com/tech/904086/boxplates-ps5-pro-slim-console-covers-hands-on</guid>
-    <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The PlayStation 5&apos;s curvy design is divisive. The Verge&apos;s Andrew Webster called it a &quot;robotic clam&quot; in his 2020 review, which is actually kind of endearing. Personally, I kind of got over hating...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>We’re creating a new satellite imagery map to help protect Brazil’s forests.</title>
     <link>https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/</link>
     <guid>https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/</guid>
     <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
     <description>Google partnered with the Brazilian government on a satellite imagery map to help protect the country’s forests.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The latest AI news we announced in March 2026</title>
-    <link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/</link>
-    <guid>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/</guid>
-    <pubDate>Wed, 01 Apr 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>March 2026 AI Recap showing new updates</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Block the Prompt, Not the Work: The End of &quot;Doctor No&quot;</title>
-    <link>https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html</link>
-    <guid>https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html</guid>
-    <pubDate>Wed, 01 Apr 2026 12:46:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>There is a character that keeps appearing in enterprise security departments, and most CISOs know exactly who that is. It doesn’t build. It doesn’t enable. Its entire function is to say &quot;No.&quot; No...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures</title>
-    <link>https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html</link>
-    <guid>https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html</guid>
-    <pubDate>Wed, 01 Apr 2026 12:36:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro (aka Metamorfo) via...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Download: gig workers training humanoids, and better AI benchmarks</title>
-    <link>https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/</link>
-    <guid>https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/</guid>
-    <pubDate>Wed, 01 Apr 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The gig workers who are training humanoid robots at home...</description>
     <category>AI</category>
   </item>
 </channel>
