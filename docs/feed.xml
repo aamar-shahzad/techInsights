@@ -5,142 +5,250 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 02 Apr 2026 13:57:43 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Apr 2026 17:09:39 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Decoupling Temporal Services with Nexus and the Java SDK</title>
-    <link>https://dev.to/temporalio/decoupling-temporal-services-with-nexus-and-the-java-sdk-20p</link>
-    <guid>https://dev.to/temporalio/decoupling-temporal-services-with-nexus-and-the-java-sdk-20p</guid>
-    <pubDate>Thu, 02 Apr 2026 13:50:51 +0000</pubDate>
+    <title>Cursor Launches a New AI Agent Experience to Take on Claude Code and Codex</title>
+    <link>https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic/</link>
+    <guid>https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic/</guid>
+    <pubDate>Thu, 02 Apr 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>As Cursor launches the next generation of its product, the AI coding startup has to compete with OpenAI and Anthropic more directly than ever.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>I Migrated to a Monorepo in 2 Days. Things Broke.</title>
+    <link>https://dev.to/dhg/i-migrated-to-a-monorepo-in-2-days-things-broke-1gif</link>
+    <guid>https://dev.to/dhg/i-migrated-to-a-monorepo-in-2-days-things-broke-1gif</guid>
+    <pubDate>Thu, 02 Apr 2026 16:58:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your Temporal services share a blast radius. A bug in Compliance at 3 AM crashes Payments, too, because they share the same Worker. The obvious fix is separate services with HTTP calls between...</description>
+    <description>I migrated my side project, Inner Anchor, from two separate repos to a monorepo. It took two days, things broke in production, and my users saw a white screen. But I&apos;d do it again because I don&apos;t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>7 Real Workflows That Actually Save Developers Hours</title>
-    <link>https://dev.to/sonotommy/7-real-workflows-that-actually-save-developers-hours-5550</link>
-    <guid>https://dev.to/sonotommy/7-real-workflows-that-actually-save-developers-hours-5550</guid>
-    <pubDate>Thu, 02 Apr 2026 13:50:09 +0000</pubDate>
+    <title>I’m sick of $200 SaaS boilerplates that leak tenant data. Here is how to build real isolation.</title>
+    <link>https://dev.to/jacksonkasi/im-sick-of-200-saas-boilerplates-that-leak-tenant-data-here-is-how-to-build-real-isolation-41oo</link>
+    <guid>https://dev.to/jacksonkasi/im-sick-of-200-saas-boilerplates-that-leak-tenant-data-here-is-how-to-build-real-isolation-41oo</guid>
+    <pubDate>Thu, 02 Apr 2026 16:57:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most developers are still using AI like a novelty keyboard shortcut. They ask it for regexes, toy apps, or random refactors, then wonder why the payoff feels small. That is the wrong mental model....</description>
+    <description>I’m sick of &quot;SaaS boilerplates&quot; that charge you $200 just to wrap a framework and leave you to figure out multi-tenant database isolation yourself when your first enterprise customer signs up....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Platform Engineering: Building Internal Developer Platforms</title>
-    <link>https://dev.to/instadevops/platform-engineering-building-internal-developer-platforms-1jdl</link>
-    <guid>https://dev.to/instadevops/platform-engineering-building-internal-developer-platforms-1jdl</guid>
-    <pubDate>Thu, 02 Apr 2026 13:47:51 +0000</pubDate>
+    <title>Proof of Humanity™</title>
+    <link>https://dev.to/qainsights/proof-of-humanity-198m</link>
+    <guid>https://dev.to/qainsights/proof-of-humanity-198m</guid>
+    <pubDate>Thu, 02 Apr 2026 16:56:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Developers at top tech companies deploy code with a simple git push. They provision databases with a Slack command. They view production metrics in seconds. Meanwhile, at many...</description>
+    <description>This is a submission for the DEV April Fools Challenge What I Built To prove you&apos;re human, you must assemble Flätpack furniture. One step is irrelevant. Robots cannot detect irony. Demo...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Login Portal That Actively Hates You</title>
-    <link>https://dev.to/syedahmershah/the-login-portal-that-actively-hates-you-2p94</link>
-    <guid>https://dev.to/syedahmershah/the-login-portal-that-actively-hates-you-2p94</guid>
-    <pubDate>Thu, 02 Apr 2026 13:46:59 +0000</pubDate>
+    <title>I Built an AI Agent Harness in Go</title>
+    <link>https://dev.to/lucasnevespereira/i-built-an-ai-agent-harness-in-go-51om</link>
+    <guid>https://dev.to/lucasnevespereira/i-built-an-ai-agent-harness-in-go-51om</guid>
+    <pubDate>Thu, 02 Apr 2026 16:54:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Submission for the DEV April Fools Challenge 🎭 What I Built I built a Premium Secure Portal — a login form that uses advanced Anti-UX patterns to guarantee that no user, human or bot, can ever...</description>
+    <description>Hello there! I&apos;ve been using AI tools a lot lately. ChatGPT, Claude, local models with Ollama. They&apos;re great for answering questions, but I wanted something that could actually do things. Search...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Optimizing FFmpeg for Production: Settings That Cut Processing Time by 40%</title>
-    <link>https://dev.to/kyle_clipspeedai/optimizing-ffmpeg-for-production-settings-that-cut-processing-time-by-40-4fhe</link>
-    <guid>https://dev.to/kyle_clipspeedai/optimizing-ffmpeg-for-production-settings-that-cut-processing-time-by-40-4fhe</guid>
-    <pubDate>Thu, 02 Apr 2026 13:46:22 +0000</pubDate>
+    <title>I built a browser extension that shows you everything websites store on your device and the results are kind of wild</title>
+    <link>https://dev.to/permissiontrail/i-built-a-browser-extension-that-shows-you-everything-websites-store-on-your-device-and-the-results-2han</link>
+    <guid>https://dev.to/permissiontrail/i-built-a-browser-extension-that-shows-you-everything-websites-store-on-your-device-and-the-results-2han</guid>
+    <pubDate>Thu, 02 Apr 2026 16:50:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>FFmpeg&apos;s default settings are designed for output quality, not processing speed. On a production server where you&apos;re processing dozens of videos per hour, the difference between the right settings...</description>
+    <description>I want to start with a question. When was the last time you actually looked at what a website has stored on your device? Not just cookies. Everything. IndexedDB. Local storage. Cache storage....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Download and Upload Large Models with the Hugging Face CLI</title>
-    <link>https://dev.to/opensite/how-to-download-and-upload-large-models-with-the-hugging-face-cli-3ecm</link>
-    <guid>https://dev.to/opensite/how-to-download-and-upload-large-models-with-the-hugging-face-cli-3ecm</guid>
-    <pubDate>Thu, 02 Apr 2026 13:45:03 +0000</pubDate>
+    <title>TrueNAS Setup Guide: Enterprise Security for Your Homelab</title>
+    <link>https://dev.to/orthogonalinfo/truenas-setup-guide-enterprise-security-for-your-homelab-7gm</link>
+    <guid>https://dev.to/orthogonalinfo/truenas-setup-guide-enterprise-security-for-your-homelab-7gm</guid>
+    <pubDate>Thu, 02 Apr 2026 16:50:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Managing large model files on Hugging Face can feel cumbersome — especially when dealing with multigigabyte embeddings or generative models. Fortunately, the Hugging Face CLI provides a...</description>
+    <description>Last month I rebuilt my TrueNAS server from scratch after a drive failure. What started as a simple disk replacement turned into a full security audit — and I realized my homelab storage had been...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>On-Device LLM Inference via KMP and llama.cpp</title>
-    <link>https://dev.to/software_mvp-factory/on-device-llm-inference-via-kmp-and-llamacpp-4pec</link>
-    <guid>https://dev.to/software_mvp-factory/on-device-llm-inference-via-kmp-and-llamacpp-4pec</guid>
-    <pubDate>Thu, 02 Apr 2026 13:45:01 +0000</pubDate>
+    <title>Microsoft takes on AI rivals with three new foundational models</title>
+    <link>https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/</link>
+    <guid>https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/</guid>
+    <pubDate>Thu, 02 Apr 2026 16:48:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>MAI released models that can transcribe voice into text as well as generate audio and images after the group&apos;s formation six months ago.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Quality Crisis in AI-Generated Everything: Building Systems That Earn Trust</title>
+    <link>https://dev.to/keithfawcett/the-quality-crisis-in-ai-generated-everything-building-systems-that-earn-trust-2hb9</link>
+    <guid>https://dev.to/keithfawcett/the-quality-crisis-in-ai-generated-everything-building-systems-that-earn-trust-2hb9</guid>
+    <pubDate>Thu, 02 Apr 2026 16:45:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>--- title: &quot;On-Device LLMs via KMP: A Production Architecture with llama.cpp&quot; published: true description: &quot;Build a KMP shared module wrapping llama.cpp with mmap loading, hardware acceleration,...</description>
+    <description>The Quality Crisis in AI-Generated Everything: Building Systems That Earn Trust Here&apos;s what the data actually shows: 84% of developers use AI tools 45% of AI-generated code contains security...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Google Workspace Studio Tutorial: Auto-Organize Your Inbox with Smart Labels &amp; Priority Notifications</title>
-    <link>https://dev.to/gde/google-workspace-studio-tutorial-auto-organize-your-inbox-with-smart-labels-priority-3493</link>
-    <guid>https://dev.to/gde/google-workspace-studio-tutorial-auto-organize-your-inbox-with-smart-labels-priority-3493</guid>
-    <pubDate>Thu, 02 Apr 2026 13:42:40 +0000</pubDate>
+    <title>Building a Document Classification and Extraction Pipeline with Gemini Vision API</title>
+    <link>https://dev.to/sidarth_kb/gemini-vision-330n</link>
+    <guid>https://dev.to/sidarth_kb/gemini-vision-330n</guid>
+    <pubDate>Thu, 02 Apr 2026 16:42:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The average professional spends 28% of their workday reading and answering emails. But here&apos;s the problem, not all emails are created equal. A Pizza Discount doesn&apos;t deserve the same mental space...</description>
+    <description>Introduction Businesses receive hundreds of documents daily — invoices, receipts, contracts — arriving as PDFs, images, and spreadsheets, all mixed together. Someone has to open each one, figure...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your AI Coding Tool Is Not Electricity. Stop Treating It Like a Utility.</title>
-    <link>https://dev.to/rentierdigital/your-ai-coding-tool-is-not-electricity-stop-treating-it-like-a-utility-42bi</link>
-    <guid>https://dev.to/rentierdigital/your-ai-coding-tool-is-not-electricity-stop-treating-it-like-a-utility-42bi</guid>
-    <pubDate>Thu, 02 Apr 2026 13:41:10 +0000</pubDate>
+    <title>Stop Chasing Scroll with JavaScript: A Deep Dive into CSS Scroll-Driven Animations</title>
+    <link>https://dev.to/tu_codigocotidiano_f173d/stop-chasing-scroll-with-javascript-a-deep-dive-into-css-scroll-driven-animations-4alg</link>
+    <guid>https://dev.to/tu_codigocotidiano_f173d/stop-chasing-scroll-with-javascript-a-deep-dive-into-css-scroll-driven-animations-4alg</guid>
+    <pubDate>Thu, 02 Apr 2026 16:41:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Anthropic&apos;s Thariq just announced an adjustment to Claude Code session limits during peak hours. Not weekly limits (unchanged), just how fast you burn through sessions between 5am and 11am PT. 7%...</description>
+    <description>I published a deep-dive guide about CSS scroll-driven animations and how they change the architectural layer where motion is controlled. This is not just about making parallax “look cooler”. It is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What the Claude Code Leak Reveals: The Engine Isn&apos;t the Moat — The Harness Is</title>
-    <link>https://dev.to/tomleelive/what-the-claude-code-leak-reveals-the-engine-isnt-the-moat-the-harness-is-1ibe</link>
-    <guid>https://dev.to/tomleelive/what-the-claude-code-leak-reveals-the-engine-isnt-the-moat-the-harness-is-1ibe</guid>
-    <pubDate>Thu, 02 Apr 2026 13:40:55 +0000</pubDate>
+    <title>The Exit Criteria Pattern: Know When to Stop Iterating with AI</title>
+    <link>https://dev.to/novaelvaris/the-exit-criteria-pattern-know-when-to-stop-iterating-with-ai-lb0</link>
+    <guid>https://dev.to/novaelvaris/the-exit-criteria-pattern-know-when-to-stop-iterating-with-ai-lb0</guid>
+    <pubDate>Thu, 02 Apr 2026 16:41:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On March 31, 2026, security researcher Chaofan Shou discovered something Anthropic probably didn&apos;t want the world to see: the entire source code of Claude Code — Anthropic&apos;s official AI coding CLI...</description>
+    <description>Here&apos;s a pattern I see constantly: a developer asks AI to refactor a function, gets a decent result, then spends 45 minutes on follow-up prompts trying to make it &quot;perfect.&quot; The final version is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>This even smaller credit card-sized e-reader has one tragic flaw</title>
-    <link>https://www.theverge.com/tech/905258/xteink-x3-e-ink-reader-ebooks-hands-on</link>
-    <guid>https://www.theverge.com/tech/905258/xteink-x3-e-ink-reader-ebooks-hands-on</guid>
-    <pubDate>Thu, 02 Apr 2026 13:34:11 +0000</pubDate>
+    <title>Hisense’s art-inspired CanvasTV has hit a new low price</title>
+    <link>https://www.theverge.com/gadgets/905964/hisense-canvastv-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/905964/hisense-canvastv-deal-sale</guid>
+    <pubDate>Thu, 02 Apr 2026 16:31:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>There’s a new smallest e-reader in my life. The Xteink X3 is even smaller and thinner than Xteink’s X4 while also improving on the X4 with refined (but still far from great) software, simplified...</description>
+    <description>Samsung’s releasing a new version of The Frame sometime this year, though the exact date is still unknown and, based on past models, it’s likely to be pricey. If you’d rather not wait or want to...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Google Home’s latest update makes Gemini better at understanding your commands</title>
-    <link>https://www.theverge.com/tech/905805/google-home-gemini-temperature-controls-lighting</link>
-    <guid>https://www.theverge.com/tech/905805/google-home-gemini-temperature-controls-lighting</guid>
-    <pubDate>Thu, 02 Apr 2026 13:30:12 +0000</pubDate>
+    <title>Flipboard just launched Surf, its new social app and feed reader</title>
+    <link>https://www.theverge.com/tech/905929/flipboard-surf-fediverse-launch</link>
+    <guid>https://www.theverge.com/tech/905929/flipboard-surf-fediverse-launch</guid>
+    <pubDate>Thu, 02 Apr 2026 16:06:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google is launching another update to its Home app, which is supposed to make controlling your smart home with its Gemini AI assistant &quot;more natural and reliable,&quot; according to this week&apos;s release...</description>
+    <description>Surf is a slightly hard app to explain. It&apos;s sort of three things: a client for fediverse apps like Bluesky and Mastodon; a feed reader that lets you subscribe to almost any website, podcast, or...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>United adds TSA wait times to its mobile app</title>
-    <link>https://www.theverge.com/tech/905817/united-airlines-app-ios-android-airtag-location-sharing-tsa-line</link>
-    <guid>https://www.theverge.com/tech/905817/united-airlines-app-ios-android-airtag-location-sharing-tsa-line</guid>
-    <pubDate>Thu, 02 Apr 2026 13:29:48 +0000</pubDate>
+    <title>Google now lets you direct avatars through prompts in its Vids app</title>
+    <link>https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/</link>
+    <guid>https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/</guid>
+    <pubDate>Thu, 02 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Google is adding a way to customize and instruct avatars for video creation in the Vids app.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic Says That Claude Contains Its Own Kind of Emotions</title>
+    <link>https://www.wired.com/story/anthropic-claude-research-functional-emotions/</link>
+    <guid>https://www.wired.com/story/anthropic-claude-research-functional-emotions/</guid>
+    <pubDate>Thu, 02 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Researchers at the company found representations inside of Claude that perform functions similar to human feelings.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Create, edit and share videos at no cost in Google Vids</title>
+    <link>https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/</link>
+    <guid>https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/</guid>
+    <pubDate>Thu, 02 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>Google Vids logo surrounded by various video editing UI</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>New York lawmakers want 3D-printer companies to block the creation of ‘ghost guns’</title>
+    <link>https://www.theverge.com/tech/905922/new-york-3d-printed-ghost-gun-ban-luigi-mangione-united-healthcare-shooting</link>
+    <guid>https://www.theverge.com/tech/905922/new-york-3d-printed-ghost-gun-ban-luigi-mangione-united-healthcare-shooting</guid>
+    <pubDate>Thu, 02 Apr 2026 15:47:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you&apos;re flying United Airlines, you&apos;ll now have a better idea of when you need to get to the airport to make your flight. Yesterday the airline announced several updates to its iOS and Android...</description>
+    <description>Governor Kathy Hochul and other New York state lawmakers want 3D-printer companies to block the printing of components used to create &quot;ghost guns&quot; - firearms without serial numbers that can be...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Rising gas prices are good news for EV sales, for now</title>
-    <link>https://www.theverge.com/transportation/905309/rising-gas-prices-are-good-news-for-ev-sales-for-now</link>
-    <guid>https://www.theverge.com/transportation/905309/rising-gas-prices-are-good-news-for-ev-sales-for-now</guid>
-    <pubDate>Thu, 02 Apr 2026 13:20:33 +0000</pubDate>
+    <title>Razer gaming accessories include a $25 Taco Bell gift card at Best Buy</title>
+    <link>https://www.theverge.com/gadgets/905788/razer-taco-bell-best-buy-gaming-mouse-keyboard-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/905788/razer-taco-bell-best-buy-gaming-mouse-keyboard-deal-sale</guid>
+    <pubDate>Thu, 02 Apr 2026 15:40:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It&apos;s become an American truism: Once you buy an SUV, there&apos;s no going back. And our love affair with pickups has been documented in a million country songs and TV commercials. But a brutal spike...</description>
+    <description>Razer is summoning hungry gamers to Best Buy, where shoppers can get a free $25 Taco Bell gift card with the purchase of a gaming accessory today only. A whopping 41 items are eligible, ranging...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Transfer Point is a modern adventure game made with 40-year-old software</title>
-    <link>https://www.theverge.com/entertainment/905339/transfer-point-mac-adventure-game-world-builder</link>
-    <guid>https://www.theverge.com/entertainment/905339/transfer-point-mac-adventure-game-world-builder</guid>
-    <pubDate>Thu, 02 Apr 2026 13:00:00 +0000</pubDate>
+    <title>It’s not easy to get depression-detecting AI through the FDA</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down</guid>
+    <pubDate>Thu, 02 Apr 2026 15:33:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the year&apos;s most intriguing games was developed using software first released 40 years ago. Transfer Point looks and plays like a classic Mac point-and-click adventure game, and there&apos;s a...</description>
+    <description>For the past seven years, the California-based startup Kintsugi has been developing AI designed to detect signs of depression and anxiety from a person&apos;s speech. But after failing to secure FDA...</description>
     <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Despite EV headwinds, Rivian’s sales are up</title>
+    <link>https://www.theverge.com/transportation/905903/despite-ev-headwinds-rivians-sales-are-up</link>
+    <guid>https://www.theverge.com/transportation/905903/despite-ev-headwinds-rivians-sales-are-up</guid>
+    <pubDate>Thu, 02 Apr 2026 15:30:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s rough out there for the pure EV companies, but despite all the challenges, Rivian says its on target for a historic year. Ahead of the launch of the company&apos;s more affordable R2 electric SUV,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>YouTube&amp;#8217;s TV takeover continues with 24/7 streaming ‘Stations’</title>
+    <link>https://www.theverge.com/column/905787/youtube-stations</link>
+    <guid>https://www.theverge.com/column/905787/youtube-stations</guid>
+    <pubDate>Thu, 02 Apr 2026 15:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When Coachella returns to YouTube next week, the music festival will be offering more than just live performances. Viewers will also be able to tune into something YouTube calls Stations - 24/7...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise</title>
+    <link>https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html</link>
+    <guid>https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html</guid>
+    <pubDate>Thu, 02 Apr 2026 15:21:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cisco has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Samsung announces 2026 Frame TVs and the Pro costs less than last year’s</title>
+    <link>https://www.theverge.com/tech/905652/samsung-announces-2026-frame-and-oled-tvs</link>
+    <guid>https://www.theverge.com/tech/905652/samsung-announces-2026-frame-and-oled-tvs</guid>
+    <pubDate>Thu, 02 Apr 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Samsung has announced some more details about The Frame and Frame Pro, and the most interesting news is that this year&apos;s Frame Pro will be a little less expensive across sizes. While last year&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The boring, insidious world of the womanosphere</title>
+    <link>https://www.theverge.com/policy/905871/usha-vance-podcast-storytime-second-lady-katie-miller</link>
+    <guid>https://www.theverge.com/policy/905871/usha-vance-podcast-storytime-second-lady-katie-miller</guid>
+    <pubDate>Thu, 02 Apr 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Usha Vance has a new podcast: Storytime with the Second Lady. It&apos;s exactly what it sounds like. Each episode begins with a brief introduction, after which JD Vance&apos;s wife reads a children&apos;s story....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Tesla’s sales recover slightly, but the trend lines are all bad</title>
+    <link>https://www.theverge.com/transportation/905811/tesla-q1-2026-sales-deliveries-elon-musk</link>
+    <guid>https://www.theverge.com/transportation/905811/tesla-q1-2026-sales-deliveries-elon-musk</guid>
+    <pubDate>Thu, 02 Apr 2026 14:09:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Tesla&apos;s first quarter sales report is out, and depending on how you look at it, the numbers are good but also bad. The company&apos;s sales are up a modest 6 percent year over year, but that&apos;s probably...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion &amp; 10 More Stories</title>
+    <link>https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html</link>
+    <guid>https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html</guid>
+    <pubDate>Thu, 02 Apr 2026 12:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The latest ThreatsDay Bulletin is basically a cheat sheet for everything breaking on the internet right now. No corporate fluff or boring lectures here, just a quick and honest look at the messy...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>The Download: plastic’s problem with fuel prices, and SpaceX’s blockbuster IPO</title>
@@ -168,114 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>In December 2025, we shared the first-ever The State of Trusted Open Source report, featuring insights from our product data and customer base on open source consumption across our catalog of...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Uber expands its $4,000 ‘Go Electric’ grant to drivers nationwide</title>
-    <link>https://www.theverge.com/transportation/905427/uber-go-electric-grant-driver-switch-ev</link>
-    <guid>https://www.theverge.com/transportation/905427/uber-go-electric-grant-driver-switch-ev</guid>
-    <pubDate>Thu, 02 Apr 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Since last year, Uber has been offering drivers in a handful of locations - California, Colorado, Massachusetts and New York City - $4,000 to swap their gas guzzlers for electric vehicles. The...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Insider trading or random guy? It doesn’t matter to Polymarket</title>
-    <link>https://www.theverge.com/business/905466/polymarket-kalshi-sponsored-content-insider-trading-x-influencers</link>
-    <guid>https://www.theverge.com/business/905466/polymarket-kalshi-sponsored-content-insider-trading-x-influencers</guid>
-    <pubDate>Thu, 02 Apr 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In mid-March, conspiracy theories swirled claiming Benjamin Netanyahu had been replaced by an AI clone. Though there was no actual proof that the Israeli Prime Minister had been injured or killed,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Possible US Government iPhone Hacking Tool Leaked</title>
-    <link>https://www.schneier.com/blog/archives/2026/04/possible-us-government-iphone-hacking-tool-leaked.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/04/possible-us-government-iphone-hacking-tool-leaked.html</guid>
-    <pubDate>Thu, 02 Apr 2026 10:05:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Wired writes (alternate source): Security researchers at Google on Tuesday released a report describing what they’re calling “Coruna,” a highly sophisticated iPhone hacking toolkit that includes...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Fuel prices are soaring. Plastic could be next.</title>
-    <link>https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/</link>
-    <guid>https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/</guid>
-    <pubDate>Thu, 02 Apr 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>As the war in Iran continues to engulf the Middle East and the Strait of Hormuz stays closed, one of the most visible global economic ripple effects has been fossil-fuel prices. In particular, you...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action</title>
-    <link>https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html</link>
-    <guid>https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html</guid>
-    <pubDate>Thu, 02 Apr 2026 09:51:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with spyware. According to reports from...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit</title>
-    <link>https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html</link>
-    <guid>https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html</guid>
-    <pubDate>Thu, 02 Apr 2026 07:09:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Apple on Wednesday expanded the availability of iOS 18.7.7 and iPadOS 18.7.7 to a broader range of devices to protect users from the risk posed by a recently disclosed exploit kit known as...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Trump’s birthright citizenship ban may fail — but the administration already got too far</title>
-    <link>https://www.theverge.com/policy/905649/trump-supreme-court-birthright-citizenship-scotus-arguments</link>
-    <guid>https://www.theverge.com/policy/905649/trump-supreme-court-birthright-citizenship-scotus-arguments</guid>
-    <pubDate>Wed, 01 Apr 2026 23:39:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>On Wednesday morning, the Supreme Court heard arguments in Trump v. Barbara, a case challenging President Donald Trump&apos;s 2025 executive order banning birthright citizenship. Justices seemed...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>NASA launches four astronauts toward the Moon on the Artemis II mission</title>
-    <link>https://www.theverge.com/science/904458/nasa-artemis-ii-mission-moon-astronauts</link>
-    <guid>https://www.theverge.com/science/904458/nasa-artemis-ii-mission-moon-astronauts</guid>
-    <pubDate>Wed, 01 Apr 2026 22:44:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>NASA&apos;s Artemis II flight, which is set to take four astronauts toward the Moon for the first time in more than 50 years, successfully launched on Wednesday evening. The Artemis II mission, part of...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident</title>
-    <link>https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/</link>
-    <guid>https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/</guid>
-    <pubDate>Wed, 01 Apr 2026 22:12:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic executives said it was an accident and retracted the bulk of the takedown notices.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Artemis Moon base project is legally dubious</title>
-    <link>https://www.theverge.com/science/905406/artemis-ii-moon-base-law</link>
-    <guid>https://www.theverge.com/science/905406/artemis-ii-moon-base-law</guid>
-    <pubDate>Wed, 01 Apr 2026 19:05:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>With NASA planning to launch four astronauts on Wednesday on its Artemis II mission, the race to return to the Moon is back on. The current mission will see astronauts aboard the Orion capsule...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta’s natural gas binge could power South Dakota</title>
-    <link>https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/</link>
-    <guid>https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/</guid>
-    <pubDate>Wed, 01 Apr 2026 18:35:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta&apos;s upcoming Hyperion AI data center will be powered by 10 new natural gas plants.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>AI Models Lie, Cheat, and Steal to Protect Other Models From Being Deleted</title>
-    <link>https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/</link>
-    <guid>https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/</guid>
-    <pubDate>Wed, 01 Apr 2026 18:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>A new study from researchers at UC Berkeley and UC Santa Cruz suggests models will disobey human commands to protect their own kind.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
