@@ -5,6 +5,7 @@ Fetches RSS feeds, filters stories, and generates a static HTML page.
 """
 
 import html
+import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
