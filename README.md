@@ -43,7 +43,18 @@ cd techInsights
 4. Choose branch: `main`, folder: `/docs`
 5. Click **Save**
 
-### 3. Trigger First Build
+### 3. Enable AI Insight Generation (Optional)
+
+The site now generates the "AI Insight Snapshot" in the browser using Transformers.js.
+
+1. Keep the workflow as a normal static build; no model runtime is required in GitHub Actions.
+2. Build stays fast and deterministic because insights are produced when the page loads in the browser.
+3. Your GitHub-hosted runner no longer needs Node or `@huggingface/transformers` install.
+4. If browser inference fails, fallback text appears and the site still renders correctly.
+
+5. `npm install` is only needed when you want to run local tooling or inspect model files manually.
+
+### 4. Trigger First Build
 
 Either wait for the daily cron job, or manually trigger:
 
@@ -58,7 +69,6 @@ Your site will be live at `https://YOUR_USERNAME.github.io/techInsights/`
 ```bash
 # Install dependencies
 pip install -r requirements.txt
-
 # Build the site
 python scripts/build.py
 

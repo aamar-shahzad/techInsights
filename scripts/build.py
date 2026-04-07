@@ -5,8 +5,8 @@ Fetches RSS feeds, filters stories, and generates a static HTML page.
 """
 
 import html
-import json
 import re
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -60,6 +60,8 @@ TOP_STORIES_COUNT = 10
 PROJECT_ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 OUTPUT_DIR = PROJECT_ROOT / "docs"
+
+LLM_ENABLED = os.getenv("LLM_ENABLED", "false").strip().lower() not in {"false", "0", "no", "off"}
 
 
 def strip_html(text: str) -> str:
@@ -168,6 +170,29 @@ def fetch_category(category: str) -> list[dict]:
     return all_stories[:MAX_STORIES_PER_CATEGORY]
 
 
+def fallback_insights(message: str = "Insights are temporarily unavailable.") -> dict:
+    """Return a structured fallback insight object."""
+    return {
+        "enabled": False,
+        "message": message,
+        "headline": "Insights are currently not available.",
+        "key_trends": [],
+        "quick_takeaways": [],
+        "watch_items": [],
+        "source_count": 0,
+    }
+
+
+def generate_insights(top_stories: list[dict], all_stories: list[dict]) -> dict:
+    """Generate short insight summaries from current stories using Transformers.js."""
+    if not LLM_ENABLED:
+        return fallback_insights("Browser-side AI insight generation is enabled on the page.")
+
+    return fallback_insights(
+        "Build-time AI insight generation is disabled. Use client-side inference in the template."
+    )
+
+
 def build_site():
     """Main build function."""
     print("Building Tech Insights...")
@@ -216,8 +241,22 @@ def build_site():
             break
     
     top_stories.sort(key=lambda x: x["date"], reverse=True)
+    insights = generate_insights(top_stories, all_stories)
+    if not insights.get("enabled"):
+        print(f"LLM insights disabled: {insights.get('message')}")
     
     print(f"\nTop Stories: {len(top_stories)} from last 24 hours (max {max_per_category} per category)")
+
+    serializable_top_stories = [
+        {
+            "title": story["title"],
+            "source": story["source"],
+            "category": story["category"],
+            "category_label": story["category_label"],
+            "time_ago": story["time_ago"],
+        }
+        for story in top_stories
+    ]
 
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     template = env.get_template("page.html")
@@ -225,7 +264,9 @@ def build_site():
     now = datetime.now(timezone.utc)
     html_content = template.render(
         top_stories=top_stories,
+        top_stories_for_model=serializable_top_stories,
         categories=categories_data,
+        insights=insights,
         updated_at=now.strftime("%B %d, %Y at %H:%M UTC"),
         year=now.year,
     )
