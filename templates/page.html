@@ -222,14 +222,11 @@
                 return;
               }
 
-              if (!window.crossOriginIsolated) {
-                // keep UI honest when browser limits worker/thread features
-                renderFallback('Browser context may be limited; continuing with fallback mode.');
-                return;
-              }
-
               setLoadingState(true);
-              statusEl.innerHTML = '<p class="insight-headline">Running local model inference in browser...</p>';
+              const warning = window.crossOriginIsolated
+                ? ''
+                : '<p class="insight-headline">Browser is not cross-origin isolated; running with fallback browser constraints.</p>';
+              statusEl.innerHTML = `${warning}<p class="insight-headline">Running local model inference in browser...</p>`;
 
               const topSummary = stories.slice(0, 6).map((story) => {
                 const source = story.source || 'Unknown source';
