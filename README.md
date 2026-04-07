@@ -48,11 +48,12 @@ cd techInsights
 The site now generates the "AI Insight Snapshot" in the browser using Transformers.js.
 
 1. Keep the workflow as a normal static build; no model runtime is required in GitHub Actions.
-2. Build stays fast and deterministic because insights are produced when the page loads in the browser.
-3. Your GitHub-hosted runner no longer needs Node or `@huggingface/transformers` install.
-4. If browser inference fails, fallback text appears and the site still renders correctly.
+2. Build stays fast and deterministic because insights are produced when a visitor clicks the button in the browser.
+3. Insights are generated **on-demand** using the "Generate AI Insight Snapshot" button.
+4. Your GitHub-hosted runner no longer needs Node or `@huggingface/transformers` install.
+5. If browser inference fails, fallback text appears and the site still renders correctly.
 
-5. `npm install` is only needed when you want to run local tooling or inspect model files manually.
+6. `npm install` is only needed when you want to run local tooling or inspect model files manually.
 
 ### 4. Trigger First Build
 

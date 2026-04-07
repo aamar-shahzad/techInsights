@@ -6,7 +6,6 @@ Fetches RSS feeds, filters stories, and generates a static HTML page.
 
 import html
 import re
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -60,8 +59,6 @@ TOP_STORIES_COUNT = 10
 PROJECT_ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 OUTPUT_DIR = PROJECT_ROOT / "docs"
-
-LLM_ENABLED = os.getenv("LLM_ENABLED", "false").strip().lower() not in {"false", "0", "no", "off"}
 
 
 def strip_html(text: str) -> str:
@@ -185,12 +182,7 @@ def fallback_insights(message: str = "Insights are temporarily unavailable.") ->
 
 def generate_insights(top_stories: list[dict], all_stories: list[dict]) -> dict:
     """Generate short insight summaries from current stories using Transformers.js."""
-    if not LLM_ENABLED:
-        return fallback_insights("Browser-side AI insight generation is enabled on the page.")
-
-    return fallback_insights(
-        "Build-time AI insight generation is disabled. Use client-side inference in the template."
-    )
+    return fallback_insights("Browser-side AI insight generation is enabled on the page.")
 
 
 def build_site():

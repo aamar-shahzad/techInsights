@@ -104,18 +104,23 @@
                 {% if insights and not insights.enabled %}
                 <p class="insight-headline">{{ insights.message }}</p>
                 {% else %}
-                <p class="insight-headline">Generating AI insight snapshot in your browser...</p>
+                <p class="insight-headline">Click "Generate AI Insight Snapshot" to run model inference in your browser.</p>
                 {% endif %}
             </div>
-            <h2 class="insight-title">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                    <polyline points="17 8 12 3 7 8"></polyline>
-                    <line x1="12" y1="3" x2="12" y2="15"></line>
-                </svg>
-                AI Insight Snapshot
-            </h2>
-            <p class="insight-headline" id="insight-headline">AI insights are generated locally after page load.</p>
+            <div class="insight-toolbar">
+                <h2 class="insight-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    AI Insight Snapshot
+                </h2>
+                <button id="insight-generate-button" class="insight-generate-button" type="button">
+                    Generate AI Insight Snapshot
+                </button>
+            </div>
+            <p class="insight-headline" id="insight-headline">AI insight snapshot is ready when you run generation.</p>
 
             <div class="insight-grid">
                 <article class="insight-card">
@@ -158,22 +163,8 @@
             const takeawaysEl = document.getElementById('insight-quick-takeaways');
             const watchEl = document.getElementById('insight-watch-items');
             const metaEl = document.getElementById('insight-meta');
-
-            const stripJsonFence = (text) => {
-              const start = text.indexOf('{');
-              const end = text.lastIndexOf('}');
-              if (start === -1 || end === -1 || end <= start) {
-                throw new Error('No JSON found in model output.');
-              }
-              return text.slice(start, end + 1);
-            };
-
-            const normalizeList = (value) => {
-              if (!Array.isArray(value)) {
-                return [];
-              }
-              return value.map((v) => String(v).trim()).filter(Boolean);
-            };
+            const generateButton = document.getElementById('insight-generate-button');
+            const originalButtonLabel = generateButton ? generateButton.textContent : '';
 
             const setList = (el, list) => {
               if (!el) return;
@@ -191,16 +182,54 @@
               }
             };
 
-            (async () => {
+            const setLoadingState = (isLoading) => {
+              if (!generateButton) {
+                return;
+              }
+              generateButton.disabled = isLoading;
+              generateButton.textContent = isLoading ? 'Generating... this may take a moment' : originalButtonLabel;
+            };
+
+            const renderFallback = (message) => {
+              statusEl.innerHTML = `<p class="insight-headline">${message}</p>`;
+              setList(trendsEl, []);
+              setList(takeawaysEl, []);
+              setList(watchEl, []);
+              metaEl.textContent = 'AI insight fallback mode active.';
+            };
+
+            const stripJsonFence = (text) => {
+              const start = text.indexOf('{');
+              const end = text.lastIndexOf('}');
+              if (start === -1 || end === -1 || end <= start) {
+                throw new Error('No JSON found in model output.');
+              }
+              return text.slice(start, end + 1);
+            };
+
+            const normalizeList = (value) => {
+              if (!Array.isArray(value)) {
+                return [];
+              }
+              return value.map((v) => String(v).trim()).filter(Boolean);
+            };
+
+            let cachedGenerator = null;
+
+            const generateInsights = async () => {
               if (!stories || stories.length === 0) {
-                statusEl.innerHTML = '<p class="insight-headline">No stories available for insight generation.</p>';
+                renderFallback('No stories available for insight generation.');
                 return;
               }
 
               if (!window.crossOriginIsolated) {
                 // keep UI honest when browser limits worker/thread features
-                statusEl.innerHTML = '<p class="insight-headline">Browser context may be limited; continuing with fallback mode.</p>';
+                renderFallback('Browser context may be limited; continuing with fallback mode.');
+                return;
               }
+
+              setLoadingState(true);
+              statusEl.innerHTML = '<p class="insight-headline">Running local model inference in browser...</p>';
 
               const topSummary = stories.slice(0, 6).map((story) => {
                 const source = story.source || 'Unknown source';
@@ -229,10 +258,13 @@
               ].join('\n');
 
               try {
-                const generator = await pipeline('text-generation', 'onnx-community/Qwen2.5-0.5B-Instruct', {
-                  dtype: 'q4',
-                });
-                const out = await generator(prompt, {
+                if (!cachedGenerator) {
+                  cachedGenerator = await pipeline('text-generation', 'onnx-community/Qwen2.5-0.5B-Instruct', {
+                    dtype: 'q4',
+                  });
+                }
+
+                const out = await cachedGenerator(prompt, {
                   max_new_tokens: 500,
                   temperature: 0.3,
                   do_sample: true,
@@ -253,13 +285,15 @@
                 const generatedFor = parsed.generated_for || new Date().toLocaleString();
                 metaEl.textContent = `Generated for ${stories.length} story data points at ${generatedFor}`;
               } catch (err) {
-                statusEl.innerHTML = `<p class="insight-headline">AI insight generation failed: ${String(err.message || err)}</p>`;
-                setList(trendsEl, []);
-                setList(takeawaysEl, []);
-                setList(watchEl, []);
-                metaEl.textContent = 'AI insight fallback mode active.';
+                renderFallback(`AI insight generation failed: ${String(err.message || err)}`);
+              } finally {
+                setLoadingState(false);
               }
-            })();
+            };
+
+            if (generateButton) {
+              generateButton.addEventListener('click', generateInsights);
+            }
         </script>
 
         {% for category in categories %}
