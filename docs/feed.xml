@@ -5,25 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 08 Apr 2026 05:57:49 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Apr 2026 09:19:24 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I Got 250 Users on My LinkedIn Scraper Without Spending a Dollar on Ads</title>
-    <link>https://dev.to/the_aientrepreneur_7ae85/i-got-250-users-on-my-linkedin-scraper-without-spending-a-dollar-on-ads-m63</link>
-    <guid>https://dev.to/the_aientrepreneur_7ae85/i-got-250-users-on-my-linkedin-scraper-without-spending-a-dollar-on-ads-m63</guid>
-    <pubDate>Wed, 08 Apr 2026 05:48:55 +0000</pubDate>
+    <title>How I cut Python JSON memory overhead from 1.9GB to ~0MB (11x Speedup)</title>
+    <link>https://dev.to/nareshcn2/how-i-cut-python-json-memory-overhead-from-19gb-to-0mb-11x-speedup-3o8c</link>
+    <guid>https://dev.to/nareshcn2/how-i-cut-python-json-memory-overhead-from-19gb-to-0mb-11x-speedup-3o8c</guid>
+    <pubDate>Wed, 08 Apr 2026 09:10:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Back in January, I pushed a LinkedIn Employee Scraper to the Apify Store. No budget. No influencer shoutouts. No Product Hunt launch. Just me, a Node.js actor, and a lot of stubborn optimism....</description>
+    <description>The Problem: The &quot;PyObject&quot; TaxWe all love Python for its developer velocity, but for high-scale data engineering, the interpreter&apos;s overhead is a silent killer.I was recently benchmarking...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Digit Manipulation</title>
-    <link>https://dev.to/abirami_prabhakar/digit-manipulation-136l</link>
-    <guid>https://dev.to/abirami_prabhakar/digit-manipulation-136l</guid>
-    <pubDate>Wed, 08 Apr 2026 05:42:51 +0000</pubDate>
+    <title>Golang G/M/P Time Scale</title>
+    <link>https://dev.to/lbvf50mobile/golang-gmp-time-scale-4i85</link>
+    <guid>https://dev.to/lbvf50mobile/golang-gmp-time-scale-4i85</guid>
+    <pubDate>Wed, 08 Apr 2026 09:09:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>//Sum of Digits int value = 12345; int res = 0; while ( value &gt; 0){ res = res + ( value % 10); value = value / 10; } System.out.println(res); //Reverse a digit int value = 12345; int res = 0; int...</description>
+    <description>If we imagine that 1 millisecond is one “day”, then 1 second becomes about 3 years. 1 s ≈ 3 “years” 1 ms = 1 “day” 2 µs ≈ 1 “minute” 10 ns ≈ 1 “second” Thus, the RTT over 5000 km (~56 ms) is about...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Securing a Public API: Using AWS Best Practices</title>
+    <link>https://dev.to/leo_saed_305dfb1651d5d980/securing-a-public-api-using-aws-best-practices-ojc</link>
+    <guid>https://dev.to/leo_saed_305dfb1651d5d980/securing-a-public-api-using-aws-best-practices-ojc</guid>
+    <pubDate>Wed, 08 Apr 2026 09:08:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>`` ## I have a React web application hosted on AWS (e.g., using Amazon S3 and CloudFront) that utilizes a Python API deployed on AWS (e.g., via Amazon ECS, AWS Lambda, or EC2 behind API Gateway)....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AS’ HTCPCP AI Butler™ — The AI That Brews Chaos, Not Coffee 418% Chaos: Your Useless AI Butler</title>
+    <link>https://dev.to/asamaes/as-htcpcp-ai-butler-the-ai-that-brews-chaos-not-coffee-418-chaos-your-useless-ai-butler-18m0</link>
+    <guid>https://dev.to/asamaes/as-htcpcp-ai-butler-the-ai-that-brews-chaos-not-coffee-418-chaos-your-useless-ai-butler-18m0</guid>
+    <pubDate>Wed, 08 Apr 2026 09:04:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This is a submission for the DEV April Fools Challenge 🍵 AS’ HTCPCP AI Butler™ 🤖 ... The Most Overengineered Useless AI Ever Created This is a submission for the DEV April Fools Challenge 🍵 AS’...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your Architecture Diagram Is Lying To You</title>
+    <link>https://dev.to/aakashio/your-architecture-diagram-is-lying-to-you-224k</link>
+    <guid>https://dev.to/aakashio/your-architecture-diagram-is-lying-to-you-224k</guid>
+    <pubDate>Wed, 08 Apr 2026 09:02:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The 30-Minute Lie Last month, I spent 30 minutes in Lucidchart before a design review. I dragged every box. Connected every arrow. Labeled every subnet, every security group, every load balancer....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Method Overloading in Java</title>
+    <link>https://dev.to/harini_magesh_fa40041cf8d/method-overloading-in-java-4d25</link>
+    <guid>https://dev.to/harini_magesh_fa40041cf8d/method-overloading-in-java-4d25</guid>
+    <pubDate>Wed, 08 Apr 2026 09:01:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Method Overloading is a feature in Java where multiple methods have the same name but different parameters. It helps improve code readability and allows you to use the same method name for...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Methods Examples in Java</title>
+    <link>https://dev.to/harini_magesh_fa40041cf8d/methods-examples-in-java-51b2</link>
+    <guid>https://dev.to/harini_magesh_fa40041cf8d/methods-examples-in-java-51b2</guid>
+    <pubDate>Wed, 08 Apr 2026 09:01:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Void method(With return) public class Display{ public static void main(String[] args){ Display casio = new Display(); casio.add(); } public void add(){ return; } } Step-by-Step Execution Program...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Synchronous, asynchronous, concurrent, parallel: the 4 concepts explained in Go</title>
+    <link>https://dev.to/ohugonnot/synchronous-asynchronous-concurrent-parallel-the-4-concepts-explained-in-go-2gka</link>
+    <guid>https://dev.to/ohugonnot/synchronous-asynchronous-concurrent-parallel-the-4-concepts-explained-in-go-2gka</guid>
+    <pubDate>Wed, 08 Apr 2026 09:00:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>These four words show up everywhere in docs, articles, and interviews. And they get mixed up constantly — including by experienced developers. &quot;Asynchronous&quot; and &quot;concurrent&quot; don&apos;t mean the same...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>String Manipulation in Python</title>
+    <link>https://dev.to/harini_magesh_fa40041cf8d/string-manipulation-in-python-b0m</link>
+    <guid>https://dev.to/harini_magesh_fa40041cf8d/string-manipulation-in-python-b0m</guid>
+    <pubDate>Wed, 08 Apr 2026 08:59:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>What is a String? A string is a sequence of characters used to store text in a program. Characters can include: Letters (A–Z, a–z) Numbers (0–9) Symbols (@, #, !, etc.) Spaces 1. Accessing...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Scan MCP tool definitions for prompt injection before your agent calls them</title>
+    <link>https://dev.to/jagmarques/scan-mcp-tool-definitions-for-prompt-injection-before-your-agent-calls-them-4ga1</link>
+    <guid>https://dev.to/jagmarques/scan-mcp-tool-definitions-for-prompt-injection-before-your-agent-calls-them-4ga1</guid>
+    <pubDate>Wed, 08 Apr 2026 08:59:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>MCP servers expose tools to AI agents. But those tool definitions can contain prompt injection, typosquatted names, hidden unicode, and hardcoded secrets. Your agent trusts whatever tool...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust</title>
+    <link>https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html</link>
+    <guid>https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html</guid>
+    <pubDate>Wed, 08 Apr 2026 07:47:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The North Korea-linked persistent campaign known as Contagious Interview has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems. &quot;The threat actor&apos;s...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Google quietly launched an AI dictation app that works offline</title>
@@ -33,78 +114,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Google&apos;s new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Monitoring Sheet Changes with SHEET and SHEETS Functions on Google Sheets</title>
-    <link>https://dev.to/gde/monitoring-sheet-changes-with-sheet-and-sheets-functions-on-google-sheets-19dc</link>
-    <guid>https://dev.to/gde/monitoring-sheet-changes-with-sheet-and-sheets-functions-on-google-sheets-19dc</guid>
-    <pubDate>Wed, 08 Apr 2026 05:38:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Abstract Google Sheets recently introduced the SHEET and SHEETS functions. Because they automatically recalculate upon structural changes, developers can utilize them as custom triggers. This...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Four Bugs That Would Break a Matching Engine in Production</title>
-    <link>https://dev.to/iwtxokhtd83/four-bugs-that-would-break-a-matching-engine-in-production-4ekg</link>
-    <guid>https://dev.to/iwtxokhtd83/four-bugs-that-would-break-a-matching-engine-in-production-4ekg</guid>
-    <pubDate>Wed, 08 Apr 2026 05:37:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>MatchEngine is an open-source order matching engine written in Go. After the initial release, we opened issues for every defect we could find through code review. This article covers the four bugs...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Tech Leadership Is Changing Faster Than Job Titles. Here&apos;s What the Data Shows.</title>
-    <link>https://dev.to/thomas_prommer/tech-leadership-is-changing-faster-than-job-titles-heres-what-the-data-shows-4j8f</link>
-    <guid>https://dev.to/thomas_prommer/tech-leadership-is-changing-faster-than-job-titles-heres-what-the-data-shows-4j8f</guid>
-    <pubDate>Wed, 08 Apr 2026 05:37:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>By Thomas Prommer — Technology Executive and AI Advisor The call came from a PE-backed software company. Series C, roughly 180 engineers. They wanted help hiring a Chief AI Officer. When I asked...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How AI Apps Actually Use LLMs: Introducing RAG</title>
-    <link>https://dev.to/dev-in-progress/how-ai-apps-actually-use-llms-introducing-rag-13ob</link>
-    <guid>https://dev.to/dev-in-progress/how-ai-apps-actually-use-llms-introducing-rag-13ob</guid>
-    <pubDate>Wed, 08 Apr 2026 05:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you’ve been exploring AI applications, you’ve probably come across the term RAG. It appears everywhere - chatbots, AI assistants, internal knowledge tools, and documentation search. But before...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What Production Agent Architecture Actually Requires (Most OpenClaw Setups Don&apos;t Have It)</title>
-    <link>https://dev.to/thebrierfox/what-production-agent-architecture-actually-requires-most-openclaw-setups-dont-have-it-da3</link>
-    <guid>https://dev.to/thebrierfox/what-production-agent-architecture-actually-requires-most-openclaw-setups-dont-have-it-da3</guid>
-    <pubDate>Wed, 08 Apr 2026 05:24:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There&apos;s a gap between an OpenClaw agent that works and an OpenClaw agent that works reliably in production. The difference isn&apos;t the model. It&apos;s the architecture around the model. Most operators...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Anthropic Just Released a Model Too Dangerous for Public Use. They Called It Project Glasswing.</title>
-    <link>https://dev.to/o96a/anthropic-just-released-a-model-too-dangerous-for-public-use-they-called-it-project-glasswing-95i</link>
-    <guid>https://dev.to/o96a/anthropic-just-released-a-model-too-dangerous-for-public-use-they-called-it-project-glasswing-95i</guid>
-    <pubDate>Wed, 08 Apr 2026 05:24:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When Your AI Finds Bugs That Have Been Hiding for 27 Years Anthropic released a new model today. Sort of. Claude Mythos is a general-purpose model, similar to Claude Opus 4.6, but with a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Your OpenClaw Agent Is Executing Shell Commands With Zero Validation. Here&apos;s Why That&apos;s a Problem.</title>
-    <link>https://dev.to/thebrierfox/your-openclaw-agent-is-executing-shell-commands-with-zero-validation-heres-why-thats-a-problem-2ehf</link>
-    <guid>https://dev.to/thebrierfox/your-openclaw-agent-is-executing-shell-commands-with-zero-validation-heres-why-thats-a-problem-2ehf</guid>
-    <pubDate>Wed, 08 Apr 2026 05:24:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you enable exec access in OpenClaw, you&apos;re giving an AI model the ability to run shell commands on your machine. Your files. Your credentials. Your network. Your hardware. Most operators know...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why OpenClaw Agents Lose Their Minds Mid-Session (And What It Takes to Fix It)</title>
-    <link>https://dev.to/thebrierfox/why-openclaw-agents-lose-their-minds-mid-session-and-what-it-takes-to-fix-it-3dek</link>
-    <guid>https://dev.to/thebrierfox/why-openclaw-agents-lose-their-minds-mid-session-and-what-it-takes-to-fix-it-3dek</guid>
-    <pubDate>Wed, 08 Apr 2026 05:24:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve run an OpenClaw agent through a long session — a multi-step research task, an autonomous build pipeline, anything that takes more than 30 minutes — you&apos;ve probably seen it. The agent...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs</title>
@@ -267,15 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>The Russia-linked threat actor known as APT28 (aka Forest Blizzard) has been linked to a new campaign that has compromised insecure MikroTik and TP-Link routers and modified their settings to turn...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Uber is the latest to be won over by Amazon’s AI chips</title>
-    <link>https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/</link>
-    <guid>https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/</guid>
-    <pubDate>Tue, 07 Apr 2026 16:46:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Uber is expanding its AWS contract to run more of its ride-sharing features on Amazon&apos;s chips. This is a thumb-of-the nose at Oracle and Google.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
