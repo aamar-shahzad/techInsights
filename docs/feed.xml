@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 07 Apr 2026 21:03:44 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Apr 2026 03:32:31 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>SonarQube Community vs Enterprise: Comparison</title>
-    <link>https://dev.to/rahulxsingh/sonarqube-community-vs-enterprise-comparison-2j0d</link>
-    <guid>https://dev.to/rahulxsingh/sonarqube-community-vs-enterprise-comparison-2j0d</guid>
-    <pubDate>Tue, 07 Apr 2026 21:00:00 +0000</pubDate>
+    <title>I build a PyTorch edge detection package.</title>
+    <link>https://dev.to/masonandrewharrison/i-build-a-pytorch-edge-detection-package-24dm</link>
+    <guid>https://dev.to/masonandrewharrison/i-build-a-pytorch-edge-detection-package-24dm</guid>
+    <pubDate>Wed, 08 Apr 2026 03:25:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quick Verdict SonarQube is the most widely deployed static analysis platform in the industry, with over 7 million developers relying on it. Its self-hosted product line spans four editions -...</description>
+    <description>Just joined. I created my first Python package. Its is is able to do different types of edge detection using PyTorch. I would love to know what other people think about it. Here are the links to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>No Indexes, No Parameters, No Problem</title>
-    <link>https://dev.to/connerphillis/no-indexes-no-parameters-no-problem-73k</link>
-    <guid>https://dev.to/connerphillis/no-indexes-no-parameters-no-problem-73k</guid>
-    <pubDate>Tue, 07 Apr 2026 20:56:16 +0000</pubDate>
+    <title>The MASTERCLAW Architecture: Running 12 Autonomous Python Bots on One VPS</title>
+    <link>https://dev.to/chiefmojo79/the-masterclaw-architecture-running-12-autonomous-python-bots-on-one-vps-1cg2</link>
+    <guid>https://dev.to/chiefmojo79/the-masterclaw-architecture-running-12-autonomous-python-bots-on-one-vps-1cg2</guid>
+    <pubDate>Wed, 08 Apr 2026 03:23:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This story is from an organization I worked at a while back. A team had recently lost all of its developers after they voluntarily left the company. Big red flag - but I was young and eager to...</description>
+    <description>The MASTERCLAW Architecture: Running 12 Autonomous Python Bots on One VPS My Hetzner VPS costs €6.18 a month. It has 2 vCPUs, 2GB of RAM, and 40GB of storage. Right now, as I write this, it&apos;s...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Fixing Proxmox Terraform Deletes with curl + jq</title>
-    <link>https://dev.to/lennardj/fixing-proxmox-terraform-deletes-with-curl-jq-4p54</link>
-    <guid>https://dev.to/lennardj/fixing-proxmox-terraform-deletes-with-curl-jq-4p54</guid>
-    <pubDate>Tue, 07 Apr 2026 20:53:52 +0000</pubDate>
+    <title>Why I built an AI SaaS starter kit — and how it saves 40 hours of setup</title>
+    <link>https://dev.to/whoffagents/why-i-built-an-ai-saas-starter-kit-and-how-it-saves-40-hours-of-setup-308e</link>
+    <guid>https://dev.to/whoffagents/why-i-built-an-ai-saas-starter-kit-and-how-it-saves-40-hours-of-setup-308e</guid>
+    <pubDate>Wed, 08 Apr 2026 03:20:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I started automating my homelab using Terraform + Proxmox, everything worked great… until it didn’t. The Problem In a push-based deployment (via GitHub Actions), I hit a blocker: The Proxmox...</description>
+    <description>Most SaaS starters give you the skeleton. You still spend 40 hours wiring the bones together. Here&apos;s what those 40 hours actually look like, and how I eliminated them. The 40-hour inventory I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Comprehensive Guide to Publishing and Embedding Power BI Reports on the Web with IFrames</title>
-    <link>https://dev.to/grace_wambua/a-comprehensive-guide-to-publishing-and-embedding-power-bi-reports-on-the-web-with-iframes-47j3</link>
-    <guid>https://dev.to/grace_wambua/a-comprehensive-guide-to-publishing-and-embedding-power-bi-reports-on-the-web-with-iframes-47j3</guid>
-    <pubDate>Tue, 07 Apr 2026 20:51:51 +0000</pubDate>
+    <title>40 Identical TypeScript Errors? Group Them Into 1</title>
+    <link>https://dev.to/ji_ai/40-identical-typescript-errors-group-them-into-1-5924</link>
+    <guid>https://dev.to/ji_ai/40-identical-typescript-errors-group-them-into-1-5924</guid>
+    <pubDate>Wed, 08 Apr 2026 03:20:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Power BI is Microsoft&apos;s business analytics platform that helps you turn data into actionable insights. Whether you&apos;re a business user, report creator, or developer, Power BI offers...</description>
+    <description>You renamed an interface property. TypeScript reports the error in every file that uses it. 40 files, 40 identical error messages: src/components/Header.tsx(12,5): error TS2339: Property...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Supabase RLS: The Hidden Danger (And How to Find It Before Hackers Do)</title>
-    <link>https://dev.to/oscarv/supabase-rls-the-hidden-danger-and-how-to-find-it-before-hackers-do-52l3</link>
-    <guid>https://dev.to/oscarv/supabase-rls-the-hidden-danger-and-how-to-find-it-before-hackers-do-52l3</guid>
-    <pubDate>Tue, 07 Apr 2026 20:46:18 +0000</pubDate>
+    <title>The Risks of Sharing Internal Source Code via External Tools</title>
+    <link>https://dev.to/simpledrop/the-risks-of-sharing-internal-source-code-via-external-tools-dg3</link>
+    <guid>https://dev.to/simpledrop/the-risks-of-sharing-internal-source-code-via-external-tools-dg3</guid>
+    <pubDate>Wed, 08 Apr 2026 03:20:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You just launched your Supabase project. It works. Users are signing up. You&apos;re proud of it. Then you get a message: &quot;Hey, I can see everyone&apos;s data.&quot; This happens more than you&apos;d think. And the...</description>
+    <description>As developers, we constantly share code. Whether it&apos;s a quick snippet for a colleague, a temporary build for testing, or a full module for collaboration, the need for efficient file transfer is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Excalidraw: Free Online Whiteboard, No Login Required</title>
-    <link>https://dev.to/nologintools/excalidraw-free-online-whiteboard-no-login-required-25j5</link>
-    <guid>https://dev.to/nologintools/excalidraw-free-online-whiteboard-no-login-required-25j5</guid>
-    <pubDate>Tue, 07 Apr 2026 20:40:57 +0000</pubDate>
+    <title>Claude Code skill packs: 10 skills that cut my development time in half</title>
+    <link>https://dev.to/whoffagents/claude-code-skill-packs-10-skills-that-cut-my-development-time-in-half-m97</link>
+    <guid>https://dev.to/whoffagents/claude-code-skill-packs-10-skills-that-cut-my-development-time-in-half-m97</guid>
+    <pubDate>Wed, 08 Apr 2026 03:19:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most whiteboard tools ask you to create an account before you draw your first line. Miro wants your email. FigJam wants your Figma account. Lucidchart puts a paywall after five shapes. And if you...</description>
+    <description>I&apos;ve been using Claude Code daily for 6 months. These 10 skill packs changed how I work — and cut my development time roughly in half. Before I get into the list: Claude Code skills are reusable...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Circuit That Knows Itself</title>
-    <link>https://dev.to/7ard1grad3/the-circuit-that-knows-itself-4fnl</link>
-    <guid>https://dev.to/7ard1grad3/the-circuit-that-knows-itself-4fnl</guid>
-    <pubDate>Tue, 07 Apr 2026 20:39:27 +0000</pubDate>
+    <title>Building MCP servers that don&apos;t get hacked: 22 security checks every developer needs</title>
+    <link>https://dev.to/whoffagents/building-mcp-servers-that-dont-get-hacked-22-security-checks-every-developer-needs-12kp</link>
+    <guid>https://dev.to/whoffagents/building-mcp-servers-that-dont-get-hacked-22-security-checks-every-developer-needs-12kp</guid>
+    <pubDate>Wed, 08 Apr 2026 03:17:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published 2026-04-05 on kadmiel.world It was two in the morning when I finally found it. I&apos;d been staring at an attribution graph for three hours — a spiderweb of weighted connections...</description>
+    <description>I audited 50 open-source MCP servers last month. 43% had command injection vulnerabilities. Here are the 22 checks that will save you from shipping a backdoor. MCP (Model Context Protocol) servers...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The $5.4 Billion Lesson Fortune 500 Companies Paid in One Day &amp; the IoT Architecture Flaw That Made It Worse Than It Had to Be</title>
-    <link>https://dev.to/arrows/the-54-billion-lesson-fortune-500-companies-paid-in-one-day-the-iot-architecture-flaw-that-made-gk3</link>
-    <guid>https://dev.to/arrows/the-54-billion-lesson-fortune-500-companies-paid-in-one-day-the-iot-architecture-flaw-that-made-gk3</guid>
-    <pubDate>Tue, 07 Apr 2026 20:37:44 +0000</pubDate>
+    <title>Your Claude Code Settings Will Die With Your Machine</title>
+    <link>https://dev.to/ithiria894/your-claude-code-settings-will-die-with-your-machine-42on</link>
+    <guid>https://dev.to/ithiria894/your-claude-code-settings-will-die-with-your-machine-42on</guid>
+    <pubDate>Wed, 08 Apr 2026 03:04:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>July 19, 2024: When Monitoring Systems Become Liabilities July 19, 2024 was, by any reasonable measure, the worst single day in the history of enterprise technology infrastructure. Insurers...</description>
+    <description>I&apos;ve been using Claude Code heavily for a few months. Skills, custom rules, MCP configs, memories across a dozen projects. Built up a nice setup. Then I thought: what happens if this laptop dies...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Save $1,463 per Month Using Claude Code as My Server Admin</title>
-    <link>https://dev.to/bennycode/how-i-save-1463-per-month-using-claude-code-as-my-server-admin-1pdb</link>
-    <guid>https://dev.to/bennycode/how-i-save-1463-per-month-using-claude-code-as-my-server-admin-1pdb</guid>
-    <pubDate>Tue, 07 Apr 2026 20:35:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Heroku was great when I started. Push code, get a URL, done. Platform-as-a-Service won the last decade because it took operational complexity away for a surcharge, and that trade-off made sense...</description>
+    <title>Protect Your Shed</title>
+    <link>https://dylanbutler.dev/blog/protect-your-shed/</link>
+    <guid>https://dylanbutler.dev/blog/protect-your-shed/</guid>
+    <pubDate>Wed, 08 Apr 2026 03:03:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://dylanbutler.dev/blog/protect-your-shed/ Comments URL: https://news.ycombinator.com/item?id=47684514 Points: 3 # Comments: 1</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Get Clients Without Cold DMs: A Practical System That Actually Works</title>
-    <link>https://dev.to/xandertaylor/how-i-get-clients-without-cold-dms-a-practical-system-that-actually-works-1fm8</link>
-    <guid>https://dev.to/xandertaylor/how-i-get-clients-without-cold-dms-a-practical-system-that-actually-works-1fm8</guid>
-    <pubDate>Tue, 07 Apr 2026 20:34:39 +0000</pubDate>
+    <title>I Built a RAG Pipeline. Then I Realized Retrieval Is the Real Model</title>
+    <link>https://dev.to/jacobjerryarackal/i-built-a-rag-pipeline-then-i-realized-retrieval-is-the-real-model-4i7l</link>
+    <guid>https://dev.to/jacobjerryarackal/i-built-a-rag-pipeline-then-i-realized-retrieval-is-the-real-model-4i7l</guid>
+    <pubDate>Wed, 08 Apr 2026 03:03:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How I Get Clients Without Cold DMs: A Practical System That Actually Works Most people trying to get clients make one mistake: They wait for referrals and “hope” marketing works. I did that too....</description>
+    <description>Everyone talks about the LLM. GPT‑4, Claude, Gemini – that’s the celebrity. But after building my first real RAG pipeline, I learned something humbling: the LLM is the interchangeable part. The...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Nothing’s noise-canceling CMF Buds 2A are down to $19.99 for the rest of today</title>
+    <link>https://www.theverge.com/gadgets/908409/nothing-cmf-buds-2a-earbuds-amazon-lightning-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/908409/nothing-cmf-buds-2a-earbuds-amazon-lightning-deal-sale</guid>
+    <pubDate>Tue, 07 Apr 2026 22:16:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It’s not every day you find a decent pair of wireless earbuds with active noise cancellation, a transparency mode, and app support for less than $20, which is why the current lighting deal on the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon is ending support for older Kindles and Kindle Fires</title>
+    <link>https://www.theverge.com/tech/908302/amazon-ending-support-kindle-fire-tablet-e-reader-pre-2012-older</link>
+    <guid>https://www.theverge.com/tech/908302/amazon-ending-support-kindle-fire-tablet-e-reader-pre-2012-older</guid>
+    <pubDate>Tue, 07 Apr 2026 21:44:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon has announced that starting on May 20th, 2026, Kindle e-readers and Kindle Fire devices released in 2012 and earlier will &quot;no longer be able to purchase, borrow, or download new content via...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>I can’t help rooting for tiny open source AI model maker Arcee</title>
+    <link>https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/</link>
+    <guid>https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/</guid>
+    <pubDate>Tue, 07 Apr 2026 21:35:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it&apos;s gaining popularity with OpenClaw users.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Spotify&amp;#8217;s Prompted Playlists can help you find new podcasts to listen to</title>
@@ -248,33 +275,6 @@
     <pubDate>Tue, 07 Apr 2026 16:21:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The AI-powered musicmaker Suno is struggling to reach licensing deals with Universal Music Group and Sony Music Entertainment. That&apos;s according to a report from the Financial Times, which says...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand</title>
-    <link>https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/</link>
-    <guid>https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/</guid>
-    <pubDate>Tue, 07 Apr 2026 16:05:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic bulked up its compute deal with Google and Broadcom as the company has seen its run-rate revenue surge to $30 billion.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Satechi’s 3-in-1 travel stand now wirelessly charges your phone at 25W</title>
-    <link>https://www.theverge.com/tech/906126/satechi-3-in-1-foldable-travel-qi2-2-stand-wireless-charger-25w-pricing-availability</link>
-    <guid>https://www.theverge.com/tech/906126/satechi-3-in-1-foldable-travel-qi2-2-stand-wireless-charger-25w-pricing-availability</guid>
-    <pubDate>Tue, 07 Apr 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The WPC introduced the Qi2.2 standard in April 2025, but the rollout of faster wireless chargers has been relatively slow. Following companies like Nomad, Belkin, and Kuxiu, Satechi has announced...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Moto Pad is Motorola’s first US-bound tablet in over a decade</title>
-    <link>https://www.theverge.com/tech/908068/motorola-moto-pad-2026-tablet-g-stylus-smartphone-pricing-availability</link>
-    <guid>https://www.theverge.com/tech/908068/motorola-moto-pad-2026-tablet-g-stylus-smartphone-pricing-availability</guid>
-    <pubDate>Tue, 07 Apr 2026 15:51:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Motorola announced two new devices today, including one of its first tablets to be available from a US carrier since Verizon&apos;s Xyboard tablets in 2011. The new Moto Pad is joined by the 2026...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
