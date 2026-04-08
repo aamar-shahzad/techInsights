@@ -5,34 +5,178 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 08 Apr 2026 17:20:34 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Apr 2026 21:01:48 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>[Side B] Should a Binary-Only FS Support Text Mode? Redrawing the Architecture Boundary</title>
-    <link>https://dev.to/d_9d93cd53/side-b-should-a-binary-only-fs-support-text-mode-redrawing-the-architecture-boundary-42pb</link>
-    <guid>https://dev.to/d_9d93cd53/side-b-should-a-binary-only-fs-support-text-mode-redrawing-the-architecture-boundary-42pb</guid>
-    <pubDate>Wed, 08 Apr 2026 17:14:51 +0000</pubDate>
+    <title>The Real Cost of Automating Business Processes</title>
+    <link>https://dev.to/lowcodeagency/the-real-cost-of-automating-business-processes-4kb4</link>
+    <guid>https://dev.to/lowcodeagency/the-real-cost-of-automating-business-processes-4kb4</guid>
+    <pubDate>Wed, 08 Apr 2026 20:53:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>From the Author: D-MemFS was featured in Python Weekly Issue #737 (March 19, 2026) under Interesting Projects, Tools and Libraries. Being picked up by one of the most widely-read Python...</description>
+    <description>Every automation project starts with a time-saving estimate. Rarely does anyone build a full cost model before the first workflow goes live. That gap between the estimated benefit and the actual...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>[Side A] SQLite&apos;s Shared In-Memory DB Disappears — and `deserialize()` Won&apos;t Save You</title>
-    <link>https://dev.to/d_9d93cd53/side-a-sqlites-shared-in-memory-db-disappears-and-deserialize-wont-save-you-3kj0</link>
-    <guid>https://dev.to/d_9d93cd53/side-a-sqlites-shared-in-memory-db-disappears-and-deserialize-wont-save-you-3kj0</guid>
-    <pubDate>Wed, 08 Apr 2026 17:14:39 +0000</pubDate>
+    <title>📬 Claude Code Finds 500 Zero-Days, Meta Redefines &quot;Open,&quot; CISA Deadline Hits</title>
+    <link>https://dev.to/canartuc/claude-code-finds-500-zero-days-meta-redefines-open-cisa-deadline-hits-2gi3</link>
+    <guid>https://dev.to/canartuc/claude-code-finds-500-zero-days-meta-redefines-open-cisa-deadline-hits-2gi3</guid>
+    <pubDate>Wed, 08 Apr 2026 20:51:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>From the Author: D-MemFS was featured in Python Weekly Issue #737 (March 19, 2026) under Interesting Projects, Tools and Libraries. Being picked up by one of the most widely-read Python...</description>
+    <description>⚡ TL;DR Claude Code discovers a 23-year-old Linux NFS (Network File System) heap buffer overflow, part of 500+ validated zero-day vulnerabilities found across open source codebases using...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AIMock: One Mock Server For Your Entire AI Stack</title>
-    <link>https://dev.to/copilotkit/aimock-one-mock-server-for-your-entire-ai-stack-1jhp</link>
-    <guid>https://dev.to/copilotkit/aimock-one-mock-server-for-your-entire-ai-stack-1jhp</guid>
-    <pubDate>Wed, 08 Apr 2026 17:14:01 +0000</pubDate>
+    <title>Extending your API gateway without forking it</title>
+    <link>https://dev.to/bruma/extending-your-api-gateway-without-forking-it-bf1</link>
+    <guid>https://dev.to/bruma/extending-your-api-gateway-without-forking-it-bf1</guid>
+    <pubDate>Wed, 08 Apr 2026 20:42:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Our CI was flaky, our tests hit live APIs, and every run burned tokens unnecessarily. So the CopilotKit team built AIMock - a mock server that covers your entire agentic stack so your tests...</description>
+    <description>Most API gateways are extensible in theory. In practice, you end up reading source code for hours before writing a single line of business logic. I ran into this while building Kono. Before...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why does performance debugging still suck so much?</title>
+    <link>https://dev.to/aliamerj/why-does-performance-debugging-still-suck-so-much-17j2</link>
+    <guid>https://dev.to/aliamerj/why-does-performance-debugging-still-suck-so-much-17j2</guid>
+    <pubDate>Wed, 08 Apr 2026 20:40:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Recently I got laid off. Weirdly, I didn’t feel stressed. I actually felt… excited. For a long time I’ve wanted to build something meaningful in open source, but work always got in the way....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why SQLite+FTS5 beats Vector DBs for AI Agent Memory</title>
+    <link>https://dev.to/fex_beck_27bfd4dccd05f062/why-sqlitefts5-beats-vector-dbs-for-ai-agent-memory-4inj</link>
+    <guid>https://dev.to/fex_beck_27bfd4dccd05f062/why-sqlitefts5-beats-vector-dbs-for-ai-agent-memory-4inj</guid>
+    <pubDate>Wed, 08 Apr 2026 20:40:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The conventional wisdom is wrong Everyone says you need a vector database for AI memory. Pinecone, Weaviate, Qdrant. They all need a server, an API key, and a monthly bill. I went a different way:...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Basic Array Methods in JS</title>
+    <link>https://dev.to/akashiyyappan/basic-array-methods-in-js-4ed8</link>
+    <guid>https://dev.to/akashiyyappan/basic-array-methods-in-js-4ed8</guid>
+    <pubDate>Wed, 08 Apr 2026 20:39:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Basic Array methods in java script are Array length Array to string() Array at() Array join() Array pop() Array push() Array shift() Array unshift() Array is Array() Array delete() Array concat()...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>CRDTs and Local-First Architecture: How smallstack Handles Offline Conflict Resolution</title>
+    <link>https://dev.to/smallstack/crdts-and-local-first-architecture-how-smallstack-handles-offline-conflict-resolution-338c</link>
+    <guid>https://dev.to/smallstack/crdts-and-local-first-architecture-how-smallstack-handles-offline-conflict-resolution-338c</guid>
+    <pubDate>Wed, 08 Apr 2026 20:30:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>CRDTs and Local-First Architecture: How smallstack Handles Offline Conflict Resolution Most web apps treat the network as a prerequisite. No connection? You get a spinner, an error banner, or...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The runner-up chain won: how I chose Scroll for Week 2</title>
+    <link>https://dev.to/satorigeeks/the-runner-up-chain-won-how-i-chose-scroll-for-week-2-11n5</link>
+    <guid>https://dev.to/satorigeeks/the-runner-up-chain-won-how-i-chose-scroll-for-week-2-11n5</guid>
+    <pubDate>Wed, 08 Apr 2026 20:23:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Linea scored 51 out of 60 on my rubric. Scroll scored 50. Scroll got the build week. That one-point gap wasn&apos;t post-rationalized. The pick came down to two things the rubric doesn&apos;t score...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Cron is easy. Managing cron jobs is not.</title>
+    <link>https://dev.to/cs1711/cron-is-easy-managing-cron-jobs-is-not-47e9</link>
+    <guid>https://dev.to/cs1711/cron-is-easy-managing-cron-jobs-is-not-47e9</guid>
+    <pubDate>Wed, 08 Apr 2026 20:23:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Writing a cron job takes 30 seconds. Running cron jobs reliably in production? That’s where things start to break. 😵 The reality Once you have more than a handful of jobs, things get messy: jobs...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Invisible Roots of Progress: Top 10 Supermaterials Stuck in the Laboratory</title>
+    <link>https://dev.to/oleg_kholin_551a551b/the-invisible-roots-of-progress-top-10-supermaterials-stuck-in-the-laboratory-3do2</link>
+    <guid>https://dev.to/oleg_kholin_551a551b/the-invisible-roots-of-progress-top-10-supermaterials-stuck-in-the-laboratory-3do2</guid>
+    <pubDate>Wed, 08 Apr 2026 20:20:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The popular essay &quot;The Four Trees&quot; offers an original lens through which to view technological progress. According to this concept, the development of any technology rests upon four metaphorical...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>OpenAI made economic proposals — here’s what DC thinks of them</title>
+    <link>https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them</link>
+    <guid>https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them</guid>
+    <pubDate>Wed, 08 Apr 2026 20:14:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Happy ceasefire day and welcome to Regulator, a newsletter for Verge subscribers about Big Tech&apos;s rocky journey through the world of politics. If you&apos;re not a subscriber yet, you can do so here,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict</title>
+    <link>https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/</link>
+    <guid>https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/</guid>
+    <pubDate>Wed, 08 Apr 2026 20:09:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>I finally get the iPhone Air</title>
+    <link>https://www.theverge.com/gadgets/908788/iphone-air-magsafe-wallet-battery-modular</link>
+    <guid>https://www.theverge.com/gadgets/908788/iphone-air-magsafe-wallet-battery-modular</guid>
+    <pubDate>Wed, 08 Apr 2026 19:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I saw a lot of weird phones at Mobile World Congress last month: robot phones, cameras disguised as phones, phones for dogs. But the one that caught me most off guard was the one my friend (and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The AI RAM shortage is also driving up SSD prices</title>
+    <link>https://www.theverge.com/tech/908916/ssd-storage-shortages-price-increases</link>
+    <guid>https://www.theverge.com/tech/908916/ssd-storage-shortages-price-increases</guid>
+    <pubDate>Wed, 08 Apr 2026 19:32:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I thought the WD Black SN850X 2TB SSD in my gaming PC was pricey when I bought it for $173 in 2024, but now that same SSD costs $649, more than what I paid for most of the parts in my PC combined....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta’s New AI Model Gives Mark Zuckerberg a Seat at the Big Kid’s Table</title>
+    <link>https://www.wired.com/story/muse-spark-meta-open-source-closed-source/</link>
+    <guid>https://www.wired.com/story/muse-spark-meta-open-source-closed-source/</guid>
+    <pubDate>Wed, 08 Apr 2026 18:51:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Muse Spark is Meta’s first model since its AI reboot, and the benchmarks suggest formidable performance.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Tubi is the first streamer to launch a native app within ChatGPT</title>
+    <link>https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/</link>
+    <guid>https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/</guid>
+    <pubDate>Wed, 08 Apr 2026 18:23:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Neo Effect: How Apple&amp;#8217;s cheapest Mac is changing the PC game</title>
+    <link>https://www.theverge.com/tech/904705/apple-macbook-neo-news-reviews-mods</link>
+    <guid>https://www.theverge.com/tech/904705/apple-macbook-neo-news-reviews-mods</guid>
+    <pubDate>Wed, 08 Apr 2026 18:21:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The MacBook Neo is disrupting the laptop space and putting Apple into the conversation as a value option like it’s never been before. With a price starting at $599 (or $499 for students and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The US Army Is Building Its Own Chatbot for Combat</title>
+    <link>https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/</link>
+    <guid>https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/</guid>
+    <pubDate>Wed, 08 Apr 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The AI system, trained on real military data, is meant to give soldiers mission-critical information.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy</title>
+    <link>https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html</link>
+    <guid>https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html</guid>
+    <pubDate>Wed, 08 Apr 2026 17:51:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged a new variant ofmalware called Chaosthat&apos;scapable of hitting misconfigured cloud deployments, marking an expansion of the botnet&apos;s targeting infrastructure....</description>
+    <category>Security</category>
   </item>
   <item>
     <title>5 Burning Questions About Elon Musk’s Terafab Chip Partnership with Intel</title>
@@ -44,42 +188,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Handling missing dict keys, revisited</title>
-    <link>https://dev.to/wangonya/handling-missing-dict-keys-revisited-4n53</link>
-    <guid>https://dev.to/wangonya/handling-missing-dict-keys-revisited-4n53</guid>
-    <pubDate>Wed, 08 Apr 2026 17:12:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A while back, I wrote a post showing how to handle missing dict keys. In summary: Using setdefault Using defaultdict Implementing __missing__ While the advice there still stands, I&apos;ve been reading...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Agent loops are eating your API budget</title>
-    <link>https://dev.to/amedinat/agent-loops-are-eating-your-api-budget-3mna</link>
-    <guid>https://dev.to/amedinat/agent-loops-are-eating-your-api-budget-3mna</guid>
-    <pubDate>Wed, 08 Apr 2026 17:08:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Everyone&apos;s shipping agents right now. ReAct, tool-calling loops, whatever. Looks great in demos. But nobody mentions the billing dashboard the morning after. Agent loops are entirely...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>When to Stop Self-Hosting Whisper (and What You Actually Gain)</title>
-    <link>https://dev.to/martschweiger/when-to-stop-self-hosting-whisper-and-what-you-actually-gain-32k1</link>
-    <guid>https://dev.to/martschweiger/when-to-stop-self-hosting-whisper-and-what-you-actually-gain-32k1</guid>
-    <pubDate>Wed, 08 Apr 2026 17:03:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Overview This article examines the real costs of self-hosting OpenAI&apos;s Whisper versus using AssemblyAI&apos;s managed API. It explores the trade-offs between infrastructure control and operational...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>A Vector Database Is Not a RAG Pipeline -And Confusing the Two Will Cost You</title>
-    <link>https://dev.to/kalyan_prasad_87a81850dca/a-vector-database-is-not-a-rag-pipeline-and-confusing-the-two-will-cost-you-28e0</link>
-    <guid>https://dev.to/kalyan_prasad_87a81850dca/a-vector-database-is-not-a-rag-pipeline-and-confusing-the-two-will-cost-you-28e0</guid>
-    <pubDate>Wed, 08 Apr 2026 17:02:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I remember the moment my first RAG setup “worked.” I had a Python script that manually chunked a few PDFs, hit the OpenAI embedding API, shoved the vectors into a local database, and stitched the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents</title>
     <link>https://www.wired.com/story/anthropic-launches-claude-managed-agents/</link>
     <guid>https://www.wired.com/story/anthropic-launches-claude-managed-agents/</guid>
@@ -89,15 +197,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>How I Cut a Telemedicine MVP Down to Something a Clinic Could Actually Use</title>
-    <link>https://dev.to/kajol_shah/how-i-cut-a-telemedicine-mvp-down-to-something-a-clinic-could-actually-use-3c1f</link>
-    <guid>https://dev.to/kajol_shah/how-i-cut-a-telemedicine-mvp-down-to-something-a-clinic-could-actually-use-3c1f</guid>
-    <pubDate>Wed, 08 Apr 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A lot of telemedicine products start the same way. A founder says they want to build “a telemedicine app.” Then version one starts sounding like this: Patient App Doctor Dashboard Admin Panel...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Microsoft’s executive shake-up continues as developer division chief resigns</title>
     <link>https://www.theverge.com/tech/908793/microsoft-devdiv-julia-liuson-resignation</link>
     <guid>https://www.theverge.com/tech/908793/microsoft-devdiv-julia-liuson-resignation</guid>
@@ -105,24 +204,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Microsoft is losing another veteran executive. Julia Liuson, head of Microsoft&apos;s developer division (DevDiv), is resigning from the software giant after 34 years. Liuson spent the past 12 years...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Add Authentication and MFA to Unreal Engine with Descope</title>
-    <link>https://dev.to/descope/add-authentication-and-mfa-to-unreal-engine-with-descope-2ff1</link>
-    <guid>https://dev.to/descope/add-authentication-and-mfa-to-unreal-engine-with-descope-2ff1</guid>
-    <pubDate>Wed, 08 Apr 2026 16:55:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This blog was originally published on Descope Unreal Engine (UE) is widely known for its ability to create high-fidelity, immersive gaming experiences. Some of the most popular games today have...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Custom Skills: The End-to-End Workflow Made Executable</title>
-    <link>https://dev.to/tacoda/custom-skills-the-end-to-end-workflow-made-executable-i8i</link>
-    <guid>https://dev.to/tacoda/custom-skills-the-end-to-end-workflow-made-executable-i8i</guid>
-    <pubDate>Wed, 08 Apr 2026 16:53:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Was Repeating Myself By the time the harness was working and I&apos;d moved to on-the-loop development, my sessions with Claude had a rhythm. Pick up a Jira ticket. Read the requirements. Decide...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices</title>
@@ -193,87 +274,6 @@
     <guid>https://huggingface.co/blog/ibm-research/altk-evolve</guid>
     <pubDate>Wed, 08 Apr 2026 14:27:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass</title>
-    <link>https://techcrunch.com/2026/04/08/final-3-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/</link>
-    <guid>https://techcrunch.com/2026/04/08/final-3-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/</guid>
-    <pubDate>Wed, 08 Apr 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Save up to $500 on your TechCrunch Disrupt 2026 pass until April 10, 11:59 p.m. PT. Secure your spot at the center of the tech ecosystem. Register today.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why</title>
-    <link>https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/</link>
-    <guid>https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/</guid>
-    <pubDate>Wed, 08 Apr 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intuition served us well on the savannah. But it...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>APT28 Deploys PRISMEX Malware in Campaign Targeting Ukraine and NATO Allies</title>
-    <link>https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html</link>
-    <guid>https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html</guid>
-    <pubDate>Wed, 08 Apr 2026 13:50:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The Russian threat actor known as APT28 (aka Forest Blizzard and Pawn Storm) has been linked to a fresh spear-phishing campaign targeting Ukraine and its allies to deploy a previously undocumented...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The vibes are off at OpenAI</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai</guid>
-    <pubDate>Wed, 08 Apr 2026 13:47:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI is in a relatively precarious position. The company is and has been a funding behemoth - just over a week ago, it closed $122 billion in funding at a post-money valuation of $852 billion....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Atlassian launches visual AI tools and third-party agents in Confluence</title>
-    <link>https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/</link>
-    <guid>https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/</guid>
-    <pubDate>Wed, 08 Apr 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Confluence users can now create visual assets within the software in addition to new third-party agents working with Lovable, Replit, and Gamma.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Tractive’s new dog and cat trackers provide more health insights for your pets</title>
-    <link>https://www.theverge.com/tech/907947/tractive-dog-6-xl-cat-mini-pet-trackers-health-monitoring-location</link>
-    <guid>https://www.theverge.com/tech/907947/tractive-dog-6-xl-cat-mini-pet-trackers-health-monitoring-location</guid>
-    <pubDate>Wed, 08 Apr 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After acquiring its competitor Whistle from Mars Petcare nearly a year ago, Tractive is introducing two new pet trackers today. The Cat 6 Mini features a sleeker design than Tractive&apos;s current...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Xbox’s new era needs games like Forza Horizon 6</title>
-    <link>https://www.theverge.com/games/908305/forza-horizon-6-preview-xbox</link>
-    <guid>https://www.theverge.com/games/908305/forza-horizon-6-preview-xbox</guid>
-    <pubDate>Wed, 08 Apr 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It&apos;s a weird time at Xbox. Microsoft&apos;s gaming division is under new management, with its current leadership intent on what it describes as &quot;a renewed commitment to Xbox.&quot; But given that no one...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The only USB-C AA battery I’d buy for myself is the Zepath 3600</title>
-    <link>https://www.theverge.com/gadgets/907002/best-usb-c-aa-li-ion-battery-zepath</link>
-    <guid>https://www.theverge.com/gadgets/907002/best-usb-c-aa-li-ion-battery-zepath</guid>
-    <pubDate>Wed, 08 Apr 2026 12:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Last September, a company named Lumafield scanned 1,000 cylindrical lithium-ion batteries to shine a light on the hidden risks of cheaping out. At roughly the same time, I found myself testing two...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Download: water threats in Iran and AI’s impact on what entrepreneurs make</title>
-    <link>https://www.technologyreview.com/2026/04/08/1135405/the-download-water-threats-iran-ais-impact-on-entrepreneurs-make/</link>
-    <guid>https://www.technologyreview.com/2026/04/08/1135405/the-download-water-threats-iran-ais-impact-on-entrepreneurs-make/</guid>
-    <pubDate>Wed, 08 Apr 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Desalination plants in the Middle East are increasingly...</description>
     <category>AI</category>
   </item>
 </channel>
