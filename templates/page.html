@@ -103,24 +103,29 @@
                                 <summary class="story-ask__summary">At a glance</summary>
                                 <div class="story-ask__inner">
                                     <div class="story-ask-primer" data-primer-state="">
+                                        <p class="story-ask-primer__eyebrow">Quick read</p>
                                         <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                         <div class="story-ask-primer__summary" aria-live="polite"></div>
-                                        <p class="story-ask-primer__suggestions-label" hidden>Suggested questions</p>
+                                        <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
                                         <ul class="story-ask-suggestions" hidden></ul>
                                     </div>
-                                    <label class="story-ask-followup-label" for="story-ask-{{ loop.index0 }}-top">Ask something else (optional)</label>
-                                    <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit or replace the question above, then Ask" disabled></textarea>
-                                    <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
-                                    <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
+                                    <div class="story-ask-followup">
+                                        <div class="story-ask-followup__head">
+                                            <span class="story-ask-followup__title">Your question</span>
+                                            <span class="story-ask-followup__hint">From headline &amp; excerpt on this page</span>
+                                        </div>
+                                        <div class="story-ask-input-row">
+                                            <label class="visually-hidden" for="story-ask-{{ loop.index0 }}-top">Question for the assistant</label>
+                                            <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
+                                            <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        </div>
+                                    </div>
+                                    <div class="story-ask-reply-wrap">
+                                        <p class="story-ask-reply__eyebrow" hidden>Answer</p>
+                                        <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
+                                    </div>
                                 </div>
                             </details>
-                            <div class="story-ai-actions">
-                                <span class="story-translate-slot">
-                                    <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
-                                        data-story-title="{{ story.title|e }}">Translate</button>
-                                </span>
-                            </div>
-                            <div class="story-translate-output" hidden></div>
                         </div>
                     </div>
                 </article>
@@ -163,24 +168,29 @@
                             <summary class="story-ask__summary">At a glance</summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
+                                    <p class="story-ask-primer__eyebrow">Quick read</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__summary" aria-live="polite"></div>
-                                    <p class="story-ask-primer__suggestions-label" hidden>Suggested questions</p>
+                                    <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
                                     <ul class="story-ask-suggestions" hidden></ul>
                                 </div>
-                                <label class="story-ask-followup-label" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Ask something else (optional)</label>
-                                <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit or replace the question above, then Ask" disabled></textarea>
-                                <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
-                                <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
+                                <div class="story-ask-followup">
+                                    <div class="story-ask-followup__head">
+                                        <span class="story-ask-followup__title">Your question</span>
+                                        <span class="story-ask-followup__hint">From headline &amp; excerpt on this page</span>
+                                    </div>
+                                    <div class="story-ask-input-row">
+                                        <label class="visually-hidden" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Question for the assistant</label>
+                                        <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                    </div>
+                                </div>
+                                <div class="story-ask-reply-wrap">
+                                    <p class="story-ask-reply__eyebrow" hidden>Answer</p>
+                                    <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
+                                </div>
                             </div>
                         </details>
-                        <div class="story-ai-actions">
-                            <span class="story-translate-slot">
-                                <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
-                                    data-story-title="{{ story.title|e }}">Translate</button>
-                            </span>
-                        </div>
-                        <div class="story-translate-output" hidden></div>
                     </div>
                 </article>
                 {% endfor %}
@@ -193,12 +203,8 @@
         <p id="prompt-api-note" class="prompt-api-note" role="status" hidden></p>
 
         <script type="module">
-            /** On-device assistant: auto summary & questions, follow-up Q&A, translate. */
+            /** On-device assistant: quick read + suggested questions, then follow-up Q&A. */
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
-            const DETECTOR_INPUT_LANGS = [
-              'en', 'en-US', 'es', 'fr', 'de', 'ja', 'zh', 'zh-CN', 'zh-TW', 'ko', 'pt', 'pt-BR',
-              'it', 'nl', 'pl', 'ru', 'ar', 'hi', 'tr', 'sv', 'da', 'no', 'fi', 'cs', 'uk',
-            ];
 
             function getLanguageModelApi() {
               if (typeof LanguageModel !== 'undefined') return LanguageModel;
@@ -219,8 +225,8 @@
 
             const ASK_ONE_STORY_SYSTEM_PROMPT = [
               'You answer questions about a single news story using only the SINGLE STORY CONTEXT (title, source, category, URL, excerpt if present).',
-              'You cannot fetch URLs. If the user needs the full article, say they should open the headline link in a new tab.',
-              'Be concise; about 150 words or less unless they ask for a list.',
+              'You cannot fetch URLs. If the user needs the full article, tell them to open the headline link in a new tab.',
+              'Be direct. About 120 words or fewer unless they ask for steps or a list.',
             ].join(' ');
 
             const STORY_PRIMER_SYSTEM_PROMPT = [
@@ -240,7 +246,6 @@
 
             let promptApiReady = false;
             let promptApiInitComplete = false;
-            let translateUiReady = false;
 
             function kickOpenStoryPrimers() {
               document.querySelectorAll('details.story-ask[open]').forEach((d) => {
@@ -262,95 +267,6 @@
               promptApiNote.hidden = false;
               promptApiNote.className = 'prompt-api-note' + (warn ? ' prompt-api-note--warn' : '');
               promptApiNote.innerHTML = html;
-            }
-
-            function primaryLangTag(tag) {
-              if (!tag || tag === 'und') return '';
-              return String(tag).split('-')[0].toLowerCase();
-            }
-
-            function userTargetLanguageTag() {
-              return (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
-            }
-
-            function isTranslationDesktopLikely() {
-              if (typeof navigator !== 'undefined' && navigator.userAgentData && navigator.userAgentData.mobile) {
-                return false;
-              }
-              return !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
-            }
-
-            function revealTranslateButtonsFallback() {
-              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
-                btn.classList.remove('story-translate-btn--pending');
-                btn.hidden = false;
-                btn.disabled = !translateUiReady;
-              });
-            }
-
-            function hideAllStoryTranslateSlots() {
-              document.querySelectorAll('.story-translate-slot').forEach((slot) => {
-                slot.hidden = true;
-              });
-            }
-
-            function scheduleStoryLanguageScan() {
-              const main = document.querySelector('main');
-              if (!main || main.dataset.langScanScheduled === '1') return;
-              main.dataset.langScanScheduled = '1';
-
-              let started = false;
-              const kickOffScan = () => {
-                if (started) return;
-                started = true;
-                LanguageDetector.create({
-                  expectedInputLanguages: DETECTOR_INPUT_LANGS,
-                })
-                  .then(async (detector) => {
-                    try {
-                      const browserP = primaryLangTag(userTargetLanguageTag());
-                      const buttons = document.querySelectorAll('.story-translate-btn');
-                      for (const btn of buttons) {
-                        const title = btn.getAttribute('data-story-title') || '';
-                        if (!title) continue;
-                        let needsTranslate = true;
-                        try {
-                          const results = await detector.detect(title);
-                          const scored = (results || []).filter(
-                            (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
-                          );
-                          scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
-                          const detected = scored[0] ? scored[0].detectedLanguage : '';
-                          if (detected) btn.setAttribute('data-detected-lang', detected);
-                          const detP = primaryLangTag(detected);
-                          needsTranslate = !(detP && browserP && detP === browserP);
-                        } catch (_) {
-                          needsTranslate = true;
-                        }
-                        btn.classList.remove('story-translate-btn--pending');
-                        if (needsTranslate) {
-                          btn.hidden = false;
-                          btn.disabled = !translateUiReady;
-                        } else {
-                          btn.hidden = true;
-                          btn.disabled = true;
-                        }
-                      }
-                    } finally {
-                      try {
-                        if (detector && detector.destroy) await detector.destroy();
-                      } catch (_) {
-                        /* ignore */
-                      }
-                    }
-                  })
-                  .catch(() => {
-                    revealTranslateButtonsFallback();
-                  });
-              };
-
-              main.addEventListener('pointerdown', kickOffScan, { capture: true });
-              main.addEventListener('focusin', kickOffScan, { capture: true });
             }
 
             function setIntegratedAiEnabled(enabled) {
@@ -395,7 +311,13 @@
               }
             }
 
-            async function openLmSession(lmApi, systemPrompt, onDownloadPct, pageGrounding) {
+            async function openLmSession(
+              lmApi,
+              systemPrompt,
+              onDownloadPct,
+              pageGrounding,
+              maxOutputTokens = 1024
+            ) {
               let combined = systemPrompt;
               if (pageGrounding && pageGrounding.trim()) {
                 combined = [systemPrompt, '', '---', 'CONTEXT:', pageGrounding.trim()].join('\n');
@@ -411,7 +333,7 @@
                 },
               };
               try {
-                return await lmApi.create({ ...baseOpts, maxOutputTokens: 1024 });
+                return await lmApi.create({ ...baseOpts, maxOutputTokens });
               } catch (e) {
                 return await lmApi.create(baseOpts);
               }
@@ -561,9 +483,15 @@
                 'Generate the SUMMARY and QUESTIONS sections now. Follow the output format exactly.';
               let session = null;
               try {
-                session = await openLmSession(lmApi, STORY_PRIMER_SYSTEM_PROMPT, (pct) => {
-                  if (loadEl) loadEl.textContent = `Getting a quick summary… ${pct}%`;
-                }, grounding);
+                session = await openLmSession(
+                  lmApi,
+                  STORY_PRIMER_SYSTEM_PROMPT,
+                  (pct) => {
+                    if (loadEl) loadEl.textContent = `Getting a quick summary… ${pct}%`;
+                  },
+                  grounding,
+                  512
+                );
                 let out = '';
                 if (typeof session.promptStreaming === 'function') {
                   const stream = session.promptStreaming(userTurn);
@@ -598,33 +526,43 @@
               const askRoot = submitBtn.closest('.story-ask');
               const textarea = askRoot && askRoot.querySelector('.story-ask-input');
               const replyEl = askRoot && askRoot.querySelector('.story-ask-reply');
+              const replyEyebrow = askRoot && askRoot.querySelector('.story-ask-reply__eyebrow');
               const q = textarea && textarea.value ? textarea.value.trim() : '';
               if (!article || !textarea || !replyEl || !q || !promptApiReady) return;
               const lmApi = getLanguageModelApi();
               if (!lmApi) return;
               const availability = await lmApi.availability(LM_OPTIONS);
               if (isAvailabilityBlocked(availability)) {
+                if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
                 replyEl.textContent = 'Not available on this device.';
                 return;
               }
               const grounding = buildOneStoryGroundingFromArticle(article);
               if (!grounding) {
+                if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
                 replyEl.textContent = 'Missing story data.';
                 return;
               }
               submitBtn.disabled = true;
               textarea.disabled = true;
+              if (replyEyebrow) replyEyebrow.hidden = false;
               replyEl.hidden = false;
               replyEl.textContent = '';
               replyEl.classList.add('page-ai-reply--loading');
               const userTurn = `[Question]\n${q}`;
               let session = null;
               try {
-                session = await openLmSession(lmApi, ASK_ONE_STORY_SYSTEM_PROMPT, (pct) => {
-                  replyEl.textContent = `Preparing… ${pct}%`;
-                }, grounding);
+                session = await openLmSession(
+                  lmApi,
+                  ASK_ONE_STORY_SYSTEM_PROMPT,
+                  (pct) => {
+                    replyEl.textContent = `Preparing… ${pct}%`;
+                  },
+                  grounding,
+                  1024
+                );
                 if (typeof session.promptStreaming === 'function') {
                   const stream = session.promptStreaming(userTurn);
                   let full = '';
@@ -645,114 +583,6 @@
                 textarea.disabled = false;
               }
             };
-
-            async function acquireTranslator(sourceLanguage, targetLanguage, onDownloadPct) {
-              const langs = { sourceLanguage, targetLanguage };
-              let level;
-              try {
-                level = await Translator.availability(langs);
-              } catch (e) {
-                return { error: String(e.message || e), translator: null };
-              }
-              if (level == null || level === 'unavailable') {
-                return { error: 'This language pair isn’t supported here.', translator: null };
-              }
-              const opts = { ...langs };
-              if (level === 'downloadable' || level === 'downloading') {
-                opts.monitor = function monitor(m) {
-                  m.addEventListener('downloadprogress', (e) => {
-                    const pct = Math.round((e.loaded || 0) * 100);
-                    if (onDownloadPct) onDownloadPct(pct);
-                  });
-                };
-              }
-              try {
-                const translator = await Translator.create(opts);
-                return { error: null, translator };
-              } catch (e) {
-                return { error: String(e.message || e), translator: null };
-              }
-            }
-
-            async function runTranslateTitle(btn) {
-              const title = btn.getAttribute('data-story-title') || '';
-              const wrap = btn.closest('.top-story-ai, .story-card-ai');
-              const outEl = wrap && wrap.querySelector('.story-translate-output');
-              if (!outEl || !title || !translateUiReady || btn.hidden) return;
-
-              outEl.hidden = false;
-              outEl.textContent = '…';
-              outEl.classList.add('story-translate-output--loading');
-
-              let detector = null;
-              let translator = null;
-              try {
-                let sourceTag = btn.getAttribute('data-detected-lang') || '';
-                if (!sourceTag) {
-                  detector = await LanguageDetector.create({
-                    expectedInputLanguages: DETECTOR_INPUT_LANGS,
-                  });
-                  const results = await detector.detect(title);
-                  if (detector.destroy) {
-                    await detector.destroy();
-                  }
-                  detector = null;
-                  const scored = (results || []).filter(
-                    (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
-                  );
-                  scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
-                  sourceTag = scored[0] ? scored[0].detectedLanguage : '';
-                }
-
-                if (!sourceTag) {
-                  outEl.textContent = 'Could not detect the headline language.';
-                  return;
-                }
-
-                const targetTag = userTargetLanguageTag();
-                const srcPrimary = primaryLangTag(sourceTag);
-                const tgtPrimary = primaryLangTag(targetTag);
-
-                if (srcPrimary && tgtPrimary && srcPrimary === tgtPrimary) {
-                  outEl.hidden = true;
-                  outEl.textContent = '';
-                  return;
-                }
-
-                const pairSrc = srcPrimary || sourceTag;
-                const pairTgt = tgtPrimary || targetTag;
-
-                outEl.textContent = 'Translating…';
-                const acq = await acquireTranslator(pairSrc, pairTgt, (pct) => {
-                  outEl.textContent = `Preparing translator… ${pct}%`;
-                });
-                if (acq.error || !acq.translator) {
-                  outEl.textContent = acq.error || 'Translation unavailable.';
-                  return;
-                }
-                translator = acq.translator;
-                const translated = await translator.translate(title);
-                outEl.textContent = String(translated != null ? translated : '').trim() || '—';
-                if (translator.destroy) {
-                  await translator.destroy();
-                }
-                translator = null;
-              } catch (err) {
-                outEl.textContent = String(err.message || err);
-              } finally {
-                outEl.classList.remove('story-translate-output--loading');
-                try {
-                  if (detector && detector.destroy) await detector.destroy();
-                } catch (_) {
-                  /* ignore */
-                }
-                try {
-                  if (translator && translator.destroy) await translator.destroy();
-                } catch (_) {
-                  /* ignore */
-                }
-              }
-            }
 
             async function initPromptApi() {
               try {
@@ -790,20 +620,6 @@
               }
             }
 
-            function initTranslateUi() {
-              if (!isTranslationDesktopLikely() || typeof Translator === 'undefined') {
-                translateUiReady = false;
-                hideAllStoryTranslateSlots();
-                return;
-              }
-              translateUiReady = true;
-              if (typeof LanguageDetector === 'undefined') {
-                revealTranslateButtonsFallback();
-                return;
-              }
-              scheduleStoryLanguageScan();
-            }
-
             document.querySelector('main')?.addEventListener('toggle', (ev) => {
               const t = ev.target;
               if (!(t instanceof HTMLDetailsElement)) return;
@@ -821,12 +637,6 @@
                   ta.value = sug.textContent.trim();
                   ta.focus();
                 }
-                return;
-              }
-              const tr = ev.target.closest('.story-translate-btn');
-              if (tr && !tr.disabled) {
-                ev.preventDefault();
-                void runTranslateTitle(tr);
                 return;
               }
               const askSub = ev.target.closest('.story-ask-submit');
@@ -851,7 +661,6 @@
 
             (async () => {
               await initPromptApi();
-              initTranslateUi();
             })();
         </script>
 
