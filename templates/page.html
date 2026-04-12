@@ -98,18 +98,18 @@
                             <span class="top-story-source">{{ story.source }}</span>
                             <span class="top-story-time">{{ story.time_ago }}</span>
                         </div>
-                        {% if story.description %}
-                        <p class="top-story-excerpt">{{ (story.description or '')[:300] }}{% if (story.description or '')|length > 300 %}…{% endif %}</p>
-                        {% endif %}
                         <div class="top-story-ai">
-                            <div class="story-read-row">
-                                <a href="{{ story.link }}" class="story-read-link" target="_blank" rel="noopener noreferrer">Read full article</a>
-                            </div>
                             <details class="story-ask">
-                                <summary class="story-ask__summary">Ask Gemini Nano about this story</summary>
+                                <summary class="story-ask__summary">At a glance</summary>
                                 <div class="story-ask__inner">
-                                    <label class="visually-hidden" for="story-ask-{{ loop.index0 }}-top">Your question about this story</label>
-                                    <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="e.g. What’s the main claim? Who is affected?" disabled></textarea>
+                                    <div class="story-ask-primer" data-primer-state="">
+                                        <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
+                                        <div class="story-ask-primer__summary" aria-live="polite"></div>
+                                        <p class="story-ask-primer__suggestions-label" hidden>Suggested questions</p>
+                                        <ul class="story-ask-suggestions" hidden></ul>
+                                    </div>
+                                    <label class="story-ask-followup-label" for="story-ask-{{ loop.index0 }}-top">Ask something else (optional)</label>
+                                    <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
                                     <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
                                     <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
                                 </div>
@@ -119,13 +119,8 @@
                                     <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
                                         data-story-title="{{ story.title|e }}">Translate</button>
                                 </span>
-                                <button type="button" class="story-ai-btn" disabled
-                                    data-story-title="{{ story.title|e }}"
-                                    data-story-source="{{ story.source|e }}"
-                                    data-story-cat="{{ story.category_label|e }}">Why it matters</button>
                             </div>
                             <div class="story-translate-output" hidden></div>
-                            <div class="story-ai-output" hidden></div>
                         </div>
                     </div>
                 </article>
@@ -164,14 +159,17 @@
                     <p class="story-description">{{ story.description }}</p>
                     {% endif %}
                     <div class="story-card-ai">
-                        <div class="story-read-row">
-                            <a href="{{ story.link }}" class="story-read-link" target="_blank" rel="noopener noreferrer">Read full article</a>
-                        </div>
                         <details class="story-ask">
-                            <summary class="story-ask__summary">Ask Gemini Nano about this story</summary>
+                            <summary class="story-ask__summary">At a glance</summary>
                             <div class="story-ask__inner">
-                                <label class="visually-hidden" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Your question about this story</label>
-                                <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="e.g. What’s the main claim? Risks or caveats?" disabled></textarea>
+                                <div class="story-ask-primer" data-primer-state="">
+                                    <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
+                                    <div class="story-ask-primer__summary" aria-live="polite"></div>
+                                    <p class="story-ask-primer__suggestions-label" hidden>Suggested questions</p>
+                                    <ul class="story-ask-suggestions" hidden></ul>
+                                </div>
+                                <label class="story-ask-followup-label" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Ask something else (optional)</label>
+                                <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
                                 <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
                                 <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
                             </div>
@@ -181,13 +179,8 @@
                                 <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
                                     data-story-title="{{ story.title|e }}">Translate</button>
                             </span>
-                            <button type="button" class="story-ai-btn" disabled
-                                data-story-title="{{ story.title|e }}"
-                                data-story-source="{{ story.source|e }}"
-                                data-story-cat="{{ story.category_label|e }}">Why it matters</button>
                         </div>
                         <div class="story-translate-output" hidden></div>
-                        <div class="story-ai-output" hidden></div>
                     </div>
                 </article>
                 {% endfor %}
@@ -197,100 +190,16 @@
             {% endif %}
         </section>
         {% endfor %}
-        <section class="ai-suite ai-suite--integrated" aria-labelledby="ai-suite-title">
-            <div class="ai-suite__intro">
-                <div class="ai-suite__intro-main">
-                    <span class="ai-suite__eyebrow">On-device AI</span>
-                    <h2 class="ai-suite__title" id="ai-suite-title">Ask &amp; summarize</h2>
-                    <p class="ai-suite__tagline">
-                        <strong>Gemini Nano</strong> and other Chrome built-in APIs run in your browser. This site does not receive your prompts or pasted text.
-                    </p>
-                </div>
-                <ul class="ai-suite__chips ai-suite__chips--toolbar" id="ai-suite-chips" aria-label="Detected APIs"></ul>
-            </div>
+        <p id="prompt-api-note" class="prompt-api-note" role="status" hidden></p>
 
-            <div id="ai-gemini-meta" class="ai-suite__model-meta ai-suite__model-meta--strip" hidden>
-                <p class="ai-suite__model-meta__p">
-                    <span id="ai-gemini-availability" class="ai-suite__model-meta__av"></span>
-                    <code id="ai-gemini-params" class="ai-suite__model-meta__params" hidden></code>
-                </p>
-            </div>
-            <div id="ai-suite-status" class="ai-suite__status ai-suite__status--hidden" role="status"></div>
-
-            <div class="ai-suite__panel">
-                <div class="ai-suite__panel-col">
-                    <h3 class="ai-suite__panel-heading">Ask about this page</h3>
-                    <p class="ai-suite__panel-hint">Full story list as context · <code class="ai-suite__inline-code">LanguageModel</code></p>
-                    <div class="page-ai-ask__row ai-suite__ask-row">
-                        <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
-                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="3" placeholder="What stands out in security or AI this week?" disabled></textarea>
-                        <div class="ai-suite__ask-actions">
-                            <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
-                            <button type="button" class="ai-suite__ghost-btn" id="proofread-question-btn" hidden>Polish</button>
-                        </div>
-                    </div>
-                    <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
-                    <div class="ai-suite__reply-tools" id="rewriter-answer-tools" hidden>
-                        <span class="ai-suite__reply-tools-label">Refine</span>
-                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-shorter-btn">Shorter</button>
-                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-formal-btn">More formal</button>
-                    </div>
-                </div>
-
-                <div class="ai-suite__panel-col ai-suite__panel-col--summarize" id="page-ai-summarize" hidden>
-                    <h3 class="ai-suite__panel-heading">Summarize a clip</h3>
-                    <p class="ai-suite__panel-hint">Summarizer only receives <strong>text you paste</strong>—it does not open links or fetch pages. Open the article, copy the paragraphs, then run summarize.</p>
-                    <div class="page-ai-ask__row">
-                        <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
-                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs…" disabled></textarea>
-                        <button type="button" class="page-ai-ask__submit" id="article-summarize-submit" disabled>Summarize</button>
-                    </div>
-                    <p id="article-summarize-status" class="page-ai-summarize__status" role="status" hidden></p>
-                    <div id="article-summarize-output" class="page-ai-reply page-ai-reply--markdown" aria-live="polite" hidden></div>
-                </div>
-            </div>
-
-            <details class="ai-suite__details">
-                <summary class="ai-suite__details-summary">Headlines, translate, and API requirements</summary>
-                <div class="ai-suite__details-body">
-                    <p class="ai-suite__details-p">
-                        Open <strong>Read full article</strong> for the original piece. <strong>Ask Gemini Nano about this story</strong> uses the Prompt API with that item’s title and feed excerpt only (open the link for the full text). After your first tap or click, <strong>Language Detector</strong> runs on each headline; <strong>Translate</strong> appears only if the language differs from your browser. <strong>Why it matters</strong> is a one-click angle. <strong>Summarize</strong> needs pasted body text—the API cannot fetch URLs. Some features need <code class="ai-suite__inline-code">chrome://flags</code> or trials on localhost.
-                    </p>
-                    <p class="ai-suite__details-links">
-                        <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Gemini Nano</a>
-                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
-                        <a href="https://developer.chrome.com/docs/ai/prompt-api" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Prompt API</a>
-                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
-                        <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI overview</a>
-                    </p>
-                </div>
-            </details>
-        </section>
-
-        <script id="top-stories-data" type="application/json">
-            {{ top_stories_for_model | tojson }}
-        </script>
-        <script id="full-page-stories-data" type="application/json">
-            {{ full_page_stories_for_model | tojson }}
-        </script>
         <script type="module">
-            /**
-             * Chrome Prompt API (on-device Gemini Nano).
-             * @see https://developer.chrome.com/docs/ai/prompt-api
-             * Summarizer, Language Detector, Translator: https://developer.chrome.com/docs/ai/built-in-apis
-             * Pass the same modality options to availability(), create(), and prompts per official guidance.
-             */
+            /** On-device assistant: auto summary & questions, follow-up Q&A, translate. */
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
-            const BUILTIN_AI_DOC = 'https://developer.chrome.com/docs/ai/built-in-apis';
             const DETECTOR_INPUT_LANGS = [
               'en', 'en-US', 'es', 'fr', 'de', 'ja', 'zh', 'zh-CN', 'zh-TW', 'ko', 'pt', 'pt-BR',
               'it', 'nl', 'pl', 'ru', 'ar', 'hi', 'tr', 'sv', 'da', 'no', 'fi', 'cs', 'uk',
             ];
 
-            /**
-             * Same entry points as Chrome samples: global LanguageModel or window.ai.languageModel.
-             * @returns {typeof LanguageModel | null}
-             */
             function getLanguageModelApi() {
               if (typeof LanguageModel !== 'undefined') return LanguageModel;
               if (typeof window !== 'undefined' && window.ai && window.ai.languageModel) {
@@ -299,100 +208,77 @@
               return null;
             }
 
-            /** Per docs, primary gate is availability !== 'unavailable'; some builds use "no". */
             function isAvailabilityBlocked(level) {
               return level === 'unavailable' || level === 'no';
             }
 
-            /** Must match create() and prompt() usage (text en → en). */
             const LM_OPTIONS = {
               expectedInputs: [{ type: 'text', languages: ['en'] }],
               expectedOutputs: [{ type: 'text', languages: ['en'] }],
             };
 
-            const ASK_FEED_SYSTEM_PROMPT = [
-              'You answer questions about the Tech Insights page the user has open.',
-              'Use only the full page snapshot in your instructions. If the snapshot does not support an answer, say so in one sentence.',
-              'Be direct; aim under 150 words unless the user asks for a list or detail.',
-            ].join(' ');
-
-            const STORY_ANGLE_SYSTEM_PROMPT = [
-              'You explain why one headline matters to someone who follows tech and startups.',
-              'The full page snapshot lists every story on the page; focus on the story named in the user message.',
-              'Reply with one or two short sentences. No title repetition, no hype.',
-            ].join(' ');
-
             const ASK_ONE_STORY_SYSTEM_PROMPT = [
-              'You answer questions about a single news story using only the SINGLE STORY CONTEXT (title, source, category, URL, and excerpt if present).',
-              'You do not have the full article unless the excerpt includes it—if the user needs details only on the live page, say so briefly and tell them to use Read full article.',
-              'Be direct and accurate; stay under about 150 words unless they ask for a list.',
+              'You answer questions about a single news story using only the SINGLE STORY CONTEXT (title, source, category, URL, excerpt if present).',
+              'You cannot fetch URLs. If the user needs the full article, say they should open the headline link in a new tab.',
+              'Be concise; about 150 words or less unless they ask for a list.',
             ].join(' ');
 
-            const topStoriesOnly = JSON.parse(
-              document.getElementById('top-stories-data')?.textContent || '[]'
-            );
-            const fullPageStoriesRaw = JSON.parse(
-              document.getElementById('full-page-stories-data')?.textContent || '[]'
-            );
-            /** Every story on this page (all sections); used as LLM grounding. Falls back to top stories if empty. */
-            const pageStories =
-              Array.isArray(fullPageStoriesRaw) && fullPageStoriesRaw.length > 0
-                ? fullPageStoriesRaw
-                : topStoriesOnly;
+            const STORY_PRIMER_SYSTEM_PROMPT = [
+              'You help a reader skim one news story using only CONTEXT (title, source, category, URL, excerpt).',
+              'Reply using exactly this structure:',
+              'SUMMARY:',
+              '(Two short sentences on the main point.)',
+              '',
+              'QUESTIONS:',
+              '- (One concrete question)',
+              '- (One concrete question)',
+              '- (One concrete question)',
+              'Each line under QUESTIONS must start with "- ". No numbering. If the excerpt is thin, say so briefly in SUMMARY and still give three sensible questions.',
+            ].join('\n');
 
-            const aiSuiteStatus = document.getElementById('ai-suite-status');
-            const aiSuiteChips = document.getElementById('ai-suite-chips');
-            const askFeedInput = document.getElementById('ask-feed-input');
-            const askFeedSubmit = document.getElementById('ask-feed-submit');
-            const askFeedReply = document.getElementById('ask-feed-reply');
-            const proofreadQuestionBtn = document.getElementById('proofread-question-btn');
-            const rewriterAnswerTools = document.getElementById('rewriter-answer-tools');
-            const rewriteShorterBtn = document.getElementById('rewrite-shorter-btn');
-            const rewriteFormalBtn = document.getElementById('rewrite-formal-btn');
-            const summarizeSection = document.getElementById('page-ai-summarize');
-            const articleSummarizeInput = document.getElementById('article-summarize-input');
-            const articleSummarizeSubmit = document.getElementById('article-summarize-submit');
-            const articleSummarizeStatus = document.getElementById('article-summarize-status');
-            const articleSummarizeOutput = document.getElementById('article-summarize-output');
+            const promptApiNote = document.getElementById('prompt-api-note');
 
             let promptApiReady = false;
-            let summarizerReady = false;
+            let promptApiInitComplete = false;
             let translateUiReady = false;
-            let proofreaderReady = false;
-            let rewriterReady = false;
 
-            /** BCP-47 primary subtag, lowercased (e.g. en-US → en). */
+            function kickOpenStoryPrimers() {
+              document.querySelectorAll('details.story-ask[open]').forEach((d) => {
+                const pr = d.querySelector('.story-ask-primer');
+                if (!pr) return;
+                const st = pr.dataset.primerState;
+                if (st === 'ready' || st === 'loading') return;
+                void runStoryPrimer(d);
+              });
+            }
+
+            function setPromptNote(html, warn) {
+              if (!promptApiNote) return;
+              if (!html) {
+                promptApiNote.hidden = true;
+                promptApiNote.innerHTML = '';
+                return;
+              }
+              promptApiNote.hidden = false;
+              promptApiNote.className = 'prompt-api-note' + (warn ? ' prompt-api-note--warn' : '');
+              promptApiNote.innerHTML = html;
+            }
+
             function primaryLangTag(tag) {
               if (!tag || tag === 'und') return '';
               return String(tag).split('-')[0].toLowerCase();
             }
 
             function userTargetLanguageTag() {
-              const nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
-              return nav;
+              return (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
             }
 
-            /** Chrome docs: Language Detector / Translator are desktop-only today. */
             function isTranslationDesktopLikely() {
               if (typeof navigator !== 'undefined' && navigator.userAgentData && navigator.userAgentData.mobile) {
                 return false;
               }
               return !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
             }
-
-            function summarizerAvailabilityBlocked(level) {
-              return level === 'unavailable' || level === 'no';
-            }
-
-            function setTranslateButtonsEnabled(on) {
-              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
-                if (btn.hidden) return;
-                btn.disabled = !on;
-              });
-            }
-
-            /** True only after a successful LanguageDetector batch pass (not fallback). */
-            let langDetectScanOk = false;
 
             function revealTranslateButtonsFallback() {
               document.querySelectorAll('.story-translate-btn').forEach((btn) => {
@@ -408,11 +294,6 @@
               });
             }
 
-            /**
-             * LanguageDetector.create() must run in a user-activation path. We call create() from the first
-             * pointerdown or focusin on main, then detect each headline and show Translate only if the
-             * primary language differs from the browser language.
-             */
             function scheduleStoryLanguageScan() {
               const main = document.querySelector('main');
               if (!main || main.dataset.langScanScheduled === '1') return;
@@ -440,9 +321,7 @@
                           );
                           scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
                           const detected = scored[0] ? scored[0].detectedLanguage : '';
-                          if (detected) {
-                            btn.setAttribute('data-detected-lang', detected);
-                          }
+                          if (detected) btn.setAttribute('data-detected-lang', detected);
                           const detP = primaryLangTag(detected);
                           needsTranslate = !(detP && browserP && detP === browserP);
                         } catch (_) {
@@ -463,13 +342,10 @@
                       } catch (_) {
                         /* ignore */
                       }
-                      langDetectScanOk = true;
-                      refreshCapabilityChips();
                     }
                   })
                   .catch(() => {
                     revealTranslateButtonsFallback();
-                    refreshCapabilityChips();
                   });
               };
 
@@ -477,35 +353,15 @@
               main.addEventListener('focusin', kickOffScan, { capture: true });
             }
 
-            function setAiSuiteStatus(html, variant) {
-              if (!aiSuiteStatus) return;
-              aiSuiteStatus.innerHTML = html;
-              aiSuiteStatus.classList.remove('ai-suite__status--hidden', 'ai-suite__status--warn', 'ai-suite__status--ok');
-              if (variant === 'warn') aiSuiteStatus.classList.add('ai-suite__status--warn');
-              else if (variant === 'ok') aiSuiteStatus.classList.add('ai-suite__status--ok');
-            }
-
-            function hideAiSuiteStatus() {
-              if (!aiSuiteStatus) return;
-              aiSuiteStatus.innerHTML = '';
-              aiSuiteStatus.classList.add('ai-suite__status--hidden');
-            }
-
-            const setIntegratedAiEnabled = (enabled) => {
-              document.querySelectorAll('.story-ai-btn').forEach((btn) => {
-                btn.disabled = !enabled;
-              });
+            function setIntegratedAiEnabled(enabled) {
               document.querySelectorAll('.story-ask-input').forEach((el) => {
                 el.disabled = !enabled;
               });
               document.querySelectorAll('.story-ask-submit').forEach((el) => {
                 el.disabled = !enabled;
               });
-              if (askFeedInput) askFeedInput.disabled = !enabled;
-              if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
-            };
+            }
 
-            /** Grounding for per-card “Ask about this story” (Gemini Nano). */
             function buildOneStoryGroundingFromArticle(articleEl) {
               if (!articleEl || !articleEl.dataset) return '';
               const ds = articleEl.dataset;
@@ -519,127 +375,14 @@
                 `Title: ${title}`,
                 `Source: ${source}`,
                 `Category: ${cat}`,
-                `URL (open in browser to read the full piece): ${link}`,
+                `URL: ${link}`,
               ];
               if (excerpt && String(excerpt).trim()) {
-                lines.push(`Excerpt from this site’s feed: ${String(excerpt).replace(/\s+/g, ' ').trim()}`);
+                lines.push(`Excerpt from feed: ${String(excerpt).replace(/\s+/g, ' ').trim()}`);
               } else {
-                lines.push('Excerpt: not available on this page (headline and metadata only).');
+                lines.push('Excerpt: not on this page (headline and metadata only).');
               }
               return lines.join('\n');
-            }
-
-            function hideGeminiMeta() {
-              const wrap = document.getElementById('ai-gemini-meta');
-              const pr = document.getElementById('ai-gemini-params');
-              if (wrap) wrap.hidden = true;
-              if (pr) {
-                pr.textContent = '';
-                pr.hidden = true;
-              }
-            }
-
-            /** Mirrors Chrome’s Prompt API docs: surface availability + optional params(). */
-            function formatModelParams(p) {
-              if (!p || typeof p !== 'object') return '';
-              const bits = [];
-              if (p.defaultTemperature != null && p.maxTemperature != null) {
-                bits.push(`temperature ${p.defaultTemperature}–${p.maxTemperature}`);
-              } else if (p.defaultTemperature != null) {
-                bits.push(`temperature ${p.defaultTemperature}`);
-              }
-              if (p.defaultTopK != null || p.maxTopK != null) {
-                bits.push(
-                  `topK ${p.defaultTopK != null ? p.defaultTopK : '?'} / max ${p.maxTopK != null ? p.maxTopK : '?'}`
-                );
-              }
-              return bits.join(' · ');
-            }
-
-            async function renderGeminiNanoMeta(lmApi, availability) {
-              const wrap = document.getElementById('ai-gemini-meta');
-              const avEl = document.getElementById('ai-gemini-availability');
-              const prEl = document.getElementById('ai-gemini-params');
-              if (!wrap || !avEl || !prEl) return;
-
-              const avHuman =
-                availability === 'readily'
-                  ? 'On-device model ready.'
-                  : availability === 'downloading'
-                    ? 'Model downloading or preparing—first reply may be slower.'
-                    : availability === 'downloadable'
-                      ? 'Model will download when you send your first prompt.'
-                      : String(availability || '').trim();
-
-              avEl.textContent = avHuman ? avHuman : '';
-              prEl.textContent = '';
-              prEl.hidden = true;
-
-              try {
-                if (typeof lmApi.params === 'function') {
-                  const p = await lmApi.params(LM_OPTIONS);
-                  const line = formatModelParams(p);
-                  if (line) {
-                    prEl.textContent = line;
-                    prEl.hidden = false;
-                  }
-                }
-              } catch (_) {
-                /* params() may be unsupported in some web builds; docs note extension nuances. */
-              }
-
-              wrap.hidden = false;
-            }
-
-            const renderPromptUnavailable = (detailHtml) => {
-              hideGeminiMeta();
-              setAiSuiteStatus(detailHtml, 'warn');
-              promptApiReady = false;
-              setIntegratedAiEnabled(false);
-              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
-            };
-
-            /** Cap embedded snapshot size so create() stays within on-device context limits. */
-            const MAX_PAGE_GROUNDING_CHARS = 72000;
-
-            /**
-             * Structured dump of every story on the page (all categories), for system-context grounding.
-             */
-            function buildPageGroundingText(list) {
-              if (!list || !list.length) return '';
-              const byCat = {};
-              for (const s of list) {
-                const lab = s.category_label || s.category || 'General';
-                if (!byCat[lab]) byCat[lab] = [];
-                byCat[lab].push(s);
-              }
-              const parts = [];
-              parts.push(`Tech Insights — full page (${list.length} stories, every section below the fold included)`);
-              parts.push('');
-              const catOrder = Object.keys(byCat).sort();
-              for (const cat of catOrder) {
-                parts.push(`## ${cat}`);
-                const items = byCat[cat];
-                items.forEach((s, idx) => {
-                  const title = s.title || 'Untitled';
-                  const src = s.source || '';
-                  const when = s.time_ago || '';
-                  parts.push(`${idx + 1}. ${title}`);
-                  parts.push(`   Source: ${src} · ${when}`);
-                  const desc = s.description && String(s.description).trim();
-                  if (desc) {
-                    parts.push(`   Excerpt: ${desc.replace(/\s+/g, ' ')}`);
-                  }
-                });
-                parts.push('');
-              }
-              let text = parts.join('\n');
-              if (text.length > MAX_PAGE_GROUNDING_CHARS) {
-                text =
-                  text.slice(0, MAX_PAGE_GROUNDING_CHARS) +
-                  '\n\n[Snapshot truncated to fit the model context window.]';
-              }
-              return text;
             }
 
             async function closeLmSession(session) {
@@ -652,20 +395,10 @@
               }
             }
 
-            /**
-             * Ephemeral session per user action (ask, story angle)—avoids cross-talk in session history.
-             * @param {string} [pageGrounding] Full-page story snapshot appended to system prompt (max length capped).
-             */
             async function openLmSession(lmApi, systemPrompt, onDownloadPct, pageGrounding) {
               let combined = systemPrompt;
               if (pageGrounding && pageGrounding.trim()) {
-                combined = [
-                  systemPrompt,
-                  '',
-                  '---',
-                  'PAGE_SNAPSHOT (ground truth for this page — only these rows count as facts):',
-                  pageGrounding.trim(),
-                ].join('\n');
+                combined = [systemPrompt, '', '---', 'CONTEXT:', pageGrounding.trim()].join('\n');
               }
               const baseOpts = {
                 ...LM_OPTIONS,
@@ -684,61 +417,176 @@
               }
             }
 
-            const runAskFeed = async () => {
-              const q = (askFeedInput && askFeedInput.value) ? askFeedInput.value.trim() : '';
-              if (!q || !promptApiReady) return;
-              if (!pageStories || pageStories.length === 0) {
-                askFeedReply.hidden = false;
-                askFeedReply.textContent = 'No story data. Rebuild the site.';
+            function parsePrimerResponse(text) {
+              const raw = String(text || '').trim();
+              const questions = [];
+              let summary = '';
+              const parts = raw.split(/^QUESTIONS:\s*/im);
+              const head = parts[0] || '';
+              const tail = parts[1];
+              const sumMatch = head.match(/SUMMARY:\s*([\s\S]*)/i);
+              if (sumMatch) summary = sumMatch[1].trim();
+              else summary = head.replace(/^SUMMARY:\s*/i, '').trim();
+              if (tail) {
+                for (const line of tail.split('\n')) {
+                  const m = line.match(/^\s*[-*]\s*(.+)$/);
+                  if (m && m[1]) questions.push(m[1].trim());
+                }
+              }
+              if (!summary && !questions.length && raw) summary = raw;
+              return { summary, questions };
+            }
+
+            function renderStoryPrimerUI(primerRoot, { summary, questions }) {
+              const sumEl = primerRoot.querySelector('.story-ask-primer__summary');
+              const labelEl = primerRoot.querySelector('.story-ask-primer__suggestions-label');
+              const listEl = primerRoot.querySelector('.story-ask-suggestions');
+              const loadEl = primerRoot.querySelector('.story-ask-primer__loading');
+              if (loadEl) loadEl.hidden = true;
+              if (sumEl) {
+                sumEl.textContent = summary || '—';
+                sumEl.hidden = false;
+              }
+              if (listEl) {
+                listEl.innerHTML = '';
+                const qs = questions.slice(0, 5);
+                if (qs.length) {
+                  for (const q of qs) {
+                    const li = document.createElement('li');
+                    const btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.className = 'story-ask-suggestion';
+                    btn.textContent = q;
+                    li.appendChild(btn);
+                    listEl.appendChild(li);
+                  }
+                  listEl.hidden = false;
+                  if (labelEl) labelEl.hidden = false;
+                } else {
+                  listEl.hidden = true;
+                  if (labelEl) labelEl.hidden = true;
+                }
+              }
+            }
+
+            async function runStoryPrimer(detailsEl) {
+              const primerRoot = detailsEl.querySelector('.story-ask-primer');
+              if (!primerRoot) return;
+              const state = primerRoot.dataset.primerState;
+              if (state === 'ready' || state === 'loading' || state === 'unavailable') return;
+
+              const article = detailsEl.closest('.top-story, .story-card');
+              const loadEl = primerRoot.querySelector('.story-ask-primer__loading');
+              const sumEl = primerRoot.querySelector('.story-ask-primer__summary');
+              const listEl = primerRoot.querySelector('.story-ask-suggestions');
+              const labelEl = primerRoot.querySelector('.story-ask-primer__suggestions-label');
+              if (!article) return;
+
+              if (!promptApiInitComplete) {
+                if (loadEl) {
+                  loadEl.hidden = false;
+                  loadEl.textContent = 'Getting ready…';
+                }
                 return;
               }
+
+              if (!promptApiReady) {
+                primerRoot.dataset.primerState = 'unavailable';
+                if (loadEl) loadEl.hidden = true;
+                if (sumEl) {
+                  sumEl.hidden = false;
+                  sumEl.textContent =
+                    'On-device assistant isn’t available in this browser. Open the headline link to read the piece.';
+                }
+                return;
+              }
+
+              const grounding = buildOneStoryGroundingFromArticle(article);
+              if (!grounding) {
+                primerRoot.dataset.primerState = 'unavailable';
+                if (loadEl) loadEl.hidden = true;
+                if (sumEl) {
+                  sumEl.hidden = false;
+                  sumEl.textContent = 'Missing story data.';
+                }
+                return;
+              }
+
               const lmApi = getLanguageModelApi();
               if (!lmApi) return;
-              const availability = await lmApi.availability(LM_OPTIONS);
+
+              primerRoot.dataset.primerState = 'loading';
+              if (loadEl) {
+                loadEl.hidden = false;
+                loadEl.textContent = 'Getting a quick summary…';
+              }
+              if (sumEl) {
+                sumEl.textContent = '';
+                sumEl.hidden = true;
+              }
+              if (listEl) {
+                listEl.hidden = true;
+                listEl.innerHTML = '';
+              }
+              if (labelEl) labelEl.hidden = true;
+
+              let availability;
+              try {
+                availability = await lmApi.availability(LM_OPTIONS);
+              } catch (_) {
+                primerRoot.dataset.primerState = 'failed';
+                if (loadEl) loadEl.hidden = true;
+                if (sumEl) {
+                  sumEl.hidden = false;
+                  sumEl.textContent = 'Couldn’t start the assistant. Try again later.';
+                }
+                return;
+              }
               if (isAvailabilityBlocked(availability)) {
-                askFeedReply.hidden = false;
-                askFeedReply.textContent = 'Not available on this device.';
+                primerRoot.dataset.primerState = 'unavailable';
+                if (loadEl) loadEl.hidden = true;
+                if (sumEl) {
+                  sumEl.hidden = false;
+                  sumEl.textContent = 'Assistant isn’t available on this device.';
+                }
                 return;
               }
 
-              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
-              askFeedSubmit.disabled = true;
-              askFeedInput.disabled = true;
-              askFeedReply.hidden = false;
-              askFeedReply.textContent = '';
-              askFeedReply.classList.add('page-ai-reply--loading');
-
-              const pageGrounding = buildPageGroundingText(pageStories);
-              const userTurn = `[Question]\n${q}`;
-
+              const userTurn =
+                'Generate the SUMMARY and QUESTIONS sections now. Follow the output format exactly.';
               let session = null;
               try {
-                session = await openLmSession(lmApi, ASK_FEED_SYSTEM_PROMPT, (pct) => {
-                  askFeedReply.textContent = `Preparing… ${pct}%`;
-                }, pageGrounding);
+                session = await openLmSession(lmApi, STORY_PRIMER_SYSTEM_PROMPT, (pct) => {
+                  if (loadEl) loadEl.textContent = `Getting a quick summary… ${pct}%`;
+                }, grounding);
+                let out = '';
                 if (typeof session.promptStreaming === 'function') {
                   const stream = session.promptStreaming(userTurn);
-                  let full = '';
                   for await (const chunk of stream) {
-                    full += chunk;
-                    askFeedReply.textContent = full;
+                    out += chunk;
                   }
                 } else {
-                  const out = await session.prompt(userTurn);
-                  askFeedReply.textContent = String(out != null ? out : '');
+                  out = String((await session.prompt(userTurn)) ?? '');
                 }
-                if (rewriterReady && rewriterAnswerTools && askFeedReply.textContent.trim()) {
-                  rewriterAnswerTools.hidden = false;
-                }
+                const parsed = parsePrimerResponse(out);
+                renderStoryPrimerUI(primerRoot, parsed);
+                primerRoot.dataset.primerState = 'ready';
               } catch (err) {
-                askFeedReply.textContent = `Couldn’t complete: ${String(err.message || err)}`;
+                primerRoot.dataset.primerState = 'failed';
+                if (loadEl) loadEl.hidden = true;
+                if (sumEl) {
+                  sumEl.hidden = false;
+                  sumEl.textContent =
+                    'Couldn’t generate a summary. You can still type a question below.';
+                }
               } finally {
-                askFeedReply.classList.remove('page-ai-reply--loading');
+                if (loadEl) {
+                  loadEl.hidden = true;
+                  loadEl.textContent = 'Getting a quick summary…';
+                }
                 await closeLmSession(session);
-                askFeedSubmit.disabled = false;
-                askFeedInput.disabled = false;
               }
-            };
+            }
 
             const runStoryAsk = async (submitBtn) => {
               const article = submitBtn.closest('.top-story, .story-card');
@@ -766,7 +614,7 @@
               replyEl.hidden = false;
               replyEl.textContent = '';
               replyEl.classList.add('page-ai-reply--loading');
-              const userTurn = `[Question about this story]\n${q}`;
+              const userTurn = `[Question]\n${q}`;
               let session = null;
               try {
                 session = await openLmSession(lmApi, ASK_ONE_STORY_SYSTEM_PROMPT, (pct) => {
@@ -790,44 +638,6 @@
                 await closeLmSession(session);
                 submitBtn.disabled = false;
                 textarea.disabled = false;
-              }
-            };
-
-            const runStoryAngle = async (btn) => {
-              const title = btn.getAttribute('data-story-title') || '';
-              const source = btn.getAttribute('data-story-source') || '';
-              const cat = btn.getAttribute('data-story-cat') || '';
-              const wrap = btn.closest('.top-story-ai, .story-card-ai');
-              const outEl = wrap && wrap.querySelector('.story-ai-output');
-              if (!outEl || !promptApiReady) return;
-              const lmApi = getLanguageModelApi();
-              if (!lmApi) return;
-              const availability = await lmApi.availability(LM_OPTIONS);
-              if (isAvailabilityBlocked(availability)) {
-                outEl.hidden = false;
-                outEl.textContent = 'Not available here.';
-                return;
-              }
-
-              btn.disabled = true;
-              outEl.hidden = false;
-              outEl.textContent = '…';
-              outEl.classList.add('story-ai-output--loading');
-
-              const userTurn = `Focused story — Title: ${title}\nSource: ${source}\nCategory: ${cat}\n\nWhy might this matter to a tech reader? Answer in one or two sentences.`;
-
-              let session = null;
-              try {
-                const pageGrounding = buildPageGroundingText(pageStories);
-                session = await openLmSession(lmApi, STORY_ANGLE_SYSTEM_PROMPT, () => {}, pageGrounding);
-                const text = await session.prompt(userTurn);
-                outEl.textContent = String(text != null ? text : '').trim() || '—';
-              } catch (err) {
-                outEl.textContent = `Couldn’t generate: ${String(err.message || err)}`;
-              } finally {
-                outEl.classList.remove('story-ai-output--loading');
-                await closeLmSession(session);
-                btn.disabled = false;
               }
             };
 
@@ -899,7 +709,8 @@
                 const tgtPrimary = primaryLangTag(targetTag);
 
                 if (srcPrimary && tgtPrimary && srcPrimary === tgtPrimary) {
-                  outEl.textContent = 'Already matches your browser language.';
+                  outEl.hidden = true;
+                  outEl.textContent = '';
                   return;
                 }
 
@@ -938,128 +749,39 @@
               }
             }
 
-            async function runSummarizeArticle() {
-              const raw =
-                articleSummarizeInput && articleSummarizeInput.value
-                  ? articleSummarizeInput.value.trim()
-                  : '';
-              if (raw.length < 40) {
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.hidden = false;
-                  articleSummarizeStatus.textContent =
-                    'Paste at least a short paragraph (about 40+ characters).';
-                }
-                return;
-              }
-              if (!summarizerReady || typeof Summarizer === 'undefined') return;
-
-              if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = true;
-              if (articleSummarizeInput) articleSummarizeInput.disabled = true;
-              if (articleSummarizeStatus) {
-                articleSummarizeStatus.hidden = false;
-                articleSummarizeStatus.textContent = 'Summarizing…';
-              }
-              if (articleSummarizeOutput) {
-                articleSummarizeOutput.hidden = false;
-                articleSummarizeOutput.textContent = '';
-                articleSummarizeOutput.classList.add('page-ai-reply--loading');
-              }
-
-              const outLang = navigator.language || 'en-US';
-              const createOpts = {
-                sharedContext: 'Tech or business news article. The reader wants a short takeaway.',
-                type: 'tldr',
-                length: 'short',
-                format: 'plain-text',
-                expectedInputLanguages: DETECTOR_INPUT_LANGS,
-                outputLanguage: outLang,
-                monitor(m) {
-                  m.addEventListener('downloadprogress', (e) => {
-                    const pct = Math.round((e.loaded || 0) * 100);
-                    if (articleSummarizeStatus) {
-                      articleSummarizeStatus.hidden = false;
-                      articleSummarizeStatus.textContent = `Preparing model… ${pct}%`;
-                    }
-                  });
-                },
-              };
-
-              let sum = null;
+            async function initPromptApi() {
               try {
-                const av = await Summarizer.availability();
-                if (summarizerAvailabilityBlocked(av)) {
-                  if (articleSummarizeStatus) {
-                    articleSummarizeStatus.textContent =
-                      'Summarizer isn’t available on this device. See Chrome built-in AI requirements.';
-                  }
+                const lmApi = getLanguageModelApi();
+                if (!lmApi) {
+                  setPromptNote(
+                    `<span>On-device assistant isn’t available in this browser. <a href="${PROMPT_API_DOC}">Browser requirements</a></span>`,
+                    true
+                  );
                   return;
                 }
-                sum = await Summarizer.create(createOpts);
-                if (typeof sum.summarizeStreaming === 'function') {
-                  const stream = sum.summarizeStreaming(raw, {
-                    context: 'Audience: tech professionals skimming news.',
-                  });
-                  let full = '';
-                  for await (const chunk of stream) {
-                    full += chunk;
-                    if (articleSummarizeOutput) articleSummarizeOutput.textContent = full;
+                try {
+                  const availability = await lmApi.availability(LM_OPTIONS);
+                  if (isAvailabilityBlocked(availability)) {
+                    setPromptNote(
+                      `<span>Assistant isn’t available on this device. <a href="${PROMPT_API_DOC}">Browser requirements</a></span>`,
+                      true
+                    );
+                    return;
                   }
-                } else {
-                  const text = await sum.summarize(raw, {
-                    context: 'Audience: tech professionals skimming news.',
-                  });
-                  if (articleSummarizeOutput) {
-                    articleSummarizeOutput.textContent = String(text != null ? text : '');
-                  }
+                  promptApiReady = true;
+                  setIntegratedAiEnabled(true);
+                  setPromptNote(
+                    availability === 'downloading'
+                      ? '<span>First answer may take a moment while the assistant finishes loading.</span>'
+                      : '',
+                    false
+                  );
+                } catch (e) {
+                  setPromptNote(String(e.message || e), true);
                 }
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.textContent = '';
-                  articleSummarizeStatus.hidden = true;
-                }
-              } catch (err) {
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.hidden = false;
-                  articleSummarizeStatus.textContent = String(err.message || err);
-                }
-                if (articleSummarizeOutput) articleSummarizeOutput.textContent = '';
               } finally {
-                if (articleSummarizeOutput) {
-                  articleSummarizeOutput.classList.remove('page-ai-reply--loading');
-                }
-                if (sum && sum.destroy) {
-                  try {
-                    await sum.destroy();
-                  } catch (_) {
-                    /* ignore */
-                  }
-                }
-                if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = false;
-                if (articleSummarizeInput) articleSummarizeInput.disabled = false;
-              }
-            }
-
-            async function initSummarizerUi() {
-              if (!summarizeSection || !articleSummarizeInput || !articleSummarizeSubmit) return;
-              if (typeof Summarizer === 'undefined') return;
-
-              summarizeSection.hidden = false;
-              try {
-                const av = await Summarizer.availability();
-                if (summarizerAvailabilityBlocked(av)) {
-                  if (articleSummarizeStatus) {
-                    articleSummarizeStatus.hidden = false;
-                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
-                  }
-                  return;
-                }
-                summarizerReady = true;
-                articleSummarizeInput.disabled = false;
-                articleSummarizeSubmit.disabled = false;
-              } catch (e) {
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.hidden = false;
-                  articleSummarizeStatus.textContent = String(e.message || e);
-                }
+                promptApiInitComplete = true;
+                kickOpenStoryPrimers();
               }
             }
 
@@ -1072,177 +794,30 @@
               translateUiReady = true;
               if (typeof LanguageDetector === 'undefined') {
                 revealTranslateButtonsFallback();
-                refreshCapabilityChips();
                 return;
               }
               scheduleStoryLanguageScan();
             }
 
-            async function runProofreadQuestion() {
-              const raw = askFeedInput && askFeedInput.value ? askFeedInput.value.trim() : '';
-              if (!raw || typeof Proofreader === 'undefined') return;
-              if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = true;
-              try {
-                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
-                if (isAvailabilityBlocked(av)) return;
-                const proofreader = await Proofreader.create({
-                  expectedInputLanguages: ['en'],
-                  monitor(m) {
-                    m.addEventListener('downloadprogress', () => {});
-                  },
-                });
-                const result = await proofreader.proofread(raw);
-                const fixed =
-                  result && result.correctedInput != null ? String(result.correctedInput) : raw;
-                askFeedInput.value = fixed;
-                if (proofreader.destroy) await proofreader.destroy();
-              } catch (e) {
-                hideAiSuiteStatus();
-                setAiSuiteStatus(
-                  `<span class="ai-suite__status-text">Proofreader: ${String(e.message || e)}</span>`,
-                  'warn'
-                );
-              } finally {
-                if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = false;
-              }
-            }
-
-            async function runRewriteAnswer(mode) {
-              const text = askFeedReply ? askFeedReply.textContent.trim() : '';
-              if (!text || typeof Rewriter === 'undefined') return;
-              const busy = mode === 'shorter' ? rewriteShorterBtn : rewriteFormalBtn;
-              if (busy) busy.disabled = true;
-              askFeedReply.classList.add('page-ai-reply--loading');
-              let rewriter = null;
-              try {
-                const av = await Rewriter.availability();
-                if (isAvailabilityBlocked(av)) return;
-                const opts = {
-                  sharedContext: 'Tech news Q&A for a professional reader.',
-                  format: 'plain-text',
-                  length: mode === 'shorter' ? 'shorter' : 'as-is',
-                  tone: mode === 'formal' ? 'more-formal' : 'as-is',
-                  expectedInputLanguages: ['en'],
-                  outputLanguage: 'en',
-                  monitor(m) {
-                    m.addEventListener('downloadprogress', () => {});
-                  },
-                };
-                rewriter = await Rewriter.create(opts);
-                const out = await rewriter.rewrite(text, {
-                  context: 'Preserve facts; improve clarity only.',
-                });
-                const next =
-                  typeof out === 'string' ? out : out && out.text != null ? String(out.text) : String(out);
-                askFeedReply.textContent = next.trim() || text;
-                if (rewriter.destroy) await rewriter.destroy();
-                rewriter = null;
-              } catch (e) {
-                setAiSuiteStatus(
-                  `<span class="ai-suite__status-text">Rewriter: ${String(e.message || e)}</span>`,
-                  'warn'
-                );
-              } finally {
-                askFeedReply.classList.remove('page-ai-reply--loading');
-                if (rewriter && rewriter.destroy) {
-                  try {
-                    await rewriter.destroy();
-                  } catch (_) {
-                    /* ignore */
-                  }
-                }
-                if (rewriteShorterBtn) rewriteShorterBtn.disabled = false;
-                if (rewriteFormalBtn) rewriteFormalBtn.disabled = false;
-              }
-            }
-
-            function refreshCapabilityChips() {
-              if (!aiSuiteChips) return;
-              const chips = [];
-              const add = (label, on) => {
-                chips.push(`<li class="ai-suite__chip${on ? '' : ' ai-suite__chip--off'}">${label}</li>`);
-              };
-              add('Prompt API', promptApiReady);
-              add('Summarizer', summarizerReady);
-              add('Translate', translateUiReady);
-              add('Lang detect', langDetectScanOk);
-              add('Proofreader', proofreaderReady);
-              add('Rewriter', rewriterReady);
-              aiSuiteChips.innerHTML = chips.join('');
-            }
-
-            async function initProofreaderUi() {
-              if (!proofreadQuestionBtn || typeof Proofreader === 'undefined') return;
-              try {
-                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
-                if (isAvailabilityBlocked(av)) return;
-                proofreaderReady = true;
-                proofreadQuestionBtn.hidden = false;
-              } catch (_) {
-                /* optional API */
-              }
-            }
-
-            async function initRewriterUi() {
-              if (typeof Rewriter === 'undefined') return;
-              try {
-                const av = await Rewriter.availability();
-                if (isAvailabilityBlocked(av)) return;
-                rewriterReady = true;
-              } catch (_) {
-                /* optional API */
-              }
-            }
-
-            const initPromptApi = async () => {
-              const lmApi = getLanguageModelApi();
-              if (!lmApi) {
-                renderPromptUnavailable(
-                  `<p class="ai-suite__status-p">Language model not available in this browser. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
-                );
-                refreshCapabilityChips();
-                return;
-              }
-
-              try {
-                const availability = await lmApi.availability(LM_OPTIONS);
-                if (isAvailabilityBlocked(availability)) {
-                  renderPromptUnavailable(
-                    `<p class="ai-suite__status-p">On-device model isn’t available on this system. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
-                  );
-                  refreshCapabilityChips();
-                  return;
-                }
-
-                promptApiReady = true;
-                setIntegratedAiEnabled(true);
-                hideAiSuiteStatus();
-                if (availability === 'downloading') {
-                  setAiSuiteStatus(
-                    '<p class="ai-suite__status-p ai-suite__status-p--muted">First answer may wait while Gemini Nano prepares.</p>',
-                    'ok'
-                  );
-                }
-                await renderGeminiNanoMeta(lmApi, availability);
-              } catch (e) {
-                renderPromptUnavailable(
-                  `<p class="ai-suite__status-p">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Help</a></p>`
-                );
-              }
-              refreshCapabilityChips();
-            };
-
-            if (askFeedSubmit && askFeedInput) {
-              askFeedSubmit.addEventListener('click', () => void runAskFeed());
-              askFeedInput.addEventListener('keydown', (ev) => {
-                if (ev.key === 'Enter' && (ev.metaKey || ev.ctrlKey)) {
-                  ev.preventDefault();
-                  void runAskFeed();
-                }
-              });
-            }
+            document.querySelector('main')?.addEventListener('toggle', (ev) => {
+              const t = ev.target;
+              if (!(t instanceof HTMLDetailsElement)) return;
+              if (!t.classList.contains('story-ask') || !t.open) return;
+              void runStoryPrimer(t);
+            }, true);
 
             document.querySelector('main')?.addEventListener('click', (ev) => {
+              const sug = ev.target.closest('.story-ask-suggestion');
+              if (sug) {
+                ev.preventDefault();
+                const askRoot = sug.closest('.story-ask');
+                const ta = askRoot && askRoot.querySelector('.story-ask-input');
+                if (ta && !ta.disabled) {
+                  ta.value = sug.textContent.trim();
+                  ta.focus();
+                }
+                return;
+              }
               const tr = ev.target.closest('.story-translate-btn');
               if (tr && !tr.disabled) {
                 ev.preventDefault();
@@ -1255,10 +830,6 @@
                 void runStoryAsk(askSub);
                 return;
               }
-              const btn = ev.target.closest('.story-ai-btn');
-              if (!btn || btn.disabled) return;
-              ev.preventDefault();
-              void runStoryAngle(btn);
             });
 
             document.querySelector('main')?.addEventListener('keydown', (ev) => {
@@ -1273,27 +844,9 @@
               }
             });
 
-            if (articleSummarizeSubmit && articleSummarizeInput) {
-              articleSummarizeSubmit.addEventListener('click', () => void runSummarizeArticle());
-            }
-
-            if (proofreadQuestionBtn) {
-              proofreadQuestionBtn.addEventListener('click', () => void runProofreadQuestion());
-            }
-            if (rewriteShorterBtn) {
-              rewriteShorterBtn.addEventListener('click', () => void runRewriteAnswer('shorter'));
-            }
-            if (rewriteFormalBtn) {
-              rewriteFormalBtn.addEventListener('click', () => void runRewriteAnswer('formal'));
-            }
-
             (async () => {
               await initPromptApi();
-              await initSummarizerUi();
               initTranslateUi();
-              await initProofreaderUi();
-              await initRewriterUi();
-              refreshCapabilityChips();
             })();
         </script>
 
