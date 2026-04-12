@@ -114,6 +114,21 @@ a:hover {
     gap: 1rem;
 }
 
+.header-link {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    padding: 0.4rem 0.65rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.header-link:hover {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-link);
+}
+
 .updated {
     font-size: 0.75rem;
     color: var(--color-text-secondary);
@@ -710,6 +725,37 @@ main {
     margin-top: 0.9rem;
     font-size: 0.75rem;
     color: var(--color-text-secondary);
+}
+
+.github-page {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.github-page h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+}
+
+.github-page p,
+.github-page li {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+}
+
+.github-page ul,
+.github-page ol {
+    margin-left: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.github-panel {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background-color: var(--color-bg-secondary);
+    padding: 1rem;
+    margin: 1rem 0;
 }
 
 @media (max-width: 640px) {

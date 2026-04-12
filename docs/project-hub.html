@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Insights - Project Hub</title>
+    <meta name="description" content="Set up, publish, and maintain Tech Insights with GitHub Pages and GitHub Actions.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <h1><a class="brand-link" href="index.html">Tech Insights</a></h1>
+                    <p class="tagline">Project Hub</p>
+                </div>
+                <div class="header-actions">
+                    <a class="header-link" href="index.html">Back to Home</a>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container github-page">
+        <section class="github-panel">
+            <h2>Repository Links</h2>
+            <ul>
+                <li><a href="https://github.com/aamar-shahzad/techInsights" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+                <li><a href="https://aamar-shahzad.github.io/techInsights/" target="_blank" rel="noopener noreferrer">Live Site</a></li>
+                <li><a href="https://github.com/aamar-shahzad/techInsights/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Quick Setup</h2>
+            <ol>
+                <li>Fork or clone the repository.</li>
+                <li>In GitHub repo settings, enable Pages from branch <code>main</code> and folder <code>/docs</code>.</li>
+                <li>Run the workflow named <code>Build News Site</code> from the Actions tab.</li>
+                <li>Verify your page at <code>https://YOUR_USERNAME.github.io/techInsights/</code>.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Local Build</h2>
+            <div class="github-panel">
+                <p>Use this command sequence locally:</p>
+                <p><code>pip install -r requirements.txt</code></p>
+                <p><code>python scripts/build.py</code></p>
+                <p><code>open docs/index.html</code></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Notes</h2>
+            <ul>
+                <li>The AI Insight Snapshot is generated in the browser on demand.</li>
+                <li>If model loading fails, the page falls back to non-AI content without blocking the site.</li>
+                <li>Generated static files live under <code>docs/</code>.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p><a href="index.html">Home</a> · <a href="archive/">Archives</a></p>
+            <p class="copyright">&copy; 2026 Tech Insights</p>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            const html = document.documentElement;
+            const STORAGE_KEY = 'theme-preference';
+
+            function getPreference() {
+                const stored = localStorage.getItem(STORAGE_KEY);
+                if (stored) return stored;
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+
+            function setTheme(theme) {
+                html.setAttribute('data-theme', theme);
+                localStorage.setItem(STORAGE_KEY, theme);
+            }
+
+            setTheme(getPreference());
+
+            toggle.addEventListener('click', function() {
+                const current = html.getAttribute('data-theme');
+                setTheme(current === 'dark' ? 'light' : 'dark');
+            });
+        })();
+    </script>
+</body>
+</html>

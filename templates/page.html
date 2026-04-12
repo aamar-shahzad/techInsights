@@ -47,6 +47,7 @@
                 </div>
                 <div class="header-actions">
                     <span class="updated">Updated {{ updated_at }}</span>
+                    <a class="header-link" href="project-hub.html">Project Hub</a>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -151,7 +152,10 @@
             {{ top_stories_for_model | tojson }}
         </script>
         <script type="module">
-            import { pipeline } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.0.1';
+            import { env, pipeline } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1';
+
+            env.allowRemoteModels = true;
+            env.useBrowserCache = true;
 
             const stories = JSON.parse(
               document.getElementById('top-stories-data')?.textContent || '[]'
@@ -205,6 +209,32 @@
                 throw new Error('No JSON found in model output.');
               }
               return text.slice(start, end + 1);
+            };
+
+            const extractInsightPayload = (text) => {
+              const candidate = stripJsonFence(text || '');
+              try {
+                const parsed = JSON.parse(candidate);
+                if (parsed && (parsed.key_trends || parsed.quick_takeaways || parsed.watch_items)) {
+                  return parsed;
+                }
+              } catch (error) {
+                // Fall through to the robust path below.
+              }
+
+              const objects = (text || '').match(/\{[\s\S]*?\}/g) || [];
+              for (let i = objects.length - 1; i >= 0; i -= 1) {
+                try {
+                  const parsed = JSON.parse(objects[i]);
+                  if (parsed && (parsed.key_trends || parsed.quick_takeaways || parsed.watch_items)) {
+                    return parsed;
+                  }
+                } catch (error) {
+                  // Continue searching.
+                }
+              }
+
+              throw new Error('Model output did not include a valid insight JSON object.');
             };
 
             const normalizeList = (value) => {
@@ -267,7 +297,7 @@
                   do_sample: true,
                 });
                 const text = Array.isArray(out) && out.length > 0 ? out[0].generated_text : '';
-                const parsed = JSON.parse(stripJsonFence(text || ''));
+                const parsed = extractInsightPayload(text || '');
 
                 const headline = String(parsed.headline || 'Tech snapshot').trim() || 'Tech snapshot';
                 const keyTrends = normalizeList(parsed.key_trends);
@@ -282,7 +312,11 @@
                 const generatedFor = parsed.generated_for || new Date().toLocaleString();
                 metaEl.textContent = `Generated for ${stories.length} story data points at ${generatedFor}`;
               } catch (err) {
-                renderFallback(`AI insight generation failed: ${String(err.message || err)}`);
+                const message = String(err.message || err);
+                const hint = /unauthorized|401|403/i.test(message)
+                  ? ' (Model access issue. Refresh and retry; if it persists, clear site data and retry.)'
+                  : '';
+                renderFallback(`AI insight generation failed: ${message}${hint}`);
               } finally {
                 setLoadingState(false);
               }
