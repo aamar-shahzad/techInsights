@@ -717,10 +717,80 @@ main {
 
 .ai-suite__lede {
     font-size: 0.875rem;
-    line-height: 1.5;
+    line-height: 1.55;
     color: var(--color-text-secondary);
     margin: 0 0 0.5rem;
-    max-width: 40rem;
+    max-width: 42rem;
+}
+
+.ai-suite__lede strong {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.ai-suite__lede-links {
+    font-size: 0.8125rem;
+    margin: 0 0 0.75rem;
+    line-height: 1.5;
+}
+
+.ai-suite__lede-sep {
+    color: var(--color-text-muted);
+    margin: 0 0.2rem;
+}
+
+.ai-suite__model-meta {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    color: var(--color-text-secondary);
+    margin: 0 0 0.85rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+}
+
+.ai-suite__model-meta__p {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.5rem;
+}
+
+.ai-suite__model-meta__label {
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.ai-suite__model-meta__av {
+    flex: 1 1 12rem;
+    min-width: 0;
+}
+
+.ai-suite__model-meta__params {
+    display: block;
+    flex: 1 1 100%;
+    font-size: 0.75rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    color: var(--color-text-secondary);
+    background: transparent;
+    padding: 0.35rem 0 0;
+    margin: 0;
+    border: none;
+    border-top: 1px dashed var(--color-border);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.ai-suite__inline-code {
+    font-size: 0.84em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
 }
 
 .ai-suite__link {
@@ -823,8 +893,17 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
     margin-bottom: 0.35rem;
+}
+
+.ai-suite__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .ai-suite__card-title {
@@ -846,6 +925,12 @@ main {
     background: var(--color-bg-secondary);
     color: var(--color-text-secondary);
     border: 1px solid var(--color-border);
+}
+
+.ai-suite__badge--nano {
+    background: color-mix(in srgb, var(--color-devtools) 12%, transparent);
+    border-color: color-mix(in srgb, var(--color-devtools) 35%, var(--color-border));
+    color: var(--color-text);
 }
 
 .ai-suite__card-desc {

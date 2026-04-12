@@ -117,24 +117,40 @@
 
         <section class="ai-suite" aria-labelledby="ai-suite-title">
             <header class="ai-suite__header">
-                <span class="ai-suite__eyebrow">On-device AI</span>
+                <span class="ai-suite__eyebrow">Chrome built-in AI · Gemini Nano</span>
                 <h2 class="ai-suite__title" id="ai-suite-title">Ask questions &amp; summarize clips</h2>
                 <p class="ai-suite__lede">
-                    Runs in your browser when Chrome exposes the built-in APIs. This site does not receive your prompts or pasted text.
+                    Questions and summaries use <strong>Gemini Nano</strong> in Chrome via the Prompt API and related built-in APIs—on your device, not on our servers. Paste stays local; enable flags on localhost per Google’s docs.
                 </p>
-                <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Chrome built-in AI overview</a>
+                <p class="ai-suite__lede-links">
+                    <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">About Gemini Nano</a>
+                    <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
+                    <a href="https://developer.chrome.com/docs/ai/prompt-api" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Prompt API</a>
+                    <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
+                    <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">All built-in APIs</a>
+                </p>
             </header>
 
             <ul class="ai-suite__chips" id="ai-suite-chips" aria-label="Detected APIs"></ul>
+            <div id="ai-gemini-meta" class="ai-suite__model-meta" hidden>
+                <p class="ai-suite__model-meta__p">
+                    <span class="ai-suite__model-meta__label">Gemini Nano</span>
+                    <span id="ai-gemini-availability" class="ai-suite__model-meta__av"></span>
+                    <code id="ai-gemini-params" class="ai-suite__model-meta__params" hidden></code>
+                </p>
+            </div>
             <div id="ai-suite-status" class="ai-suite__status ai-suite__status--hidden" role="status"></div>
 
             <div class="ai-suite__grid">
                 <article class="ai-suite__card">
                     <div class="ai-suite__card-head">
                         <h3 class="ai-suite__card-title">Ask about this page</h3>
-                        <span class="ai-suite__badge">Prompt API</span>
+                        <span class="ai-suite__badges">
+                            <span class="ai-suite__badge">Prompt API</span>
+                            <span class="ai-suite__badge ai-suite__badge--nano">Gemini Nano</span>
+                        </span>
                     </div>
-                    <p class="ai-suite__card-desc">Uses the full story list (all sections) as context.</p>
+                    <p class="ai-suite__card-desc">Same pattern as Chrome’s docs: <code class="ai-suite__inline-code">LanguageModel</code> + your question, with this page’s story list as grounding.</p>
                     <div class="page-ai-ask__row ai-suite__ask-row">
                         <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
                         <textarea id="ask-feed-input" class="page-ai-ask__input" rows="3" placeholder="What stands out in security or AI this week?" disabled></textarea>
@@ -168,7 +184,7 @@
             </div>
 
             <p class="ai-suite__footnote">
-                Under each headline: the <strong>Language Detector</strong> runs after your first tap or click on the page; <strong>Translate</strong> appears only if the headline isn’t already in your browser language (then <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API. Some APIs need trials or flags — see Google’s docs.
+                Under each headline: <strong>Language Detector</strong> runs after your first interaction; <strong>Translate</strong> shows only when the headline language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses <strong>Gemini Nano</strong> through the Prompt API. Other APIs may need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> — see Google’s built-in AI docs.
             </p>
         </section>
 
@@ -187,7 +203,6 @@
              */
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
             const BUILTIN_AI_DOC = 'https://developer.chrome.com/docs/ai/built-in-apis';
-
             const DETECTOR_INPUT_LANGS = [
               'en', 'en-US', 'es', 'fr', 'de', 'ja', 'zh', 'zh-CN', 'zh-TW', 'ko', 'pt', 'pt-BR',
               'it', 'nl', 'pl', 'ru', 'ar', 'hi', 'tr', 'sv', 'da', 'no', 'fi', 'cs', 'uk',
@@ -416,7 +431,70 @@
               if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
             };
 
+            function hideGeminiMeta() {
+              const wrap = document.getElementById('ai-gemini-meta');
+              const pr = document.getElementById('ai-gemini-params');
+              if (wrap) wrap.hidden = true;
+              if (pr) {
+                pr.textContent = '';
+                pr.hidden = true;
+              }
+            }
+
+            /** Mirrors Chrome’s Prompt API docs: surface availability + optional params(). */
+            function formatModelParams(p) {
+              if (!p || typeof p !== 'object') return '';
+              const bits = [];
+              if (p.defaultTemperature != null && p.maxTemperature != null) {
+                bits.push(`temperature ${p.defaultTemperature}–${p.maxTemperature}`);
+              } else if (p.defaultTemperature != null) {
+                bits.push(`temperature ${p.defaultTemperature}`);
+              }
+              if (p.defaultTopK != null || p.maxTopK != null) {
+                bits.push(
+                  `topK ${p.defaultTopK != null ? p.defaultTopK : '?'} / max ${p.maxTopK != null ? p.maxTopK : '?'}`
+                );
+              }
+              return bits.join(' · ');
+            }
+
+            async function renderGeminiNanoMeta(lmApi, availability) {
+              const wrap = document.getElementById('ai-gemini-meta');
+              const avEl = document.getElementById('ai-gemini-availability');
+              const prEl = document.getElementById('ai-gemini-params');
+              if (!wrap || !avEl || !prEl) return;
+
+              const avHuman =
+                availability === 'readily'
+                  ? 'ready'
+                  : availability === 'downloading'
+                    ? 'preparing (first run may download)'
+                    : availability === 'downloadable'
+                      ? 'will download on first prompt'
+                      : String(availability || '');
+
+              avEl.textContent = avHuman ? ` — ${avHuman}.` : '';
+              prEl.textContent = '';
+              prEl.hidden = true;
+
+              try {
+                if (typeof lmApi.params === 'function') {
+                  const p = await lmApi.params(LM_OPTIONS);
+                  const line = formatModelParams(p);
+                  if (line) {
+                    prEl.textContent = line;
+                    prEl.hidden = false;
+                  }
+                }
+              } catch (_) {
+                /* params() may be unsupported in some web builds; docs note extension nuances. */
+              }
+
+              wrap.hidden = false;
+            }
+
             const renderPromptUnavailable = (detailHtml) => {
+              hideGeminiMeta();
               setAiSuiteStatus(detailHtml, 'warn');
               promptApiReady = false;
               setIntegratedAiEnabled(false);
@@ -932,7 +1010,7 @@
               const add = (label, on) => {
                 chips.push(`<li class="ai-suite__chip${on ? '' : ' ai-suite__chip--off'}">${label}</li>`);
               };
-              add('Prompt', promptApiReady);
+              add('Gemini Nano', promptApiReady);
               add('Summarizer', summarizerReady);
               add('Translate', translateUiReady);
               add('Lang detect', langDetectScanOk);
@@ -989,10 +1067,11 @@
                 hideAiSuiteStatus();
                 if (availability === 'downloading') {
                   setAiSuiteStatus(
-                    '<p class="ai-suite__status-p ai-suite__status-p--muted">First answer may wait while the model prepares.</p>',
+                    '<p class="ai-suite__status-p ai-suite__status-p--muted">First answer may wait while Gemini Nano prepares.</p>',
                     'ok'
                   );
                 }
+                await renderGeminiNanoMeta(lmApi, availability);
               } catch (e) {
                 renderPromptUnavailable(
                   `<p class="ai-suite__status-p">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Help</a></p>`
