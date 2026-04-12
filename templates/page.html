@@ -117,7 +117,7 @@
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
                                         <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">From headline &amp; excerpt on this page</span>
+                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Question for the assistant</label>
@@ -127,7 +127,13 @@
                                 </div>
                                 <div class="story-ask-reply-wrap">
                                     <p class="story-ask-reply__eyebrow" hidden>Answer</p>
-                                    <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
+                                    <div
+                                        class="story-ask-reply page-ai-reply"
+                                        role="region"
+                                        aria-label="Assistant answer"
+                                        aria-live="polite"
+                                        hidden
+                                    ></div>
                                 </div>
                             </div>
                         </details>
@@ -522,6 +528,7 @@
               if (replyEyebrow) replyEyebrow.hidden = false;
               replyEl.hidden = false;
               replyEl.textContent = '';
+              replyEl.scrollTop = 0;
               replyEl.classList.add('page-ai-reply--loading');
               const userTurn = `[Question]\n${q}`;
               let session = null;
@@ -531,6 +538,7 @@
                   ASK_ONE_STORY_SYSTEM_PROMPT,
                   (pct) => {
                     replyEl.textContent = `Preparing… ${pct}%`;
+                    replyEl.scrollTop = replyEl.scrollHeight;
                   },
                   grounding,
                   1024
@@ -541,10 +549,12 @@
                   for await (const chunk of stream) {
                     full += chunk;
                     replyEl.textContent = full;
+                    replyEl.scrollTop = replyEl.scrollHeight;
                   }
                 } else {
                   const out = await session.prompt(userTurn);
                   replyEl.textContent = String(out != null ? out : '');
+                  replyEl.scrollTop = 0;
                 }
               } catch (err) {
                 replyEl.textContent = `Couldn’t complete: ${String(err.message || err)}`;
