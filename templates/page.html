@@ -70,97 +70,132 @@
     </header>
 
     <main id="main-content" class="container main-content" tabindex="-1">
-        <section class="editorial-intro" aria-label="How reading and discussion work on this page">
-            <p class="editorial-intro__kicker">On-device discussion</p>
-            <p class="editorial-intro__lede">Open <strong>Discuss</strong> on any story for a plain-language briefing, suggested questions, and follow-up Q&amp;A. The assistant uses only the headline and excerpt shown here—open the link for the full piece.</p>
-        </section>
+        <div class="layout">
+            <div class="feed-col">
+                <section class="editorial-intro" aria-label="How reading and discussion work on this page">
+                    <p class="editorial-intro__kicker">On-device discussion</p>
+                    <p class="editorial-intro__lede">Select a story in the list to load it in the panel. You get a plain-language briefing, suggested questions, and follow-up Q&amp;A using only the headline and excerpt on this page—open the link for the full piece.</p>
+                </section>
 
-        {% for category in categories %}
-        <section class="category category--{{ category.id }}">
-            <h2 class="category-title">
-                <span class="category-indicator" aria-hidden="true"></span>
-                <span class="category-title__label">{{ category.label }}</span>
-                <span class="story-count">{{ category.stories|length }} stories</span>
-            </h2>
-            
-            {% if category.stories %}
-            <div class="stories-grid">
-                {% for story in category.stories %}
-                <article class="story-card{% if story.is_new %} story-card--new{% endif %}"
-                    data-story-title="{{ story.title|e }}"
-                    data-story-source="{{ story.source|e }}"
-                    data-story-cat="{{ story.category_label|e }}"
-                    data-story-link="{{ story.link|e }}"
-                    data-story-desc="{{ (story.description or '')[:2000]|e }}">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="{{ story.source }}">{{ story.source }}</span>
-                        <span class="story-date">{{ story.time_ago }}{% if story.is_new %} <span class="badge-new">New</span>{% endif %}</span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="{{ story.link }}" target="_blank" rel="noopener noreferrer">
-                            {{ story.title }}
-                        </a>
-                    </h3>
-                    {% if story.description %}
-                    <p class="story-description">{{ story.description }}</p>
-                    {% endif %}
-                    <div class="story-card-ai">
-                        <details class="story-ask">
-                            <summary class="story-ask__summary">
-                                <span class="story-ask__summary-main">
-                                    <span class="story-ask__summary-title">Discuss</span>
-                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
-                                </span>
-                            </summary>
-                            <div class="story-ask__inner">
-                                <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Briefing</p>
-                                    <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
-                                    <div class="story-ask-primer__plain-block" hidden>
-                                        <p class="story-ask-primer__plain-label">In plain terms</p>
-                                        <p class="story-ask-primer__plain"></p>
-                                    </div>
-                                    <div class="story-ask-primer__summary" aria-live="polite"></div>
-                                    <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
-                                    <ul class="story-ask-suggestions" hidden></ul>
-                                </div>
-                                <div class="story-ask-followup">
-                                    <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Ask a question</span>
-                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
-                                    </div>
-                                    <div class="story-ask-input-row">
-                                        <label class="visually-hidden" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Question for the assistant</label>
-                                        <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
-                                    </div>
-                                </div>
-                                <div class="story-ask-reply-wrap">
-                                    <p class="story-ask-reply__eyebrow" hidden>Answer</p>
-                                    <div
-                                        class="story-ask-reply page-ai-reply"
-                                        role="region"
-                                        aria-label="Assistant answer"
-                                        aria-live="polite"
-                                        hidden
-                                    ></div>
-                                </div>
+                <nav class="category-nav-pills" aria-label="Jump to section">
+                    {% for category in categories %}
+                    <a href="#section-{{ category.id }}" class="category-nav-pill category-nav-pill--{{ category.id }}" data-section-id="{{ category.id }}">{{ category.label }}</a>
+                    {% endfor %}
+                </nav>
+
+                {% for category in categories %}
+                <section class="category category--{{ category.id }}" id="section-{{ category.id }}">
+                    <h2 class="category-title">
+                        <span class="category-indicator" aria-hidden="true"></span>
+                        <span class="category-title__label">{{ category.label }}</span>
+                        <span class="story-count">{{ category.stories|length }} stories</span>
+                    </h2>
+
+                    {% if category.stories %}
+                    <div class="stories-list" role="list">
+                        {% for story in category.stories %}
+                        <article
+                            class="story-row{% if story.is_new %} story-row--new{% endif %}"
+                            tabindex="0"
+                            data-story-title="{{ story.title|e }}"
+                            data-story-source="{{ story.source|e }}"
+                            data-story-cat="{{ story.category_label|e }}"
+                            data-story-link="{{ story.link|e }}"
+                            data-story-desc="{{ (story.description or '')[:2000]|e }}"
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">{{ story.source }}</span>
+                                <span class="story-row__time">{{ story.time_ago }}{% if story.is_new %} <span class="badge-new">New</span>{% endif %}</span>
                             </div>
-                        </details>
+                            <h3 class="story-row__title">
+                                <a href="{{ story.link }}" target="_blank" rel="noopener noreferrer" class="story-row__link">{{ story.title }}</a>
+                            </h3>
+                            {% if story.description %}
+                            <p class="story-row__dek">{{ story.description }}</p>
+                            {% endif %}
+                        </article>
+                        {% endfor %}
                     </div>
-                </article>
+                    {% else %}
+                    <p class="no-stories">No stories available at the moment.</p>
+                    {% endif %}
+                </section>
                 {% endfor %}
+                <p id="prompt-api-note" class="prompt-api-note" role="status" hidden></p>
             </div>
-            {% else %}
-            <p class="no-stories">No stories available at the moment.</p>
-            {% endif %}
-        </section>
-        {% endfor %}
-        <p id="prompt-api-note" class="prompt-api-note" role="status" hidden></p>
+
+            <aside id="assistant-panel" class="assistant-panel" aria-label="Discussion panel">
+                <button type="button" class="assistant-panel__close" id="assistant-panel-close" aria-label="Close discussion panel">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <div id="panel-idle" class="panel-idle">
+                    <p class="panel-idle__title">Select a story</p>
+                    <p class="panel-idle__text">Click any headline row (not the link) to load a briefing and ask questions on-device.</p>
+                </div>
+                <div id="panel-active" class="panel-active" hidden>
+                    <header class="panel-header">
+                        <p class="panel-header__eyebrow">Selected story</p>
+                        <h2 class="panel-header__title" id="panel-story-title"></h2>
+                        <p class="panel-header__meta">
+                            <span id="panel-story-source"></span>
+                            <span class="panel-header__sep" aria-hidden="true">·</span>
+                            <a id="panel-story-link" href="#" target="_blank" rel="noopener noreferrer" class="panel-header__outlink">Open article</a>
+                        </p>
+                    </header>
+                    <div class="panel-body-scroll">
+                        <div class="story-ask-primer panel-briefing" data-primer-state="">
+                            <p class="story-ask-primer__eyebrow">Briefing</p>
+                            <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
+                            <div class="story-ask-primer__plain-block" hidden>
+                                <p class="story-ask-primer__plain-label">In plain terms</p>
+                                <p class="story-ask-primer__plain"></p>
+                            </div>
+                            <div class="story-ask-primer__summary" aria-live="polite"></div>
+                            <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
+                            <ul class="story-ask-suggestions" hidden></ul>
+                        </div>
+                    </div>
+                    <div class="panel-compose">
+                        <div class="story-ask-followup">
+                            <div class="story-ask-followup__head">
+                                <span class="story-ask-followup__title">Ask a question</span>
+                                <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
+                            </div>
+                            <div class="story-ask-input-row">
+                                <label class="visually-hidden" for="panel-story-ask">Question for the assistant</label>
+                                <textarea id="panel-story-ask" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-answer-region">
+                        <p class="story-ask-reply__eyebrow" hidden>Answer</p>
+                        <div
+                            class="story-ask-reply page-ai-reply"
+                            role="region"
+                            aria-label="Assistant answer"
+                            aria-live="polite"
+                            hidden
+                        ></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
 
         <script type="module">
-            /** On-device assistant: quick read + suggested questions, then follow-up Q&A. */
+            /** On-device assistant: single panel + story selection. */
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
+
+            const assistantPanel = document.getElementById('assistant-panel');
+            const panelIdle = document.getElementById('panel-idle');
+            const panelActive = document.getElementById('panel-active');
+            const panelCloseBtn = document.getElementById('assistant-panel-close');
+            const panelStoryTitle = document.getElementById('panel-story-title');
+            const panelStorySource = document.getElementById('panel-story-source');
+            const panelStoryLink = document.getElementById('panel-story-link');
+
+            let activeStoryEl = null;
 
             function getLanguageModelApi() {
               if (typeof LanguageModel !== 'undefined') return LanguageModel;
@@ -207,16 +242,6 @@
             let promptApiReady = false;
             let promptApiInitComplete = false;
 
-            function kickOpenStoryPrimers() {
-              document.querySelectorAll('details.story-ask[open]').forEach((d) => {
-                const pr = d.querySelector('.story-ask-primer');
-                if (!pr) return;
-                const st = pr.dataset.primerState;
-                if (st === 'ready' || st === 'loading') return;
-                void runStoryPrimer(d);
-              });
-            }
-
             function setPromptNote(html, warn) {
               if (!promptApiNote) return;
               if (!html) {
@@ -236,6 +261,18 @@
               document.querySelectorAll('.story-ask-submit').forEach((el) => {
                 el.disabled = !enabled;
               });
+            }
+
+            function openAssistantPanelMobile() {
+              if (!assistantPanel) return;
+              if (window.matchMedia('(max-width: 959px)').matches) {
+                document.body.classList.add('assistant-panel-open');
+              }
+            }
+
+            function closeAssistantPanelMobile() {
+              if (!assistantPanel) return;
+              document.body.classList.remove('assistant-panel-open');
             }
 
             function buildOneStoryGroundingFromArticle(articleEl) {
@@ -332,6 +369,19 @@
               return { plain, summary, questions };
             }
 
+            function getPanelPrimerRoot() {
+              return document.querySelector('#panel-active .story-ask-primer');
+            }
+
+            function getPanelAskElements() {
+              const root = assistantPanel;
+              return {
+                textarea: root && root.querySelector('.story-ask-input'),
+                replyEl: root && root.querySelector('.story-ask-reply'),
+                replyEyebrow: root && root.querySelector('.story-ask-reply__eyebrow'),
+              };
+            }
+
             function renderStoryPrimerUI(primerRoot, { plain, summary, questions }) {
               const plainBlock = primerRoot.querySelector('.story-ask-primer__plain-block');
               const plainEl = primerRoot.querySelector('.story-ask-primer__plain');
@@ -368,8 +418,7 @@
                   }
                   listEl.hidden = false;
                   if (labelEl) labelEl.hidden = false;
-                  const askRoot = primerRoot.closest('.story-ask');
-                  const ta = askRoot && askRoot.querySelector('.story-ask-input');
+                  const ta = document.getElementById('panel-story-ask');
                   if (ta && !ta.value.trim() && qs[0]) {
                     ta.value = qs[0];
                   }
@@ -380,13 +429,75 @@
               }
             }
 
-            async function runStoryPrimer(detailsEl) {
-              const primerRoot = detailsEl.querySelector('.story-ask-primer');
+            function resetPanelAnswer() {
+              const { replyEl, replyEyebrow } = getPanelAskElements();
+              if (replyEl) {
+                replyEl.hidden = true;
+                replyEl.textContent = '';
+                replyEl.classList.remove('page-ai-reply--loading');
+              }
+              if (replyEyebrow) replyEyebrow.hidden = true;
+            }
+
+            function selectStory(row) {
+              if (!row || !panelIdle || !panelActive || !panelStoryTitle || !panelStorySource || !panelStoryLink) return;
+              activeStoryEl = row;
+              document.querySelectorAll('.story-row').forEach((el) => {
+                el.classList.remove('story-row--selected');
+                el.removeAttribute('aria-current');
+              });
+              row.classList.add('story-row--selected');
+              row.setAttribute('aria-current', 'true');
+
+              const ds = row.dataset;
+              panelStoryTitle.textContent = ds.storyTitle || '';
+              panelStorySource.textContent = ds.storySource || '';
+              panelStoryLink.href = ds.storyLink || '#';
+
+              panelIdle.hidden = true;
+              panelActive.hidden = false;
+
+              const ta = document.getElementById('panel-story-ask');
+              if (ta) ta.value = '';
+              resetPanelAnswer();
+
+              const primerRoot = getPanelPrimerRoot();
+              if (primerRoot) {
+                primerRoot.dataset.primerState = '';
+                const loadEl = primerRoot.querySelector('.story-ask-primer__loading');
+                const sumEl = primerRoot.querySelector('.story-ask-primer__summary');
+                const listEl = primerRoot.querySelector('.story-ask-suggestions');
+                const labelEl = primerRoot.querySelector('.story-ask-primer__suggestions-label');
+                const plainBlock = primerRoot.querySelector('.story-ask-primer__plain-block');
+                const plainEl = primerRoot.querySelector('.story-ask-primer__plain');
+                if (loadEl) {
+                  loadEl.hidden = true;
+                  loadEl.textContent = 'Getting a quick summary…';
+                }
+                if (sumEl) {
+                  sumEl.textContent = '';
+                  sumEl.hidden = true;
+                }
+                if (plainBlock) plainBlock.hidden = true;
+                if (plainEl) plainEl.textContent = '';
+                if (listEl) {
+                  listEl.hidden = true;
+                  listEl.innerHTML = '';
+                }
+                if (labelEl) labelEl.hidden = true;
+              }
+
+              openAssistantPanelMobile();
+              void runStoryPrimer();
+            }
+
+            async function runStoryPrimer() {
+              const primerRoot = getPanelPrimerRoot();
               if (!primerRoot) return;
               const state = primerRoot.dataset.primerState;
               if (state === 'ready' || state === 'loading' || state === 'unavailable') return;
 
-              const article = detailsEl.closest('.story-card');
+              const article = activeStoryEl;
               const loadEl = primerRoot.querySelector('.story-ask-primer__loading');
               const sumEl = primerRoot.querySelector('.story-ask-primer__summary');
               const listEl = primerRoot.querySelector('.story-ask-suggestions');
@@ -510,11 +621,8 @@
             }
 
             const runStoryAsk = async (submitBtn) => {
-              const article = submitBtn.closest('.story-card');
-              const askRoot = submitBtn.closest('.story-ask');
-              const textarea = askRoot && askRoot.querySelector('.story-ask-input');
-              const replyEl = askRoot && askRoot.querySelector('.story-ask-reply');
-              const replyEyebrow = askRoot && askRoot.querySelector('.story-ask-reply__eyebrow');
+              const article = activeStoryEl;
+              const { textarea, replyEl, replyEyebrow } = getPanelAskElements();
               const q = textarea && textarea.value ? textarea.value.trim() : '';
               if (!article || !textarea || !replyEl || !q || !promptApiReady) return;
               const lmApi = getLanguageModelApi();
@@ -608,23 +716,34 @@
                 }
               } finally {
                 promptApiInitComplete = true;
-                kickOpenStoryPrimers();
+                if (activeStoryEl) {
+                  void runStoryPrimer();
+                }
               }
             }
 
-            document.querySelector('main')?.addEventListener('toggle', (ev) => {
-              const t = ev.target;
-              if (!(t instanceof HTMLDetailsElement)) return;
-              if (!t.classList.contains('story-ask') || !t.open) return;
-              void runStoryPrimer(t);
-            }, true);
-
             document.querySelector('main')?.addEventListener('click', (ev) => {
+              const closeBtn = ev.target.closest('#assistant-panel-close');
+              if (closeBtn) {
+                ev.preventDefault();
+                closeAssistantPanelMobile();
+                return;
+              }
+
+              const row = ev.target.closest('.story-row');
+              if (row) {
+                if (ev.target.closest('a.story-row__link')) {
+                  return;
+                }
+                ev.preventDefault();
+                selectStory(row);
+                return;
+              }
+
               const sug = ev.target.closest('.story-ask-suggestion');
               if (sug) {
                 ev.preventDefault();
-                const askRoot = sug.closest('.story-ask');
-                const ta = askRoot && askRoot.querySelector('.story-ask-input');
+                const ta = document.getElementById('panel-story-ask');
                 if (ta && !ta.disabled) {
                   ta.value = sug.textContent.trim();
                   ta.focus();
@@ -635,21 +754,66 @@
               if (askSub && !askSub.disabled) {
                 ev.preventDefault();
                 void runStoryAsk(askSub);
-                return;
               }
             });
 
             document.querySelector('main')?.addEventListener('keydown', (ev) => {
-              if (ev.key !== 'Enter' || !(ev.metaKey || ev.ctrlKey)) return;
-              const ta = ev.target.closest('.story-ask-input');
-              if (!ta || ta.disabled) return;
-              const askRoot = ta.closest('.story-ask');
-              const sub = askRoot && askRoot.querySelector('.story-ask-submit');
-              if (sub && !sub.disabled) {
+              if ((ev.metaKey || ev.ctrlKey) && ev.key.toLowerCase() === 'k') {
                 ev.preventDefault();
-                void runStoryAsk(sub);
+                const ta = document.getElementById('panel-story-ask');
+                if (ta && !ta.disabled) ta.focus();
+                return;
+              }
+
+              const row = ev.target.closest('.story-row');
+              if (row && (ev.key === 'Enter' || ev.key === ' ')) {
+                if (ev.target.closest('a.story-row__link')) return;
+                ev.preventDefault();
+                selectStory(row);
+                return;
+              }
+
+              if (ev.key === 'Enter' && (ev.metaKey || ev.ctrlKey)) {
+                const ta = ev.target.closest('.story-ask-input');
+                if (!ta || ta.disabled) return;
+                const sub = document.querySelector('#assistant-panel .story-ask-submit');
+                if (sub && !sub.disabled) {
+                  ev.preventDefault();
+                  void runStoryAsk(sub);
+                }
               }
             });
+
+            panelCloseBtn?.addEventListener('click', () => closeAssistantPanelMobile());
+
+            const sectionIds = ['ai', 'devtools', 'tech', 'startups', 'security'];
+            const pills = document.querySelectorAll('.category-nav-pill');
+            const sections = sectionIds
+              .map((id) => document.getElementById(`section-${id}`))
+              .filter(Boolean);
+
+            function setActivePill(id) {
+              pills.forEach((p) => {
+                p.classList.toggle('category-nav-pill--active', p.dataset.sectionId === id);
+              });
+            }
+
+            if (sections.length && 'IntersectionObserver' in window) {
+              const io = new IntersectionObserver(
+                (entries) => {
+                  const visible = entries
+                    .filter((e) => e.isIntersecting)
+                    .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+                  if (visible.length && visible[0].target.id) {
+                    const id = visible[0].target.id.replace(/^section-/, '');
+                    setActivePill(id);
+                  }
+                },
+                { root: null, rootMargin: '-20% 0px -55% 0px', threshold: [0, 0.1, 0.25] }
+              );
+              sections.forEach((sec) => io.observe(sec));
+            }
+            setActivePill('ai');
 
             (async () => {
               await initPromptApi();
