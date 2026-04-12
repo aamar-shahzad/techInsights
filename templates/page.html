@@ -99,52 +99,50 @@
         </section>
         {% endif %}
 
-        <section class="insight-section">
-            <div id="insight-status">
-                {% if insights and not insights.enabled %}
-                <p class="insight-headline">{{ insights.message }}</p>
-                {% else %}
-                <p class="insight-headline">AI Insight Snapshot uses Chrome’s on-device Prompt API (Gemini Nano) when supported. Checking availability…</p>
-                {% endif %}
-            </div>
-            <div class="insight-toolbar">
-                <h2 class="insight-title">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="17 8 12 3 7 8"></polyline>
-                        <line x1="12" y1="3" x2="12" y2="15"></line>
-                    </svg>
-                    AI Insight Snapshot
-                </h2>
+        <section class="insight-section insight-panel" aria-labelledby="insight-section-title">
+            <div class="insight-panel__head">
+                <div class="insight-panel__title-block">
+                    <h2 class="insight-title" id="insight-section-title">Briefing</h2>
+                    <p class="insight-tagline">A condensed read from today's top stories. Private to your browser.</p>
+                </div>
                 <button id="insight-generate-button" class="insight-generate-button" type="button">
-                    Generate AI Insight Snapshot
+                    Generate briefing
                 </button>
             </div>
-            <p class="insight-headline" id="insight-headline">AI insight snapshot is ready when you run generation.</p>
+
+            <div id="insight-status" class="insight-status" role="status">
+                {% if insights and not insights.enabled %}
+                <p class="insight-alert insight-alert--muted">{{ insights.message }}</p>
+                {% else %}
+                <p class="insight-alert insight-alert--muted">Checking…</p>
+                {% endif %}
+            </div>
+
+            <p class="insight-lede insight-lede--placeholder" id="insight-headline">—</p>
 
             <div class="insight-grid">
                 <article class="insight-card">
-                    <h3>Key trends</h3>
+                    <h3 class="insight-card__label">Trends</h3>
                     <ul class="insight-list" id="insight-key-trends">
-                        <li>Preparing key trends...</li>
+                        <li class="insight-list__placeholder">—</li>
                     </ul>
                 </article>
 
                 <article class="insight-card">
-                    <h3>Quick takeaways</h3>
+                    <h3 class="insight-card__label">Takeaways</h3>
                     <ul class="insight-list" id="insight-quick-takeaways">
-                        <li>Preparing takeaways...</li>
+                        <li class="insight-list__placeholder">—</li>
                     </ul>
                 </article>
 
                 <article class="insight-card">
-                    <h3>Watch this</h3>
+                    <h3 class="insight-card__label">Watch</h3>
                     <ul class="insight-list" id="insight-watch-items">
-                        <li>Preparing watch items...</li>
+                        <li class="insight-list__placeholder">—</li>
                     </ul>
                 </article>
             </div>
-            <p class="insight-meta" id="insight-meta">Preparing from latest stories.</p>
+            <p class="insight-meta" id="insight-meta"></p>
         </section>
 
         <script id="top-stories-data" type="application/json">
@@ -210,7 +208,8 @@
               el.innerHTML = '';
               if (!list.length) {
                 const item = document.createElement('li');
-                item.textContent = 'No items returned.';
+                item.className = 'insight-list__placeholder';
+                item.textContent = '—';
                 el.appendChild(item);
                 return;
               }
@@ -224,16 +223,20 @@
             const setLoadingState = (isLoading) => {
               if (!generateButton) return;
               generateButton.disabled = isLoading || !promptApiReady;
-              generateButton.textContent = isLoading ? 'Generating… this may take a moment' : originalButtonLabel;
+              generateButton.textContent = isLoading ? 'Working…' : originalButtonLabel;
             };
 
             const renderUnavailable = (detailHtml) => {
               statusEl.innerHTML = detailHtml;
-              statusEl.style.display = '';
+              statusEl.classList.remove('insight-status--hidden');
               setList(trendsEl, []);
               setList(takeawaysEl, []);
               setList(watchEl, []);
-              metaEl.textContent = 'AI Insight Snapshot requires Chrome’s Prompt API.';
+              metaEl.textContent = '';
+              if (headlineEl) {
+                headlineEl.textContent = '—';
+                headlineEl.classList.add('insight-lede--placeholder');
+              }
               if (generateButton) {
                 generateButton.disabled = true;
               }
@@ -241,14 +244,14 @@
             };
 
             const showGenerationError = (message, err) => {
-              statusEl.style.display = '';
+              statusEl.classList.remove('insight-status--hidden');
               const name = err && err.name ? String(err.name) : '';
               let extra = '';
               if (name === 'QuotaExceededError' && err.contextWindow != null) {
-                extra = ` Context window: ${err.contextWindow}.`;
+                extra = ` (${err.contextWindow} token limit)`;
               }
-              statusEl.innerHTML = `<p class="insight-headline">${message}${extra}</p><p class="insight-meta"><a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Prompt API troubleshooting</a></p>`;
-              metaEl.textContent = 'Generation failed · you can try again';
+              statusEl.innerHTML = `<p class="insight-alert insight-alert--warn">${message}${extra} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Details</a></p>`;
+              metaEl.textContent = 'Try again when ready.';
             };
 
             const stripJsonFence = (text) => {
@@ -334,7 +337,7 @@
                 monitor(m) {
                   m.addEventListener('downloadprogress', (e) => {
                     const pct = Math.round((e.loaded || 0) * 100);
-                    metaEl.textContent = `Downloading on-device model… ${pct}%`;
+                    metaEl.textContent = `Preparing… ${pct}%`;
                   });
                 },
               };
@@ -348,20 +351,20 @@
 
             const generateInsights = async () => {
               if (!stories || stories.length === 0) {
-                statusEl.style.display = '';
+                statusEl.classList.remove('insight-status--hidden');
                 statusEl.innerHTML =
-                  '<p class="insight-headline">No stories available for insight generation.</p>';
+                  '<p class="insight-alert insight-alert--muted">No stories loaded. Rebuild the site feed.</p>';
                 setList(trendsEl, []);
                 setList(takeawaysEl, []);
                 setList(watchEl, []);
-                metaEl.textContent = 'Add stories by rebuilding the site.';
+                metaEl.textContent = '';
                 return;
               }
 
               const lmApi = getLanguageModelApi();
               if (!lmApi) {
                 renderUnavailable(
-                  `<p class="insight-headline">The Prompt API is not available in this browser.</p><p class="insight-meta">Use Chrome with built-in AI enabled. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Documentation</a></p>`
+                  `<p class="insight-alert insight-alert--muted">Briefing isn’t supported in this browser. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
                 );
                 return;
               }
@@ -369,18 +372,16 @@
               const availability = await lmApi.availability(LM_OPTIONS);
               if (isAvailabilityBlocked(availability)) {
                 renderUnavailable(
-                  `<p class="insight-headline">Gemini Nano is not available on this device or profile.</p><p class="insight-meta">Check <code>chrome://on-device-internals</code> and the <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Prompt API docs</a>.</p>`
+                  `<p class="insight-alert insight-alert--muted">Briefing isn’t available on this device. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Why</a></p>`
                 );
                 return;
               }
 
               setLoadingState(true);
-              statusEl.innerHTML =
-                '<p class="insight-headline">Running Gemini Nano in your browser (on-device)…</p>';
+              statusEl.classList.remove('insight-status--hidden');
+              statusEl.innerHTML = '<p class="insight-alert insight-alert--info">Summarizing…</p>';
               metaEl.textContent =
-                availability === 'downloading'
-                  ? 'Preparing model download…'
-                  : 'Connecting to on-device language model…';
+                availability === 'downloading' ? 'First run may download data in the background.' : '';
 
               const promptText = buildInsightPromptText();
 
@@ -403,12 +404,14 @@
                 const watchItems = normalizeList(parsed.watch_items);
 
                 headlineEl.textContent = headline;
+                headlineEl.classList.remove('insight-lede--placeholder');
                 setList(trendsEl, keyTrends);
                 setList(takeawaysEl, quickTakeaways);
                 setList(watchEl, watchItems);
-                statusEl.style.display = 'none';
+                statusEl.innerHTML = '';
+                statusEl.classList.add('insight-status--hidden');
                 const generatedFor = parsed.generated_for || new Date().toLocaleString();
-                metaEl.textContent = `Gemini Nano (Chrome built-in) · ${stories.length} stories · ${generatedFor}`;
+                metaEl.textContent = `${stories.length} stories · ${generatedFor}`;
               } catch (err) {
                 const message = String(err.message || err);
                 showGenerationError(`Insight generation failed: ${message}`, err);
@@ -421,7 +424,7 @@
               const lmApi = getLanguageModelApi();
               if (!lmApi) {
                 renderUnavailable(
-                  `<p class="insight-headline">AI Insight Snapshot needs Chrome’s built-in Prompt API (Gemini Nano).</p><p class="insight-meta">Enable flags if needed, then reload. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Setup</a> · <code>chrome://on-device-internals</code></p>`
+                  `<p class="insight-alert insight-alert--muted">Briefing needs a current desktop Chrome build. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
                 );
                 return;
               }
@@ -430,7 +433,7 @@
                 const availability = await lmApi.availability(LM_OPTIONS);
                 if (isAvailabilityBlocked(availability)) {
                   renderUnavailable(
-                    `<p class="insight-headline">On-device AI is unavailable here (device, storage, or policy).</p><p class="insight-meta"><a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Requirements</a> · <code>chrome://on-device-internals</code></p>`
+                    `<p class="insight-alert insight-alert--muted">Briefing isn’t available here. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
                   );
                   return;
                 }
@@ -438,16 +441,15 @@
                 promptApiReady = true;
                 if (generateButton) generateButton.disabled = false;
 
-                const hint =
+                statusEl.innerHTML = '';
+                statusEl.classList.add('insight-status--hidden');
+                metaEl.textContent =
                   availability === 'downloading'
-                    ? 'The model may download on first use; progress appears when you generate.'
-                    : 'Click Generate to run on-device inference.';
-
-                statusEl.innerHTML = `<p class="insight-headline">${hint}</p>`;
-                metaEl.textContent = 'Ready · Chrome Prompt API (Gemini Nano)';
+                    ? 'First briefing may take longer while files prepare.'
+                    : '';
               } catch (e) {
                 renderUnavailable(
-                  `<p class="insight-headline">Could not check AI availability.</p><p class="insight-meta">${String(e.message || e)} · <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Docs</a></p>`
+                  `<p class="insight-alert insight-alert--warn">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Help</a></p>`
                 );
               }
             };

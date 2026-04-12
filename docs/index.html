@@ -46,7 +46,7 @@
                     <p class="tagline">AI, Dev Tools & Tech News</p>
                 </div>
                 <div class="header-actions">
-                    <span class="updated">Updated April 12, 2026 at 04:03 UTC</span>
+                    <span class="updated">Updated April 12, 2026 at 04:06 UTC</span>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -83,6 +83,22 @@
                     <span class="top-story-rank">1</span>
                     <div class="top-story-content">
                         <h3 class="top-story-title">
+                            <a href="https://dev.to/npayyappilly/stop-letting-your-ai-forget-mempalace-is-a-wake-up-call-18f0" target="_blank" rel="noopener noreferrer">
+                                🧠 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call
+                            </a>
+                        </h3>
+                        <div class="top-story-meta">
+                            <span class="category-tag category-tag--devtools">Developer Tools</span>
+                            <span class="top-story-source">Dev.to</span>
+                            <span class="top-story-time">4 mins ago</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="top-story">
+                    <span class="top-story-rank">2</span>
+                    <div class="top-story-content">
+                        <h3 class="top-story-title">
                             <a href="https://dev.to/evanlausier/funn-2203" target="_blank" rel="noopener noreferrer">
                                 FUNN
                             </a>
@@ -90,13 +106,13 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">25 mins ago</span>
+                            <span class="top-story-time">28 mins ago</span>
                         </div>
                     </div>
                 </article>
                 
                 <article class="top-story">
-                    <span class="top-story-rank">2</span>
+                    <span class="top-story-rank">3</span>
                     <div class="top-story-content">
                         <h3 class="top-story-title">
                             <a href="https://dev.to/ahkarswe/terraform-production-structure-dev-staging-prod-part-6-4p3c" target="_blank" rel="noopener noreferrer">
@@ -106,23 +122,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">29 mins ago</span>
-                        </div>
-                    </div>
-                </article>
-                
-                <article class="top-story">
-                    <span class="top-story-rank">3</span>
-                    <div class="top-story-content">
-                        <h3 class="top-story-title">
-                            <a href="https://dev.to/ji_ai/beforeafter-what-claude-code-actually-sees-4em3" target="_blank" rel="noopener noreferrer">
-                                Before/After: What Claude Code Actually Sees
-                            </a>
-                        </h3>
-                        <div class="top-story-meta">
-                            <span class="category-tag category-tag--devtools">Developer Tools</span>
-                            <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">31 mins ago</span>
+                            <span class="top-story-time">32 mins ago</span>
                         </div>
                     </div>
                 </article>
@@ -243,54 +243,52 @@
         </section>
         
 
-        <section class="insight-section">
-            <div id="insight-status">
-                
-                <p class="insight-headline">AI Insight Snapshot uses Chrome’s on-device Prompt API (Gemini Nano) when supported. Checking availability…</p>
-                
-            </div>
-            <div class="insight-toolbar">
-                <h2 class="insight-title">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="17 8 12 3 7 8"></polyline>
-                        <line x1="12" y1="3" x2="12" y2="15"></line>
-                    </svg>
-                    AI Insight Snapshot
-                </h2>
+        <section class="insight-section insight-panel" aria-labelledby="insight-section-title">
+            <div class="insight-panel__head">
+                <div class="insight-panel__title-block">
+                    <h2 class="insight-title" id="insight-section-title">Briefing</h2>
+                    <p class="insight-tagline">A condensed read from today's top stories. Private to your browser.</p>
+                </div>
                 <button id="insight-generate-button" class="insight-generate-button" type="button">
-                    Generate AI Insight Snapshot
+                    Generate briefing
                 </button>
             </div>
-            <p class="insight-headline" id="insight-headline">AI insight snapshot is ready when you run generation.</p>
+
+            <div id="insight-status" class="insight-status" role="status">
+                
+                <p class="insight-alert insight-alert--muted">Checking…</p>
+                
+            </div>
+
+            <p class="insight-lede insight-lede--placeholder" id="insight-headline">—</p>
 
             <div class="insight-grid">
                 <article class="insight-card">
-                    <h3>Key trends</h3>
+                    <h3 class="insight-card__label">Trends</h3>
                     <ul class="insight-list" id="insight-key-trends">
-                        <li>Preparing key trends...</li>
+                        <li class="insight-list__placeholder">—</li>
                     </ul>
                 </article>
 
                 <article class="insight-card">
-                    <h3>Quick takeaways</h3>
+                    <h3 class="insight-card__label">Takeaways</h3>
                     <ul class="insight-list" id="insight-quick-takeaways">
-                        <li>Preparing takeaways...</li>
+                        <li class="insight-list__placeholder">—</li>
                     </ul>
                 </article>
 
                 <article class="insight-card">
-                    <h3>Watch this</h3>
+                    <h3 class="insight-card__label">Watch</h3>
                     <ul class="insight-list" id="insight-watch-items">
-                        <li>Preparing watch items...</li>
+                        <li class="insight-list__placeholder">—</li>
                     </ul>
                 </article>
             </div>
-            <p class="insight-meta" id="insight-meta">Preparing from latest stories.</p>
+            <p class="insight-meta" id="insight-meta"></p>
         </section>
 
         <script id="top-stories-data" type="application/json">
-            [{"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "25 mins ago", "title": "FUNN"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "29 mins ago", "title": "\ud83c\udfd7\ufe0f Terraform Production Structure (Dev / Staging / Prod) \u2014 Part 6"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "31 mins ago", "title": "Before/After: What Claude Code Actually Sees"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "4 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "source": "TechCrunch AI", "time_ago": "10 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "12 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}]
+            [{"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "4 mins ago", "title": "\ud83e\udde0 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "28 mins ago", "title": "FUNN"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "32 mins ago", "title": "\ud83c\udfd7\ufe0f Terraform Production Structure (Dev / Staging / Prod) \u2014 Part 6"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "4 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "source": "TechCrunch AI", "time_ago": "10 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "12 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}]
         </script>
         <script type="module">
             /** Chrome built-in Prompt API (Gemini Nano). @see https://developer.chrome.com/docs/ai/prompt-api */
@@ -352,7 +350,8 @@
               el.innerHTML = '';
               if (!list.length) {
                 const item = document.createElement('li');
-                item.textContent = 'No items returned.';
+                item.className = 'insight-list__placeholder';
+                item.textContent = '—';
                 el.appendChild(item);
                 return;
               }
@@ -366,16 +365,20 @@
             const setLoadingState = (isLoading) => {
               if (!generateButton) return;
               generateButton.disabled = isLoading || !promptApiReady;
-              generateButton.textContent = isLoading ? 'Generating… this may take a moment' : originalButtonLabel;
+              generateButton.textContent = isLoading ? 'Working…' : originalButtonLabel;
             };
 
             const renderUnavailable = (detailHtml) => {
               statusEl.innerHTML = detailHtml;
-              statusEl.style.display = '';
+              statusEl.classList.remove('insight-status--hidden');
               setList(trendsEl, []);
               setList(takeawaysEl, []);
               setList(watchEl, []);
-              metaEl.textContent = 'AI Insight Snapshot requires Chrome’s Prompt API.';
+              metaEl.textContent = '';
+              if (headlineEl) {
+                headlineEl.textContent = '—';
+                headlineEl.classList.add('insight-lede--placeholder');
+              }
               if (generateButton) {
                 generateButton.disabled = true;
               }
@@ -383,14 +386,14 @@
             };
 
             const showGenerationError = (message, err) => {
-              statusEl.style.display = '';
+              statusEl.classList.remove('insight-status--hidden');
               const name = err && err.name ? String(err.name) : '';
               let extra = '';
               if (name === 'QuotaExceededError' && err.contextWindow != null) {
-                extra = ` Context window: ${err.contextWindow}.`;
+                extra = ` (${err.contextWindow} token limit)`;
               }
-              statusEl.innerHTML = `<p class="insight-headline">${message}${extra}</p><p class="insight-meta"><a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Prompt API troubleshooting</a></p>`;
-              metaEl.textContent = 'Generation failed · you can try again';
+              statusEl.innerHTML = `<p class="insight-alert insight-alert--warn">${message}${extra} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Details</a></p>`;
+              metaEl.textContent = 'Try again when ready.';
             };
 
             const stripJsonFence = (text) => {
@@ -476,7 +479,7 @@
                 monitor(m) {
                   m.addEventListener('downloadprogress', (e) => {
                     const pct = Math.round((e.loaded || 0) * 100);
-                    metaEl.textContent = `Downloading on-device model… ${pct}%`;
+                    metaEl.textContent = `Preparing… ${pct}%`;
                   });
                 },
               };
@@ -490,20 +493,20 @@
 
             const generateInsights = async () => {
               if (!stories || stories.length === 0) {
-                statusEl.style.display = '';
+                statusEl.classList.remove('insight-status--hidden');
                 statusEl.innerHTML =
-                  '<p class="insight-headline">No stories available for insight generation.</p>';
+                  '<p class="insight-alert insight-alert--muted">No stories loaded. Rebuild the site feed.</p>';
                 setList(trendsEl, []);
                 setList(takeawaysEl, []);
                 setList(watchEl, []);
-                metaEl.textContent = 'Add stories by rebuilding the site.';
+                metaEl.textContent = '';
                 return;
               }
 
               const lmApi = getLanguageModelApi();
               if (!lmApi) {
                 renderUnavailable(
-                  `<p class="insight-headline">The Prompt API is not available in this browser.</p><p class="insight-meta">Use Chrome with built-in AI enabled. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Documentation</a></p>`
+                  `<p class="insight-alert insight-alert--muted">Briefing isn’t supported in this browser. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
                 );
                 return;
               }
@@ -511,18 +514,16 @@
               const availability = await lmApi.availability(LM_OPTIONS);
               if (isAvailabilityBlocked(availability)) {
                 renderUnavailable(
-                  `<p class="insight-headline">Gemini Nano is not available on this device or profile.</p><p class="insight-meta">Check <code>chrome://on-device-internals</code> and the <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Prompt API docs</a>.</p>`
+                  `<p class="insight-alert insight-alert--muted">Briefing isn’t available on this device. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Why</a></p>`
                 );
                 return;
               }
 
               setLoadingState(true);
-              statusEl.innerHTML =
-                '<p class="insight-headline">Running Gemini Nano in your browser (on-device)…</p>';
+              statusEl.classList.remove('insight-status--hidden');
+              statusEl.innerHTML = '<p class="insight-alert insight-alert--info">Summarizing…</p>';
               metaEl.textContent =
-                availability === 'downloading'
-                  ? 'Preparing model download…'
-                  : 'Connecting to on-device language model…';
+                availability === 'downloading' ? 'First run may download data in the background.' : '';
 
               const promptText = buildInsightPromptText();
 
@@ -545,12 +546,14 @@
                 const watchItems = normalizeList(parsed.watch_items);
 
                 headlineEl.textContent = headline;
+                headlineEl.classList.remove('insight-lede--placeholder');
                 setList(trendsEl, keyTrends);
                 setList(takeawaysEl, quickTakeaways);
                 setList(watchEl, watchItems);
-                statusEl.style.display = 'none';
+                statusEl.innerHTML = '';
+                statusEl.classList.add('insight-status--hidden');
                 const generatedFor = parsed.generated_for || new Date().toLocaleString();
-                metaEl.textContent = `Gemini Nano (Chrome built-in) · ${stories.length} stories · ${generatedFor}`;
+                metaEl.textContent = `${stories.length} stories · ${generatedFor}`;
               } catch (err) {
                 const message = String(err.message || err);
                 showGenerationError(`Insight generation failed: ${message}`, err);
@@ -563,7 +566,7 @@
               const lmApi = getLanguageModelApi();
               if (!lmApi) {
                 renderUnavailable(
-                  `<p class="insight-headline">AI Insight Snapshot needs Chrome’s built-in Prompt API (Gemini Nano).</p><p class="insight-meta">Enable flags if needed, then reload. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Setup</a> · <code>chrome://on-device-internals</code></p>`
+                  `<p class="insight-alert insight-alert--muted">Briefing needs a current desktop Chrome build. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
                 );
                 return;
               }
@@ -572,7 +575,7 @@
                 const availability = await lmApi.availability(LM_OPTIONS);
                 if (isAvailabilityBlocked(availability)) {
                   renderUnavailable(
-                    `<p class="insight-headline">On-device AI is unavailable here (device, storage, or policy).</p><p class="insight-meta"><a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Requirements</a> · <code>chrome://on-device-internals</code></p>`
+                    `<p class="insight-alert insight-alert--muted">Briefing isn’t available here. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
                   );
                   return;
                 }
@@ -580,16 +583,15 @@
                 promptApiReady = true;
                 if (generateButton) generateButton.disabled = false;
 
-                const hint =
+                statusEl.innerHTML = '';
+                statusEl.classList.add('insight-status--hidden');
+                metaEl.textContent =
                   availability === 'downloading'
-                    ? 'The model may download on first use; progress appears when you generate.'
-                    : 'Click Generate to run on-device inference.';
-
-                statusEl.innerHTML = `<p class="insight-headline">${hint}</p>`;
-                metaEl.textContent = 'Ready · Chrome Prompt API (Gemini Nano)';
+                    ? 'First briefing may take longer while files prepare.'
+                    : '';
               } catch (e) {
                 renderUnavailable(
-                  `<p class="insight-headline">Could not check AI availability.</p><p class="insight-meta">${String(e.message || e)} · <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Docs</a></p>`
+                  `<p class="insight-alert insight-alert--warn">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Help</a></p>`
                 );
               }
             };
@@ -786,7 +788,22 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">25 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">4 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/npayyappilly/stop-letting-your-ai-forget-mempalace-is-a-wake-up-call-18f0" target="_blank" rel="noopener noreferrer">
+                            🧠 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">Most AI systems today are stateless by design. That’s not a feature — it’s a limitation. Context disappears Decisions are lost Knowledge doesn’t accumulate We’ve normalized this. But what if AI...</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">28 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/evanlausier/funn-2203" target="_blank" rel="noopener noreferrer">
@@ -801,7 +818,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">29 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">32 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/ahkarswe/terraform-production-structure-dev-staging-prod-part-6-4p3c" target="_blank" rel="noopener noreferrer">
@@ -816,7 +833,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">31 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">34 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/ji_ai/beforeafter-what-claude-code-actually-sees-4em3" target="_blank" rel="noopener noreferrer">
@@ -831,7 +848,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">31 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">34 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/aki1770del/connecting-flutter-to-vehicle-signals-building-a-dart-sdk-for-eclipse-kuksa-121l" target="_blank" rel="noopener noreferrer">
@@ -846,7 +863,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">33 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">36 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/codebyankita/how-ai-is-quietly-breaking-web3-security-and-creating-invisible-attack-surfaces-3i2d" target="_blank" rel="noopener noreferrer">
@@ -861,7 +878,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">33 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">36 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/mr_harshkumar_jha/pythons-silent-production-killer-why-pass-by-reference-is-a-lie-b97" target="_blank" rel="noopener noreferrer">
@@ -876,7 +893,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">38 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">42 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/yangss/programmer-owns-the-architecture-ai-implements-crate-level-modules-in-rust-how-does-this-compare-3jj8" target="_blank" rel="noopener noreferrer">
@@ -891,7 +908,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">44 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">47 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/dragooner4788/hardening-linux-on-raspberry-pi-5-52k4" target="_blank" rel="noopener noreferrer">
@@ -906,7 +923,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">48 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">52 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/star_juniper_4ca56572b978/cryptography-journey-1-fundamentals-and-encoding-techniques-mi-ma-xue-zhi-lu-1ji-ben-gai-nian-yu-bian-ma-ji-zhu--bg7" target="_blank" rel="noopener noreferrer">
@@ -915,21 +932,6 @@
                     </h3>
                     
                     <p class="story-description">EN：As an incoming postgraduate student majoring in Software Engineering, I am starting my blogging journey with the assistance of AI translation. This post marks my first exploration into the...</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">51 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/md_saieemmia_358390009b5/hello-dev-community-full-stack-developer-here-2l5g" target="_blank" rel="noopener noreferrer">
-                            Welcome Thread - v372
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">Hey! I'm Saieem — a Full-Stack Developer. I spend most of my time building web apps using React, Next.js, Node.js, Python, SQL, and MongoDB — focusing on real-world projects that actually solve...</p>
                     
                 </article>
                 
