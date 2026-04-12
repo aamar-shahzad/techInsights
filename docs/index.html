@@ -34,7 +34,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="app">
@@ -43,11 +43,11 @@
         <div class="container">
             <div class="header-content">
                 <div class="brand">
-                    <h1>Tech Insights</h1>
-                    <p class="tagline">AI, Dev Tools & Tech News</p>
+                    <h1 class="brand__title">Tech Insights</h1>
+                    <p class="tagline">Technology briefing · curated daily</p>
                 </div>
                 <div class="header-actions">
-                    <span class="updated">Updated April 12, 2026 at 05:02 UTC</span>
+                    <span class="updated">Updated April 12, 2026 at 05:05 UTC</span>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -70,11 +70,16 @@
     </header>
 
     <main id="main-content" class="container main-content" tabindex="-1">
+        <section class="editorial-intro" aria-label="How reading and discussion work on this page">
+            <p class="editorial-intro__kicker">On-device discussion</p>
+            <p class="editorial-intro__lede">Open <strong>Discuss</strong> on any story for a plain-language briefing, suggested questions, and follow-up Q&amp;A. The assistant uses only the headline and excerpt shown here—open the link for the full piece.</p>
+        </section>
+
         
         <section class="category category--ai">
             <h2 class="category-title">
-                <span class="category-indicator"></span>
-                AI
+                <span class="category-indicator" aria-hidden="true"></span>
+                <span class="category-title__label">AI</span>
                 <span class="story-count">10 stories</span>
             </h2>
             
@@ -101,10 +106,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -116,13 +126,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-0">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -160,10 +170,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -175,13 +190,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-1">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -219,10 +234,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -234,13 +254,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-2">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -278,10 +298,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -293,13 +318,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-3">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -337,10 +362,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -352,13 +382,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-4">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -396,10 +426,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -411,13 +446,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-5">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -455,10 +490,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -470,13 +510,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-6">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -514,10 +554,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -529,13 +574,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-7">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -573,10 +618,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -588,13 +638,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-8">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -632,10 +682,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -647,13 +702,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-ai-9">Question for the assistant</label>
-                                        <textarea id="story-ask-ai-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-ai-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -677,8 +732,8 @@
         
         <section class="category category--devtools">
             <h2 class="category-title">
-                <span class="category-indicator"></span>
-                Developer Tools
+                <span class="category-indicator" aria-hidden="true"></span>
+                <span class="category-title__label">Developer Tools</span>
                 <span class="story-count">10 stories</span>
             </h2>
             
@@ -693,7 +748,7 @@
                     data-story-desc="Vane is one of the more pragmatic entries in the &#34;AI search with citations&#34; space: a self-hosted answering engine that mixes live web retrieval with local or cloud LLMs, while keeping the whole...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">5 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">9 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/rosgluk/vane-perplexica-20-quickstart-with-ollama-and-llamacpp-132o" target="_blank" rel="noopener noreferrer">
@@ -705,10 +760,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -720,13 +780,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-0">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -752,7 +812,7 @@
                     data-story-desc="Introduction: The Browser Extension Development Dilemma Building browser extensions is a lot like assembling a puzzle in a dark room. You know the pieces are there, but the process is riddled with...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">12 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">15 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/pavkode/streamlining-browser-extension-development-overcoming-repetitive-tasks-and-state-management-5ef6" target="_blank" rel="noopener noreferrer">
@@ -764,10 +824,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -779,13 +844,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-1">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -811,7 +876,7 @@
                     data-story-desc="😈 The Perfect User Experience (That Hates You) What if a website didn’t help users… but actively fought them? This project starts as a clean, premium interface — and quickly turns into a chaotic...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">13 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">16 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/kushan_prasad_3c6b8f0a473/this-website-actively-hates-you-anti-ux-experiment-418-teapot-chaos-obl" target="_blank" rel="noopener noreferrer">
@@ -823,10 +888,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -838,13 +908,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-2">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -870,7 +940,7 @@
                     data-story-desc="A maioria aprende programação do jeito errado! Comecei a programar com 12 anos, em um trabalho da escola. Nada demais. Só curiosidade e vontade de fazer aquilo funcionar. Hoje, mais de 20 anos...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">16 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">19 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/rodrigocnascimento/from-zero-to-hero-1oed" target="_blank" rel="noopener noreferrer">
@@ -882,10 +952,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -897,13 +972,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-3">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -929,7 +1004,7 @@
                     data-story-desc="If you&#39;ve spent any time in a Linux terminal, you&#39;ve typed sudo in front of a command. Maybe it was because something was blocked, maybe someone told you to, or maybe you just picked up the habit....">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">17 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">20 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/axo4321/sudo-power-tool-not-a-magic-fix-1lgo" target="_blank" rel="noopener noreferrer">
@@ -941,10 +1016,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -956,13 +1036,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-4">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -988,7 +1068,7 @@
                     data-story-desc="AI is everywhere right now - but most integrations have one big problem: They give answers, but not explanations. If you’re building real applications (customer support tools, decision systems,...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">21 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">24 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/mukundhan_mohan_403443a12/building-an-explainable-ai-toolkit-for-laravel-not-just-another-chatgpt-wrapper-49c" target="_blank" rel="noopener noreferrer">
@@ -1000,10 +1080,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1015,13 +1100,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-5">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1047,7 +1132,7 @@
                     data-story-desc="A man in southern India folds hand towels while wearing a GoPro on his forehead. The point is not surveillance for its own sake; according to Los Angeles Times reporting, the footage becomes robot...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">37 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">40 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/simon_paxton/robot-training-data-is-turning-labor-into-infrastructure-2ebd" target="_blank" rel="noopener noreferrer">
@@ -1059,10 +1144,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1074,13 +1164,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-6">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1106,7 +1196,7 @@
                     data-story-desc="If you&#39;ve been using Claude Desktop and wished it could create documents, spreadsheets, and presentations for you — now it can. Mila is an AI-native office suite with a built-in MCP server, so you...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">38 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">41 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/noleetcode/how-to-connect-mila-to-claude-desktop-via-mcp-in-30-seconds-22jo" target="_blank" rel="noopener noreferrer">
@@ -1118,10 +1208,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1133,13 +1228,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-7">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1165,7 +1260,7 @@
                     data-story-desc="Three hundred million downloads and more than 100,000 derivative models is what success looks like in open-source AI—at least until someone in finance asks where the money is. Alibaba’s own...">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">40 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">43 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/simon_paxton/open-source-ai-built-qwens-reach-alibaba-wants-cloud-cash-223g" target="_blank" rel="noopener noreferrer">
@@ -1177,10 +1272,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1192,13 +1292,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-8">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1224,7 +1324,7 @@
                     data-story-desc="You know that feeling? The one where you&#39;re staring at your screen at 11:47 PM, your third coffee is cold, and you realize... you haven&#39;t seen sunlight in two days. Yeah. That&#39;s burnout knocking....">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">43 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">46 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/mightyblue/the-remote-developers-guide-to-southeast-asia-in-2026-internet-speeds-co-living-costs-visa-44g9" target="_blank" rel="noopener noreferrer">
@@ -1236,10 +1336,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1251,13 +1356,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-devtools-9">Question for the assistant</label>
-                                        <textarea id="story-ask-devtools-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-devtools-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1281,8 +1386,8 @@
         
         <section class="category category--tech">
             <h2 class="category-title">
-                <span class="category-indicator"></span>
-                Tech Industry
+                <span class="category-indicator" aria-hidden="true"></span>
+                <span class="category-title__label">Tech Industry</span>
                 <span class="story-count">10 stories</span>
             </h2>
             
@@ -1309,10 +1414,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1324,13 +1434,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-0">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1368,10 +1478,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1383,13 +1498,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-1">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1427,10 +1542,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1442,13 +1562,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-2">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1486,10 +1606,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1501,13 +1626,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-3">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1545,10 +1670,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1560,13 +1690,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-4">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1604,10 +1734,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1619,13 +1754,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-5">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1663,10 +1798,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1678,13 +1818,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-6">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1722,10 +1862,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1737,13 +1882,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-7">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1781,10 +1926,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1796,13 +1946,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-8">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1840,10 +1990,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1855,13 +2010,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-tech-9">Question for the assistant</label>
-                                        <textarea id="story-ask-tech-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-tech-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1885,8 +2040,8 @@
         
         <section class="category category--startups">
             <h2 class="category-title">
-                <span class="category-indicator"></span>
-                Startups & VC
+                <span class="category-indicator" aria-hidden="true"></span>
+                <span class="category-title__label">Startups & VC</span>
                 <span class="story-count">10 stories</span>
             </h2>
             
@@ -1913,10 +2068,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1928,13 +2088,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-0">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -1972,10 +2132,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -1987,13 +2152,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-1">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2031,10 +2196,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2046,13 +2216,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-2">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2090,10 +2260,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2105,13 +2280,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-3">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2149,10 +2324,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2164,13 +2344,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-4">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2208,10 +2388,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2223,13 +2408,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-5">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2267,10 +2452,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2282,13 +2472,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-6">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2326,10 +2516,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2341,13 +2536,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-7">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2385,10 +2580,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2400,13 +2600,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-8">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2444,10 +2644,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2459,13 +2664,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-startups-9">Question for the assistant</label>
-                                        <textarea id="story-ask-startups-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-startups-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2489,8 +2694,8 @@
         
         <section class="category category--security">
             <h2 class="category-title">
-                <span class="category-indicator"></span>
-                Security
+                <span class="category-indicator" aria-hidden="true"></span>
+                <span class="category-title__label">Security</span>
                 <span class="story-count">10 stories</span>
             </h2>
             
@@ -2517,10 +2722,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2532,13 +2742,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-0">Question for the assistant</label>
-                                        <textarea id="story-ask-security-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-0" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2576,10 +2786,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2591,13 +2806,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-1">Question for the assistant</label>
-                                        <textarea id="story-ask-security-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-1" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2635,10 +2850,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2650,13 +2870,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-2">Question for the assistant</label>
-                                        <textarea id="story-ask-security-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-2" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2694,10 +2914,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2709,13 +2934,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-3">Question for the assistant</label>
-                                        <textarea id="story-ask-security-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-3" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2753,10 +2978,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2768,13 +2998,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-4">Question for the assistant</label>
-                                        <textarea id="story-ask-security-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-4" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2812,10 +3042,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2827,13 +3062,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-5">Question for the assistant</label>
-                                        <textarea id="story-ask-security-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-5" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2871,10 +3106,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2886,13 +3126,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-6">Question for the assistant</label>
-                                        <textarea id="story-ask-security-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-6" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2930,10 +3170,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -2945,13 +3190,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-7">Question for the assistant</label>
-                                        <textarea id="story-ask-security-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-7" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -2989,10 +3234,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -3004,13 +3254,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-8">Question for the assistant</label>
-                                        <textarea id="story-ask-security-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-8" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
@@ -3048,10 +3298,15 @@
                     
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -3063,13 +3318,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-security-9">Question for the assistant</label>
-                                        <textarea id="story-ask-security-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-security-9" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">

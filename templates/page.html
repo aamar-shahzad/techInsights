@@ -34,7 +34,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="app">
@@ -43,8 +43,8 @@
         <div class="container">
             <div class="header-content">
                 <div class="brand">
-                    <h1>Tech Insights</h1>
-                    <p class="tagline">AI, Dev Tools & Tech News</p>
+                    <h1 class="brand__title">Tech Insights</h1>
+                    <p class="tagline">Technology briefing · curated daily</p>
                 </div>
                 <div class="header-actions">
                     <span class="updated">Updated {{ updated_at }}</span>
@@ -70,11 +70,16 @@
     </header>
 
     <main id="main-content" class="container main-content" tabindex="-1">
+        <section class="editorial-intro" aria-label="How reading and discussion work on this page">
+            <p class="editorial-intro__kicker">On-device discussion</p>
+            <p class="editorial-intro__lede">Open <strong>Discuss</strong> on any story for a plain-language briefing, suggested questions, and follow-up Q&amp;A. The assistant uses only the headline and excerpt shown here—open the link for the full piece.</p>
+        </section>
+
         {% for category in categories %}
         <section class="category category--{{ category.id }}">
             <h2 class="category-title">
-                <span class="category-indicator"></span>
-                {{ category.label }}
+                <span class="category-indicator" aria-hidden="true"></span>
+                <span class="category-title__label">{{ category.label }}</span>
                 <span class="story-count">{{ category.stories|length }} stories</span>
             </h2>
             
@@ -101,10 +106,15 @@
                     {% endif %}
                     <div class="story-card-ai">
                         <details class="story-ask">
-                            <summary class="story-ask__summary">At a glance</summary>
+                            <summary class="story-ask__summary">
+                                <span class="story-ask__summary-main">
+                                    <span class="story-ask__summary-title">Discuss</span>
+                                    <span class="story-ask__summary-sub">Briefing &amp; ask</span>
+                                </span>
+                            </summary>
                             <div class="story-ask__inner">
                                 <div class="story-ask-primer" data-primer-state="">
-                                    <p class="story-ask-primer__eyebrow">Quick read</p>
+                                    <p class="story-ask-primer__eyebrow">Briefing</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
                                     <div class="story-ask-primer__plain-block" hidden>
                                         <p class="story-ask-primer__plain-label">In plain terms</p>
@@ -116,13 +126,13 @@
                                 </div>
                                 <div class="story-ask-followup">
                                     <div class="story-ask-followup__head">
-                                        <span class="story-ask-followup__title">Your question</span>
-                                        <span class="story-ask-followup__hint">Uses headline &amp; excerpt only</span>
+                                        <span class="story-ask-followup__title">Ask a question</span>
+                                        <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
                                     </div>
                                     <div class="story-ask-input-row">
                                         <label class="visually-hidden" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Question for the assistant</label>
-                                        <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                        <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                        <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Send</button>
                                     </div>
                                 </div>
                                 <div class="story-ask-reply-wrap">
