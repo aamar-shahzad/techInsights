@@ -94,8 +94,11 @@
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
-                                <button type="button" class="story-translate-btn" disabled
-                                    data-story-title="{{ story.title|e }}">Translate title</button>
+                                <span class="story-translate-slot">
+                                    <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
+                                        data-story-title="{{ story.title|e }}">Translate</button>
+                                    <span class="story-lang-same" hidden></span>
+                                </span>
                                 <button type="button" class="story-ai-btn" disabled
                                     data-story-title="{{ story.title|e }}"
                                     data-story-source="{{ story.source|e }}"
@@ -163,8 +166,7 @@
             </div>
 
             <p class="ai-suite__footnote">
-                Under each headline: <strong>Translate title</strong> (Language Detector + Translator) ·
-                <strong>Why it matters</strong> (Prompt API). Trials may apply — see Google’s docs.
+                Under each headline: the <strong>Language Detector</strong> runs after your first tap or click on the page; <strong>Translate</strong> appears only if the headline isn’t already in your browser language (then <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API. Some APIs need trials or flags — see Google’s docs.
             </p>
         </section>
 
@@ -282,8 +284,112 @@
 
             function setTranslateButtonsEnabled(on) {
               document.querySelectorAll('.story-translate-btn').forEach((btn) => {
+                if (btn.hidden) return;
                 btn.disabled = !on;
               });
+            }
+
+            /** True only after a successful LanguageDetector batch pass (not fallback). */
+            let langDetectScanOk = false;
+
+            function revealTranslateButtonsFallback() {
+              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
+                btn.classList.remove('story-translate-btn--pending');
+                const slot = btn.closest('.story-translate-slot');
+                const sameEl = slot && slot.querySelector('.story-lang-same');
+                if (sameEl) {
+                  sameEl.hidden = true;
+                  sameEl.textContent = '';
+                }
+                btn.hidden = false;
+                btn.disabled = !translateUiReady;
+              });
+            }
+
+            function hideAllStoryTranslateSlots() {
+              document.querySelectorAll('.story-translate-slot').forEach((slot) => {
+                slot.hidden = true;
+              });
+            }
+
+            /**
+             * LanguageDetector.create() must run in a user-activation path. We call create() from the first
+             * pointerdown or focusin on main, then detect each headline and show Translate only if the
+             * primary language differs from the browser language.
+             */
+            function scheduleStoryLanguageScan() {
+              const main = document.querySelector('main');
+              if (!main || main.dataset.langScanScheduled === '1') return;
+              main.dataset.langScanScheduled = '1';
+
+              let started = false;
+              const kickOffScan = () => {
+                if (started) return;
+                started = true;
+                LanguageDetector.create({
+                  expectedInputLanguages: DETECTOR_INPUT_LANGS,
+                })
+                  .then(async (detector) => {
+                    try {
+                      const browserP = primaryLangTag(userTargetLanguageTag());
+                      const buttons = document.querySelectorAll('.story-translate-btn');
+                      for (const btn of buttons) {
+                        const title = btn.getAttribute('data-story-title') || '';
+                        const slot = btn.closest('.story-translate-slot');
+                        const sameEl = slot && slot.querySelector('.story-lang-same');
+                        if (!title) continue;
+                        let needsTranslate = true;
+                        try {
+                          const results = await detector.detect(title);
+                          const scored = (results || []).filter(
+                            (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
+                          );
+                          scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+                          const detected = scored[0] ? scored[0].detectedLanguage : '';
+                          if (detected) {
+                            btn.setAttribute('data-detected-lang', detected);
+                          }
+                          const detP = primaryLangTag(detected);
+                          needsTranslate = !(detP && browserP && detP === browserP);
+                        } catch (_) {
+                          needsTranslate = true;
+                        }
+                        btn.classList.remove('story-translate-btn--pending');
+                        if (needsTranslate) {
+                          btn.hidden = false;
+                          btn.disabled = !translateUiReady;
+                          if (sameEl) {
+                            sameEl.hidden = true;
+                            sameEl.textContent = '';
+                          }
+                        } else {
+                          btn.hidden = true;
+                          btn.disabled = true;
+                          if (sameEl) {
+                            sameEl.hidden = false;
+                            const br = browserP || '?';
+                            sameEl.textContent = `Same language as browser (${br})`;
+                          }
+                        }
+                      }
+                    } finally {
+                      try {
+                        if (detector && detector.destroy) await detector.destroy();
+                      } catch (_) {
+                        /* ignore */
+                      }
+                      langDetectScanOk = true;
+                      refreshCapabilityChips();
+                    }
+                  })
+                  .catch(() => {
+                    revealTranslateButtonsFallback();
+                    refreshCapabilityChips();
+                  });
+              };
+
+              main.addEventListener('pointerdown', kickOffScan, { capture: true });
+              main.addEventListener('focusin', kickOffScan, { capture: true });
             }
 
             function setAiSuiteStatus(html, variant) {
@@ -525,7 +631,7 @@
               const title = btn.getAttribute('data-story-title') || '';
               const wrap = btn.closest('.top-story-ai, .story-card-ai');
               const outEl = wrap && wrap.querySelector('.story-translate-output');
-              if (!outEl || !title || !translateUiReady) return;
+              if (!outEl || !title || !translateUiReady || btn.hidden) return;
 
               outEl.hidden = false;
               outEl.textContent = '…';
@@ -534,20 +640,22 @@
               let detector = null;
               let translator = null;
               try {
-                detector = await LanguageDetector.create({
-                  expectedInputLanguages: DETECTOR_INPUT_LANGS,
-                });
-                const results = await detector.detect(title);
-                if (detector.destroy) {
-                  await detector.destroy();
+                let sourceTag = btn.getAttribute('data-detected-lang') || '';
+                if (!sourceTag) {
+                  detector = await LanguageDetector.create({
+                    expectedInputLanguages: DETECTOR_INPUT_LANGS,
+                  });
+                  const results = await detector.detect(title);
+                  if (detector.destroy) {
+                    await detector.destroy();
+                  }
+                  detector = null;
+                  const scored = (results || []).filter(
+                    (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
+                  );
+                  scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+                  sourceTag = scored[0] ? scored[0].detectedLanguage : '';
                 }
-                detector = null;
-
-                const scored = (results || []).filter(
-                  (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
-                );
-                scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
-                const sourceTag = scored[0] ? scored[0].detectedLanguage : '';
 
                 if (!sourceTag) {
                   outEl.textContent = 'Could not detect the headline language.';
@@ -724,10 +832,18 @@
             }
 
             function initTranslateUi() {
-              if (!isTranslationDesktopLikely()) return;
-              if (typeof LanguageDetector === 'undefined' || typeof Translator === 'undefined') return;
+              if (!isTranslationDesktopLikely() || typeof Translator === 'undefined') {
+                translateUiReady = false;
+                hideAllStoryTranslateSlots();
+                return;
+              }
               translateUiReady = true;
-              setTranslateButtonsEnabled(true);
+              if (typeof LanguageDetector === 'undefined') {
+                revealTranslateButtonsFallback();
+                refreshCapabilityChips();
+                return;
+              }
+              scheduleStoryLanguageScan();
             }
 
             async function runProofreadQuestion() {
@@ -817,6 +933,7 @@
               add('Prompt', promptApiReady);
               add('Summarizer', summarizerReady);
               add('Translate', translateUiReady);
+              add('Lang detect', langDetectScanOk);
               add('Proofreader', proofreaderReady);
               add('Rewriter', rewriterReady);
               aiSuiteChips.innerHTML = chips.join('');
@@ -955,8 +1072,11 @@
                     {% endif %}
                     <div class="story-card-ai">
                         <div class="story-ai-actions">
-                            <button type="button" class="story-translate-btn" disabled
-                                data-story-title="{{ story.title|e }}">Translate title</button>
+                            <span class="story-translate-slot">
+                                <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
+                                    data-story-title="{{ story.title|e }}">Translate</button>
+                                <span class="story-lang-same" hidden></span>
+                            </span>
                             <button type="button" class="story-ai-btn" disabled
                                 data-story-title="{{ story.title|e }}"
                                 data-story-source="{{ story.source|e }}"
