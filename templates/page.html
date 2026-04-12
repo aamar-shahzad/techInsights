@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="app">
+    <div id="panel-scrim" class="panel-scrim" hidden aria-hidden="true"></div>
     <a href="#main-content" class="skip-link">Skip to content</a>
     <header class="site-header">
         <div class="container">
@@ -71,7 +72,7 @@
 
     <main id="main-content" class="container main-content" tabindex="-1">
         <div class="layout">
-            <div class="feed-col">
+            <div id="feed-col" class="feed-col">
                 <section class="editorial-intro" aria-label="How reading and discussion work on this page">
                     <p class="editorial-intro__kicker">On-device discussion</p>
                     <p class="editorial-intro__lede">Select a story in the list to load it in the panel. You get a plain-language briefing, suggested questions, and follow-up Q&amp;A using only the headline and excerpt on this page—open the link for the full piece.</p>
@@ -111,6 +112,7 @@
                             <h3 class="story-row__title">
                                 <a href="{{ story.link }}" target="_blank" rel="noopener noreferrer" class="story-row__link">{{ story.title }}</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             {% if story.description %}
                             <p class="story-row__dek">{{ story.description }}</p>
                             {% endif %}
@@ -122,16 +124,20 @@
                     {% endif %}
                 </section>
                 {% endfor %}
-                <p id="prompt-api-note" class="prompt-api-note" role="status" hidden></p>
             </div>
 
             <aside id="assistant-panel" class="assistant-panel" aria-label="Discussion panel">
                 <button type="button" class="assistant-panel__close" id="assistant-panel-close" aria-label="Close discussion panel">
                     <span aria-hidden="true">×</span>
                 </button>
+                <p id="prompt-api-note" class="prompt-api-note prompt-api-note--panel" role="status" hidden></p>
                 <div id="panel-idle" class="panel-idle">
-                    <p class="panel-idle__title">Select a story</p>
-                    <p class="panel-idle__text">Click any headline row (not the link) to load a briefing and ask questions on-device.</p>
+                    <div class="panel-idle__icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M8 10h.01"></path><path d="M12 10h.01"></path><path d="M16 10h.01"></path></svg>
+                    </div>
+                    <p class="panel-idle__title">Discuss a story</p>
+                    <p class="panel-idle__text">Click any row (not the headline link) to load a briefing and ask questions on-device.</p>
+                    <p class="panel-idle__hint">After you select a story: <kbd class="kbd-hint">⌘</kbd><kbd class="kbd-hint">K</kbd> or <kbd class="kbd-hint">Ctrl</kbd><kbd class="kbd-hint">K</kbd> focuses the question box.</p>
                 </div>
                 <div id="panel-active" class="panel-active" hidden>
                     <header class="panel-header">
@@ -191,6 +197,9 @@
 
             const assistantPanel = document.getElementById('assistant-panel');
             const panelMainScroll = document.getElementById('panel-main-scroll');
+            const panelAnswerRegion = document.getElementById('panel-answer-region');
+            const panelScrim = document.getElementById('panel-scrim');
+            const feedCol = document.getElementById('feed-col');
             const panelIdle = document.getElementById('panel-idle');
             const panelActive = document.getElementById('panel-active');
             const panelCloseBtn = document.getElementById('assistant-panel-close');
@@ -199,6 +208,13 @@
             const panelStoryLink = document.getElementById('panel-story-link');
 
             let activeStoryEl = null;
+            /** Bumps on each story selection so in-flight primer streams can abort. */
+            let storyVersion = 0;
+
+            function setAnswerRegionCardVisible(visible) {
+              if (!panelAnswerRegion) return;
+              panelAnswerRegion.classList.toggle('panel-answer-region--visible', !!visible);
+            }
 
             function getLanguageModelApi() {
               if (typeof LanguageModel !== 'undefined') return LanguageModel;
@@ -270,12 +286,24 @@
               if (!assistantPanel) return;
               if (window.matchMedia('(max-width: 959px)').matches) {
                 document.body.classList.add('assistant-panel-open');
+                if (panelScrim) {
+                  panelScrim.hidden = false;
+                  panelScrim.setAttribute('aria-hidden', 'false');
+                }
+                if (feedCol) feedCol.inert = true;
+                assistantPanel.setAttribute('aria-modal', 'true');
               }
             }
 
             function closeAssistantPanelMobile() {
               if (!assistantPanel) return;
               document.body.classList.remove('assistant-panel-open');
+              if (panelScrim) {
+                panelScrim.hidden = true;
+                panelScrim.setAttribute('aria-hidden', 'true');
+              }
+              if (feedCol) feedCol.inert = false;
+              assistantPanel.removeAttribute('aria-modal');
             }
 
             function buildOneStoryGroundingFromArticle(articleEl) {
@@ -325,18 +353,16 @@
             }
 
             let scrollMainScheduled = false;
-            function scrollPanelMainToBottom() {
-              const m = panelMainScroll || document.getElementById('panel-main-scroll');
-              if (!m) return;
-              m.scrollTop = m.scrollHeight;
-            }
-
             function scheduleScrollPanelMainToBottom() {
               if (scrollMainScheduled) return;
               scrollMainScheduled = true;
               requestAnimationFrame(() => {
-                scrollMainScheduled = false;
-                scrollPanelMainToBottom();
+                requestAnimationFrame(() => {
+                  scrollMainScheduled = false;
+                  const m = panelMainScroll || document.getElementById('panel-main-scroll');
+                  if (!m) return;
+                  m.scrollTop = m.scrollHeight;
+                });
               });
             }
 
@@ -450,10 +476,6 @@
                   }
                   listEl.hidden = false;
                   if (labelEl) labelEl.hidden = false;
-                  const ta = document.getElementById('panel-story-ask');
-                  if (ta && !ta.value.trim() && qs[0]) {
-                    ta.value = qs[0];
-                  }
                 } else {
                   listEl.hidden = true;
                   if (labelEl) labelEl.hidden = true;
@@ -463,6 +485,7 @@
 
             function resetPanelAnswer() {
               const { replyEl, replyEyebrow } = getPanelAskElements();
+              setAnswerRegionCardVisible(false);
               if (replyEl) {
                 replyEl.hidden = true;
                 replyEl.textContent = '';
@@ -473,6 +496,7 @@
 
             function selectStory(row) {
               if (!row || !panelIdle || !panelActive || !panelStoryTitle || !panelStorySource || !panelStoryLink) return;
+              storyVersion += 1;
               activeStoryEl = row;
               document.querySelectorAll('.story-row').forEach((el) => {
                 el.classList.remove('story-row--selected');
@@ -537,6 +561,8 @@
               const labelEl = primerRoot.querySelector('.story-ask-primer__suggestions-label');
               if (!article) return;
 
+              const captureVersion = storyVersion;
+
               if (!promptApiInitComplete) {
                 if (loadEl) {
                   loadEl.hidden = false;
@@ -555,6 +581,8 @@
                 }
                 return;
               }
+
+              if (captureVersion !== storyVersion) return;
 
               const grounding = buildOneStoryGroundingFromArticle(article);
               if (!grounding) {
@@ -601,6 +629,7 @@
                 }
                 return;
               }
+              if (captureVersion !== storyVersion) return;
               if (isAvailabilityBlocked(availability)) {
                 primerRoot.dataset.primerState = 'unavailable';
                 if (loadEl) loadEl.hidden = true;
@@ -624,14 +653,23 @@
                   grounding,
                   640
                 );
+                if (captureVersion !== storyVersion) {
+                  await closeLmSession(session);
+                  return;
+                }
                 let out = '';
                 if (typeof session.promptStreaming === 'function') {
                   const stream = session.promptStreaming(userTurn);
                   for await (const chunk of stream) {
+                    if (captureVersion !== storyVersion) break;
                     out += chunk;
                   }
                 } else {
                   out = String((await session.prompt(userTurn)) ?? '');
+                }
+                if (captureVersion !== storyVersion) {
+                  await closeLmSession(session);
+                  return;
                 }
                 const parsed = parsePrimerResponse(out);
                 renderStoryPrimerUI(primerRoot, parsed);
@@ -667,6 +705,7 @@
               if (isAvailabilityBlocked(availability)) {
                 if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
+                setAnswerRegionCardVisible(true);
                 replyEl.textContent = 'Not available on this device.';
                 scheduleScrollPanelMainToBottom();
                 return;
@@ -675,6 +714,7 @@
               if (!grounding) {
                 if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
+                setAnswerRegionCardVisible(true);
                 replyEl.textContent = 'Missing story data.';
                 scheduleScrollPanelMainToBottom();
                 return;
@@ -683,6 +723,7 @@
               textarea.disabled = true;
               if (replyEyebrow) replyEyebrow.hidden = false;
               replyEl.hidden = false;
+              setAnswerRegionCardVisible(true);
               replyEl.textContent = '';
               replyEl.classList.add('page-ai-reply--loading');
               scheduleScrollPanelMainToBottom();
@@ -826,6 +867,12 @@
             });
 
             panelCloseBtn?.addEventListener('click', () => closeAssistantPanelMobile());
+
+            panelScrim?.addEventListener('click', () => {
+              if (document.body.classList.contains('assistant-panel-open')) {
+                closeAssistantPanelMobile();
+              }
+            });
 
             const sectionIds = ['ai', 'devtools', 'tech', 'startups', 'security'];
             const pills = document.querySelectorAll('.category-nav-pill');

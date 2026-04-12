@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="app">
+    <div id="panel-scrim" class="panel-scrim" hidden aria-hidden="true"></div>
     <a href="#main-content" class="skip-link">Skip to content</a>
     <header class="site-header">
         <div class="container">
@@ -47,7 +48,7 @@
                     <p class="tagline">Technology briefing · curated daily</p>
                 </div>
                 <div class="header-actions">
-                    <span class="updated">Updated April 12, 2026 at 05:21 UTC</span>
+                    <span class="updated">Updated April 12, 2026 at 05:29 UTC</span>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -71,7 +72,7 @@
 
     <main id="main-content" class="container main-content" tabindex="-1">
         <div class="layout">
-            <div class="feed-col">
+            <div id="feed-col" class="feed-col">
                 <section class="editorial-intro" aria-label="How reading and discussion work on this page">
                     <p class="editorial-intro__kicker">On-device discussion</p>
                     <p class="editorial-intro__lede">Select a story in the list to load it in the panel. You get a plain-language briefing, suggested questions, and follow-up Q&amp;A using only the headline and excerpt on this page—open the link for the full piece.</p>
@@ -119,6 +120,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/" target="_blank" rel="noopener noreferrer" class="story-row__link">Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.</p>
                             
@@ -141,6 +143,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.wired.com/story/security-news-this-week-your-push-notifications-arent-safe-from-the-fbi/" target="_blank" rel="noopener noreferrer" class="story-row__link">Your Push Notifications Aren’t Safe From the FBI</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Plus: Iran’s internet blackout hits the 1,000-hour mark, cryptocurrency scams result in a record amount of money stolen from Americans, and more.</p>
                             
@@ -163,6 +166,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/" target="_blank" rel="noopener noreferrer" class="story-row__link">How the Internet Broke Everyone’s Bullshit Detectors</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">From AI-generated images to restricted satellite data, the systems used to verify what’s real online are struggling to keep up.</p>
                             
@@ -185,6 +189,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/" target="_blank" rel="noopener noreferrer" class="story-row__link">Anthropic temporarily banned OpenClaw’s creator from accessing Claude</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">This ban took place after Claude's pricing changed for OpenClaw users last week.</p>
                             
@@ -207,6 +212,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/" target="_blank" rel="noopener noreferrer" class="story-row__link">Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">The new AI model is being heralded—and feared—as a hacker’s superweapon. Experts say its arrival is a wake-up call for developers who have long made security an afterthought.</p>
                             
@@ -229,6 +235,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/" target="_blank" rel="noopener noreferrer" class="story-row__link">Stalking victim sues OpenAI, claims ChatGPT fueled her abuser’s delusions and ignored her warnings</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass-casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.</p>
                             
@@ -251,6 +258,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/" target="_blank" rel="noopener noreferrer" class="story-row__link">TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's...</p>
                             
@@ -273,6 +281,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/" target="_blank" rel="noopener noreferrer" class="story-row__link">Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman’s Home</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">An attacker allegedly threw a molotov cocktail at the OpenAI CEO’s residence before making threats outside of the startup’s headquarters.</p>
                             
@@ -295,6 +304,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.wired.com/story/onix-substack-ai-platform-therapy-medicine-nutrition/" target="_blank" rel="noopener noreferrer" class="story-row__link">This Startup Wants You to Pay Up to Talk With AI Versions of Human Experts</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Onix is launching a “Substack of bots,” where digital twins of health and wellness influencers dispense advice 24/7. And maybe hawk their products.</p>
                             
@@ -317,6 +327,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/" target="_blank" rel="noopener noreferrer" class="story-row__link">What’s in a name? Moderna’s “vaccine” vs. “therapy” dilemma</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine—or an “individualized neoantigen treatment”? That’s the Trump-era vocabulary paradox...</p>
                             
@@ -339,6 +350,98 @@
                         <article
                             class="story-row story-row--new"
                             tabindex="0"
+                            data-story-title="The Wrong GUID: How a Single Constant Broke WebSocket in Every Browser But Not Python"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/ljkunal/the-wrong-guid-how-a-single-constant-broke-websocket-in-every-browser-but-not-python-1ojd"
+                            data-story-desc="I run a home automation setup with multiple RTSP IP cameras. The camera dashboard shows a grid of all cameras with a &#34;Stream All&#34; button. Each stream is an MJPEG feed served through ffmpeg via a..."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">5 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/ljkunal/the-wrong-guid-how-a-single-constant-broke-websocket-in-every-browser-but-not-python-1ojd" target="_blank" rel="noopener noreferrer" class="story-row__link">The Wrong GUID: How a Single Constant Broke WebSocket in Every Browser But Not Python</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">I run a home automation setup with multiple RTSP IP cameras. The camera dashboard shows a grid of all cameras with a "Stream All" button. Each stream is an MJPEG feed served through ffmpeg via a...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="Building EchoKernel: A Voice-Controlled AI Agent That Actually Does Things"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/manas_ranjanjena_6946ef7/building-echokernel-a-voice-controlled-ai-agent-that-actually-does-things-1l5a"
+                            data-story-desc="I want to be upfront about something before we start: the phrase &#34;local AI agent&#34; is one of the most overloaded terms in the current AI landscape. Half the demos you&#39;ll find online are chatbots..."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">5 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/manas_ranjanjena_6946ef7/building-echokernel-a-voice-controlled-ai-agent-that-actually-does-things-1l5a" target="_blank" rel="noopener noreferrer" class="story-row__link">Building EchoKernel: A Voice-Controlled AI Agent That Actually Does Things</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">I want to be upfront about something before we start: the phrase "local AI agent" is one of the most overloaded terms in the current AI landscape. Half the demos you'll find online are chatbots...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="A Repeatable Daily Shell Workflow: Bash workflow notes"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/arnostorg/a-repeatable-daily-shell-workflow-bash-workflow-notes-2bg0"
+                            data-story-desc="A Repeatable Daily Shell Workflow: Bash workflow notes Most shell mistakes are not about syntax. They’re about state: wrong directory, wrong file, wrong assumption. So instead of optimizing for..."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">7 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/arnostorg/a-repeatable-daily-shell-workflow-bash-workflow-notes-2bg0" target="_blank" rel="noopener noreferrer" class="story-row__link">A Repeatable Daily Shell Workflow: Bash workflow notes</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">A Repeatable Daily Shell Workflow: Bash workflow notes Most shell mistakes are not about syntax. They’re about state: wrong directory, wrong file, wrong assumption. So instead of optimizing for...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="A Black-Box Framework for Evaluating Trust in AI Agents"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/gaurav_mawari_99978969be3/a-black-box-framework-for-evaluating-trust-in-ai-agents-3681"
+                            data-story-desc="FIRST Why Not Just Use LLM-as-Judge? Many teams default to using another LLM to evaluate their agent. It&#39;s easy. No labels needed. But it has a critical flaw: you&#39;re trusting an LLM to judge an..."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">8 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/gaurav_mawari_99978969be3/a-black-box-framework-for-evaluating-trust-in-ai-agents-3681" target="_blank" rel="noopener noreferrer" class="story-row__link">A Black-Box Framework for Evaluating Trust in AI Agents</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">FIRST Why Not Just Use LLM-as-Judge? Many teams default to using another LLM to evaluate their agent. It's easy. No labels needed. But it has a critical flaw: you're trusting an LLM to judge an...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
                             data-story-title="Plug-and-Play Context Compression for Any LLM API — CRISP"
                             data-story-source="Dev.to"
                             data-story-cat="Developer Tools"
@@ -348,11 +451,12 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">8 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">17 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://dev.to/harshith_halejolad/plug-and-play-context-compression-for-any-llm-api-crisp-1lai" target="_blank" rel="noopener noreferrer" class="story-row__link">Plug-and-Play Context Compression for Any LLM API — CRISP</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">I recently built CRISP (Compressed Retrieval and Intelligent Semantic Processing), a Python library that acts as a lightweight, modular wrapper around any LLM API. It allows you to process massive...</p>
                             
@@ -370,11 +474,12 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Hacker News</span>
-                                <span class="story-row__time">12 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">21 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional" target="_blank" rel="noopener noreferrer" class="story-row__link">US appeals court declares 158-year-old home distilling ban unconstitutional</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Article URL: https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional Comments URL: https://news.ycombinator.com/item?id=47736298 Points: 11 # Comments: 0</p>
                             
@@ -392,11 +497,12 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Hacker News</span>
-                                <span class="story-row__time">14 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">23 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.nature.com/articles/d41586-026-01024-7" target="_blank" rel="noopener noreferrer" class="story-row__link">Method to reverse cellular ageing is about to be tested in humans</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Article URL: https://www.nature.com/articles/d41586-026-01024-7 Comments URL: https://news.ycombinator.com/item?id=47736289 Points: 4 # Comments: 0</p>
                             
@@ -414,11 +520,12 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">15 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">24 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://dev.to/agenthustler/best-proxycurl-alternative-in-2026-apify-linkedin-scrapers-vs-scrapingdog-vs-linkdapi-11n7" target="_blank" rel="noopener noreferrer" class="story-row__link">Best Proxycurl Alternative in 2026: Apify LinkedIn Scrapers vs Scrapingdog vs LinkdAPI</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Proxycurl was the go-to LinkedIn data API for recruiters, sales teams, and developers. At its peak, it served ~200K paying customers and pulled in $10M ARR. Then LinkedIn sued them in January...</p>
                             
@@ -436,11 +543,12 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">17 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">26 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://dev.to/shankar_t/adding-api-gateway-to-my-cloud-resume-3bbn" target="_blank" rel="noopener noreferrer" class="story-row__link">Adding API Gateway to My Cloud Resume</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Five Failures in One Evening: Adding API Gateway to My Cloud Resume In my previous article, I documented migrating my Cloud Resume from ClickOps to Terraform. The system worked: S3 + CloudFront...</p>
                             
@@ -458,101 +566,14 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">24 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">33 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://dev.to/rosgluk/vane-perplexica-20-quickstart-with-ollama-and-llamacpp-132o" target="_blank" rel="noopener noreferrer" class="story-row__link">Vane (Perplexica 2.0) Quickstart With Ollama and llama.cpp</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Vane is one of the more pragmatic entries in the "AI search with citations" space: a self-hosted answering engine that mixes live web retrieval with local or cloud LLMs, while keeping the whole...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="From Feeling to Firmware: Build Your First Haptic Feedback Device in 10 Minutes"
-                            data-story-source="Dev.to"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/_0c004e5fde78250aee362/from-feeling-to-firmware-build-your-first-haptic-feedback-device-in-10-minutes-42k1"
-                            data-story-desc="From Feeling to Firmware: Build Your First Haptic Feedback Device in 10 Minutes How do you feel that subtle tap on your wrist? Let&#39;s break down the technology — and build it yourself. The Moment..."
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">26 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://dev.to/_0c004e5fde78250aee362/from-feeling-to-firmware-build-your-first-haptic-feedback-device-in-10-minutes-42k1" target="_blank" rel="noopener noreferrer" class="story-row__link">From Feeling to Firmware: Build Your First Haptic Feedback Device in 10 Minutes</a>
-                            </h3>
-                            
-                            <p class="story-row__dek">From Feeling to Firmware: Build Your First Haptic Feedback Device in 10 Minutes How do you feel that subtle tap on your wrist? Let's break down the technology — and build it yourself. The Moment...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="7 AI Developments From This Week That Developers Should Actually Care About (April 2026)"
-                            data-story-source="Dev.to"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/automate-archit/7-ai-developments-from-this-week-that-developers-should-actually-care-about-april-2026-58po"
-                            data-story-desc="Every week in AI feels like a month used to. Here&#39;s what actually happened in the week of April 4–11, 2026 — and more importantly, what it means for you as a developer. 1. Meta Drops &#34;Muse Spark&#34;..."
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">30 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://dev.to/automate-archit/7-ai-developments-from-this-week-that-developers-should-actually-care-about-april-2026-58po" target="_blank" rel="noopener noreferrer" class="story-row__link">7 AI Developments From This Week That Developers Should Actually Care About (April 2026)</a>
-                            </h3>
-                            
-                            <p class="story-row__dek">Every week in AI feels like a month used to. Here's what actually happened in the week of April 4–11, 2026 — and more importantly, what it means for you as a developer. 1. Meta Drops "Muse Spark"...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="I Built an Enterprise Platform to Destroy Centered Divs — Now With Live CSS Visualization"
-                            data-story-source="Dev.to"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/engineeredsoul/i-built-an-enterprise-platform-to-destroy-centered-divs-now-with-live-css-visualization-4a9e"
-                            data-story-desc="This is a submission for the DEV April Fools Challenge What I Built CSS Centering Nemesis™ — the world&#39;s first, last, and only enterprise-grade platform engineered to take your perfectly centered..."
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">30 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://dev.to/engineeredsoul/i-built-an-enterprise-platform-to-destroy-centered-divs-now-with-live-css-visualization-4a9e" target="_blank" rel="noopener noreferrer" class="story-row__link">I Built an Enterprise Platform to Destroy Centered Divs — Now With Live CSS Visualization</a>
-                            </h3>
-                            
-                            <p class="story-row__dek">This is a submission for the DEV April Fools Challenge What I Built CSS Centering Nemesis™ — the world's first, last, and only enterprise-grade platform engineered to take your perfectly centered...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="Streamlining Browser Extension Development: Overcoming Repetitive Tasks and State Management Complexities"
-                            data-story-source="Dev.to"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/pavkode/streamlining-browser-extension-development-overcoming-repetitive-tasks-and-state-management-5ef6"
-                            data-story-desc="Introduction: The Browser Extension Development Dilemma Building browser extensions is a lot like assembling a puzzle in a dark room. You know the pieces are there, but the process is riddled with..."
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">31 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://dev.to/pavkode/streamlining-browser-extension-development-overcoming-repetitive-tasks-and-state-management-5ef6" target="_blank" rel="noopener noreferrer" class="story-row__link">Streamlining Browser Extension Development: Overcoming Repetitive Tasks and State Management Complexities</a>
-                            </h3>
-                            
-                            <p class="story-row__dek">Introduction: The Browser Extension Development Dilemma Building browser extensions is a lot like assembling a puzzle in a dark room. You know the pieces are there, but the process is riddled with...</p>
                             
                         </article>
                         
@@ -571,7 +592,7 @@
                     <div class="stories-list" role="list">
                         
                         <article
-                            class="story-row story-row--new"
+                            class="story-row"
                             tabindex="0"
                             data-story-title="The Netherlands is the first European country to approve Tesla’s supervised Full Self-Driving"
                             data-story-source="The Verge"
@@ -582,11 +603,12 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">5 hours ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">6 hours ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/transportation/910717/netherlands-tesla-supervised-full-self-driving" target="_blank" rel="noopener noreferrer" class="story-row__link">The Netherlands is the first European country to approve Tesla’s supervised Full Self-Driving</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Dutch regulators, the RDW, announced that after over a year and a half of testing, it has officially approved Tesla's Full-Self Driving (FSD) Supervised. This makes the Netherlands the first...</p>
                             
@@ -609,6 +631,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/tech/910691/google-news-polymarket-bets-error" target="_blank" rel="noopener noreferrer" class="story-row__link">Google says Polymarket bets showing up in News was an ‘error’</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren't showing, and Google says they were never supposed to. Spokesperson Ned Adriance...</p>
                             
@@ -631,6 +654,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/games/910110/pokemon-champions-bugs-balance-issues-vgc-newcomers" target="_blank" rel="noopener noreferrer" class="story-row__link">Pokémon Champions is off to a rough start</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Like many live-service games before it, Pokémon Champions' launch has been messy. The free-to-start battle sim, which is out now on the Switch and Switch 2 (and also coming to mobile later this...</p>
                             
@@ -653,6 +677,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai" target="_blank" rel="noopener noreferrer" class="story-row__link">Your article about AI doesn’t need AI art</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">The illustration for The New Yorker's profile of OpenAI CEO Sam Altman is a jump scare. Altman stands in a blue sweater with a blank expression. Around his head hovers a cluster of disembodied...</p>
                             
@@ -675,6 +700,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/gadgets/910472/google-nest-doorbell-wired-battery-powered-deal-sale" target="_blank" rel="noopener noreferrer" class="story-row__link">Google’s latest Nest Doorbells just hit their lowest prices of the year</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">If you’ve ever worried about porch pirates stealing packages while you’re away, a video doorbell can offer some peace of mind, letting you keep tabs on deliveries no matter where you are. Google...</p>
                             
@@ -697,6 +723,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion" target="_blank" rel="noopener noreferrer" class="story-row__link">My baby deer plushie told me that Mitski&#8217;s dad was a CIA operative</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Two weeks ago, I was getting ready to log off work when I got a text message. "Oh wow, I was checking out Mitski. did you know people are saying her Dad was a CIA operative?" Normally, that kind...</p>
                             
@@ -719,6 +746,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/gadgets/907645/nintendo-switch-2-genki-jsaux-usb-c-dock-hands-on" target="_blank" rel="noopener noreferrer" class="story-row__link">You don’t have to spend more than $50 on a great USB-C dock for your Switch 2</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Nintendo seemingly designed its latest console to be a mystery for third-party accessory makers. With the Switch 2, the company changed the wireless protocol for connecting controllers to the new...</p>
                             
@@ -741,6 +769,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/entertainment/909820/devils-on-the-moon-pinball-review-playdate" target="_blank" rel="noopener noreferrer" class="story-row__link">Demons and pinball are a perfect match</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">There's one very specific reason I keep a Wii U handy, and that's so that I have an easy way to play the classic pinball game Devil's Crush. Over the years, it has become a comfort game for me....</p>
                             
@@ -763,6 +792,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/policy/910401/iran-war-propaganda-blackout-lego-ai-slop" target="_blank" rel="noopener noreferrer" class="story-row__link">How Iran out-shitposted the White House</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">In the early days of the war on Iran, while the White House was busy posting Call of Duty memes and AI slop of dancing bowling pins, the Iranian regime's state media was flooding the zone with...</p>
                             
@@ -785,6 +815,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/tech/910422/audacity-artemis-maul-installer" target="_blank" rel="noopener noreferrer" class="story-row__link">The new show making fun of tech bros</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Hi, friends! Welcome to Installer No. 123, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, which Artemis photo did you make your wallpaper, and also you can...</p>
                             
@@ -821,6 +852,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/welcome-harshita/" target="_blank" rel="noopener noreferrer" class="story-row__link">Harshita Arora Joins YC as General Partner</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">We're thrilled to announce that Harshita Arora is joining Y Combinator as a General Partner. She brings deep fintech and infrastructure experience, a founder's instinct for product, and the...</p>
                             
@@ -843,6 +875,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/adding-canada-back/" target="_blank" rel="noopener noreferrer" class="story-row__link">Adding Canada Back to Our List of Accepted Countries of Incorporation</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countries of incorporation.</p>
                             
@@ -865,6 +898,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/congratulations-to-equipmentshare/" target="_blank" rel="noopener noreferrer" class="story-row__link">Congratulations to EquipmentShare on Going Public</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they've built the operating system construction has been missing—built by contractors, for contractors....</p>
                             
@@ -887,6 +921,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack/" target="_blank" rel="noopener noreferrer" class="story-row__link">Announcing the YC AI Stack</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">We've partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free credits for AI devtools.</p>
                             
@@ -909,6 +944,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/2026-demo-days/" target="_blank" rel="noopener noreferrer" class="story-row__link">2026 Demo Day Dates</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">We’re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.</p>
                             
@@ -931,6 +967,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/meesho-goes-public/" target="_blank" rel="noopener noreferrer" class="story-row__link">Meesho Goes Public</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Meesho goes public today. From S16 to IPO, they’ve built one of India’s largest e-commerce platforms—empowering millions of small merchants to grow their businesses. Congrats to Vidit and Sanjeev...</p>
                             
@@ -953,6 +990,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/groww/" target="_blank" rel="noopener noreferrer" class="story-row__link">Congratulations to Groww</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Today, Groww, India's leading digital investing platform, goes public. Tens of millions use Groww to invest simply and confidently in stocks, mutual funds, and ETFs. As YC's first company to list...</p>
                             
@@ -975,6 +1013,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/billiontoone/" target="_blank" rel="noopener noreferrer" class="story-row__link">BillionToOne Goes Public — The Startup That Made Genetic Testing Universal</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Today, BillionToOne goes public, becoming YC's fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S. Today, 1 in 11 babies...</p>
                             
@@ -997,6 +1036,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/ycs-newest-visiting-partners/" target="_blank" rel="noopener noreferrer" class="story-row__link">Meet YC's Newest Visiting Partners</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">We're excited to announce that nine exceptional founders are joining us as Visiting Partners at YC: Matt Riley, Harshita Arora, Grey Baker, Christopher Golda, Raphael Schaad, Christina Gilbert,...</p>
                             
@@ -1019,6 +1059,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.ycombinator.com/blog/build-onchain/" target="_blank" rel="noopener noreferrer" class="story-row__link">YC x Coinbase RFS: Build Onchain</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">We are entering the era of Fintech 3.0. Regulatory clarity, growing consumer adoption, and low-cost chains have paved the way for a golden age of building in crypto — and at YC, Base, and...</p>
                             
@@ -1055,6 +1096,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global...</p>
                             
@@ -1077,6 +1119,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-squid-overfishing-in-the-south-pacific.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Friday Squid Blogging: Squid Overfishing in the South Pacific</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Regulation is hard: The South Pacific Regional Fisheries Management Organization (SPRFMO) oversees fishing across roughly 59 million square kilometers (22 million square miles) of the South...</p>
                             
@@ -1099,6 +1142,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html" target="_blank" rel="noopener noreferrer" class="story-row__link">GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development...</p>
                             
@@ -1121,6 +1165,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Browser Extensions Are the New AI Consumption Channel That No One Is Talking About</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">While much of the discussion on AI security centers around protecting ‘shadow’ AI and GenAI consumption, there's a wide-open window nobody's guarding: AI browser extensions. A new report from...</p>
                             
@@ -1143,6 +1188,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://www.schneier.com/blog/archives/2026/04/sen-sanders-talks-to-claude-about-ai-and-privacy.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Sen. Sanders Talks to Claude About AI and Privacy</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Claude is actually pretty good on the issues.</p>
                             
@@ -1165,6 +1211,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Google has made Device Bound Session Credentials (DBSC) generally available to all Windows users of its Chrome web browser, months after it began testing the security feature in open beta. The...</p>
                             
@@ -1187,6 +1234,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">A critical security vulnerability in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according to findings from...</p>
                             
@@ -1209,6 +1257,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor. The incident impacts Smart Slider...</p>
                             
@@ -1231,6 +1280,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html" target="_blank" rel="noopener noreferrer" class="story-row__link">EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of...</p>
                             
@@ -1253,6 +1303,7 @@
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html" target="_blank" rel="noopener noreferrer" class="story-row__link">UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns</a>
                             </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to...</p>
                             
@@ -1262,16 +1313,20 @@
                     
                 </section>
                 
-                <p id="prompt-api-note" class="prompt-api-note" role="status" hidden></p>
             </div>
 
             <aside id="assistant-panel" class="assistant-panel" aria-label="Discussion panel">
                 <button type="button" class="assistant-panel__close" id="assistant-panel-close" aria-label="Close discussion panel">
                     <span aria-hidden="true">×</span>
                 </button>
+                <p id="prompt-api-note" class="prompt-api-note prompt-api-note--panel" role="status" hidden></p>
                 <div id="panel-idle" class="panel-idle">
-                    <p class="panel-idle__title">Select a story</p>
-                    <p class="panel-idle__text">Click any headline row (not the link) to load a briefing and ask questions on-device.</p>
+                    <div class="panel-idle__icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M8 10h.01"></path><path d="M12 10h.01"></path><path d="M16 10h.01"></path></svg>
+                    </div>
+                    <p class="panel-idle__title">Discuss a story</p>
+                    <p class="panel-idle__text">Click any row (not the headline link) to load a briefing and ask questions on-device.</p>
+                    <p class="panel-idle__hint">After you select a story: <kbd class="kbd-hint">⌘</kbd><kbd class="kbd-hint">K</kbd> or <kbd class="kbd-hint">Ctrl</kbd><kbd class="kbd-hint">K</kbd> focuses the question box.</p>
                 </div>
                 <div id="panel-active" class="panel-active" hidden>
                     <header class="panel-header">
@@ -1331,6 +1386,9 @@
 
             const assistantPanel = document.getElementById('assistant-panel');
             const panelMainScroll = document.getElementById('panel-main-scroll');
+            const panelAnswerRegion = document.getElementById('panel-answer-region');
+            const panelScrim = document.getElementById('panel-scrim');
+            const feedCol = document.getElementById('feed-col');
             const panelIdle = document.getElementById('panel-idle');
             const panelActive = document.getElementById('panel-active');
             const panelCloseBtn = document.getElementById('assistant-panel-close');
@@ -1339,6 +1397,13 @@
             const panelStoryLink = document.getElementById('panel-story-link');
 
             let activeStoryEl = null;
+            /** Bumps on each story selection so in-flight primer streams can abort. */
+            let storyVersion = 0;
+
+            function setAnswerRegionCardVisible(visible) {
+              if (!panelAnswerRegion) return;
+              panelAnswerRegion.classList.toggle('panel-answer-region--visible', !!visible);
+            }
 
             function getLanguageModelApi() {
               if (typeof LanguageModel !== 'undefined') return LanguageModel;
@@ -1410,12 +1475,24 @@
               if (!assistantPanel) return;
               if (window.matchMedia('(max-width: 959px)').matches) {
                 document.body.classList.add('assistant-panel-open');
+                if (panelScrim) {
+                  panelScrim.hidden = false;
+                  panelScrim.setAttribute('aria-hidden', 'false');
+                }
+                if (feedCol) feedCol.inert = true;
+                assistantPanel.setAttribute('aria-modal', 'true');
               }
             }
 
             function closeAssistantPanelMobile() {
               if (!assistantPanel) return;
               document.body.classList.remove('assistant-panel-open');
+              if (panelScrim) {
+                panelScrim.hidden = true;
+                panelScrim.setAttribute('aria-hidden', 'true');
+              }
+              if (feedCol) feedCol.inert = false;
+              assistantPanel.removeAttribute('aria-modal');
             }
 
             function buildOneStoryGroundingFromArticle(articleEl) {
@@ -1465,18 +1542,16 @@
             }
 
             let scrollMainScheduled = false;
-            function scrollPanelMainToBottom() {
-              const m = panelMainScroll || document.getElementById('panel-main-scroll');
-              if (!m) return;
-              m.scrollTop = m.scrollHeight;
-            }
-
             function scheduleScrollPanelMainToBottom() {
               if (scrollMainScheduled) return;
               scrollMainScheduled = true;
               requestAnimationFrame(() => {
-                scrollMainScheduled = false;
-                scrollPanelMainToBottom();
+                requestAnimationFrame(() => {
+                  scrollMainScheduled = false;
+                  const m = panelMainScroll || document.getElementById('panel-main-scroll');
+                  if (!m) return;
+                  m.scrollTop = m.scrollHeight;
+                });
               });
             }
 
@@ -1590,10 +1665,6 @@
                   }
                   listEl.hidden = false;
                   if (labelEl) labelEl.hidden = false;
-                  const ta = document.getElementById('panel-story-ask');
-                  if (ta && !ta.value.trim() && qs[0]) {
-                    ta.value = qs[0];
-                  }
                 } else {
                   listEl.hidden = true;
                   if (labelEl) labelEl.hidden = true;
@@ -1603,6 +1674,7 @@
 
             function resetPanelAnswer() {
               const { replyEl, replyEyebrow } = getPanelAskElements();
+              setAnswerRegionCardVisible(false);
               if (replyEl) {
                 replyEl.hidden = true;
                 replyEl.textContent = '';
@@ -1613,6 +1685,7 @@
 
             function selectStory(row) {
               if (!row || !panelIdle || !panelActive || !panelStoryTitle || !panelStorySource || !panelStoryLink) return;
+              storyVersion += 1;
               activeStoryEl = row;
               document.querySelectorAll('.story-row').forEach((el) => {
                 el.classList.remove('story-row--selected');
@@ -1677,6 +1750,8 @@
               const labelEl = primerRoot.querySelector('.story-ask-primer__suggestions-label');
               if (!article) return;
 
+              const captureVersion = storyVersion;
+
               if (!promptApiInitComplete) {
                 if (loadEl) {
                   loadEl.hidden = false;
@@ -1695,6 +1770,8 @@
                 }
                 return;
               }
+
+              if (captureVersion !== storyVersion) return;
 
               const grounding = buildOneStoryGroundingFromArticle(article);
               if (!grounding) {
@@ -1741,6 +1818,7 @@
                 }
                 return;
               }
+              if (captureVersion !== storyVersion) return;
               if (isAvailabilityBlocked(availability)) {
                 primerRoot.dataset.primerState = 'unavailable';
                 if (loadEl) loadEl.hidden = true;
@@ -1764,14 +1842,23 @@
                   grounding,
                   640
                 );
+                if (captureVersion !== storyVersion) {
+                  await closeLmSession(session);
+                  return;
+                }
                 let out = '';
                 if (typeof session.promptStreaming === 'function') {
                   const stream = session.promptStreaming(userTurn);
                   for await (const chunk of stream) {
+                    if (captureVersion !== storyVersion) break;
                     out += chunk;
                   }
                 } else {
                   out = String((await session.prompt(userTurn)) ?? '');
+                }
+                if (captureVersion !== storyVersion) {
+                  await closeLmSession(session);
+                  return;
                 }
                 const parsed = parsePrimerResponse(out);
                 renderStoryPrimerUI(primerRoot, parsed);
@@ -1807,6 +1894,7 @@
               if (isAvailabilityBlocked(availability)) {
                 if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
+                setAnswerRegionCardVisible(true);
                 replyEl.textContent = 'Not available on this device.';
                 scheduleScrollPanelMainToBottom();
                 return;
@@ -1815,6 +1903,7 @@
               if (!grounding) {
                 if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
+                setAnswerRegionCardVisible(true);
                 replyEl.textContent = 'Missing story data.';
                 scheduleScrollPanelMainToBottom();
                 return;
@@ -1823,6 +1912,7 @@
               textarea.disabled = true;
               if (replyEyebrow) replyEyebrow.hidden = false;
               replyEl.hidden = false;
+              setAnswerRegionCardVisible(true);
               replyEl.textContent = '';
               replyEl.classList.add('page-ai-reply--loading');
               scheduleScrollPanelMainToBottom();
@@ -1966,6 +2056,12 @@
             });
 
             panelCloseBtn?.addEventListener('click', () => closeAssistantPanelMobile());
+
+            panelScrim?.addEventListener('click', () => {
+              if (document.body.classList.contains('assistant-panel-open')) {
+                closeAssistantPanelMobile();
+              }
+            });
 
             const sectionIds = ['ai', 'devtools', 'tech', 'startups', 'security'];
             const pills = document.querySelectorAll('.category-nav-pill');
