@@ -183,7 +183,7 @@
                         <div class="story-ask-followup">
                             <div class="story-ask-followup__head">
                                 <span class="story-ask-followup__title" id="panel-compose-title">Ask a question</span>
-                                <span class="story-ask-followup__hint" id="panel-compose-hint">Uses RSS article text when the feed includes it</span>
+                                <span class="story-ask-followup__hint" id="panel-compose-hint" aria-live="polite">Pick a story to see how much RSS text is in context</span>
                             </div>
                             <div class="story-ask-input-row">
                                 <label class="visually-hidden" for="panel-story-ask">Question for the assistant</label>
@@ -351,6 +351,31 @@
               return lines.join('\n');
             }
 
+            function updatePanelComposeContextHint(storyRow) {
+              const hint = document.getElementById('panel-compose-hint');
+              if (!hint) return;
+              hint.classList.remove('story-ask-followup__hint--rich', 'story-ask-followup__hint--thin');
+              if (!storyRow || !storyRow.dataset) {
+                hint.textContent = 'Pick a story to see how much RSS text is in context';
+                return;
+              }
+              const body = (storyRow.dataset.storyBody || '').trim();
+              const n = body.length;
+              if (n >= 1200) {
+                hint.textContent = 'Long RSS article text is loaded—answers can go deep';
+                hint.classList.add('story-ask-followup__hint--rich');
+              } else if (n >= 400) {
+                hint.textContent = 'RSS includes article text (length varies by publisher)';
+                hint.classList.add('story-ask-followup__hint--rich');
+              } else if (n >= 80) {
+                hint.textContent = 'Limited RSS text—assistant uses this plus the card blurb';
+                hint.classList.add('story-ask-followup__hint--thin');
+              } else {
+                hint.textContent = 'Feed only has a short summary—open the link for the full piece';
+                hint.classList.add('story-ask-followup__hint--thin');
+              }
+            }
+
             function setPanelComposeFollowUpMode(on) {
               const compose = document.getElementById('panel-compose');
               const title = document.getElementById('panel-compose-title');
@@ -358,9 +383,12 @@
               if (compose) compose.classList.toggle('panel-compose--followup', !!on);
               if (title) title.textContent = on ? 'Follow-up question' : 'Ask a question';
               if (hint) {
-                hint.textContent = on
-                  ? 'Another question about this story—same RSS context'
-                  : 'Uses RSS article text when the feed includes it';
+                if (on) {
+                  hint.textContent = 'Same story and RSS context as your briefing above';
+                  hint.classList.remove('story-ask-followup__hint--rich', 'story-ask-followup__hint--thin');
+                } else {
+                  updatePanelComposeContextHint(activeStoryEl);
+                }
               }
             }
 
