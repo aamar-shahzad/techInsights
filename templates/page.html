@@ -115,24 +115,19 @@
         </section>
         {% endif %}
 
-        <section class="ai-suite" aria-labelledby="ai-suite-title">
-            <header class="ai-suite__header">
-                <span class="ai-suite__eyebrow">Chrome built-in AI · Gemini Nano</span>
-                <h2 class="ai-suite__title" id="ai-suite-title">Ask questions &amp; summarize clips</h2>
-                <p class="ai-suite__lede">
-                    Questions and summaries use <strong>Gemini Nano</strong> in Chrome via the Prompt API and related built-in APIs—on your device, not on our servers. Paste stays local; enable flags on localhost per Google’s docs.
-                </p>
-                <p class="ai-suite__lede-links">
-                    <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">About Gemini Nano</a>
-                    <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
-                    <a href="https://developer.chrome.com/docs/ai/prompt-api" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Prompt API</a>
-                    <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
-                    <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">All built-in APIs</a>
-                </p>
-            </header>
+        <section class="ai-suite ai-suite--integrated" aria-labelledby="ai-suite-title">
+            <div class="ai-suite__intro">
+                <div class="ai-suite__intro-main">
+                    <span class="ai-suite__eyebrow">On-device AI</span>
+                    <h2 class="ai-suite__title" id="ai-suite-title">Ask &amp; summarize</h2>
+                    <p class="ai-suite__tagline">
+                        <strong>Gemini Nano</strong> and other Chrome built-in APIs run in your browser. This site does not receive your prompts or pasted text.
+                    </p>
+                </div>
+                <ul class="ai-suite__chips ai-suite__chips--toolbar" id="ai-suite-chips" aria-label="Detected APIs"></ul>
+            </div>
 
-            <ul class="ai-suite__chips" id="ai-suite-chips" aria-label="Detected APIs"></ul>
-            <div id="ai-gemini-meta" class="ai-suite__model-meta" hidden>
+            <div id="ai-gemini-meta" class="ai-suite__model-meta ai-suite__model-meta--strip" hidden>
                 <p class="ai-suite__model-meta__p">
                     <span class="ai-suite__model-meta__label">Gemini Nano</span>
                     <span id="ai-gemini-availability" class="ai-suite__model-meta__av"></span>
@@ -141,38 +136,29 @@
             </div>
             <div id="ai-suite-status" class="ai-suite__status ai-suite__status--hidden" role="status"></div>
 
-            <div class="ai-suite__grid">
-                <article class="ai-suite__card">
-                    <div class="ai-suite__card-head">
-                        <h3 class="ai-suite__card-title">Ask about this page</h3>
-                        <span class="ai-suite__badges">
-                            <span class="ai-suite__badge">Prompt API</span>
-                            <span class="ai-suite__badge ai-suite__badge--nano">Gemini Nano</span>
-                        </span>
-                    </div>
-                    <p class="ai-suite__card-desc">Same pattern as Chrome’s docs: <code class="ai-suite__inline-code">LanguageModel</code> + your question, with this page’s story list as grounding.</p>
+            <div class="ai-suite__panel">
+                <div class="ai-suite__panel-col">
+                    <h3 class="ai-suite__panel-heading">Ask about this page</h3>
+                    <p class="ai-suite__panel-hint">Full story list as context · <code class="ai-suite__inline-code">LanguageModel</code></p>
                     <div class="page-ai-ask__row ai-suite__ask-row">
                         <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
                         <textarea id="ask-feed-input" class="page-ai-ask__input" rows="3" placeholder="What stands out in security or AI this week?" disabled></textarea>
                         <div class="ai-suite__ask-actions">
                             <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
-                            <button type="button" class="ai-suite__ghost-btn" id="proofread-question-btn" hidden>Polish question</button>
+                            <button type="button" class="ai-suite__ghost-btn" id="proofread-question-btn" hidden>Polish</button>
                         </div>
                     </div>
                     <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
                     <div class="ai-suite__reply-tools" id="rewriter-answer-tools" hidden>
-                        <span class="ai-suite__reply-tools-label">Refine answer</span>
+                        <span class="ai-suite__reply-tools-label">Refine</span>
                         <button type="button" class="ai-suite__ghost-btn" id="rewrite-shorter-btn">Shorter</button>
                         <button type="button" class="ai-suite__ghost-btn" id="rewrite-formal-btn">More formal</button>
                     </div>
-                </article>
+                </div>
 
-                <article class="ai-suite__card ai-suite__card--summarize" id="page-ai-summarize" hidden>
-                    <div class="ai-suite__card-head">
-                        <h3 class="ai-suite__card-title">Summarize a clip</h3>
-                        <span class="ai-suite__badge">Summarizer API</span>
-                    </div>
-                    <p class="ai-suite__card-desc">Paste article body text (not just a headline).</p>
+                <div class="ai-suite__panel-col ai-suite__panel-col--summarize" id="page-ai-summarize" hidden>
+                    <h3 class="ai-suite__panel-heading">Summarize a clip</h3>
+                    <p class="ai-suite__panel-hint">Summarizer API · paste body text, not only a headline.</p>
                     <div class="page-ai-ask__row">
                         <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
                         <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs…" disabled></textarea>
@@ -180,12 +166,24 @@
                     </div>
                     <p id="article-summarize-status" class="page-ai-summarize__status" role="status" hidden></p>
                     <div id="article-summarize-output" class="page-ai-reply page-ai-reply--markdown" aria-live="polite" hidden></div>
-                </article>
+                </div>
             </div>
 
-            <p class="ai-suite__footnote">
-                Under each headline: <strong>Language Detector</strong> runs after your first interaction; <strong>Translate</strong> shows only when the headline language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses <strong>Gemini Nano</strong> through the Prompt API. Other APIs may need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> — see Google’s built-in AI docs.
-            </p>
+            <details class="ai-suite__details">
+                <summary class="ai-suite__details-summary">Headlines, translate, and API requirements</summary>
+                <div class="ai-suite__details-body">
+                    <p class="ai-suite__details-p">
+                        After your first tap or click, <strong>Language Detector</strong> runs on each headline. <strong>Translate</strong> appears only if the language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API (Gemini Nano). Some APIs need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> on localhost.
+                    </p>
+                    <p class="ai-suite__details-links">
+                        <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Gemini Nano</a>
+                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
+                        <a href="https://developer.chrome.com/docs/ai/prompt-api" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Prompt API</a>
+                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
+                        <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI overview</a>
+                    </p>
+                </div>
+            </details>
         </section>
 
         <script id="top-stories-data" type="application/json">
