@@ -690,7 +690,8 @@
               const title = btn.getAttribute('data-story-title') || '';
               const source = btn.getAttribute('data-story-source') || '';
               const cat = btn.getAttribute('data-story-cat') || '';
-              const outEl = btn.parentElement && btn.parentElement.querySelector('.story-ai-output');
+              const wrap = btn.closest('.top-story-ai, .story-card-ai');
+              const outEl = wrap && wrap.querySelector('.story-ai-output');
               if (!outEl || !promptApiReady) return;
               const lmApi = getLanguageModelApi();
               if (!lmApi) return;
