@@ -109,7 +109,7 @@
                                         <ul class="story-ask-suggestions" hidden></ul>
                                     </div>
                                     <label class="story-ask-followup-label" for="story-ask-{{ loop.index0 }}-top">Ask something else (optional)</label>
-                                    <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                    <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit or replace the question above, then Ask" disabled></textarea>
                                     <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
                                     <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
                                 </div>
@@ -169,7 +169,7 @@
                                     <ul class="story-ask-suggestions" hidden></ul>
                                 </div>
                                 <label class="story-ask-followup-label" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Ask something else (optional)</label>
-                                <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Type a question, or tap a suggestion above" disabled></textarea>
+                                <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit or replace the question above, then Ask" disabled></textarea>
                                 <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
                                 <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
                             </div>
@@ -462,6 +462,11 @@
                   }
                   listEl.hidden = false;
                   if (labelEl) labelEl.hidden = false;
+                  const askRoot = primerRoot.closest('.story-ask');
+                  const ta = askRoot && askRoot.querySelector('.story-ask-input');
+                  if (ta && !ta.value.trim() && qs[0]) {
+                    ta.value = qs[0];
+                  }
                 } else {
                   listEl.hidden = true;
                   if (labelEl) labelEl.hidden = true;
