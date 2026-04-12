@@ -242,13 +242,15 @@
               'You answer questions about a single news story using only the SINGLE STORY CONTEXT.',
               'When ARTICLE TEXT is present, ground your answer in it and give enough detail to be useful—up to about 250 words, or more if the user asks for a list, steps, or a deep dive.',
               'When only a short excerpt is available, say what you can and note that the feed did not include full body text.',
-              'You cannot fetch URLs. If something is not in the context, say so and point them to the headline link.',
+              'You cannot fetch URLs. If something is not in the context, say so clearly—do not invent specifics—and tell them to open the headline link for more.',
+              'Write plain text only: no Markdown (no **bold**, no bullet markdown), no bracket-and-parenthesis links. If a URL matters, say they can use the Open article link in the panel.',
             ].join(' ');
 
             const STORY_PRIMER_SYSTEM_PROMPT = [
               'You help a reader skim one news story using only CONTEXT (title, source, category, URL, ARTICLE TEXT when present, and short description).',
               'When ARTICLE TEXT is included, use it for PLAIN and SUMMARY so the briefing reflects the real story, not just the headline.',
               'Many readers struggle with cryptic headlines—your PLAIN line must restate what the story is about in simple words (no unexplained acronyms, no clickbait tone).',
+              'Under QUESTIONS, you must list exactly three questions that can be answered well using ONLY the CONTEXT. Do not suggest questions that require numbers, exact quotes, or "what specifically changed" unless that detail appears in ARTICLE TEXT. If the feed only has a summary, prefer questions about implications, who is involved, or what to watch next—and mention the gap briefly in SUMMARY.',
               'Reply using exactly this structure:',
               'PLAIN:',
               '(Exactly one sentence: what this story is about for a general reader.)',
@@ -260,7 +262,7 @@
               '- (One concrete question)',
               '- (One concrete question)',
               '- (One concrete question)',
-              'Each line under QUESTIONS must start with "- ". No numbering. If ARTICLE TEXT is missing or thin, say so briefly in SUMMARY and still give three sensible questions.',
+              'Each line under QUESTIONS must start with "- ". No numbering.',
             ].join('\n');
 
             let storyAnswerCompletedOnce = false;
@@ -431,6 +433,18 @@
               if (pct >= 100) return 'Generating answer…';
               if (pct > 0) return `Loading assistant… ${pct}%`;
               return 'Preparing…';
+            }
+
+            /** Plain text for .textContent: strip Markdown and rare stream tail glitches. */
+            function sanitizeAssistantReply(raw) {
+              let t = String(raw || '').trim();
+              t = t.replace(/\*\*([^*]+)\*\*/g, '$1');
+              t = t.replace(/\*([^*]+)\*/g, '$1');
+              t = t.replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '$1 — $2');
+              const lines = t.split('\n');
+              const last = lines[lines.length - 1]?.trim() ?? '';
+              if (/^Fo$/i.test(last)) lines.pop();
+              return lines.join('\n').trimEnd();
             }
 
             let scrollMainScheduled = false;
@@ -835,10 +849,11 @@
                     replyEl.textContent = full;
                     scheduleScrollPanelMainToBottom();
                   }
+                  replyEl.textContent = sanitizeAssistantReply(full);
                   askSucceeded = true;
                 } else {
                   const out = await session.prompt(userTurn);
-                  replyEl.textContent = String(out != null ? out : '');
+                  replyEl.textContent = sanitizeAssistantReply(String(out != null ? out : ''));
                   scheduleScrollPanelMainToBottom();
                   askSucceeded = true;
                 }
