@@ -37,7 +37,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="app">
+    <a href="#main-content" class="skip-link">Skip to content</a>
     <header class="site-header">
         <div class="container">
             <div class="header-content">
@@ -68,7 +69,7 @@
         </div>
     </header>
 
-    <main class="container">
+    <main id="main-content" class="container main-content" tabindex="-1">
         {% if top_stories %}
         <section class="top-stories">
             <h2 class="top-stories-title">
@@ -116,11 +117,12 @@
 
         <section class="ai-suite" aria-labelledby="ai-suite-title">
             <header class="ai-suite__header">
-                <h2 class="ai-suite__title" id="ai-suite-title">Reader tools</h2>
+                <span class="ai-suite__eyebrow">On-device AI</span>
+                <h2 class="ai-suite__title" id="ai-suite-title">Ask questions &amp; summarize clips</h2>
                 <p class="ai-suite__lede">
-                    On-device Chrome built-in AI where your browser supports it. Nothing is sent to this site’s server.
+                    Runs in your browser when Chrome exposes the built-in APIs. This site does not receive your prompts or pasted text.
                 </p>
-                <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI APIs</a>
+                <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Chrome built-in AI overview</a>
             </header>
 
             <ul class="ai-suite__chips" id="ai-suite-chips" aria-label="Detected APIs"></ul>
