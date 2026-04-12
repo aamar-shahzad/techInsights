@@ -46,7 +46,7 @@
                     <p class="tagline">AI, Dev Tools & Tech News</p>
                 </div>
                 <div class="header-actions">
-                    <span class="updated">Updated April 12, 2026 at 04:18 UTC</span>
+                    <span class="updated">Updated April 12, 2026 at 04:21 UTC</span>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -90,7 +90,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">1 min ago</span>
+                            <span class="top-story-time">4 mins ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -118,7 +118,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">14 mins ago</span>
+                            <span class="top-story-time">16 mins ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -146,7 +146,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">16 mins ago</span>
+                            <span class="top-story-time">19 mins ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -363,80 +363,68 @@
         </section>
         
 
-        <section class="insight-section insight-panel" aria-labelledby="insight-section-title">
-            <div class="insight-panel__head">
-                <div class="insight-panel__title-block">
-                    <h2 class="insight-title" id="insight-section-title">Briefing</h2>
-                    <p class="insight-tagline">A condensed read from today's top stories. Private to your browser.</p>
-                </div>
-                <button id="insight-generate-button" class="insight-generate-button" type="button">
-                    Generate briefing
-                </button>
-            </div>
+        <section class="ai-suite" aria-labelledby="ai-suite-title">
+            <header class="ai-suite__header">
+                <h2 class="ai-suite__title" id="ai-suite-title">Reader tools</h2>
+                <p class="ai-suite__lede">
+                    On-device Chrome built-in AI where your browser supports it. Nothing is sent to this site’s server.
+                </p>
+                <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI APIs</a>
+            </header>
 
-            <div id="insight-status" class="insight-status" role="status">
-                
-                <p class="insight-alert insight-alert--muted">Checking…</p>
-                
-            </div>
+            <ul class="ai-suite__chips" id="ai-suite-chips" aria-label="Detected APIs"></ul>
+            <div id="ai-suite-status" class="ai-suite__status ai-suite__status--hidden" role="status"></div>
 
-            <p class="insight-lede insight-lede--placeholder" id="insight-headline">—</p>
-
-            <div class="insight-grid">
-                <article class="insight-card">
-                    <h3 class="insight-card__label">Trends</h3>
-                    <ul class="insight-list" id="insight-key-trends">
-                        <li class="insight-list__placeholder">—</li>
-                    </ul>
-                </article>
-
-                <article class="insight-card">
-                    <h3 class="insight-card__label">Takeaways</h3>
-                    <ul class="insight-list" id="insight-quick-takeaways">
-                        <li class="insight-list__placeholder">—</li>
-                    </ul>
-                </article>
-
-                <article class="insight-card">
-                    <h3 class="insight-card__label">Watch</h3>
-                    <ul class="insight-list" id="insight-watch-items">
-                        <li class="insight-list__placeholder">—</li>
-                    </ul>
-                </article>
-            </div>
-            <p class="insight-meta" id="insight-meta"></p>
-
-            <div class="page-ai-integrated" id="page-ai-integrated">
-                <div class="page-ai-ask">
-                    <h3 class="page-ai-ask__title">Ask the feed</h3>
-                    <p class="page-ai-ask__hint">Questions use the full story list on this page (every section) as context—answers stay on your device.</p>
-                    <div class="page-ai-ask__row">
+            <div class="ai-suite__grid">
+                <article class="ai-suite__card">
+                    <div class="ai-suite__card-head">
+                        <h3 class="ai-suite__card-title">Ask about this page</h3>
+                        <span class="ai-suite__badge">Prompt API</span>
+                    </div>
+                    <p class="ai-suite__card-desc">Uses the full story list (all sections) as context.</p>
+                    <div class="page-ai-ask__row ai-suite__ask-row">
                         <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
-                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="2" placeholder="e.g. What should I watch in regulation or AI?" disabled></textarea>
-                        <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
+                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="3" placeholder="What stands out in security or AI this week?" disabled></textarea>
+                        <div class="ai-suite__ask-actions">
+                            <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
+                            <button type="button" class="ai-suite__ghost-btn" id="proofread-question-btn" hidden>Polish question</button>
+                        </div>
                     </div>
                     <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
-                </div>
+                    <div class="ai-suite__reply-tools" id="rewriter-answer-tools" hidden>
+                        <span class="ai-suite__reply-tools-label">Refine answer</span>
+                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-shorter-btn">Shorter</button>
+                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-formal-btn">More formal</button>
+                    </div>
+                </article>
 
-                <div class="page-ai-summarize" id="page-ai-summarize" hidden>
-                    <h3 class="page-ai-ask__title">Article clip</h3>
-                    <p class="page-ai-ask__hint">Paste article body (not just the headline). Summaries run in your browser via the Summarizer API.</p>
+                <article class="ai-suite__card ai-suite__card--summarize" id="page-ai-summarize" hidden>
+                    <div class="ai-suite__card-head">
+                        <h3 class="ai-suite__card-title">Summarize a clip</h3>
+                        <span class="ai-suite__badge">Summarizer API</span>
+                    </div>
+                    <p class="ai-suite__card-desc">Paste article body text (not just a headline).</p>
                     <div class="page-ai-ask__row">
                         <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
-                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs here…" disabled></textarea>
+                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs…" disabled></textarea>
                         <button type="button" class="page-ai-ask__submit" id="article-summarize-submit" disabled>Summarize</button>
                     </div>
                     <p id="article-summarize-status" class="page-ai-summarize__status" role="status" hidden></p>
                     <div id="article-summarize-output" class="page-ai-reply page-ai-reply--markdown" aria-live="polite" hidden></div>
-                </div>
+                </article>
             </div>
+
+            <p class="ai-suite__footnote">
+                Under each headline: <strong>Translate title</strong> (Language Detector + Translator) ·
+                <strong>Why it matters</strong> (Prompt API). Trials may apply — see Google’s docs.
+            </p>
         </section>
 
         <script id="top-stories-data" type="application/json">
-            [{"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "1 min ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "14 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "16 mins ago", "title": "\ud83e\udde0 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "4 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}]
+            [{"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "4 mins ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "16 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "19 mins ago", "title": "\ud83e\udde0 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "4 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}]
         </script>
         <script id="full-page-stories-data" type="application/json">
-            [{"category": "devtools", "category_label": "Developer Tools", "description": "I\u2019ve released ACR Designer, a WYSIWYG report designer for the ACR (Across Report Renderer) engine. It focuses on pixel-perfect layout and printer-independent rendering. Key features: WYSIWYG...", "source": "Dev.to", "time_ago": "1 min ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "description": "I had a bug fix PR \u2014 a NullReferenceException crash in production. Straightforward: remove a null-forgiving operator, add a guard, write some tests, ship it. The kind of thing you\u0027d rubber-stamp...", "source": "Dev.to", "time_ago": "14 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI systems today are stateless by design. That\u2019s not a feature \u2014 it\u2019s a limitation. Context disappears Decisions are lost Knowledge doesn\u2019t accumulate We\u2019ve normalized this. But what if AI...", "source": "Dev.to", "time_ago": "16 mins ago", "title": "\ud83e\udde0 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI agents forget you exist the moment you close the tab. You spend an afternoon explaining your project, your preferences, your workflow. You get something useful. Then you open a new session...", "source": "Dev.to", "time_ago": "32 mins ago", "title": "Hermes Agent: The Open Source AI Agent That Actually Remembers You"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Three Tables: What People See When They Look at Your Trading System Notes on perspective, projection, and the layers of any automated investment system A quant developer, a systems architect, and...", "source": "Dev.to", "time_ago": "32 mins ago", "title": "Three Tables: What People See When They Look at Your Trading System"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Something changed in how people find information and most content creators haven\u0027t adjusted yet. A growing percentage of search queries never reach Google at all. They go to ChatGPT, Perplexity,...", "source": "Dev.to", "time_ago": "33 mins ago", "title": "Answer Engine Optimization: Google Isn\u0027t the Only Search Engine That Matters Anymore"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Everyone recommends automation tools. Almost nobody tells you which one to actually use for your specific situation. Zapier, Make.com, and n8n are not the same product. They solve different...", "source": "Dev.to", "time_ago": "34 mins ago", "title": "Make.com vs Zapier vs n8n in 2026: Which One Do You Actually Need?"}, {"category": "devtools", "category_label": "Developer Tools", "description": "n8n is the open-source alternative to Zapier -- free, GDPR-compliant, and with AI integration. Ten concrete workflows for marketing, sales, support, and accounting that save time immediately....", "source": "Dev.to", "time_ago": "36 mins ago", "title": "10 n8n Workflows Every Small Business Can Use Right Away"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most people open Claude Code, type a question, and get an answer. That\u0027s the whole experience. There\u0027s nothing wrong with that. But it\u0027s like buying a Swiss Army knife and only using the bottle...", "source": "Dev.to", "time_ago": "36 mins ago", "title": "10 GitHub Repos That Turn Claude Code Into a Productivity Machine"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Three weeks into building FolioChat \u2014 a chatbot that lets portfolio visitors talk to my GitHub \u2014 I had a system that gave answers like a drunk Wikipedia editor. \"Tell me about Shane\u0027s React work,\"...", "source": "Dev.to", "time_ago": "40 mins ago", "title": "Your RAG Chatbot Lies Because You\u0027re Chunking Wrong"}, {"category": "tech", "category_label": "Tech Industry", "description": "Dutch regulators, the RDW, announced that after over a year and a half of testing, it has officially approved Tesla\u0027s Full-Self Driving (FSD) Supervised. This makes the Netherlands the first...", "source": "The Verge", "time_ago": "4 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "description": "The OpenAI CEO\u0027s new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "description": "Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren\u0027t showing, and Google says they were never supposed to. Spokesperson Ned Adriance...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "description": "Like many live-service games before it, Pok\u00e9mon Champions\u0027 launch has been messy. The free-to-start battle sim, which is out now on the Switch and Switch 2 (and also coming to mobile later this...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "tech", "category_label": "Tech Industry", "description": "The illustration for The New Yorker\u0027s profile of OpenAI CEO Sam Altman is a jump scare. Altman stands in a blue sweater with a blank expression. Around his head hovers a cluster of disembodied...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Your article about AI doesn\u2019t need AI art"}, {"category": "tech", "category_label": "Tech Industry", "description": "If you\u2019ve ever worried about porch pirates stealing packages while you\u2019re away, a video doorbell can offer some peace of mind, letting you keep tabs on deliveries no matter where you are. Google...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google\u2019s latest Nest Doorbells just hit their lowest prices of the year"}, {"category": "tech", "category_label": "Tech Industry", "description": "Two weeks ago, I was getting ready to log off work when I got a text message. \"Oh wow, I was checking out Mitski. did you know people are saying her Dad was a CIA operative?\" Normally, that kind...", "source": "The Verge", "time_ago": "14 hours ago", "title": "My baby deer plushie told me that Mitski\u0026#8217;s dad was a CIA operative"}, {"category": "tech", "category_label": "Tech Industry", "description": "Nintendo seemingly designed its latest console to be a mystery for third-party accessory makers. With the Switch 2, the company changed the wireless protocol for connecting controllers to the new...", "source": "The Verge", "time_ago": "14 hours ago", "title": "You don\u2019t have to spend more than $50 on a great USB-C dock for your Switch 2"}, {"category": "tech", "category_label": "Tech Industry", "description": "There\u0027s one very specific reason I keep a Wii U handy, and that\u0027s so that I have an easy way to play the classic pinball game Devil\u0027s Crush. Over the years, it has become a comfort game for me....", "source": "The Verge", "time_ago": "15 hours ago", "title": "Demons and pinball are a perfect match"}, {"category": "tech", "category_label": "Tech Industry", "description": "In the early days of the war on Iran, while the White House was busy posting Call of Duty memes and AI slop of dancing bowling pins, the Iranian regime\u0027s state media was flooding the zone with...", "source": "The Verge", "time_ago": "15 hours ago", "title": "How Iran out-shitposted the White House"}, {"category": "tech", "category_label": "Tech Industry", "description": "Hi, friends! Welcome to Installer No. 123, your guide to the best and Verge-iest stuff in the world. (If you\u0027re new here, welcome, which Artemis photo did you make your wallpaper, and also you can...", "source": "The Verge", "time_ago": "16 hours ago", "title": "The new show making fun of tech bros"}, {"category": "ai", "category_label": "AI", "description": "Plus: Iran\u2019s internet blackout hits the 1,000-hour mark, cryptocurrency scams result in a record amount of money stolen from Americans, and more.", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "description": "From AI-generated images to restricted satellite data, the systems used to verify what\u2019s real online are struggling to keep up.", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "description": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global...", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}, {"category": "security", "category_label": "Security", "description": "Regulation is hard: The South Pacific Regional Fisheries Management Organization (SPRFMO) oversees fishing across roughly 59 million square kilometers (22 million square miles) of the South...", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Friday Squid Blogging: Squid Overfishing in the South Pacific"}, {"category": "ai", "category_label": "AI", "description": "This ban took place after Claude\u0027s pricing changed for OpenClaw users last week.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Anthropic temporarily banned OpenClaw\u2019s creator from accessing Claude"}, {"category": "ai", "category_label": "AI", "description": "The new AI model is being heralded\u2014and feared\u2014as a hacker\u2019s superweapon. Experts say its arrival is a wake-up call for developers who have long made security an afterthought.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Anthropic\u2019s Mythos Will Force a Cybersecurity Reckoning\u2014Just Not the One You Think"}, {"category": "ai", "category_label": "AI", "description": "OpenAI ignored three warnings that a ChatGPT user was dangerous \u2014 including its own mass-casualty flag \u2014 while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser\u2019s delusions and ignored her warnings"}, {"category": "ai", "category_label": "AI", "description": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving\u0027s...", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Battlefield with it"}, {"category": "ai", "category_label": "AI", "description": "An attacker allegedly threw a molotov cocktail at the OpenAI CEO\u2019s residence before making threats outside of the startup\u2019s headquarters.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman\u2019s Home"}, {"category": "ai", "category_label": "AI", "description": "Onix is launching a \u201cSubstack of bots,\u201d where digital twins of health and wellness influencers dispense advice 24/7. And maybe hawk their products.", "source": "Wired AI", "time_ago": "1 day ago", "title": "This Startup Wants You to Pay Up to Talk With AI Versions of Human Experts"}, {"category": "ai", "category_label": "AI", "description": "Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine\u2014or an \u201cindividualized neoantigen treatment\u201d? That\u2019s the Trump-era vocabulary paradox...", "source": "MIT Tech Review", "time_ago": "1 day ago", "title": "What\u2019s in a name? Moderna\u2019s \u201cvaccine\u201d vs. \u201ctherapy\u201d dilemma"}, {"category": "security", "category_label": "Security", "description": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that\u0027s designed to stealthily infect all integrated development...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs"}, {"category": "security", "category_label": "Security", "description": "While much of the discussion on AI security centers around protecting \u2018shadow\u2019 AI and GenAI consumption, there\u0027s a wide-open window nobody\u0027s guarding: AI browser extensions. A new report from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About"}, {"category": "security", "category_label": "Security", "description": "Claude is actually pretty good on the issues.", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Sen. Sanders Talks to Claude About AI and Privacy"}, {"category": "security", "category_label": "Security", "description": "Google has made Device Bound Session Credentials (DBSC) generally available to all Windows users of its Chrome web browser, months after it began testing the security feature in open beta. The...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows"}, {"category": "security", "category_label": "Security", "description": "A critical security vulnerability in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according to findings from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure"}, {"category": "security", "category_label": "Security", "description": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor. The incident impacts Smart Slider...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers"}, {"category": "security", "category_label": "Security", "description": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs"}, {"category": "security", "category_label": "Security", "description": "A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re thrilled to announce that Harshita Arora is joining Y Combinator as a General Partner. She brings deep fintech and infrastructure experience, a founder\u0027s instinct for product, and the...", "source": "Y Combinator", "time_ago": "5 days ago", "title": "Harshita Arora Joins YC as General Partner"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countries of incorporation.", "source": "Y Combinator", "time_ago": "Feb 05, 2026", "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they\u0027ve built the operating system construction has been missing\u2014built by contractors, for contractors....", "source": "Y Combinator", "time_ago": "Jan 23, 2026", "title": "Congratulations to EquipmentShare on Going Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027ve partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free credits for AI devtools.", "source": "Y Combinator", "time_ago": "Jan 16, 2026", "title": "Announcing the YC AI Stack"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u2019re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.", "source": "Y Combinator", "time_ago": "Dec 18, 2025", "title": "2026 Demo Day Dates"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses. Congrats to Vidit and Sanjeev...", "source": "Y Combinator", "time_ago": "Dec 10, 2025", "title": "Meesho Goes Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, Groww, India\u0027s leading digital investing platform, goes public. Tens of millions use Groww to invest simply and confidently in stocks, mutual funds, and ETFs. As YC\u0027s first company to list...", "source": "Y Combinator", "time_ago": "Nov 12, 2025", "title": "Congratulations to Groww"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, BillionToOne goes public, becoming YC\u0027s fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S. Today, 1 in 11 babies...", "source": "Y Combinator", "time_ago": "Nov 06, 2025", "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re excited to announce that nine exceptional founders are joining us as Visiting Partners at YC: Matt Riley, Harshita Arora, Grey Baker, Christopher Golda, Raphael Schaad, Christina Gilbert,...", "source": "Y Combinator", "time_ago": "Oct 14, 2025", "title": "Meet YC\u0027s Newest Visiting Partners"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We are entering the era of Fintech 3.0. Regulatory clarity, growing consumer adoption, and low-cost chains have paved the way for a golden age of building in crypto \u2014 and at YC, Base, and...", "source": "Y Combinator", "time_ago": "Sep 23, 2025", "title": "YC x Coinbase RFS: Build Onchain"}]
+            [{"category": "devtools", "category_label": "Developer Tools", "description": "I\u2019ve released ACR Designer, a WYSIWYG report designer for the ACR (Across Report Renderer) engine. It focuses on pixel-perfect layout and printer-independent rendering. Key features: WYSIWYG...", "source": "Dev.to", "time_ago": "4 mins ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "description": "I had a bug fix PR \u2014 a NullReferenceException crash in production. Straightforward: remove a null-forgiving operator, add a guard, write some tests, ship it. The kind of thing you\u0027d rubber-stamp...", "source": "Dev.to", "time_ago": "16 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI systems today are stateless by design. That\u2019s not a feature \u2014 it\u2019s a limitation. Context disappears Decisions are lost Knowledge doesn\u2019t accumulate We\u2019ve normalized this. But what if AI...", "source": "Dev.to", "time_ago": "19 mins ago", "title": "\ud83e\udde0 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI agents forget you exist the moment you close the tab. You spend an afternoon explaining your project, your preferences, your workflow. You get something useful. Then you open a new session...", "source": "Dev.to", "time_ago": "34 mins ago", "title": "Hermes Agent: The Open Source AI Agent That Actually Remembers You"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Three Tables: What People See When They Look at Your Trading System Notes on perspective, projection, and the layers of any automated investment system A quant developer, a systems architect, and...", "source": "Dev.to", "time_ago": "34 mins ago", "title": "Three Tables: What People See When They Look at Your Trading System"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Something changed in how people find information and most content creators haven\u0027t adjusted yet. A growing percentage of search queries never reach Google at all. They go to ChatGPT, Perplexity,...", "source": "Dev.to", "time_ago": "35 mins ago", "title": "Answer Engine Optimization: Google Isn\u0027t the Only Search Engine That Matters Anymore"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Everyone recommends automation tools. Almost nobody tells you which one to actually use for your specific situation. Zapier, Make.com, and n8n are not the same product. They solve different...", "source": "Dev.to", "time_ago": "37 mins ago", "title": "Make.com vs Zapier vs n8n in 2026: Which One Do You Actually Need?"}, {"category": "devtools", "category_label": "Developer Tools", "description": "n8n is the open-source alternative to Zapier -- free, GDPR-compliant, and with AI integration. Ten concrete workflows for marketing, sales, support, and accounting that save time immediately....", "source": "Dev.to", "time_ago": "38 mins ago", "title": "10 n8n Workflows Every Small Business Can Use Right Away"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most people open Claude Code, type a question, and get an answer. That\u0027s the whole experience. There\u0027s nothing wrong with that. But it\u0027s like buying a Swiss Army knife and only using the bottle...", "source": "Dev.to", "time_ago": "39 mins ago", "title": "10 GitHub Repos That Turn Claude Code Into a Productivity Machine"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Three weeks into building FolioChat \u2014 a chatbot that lets portfolio visitors talk to my GitHub \u2014 I had a system that gave answers like a drunk Wikipedia editor. \"Tell me about Shane\u0027s React work,\"...", "source": "Dev.to", "time_ago": "42 mins ago", "title": "Your RAG Chatbot Lies Because You\u0027re Chunking Wrong"}, {"category": "tech", "category_label": "Tech Industry", "description": "Dutch regulators, the RDW, announced that after over a year and a half of testing, it has officially approved Tesla\u0027s Full-Self Driving (FSD) Supervised. This makes the Netherlands the first...", "source": "The Verge", "time_ago": "4 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "description": "The OpenAI CEO\u0027s new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "description": "Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren\u0027t showing, and Google says they were never supposed to. Spokesperson Ned Adriance...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "description": "Like many live-service games before it, Pok\u00e9mon Champions\u0027 launch has been messy. The free-to-start battle sim, which is out now on the Switch and Switch 2 (and also coming to mobile later this...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "tech", "category_label": "Tech Industry", "description": "The illustration for The New Yorker\u0027s profile of OpenAI CEO Sam Altman is a jump scare. Altman stands in a blue sweater with a blank expression. Around his head hovers a cluster of disembodied...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Your article about AI doesn\u2019t need AI art"}, {"category": "tech", "category_label": "Tech Industry", "description": "If you\u2019ve ever worried about porch pirates stealing packages while you\u2019re away, a video doorbell can offer some peace of mind, letting you keep tabs on deliveries no matter where you are. Google...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google\u2019s latest Nest Doorbells just hit their lowest prices of the year"}, {"category": "tech", "category_label": "Tech Industry", "description": "Two weeks ago, I was getting ready to log off work when I got a text message. \"Oh wow, I was checking out Mitski. did you know people are saying her Dad was a CIA operative?\" Normally, that kind...", "source": "The Verge", "time_ago": "14 hours ago", "title": "My baby deer plushie told me that Mitski\u0026#8217;s dad was a CIA operative"}, {"category": "tech", "category_label": "Tech Industry", "description": "Nintendo seemingly designed its latest console to be a mystery for third-party accessory makers. With the Switch 2, the company changed the wireless protocol for connecting controllers to the new...", "source": "The Verge", "time_ago": "14 hours ago", "title": "You don\u2019t have to spend more than $50 on a great USB-C dock for your Switch 2"}, {"category": "tech", "category_label": "Tech Industry", "description": "There\u0027s one very specific reason I keep a Wii U handy, and that\u0027s so that I have an easy way to play the classic pinball game Devil\u0027s Crush. Over the years, it has become a comfort game for me....", "source": "The Verge", "time_ago": "15 hours ago", "title": "Demons and pinball are a perfect match"}, {"category": "tech", "category_label": "Tech Industry", "description": "In the early days of the war on Iran, while the White House was busy posting Call of Duty memes and AI slop of dancing bowling pins, the Iranian regime\u0027s state media was flooding the zone with...", "source": "The Verge", "time_ago": "15 hours ago", "title": "How Iran out-shitposted the White House"}, {"category": "tech", "category_label": "Tech Industry", "description": "Hi, friends! Welcome to Installer No. 123, your guide to the best and Verge-iest stuff in the world. (If you\u0027re new here, welcome, which Artemis photo did you make your wallpaper, and also you can...", "source": "The Verge", "time_ago": "16 hours ago", "title": "The new show making fun of tech bros"}, {"category": "ai", "category_label": "AI", "description": "Plus: Iran\u2019s internet blackout hits the 1,000-hour mark, cryptocurrency scams result in a record amount of money stolen from Americans, and more.", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "description": "From AI-generated images to restricted satellite data, the systems used to verify what\u2019s real online are struggling to keep up.", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "description": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global...", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}, {"category": "security", "category_label": "Security", "description": "Regulation is hard: The South Pacific Regional Fisheries Management Organization (SPRFMO) oversees fishing across roughly 59 million square kilometers (22 million square miles) of the South...", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Friday Squid Blogging: Squid Overfishing in the South Pacific"}, {"category": "ai", "category_label": "AI", "description": "This ban took place after Claude\u0027s pricing changed for OpenClaw users last week.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Anthropic temporarily banned OpenClaw\u2019s creator from accessing Claude"}, {"category": "ai", "category_label": "AI", "description": "The new AI model is being heralded\u2014and feared\u2014as a hacker\u2019s superweapon. Experts say its arrival is a wake-up call for developers who have long made security an afterthought.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Anthropic\u2019s Mythos Will Force a Cybersecurity Reckoning\u2014Just Not the One You Think"}, {"category": "ai", "category_label": "AI", "description": "OpenAI ignored three warnings that a ChatGPT user was dangerous \u2014 including its own mass-casualty flag \u2014 while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser\u2019s delusions and ignored her warnings"}, {"category": "ai", "category_label": "AI", "description": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving\u0027s...", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Battlefield with it"}, {"category": "ai", "category_label": "AI", "description": "An attacker allegedly threw a molotov cocktail at the OpenAI CEO\u2019s residence before making threats outside of the startup\u2019s headquarters.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman\u2019s Home"}, {"category": "ai", "category_label": "AI", "description": "Onix is launching a \u201cSubstack of bots,\u201d where digital twins of health and wellness influencers dispense advice 24/7. And maybe hawk their products.", "source": "Wired AI", "time_ago": "1 day ago", "title": "This Startup Wants You to Pay Up to Talk With AI Versions of Human Experts"}, {"category": "ai", "category_label": "AI", "description": "Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine\u2014or an \u201cindividualized neoantigen treatment\u201d? That\u2019s the Trump-era vocabulary paradox...", "source": "MIT Tech Review", "time_ago": "1 day ago", "title": "What\u2019s in a name? Moderna\u2019s \u201cvaccine\u201d vs. \u201ctherapy\u201d dilemma"}, {"category": "security", "category_label": "Security", "description": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that\u0027s designed to stealthily infect all integrated development...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs"}, {"category": "security", "category_label": "Security", "description": "While much of the discussion on AI security centers around protecting \u2018shadow\u2019 AI and GenAI consumption, there\u0027s a wide-open window nobody\u0027s guarding: AI browser extensions. A new report from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About"}, {"category": "security", "category_label": "Security", "description": "Claude is actually pretty good on the issues.", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Sen. Sanders Talks to Claude About AI and Privacy"}, {"category": "security", "category_label": "Security", "description": "Google has made Device Bound Session Credentials (DBSC) generally available to all Windows users of its Chrome web browser, months after it began testing the security feature in open beta. The...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows"}, {"category": "security", "category_label": "Security", "description": "A critical security vulnerability in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according to findings from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure"}, {"category": "security", "category_label": "Security", "description": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor. The incident impacts Smart Slider...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers"}, {"category": "security", "category_label": "Security", "description": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs"}, {"category": "security", "category_label": "Security", "description": "A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re thrilled to announce that Harshita Arora is joining Y Combinator as a General Partner. She brings deep fintech and infrastructure experience, a founder\u0027s instinct for product, and the...", "source": "Y Combinator", "time_ago": "5 days ago", "title": "Harshita Arora Joins YC as General Partner"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countries of incorporation.", "source": "Y Combinator", "time_ago": "Feb 05, 2026", "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they\u0027ve built the operating system construction has been missing\u2014built by contractors, for contractors....", "source": "Y Combinator", "time_ago": "Jan 23, 2026", "title": "Congratulations to EquipmentShare on Going Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027ve partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free credits for AI devtools.", "source": "Y Combinator", "time_ago": "Jan 16, 2026", "title": "Announcing the YC AI Stack"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u2019re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.", "source": "Y Combinator", "time_ago": "Dec 18, 2025", "title": "2026 Demo Day Dates"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses. Congrats to Vidit and Sanjeev...", "source": "Y Combinator", "time_ago": "Dec 10, 2025", "title": "Meesho Goes Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, Groww, India\u0027s leading digital investing platform, goes public. Tens of millions use Groww to invest simply and confidently in stocks, mutual funds, and ETFs. As YC\u0027s first company to list...", "source": "Y Combinator", "time_ago": "Nov 12, 2025", "title": "Congratulations to Groww"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, BillionToOne goes public, becoming YC\u0027s fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S. Today, 1 in 11 babies...", "source": "Y Combinator", "time_ago": "Nov 06, 2025", "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re excited to announce that nine exceptional founders are joining us as Visiting Partners at YC: Matt Riley, Harshita Arora, Grey Baker, Christopher Golda, Raphael Schaad, Christina Gilbert,...", "source": "Y Combinator", "time_ago": "Oct 14, 2025", "title": "Meet YC\u0027s Newest Visiting Partners"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We are entering the era of Fintech 3.0. Regulatory clarity, growing consumer adoption, and low-cost chains have paved the way for a golden age of building in crypto \u2014 and at YC, Base, and...", "source": "Y Combinator", "time_ago": "Sep 23, 2025", "title": "YC x Coinbase RFS: Build Onchain"}]
         </script>
         <script type="module">
             /**
@@ -476,13 +464,6 @@
               expectedOutputs: [{ type: 'text', languages: ['en'] }],
             };
 
-            /** System role via initialPrompts (see "Add context with initial prompts" in the Prompt API doc). */
-            const BRIEFING_SYSTEM_PROMPT = [
-              'You are a concise tech news editor.',
-              'Respond with a single JSON object only, matching the schema the user specifies.',
-              'Ground answers in the full page snapshot appended to this prompt; do not invent sources or stories.',
-            ].join(' ');
-
             const ASK_FEED_SYSTEM_PROMPT = [
               'You answer questions about the Tech Insights page the user has open.',
               'Use only the full page snapshot in your instructions. If the snapshot does not support an answer, say so in one sentence.',
@@ -494,19 +475,6 @@
               'The full page snapshot lists every story on the page; focus on the story named in the user message.',
               'Reply with one or two short sentences. No title repetition, no hype.',
             ].join(' ');
-
-            const INSIGHT_JSON_SCHEMA = {
-              type: 'object',
-              additionalProperties: true,
-              properties: {
-                enabled: { type: 'boolean' },
-                headline: { type: 'string' },
-                key_trends: { type: 'array', items: { type: 'string' } },
-                quick_takeaways: { type: 'array', items: { type: 'string' } },
-                watch_items: { type: 'array', items: { type: 'string' } },
-                generated_for: { type: 'string' },
-              },
-            };
 
             const topStoriesOnly = JSON.parse(
               document.getElementById('top-stories-data')?.textContent || '[]'
@@ -520,17 +488,15 @@
                 ? fullPageStoriesRaw
                 : topStoriesOnly;
 
-            const statusEl = document.getElementById('insight-status');
-            const headlineEl = document.getElementById('insight-headline');
-            const trendsEl = document.getElementById('insight-key-trends');
-            const takeawaysEl = document.getElementById('insight-quick-takeaways');
-            const watchEl = document.getElementById('insight-watch-items');
-            const metaEl = document.getElementById('insight-meta');
-            const generateButton = document.getElementById('insight-generate-button');
-            const originalButtonLabel = generateButton ? generateButton.textContent : '';
+            const aiSuiteStatus = document.getElementById('ai-suite-status');
+            const aiSuiteChips = document.getElementById('ai-suite-chips');
             const askFeedInput = document.getElementById('ask-feed-input');
             const askFeedSubmit = document.getElementById('ask-feed-submit');
             const askFeedReply = document.getElementById('ask-feed-reply');
+            const proofreadQuestionBtn = document.getElementById('proofread-question-btn');
+            const rewriterAnswerTools = document.getElementById('rewriter-answer-tools');
+            const rewriteShorterBtn = document.getElementById('rewrite-shorter-btn');
+            const rewriteFormalBtn = document.getElementById('rewrite-formal-btn');
             const summarizeSection = document.getElementById('page-ai-summarize');
             const articleSummarizeInput = document.getElementById('article-summarize-input');
             const articleSummarizeSubmit = document.getElementById('article-summarize-submit');
@@ -540,6 +506,8 @@
             let promptApiReady = false;
             let summarizerReady = false;
             let translateUiReady = false;
+            let proofreaderReady = false;
+            let rewriterReady = false;
 
             /** BCP-47 primary subtag, lowercased (e.g. en-US → en). */
             function primaryLangTag(tag) {
@@ -570,28 +538,19 @@
               });
             }
 
-            const setList = (el, list) => {
-              if (!el) return;
-              el.innerHTML = '';
-              if (!list.length) {
-                const item = document.createElement('li');
-                item.className = 'insight-list__placeholder';
-                item.textContent = '—';
-                el.appendChild(item);
-                return;
-              }
-              for (const value of list) {
-                const item = document.createElement('li');
-                item.textContent = value;
-                el.appendChild(item);
-              }
-            };
+            function setAiSuiteStatus(html, variant) {
+              if (!aiSuiteStatus) return;
+              aiSuiteStatus.innerHTML = html;
+              aiSuiteStatus.classList.remove('ai-suite__status--hidden', 'ai-suite__status--warn', 'ai-suite__status--ok');
+              if (variant === 'warn') aiSuiteStatus.classList.add('ai-suite__status--warn');
+              else if (variant === 'ok') aiSuiteStatus.classList.add('ai-suite__status--ok');
+            }
 
-            const setLoadingState = (isLoading) => {
-              if (!generateButton) return;
-              generateButton.disabled = isLoading || !promptApiReady;
-              generateButton.textContent = isLoading ? 'Working…' : originalButtonLabel;
-            };
+            function hideAiSuiteStatus() {
+              if (!aiSuiteStatus) return;
+              aiSuiteStatus.innerHTML = '';
+              aiSuiteStatus.classList.add('ai-suite__status--hidden');
+            }
 
             const setIntegratedAiEnabled = (enabled) => {
               document.querySelectorAll('.story-ai-btn').forEach((btn) => {
@@ -601,83 +560,11 @@
               if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
             };
 
-            const renderUnavailable = (detailHtml) => {
-              statusEl.innerHTML = detailHtml;
-              statusEl.classList.remove('insight-status--hidden');
-              setList(trendsEl, []);
-              setList(takeawaysEl, []);
-              setList(watchEl, []);
-              metaEl.textContent = '';
-              if (headlineEl) {
-                headlineEl.textContent = '—';
-                headlineEl.classList.add('insight-lede--placeholder');
-              }
-              if (generateButton) {
-                generateButton.disabled = true;
-              }
+            const renderPromptUnavailable = (detailHtml) => {
+              setAiSuiteStatus(detailHtml, 'warn');
               promptApiReady = false;
               setIntegratedAiEnabled(false);
-            };
-
-            const showGenerationError = (message, err) => {
-              statusEl.classList.remove('insight-status--hidden');
-              const name = err && err.name ? String(err.name) : '';
-              let extra = '';
-              if (name === 'QuotaExceededError' && err.contextWindow != null) {
-                extra = ` (${err.contextWindow} token limit)`;
-              }
-              statusEl.innerHTML = `<p class="insight-alert insight-alert--warn">${message}${extra} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Details</a></p>`;
-              metaEl.textContent = 'Try again when ready.';
-            };
-
-            const stripJsonFence = (text) => {
-              const start = text.indexOf('{');
-              const end = text.lastIndexOf('}');
-              if (start === -1 || end === -1 || end <= start) {
-                throw new Error('No JSON found in model output.');
-              }
-              return text.slice(start, end + 1);
-            };
-
-            const extractInsightPayload = (text) => {
-              const raw = typeof text === 'string' ? text : JSON.stringify(text);
-              const candidate = stripJsonFence(raw || '');
-              try {
-                const parsed = JSON.parse(candidate);
-                if (parsed && (parsed.key_trends || parsed.quick_takeaways || parsed.watch_items)) {
-                  return parsed;
-                }
-              } catch (e) {
-                /* continue */
-              }
-              const objects = (raw || '').match(/\{[\s\S]*?\}/g) || [];
-              for (let i = objects.length - 1; i >= 0; i -= 1) {
-                try {
-                  const parsed = JSON.parse(objects[i]);
-                  if (parsed && (parsed.key_trends || parsed.quick_takeaways || parsed.watch_items)) {
-                    return parsed;
-                  }
-                } catch (e) {
-                  /* continue */
-                }
-              }
-              throw new Error('Model output did not include a valid insight JSON object.');
-            };
-
-            const normalizeList = (value) => {
-              if (!Array.isArray(value)) return [];
-              return value.map((v) => String(v).trim()).filter(Boolean);
-            };
-
-            const parsePromptResult = (result) => {
-              if (result == null) throw new Error('Empty model response.');
-              if (typeof result === 'object') return result;
-              const s = String(result).trim();
-              try {
-                return JSON.parse(s);
-              } catch (e) {
-                return extractInsightPayload(s);
-              }
+              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
             };
 
             /** Cap embedded snapshot size so create() stays within on-device context limits. */
@@ -723,24 +610,6 @@
               return text;
             }
 
-            /** User-turn content only; full feed is merged into system prompt via openLmSession(). */
-            const buildInsightUserPrompt = () => {
-              const categoryCounts = {};
-              for (const story of pageStories) {
-                const category = story.category || 'general';
-                categoryCounts[category] = (categoryCounts[category] || 0) + 1;
-              }
-              return [
-                'Return strict JSON exactly in this shape:',
-                '{"enabled": true, "headline": "...", "key_trends": ["..."], "quick_takeaways": ["..."], "watch_items": ["..."], "generated_for": "..."}',
-                '',
-                'Base the JSON on the PAGE_SNAPSHOT block in your system message (all categories and excerpts).',
-                `Stories per category in that snapshot: ${Object.entries(categoryCounts)
-                  .map(([cat, count]) => `${cat}: ${count}`)
-                  .join(', ')}`,
-              ].join('\n');
-            };
-
             async function closeLmSession(session) {
               if (session && typeof session.destroy === 'function') {
                 try {
@@ -752,7 +621,7 @@
             }
 
             /**
-             * Ephemeral session per user action (briefing, ask, story)—avoids cross-talk in session history.
+             * Ephemeral session per user action (ask, story angle)—avoids cross-talk in session history.
              * @param {string} [pageGrounding] Full-page story snapshot appended to system prompt (max length capped).
              */
             async function openLmSession(lmApi, systemPrompt, onDownloadPct, pageGrounding) {
@@ -783,85 +652,14 @@
               }
             }
 
-            const generateInsights = async () => {
-              if (!pageStories || pageStories.length === 0) {
-                statusEl.classList.remove('insight-status--hidden');
-                statusEl.innerHTML =
-                  '<p class="insight-alert insight-alert--muted">No stories loaded. Rebuild the site feed.</p>';
-                setList(trendsEl, []);
-                setList(takeawaysEl, []);
-                setList(watchEl, []);
-                metaEl.textContent = '';
-                return;
-              }
-
-              const lmApi = getLanguageModelApi();
-              if (!lmApi) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--muted">Briefing isn’t supported in this browser. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
-                );
-                return;
-              }
-
-              const availability = await lmApi.availability(LM_OPTIONS);
-              if (isAvailabilityBlocked(availability)) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--muted">Briefing isn’t available on this device. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Why</a></p>`
-                );
-                return;
-              }
-
-              setLoadingState(true);
-              statusEl.classList.remove('insight-status--hidden');
-              statusEl.innerHTML = '<p class="insight-alert insight-alert--info">Summarizing…</p>';
-              metaEl.textContent =
-                availability === 'downloading' ? 'First run may download data in the background.' : '';
-
-              const promptText = buildInsightUserPrompt();
-              const pageGrounding = buildPageGroundingText(pageStories);
-
-              let session = null;
-              try {
-                session = await openLmSession(lmApi, BRIEFING_SYSTEM_PROMPT, (pct) => {
-                  metaEl.textContent = `Preparing… ${pct}%`;
-                }, pageGrounding);
-                let parsed;
-                try {
-                  const result = await session.prompt(promptText, {
-                    responseConstraint: INSIGHT_JSON_SCHEMA,
-                  });
-                  parsed = parsePromptResult(result);
-                } catch (constraintErr) {
-                  const result = await session.prompt(promptText);
-                  parsed = parsePromptResult(result);
-                }
-
-                const headline = String(parsed.headline || 'Tech snapshot').trim() || 'Tech snapshot';
-                const keyTrends = normalizeList(parsed.key_trends);
-                const quickTakeaways = normalizeList(parsed.quick_takeaways);
-                const watchItems = normalizeList(parsed.watch_items);
-
-                headlineEl.textContent = headline;
-                headlineEl.classList.remove('insight-lede--placeholder');
-                setList(trendsEl, keyTrends);
-                setList(takeawaysEl, quickTakeaways);
-                setList(watchEl, watchItems);
-                statusEl.innerHTML = '';
-                statusEl.classList.add('insight-status--hidden');
-                const generatedFor = parsed.generated_for || new Date().toLocaleString();
-                metaEl.textContent = `${pageStories.length} stories in context · ${generatedFor}`;
-              } catch (err) {
-                const message = String(err.message || err);
-                showGenerationError(`Insight generation failed: ${message}`, err);
-              } finally {
-                await closeLmSession(session);
-                setLoadingState(false);
-              }
-            };
-
             const runAskFeed = async () => {
               const q = (askFeedInput && askFeedInput.value) ? askFeedInput.value.trim() : '';
               if (!q || !promptApiReady) return;
+              if (!pageStories || pageStories.length === 0) {
+                askFeedReply.hidden = false;
+                askFeedReply.textContent = 'No story data. Rebuild the site.';
+                return;
+              }
               const lmApi = getLanguageModelApi();
               if (!lmApi) return;
               const availability = await lmApi.availability(LM_OPTIONS);
@@ -871,6 +669,7 @@
                 return;
               }
 
+              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
               askFeedSubmit.disabled = true;
               askFeedInput.disabled = true;
               askFeedReply.hidden = false;
@@ -895,6 +694,9 @@
                 } else {
                   const out = await session.prompt(userTurn);
                   askFeedReply.textContent = String(out != null ? out : '');
+                }
+                if (rewriterReady && rewriterAnswerTools && askFeedReply.textContent.trim()) {
+                  rewriterAnswerTools.hidden = false;
                 }
               } catch (err) {
                 askFeedReply.textContent = `Couldn’t complete: ${String(err.message || err)}`;
@@ -1158,7 +960,7 @@
                 if (summarizerAvailabilityBlocked(av)) {
                   if (articleSummarizeStatus) {
                     articleSummarizeStatus.hidden = false;
-                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
+                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
                   }
                   return;
                 }
@@ -1180,45 +982,157 @@
               setTranslateButtonsEnabled(true);
             }
 
+            async function runProofreadQuestion() {
+              const raw = askFeedInput && askFeedInput.value ? askFeedInput.value.trim() : '';
+              if (!raw || typeof Proofreader === 'undefined') return;
+              if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = true;
+              try {
+                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
+                if (isAvailabilityBlocked(av)) return;
+                const proofreader = await Proofreader.create({
+                  expectedInputLanguages: ['en'],
+                  monitor(m) {
+                    m.addEventListener('downloadprogress', () => {});
+                  },
+                });
+                const result = await proofreader.proofread(raw);
+                const fixed =
+                  result && result.correctedInput != null ? String(result.correctedInput) : raw;
+                askFeedInput.value = fixed;
+                if (proofreader.destroy) await proofreader.destroy();
+              } catch (e) {
+                hideAiSuiteStatus();
+                setAiSuiteStatus(
+                  `<span class="ai-suite__status-text">Proofreader: ${String(e.message || e)}</span>`,
+                  'warn'
+                );
+              } finally {
+                if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = false;
+              }
+            }
+
+            async function runRewriteAnswer(mode) {
+              const text = askFeedReply ? askFeedReply.textContent.trim() : '';
+              if (!text || typeof Rewriter === 'undefined') return;
+              const busy = mode === 'shorter' ? rewriteShorterBtn : rewriteFormalBtn;
+              if (busy) busy.disabled = true;
+              askFeedReply.classList.add('page-ai-reply--loading');
+              let rewriter = null;
+              try {
+                const av = await Rewriter.availability();
+                if (isAvailabilityBlocked(av)) return;
+                const opts = {
+                  sharedContext: 'Tech news Q&A for a professional reader.',
+                  format: 'plain-text',
+                  length: mode === 'shorter' ? 'shorter' : 'as-is',
+                  tone: mode === 'formal' ? 'more-formal' : 'as-is',
+                  expectedInputLanguages: ['en'],
+                  outputLanguage: 'en',
+                  monitor(m) {
+                    m.addEventListener('downloadprogress', () => {});
+                  },
+                };
+                rewriter = await Rewriter.create(opts);
+                const out = await rewriter.rewrite(text, {
+                  context: 'Preserve facts; improve clarity only.',
+                });
+                const next =
+                  typeof out === 'string' ? out : out && out.text != null ? String(out.text) : String(out);
+                askFeedReply.textContent = next.trim() || text;
+                if (rewriter.destroy) await rewriter.destroy();
+                rewriter = null;
+              } catch (e) {
+                setAiSuiteStatus(
+                  `<span class="ai-suite__status-text">Rewriter: ${String(e.message || e)}</span>`,
+                  'warn'
+                );
+              } finally {
+                askFeedReply.classList.remove('page-ai-reply--loading');
+                if (rewriter && rewriter.destroy) {
+                  try {
+                    await rewriter.destroy();
+                  } catch (_) {
+                    /* ignore */
+                  }
+                }
+                if (rewriteShorterBtn) rewriteShorterBtn.disabled = false;
+                if (rewriteFormalBtn) rewriteFormalBtn.disabled = false;
+              }
+            }
+
+            function refreshCapabilityChips() {
+              if (!aiSuiteChips) return;
+              const chips = [];
+              const add = (label, on) => {
+                chips.push(`<li class="ai-suite__chip${on ? '' : ' ai-suite__chip--off'}">${label}</li>`);
+              };
+              add('Prompt', promptApiReady);
+              add('Summarizer', summarizerReady);
+              add('Translate', translateUiReady);
+              add('Proofreader', proofreaderReady);
+              add('Rewriter', rewriterReady);
+              aiSuiteChips.innerHTML = chips.join('');
+            }
+
+            async function initProofreaderUi() {
+              if (!proofreadQuestionBtn || typeof Proofreader === 'undefined') return;
+              try {
+                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
+                if (isAvailabilityBlocked(av)) return;
+                proofreaderReady = true;
+                proofreadQuestionBtn.hidden = false;
+              } catch (_) {
+                /* optional API */
+              }
+            }
+
+            async function initRewriterUi() {
+              if (typeof Rewriter === 'undefined') return;
+              try {
+                const av = await Rewriter.availability();
+                if (isAvailabilityBlocked(av)) return;
+                rewriterReady = true;
+              } catch (_) {
+                /* optional API */
+              }
+            }
+
             const initPromptApi = async () => {
               const lmApi = getLanguageModelApi();
               if (!lmApi) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--muted">Briefing needs a current desktop Chrome build. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
+                renderPromptUnavailable(
+                  `<p class="ai-suite__status-p">Language model not available in this browser. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
                 );
+                refreshCapabilityChips();
                 return;
               }
 
               try {
                 const availability = await lmApi.availability(LM_OPTIONS);
                 if (isAvailabilityBlocked(availability)) {
-                  renderUnavailable(
-                    `<p class="insight-alert insight-alert--muted">Briefing isn’t available here. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
+                  renderPromptUnavailable(
+                    `<p class="ai-suite__status-p">On-device model isn’t available on this system. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
                   );
+                  refreshCapabilityChips();
                   return;
                 }
 
                 promptApiReady = true;
-                if (generateButton) generateButton.disabled = false;
                 setIntegratedAiEnabled(true);
-
-                statusEl.innerHTML = '';
-                statusEl.classList.add('insight-status--hidden');
-                metaEl.textContent =
-                  availability === 'downloading'
-                    ? 'First briefing may take longer while files prepare.'
-                    : '';
+                hideAiSuiteStatus();
+                if (availability === 'downloading') {
+                  setAiSuiteStatus(
+                    '<p class="ai-suite__status-p ai-suite__status-p--muted">First answer may wait while the model prepares.</p>',
+                    'ok'
+                  );
+                }
               } catch (e) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--warn">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Help</a></p>`
+                renderPromptUnavailable(
+                  `<p class="ai-suite__status-p">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Help</a></p>`
                 );
               }
+              refreshCapabilityChips();
             };
-
-            if (generateButton) {
-              generateButton.disabled = true;
-              generateButton.addEventListener('click', generateInsights);
-            }
 
             if (askFeedSubmit && askFeedInput) {
               askFeedSubmit.addEventListener('click', () => void runAskFeed());
@@ -1247,9 +1161,24 @@
               articleSummarizeSubmit.addEventListener('click', () => void runSummarizeArticle());
             }
 
-            initPromptApi();
-            initSummarizerUi();
-            initTranslateUi();
+            if (proofreadQuestionBtn) {
+              proofreadQuestionBtn.addEventListener('click', () => void runProofreadQuestion());
+            }
+            if (rewriteShorterBtn) {
+              rewriteShorterBtn.addEventListener('click', () => void runRewriteAnswer('shorter'));
+            }
+            if (rewriteFormalBtn) {
+              rewriteFormalBtn.addEventListener('click', () => void runRewriteAnswer('formal'));
+            }
+
+            (async () => {
+              await initPromptApi();
+              await initSummarizerUi();
+              initTranslateUi();
+              await initProofreaderUi();
+              await initRewriterUi();
+              refreshCapabilityChips();
+            })();
         </script>
 
         
@@ -1550,7 +1479,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">1 min ago <span class="badge-new">New</span></span>
+                        <span class="story-date">4 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/maskedridersystem/i-built-a-pixel-perfect-printer-independent-report-designer-with-avalonia-ui-5ddl" target="_blank" rel="noopener noreferrer">
@@ -1577,7 +1506,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">14 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">16 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/simeon_brett_309b827bbdf7/i-hired-8-it-gurus-to-give-me-a-code-review-21i3" target="_blank" rel="noopener noreferrer">
@@ -1604,7 +1533,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">16 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">19 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/npayyappilly/stop-letting-your-ai-forget-mempalace-is-a-wake-up-call-18f0" target="_blank" rel="noopener noreferrer">
@@ -1631,7 +1560,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">32 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">34 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/hermes-agent-the-open-source-ai-agent-that-actually-remembers-you-2hmo" target="_blank" rel="noopener noreferrer">
@@ -1658,7 +1587,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">32 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">34 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/tttael/three-tables-what-people-see-when-they-look-at-your-trading-system-3o6b" target="_blank" rel="noopener noreferrer">
@@ -1685,7 +1614,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">33 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">35 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/answer-engine-optimization-google-isnt-the-only-search-engine-that-matters-anymore-569e" target="_blank" rel="noopener noreferrer">
@@ -1712,7 +1641,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">34 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">37 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/makecom-vs-zapier-vs-n8n-in-2026-which-one-do-you-actually-need-mkp" target="_blank" rel="noopener noreferrer">
@@ -1739,7 +1668,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">36 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">38 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/studiomeyer/10-n8n-workflows-every-small-business-can-use-right-away-4mpo" target="_blank" rel="noopener noreferrer">
@@ -1766,7 +1695,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">36 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">39 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/10-github-repos-that-turn-claude-code-into-a-productivity-machine-4h3a" target="_blank" rel="noopener noreferrer">
@@ -1793,7 +1722,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">40 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">42 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/southwestmogrown/your-rag-chatbot-lies-because-youre-chunking-wrong-9ii" target="_blank" rel="noopener noreferrer">
