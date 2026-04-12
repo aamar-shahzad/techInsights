@@ -154,6 +154,23 @@
             /** Chrome built-in Prompt API (Gemini Nano). @see https://developer.chrome.com/docs/ai/prompt-api */
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
 
+            /**
+             * Same resolution as typical Chrome samples: global LanguageModel or window.ai.languageModel.
+             * @returns {typeof LanguageModel | null}
+             */
+            function getLanguageModelApi() {
+              if (typeof LanguageModel !== 'undefined') return LanguageModel;
+              if (typeof window !== 'undefined' && window.ai && window.ai.languageModel) {
+                return window.ai.languageModel;
+              }
+              return null;
+            }
+
+            /** Docs use "unavailable"; some builds report "no" (see local playground samples). */
+            function isAvailabilityBlocked(level) {
+              return level === 'unavailable' || level === 'no';
+            }
+
             const LM_OPTIONS = {
               expectedInputs: [{ type: 'text', languages: ['en'] }],
               expectedOutputs: [{ type: 'text', languages: ['en'] }],
@@ -310,9 +327,9 @@
               ].join('\n');
             };
 
-            const ensureSession = async () => {
+            const ensureSession = async (lmApi) => {
               if (lmSession) return lmSession;
-              lmSession = await LanguageModel.create({
+              const baseOpts = {
                 ...LM_OPTIONS,
                 monitor(m) {
                   m.addEventListener('downloadprogress', (e) => {
@@ -320,7 +337,12 @@
                     metaEl.textContent = `Downloading on-device model… ${pct}%`;
                   });
                 },
-              });
+              };
+              try {
+                lmSession = await lmApi.create({ ...baseOpts, maxOutputTokens: 1024 });
+              } catch (e) {
+                lmSession = await lmApi.create(baseOpts);
+              }
               return lmSession;
             };
 
@@ -336,17 +358,18 @@
                 return;
               }
 
-              if (typeof LanguageModel === 'undefined') {
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) {
                 renderUnavailable(
-                  `<p class="insight-headline">The Prompt API is not available in this browser.</p><p class="insight-meta">Use a supported desktop Chrome build. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Documentation</a></p>`
+                  `<p class="insight-headline">The Prompt API is not available in this browser.</p><p class="insight-meta">Use Chrome with built-in AI enabled. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Documentation</a></p>`
                 );
                 return;
               }
 
-              const availability = await LanguageModel.availability(LM_OPTIONS);
-              if (availability === 'unavailable') {
+              const availability = await lmApi.availability(LM_OPTIONS);
+              if (isAvailabilityBlocked(availability)) {
                 renderUnavailable(
-                  `<p class="insight-headline">Gemini Nano is not available on this device or profile.</p><p class="insight-meta">See hardware requirements and setup in the <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Prompt API docs</a>.</p>`
+                  `<p class="insight-headline">Gemini Nano is not available on this device or profile.</p><p class="insight-meta">Check <code>chrome://on-device-internals</code> and the <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Prompt API docs</a>.</p>`
                 );
                 return;
               }
@@ -362,7 +385,7 @@
               const promptText = buildInsightPromptText();
 
               try {
-                const session = await ensureSession();
+                const session = await ensureSession(lmApi);
                 let parsed;
                 try {
                   const result = await session.prompt(promptText, {
@@ -395,18 +418,19 @@
             };
 
             const initPromptApi = async () => {
-              if (typeof LanguageModel === 'undefined') {
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) {
                 renderUnavailable(
-                  `<p class="insight-headline">AI Insight Snapshot needs Chrome’s built-in Prompt API (Gemini Nano).</p><p class="insight-meta">Open this site in <strong>Chrome</strong> on a supported desktop OS. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Setup and requirements</a></p>`
+                  `<p class="insight-headline">AI Insight Snapshot needs Chrome’s built-in Prompt API (Gemini Nano).</p><p class="insight-meta">Enable flags if needed, then reload. <a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Setup</a> · <code>chrome://on-device-internals</code></p>`
                 );
                 return;
               }
 
               try {
-                const availability = await LanguageModel.availability(LM_OPTIONS);
-                if (availability === 'unavailable') {
+                const availability = await lmApi.availability(LM_OPTIONS);
+                if (isAvailabilityBlocked(availability)) {
                   renderUnavailable(
-                    `<p class="insight-headline">On-device AI is unavailable here (device, storage, or browser policy).</p><p class="insight-meta"><a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Check Prompt API requirements</a></p>`
+                    `<p class="insight-headline">On-device AI is unavailable here (device, storage, or policy).</p><p class="insight-meta"><a href="${PROMPT_API_DOC}" target="_blank" rel="noopener noreferrer">Requirements</a> · <code>chrome://on-device-internals</code></p>`
                   );
                   return;
                 }
