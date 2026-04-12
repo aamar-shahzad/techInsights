@@ -80,7 +80,12 @@
             </h2>
             <div class="top-stories-list">
                 {% for story in top_stories %}
-                <article class="top-story">
+                <article class="top-story"
+                    data-story-title="{{ story.title|e }}"
+                    data-story-source="{{ story.source|e }}"
+                    data-story-cat="{{ story.category_label|e }}"
+                    data-story-link="{{ story.link|e }}"
+                    data-story-desc="{{ (story.description or '')[:2000]|e }}">
                     <span class="top-story-rank">{{ loop.index }}</span>
                     <div class="top-story-content">
                         <h3 class="top-story-title">
@@ -93,7 +98,22 @@
                             <span class="top-story-source">{{ story.source }}</span>
                             <span class="top-story-time">{{ story.time_ago }}</span>
                         </div>
+                        {% if story.description %}
+                        <p class="top-story-excerpt">{{ (story.description or '')[:300] }}{% if (story.description or '')|length > 300 %}…{% endif %}</p>
+                        {% endif %}
                         <div class="top-story-ai">
+                            <div class="story-read-row">
+                                <a href="{{ story.link }}" class="story-read-link" target="_blank" rel="noopener noreferrer">Read full article</a>
+                            </div>
+                            <details class="story-ask">
+                                <summary class="story-ask__summary">Ask Gemini Nano about this story</summary>
+                                <div class="story-ask__inner">
+                                    <label class="visually-hidden" for="story-ask-{{ loop.index0 }}-top">Your question about this story</label>
+                                    <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="e.g. What’s the main claim? Who is affected?" disabled></textarea>
+                                    <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                    <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
+                                </div>
+                            </details>
                             <div class="story-ai-actions">
                                 <span class="story-translate-slot">
                                     <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
@@ -125,7 +145,12 @@
             {% if category.stories %}
             <div class="stories-grid">
                 {% for story in category.stories %}
-                <article class="story-card{% if story.is_new %} story-card--new{% endif %}">
+                <article class="story-card{% if story.is_new %} story-card--new{% endif %}"
+                    data-story-title="{{ story.title|e }}"
+                    data-story-source="{{ story.source|e }}"
+                    data-story-cat="{{ story.category_label|e }}"
+                    data-story-link="{{ story.link|e }}"
+                    data-story-desc="{{ (story.description or '')[:2000]|e }}">
                     <div class="story-meta">
                         <span class="story-source" data-source="{{ story.source }}">{{ story.source }}</span>
                         <span class="story-date">{{ story.time_ago }}{% if story.is_new %} <span class="badge-new">New</span>{% endif %}</span>
@@ -139,6 +164,18 @@
                     <p class="story-description">{{ story.description }}</p>
                     {% endif %}
                     <div class="story-card-ai">
+                        <div class="story-read-row">
+                            <a href="{{ story.link }}" class="story-read-link" target="_blank" rel="noopener noreferrer">Read full article</a>
+                        </div>
+                        <details class="story-ask">
+                            <summary class="story-ask__summary">Ask Gemini Nano about this story</summary>
+                            <div class="story-ask__inner">
+                                <label class="visually-hidden" for="story-ask-{{ category.id }}-{{ loop.index0 }}">Your question about this story</label>
+                                <textarea id="story-ask-{{ category.id }}-{{ loop.index0 }}" class="story-ask-input page-ai-ask__input" rows="2" placeholder="e.g. What’s the main claim? Risks or caveats?" disabled></textarea>
+                                <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
+                                <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
+                            </div>
+                        </details>
                         <div class="story-ai-actions">
                             <span class="story-translate-slot">
                                 <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
@@ -217,7 +254,7 @@
                 <summary class="ai-suite__details-summary">Headlines, translate, and API requirements</summary>
                 <div class="ai-suite__details-body">
                     <p class="ai-suite__details-p">
-                        After your first tap or click, <strong>Language Detector</strong> runs on each headline. <strong>Translate</strong> appears only if the language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API (Gemini Nano). <strong>Summarize</strong> uses Chrome’s Summarizer on pasted text only—the API cannot load URLs for you. Some APIs need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> on localhost.
+                        Open <strong>Read full article</strong> for the original piece. <strong>Ask Gemini Nano about this story</strong> uses the Prompt API with that item’s title and feed excerpt only (open the link for the full text). After your first tap or click, <strong>Language Detector</strong> runs on each headline; <strong>Translate</strong> appears only if the language differs from your browser. <strong>Why it matters</strong> is a one-click angle. <strong>Summarize</strong> needs pasted body text—the API cannot fetch URLs. Some features need <code class="ai-suite__inline-code">chrome://flags</code> or trials on localhost.
                     </p>
                     <p class="ai-suite__details-links">
                         <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Gemini Nano</a>
@@ -283,6 +320,12 @@
               'You explain why one headline matters to someone who follows tech and startups.',
               'The full page snapshot lists every story on the page; focus on the story named in the user message.',
               'Reply with one or two short sentences. No title repetition, no hype.',
+            ].join(' ');
+
+            const ASK_ONE_STORY_SYSTEM_PROMPT = [
+              'You answer questions about a single news story using only the SINGLE STORY CONTEXT (title, source, category, URL, and excerpt if present).',
+              'You do not have the full article unless the excerpt includes it—if the user needs details only on the live page, say so briefly and tell them to use Read full article.',
+              'Be direct and accurate; stay under about 150 words unless they ask for a list.',
             ].join(' ');
 
             const topStoriesOnly = JSON.parse(
@@ -452,9 +495,39 @@
               document.querySelectorAll('.story-ai-btn').forEach((btn) => {
                 btn.disabled = !enabled;
               });
+              document.querySelectorAll('.story-ask-input').forEach((el) => {
+                el.disabled = !enabled;
+              });
+              document.querySelectorAll('.story-ask-submit').forEach((el) => {
+                el.disabled = !enabled;
+              });
               if (askFeedInput) askFeedInput.disabled = !enabled;
               if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
             };
+
+            /** Grounding for per-card “Ask about this story” (Gemini Nano). */
+            function buildOneStoryGroundingFromArticle(articleEl) {
+              if (!articleEl || !articleEl.dataset) return '';
+              const ds = articleEl.dataset;
+              const title = ds.storyTitle || '';
+              const source = ds.storySource || '';
+              const cat = ds.storyCat || '';
+              const link = ds.storyLink || '';
+              const excerpt = ds.storyDesc || '';
+              const lines = [
+                'SINGLE STORY CONTEXT (only facts you may use):',
+                `Title: ${title}`,
+                `Source: ${source}`,
+                `Category: ${cat}`,
+                `URL (open in browser to read the full piece): ${link}`,
+              ];
+              if (excerpt && String(excerpt).trim()) {
+                lines.push(`Excerpt from this site’s feed: ${String(excerpt).replace(/\s+/g, ' ').trim()}`);
+              } else {
+                lines.push('Excerpt: not available on this page (headline and metadata only).');
+              }
+              return lines.join('\n');
+            }
 
             function hideGeminiMeta() {
               const wrap = document.getElementById('ai-gemini-meta');
@@ -664,6 +737,59 @@
                 await closeLmSession(session);
                 askFeedSubmit.disabled = false;
                 askFeedInput.disabled = false;
+              }
+            };
+
+            const runStoryAsk = async (submitBtn) => {
+              const article = submitBtn.closest('.top-story, .story-card');
+              const askRoot = submitBtn.closest('.story-ask');
+              const textarea = askRoot && askRoot.querySelector('.story-ask-input');
+              const replyEl = askRoot && askRoot.querySelector('.story-ask-reply');
+              const q = textarea && textarea.value ? textarea.value.trim() : '';
+              if (!article || !textarea || !replyEl || !q || !promptApiReady) return;
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) return;
+              const availability = await lmApi.availability(LM_OPTIONS);
+              if (isAvailabilityBlocked(availability)) {
+                replyEl.hidden = false;
+                replyEl.textContent = 'Not available on this device.';
+                return;
+              }
+              const grounding = buildOneStoryGroundingFromArticle(article);
+              if (!grounding) {
+                replyEl.hidden = false;
+                replyEl.textContent = 'Missing story data.';
+                return;
+              }
+              submitBtn.disabled = true;
+              textarea.disabled = true;
+              replyEl.hidden = false;
+              replyEl.textContent = '';
+              replyEl.classList.add('page-ai-reply--loading');
+              const userTurn = `[Question about this story]\n${q}`;
+              let session = null;
+              try {
+                session = await openLmSession(lmApi, ASK_ONE_STORY_SYSTEM_PROMPT, (pct) => {
+                  replyEl.textContent = `Preparing… ${pct}%`;
+                }, grounding);
+                if (typeof session.promptStreaming === 'function') {
+                  const stream = session.promptStreaming(userTurn);
+                  let full = '';
+                  for await (const chunk of stream) {
+                    full += chunk;
+                    replyEl.textContent = full;
+                  }
+                } else {
+                  const out = await session.prompt(userTurn);
+                  replyEl.textContent = String(out != null ? out : '');
+                }
+              } catch (err) {
+                replyEl.textContent = `Couldn’t complete: ${String(err.message || err)}`;
+              } finally {
+                replyEl.classList.remove('page-ai-reply--loading');
+                await closeLmSession(session);
+                submitBtn.disabled = false;
+                textarea.disabled = false;
               }
             };
 
@@ -1123,10 +1249,28 @@
                 void runTranslateTitle(tr);
                 return;
               }
+              const askSub = ev.target.closest('.story-ask-submit');
+              if (askSub && !askSub.disabled) {
+                ev.preventDefault();
+                void runStoryAsk(askSub);
+                return;
+              }
               const btn = ev.target.closest('.story-ai-btn');
               if (!btn || btn.disabled) return;
               ev.preventDefault();
               void runStoryAngle(btn);
+            });
+
+            document.querySelector('main')?.addEventListener('keydown', (ev) => {
+              if (ev.key !== 'Enter' || !(ev.metaKey || ev.ctrlKey)) return;
+              const ta = ev.target.closest('.story-ask-input');
+              if (!ta || ta.disabled) return;
+              const askRoot = ta.closest('.story-ask');
+              const sub = askRoot && askRoot.querySelector('.story-ask-submit');
+              if (sub && !sub.disabled) {
+                ev.preventDefault();
+                void runStoryAsk(sub);
+              }
             });
 
             if (articleSummarizeSubmit && articleSummarizeInput) {

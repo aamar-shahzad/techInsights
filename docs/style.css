@@ -356,6 +356,96 @@ main {
     margin-right: 0.375rem;
 }
 
+.top-story-excerpt {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    color: var(--color-text-secondary);
+    margin: 0.5rem 0 0;
+    max-width: 40rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.top-story-ai {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-top: 0.65rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.story-read-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.story-read-link {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-link);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease;
+}
+
+.story-read-link:hover {
+    border-bottom-color: var(--color-link);
+}
+
+.story-ask {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 0 0.65rem 0.65rem;
+    background: var(--color-bg-secondary);
+}
+
+.story-ask__summary {
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-link);
+    padding: 0.55rem 0;
+}
+
+.story-ask__summary::-webkit-details-marker {
+    display: none;
+}
+
+.story-ask[open] .story-ask__summary {
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 0.5rem;
+}
+
+.story-ask__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.story-ask__inner .story-ask-input {
+    width: 100%;
+    min-height: 2.75rem;
+}
+
+.story-ask__inner .story-ask-submit {
+    align-self: flex-start;
+}
+
+.story-ask-reply {
+    margin-top: 0.15rem;
+}
+
+.story-card-ai .story-ask {
+    margin-top: 0.15rem;
+}
+
 .category {
     margin-bottom: 3rem;
 }
@@ -1195,13 +1285,6 @@ main {
 
 .page-ai-reply--loading {
     color: var(--color-text-secondary);
-}
-
-.top-story-ai {
-    margin-top: 0.55rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.45rem;
 }
 
 .story-card-ai {
