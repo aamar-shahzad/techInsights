@@ -55,6 +55,8 @@ CATEGORY_LABELS = {
 
 MAX_STORIES_PER_CATEGORY = 10
 MAX_DESCRIPTION_LENGTH = 200
+# Full article text from RSS (content/summary) embedded for on-device LLM context (not the live web page).
+MAX_LLM_BODY = 14000
 PROJECT_ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 OUTPUT_DIR = PROJECT_ROOT / "docs"
@@ -75,6 +77,35 @@ def truncate(text: str, max_length: int) -> str:
     if len(text) <= max_length:
         return text
     return text[: max_length - 3].rsplit(" ", 1)[0] + "..."
+
+
+def entry_llm_body(entry) -> str:
+    """
+    Best-effort full article text from the RSS entry (content:encoded / content blocks),
+    falling back to summary. This is the most complete text we have at build time—not a
+    live fetch of the publisher page (CORS blocks that in the browser).
+    """
+    chunks: list[str] = []
+    if getattr(entry, "content", None):
+        for c in entry.content:
+            val = (c.get("value") or "").strip()
+            if val:
+                chunks.append(strip_html(val))
+    main = " ".join(chunks).strip() if chunks else ""
+    summary = strip_html(entry.get("summary", "") or entry.get("description", "") or "")
+    if len(main) >= len(summary):
+        text = main
+    else:
+        text = summary
+    if main and summary and main != summary:
+        if len(main) < 500 and len(summary) > len(main):
+            text = (main + " " + summary).strip()
+        elif not text:
+            text = main or summary
+    if not text.strip():
+        text = summary or main
+    text = re.sub(r"\s+", " ", text).strip()
+    return truncate(text, MAX_LLM_BODY)
 
 
 def time_ago(dt: datetime) -> str:
@@ -127,6 +158,7 @@ def fetch_feed(source_name: str, url: str) -> list[dict]:
             title = entry.get("title", "Untitled")
             description = strip_html(entry.get("summary", entry.get("description", "")))
             description = truncate(description, MAX_DESCRIPTION_LENGTH)
+            llm_body = entry_llm_body(entry)
             pub_date = parse_date(entry)
 
             now = datetime.now(timezone.utc)
@@ -136,6 +168,7 @@ def fetch_feed(source_name: str, url: str) -> list[dict]:
                 "title": title,
                 "link": link,
                 "description": description,
+                "llm_body": llm_body,
                 "source": source_name,
                 "date": pub_date,
                 "date_str": pub_date.strftime("%b %d, %Y"),

@@ -75,7 +75,7 @@
             <div id="feed-col" class="feed-col">
                 <section class="editorial-intro" aria-label="How reading and discussion work on this page">
                     <p class="editorial-intro__kicker">On-device discussion</p>
-                    <p class="editorial-intro__lede">Select a story in the list to load it in the panel. You get a plain-language briefing, suggested questions, and follow-up Q&amp;A using only the headline and excerpt on this page—open the link for the full piece.</p>
+                    <p class="editorial-intro__lede">Select a story to load it in the panel. The on-device assistant uses <strong>full article text from each RSS feed</strong> when the feed includes it (otherwise the short summary). For the publisher’s live page, use the headline link.</p>
                 </section>
 
                 <nav class="category-nav-pills" aria-label="Jump to section">
@@ -103,6 +103,7 @@
                             data-story-cat="{{ story.category_label|e }}"
                             data-story-link="{{ story.link|e }}"
                             data-story-desc="{{ (story.description or '')[:2000]|e }}"
+                            data-story-body="{{ (story.llm_body or '')|e }}"
                             role="listitem"
                         >
                             <div class="story-row__meta">
@@ -163,6 +164,10 @@
                                 <ul class="story-ask-suggestions" hidden></ul>
                             </div>
                         </div>
+                        <div id="panel-question-recap" class="panel-question-recap" hidden>
+                            <p id="panel-question-recap-eyebrow" class="panel-question-recap__eyebrow">Your question</p>
+                            <p id="panel-question-recap-text" class="panel-question-recap__text"></p>
+                        </div>
                         <div id="panel-answer-region" class="panel-answer-region">
                             <p class="story-ask-reply__eyebrow" hidden>Latest answer</p>
                             <div
@@ -174,11 +179,11 @@
                             ></div>
                         </div>
                     </div>
-                    <div class="panel-compose">
+                    <div class="panel-compose" id="panel-compose">
                         <div class="story-ask-followup">
                             <div class="story-ask-followup__head">
-                                <span class="story-ask-followup__title">Ask a question</span>
-                                <span class="story-ask-followup__hint">Headline &amp; excerpt only</span>
+                                <span class="story-ask-followup__title" id="panel-compose-title">Ask a question</span>
+                                <span class="story-ask-followup__hint" id="panel-compose-hint">Uses RSS article text when the feed includes it</span>
                             </div>
                             <div class="story-ask-input-row">
                                 <label class="visually-hidden" for="panel-story-ask">Question for the assistant</label>
@@ -234,13 +239,15 @@
             };
 
             const ASK_ONE_STORY_SYSTEM_PROMPT = [
-              'You answer questions about a single news story using only the SINGLE STORY CONTEXT (title, source, category, URL, excerpt if present).',
-              'You cannot fetch URLs. If the user needs the full article, tell them to open the headline link in a new tab.',
-              'Be direct. About 120 words or fewer unless they ask for steps or a list.',
+              'You answer questions about a single news story using only the SINGLE STORY CONTEXT.',
+              'When ARTICLE TEXT is present, ground your answer in it and give enough detail to be useful—up to about 250 words, or more if the user asks for a list, steps, or a deep dive.',
+              'When only a short excerpt is available, say what you can and note that the feed did not include full body text.',
+              'You cannot fetch URLs. If something is not in the context, say so and point them to the headline link.',
             ].join(' ');
 
             const STORY_PRIMER_SYSTEM_PROMPT = [
-              'You help a reader skim one news story using only CONTEXT (title, source, category, URL, excerpt).',
+              'You help a reader skim one news story using only CONTEXT (title, source, category, URL, ARTICLE TEXT when present, and short description).',
+              'When ARTICLE TEXT is included, use it for PLAIN and SUMMARY so the briefing reflects the real story, not just the headline.',
               'Many readers struggle with cryptic headlines—your PLAIN line must restate what the story is about in simple words (no unexplained acronyms, no clickbait tone).',
               'Reply using exactly this structure:',
               'PLAIN:',
@@ -253,8 +260,10 @@
               '- (One concrete question)',
               '- (One concrete question)',
               '- (One concrete question)',
-              'Each line under QUESTIONS must start with "- ". No numbering. If the excerpt is thin, say so briefly in SUMMARY and still give three sensible questions.',
+              'Each line under QUESTIONS must start with "- ". No numbering. If ARTICLE TEXT is missing or thin, say so briefly in SUMMARY and still give three sensible questions.',
             ].join('\n');
+
+            let storyAnswerCompletedOnce = false;
 
             const promptApiNote = document.getElementById('prompt-api-note');
 
@@ -314,6 +323,8 @@
               const cat = ds.storyCat || '';
               const link = ds.storyLink || '';
               const excerpt = ds.storyDesc || '';
+              const body = ds.storyBody || '';
+              const bodyTrim = String(body).trim();
               const lines = [
                 'SINGLE STORY CONTEXT (only facts you may use):',
                 `Title: ${title}`,
@@ -321,12 +332,54 @@
                 `Category: ${cat}`,
                 `URL: ${link}`,
               ];
-              if (excerpt && String(excerpt).trim()) {
-                lines.push(`Excerpt from feed: ${String(excerpt).replace(/\s+/g, ' ').trim()}`);
+              lines.push('');
+              if (bodyTrim) {
+                lines.push('ARTICLE TEXT (from RSS at build time; primary source for detail—not a live fetch of the publisher page):');
+                lines.push(bodyTrim);
               } else {
-                lines.push('Excerpt: not on this page (headline and metadata only).');
+                lines.push(
+                  'ARTICLE TEXT: not included in the RSS bundle for this item—use title, metadata, and the short description below only.'
+                );
+              }
+              if (excerpt && String(excerpt).trim()) {
+                lines.push('');
+                lines.push(`Short description (listing card): ${String(excerpt).replace(/\s+/g, ' ').trim()}`);
+              } else {
+                lines.push('');
+                lines.push('Short description: none.');
               }
               return lines.join('\n');
+            }
+
+            function setPanelComposeFollowUpMode(on) {
+              const compose = document.getElementById('panel-compose');
+              const title = document.getElementById('panel-compose-title');
+              const hint = document.getElementById('panel-compose-hint');
+              if (compose) compose.classList.toggle('panel-compose--followup', !!on);
+              if (title) title.textContent = on ? 'Follow-up question' : 'Ask a question';
+              if (hint) {
+                hint.textContent = on
+                  ? 'Another question about this story—same RSS context'
+                  : 'Uses RSS article text when the feed includes it';
+              }
+            }
+
+            function hidePanelQuestionRecap() {
+              const recap = document.getElementById('panel-question-recap');
+              const recapText = document.getElementById('panel-question-recap-text');
+              const eyebrow = document.getElementById('panel-question-recap-eyebrow');
+              if (recap) recap.hidden = true;
+              if (recapText) recapText.textContent = '';
+              if (eyebrow) eyebrow.textContent = 'Your question';
+            }
+
+            function showPanelQuestionRecap(question, isFollowUp) {
+              const recap = document.getElementById('panel-question-recap');
+              const recapText = document.getElementById('panel-question-recap-text');
+              const eyebrow = document.getElementById('panel-question-recap-eyebrow');
+              if (recapText) recapText.textContent = question;
+              if (eyebrow) eyebrow.textContent = isFollowUp ? 'Follow-up' : 'Your question';
+              if (recap) recap.hidden = false;
             }
 
             async function closeLmSession(session) {
@@ -513,6 +566,10 @@
               panelIdle.hidden = true;
               panelActive.hidden = false;
 
+              storyAnswerCompletedOnce = false;
+              setPanelComposeFollowUpMode(false);
+              hidePanelQuestionRecap();
+
               const ta = document.getElementById('panel-story-ask');
               if (ta) ta.value = '';
               resetPanelAnswer();
@@ -651,7 +708,7 @@
                     if (loadEl) loadEl.textContent = primerLoadingText(pct);
                   },
                   grounding,
-                  640
+                  1024
                 );
                 if (captureVersion !== storyVersion) {
                   await closeLmSession(session);
@@ -719,6 +776,7 @@
                 scheduleScrollPanelMainToBottom();
                 return;
               }
+              showPanelQuestionRecap(q, storyAnswerCompletedOnce);
               sendBtn.disabled = true;
               textarea.disabled = true;
               if (replyEyebrow) replyEyebrow.hidden = false;
@@ -729,6 +787,7 @@
               scheduleScrollPanelMainToBottom();
               const userTurn = `[Question]\n${q}`;
               let session = null;
+              let askSucceeded = false;
               try {
                 session = await openLmSession(
                   lmApi,
@@ -738,7 +797,7 @@
                     scheduleScrollPanelMainToBottom();
                   },
                   grounding,
-                  1024
+                  2048
                 );
                 if (typeof session.promptStreaming === 'function') {
                   const stream = session.promptStreaming(userTurn);
@@ -748,10 +807,12 @@
                     replyEl.textContent = full;
                     scheduleScrollPanelMainToBottom();
                   }
+                  askSucceeded = true;
                 } else {
                   const out = await session.prompt(userTurn);
                   replyEl.textContent = String(out != null ? out : '');
                   scheduleScrollPanelMainToBottom();
+                  askSucceeded = true;
                 }
               } catch (err) {
                 replyEl.textContent = `Couldn’t complete: ${String(err.message || err)}`;
@@ -761,6 +822,10 @@
                 await closeLmSession(session);
                 sendBtn.disabled = false;
                 textarea.disabled = false;
+                if (askSucceeded) {
+                  storyAnswerCompletedOnce = true;
+                  setPanelComposeFollowUpMode(true);
+                }
                 scheduleScrollPanelMainToBottom();
                 if (textarea && !textarea.disabled) textarea.focus();
               }
