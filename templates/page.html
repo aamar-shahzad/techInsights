@@ -92,6 +92,13 @@
                             <span class="top-story-source">{{ story.source }}</span>
                             <span class="top-story-time">{{ story.time_ago }}</span>
                         </div>
+                        <div class="top-story-ai">
+                            <button type="button" class="story-ai-btn" disabled
+                                data-story-title="{{ story.title|e }}"
+                                data-story-source="{{ story.source|e }}"
+                                data-story-cat="{{ story.category_label|e }}">Why it matters</button>
+                            <div class="story-ai-output" hidden></div>
+                        </div>
                     </div>
                 </article>
                 {% endfor %}
@@ -143,6 +150,19 @@
                 </article>
             </div>
             <p class="insight-meta" id="insight-meta"></p>
+
+            <div class="page-ai-integrated" id="page-ai-integrated">
+                <div class="page-ai-ask">
+                    <h3 class="page-ai-ask__title">Ask the feed</h3>
+                    <p class="page-ai-ask__hint">Use the same headlines as context—answers stay on your device.</p>
+                    <div class="page-ai-ask__row">
+                        <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
+                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="2" placeholder="e.g. What should I watch in regulation or AI?" disabled></textarea>
+                        <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
+                    </div>
+                    <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
+                </div>
+            </div>
         </section>
 
         <script id="top-stories-data" type="application/json">
@@ -186,6 +206,17 @@
               'Ground answers in the headlines provided; do not invent sources or stories.',
             ].join(' ');
 
+            const ASK_FEED_SYSTEM_PROMPT = [
+              'You answer questions about a tech news feed.',
+              'Use only the headlines and metadata in the user message. If the feed does not support an answer, say so in one sentence.',
+              'Be direct; aim under 150 words unless the user asks for a list or detail.',
+            ].join(' ');
+
+            const STORY_ANGLE_SYSTEM_PROMPT = [
+              'You explain why a headline matters to someone who follows tech and startups.',
+              'Reply with one or two short sentences. No title repetition, no hype.',
+            ].join(' ');
+
             const INSIGHT_JSON_SCHEMA = {
               type: 'object',
               additionalProperties: true,
@@ -211,8 +242,10 @@
             const metaEl = document.getElementById('insight-meta');
             const generateButton = document.getElementById('insight-generate-button');
             const originalButtonLabel = generateButton ? generateButton.textContent : '';
+            const askFeedInput = document.getElementById('ask-feed-input');
+            const askFeedSubmit = document.getElementById('ask-feed-submit');
+            const askFeedReply = document.getElementById('ask-feed-reply');
 
-            let lmSession = null;
             let promptApiReady = false;
 
             const setList = (el, list) => {
@@ -238,6 +271,14 @@
               generateButton.textContent = isLoading ? 'Working…' : originalButtonLabel;
             };
 
+            const setIntegratedAiEnabled = (enabled) => {
+              document.querySelectorAll('.story-ai-btn').forEach((btn) => {
+                btn.disabled = !enabled;
+              });
+              if (askFeedInput) askFeedInput.disabled = !enabled;
+              if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
+            };
+
             const renderUnavailable = (detailHtml) => {
               statusEl.innerHTML = detailHtml;
               statusEl.classList.remove('insight-status--hidden');
@@ -253,6 +294,7 @@
                 generateButton.disabled = true;
               }
               promptApiReady = false;
+              setIntegratedAiEnabled(false);
             };
 
             const showGenerationError = (message, err) => {
@@ -341,41 +383,45 @@
               ].join('\n');
             };
 
-            async function destroyLmSession() {
-              if (!lmSession || typeof lmSession.destroy !== 'function') {
-                lmSession = null;
-                return;
+            async function closeLmSession(session) {
+              if (session && typeof session.destroy === 'function') {
+                try {
+                  await session.destroy();
+                } catch (_) {
+                  /* ignore */
+                }
               }
-              try {
-                await lmSession.destroy();
-              } catch (_) {
-                /* ignore */
-              }
-              lmSession = null;
             }
 
             /**
-             * New session per run so the model does not accumulate prior briefing turns (session context).
-             * create() runs after user activation (Generate click), with download monitor per docs.
+             * Ephemeral session per user action (briefing, ask, story)—avoids cross-talk in session history.
              */
-            const createBriefingSession = async (lmApi) => {
-              await destroyLmSession();
+            async function openLmSession(lmApi, systemPrompt, onDownloadPct) {
               const baseOpts = {
                 ...LM_OPTIONS,
-                initialPrompts: [{ role: 'system', content: BRIEFING_SYSTEM_PROMPT }],
+                initialPrompts: [{ role: 'system', content: systemPrompt }],
                 monitor(m) {
                   m.addEventListener('downloadprogress', (e) => {
                     const pct = Math.round((e.loaded || 0) * 100);
-                    metaEl.textContent = `Preparing… ${pct}%`;
+                    if (onDownloadPct) onDownloadPct(pct);
                   });
                 },
               };
               try {
-                lmSession = await lmApi.create({ ...baseOpts, maxOutputTokens: 1024 });
+                return await lmApi.create({ ...baseOpts, maxOutputTokens: 1024 });
               } catch (e) {
-                lmSession = await lmApi.create(baseOpts);
+                return await lmApi.create(baseOpts);
               }
-              return lmSession;
+            }
+
+            const buildFeedContextForAsk = () => {
+              const lines = stories.slice(0, 18).map((s, i) => {
+                const t = s.title || 'Untitled';
+                const src = s.source || '';
+                const cat = s.category_label || s.category || '';
+                return `${i + 1}. [${cat}] ${t} — ${src}`;
+              });
+              return lines.join('\n');
             };
 
             const generateInsights = async () => {
@@ -414,8 +460,11 @@
 
               const promptText = buildInsightUserPrompt();
 
+              let session = null;
               try {
-                const session = await createBriefingSession(lmApi);
+                session = await openLmSession(lmApi, BRIEFING_SYSTEM_PROMPT, (pct) => {
+                  metaEl.textContent = `Preparing… ${pct}%`;
+                });
                 let parsed;
                 try {
                   const result = await session.prompt(promptText, {
@@ -445,8 +494,91 @@
                 const message = String(err.message || err);
                 showGenerationError(`Insight generation failed: ${message}`, err);
               } finally {
-                await destroyLmSession();
+                await closeLmSession(session);
                 setLoadingState(false);
+              }
+            };
+
+            const runAskFeed = async () => {
+              const q = (askFeedInput && askFeedInput.value) ? askFeedInput.value.trim() : '';
+              if (!q || !promptApiReady) return;
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) return;
+              const availability = await lmApi.availability(LM_OPTIONS);
+              if (isAvailabilityBlocked(availability)) {
+                askFeedReply.hidden = false;
+                askFeedReply.textContent = 'Not available on this device.';
+                return;
+              }
+
+              askFeedSubmit.disabled = true;
+              askFeedInput.disabled = true;
+              askFeedReply.hidden = false;
+              askFeedReply.textContent = '';
+              askFeedReply.classList.add('page-ai-reply--loading');
+
+              const feedBlock = buildFeedContextForAsk();
+              const userTurn = `[Feed]\n${feedBlock}\n\n[Question]\n${q}`;
+
+              let session = null;
+              try {
+                session = await openLmSession(lmApi, ASK_FEED_SYSTEM_PROMPT, (pct) => {
+                  askFeedReply.textContent = `Preparing… ${pct}%`;
+                });
+                if (typeof session.promptStreaming === 'function') {
+                  const stream = session.promptStreaming(userTurn);
+                  let full = '';
+                  for await (const chunk of stream) {
+                    full += chunk;
+                    askFeedReply.textContent = full;
+                  }
+                } else {
+                  const out = await session.prompt(userTurn);
+                  askFeedReply.textContent = String(out != null ? out : '');
+                }
+              } catch (err) {
+                askFeedReply.textContent = `Couldn’t complete: ${String(err.message || err)}`;
+              } finally {
+                askFeedReply.classList.remove('page-ai-reply--loading');
+                await closeLmSession(session);
+                askFeedSubmit.disabled = false;
+                askFeedInput.disabled = false;
+              }
+            };
+
+            const runStoryAngle = async (btn) => {
+              const title = btn.getAttribute('data-story-title') || '';
+              const source = btn.getAttribute('data-story-source') || '';
+              const cat = btn.getAttribute('data-story-cat') || '';
+              const outEl = btn.parentElement && btn.parentElement.querySelector('.story-ai-output');
+              if (!outEl || !promptApiReady) return;
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) return;
+              const availability = await lmApi.availability(LM_OPTIONS);
+              if (isAvailabilityBlocked(availability)) {
+                outEl.hidden = false;
+                outEl.textContent = 'Not available here.';
+                return;
+              }
+
+              btn.disabled = true;
+              outEl.hidden = false;
+              outEl.textContent = '…';
+              outEl.classList.add('story-ai-output--loading');
+
+              const userTurn = `Headline: ${title}\nSource: ${source}\nCategory: ${cat}\n\nWhy might this matter to a tech reader? Answer in one or two sentences.`;
+
+              let session = null;
+              try {
+                session = await openLmSession(lmApi, STORY_ANGLE_SYSTEM_PROMPT, () => {});
+                const text = await session.prompt(userTurn);
+                outEl.textContent = String(text != null ? text : '').trim() || '—';
+              } catch (err) {
+                outEl.textContent = `Couldn’t generate: ${String(err.message || err)}`;
+              } finally {
+                outEl.classList.remove('story-ai-output--loading');
+                await closeLmSession(session);
+                btn.disabled = false;
               }
             };
 
@@ -470,6 +602,7 @@
 
                 promptApiReady = true;
                 if (generateButton) generateButton.disabled = false;
+                setIntegratedAiEnabled(true);
 
                 statusEl.innerHTML = '';
                 statusEl.classList.add('insight-status--hidden');
@@ -489,11 +622,24 @@
               generateButton.addEventListener('click', generateInsights);
             }
 
-            initPromptApi();
+            if (askFeedSubmit && askFeedInput) {
+              askFeedSubmit.addEventListener('click', () => void runAskFeed());
+              askFeedInput.addEventListener('keydown', (ev) => {
+                if (ev.key === 'Enter' && (ev.metaKey || ev.ctrlKey)) {
+                  ev.preventDefault();
+                  void runAskFeed();
+                }
+              });
+            }
 
-            window.addEventListener('beforeunload', () => {
-              void destroyLmSession();
+            document.querySelector('main')?.addEventListener('click', (ev) => {
+              const btn = ev.target.closest('.story-ai-btn');
+              if (!btn || btn.disabled) return;
+              ev.preventDefault();
+              void runStoryAngle(btn);
             });
+
+            initPromptApi();
         </script>
 
         {% for category in categories %}
@@ -520,6 +666,13 @@
                     {% if story.description %}
                     <p class="story-description">{{ story.description }}</p>
                     {% endif %}
+                    <div class="story-card-ai">
+                        <button type="button" class="story-ai-btn" disabled
+                            data-story-title="{{ story.title|e }}"
+                            data-story-source="{{ story.source|e }}"
+                            data-story-cat="{{ story.category_label|e }}">Why it matters</button>
+                        <div class="story-ai-output" hidden></div>
+                    </div>
                 </article>
                 {% endfor %}
             </div>
