@@ -93,10 +93,15 @@
                             <span class="top-story-time">{{ story.time_ago }}</span>
                         </div>
                         <div class="top-story-ai">
-                            <button type="button" class="story-ai-btn" disabled
-                                data-story-title="{{ story.title|e }}"
-                                data-story-source="{{ story.source|e }}"
-                                data-story-cat="{{ story.category_label|e }}">Why it matters</button>
+                            <div class="story-ai-actions">
+                                <button type="button" class="story-translate-btn" disabled
+                                    data-story-title="{{ story.title|e }}">Translate title</button>
+                                <button type="button" class="story-ai-btn" disabled
+                                    data-story-title="{{ story.title|e }}"
+                                    data-story-source="{{ story.source|e }}"
+                                    data-story-cat="{{ story.category_label|e }}">Why it matters</button>
+                            </div>
+                            <div class="story-translate-output" hidden></div>
                             <div class="story-ai-output" hidden></div>
                         </div>
                     </div>
@@ -162,6 +167,18 @@
                     </div>
                     <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
                 </div>
+
+                <div class="page-ai-summarize" id="page-ai-summarize" hidden>
+                    <h3 class="page-ai-ask__title">Article clip</h3>
+                    <p class="page-ai-ask__hint">Paste article body (not just the headline). Summaries run in your browser via the Summarizer API.</p>
+                    <div class="page-ai-ask__row">
+                        <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
+                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs here…" disabled></textarea>
+                        <button type="button" class="page-ai-ask__submit" id="article-summarize-submit" disabled>Summarize</button>
+                    </div>
+                    <p id="article-summarize-status" class="page-ai-summarize__status" role="status" hidden></p>
+                    <div id="article-summarize-output" class="page-ai-reply page-ai-reply--markdown" aria-live="polite" hidden></div>
+                </div>
             </div>
         </section>
 
@@ -172,9 +189,16 @@
             /**
              * Chrome Prompt API (on-device Gemini Nano).
              * @see https://developer.chrome.com/docs/ai/prompt-api
+             * Summarizer, Language Detector, Translator: https://developer.chrome.com/docs/ai/built-in-apis
              * Pass the same modality options to availability(), create(), and prompts per official guidance.
              */
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
+            const BUILTIN_AI_DOC = 'https://developer.chrome.com/docs/ai/built-in-apis';
+
+            const DETECTOR_INPUT_LANGS = [
+              'en', 'en-US', 'es', 'fr', 'de', 'ja', 'zh', 'zh-CN', 'zh-TW', 'ko', 'pt', 'pt-BR',
+              'it', 'nl', 'pl', 'ru', 'ar', 'hi', 'tr', 'sv', 'da', 'no', 'fi', 'cs', 'uk',
+            ];
 
             /**
              * Same entry points as Chrome samples: global LanguageModel or window.ai.languageModel.
@@ -245,8 +269,44 @@
             const askFeedInput = document.getElementById('ask-feed-input');
             const askFeedSubmit = document.getElementById('ask-feed-submit');
             const askFeedReply = document.getElementById('ask-feed-reply');
+            const summarizeSection = document.getElementById('page-ai-summarize');
+            const articleSummarizeInput = document.getElementById('article-summarize-input');
+            const articleSummarizeSubmit = document.getElementById('article-summarize-submit');
+            const articleSummarizeStatus = document.getElementById('article-summarize-status');
+            const articleSummarizeOutput = document.getElementById('article-summarize-output');
 
             let promptApiReady = false;
+            let summarizerReady = false;
+            let translateUiReady = false;
+
+            /** BCP-47 primary subtag, lowercased (e.g. en-US → en). */
+            function primaryLangTag(tag) {
+              if (!tag || tag === 'und') return '';
+              return String(tag).split('-')[0].toLowerCase();
+            }
+
+            function userTargetLanguageTag() {
+              const nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+              return nav;
+            }
+
+            /** Chrome docs: Language Detector / Translator are desktop-only today. */
+            function isTranslationDesktopLikely() {
+              if (typeof navigator !== 'undefined' && navigator.userAgentData && navigator.userAgentData.mobile) {
+                return false;
+              }
+              return !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
+            }
+
+            function summarizerAvailabilityBlocked(level) {
+              return level === 'unavailable' || level === 'no';
+            }
+
+            function setTranslateButtonsEnabled(on) {
+              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
+                btn.disabled = !on;
+              });
+            }
 
             const setList = (el, list) => {
               if (!el) return;
@@ -582,6 +642,243 @@
               }
             };
 
+            async function acquireTranslator(sourceLanguage, targetLanguage, onDownloadPct) {
+              const langs = { sourceLanguage, targetLanguage };
+              let level;
+              try {
+                level = await Translator.availability(langs);
+              } catch (e) {
+                return { error: String(e.message || e), translator: null };
+              }
+              if (level == null || level === 'unavailable') {
+                return { error: 'This language pair isn’t supported here.', translator: null };
+              }
+              const opts = { ...langs };
+              if (level === 'downloadable' || level === 'downloading') {
+                opts.monitor = function monitor(m) {
+                  m.addEventListener('downloadprogress', (e) => {
+                    const pct = Math.round((e.loaded || 0) * 100);
+                    if (onDownloadPct) onDownloadPct(pct);
+                  });
+                };
+              }
+              try {
+                const translator = await Translator.create(opts);
+                return { error: null, translator };
+              } catch (e) {
+                return { error: String(e.message || e), translator: null };
+              }
+            }
+
+            async function runTranslateTitle(btn) {
+              const title = btn.getAttribute('data-story-title') || '';
+              const wrap = btn.closest('.top-story-ai, .story-card-ai');
+              const outEl = wrap && wrap.querySelector('.story-translate-output');
+              if (!outEl || !title || !translateUiReady) return;
+
+              outEl.hidden = false;
+              outEl.textContent = '…';
+              outEl.classList.add('story-translate-output--loading');
+
+              let detector = null;
+              let translator = null;
+              try {
+                detector = await LanguageDetector.create({
+                  expectedInputLanguages: DETECTOR_INPUT_LANGS,
+                });
+                const results = await detector.detect(title);
+                if (detector.destroy) {
+                  await detector.destroy();
+                }
+                detector = null;
+
+                const scored = (results || []).filter(
+                  (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
+                );
+                scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+                const sourceTag = scored[0] ? scored[0].detectedLanguage : '';
+
+                if (!sourceTag) {
+                  outEl.textContent = 'Could not detect the headline language.';
+                  return;
+                }
+
+                const targetTag = userTargetLanguageTag();
+                const srcPrimary = primaryLangTag(sourceTag);
+                const tgtPrimary = primaryLangTag(targetTag);
+
+                if (srcPrimary && tgtPrimary && srcPrimary === tgtPrimary) {
+                  outEl.textContent = 'Already matches your browser language.';
+                  return;
+                }
+
+                const pairSrc = srcPrimary || sourceTag;
+                const pairTgt = tgtPrimary || targetTag;
+
+                outEl.textContent = 'Translating…';
+                const acq = await acquireTranslator(pairSrc, pairTgt, (pct) => {
+                  outEl.textContent = `Preparing translator… ${pct}%`;
+                });
+                if (acq.error || !acq.translator) {
+                  outEl.textContent = acq.error || 'Translation unavailable.';
+                  return;
+                }
+                translator = acq.translator;
+                const translated = await translator.translate(title);
+                outEl.textContent = String(translated != null ? translated : '').trim() || '—';
+                if (translator.destroy) {
+                  await translator.destroy();
+                }
+                translator = null;
+              } catch (err) {
+                outEl.textContent = String(err.message || err);
+              } finally {
+                outEl.classList.remove('story-translate-output--loading');
+                try {
+                  if (detector && detector.destroy) await detector.destroy();
+                } catch (_) {
+                  /* ignore */
+                }
+                try {
+                  if (translator && translator.destroy) await translator.destroy();
+                } catch (_) {
+                  /* ignore */
+                }
+              }
+            }
+
+            async function runSummarizeArticle() {
+              const raw =
+                articleSummarizeInput && articleSummarizeInput.value
+                  ? articleSummarizeInput.value.trim()
+                  : '';
+              if (raw.length < 40) {
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.hidden = false;
+                  articleSummarizeStatus.textContent =
+                    'Paste at least a short paragraph (about 40+ characters).';
+                }
+                return;
+              }
+              if (!summarizerReady || typeof Summarizer === 'undefined') return;
+
+              if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = true;
+              if (articleSummarizeInput) articleSummarizeInput.disabled = true;
+              if (articleSummarizeStatus) {
+                articleSummarizeStatus.hidden = false;
+                articleSummarizeStatus.textContent = 'Summarizing…';
+              }
+              if (articleSummarizeOutput) {
+                articleSummarizeOutput.hidden = false;
+                articleSummarizeOutput.textContent = '';
+                articleSummarizeOutput.classList.add('page-ai-reply--loading');
+              }
+
+              const outLang = navigator.language || 'en-US';
+              const createOpts = {
+                sharedContext: 'Tech or business news article. The reader wants a short takeaway.',
+                type: 'tldr',
+                length: 'short',
+                format: 'plain-text',
+                expectedInputLanguages: DETECTOR_INPUT_LANGS,
+                outputLanguage: outLang,
+                monitor(m) {
+                  m.addEventListener('downloadprogress', (e) => {
+                    const pct = Math.round((e.loaded || 0) * 100);
+                    if (articleSummarizeStatus) {
+                      articleSummarizeStatus.hidden = false;
+                      articleSummarizeStatus.textContent = `Preparing model… ${pct}%`;
+                    }
+                  });
+                },
+              };
+
+              let sum = null;
+              try {
+                const av = await Summarizer.availability();
+                if (summarizerAvailabilityBlocked(av)) {
+                  if (articleSummarizeStatus) {
+                    articleSummarizeStatus.textContent =
+                      'Summarizer isn’t available on this device. See Chrome built-in AI requirements.';
+                  }
+                  return;
+                }
+                sum = await Summarizer.create(createOpts);
+                if (typeof sum.summarizeStreaming === 'function') {
+                  const stream = sum.summarizeStreaming(raw, {
+                    context: 'Audience: tech professionals skimming news.',
+                  });
+                  let full = '';
+                  for await (const chunk of stream) {
+                    full += chunk;
+                    if (articleSummarizeOutput) articleSummarizeOutput.textContent = full;
+                  }
+                } else {
+                  const text = await sum.summarize(raw, {
+                    context: 'Audience: tech professionals skimming news.',
+                  });
+                  if (articleSummarizeOutput) {
+                    articleSummarizeOutput.textContent = String(text != null ? text : '');
+                  }
+                }
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.textContent = '';
+                  articleSummarizeStatus.hidden = true;
+                }
+              } catch (err) {
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.hidden = false;
+                  articleSummarizeStatus.textContent = String(err.message || err);
+                }
+                if (articleSummarizeOutput) articleSummarizeOutput.textContent = '';
+              } finally {
+                if (articleSummarizeOutput) {
+                  articleSummarizeOutput.classList.remove('page-ai-reply--loading');
+                }
+                if (sum && sum.destroy) {
+                  try {
+                    await sum.destroy();
+                  } catch (_) {
+                    /* ignore */
+                  }
+                }
+                if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = false;
+                if (articleSummarizeInput) articleSummarizeInput.disabled = false;
+              }
+            }
+
+            async function initSummarizerUi() {
+              if (!summarizeSection || !articleSummarizeInput || !articleSummarizeSubmit) return;
+              if (typeof Summarizer === 'undefined') return;
+
+              summarizeSection.hidden = false;
+              try {
+                const av = await Summarizer.availability();
+                if (summarizerAvailabilityBlocked(av)) {
+                  if (articleSummarizeStatus) {
+                    articleSummarizeStatus.hidden = false;
+                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
+                  }
+                  return;
+                }
+                summarizerReady = true;
+                articleSummarizeInput.disabled = false;
+                articleSummarizeSubmit.disabled = false;
+              } catch (e) {
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.hidden = false;
+                  articleSummarizeStatus.textContent = String(e.message || e);
+                }
+              }
+            }
+
+            function initTranslateUi() {
+              if (!isTranslationDesktopLikely()) return;
+              if (typeof LanguageDetector === 'undefined' || typeof Translator === 'undefined') return;
+              translateUiReady = true;
+              setTranslateButtonsEnabled(true);
+            }
+
             const initPromptApi = async () => {
               const lmApi = getLanguageModelApi();
               if (!lmApi) {
@@ -633,13 +930,25 @@
             }
 
             document.querySelector('main')?.addEventListener('click', (ev) => {
+              const tr = ev.target.closest('.story-translate-btn');
+              if (tr && !tr.disabled) {
+                ev.preventDefault();
+                void runTranslateTitle(tr);
+                return;
+              }
               const btn = ev.target.closest('.story-ai-btn');
               if (!btn || btn.disabled) return;
               ev.preventDefault();
               void runStoryAngle(btn);
             });
 
+            if (articleSummarizeSubmit && articleSummarizeInput) {
+              articleSummarizeSubmit.addEventListener('click', () => void runSummarizeArticle());
+            }
+
             initPromptApi();
+            initSummarizerUi();
+            initTranslateUi();
         </script>
 
         {% for category in categories %}
@@ -667,10 +976,15 @@
                     <p class="story-description">{{ story.description }}</p>
                     {% endif %}
                     <div class="story-card-ai">
-                        <button type="button" class="story-ai-btn" disabled
-                            data-story-title="{{ story.title|e }}"
-                            data-story-source="{{ story.source|e }}"
-                            data-story-cat="{{ story.category_label|e }}">Why it matters</button>
+                        <div class="story-ai-actions">
+                            <button type="button" class="story-translate-btn" disabled
+                                data-story-title="{{ story.title|e }}">Translate title</button>
+                            <button type="button" class="story-ai-btn" disabled
+                                data-story-title="{{ story.title|e }}"
+                                data-story-source="{{ story.source|e }}"
+                                data-story-cat="{{ story.category_label|e }}">Why it matters</button>
+                        </div>
+                        <div class="story-translate-output" hidden></div>
                         <div class="story-ai-output" hidden></div>
                     </div>
                 </article>
