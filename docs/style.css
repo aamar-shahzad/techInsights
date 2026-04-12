@@ -488,7 +488,7 @@ textarea:focus-visible,
 }
 
 .panel-body-scroll {
-    flex: 1 1 auto;
+    flex: 1 1 0;
     min-height: 0;
     overflow-y: auto;
     overscroll-behavior: contain;
@@ -511,7 +511,8 @@ textarea:focus-visible,
 
 .panel-answer-region {
     flex: 1 1 0;
-    min-height: 0;
+    /* Keep a real viewport for answers: flex+min-height:0 could collapse this to 0 and clip replies (parent has overflow:hidden). */
+    min-height: 10rem;
     display: flex;
     flex-direction: column;
     padding: 0.5rem 1rem 1rem;

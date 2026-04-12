@@ -308,6 +308,19 @@
               }
             }
 
+            /** Download progress 0–99 shows %; at 100% the model is ready but output may still be generating—don’t show “100%”. */
+            function primerLoadingText(pct) {
+              if (pct >= 100) return 'Writing briefing…';
+              if (pct > 0) return `Loading assistant… ${pct}%`;
+              return 'Getting a quick summary…';
+            }
+
+            function askPreparingText(pct) {
+              if (pct >= 100) return 'Generating answer…';
+              if (pct > 0) return `Loading assistant… ${pct}%`;
+              return 'Preparing…';
+            }
+
             async function openLmSession(
               lmApi,
               systemPrompt,
@@ -586,7 +599,7 @@
                   lmApi,
                   STORY_PRIMER_SYSTEM_PROMPT,
                   (pct) => {
-                    if (loadEl) loadEl.textContent = `Getting a quick summary… ${pct}%`;
+                    if (loadEl) loadEl.textContent = primerLoadingText(pct);
                   },
                   grounding,
                   640
@@ -620,11 +633,13 @@
               }
             }
 
-            const runStoryAsk = async (submitBtn) => {
+            const runStoryAsk = async () => {
               const article = activeStoryEl;
               const { textarea, replyEl, replyEyebrow } = getPanelAskElements();
               const q = textarea && textarea.value ? textarea.value.trim() : '';
               if (!article || !textarea || !replyEl || !q || !promptApiReady) return;
+              const sendBtn = document.querySelector('#assistant-panel .story-ask-submit');
+              if (!sendBtn) return;
               const lmApi = getLanguageModelApi();
               if (!lmApi) return;
               const availability = await lmApi.availability(LM_OPTIONS);
@@ -641,7 +656,7 @@
                 replyEl.textContent = 'Missing story data.';
                 return;
               }
-              submitBtn.disabled = true;
+              sendBtn.disabled = true;
               textarea.disabled = true;
               if (replyEyebrow) replyEyebrow.hidden = false;
               replyEl.hidden = false;
@@ -655,7 +670,7 @@
                   lmApi,
                   ASK_ONE_STORY_SYSTEM_PROMPT,
                   (pct) => {
-                    replyEl.textContent = `Preparing… ${pct}%`;
+                    replyEl.textContent = askPreparingText(pct);
                     replyEl.scrollTop = replyEl.scrollHeight;
                   },
                   grounding,
@@ -679,7 +694,7 @@
               } finally {
                 replyEl.classList.remove('page-ai-reply--loading');
                 await closeLmSession(session);
-                submitBtn.disabled = false;
+                sendBtn.disabled = false;
                 textarea.disabled = false;
               }
             };
@@ -753,7 +768,7 @@
               const askSub = ev.target.closest('.story-ask-submit');
               if (askSub && !askSub.disabled) {
                 ev.preventDefault();
-                void runStoryAsk(askSub);
+                void runStoryAsk();
               }
             });
 
@@ -779,7 +794,7 @@
                 const sub = document.querySelector('#assistant-panel .story-ask-submit');
                 if (sub && !sub.disabled) {
                   ev.preventDefault();
-                  void runStoryAsk(sub);
+                  void runStoryAsk();
                 }
               }
             });
