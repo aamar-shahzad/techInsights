@@ -181,9 +181,9 @@ def fallback_insights(message: str = "Insights are temporarily unavailable.") ->
     }
 
 
-def generate_insights(top_stories: list[dict], all_stories: list[dict]) -> dict:
-    """Generate short insight summaries from current stories using Transformers.js."""
-    return fallback_insights("Browser-side AI insight generation is enabled on the page.")
+def generate_insights(_top_stories: list[dict], _all_stories: list[dict]) -> dict:
+    """Insight JSON is produced in the browser via Chrome Prompt API; build only passes flags for the template."""
+    return {"enabled": True, "message": ""}
 
 
 def build_site():
