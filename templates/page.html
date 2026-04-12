@@ -149,11 +149,15 @@
             {{ top_stories_for_model | tojson }}
         </script>
         <script type="module">
-            /** Chrome built-in Prompt API (Gemini Nano). @see https://developer.chrome.com/docs/ai/prompt-api */
+            /**
+             * Chrome Prompt API (on-device Gemini Nano).
+             * @see https://developer.chrome.com/docs/ai/prompt-api
+             * Pass the same modality options to availability(), create(), and prompts per official guidance.
+             */
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
 
             /**
-             * Same resolution as typical Chrome samples: global LanguageModel or window.ai.languageModel.
+             * Same entry points as Chrome samples: global LanguageModel or window.ai.languageModel.
              * @returns {typeof LanguageModel | null}
              */
             function getLanguageModelApi() {
@@ -164,15 +168,23 @@
               return null;
             }
 
-            /** Docs use "unavailable"; some builds report "no" (see local playground samples). */
+            /** Per docs, primary gate is availability !== 'unavailable'; some builds use "no". */
             function isAvailabilityBlocked(level) {
               return level === 'unavailable' || level === 'no';
             }
 
+            /** Must match create() and prompt() usage (text en → en). */
             const LM_OPTIONS = {
               expectedInputs: [{ type: 'text', languages: ['en'] }],
               expectedOutputs: [{ type: 'text', languages: ['en'] }],
             };
+
+            /** System role via initialPrompts (see "Add context with initial prompts" in the Prompt API doc). */
+            const BRIEFING_SYSTEM_PROMPT = [
+              'You are a concise tech news editor.',
+              'Respond with a single JSON object only, matching the schema the user specifies.',
+              'Ground answers in the headlines provided; do not invent sources or stories.',
+            ].join(' ');
 
             const INSIGHT_JSON_SCHEMA = {
               type: 'object',
@@ -304,7 +316,8 @@
               }
             };
 
-            const buildInsightPromptText = () => {
+            /** User-turn content only; system instructions live in initialPrompts on create(). */
+            const buildInsightUserPrompt = () => {
               const topSummary = stories.slice(0, 6).map((story) => {
                 const source = story.source || 'Unknown source';
                 const categoryLabel = story.category_label || 'General';
@@ -318,8 +331,6 @@
                 categoryCounts[category] = (categoryCounts[category] || 0) + 1;
               }
               return [
-                'You are a concise tech news analyst.',
-                'Read the headlines below and return a short JSON object only.',
                 'Return strict JSON exactly in this shape:',
                 '{"enabled": true, "headline": "...", "key_trends": ["..."], "quick_takeaways": ["..."], "watch_items": ["..."], "generated_for": "..."}',
                 '',
@@ -330,10 +341,28 @@
               ].join('\n');
             };
 
-            const ensureSession = async (lmApi) => {
-              if (lmSession) return lmSession;
+            async function destroyLmSession() {
+              if (!lmSession || typeof lmSession.destroy !== 'function') {
+                lmSession = null;
+                return;
+              }
+              try {
+                await lmSession.destroy();
+              } catch (_) {
+                /* ignore */
+              }
+              lmSession = null;
+            }
+
+            /**
+             * New session per run so the model does not accumulate prior briefing turns (session context).
+             * create() runs after user activation (Generate click), with download monitor per docs.
+             */
+            const createBriefingSession = async (lmApi) => {
+              await destroyLmSession();
               const baseOpts = {
                 ...LM_OPTIONS,
+                initialPrompts: [{ role: 'system', content: BRIEFING_SYSTEM_PROMPT }],
                 monitor(m) {
                   m.addEventListener('downloadprogress', (e) => {
                     const pct = Math.round((e.loaded || 0) * 100);
@@ -383,10 +412,10 @@
               metaEl.textContent =
                 availability === 'downloading' ? 'First run may download data in the background.' : '';
 
-              const promptText = buildInsightPromptText();
+              const promptText = buildInsightUserPrompt();
 
               try {
-                const session = await ensureSession(lmApi);
+                const session = await createBriefingSession(lmApi);
                 let parsed;
                 try {
                   const result = await session.prompt(promptText, {
@@ -416,6 +445,7 @@
                 const message = String(err.message || err);
                 showGenerationError(`Insight generation failed: ${message}`, err);
               } finally {
+                await destroyLmSession();
                 setLoadingState(false);
               }
             };
@@ -462,9 +492,7 @@
             initPromptApi();
 
             window.addEventListener('beforeunload', () => {
-              if (lmSession && typeof lmSession.destroy === 'function') {
-                lmSession.destroy();
-              }
+              void destroyLmSession();
             });
         </script>
 
