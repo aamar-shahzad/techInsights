@@ -240,6 +240,7 @@
 
             const ASK_ONE_STORY_SYSTEM_PROMPT = [
               'You answer questions about a single news story using only the SINGLE STORY CONTEXT.',
+              'The ARTICLE TEXT block is the full RSS-derived body embedded for this story (often the entire article when the feed includes it). Read it end-to-end before answering; use it as your primary evidence for detail, names, numbers, and quotes.',
               'When ARTICLE TEXT is present, ground your answer in it and give enough detail to be useful—up to about 250 words, or more if the user asks for a list, steps, or a deep dive.',
               'When only a short excerpt is available, say what you can and note that the feed did not include full body text.',
               'You cannot fetch URLs. If something is not in the context, say so clearly—do not invent specifics—and tell them to open the headline link for more.',
@@ -248,7 +249,7 @@
 
             const STORY_PRIMER_SYSTEM_PROMPT = [
               'You help a reader skim one news story using only CONTEXT (title, source, category, URL, ARTICLE TEXT when present, and short description).',
-              'When ARTICLE TEXT is included, use it for PLAIN and SUMMARY so the briefing reflects the real story, not just the headline.',
+              'When ARTICLE TEXT is included, read it completely first—it is the full RSS body for this item when the publisher provided it. Use it for PLAIN and SUMMARY so the briefing reflects the real story, not just the headline.',
               'Many readers struggle with cryptic headlines—your PLAIN line must restate what the story is about in simple words (no unexplained acronyms, no clickbait tone).',
               'Under QUESTIONS, you must list exactly three questions that can be answered well using ONLY the CONTEXT. Do not suggest questions that require numbers, exact quotes, or "what specifically changed" unless that detail appears in ARTICLE TEXT. If the feed only has a summary, prefer questions about implications, who is involved, or what to watch next—and mention the gap briefly in SUMMARY.',
               'Reply using exactly this structure:',
@@ -336,7 +337,9 @@
               ];
               lines.push('');
               if (bodyTrim) {
-                lines.push('ARTICLE TEXT (from RSS at build time; primary source for detail—not a live fetch of the publisher page):');
+                lines.push(
+                  `ARTICLE TEXT — full body available for this story (${bodyTrim.length} characters). Sourced from the RSS entry at site build time (not a live page fetch). Use the entire block below for briefing and chat:`
+                );
                 lines.push(bodyTrim);
               } else {
                 lines.push(

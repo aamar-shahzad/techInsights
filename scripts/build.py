@@ -56,7 +56,8 @@ CATEGORY_LABELS = {
 MAX_STORIES_PER_CATEGORY = 10
 MAX_DESCRIPTION_LENGTH = 200
 # Full article text from RSS (content/summary) embedded for on-device LLM context (not the live web page).
-MAX_LLM_BODY = 14000
+# Large enough for typical full RSS bodies; still bounded so static HTML stays reasonable.
+MAX_LLM_BODY = 56000
 PROJECT_ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 OUTPUT_DIR = PROJECT_ROOT / "docs"
@@ -70,6 +71,23 @@ def strip_html(text: str) -> str:
     text = html.unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def strip_html_for_article(text: str) -> str:
+    """Strip tags but keep paragraph breaks so long RSS/HTML bodies stay readable for the LLM."""
+    if not text:
+        return ""
+    text = re.sub(r"(?i)<\s*br\s*/?>", "\n", text)
+    text = re.sub(r"(?i)</\s*p\s*>", "\n\n", text)
+    text = re.sub(r"(?i)</\s*(div|h[1-6]|section|article|blockquote|table|tr|li)\s*>", "\n", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = html.unescape(text)
+    paragraphs: list[str] = []
+    for block in re.split(r"\n\s*\n+", text):
+        line = re.sub(r"[\s\xa0]+", " ", block).strip()
+        if line:
+            paragraphs.append(line)
+    return "\n\n".join(paragraphs)
 
 
 def truncate(text: str, max_length: int) -> str:
@@ -90,8 +108,10 @@ def entry_llm_body(entry) -> str:
         for c in entry.content:
             val = (c.get("value") or "").strip()
             if val:
-                chunks.append(strip_html(val))
-    main = " ".join(chunks).strip() if chunks else ""
+                cleaned = strip_html_for_article(val)
+                if cleaned:
+                    chunks.append(cleaned)
+    main = "\n\n".join(chunks).strip() if chunks else ""
     summary = strip_html(entry.get("summary", "") or entry.get("description", "") or "")
     if len(main) >= len(summary):
         text = main
@@ -99,12 +119,11 @@ def entry_llm_body(entry) -> str:
         text = summary
     if main and summary and main != summary:
         if len(main) < 500 and len(summary) > len(main):
-            text = (main + " " + summary).strip()
+            text = (main + "\n\n" + summary).strip()
         elif not text:
             text = main or summary
     if not text.strip():
         text = summary or main
-    text = re.sub(r"\s+", " ", text).strip()
     return truncate(text, MAX_LLM_BODY)
 
 

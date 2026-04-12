@@ -5,8 +5,44 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 12 Apr 2026 05:38:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Apr 2026 05:40:45 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>RFC 7636 Deep Dive: How PKCE Kills Authorization Code Interception Attacks</title>
+    <link>https://dev.to/kanywst/rfc-7636-deep-dive-how-pkce-kills-authorization-code-interception-attacks-91i</link>
+    <guid>https://dev.to/kanywst/rfc-7636-deep-dive-how-pkce-kills-authorization-code-interception-attacks-91i</guid>
+    <pubDate>Sun, 12 Apr 2026 05:31:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction Last time, we tore apart the core mechanics of RFC 6749 (Authorization Code Grant). RFC 6749 Deep Dive: Understanding OAuth 2.0 Design Decisions from the Specification Hopefully,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How Hard Is It to Add an Index to an Open Format? Lessons from the Apache Iceberg Community</title>
+    <link>https://dev.to/morningman/how-hard-is-it-to-add-an-index-to-an-open-format-lessons-from-the-apache-iceberg-community-5gcf</link>
+    <guid>https://dev.to/morningman/how-hard-is-it-to-add-an-index-to-an-open-format-lessons-from-the-apache-iceberg-community-5gcf</guid>
+    <pubDate>Sun, 12 Apr 2026 05:31:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Apache Iceberg community is discussing &quot;secondary indexes.&quot; This topic is far more complex than it appears on the surface. Adding an index is not a simple engineering problem of &quot;how to store...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Understanding SQL Basics: DDL, DML, Filtering, and Data Transformation</title>
+    <link>https://dev.to/nelima/understanding-sql-basics-ddl-dml-filtering-and-data-transformation-174o</link>
+    <guid>https://dev.to/nelima/understanding-sql-basics-ddl-dml-filtering-and-data-transformation-174o</guid>
+    <pubDate>Sun, 12 Apr 2026 05:30:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week I was focused on building a solid foundation in SQL by working with student, subject, and exam result data. Along the way, I explored key concepts like DDL, DML, filtering using WHERE,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Run a CTF That People Actually Learn From (Not Just Compete In)</title>
+    <link>https://dev.to/stephan_yang_2fc602f15fde/why-ctf-challenges-are-the-best-way-to-learn-offensive-security-and-where-to-start-5cim</link>
+    <guid>https://dev.to/stephan_yang_2fc602f15fde/why-ctf-challenges-are-the-best-way-to-learn-offensive-security-and-where-to-start-5cim</guid>
+    <pubDate>Sun, 12 Apr 2026 05:29:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>CTF competitions are having a moment. Universities are running them. Companies are using them to hire. Security conferences anchor their whole agenda around them. And yet — most CTFs, especially...</description>
+    <category>Developer Tools</category>
+  </item>
   <item>
     <title>The Wrong GUID: How a Single Constant Broke WebSocket in Every Browser But Not Python</title>
     <link>https://dev.to/ljkunal/the-wrong-guid-how-a-single-constant-broke-websocket-in-every-browser-but-not-python-1ojd</link>
@@ -44,57 +80,21 @@
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Plug-and-Play Context Compression for Any LLM API — CRISP</title>
-    <link>https://dev.to/harshith_halejolad/plug-and-play-context-compression-for-any-llm-api-crisp-1lai</link>
-    <guid>https://dev.to/harshith_halejolad/plug-and-play-context-compression-for-any-llm-api-crisp-1lai</guid>
-    <pubDate>Sun, 12 Apr 2026 05:12:13 +0000</pubDate>
+    <title>Supabase Edge Function を 94本 15本に統合 + 廃止EF17本のCORS修正を一括解消した話</title>
+    <link>https://dev.to/kanta13jp1/supabase-edge-function-wo-94ben-15ben-nitong-he-fei-zhi-ef17ben-nocorsxiu-zheng-wo-gua-jie-xiao-sitahua-5b3p</link>
+    <guid>https://dev.to/kanta13jp1/supabase-edge-function-wo-94ben-15ben-nitong-he-fei-zhi-ef17ben-nocorsxiu-zheng-wo-gua-jie-xiao-sitahua-5b3p</guid>
+    <pubDate>Sun, 12 Apr 2026 05:20:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I recently built CRISP (Compressed Retrieval and Intelligent Semantic Processing), a Python library that acts as a lightweight, modular wrapper around any LLM API. It allows you to process massive...</description>
+    <description>Supabase Edge Function を 94本→15本に統合 + 廃止EF17本のCORS修正を一括解消した話 はじめに Supabase Edge Function (EF) の上限はプロジェクトあたり99本です。 個人開発アプリ「自分株式会社」でFlutter Web + Supabaseを積み重ねた結果、気づいたら94本まで到達していました。 この記事では: 94本→15本...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>US appeals court declares 158-year-old home distilling ban unconstitutional</title>
-    <link>https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional</link>
-    <guid>https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional</guid>
-    <pubDate>Sun, 12 Apr 2026 05:08:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional Comments URL: https://news.ycombinator.com/item?id=47736298 Points: 26 # Comments: 10</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Method to reverse cellular ageing is about to be tested in humans</title>
-    <link>https://www.nature.com/articles/d41586-026-01024-7</link>
-    <guid>https://www.nature.com/articles/d41586-026-01024-7</guid>
-    <pubDate>Sun, 12 Apr 2026 05:06:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.nature.com/articles/d41586-026-01024-7 Comments URL: https://news.ycombinator.com/item?id=47736289 Points: 4 # Comments: 0</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Best Proxycurl Alternative in 2026: Apify LinkedIn Scrapers vs Scrapingdog vs LinkdAPI</title>
-    <link>https://dev.to/agenthustler/best-proxycurl-alternative-in-2026-apify-linkedin-scrapers-vs-scrapingdog-vs-linkdapi-11n7</link>
-    <guid>https://dev.to/agenthustler/best-proxycurl-alternative-in-2026-apify-linkedin-scrapers-vs-scrapingdog-vs-linkdapi-11n7</guid>
-    <pubDate>Sun, 12 Apr 2026 05:05:39 +0000</pubDate>
+    <title>Building Sync Sphere: A Real-Time Venue Experience Dashboard</title>
+    <link>https://dev.to/vinayak_bhardwaj_38e8241a/building-sync-sphere-a-real-time-venue-experience-dashboard-3nlb</link>
+    <guid>https://dev.to/vinayak_bhardwaj_38e8241a/building-sync-sphere-a-real-time-venue-experience-dashboard-3nlb</guid>
+    <pubDate>Sun, 12 Apr 2026 05:12:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Proxycurl was the go-to LinkedIn data API for recruiters, sales teams, and developers. At its peak, it served ~200K paying customers and pulled in $10M ARR. Then LinkedIn sued them in January...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Adding API Gateway to My Cloud Resume</title>
-    <link>https://dev.to/shankar_t/adding-api-gateway-to-my-cloud-resume-3bbn</link>
-    <guid>https://dev.to/shankar_t/adding-api-gateway-to-my-cloud-resume-3bbn</guid>
-    <pubDate>Sun, 12 Apr 2026 05:03:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Five Failures in One Evening: Adding API Gateway to My Cloud Resume In my previous article, I documented migrating my Cloud Resume from ClickOps to Terraform. The system worked: S3 + CloudFront...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Vane (Perplexica 2.0) Quickstart With Ollama and llama.cpp</title>
-    <link>https://dev.to/rosgluk/vane-perplexica-20-quickstart-with-ollama-and-llamacpp-132o</link>
-    <guid>https://dev.to/rosgluk/vane-perplexica-20-quickstart-with-ollama-and-llamacpp-132o</guid>
-    <pubDate>Sun, 12 Apr 2026 04:56:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Vane is one of the more pragmatic entries in the &quot;AI search with citations&quot; space: a self-hosted answering engine that mixes live web retrieval with local or cloud LLMs, while keeping the whole...</description>
+    <description>Have you ever missed the best part of a movie because you were stuck in line at the food court? Or wandered around looking for an available washroom right before the picture started? This exact...</description>
     <category>Developer Tools</category>
   </item>
   <item>
