@@ -70,74 +70,6 @@
     </header>
 
     <main id="main-content" class="container main-content" tabindex="-1">
-        {% if top_stories %}
-        <section class="top-stories">
-            <h2 class="top-stories-title">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                </svg>
-                Top Stories Today
-            </h2>
-            <div class="top-stories-list">
-                {% for story in top_stories %}
-                <article class="top-story"
-                    data-story-title="{{ story.title|e }}"
-                    data-story-source="{{ story.source|e }}"
-                    data-story-cat="{{ story.category_label|e }}"
-                    data-story-link="{{ story.link|e }}"
-                    data-story-desc="{{ (story.description or '')[:2000]|e }}">
-                    <span class="top-story-rank">{{ loop.index }}</span>
-                    <div class="top-story-content">
-                        <h3 class="top-story-title">
-                            <a href="{{ story.link }}" target="_blank" rel="noopener noreferrer">
-                                {{ story.title }}
-                            </a>
-                        </h3>
-                        <div class="top-story-meta">
-                            <span class="category-tag category-tag--{{ story.category }}">{{ story.category_label }}</span>
-                            <span class="top-story-source">{{ story.source }}</span>
-                            <span class="top-story-time">{{ story.time_ago }}</span>
-                        </div>
-                        <div class="top-story-ai">
-                            <details class="story-ask">
-                                <summary class="story-ask__summary">At a glance</summary>
-                                <div class="story-ask__inner">
-                                    <div class="story-ask-primer" data-primer-state="">
-                                        <p class="story-ask-primer__eyebrow">Quick read</p>
-                                        <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
-                                        <div class="story-ask-primer__plain-block" hidden>
-                                            <p class="story-ask-primer__plain-label">In plain terms</p>
-                                            <p class="story-ask-primer__plain"></p>
-                                        </div>
-                                        <div class="story-ask-primer__summary" aria-live="polite"></div>
-                                        <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
-                                        <ul class="story-ask-suggestions" hidden></ul>
-                                    </div>
-                                    <div class="story-ask-followup">
-                                        <div class="story-ask-followup__head">
-                                            <span class="story-ask-followup__title">Your question</span>
-                                            <span class="story-ask-followup__hint">From headline &amp; excerpt on this page</span>
-                                        </div>
-                                        <div class="story-ask-input-row">
-                                            <label class="visually-hidden" for="story-ask-{{ loop.index0 }}-top">Question for the assistant</label>
-                                            <textarea id="story-ask-{{ loop.index0 }}-top" class="story-ask-input page-ai-ask__input" rows="2" placeholder="Edit a suggestion above or write your own" disabled></textarea>
-                                            <button type="button" class="story-ask-submit page-ai-ask__submit" disabled>Ask</button>
-                                        </div>
-                                    </div>
-                                    <div class="story-ask-reply-wrap">
-                                        <p class="story-ask-reply__eyebrow" hidden>Answer</p>
-                                        <div class="story-ask-reply page-ai-reply" aria-live="polite" hidden></div>
-                                    </div>
-                                </div>
-                            </details>
-                        </div>
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-        </section>
-        {% endif %}
-
         {% for category in categories %}
         <section class="category category--{{ category.id }}">
             <h2 class="category-title">
@@ -438,7 +370,7 @@
               const state = primerRoot.dataset.primerState;
               if (state === 'ready' || state === 'loading' || state === 'unavailable') return;
 
-              const article = detailsEl.closest('.top-story, .story-card');
+              const article = detailsEl.closest('.story-card');
               const loadEl = primerRoot.querySelector('.story-ask-primer__loading');
               const sumEl = primerRoot.querySelector('.story-ask-primer__summary');
               const listEl = primerRoot.querySelector('.story-ask-suggestions');
@@ -562,7 +494,7 @@
             }
 
             const runStoryAsk = async (submitBtn) => {
-              const article = submitBtn.closest('.top-story, .story-card');
+              const article = submitBtn.closest('.story-card');
               const askRoot = submitBtn.closest('.story-ask');
               const textarea = askRoot && askRoot.querySelector('.story-ask-input');
               const replyEl = askRoot && askRoot.querySelector('.story-ask-reply');

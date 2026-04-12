@@ -55,8 +55,6 @@ CATEGORY_LABELS = {
 
 MAX_STORIES_PER_CATEGORY = 10
 MAX_DESCRIPTION_LENGTH = 200
-TOP_STORIES_COUNT = 10
-
 PROJECT_ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 OUTPUT_DIR = PROJECT_ROOT / "docs"
@@ -168,24 +166,6 @@ def fetch_category(category: str) -> list[dict]:
     return all_stories[:MAX_STORIES_PER_CATEGORY]
 
 
-def fallback_insights(message: str = "Insights are temporarily unavailable.") -> dict:
-    """Return a structured fallback insight object."""
-    return {
-        "enabled": False,
-        "message": message,
-        "headline": "Insights are currently not available.",
-        "key_trends": [],
-        "quick_takeaways": [],
-        "watch_items": [],
-        "source_count": 0,
-    }
-
-
-def generate_insights(_top_stories: list[dict], _all_stories: list[dict]) -> dict:
-    """Insight JSON is produced in the browser via Chrome Prompt API; build only passes flags for the template."""
-    return {"enabled": True, "message": ""}
-
-
 def build_site():
     """Main build function."""
     print("Building Tech Insights...")
@@ -209,77 +189,14 @@ def build_site():
             "stories": stories,
         })
 
-    top_stories = []
-    seen_urls = set()
-    category_counts = {}
-    max_per_category = 3
-    
     all_stories.sort(key=lambda x: x["date"], reverse=True)
-    
-    for story in all_stories:
-        if story["link"] in seen_urls:
-            continue
-        if story["hours_old"] >= 24:
-            continue
-            
-        cat = story["category"]
-        if category_counts.get(cat, 0) >= max_per_category:
-            continue
-        
-        seen_urls.add(story["link"])
-        top_stories.append(story)
-        category_counts[cat] = category_counts.get(cat, 0) + 1
-        
-        if len(top_stories) >= TOP_STORIES_COUNT:
-            break
-    
-    top_stories.sort(key=lambda x: x["date"], reverse=True)
-    insights = generate_insights(top_stories, all_stories)
-    if not insights.get("enabled"):
-        print(f"LLM insights disabled: {insights.get('message')}")
-    
-    print(f"\nTop Stories: {len(top_stories)} from last 24 hours (max {max_per_category} per category)")
-
-    serializable_top_stories = [
-        {
-            "title": story["title"],
-            "source": story["source"],
-            "category": story["category"],
-            "category_label": story["category_label"],
-            "time_ago": story["time_ago"],
-        }
-        for story in top_stories
-    ]
-
-    # Full feed for on-device LLM: every category story, deduped by URL, with excerpts.
-    seen_links: set[str] = set()
-    full_page_stories_for_model: list[dict] = []
-    for story in sorted(all_stories, key=lambda x: x["date"], reverse=True):
-        link = story.get("link", "")
-        if not link or link in seen_links:
-            continue
-        seen_links.add(link)
-        full_page_stories_for_model.append(
-            {
-                "title": story["title"],
-                "source": story["source"],
-                "category": story["category"],
-                "category_label": story["category_label"],
-                "time_ago": story["time_ago"],
-                "description": story.get("description") or "",
-            }
-        )
 
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     template = env.get_template("page.html")
 
     now = datetime.now(timezone.utc)
     html_content = template.render(
-        top_stories=top_stories,
-        top_stories_for_model=serializable_top_stories,
-        full_page_stories_for_model=full_page_stories_for_model,
         categories=categories_data,
-        insights=insights,
         updated_at=now.strftime("%B %d, %Y at %H:%M UTC"),
         year=now.year,
     )
@@ -292,7 +209,7 @@ def build_site():
     generate_sitemap(now)
     generate_archive(env, now, all_stories)
     generate_structured_data(now)
-    generate_rss_feed(now, top_stories, all_stories)
+    generate_rss_feed(now, all_stories)
     generate_category_pages(env, now, categories_data)
 
 
@@ -409,7 +326,7 @@ def generate_structured_data(now: datetime):
     print(f"Generated {json_file}")
 
 
-def generate_rss_feed(now: datetime, top_stories: list, all_stories: list):
+def generate_rss_feed(now: datetime, all_stories: list):
     """Generate RSS feed for subscribers."""
     
     def escape_xml(text: str) -> str:
