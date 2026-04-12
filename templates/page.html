@@ -115,6 +115,53 @@
         </section>
         {% endif %}
 
+        {% for category in categories %}
+        <section class="category category--{{ category.id }}">
+            <h2 class="category-title">
+                <span class="category-indicator"></span>
+                {{ category.label }}
+                <span class="story-count">{{ category.stories|length }} stories</span>
+            </h2>
+            
+            {% if category.stories %}
+            <div class="stories-grid">
+                {% for story in category.stories %}
+                <article class="story-card{% if story.is_new %} story-card--new{% endif %}">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="{{ story.source }}">{{ story.source }}</span>
+                        <span class="story-date">{{ story.time_ago }}{% if story.is_new %} <span class="badge-new">New</span>{% endif %}</span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="{{ story.link }}" target="_blank" rel="noopener noreferrer">
+                            {{ story.title }}
+                        </a>
+                    </h3>
+                    {% if story.description %}
+                    <p class="story-description">{{ story.description }}</p>
+                    {% endif %}
+                    <div class="story-card-ai">
+                        <div class="story-ai-actions">
+                            <span class="story-translate-slot">
+                                <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
+                                    data-story-title="{{ story.title|e }}">Translate</button>
+                                <span class="story-lang-same" hidden></span>
+                            </span>
+                            <button type="button" class="story-ai-btn" disabled
+                                data-story-title="{{ story.title|e }}"
+                                data-story-source="{{ story.source|e }}"
+                                data-story-cat="{{ story.category_label|e }}">Why it matters</button>
+                        </div>
+                        <div class="story-translate-output" hidden></div>
+                        <div class="story-ai-output" hidden></div>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p class="no-stories">No stories available at the moment.</p>
+            {% endif %}
+        </section>
+        {% endfor %}
         <section class="ai-suite ai-suite--integrated" aria-labelledby="ai-suite-title">
             <div class="ai-suite__intro">
                 <div class="ai-suite__intro-main">
@@ -129,7 +176,6 @@
 
             <div id="ai-gemini-meta" class="ai-suite__model-meta ai-suite__model-meta--strip" hidden>
                 <p class="ai-suite__model-meta__p">
-                    <span class="ai-suite__model-meta__label">Gemini Nano</span>
                     <span id="ai-gemini-availability" class="ai-suite__model-meta__av"></span>
                     <code id="ai-gemini-params" class="ai-suite__model-meta__params" hidden></code>
                 </p>
@@ -158,7 +204,7 @@
 
                 <div class="ai-suite__panel-col ai-suite__panel-col--summarize" id="page-ai-summarize" hidden>
                     <h3 class="ai-suite__panel-heading">Summarize a clip</h3>
-                    <p class="ai-suite__panel-hint">Summarizer API · paste body text, not only a headline.</p>
+                    <p class="ai-suite__panel-hint">Summarizer only receives <strong>text you paste</strong>—it does not open links or fetch pages. Open the article, copy the paragraphs, then run summarize.</p>
                     <div class="page-ai-ask__row">
                         <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
                         <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs…" disabled></textarea>
@@ -173,7 +219,7 @@
                 <summary class="ai-suite__details-summary">Headlines, translate, and API requirements</summary>
                 <div class="ai-suite__details-body">
                     <p class="ai-suite__details-p">
-                        After your first tap or click, <strong>Language Detector</strong> runs on each headline. <strong>Translate</strong> appears only if the language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API (Gemini Nano). Some APIs need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> on localhost.
+                        After your first tap or click, <strong>Language Detector</strong> runs on each headline. <strong>Translate</strong> appears only if the language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API (Gemini Nano). <strong>Summarize</strong> uses Chrome’s Summarizer on pasted text only—the API cannot load URLs for you. Some APIs need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> on localhost.
                     </p>
                     <p class="ai-suite__details-links">
                         <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Gemini Nano</a>
@@ -464,14 +510,14 @@
 
               const avHuman =
                 availability === 'readily'
-                  ? 'ready'
+                  ? 'On-device model ready.'
                   : availability === 'downloading'
-                    ? 'preparing (first run may download)'
+                    ? 'Model downloading or preparing—first reply may be slower.'
                     : availability === 'downloadable'
-                      ? 'will download on first prompt'
-                      : String(availability || '');
+                      ? 'Model will download when you send your first prompt.'
+                      : String(availability || '').trim();
 
-              avEl.textContent = avHuman ? ` — ${avHuman}.` : '';
+              avEl.textContent = avHuman ? avHuman : '';
               prEl.textContent = '';
               prEl.hidden = true;
 
@@ -1008,7 +1054,7 @@
               const add = (label, on) => {
                 chips.push(`<li class="ai-suite__chip${on ? '' : ' ai-suite__chip--off'}">${label}</li>`);
               };
-              add('Gemini Nano', promptApiReady);
+              add('Prompt API', promptApiReady);
               add('Summarizer', summarizerReady);
               add('Translate', translateUiReady);
               add('Lang detect', langDetectScanOk);
@@ -1125,53 +1171,6 @@
             })();
         </script>
 
-        {% for category in categories %}
-        <section class="category category--{{ category.id }}">
-            <h2 class="category-title">
-                <span class="category-indicator"></span>
-                {{ category.label }}
-                <span class="story-count">{{ category.stories|length }} stories</span>
-            </h2>
-            
-            {% if category.stories %}
-            <div class="stories-grid">
-                {% for story in category.stories %}
-                <article class="story-card{% if story.is_new %} story-card--new{% endif %}">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="{{ story.source }}">{{ story.source }}</span>
-                        <span class="story-date">{{ story.time_ago }}{% if story.is_new %} <span class="badge-new">New</span>{% endif %}</span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="{{ story.link }}" target="_blank" rel="noopener noreferrer">
-                            {{ story.title }}
-                        </a>
-                    </h3>
-                    {% if story.description %}
-                    <p class="story-description">{{ story.description }}</p>
-                    {% endif %}
-                    <div class="story-card-ai">
-                        <div class="story-ai-actions">
-                            <span class="story-translate-slot">
-                                <button type="button" class="story-translate-btn story-translate-btn--pending" disabled
-                                    data-story-title="{{ story.title|e }}">Translate</button>
-                                <span class="story-lang-same" hidden></span>
-                            </span>
-                            <button type="button" class="story-ai-btn" disabled
-                                data-story-title="{{ story.title|e }}"
-                                data-story-source="{{ story.source|e }}"
-                                data-story-cat="{{ story.category_label|e }}">Why it matters</button>
-                        </div>
-                        <div class="story-translate-output" hidden></div>
-                        <div class="story-ai-output" hidden></div>
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-            {% else %}
-            <p class="no-stories">No stories available at the moment.</p>
-            {% endif %}
-        </section>
-        {% endfor %}
     </main>
 
     <footer class="site-footer">

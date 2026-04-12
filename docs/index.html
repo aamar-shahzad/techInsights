@@ -47,7 +47,7 @@
                     <p class="tagline">AI, Dev Tools & Tech News</p>
                 </div>
                 <div class="header-actions">
-                    <span class="updated">Updated April 12, 2026 at 04:28 UTC</span>
+                    <span class="updated">Updated April 12, 2026 at 04:33 UTC</span>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -91,7 +91,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">6 mins ago</span>
+                            <span class="top-story-time">11 mins ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -122,7 +122,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">11 mins ago</span>
+                            <span class="top-story-time">16 mins ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -153,7 +153,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--devtools">Developer Tools</span>
                             <span class="top-story-source">Dev.to</span>
-                            <span class="top-story-time">24 mins ago</span>
+                            <span class="top-story-time">28 mins ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -308,7 +308,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--ai">AI</span>
                             <span class="top-story-source">Wired AI</span>
-                            <span class="top-story-time">17 hours ago</span>
+                            <span class="top-story-time">18 hours ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -339,7 +339,7 @@
                         <div class="top-story-meta">
                             <span class="category-tag category-tag--ai">AI</span>
                             <span class="top-story-source">Wired AI</span>
-                            <span class="top-story-time">18 hours ago</span>
+                            <span class="top-story-time">19 hours ago</span>
                         </div>
                         <div class="top-story-ai">
                             <div class="story-ai-actions">
@@ -394,1016 +394,6 @@
         </section>
         
 
-        <section class="ai-suite ai-suite--integrated" aria-labelledby="ai-suite-title">
-            <div class="ai-suite__intro">
-                <div class="ai-suite__intro-main">
-                    <span class="ai-suite__eyebrow">On-device AI</span>
-                    <h2 class="ai-suite__title" id="ai-suite-title">Ask &amp; summarize</h2>
-                    <p class="ai-suite__tagline">
-                        <strong>Gemini Nano</strong> and other Chrome built-in APIs run in your browser. This site does not receive your prompts or pasted text.
-                    </p>
-                </div>
-                <ul class="ai-suite__chips ai-suite__chips--toolbar" id="ai-suite-chips" aria-label="Detected APIs"></ul>
-            </div>
-
-            <div id="ai-gemini-meta" class="ai-suite__model-meta ai-suite__model-meta--strip" hidden>
-                <p class="ai-suite__model-meta__p">
-                    <span class="ai-suite__model-meta__label">Gemini Nano</span>
-                    <span id="ai-gemini-availability" class="ai-suite__model-meta__av"></span>
-                    <code id="ai-gemini-params" class="ai-suite__model-meta__params" hidden></code>
-                </p>
-            </div>
-            <div id="ai-suite-status" class="ai-suite__status ai-suite__status--hidden" role="status"></div>
-
-            <div class="ai-suite__panel">
-                <div class="ai-suite__panel-col">
-                    <h3 class="ai-suite__panel-heading">Ask about this page</h3>
-                    <p class="ai-suite__panel-hint">Full story list as context · <code class="ai-suite__inline-code">LanguageModel</code></p>
-                    <div class="page-ai-ask__row ai-suite__ask-row">
-                        <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
-                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="3" placeholder="What stands out in security or AI this week?" disabled></textarea>
-                        <div class="ai-suite__ask-actions">
-                            <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
-                            <button type="button" class="ai-suite__ghost-btn" id="proofread-question-btn" hidden>Polish</button>
-                        </div>
-                    </div>
-                    <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
-                    <div class="ai-suite__reply-tools" id="rewriter-answer-tools" hidden>
-                        <span class="ai-suite__reply-tools-label">Refine</span>
-                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-shorter-btn">Shorter</button>
-                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-formal-btn">More formal</button>
-                    </div>
-                </div>
-
-                <div class="ai-suite__panel-col ai-suite__panel-col--summarize" id="page-ai-summarize" hidden>
-                    <h3 class="ai-suite__panel-heading">Summarize a clip</h3>
-                    <p class="ai-suite__panel-hint">Summarizer API · paste body text, not only a headline.</p>
-                    <div class="page-ai-ask__row">
-                        <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
-                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs…" disabled></textarea>
-                        <button type="button" class="page-ai-ask__submit" id="article-summarize-submit" disabled>Summarize</button>
-                    </div>
-                    <p id="article-summarize-status" class="page-ai-summarize__status" role="status" hidden></p>
-                    <div id="article-summarize-output" class="page-ai-reply page-ai-reply--markdown" aria-live="polite" hidden></div>
-                </div>
-            </div>
-
-            <details class="ai-suite__details">
-                <summary class="ai-suite__details-summary">Headlines, translate, and API requirements</summary>
-                <div class="ai-suite__details-body">
-                    <p class="ai-suite__details-p">
-                        After your first tap or click, <strong>Language Detector</strong> runs on each headline. <strong>Translate</strong> appears only if the language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API (Gemini Nano). Some APIs need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> on localhost.
-                    </p>
-                    <p class="ai-suite__details-links">
-                        <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Gemini Nano</a>
-                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
-                        <a href="https://developer.chrome.com/docs/ai/prompt-api" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Prompt API</a>
-                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
-                        <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI overview</a>
-                    </p>
-                </div>
-            </details>
-        </section>
-
-        <script id="top-stories-data" type="application/json">
-            [{"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "6 mins ago", "title": "Open-source AI Built Qwen\u2019s Reach. Alibaba Wants Cloud Cash"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "11 mins ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "24 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "5 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}]
-        </script>
-        <script id="full-page-stories-data" type="application/json">
-            [{"category": "devtools", "category_label": "Developer Tools", "description": "Three hundred million downloads and more than 100,000 derivative models is what success looks like in open-source AI\u2014at least until someone in finance asks where the money is. Alibaba\u2019s own...", "source": "Dev.to", "time_ago": "6 mins ago", "title": "Open-source AI Built Qwen\u2019s Reach. Alibaba Wants Cloud Cash"}, {"category": "devtools", "category_label": "Developer Tools", "description": "I\u2019ve released ACR Designer, a WYSIWYG report designer for the ACR (Across Report Renderer) engine. It focuses on pixel-perfect layout and printer-independent rendering. Key features: WYSIWYG...", "source": "Dev.to", "time_ago": "11 mins ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "description": "I had a bug fix PR \u2014 a NullReferenceException crash in production. Straightforward: remove a null-forgiving operator, add a guard, write some tests, ship it. The kind of thing you\u0027d rubber-stamp...", "source": "Dev.to", "time_ago": "24 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI systems today are stateless by design. That\u2019s not a feature \u2014 it\u2019s a limitation. Context disappears Decisions are lost Knowledge doesn\u2019t accumulate We\u2019ve normalized this. But what if AI...", "source": "Dev.to", "time_ago": "26 mins ago", "title": "\ud83e\udde0 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI agents forget you exist the moment you close the tab. You spend an afternoon explaining your project, your preferences, your workflow. You get something useful. Then you open a new session...", "source": "Dev.to", "time_ago": "42 mins ago", "title": "Hermes Agent: The Open Source AI Agent That Actually Remembers You"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Three Tables: What People See When They Look at Your Trading System Notes on perspective, projection, and the layers of any automated investment system A quant developer, a systems architect, and...", "source": "Dev.to", "time_ago": "42 mins ago", "title": "Three Tables: What People See When They Look at Your Trading System"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Something changed in how people find information and most content creators haven\u0027t adjusted yet. A growing percentage of search queries never reach Google at all. They go to ChatGPT, Perplexity,...", "source": "Dev.to", "time_ago": "43 mins ago", "title": "Answer Engine Optimization: Google Isn\u0027t the Only Search Engine That Matters Anymore"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Everyone recommends automation tools. Almost nobody tells you which one to actually use for your specific situation. Zapier, Make.com, and n8n are not the same product. They solve different...", "source": "Dev.to", "time_ago": "44 mins ago", "title": "Make.com vs Zapier vs n8n in 2026: Which One Do You Actually Need?"}, {"category": "devtools", "category_label": "Developer Tools", "description": "n8n is the open-source alternative to Zapier -- free, GDPR-compliant, and with AI integration. Ten concrete workflows for marketing, sales, support, and accounting that save time immediately....", "source": "Dev.to", "time_ago": "46 mins ago", "title": "10 n8n Workflows Every Small Business Can Use Right Away"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most people open Claude Code, type a question, and get an answer. That\u0027s the whole experience. There\u0027s nothing wrong with that. But it\u0027s like buying a Swiss Army knife and only using the bottle...", "source": "Dev.to", "time_ago": "46 mins ago", "title": "10 GitHub Repos That Turn Claude Code Into a Productivity Machine"}, {"category": "tech", "category_label": "Tech Industry", "description": "Dutch regulators, the RDW, announced that after over a year and a half of testing, it has officially approved Tesla\u0027s Full-Self Driving (FSD) Supervised. This makes the Netherlands the first...", "source": "The Verge", "time_ago": "5 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "description": "The OpenAI CEO\u0027s new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "description": "Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren\u0027t showing, and Google says they were never supposed to. Spokesperson Ned Adriance...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "description": "Like many live-service games before it, Pok\u00e9mon Champions\u0027 launch has been messy. The free-to-start battle sim, which is out now on the Switch and Switch 2 (and also coming to mobile later this...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "tech", "category_label": "Tech Industry", "description": "The illustration for The New Yorker\u0027s profile of OpenAI CEO Sam Altman is a jump scare. Altman stands in a blue sweater with a blank expression. Around his head hovers a cluster of disembodied...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Your article about AI doesn\u2019t need AI art"}, {"category": "tech", "category_label": "Tech Industry", "description": "If you\u2019ve ever worried about porch pirates stealing packages while you\u2019re away, a video doorbell can offer some peace of mind, letting you keep tabs on deliveries no matter where you are. Google...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google\u2019s latest Nest Doorbells just hit their lowest prices of the year"}, {"category": "tech", "category_label": "Tech Industry", "description": "Two weeks ago, I was getting ready to log off work when I got a text message. \"Oh wow, I was checking out Mitski. did you know people are saying her Dad was a CIA operative?\" Normally, that kind...", "source": "The Verge", "time_ago": "14 hours ago", "title": "My baby deer plushie told me that Mitski\u0026#8217;s dad was a CIA operative"}, {"category": "tech", "category_label": "Tech Industry", "description": "Nintendo seemingly designed its latest console to be a mystery for third-party accessory makers. With the Switch 2, the company changed the wireless protocol for connecting controllers to the new...", "source": "The Verge", "time_ago": "14 hours ago", "title": "You don\u2019t have to spend more than $50 on a great USB-C dock for your Switch 2"}, {"category": "tech", "category_label": "Tech Industry", "description": "There\u0027s one very specific reason I keep a Wii U handy, and that\u0027s so that I have an easy way to play the classic pinball game Devil\u0027s Crush. Over the years, it has become a comfort game for me....", "source": "The Verge", "time_ago": "15 hours ago", "title": "Demons and pinball are a perfect match"}, {"category": "tech", "category_label": "Tech Industry", "description": "In the early days of the war on Iran, while the White House was busy posting Call of Duty memes and AI slop of dancing bowling pins, the Iranian regime\u0027s state media was flooding the zone with...", "source": "The Verge", "time_ago": "15 hours ago", "title": "How Iran out-shitposted the White House"}, {"category": "tech", "category_label": "Tech Industry", "description": "Hi, friends! Welcome to Installer No. 123, your guide to the best and Verge-iest stuff in the world. (If you\u0027re new here, welcome, which Artemis photo did you make your wallpaper, and also you can...", "source": "The Verge", "time_ago": "16 hours ago", "title": "The new show making fun of tech bros"}, {"category": "ai", "category_label": "AI", "description": "Plus: Iran\u2019s internet blackout hits the 1,000-hour mark, cryptocurrency scams result in a record amount of money stolen from Americans, and more.", "source": "Wired AI", "time_ago": "17 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "description": "From AI-generated images to restricted satellite data, the systems used to verify what\u2019s real online are struggling to keep up.", "source": "Wired AI", "time_ago": "18 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "description": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global...", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}, {"category": "security", "category_label": "Security", "description": "Regulation is hard: The South Pacific Regional Fisheries Management Organization (SPRFMO) oversees fishing across roughly 59 million square kilometers (22 million square miles) of the South...", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Friday Squid Blogging: Squid Overfishing in the South Pacific"}, {"category": "ai", "category_label": "AI", "description": "This ban took place after Claude\u0027s pricing changed for OpenClaw users last week.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Anthropic temporarily banned OpenClaw\u2019s creator from accessing Claude"}, {"category": "ai", "category_label": "AI", "description": "The new AI model is being heralded\u2014and feared\u2014as a hacker\u2019s superweapon. Experts say its arrival is a wake-up call for developers who have long made security an afterthought.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Anthropic\u2019s Mythos Will Force a Cybersecurity Reckoning\u2014Just Not the One You Think"}, {"category": "ai", "category_label": "AI", "description": "OpenAI ignored three warnings that a ChatGPT user was dangerous \u2014 including its own mass-casualty flag \u2014 while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser\u2019s delusions and ignored her warnings"}, {"category": "ai", "category_label": "AI", "description": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving\u0027s...", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Battlefield with it"}, {"category": "ai", "category_label": "AI", "description": "An attacker allegedly threw a molotov cocktail at the OpenAI CEO\u2019s residence before making threats outside of the startup\u2019s headquarters.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman\u2019s Home"}, {"category": "ai", "category_label": "AI", "description": "Onix is launching a \u201cSubstack of bots,\u201d where digital twins of health and wellness influencers dispense advice 24/7. And maybe hawk their products.", "source": "Wired AI", "time_ago": "1 day ago", "title": "This Startup Wants You to Pay Up to Talk With AI Versions of Human Experts"}, {"category": "ai", "category_label": "AI", "description": "Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine\u2014or an \u201cindividualized neoantigen treatment\u201d? That\u2019s the Trump-era vocabulary paradox...", "source": "MIT Tech Review", "time_ago": "1 day ago", "title": "What\u2019s in a name? Moderna\u2019s \u201cvaccine\u201d vs. \u201ctherapy\u201d dilemma"}, {"category": "security", "category_label": "Security", "description": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that\u0027s designed to stealthily infect all integrated development...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs"}, {"category": "security", "category_label": "Security", "description": "While much of the discussion on AI security centers around protecting \u2018shadow\u2019 AI and GenAI consumption, there\u0027s a wide-open window nobody\u0027s guarding: AI browser extensions. A new report from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About"}, {"category": "security", "category_label": "Security", "description": "Claude is actually pretty good on the issues.", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Sen. Sanders Talks to Claude About AI and Privacy"}, {"category": "security", "category_label": "Security", "description": "Google has made Device Bound Session Credentials (DBSC) generally available to all Windows users of its Chrome web browser, months after it began testing the security feature in open beta. The...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows"}, {"category": "security", "category_label": "Security", "description": "A critical security vulnerability in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according to findings from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure"}, {"category": "security", "category_label": "Security", "description": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor. The incident impacts Smart Slider...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers"}, {"category": "security", "category_label": "Security", "description": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs"}, {"category": "security", "category_label": "Security", "description": "A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re thrilled to announce that Harshita Arora is joining Y Combinator as a General Partner. She brings deep fintech and infrastructure experience, a founder\u0027s instinct for product, and the...", "source": "Y Combinator", "time_ago": "5 days ago", "title": "Harshita Arora Joins YC as General Partner"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countries of incorporation.", "source": "Y Combinator", "time_ago": "Feb 05, 2026", "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they\u0027ve built the operating system construction has been missing\u2014built by contractors, for contractors....", "source": "Y Combinator", "time_ago": "Jan 23, 2026", "title": "Congratulations to EquipmentShare on Going Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027ve partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free credits for AI devtools.", "source": "Y Combinator", "time_ago": "Jan 16, 2026", "title": "Announcing the YC AI Stack"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u2019re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.", "source": "Y Combinator", "time_ago": "Dec 18, 2025", "title": "2026 Demo Day Dates"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses. Congrats to Vidit and Sanjeev...", "source": "Y Combinator", "time_ago": "Dec 10, 2025", "title": "Meesho Goes Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, Groww, India\u0027s leading digital investing platform, goes public. Tens of millions use Groww to invest simply and confidently in stocks, mutual funds, and ETFs. As YC\u0027s first company to list...", "source": "Y Combinator", "time_ago": "Nov 12, 2025", "title": "Congratulations to Groww"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, BillionToOne goes public, becoming YC\u0027s fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S. Today, 1 in 11 babies...", "source": "Y Combinator", "time_ago": "Nov 06, 2025", "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re excited to announce that nine exceptional founders are joining us as Visiting Partners at YC: Matt Riley, Harshita Arora, Grey Baker, Christopher Golda, Raphael Schaad, Christina Gilbert,...", "source": "Y Combinator", "time_ago": "Oct 14, 2025", "title": "Meet YC\u0027s Newest Visiting Partners"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We are entering the era of Fintech 3.0. Regulatory clarity, growing consumer adoption, and low-cost chains have paved the way for a golden age of building in crypto \u2014 and at YC, Base, and...", "source": "Y Combinator", "time_ago": "Sep 23, 2025", "title": "YC x Coinbase RFS: Build Onchain"}]
-        </script>
-        <script type="module">
-            /**
-             * Chrome Prompt API (on-device Gemini Nano).
-             * @see https://developer.chrome.com/docs/ai/prompt-api
-             * Summarizer, Language Detector, Translator: https://developer.chrome.com/docs/ai/built-in-apis
-             * Pass the same modality options to availability(), create(), and prompts per official guidance.
-             */
-            const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
-            const BUILTIN_AI_DOC = 'https://developer.chrome.com/docs/ai/built-in-apis';
-            const DETECTOR_INPUT_LANGS = [
-              'en', 'en-US', 'es', 'fr', 'de', 'ja', 'zh', 'zh-CN', 'zh-TW', 'ko', 'pt', 'pt-BR',
-              'it', 'nl', 'pl', 'ru', 'ar', 'hi', 'tr', 'sv', 'da', 'no', 'fi', 'cs', 'uk',
-            ];
-
-            /**
-             * Same entry points as Chrome samples: global LanguageModel or window.ai.languageModel.
-             * @returns {typeof LanguageModel | null}
-             */
-            function getLanguageModelApi() {
-              if (typeof LanguageModel !== 'undefined') return LanguageModel;
-              if (typeof window !== 'undefined' && window.ai && window.ai.languageModel) {
-                return window.ai.languageModel;
-              }
-              return null;
-            }
-
-            /** Per docs, primary gate is availability !== 'unavailable'; some builds use "no". */
-            function isAvailabilityBlocked(level) {
-              return level === 'unavailable' || level === 'no';
-            }
-
-            /** Must match create() and prompt() usage (text en → en). */
-            const LM_OPTIONS = {
-              expectedInputs: [{ type: 'text', languages: ['en'] }],
-              expectedOutputs: [{ type: 'text', languages: ['en'] }],
-            };
-
-            const ASK_FEED_SYSTEM_PROMPT = [
-              'You answer questions about the Tech Insights page the user has open.',
-              'Use only the full page snapshot in your instructions. If the snapshot does not support an answer, say so in one sentence.',
-              'Be direct; aim under 150 words unless the user asks for a list or detail.',
-            ].join(' ');
-
-            const STORY_ANGLE_SYSTEM_PROMPT = [
-              'You explain why one headline matters to someone who follows tech and startups.',
-              'The full page snapshot lists every story on the page; focus on the story named in the user message.',
-              'Reply with one or two short sentences. No title repetition, no hype.',
-            ].join(' ');
-
-            const topStoriesOnly = JSON.parse(
-              document.getElementById('top-stories-data')?.textContent || '[]'
-            );
-            const fullPageStoriesRaw = JSON.parse(
-              document.getElementById('full-page-stories-data')?.textContent || '[]'
-            );
-            /** Every story on this page (all sections); used as LLM grounding. Falls back to top stories if empty. */
-            const pageStories =
-              Array.isArray(fullPageStoriesRaw) && fullPageStoriesRaw.length > 0
-                ? fullPageStoriesRaw
-                : topStoriesOnly;
-
-            const aiSuiteStatus = document.getElementById('ai-suite-status');
-            const aiSuiteChips = document.getElementById('ai-suite-chips');
-            const askFeedInput = document.getElementById('ask-feed-input');
-            const askFeedSubmit = document.getElementById('ask-feed-submit');
-            const askFeedReply = document.getElementById('ask-feed-reply');
-            const proofreadQuestionBtn = document.getElementById('proofread-question-btn');
-            const rewriterAnswerTools = document.getElementById('rewriter-answer-tools');
-            const rewriteShorterBtn = document.getElementById('rewrite-shorter-btn');
-            const rewriteFormalBtn = document.getElementById('rewrite-formal-btn');
-            const summarizeSection = document.getElementById('page-ai-summarize');
-            const articleSummarizeInput = document.getElementById('article-summarize-input');
-            const articleSummarizeSubmit = document.getElementById('article-summarize-submit');
-            const articleSummarizeStatus = document.getElementById('article-summarize-status');
-            const articleSummarizeOutput = document.getElementById('article-summarize-output');
-
-            let promptApiReady = false;
-            let summarizerReady = false;
-            let translateUiReady = false;
-            let proofreaderReady = false;
-            let rewriterReady = false;
-
-            /** BCP-47 primary subtag, lowercased (e.g. en-US → en). */
-            function primaryLangTag(tag) {
-              if (!tag || tag === 'und') return '';
-              return String(tag).split('-')[0].toLowerCase();
-            }
-
-            function userTargetLanguageTag() {
-              const nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
-              return nav;
-            }
-
-            /** Chrome docs: Language Detector / Translator are desktop-only today. */
-            function isTranslationDesktopLikely() {
-              if (typeof navigator !== 'undefined' && navigator.userAgentData && navigator.userAgentData.mobile) {
-                return false;
-              }
-              return !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
-            }
-
-            function summarizerAvailabilityBlocked(level) {
-              return level === 'unavailable' || level === 'no';
-            }
-
-            function setTranslateButtonsEnabled(on) {
-              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
-                if (btn.hidden) return;
-                btn.disabled = !on;
-              });
-            }
-
-            /** True only after a successful LanguageDetector batch pass (not fallback). */
-            let langDetectScanOk = false;
-
-            function revealTranslateButtonsFallback() {
-              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
-                btn.classList.remove('story-translate-btn--pending');
-                const slot = btn.closest('.story-translate-slot');
-                const sameEl = slot && slot.querySelector('.story-lang-same');
-                if (sameEl) {
-                  sameEl.hidden = true;
-                  sameEl.textContent = '';
-                }
-                btn.hidden = false;
-                btn.disabled = !translateUiReady;
-              });
-            }
-
-            function hideAllStoryTranslateSlots() {
-              document.querySelectorAll('.story-translate-slot').forEach((slot) => {
-                slot.hidden = true;
-              });
-            }
-
-            /**
-             * LanguageDetector.create() must run in a user-activation path. We call create() from the first
-             * pointerdown or focusin on main, then detect each headline and show Translate only if the
-             * primary language differs from the browser language.
-             */
-            function scheduleStoryLanguageScan() {
-              const main = document.querySelector('main');
-              if (!main || main.dataset.langScanScheduled === '1') return;
-              main.dataset.langScanScheduled = '1';
-
-              let started = false;
-              const kickOffScan = () => {
-                if (started) return;
-                started = true;
-                LanguageDetector.create({
-                  expectedInputLanguages: DETECTOR_INPUT_LANGS,
-                })
-                  .then(async (detector) => {
-                    try {
-                      const browserP = primaryLangTag(userTargetLanguageTag());
-                      const buttons = document.querySelectorAll('.story-translate-btn');
-                      for (const btn of buttons) {
-                        const title = btn.getAttribute('data-story-title') || '';
-                        const slot = btn.closest('.story-translate-slot');
-                        const sameEl = slot && slot.querySelector('.story-lang-same');
-                        if (!title) continue;
-                        let needsTranslate = true;
-                        try {
-                          const results = await detector.detect(title);
-                          const scored = (results || []).filter(
-                            (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
-                          );
-                          scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
-                          const detected = scored[0] ? scored[0].detectedLanguage : '';
-                          if (detected) {
-                            btn.setAttribute('data-detected-lang', detected);
-                          }
-                          const detP = primaryLangTag(detected);
-                          needsTranslate = !(detP && browserP && detP === browserP);
-                        } catch (_) {
-                          needsTranslate = true;
-                        }
-                        btn.classList.remove('story-translate-btn--pending');
-                        if (needsTranslate) {
-                          btn.hidden = false;
-                          btn.disabled = !translateUiReady;
-                          if (sameEl) {
-                            sameEl.hidden = true;
-                            sameEl.textContent = '';
-                          }
-                        } else {
-                          btn.hidden = true;
-                          btn.disabled = true;
-                          if (sameEl) {
-                            sameEl.hidden = false;
-                            const br = browserP || '?';
-                            sameEl.textContent = `Same language as browser (${br})`;
-                          }
-                        }
-                      }
-                    } finally {
-                      try {
-                        if (detector && detector.destroy) await detector.destroy();
-                      } catch (_) {
-                        /* ignore */
-                      }
-                      langDetectScanOk = true;
-                      refreshCapabilityChips();
-                    }
-                  })
-                  .catch(() => {
-                    revealTranslateButtonsFallback();
-                    refreshCapabilityChips();
-                  });
-              };
-
-              main.addEventListener('pointerdown', kickOffScan, { capture: true });
-              main.addEventListener('focusin', kickOffScan, { capture: true });
-            }
-
-            function setAiSuiteStatus(html, variant) {
-              if (!aiSuiteStatus) return;
-              aiSuiteStatus.innerHTML = html;
-              aiSuiteStatus.classList.remove('ai-suite__status--hidden', 'ai-suite__status--warn', 'ai-suite__status--ok');
-              if (variant === 'warn') aiSuiteStatus.classList.add('ai-suite__status--warn');
-              else if (variant === 'ok') aiSuiteStatus.classList.add('ai-suite__status--ok');
-            }
-
-            function hideAiSuiteStatus() {
-              if (!aiSuiteStatus) return;
-              aiSuiteStatus.innerHTML = '';
-              aiSuiteStatus.classList.add('ai-suite__status--hidden');
-            }
-
-            const setIntegratedAiEnabled = (enabled) => {
-              document.querySelectorAll('.story-ai-btn').forEach((btn) => {
-                btn.disabled = !enabled;
-              });
-              if (askFeedInput) askFeedInput.disabled = !enabled;
-              if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
-            };
-
-            function hideGeminiMeta() {
-              const wrap = document.getElementById('ai-gemini-meta');
-              const pr = document.getElementById('ai-gemini-params');
-              if (wrap) wrap.hidden = true;
-              if (pr) {
-                pr.textContent = '';
-                pr.hidden = true;
-              }
-            }
-
-            /** Mirrors Chrome’s Prompt API docs: surface availability + optional params(). */
-            function formatModelParams(p) {
-              if (!p || typeof p !== 'object') return '';
-              const bits = [];
-              if (p.defaultTemperature != null && p.maxTemperature != null) {
-                bits.push(`temperature ${p.defaultTemperature}–${p.maxTemperature}`);
-              } else if (p.defaultTemperature != null) {
-                bits.push(`temperature ${p.defaultTemperature}`);
-              }
-              if (p.defaultTopK != null || p.maxTopK != null) {
-                bits.push(
-                  `topK ${p.defaultTopK != null ? p.defaultTopK : '?'} / max ${p.maxTopK != null ? p.maxTopK : '?'}`
-                );
-              }
-              return bits.join(' · ');
-            }
-
-            async function renderGeminiNanoMeta(lmApi, availability) {
-              const wrap = document.getElementById('ai-gemini-meta');
-              const avEl = document.getElementById('ai-gemini-availability');
-              const prEl = document.getElementById('ai-gemini-params');
-              if (!wrap || !avEl || !prEl) return;
-
-              const avHuman =
-                availability === 'readily'
-                  ? 'ready'
-                  : availability === 'downloading'
-                    ? 'preparing (first run may download)'
-                    : availability === 'downloadable'
-                      ? 'will download on first prompt'
-                      : String(availability || '');
-
-              avEl.textContent = avHuman ? ` — ${avHuman}.` : '';
-              prEl.textContent = '';
-              prEl.hidden = true;
-
-              try {
-                if (typeof lmApi.params === 'function') {
-                  const p = await lmApi.params(LM_OPTIONS);
-                  const line = formatModelParams(p);
-                  if (line) {
-                    prEl.textContent = line;
-                    prEl.hidden = false;
-                  }
-                }
-              } catch (_) {
-                /* params() may be unsupported in some web builds; docs note extension nuances. */
-              }
-
-              wrap.hidden = false;
-            }
-
-            const renderPromptUnavailable = (detailHtml) => {
-              hideGeminiMeta();
-              setAiSuiteStatus(detailHtml, 'warn');
-              promptApiReady = false;
-              setIntegratedAiEnabled(false);
-              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
-            };
-
-            /** Cap embedded snapshot size so create() stays within on-device context limits. */
-            const MAX_PAGE_GROUNDING_CHARS = 72000;
-
-            /**
-             * Structured dump of every story on the page (all categories), for system-context grounding.
-             */
-            function buildPageGroundingText(list) {
-              if (!list || !list.length) return '';
-              const byCat = {};
-              for (const s of list) {
-                const lab = s.category_label || s.category || 'General';
-                if (!byCat[lab]) byCat[lab] = [];
-                byCat[lab].push(s);
-              }
-              const parts = [];
-              parts.push(`Tech Insights — full page (${list.length} stories, every section below the fold included)`);
-              parts.push('');
-              const catOrder = Object.keys(byCat).sort();
-              for (const cat of catOrder) {
-                parts.push(`## ${cat}`);
-                const items = byCat[cat];
-                items.forEach((s, idx) => {
-                  const title = s.title || 'Untitled';
-                  const src = s.source || '';
-                  const when = s.time_ago || '';
-                  parts.push(`${idx + 1}. ${title}`);
-                  parts.push(`   Source: ${src} · ${when}`);
-                  const desc = s.description && String(s.description).trim();
-                  if (desc) {
-                    parts.push(`   Excerpt: ${desc.replace(/\s+/g, ' ')}`);
-                  }
-                });
-                parts.push('');
-              }
-              let text = parts.join('\n');
-              if (text.length > MAX_PAGE_GROUNDING_CHARS) {
-                text =
-                  text.slice(0, MAX_PAGE_GROUNDING_CHARS) +
-                  '\n\n[Snapshot truncated to fit the model context window.]';
-              }
-              return text;
-            }
-
-            async function closeLmSession(session) {
-              if (session && typeof session.destroy === 'function') {
-                try {
-                  await session.destroy();
-                } catch (_) {
-                  /* ignore */
-                }
-              }
-            }
-
-            /**
-             * Ephemeral session per user action (ask, story angle)—avoids cross-talk in session history.
-             * @param {string} [pageGrounding] Full-page story snapshot appended to system prompt (max length capped).
-             */
-            async function openLmSession(lmApi, systemPrompt, onDownloadPct, pageGrounding) {
-              let combined = systemPrompt;
-              if (pageGrounding && pageGrounding.trim()) {
-                combined = [
-                  systemPrompt,
-                  '',
-                  '---',
-                  'PAGE_SNAPSHOT (ground truth for this page — only these rows count as facts):',
-                  pageGrounding.trim(),
-                ].join('\n');
-              }
-              const baseOpts = {
-                ...LM_OPTIONS,
-                initialPrompts: [{ role: 'system', content: combined }],
-                monitor(m) {
-                  m.addEventListener('downloadprogress', (e) => {
-                    const pct = Math.round((e.loaded || 0) * 100);
-                    if (onDownloadPct) onDownloadPct(pct);
-                  });
-                },
-              };
-              try {
-                return await lmApi.create({ ...baseOpts, maxOutputTokens: 1024 });
-              } catch (e) {
-                return await lmApi.create(baseOpts);
-              }
-            }
-
-            const runAskFeed = async () => {
-              const q = (askFeedInput && askFeedInput.value) ? askFeedInput.value.trim() : '';
-              if (!q || !promptApiReady) return;
-              if (!pageStories || pageStories.length === 0) {
-                askFeedReply.hidden = false;
-                askFeedReply.textContent = 'No story data. Rebuild the site.';
-                return;
-              }
-              const lmApi = getLanguageModelApi();
-              if (!lmApi) return;
-              const availability = await lmApi.availability(LM_OPTIONS);
-              if (isAvailabilityBlocked(availability)) {
-                askFeedReply.hidden = false;
-                askFeedReply.textContent = 'Not available on this device.';
-                return;
-              }
-
-              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
-              askFeedSubmit.disabled = true;
-              askFeedInput.disabled = true;
-              askFeedReply.hidden = false;
-              askFeedReply.textContent = '';
-              askFeedReply.classList.add('page-ai-reply--loading');
-
-              const pageGrounding = buildPageGroundingText(pageStories);
-              const userTurn = `[Question]\n${q}`;
-
-              let session = null;
-              try {
-                session = await openLmSession(lmApi, ASK_FEED_SYSTEM_PROMPT, (pct) => {
-                  askFeedReply.textContent = `Preparing… ${pct}%`;
-                }, pageGrounding);
-                if (typeof session.promptStreaming === 'function') {
-                  const stream = session.promptStreaming(userTurn);
-                  let full = '';
-                  for await (const chunk of stream) {
-                    full += chunk;
-                    askFeedReply.textContent = full;
-                  }
-                } else {
-                  const out = await session.prompt(userTurn);
-                  askFeedReply.textContent = String(out != null ? out : '');
-                }
-                if (rewriterReady && rewriterAnswerTools && askFeedReply.textContent.trim()) {
-                  rewriterAnswerTools.hidden = false;
-                }
-              } catch (err) {
-                askFeedReply.textContent = `Couldn’t complete: ${String(err.message || err)}`;
-              } finally {
-                askFeedReply.classList.remove('page-ai-reply--loading');
-                await closeLmSession(session);
-                askFeedSubmit.disabled = false;
-                askFeedInput.disabled = false;
-              }
-            };
-
-            const runStoryAngle = async (btn) => {
-              const title = btn.getAttribute('data-story-title') || '';
-              const source = btn.getAttribute('data-story-source') || '';
-              const cat = btn.getAttribute('data-story-cat') || '';
-              const outEl = btn.parentElement && btn.parentElement.querySelector('.story-ai-output');
-              if (!outEl || !promptApiReady) return;
-              const lmApi = getLanguageModelApi();
-              if (!lmApi) return;
-              const availability = await lmApi.availability(LM_OPTIONS);
-              if (isAvailabilityBlocked(availability)) {
-                outEl.hidden = false;
-                outEl.textContent = 'Not available here.';
-                return;
-              }
-
-              btn.disabled = true;
-              outEl.hidden = false;
-              outEl.textContent = '…';
-              outEl.classList.add('story-ai-output--loading');
-
-              const userTurn = `Focused story — Title: ${title}\nSource: ${source}\nCategory: ${cat}\n\nWhy might this matter to a tech reader? Answer in one or two sentences.`;
-
-              let session = null;
-              try {
-                const pageGrounding = buildPageGroundingText(pageStories);
-                session = await openLmSession(lmApi, STORY_ANGLE_SYSTEM_PROMPT, () => {}, pageGrounding);
-                const text = await session.prompt(userTurn);
-                outEl.textContent = String(text != null ? text : '').trim() || '—';
-              } catch (err) {
-                outEl.textContent = `Couldn’t generate: ${String(err.message || err)}`;
-              } finally {
-                outEl.classList.remove('story-ai-output--loading');
-                await closeLmSession(session);
-                btn.disabled = false;
-              }
-            };
-
-            async function acquireTranslator(sourceLanguage, targetLanguage, onDownloadPct) {
-              const langs = { sourceLanguage, targetLanguage };
-              let level;
-              try {
-                level = await Translator.availability(langs);
-              } catch (e) {
-                return { error: String(e.message || e), translator: null };
-              }
-              if (level == null || level === 'unavailable') {
-                return { error: 'This language pair isn’t supported here.', translator: null };
-              }
-              const opts = { ...langs };
-              if (level === 'downloadable' || level === 'downloading') {
-                opts.monitor = function monitor(m) {
-                  m.addEventListener('downloadprogress', (e) => {
-                    const pct = Math.round((e.loaded || 0) * 100);
-                    if (onDownloadPct) onDownloadPct(pct);
-                  });
-                };
-              }
-              try {
-                const translator = await Translator.create(opts);
-                return { error: null, translator };
-              } catch (e) {
-                return { error: String(e.message || e), translator: null };
-              }
-            }
-
-            async function runTranslateTitle(btn) {
-              const title = btn.getAttribute('data-story-title') || '';
-              const wrap = btn.closest('.top-story-ai, .story-card-ai');
-              const outEl = wrap && wrap.querySelector('.story-translate-output');
-              if (!outEl || !title || !translateUiReady || btn.hidden) return;
-
-              outEl.hidden = false;
-              outEl.textContent = '…';
-              outEl.classList.add('story-translate-output--loading');
-
-              let detector = null;
-              let translator = null;
-              try {
-                let sourceTag = btn.getAttribute('data-detected-lang') || '';
-                if (!sourceTag) {
-                  detector = await LanguageDetector.create({
-                    expectedInputLanguages: DETECTOR_INPUT_LANGS,
-                  });
-                  const results = await detector.detect(title);
-                  if (detector.destroy) {
-                    await detector.destroy();
-                  }
-                  detector = null;
-                  const scored = (results || []).filter(
-                    (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
-                  );
-                  scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
-                  sourceTag = scored[0] ? scored[0].detectedLanguage : '';
-                }
-
-                if (!sourceTag) {
-                  outEl.textContent = 'Could not detect the headline language.';
-                  return;
-                }
-
-                const targetTag = userTargetLanguageTag();
-                const srcPrimary = primaryLangTag(sourceTag);
-                const tgtPrimary = primaryLangTag(targetTag);
-
-                if (srcPrimary && tgtPrimary && srcPrimary === tgtPrimary) {
-                  outEl.textContent = 'Already matches your browser language.';
-                  return;
-                }
-
-                const pairSrc = srcPrimary || sourceTag;
-                const pairTgt = tgtPrimary || targetTag;
-
-                outEl.textContent = 'Translating…';
-                const acq = await acquireTranslator(pairSrc, pairTgt, (pct) => {
-                  outEl.textContent = `Preparing translator… ${pct}%`;
-                });
-                if (acq.error || !acq.translator) {
-                  outEl.textContent = acq.error || 'Translation unavailable.';
-                  return;
-                }
-                translator = acq.translator;
-                const translated = await translator.translate(title);
-                outEl.textContent = String(translated != null ? translated : '').trim() || '—';
-                if (translator.destroy) {
-                  await translator.destroy();
-                }
-                translator = null;
-              } catch (err) {
-                outEl.textContent = String(err.message || err);
-              } finally {
-                outEl.classList.remove('story-translate-output--loading');
-                try {
-                  if (detector && detector.destroy) await detector.destroy();
-                } catch (_) {
-                  /* ignore */
-                }
-                try {
-                  if (translator && translator.destroy) await translator.destroy();
-                } catch (_) {
-                  /* ignore */
-                }
-              }
-            }
-
-            async function runSummarizeArticle() {
-              const raw =
-                articleSummarizeInput && articleSummarizeInput.value
-                  ? articleSummarizeInput.value.trim()
-                  : '';
-              if (raw.length < 40) {
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.hidden = false;
-                  articleSummarizeStatus.textContent =
-                    'Paste at least a short paragraph (about 40+ characters).';
-                }
-                return;
-              }
-              if (!summarizerReady || typeof Summarizer === 'undefined') return;
-
-              if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = true;
-              if (articleSummarizeInput) articleSummarizeInput.disabled = true;
-              if (articleSummarizeStatus) {
-                articleSummarizeStatus.hidden = false;
-                articleSummarizeStatus.textContent = 'Summarizing…';
-              }
-              if (articleSummarizeOutput) {
-                articleSummarizeOutput.hidden = false;
-                articleSummarizeOutput.textContent = '';
-                articleSummarizeOutput.classList.add('page-ai-reply--loading');
-              }
-
-              const outLang = navigator.language || 'en-US';
-              const createOpts = {
-                sharedContext: 'Tech or business news article. The reader wants a short takeaway.',
-                type: 'tldr',
-                length: 'short',
-                format: 'plain-text',
-                expectedInputLanguages: DETECTOR_INPUT_LANGS,
-                outputLanguage: outLang,
-                monitor(m) {
-                  m.addEventListener('downloadprogress', (e) => {
-                    const pct = Math.round((e.loaded || 0) * 100);
-                    if (articleSummarizeStatus) {
-                      articleSummarizeStatus.hidden = false;
-                      articleSummarizeStatus.textContent = `Preparing model… ${pct}%`;
-                    }
-                  });
-                },
-              };
-
-              let sum = null;
-              try {
-                const av = await Summarizer.availability();
-                if (summarizerAvailabilityBlocked(av)) {
-                  if (articleSummarizeStatus) {
-                    articleSummarizeStatus.textContent =
-                      'Summarizer isn’t available on this device. See Chrome built-in AI requirements.';
-                  }
-                  return;
-                }
-                sum = await Summarizer.create(createOpts);
-                if (typeof sum.summarizeStreaming === 'function') {
-                  const stream = sum.summarizeStreaming(raw, {
-                    context: 'Audience: tech professionals skimming news.',
-                  });
-                  let full = '';
-                  for await (const chunk of stream) {
-                    full += chunk;
-                    if (articleSummarizeOutput) articleSummarizeOutput.textContent = full;
-                  }
-                } else {
-                  const text = await sum.summarize(raw, {
-                    context: 'Audience: tech professionals skimming news.',
-                  });
-                  if (articleSummarizeOutput) {
-                    articleSummarizeOutput.textContent = String(text != null ? text : '');
-                  }
-                }
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.textContent = '';
-                  articleSummarizeStatus.hidden = true;
-                }
-              } catch (err) {
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.hidden = false;
-                  articleSummarizeStatus.textContent = String(err.message || err);
-                }
-                if (articleSummarizeOutput) articleSummarizeOutput.textContent = '';
-              } finally {
-                if (articleSummarizeOutput) {
-                  articleSummarizeOutput.classList.remove('page-ai-reply--loading');
-                }
-                if (sum && sum.destroy) {
-                  try {
-                    await sum.destroy();
-                  } catch (_) {
-                    /* ignore */
-                  }
-                }
-                if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = false;
-                if (articleSummarizeInput) articleSummarizeInput.disabled = false;
-              }
-            }
-
-            async function initSummarizerUi() {
-              if (!summarizeSection || !articleSummarizeInput || !articleSummarizeSubmit) return;
-              if (typeof Summarizer === 'undefined') return;
-
-              summarizeSection.hidden = false;
-              try {
-                const av = await Summarizer.availability();
-                if (summarizerAvailabilityBlocked(av)) {
-                  if (articleSummarizeStatus) {
-                    articleSummarizeStatus.hidden = false;
-                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
-                  }
-                  return;
-                }
-                summarizerReady = true;
-                articleSummarizeInput.disabled = false;
-                articleSummarizeSubmit.disabled = false;
-              } catch (e) {
-                if (articleSummarizeStatus) {
-                  articleSummarizeStatus.hidden = false;
-                  articleSummarizeStatus.textContent = String(e.message || e);
-                }
-              }
-            }
-
-            function initTranslateUi() {
-              if (!isTranslationDesktopLikely() || typeof Translator === 'undefined') {
-                translateUiReady = false;
-                hideAllStoryTranslateSlots();
-                return;
-              }
-              translateUiReady = true;
-              if (typeof LanguageDetector === 'undefined') {
-                revealTranslateButtonsFallback();
-                refreshCapabilityChips();
-                return;
-              }
-              scheduleStoryLanguageScan();
-            }
-
-            async function runProofreadQuestion() {
-              const raw = askFeedInput && askFeedInput.value ? askFeedInput.value.trim() : '';
-              if (!raw || typeof Proofreader === 'undefined') return;
-              if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = true;
-              try {
-                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
-                if (isAvailabilityBlocked(av)) return;
-                const proofreader = await Proofreader.create({
-                  expectedInputLanguages: ['en'],
-                  monitor(m) {
-                    m.addEventListener('downloadprogress', () => {});
-                  },
-                });
-                const result = await proofreader.proofread(raw);
-                const fixed =
-                  result && result.correctedInput != null ? String(result.correctedInput) : raw;
-                askFeedInput.value = fixed;
-                if (proofreader.destroy) await proofreader.destroy();
-              } catch (e) {
-                hideAiSuiteStatus();
-                setAiSuiteStatus(
-                  `<span class="ai-suite__status-text">Proofreader: ${String(e.message || e)}</span>`,
-                  'warn'
-                );
-              } finally {
-                if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = false;
-              }
-            }
-
-            async function runRewriteAnswer(mode) {
-              const text = askFeedReply ? askFeedReply.textContent.trim() : '';
-              if (!text || typeof Rewriter === 'undefined') return;
-              const busy = mode === 'shorter' ? rewriteShorterBtn : rewriteFormalBtn;
-              if (busy) busy.disabled = true;
-              askFeedReply.classList.add('page-ai-reply--loading');
-              let rewriter = null;
-              try {
-                const av = await Rewriter.availability();
-                if (isAvailabilityBlocked(av)) return;
-                const opts = {
-                  sharedContext: 'Tech news Q&A for a professional reader.',
-                  format: 'plain-text',
-                  length: mode === 'shorter' ? 'shorter' : 'as-is',
-                  tone: mode === 'formal' ? 'more-formal' : 'as-is',
-                  expectedInputLanguages: ['en'],
-                  outputLanguage: 'en',
-                  monitor(m) {
-                    m.addEventListener('downloadprogress', () => {});
-                  },
-                };
-                rewriter = await Rewriter.create(opts);
-                const out = await rewriter.rewrite(text, {
-                  context: 'Preserve facts; improve clarity only.',
-                });
-                const next =
-                  typeof out === 'string' ? out : out && out.text != null ? String(out.text) : String(out);
-                askFeedReply.textContent = next.trim() || text;
-                if (rewriter.destroy) await rewriter.destroy();
-                rewriter = null;
-              } catch (e) {
-                setAiSuiteStatus(
-                  `<span class="ai-suite__status-text">Rewriter: ${String(e.message || e)}</span>`,
-                  'warn'
-                );
-              } finally {
-                askFeedReply.classList.remove('page-ai-reply--loading');
-                if (rewriter && rewriter.destroy) {
-                  try {
-                    await rewriter.destroy();
-                  } catch (_) {
-                    /* ignore */
-                  }
-                }
-                if (rewriteShorterBtn) rewriteShorterBtn.disabled = false;
-                if (rewriteFormalBtn) rewriteFormalBtn.disabled = false;
-              }
-            }
-
-            function refreshCapabilityChips() {
-              if (!aiSuiteChips) return;
-              const chips = [];
-              const add = (label, on) => {
-                chips.push(`<li class="ai-suite__chip${on ? '' : ' ai-suite__chip--off'}">${label}</li>`);
-              };
-              add('Gemini Nano', promptApiReady);
-              add('Summarizer', summarizerReady);
-              add('Translate', translateUiReady);
-              add('Lang detect', langDetectScanOk);
-              add('Proofreader', proofreaderReady);
-              add('Rewriter', rewriterReady);
-              aiSuiteChips.innerHTML = chips.join('');
-            }
-
-            async function initProofreaderUi() {
-              if (!proofreadQuestionBtn || typeof Proofreader === 'undefined') return;
-              try {
-                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
-                if (isAvailabilityBlocked(av)) return;
-                proofreaderReady = true;
-                proofreadQuestionBtn.hidden = false;
-              } catch (_) {
-                /* optional API */
-              }
-            }
-
-            async function initRewriterUi() {
-              if (typeof Rewriter === 'undefined') return;
-              try {
-                const av = await Rewriter.availability();
-                if (isAvailabilityBlocked(av)) return;
-                rewriterReady = true;
-              } catch (_) {
-                /* optional API */
-              }
-            }
-
-            const initPromptApi = async () => {
-              const lmApi = getLanguageModelApi();
-              if (!lmApi) {
-                renderPromptUnavailable(
-                  `<p class="ai-suite__status-p">Language model not available in this browser. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
-                );
-                refreshCapabilityChips();
-                return;
-              }
-
-              try {
-                const availability = await lmApi.availability(LM_OPTIONS);
-                if (isAvailabilityBlocked(availability)) {
-                  renderPromptUnavailable(
-                    `<p class="ai-suite__status-p">On-device model isn’t available on this system. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
-                  );
-                  refreshCapabilityChips();
-                  return;
-                }
-
-                promptApiReady = true;
-                setIntegratedAiEnabled(true);
-                hideAiSuiteStatus();
-                if (availability === 'downloading') {
-                  setAiSuiteStatus(
-                    '<p class="ai-suite__status-p ai-suite__status-p--muted">First answer may wait while Gemini Nano prepares.</p>',
-                    'ok'
-                  );
-                }
-                await renderGeminiNanoMeta(lmApi, availability);
-              } catch (e) {
-                renderPromptUnavailable(
-                  `<p class="ai-suite__status-p">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Help</a></p>`
-                );
-              }
-              refreshCapabilityChips();
-            };
-
-            if (askFeedSubmit && askFeedInput) {
-              askFeedSubmit.addEventListener('click', () => void runAskFeed());
-              askFeedInput.addEventListener('keydown', (ev) => {
-                if (ev.key === 'Enter' && (ev.metaKey || ev.ctrlKey)) {
-                  ev.preventDefault();
-                  void runAskFeed();
-                }
-              });
-            }
-
-            document.querySelector('main')?.addEventListener('click', (ev) => {
-              const tr = ev.target.closest('.story-translate-btn');
-              if (tr && !tr.disabled) {
-                ev.preventDefault();
-                void runTranslateTitle(tr);
-                return;
-              }
-              const btn = ev.target.closest('.story-ai-btn');
-              if (!btn || btn.disabled) return;
-              ev.preventDefault();
-              void runStoryAngle(btn);
-            });
-
-            if (articleSummarizeSubmit && articleSummarizeInput) {
-              articleSummarizeSubmit.addEventListener('click', () => void runSummarizeArticle());
-            }
-
-            if (proofreadQuestionBtn) {
-              proofreadQuestionBtn.addEventListener('click', () => void runProofreadQuestion());
-            }
-            if (rewriteShorterBtn) {
-              rewriteShorterBtn.addEventListener('click', () => void runRewriteAnswer('shorter'));
-            }
-            if (rewriteFormalBtn) {
-              rewriteFormalBtn.addEventListener('click', () => void runRewriteAnswer('formal'));
-            }
-
-            (async () => {
-              await initPromptApi();
-              await initSummarizerUi();
-              initTranslateUi();
-              await initProofreaderUi();
-              await initRewriterUi();
-              refreshCapabilityChips();
-            })();
-        </script>
-
         
         <section class="category category--ai">
             <h2 class="category-title">
@@ -1448,7 +438,7 @@
                 <article class="story-card">
                     <div class="story-meta">
                         <span class="story-source" data-source="Wired AI">Wired AI</span>
-                        <span class="story-date">17 hours ago</span>
+                        <span class="story-date">18 hours ago</span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://www.wired.com/story/security-news-this-week-your-push-notifications-arent-safe-from-the-fbi/" target="_blank" rel="noopener noreferrer">
@@ -1478,7 +468,7 @@
                 <article class="story-card">
                     <div class="story-meta">
                         <span class="story-source" data-source="Wired AI">Wired AI</span>
-                        <span class="story-date">18 hours ago</span>
+                        <span class="story-date">19 hours ago</span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/" target="_blank" rel="noopener noreferrer">
@@ -1732,7 +722,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">6 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">11 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/simon_paxton/open-source-ai-built-qwens-reach-alibaba-wants-cloud-cash-223g" target="_blank" rel="noopener noreferrer">
@@ -1762,7 +752,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">11 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">16 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/maskedridersystem/i-built-a-pixel-perfect-printer-independent-report-designer-with-avalonia-ui-5ddl" target="_blank" rel="noopener noreferrer">
@@ -1792,7 +782,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">24 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">28 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/simeon_brett_309b827bbdf7/i-hired-8-it-gurus-to-give-me-a-code-review-21i3" target="_blank" rel="noopener noreferrer">
@@ -1822,7 +812,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">26 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">31 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/npayyappilly/stop-letting-your-ai-forget-mempalace-is-a-wake-up-call-18f0" target="_blank" rel="noopener noreferrer">
@@ -1852,7 +842,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">42 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">46 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/hermes-agent-the-open-source-ai-agent-that-actually-remembers-you-2hmo" target="_blank" rel="noopener noreferrer">
@@ -1882,7 +872,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">42 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">47 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/tttael/three-tables-what-people-see-when-they-look-at-your-trading-system-3o6b" target="_blank" rel="noopener noreferrer">
@@ -1912,7 +902,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">43 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">48 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/answer-engine-optimization-google-isnt-the-only-search-engine-that-matters-anymore-569e" target="_blank" rel="noopener noreferrer">
@@ -1942,7 +932,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">44 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">49 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/makecom-vs-zapier-vs-n8n-in-2026-which-one-do-you-actually-need-mkp" target="_blank" rel="noopener noreferrer">
@@ -1972,7 +962,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">46 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">51 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/studiomeyer/10-n8n-workflows-every-small-business-can-use-right-away-4mpo" target="_blank" rel="noopener noreferrer">
@@ -2002,7 +992,7 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">46 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">51 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://dev.to/virtualunc/10-github-repos-that-turn-claude-code-into-a-productivity-machine-4h3a" target="_blank" rel="noopener noreferrer">
@@ -2226,7 +1216,7 @@
                 <article class="story-card">
                     <div class="story-meta">
                         <span class="story-source" data-source="The Verge">The Verge</span>
-                        <span class="story-date">14 hours ago</span>
+                        <span class="story-date">15 hours ago</span>
                     </div>
                     <h3 class="story-title">
                         <a href="https://www.theverge.com/gadgets/907645/nintendo-switch-2-genki-jsaux-usb-c-dock-hands-on" target="_blank" rel="noopener noreferrer">
@@ -2975,6 +1965,1015 @@
             
         </section>
         
+        <section class="ai-suite ai-suite--integrated" aria-labelledby="ai-suite-title">
+            <div class="ai-suite__intro">
+                <div class="ai-suite__intro-main">
+                    <span class="ai-suite__eyebrow">On-device AI</span>
+                    <h2 class="ai-suite__title" id="ai-suite-title">Ask &amp; summarize</h2>
+                    <p class="ai-suite__tagline">
+                        <strong>Gemini Nano</strong> and other Chrome built-in APIs run in your browser. This site does not receive your prompts or pasted text.
+                    </p>
+                </div>
+                <ul class="ai-suite__chips ai-suite__chips--toolbar" id="ai-suite-chips" aria-label="Detected APIs"></ul>
+            </div>
+
+            <div id="ai-gemini-meta" class="ai-suite__model-meta ai-suite__model-meta--strip" hidden>
+                <p class="ai-suite__model-meta__p">
+                    <span id="ai-gemini-availability" class="ai-suite__model-meta__av"></span>
+                    <code id="ai-gemini-params" class="ai-suite__model-meta__params" hidden></code>
+                </p>
+            </div>
+            <div id="ai-suite-status" class="ai-suite__status ai-suite__status--hidden" role="status"></div>
+
+            <div class="ai-suite__panel">
+                <div class="ai-suite__panel-col">
+                    <h3 class="ai-suite__panel-heading">Ask about this page</h3>
+                    <p class="ai-suite__panel-hint">Full story list as context · <code class="ai-suite__inline-code">LanguageModel</code></p>
+                    <div class="page-ai-ask__row ai-suite__ask-row">
+                        <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
+                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="3" placeholder="What stands out in security or AI this week?" disabled></textarea>
+                        <div class="ai-suite__ask-actions">
+                            <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
+                            <button type="button" class="ai-suite__ghost-btn" id="proofread-question-btn" hidden>Polish</button>
+                        </div>
+                    </div>
+                    <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
+                    <div class="ai-suite__reply-tools" id="rewriter-answer-tools" hidden>
+                        <span class="ai-suite__reply-tools-label">Refine</span>
+                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-shorter-btn">Shorter</button>
+                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-formal-btn">More formal</button>
+                    </div>
+                </div>
+
+                <div class="ai-suite__panel-col ai-suite__panel-col--summarize" id="page-ai-summarize" hidden>
+                    <h3 class="ai-suite__panel-heading">Summarize a clip</h3>
+                    <p class="ai-suite__panel-hint">Summarizer only receives <strong>text you paste</strong>—it does not open links or fetch pages. Open the article, copy the paragraphs, then run summarize.</p>
+                    <div class="page-ai-ask__row">
+                        <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
+                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs…" disabled></textarea>
+                        <button type="button" class="page-ai-ask__submit" id="article-summarize-submit" disabled>Summarize</button>
+                    </div>
+                    <p id="article-summarize-status" class="page-ai-summarize__status" role="status" hidden></p>
+                    <div id="article-summarize-output" class="page-ai-reply page-ai-reply--markdown" aria-live="polite" hidden></div>
+                </div>
+            </div>
+
+            <details class="ai-suite__details">
+                <summary class="ai-suite__details-summary">Headlines, translate, and API requirements</summary>
+                <div class="ai-suite__details-body">
+                    <p class="ai-suite__details-p">
+                        After your first tap or click, <strong>Language Detector</strong> runs on each headline. <strong>Translate</strong> appears only if the language differs from your browser (via <strong>Translator</strong>). <strong>Why it matters</strong> uses the Prompt API (Gemini Nano). <strong>Summarize</strong> uses Chrome’s Summarizer on pasted text only—the API cannot load URLs for you. Some APIs need origin trials or <code class="ai-suite__inline-code">chrome://flags</code> on localhost.
+                    </p>
+                    <p class="ai-suite__details-links">
+                        <a href="https://deepmind.google/technologies/gemini/nano/" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Gemini Nano</a>
+                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
+                        <a href="https://developer.chrome.com/docs/ai/prompt-api" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Prompt API</a>
+                        <span class="ai-suite__lede-sep" aria-hidden="true">·</span>
+                        <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI overview</a>
+                    </p>
+                </div>
+            </details>
+        </section>
+
+        <script id="top-stories-data" type="application/json">
+            [{"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "11 mins ago", "title": "Open-source AI Built Qwen\u2019s Reach. Alibaba Wants Cloud Cash"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "16 mins ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "source": "Dev.to", "time_ago": "28 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "5 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "18 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "source": "Wired AI", "time_ago": "19 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}]
+        </script>
+        <script id="full-page-stories-data" type="application/json">
+            [{"category": "devtools", "category_label": "Developer Tools", "description": "Three hundred million downloads and more than 100,000 derivative models is what success looks like in open-source AI\u2014at least until someone in finance asks where the money is. Alibaba\u2019s own...", "source": "Dev.to", "time_ago": "11 mins ago", "title": "Open-source AI Built Qwen\u2019s Reach. Alibaba Wants Cloud Cash"}, {"category": "devtools", "category_label": "Developer Tools", "description": "I\u2019ve released ACR Designer, a WYSIWYG report designer for the ACR (Across Report Renderer) engine. It focuses on pixel-perfect layout and printer-independent rendering. Key features: WYSIWYG...", "source": "Dev.to", "time_ago": "16 mins ago", "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI"}, {"category": "devtools", "category_label": "Developer Tools", "description": "I had a bug fix PR \u2014 a NullReferenceException crash in production. Straightforward: remove a null-forgiving operator, add a guard, write some tests, ship it. The kind of thing you\u0027d rubber-stamp...", "source": "Dev.to", "time_ago": "28 mins ago", "title": "I Hired 8 IT Gurus to Give Me a Code Review"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI systems today are stateless by design. That\u2019s not a feature \u2014 it\u2019s a limitation. Context disappears Decisions are lost Knowledge doesn\u2019t accumulate We\u2019ve normalized this. But what if AI...", "source": "Dev.to", "time_ago": "31 mins ago", "title": "\ud83e\udde0 Stop Letting Your AI Forget: MemPalace is a Wake-Up Call"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most AI agents forget you exist the moment you close the tab. You spend an afternoon explaining your project, your preferences, your workflow. You get something useful. Then you open a new session...", "source": "Dev.to", "time_ago": "46 mins ago", "title": "Hermes Agent: The Open Source AI Agent That Actually Remembers You"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Three Tables: What People See When They Look at Your Trading System Notes on perspective, projection, and the layers of any automated investment system A quant developer, a systems architect, and...", "source": "Dev.to", "time_ago": "47 mins ago", "title": "Three Tables: What People See When They Look at Your Trading System"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Something changed in how people find information and most content creators haven\u0027t adjusted yet. A growing percentage of search queries never reach Google at all. They go to ChatGPT, Perplexity,...", "source": "Dev.to", "time_ago": "48 mins ago", "title": "Answer Engine Optimization: Google Isn\u0027t the Only Search Engine That Matters Anymore"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Everyone recommends automation tools. Almost nobody tells you which one to actually use for your specific situation. Zapier, Make.com, and n8n are not the same product. They solve different...", "source": "Dev.to", "time_ago": "49 mins ago", "title": "Make.com vs Zapier vs n8n in 2026: Which One Do You Actually Need?"}, {"category": "devtools", "category_label": "Developer Tools", "description": "n8n is the open-source alternative to Zapier -- free, GDPR-compliant, and with AI integration. Ten concrete workflows for marketing, sales, support, and accounting that save time immediately....", "source": "Dev.to", "time_ago": "51 mins ago", "title": "10 n8n Workflows Every Small Business Can Use Right Away"}, {"category": "devtools", "category_label": "Developer Tools", "description": "Most people open Claude Code, type a question, and get an answer. That\u0027s the whole experience. There\u0027s nothing wrong with that. But it\u0027s like buying a Swiss Army knife and only using the bottle...", "source": "Dev.to", "time_ago": "51 mins ago", "title": "10 GitHub Repos That Turn Claude Code Into a Productivity Machine"}, {"category": "tech", "category_label": "Tech Industry", "description": "Dutch regulators, the RDW, announced that after over a year and a half of testing, it has officially approved Tesla\u0027s Full-Self Driving (FSD) Supervised. This makes the Netherlands the first...", "source": "The Verge", "time_ago": "5 hours ago", "title": "The Netherlands is the first European country to approve Tesla\u2019s supervised Full Self-Driving"}, {"category": "ai", "category_label": "AI", "description": "The OpenAI CEO\u0027s new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.", "source": "TechCrunch AI", "time_ago": "11 hours ago", "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home"}, {"category": "tech", "category_label": "Tech Industry", "description": "Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren\u0027t showing, and Google says they were never supposed to. Spokesperson Ned Adriance...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google says Polymarket bets showing up in News was an \u2018error\u2019"}, {"category": "tech", "category_label": "Tech Industry", "description": "Like many live-service games before it, Pok\u00e9mon Champions\u0027 launch has been messy. The free-to-start battle sim, which is out now on the Switch and Switch 2 (and also coming to mobile later this...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Pok\u00e9mon Champions is off to a rough start"}, {"category": "tech", "category_label": "Tech Industry", "description": "The illustration for The New Yorker\u0027s profile of OpenAI CEO Sam Altman is a jump scare. Altman stands in a blue sweater with a blank expression. Around his head hovers a cluster of disembodied...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Your article about AI doesn\u2019t need AI art"}, {"category": "tech", "category_label": "Tech Industry", "description": "If you\u2019ve ever worried about porch pirates stealing packages while you\u2019re away, a video doorbell can offer some peace of mind, letting you keep tabs on deliveries no matter where you are. Google...", "source": "The Verge", "time_ago": "13 hours ago", "title": "Google\u2019s latest Nest Doorbells just hit their lowest prices of the year"}, {"category": "tech", "category_label": "Tech Industry", "description": "Two weeks ago, I was getting ready to log off work when I got a text message. \"Oh wow, I was checking out Mitski. did you know people are saying her Dad was a CIA operative?\" Normally, that kind...", "source": "The Verge", "time_ago": "14 hours ago", "title": "My baby deer plushie told me that Mitski\u0026#8217;s dad was a CIA operative"}, {"category": "tech", "category_label": "Tech Industry", "description": "Nintendo seemingly designed its latest console to be a mystery for third-party accessory makers. With the Switch 2, the company changed the wireless protocol for connecting controllers to the new...", "source": "The Verge", "time_ago": "15 hours ago", "title": "You don\u2019t have to spend more than $50 on a great USB-C dock for your Switch 2"}, {"category": "tech", "category_label": "Tech Industry", "description": "There\u0027s one very specific reason I keep a Wii U handy, and that\u0027s so that I have an easy way to play the classic pinball game Devil\u0027s Crush. Over the years, it has become a comfort game for me....", "source": "The Verge", "time_ago": "15 hours ago", "title": "Demons and pinball are a perfect match"}, {"category": "tech", "category_label": "Tech Industry", "description": "In the early days of the war on Iran, while the White House was busy posting Call of Duty memes and AI slop of dancing bowling pins, the Iranian regime\u0027s state media was flooding the zone with...", "source": "The Verge", "time_ago": "15 hours ago", "title": "How Iran out-shitposted the White House"}, {"category": "tech", "category_label": "Tech Industry", "description": "Hi, friends! Welcome to Installer No. 123, your guide to the best and Verge-iest stuff in the world. (If you\u0027re new here, welcome, which Artemis photo did you make your wallpaper, and also you can...", "source": "The Verge", "time_ago": "16 hours ago", "title": "The new show making fun of tech bros"}, {"category": "ai", "category_label": "AI", "description": "Plus: Iran\u2019s internet blackout hits the 1,000-hour mark, cryptocurrency scams result in a record amount of money stolen from Americans, and more.", "source": "Wired AI", "time_ago": "18 hours ago", "title": "Your Push Notifications Aren\u2019t Safe From the FBI"}, {"category": "ai", "category_label": "AI", "description": "From AI-generated images to restricted satellite data, the systems used to verify what\u2019s real online are struggling to keep up.", "source": "Wired AI", "time_ago": "19 hours ago", "title": "How the Internet Broke Everyone\u2019s Bullshit Detectors"}, {"category": "security", "category_label": "Security", "description": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global...", "source": "The Hacker News", "time_ago": "22 hours ago", "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data"}, {"category": "security", "category_label": "Security", "description": "Regulation is hard: The South Pacific Regional Fisheries Management Organization (SPRFMO) oversees fishing across roughly 59 million square kilometers (22 million square miles) of the South...", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Friday Squid Blogging: Squid Overfishing in the South Pacific"}, {"category": "ai", "category_label": "AI", "description": "This ban took place after Claude\u0027s pricing changed for OpenClaw users last week.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Anthropic temporarily banned OpenClaw\u2019s creator from accessing Claude"}, {"category": "ai", "category_label": "AI", "description": "The new AI model is being heralded\u2014and feared\u2014as a hacker\u2019s superweapon. Experts say its arrival is a wake-up call for developers who have long made security an afterthought.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Anthropic\u2019s Mythos Will Force a Cybersecurity Reckoning\u2014Just Not the One You Think"}, {"category": "ai", "category_label": "AI", "description": "OpenAI ignored three warnings that a ChatGPT user was dangerous \u2014 including its own mass-casualty flag \u2014 while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser\u2019s delusions and ignored her warnings"}, {"category": "ai", "category_label": "AI", "description": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving\u0027s...", "source": "TechCrunch AI", "time_ago": "1 day ago", "title": "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Battlefield with it"}, {"category": "ai", "category_label": "AI", "description": "An attacker allegedly threw a molotov cocktail at the OpenAI CEO\u2019s residence before making threats outside of the startup\u2019s headquarters.", "source": "Wired AI", "time_ago": "1 day ago", "title": "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman\u2019s Home"}, {"category": "ai", "category_label": "AI", "description": "Onix is launching a \u201cSubstack of bots,\u201d where digital twins of health and wellness influencers dispense advice 24/7. And maybe hawk their products.", "source": "Wired AI", "time_ago": "1 day ago", "title": "This Startup Wants You to Pay Up to Talk With AI Versions of Human Experts"}, {"category": "ai", "category_label": "AI", "description": "Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine\u2014or an \u201cindividualized neoantigen treatment\u201d? That\u2019s the Trump-era vocabulary paradox...", "source": "MIT Tech Review", "time_ago": "1 day ago", "title": "What\u2019s in a name? Moderna\u2019s \u201cvaccine\u201d vs. \u201ctherapy\u201d dilemma"}, {"category": "security", "category_label": "Security", "description": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that\u0027s designed to stealthily infect all integrated development...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs"}, {"category": "security", "category_label": "Security", "description": "While much of the discussion on AI security centers around protecting \u2018shadow\u2019 AI and GenAI consumption, there\u0027s a wide-open window nobody\u0027s guarding: AI browser extensions. A new report from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About"}, {"category": "security", "category_label": "Security", "description": "Claude is actually pretty good on the issues.", "source": "Schneier on Security", "time_ago": "1 day ago", "title": "Sen. Sanders Talks to Claude About AI and Privacy"}, {"category": "security", "category_label": "Security", "description": "Google has made Device Bound Session Credentials (DBSC) generally available to all Windows users of its Chrome web browser, months after it began testing the security feature in open beta. The...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows"}, {"category": "security", "category_label": "Security", "description": "A critical security vulnerability in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according to findings from...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure"}, {"category": "security", "category_label": "Security", "description": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor. The incident impacts Smart Slider...", "source": "The Hacker News", "time_ago": "1 day ago", "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers"}, {"category": "security", "category_label": "Security", "description": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs"}, {"category": "security", "category_label": "Security", "description": "A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to...", "source": "The Hacker News", "time_ago": "2 days ago", "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re thrilled to announce that Harshita Arora is joining Y Combinator as a General Partner. She brings deep fintech and infrastructure experience, a founder\u0027s instinct for product, and the...", "source": "Y Combinator", "time_ago": "5 days ago", "title": "Harshita Arora Joins YC as General Partner"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "After hearing feedback from Canadian founders in our network, we are adding Canada back to our list of accepted countries of incorporation.", "source": "Y Combinator", "time_ago": "Feb 05, 2026", "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they\u0027ve built the operating system construction has been missing\u2014built by contractors, for contractors....", "source": "Y Combinator", "time_ago": "Jan 23, 2026", "title": "Congratulations to EquipmentShare on Going Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027ve partnered with nearly two dozen companies to offer students who attend YC events a suite of over $25,000 in free credits for AI devtools.", "source": "Y Combinator", "time_ago": "Jan 16, 2026", "title": "Announcing the YC AI Stack"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u2019re excited to share the Demo Day dates for 2026 so founders, investors, and our broader community can plan ahead.", "source": "Y Combinator", "time_ago": "Dec 18, 2025", "title": "2026 Demo Day Dates"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses. Congrats to Vidit and Sanjeev...", "source": "Y Combinator", "time_ago": "Dec 10, 2025", "title": "Meesho Goes Public"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, Groww, India\u0027s leading digital investing platform, goes public. Tens of millions use Groww to invest simply and confidently in stocks, mutual funds, and ETFs. As YC\u0027s first company to list...", "source": "Y Combinator", "time_ago": "Nov 12, 2025", "title": "Congratulations to Groww"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "Today, BillionToOne goes public, becoming YC\u0027s fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S. Today, 1 in 11 babies...", "source": "Y Combinator", "time_ago": "Nov 06, 2025", "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We\u0027re excited to announce that nine exceptional founders are joining us as Visiting Partners at YC: Matt Riley, Harshita Arora, Grey Baker, Christopher Golda, Raphael Schaad, Christina Gilbert,...", "source": "Y Combinator", "time_ago": "Oct 14, 2025", "title": "Meet YC\u0027s Newest Visiting Partners"}, {"category": "startups", "category_label": "Startups \u0026 VC", "description": "We are entering the era of Fintech 3.0. Regulatory clarity, growing consumer adoption, and low-cost chains have paved the way for a golden age of building in crypto \u2014 and at YC, Base, and...", "source": "Y Combinator", "time_ago": "Sep 23, 2025", "title": "YC x Coinbase RFS: Build Onchain"}]
+        </script>
+        <script type="module">
+            /**
+             * Chrome Prompt API (on-device Gemini Nano).
+             * @see https://developer.chrome.com/docs/ai/prompt-api
+             * Summarizer, Language Detector, Translator: https://developer.chrome.com/docs/ai/built-in-apis
+             * Pass the same modality options to availability(), create(), and prompts per official guidance.
+             */
+            const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
+            const BUILTIN_AI_DOC = 'https://developer.chrome.com/docs/ai/built-in-apis';
+            const DETECTOR_INPUT_LANGS = [
+              'en', 'en-US', 'es', 'fr', 'de', 'ja', 'zh', 'zh-CN', 'zh-TW', 'ko', 'pt', 'pt-BR',
+              'it', 'nl', 'pl', 'ru', 'ar', 'hi', 'tr', 'sv', 'da', 'no', 'fi', 'cs', 'uk',
+            ];
+
+            /**
+             * Same entry points as Chrome samples: global LanguageModel or window.ai.languageModel.
+             * @returns {typeof LanguageModel | null}
+             */
+            function getLanguageModelApi() {
+              if (typeof LanguageModel !== 'undefined') return LanguageModel;
+              if (typeof window !== 'undefined' && window.ai && window.ai.languageModel) {
+                return window.ai.languageModel;
+              }
+              return null;
+            }
+
+            /** Per docs, primary gate is availability !== 'unavailable'; some builds use "no". */
+            function isAvailabilityBlocked(level) {
+              return level === 'unavailable' || level === 'no';
+            }
+
+            /** Must match create() and prompt() usage (text en → en). */
+            const LM_OPTIONS = {
+              expectedInputs: [{ type: 'text', languages: ['en'] }],
+              expectedOutputs: [{ type: 'text', languages: ['en'] }],
+            };
+
+            const ASK_FEED_SYSTEM_PROMPT = [
+              'You answer questions about the Tech Insights page the user has open.',
+              'Use only the full page snapshot in your instructions. If the snapshot does not support an answer, say so in one sentence.',
+              'Be direct; aim under 150 words unless the user asks for a list or detail.',
+            ].join(' ');
+
+            const STORY_ANGLE_SYSTEM_PROMPT = [
+              'You explain why one headline matters to someone who follows tech and startups.',
+              'The full page snapshot lists every story on the page; focus on the story named in the user message.',
+              'Reply with one or two short sentences. No title repetition, no hype.',
+            ].join(' ');
+
+            const topStoriesOnly = JSON.parse(
+              document.getElementById('top-stories-data')?.textContent || '[]'
+            );
+            const fullPageStoriesRaw = JSON.parse(
+              document.getElementById('full-page-stories-data')?.textContent || '[]'
+            );
+            /** Every story on this page (all sections); used as LLM grounding. Falls back to top stories if empty. */
+            const pageStories =
+              Array.isArray(fullPageStoriesRaw) && fullPageStoriesRaw.length > 0
+                ? fullPageStoriesRaw
+                : topStoriesOnly;
+
+            const aiSuiteStatus = document.getElementById('ai-suite-status');
+            const aiSuiteChips = document.getElementById('ai-suite-chips');
+            const askFeedInput = document.getElementById('ask-feed-input');
+            const askFeedSubmit = document.getElementById('ask-feed-submit');
+            const askFeedReply = document.getElementById('ask-feed-reply');
+            const proofreadQuestionBtn = document.getElementById('proofread-question-btn');
+            const rewriterAnswerTools = document.getElementById('rewriter-answer-tools');
+            const rewriteShorterBtn = document.getElementById('rewrite-shorter-btn');
+            const rewriteFormalBtn = document.getElementById('rewrite-formal-btn');
+            const summarizeSection = document.getElementById('page-ai-summarize');
+            const articleSummarizeInput = document.getElementById('article-summarize-input');
+            const articleSummarizeSubmit = document.getElementById('article-summarize-submit');
+            const articleSummarizeStatus = document.getElementById('article-summarize-status');
+            const articleSummarizeOutput = document.getElementById('article-summarize-output');
+
+            let promptApiReady = false;
+            let summarizerReady = false;
+            let translateUiReady = false;
+            let proofreaderReady = false;
+            let rewriterReady = false;
+
+            /** BCP-47 primary subtag, lowercased (e.g. en-US → en). */
+            function primaryLangTag(tag) {
+              if (!tag || tag === 'und') return '';
+              return String(tag).split('-')[0].toLowerCase();
+            }
+
+            function userTargetLanguageTag() {
+              const nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+              return nav;
+            }
+
+            /** Chrome docs: Language Detector / Translator are desktop-only today. */
+            function isTranslationDesktopLikely() {
+              if (typeof navigator !== 'undefined' && navigator.userAgentData && navigator.userAgentData.mobile) {
+                return false;
+              }
+              return !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
+            }
+
+            function summarizerAvailabilityBlocked(level) {
+              return level === 'unavailable' || level === 'no';
+            }
+
+            function setTranslateButtonsEnabled(on) {
+              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
+                if (btn.hidden) return;
+                btn.disabled = !on;
+              });
+            }
+
+            /** True only after a successful LanguageDetector batch pass (not fallback). */
+            let langDetectScanOk = false;
+
+            function revealTranslateButtonsFallback() {
+              document.querySelectorAll('.story-translate-btn').forEach((btn) => {
+                btn.classList.remove('story-translate-btn--pending');
+                const slot = btn.closest('.story-translate-slot');
+                const sameEl = slot && slot.querySelector('.story-lang-same');
+                if (sameEl) {
+                  sameEl.hidden = true;
+                  sameEl.textContent = '';
+                }
+                btn.hidden = false;
+                btn.disabled = !translateUiReady;
+              });
+            }
+
+            function hideAllStoryTranslateSlots() {
+              document.querySelectorAll('.story-translate-slot').forEach((slot) => {
+                slot.hidden = true;
+              });
+            }
+
+            /**
+             * LanguageDetector.create() must run in a user-activation path. We call create() from the first
+             * pointerdown or focusin on main, then detect each headline and show Translate only if the
+             * primary language differs from the browser language.
+             */
+            function scheduleStoryLanguageScan() {
+              const main = document.querySelector('main');
+              if (!main || main.dataset.langScanScheduled === '1') return;
+              main.dataset.langScanScheduled = '1';
+
+              let started = false;
+              const kickOffScan = () => {
+                if (started) return;
+                started = true;
+                LanguageDetector.create({
+                  expectedInputLanguages: DETECTOR_INPUT_LANGS,
+                })
+                  .then(async (detector) => {
+                    try {
+                      const browserP = primaryLangTag(userTargetLanguageTag());
+                      const buttons = document.querySelectorAll('.story-translate-btn');
+                      for (const btn of buttons) {
+                        const title = btn.getAttribute('data-story-title') || '';
+                        const slot = btn.closest('.story-translate-slot');
+                        const sameEl = slot && slot.querySelector('.story-lang-same');
+                        if (!title) continue;
+                        let needsTranslate = true;
+                        try {
+                          const results = await detector.detect(title);
+                          const scored = (results || []).filter(
+                            (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
+                          );
+                          scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+                          const detected = scored[0] ? scored[0].detectedLanguage : '';
+                          if (detected) {
+                            btn.setAttribute('data-detected-lang', detected);
+                          }
+                          const detP = primaryLangTag(detected);
+                          needsTranslate = !(detP && browserP && detP === browserP);
+                        } catch (_) {
+                          needsTranslate = true;
+                        }
+                        btn.classList.remove('story-translate-btn--pending');
+                        if (needsTranslate) {
+                          btn.hidden = false;
+                          btn.disabled = !translateUiReady;
+                          if (sameEl) {
+                            sameEl.hidden = true;
+                            sameEl.textContent = '';
+                          }
+                        } else {
+                          btn.hidden = true;
+                          btn.disabled = true;
+                          if (sameEl) {
+                            sameEl.hidden = false;
+                            const br = browserP || '?';
+                            sameEl.textContent = `Same language as browser (${br})`;
+                          }
+                        }
+                      }
+                    } finally {
+                      try {
+                        if (detector && detector.destroy) await detector.destroy();
+                      } catch (_) {
+                        /* ignore */
+                      }
+                      langDetectScanOk = true;
+                      refreshCapabilityChips();
+                    }
+                  })
+                  .catch(() => {
+                    revealTranslateButtonsFallback();
+                    refreshCapabilityChips();
+                  });
+              };
+
+              main.addEventListener('pointerdown', kickOffScan, { capture: true });
+              main.addEventListener('focusin', kickOffScan, { capture: true });
+            }
+
+            function setAiSuiteStatus(html, variant) {
+              if (!aiSuiteStatus) return;
+              aiSuiteStatus.innerHTML = html;
+              aiSuiteStatus.classList.remove('ai-suite__status--hidden', 'ai-suite__status--warn', 'ai-suite__status--ok');
+              if (variant === 'warn') aiSuiteStatus.classList.add('ai-suite__status--warn');
+              else if (variant === 'ok') aiSuiteStatus.classList.add('ai-suite__status--ok');
+            }
+
+            function hideAiSuiteStatus() {
+              if (!aiSuiteStatus) return;
+              aiSuiteStatus.innerHTML = '';
+              aiSuiteStatus.classList.add('ai-suite__status--hidden');
+            }
+
+            const setIntegratedAiEnabled = (enabled) => {
+              document.querySelectorAll('.story-ai-btn').forEach((btn) => {
+                btn.disabled = !enabled;
+              });
+              if (askFeedInput) askFeedInput.disabled = !enabled;
+              if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
+            };
+
+            function hideGeminiMeta() {
+              const wrap = document.getElementById('ai-gemini-meta');
+              const pr = document.getElementById('ai-gemini-params');
+              if (wrap) wrap.hidden = true;
+              if (pr) {
+                pr.textContent = '';
+                pr.hidden = true;
+              }
+            }
+
+            /** Mirrors Chrome’s Prompt API docs: surface availability + optional params(). */
+            function formatModelParams(p) {
+              if (!p || typeof p !== 'object') return '';
+              const bits = [];
+              if (p.defaultTemperature != null && p.maxTemperature != null) {
+                bits.push(`temperature ${p.defaultTemperature}–${p.maxTemperature}`);
+              } else if (p.defaultTemperature != null) {
+                bits.push(`temperature ${p.defaultTemperature}`);
+              }
+              if (p.defaultTopK != null || p.maxTopK != null) {
+                bits.push(
+                  `topK ${p.defaultTopK != null ? p.defaultTopK : '?'} / max ${p.maxTopK != null ? p.maxTopK : '?'}`
+                );
+              }
+              return bits.join(' · ');
+            }
+
+            async function renderGeminiNanoMeta(lmApi, availability) {
+              const wrap = document.getElementById('ai-gemini-meta');
+              const avEl = document.getElementById('ai-gemini-availability');
+              const prEl = document.getElementById('ai-gemini-params');
+              if (!wrap || !avEl || !prEl) return;
+
+              const avHuman =
+                availability === 'readily'
+                  ? 'On-device model ready.'
+                  : availability === 'downloading'
+                    ? 'Model downloading or preparing—first reply may be slower.'
+                    : availability === 'downloadable'
+                      ? 'Model will download when you send your first prompt.'
+                      : String(availability || '').trim();
+
+              avEl.textContent = avHuman ? avHuman : '';
+              prEl.textContent = '';
+              prEl.hidden = true;
+
+              try {
+                if (typeof lmApi.params === 'function') {
+                  const p = await lmApi.params(LM_OPTIONS);
+                  const line = formatModelParams(p);
+                  if (line) {
+                    prEl.textContent = line;
+                    prEl.hidden = false;
+                  }
+                }
+              } catch (_) {
+                /* params() may be unsupported in some web builds; docs note extension nuances. */
+              }
+
+              wrap.hidden = false;
+            }
+
+            const renderPromptUnavailable = (detailHtml) => {
+              hideGeminiMeta();
+              setAiSuiteStatus(detailHtml, 'warn');
+              promptApiReady = false;
+              setIntegratedAiEnabled(false);
+              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
+            };
+
+            /** Cap embedded snapshot size so create() stays within on-device context limits. */
+            const MAX_PAGE_GROUNDING_CHARS = 72000;
+
+            /**
+             * Structured dump of every story on the page (all categories), for system-context grounding.
+             */
+            function buildPageGroundingText(list) {
+              if (!list || !list.length) return '';
+              const byCat = {};
+              for (const s of list) {
+                const lab = s.category_label || s.category || 'General';
+                if (!byCat[lab]) byCat[lab] = [];
+                byCat[lab].push(s);
+              }
+              const parts = [];
+              parts.push(`Tech Insights — full page (${list.length} stories, every section below the fold included)`);
+              parts.push('');
+              const catOrder = Object.keys(byCat).sort();
+              for (const cat of catOrder) {
+                parts.push(`## ${cat}`);
+                const items = byCat[cat];
+                items.forEach((s, idx) => {
+                  const title = s.title || 'Untitled';
+                  const src = s.source || '';
+                  const when = s.time_ago || '';
+                  parts.push(`${idx + 1}. ${title}`);
+                  parts.push(`   Source: ${src} · ${when}`);
+                  const desc = s.description && String(s.description).trim();
+                  if (desc) {
+                    parts.push(`   Excerpt: ${desc.replace(/\s+/g, ' ')}`);
+                  }
+                });
+                parts.push('');
+              }
+              let text = parts.join('\n');
+              if (text.length > MAX_PAGE_GROUNDING_CHARS) {
+                text =
+                  text.slice(0, MAX_PAGE_GROUNDING_CHARS) +
+                  '\n\n[Snapshot truncated to fit the model context window.]';
+              }
+              return text;
+            }
+
+            async function closeLmSession(session) {
+              if (session && typeof session.destroy === 'function') {
+                try {
+                  await session.destroy();
+                } catch (_) {
+                  /* ignore */
+                }
+              }
+            }
+
+            /**
+             * Ephemeral session per user action (ask, story angle)—avoids cross-talk in session history.
+             * @param {string} [pageGrounding] Full-page story snapshot appended to system prompt (max length capped).
+             */
+            async function openLmSession(lmApi, systemPrompt, onDownloadPct, pageGrounding) {
+              let combined = systemPrompt;
+              if (pageGrounding && pageGrounding.trim()) {
+                combined = [
+                  systemPrompt,
+                  '',
+                  '---',
+                  'PAGE_SNAPSHOT (ground truth for this page — only these rows count as facts):',
+                  pageGrounding.trim(),
+                ].join('\n');
+              }
+              const baseOpts = {
+                ...LM_OPTIONS,
+                initialPrompts: [{ role: 'system', content: combined }],
+                monitor(m) {
+                  m.addEventListener('downloadprogress', (e) => {
+                    const pct = Math.round((e.loaded || 0) * 100);
+                    if (onDownloadPct) onDownloadPct(pct);
+                  });
+                },
+              };
+              try {
+                return await lmApi.create({ ...baseOpts, maxOutputTokens: 1024 });
+              } catch (e) {
+                return await lmApi.create(baseOpts);
+              }
+            }
+
+            const runAskFeed = async () => {
+              const q = (askFeedInput && askFeedInput.value) ? askFeedInput.value.trim() : '';
+              if (!q || !promptApiReady) return;
+              if (!pageStories || pageStories.length === 0) {
+                askFeedReply.hidden = false;
+                askFeedReply.textContent = 'No story data. Rebuild the site.';
+                return;
+              }
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) return;
+              const availability = await lmApi.availability(LM_OPTIONS);
+              if (isAvailabilityBlocked(availability)) {
+                askFeedReply.hidden = false;
+                askFeedReply.textContent = 'Not available on this device.';
+                return;
+              }
+
+              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
+              askFeedSubmit.disabled = true;
+              askFeedInput.disabled = true;
+              askFeedReply.hidden = false;
+              askFeedReply.textContent = '';
+              askFeedReply.classList.add('page-ai-reply--loading');
+
+              const pageGrounding = buildPageGroundingText(pageStories);
+              const userTurn = `[Question]\n${q}`;
+
+              let session = null;
+              try {
+                session = await openLmSession(lmApi, ASK_FEED_SYSTEM_PROMPT, (pct) => {
+                  askFeedReply.textContent = `Preparing… ${pct}%`;
+                }, pageGrounding);
+                if (typeof session.promptStreaming === 'function') {
+                  const stream = session.promptStreaming(userTurn);
+                  let full = '';
+                  for await (const chunk of stream) {
+                    full += chunk;
+                    askFeedReply.textContent = full;
+                  }
+                } else {
+                  const out = await session.prompt(userTurn);
+                  askFeedReply.textContent = String(out != null ? out : '');
+                }
+                if (rewriterReady && rewriterAnswerTools && askFeedReply.textContent.trim()) {
+                  rewriterAnswerTools.hidden = false;
+                }
+              } catch (err) {
+                askFeedReply.textContent = `Couldn’t complete: ${String(err.message || err)}`;
+              } finally {
+                askFeedReply.classList.remove('page-ai-reply--loading');
+                await closeLmSession(session);
+                askFeedSubmit.disabled = false;
+                askFeedInput.disabled = false;
+              }
+            };
+
+            const runStoryAngle = async (btn) => {
+              const title = btn.getAttribute('data-story-title') || '';
+              const source = btn.getAttribute('data-story-source') || '';
+              const cat = btn.getAttribute('data-story-cat') || '';
+              const outEl = btn.parentElement && btn.parentElement.querySelector('.story-ai-output');
+              if (!outEl || !promptApiReady) return;
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) return;
+              const availability = await lmApi.availability(LM_OPTIONS);
+              if (isAvailabilityBlocked(availability)) {
+                outEl.hidden = false;
+                outEl.textContent = 'Not available here.';
+                return;
+              }
+
+              btn.disabled = true;
+              outEl.hidden = false;
+              outEl.textContent = '…';
+              outEl.classList.add('story-ai-output--loading');
+
+              const userTurn = `Focused story — Title: ${title}\nSource: ${source}\nCategory: ${cat}\n\nWhy might this matter to a tech reader? Answer in one or two sentences.`;
+
+              let session = null;
+              try {
+                const pageGrounding = buildPageGroundingText(pageStories);
+                session = await openLmSession(lmApi, STORY_ANGLE_SYSTEM_PROMPT, () => {}, pageGrounding);
+                const text = await session.prompt(userTurn);
+                outEl.textContent = String(text != null ? text : '').trim() || '—';
+              } catch (err) {
+                outEl.textContent = `Couldn’t generate: ${String(err.message || err)}`;
+              } finally {
+                outEl.classList.remove('story-ai-output--loading');
+                await closeLmSession(session);
+                btn.disabled = false;
+              }
+            };
+
+            async function acquireTranslator(sourceLanguage, targetLanguage, onDownloadPct) {
+              const langs = { sourceLanguage, targetLanguage };
+              let level;
+              try {
+                level = await Translator.availability(langs);
+              } catch (e) {
+                return { error: String(e.message || e), translator: null };
+              }
+              if (level == null || level === 'unavailable') {
+                return { error: 'This language pair isn’t supported here.', translator: null };
+              }
+              const opts = { ...langs };
+              if (level === 'downloadable' || level === 'downloading') {
+                opts.monitor = function monitor(m) {
+                  m.addEventListener('downloadprogress', (e) => {
+                    const pct = Math.round((e.loaded || 0) * 100);
+                    if (onDownloadPct) onDownloadPct(pct);
+                  });
+                };
+              }
+              try {
+                const translator = await Translator.create(opts);
+                return { error: null, translator };
+              } catch (e) {
+                return { error: String(e.message || e), translator: null };
+              }
+            }
+
+            async function runTranslateTitle(btn) {
+              const title = btn.getAttribute('data-story-title') || '';
+              const wrap = btn.closest('.top-story-ai, .story-card-ai');
+              const outEl = wrap && wrap.querySelector('.story-translate-output');
+              if (!outEl || !title || !translateUiReady || btn.hidden) return;
+
+              outEl.hidden = false;
+              outEl.textContent = '…';
+              outEl.classList.add('story-translate-output--loading');
+
+              let detector = null;
+              let translator = null;
+              try {
+                let sourceTag = btn.getAttribute('data-detected-lang') || '';
+                if (!sourceTag) {
+                  detector = await LanguageDetector.create({
+                    expectedInputLanguages: DETECTOR_INPUT_LANGS,
+                  });
+                  const results = await detector.detect(title);
+                  if (detector.destroy) {
+                    await detector.destroy();
+                  }
+                  detector = null;
+                  const scored = (results || []).filter(
+                    (r) => r && r.detectedLanguage && r.detectedLanguage !== 'und'
+                  );
+                  scored.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+                  sourceTag = scored[0] ? scored[0].detectedLanguage : '';
+                }
+
+                if (!sourceTag) {
+                  outEl.textContent = 'Could not detect the headline language.';
+                  return;
+                }
+
+                const targetTag = userTargetLanguageTag();
+                const srcPrimary = primaryLangTag(sourceTag);
+                const tgtPrimary = primaryLangTag(targetTag);
+
+                if (srcPrimary && tgtPrimary && srcPrimary === tgtPrimary) {
+                  outEl.textContent = 'Already matches your browser language.';
+                  return;
+                }
+
+                const pairSrc = srcPrimary || sourceTag;
+                const pairTgt = tgtPrimary || targetTag;
+
+                outEl.textContent = 'Translating…';
+                const acq = await acquireTranslator(pairSrc, pairTgt, (pct) => {
+                  outEl.textContent = `Preparing translator… ${pct}%`;
+                });
+                if (acq.error || !acq.translator) {
+                  outEl.textContent = acq.error || 'Translation unavailable.';
+                  return;
+                }
+                translator = acq.translator;
+                const translated = await translator.translate(title);
+                outEl.textContent = String(translated != null ? translated : '').trim() || '—';
+                if (translator.destroy) {
+                  await translator.destroy();
+                }
+                translator = null;
+              } catch (err) {
+                outEl.textContent = String(err.message || err);
+              } finally {
+                outEl.classList.remove('story-translate-output--loading');
+                try {
+                  if (detector && detector.destroy) await detector.destroy();
+                } catch (_) {
+                  /* ignore */
+                }
+                try {
+                  if (translator && translator.destroy) await translator.destroy();
+                } catch (_) {
+                  /* ignore */
+                }
+              }
+            }
+
+            async function runSummarizeArticle() {
+              const raw =
+                articleSummarizeInput && articleSummarizeInput.value
+                  ? articleSummarizeInput.value.trim()
+                  : '';
+              if (raw.length < 40) {
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.hidden = false;
+                  articleSummarizeStatus.textContent =
+                    'Paste at least a short paragraph (about 40+ characters).';
+                }
+                return;
+              }
+              if (!summarizerReady || typeof Summarizer === 'undefined') return;
+
+              if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = true;
+              if (articleSummarizeInput) articleSummarizeInput.disabled = true;
+              if (articleSummarizeStatus) {
+                articleSummarizeStatus.hidden = false;
+                articleSummarizeStatus.textContent = 'Summarizing…';
+              }
+              if (articleSummarizeOutput) {
+                articleSummarizeOutput.hidden = false;
+                articleSummarizeOutput.textContent = '';
+                articleSummarizeOutput.classList.add('page-ai-reply--loading');
+              }
+
+              const outLang = navigator.language || 'en-US';
+              const createOpts = {
+                sharedContext: 'Tech or business news article. The reader wants a short takeaway.',
+                type: 'tldr',
+                length: 'short',
+                format: 'plain-text',
+                expectedInputLanguages: DETECTOR_INPUT_LANGS,
+                outputLanguage: outLang,
+                monitor(m) {
+                  m.addEventListener('downloadprogress', (e) => {
+                    const pct = Math.round((e.loaded || 0) * 100);
+                    if (articleSummarizeStatus) {
+                      articleSummarizeStatus.hidden = false;
+                      articleSummarizeStatus.textContent = `Preparing model… ${pct}%`;
+                    }
+                  });
+                },
+              };
+
+              let sum = null;
+              try {
+                const av = await Summarizer.availability();
+                if (summarizerAvailabilityBlocked(av)) {
+                  if (articleSummarizeStatus) {
+                    articleSummarizeStatus.textContent =
+                      'Summarizer isn’t available on this device. See Chrome built-in AI requirements.';
+                  }
+                  return;
+                }
+                sum = await Summarizer.create(createOpts);
+                if (typeof sum.summarizeStreaming === 'function') {
+                  const stream = sum.summarizeStreaming(raw, {
+                    context: 'Audience: tech professionals skimming news.',
+                  });
+                  let full = '';
+                  for await (const chunk of stream) {
+                    full += chunk;
+                    if (articleSummarizeOutput) articleSummarizeOutput.textContent = full;
+                  }
+                } else {
+                  const text = await sum.summarize(raw, {
+                    context: 'Audience: tech professionals skimming news.',
+                  });
+                  if (articleSummarizeOutput) {
+                    articleSummarizeOutput.textContent = String(text != null ? text : '');
+                  }
+                }
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.textContent = '';
+                  articleSummarizeStatus.hidden = true;
+                }
+              } catch (err) {
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.hidden = false;
+                  articleSummarizeStatus.textContent = String(err.message || err);
+                }
+                if (articleSummarizeOutput) articleSummarizeOutput.textContent = '';
+              } finally {
+                if (articleSummarizeOutput) {
+                  articleSummarizeOutput.classList.remove('page-ai-reply--loading');
+                }
+                if (sum && sum.destroy) {
+                  try {
+                    await sum.destroy();
+                  } catch (_) {
+                    /* ignore */
+                  }
+                }
+                if (articleSummarizeSubmit) articleSummarizeSubmit.disabled = false;
+                if (articleSummarizeInput) articleSummarizeInput.disabled = false;
+              }
+            }
+
+            async function initSummarizerUi() {
+              if (!summarizeSection || !articleSummarizeInput || !articleSummarizeSubmit) return;
+              if (typeof Summarizer === 'undefined') return;
+
+              summarizeSection.hidden = false;
+              try {
+                const av = await Summarizer.availability();
+                if (summarizerAvailabilityBlocked(av)) {
+                  if (articleSummarizeStatus) {
+                    articleSummarizeStatus.hidden = false;
+                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
+                  }
+                  return;
+                }
+                summarizerReady = true;
+                articleSummarizeInput.disabled = false;
+                articleSummarizeSubmit.disabled = false;
+              } catch (e) {
+                if (articleSummarizeStatus) {
+                  articleSummarizeStatus.hidden = false;
+                  articleSummarizeStatus.textContent = String(e.message || e);
+                }
+              }
+            }
+
+            function initTranslateUi() {
+              if (!isTranslationDesktopLikely() || typeof Translator === 'undefined') {
+                translateUiReady = false;
+                hideAllStoryTranslateSlots();
+                return;
+              }
+              translateUiReady = true;
+              if (typeof LanguageDetector === 'undefined') {
+                revealTranslateButtonsFallback();
+                refreshCapabilityChips();
+                return;
+              }
+              scheduleStoryLanguageScan();
+            }
+
+            async function runProofreadQuestion() {
+              const raw = askFeedInput && askFeedInput.value ? askFeedInput.value.trim() : '';
+              if (!raw || typeof Proofreader === 'undefined') return;
+              if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = true;
+              try {
+                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
+                if (isAvailabilityBlocked(av)) return;
+                const proofreader = await Proofreader.create({
+                  expectedInputLanguages: ['en'],
+                  monitor(m) {
+                    m.addEventListener('downloadprogress', () => {});
+                  },
+                });
+                const result = await proofreader.proofread(raw);
+                const fixed =
+                  result && result.correctedInput != null ? String(result.correctedInput) : raw;
+                askFeedInput.value = fixed;
+                if (proofreader.destroy) await proofreader.destroy();
+              } catch (e) {
+                hideAiSuiteStatus();
+                setAiSuiteStatus(
+                  `<span class="ai-suite__status-text">Proofreader: ${String(e.message || e)}</span>`,
+                  'warn'
+                );
+              } finally {
+                if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = false;
+              }
+            }
+
+            async function runRewriteAnswer(mode) {
+              const text = askFeedReply ? askFeedReply.textContent.trim() : '';
+              if (!text || typeof Rewriter === 'undefined') return;
+              const busy = mode === 'shorter' ? rewriteShorterBtn : rewriteFormalBtn;
+              if (busy) busy.disabled = true;
+              askFeedReply.classList.add('page-ai-reply--loading');
+              let rewriter = null;
+              try {
+                const av = await Rewriter.availability();
+                if (isAvailabilityBlocked(av)) return;
+                const opts = {
+                  sharedContext: 'Tech news Q&A for a professional reader.',
+                  format: 'plain-text',
+                  length: mode === 'shorter' ? 'shorter' : 'as-is',
+                  tone: mode === 'formal' ? 'more-formal' : 'as-is',
+                  expectedInputLanguages: ['en'],
+                  outputLanguage: 'en',
+                  monitor(m) {
+                    m.addEventListener('downloadprogress', () => {});
+                  },
+                };
+                rewriter = await Rewriter.create(opts);
+                const out = await rewriter.rewrite(text, {
+                  context: 'Preserve facts; improve clarity only.',
+                });
+                const next =
+                  typeof out === 'string' ? out : out && out.text != null ? String(out.text) : String(out);
+                askFeedReply.textContent = next.trim() || text;
+                if (rewriter.destroy) await rewriter.destroy();
+                rewriter = null;
+              } catch (e) {
+                setAiSuiteStatus(
+                  `<span class="ai-suite__status-text">Rewriter: ${String(e.message || e)}</span>`,
+                  'warn'
+                );
+              } finally {
+                askFeedReply.classList.remove('page-ai-reply--loading');
+                if (rewriter && rewriter.destroy) {
+                  try {
+                    await rewriter.destroy();
+                  } catch (_) {
+                    /* ignore */
+                  }
+                }
+                if (rewriteShorterBtn) rewriteShorterBtn.disabled = false;
+                if (rewriteFormalBtn) rewriteFormalBtn.disabled = false;
+              }
+            }
+
+            function refreshCapabilityChips() {
+              if (!aiSuiteChips) return;
+              const chips = [];
+              const add = (label, on) => {
+                chips.push(`<li class="ai-suite__chip${on ? '' : ' ai-suite__chip--off'}">${label}</li>`);
+              };
+              add('Prompt API', promptApiReady);
+              add('Summarizer', summarizerReady);
+              add('Translate', translateUiReady);
+              add('Lang detect', langDetectScanOk);
+              add('Proofreader', proofreaderReady);
+              add('Rewriter', rewriterReady);
+              aiSuiteChips.innerHTML = chips.join('');
+            }
+
+            async function initProofreaderUi() {
+              if (!proofreadQuestionBtn || typeof Proofreader === 'undefined') return;
+              try {
+                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
+                if (isAvailabilityBlocked(av)) return;
+                proofreaderReady = true;
+                proofreadQuestionBtn.hidden = false;
+              } catch (_) {
+                /* optional API */
+              }
+            }
+
+            async function initRewriterUi() {
+              if (typeof Rewriter === 'undefined') return;
+              try {
+                const av = await Rewriter.availability();
+                if (isAvailabilityBlocked(av)) return;
+                rewriterReady = true;
+              } catch (_) {
+                /* optional API */
+              }
+            }
+
+            const initPromptApi = async () => {
+              const lmApi = getLanguageModelApi();
+              if (!lmApi) {
+                renderPromptUnavailable(
+                  `<p class="ai-suite__status-p">Language model not available in this browser. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
+                );
+                refreshCapabilityChips();
+                return;
+              }
+
+              try {
+                const availability = await lmApi.availability(LM_OPTIONS);
+                if (isAvailabilityBlocked(availability)) {
+                  renderPromptUnavailable(
+                    `<p class="ai-suite__status-p">On-device model isn’t available on this system. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
+                  );
+                  refreshCapabilityChips();
+                  return;
+                }
+
+                promptApiReady = true;
+                setIntegratedAiEnabled(true);
+                hideAiSuiteStatus();
+                if (availability === 'downloading') {
+                  setAiSuiteStatus(
+                    '<p class="ai-suite__status-p ai-suite__status-p--muted">First answer may wait while Gemini Nano prepares.</p>',
+                    'ok'
+                  );
+                }
+                await renderGeminiNanoMeta(lmApi, availability);
+              } catch (e) {
+                renderPromptUnavailable(
+                  `<p class="ai-suite__status-p">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Help</a></p>`
+                );
+              }
+              refreshCapabilityChips();
+            };
+
+            if (askFeedSubmit && askFeedInput) {
+              askFeedSubmit.addEventListener('click', () => void runAskFeed());
+              askFeedInput.addEventListener('keydown', (ev) => {
+                if (ev.key === 'Enter' && (ev.metaKey || ev.ctrlKey)) {
+                  ev.preventDefault();
+                  void runAskFeed();
+                }
+              });
+            }
+
+            document.querySelector('main')?.addEventListener('click', (ev) => {
+              const tr = ev.target.closest('.story-translate-btn');
+              if (tr && !tr.disabled) {
+                ev.preventDefault();
+                void runTranslateTitle(tr);
+                return;
+              }
+              const btn = ev.target.closest('.story-ai-btn');
+              if (!btn || btn.disabled) return;
+              ev.preventDefault();
+              void runStoryAngle(btn);
+            });
+
+            if (articleSummarizeSubmit && articleSummarizeInput) {
+              articleSummarizeSubmit.addEventListener('click', () => void runSummarizeArticle());
+            }
+
+            if (proofreadQuestionBtn) {
+              proofreadQuestionBtn.addEventListener('click', () => void runProofreadQuestion());
+            }
+            if (rewriteShorterBtn) {
+              rewriteShorterBtn.addEventListener('click', () => void runRewriteAnswer('shorter'));
+            }
+            if (rewriteFormalBtn) {
+              rewriteFormalBtn.addEventListener('click', () => void runRewriteAnswer('formal'));
+            }
+
+            (async () => {
+              await initPromptApi();
+              await initSummarizerUi();
+              initTranslateUi();
+              await initProofreaderUi();
+              await initRewriterUi();
+              refreshCapabilityChips();
+            })();
+        </script>
+
     </main>
 
     <footer class="site-footer">
