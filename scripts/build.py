@@ -251,6 +251,25 @@ def build_site():
         for story in top_stories
     ]
 
+    # Full feed for on-device LLM: every category story, deduped by URL, with excerpts.
+    seen_links: set[str] = set()
+    full_page_stories_for_model: list[dict] = []
+    for story in sorted(all_stories, key=lambda x: x["date"], reverse=True):
+        link = story.get("link", "")
+        if not link or link in seen_links:
+            continue
+        seen_links.add(link)
+        full_page_stories_for_model.append(
+            {
+                "title": story["title"],
+                "source": story["source"],
+                "category": story["category"],
+                "category_label": story["category_label"],
+                "time_ago": story["time_ago"],
+                "description": story.get("description") or "",
+            }
+        )
+
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     template = env.get_template("page.html")
 
@@ -258,6 +277,7 @@ def build_site():
     html_content = template.render(
         top_stories=top_stories,
         top_stories_for_model=serializable_top_stories,
+        full_page_stories_for_model=full_page_stories_for_model,
         categories=categories_data,
         insights=insights,
         updated_at=now.strftime("%B %d, %Y at %H:%M UTC"),

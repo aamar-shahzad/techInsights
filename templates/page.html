@@ -111,79 +111,68 @@
         </section>
         {% endif %}
 
-        <section class="insight-section insight-panel" aria-labelledby="insight-section-title">
-            <div class="insight-panel__head">
-                <div class="insight-panel__title-block">
-                    <h2 class="insight-title" id="insight-section-title">Briefing</h2>
-                    <p class="insight-tagline">A condensed read from today's top stories. Private to your browser.</p>
-                </div>
-                <button id="insight-generate-button" class="insight-generate-button" type="button">
-                    Generate briefing
-                </button>
-            </div>
+        <section class="ai-suite" aria-labelledby="ai-suite-title">
+            <header class="ai-suite__header">
+                <h2 class="ai-suite__title" id="ai-suite-title">Reader tools</h2>
+                <p class="ai-suite__lede">
+                    On-device Chrome built-in AI where your browser supports it. Nothing is sent to this site’s server.
+                </p>
+                <a href="https://developer.chrome.com/docs/ai/built-in-apis" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI APIs</a>
+            </header>
 
-            <div id="insight-status" class="insight-status" role="status">
-                {% if insights and not insights.enabled %}
-                <p class="insight-alert insight-alert--muted">{{ insights.message }}</p>
-                {% else %}
-                <p class="insight-alert insight-alert--muted">Checking…</p>
-                {% endif %}
-            </div>
+            <ul class="ai-suite__chips" id="ai-suite-chips" aria-label="Detected APIs"></ul>
+            <div id="ai-suite-status" class="ai-suite__status ai-suite__status--hidden" role="status"></div>
 
-            <p class="insight-lede insight-lede--placeholder" id="insight-headline">—</p>
-
-            <div class="insight-grid">
-                <article class="insight-card">
-                    <h3 class="insight-card__label">Trends</h3>
-                    <ul class="insight-list" id="insight-key-trends">
-                        <li class="insight-list__placeholder">—</li>
-                    </ul>
-                </article>
-
-                <article class="insight-card">
-                    <h3 class="insight-card__label">Takeaways</h3>
-                    <ul class="insight-list" id="insight-quick-takeaways">
-                        <li class="insight-list__placeholder">—</li>
-                    </ul>
-                </article>
-
-                <article class="insight-card">
-                    <h3 class="insight-card__label">Watch</h3>
-                    <ul class="insight-list" id="insight-watch-items">
-                        <li class="insight-list__placeholder">—</li>
-                    </ul>
-                </article>
-            </div>
-            <p class="insight-meta" id="insight-meta"></p>
-
-            <div class="page-ai-integrated" id="page-ai-integrated">
-                <div class="page-ai-ask">
-                    <h3 class="page-ai-ask__title">Ask the feed</h3>
-                    <p class="page-ai-ask__hint">Use the same headlines as context—answers stay on your device.</p>
-                    <div class="page-ai-ask__row">
+            <div class="ai-suite__grid">
+                <article class="ai-suite__card">
+                    <div class="ai-suite__card-head">
+                        <h3 class="ai-suite__card-title">Ask about this page</h3>
+                        <span class="ai-suite__badge">Prompt API</span>
+                    </div>
+                    <p class="ai-suite__card-desc">Uses the full story list (all sections) as context.</p>
+                    <div class="page-ai-ask__row ai-suite__ask-row">
                         <label class="visually-hidden" for="ask-feed-input">Question about today’s coverage</label>
-                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="2" placeholder="e.g. What should I watch in regulation or AI?" disabled></textarea>
-                        <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
+                        <textarea id="ask-feed-input" class="page-ai-ask__input" rows="3" placeholder="What stands out in security or AI this week?" disabled></textarea>
+                        <div class="ai-suite__ask-actions">
+                            <button type="button" class="page-ai-ask__submit" id="ask-feed-submit" disabled>Send</button>
+                            <button type="button" class="ai-suite__ghost-btn" id="proofread-question-btn" hidden>Polish question</button>
+                        </div>
                     </div>
                     <div id="ask-feed-reply" class="page-ai-reply" aria-live="polite" hidden></div>
-                </div>
+                    <div class="ai-suite__reply-tools" id="rewriter-answer-tools" hidden>
+                        <span class="ai-suite__reply-tools-label">Refine answer</span>
+                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-shorter-btn">Shorter</button>
+                        <button type="button" class="ai-suite__ghost-btn" id="rewrite-formal-btn">More formal</button>
+                    </div>
+                </article>
 
-                <div class="page-ai-summarize" id="page-ai-summarize" hidden>
-                    <h3 class="page-ai-ask__title">Article clip</h3>
-                    <p class="page-ai-ask__hint">Paste article body (not just the headline). Summaries run in your browser via the Summarizer API.</p>
+                <article class="ai-suite__card ai-suite__card--summarize" id="page-ai-summarize" hidden>
+                    <div class="ai-suite__card-head">
+                        <h3 class="ai-suite__card-title">Summarize a clip</h3>
+                        <span class="ai-suite__badge">Summarizer API</span>
+                    </div>
+                    <p class="ai-suite__card-desc">Paste article body text (not just a headline).</p>
                     <div class="page-ai-ask__row">
                         <label class="visually-hidden" for="article-summarize-input">Article text to summarize</label>
-                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs here…" disabled></textarea>
+                        <textarea id="article-summarize-input" class="page-ai-ask__input page-ai-ask__input--tall" rows="5" placeholder="Paste paragraphs…" disabled></textarea>
                         <button type="button" class="page-ai-ask__submit" id="article-summarize-submit" disabled>Summarize</button>
                     </div>
                     <p id="article-summarize-status" class="page-ai-summarize__status" role="status" hidden></p>
                     <div id="article-summarize-output" class="page-ai-reply page-ai-reply--markdown" aria-live="polite" hidden></div>
-                </div>
+                </article>
             </div>
+
+            <p class="ai-suite__footnote">
+                Under each headline: <strong>Translate title</strong> (Language Detector + Translator) ·
+                <strong>Why it matters</strong> (Prompt API). Trials may apply — see Google’s docs.
+            </p>
         </section>
 
         <script id="top-stories-data" type="application/json">
             {{ top_stories_for_model | tojson }}
+        </script>
+        <script id="full-page-stories-data" type="application/json">
+            {{ full_page_stories_for_model | tojson }}
         </script>
         <script type="module">
             /**
@@ -223,52 +212,39 @@
               expectedOutputs: [{ type: 'text', languages: ['en'] }],
             };
 
-            /** System role via initialPrompts (see "Add context with initial prompts" in the Prompt API doc). */
-            const BRIEFING_SYSTEM_PROMPT = [
-              'You are a concise tech news editor.',
-              'Respond with a single JSON object only, matching the schema the user specifies.',
-              'Ground answers in the headlines provided; do not invent sources or stories.',
-            ].join(' ');
-
             const ASK_FEED_SYSTEM_PROMPT = [
-              'You answer questions about a tech news feed.',
-              'Use only the headlines and metadata in the user message. If the feed does not support an answer, say so in one sentence.',
+              'You answer questions about the Tech Insights page the user has open.',
+              'Use only the full page snapshot in your instructions. If the snapshot does not support an answer, say so in one sentence.',
               'Be direct; aim under 150 words unless the user asks for a list or detail.',
             ].join(' ');
 
             const STORY_ANGLE_SYSTEM_PROMPT = [
-              'You explain why a headline matters to someone who follows tech and startups.',
+              'You explain why one headline matters to someone who follows tech and startups.',
+              'The full page snapshot lists every story on the page; focus on the story named in the user message.',
               'Reply with one or two short sentences. No title repetition, no hype.',
             ].join(' ');
 
-            const INSIGHT_JSON_SCHEMA = {
-              type: 'object',
-              additionalProperties: true,
-              properties: {
-                enabled: { type: 'boolean' },
-                headline: { type: 'string' },
-                key_trends: { type: 'array', items: { type: 'string' } },
-                quick_takeaways: { type: 'array', items: { type: 'string' } },
-                watch_items: { type: 'array', items: { type: 'string' } },
-                generated_for: { type: 'string' },
-              },
-            };
-
-            const stories = JSON.parse(
+            const topStoriesOnly = JSON.parse(
               document.getElementById('top-stories-data')?.textContent || '[]'
             );
+            const fullPageStoriesRaw = JSON.parse(
+              document.getElementById('full-page-stories-data')?.textContent || '[]'
+            );
+            /** Every story on this page (all sections); used as LLM grounding. Falls back to top stories if empty. */
+            const pageStories =
+              Array.isArray(fullPageStoriesRaw) && fullPageStoriesRaw.length > 0
+                ? fullPageStoriesRaw
+                : topStoriesOnly;
 
-            const statusEl = document.getElementById('insight-status');
-            const headlineEl = document.getElementById('insight-headline');
-            const trendsEl = document.getElementById('insight-key-trends');
-            const takeawaysEl = document.getElementById('insight-quick-takeaways');
-            const watchEl = document.getElementById('insight-watch-items');
-            const metaEl = document.getElementById('insight-meta');
-            const generateButton = document.getElementById('insight-generate-button');
-            const originalButtonLabel = generateButton ? generateButton.textContent : '';
+            const aiSuiteStatus = document.getElementById('ai-suite-status');
+            const aiSuiteChips = document.getElementById('ai-suite-chips');
             const askFeedInput = document.getElementById('ask-feed-input');
             const askFeedSubmit = document.getElementById('ask-feed-submit');
             const askFeedReply = document.getElementById('ask-feed-reply');
+            const proofreadQuestionBtn = document.getElementById('proofread-question-btn');
+            const rewriterAnswerTools = document.getElementById('rewriter-answer-tools');
+            const rewriteShorterBtn = document.getElementById('rewrite-shorter-btn');
+            const rewriteFormalBtn = document.getElementById('rewrite-formal-btn');
             const summarizeSection = document.getElementById('page-ai-summarize');
             const articleSummarizeInput = document.getElementById('article-summarize-input');
             const articleSummarizeSubmit = document.getElementById('article-summarize-submit');
@@ -278,6 +254,8 @@
             let promptApiReady = false;
             let summarizerReady = false;
             let translateUiReady = false;
+            let proofreaderReady = false;
+            let rewriterReady = false;
 
             /** BCP-47 primary subtag, lowercased (e.g. en-US → en). */
             function primaryLangTag(tag) {
@@ -308,28 +286,19 @@
               });
             }
 
-            const setList = (el, list) => {
-              if (!el) return;
-              el.innerHTML = '';
-              if (!list.length) {
-                const item = document.createElement('li');
-                item.className = 'insight-list__placeholder';
-                item.textContent = '—';
-                el.appendChild(item);
-                return;
-              }
-              for (const value of list) {
-                const item = document.createElement('li');
-                item.textContent = value;
-                el.appendChild(item);
-              }
-            };
+            function setAiSuiteStatus(html, variant) {
+              if (!aiSuiteStatus) return;
+              aiSuiteStatus.innerHTML = html;
+              aiSuiteStatus.classList.remove('ai-suite__status--hidden', 'ai-suite__status--warn', 'ai-suite__status--ok');
+              if (variant === 'warn') aiSuiteStatus.classList.add('ai-suite__status--warn');
+              else if (variant === 'ok') aiSuiteStatus.classList.add('ai-suite__status--ok');
+            }
 
-            const setLoadingState = (isLoading) => {
-              if (!generateButton) return;
-              generateButton.disabled = isLoading || !promptApiReady;
-              generateButton.textContent = isLoading ? 'Working…' : originalButtonLabel;
-            };
+            function hideAiSuiteStatus() {
+              if (!aiSuiteStatus) return;
+              aiSuiteStatus.innerHTML = '';
+              aiSuiteStatus.classList.add('ai-suite__status--hidden');
+            }
 
             const setIntegratedAiEnabled = (enabled) => {
               document.querySelectorAll('.story-ai-btn').forEach((btn) => {
@@ -339,109 +308,55 @@
               if (askFeedSubmit) askFeedSubmit.disabled = !enabled;
             };
 
-            const renderUnavailable = (detailHtml) => {
-              statusEl.innerHTML = detailHtml;
-              statusEl.classList.remove('insight-status--hidden');
-              setList(trendsEl, []);
-              setList(takeawaysEl, []);
-              setList(watchEl, []);
-              metaEl.textContent = '';
-              if (headlineEl) {
-                headlineEl.textContent = '—';
-                headlineEl.classList.add('insight-lede--placeholder');
-              }
-              if (generateButton) {
-                generateButton.disabled = true;
-              }
+            const renderPromptUnavailable = (detailHtml) => {
+              setAiSuiteStatus(detailHtml, 'warn');
               promptApiReady = false;
               setIntegratedAiEnabled(false);
+              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
             };
 
-            const showGenerationError = (message, err) => {
-              statusEl.classList.remove('insight-status--hidden');
-              const name = err && err.name ? String(err.name) : '';
-              let extra = '';
-              if (name === 'QuotaExceededError' && err.contextWindow != null) {
-                extra = ` (${err.contextWindow} token limit)`;
-              }
-              statusEl.innerHTML = `<p class="insight-alert insight-alert--warn">${message}${extra} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Details</a></p>`;
-              metaEl.textContent = 'Try again when ready.';
-            };
+            /** Cap embedded snapshot size so create() stays within on-device context limits. */
+            const MAX_PAGE_GROUNDING_CHARS = 72000;
 
-            const stripJsonFence = (text) => {
-              const start = text.indexOf('{');
-              const end = text.lastIndexOf('}');
-              if (start === -1 || end === -1 || end <= start) {
-                throw new Error('No JSON found in model output.');
+            /**
+             * Structured dump of every story on the page (all categories), for system-context grounding.
+             */
+            function buildPageGroundingText(list) {
+              if (!list || !list.length) return '';
+              const byCat = {};
+              for (const s of list) {
+                const lab = s.category_label || s.category || 'General';
+                if (!byCat[lab]) byCat[lab] = [];
+                byCat[lab].push(s);
               }
-              return text.slice(start, end + 1);
-            };
-
-            const extractInsightPayload = (text) => {
-              const raw = typeof text === 'string' ? text : JSON.stringify(text);
-              const candidate = stripJsonFence(raw || '');
-              try {
-                const parsed = JSON.parse(candidate);
-                if (parsed && (parsed.key_trends || parsed.quick_takeaways || parsed.watch_items)) {
-                  return parsed;
-                }
-              } catch (e) {
-                /* continue */
-              }
-              const objects = (raw || '').match(/\{[\s\S]*?\}/g) || [];
-              for (let i = objects.length - 1; i >= 0; i -= 1) {
-                try {
-                  const parsed = JSON.parse(objects[i]);
-                  if (parsed && (parsed.key_trends || parsed.quick_takeaways || parsed.watch_items)) {
-                    return parsed;
+              const parts = [];
+              parts.push(`Tech Insights — full page (${list.length} stories, every section below the fold included)`);
+              parts.push('');
+              const catOrder = Object.keys(byCat).sort();
+              for (const cat of catOrder) {
+                parts.push(`## ${cat}`);
+                const items = byCat[cat];
+                items.forEach((s, idx) => {
+                  const title = s.title || 'Untitled';
+                  const src = s.source || '';
+                  const when = s.time_ago || '';
+                  parts.push(`${idx + 1}. ${title}`);
+                  parts.push(`   Source: ${src} · ${when}`);
+                  const desc = s.description && String(s.description).trim();
+                  if (desc) {
+                    parts.push(`   Excerpt: ${desc.replace(/\s+/g, ' ')}`);
                   }
-                } catch (e) {
-                  /* continue */
-                }
+                });
+                parts.push('');
               }
-              throw new Error('Model output did not include a valid insight JSON object.');
-            };
-
-            const normalizeList = (value) => {
-              if (!Array.isArray(value)) return [];
-              return value.map((v) => String(v).trim()).filter(Boolean);
-            };
-
-            const parsePromptResult = (result) => {
-              if (result == null) throw new Error('Empty model response.');
-              if (typeof result === 'object') return result;
-              const s = String(result).trim();
-              try {
-                return JSON.parse(s);
-              } catch (e) {
-                return extractInsightPayload(s);
+              let text = parts.join('\n');
+              if (text.length > MAX_PAGE_GROUNDING_CHARS) {
+                text =
+                  text.slice(0, MAX_PAGE_GROUNDING_CHARS) +
+                  '\n\n[Snapshot truncated to fit the model context window.]';
               }
-            };
-
-            /** User-turn content only; system instructions live in initialPrompts on create(). */
-            const buildInsightUserPrompt = () => {
-              const topSummary = stories.slice(0, 6).map((story) => {
-                const source = story.source || 'Unknown source';
-                const categoryLabel = story.category_label || 'General';
-                const title = story.title || 'Untitled';
-                const age = story.time_ago || '';
-                return `[${categoryLabel}] ${title} — ${source} (${age})`;
-              });
-              const categoryCounts = {};
-              for (const story of stories) {
-                const category = story.category || 'general';
-                categoryCounts[category] = (categoryCounts[category] || 0) + 1;
-              }
-              return [
-                'Return strict JSON exactly in this shape:',
-                '{"enabled": true, "headline": "...", "key_trends": ["..."], "quick_takeaways": ["..."], "watch_items": ["..."], "generated_for": "..."}',
-                '',
-                'Top stories:',
-                ...topSummary.map((item) => `- ${item}`),
-                '',
-                `Category counts: ${Object.entries(categoryCounts).map(([cat, count]) => `${cat}: ${count}`).join(', ')}`,
-              ].join('\n');
-            };
+              return text;
+            }
 
             async function closeLmSession(session) {
               if (session && typeof session.destroy === 'function') {
@@ -454,12 +369,23 @@
             }
 
             /**
-             * Ephemeral session per user action (briefing, ask, story)—avoids cross-talk in session history.
+             * Ephemeral session per user action (ask, story angle)—avoids cross-talk in session history.
+             * @param {string} [pageGrounding] Full-page story snapshot appended to system prompt (max length capped).
              */
-            async function openLmSession(lmApi, systemPrompt, onDownloadPct) {
+            async function openLmSession(lmApi, systemPrompt, onDownloadPct, pageGrounding) {
+              let combined = systemPrompt;
+              if (pageGrounding && pageGrounding.trim()) {
+                combined = [
+                  systemPrompt,
+                  '',
+                  '---',
+                  'PAGE_SNAPSHOT (ground truth for this page — only these rows count as facts):',
+                  pageGrounding.trim(),
+                ].join('\n');
+              }
               const baseOpts = {
                 ...LM_OPTIONS,
-                initialPrompts: [{ role: 'system', content: systemPrompt }],
+                initialPrompts: [{ role: 'system', content: combined }],
                 monitor(m) {
                   m.addEventListener('downloadprogress', (e) => {
                     const pct = Math.round((e.loaded || 0) * 100);
@@ -474,94 +400,14 @@
               }
             }
 
-            const buildFeedContextForAsk = () => {
-              const lines = stories.slice(0, 18).map((s, i) => {
-                const t = s.title || 'Untitled';
-                const src = s.source || '';
-                const cat = s.category_label || s.category || '';
-                return `${i + 1}. [${cat}] ${t} — ${src}`;
-              });
-              return lines.join('\n');
-            };
-
-            const generateInsights = async () => {
-              if (!stories || stories.length === 0) {
-                statusEl.classList.remove('insight-status--hidden');
-                statusEl.innerHTML =
-                  '<p class="insight-alert insight-alert--muted">No stories loaded. Rebuild the site feed.</p>';
-                setList(trendsEl, []);
-                setList(takeawaysEl, []);
-                setList(watchEl, []);
-                metaEl.textContent = '';
-                return;
-              }
-
-              const lmApi = getLanguageModelApi();
-              if (!lmApi) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--muted">Briefing isn’t supported in this browser. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
-                );
-                return;
-              }
-
-              const availability = await lmApi.availability(LM_OPTIONS);
-              if (isAvailabilityBlocked(availability)) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--muted">Briefing isn’t available on this device. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Why</a></p>`
-                );
-                return;
-              }
-
-              setLoadingState(true);
-              statusEl.classList.remove('insight-status--hidden');
-              statusEl.innerHTML = '<p class="insight-alert insight-alert--info">Summarizing…</p>';
-              metaEl.textContent =
-                availability === 'downloading' ? 'First run may download data in the background.' : '';
-
-              const promptText = buildInsightUserPrompt();
-
-              let session = null;
-              try {
-                session = await openLmSession(lmApi, BRIEFING_SYSTEM_PROMPT, (pct) => {
-                  metaEl.textContent = `Preparing… ${pct}%`;
-                });
-                let parsed;
-                try {
-                  const result = await session.prompt(promptText, {
-                    responseConstraint: INSIGHT_JSON_SCHEMA,
-                  });
-                  parsed = parsePromptResult(result);
-                } catch (constraintErr) {
-                  const result = await session.prompt(promptText);
-                  parsed = parsePromptResult(result);
-                }
-
-                const headline = String(parsed.headline || 'Tech snapshot').trim() || 'Tech snapshot';
-                const keyTrends = normalizeList(parsed.key_trends);
-                const quickTakeaways = normalizeList(parsed.quick_takeaways);
-                const watchItems = normalizeList(parsed.watch_items);
-
-                headlineEl.textContent = headline;
-                headlineEl.classList.remove('insight-lede--placeholder');
-                setList(trendsEl, keyTrends);
-                setList(takeawaysEl, quickTakeaways);
-                setList(watchEl, watchItems);
-                statusEl.innerHTML = '';
-                statusEl.classList.add('insight-status--hidden');
-                const generatedFor = parsed.generated_for || new Date().toLocaleString();
-                metaEl.textContent = `${stories.length} stories · ${generatedFor}`;
-              } catch (err) {
-                const message = String(err.message || err);
-                showGenerationError(`Insight generation failed: ${message}`, err);
-              } finally {
-                await closeLmSession(session);
-                setLoadingState(false);
-              }
-            };
-
             const runAskFeed = async () => {
               const q = (askFeedInput && askFeedInput.value) ? askFeedInput.value.trim() : '';
               if (!q || !promptApiReady) return;
+              if (!pageStories || pageStories.length === 0) {
+                askFeedReply.hidden = false;
+                askFeedReply.textContent = 'No story data. Rebuild the site.';
+                return;
+              }
               const lmApi = getLanguageModelApi();
               if (!lmApi) return;
               const availability = await lmApi.availability(LM_OPTIONS);
@@ -571,20 +417,21 @@
                 return;
               }
 
+              if (rewriterAnswerTools) rewriterAnswerTools.hidden = true;
               askFeedSubmit.disabled = true;
               askFeedInput.disabled = true;
               askFeedReply.hidden = false;
               askFeedReply.textContent = '';
               askFeedReply.classList.add('page-ai-reply--loading');
 
-              const feedBlock = buildFeedContextForAsk();
-              const userTurn = `[Feed]\n${feedBlock}\n\n[Question]\n${q}`;
+              const pageGrounding = buildPageGroundingText(pageStories);
+              const userTurn = `[Question]\n${q}`;
 
               let session = null;
               try {
                 session = await openLmSession(lmApi, ASK_FEED_SYSTEM_PROMPT, (pct) => {
                   askFeedReply.textContent = `Preparing… ${pct}%`;
-                });
+                }, pageGrounding);
                 if (typeof session.promptStreaming === 'function') {
                   const stream = session.promptStreaming(userTurn);
                   let full = '';
@@ -595,6 +442,9 @@
                 } else {
                   const out = await session.prompt(userTurn);
                   askFeedReply.textContent = String(out != null ? out : '');
+                }
+                if (rewriterReady && rewriterAnswerTools && askFeedReply.textContent.trim()) {
+                  rewriterAnswerTools.hidden = false;
                 }
               } catch (err) {
                 askFeedReply.textContent = `Couldn’t complete: ${String(err.message || err)}`;
@@ -626,11 +476,12 @@
               outEl.textContent = '…';
               outEl.classList.add('story-ai-output--loading');
 
-              const userTurn = `Headline: ${title}\nSource: ${source}\nCategory: ${cat}\n\nWhy might this matter to a tech reader? Answer in one or two sentences.`;
+              const userTurn = `Focused story — Title: ${title}\nSource: ${source}\nCategory: ${cat}\n\nWhy might this matter to a tech reader? Answer in one or two sentences.`;
 
               let session = null;
               try {
-                session = await openLmSession(lmApi, STORY_ANGLE_SYSTEM_PROMPT, () => {});
+                const pageGrounding = buildPageGroundingText(pageStories);
+                session = await openLmSession(lmApi, STORY_ANGLE_SYSTEM_PROMPT, () => {}, pageGrounding);
                 const text = await session.prompt(userTurn);
                 outEl.textContent = String(text != null ? text : '').trim() || '—';
               } catch (err) {
@@ -857,7 +708,7 @@
                 if (summarizerAvailabilityBlocked(av)) {
                   if (articleSummarizeStatus) {
                     articleSummarizeStatus.hidden = false;
-                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
+                    articleSummarizeStatus.innerHTML = `Summarizer isn’t available here. <a href="${BUILTIN_AI_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Built-in AI requirements</a>`;
                   }
                   return;
                 }
@@ -879,45 +730,157 @@
               setTranslateButtonsEnabled(true);
             }
 
+            async function runProofreadQuestion() {
+              const raw = askFeedInput && askFeedInput.value ? askFeedInput.value.trim() : '';
+              if (!raw || typeof Proofreader === 'undefined') return;
+              if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = true;
+              try {
+                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
+                if (isAvailabilityBlocked(av)) return;
+                const proofreader = await Proofreader.create({
+                  expectedInputLanguages: ['en'],
+                  monitor(m) {
+                    m.addEventListener('downloadprogress', () => {});
+                  },
+                });
+                const result = await proofreader.proofread(raw);
+                const fixed =
+                  result && result.correctedInput != null ? String(result.correctedInput) : raw;
+                askFeedInput.value = fixed;
+                if (proofreader.destroy) await proofreader.destroy();
+              } catch (e) {
+                hideAiSuiteStatus();
+                setAiSuiteStatus(
+                  `<span class="ai-suite__status-text">Proofreader: ${String(e.message || e)}</span>`,
+                  'warn'
+                );
+              } finally {
+                if (proofreadQuestionBtn) proofreadQuestionBtn.disabled = false;
+              }
+            }
+
+            async function runRewriteAnswer(mode) {
+              const text = askFeedReply ? askFeedReply.textContent.trim() : '';
+              if (!text || typeof Rewriter === 'undefined') return;
+              const busy = mode === 'shorter' ? rewriteShorterBtn : rewriteFormalBtn;
+              if (busy) busy.disabled = true;
+              askFeedReply.classList.add('page-ai-reply--loading');
+              let rewriter = null;
+              try {
+                const av = await Rewriter.availability();
+                if (isAvailabilityBlocked(av)) return;
+                const opts = {
+                  sharedContext: 'Tech news Q&A for a professional reader.',
+                  format: 'plain-text',
+                  length: mode === 'shorter' ? 'shorter' : 'as-is',
+                  tone: mode === 'formal' ? 'more-formal' : 'as-is',
+                  expectedInputLanguages: ['en'],
+                  outputLanguage: 'en',
+                  monitor(m) {
+                    m.addEventListener('downloadprogress', () => {});
+                  },
+                };
+                rewriter = await Rewriter.create(opts);
+                const out = await rewriter.rewrite(text, {
+                  context: 'Preserve facts; improve clarity only.',
+                });
+                const next =
+                  typeof out === 'string' ? out : out && out.text != null ? String(out.text) : String(out);
+                askFeedReply.textContent = next.trim() || text;
+                if (rewriter.destroy) await rewriter.destroy();
+                rewriter = null;
+              } catch (e) {
+                setAiSuiteStatus(
+                  `<span class="ai-suite__status-text">Rewriter: ${String(e.message || e)}</span>`,
+                  'warn'
+                );
+              } finally {
+                askFeedReply.classList.remove('page-ai-reply--loading');
+                if (rewriter && rewriter.destroy) {
+                  try {
+                    await rewriter.destroy();
+                  } catch (_) {
+                    /* ignore */
+                  }
+                }
+                if (rewriteShorterBtn) rewriteShorterBtn.disabled = false;
+                if (rewriteFormalBtn) rewriteFormalBtn.disabled = false;
+              }
+            }
+
+            function refreshCapabilityChips() {
+              if (!aiSuiteChips) return;
+              const chips = [];
+              const add = (label, on) => {
+                chips.push(`<li class="ai-suite__chip${on ? '' : ' ai-suite__chip--off'}">${label}</li>`);
+              };
+              add('Prompt', promptApiReady);
+              add('Summarizer', summarizerReady);
+              add('Translate', translateUiReady);
+              add('Proofreader', proofreaderReady);
+              add('Rewriter', rewriterReady);
+              aiSuiteChips.innerHTML = chips.join('');
+            }
+
+            async function initProofreaderUi() {
+              if (!proofreadQuestionBtn || typeof Proofreader === 'undefined') return;
+              try {
+                const av = await Proofreader.availability({ expectedInputLanguages: ['en'] });
+                if (isAvailabilityBlocked(av)) return;
+                proofreaderReady = true;
+                proofreadQuestionBtn.hidden = false;
+              } catch (_) {
+                /* optional API */
+              }
+            }
+
+            async function initRewriterUi() {
+              if (typeof Rewriter === 'undefined') return;
+              try {
+                const av = await Rewriter.availability();
+                if (isAvailabilityBlocked(av)) return;
+                rewriterReady = true;
+              } catch (_) {
+                /* optional API */
+              }
+            }
+
             const initPromptApi = async () => {
               const lmApi = getLanguageModelApi();
               if (!lmApi) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--muted">Briefing needs a current desktop Chrome build. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
+                renderPromptUnavailable(
+                  `<p class="ai-suite__status-p">Language model not available in this browser. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Requirements</a></p>`
                 );
+                refreshCapabilityChips();
                 return;
               }
 
               try {
                 const availability = await lmApi.availability(LM_OPTIONS);
                 if (isAvailabilityBlocked(availability)) {
-                  renderUnavailable(
-                    `<p class="insight-alert insight-alert--muted">Briefing isn’t available here. <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
+                  renderPromptUnavailable(
+                    `<p class="ai-suite__status-p">On-device model isn’t available on this system. <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Learn more</a></p>`
                   );
+                  refreshCapabilityChips();
                   return;
                 }
 
                 promptApiReady = true;
-                if (generateButton) generateButton.disabled = false;
                 setIntegratedAiEnabled(true);
-
-                statusEl.innerHTML = '';
-                statusEl.classList.add('insight-status--hidden');
-                metaEl.textContent =
-                  availability === 'downloading'
-                    ? 'First briefing may take longer while files prepare.'
-                    : '';
+                hideAiSuiteStatus();
+                if (availability === 'downloading') {
+                  setAiSuiteStatus(
+                    '<p class="ai-suite__status-p ai-suite__status-p--muted">First answer may wait while the model prepares.</p>',
+                    'ok'
+                  );
+                }
               } catch (e) {
-                renderUnavailable(
-                  `<p class="insight-alert insight-alert--warn">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="insight-inline-link" target="_blank" rel="noopener noreferrer">Help</a></p>`
+                renderPromptUnavailable(
+                  `<p class="ai-suite__status-p">${String(e.message || e)} <a href="${PROMPT_API_DOC}" class="ai-suite__link" target="_blank" rel="noopener noreferrer">Help</a></p>`
                 );
               }
+              refreshCapabilityChips();
             };
-
-            if (generateButton) {
-              generateButton.disabled = true;
-              generateButton.addEventListener('click', generateInsights);
-            }
 
             if (askFeedSubmit && askFeedInput) {
               askFeedSubmit.addEventListener('click', () => void runAskFeed());
@@ -946,9 +909,24 @@
               articleSummarizeSubmit.addEventListener('click', () => void runSummarizeArticle());
             }
 
-            initPromptApi();
-            initSummarizerUi();
-            initTranslateUi();
+            if (proofreadQuestionBtn) {
+              proofreadQuestionBtn.addEventListener('click', () => void runProofreadQuestion());
+            }
+            if (rewriteShorterBtn) {
+              rewriteShorterBtn.addEventListener('click', () => void runRewriteAnswer('shorter'));
+            }
+            if (rewriteFormalBtn) {
+              rewriteFormalBtn.addEventListener('click', () => void runRewriteAnswer('formal'));
+            }
+
+            (async () => {
+              await initPromptApi();
+              await initSummarizerUi();
+              initTranslateUi();
+              await initProofreaderUi();
+              await initRewriterUi();
+              refreshCapabilityChips();
+            })();
         </script>
 
         {% for category in categories %}
