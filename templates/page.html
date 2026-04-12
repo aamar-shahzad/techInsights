@@ -105,6 +105,10 @@
                                     <div class="story-ask-primer" data-primer-state="">
                                         <p class="story-ask-primer__eyebrow">Quick read</p>
                                         <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
+                                        <div class="story-ask-primer__plain-block" hidden>
+                                            <p class="story-ask-primer__plain-label">In plain terms</p>
+                                            <p class="story-ask-primer__plain"></p>
+                                        </div>
                                         <div class="story-ask-primer__summary" aria-live="polite"></div>
                                         <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
                                         <ul class="story-ask-suggestions" hidden></ul>
@@ -170,6 +174,10 @@
                                 <div class="story-ask-primer" data-primer-state="">
                                     <p class="story-ask-primer__eyebrow">Quick read</p>
                                     <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
+                                    <div class="story-ask-primer__plain-block" hidden>
+                                        <p class="story-ask-primer__plain-label">In plain terms</p>
+                                        <p class="story-ask-primer__plain"></p>
+                                    </div>
                                     <div class="story-ask-primer__summary" aria-live="polite"></div>
                                     <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
                                     <ul class="story-ask-suggestions" hidden></ul>
@@ -231,7 +239,11 @@
 
             const STORY_PRIMER_SYSTEM_PROMPT = [
               'You help a reader skim one news story using only CONTEXT (title, source, category, URL, excerpt).',
+              'Many readers struggle with cryptic headlines—your PLAIN line must restate what the story is about in simple words (no unexplained acronyms, no clickbait tone).',
               'Reply using exactly this structure:',
+              'PLAIN:',
+              '(Exactly one sentence: what this story is about for a general reader.)',
+              '',
               'SUMMARY:',
               '(Two short sentences on the main point.)',
               '',
@@ -342,29 +354,53 @@
             function parsePrimerResponse(text) {
               const raw = String(text || '').trim();
               const questions = [];
+              let plain = '';
               let summary = '';
               const parts = raw.split(/^QUESTIONS:\s*/im);
               const head = parts[0] || '';
               const tail = parts[1];
-              const sumMatch = head.match(/SUMMARY:\s*([\s\S]*)/i);
-              if (sumMatch) summary = sumMatch[1].trim();
-              else summary = head.replace(/^SUMMARY:\s*/i, '').trim();
+              const hs = head.split(/^SUMMARY:\s*/im);
+              const beforeSummary = hs[0] || '';
+              if (hs.length > 1) summary = hs.slice(1).join('SUMMARY:').trim();
+              const pm = beforeSummary.match(/PLAIN:\s*([\s\S]*)/i);
+              if (pm) {
+                let p = pm[1];
+                const cut = p.search(/\n\s*SUMMARY:\s*/i);
+                if (cut >= 0) p = p.slice(0, cut);
+                plain = p.replace(/\s+/g, ' ').trim();
+              }
+              if (!summary) {
+                const sumMatch = head.match(/SUMMARY:\s*([\s\S]*)/i);
+                if (sumMatch) summary = sumMatch[1].trim();
+                else summary = head.replace(/^PLAIN:\s*[\s\S]*?/i, '').replace(/^SUMMARY:\s*/i, '').trim();
+              }
               if (tail) {
                 for (const line of tail.split('\n')) {
                   const m = line.match(/^\s*[-*]\s*(.+)$/);
                   if (m && m[1]) questions.push(m[1].trim());
                 }
               }
-              if (!summary && !questions.length && raw) summary = raw;
-              return { summary, questions };
+              if (!plain && !summary && !questions.length && raw) summary = raw;
+              return { plain, summary, questions };
             }
 
-            function renderStoryPrimerUI(primerRoot, { summary, questions }) {
+            function renderStoryPrimerUI(primerRoot, { plain, summary, questions }) {
+              const plainBlock = primerRoot.querySelector('.story-ask-primer__plain-block');
+              const plainEl = primerRoot.querySelector('.story-ask-primer__plain');
               const sumEl = primerRoot.querySelector('.story-ask-primer__summary');
               const labelEl = primerRoot.querySelector('.story-ask-primer__suggestions-label');
               const listEl = primerRoot.querySelector('.story-ask-suggestions');
               const loadEl = primerRoot.querySelector('.story-ask-primer__loading');
               if (loadEl) loadEl.hidden = true;
+              if (plainBlock && plainEl) {
+                if (plain && plain.length) {
+                  plainEl.textContent = plain;
+                  plainBlock.hidden = false;
+                } else {
+                  plainEl.textContent = '';
+                  plainBlock.hidden = true;
+                }
+              }
               if (sumEl) {
                 sumEl.textContent = summary || '—';
                 sumEl.hidden = false;
@@ -451,6 +487,10 @@
                 sumEl.textContent = '';
                 sumEl.hidden = true;
               }
+              const plainBlockStart = primerRoot.querySelector('.story-ask-primer__plain-block');
+              const plainElStart = primerRoot.querySelector('.story-ask-primer__plain');
+              if (plainBlockStart) plainBlockStart.hidden = true;
+              if (plainElStart) plainElStart.textContent = '';
               if (listEl) {
                 listEl.hidden = true;
                 listEl.innerHTML = '';
@@ -480,7 +520,7 @@
               }
 
               const userTurn =
-                'Generate the SUMMARY and QUESTIONS sections now. Follow the output format exactly.';
+                'Generate the PLAIN, SUMMARY, and QUESTIONS sections now. Follow the output format exactly.';
               let session = null;
               try {
                 session = await openLmSession(
@@ -490,7 +530,7 @@
                     if (loadEl) loadEl.textContent = `Getting a quick summary… ${pct}%`;
                   },
                   grounding,
-                  512
+                  640
                 );
                 let out = '';
                 if (typeof session.promptStreaming === 'function') {

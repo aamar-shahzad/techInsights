@@ -450,10 +450,46 @@ main {
     color: var(--color-text-muted);
 }
 
+.story-ask-primer__plain-block {
+    margin-bottom: 0.75rem;
+    padding: 0.55rem 0.65rem;
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--color-ai) 8%, var(--color-bg-secondary));
+    border: 1px solid color-mix(in srgb, var(--color-ai) 24%, var(--color-border));
+}
+
+.story-ask-primer__plain-label {
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-ai);
+    margin: 0 0 0.35rem;
+}
+
+.story-ask-primer__plain {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.45;
+    color: var(--color-text);
+}
+
 .story-ask-primer__summary {
     margin: 0;
     color: var(--color-text);
     white-space: pre-wrap;
+}
+
+.story-ask-primer__summary::before {
+    content: "Summary";
+    display: block;
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.35rem;
 }
 
 .story-ask-primer__suggestions-label {
