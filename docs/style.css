@@ -126,6 +126,7 @@ textarea:focus-visible,
 
 .main-content {
     width: 100%;
+    min-width: 0;
 }
 
 a {
@@ -318,6 +319,8 @@ main {
     background: color-mix(in srgb, var(--color-bg-page) 65%, var(--color-bg));
     box-shadow: var(--shadow-xs);
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    min-width: 0;
+    max-width: 100%;
 }
 
 .top-story:hover {
@@ -443,6 +446,8 @@ main {
     background: var(--color-bg);
     box-shadow: var(--shadow-xs);
     overflow: hidden;
+    min-width: 0;
+    max-width: 100%;
 }
 
 .story-ask__summary {
@@ -496,6 +501,7 @@ main {
     gap: 0;
     padding: 0.65rem 0.65rem 0.75rem;
     background: var(--color-bg-secondary);
+    min-width: 0;
 }
 
 .story-ask-primer {
@@ -507,6 +513,9 @@ main {
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     margin-bottom: 0.65rem;
+    max-height: min(48vh, 26rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
 }
 
 .story-ask-primer__eyebrow {
@@ -657,6 +666,8 @@ main {
 
 .story-ask-reply-wrap {
     margin-top: 0.15rem;
+    min-width: 0;
+    max-width: 100%;
 }
 
 .story-ask-reply__eyebrow {
@@ -752,6 +763,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
     gap: 0.85rem;
+    align-items: start;
 }
 
 @media (min-width: 900px) {
@@ -766,13 +778,14 @@ main {
     border-radius: var(--radius-md);
     padding: 1rem 1.15rem;
     box-shadow: var(--shadow-xs);
-    transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    min-width: 0;
+    width: 100%;
 }
 
 .story-card:hover {
     box-shadow: var(--shadow-md);
     border-color: var(--color-border-strong);
-    transform: translateY(-1px);
 }
 
 .story-card--new {
@@ -1046,6 +1059,12 @@ main {
     resize: vertical;
 }
 
+.story-ask .page-ai-ask__input {
+    min-width: 0;
+    width: 100%;
+    max-height: 8rem;
+}
+
 .page-ai-ask__input:focus {
     outline: none;
     border-color: color-mix(in srgb, var(--color-ai) 45%, var(--color-border));
@@ -1098,7 +1117,12 @@ main {
     border-radius: var(--radius);
     white-space: pre-wrap;
     word-break: break-word;
+    overflow-wrap: anywhere;
     box-shadow: var(--shadow-xs);
+    max-height: min(40vh, 22rem);
+    overflow-y: auto;
+    overflow-x: auto;
+    overscroll-behavior: contain;
 }
 
 .page-ai-reply--loading {
