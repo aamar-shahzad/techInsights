@@ -487,16 +487,24 @@ textarea:focus-visible,
     font-weight: 600;
 }
 
-.panel-body-scroll {
+/* Scrolls briefing + answers; composer stays pinned under this (chat-style). */
+.panel-main-scroll {
     flex: 1 1 0;
     min-height: 0;
     overflow-y: auto;
     overscroll-behavior: contain;
-    padding: 0.85rem 1rem;
+    padding: 0.85rem 1rem 1rem;
     -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
-.assistant-panel .panel-body-scroll .story-ask-primer,
+.panel-briefing-wrap {
+    flex-shrink: 0;
+}
+
+.assistant-panel .panel-main-scroll .story-ask-primer,
 .assistant-panel .panel-briefing {
     max-height: none;
     overflow: visible;
@@ -504,20 +512,22 @@ textarea:focus-visible,
 
 .panel-compose {
     flex-shrink: 0;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1rem 1rem;
     border-top: 1px solid var(--color-border);
     background: var(--color-bg-secondary);
+    box-shadow: 0 -6px 18px color-mix(in srgb, var(--color-text) 6%, transparent);
+    position: relative;
+    z-index: 2;
 }
 
 .panel-answer-region {
-    flex: 1 1 0;
-    /* Keep a real viewport for answers: flex+min-height:0 could collapse this to 0 and clip replies (parent has overflow:hidden). */
-    min-height: 10rem;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 1rem 1rem;
-    border-top: 1px solid var(--color-border);
     gap: 0.35rem;
+    margin: 0;
+    padding: 0.35rem 0 0;
+    border-top: 1px solid color-mix(in srgb, var(--color-assistant) 22%, var(--color-border));
 }
 
 a {
@@ -1400,17 +1410,11 @@ main {
     box-sizing: border-box;
 }
 
-/* Story card: stable answer panel — scroll inside, card height does not chase streamed text. */
-/* Answer viewport lives in the assistant panel (flex); avoid fixed card height here. */
+/* Answer bubble: main transcript scroll is .panel-main-scroll; keep the reply readable, not a nested scroll trap. */
 .assistant-panel .panel-answer-region .story-ask-reply.page-ai-reply:not([hidden]) {
-    flex: 1 1 auto;
-    min-height: 8.5rem;
+    min-height: 4.5rem;
     max-height: none;
-    height: auto;
-    overflow-y: auto;
-    overflow-x: auto;
-    overscroll-behavior: contain;
-    -webkit-overflow-scrolling: touch;
+    overflow: visible;
 }
 
 .page-ai-reply--loading {

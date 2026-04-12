@@ -143,17 +143,29 @@
                             <a id="panel-story-link" href="#" target="_blank" rel="noopener noreferrer" class="panel-header__outlink">Open article</a>
                         </p>
                     </header>
-                    <div class="panel-body-scroll">
-                        <div class="story-ask-primer panel-briefing" data-primer-state="">
-                            <p class="story-ask-primer__eyebrow">Briefing</p>
-                            <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
-                            <div class="story-ask-primer__plain-block" hidden>
-                                <p class="story-ask-primer__plain-label">In plain terms</p>
-                                <p class="story-ask-primer__plain"></p>
+                    <div id="panel-main-scroll" class="panel-main-scroll">
+                        <div class="panel-briefing-wrap">
+                            <div class="story-ask-primer panel-briefing" data-primer-state="">
+                                <p class="story-ask-primer__eyebrow">Briefing</p>
+                                <p class="story-ask-primer__loading" hidden>Getting a quick summary…</p>
+                                <div class="story-ask-primer__plain-block" hidden>
+                                    <p class="story-ask-primer__plain-label">In plain terms</p>
+                                    <p class="story-ask-primer__plain"></p>
+                                </div>
+                                <div class="story-ask-primer__summary" aria-live="polite"></div>
+                                <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
+                                <ul class="story-ask-suggestions" hidden></ul>
                             </div>
-                            <div class="story-ask-primer__summary" aria-live="polite"></div>
-                            <p class="story-ask-primer__suggestions-label" hidden>Try asking</p>
-                            <ul class="story-ask-suggestions" hidden></ul>
+                        </div>
+                        <div id="panel-answer-region" class="panel-answer-region">
+                            <p class="story-ask-reply__eyebrow" hidden>Latest answer</p>
+                            <div
+                                class="story-ask-reply page-ai-reply"
+                                role="region"
+                                aria-label="Assistant answer"
+                                aria-live="polite"
+                                hidden
+                            ></div>
                         </div>
                     </div>
                     <div class="panel-compose">
@@ -169,16 +181,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="panel-answer-region">
-                        <p class="story-ask-reply__eyebrow" hidden>Answer</p>
-                        <div
-                            class="story-ask-reply page-ai-reply"
-                            role="region"
-                            aria-label="Assistant answer"
-                            aria-live="polite"
-                            hidden
-                        ></div>
-                    </div>
                 </div>
             </aside>
         </div>
@@ -188,6 +190,7 @@
             const PROMPT_API_DOC = 'https://developer.chrome.com/docs/ai/prompt-api';
 
             const assistantPanel = document.getElementById('assistant-panel');
+            const panelMainScroll = document.getElementById('panel-main-scroll');
             const panelIdle = document.getElementById('panel-idle');
             const panelActive = document.getElementById('panel-active');
             const panelCloseBtn = document.getElementById('assistant-panel-close');
@@ -319,6 +322,22 @@
               if (pct >= 100) return 'Generating answer…';
               if (pct > 0) return `Loading assistant… ${pct}%`;
               return 'Preparing…';
+            }
+
+            let scrollMainScheduled = false;
+            function scrollPanelMainToBottom() {
+              const m = panelMainScroll || document.getElementById('panel-main-scroll');
+              if (!m) return;
+              m.scrollTop = m.scrollHeight;
+            }
+
+            function scheduleScrollPanelMainToBottom() {
+              if (scrollMainScheduled) return;
+              scrollMainScheduled = true;
+              requestAnimationFrame(() => {
+                scrollMainScheduled = false;
+                scrollPanelMainToBottom();
+              });
             }
 
             async function openLmSession(
@@ -501,6 +520,7 @@
               }
 
               openAssistantPanelMobile();
+              if (panelMainScroll) panelMainScroll.scrollTop = 0;
               void runStoryPrimer();
             }
 
@@ -616,6 +636,7 @@
                 const parsed = parsePrimerResponse(out);
                 renderStoryPrimerUI(primerRoot, parsed);
                 primerRoot.dataset.primerState = 'ready';
+                scheduleScrollPanelMainToBottom();
               } catch (err) {
                 primerRoot.dataset.primerState = 'failed';
                 if (loadEl) loadEl.hidden = true;
@@ -647,6 +668,7 @@
                 if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
                 replyEl.textContent = 'Not available on this device.';
+                scheduleScrollPanelMainToBottom();
                 return;
               }
               const grounding = buildOneStoryGroundingFromArticle(article);
@@ -654,6 +676,7 @@
                 if (replyEyebrow) replyEyebrow.hidden = false;
                 replyEl.hidden = false;
                 replyEl.textContent = 'Missing story data.';
+                scheduleScrollPanelMainToBottom();
                 return;
               }
               sendBtn.disabled = true;
@@ -661,8 +684,8 @@
               if (replyEyebrow) replyEyebrow.hidden = false;
               replyEl.hidden = false;
               replyEl.textContent = '';
-              replyEl.scrollTop = 0;
               replyEl.classList.add('page-ai-reply--loading');
+              scheduleScrollPanelMainToBottom();
               const userTurn = `[Question]\n${q}`;
               let session = null;
               try {
@@ -671,7 +694,7 @@
                   ASK_ONE_STORY_SYSTEM_PROMPT,
                   (pct) => {
                     replyEl.textContent = askPreparingText(pct);
-                    replyEl.scrollTop = replyEl.scrollHeight;
+                    scheduleScrollPanelMainToBottom();
                   },
                   grounding,
                   1024
@@ -682,20 +705,23 @@
                   for await (const chunk of stream) {
                     full += chunk;
                     replyEl.textContent = full;
-                    replyEl.scrollTop = replyEl.scrollHeight;
+                    scheduleScrollPanelMainToBottom();
                   }
                 } else {
                   const out = await session.prompt(userTurn);
                   replyEl.textContent = String(out != null ? out : '');
-                  replyEl.scrollTop = 0;
+                  scheduleScrollPanelMainToBottom();
                 }
               } catch (err) {
                 replyEl.textContent = `Couldn’t complete: ${String(err.message || err)}`;
+                scheduleScrollPanelMainToBottom();
               } finally {
                 replyEl.classList.remove('page-ai-reply--loading');
                 await closeLmSession(session);
                 sendBtn.disabled = false;
                 textarea.disabled = false;
+                scheduleScrollPanelMainToBottom();
+                if (textarea && !textarea.disabled) textarea.focus();
               }
             };
 
