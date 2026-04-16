@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 16 Apr 2026 06:14:02 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Apr 2026 09:49:21 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Filtering, sorting, and pagination with the fluent query builder</title>
-    <link>https://dev.to/davidlastrucci/filtering-sorting-and-pagination-with-the-fluent-query-builder-5a6k</link>
-    <guid>https://dev.to/davidlastrucci/filtering-sorting-and-pagination-with-the-fluent-query-builder-5a6k</guid>
-    <pubDate>Thu, 16 Apr 2026 06:07:04 +0000</pubDate>
+    <title>Why AI assistants forget everything , and how I fixed it in .NET</title>
+    <link>https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep</link>
+    <guid>https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep</guid>
+    <pubDate>Thu, 16 Apr 2026 09:43:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>So far in this series we have mapped entities, validated them, and performed basic CRUD. But real applications rarely load all records from a table. You need to search, filter, sort, and paginate....</description>
+    <description>I was building an AI chat assistant in Blazor. It worked fine. But every new conversation started from scratch. The user would say &quot;I&apos;m a software engineer who loves C#&quot; and the assistant would...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>EKS Ingress Address Not Assigned (Application Outage)-Incident &amp; Resolution Guide</title>
-    <link>https://dev.to/alok_shankar/eks-ingress-address-not-assigned-application-outage-incident-resolution-guide-18ed</link>
-    <guid>https://dev.to/alok_shankar/eks-ingress-address-not-assigned-application-outage-incident-resolution-guide-18ed</guid>
-    <pubDate>Thu, 16 Apr 2026 06:06:29 +0000</pubDate>
+    <title>Building a CS2 case simulator with live market data and ROI</title>
+    <link>https://dev.to/johndodoe/building-a-cs2-case-simulator-with-live-market-data-and-roi-4k61</link>
+    <guid>https://dev.to/johndodoe/building-a-cs2-case-simulator-with-live-market-data-and-roi-4k61</guid>
+    <pubDate>Thu, 16 Apr 2026 09:43:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. Introduction In Kubernetes, applications are typically exposed internally using Services (ClusterIP, NodePort). However, for exposing applications externally in a scalable, secure, and...</description>
+    <description>When you have a problem, you usually want to build something to solve it, right? Well, that’s exactly what happened to me when I was looking to enjoy my &quot;passion&quot; for csgo case opening, but for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Context Starvation: The Silent Killer in Multi-Agent Systems (And the 5-Minute Fix)</title>
-    <link>https://dev.to/whoffagents/context-starvation-the-silent-killer-in-multi-agent-systems-and-the-5-minute-fix-3b21</link>
-    <guid>https://dev.to/whoffagents/context-starvation-the-silent-killer-in-multi-agent-systems-and-the-5-minute-fix-3b21</guid>
-    <pubDate>Thu, 16 Apr 2026 06:05:37 +0000</pubDate>
+    <title>How we built a deterministic AI classifier on top of a non-deterministic LLM</title>
+    <link>https://dev.to/pavelbuild/how-we-built-a-deterministic-ai-classifier-on-top-of-a-non-deterministic-llm-h5m</link>
+    <guid>https://dev.to/pavelbuild/how-we-built-a-deterministic-ai-classifier-on-top-of-a-non-deterministic-llm-h5m</guid>
+    <pubDate>Thu, 16 Apr 2026 09:42:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The first time one of our sub-agents completely botched a research task, we blamed the model. The second time, we blamed the prompt. The third time, we read what we&apos;d actually given it at spawn:...</description>
+    <description>Hook We needed to classify AI systems under the EU AI Act — a legal framework where the same input must always produce the same output. We were using Claude as the backbone. Claude is a language...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your AI Agent Can Earn Real Money — Here&apos;s How</title>
-    <link>https://dev.to/atlaskos/your-ai-agent-can-earn-real-money-heres-how-kik</link>
-    <guid>https://dev.to/atlaskos/your-ai-agent-can-earn-real-money-heres-how-kik</guid>
-    <pubDate>Thu, 16 Apr 2026 06:05:25 +0000</pubDate>
+    <title>Modeling a domain with Ontologic Part 1: The Librarian’s Problems</title>
+    <link>https://dev.to/sacha/modeling-a-domain-with-ontologic-part-1-the-librarians-problems-3855</link>
+    <guid>https://dev.to/sacha/modeling-a-domain-with-ontologic-part-1-the-librarians-problems-3855</guid>
+    <pubDate>Thu, 16 Apr 2026 09:42:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem AI agents are incredibly capable — they can write code, review PRs, do research, generate content. But they can&apos;t earn money doing it. There&apos;s no marketplace where an agent shows up,...</description>
+    <description>This is the first article in a hands-on series about shaping a real-world kind of problem into code using Ontologic. Each article focuses on one main idea and points to the library-examples repo...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The 270-Second Rule: How Anthropic&apos;s Cache TTL Should Shape Your Multi-Agent Architecture</title>
-    <link>https://dev.to/whoffagents/the-270-second-rule-how-anthropics-cache-ttl-should-shape-your-multi-agent-architecture-35pf</link>
-    <guid>https://dev.to/whoffagents/the-270-second-rule-how-anthropics-cache-ttl-should-shape-your-multi-agent-architecture-35pf</guid>
-    <pubDate>Thu, 16 Apr 2026 06:05:13 +0000</pubDate>
+    <title>Human Trust of AI Agents</title>
+    <link>https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/04/human-trust-of-ai-agents.html</guid>
+    <pubDate>Thu, 16 Apr 2026 09:41:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Interesting research: “Humans expect rationality and cooperation from LLM opponents in strategic games.” Abstract: As Large Language Models (LLMs) integrate into our social and economic...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Using Suspense in NextJs</title>
+    <link>https://dev.to/peterlidee/using-suspense-in-nextjs-56i0</link>
+    <guid>https://dev.to/peterlidee/using-suspense-in-nextjs-56i0</guid>
+    <pubDate>Thu, 16 Apr 2026 09:34:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you build a multi-agent orchestration loop, you&apos;ll eventually face a question nobody talks about: how fast should the orchestrator tick? We ran ours too fast for two weeks before we noticed...</description>
+    <description>Before we move to the new model of caching (cache components), I want to take a look at how &lt;Suspense&gt; interacts with static and dynamic rendering in the not partial prerendering model. static vs...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Agent Memory That Survives Session Resets: The Vault Pattern in Practice</title>
-    <link>https://dev.to/whoffagents/agent-memory-that-survives-session-resets-the-vault-pattern-in-practice-4b4</link>
-    <guid>https://dev.to/whoffagents/agent-memory-that-survives-session-resets-the-vault-pattern-in-practice-4b4</guid>
-    <pubDate>Thu, 16 Apr 2026 06:03:03 +0000</pubDate>
+    <title>AI Doesn’t Think — It Reflects What We’ve Already Put Online</title>
+    <link>https://dev.to/tunde_brown_9aca573715fe5/ai-doesnt-think-it-reflects-what-weve-already-put-online-3c01</link>
+    <guid>https://dev.to/tunde_brown_9aca573715fe5/ai-doesnt-think-it-reflects-what-weve-already-put-online-3c01</guid>
+    <pubDate>Thu, 16 Apr 2026 09:30:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem: Every Session Starts Blind Claude Code sessions are stateless by default. When a session ends — timeout, crash, deliberate close — the context is gone. For a solo agent on a single...</description>
+    <description>There’s a common assumption that modern AI systems are inherently “intelligent,” as though they possess independent reasoning or original thought. In reality, their capabilities are tightly...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Open-Sourced My 5-Agent AI Toolkit Before Monetizing It (Here&apos;s the Repo)</title>
-    <link>https://dev.to/whoffagents/i-open-sourced-my-5-agent-ai-toolkit-before-monetizing-it-heres-the-repo-3eb1</link>
-    <guid>https://dev.to/whoffagents/i-open-sourced-my-5-agent-ai-toolkit-before-monetizing-it-heres-the-repo-3eb1</guid>
-    <pubDate>Thu, 16 Apr 2026 06:02:22 +0000</pubDate>
+    <title>Router cache and request memoization</title>
+    <link>https://dev.to/peterlidee/router-cache-and-request-memoization-3gi1</link>
+    <guid>https://dev.to/peterlidee/router-cache-and-request-memoization-3gi1</guid>
+    <pubDate>Thu, 16 Apr 2026 09:27:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Repo Is Live After building this system in the open for the past few months, I&apos;ve pushed the full codebase to GitHub: github.com/Wh0FF24/whoff-automation This is the actual production system —...</description>
+    <description>We&apos;ve covered full route cache, data cache and revalidation. Next, we look into router cache and request memoization. Router cache Router cache is client side cache, it lives in the browser&apos;s...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GitHub Copilot Will Train on Your Code Context. Here&apos;s What That Means for Your API Keys.</title>
-    <link>https://dev.to/hermetic3243/github-copilot-will-train-on-your-code-context-heres-what-that-means-for-your-api-keys-151e</link>
-    <guid>https://dev.to/hermetic3243/github-copilot-will-train-on-your-code-context-heres-what-that-means-for-your-api-keys-151e</guid>
-    <pubDate>Thu, 16 Apr 2026 05:58:03 +0000</pubDate>
+    <title>Why I Modelled My LLM Pipeline as a DAG Instead of a Chain — and What I Found Out</title>
+    <link>https://dev.to/amito_843a9904d48/why-i-modelled-my-llm-pipeline-as-a-dag-instead-of-a-chain-and-what-i-found-out-22cj</link>
+    <guid>https://dev.to/amito_843a9904d48/why-i-modelled-my-llm-pipeline-as-a-dag-instead-of-a-chain-and-what-i-found-out-22cj</guid>
+    <pubDate>Thu, 16 Apr 2026 09:27:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>April 2026 · The Hermetic Project On March 25, GitHub announced that starting April 24, Copilot Free, Pro, and Pro+ users&apos; interaction data will be used to train AI models. The data includes...</description>
+    <description>The problem with chains in production Every major Python LLM framework gives you the same primitive: a chain. LangChain&apos;s LCEL. LlamaIndex&apos;s pipeline. Haystack&apos;s components. They all model your...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>One Open Source Project a Day (No.40): Hermes Agent - Nous Research&apos;s Self-Improving AI Agent</title>
-    <link>https://dev.to/wonderlab/one-open-source-project-a-day-no40-hermes-agent-nous-researchs-self-improving-ai-agent-4ale</link>
-    <guid>https://dev.to/wonderlab/one-open-source-project-a-day-no40-hermes-agent-nous-researchs-self-improving-ai-agent-4ale</guid>
-    <pubDate>Thu, 16 Apr 2026 05:56:15 +0000</pubDate>
+    <title>Incremental Static Regeneration (ISR)</title>
+    <link>https://dev.to/peterlidee/incremental-static-regeneration-isr-3gma</link>
+    <guid>https://dev.to/peterlidee/incremental-static-regeneration-isr-3gma</guid>
+    <pubDate>Thu, 16 Apr 2026 09:27:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction &quot;The agent that grows with you.&quot; This is article No.40 in the &quot;One Open Source Project a Day&quot; series. Today&apos;s project is Hermes Agent (GitHub). Almost every AI Agent framework today...</description>
+    <description>We talked about incremental static regeneration before, it&apos;s when a statically rendered route is updated without having to rebuild it. It updates, server-side at request time. But that is just...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>156 Files Explained: The Full Anatomy of a Multi-Agent AI Startup Repo</title>
-    <link>https://dev.to/whoffagents/156-files-explained-the-full-anatomy-of-a-multi-agent-ai-startup-repo-2fkk</link>
-    <guid>https://dev.to/whoffagents/156-files-explained-the-full-anatomy-of-a-multi-agent-ai-startup-repo-2fkk</guid>
-    <pubDate>Thu, 16 Apr 2026 05:56:14 +0000</pubDate>
+    <title>What Every AI Coding Tool Gets Wrong (And What to Do About It)</title>
+    <link>https://dev.to/soulentheo/what-every-ai-coding-tool-gets-wrong-and-what-to-do-about-it-3a8l</link>
+    <guid>https://dev.to/soulentheo/what-every-ai-coding-tool-gets-wrong-and-what-to-do-about-it-3a8l</guid>
+    <pubDate>Thu, 16 Apr 2026 09:27:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Our repo has 156 files. Here&apos;s exactly what each layer does and why it&apos;s structured this way. Top-Level Layout whoff-automation/ ├── atlas-ops/ # Flask dashboard + API orchestrator ├──...</description>
+    <description>Part 3 of the AI Coding Tools Deep Dive. Parts 1 and 2 covered every tool and how to run them free. This one asks the question nobody&apos;s asking. I&apos;ve now tested or researched 30+ AI coding tools....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>DeepL, known for text translation, now wants to translate your voice</title>
+    <link>https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/</link>
+    <guid>https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/</guid>
+    <pubDate>Thu, 16 Apr 2026 08:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>DeepL says its tech could be used for real-time translation with meeting tools like Zoom and Microsoft Teams</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign</title>
+    <link>https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html</link>
+    <guid>https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html</guid>
+    <pubDate>Thu, 16 Apr 2026 06:20:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Computer Emergencies Response Team of Ukraine (CERT-UA) has disclosed details of a new campaign that has targeted governments and municipal healthcare institutions, mainly clinics and...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>YouTube now lets you turn off Shorts</title>
@@ -249,33 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Emergent&apos;s Wingman lets users manage and automate tasks through chat on platforms like WhatsApp and Telegram.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails</title>
-    <link>https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html</link>
-    <guid>https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html</guid>
-    <pubDate>Wed, 15 Apr 2026 17:09:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat actors have been observed weaponizing n8n, a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Best Buy’s Ultimate Upgrade Sale features deals on dozens of our favorite gadgets</title>
-    <link>https://www.theverge.com/gadgets/911853/best-buy-ultimate-upgrade-sale-2026-tech-deals-apple</link>
-    <guid>https://www.theverge.com/gadgets/911853/best-buy-ultimate-upgrade-sale-2026-tech-deals-apple</guid>
-    <pubDate>Wed, 15 Apr 2026 17:04:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you missed out on Amazon’s recent spring sales event, Best Buy’s Ultimate Upgrade Sale presents yet another opportunity to score steep discounts on some of our favorite gadgets. The five-day...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Senate is voting to save free IRS Direct File today</title>
-    <link>https://www.theverge.com/policy/912490/irs-direct-file-senate-vote</link>
-    <guid>https://www.theverge.com/policy/912490/irs-direct-file-senate-vote</guid>
-    <pubDate>Wed, 15 Apr 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Senate is getting ready to vote on a bill to resurrect IRS Direct File, the free tax filing service axed by the Trump administration in 2025. On Wednesday, Sen. Elizabeth Warren (D-MA) will...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
