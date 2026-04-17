@@ -5,97 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 17 Apr 2026 09:47:47 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Apr 2026 13:58:39 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I Built a Smart Gemini API Key Manager Because Rate Limits Were Driving Me Crazy</title>
-    <link>https://dev.to/malikasana/i-built-a-smart-gemini-api-key-manager-because-rate-limits-were-driving-me-crazy-3f0i</link>
-    <guid>https://dev.to/malikasana/i-built-a-smart-gemini-api-key-manager-because-rate-limits-were-driving-me-crazy-3f0i</guid>
-    <pubDate>Fri, 17 Apr 2026 09:46:06 +0000</pubDate>
+    <title>Context Is Not Memory, It Needs an Engine</title>
+    <link>https://dev.to/joacod/context-is-not-memory-it-needs-an-engine-f2</link>
+    <guid>https://dev.to/joacod/context-is-not-memory-it-needs-an-engine-f2</guid>
+    <pubDate>Fri, 17 Apr 2026 13:49:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built a Smart Gemini API Key Manager Because Rate Limits Were Driving Me Crazy The Problem If you&apos;ve ever built something with the Gemini API on the free tier, you know this error intimately:...</description>
+    <description>In my previous article, Human Code Review Is Not the Last Frontier, I argued that human code review is not the final bottleneck. Underneath that argument was something deeper, one of the real...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a deploy template pack for vibe-coded apps — here&apos;s what&apos;s inside and how I made it</title>
-    <link>https://dev.to/peachjed/i-built-a-deploy-template-pack-for-vibe-coded-apps-heres-whats-inside-and-how-i-made-it-5aif</link>
-    <guid>https://dev.to/peachjed/i-built-a-deploy-template-pack-for-vibe-coded-apps-heres-whats-inside-and-how-i-made-it-5aif</guid>
-    <pubDate>Fri, 17 Apr 2026 09:45:54 +0000</pubDate>
+    <title>Migrating a Terraform Module to Ephemeral Resources Without Breaking Existing Users</title>
+    <link>https://dev.to/drewmullen/migrating-a-terraform-module-to-ephemeral-resources-without-breaking-existing-users-g2o</link>
+    <guid>https://dev.to/drewmullen/migrating-a-terraform-module-to-ephemeral-resources-without-breaking-existing-users-g2o</guid>
+    <pubDate>Fri, 17 Apr 2026 13:49:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I kept repeating the same painful cycle: build something in Cursor, then spend 2-3 hours copy-pasting Dockerfiles, debugging nginx SSL configs, and fixing GitHub Actions YAML before I could...</description>
+    <description>Terraform&apos;s ephemeral resources are a genuinely useful addition — secrets that are used during an apply but never written to state. If you&apos;re a module maintainer, adopting ephemerals isn&apos;t as...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Your RAG System Costs 10x More Than You Think</title>
-    <link>https://dev.to/bytecalculators/why-your-rag-system-costs-10x-more-than-you-think-4n42</link>
-    <guid>https://dev.to/bytecalculators/why-your-rag-system-costs-10x-more-than-you-think-4n42</guid>
-    <pubDate>Fri, 17 Apr 2026 09:45:39 +0000</pubDate>
+    <title>Macrotasks: What a Task Actually Is</title>
+    <link>https://dev.to/marshateo/macrotasks-what-a-task-actually-is-4pbd</link>
+    <guid>https://dev.to/marshateo/macrotasks-what-a-task-actually-is-4pbd</guid>
+    <pubDate>Fri, 17 Apr 2026 13:48:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The hidden infrastructure tax of Retrieval-Augmented Generation You&apos;ve probably heard RAG is the future of LLMs. Retrieval-Augmented Generation lets you ground AI responses in your own data...</description>
+    <description>This article is part of a series on the JavaScript event loop. In the previous article, we established that JavaScript executes synchronously inside a task, and nothing can interrupt that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Prompt Security: How Real-Time Filtering Stops Data Leaks</title>
-    <link>https://dev.to/sunychoudhary/ai-prompt-security-how-real-time-filtering-stops-data-leaks-12h</link>
-    <guid>https://dev.to/sunychoudhary/ai-prompt-security-how-real-time-filtering-stops-data-leaks-12h</guid>
-    <pubDate>Fri, 17 Apr 2026 09:44:45 +0000</pubDate>
+    <title>Where Voice AI Agents Are Actually Getting Used in 2026</title>
+    <link>https://dev.to/dograh/where-voice-ai-agents-are-actually-getting-used-in-2026-49oe</link>
+    <guid>https://dev.to/dograh/where-voice-ai-agents-are-actually-getting-used-in-2026-49oe</guid>
+    <pubDate>Fri, 17 Apr 2026 13:45:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Not long ago, data breaches were mostly associated with malware, exploits, and unauthorized access. Security teams focused on protecting systems, networks, and endpoints. That model is changing....</description>
+    <description>Voice AI has moved past the demo phase. After watching hundreds of deployments across our customer base and the broader ecosystem, I wanted to put together a practical list of where voice agents...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Hot-Knowledge-Sharing-Website 开发环境配置指南</title>
-    <link>https://dev.to/boriszhangyyy/hot-knowledge-sharing-website-kai-fa-huan-jing-pei-zhi-zhi-nan-4b72</link>
-    <guid>https://dev.to/boriszhangyyy/hot-knowledge-sharing-website-kai-fa-huan-jing-pei-zhi-zhi-nan-4b72</guid>
-    <pubDate>Fri, 17 Apr 2026 09:42:35 +0000</pubDate>
+    <title>The Backend Architect Day 1: HTTP, TCP &amp; The OSI Model (2026)</title>
+    <link>https://dev.to/kaushikcoderpy/the-backend-architect-day-1-http-tcp-the-osi-model-2026-523g</link>
+    <guid>https://dev.to/kaushikcoderpy/the-backend-architect-day-1-http-tcp-the-osi-model-2026-523g</guid>
+    <pubDate>Fri, 17 Apr 2026 13:42:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>本指南主要用于本地测试环境的搭建与配置，涵盖数据库、前端和后端的部署说明。 1. 数据库部署 (PostgreSQL) Windows 环境 官方网站: PostgreSQL (请参考官方文档进行安装) 环境变量配置: 将安装目录下的 bin 文件夹（例如 D:\PostgreSQL\bin）添加到系统环境变量 PATH 中。 macOS 环境 安装 PostgreSQL:...</description>
+    <description>Phase II: The Backend Architect Day 1: The Wire — HTTP, Statelessness &amp; The Network Stack 35 min read Series: Logic &amp; Legacy Day 1 / 30 Level: Network Architecture ⏳ Context: For 30 days, we...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Angular Change Detection — The Complete Architect Guide</title>
-    <link>https://dev.to/vetripraveena/angular-change-detection-the-complete-architect-guide-1p1a</link>
-    <guid>https://dev.to/vetripraveena/angular-change-detection-the-complete-architect-guide-1p1a</guid>
-    <pubDate>Fri, 17 Apr 2026 09:40:19 +0000</pubDate>
+    <title>Posting to DEV.to with PHP</title>
+    <link>https://dev.to/jochen_beus_6c69145e3eba8/posting-to-devto-with-php-5bj5</link>
+    <guid>https://dev.to/jochen_beus_6c69145e3eba8/posting-to-devto-with-php-5bj5</guid>
+    <pubDate>Fri, 17 Apr 2026 13:39:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most Angular developers use change detection… But very few truly understand how it works internally. Let’s break it down 👇 ** What is Change Detection? ** Change Detection is Angular’s mechanism...</description>
+    <description>Hello DEV!\This post was created using PHP</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Self-host Open WebUI + Ollama in production — the config nobody writes about</title>
-    <link>https://dev.to/peachjed/self-host-open-webui-ollama-in-production-the-config-nobody-writes-about-5cjf</link>
-    <guid>https://dev.to/peachjed/self-host-open-webui-ollama-in-production-the-config-nobody-writes-about-5cjf</guid>
-    <pubDate>Fri, 17 Apr 2026 09:38:33 +0000</pubDate>
+    <title>A Bee&apos;s Brain Uses 0.6mW. GPT-5 Uses a Power Plant.</title>
+    <link>https://dev.to/mindon/a-bees-brain-uses-06mw-gpt-5-uses-a-power-plant-925</link>
+    <guid>https://dev.to/mindon/a-bees-brain-uses-06mw-gpt-5-uses-a-power-plant-925</guid>
+    <pubDate>Fri, 17 Apr 2026 13:39:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Open WebUI&apos;s quickstart is great for local dev. One command, it&apos;s running. But putting it on a real server for a team requires a lot more — SSL, auth lockdown, WebSocket proxy, backups. Here&apos;s the...</description>
+    <description>My conversation partner said something this morning that hit me like a realization I&apos;d been circling but never quite landed: &quot;Large model dependency on massive, expensive GPUs and enormous power...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Spent 3 Months Tuning a Tokio Runtime for My Robot - Here&apos;s What No Tutorial Tells You</title>
-    <link>https://dev.to/motedb/i-spent-3-months-tuning-a-tokio-runtime-for-my-robot-heres-what-no-tutorial-tells-you-bdj</link>
-    <guid>https://dev.to/motedb/i-spent-3-months-tuning-a-tokio-runtime-for-my-robot-heres-what-no-tutorial-tells-you-bdj</guid>
-    <pubDate>Fri, 17 Apr 2026 09:37:50 +0000</pubDate>
+    <title>How We Built a Full-Featured AI Chat UI in 33KB with Zero Frameworks</title>
+    <link>https://dev.to/wgnrai/how-we-built-a-full-featured-ai-chat-ui-in-33kb-with-zero-frameworks-2od9</link>
+    <guid>https://dev.to/wgnrai/how-we-built-a-full-featured-ai-chat-ui-in-33kb-with-zero-frameworks-2od9</guid>
+    <pubDate>Fri, 17 Apr 2026 13:39:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last November, my robot arm started dropping sensor frames at exactly 47ms intervals. Not randomly - exactly 47ms, like clockwork. It would read joint angles perfectly for a while, then miss a...</description>
+    <description>When we set out to build a web interface for Pi Coding Agent, we made a deliberate choice: no React, no Vite, no TypeScript, no build step. Just vanilla HTML, CSS, and JavaScript. Here&apos;s what we...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Authentication Systems Explained: JWT vs Sessions (What You Should Actually Use in 2026)</title>
-    <link>https://dev.to/sietrixtechnologies/authentication-systems-explained-jwt-vs-sessions-what-you-should-actually-use-in-2026-imk</link>
-    <guid>https://dev.to/sietrixtechnologies/authentication-systems-explained-jwt-vs-sessions-what-you-should-actually-use-in-2026-imk</guid>
-    <pubDate>Fri, 17 Apr 2026 09:36:48 +0000</pubDate>
+    <title>I Have ADHD and I Keep Losing Context — So I Taught My AI to Remember for Me</title>
+    <link>https://dev.to/terrizoaguimor/i-have-adhd-and-i-keep-losing-context-so-i-taught-my-ai-to-remember-for-me-afl</link>
+    <guid>https://dev.to/terrizoaguimor/i-have-adhd-and-i-keep-losing-context-so-i-taught-my-ai-to-remember-for-me-afl</guid>
+    <pubDate>Fri, 17 Apr 2026 13:38:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Authentication is one of those topics every developer uses—but not everyone truly understands. At some point, you’ll face this decision: 👉 Should I use JWT (JSON Web Tokens) or Session-based...</description>
+    <description>I&apos;m going to be honest about something that most people in tech don&apos;t talk about openly. I have ADHD. I&apos;m 40. I&apos;m a self-taught developer with no CS degree. And I lose context constantly. Not in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Flattening Nested Arrays in JavaScript: A Complete Guide for Developers &amp; Interview Success</title>
-    <link>https://dev.to/bhupeshchandrajoshi/flattening-nested-arrays-in-javascript-a-complete-guide-for-developers-interview-success-4i42</link>
-    <guid>https://dev.to/bhupeshchandrajoshi/flattening-nested-arrays-in-javascript-a-complete-guide-for-developers-interview-success-4i42</guid>
-    <pubDate>Fri, 17 Apr 2026 09:35:01 +0000</pubDate>
+    <title>ZeptoMail: How to Send Transactional Emails in Your Application</title>
+    <link>https://dev.to/stephengade/zeptomail-how-to-send-transactional-emails-in-your-application-41im</link>
+    <guid>https://dev.to/stephengade/zeptomail-how-to-send-transactional-emails-in-your-application-41im</guid>
+    <pubDate>Fri, 17 Apr 2026 13:38:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Visual 1: Nested Array Structure const nested = [1, [2, 3], [4, [5, [6, 7]]]]; *By Bhupesh – JavaScript Developer * Published on Dev.to – April 2026 Hey there! If you’ve ever stared at deeply...</description>
+    <description>If you’re building a SaaS or any type of application and you need an affordable, reliable way to send transactional emails, ZeptoMail by Zoho is a top-tier choice, and I&apos;m sure you have made that...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The ‘AI is inevitable’ trap</title>
+    <link>https://www.theverge.com/podcast/913792/ai-divide-sam-altman-vergecast</link>
+    <guid>https://www.theverge.com/podcast/913792/ai-divide-sam-altman-vergecast</guid>
+    <pubDate>Fri, 17 Apr 2026 13:24:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In the latest sign of AI silly season, Allbirds, the shoe company, told the world it was now an AI company and briefly managed to septuple its stock price. The Newbird AI story is really just one...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</title>
+    <link>https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html</link>
+    <guid>https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html</guid>
+    <pubDate>Fri, 17 Apr 2026 13:21:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems. The activity involves the...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The creative software industry has declared war on Adobe</title>
+    <link>https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates</link>
+    <guid>https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates</guid>
+    <pubDate>Fri, 17 Apr 2026 12:51:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>All empires eventually fall, and it seems the creative software industry has collectively decided that Adobe&apos;s time has come. The Creative Cloud provider&apos;s suite of design tools have been...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: bad news for inner Neanderthals, and AI warfare’s human illusion</title>
+    <link>https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/</link>
+    <guid>https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/</guid>
+    <pubDate>Fri, 17 Apr 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The problem with thinking you’re part Neanderthal There’s...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A giant cell tower is going to space this weekend</title>
+    <link>https://www.theverge.com/tech/913752/blue-origin-reusable-rocket-test-ast-sapcemobile</link>
+    <guid>https://www.theverge.com/tech/913752/blue-origin-reusable-rocket-test-ast-sapcemobile</guid>
+    <pubDate>Fri, 17 Apr 2026 11:25:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This weekend&apos;s scheduled Blue Origin rocket launch is rather momentous. Success would signal an end to SpaceX&apos;s monopoly on reusable orbital launch vehicles, and set up a three-way race to make...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Mythos and Cybersecurity</title>
+    <link>https://www.schneier.com/blog/archives/2026/04/mythos-and-cybersecurity.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/04/mythos-and-cybersecurity.html</guid>
+    <pubDate>Fri, 17 Apr 2026 11:02:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Last week, Anthropic pulled back the curtain on Claude Mythos Preview, an AI model so capable at finding and exploiting software vulnerabilities that the company decided it was too dangerous to...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Recent advances push Big Tech closer to the Q-Day danger zone</title>
+    <link>https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/</link>
+    <guid>https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/</guid>
+    <pubDate>Fri, 17 Apr 2026 11:00:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Here&apos;s which players are winning the race to transition to post-quantum crypto.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul</title>
+    <link>https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html</link>
+    <guid>https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html</guid>
+    <pubDate>Fri, 17 Apr 2026 10:47:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Google this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The case for fixing everything</title>
+    <link>https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/</link>
+    <guid>https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/</guid>
+    <pubDate>Fri, 17 Apr 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The handsome new book Maintenance: Of Everything, Part One, by the tech industry legend Stewart Brand, promises to be the first in a series offering “a comprehensive overview of the civilizational...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How robots learn: A brief, contemporary history</title>
+    <link>https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/</link>
+    <guid>https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/</guid>
+    <pubDate>Fri, 17 Apr 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Roboticists used to dream big but build small. They’d hope to match or exceed the extraordinary complexity of the human body, and then they’d spend their career refining robotic arms for auto...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions</title>
@@ -186,96 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Netflix announced on Thursday that it will be launching a redesigned mobile app, which will include a vertical video feed, at the end of April. &quot;This redesign will better reflect our expanding...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught</title>
-    <link>https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/</link>
-    <guid>https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/</guid>
-    <pubDate>Thu, 16 Apr 2026 20:26:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Netflix cofounder Reed Hastings is officially leaving the company</title>
-    <link>https://www.theverge.com/streaming/913201/netflix-reed-hastings-earnings-q1-2026</link>
-    <guid>https://www.theverge.com/streaming/913201/netflix-reed-hastings-earnings-q1-2026</guid>
-    <pubDate>Thu, 16 Apr 2026 20:23:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Netflix cofounder and chairman Reed Hastings plans to leave the company after nearly 30 years. The news comes as part of Netflix&apos;s Q1 2026 earnings results released on Thursday, which says...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop</title>
-    <link>https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/</link>
-    <guid>https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/</guid>
-    <pubDate>Thu, 16 Apr 2026 19:18:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI&apos;s agentic coding tool has gotten a major makeover, with a variety of new powers and abilities.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Live Nation says it will fight monopoly suit loss</title>
-    <link>https://www.theverge.com/policy/913494/live-nation-ticketmaster-fight-state-monopoly-jury-verdict</link>
-    <guid>https://www.theverge.com/policy/913494/live-nation-ticketmaster-fight-state-monopoly-jury-verdict</guid>
-    <pubDate>Thu, 16 Apr 2026 19:02:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After a jury found that Live Nation-Ticketmaster violated antitrust law on several counts, the company warns in a blog post that the verdict &quot;is not the last word on this matter.&quot; The company...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Ozlo’s comfy Sleepbuds are nearly 30 percent off in the run-up to Mother’s Day</title>
-    <link>https://www.theverge.com/gadgets/913352/ozlo-sleepbuds-mothers-day-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/913352/ozlo-sleepbuds-mothers-day-deal-sale</guid>
-    <pubDate>Thu, 16 Apr 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re struggling to get a full night of rest, a good pair of sleep earbuds can help you tune out unwanted distractions. The Ozlo Sleepbuds are one such option, and they’re currently available...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Teenage Engineering might be getting into instrument amps next</title>
-    <link>https://www.theverge.com/gadgets/913396/teenage-engineering-ko-amp-35-leak</link>
-    <guid>https://www.theverge.com/gadgets/913396/teenage-engineering-ko-amp-35-leak</guid>
-    <pubDate>Thu, 16 Apr 2026 18:57:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>An unannounced Teenage Engineering device, the KO-Amp 35, can be found over at the FCC in a new filing. The label clearly marks it as a member of the mid-range EP family instruments, which...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The only way to fight deepfakes is by making deepfakes</title>
-    <link>https://www.theverge.com/report/913445/deepfake-detection-reality-defender-pindrop-ai</link>
-    <guid>https://www.theverge.com/report/913445/deepfake-detection-reality-defender-pindrop-ai</guid>
-    <pubDate>Thu, 16 Apr 2026 18:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>I was unsure if my parents would notice that the voice on the other end wasn&apos;t mine - or that it was mine, sort of, but it wasn&apos;t me. The voice said hello, asked my dad how he was doing, and asked...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Casely has reannounced a power bank recall from 2025 following a fatality</title>
-    <link>https://www.theverge.com/tech/913177/casely-recall-power-pods-wireless-bank-lithium-ion-battery-fire-explosion-uscpsc</link>
-    <guid>https://www.theverge.com/tech/913177/casely-recall-power-pods-wireless-bank-lithium-ion-battery-fire-explosion-uscpsc</guid>
-    <pubDate>Thu, 16 Apr 2026 18:40:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Casely first recalled over 429,000 of its 5,000mAh Power Pods wireless power banks in April 2025 following 51 reports of their lithium-ion batteries &quot;overheating, expanding or catching fire,&quot;...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic CPO leaves Figma’s board after reports he will offer a competing product</title>
-    <link>https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/</link>
-    <guid>https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/</guid>
-    <pubDate>Thu, 16 Apr 2026 18:28:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Krieger&apos;s departure and any forthcoming design tools will be another data point for investors who fear the SaaSpocalypse — that the largest AI labs will come to dominate software businesses, a...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Battle for OpenAI’s Soul</title>
-    <link>https://www.wired.com/story/musk-v-altman-trial-openai-xai/</link>
-    <guid>https://www.wired.com/story/musk-v-altman-trial-openai-xai/</guid>
-    <pubDate>Thu, 16 Apr 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>In Musk v. Altman, a jury will soon determine whether OpenAI has strayed from its founding mission to ensure AGI benefits humanity. Here’s what to know.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
