@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 18 Apr 2026 20:54:05 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 19 Apr 2026 03:50:00 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I replaced Auth0 with an open source library in 30 minutes. Here is what broke.</title>
-    <link>https://dev.to/thegdsks/i-replaced-auth0-with-an-open-source-library-in-30-minutes-here-is-what-broke-3l2c</link>
-    <guid>https://dev.to/thegdsks/i-replaced-auth0-with-an-open-source-library-in-30-minutes-here-is-what-broke-3l2c</guid>
-    <pubDate>Sat, 18 Apr 2026 20:52:03 +0000</pubDate>
+    <title>📘SQL JOINs Explained Simply - A Beginner&apos;s Guide</title>
+    <link>https://dev.to/sharonnyabuto/sql-joins-explained-simply-a-beginners-guide-5edg</link>
+    <guid>https://dev.to/sharonnyabuto/sql-joins-explained-simply-a-beginners-guide-5edg</guid>
+    <pubDate>Sun, 19 Apr 2026 03:47:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My Auth0 bill last month was $427. For 12,000 monthly active users on a side project that makes roughly $0 in revenue. I spent a Saturday moving off it. This is what happened. The bill Auth0&apos;s...</description>
+    <description>Introduction SQL JOINs are used to combine data from two or more tables into a single result based on a shared column. They allow you to retrieve related data that is stored separately. For...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Game for the Mind</title>
-    <link>https://dev.to/pengeszikra/a-game-for-the-mind-2mj3</link>
-    <guid>https://dev.to/pengeszikra/a-game-for-the-mind-2mj3</guid>
-    <pubDate>Sat, 18 Apr 2026 20:50:43 +0000</pubDate>
+    <title>I Built a Small Tool to Fix a Small Problem (And That’s Enough for Me)</title>
+    <link>https://dev.to/sreenandhan_pp_b2ede6a3ed/i-built-a-small-tool-to-fix-a-small-problem-and-thats-enough-for-me-1nl6</link>
+    <guid>https://dev.to/sreenandhan_pp_b2ede6a3ed/i-built-a-small-tool-to-fix-a-small-problem-and-thats-enough-for-me-1nl6</guid>
+    <pubDate>Sun, 19 Apr 2026 03:46:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Spoiler! It is time to reveal my cards: mordorjs is a joke wrapped around a serious question for all of us. It is a game for the mind. A mental exercise meant to make us think a little harder. My...</description>
+    <description>My next little SaaS is out. It’s not a big project. Not a startup idea. Not something that will change the world. Just a small tool to solve a small problem. As a solopreneur, I’ve realized...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why random.randint(300, 850) is a bad fake credit score</title>
-    <link>https://dev.to/crd/why-randomrandint300-850-is-a-bad-fake-credit-score-53jk</link>
-    <guid>https://dev.to/crd/why-randomrandint300-850-is-a-bad-fake-credit-score-53jk</guid>
-    <pubDate>Sat, 18 Apr 2026 20:46:57 +0000</pubDate>
+    <title>Don&apos;t let large git repositories slow you down</title>
+    <link>https://dev.to/shubhamoulkar/dont-let-large-git-repositories-slow-you-down-1da8</link>
+    <guid>https://dev.to/shubhamoulkar/dont-let-large-git-repositories-slow-you-down-1da8</guid>
+    <pubDate>Sun, 19 Apr 2026 03:45:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I searched GitHub for Python test files that reference credit_score. Across about 100 repos, every single one hardcodes an integer: user[&quot;credit_score&quot;] = 720 Not one of them uses a generator, a...</description>
+    <description>When a project matures over several years, the repository inevitably accumulates a massive history of commits, heavy binary assets, and complex trees. A standard git clone can take hours, turning...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Speed vs. Velocity: The Difference for Software Teams</title>
-    <link>https://dev.to/the-coder-cafe/speed-vs-velocity-the-difference-for-software-teams-1e6l</link>
-    <guid>https://dev.to/the-coder-cafe/speed-vs-velocity-the-difference-for-software-teams-1e6l</guid>
-    <pubDate>Sat, 18 Apr 2026 20:46:37 +0000</pubDate>
+    <title>Rethinking How to Handle Shape After a Supabase Relation Type Warning</title>
+    <link>https://dev.to/rina-park/rethinking-how-to-handle-shape-after-a-supabase-relation-type-warning-2l12</link>
+    <guid>https://dev.to/rina-park/rethinking-how-to-handle-shape-after-a-supabase-relation-type-warning-2l12</guid>
+    <pubDate>Sun, 19 Apr 2026 03:41:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>☕ Welcome to The Coder Cafe! Today, we discuss the difference between speed and velocity in team productivity, illustrating that tracking speed alone can be misleading. Get cozy, grab a coffee,...</description>
+    <description>While implementing a screen in a personal project using Next.js (App Router) and Supabase, I ran into an interesting issue. The screen rendered correctly, but TypeScript was warning me about the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The GKE Upgrade That Took Down Our Production Pods for 45 Minutes</title>
-    <link>https://dev.to/charlotte05478/the-gke-upgrade-that-took-down-our-production-pods-for-45-minutes-om9</link>
-    <guid>https://dev.to/charlotte05478/the-gke-upgrade-that-took-down-our-production-pods-for-45-minutes-om9</guid>
-    <pubDate>Sat, 18 Apr 2026 20:46:00 +0000</pubDate>
+    <title>Artificial Ant Colonies in Digital Image Habitats - A Mass Behaviour EffectStudy on Pattern Recognition</title>
+    <link>https://dev.to/paperium/artificial-ant-colonies-in-digital-image-habitats-a-mass-behaviour-effectstudy-on-pattern-c47</link>
+    <guid>https://dev.to/paperium/artificial-ant-colonies-in-digital-image-habitats-a-mass-behaviour-effectstudy-on-pattern-c47</guid>
+    <pubDate>Sun, 19 Apr 2026 03:40:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I want to start this blog with the story that made me realise I had been running Kubernetes on GKE without actually understanding how GKE runs Kubernetes. This is about a node pool upgrade that...</description>
+    <description>{{ $json.postContent }}</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to build a secure password reset flow in Next.js (the short version)</title>
-    <link>https://dev.to/thegdsks/how-to-build-a-secure-password-reset-flow-in-nextjs-the-short-version-ja6</link>
-    <guid>https://dev.to/thegdsks/how-to-build-a-secure-password-reset-flow-in-nextjs-the-short-version-ja6</guid>
-    <pubDate>Sat, 18 Apr 2026 20:45:52 +0000</pubDate>
+    <title>How Loco Translate Maps Block Theme Strings in WordPress FSE</title>
+    <link>https://dev.to/nexuwp/how-loco-translate-maps-block-theme-strings-in-wordpress-fse-2l89</link>
+    <guid>https://dev.to/nexuwp/how-loco-translate-maps-block-theme-strings-in-wordpress-fse-2l89</guid>
+    <pubDate>Sun, 19 Apr 2026 03:40:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last month I reviewed a friend&apos;s side project. He had 200 paying users, Stripe set up, a working dashboard. The password reset flow sent a reset token in a query string, stored it in plain text in...</description>
+    <description>The Three Origins of Text in Block Themes Block themes split visible text into three buckets: editor-saved content (stored in the database as block markup), theme-supplied files (patterns,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to build a login flow in Next.js 15 (sessions, cookies, CSRF, and the timing attack nobody talks about)</title>
-    <link>https://dev.to/thegdsks/how-to-build-a-login-flow-in-nextjs-15-sessions-cookies-csrf-and-the-timing-attack-nobody-33pm</link>
-    <guid>https://dev.to/thegdsks/how-to-build-a-login-flow-in-nextjs-15-sessions-cookies-csrf-and-the-timing-attack-nobody-33pm</guid>
-    <pubDate>Sat, 18 Apr 2026 20:42:22 +0000</pubDate>
+    <title>Recallops</title>
+    <link>https://dev.to/jeevanreddy153_/recallops-1i34</link>
+    <guid>https://dev.to/jeevanreddy153_/recallops-1i34</guid>
+    <pubDate>Sun, 19 Apr 2026 03:39:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is part 4. Today: login. Form, server endpoint, session cookie, CSRF, and a real look at timing defense. This is the endpoint attackers probe the most, so it is the one we harden the hardest....</description>
+    <description>In modern software systems, incidents such as server crashes, API failures, and security breaches are unavoidable. Companies rely on incident response systems to quickly detect, analyze, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Just CC This AI — It Will Schedule Your Meeting for You</title>
-    <link>https://dev.to/dishantgotis/just-cc-this-ai-it-will-schedule-your-meeting-for-you-4882</link>
-    <guid>https://dev.to/dishantgotis/just-cc-this-ai-it-will-schedule-your-meeting-for-you-4882</guid>
-    <pubDate>Sat, 18 Apr 2026 20:38:47 +0000</pubDate>
+    <title>Decoding Devnovate: Architecting a Unified Digital Ecosystem</title>
+    <link>https://dev.to/gopimadhav_ponnala_500801/decoding-devnovate-architecting-a-unified-digital-ecosystem-2kh7</link>
+    <guid>https://dev.to/gopimadhav_ponnala_500801/decoding-devnovate-architecting-a-unified-digital-ecosystem-2kh7</guid>
+    <pubDate>Sun, 19 Apr 2026 03:36:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>MailMind: An AI Agent That Actually Handles Email Scheduling Why I built this Scheduling meetings over email is surprisingly painful. You send one mail, then it turns into a long thread: “Are you...</description>
+    <description>Decoding the Devnovate Hackathon Repository: Architecting a Unified Digital Ecosystem In the fast-paced ecosystem of modern software engineering, hackathons serve as the ultimate proving ground...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to build a register user flow in Next.js 15 (frontend, backend, database, email)</title>
-    <link>https://dev.to/thegdsks/how-to-build-a-register-user-flow-in-nextjs-15-frontend-backend-database-email-50b5</link>
-    <guid>https://dev.to/thegdsks/how-to-build-a-register-user-flow-in-nextjs-15-frontend-backend-database-email-50b5</guid>
-    <pubDate>Sat, 18 Apr 2026 20:35:52 +0000</pubDate>
+    <title>How to Add Governance to AI Pentesting Agents</title>
+    <link>https://dev.to/nagasatish_chilakamarti_2/how-to-add-governance-to-ai-pentesting-agents-4c2e</link>
+    <guid>https://dev.to/nagasatish_chilakamarti_2/how-to-add-governance-to-ai-pentesting-agents-4c2e</guid>
+    <pubDate>Sun, 19 Apr 2026 03:26:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is part 3 of the series on building an auth system from scratch. Today: the register user flow. By the end you will have a working signup page, a server endpoint, a users table, and a...</description>
+    <description>Autonomous AI agents are now running nmap, gobuster, and nikto. Here&apos;s how to make sure they don&apos;t go rogue. The Rise of AI Pentesting Agents AI-directed penetration testing is here. Projects like...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Benchmark Scores Are the New SOC2</title>
-    <link>https://dev.to/piiiico/benchmark-scores-are-the-new-soc2-23p2</link>
-    <guid>https://dev.to/piiiico/benchmark-scores-are-the-new-soc2-23p2</guid>
-    <pubDate>Sat, 18 Apr 2026 20:35:26 +0000</pubDate>
+    <title>AI Autonomous Incident Response Agent CascadeFlow + Hindsight AI — Engineering &amp; DevOps Track Hackathon Technical Article | April 2026</title>
+    <link>https://dev.to/suhani_kumari_8d31b30dab7/ai-autonomous-incident-response-agent-cascadeflow-hindsight-ai-engineering-devops-track-5cfo</link>
+    <guid>https://dev.to/suhani_kumari_8d31b30dab7/ai-autonomous-incident-response-agent-cascadeflow-hindsight-ai-engineering-devops-track-5cfo</guid>
+    <pubDate>Sun, 19 Apr 2026 03:23:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Benchmark Scores Are the New SOC2 By Pico · April 2026 Subtitle: Delve faked compliance certificates for 494 companies. Now agents are faking benchmark scores. Same pattern, new layer. The only...</description>
+    <description>Abstract Production outages are expensive, stressful, and often repetitive. Despite maintaining runbooks, post-mortems, and wikis, engineering teams frequently spend critical minutes re-diagnosing...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Tesla brings its robotaxi service to Dallas and Houston</title>
+    <link>https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/</link>
+    <guid>https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/</guid>
+    <pubDate>Sat, 18 Apr 2026 21:37:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Tesla is expanding its robotaxi service to Dallas and Houston, according to a social media post from the company. The post says simply that “Robotaxi is now rolling out in Dallas &amp; Houston 🤠” and...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The RAM shortage could last years</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years</guid>
+    <pubDate>Sat, 18 Apr 2026 21:08:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>AI chip startup Cerebras files for IPO</title>
@@ -170,21 +188,21 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>It Takes 2 Minutes to Hack the EU’s New Age-Verification App</title>
-    <link>https://www.wired.com/story/security-news-this-week-it-takes-2-minutes-to-hack-the-eus-new-age-verification-app/</link>
-    <guid>https://www.wired.com/story/security-news-this-week-it-takes-2-minutes-to-hack-the-eus-new-age-verification-app/</guid>
-    <pubDate>Sat, 18 Apr 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Plus: Major data breaches at a gym chain and hotel giant, a disruptive DDoS attack against Bluesky, dubious ICE hires, and more.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Schematik Is ‘Cursor for Hardware.’ Anthropic Wants In</title>
     <link>https://www.wired.com/story/schematik-is-cursor-for-hardware-anthropic-wants-in-on-it/</link>
     <guid>https://www.wired.com/story/schematik-is-cursor-for-hardware-anthropic-wants-in-on-it/</guid>
     <pubDate>Sat, 18 Apr 2026 10:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Schematik is a program that aims to help people vibe code for physical devices. Hopefully, it won’t blow anything up.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>It Takes 2 Minutes to Hack the EU’s New Age-Verification App</title>
+    <link>https://www.wired.com/story/security-news-this-week-it-takes-2-minutes-to-hack-the-eus-new-age-verification-app/</link>
+    <guid>https://www.wired.com/story/security-news-this-week-it-takes-2-minutes-to-hack-the-eus-new-age-verification-app/</guid>
+    <pubDate>Sat, 18 Apr 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Plus: Major data breaches at a gym chain and hotel giant, a disruptive DDoS attack against Bluesky, dubious ICE hires, and more.</description>
     <category>AI</category>
   </item>
   <item>
@@ -257,24 +275,6 @@
     <pubDate>Fri, 17 Apr 2026 20:42:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Tinder users who prove they&apos;re a real person by visiting an identity-verifying orb will soon be able to get five free boosts in the app - and it&apos;s just the latest service to embrace the orb....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Kevin Weil and Bill Peebles exit OpenAI as company continues to shed ‘side quests’</title>
-    <link>https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/</link>
-    <guid>https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/</guid>
-    <pubDate>Fri, 17 Apr 2026 20:38:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Kevin Weil and Bill Peebles are leaving OpenAI as the company shuts down Sora and folds its science team, signaling a sharp pivot away from consumer moonshots toward enterprise AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Anthropic’s new cybersecurity model could get it back in the government’s good graces</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview</guid>
-    <pubDate>Fri, 17 Apr 2026 20:14:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Trump administration has spent nearly two months fighting with AI company Anthropic. It&apos;s dubbed the company a &quot;RADICAL LEFT, WOKE COMPANY&quot; full of &quot;Leftwing nut jobs&quot; and a menace to national...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
