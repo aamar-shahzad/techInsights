@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 20 Apr 2026 06:27:12 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 20 Apr 2026 10:09:55 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Chatlectify: turn your chat history into a writing style your LLM can reuse</title>
-    <link>https://dev.to/aditya_tiwari_techo/chatlectify-turn-your-chat-history-into-a-writing-style-your-llm-can-reuse-4d3e</link>
-    <guid>https://dev.to/aditya_tiwari_techo/chatlectify-turn-your-chat-history-into-a-writing-style-your-llm-can-reuse-4d3e</guid>
-    <pubDate>Mon, 20 Apr 2026 06:21:56 +0000</pubDate>
+    <title>150+ regex patterns for Python developers: stop rebuilding the same wheel</title>
+    <link>https://dev.to/peytongreen_dev/150-regex-patterns-for-python-developers-stop-rebuilding-the-same-wheel-56m4</link>
+    <guid>https://dev.to/peytongreen_dev/150-regex-patterns-for-python-developers-stop-rebuilding-the-same-wheel-56m4</guid>
+    <pubDate>Mon, 20 Apr 2026 10:00:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Two years of daily Claude + ChatGPT. They&apos;ve seen probably a million tokens of my writing. Every response still opens with &quot;Certainly!&quot; or &quot;Great question!&quot; and closes with &quot;In conclusion…&quot;....</description>
+    <description>Every Python developer I know has a folder somewhere called &quot;regex_snippets&quot; or &quot;useful_patterns&quot; or &quot;patterns_to_remember.txt&quot;. Mine grew to 47 files over six years. Half of them were wrong....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Add Authentication to Any App in Under an Hour (2026 Guide)</title>
-    <link>https://dev.to/aadesh-kumar/how-to-add-authentication-to-any-app-in-under-an-hour-2026-guide-2n8k</link>
-    <guid>https://dev.to/aadesh-kumar/how-to-add-authentication-to-any-app-in-under-an-hour-2026-guide-2n8k</guid>
-    <pubDate>Mon, 20 Apr 2026 06:20:49 +0000</pubDate>
+    <title>PostgreSQL BRIN Indexes: When &amp; How to Use Block Range Indexes</title>
+    <link>https://dev.to/philip_mcclarence_2ef9475/postgresql-brin-indexes-when-how-to-use-block-range-indexes-3g6d</link>
+    <guid>https://dev.to/philip_mcclarence_2ef9475/postgresql-brin-indexes-when-how-to-use-block-range-indexes-3g6d</guid>
+    <pubDate>Mon, 20 Apr 2026 10:00:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Auth is the part every tutorial skips. Here&apos;s a complete, honest breakdown of your three real options in 2026. Authentication is where most &quot;build an app in a weekend&quot; tutorials quietly stop. They...</description>
+    <description>PostgreSQL BRIN Indexes: When &amp; How to Use Block Range Indexes You have a 500-million-row events table. The B-tree index on created_at consumes 12 GB. Every insert must update that 12 GB index....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Mastering the SQL Analytical Toolkit</title>
-    <link>https://dev.to/melody_mulei/mastering-the-sql-analytical-toolkit-2c3g</link>
-    <guid>https://dev.to/melody_mulei/mastering-the-sql-analytical-toolkit-2c3g</guid>
-    <pubDate>Mon, 20 Apr 2026 06:20:35 +0000</pubDate>
+    <title>The Hidden Cost of AI Coding Agents: Every Tool Is Fetching the Same Data</title>
+    <link>https://dev.to/depscope/the-hidden-cost-of-ai-coding-agents-every-tool-is-fetching-the-same-data-4fc1</link>
+    <guid>https://dev.to/depscope/the-hidden-cost-of-ai-coding-agents-every-tool-is-fetching-the-same-data-4fc1</guid>
+    <pubDate>Mon, 20 Apr 2026 10:00:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As a budding data professional, I recently completed an intensive SQL Week 2 Assignment that pushed me from basic queries into more powerful territory. I worked with two real-world databases —...</description>
+    <description>Claude Code, Cursor, Copilot, Aider, Continue, Windsurf. Before any of them suggests npm install express, they hit the npm registry. Before they suggest pip install django, they hit PyPI. Before...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Optimize React &amp; Next.js Apps for SEO and Rank Faster</title>
-    <link>https://dev.to/alamin60/how-to-optimize-react-nextjs-apps-for-seo-and-rank-faster-lco</link>
-    <guid>https://dev.to/alamin60/how-to-optimize-react-nextjs-apps-for-seo-and-rank-faster-lco</guid>
-    <pubDate>Mon, 20 Apr 2026 06:20:29 +0000</pubDate>
+    <title>OpenClaw Plugins — Ecosystem Guide and Practical Picks</title>
+    <link>https://dev.to/rosgluk/openclaw-plugins-ecosystem-guide-and-practical-picks-4an1</link>
+    <guid>https://dev.to/rosgluk/openclaw-plugins-ecosystem-guide-and-practical-picks-4an1</guid>
+    <pubDate>Mon, 20 Apr 2026 09:51:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent 3 hours debugging why Google couldn&apos;t see my React app. Turns out, Googlebot was rendering a blank white page — because my entire content lived inside client-side JavaScript that hadn&apos;t...</description>
+    <description>This article is about OpenClaw plugins — native gateway packages that add channels, model providers, tools, speech, memory, media, web search, and other runtime surfaces. The rest of the piece...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Introducing KyberSwap MCP</title>
-    <link>https://dev.to/merlinmerlin/introducing-kyberswap-mcp-pc7</link>
-    <guid>https://dev.to/merlinmerlin/introducing-kyberswap-mcp-pc7</guid>
-    <pubDate>Mon, 20 Apr 2026 06:19:37 +0000</pubDate>
+    <title>OpenClaw Skills Ecosystem and Practical Production Picks</title>
+    <link>https://dev.to/rosgluk/openclaw-skills-ecosystem-and-practical-production-picks-2imn</link>
+    <guid>https://dev.to/rosgluk/openclaw-skills-ecosystem-and-practical-production-picks-2imn</guid>
+    <pubDate>Mon, 20 Apr 2026 09:51:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introducing KyberSwap MCP: Connecting AI Agents to Real DeFi Execution This article introduces KyberSwap MCP, a Model Context Protocol server designed to connect AI agents and developer workflows...</description>
+    <description>OpenClaw has two extension stories, and they are easy to mix up. Plugins extend the runtime. Skills extend the agent&apos;s behavior. That distinction matters. A plugin adds a new capability surface...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Easiest OpenClaw Setup &amp; Onboarding Guide + Using Web Search</title>
-    <link>https://dev.to/kheai/easiest-openclaw-setup-onboarding-guide-using-web-search-52em</link>
-    <guid>https://dev.to/kheai/easiest-openclaw-setup-onboarding-guide-using-web-search-52em</guid>
-    <pubDate>Mon, 20 Apr 2026 06:13:57 +0000</pubDate>
+    <title>OpenClaw Production Setup Patterns with Plugins and Skills</title>
+    <link>https://dev.to/rosgluk/openclaw-production-setup-patterns-with-plugins-and-skills-1jfj</link>
+    <guid>https://dev.to/rosgluk/openclaw-production-setup-patterns-with-plugins-and-skills-1jfj</guid>
+    <pubDate>Mon, 20 Apr 2026 09:51:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the OpenClaw Writing Challenge If you&apos;ve been looking into autonomous Node.js frameworks lately, you&apos;ve probably stumbled across OpenClaw. It’s incredibly powerful, but...</description>
+    <description>OpenClaw looks simple in demos. In production, it becomes a system. The real complexity is not in prompts or models. It is in how plugins and skills interact to manage state, integrate systems,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Multi region kubernetes cluster (Onprem/Public Cloud)</title>
-    <link>https://dev.to/yepchaos/multi-region-kubernetes-cluster-onprempublic-cloud-4ifl</link>
-    <guid>https://dev.to/yepchaos/multi-region-kubernetes-cluster-onprempublic-cloud-4ifl</guid>
-    <pubDate>Mon, 20 Apr 2026 06:11:33 +0000</pubDate>
+    <title>What is Appium? Full Tutorial + Modern Alternatives</title>
+    <link>https://dev.to/drizzdev/what-is-appium-full-tutorial-modern-alternatives-171b</link>
+    <guid>https://dev.to/drizzdev/what-is-appium-full-tutorial-modern-alternatives-171b</guid>
+    <pubDate>Mon, 20 Apr 2026 09:51:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A single Kubernetes cluster is manageable. You deploy things, they run, life is good. Things get complicated when you have clusters in multiple regions that need to talk to each other. This post...</description>
+    <description>73% of mobile engineering teams say test maintenance not test creation is their biggest QA bottleneck. The tool most of them are using? Appium. And while it&apos;s been the industry standard for a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your AI Sounds Most Confident Right Before It&apos;s Wrong — Here&apos;s the Data</title>
-    <link>https://dev.to/yaseen_tech/your-ai-sounds-most-confident-right-before-its-wrong-heres-the-data-2dmp</link>
-    <guid>https://dev.to/yaseen_tech/your-ai-sounds-most-confident-right-before-its-wrong-heres-the-data-2dmp</guid>
-    <pubDate>Mon, 20 Apr 2026 06:09:54 +0000</pubDate>
+    <title>Hermes AI Assistant Skills for Real Production Setups</title>
+    <link>https://dev.to/rosgluk/hermes-ai-assistant-skills-for-real-production-setups-f5f</link>
+    <guid>https://dev.to/rosgluk/hermes-ai-assistant-skills-for-real-production-setups-f5f</guid>
+    <pubDate>Mon, 20 Apr 2026 09:50:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Let&apos;s start with something that took me a while to sit with properly. AI models are 34% more likely to use confident language — phrases like &quot;definitely,&quot; &quot;certainly,&quot; &quot;without question&quot; — when...</description>
+    <description>Hermes AI assistant, officially documented as Hermes Agent, is not positioned as a simple chat wrapper. For installation, provider setup, tool sandboxing, and gateway configuration, see the Hermes...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Zero Waste, Zero Stress: Building ReMake with AI-Assisted Github Copilot Development</title>
-    <link>https://dev.to/shreya111111/zero-waste-zero-stress-building-remake-with-ai-assisted-github-copilot-development-53fo</link>
-    <guid>https://dev.to/shreya111111/zero-waste-zero-stress-building-remake-with-ai-assisted-github-copilot-development-53fo</guid>
-    <pubDate>Mon, 20 Apr 2026 06:09:31 +0000</pubDate>
+    <title>What DevOps Really Means (and Why It’s So Hard to Explain)</title>
+    <link>https://dev.to/favxlaw/what-devops-really-means-and-why-its-so-hard-to-explain-5c6j</link>
+    <guid>https://dev.to/favxlaw/what-devops-really-means-and-why-its-so-hard-to-explain-5c6j</guid>
+    <pubDate>Mon, 20 Apr 2026 09:49:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🎯 Introduction What if your discarded cardboard box could become a laptop stand? What if that old denim jacket could transform into a trendy tote bag? Second Life ReMake is an AI-powered upcycling...</description>
+    <description>You know how people still, even now, don’t really know what DevOps is? Honestly, even most DevOps engineers struggle to explain what they actually do. So, to make life easier, we just say “we’re...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>5 Data Patterns That Scream &apos;Your Developer Is Burning Out</title>
-    <link>https://dev.to/arthur_pandev/5-data-patterns-that-scream-your-developer-is-burning-out-3d7j</link>
-    <guid>https://dev.to/arthur_pandev/5-data-patterns-that-scream-your-developer-is-burning-out-3d7j</guid>
-    <pubDate>Mon, 20 Apr 2026 06:08:43 +0000</pubDate>
+    <title>I Tested 6 AI Translators on a 40-Page Research Paper — Only One Actually Worked</title>
+    <link>https://dev.to/alyna_sylvan/i-tested-6-ai-translators-on-a-40-page-research-paper-only-one-actually-worked-1ij7</link>
+    <guid>https://dev.to/alyna_sylvan/i-tested-6-ai-translators-on-a-40-page-research-paper-only-one-actually-worked-1ij7</guid>
+    <pubDate>Mon, 20 Apr 2026 09:48:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Nobody quits on a Monday. The resignation email you receive on a random Thursday was written — emotionally — six weeks ago. The disengagement started three months ago. And the data saw it coming...</description>
+    <description>I tried a simple experiment: Take a 40-page academic paper and translate it using AI tools — free tier only. What I expected: ● Some limits ● Maybe slower processing ● Possibly lower quality What...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>GoPro’s new Mission cameras are priced beyond most weekend athletes</title>
+    <link>https://www.theverge.com/gadgets/914764/gopros-mission-camera-prices</link>
+    <guid>https://www.theverge.com/gadgets/914764/gopros-mission-camera-prices</guid>
+    <pubDate>Mon, 20 Apr 2026 09:04:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>GoPro is pricing its new Mission 1 and Mission 1 Pro cameras at $599.99 and $699.99, respectively, each discounted by $100 if you subscribe to its ecosystem - fine for professional filmmakers, but...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Chinese tech workers are starting to train their AI doubles–and pushing back</title>
+    <link>https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/</link>
+    <guid>https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/</guid>
+    <pubDate>Mon, 20 Apr 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters. Earlier this...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems</title>
+    <link>https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html</link>
+    <guid>https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html</guid>
+    <pubDate>Mon, 20 Apr 2026 07:34:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems. The malware has been...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials</title>
@@ -248,33 +275,6 @@
     <pubDate>Sat, 18 Apr 2026 14:56:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Despite recently being designated a supply-chain risk by the Pentagon, Anthropic is still talking to high-level members of the Trump administration.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The App Store is booming again, and AI may be why</title>
-    <link>https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/</link>
-    <guid>https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/</guid>
-    <pubDate>Sat, 18 Apr 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>New data from Appfigures shows a swell of new app launches in 2026, suggesting AI tools could be fueling a mobile software boom.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Dyson’s handheld fan is more powerful and louder than I expected</title>
-    <link>https://www.theverge.com/tech/908962/dyson-hushjet-mini-cool-personal-handheld-fan-hands-on</link>
-    <guid>https://www.theverge.com/tech/908962/dyson-hushjet-mini-cool-personal-handheld-fan-hands-on</guid>
-    <pubDate>Sat, 18 Apr 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Two years ago I attended a picturesque outdoor wedding in August where the hot and humid weather had guests occasionally ducking into their cars to enjoy a blast of AC. Dyson’s new $99.99 handheld...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>It Takes 2 Minutes to Hack the EU’s New Age-Verification App</title>
-    <link>https://www.wired.com/story/security-news-this-week-it-takes-2-minutes-to-hack-the-eus-new-age-verification-app/</link>
-    <guid>https://www.wired.com/story/security-news-this-week-it-takes-2-minutes-to-hack-the-eus-new-age-verification-app/</guid>
-    <pubDate>Sat, 18 Apr 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Plus: Major data breaches at a gym chain and hotel giant, a disruptive DDoS attack against Bluesky, dubious ICE hires, and more.</description>
     <category>AI</category>
   </item>
 </channel>
