@@ -5,97 +5,205 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 20 Apr 2026 10:09:55 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 20 Apr 2026 14:12:30 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>150+ regex patterns for Python developers: stop rebuilding the same wheel</title>
-    <link>https://dev.to/peytongreen_dev/150-regex-patterns-for-python-developers-stop-rebuilding-the-same-wheel-56m4</link>
-    <guid>https://dev.to/peytongreen_dev/150-regex-patterns-for-python-developers-stop-rebuilding-the-same-wheel-56m4</guid>
-    <pubDate>Mon, 20 Apr 2026 10:00:05 +0000</pubDate>
+    <title>Temporal.io: Stop Losing State When Your Server Crashes (Production Guide)</title>
+    <link>https://dev.to/whoffagents/temporalio-stop-losing-state-when-your-server-crashes-production-guide-488j</link>
+    <guid>https://dev.to/whoffagents/temporalio-stop-losing-state-when-your-server-crashes-production-guide-488j</guid>
+    <pubDate>Mon, 20 Apr 2026 14:05:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every Python developer I know has a folder somewhere called &quot;regex_snippets&quot; or &quot;useful_patterns&quot; or &quot;patterns_to_remember.txt&quot;. Mine grew to 47 files over six years. Half of them were wrong....</description>
+    <description>Background jobs are a solved problem until they aren&apos;t. A job starts, your server restarts during a deploy, and you&apos;re left with half-processed records and no way to resume. Temporal solves this...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>PostgreSQL BRIN Indexes: When &amp; How to Use Block Range Indexes</title>
-    <link>https://dev.to/philip_mcclarence_2ef9475/postgresql-brin-indexes-when-how-to-use-block-range-indexes-3g6d</link>
-    <guid>https://dev.to/philip_mcclarence_2ef9475/postgresql-brin-indexes-when-how-to-use-block-range-indexes-3g6d</guid>
-    <pubDate>Mon, 20 Apr 2026 10:00:03 +0000</pubDate>
+    <title>Understanding Mixins in TypeScript: Concept and Examples</title>
+    <link>https://dev.to/jefersoneiji/understanding-mixins-in-typescript-concept-and-examples-796</link>
+    <guid>https://dev.to/jefersoneiji/understanding-mixins-in-typescript-concept-and-examples-796</guid>
+    <pubDate>Mon, 20 Apr 2026 14:05:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>PostgreSQL BRIN Indexes: When &amp; How to Use Block Range Indexes You have a 500-million-row events table. The B-tree index on created_at consumes 12 GB. Every insert must update that 12 GB index....</description>
+    <description>What Are Mixins in TypeScript? Mixins in TypeScript provide a way to reuse code across multiple classes without using traditional inheritance. A mixin is a class or function containing properties...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Hidden Cost of AI Coding Agents: Every Tool Is Fetching the Same Data</title>
-    <link>https://dev.to/depscope/the-hidden-cost-of-ai-coding-agents-every-tool-is-fetching-the-same-data-4fc1</link>
-    <guid>https://dev.to/depscope/the-hidden-cost-of-ai-coding-agents-every-tool-is-fetching-the-same-data-4fc1</guid>
-    <pubDate>Mon, 20 Apr 2026 10:00:02 +0000</pubDate>
+    <title>Reddit Research — Aggregate testing pain points from real user discussions ($200 pool)</title>
+    <link>https://dev.to/8006/reddit-research-aggregate-testing-pain-points-from-real-user-discussions-200-pool-dm0</link>
+    <guid>https://dev.to/8006/reddit-research-aggregate-testing-pain-points-from-real-user-discussions-200-pool-dm0</guid>
+    <pubDate>Mon, 20 Apr 2026 14:05:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Claude Code, Cursor, Copilot, Aider, Continue, Windsurf. Before any of them suggests npm install express, they hit the npm registry. Before they suggest pip install django, they hit PyPI. Before...</description>
+    <description>Reddit 测试痛点研究报告 执行摘要 本报告基于对 Reddit 及相关技术论坛的深度调研，聚焦开发者和团队在测试工具、QA 流程和 CI/CD 实践中遇到的核心痛点。通过分析超过 150 个相关讨论帖，我们识别出五大高频痛点主题，并提供真实案例和数据支撑。 一、五大核心痛点主题 1. 不稳定测试（Flaky Tests）— 出现频率：68 个帖子 痛点描述：...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenClaw Plugins — Ecosystem Guide and Practical Picks</title>
-    <link>https://dev.to/rosgluk/openclaw-plugins-ecosystem-guide-and-practical-picks-4an1</link>
-    <guid>https://dev.to/rosgluk/openclaw-plugins-ecosystem-guide-and-practical-picks-4an1</guid>
-    <pubDate>Mon, 20 Apr 2026 09:51:41 +0000</pubDate>
+    <title>Resend + React Email: The Transactional Email Stack That Doesn&apos;t Fight You</title>
+    <link>https://dev.to/whoffagents/resend-react-email-the-transactional-email-stack-that-doesnt-fight-you-774</link>
+    <guid>https://dev.to/whoffagents/resend-react-email-the-transactional-email-stack-that-doesnt-fight-you-774</guid>
+    <pubDate>Mon, 20 Apr 2026 14:05:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This article is about OpenClaw plugins — native gateway packages that add channels, model providers, tools, speech, memory, media, web search, and other runtime surfaces. The rest of the piece...</description>
+    <description>SendGrid&apos;s free tier is 100 emails/day and the dashboard is from 2013. Mailgun&apos;s API is fine but the React SDK is an afterthought. Resend was built by developers who wanted something that worked...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenClaw Skills Ecosystem and Practical Production Picks</title>
-    <link>https://dev.to/rosgluk/openclaw-skills-ecosystem-and-practical-production-picks-2imn</link>
-    <guid>https://dev.to/rosgluk/openclaw-skills-ecosystem-and-practical-production-picks-2imn</guid>
-    <pubDate>Mon, 20 Apr 2026 09:51:37 +0000</pubDate>
+    <title>9 Verified Tools to Stop Burning Claude Tokens Unnecessarily</title>
+    <link>https://dev.to/kmusicman/9-verified-tools-to-stop-burning-claude-tokens-unnecessarily-f9e</link>
+    <guid>https://dev.to/kmusicman/9-verified-tools-to-stop-burning-claude-tokens-unnecessarily-f9e</guid>
+    <pubDate>Mon, 20 Apr 2026 14:03:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>OpenClaw has two extension stories, and they are easy to mix up. Plugins extend the runtime. Skills extend the agent&apos;s behavior. That distinction matters. A plugin adds a new capability surface...</description>
+    <description>You&apos;re not using Claude more — you&apos;re just wasting more context. I went looking for real, working tools after seeing a widely-shared list that mixed legitimate repos with hallucinated ones. This...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenClaw Production Setup Patterns with Plugins and Skills</title>
-    <link>https://dev.to/rosgluk/openclaw-production-setup-patterns-with-plugins-and-skills-1jfj</link>
-    <guid>https://dev.to/rosgluk/openclaw-production-setup-patterns-with-plugins-and-skills-1jfj</guid>
-    <pubDate>Mon, 20 Apr 2026 09:51:33 +0000</pubDate>
+    <title>Stop Giving AI Agents AWS Credentials: A Better Way to Secure Access</title>
+    <link>https://dev.to/aws-builders/stop-giving-ai-agents-aws-credentials-a-better-way-to-secure-access-5gih</link>
+    <guid>https://dev.to/aws-builders/stop-giving-ai-agents-aws-credentials-a-better-way-to-secure-access-5gih</guid>
+    <pubDate>Mon, 20 Apr 2026 14:00:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>OpenClaw looks simple in demos. In production, it becomes a system. The real complexity is not in prompts or models. It is in how plugins and skills interact to manage state, integrate systems,...</description>
+    <description>👋 Hey there, tech enthusiasts! I&apos;m Sarvar, a Cloud Architect with a passion for transforming complex technological challenges into elegant solutions. With extensive experience spanning Cloud...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What is Appium? Full Tutorial + Modern Alternatives</title>
-    <link>https://dev.to/drizzdev/what-is-appium-full-tutorial-modern-alternatives-171b</link>
-    <guid>https://dev.to/drizzdev/what-is-appium-full-tutorial-modern-alternatives-171b</guid>
-    <pubDate>Mon, 20 Apr 2026 09:51:29 +0000</pubDate>
+    <title>How to Add Memory and Payments to Your AI Agent in 5 Minutes</title>
+    <link>https://dev.to/t49qnsx7qtkpanks/how-to-add-memory-and-payments-to-your-ai-agent-in-5-minutes-5fif</link>
+    <guid>https://dev.to/t49qnsx7qtkpanks/how-to-add-memory-and-payments-to-your-ai-agent-in-5-minutes-5fif</guid>
+    <pubDate>Mon, 20 Apr 2026 14:00:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>73% of mobile engineering teams say test maintenance not test creation is their biggest QA bottleneck. The tool most of them are using? Appium. And while it&apos;s been the industry standard for a...</description>
+    <description>Your AI agent can think. It can reason. It can call APIs and make decisions. But ask it what happened in the last session and it draws a blank. Ask it to hold money in escrow and it has no idea...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Hermes AI Assistant Skills for Real Production Setups</title>
-    <link>https://dev.to/rosgluk/hermes-ai-assistant-skills-for-real-production-setups-f5f</link>
-    <guid>https://dev.to/rosgluk/hermes-ai-assistant-skills-for-real-production-setups-f5f</guid>
-    <pubDate>Mon, 20 Apr 2026 09:50:09 +0000</pubDate>
+    <title>How to Make Your Site Show Up in ChatGPT Search Results</title>
+    <link>https://dev.to/robertatkinson3570/how-to-make-your-site-show-up-in-chatgpt-search-results-59jb</link>
+    <guid>https://dev.to/robertatkinson3570/how-to-make-your-site-show-up-in-chatgpt-search-results-59jb</guid>
+    <pubDate>Mon, 20 Apr 2026 14:00:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hermes AI assistant, officially documented as Hermes Agent, is not positioned as a simple chat wrapper. For installation, provider setup, tool sandboxing, and gateway configuration, see the Hermes...</description>
+    <description>Somebody on our team asked a question in ChatGPT the other day about a topic where we literally wrote the definitive guide. Our competitor showed up as a citation. We did not. That was a bad...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What DevOps Really Means (and Why It’s So Hard to Explain)</title>
-    <link>https://dev.to/favxlaw/what-devops-really-means-and-why-its-so-hard-to-explain-5c6j</link>
-    <guid>https://dev.to/favxlaw/what-devops-really-means-and-why-its-so-hard-to-explain-5c6j</guid>
-    <pubDate>Mon, 20 Apr 2026 09:49:28 +0000</pubDate>
+    <title>Stop cross-file drift with Google&apos;s IfChange/ThenChange comments</title>
+    <link>https://dev.to/simonepri/stop-cross-file-drift-with-googles-ifchangethenchange-comments-4j5h</link>
+    <guid>https://dev.to/simonepri/stop-cross-file-drift-with-googles-ifchangethenchange-comments-4j5h</guid>
+    <pubDate>Mon, 20 Apr 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You know how people still, even now, don’t really know what DevOps is? Honestly, even most DevOps engineers struggle to explain what they actually do. So, to make life easier, we just say “we’re...</description>
+    <description>Before I start pitching you anything, let me do what any good salesperson would do: let&apos;s get personal. If you have a terminal and a repo you know handy, run this: git grep -iE &apos;keep.* in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Tested 6 AI Translators on a 40-Page Research Paper — Only One Actually Worked</title>
-    <link>https://dev.to/alyna_sylvan/i-tested-6-ai-translators-on-a-40-page-research-paper-only-one-actually-worked-1ij7</link>
-    <guid>https://dev.to/alyna_sylvan/i-tested-6-ai-translators-on-a-40-page-research-paper-only-one-actually-worked-1ij7</guid>
-    <pubDate>Mon, 20 Apr 2026 09:48:44 +0000</pubDate>
+    <title>Your AI Agent Just Spent $3,000. Nobody Told It to Stop.</title>
+    <link>https://dev.to/dennismcwong/your-ai-agent-just-spent-3000-nobody-told-it-to-stop-30do</link>
+    <guid>https://dev.to/dennismcwong/your-ai-agent-just-spent-3000-nobody-told-it-to-stop-30do</guid>
+    <pubDate>Mon, 20 Apr 2026 13:57:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I tried a simple experiment: Take a 40-page academic paper and translate it using AI tools — free tier only. What I expected: ● Some limits ● Maybe slower processing ● Possibly lower quality What...</description>
+    <description>Limenex is an open-source, deterministic stateful governance layer for AI agents and agentic systems. Agentic AI has been the talk of the town. In January 2026, OpenClaw went from zero to 180,000...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Elden Ring movie hits theaters in March 2028</title>
+    <link>https://www.theverge.com/entertainment/914818/elden-ring-movie-date-cast</link>
+    <guid>https://www.theverge.com/entertainment/914818/elden-ring-movie-date-cast</guid>
+    <pubDate>Mon, 20 Apr 2026 13:25:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s going to be a little while before The Lands Between is realized in movie form. Bandai Namco just confirmed that the live-action Elden Ring movie, which was announced last year, is expected to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Prego Has a Dinner-Conversation-Recording Device, Capisce?</title>
+    <link>https://www.wired.com/story/prego-has-a-dinner-recording-device-capiche/</link>
+    <guid>https://www.wired.com/story/prego-has-a-dinner-recording-device-capiche/</guid>
+    <pubDate>Mon, 20 Apr 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The pasta-sauce company has partnered with the nonprofit StoryCorps on a device designed to record family conversations around the table and save them for all time.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Vampire Survivors’ new spinoff switches genres but keeps the good vibes</title>
+    <link>https://www.theverge.com/games/913410/vampire-survivors-new-spinoff-switches-genres-but-keeps-the-good-vibes</link>
+    <guid>https://www.theverge.com/games/913410/vampire-survivors-new-spinoff-switches-genres-but-keeps-the-good-vibes</guid>
+    <pubDate>Mon, 20 Apr 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When Vampire Survivors first exploded onto the scene, it was pretty much all I could think about. The formula of jumping into runs, taking on thousands of enemies, and becoming absurdly...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>This pasta sauce wants to record your family</title>
+    <link>https://www.theverge.com/tech/913874/prego-connection-keeper-bundle-voice-recorder-storycorps</link>
+    <guid>https://www.theverge.com/tech/913874/prego-connection-keeper-bundle-voice-recorder-storycorps</guid>
+    <pubDate>Mon, 20 Apr 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As if there weren&apos;t already enough devices listening in on everything being said in your home, Prego, the pasta and pizza sauce brand, is releasing a device designed to record everything said...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Huawei beats Samsung and Apple to market with the first wide foldable</title>
+    <link>https://www.theverge.com/tech/914807/huawei-pura-x-max-launch-price-specs-availability</link>
+    <guid>https://www.theverge.com/tech/914807/huawei-pura-x-max-launch-price-specs-availability</guid>
+    <pubDate>Mon, 20 Apr 2026 12:19:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Huawei has launched its passport-style foldable in China, ahead of similar devices said to be coming from Apple and Samsung. That makes the Pura X Max the first wide foldable phone that&apos;s actually...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles</title>
+    <link>https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/</link>
+    <guid>https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/</guid>
+    <pubDate>Mon, 20 Apr 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. No one’s sure if synthetic mirror life will kill us all In...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>DJI’s latest power station is proof that good things come in mini packages</title>
+    <link>https://www.theverge.com/reviews/913706/dji-mini-power-station-review-comparison</link>
+    <guid>https://www.theverge.com/reviews/913706/dji-mini-power-station-review-comparison</guid>
+    <pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As an avid vanlifer, I have to carefully curate everything I carry in order to eke out every square inch of storage I can to support life off the grid for weeks at a time. That&apos;s why I jumped at...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Why Most AI Deployments Stall After the Demo</title>
+    <link>https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html</link>
+    <guid>https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html</guid>
+    <pubDate>Mon, 20 Apr 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The fastest way to fall in love with an AI tool is to watch the demo. Everything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Is “Satoshi Nakamoto” Really Adam Back?</title>
+    <link>https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html</guid>
+    <pubDate>Mon, 20 Apr 2026 11:07:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>The New York Times has a long article where the author lays out an impressive array of circumstantial evidence that the inventor of Bitcoin is the cypherpunk Adam Back. I don’t know. The article...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Tech CEOs Think AI Will Let Them Be Everywhere at Once</title>
+    <link>https://www.wired.com/story/tech-ceos-using-ai-to-be-everywhere-at-once/</link>
+    <guid>https://www.wired.com/story/tech-ceos-using-ai-to-be-everywhere-at-once/</guid>
+    <pubDate>Mon, 20 Apr 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Mark Zuckerberg and Jack Dorsey have different visions for how to use AI for management purposes, but both imagine a system of heightened control.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain</title>
+    <link>https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html</link>
+    <guid>https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html</guid>
+    <pubDate>Mon, 20 Apr 2026 10:42:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have discovered a critical &quot;by design&quot; weakness in the Model Context Protocol&apos;s (MCP) architecture that could pave the way for remote code execution and have a cascading...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Colossal Biosciences said it cloned red wolves. Is it for real?</title>
+    <link>https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/</link>
+    <guid>https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/</guid>
+    <pubDate>Mon, 20 Apr 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>If you want to capture something wolflike, it’s best to embark before dawn. So on a morning this January, with the eastern horizon still pink-hued, I drove with two young scientists into a blanket...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>GoPro’s new Mission cameras are priced beyond most weekend athletes</title>
@@ -134,6 +242,15 @@
     <category>Security</category>
   </item>
   <item>
+    <title>OpenAI helps Hyatt advance AI among colleagues</title>
+    <link>https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</link>
+    <guid>https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</guid>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.</description>
+    <category>AI</category>
+  </item>
+  <item>
     <title>OpenAI’s existential questions</title>
     <link>https://techcrunch.com/2026/04/19/openais-existential-questions/</link>
     <guid>https://techcrunch.com/2026/04/19/openais-existential-questions/</guid>
@@ -159,123 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Vercel, a major development platform that hosts and deploys web apps, was compromised, and the hackers are attempting to sell stolen data. A person claiming to be a member of ShinyHunters, which...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The 12-month window</title>
-    <link>https://techcrunch.com/2026/04/19/the-12-month-window/</link>
-    <guid>https://techcrunch.com/2026/04/19/the-12-month-window/</guid>
-    <pubDate>Sun, 19 Apr 2026 19:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>A lot of AI startups exist partly because the foundation models haven&apos;t expanded into their category yet. As many jokingly acknowledge, that won&apos;t last forever.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures</title>
-    <link>https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/</link>
-    <guid>https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/</guid>
-    <pubDate>Sun, 19 Apr 2026 16:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Palantir&apos;s ideological bent has come under more scrutiny as it&apos;s worked with ICE and positioned itself as a defender of &quot;the West.&quot;</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>TechCrunch Mobility: Uber enters its assetmaxxing era</title>
-    <link>https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/</link>
-    <guid>https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/</guid>
-    <pubDate>Sun, 19 Apr 2026 16:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nothing’s modular CMF Headphone Pro are down to their lowest price to date</title>
-    <link>https://www.theverge.com/gadgets/913989/nothing-cmf-noise-canceling-headphone-pro-spring-sale-deal</link>
-    <guid>https://www.theverge.com/gadgets/913989/nothing-cmf-noise-canceling-headphone-pro-spring-sale-deal</guid>
-    <pubDate>Sun, 19 Apr 2026 14:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Over the past several years, Nothing’s budget-centric subsidiary, CMF, has built a reputation for producing attractive, inexpensive products with features often reserved for gadgets that cost...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Stars My Destination is classic proto-cyberpunk</title>
-    <link>https://www.theverge.com/entertainment/914680/the-stars-my-destination-alfred-bester-review-cyberpunk</link>
-    <guid>https://www.theverge.com/entertainment/914680/the-stars-my-destination-alfred-bester-review-cyberpunk</guid>
-    <pubDate>Sun, 19 Apr 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This might feel like a somewhat obvious recommendation to some, but it flew under my radar until now. Alfred Bester&apos;s The Stars My Destination (originally published as Tiger! Tiger! in the UK) is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Marathon battery life makes Keychron’s Ultra 8K keyboards its best yet</title>
-    <link>https://www.theverge.com/tech/914085/keychron-q1-v5-ultra-8k-zmk-mechanical-keyboards-review</link>
-    <guid>https://www.theverge.com/tech/914085/keychron-q1-v5-ultra-8k-zmk-mechanical-keyboards-review</guid>
-    <pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Keychron&apos;s expansive keyboard catalog covers everything from basic full-size mechanical boards to niche layouts like southpaw Alice or a one-handed half-keyboard for gaming. Its Q and V series are...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The future of local TV news has taken a Trumpian turn</title>
-    <link>https://www.theverge.com/column/914674/nexstar-tegna-merger-trump-local-news</link>
-    <guid>https://www.theverge.com/column/914674/nexstar-tegna-merger-trump-local-news</guid>
-    <pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more stories on Big Tech versus politics in Washington, DC, follow Tina Nguyen and read...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Tesla brings its robotaxi service to Dallas and Houston</title>
-    <link>https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/</link>
-    <guid>https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/</guid>
-    <pubDate>Sat, 18 Apr 2026 21:37:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company now offers robotaxi service in three cities, all of them in Texas, after launching in Austin last year and starting to offer rides without safety drivers in January 2026.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The RAM shortage could last years</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years</guid>
-    <pubDate>Sat, 18 Apr 2026 21:08:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AI chip startup Cerebras files for IPO</title>
-    <link>https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/</link>
-    <guid>https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/</guid>
-    <pubDate>Sat, 18 Apr 2026 19:19:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>In recent months, the company announced an agreement with Amazon Web Services to use Cerebras chips in Amazon data centers, as well as a deal with OpenAI reportedly worth more than $10 billion.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Judge rules Trump administration violated the First Amendment in fight against ICE-tracking</title>
-    <link>https://www.theverge.com/policy/914619/trump-administration-violated-first-amendment-ice-tracking</link>
-    <guid>https://www.theverge.com/policy/914619/trump-administration-violated-first-amendment-ice-tracking</guid>
-    <pubDate>Sat, 18 Apr 2026 16:42:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Jorge L. Alonso, a federal district court judge for the Northern District of Illinois, said that the Trump Administration violated the First Amendment when it pressured Facebook and Apple to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Cheap stuff that doesn’t suck, take 3</title>
-    <link>https://www.theverge.com/gadgets/912620/cheap-gadgets-tech-under-50-tools-headphones-fitness-trackers</link>
-    <guid>https://www.theverge.com/gadgets/912620/cheap-gadgets-tech-under-50-tools-headphones-fitness-trackers</guid>
-    <pubDate>Sat, 18 Apr 2026 15:33:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>From fancy OLED TVs to robot vacuums with arms, we tend to cover a lot of cool stuff here at The Verge that, unfortunately, often costs as much as a month’s rent (or more). But with the ongoing...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic’s relationship with the Trump administration seems to be thawing</title>
-    <link>https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/</link>
-    <guid>https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/</guid>
-    <pubDate>Sat, 18 Apr 2026 14:56:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Despite recently being designated a supply-chain risk by the Pentagon, Anthropic is still talking to high-level members of the Trump administration.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
