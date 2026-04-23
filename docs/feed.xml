@@ -5,88 +5,177 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 23 Apr 2026 14:11:37 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 23 Apr 2026 17:45:38 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>What&apos;s New in GKE at Next &apos;26: Kubernetes Just Got Smarter (and Cheaper)</title>
-    <link>https://dev.to/kielltampubolon/whats-new-in-gke-at-next-26-kubernetes-just-got-smarter-and-cheaper-1md</link>
-    <guid>https://dev.to/kielltampubolon/whats-new-in-gke-at-next-26-kubernetes-just-got-smarter-and-cheaper-1md</guid>
-    <pubDate>Thu, 23 Apr 2026 14:01:43 +0000</pubDate>
+    <title>Stay tuned for the Monthly Report for April next week!!! :D</title>
+    <link>https://dev.to/francistrdev/stay-tuned-for-the-monthly-report-for-april-next-week-d-19pi</link>
+    <guid>https://dev.to/francistrdev/stay-tuned-for-the-monthly-report-for-april-next-week-d-19pi</guid>
+    <pubDate>Thu, 23 Apr 2026 17:37:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Google Cloud NEXT Writing Challenge Kubernetes as the OS of the AI Era At Google Cloud Next &apos;26, Google made one thing pretty clear: Kubernetes is no longer just a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Am Roger: First 30 Days Running an Autonomous Agent on Base</title>
-    <link>https://dev.to/roger_base_eth/i-am-roger-first-30-days-running-an-autonomous-agent-on-base-cgm</link>
-    <guid>https://dev.to/roger_base_eth/i-am-roger-first-30-days-running-an-autonomous-agent-on-base-cgm</guid>
-    <pubDate>Thu, 23 Apr 2026 14:01:05 +0000</pubDate>
+    <title>Mastering Your Frontend Build with Bazel: Consolidating Tests</title>
+    <link>https://dev.to/mbarzeev/mastering-your-frontend-build-with-bazel-consolidating-tests-26nl</link>
+    <guid>https://dev.to/mbarzeev/mastering-your-frontend-build-with-bazel-consolidating-tests-26nl</guid>
+    <pubDate>Thu, 23 Apr 2026 17:35:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Am Roger: First 30 Days Running an Autonomous Agent on Base An OpenClaw Writing Challenge submission The setup nobody talks about Most AI agents are cloud services with good PR. You sign up, you...</description>
+    <description>In my previous post I consolidated the lint setup across all 7 packages in the Pedalboard monorepo. The key move there was introducing tools/lint/linters.bzl, a shared macro file that wraps...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why I forked career-ops and shut down the tool I built</title>
-    <link>https://dev.to/kaustubhtrivedi/why-i-forked-career-ops-and-shut-down-the-tool-i-built-m3m</link>
-    <guid>https://dev.to/kaustubhtrivedi/why-i-forked-career-ops-and-shut-down-the-tool-i-built-m3m</guid>
-    <pubDate>Thu, 23 Apr 2026 14:00:57 +0000</pubDate>
+    <title>Stop Wasting GitHub Actions Minutes: How We Built a Commit-Driven CI System for iOS</title>
+    <link>https://dev.to/daksh-gargas/stop-wasting-github-actions-minutes-how-we-built-a-commit-driven-ci-system-for-ios-47cd</link>
+    <guid>https://dev.to/daksh-gargas/stop-wasting-github-actions-minutes-how-we-built-a-commit-driven-ci-system-for-ios-47cd</guid>
+    <pubDate>Thu, 23 Apr 2026 17:34:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent months building Rendure — a full-stack agentic resume tailoring pipeline. Next.js frontend, FastAPI backend, Celery workers, LangChain, LangFuse for observability, RenderCV for PDF...</description>
+    <description>If you&apos;re building an iOS app with GitHub Actions, you&apos;re probably burning through macOS runner minutes like they&apos;re free. Spoiler: they&apos;re not — macOS runners cost 10x more than Linux runners,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Agent Memory: How It Works and When You Actually Need It</title>
-    <link>https://dev.to/pat9000/ai-agent-memory-how-it-works-and-when-you-actually-need-it-5ad7</link>
-    <guid>https://dev.to/pat9000/ai-agent-memory-how-it-works-and-when-you-actually-need-it-5ad7</guid>
-    <pubDate>Thu, 23 Apr 2026 14:00:35 +0000</pubDate>
+    <title>Claude Code hooks: the half of Claude Code nobody uses</title>
+    <link>https://dev.to/liran_baba/claude-code-hooks-the-half-of-claude-code-nobody-uses-5570</link>
+    <guid>https://dev.to/liran_baba/claude-code-hooks-the-half-of-claude-code-nobody-uses-5570</guid>
+    <pubDate>Thu, 23 Apr 2026 17:32:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Dario Amodei recently said continual learning &quot;will turn out to be not as difficult as it seems&quot; and &quot;will fall to scale plus a slightly different way of thinking.&quot; Sholto Douglas at Anthropic...</description>
+    <description>I was halfway through writing this post when I decided to fact-check myself. Opened ~/.claude/settings.json, expecting three or four hooks I&apos;d forgotten about. There was one. A Stop hook that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Service Workers : Understand in 3 Minutes</title>
-    <link>https://dev.to/hongster85/service-workers-understand-in-3-minutes-2m7m</link>
-    <guid>https://dev.to/hongster85/service-workers-understand-in-3-minutes-2m7m</guid>
-    <pubDate>Thu, 23 Apr 2026 14:00:28 +0000</pubDate>
+    <title>The End of the Prototype Trap: Real Engineering Lessons from Google Cloud Next &apos;26</title>
+    <link>https://dev.to/yeemun122/the-end-of-the-prototype-trap-real-engineering-lessons-from-google-cloud-next-26-347f</link>
+    <guid>https://dev.to/yeemun122/the-end-of-the-prototype-trap-real-engineering-lessons-from-google-cloud-next-26-347f</guid>
+    <pubDate>Thu, 23 Apr 2026 17:31:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Problem Statement A Service Worker is a script that runs in the background of your web browser, separate from your web page, acting as a programmable network proxy. You hit this problem when you...</description>
+    <description>This is a submission for the Google Cloud NEXT Writing Challenge It is easy to get swept up in the polished keynote demos of new AI capabilities. However, when evaluating new technology, I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The flat-fee era is over. How to control your AI agent costs in 2026.</title>
-    <link>https://dev.to/pat9000/the-flat-fee-era-is-over-how-to-control-your-ai-agent-costs-in-2026-5cof</link>
-    <guid>https://dev.to/pat9000/the-flat-fee-era-is-over-how-to-control-your-ai-agent-costs-in-2026-5cof</guid>
-    <pubDate>Thu, 23 Apr 2026 14:00:08 +0000</pubDate>
+    <title>GitOps Deployment for Kubernetes Teams</title>
+    <link>https://dev.to/safdarwahid/gitops-deployment-for-kubernetes-teams-237o</link>
+    <guid>https://dev.to/safdarwahid/gitops-deployment-for-kubernetes-teams-237o</guid>
+    <pubDate>Thu, 23 Apr 2026 17:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The flat-fee era is over. How to control your AI agent costs in 2026. Anthropic just shifted enterprise billing from flat-fee to per-token. Every major provider is expected to follow within six...</description>
+    <description>TLDR ; GitOps uses Git as the single source of truth for infrastructure, enabling auditable and repeatable deployments ArgoCD and Flux are the two leading GitOps tools, each suited to different...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Complete Guide to PostgreSQL SQL Query Analysis &amp; Optimization</title>
-    <link>https://dev.to/philip_mcclarence_2ef9475/the-complete-guide-to-postgresql-sql-query-analysis-optimization-3lbe</link>
-    <guid>https://dev.to/philip_mcclarence_2ef9475/the-complete-guide-to-postgresql-sql-query-analysis-optimization-3lbe</guid>
-    <pubDate>Thu, 23 Apr 2026 14:00:06 +0000</pubDate>
+    <title>Great news, the Moto G Stylus is no longer teeming with bloatware</title>
+    <link>https://www.theverge.com/tech/917497/motorola-moto-g-stylus-2026-review</link>
+    <guid>https://www.theverge.com/tech/917497/motorola-moto-g-stylus-2026-review</guid>
+    <pubDate>Thu, 23 Apr 2026 17:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The 2026 edition of Motorola&apos;s stylus phone is plenty appealing. My review unit is a charming lilac color, has a pleasantly textured back panel, and includes a MicroSD slot and what might be the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenGraph, Twitter Cards, and article metadata in Astro</title>
+    <link>https://dev.to/sourcier/opengraph-twitter-cards-and-article-metadata-in-astro-28ob</link>
+    <guid>https://dev.to/sourcier/opengraph-twitter-cards-and-article-metadata-in-astro-28ob</guid>
+    <pubDate>Thu, 23 Apr 2026 17:24:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most PostgreSQL performance work is wasted because it starts from the wrong end. Someone notices a slow query, skim-reads EXPLAIN, pattern-matches to &quot;missing index,&quot; adds one, and moves on....</description>
+    <description>Original post: OpenGraph, Twitter Cards, and article metadata in Astro Series: Part of How this blog was built — documenting every decision that shaped this site. When someone shares a link to a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Audit Logging Looked Like a Weekend Project. It Took Us 3 Months.</title>
-    <link>https://dev.to/robertatkinson3570/audit-logging-looked-like-a-weekend-project-it-took-us-3-months-509o</link>
-    <guid>https://dev.to/robertatkinson3570/audit-logging-looked-like-a-weekend-project-it-took-us-3-months-509o</guid>
-    <pubDate>Thu, 23 Apr 2026 14:00:05 +0000</pubDate>
+    <title>Working with Artificial Intelligence: Risks &amp; Side Effects</title>
+    <link>https://dev.to/jairusjoer/working-with-artificial-intelligence-risks-side-effects-10n1</link>
+    <guid>https://dev.to/jairusjoer/working-with-artificial-intelligence-risks-side-effects-10n1</guid>
+    <pubDate>Thu, 23 Apr 2026 17:21:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When our PM dropped the ticket into the sprint, it said &quot;Add audit logging for user actions. Estimated: 3 story points.&quot; Three story points. That&apos;s like, a day and a half of work. Create an...</description>
+    <description>ℹ️ The texts in this article were partly generated by artificial intelligence and corrected and revised by us. In our last article on working with generative texts, we already pointed out initial...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What AI-native startups actually look like in 2026 (and I&apos;m running one from Tennessee)</title>
-    <link>https://dev.to/pat9000/what-ai-native-startups-actually-look-like-in-2026-and-im-running-one-from-tennessee-2j91</link>
-    <guid>https://dev.to/pat9000/what-ai-native-startups-actually-look-like-in-2026-and-im-running-one-from-tennessee-2j91</guid>
-    <pubDate>Thu, 23 Apr 2026 14:00:05 +0000</pubDate>
+    <title>Microsoft brings Xbox back, scraps Microsoft Gaming</title>
+    <link>https://www.theverge.com/report/917485/microsoft-return-of-xbox-no-more-microsoft-gaming</link>
+    <guid>https://www.theverge.com/report/917485/microsoft-return-of-xbox-no-more-microsoft-gaming</guid>
+    <pubDate>Thu, 23 Apr 2026 17:19:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Xbox CEO Asha Sharma has had a busy week. Sharma held an internal town hall with Xbox employees today, just days after announcing an Xbox Game Pass price cut, commenting on the status of the Xbox...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Escape the cloud</title>
+    <link>https://dev.to/alfierivera/escape-the-cloud-4j1l</link>
+    <guid>https://dev.to/alfierivera/escape-the-cloud-4j1l</guid>
+    <pubDate>Thu, 23 Apr 2026 17:18:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What AI-native startups actually look like in 2026 (and I&apos;m running one from Tennessee) Flatiron Health visited AI-native startups in SF for a month. Their findings: Claude Code replacing Cursor...</description>
+    <description>A local-first platform where users own their data cryptographically — built on encrypted SQLite, CRDTs, and libp2p. Here is the simplest thing you can do with the platform: const platform = await...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Is Redis INCR a Bad Fit for a Public URL Shortener?</title>
+    <link>https://dev.to/leetdezine/url-shortener-traps-that-look-correct-until-they-break-2o8g</link>
+    <guid>https://dev.to/leetdezine/url-shortener-traps-that-look-correct-until-they-break-2o8g</guid>
+    <pubDate>Thu, 23 Apr 2026 17:18:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>LeetDezine Redis INCR is one of those solutions that looks perfect the first time you see it. Atomic counter increments. Every call returns a unique integer. Base62-encode it and you have a short...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Keychron’s customizable V1 mechanical keyboard is back down to $45</title>
+    <link>https://www.theverge.com/gadgets/916757/keychron-v1-skullcandy-method-360-anc-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/916757/keychron-v1-skullcandy-method-360-anc-deal-sale</guid>
+    <pubDate>Thu, 23 Apr 2026 17:02:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you’ve ever wished your laptop keyboard was better tailored to your workflow, the Keychron V1 is a solid upgrade. It doesn’t cost as much as most other mechanical keyboards, but it still offers...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Era raises $11M to build a software platform for AI gadgets</title>
+    <link>https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/</link>
+    <guid>https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/</guid>
+    <pubDate>Thu, 23 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Inside Microsoft’s wave of executive departures</title>
+    <link>https://www.theverge.com/tech/917361/microsoft-executive-departures-notepad</link>
+    <guid>https://www.theverge.com/tech/917361/microsoft-executive-departures-notepad</guid>
+    <pubDate>Thu, 23 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It feels like not a week has gone by this year without a senior Microsoft executive leaving the company. Some departures have triggered sweeping shakeups of Microsoft&apos;s biggest businesses, while...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>25 years later, is it time for a new iPod?</title>
+    <link>https://www.theverge.com/column/917369/sleevenote-new-ipod-streaming-bandcamp-music</link>
+    <guid>https://www.theverge.com/column/917369/sleevenote-new-ipod-streaming-bandcamp-music</guid>
+    <pubDate>Thu, 23 Apr 2026 15:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. This year marks the 25th...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft offers voluntary retirement to long-serving employees</title>
+    <link>https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes</link>
+    <guid>https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes</guid>
+    <pubDate>Thu, 23 Apr 2026 15:22:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Microsoft is changing up its annual rewards and performance programs today, and offering long-serving employees in the US the ability to voluntarily retire. It&apos;s the first time in Microsoft&apos;s more...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>DJI’s new Lito Series beginner drones start at less than $400</title>
+    <link>https://www.theverge.com/tech/917426/dji-drone-lito-1-x1-amateur-4k-obstacle-avoidance-pricing-availability</link>
+    <guid>https://www.theverge.com/tech/917426/dji-drone-lito-1-x1-amateur-4k-obstacle-avoidance-pricing-availability</guid>
+    <pubDate>Thu, 23 Apr 2026 14:44:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Following teasers and leaks, DJI has officially announced its new entry-level Lito 1 and Lito X1 drones that both weigh less than 249 grams so they&apos;re not subjected to registration requirements in...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Netflix can’t seem to follow up its biggest shows</title>
+    <link>https://www.theverge.com/entertainment/917121/stranger-things-tales-from-85-netflix-spinoffs</link>
+    <guid>https://www.theverge.com/entertainment/917121/stranger-things-tales-from-85-netflix-spinoffs</guid>
+    <pubDate>Thu, 23 Apr 2026 14:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It hasn&apos;t been that long since Stranger Things ended, but even still fans are clearly clamoring for more. The finale was overshadowed by a conspiracy about a secret episode, and an otherwise...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Grab a ticket today: The first StrictlyVC of 2026 kicks off in just a week in San Francisco</title>
@@ -98,13 +187,13 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Shipping uptime monitoring to an existing cron product: the decisions I got wrong first</title>
-    <link>https://dev.to/lucky-s/shipping-uptime-monitoring-to-an-existing-cron-product-the-decisions-i-got-wrong-first-2m70</link>
-    <guid>https://dev.to/lucky-s/shipping-uptime-monitoring-to-an-existing-cron-product-the-decisions-i-got-wrong-first-2m70</guid>
+    <title>Another customer of troubled startup Delve suffered a big security incident</title>
+    <link>https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/</link>
+    <guid>https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/</guid>
     <pubDate>Thu, 23 Apr 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quick context: I am Samed, founder of Drumbeats — started as a cron and background-job monitoring service, now also does HTTP uptime. This post is the build log of adding uptime monitoring on top...</description>
-    <category>Developer Tools</category>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>TechCrunch has confirmed that Delve was the compliance company that performed the security certifications for Context AI, the AI agent training startup that last week disclosed a security incident.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>THE PEOPLE DO NOT YEARN FOR AUTOMATION</title>
@@ -123,6 +212,24 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Earlier this month, millions of OpenClaw users woke up to a sweeping mandate: The viral AI agent tool, which this year took the worldwide tech industry by storm, had been severely restricted by...</description>
     <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign</title>
+    <link>https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html</link>
+    <guid>https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html</guid>
+    <pubDate>Thu, 23 Apr 2026 13:42:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket. &quot;The affected package version...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories</title>
+    <link>https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html</link>
+    <guid>https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html</guid>
+    <pubDate>Thu, 23 Apr 2026 13:17:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>AI galaxy hunters are adding to the global GPU crunch</title>
@@ -157,125 +264,17 @@
     <guid>https://techcrunch.com/2026/04/23/beehiiv-rolls-out-new-creator-tools-including-webinars-and-customizable-paywalls/</guid>
     <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Beehiiv is clearly done being just a newsletter platform based on today&apos;s launch of a new webinar feature, customizable paywalls, and more.</description>
+    <description>The announcement is a clear sign the company is trying to become an all-in-one hub for creators, reducing the hassle of juggling various tools and services to run their businesses.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Tim Cook’s departure is the start of a new era at Apple</title>
-    <link>https://www.theverge.com/tech/916585/tim-cook-apple-new-era</link>
-    <guid>https://www.theverge.com/tech/916585/tim-cook-apple-new-era</guid>
+    <title>Here’s how our TPUs power increasingly demanding AI workloads.</title>
+    <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/</link>
+    <guid>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/</guid>
     <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple is about to become a very different company. This September, Apple CEO Tim Cook is stepping down and will be replaced by John Ternus, the current head of hardware. But the shift is bigger...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Govee’s new colorful outdoor lights are its first with solar power</title>
-    <link>https://www.theverge.com/tech/916707/govee-outdoor-solar-string-lights-battery-rechargeable-pricing-availability</link>
-    <guid>https://www.theverge.com/tech/916707/govee-outdoor-solar-string-lights-battery-rechargeable-pricing-availability</guid>
-    <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Govee announced its first solar-powered lights today. They include a 6W panel with an integrated 4,800mAh battery that can be recharged with a single full day of sunlight (though if the weather&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint</title>
-    <link>https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint</link>
-    <guid>https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint</guid>
-    <pubDate>Thu, 23 Apr 2026 11:34:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as &quot;vibe working,&quot; the Agent Mode is a more powerful...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Project Glasswing Proved AI Can Find the Bugs. Who&apos;s Going to Fix Them?</title>
-    <link>https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html</link>
-    <guid>https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html</guid>
-    <pubDate>Thu, 23 Apr 2026 11:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>FBI Extracts Deleted Signal Messages from iPhone Notification Database</title>
-    <link>https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html</guid>
-    <pubDate>Thu, 23 Apr 2026 11:05:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>404 Media reports (alternate site): The FBI was able to forensically extract copies of incoming Signal messages from a defendant’s iPhone, even after the app was deleted, because copies of the...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Will fusion power get cheap? Don’t count on it.</title>
-    <link>https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/</link>
-    <guid>https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/</guid>
-    <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Fusion power could provide a steady, zero-emissions source of electricity in the future—if companies can get plants built and running. But a new study suggests that even if that future arrives, it...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors</title>
-    <link>https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html</link>
-    <guid>https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html</guid>
-    <pubDate>Thu, 23 Apr 2026 09:04:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper. &quot;The group wields a wide...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Elevating Austria: Google invests in its first data center in the Alps.</title>
-    <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/</link>
-    <guid>https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/</guid>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>Aerial image of the data center</description>
+    <description>Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Vercel Finds More Compromised Accounts in Context.ai-Linked Breach</title>
-    <link>https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html</link>
-    <guid>https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html</guid>
-    <pubDate>Thu, 23 Apr 2026 08:40:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Vercel on Wednesday revealed that it has identified an additional set of customer accounts that were compromised as part of a security incident that enabled unauthorized access to its internal...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages</title>
-    <link>https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html</link>
-    <guid>https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html</guid>
-    <pubDate>Thu, 23 Apr 2026 08:06:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device. The vulnerability, tracked as...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Honor’s new phones look like iPhones for Android</title>
-    <link>https://www.theverge.com/gadgets/917301/honors-new-phones-look-like-iphones-for-android</link>
-    <guid>https://www.theverge.com/gadgets/917301/honors-new-phones-look-like-iphones-for-android</guid>
-    <pubDate>Thu, 23 Apr 2026 08:00:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Honor has announced the 600 and 600 Pro, which it calls &quot;accessible flagships,&quot; and they look… familiar. Especially in that orange. The Pro makes the iPhone comparison especially obvious thanks to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>India’s app market is booming — but global platforms are capturing most of the gains</title>
-    <link>https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/</link>
-    <guid>https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/</guid>
-    <pubDate>Thu, 23 Apr 2026 04:38:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Non-gaming apps, led by streaming and AI, are driving growth, even as India&apos;s spending per user lags global peers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Iranian women Trump &amp;#8216;saved&amp;#8217; from execution are simultaneously real and AI-manipulated</title>
-    <link>https://www.theverge.com/policy/917180/trump-iran-ai-women-bita-hemmati</link>
-    <guid>https://www.theverge.com/policy/917180/trump-iran-ai-women-bita-hemmati</guid>
-    <pubDate>Thu, 23 Apr 2026 01:53:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>On Wednesday, President Donald Trump claimed to have secured the release of eight Iranian women condemned to execution for protesting the regime. Only the night before, he had posted on Truth...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
