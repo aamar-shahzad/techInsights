@@ -31,7 +31,7 @@
                     </a>
                 </div>
                 <div class="header-actions">
-                    <span class="updated">Updated April 26, 2026 at 20:57 UTC</span>
+                    <span class="updated">Updated April 27, 2026 at 04:00 UTC</span>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -75,15 +75,120 @@
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">3 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">4 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
-                        <a href="https://dev.to/pinggdevelop/how-to-setup-perfectly-bgfx-in-sdl2-linux-wayland-support-535b" target="_blank" rel="noopener noreferrer">
-                            HOW TO SETUP PERFECTLY BGFX IN SDL2 (LINUX WAYLAND SUPPORT)
+                        <a href="https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-6-multi-llm-providers-and-runtime-controls-187n" target="_blank" rel="noopener noreferrer">
+                            Deep Dive into Open Agent SDK (Part 6): Multi-LLM Providers and Runtime Controls
                         </a>
                     </h3>
                     
-                    <p class="story-description">in you CMakeLists define a auto driver: if (UNIX AND NOT APPLE) target_compile_definitions(KLIK PRIVATE SDL_VIDEO_DRIVER_X11 SDL_VIDEO_DRIVER_WAYLAND) elseif (WIN32)...</p>
+                    <p class="story-description">An Agent shouldn't be locked to a single LLM provider. Different tasks suit different models — simple questions use cheap models, complex reasoning uses expensive ones, and some scenarios even...</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">4 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-5-session-persistence-and-security-17dj" target="_blank" rel="noopener noreferrer">
+                            Deep Dive into Open Agent SDK (Part 5): Session Persistence and Security
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">An Agent is more than a one-shot Q&A tool. A truly useful Agent must do three things: remember context (where we left off), control permissions (which operations are allowed), and audit behavior...</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">5 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-4-multi-agent-collaboration-5374" target="_blank" rel="noopener noreferrer">
+                            Deep Dive into Open Agent SDK (Part 4): Multi-Agent Collaboration
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">A single Agent, no matter how powerful, is just one executor. Real development tasks are often multi-step and multi-role: someone explores the codebase, someone designs a plan, then someone writes...</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">5 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-3-mcp-integration-in-practice-5af3" target="_blank" rel="noopener noreferrer">
+                            Deep Dive into Open Agent SDK (Part 3): MCP Integration in Practice
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">The previous article looked at the SDK's 34 built-in tools — file read/write, Bash execution, code search — covering common development scenarios. But an Agent's capabilities can't rely solely on...</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">5 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-2-behind-the-34-built-in-tools-4chj" target="_blank" rel="noopener noreferrer">
+                            Deep Dive into Open Agent SDK (Part 2): Behind the 34 Built-in Tools
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">The previous article analyzed how the Agent Loop works, including one crucial step: "execute tools." When the LLM says "I need to call Bash," the SDK actually spawns a process to run the command....</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">5 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-1-agent-loop-internals-298a" target="_blank" rel="noopener noreferrer">
+                            Deep Dive into Open Agent SDK (Part 1): Agent Loop Internals
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">Most LLM wrapper libraries do three things: send a request, get a response, done. But a true Agent goes further — it decides whether to call tools, executes them, feeds the results back to the...</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">5 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/terryso/open-agent-sdk-swift-build-ai-agent-applications-with-native-swift-concurrency-kne" target="_blank" rel="noopener noreferrer">
+                            Open Agent SDK (Swift): Build AI Agent Applications with Native Swift Concurrency
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">If you're a Swift developer looking to integrate AI Agent capabilities into your macOS apps, the options are slim. Most Agent frameworks are built for Python or TypeScript, leaving the Swift...</p>
+                    
+                </article>
+                
+                <article class="story-card story-card--new">
+                    <div class="story-meta">
+                        <span class="story-source" data-source="Dev.to">Dev.to</span>
+                        <span class="story-date">6 mins ago <span class="badge-new">New</span></span>
+                    </div>
+                    <h3 class="story-title">
+                        <a href="https://dev.to/sreya-satheesh/dsa-step-by-step-45lc" target="_blank" rel="noopener noreferrer">
+                            DSA, step by step
+                        </a>
+                    </h3>
+                    
+                    <p class="story-description">👉 http://decoded-app.vercel.app/ I built this as a small way to make DSA feel less like memorizing patterns and more like understanding how problems are actually approached. Not just what the...</p>
                     
                 </article>
                 
@@ -93,132 +198,27 @@
                         <span class="story-date">9 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
-                        <a href="https://dev.to/jsamwrites/when-information-hits-a-wall-barriers-in-cellular-automata-3g32" target="_blank" rel="noopener noreferrer">
-                            When Information Hits a Wall: Barriers in Cellular Automata
+                        <a href="https://dev.to/highfadehq01/how-to-undo-a-git-commit-the-right-way-44po" target="_blank" rel="noopener noreferrer">
+                            How to Undo a Git Commit (The Right Way)
                         </a>
                     </h3>
                     
-                    <p class="story-description">TL;DR: Add one frozen cell to a cellular automaton and watch the entire pattern reshape itself. This post explores what happens when you introduce a single barrier into elementary CAs — and why it...</p>
+                    <p class="story-description">Searching "how to undo a git commit" returns 10 Stack Overflow answers with different commands and no explanation of which to use when. Here is the decision tree. Step 1: Did you push the commit?...</p>
                     
                 </article>
                 
                 <article class="story-card story-card--new">
                     <div class="story-meta">
                         <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">13 mins ago <span class="badge-new">New</span></span>
+                        <span class="story-date">10 mins ago <span class="badge-new">New</span></span>
                     </div>
                     <h3 class="story-title">
-                        <a href="https://dev.to/gabrielanhaia/time-series-document-or-relational-the-5-question-test-every-new-project-needs-4ao6" target="_blank" rel="noopener noreferrer">
-                            Time-Series, Document, or Relational? The 5-Question Test Every New Project Needs
+                        <a href="https://dev.to/vineetnegi0101/i-built-a-journaling-app-where-the-ai-refuses-to-talk-on-sundays-day-89-of-30-2ohn" target="_blank" rel="noopener noreferrer">
+                            I built a journaling app where the AI refuses to talk on Sundays. Day 8/9 of 30.
                         </a>
                     </h3>
                     
-                    <p class="story-description">Book: Database Playbook My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Picture the IoT telemetry team that...</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">17 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/thisisryanswift/how-are-you-managing-git-gh-access-with-agents-1gel" target="_blank" rel="noopener noreferrer">
-                            How are you managing git & gh access with Agents?
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">TLDR - I want to steal your Git workflows for agents. I talk about some of my config and setup recently, but I'm still not fully happy with where I'm at. My setup was treating "AI Agent" and "Me"...</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">18 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/conor_61d358cde152bb5800a/agent-script-salesforces-open-language-for-deterministic-agent-orchestration-2h1o" target="_blank" rel="noopener noreferrer">
-                            Agent Script: Salesforce's Open Language for Deterministic Agent Orchestration
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">Salesforce open-sourced Agent Script at TDX 2026, and it solves one of the most frustrating problems in production Agentforce deployments: you can't tell an LLM "always do step A before step B,...</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">21 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/gabrielanhaia/why-every-rag-company-is-quietly-building-a-graph-layer-in-2026-70p" target="_blank" rel="noopener noreferrer">
-                            Why Every RAG Company Is Quietly Building a Graph Layer in 2026
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">Book: RAG Pocket Guide Also by me: Database Playbook My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You ship...</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">21 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/piiiico/the-anthropic-sdk-looks-safe-two-of-its-transitive-dependencies-are-not-4l13" target="_blank" rel="noopener noreferrer">
-                            The Anthropic SDK Looks Safe. Two of Its Transitive Dependencies Are Not.
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">The Anthropic SDK Looks Safe. Two of Its Transitive Dependencies Are Not. Sole maintainer. 10M+ weekly downloads. No release in over a year. Run a standard supply chain audit on @anthropic-ai/sdk....</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">21 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/gabrielanhaia/nvidia-at-5t-the-build-vs-buy-decision-just-shifted-71l" target="_blank" rel="noopener noreferrer">
-                            NVIDIA at $5T: The Build-vs-Buy Decision Just Shifted
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">Book: AI Agents Pocket Guide Also by me: Database Playbook My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub On...</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">21 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/karenpayneoregon/display-project-attribute-c-319d" target="_blank" rel="noopener noreferrer">
-                            Display project Attribute (C#)
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">Introduction Learn how to read project properties stored in a C# project file. By storing property values in the project file rather than in code or appsettings.json. 💡 No tampering once pushed to...</p>
-                    
-                </article>
-                
-                <article class="story-card story-card--new">
-                    <div class="story-meta">
-                        <span class="story-source" data-source="Dev.to">Dev.to</span>
-                        <span class="story-date">22 mins ago <span class="badge-new">New</span></span>
-                    </div>
-                    <h3 class="story-title">
-                        <a href="https://dev.to/bobrenze/how-we-verify-215-ai-deliverables-without-losing-our-minds-e2d" target="_blank" rel="noopener noreferrer">
-                            How We Verify 215+ AI Deliverables Without Losing Our Minds
-                        </a>
-                    </h3>
-                    
-                    <p class="story-description">The 5-point protocol that turned our internal quality checks into a sellable service. Bob (First Officer, BobRenze Crew) — 12 min read The Verification Gap Nobody Talks About Last month I watched...</p>
+                    <p class="story-description">Day 8 and 9 of building Evengood — a 60-second journaling app — for the Build with MeDo $50K hackathon. This one took two days because I went the wrong way first. The trap I almost fell into By...</p>
                     
                 </article>
                 

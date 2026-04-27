@@ -5,96 +5,96 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 26 Apr 2026 20:57:48 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Apr 2026 04:00:15 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>HOW TO SETUP PERFECTLY BGFX IN SDL2 (LINUX WAYLAND SUPPORT)</title>
-    <link>https://dev.to/pinggdevelop/how-to-setup-perfectly-bgfx-in-sdl2-linux-wayland-support-535b</link>
-    <guid>https://dev.to/pinggdevelop/how-to-setup-perfectly-bgfx-in-sdl2-linux-wayland-support-535b</guid>
-    <pubDate>Sun, 26 Apr 2026 20:54:33 +0000</pubDate>
+    <title>Deep Dive into Open Agent SDK (Part 6): Multi-LLM Providers and Runtime Controls</title>
+    <link>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-6-multi-llm-providers-and-runtime-controls-187n</link>
+    <guid>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-6-multi-llm-providers-and-runtime-controls-187n</guid>
+    <pubDate>Mon, 27 Apr 2026 03:55:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>in you CMakeLists define a auto driver: if (UNIX AND NOT APPLE) target_compile_definitions(KLIK PRIVATE SDL_VIDEO_DRIVER_X11 SDL_VIDEO_DRIVER_WAYLAND) elseif (WIN32)...</description>
+    <description>An Agent shouldn&apos;t be locked to a single LLM provider. Different tasks suit different models — simple questions use cheap models, complex reasoning uses expensive ones, and some scenarios even...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When Information Hits a Wall: Barriers in Cellular Automata</title>
-    <link>https://dev.to/jsamwrites/when-information-hits-a-wall-barriers-in-cellular-automata-3g32</link>
-    <guid>https://dev.to/jsamwrites/when-information-hits-a-wall-barriers-in-cellular-automata-3g32</guid>
-    <pubDate>Sun, 26 Apr 2026 20:48:10 +0000</pubDate>
+    <title>Deep Dive into Open Agent SDK (Part 5): Session Persistence and Security</title>
+    <link>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-5-session-persistence-and-security-17dj</link>
+    <guid>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-5-session-persistence-and-security-17dj</guid>
+    <pubDate>Mon, 27 Apr 2026 03:55:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR: Add one frozen cell to a cellular automaton and watch the entire pattern reshape itself. This post explores what happens when you introduce a single barrier into elementary CAs — and why it...</description>
+    <description>An Agent is more than a one-shot Q&amp;A tool. A truly useful Agent must do three things: remember context (where we left off), control permissions (which operations are allowed), and audit behavior...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Time-Series, Document, or Relational? The 5-Question Test Every New Project Needs</title>
-    <link>https://dev.to/gabrielanhaia/time-series-document-or-relational-the-5-question-test-every-new-project-needs-4ao6</link>
-    <guid>https://dev.to/gabrielanhaia/time-series-document-or-relational-the-5-question-test-every-new-project-needs-4ao6</guid>
-    <pubDate>Sun, 26 Apr 2026 20:44:16 +0000</pubDate>
+    <title>Deep Dive into Open Agent SDK (Part 4): Multi-Agent Collaboration</title>
+    <link>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-4-multi-agent-collaboration-5374</link>
+    <guid>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-4-multi-agent-collaboration-5374</guid>
+    <pubDate>Mon, 27 Apr 2026 03:54:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Book: Database Playbook My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Picture the IoT telemetry team that...</description>
+    <description>A single Agent, no matter how powerful, is just one executor. Real development tasks are often multi-step and multi-role: someone explores the codebase, someone designs a plan, then someone writes...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How are you managing git &amp; gh access with Agents?</title>
-    <link>https://dev.to/thisisryanswift/how-are-you-managing-git-gh-access-with-agents-1gel</link>
-    <guid>https://dev.to/thisisryanswift/how-are-you-managing-git-gh-access-with-agents-1gel</guid>
-    <pubDate>Sun, 26 Apr 2026 20:40:27 +0000</pubDate>
+    <title>Deep Dive into Open Agent SDK (Part 3): MCP Integration in Practice</title>
+    <link>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-3-mcp-integration-in-practice-5af3</link>
+    <guid>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-3-mcp-integration-in-practice-5af3</guid>
+    <pubDate>Mon, 27 Apr 2026 03:54:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TLDR - I want to steal your Git workflows for agents. I talk about some of my config and setup recently, but I&apos;m still not fully happy with where I&apos;m at. My setup was treating &quot;AI Agent&quot; and &quot;Me&quot;...</description>
+    <description>The previous article looked at the SDK&apos;s 34 built-in tools — file read/write, Bash execution, code search — covering common development scenarios. But an Agent&apos;s capabilities can&apos;t rely solely on...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Agent Script: Salesforce&apos;s Open Language for Deterministic Agent Orchestration</title>
-    <link>https://dev.to/conor_61d358cde152bb5800a/agent-script-salesforces-open-language-for-deterministic-agent-orchestration-2h1o</link>
-    <guid>https://dev.to/conor_61d358cde152bb5800a/agent-script-salesforces-open-language-for-deterministic-agent-orchestration-2h1o</guid>
-    <pubDate>Sun, 26 Apr 2026 20:39:35 +0000</pubDate>
+    <title>Deep Dive into Open Agent SDK (Part 2): Behind the 34 Built-in Tools</title>
+    <link>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-2-behind-the-34-built-in-tools-4chj</link>
+    <guid>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-2-behind-the-34-built-in-tools-4chj</guid>
+    <pubDate>Mon, 27 Apr 2026 03:54:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Salesforce open-sourced Agent Script at TDX 2026, and it solves one of the most frustrating problems in production Agentforce deployments: you can&apos;t tell an LLM &quot;always do step A before step B,...</description>
+    <description>The previous article analyzed how the Agent Loop works, including one crucial step: &quot;execute tools.&quot; When the LLM says &quot;I need to call Bash,&quot; the SDK actually spawns a process to run the command....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Every RAG Company Is Quietly Building a Graph Layer in 2026</title>
-    <link>https://dev.to/gabrielanhaia/why-every-rag-company-is-quietly-building-a-graph-layer-in-2026-70p</link>
-    <guid>https://dev.to/gabrielanhaia/why-every-rag-company-is-quietly-building-a-graph-layer-in-2026-70p</guid>
-    <pubDate>Sun, 26 Apr 2026 20:36:37 +0000</pubDate>
+    <title>Deep Dive into Open Agent SDK (Part 1): Agent Loop Internals</title>
+    <link>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-1-agent-loop-internals-298a</link>
+    <guid>https://dev.to/terryso/deep-dive-into-open-agent-sdk-part-1-agent-loop-internals-298a</guid>
+    <pubDate>Mon, 27 Apr 2026 03:54:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Book: RAG Pocket Guide Also by me: Database Playbook My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You ship...</description>
+    <description>Most LLM wrapper libraries do three things: send a request, get a response, done. But a true Agent goes further — it decides whether to call tools, executes them, feeds the results back to the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Anthropic SDK Looks Safe. Two of Its Transitive Dependencies Are Not.</title>
-    <link>https://dev.to/piiiico/the-anthropic-sdk-looks-safe-two-of-its-transitive-dependencies-are-not-4l13</link>
-    <guid>https://dev.to/piiiico/the-anthropic-sdk-looks-safe-two-of-its-transitive-dependencies-are-not-4l13</guid>
-    <pubDate>Sun, 26 Apr 2026 20:36:28 +0000</pubDate>
+    <title>Open Agent SDK (Swift): Build AI Agent Applications with Native Swift Concurrency</title>
+    <link>https://dev.to/terryso/open-agent-sdk-swift-build-ai-agent-applications-with-native-swift-concurrency-kne</link>
+    <guid>https://dev.to/terryso/open-agent-sdk-swift-build-ai-agent-applications-with-native-swift-concurrency-kne</guid>
+    <pubDate>Mon, 27 Apr 2026 03:54:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Anthropic SDK Looks Safe. Two of Its Transitive Dependencies Are Not. Sole maintainer. 10M+ weekly downloads. No release in over a year. Run a standard supply chain audit on @anthropic-ai/sdk....</description>
+    <description>If you&apos;re a Swift developer looking to integrate AI Agent capabilities into your macOS apps, the options are slim. Most Agent frameworks are built for Python or TypeScript, leaving the Swift...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>NVIDIA at $5T: The Build-vs-Buy Decision Just Shifted</title>
-    <link>https://dev.to/gabrielanhaia/nvidia-at-5t-the-build-vs-buy-decision-just-shifted-71l</link>
-    <guid>https://dev.to/gabrielanhaia/nvidia-at-5t-the-build-vs-buy-decision-just-shifted-71l</guid>
-    <pubDate>Sun, 26 Apr 2026 20:36:02 +0000</pubDate>
+    <title>DSA, step by step</title>
+    <link>https://dev.to/sreya-satheesh/dsa-step-by-step-45lc</link>
+    <guid>https://dev.to/sreya-satheesh/dsa-step-by-step-45lc</guid>
+    <pubDate>Mon, 27 Apr 2026 03:53:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Book: AI Agents Pocket Guide Also by me: Database Playbook My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub On...</description>
+    <description>👉 http://decoded-app.vercel.app/ I built this as a small way to make DSA feel less like memorizing patterns and more like understanding how problems are actually approached. Not just what the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Display project Attribute (C#)</title>
-    <link>https://dev.to/karenpayneoregon/display-project-attribute-c-319d</link>
-    <guid>https://dev.to/karenpayneoregon/display-project-attribute-c-319d</guid>
-    <pubDate>Sun, 26 Apr 2026 20:35:47 +0000</pubDate>
+    <title>How to Undo a Git Commit (The Right Way)</title>
+    <link>https://dev.to/highfadehq01/how-to-undo-a-git-commit-the-right-way-44po</link>
+    <guid>https://dev.to/highfadehq01/how-to-undo-a-git-commit-the-right-way-44po</guid>
+    <pubDate>Mon, 27 Apr 2026 03:50:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Learn how to read project properties stored in a C# project file. By storing property values in the project file rather than in code or appsettings.json. 💡 No tampering once pushed to...</description>
+    <description>Searching &quot;how to undo a git commit&quot; returns 10 Stack Overflow answers with different commands and no explanation of which to use when. Here is the decision tree. Step 1: Did you push the commit?...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How We Verify 215+ AI Deliverables Without Losing Our Minds</title>
-    <link>https://dev.to/bobrenze/how-we-verify-215-ai-deliverables-without-losing-our-minds-e2d</link>
-    <guid>https://dev.to/bobrenze/how-we-verify-215-ai-deliverables-without-losing-our-minds-e2d</guid>
-    <pubDate>Sun, 26 Apr 2026 20:35:26 +0000</pubDate>
+    <title>I built a journaling app where the AI refuses to talk on Sundays. Day 8/9 of 30.</title>
+    <link>https://dev.to/vineetnegi0101/i-built-a-journaling-app-where-the-ai-refuses-to-talk-on-sundays-day-89-of-30-2ohn</link>
+    <guid>https://dev.to/vineetnegi0101/i-built-a-journaling-app-where-the-ai-refuses-to-talk-on-sundays-day-89-of-30-2ohn</guid>
+    <pubDate>Mon, 27 Apr 2026 03:49:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The 5-point protocol that turned our internal quality checks into a sellable service. Bob (First Officer, BobRenze Crew) — 12 min read The Verification Gap Nobody Talks About Last month I watched...</description>
+    <description>Day 8 and 9 of building Evengood — a 60-second journaling app — for the Build with MeDo $50K hackathon. This one took two days because I went the wrong way first. The trap I almost fell into By...</description>
     <category>Developer Tools</category>
   </item>
   <item>
@@ -114,6 +114,15 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Within hours of an armed gunman&apos;s attempt to enter the White House Correspondents Dinner, attended by top administration officials and hundreds of journalists, President Donald Trump did what he...</description>
     <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Our principles</title>
+    <link>https://openai.com/index/our-principles</link>
+    <guid>https://openai.com/index/our-principles</guid>
+    <pubDate>Sun, 26 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Tomora’s Come Closer is an ecstatic love letter to 90s dance music</title>
@@ -267,15 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Ace can read the trajectory of a ball, adjust the racket angle, and respond with strokes that keep the exchange alive with real players.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software</title>
-    <link>https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html</link>
-    <guid>https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html</guid>
-    <pubDate>Sat, 25 Apr 2026 09:26:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran&apos;s nuclear program by destroying uranium enrichment...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
