@@ -5,276 +5,276 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 28 Apr 2026 10:25:27 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 28 Apr 2026 17:56:16 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Password Security Explained: Why Length Beats Complexity (and How Entropy Works)</title>
-    <link>https://dev.to/snappy_tools/password-security-explained-why-length-beats-complexity-and-how-entropy-works-16j7</link>
-    <guid>https://dev.to/snappy_tools/password-security-explained-why-length-beats-complexity-and-how-entropy-works-16j7</guid>
-    <pubDate>Tue, 28 Apr 2026 10:21:11 +0000</pubDate>
+    <title>I Built Skills That Let AI Agents Query 14 European Government Registries</title>
+    <link>https://dev.to/ucptools/i-built-skills-that-let-ai-agents-query-14-european-government-registries-155</link>
+    <guid>https://dev.to/ucptools/i-built-skills-that-let-ai-agents-query-14-european-government-registries-155</guid>
+    <pubDate>Tue, 28 Apr 2026 17:50:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most password advice is wrong — or at least, not based on what actually makes passwords hard to crack. Rules like &quot;use a capital letter, a number, and a symbol&quot; produce passwords like P@ssword1,...</description>
+    <description>TL;DR I built 14 Apify actors that scrape official government registries across Poland, Spain, Austria, and France To make them accessible from AI coding agents, I packaged them as 6 open-source...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Character Limits That Matter: Twitter/X, LinkedIn, Meta Descriptions, and More</title>
-    <link>https://dev.to/snappy_tools/character-limits-that-matter-twitterx-linkedin-meta-descriptions-and-more-10ah</link>
-    <guid>https://dev.to/snappy_tools/character-limits-that-matter-twitterx-linkedin-meta-descriptions-and-more-10ah</guid>
-    <pubDate>Tue, 28 Apr 2026 10:20:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Character limits are everywhere, and they&apos;re rarely intuitive. Twitter is 280, but tweets with images feel different. LinkedIn gives you 3,000 characters for posts, but only 220 display before...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>arrayJoin in ClickHouse: Why Your Rows Are Duplicating (and How to Control It)</title>
-    <link>https://dev.to/mohhddhassan/arrayjoin-in-clickhouse-why-your-rows-are-duplicating-and-how-to-control-it-5862</link>
-    <guid>https://dev.to/mohhddhassan/arrayjoin-in-clickhouse-why-your-rows-are-duplicating-and-how-to-control-it-5862</guid>
-    <pubDate>Tue, 28 Apr 2026 10:20:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When working with arrays in ClickHouse, arrayJoin feels straightforward. Until your query suddenly returns far more rows than expected. The Use Case Let’s say you have a table like this: CREATE...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Trim and Cut Video with FFmpeg (CLI + API Guide)</title>
-    <link>https://dev.to/javidjamae/how-to-trim-and-cut-video-with-ffmpeg-cli-api-guide-86e</link>
-    <guid>https://dev.to/javidjamae/how-to-trim-and-cut-video-with-ffmpeg-cli-api-guide-86e</guid>
-    <pubDate>Tue, 28 Apr 2026 10:13:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at ffmpeg-micro.com. You need to extract a 30-second clip from a 2-hour video. Or trim the first 5 seconds of dead air. Or cut everything after the outro. FFmpeg handles all...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Python Type Hints That Actually Catch Bugs (Not Just Satisfy mypy)</title>
-    <link>https://dev.to/peytongreen_dev/python-type-hints-that-actually-catch-bugs-not-just-satisfy-mypy-2217</link>
-    <guid>https://dev.to/peytongreen_dev/python-type-hints-that-actually-catch-bugs-not-just-satisfy-mypy-2217</guid>
-    <pubDate>Tue, 28 Apr 2026 10:13:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most type hint guides teach you syntax. This one is about which annotations actually prevent bugs. After two years of adding types to codebases that didn&apos;t have them — and watching which...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>SQL Subqueries vs CTEs: What I Wish Someone Told Me When I Was Learning SQL</title>
-    <link>https://dev.to/leah_kivuti_be52fd03ba0f5/sql-subqueries-vs-ctes-what-i-wish-someone-told-me-when-i-was-learning-sql-19j9</link>
-    <guid>https://dev.to/leah_kivuti_be52fd03ba0f5/sql-subqueries-vs-ctes-what-i-wish-someone-told-me-when-i-was-learning-sql-19j9</guid>
-    <pubDate>Tue, 28 Apr 2026 10:11:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you first start learning SQL, everything feels simple. You write basic SELECT queries, maybe add a WHERE, and life is good. Then suddenly you meet things like subqueries and CTEs, and it...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>AI didn&apos;t save $500k. A test suite did.</title>
-    <link>https://dev.to/adioof/ai-didnt-save-500k-a-test-suite-did-26e</link>
-    <guid>https://dev.to/adioof/ai-didnt-save-500k-a-test-suite-did-26e</guid>
-    <pubDate>Tue, 28 Apr 2026 10:11:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Behind every successful AI rewrite story, there is an unsung hero. And it&apos;s never the AI. Chances are you&apos;ve already come across the Reco story. Their AI tool rewrote JSONata from JavaScript to Go...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>🔐 From Passwords to Private Keys: Understanding Solana Identity the Web2 Way</title>
-    <link>https://dev.to/enigma06702/from-passwords-to-private-keys-understanding-solana-identity-the-web2-way-32lg</link>
-    <guid>https://dev.to/enigma06702/from-passwords-to-private-keys-understanding-solana-identity-the-web2-way-32lg</guid>
-    <pubDate>Tue, 28 Apr 2026 10:07:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>📦 Account = Your Database Record (Owned by You) In Web2: Your data lives in a database row (e.g., user profile, balance) The company owns and controls that database In Solana: An account is a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Map and Set in JavaScript</title>
-    <link>https://dev.to/anoop-rajoriya/map-and-set-in-javascript-4kc</link>
-    <guid>https://dev.to/anoop-rajoriya/map-and-set-in-javascript-4kc</guid>
-    <pubDate>Tue, 28 Apr 2026 10:07:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Javascript comes from a long days where we manage everything with just objects and arrays, in ES6 a map and set data structures are introduced which provide more specialized ways to handle data...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>CLAUDE.md for Node.js: 6 Rules That Stop AI From Generating Bad Backend Code</title>
-    <link>https://dev.to/olivia_craft/claudemd-for-nodejs-6-rules-that-stop-ai-from-generating-bad-backend-code-ad3</link>
-    <guid>https://dev.to/olivia_craft/claudemd-for-nodejs-6-rules-that-stop-ai-from-generating-bad-backend-code-ad3</guid>
-    <pubDate>Tue, 28 Apr 2026 10:03:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>CLAUDE.md for Node.js: 6 Rules That Stop AI From Generating Bad Backend Code You ask Claude to &quot;add a POST /users endpoint&quot; and you get back: A .then().catch() chain mixed with await in the same...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>It’s a busy time for sci-fi, but don’t miss Aphelion</title>
-    <link>https://www.theverge.com/entertainment/919379/aphelion-review-sci-fi-game-steam-ps5-xbox</link>
-    <guid>https://www.theverge.com/entertainment/919379/aphelion-review-sci-fi-game-steam-ps5-xbox</guid>
-    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Logitech made a analog and mechanical keyboard in one</title>
+    <link>https://www.theverge.com/news/919517/logitech-g512x-gaming-keyboard-hall-effect-tmr-mechanical-swap</link>
+    <guid>https://www.theverge.com/news/919517/logitech-g512x-gaming-keyboard-hall-effect-tmr-mechanical-swap</guid>
+    <pubDate>Tue, 28 Apr 2026 17:50:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The last few weeks have bordered on overwhelming for science fiction fans. While Project Hail Mary is dominating the box office, For All Mankind is currently in the midst of its penultimate...</description>
+    <description>Each type of keyboard switch comes with perks and downsides. People who are used to typing on mechanical switches might dislike how quiet and squishy analog switches are by comparison. Regardless...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>The Bloomberg Terminal Is Getting an AI Makeover, Like It or Not</title>
-    <link>https://www.wired.com/story/the-bloomberg-terminal-is-getting-an-ai-makeover-like-it-or-not/</link>
-    <guid>https://www.wired.com/story/the-bloomberg-terminal-is-getting-an-ai-makeover-like-it-or-not/</guid>
-    <pubDate>Tue, 28 Apr 2026 08:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>WIRED spoke with Bloomberg&apos;s chief technology officer about the big, chatbot-style changes coming to the iconic platform for traders.</description>
+    <title>Programming Isn’t About Syntax: It’s About Understanding the Basics</title>
+    <link>https://dev.to/black_hat/programming-isnt-about-syntax-its-about-understanding-the-basics-862</link>
+    <guid>https://dev.to/black_hat/programming-isnt-about-syntax-its-about-understanding-the-basics-862</guid>
+    <pubDate>Tue, 28 Apr 2026 17:49:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I’ve been thinking about why programming feels harder than it should when you’re starting out. I think a big part of it is how it’s taught. You jump straight into syntax, language rules, tools and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>OpenTelemetry in Production: Traces, Context, and What Actually Matters</title>
+    <link>https://dev.to/refaatalktifan/opentelemetry-in-production-traces-context-and-what-actually-matters-20f5</link>
+    <guid>https://dev.to/refaatalktifan/opentelemetry-in-production-traces-context-and-what-actually-matters-20f5</guid>
+    <pubDate>Tue, 28 Apr 2026 17:48:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Why OpenTelemetry Won Three years ago, the observability landscape was fragmented. Jaeger for tracing, Prometheus for metrics, Fluentd for logs, each with its own SDK, its own protocol, its own...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</title>
+    <link>https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit</link>
+    <guid>https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit</guid>
+    <pubDate>Tue, 28 Apr 2026 17:45:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sam Altman and Elon Musk are set to face off in a high-stakes trial that could alter the future of tech’s leading AI startup, OpenAI. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Writing Node.js Addons with .NET Native AOT: A Complete Guide</title>
+    <link>https://dev.to/vikrant_bagal_afae3e25ca7/writing-nodejs-addons-with-net-native-aot-a-complete-guide-3m6l</link>
+    <guid>https://dev.to/vikrant_bagal_afae3e25ca7/writing-nodejs-addons-with-net-native-aot-a-complete-guide-3m6l</guid>
+    <pubDate>Tue, 28 Apr 2026 17:40:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Ever wished you could write Node.js native addons in C# instead of C++? .NET Native AOT makes it possible—and practical. The Problem with Traditional Node.js Addons If you&apos;ve ever built a Node.js...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Retrospective: 2 Years of DevSecOps at Stripe – Reducing Vulnerabilities by 70%</title>
+    <link>https://dev.to/johalputt/retrospective-2-years-of-devsecops-at-stripe-reducing-vulnerabilities-by-70-489j</link>
+    <guid>https://dev.to/johalputt/retrospective-2-years-of-devsecops-at-stripe-reducing-vulnerabilities-by-70-489j</guid>
+    <pubDate>Tue, 28 Apr 2026 17:39:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Two years ago, Stripe’s security team was drowning: 1,200 open vulnerability tickets, 42% of production deployments blocked by manual security reviews, and a mean time to remediate (MTTR) for...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Effortlessness Is a Myth</title>
+    <link>https://dev.to/lewiskori/effortlessness-is-a-myth-2lo7</link>
+    <guid>https://dev.to/lewiskori/effortlessness-is-a-myth-2lo7</guid>
+    <pubDate>Tue, 28 Apr 2026 17:39:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I was listening to an episode of Founders where they discussed Roger Federer and one line stayed with me: Effortlessness is a myth. Perfection is a myth. That landed hard. From the outside, we...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign</title>
+    <link>https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html</link>
+    <guid>https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html</guid>
+    <pubDate>Tue, 28 Apr 2026 17:39:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). &quot;The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Now Available: Deconstructive Software Ramblings</title>
+    <link>https://dev.to/solidi/now-available-deconstructive-software-ramblings-4di3</link>
+    <guid>https://dev.to/solidi/now-available-deconstructive-software-ramblings-4di3</guid>
+    <pubDate>Tue, 28 Apr 2026 17:38:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>My book, DSR, is now available on Amazon in soft or hardcover. DECONSTRUCTIVE SOFTWARE RAMBLINGS, Essays from the Mind of an Engineering Manager, explores this author&apos;s thoughts and feelings about...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Replaced 2,000 Lines of Go Mocks With 200 Lines of Fakes</title>
+    <link>https://dev.to/gabrielanhaia/i-replaced-2000-lines-of-go-mocks-with-200-lines-of-fakes-1jak</link>
+    <guid>https://dev.to/gabrielanhaia/i-replaced-2000-lines-of-go-mocks-with-200-lines-of-fakes-1jak</guid>
+    <pubDate>Tue, 28 Apr 2026 17:36:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Book: Hexagonal Architecture in Go Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your gRPC Protobuf Types Don&apos;t Belong in Your Domain Layer</title>
+    <link>https://dev.to/gabrielanhaia/your-grpc-protobuf-types-dont-belong-in-your-domain-layer-494g</link>
+    <guid>https://dev.to/gabrielanhaia/your-grpc-protobuf-types-dont-belong-in-your-domain-layer-494g</guid>
+    <pubDate>Tue, 28 Apr 2026 17:36:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Book: Hexagonal Architecture in Go Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Adaptive Rate Limiting with Redis and Lua</title>
+    <link>https://dev.to/debjit450/adaptive-rate-limiting-with-redis-and-lua-32fe</link>
+    <guid>https://dev.to/debjit450/adaptive-rate-limiting-with-redis-and-lua-32fe</guid>
+    <pubDate>Tue, 28 Apr 2026 17:36:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Making Rate Limiting Correct Under Concurrency Most rate limiting tutorials stop at the single-instance case. That’s fine for learning, but it breaks quickly in production. Once you have multiple...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apple TV’s new horror series is scarier because it’s also hilarious</title>
+    <link>https://www.theverge.com/entertainment/919634/widows-bay-apple-tv-cast-interview</link>
+    <guid>https://www.theverge.com/entertainment/919634/widows-bay-apple-tv-cast-interview</guid>
+    <pubDate>Tue, 28 Apr 2026 17:00:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Kate O&apos;Flynn views comedy and horror as &quot;kind of the same thing.&quot; Both are at their best when they surprise - a laugh or a scare that comes out of nowhere hits the hardest. That&apos;s why, for the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The latest Kindle Paperwhite drops to its best price all year</title>
+    <link>https://www.theverge.com/gadgets/919644/kindle-paperwhite-marathon-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/919644/kindle-paperwhite-marathon-deal-sale</guid>
+    <pubDate>Tue, 28 Apr 2026 16:59:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Mother’s Day is coming up, and if you’re looking for a present, we recently published our gift guide with a range of ideas. One of those recommendations is the $109.99 entry-level Kindle, but...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Claude can now plug directly into Photoshop, Blender, and Ableton</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender</guid>
+    <pubDate>Tue, 28 Apr 2026 16:49:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe&apos;s Creative Cloud apps, Affinity, Blender, Ableton, Autodesk,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Lovable launches its vibe-coding app on iOS and Android</title>
+    <link>https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/</link>
+    <guid>https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/</guid>
+    <pubDate>Tue, 28 Apr 2026 16:09:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The app allows developers to vibe code web apps and websites on the go.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks</title>
-    <link>https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html</link>
-    <guid>https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html</guid>
-    <pubDate>Tue, 28 Apr 2026 07:57:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy. Xu Zewei, 34, was arrested in July 2025 by Italian authorities for his...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Microsoft Office can now be controlled with Logitech’s MX Creative Console</title>
-    <link>https://www.theverge.com/tech/919165/logitech-mx-ecosystem-creative-console-productivity-plugins-microsoft-office-slack-notion</link>
-    <guid>https://www.theverge.com/tech/919165/logitech-mx-ecosystem-creative-console-productivity-plugins-microsoft-office-slack-notion</guid>
-    <pubDate>Tue, 28 Apr 2026 07:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Logitech has announced a new suite of Productivity Plugins for its entire MX line of accessories, including its Stream Deck alternative, the MX Creative Console. Since the console launched in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover</title>
-    <link>https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html</link>
-    <guid>https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html</guid>
-    <pubDate>Tue, 28 Apr 2026 06:37:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202</title>
-    <link>https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html</link>
-    <guid>https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html</guid>
-    <pubDate>Tue, 28 Apr 2026 05:50:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Jury selection in Musk v. Altman: ‘People don’t like him’</title>
-    <link>https://www.theverge.com/tech/919469/elon-musk-dont-like</link>
-    <guid>https://www.theverge.com/tech/919469/elon-musk-dont-like</guid>
-    <pubDate>Tue, 28 Apr 2026 03:39:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>On Monday, the courtroom battle between Elon Musk and Sam Altman over alleged broken promises at OpenAI started, as usual, with jury selection. The only tricky part? A lot of the prospective...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Some Musk v. Altman Jurors Don&apos;t Like Elon Musk</title>
-    <link>https://www.wired.com/story/some-musk-v-altman-jurors-dont-like-elon-musk/</link>
-    <guid>https://www.wired.com/story/some-musk-v-altman-jurors-dont-like-elon-musk/</guid>
-    <pubDate>Tue, 28 Apr 2026 00:39:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Musk’s lawsuit challenges OpenAI’s evolution under Sam Altman. But during jury selection, several potential jurors voiced negative views of Musk himself.</description>
+    <title>Celebrating 20 years of Google Translate: Fun facts, tips and new features to try</title>
+    <link>https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/</link>
+    <guid>https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/</guid>
+    <pubDate>Tue, 28 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake topped by candles with the numeral 20</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI</title>
-    <link>https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging</link>
-    <guid>https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging</guid>
-    <pubDate>Tue, 28 Apr 2026 00:28:13 +0000</pubDate>
+    <title>Google Translate can now help you with pronunciation</title>
+    <link>https://www.theverge.com/tech/919510/google-translate-pronunciation-practice-availability</link>
+    <guid>https://www.theverge.com/tech/919510/google-translate-pronunciation-practice-availability</guid>
+    <pubDate>Tue, 28 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google has launched a new AI-powered feature for Translate that can help you correct and practice your enunciation when learning a new language. The &quot;pronunciation practice&quot; tool analyzes your...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Former FCC staffers agree: Brendan Carr needs to be stopped</title>
+    <link>https://www.theverge.com/policy/919536/former-fcc-officials-brendan-car-news-distortion-policy</link>
+    <guid>https://www.theverge.com/policy/919536/former-fcc-officials-brendan-car-news-distortion-policy</guid>
+    <pubDate>Tue, 28 Apr 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Several former Federal Communications Commissioners and staffers across parties are urging a federal appeals court to force a vote on the FCC&apos;s news distortion policy, which they argue should be...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents</title>
+    <link>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</link>
+    <guid>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</guid>
+    <pubDate>Tue, 28 Apr 2026 15:58:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
   </item>
   <item>
-    <title>Google is testing AI chatbot search for YouTube</title>
-    <link>https://www.theverge.com/streaming/919441/google-ask-youtube-ai-chatbot-search</link>
-    <guid>https://www.theverge.com/streaming/919441/google-ask-youtube-ai-chatbot-search</guid>
-    <pubDate>Tue, 28 Apr 2026 00:01:54 +0000</pubDate>
+    <title>Amazon’s color screen Kindles are finally getting a system-wide dark mode</title>
+    <link>https://www.theverge.com/tech/919597/amazon-kindle-colorsoft-scribe-dark-mode-system-wide-software-update</link>
+    <guid>https://www.theverge.com/tech/919597/amazon-kindle-colorsoft-scribe-dark-mode-system-wide-software-update</guid>
+    <pubDate>Tue, 28 Apr 2026 15:46:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google is trying out an AI Mode-like search experience for YouTube. The company is now testing &quot;a new way to search on YouTube that feels more like a conversation,&quot; with results pulling in things...</description>
+    <description>Most modern Kindle devices with a black and white E Ink screen offer an alternate inverted dark mode with white text against a black background across their entire user interface. Today Amazon has...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Elon Musk and Sam Altman are going to court over OpenAI’s future</title>
-    <link>https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/</link>
-    <guid>https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/</guid>
-    <pubDate>Mon, 27 Apr 2026 22:52:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences. Ahead of OpenAI’s highly...</description>
+    <title>DJI’s new Mic Mini 2 adds colorful covers to help them blend in</title>
+    <link>https://www.theverge.com/tech/919553/dji-mic-mini-2-wireless-microphone-transmitter-magnetic-cover</link>
+    <guid>https://www.theverge.com/tech/919553/dji-mic-mini-2-wireless-microphone-transmitter-magnetic-cover</guid>
+    <pubDate>Tue, 28 Apr 2026 15:04:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Following the launch of the Osmo Pocket 4 earlier this month, DJI has announced a new version of its smallest wireless microphone system. The DJI Mic Mini 2 doesn&apos;t bring a lot of upgrades over...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Musk and Altman go to court</title>
+    <link>https://www.theverge.com/podcast/919534/musk-openai-trial-vergecast</link>
+    <guid>https://www.theverge.com/podcast/919534/musk-openai-trial-vergecast</guid>
+    <pubDate>Tue, 28 Apr 2026 14:47:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The trial between Elon Musk and OpenAI is officially upon us. And it is going to be a mess. As the two sides fight over the early days of AI, who deserves credit and cash for what, and more, we&apos;re...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi</title>
+    <link>https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html</link>
+    <guid>https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html</guid>
+    <pubDate>Tue, 28 Apr 2026 14:01:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>YouTube is testing an AI-powered search feature that shows guided answers</title>
+    <link>https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/</link>
+    <guid>https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/</guid>
+    <pubDate>Tue, 28 Apr 2026 13:54:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>YouTube is rolling out the new AI search feature to Premium subscribers in the U.S. on an opt-in basis.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Open source package with 1 million monthly downloads stole user credentials</title>
-    <link>https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/</link>
-    <guid>https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/</guid>
-    <pubDate>Mon, 27 Apr 2026 21:04:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>If you&apos;re one of millions using element-data, it&apos;s time to check for compromise.</description>
-    <category>Tech Industry</category>
+    <title>BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables</title>
+    <link>https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/</link>
+    <guid>https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/</guid>
+    <pubDate>Tue, 28 Apr 2026 13:19:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The startup specializes in &quot;non-invasive&quot; &quot;mind-reading&quot; tech — a kind of neural data collection that, its CEO hopes, will have all sorts of consumer applications.</description>
+    <category>AI</category>
   </item>
   <item>
-    <title>Canonical lays out a plan for AI in Ubuntu Linux</title>
-    <link>https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features</link>
-    <guid>https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features</guid>
-    <pubDate>Mon, 27 Apr 2026 20:47:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the most popular Linux distributions is about to get an influx of AI features. As reported by Phoronix, Jon Seager, VP of engineering at Ubuntu developer Canonical, shared a blog post on...</description>
-    <category>Tech Industry</category>
+    <title>Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer</title>
+    <link>https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/</link>
+    <guid>https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/</guid>
+    <pubDate>Tue, 28 Apr 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Tank OS puts OpenClaw AI agents into a container that lets it run reliably and more safely, especially for those running fleets of them.</description>
+    <category>AI</category>
   </item>
   <item>
-    <title>Elon Musk Boosts New Yorker’s Sam Altman Exposé on X as Trial Begins</title>
-    <link>https://www.wired.com/story/elon-musk-boost-new-yorker-article-sam-altman-x/</link>
-    <guid>https://www.wired.com/story/elon-musk-boost-new-yorker-article-sam-altman-x/</guid>
-    <pubDate>Mon, 27 Apr 2026 20:08:51 +0000</pubDate>
+    <title>The Race Is on to Keep AI Agents From Running Wild With Your Credit Cards</title>
+    <link>https://www.wired.com/story/the-race-is-on-to-keep-ai-agents-from-running-wild-with-your-credit-cards/</link>
+    <guid>https://www.wired.com/story/the-race-is-on-to-keep-ai-agents-from-running-wild-with-your-credit-cards/</guid>
+    <pubDate>Tue, 28 Apr 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The move comes as the trial for Elon Musk’s lawsuit against OpenAI kicks off in federal court in Oakland.</description>
+    <description>AI agents may soon be buying your stuff for you. The FIDO Alliance has teamed up with Google and Mastercard to try to ensure that shopping in the near future isn&apos;t a complete disaster.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Trump demands ABC fire Jimmy Kimmel</title>
-    <link>https://www.theverge.com/policy/919337/president-trump-jimmy-kimmel-fire-abc</link>
-    <guid>https://www.theverge.com/policy/919337/president-trump-jimmy-kimmel-fire-abc</guid>
-    <pubDate>Mon, 27 Apr 2026 18:18:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>President Donald Trump is calling for Disney to fire Jimmy Kimmel. On Thursday, Kimmel joked that Melania Trump had looked like an &quot;expectant widow&quot; in a skit about the upcoming White House...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google employees ask Sundar Pichai to say no to classified military AI use</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter</guid>
-    <pubDate>Mon, 27 Apr 2026 18:17:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Over 600 Google employees signed a letter to CEO Sundar Pichai demanding that Google block the Pentagon from using its AI models for classified purposes, reports the The Washington Post. Its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI ends Microsoft legal peril over its $50B Amazon deal</title>
-    <link>https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/</link>
-    <guid>https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/</guid>
-    <pubDate>Mon, 27 Apr 2026 17:40:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.</description>
+    <title>The Download: Musk and Altman’s legal showdown, and AI’s profit problem</title>
+    <link>https://www.technologyreview.com/2026/04/28/1136479/the-download-musk-altman-openai-trial-ai-profit-problem/</link>
+    <guid>https://www.technologyreview.com/2026/04/28/1136479/the-download-musk-altman-openai-trial-ai-profit-problem/</guid>
+    <pubDate>Tue, 28 Apr 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Elon Musk and Sam Altman are going to court over OpenAI’s...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data</title>
-    <link>https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/</link>
-    <guid>https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/</guid>
-    <pubDate>Mon, 27 Apr 2026 17:24:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Conspiracy theories are swirling about the White House Correspondents’ Dinner shooting</title>
-    <link>https://www.theverge.com/news/919244/whcd-shooting-trump-social-media-conspiracy-theories</link>
-    <guid>https://www.theverge.com/news/919244/whcd-shooting-trump-social-media-conspiracy-theories</guid>
-    <pubDate>Mon, 27 Apr 2026 17:11:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>On Saturday evening, a room full of journalists, media personalities, and senior members of Donald Trump&apos;s administration descended into chaos as gunshots rang out at the White House...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Why the Steam Controller is (and isn’t) a big deal</title>
-    <link>https://www.theverge.com/tech/918115/steam-controller-2026-pc-deck-machine-hands-on-features</link>
-    <guid>https://www.theverge.com/tech/918115/steam-controller-2026-pc-deck-machine-hands-on-features</guid>
-    <pubDate>Mon, 27 Apr 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Most PC gamers already have a controller they love using with Steam - a Sony DualSense, a 8BitDo Ultimate, a Nintendo Switch Pro, or something else. Part of that love comes from Steam treating...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
