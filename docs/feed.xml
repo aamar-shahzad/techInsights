@@ -5,97 +5,151 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 28 Apr 2026 21:19:29 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 29 Apr 2026 04:02:47 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Kiro Specs: Deja de Improvisar y Empieza a Planificar Features con IA</title>
-    <link>https://dev.to/antitopy/kiro-specs-deja-de-improvisar-y-empieza-a-planificar-features-con-ia-41mf</link>
-    <guid>https://dev.to/antitopy/kiro-specs-deja-de-improvisar-y-empieza-a-planificar-features-con-ia-41mf</guid>
-    <pubDate>Tue, 28 Apr 2026 21:15:37 +0000</pubDate>
+    <title>Prompt Caching With the Claude API: A Practical Guide</title>
+    <link>https://dev.to/thegdsks/prompt-caching-with-the-claude-api-a-practical-guide-14ce</link>
+    <guid>https://dev.to/thegdsks/prompt-caching-with-the-claude-api-a-practical-guide-14ce</guid>
+    <pubDate>Wed, 29 Apr 2026 03:55:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Si alguna vez arrancaste a codear una feature &quot;porque ya sabes lo que hay que hacer&quot; y terminaste reescribiendo todo a mitad del camino... este post es para ti. Kiro Specs es una de las...</description>
+    <description>I noticed a pattern looking at three months of Anthropic invoices. The same 8 KB system prompt was getting billed full price on every request. Same instructions, same tool definitions, same RAG...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>RAG vs MCP is the wrong debate — here&apos;s the right framing for production AI systems</title>
-    <link>https://dev.to/ajaydevineni/rag-vs-mcp-is-the-wrong-debate-heres-the-right-framing-for-production-ai-systems-2pef</link>
-    <guid>https://dev.to/ajaydevineni/rag-vs-mcp-is-the-wrong-debate-heres-the-right-framing-for-production-ai-systems-2pef</guid>
-    <pubDate>Tue, 28 Apr 2026 21:13:56 +0000</pubDate>
+    <title>Stop the Traffic Jam: Handling Blocking Calls in Spring Boot WebFlux</title>
+    <link>https://dev.to/realnamehidden1_61/stop-the-traffic-jam-handling-blocking-calls-in-spring-boot-webflux-4768</link>
+    <guid>https://dev.to/realnamehidden1_61/stop-the-traffic-jam-handling-blocking-calls-in-spring-boot-webflux-4768</guid>
+    <pubDate>Wed, 29 Apr 2026 03:53:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The question I keep seeing in every AI engineering forum right now: &quot;Should we use RAG or MCP?&quot; It&apos;s the wrong question. And the fact that it&apos;s being asked at all tells me the field hasn&apos;t yet...</description>
+    <description>Learn how to handle blocking calls in a non-blocking Spring Boot app using Project Reactor. Master the publishOn and subscribeOn operators with Java 21 examples. Stop the Traffic Jam: Handling...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a System That Catches Hackers in Real Time</title>
-    <link>https://dev.to/nneomau/how-i-built-a-real-time-ddos-detection-engine-from-scratch-beginners-guide-2mde</link>
-    <guid>https://dev.to/nneomau/how-i-built-a-real-time-ddos-detection-engine-from-scratch-beginners-guide-2mde</guid>
-    <pubDate>Tue, 28 Apr 2026 21:12:43 +0000</pubDate>
+    <title>7 Tools, 1 Question. Most Failed in Ways I Didn&apos;t Expect.</title>
+    <link>https://dev.to/melody_cai/7-tools-1-question-most-failed-in-ways-i-didnt-expect-4dhp</link>
+    <guid>https://dev.to/melody_cai/7-tools-1-question-most-failed-in-ways-i-didnt-expect-4dhp</guid>
+    <pubDate>Wed, 29 Apr 2026 03:53:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built a System That Catches Hackers in Real Time ​The Problem ​It was a regular Tuesday morning at cloud.ng, a rapidly growing cloud storage company powered by Nextcloud. Thousands of users were...</description>
+    <description>I uploaded a portrait. I expected a sharper image. What I got was a 720p export with no warning, no error, and no explanation. That&apos;s when I started actually benchmarking. The Framing Question...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Tips for passing CKAD exam at 1st attempt (2026 Edition)</title>
-    <link>https://dev.to/arkadiuszpabian/tips-for-passing-ckad-exam-at-1st-attempt-2026-edition-4b99</link>
-    <guid>https://dev.to/arkadiuszpabian/tips-for-passing-ckad-exam-at-1st-attempt-2026-edition-4b99</guid>
-    <pubDate>Tue, 28 Apr 2026 20:53:15 +0000</pubDate>
+    <title>Why One Model Fails</title>
+    <link>https://dev.to/nebuladata/why-one-model-fails-3nf8</link>
+    <guid>https://dev.to/nebuladata/why-one-model-fails-3nf8</guid>
+    <pubDate>Wed, 29 Apr 2026 03:50:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How it all started Last year we got news: our new client would be using Kubernetes extensively. I was both excited and scared, as I had only limited exposure to Docker in a professional setting,...</description>
+    <description>What Real AI Systems Actually Look Like) There’s a common pattern in early AI projects. You pick one model — usually the “best” one — wire it into your backend, ship a feature, and call it a day....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Creating and Configuring an Azure Storage Account for IT Teams</title>
-    <link>https://dev.to/dev_werne/creating-and-configuring-an-azure-storage-account-for-it-teams-33o9</link>
-    <guid>https://dev.to/dev_werne/creating-and-configuring-an-azure-storage-account-for-it-teams-33o9</guid>
-    <pubDate>Tue, 28 Apr 2026 20:52:53 +0000</pubDate>
+    <title>Flutter GoRouter Complete Guide — Full Control Over Navigation 2.0</title>
+    <link>https://dev.to/kanta13jp1/flutter-gorouter-complete-guide-full-control-over-navigation-20-i15</link>
+    <guid>https://dev.to/kanta13jp1/flutter-gorouter-complete-guide-full-control-over-navigation-20-i15</guid>
+    <pubDate>Wed, 29 Apr 2026 03:48:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Whether you are stepping into cloud computing or looking to move from physical storage infrastructure, Azure Storage is one of the best places to start. Managing data on local hardware comes with...</description>
+    <description>Flutter GoRouter Complete Guide — Full Control Over Navigation 2.0 GoRouter is Flutter&apos;s officially recommended routing package. URL-based navigation, deep links, auth guards, and nested routes —...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Use Claude 3.5 Sonnet 2026-02 to Generate Tests for Python 3.13 Codebases</title>
-    <link>https://dev.to/johalputt/how-to-use-claude-35-sonnet-2026-02-to-generate-tests-for-python-313-codebases-5gn5</link>
-    <guid>https://dev.to/johalputt/how-to-use-claude-35-sonnet-2026-02-to-generate-tests-for-python-313-codebases-5gn5</guid>
-    <pubDate>Tue, 28 Apr 2026 20:51:30 +0000</pubDate>
+    <title>Stop Saying “We’re Working on It” — Show Your Product Roadmap Instead</title>
+    <link>https://dev.to/slarda_8140e179ef5ab42369/stop-saying-were-working-on-it-show-your-product-roadmap-instead-59g2</link>
+    <guid>https://dev.to/slarda_8140e179ef5ab42369/stop-saying-were-working-on-it-show-your-product-roadmap-instead-59g2</guid>
+    <pubDate>Wed, 29 Apr 2026 03:47:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Python 3.13’s 42% faster JIT-compiled hot paths and new type system features make legacy test generation tools obsolete—but Claude 3.5 Sonnet 2026-02 cuts test authoring time by 78% for senior...</description>
+    <description>“We’re working on it.” If you’ve built any product—especially as a small team or solo developer—you’ve probably typed that sentence more times than you can count. It shows up in emails, support...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Real-Time Anomaly Detection Engine for a Cloud Storage Platform</title>
-    <link>https://dev.to/devopstimi/how-i-built-a-real-time-anomaly-detection-engine-for-a-cloud-storage-platform-30o3</link>
-    <guid>https://dev.to/devopstimi/how-i-built-a-real-time-anomaly-detection-engine-for-a-cloud-storage-platform-30o3</guid>
-    <pubDate>Tue, 28 Apr 2026 20:50:23 +0000</pubDate>
+    <title>Flutter Web Rendering Complete Guide — CanvasKit vs HTML Renderer</title>
+    <link>https://dev.to/kanta13jp1/flutter-web-rendering-complete-guide-canvaskit-vs-html-renderer-3jbe</link>
+    <guid>https://dev.to/kanta13jp1/flutter-web-rendering-complete-guide-canvaskit-vs-html-renderer-3jbe</guid>
+    <pubDate>Wed, 29 Apr 2026 03:44:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I built a Python daemon that watches incoming HTTP traffic in real time, learns what &quot;normal&quot; looks like, and automatically blocks attackers using Linux&apos;s built-in firewall — all without any...</description>
+    <description>Flutter Web Rendering Complete Guide — CanvasKit vs HTML Renderer Flutter Web supports two renderers. Understanding CanvasKit vs HTML renderer helps you pick the right one for your app. Two...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>BP profits more than double as Iran war sends oil prices higher</title>
-    <link>https://www.bbc.com/news/articles/c2eveyvgn9no</link>
-    <guid>https://www.bbc.com/news/articles/c2eveyvgn9no</guid>
-    <pubDate>Tue, 28 Apr 2026 20:50:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.bbc.com/news/articles/c2eveyvgn9no Comments URL: https://news.ycombinator.com/item?id=47940545 Points: 11 # Comments: 1</description>
+    <title>How to Turn Filament v5&apos;s Rich Editor Into a Full Block Editor</title>
+    <link>https://dev.to/tallcms/how-to-turn-filament-v5s-rich-editor-into-a-full-block-editor-3g5g</link>
+    <guid>https://dev.to/tallcms/how-to-turn-filament-v5s-rich-editor-into-a-full-block-editor-3g5g</guid>
+    <pubDate>Wed, 29 Apr 2026 03:43:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Filament v5&apos;s RichEditor is powerful out of the box. It is built on Tiptap, which means it&apos;s natively extensible, and it now supports *custom blocks out of the box . Here&apos;s how to extend it into a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built Agent Shield an open-source traffic control layer for AI coding agents.</title>
-    <link>https://dev.to/vaad2/i-built-agent-shield-an-open-source-traffic-control-layer-for-ai-coding-agents-1pjd</link>
-    <guid>https://dev.to/vaad2/i-built-agent-shield-an-open-source-traffic-control-layer-for-ai-coding-agents-1pjd</guid>
-    <pubDate>Tue, 28 Apr 2026 20:48:31 +0000</pubDate>
+    <title>A jornada natural de um webapp:</title>
+    <link>https://dev.to/venelouis/a-jornada-natural-de-um-webapp-5d37</link>
+    <guid>https://dev.to/venelouis/a-jornada-natural-de-um-webapp-5d37</guid>
+    <pubDate>Wed, 29 Apr 2026 03:42:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The idea is simple: AI agents send a lot of stuff over the network: prompts, code snippets, logs, tool output, telemetry, sometimes secrets. Most of that is hidden inside the CLI. Agent Shield...</description>
+    <description>A jornada natural de um webapp: Fase 1 — Início VPS simples, LEMP ou Docker (0–50k usuários/mês) R$26–70/mês Fase 2 — Crescimento VPS maior + Docker Compose (50k–300k usuários/mês) R$50–150/mês...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Quiet Revolution at Google Cloud Next &apos;26: Your Database Can Talk to Your AI Agent — No Bridge Required published</title>
-    <link>https://dev.to/aman_choudhary_ca1bdbc12a/the-quiet-revolution-at-google-cloud-next-26-your-database-can-talk-to-your-ai-agent-no-bridge-cho</link>
-    <guid>https://dev.to/aman_choudhary_ca1bdbc12a/the-quiet-revolution-at-google-cloud-next-26-your-database-can-talk-to-your-ai-agent-no-bridge-cho</guid>
-    <pubDate>Tue, 28 Apr 2026 20:47:48 +0000</pubDate>
+    <title>Stop Backspacing Like a Typist: My &quot;Surgical&quot; Syntax Deletion Tool for Emacs</title>
+    <link>https://dev.to/lcmd007/stop-backspacing-like-a-typist-my-surgical-syntax-deletion-tool-for-emacs-57o4</link>
+    <guid>https://dev.to/lcmd007/stop-backspacing-like-a-typist-my-surgical-syntax-deletion-tool-for-emacs-57o4</guid>
+    <pubDate>Wed, 29 Apr 2026 03:40:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Google Cloud NEXT Writing Challenge Everyone at Google Cloud Next &apos;26 is talking about Gemini Enterprise Agent Platform. The flashy keynote demo, the &quot;era of the agent...</description>
+    <description>I’ve always believed that a hardcore developer shouldn&apos;t waste a single second on low-level chores like &quot;deleting code.&quot; In Emacs, most people delete code by either mashing the Backspace key like...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>At his OpenAI trial, Musk relitigates an old friendship</title>
+    <link>https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/</link>
+    <guid>https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/</guid>
+    <pubDate>Wed, 29 Apr 2026 00:40:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>It&apos;s a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>OpenAI Really Wants Codex to Shut Up About Goblins</title>
+    <link>https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/</link>
+    <guid>https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/</guid>
+    <pubDate>Tue, 28 Apr 2026 23:45:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>“Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant,” reads OpenAI’s coding agent instructions.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>It’s primetime for conspiracy theorist video creators</title>
+    <link>https://www.theverge.com/streaming/919291/white-house-correspondents-dinner-conspiracy-videos-false-flag</link>
+    <guid>https://www.theverge.com/streaming/919291/white-house-correspondents-dinner-conspiracy-videos-false-flag</guid>
+    <pubDate>Tue, 28 Apr 2026 23:31:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In the days since this year&apos;s White House Correspondents&apos; Dinner was cut short when shots were fired at the event, there has been a boom of conspiracy theory videos created by people who insist...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Elon Musk appeared more petty than prepared</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one</guid>
+    <pubDate>Tue, 28 Apr 2026 23:17:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Today the first witness was sworn in in Musk v. Altman: Elon Musk. I was surprised by how flat he seemed. This is not the first time I&apos;ve seen Musk in court. During his defamation suit, he turned...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>James Comey indicted over Instagram seashell photo that allegedly threatened Trump</title>
+    <link>https://www.theverge.com/policy/920131/james-comey-indicted-over-instagram-seashell-photo-that-allegedly-threatened-trump</link>
+    <guid>https://www.theverge.com/policy/920131/james-comey-indicted-over-instagram-seashell-photo-that-allegedly-threatened-trump</guid>
+    <pubDate>Tue, 28 Apr 2026 21:40:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The US Department of Justice has once again indicted James Comey - this time, for an alleged threat the former FBI director made toward President Donald Trump on Instagram, as reported earlier by...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Elon Musk Testifies That He Started OpenAI to Prevent a ‘Terminator Outcome’</title>
+    <link>https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/</link>
+    <guid>https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/</guid>
+    <pubDate>Tue, 28 Apr 2026 21:35:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The judge also warned Musk and Sam Altman to curb their “propensity to use social media to make things worse outside the courtroom” after both sides traded attacks online.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Elon Musk tells the jury that all he wants to do is save humanity</title>
@@ -188,24 +242,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Google Home makes it easier to understand why devices aren&amp;#8217;t working</title>
-    <link>https://www.theverge.com/tech/919787/google-home-instant-account-relinking-update</link>
-    <guid>https://www.theverge.com/tech/919787/google-home-instant-account-relinking-update</guid>
-    <pubDate>Tue, 28 Apr 2026 18:31:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Thanks to Google Home&apos;s latest update, users may be able to get offline devices working again with less troubleshooting. Now, whenever a device goes offline, users may get &quot;instant...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Nex Playground gaming console is $60 off this week</title>
-    <link>https://www.theverge.com/gadgets/919736/nex-playground-amazon-gaming-week-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/919736/nex-playground-amazon-gaming-week-deal-sale</guid>
-    <pubDate>Tue, 28 Apr 2026 18:21:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the best-selling gaming consoles over the winter holidays was the Nex Playground, a small camera-equipped cube that runs motion-controlled games made primarily for kids. It got a $50 price...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push</title>
     <link>https://thehackernews.com/2026/04/researchers-discover-critical-github.html</link>
     <guid>https://thehackernews.com/2026/04/researchers-discover-critical-github.html</guid>
@@ -224,15 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>The resurrected Commodore 64 is getting a facelift like the original</title>
-    <link>https://www.theverge.com/tech/919625/commodore-64c-ultimate-fpga-computer-retro-c64c</link>
-    <guid>https://www.theverge.com/tech/919625/commodore-64c-ultimate-fpga-computer-retro-c64c</guid>
-    <pubDate>Tue, 28 Apr 2026 18:10:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The creators of the C64 Ultimate, a recreation of the iconic &apos;80s personal computer that uses an FPGA chip to accurately replicate the original, have announced a follow-up version that continues...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign</title>
     <link>https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html</link>
     <guid>https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html</guid>
@@ -249,32 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The app allows developers to vibe code web apps and websites on the go.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Celebrating 20 years of Google Translate: Fun facts, tips and new features to try</title>
-    <link>https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/</link>
-    <guid>https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/</guid>
-    <pubDate>Tue, 28 Apr 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake topped by candles with the numeral 20</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents</title>
-    <link>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</link>
-    <guid>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</guid>
-    <pubDate>Tue, 28 Apr 2026 15:58:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi</title>
-    <link>https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html</link>
-    <guid>https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html</guid>
-    <pubDate>Tue, 28 Apr 2026 14:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows,...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
