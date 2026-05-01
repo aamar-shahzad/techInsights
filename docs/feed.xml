@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 01 May 2026 04:17:36 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 01 May 2026 09:57:55 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Joins: Combining Tables Without Losing Your Mind</title>
-    <link>https://dev.to/yakhilesh/joins-combining-tables-without-losing-your-mind-43p2</link>
-    <guid>https://dev.to/yakhilesh/joins-combining-tables-without-losing-your-mind-43p2</guid>
-    <pubDate>Fri, 01 May 2026 04:05:33 +0000</pubDate>
+    <title>Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft</title>
+    <link>https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html</link>
+    <guid>https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html</guid>
+    <pubDate>Fri, 01 May 2026 09:43:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Quantum Threat Is Real — Meet QSafe PQC, a Post-Quantum Cryptography API (And We Need Beta Testers!)</title>
+    <link>https://dev.to/rushikeshkakadiya/the-quantum-threat-is-real-meet-qsafe-pqc-a-post-quantum-cryptography-api-and-we-need-beta-25ff</link>
+    <guid>https://dev.to/rushikeshkakadiya/the-quantum-threat-is-real-meet-qsafe-pqc-a-post-quantum-cryptography-api-and-we-need-beta-25ff</guid>
+    <pubDate>Fri, 01 May 2026 09:36:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You have two tables. The customers table knows who people are. Name, city, contact details. The orders table knows what they bought. Product, amount, date. Neither table alone answers the...</description>
+    <description>&gt; TL;DR: I built a Post-Quantum Cryptography API platform called QSafe PQC. It gives developers access to NIST-standardized PQC algorithms via a simple REST API and multi-language SDKs. I&apos;m...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Cyber Landlords in the AI Era: Your Workflow Is Not Yours</title>
-    <link>https://dev.to/skyguan92/cyber-landlords-in-the-ai-era-your-workflow-is-not-yours-3i69</link>
-    <guid>https://dev.to/skyguan92/cyber-landlords-in-the-ai-era-your-workflow-is-not-yours-3i69</guid>
-    <pubDate>Fri, 01 May 2026 04:04:08 +0000</pubDate>
+    <title>Your Agent Memory Is Trapped. Here&apos;s the Key.</title>
+    <link>https://dev.to/vektor_memory_43f51a32376/your-agent-memory-is-trapped-heres-the-key-1kjb</link>
+    <guid>https://dev.to/vektor_memory_43f51a32376/your-agent-memory-is-trapped-heres-the-key-1kjb</guid>
+    <pubDate>Fri, 01 May 2026 09:34:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In early April, a company called Belo was banned by Anthropic overnight. More than 60 employee accounts were deactivated simultaneously, and the entire team&apos;s workflow built on Claude instantly...</description>
+    <description>You spent three days writing a migration script for 4,900 vectors. Then you switched vector DBs. You did it again. Open any AI developer forum right now and you will find a specific kind of post....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Using SQLite to Track Sync State in Rust — Simple, Reliable, Zero Dependencies</title>
-    <link>https://dev.to/hiyoyok/using-sqlite-to-track-sync-state-in-rust-simple-reliable-zero-dependencies-53bg</link>
-    <guid>https://dev.to/hiyoyok/using-sqlite-to-track-sync-state-in-rust-simple-reliable-zero-dependencies-53bg</guid>
-    <pubDate>Fri, 01 May 2026 03:57:39 +0000</pubDate>
+    <title>Why I Moved from Terraform to a Stateless IaC Platform and What I Learned</title>
+    <link>https://dev.to/matt0135/why-i-moved-from-terraform-to-a-stateless-iac-platform-and-what-i-learned-1bm0</link>
+    <guid>https://dev.to/matt0135/why-i-moved-from-terraform-to-a-stateless-iac-platform-and-what-i-learned-1bm0</guid>
+    <pubDate>Fri, 01 May 2026 09:32:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>All tests run on an 8-year-old MacBook Air. Sync tools need to remember what they&apos;ve already transferred. Files change. Transfers get interrupted. The app restarts. The naive approach — scan...</description>
+    <description>I was a Terraform believer. I had written hundreds of .tf files. I had debugged state corruption at 2 AM. I had carefully designed remote backends in S3 with DynamoDB locking so my team wouldn&apos;t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Difference Between Reading an Algorithm and Understanding It</title>
-    <link>https://dev.to/robin_nayak_ccbd1e8d231d8/the-difference-between-reading-an-algorithm-and-understanding-it-4k5a</link>
-    <guid>https://dev.to/robin_nayak_ccbd1e8d231d8/the-difference-between-reading-an-algorithm-and-understanding-it-4k5a</guid>
-    <pubDate>Fri, 01 May 2026 03:54:40 +0000</pubDate>
+    <title>Beyond SSR vs SSG: Partial Prerendering (PPR) Explained with a Real-World Story</title>
+    <link>https://dev.to/abdullahmubin/beyond-ssr-vs-ssg-partial-prerendering-ppr-explained-with-a-real-world-story-2ibj</link>
+    <guid>https://dev.to/abdullahmubin/beyond-ssr-vs-ssg-partial-prerendering-ppr-explained-with-a-real-world-story-2ibj</guid>
+    <pubDate>Fri, 01 May 2026 09:30:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You read the explanation. Every sentence makes sense. Then you close the tab, open a problem, and the u understanding is gone. This experience is so common it should have a name. It happens...</description>
+    <description>For years, frontend developers have been stuck in an annoying trade-off: SSG (Static Site Generation): Fast, but data gets stale SSR (Server-Side Rendering): Fresh data, but slower It always felt...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>&quot;I Built a Bot to Automate My Art Marketing on 6 Platforms&quot;</title>
-    <link>https://dev.to/jadekai333/i-built-a-bot-to-automate-my-art-marketing-on-6-platforms-379a</link>
-    <guid>https://dev.to/jadekai333/i-built-a-bot-to-automate-my-art-marketing-on-6-platforms-379a</guid>
-    <pubDate>Fri, 01 May 2026 03:53:55 +0000</pubDate>
+    <title>I Added Gemini AI to My Android Logcat Viewer. One Click Diagnoses the Error.</title>
+    <link>https://dev.to/hiyoyok/i-added-gemini-ai-to-my-android-logcat-viewer-one-click-diagnoses-the-error-bcc</link>
+    <guid>https://dev.to/hiyoyok/i-added-gemini-ai-to-my-android-logcat-viewer-one-click-diagnoses-the-error-bcc</guid>
+    <pubDate>Fri, 01 May 2026 09:29:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built a Bot to Automate My Art Marketing on 6 Platforms From canvas to code: How I stopped scheduling posts and started creating As an artist, I hated spending hours writing captions, scheduling...</description>
+    <description>All tests run on an 8-year-old MacBook Air. Android Studio&apos;s logcat is fine. But opening a full IDE just to read logs and debug an error felt like overkill. I built a lightweight logcat viewer in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>So honored to be selected as one of the winners for the Earth Day Challenge! 🌍 It was such a blast building this and seeing all the other incredible sustainable solutions. Huge thanks to the DEV team and the sponsors for putting this together! 🚀</title>
-    <link>https://dev.to/aashitanegii/so-honored-to-be-selected-as-one-of-the-winners-for-the-earth-day-challenge-it-was-such-a-blast-4c6b</link>
-    <guid>https://dev.to/aashitanegii/so-honored-to-be-selected-as-one-of-the-winners-for-the-earth-day-challenge-it-was-such-a-blast-4c6b</guid>
-    <pubDate>Fri, 01 May 2026 03:50:43 +0000</pubDate>
+    <title>I Built a Free Browser Piano with Tone.js</title>
+    <link>https://dev.to/roxyemanuel/i-built-a-free-browser-piano-with-tonejs-3n3a</link>
+    <guid>https://dev.to/roxyemanuel/i-built-a-free-browser-piano-with-tonejs-3n3a</guid>
+    <pubDate>Fri, 01 May 2026 09:21:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Announcing the Winners of the DEV Weekend Challenge: Earth Day Edition 🌍 DEV Weekend Challenge: Earth Day Jess Lee Jess Lee Jess Lee Follow for The DEV Team Apr 30 Announcing the Winners of the...</description>
+    <description>RoxyPiano is the only free browser-based piano that combines 88 keys, 128 GM instrument sounds, Salamander Grand Piano V3 studio-quality samples, and full USB MIDI keyboard support — all without...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How we built a tamper-evident accounting ledger for retail SMBs using SHA-256 hash chaining</title>
-    <link>https://dev.to/sahil_salma/how-we-built-a-tamper-evident-accounting-ledger-for-retail-smbs-using-sha-256-hash-chaining-d2j</link>
-    <guid>https://dev.to/sahil_salma/how-we-built-a-tamper-evident-accounting-ledger-for-retail-smbs-using-sha-256-hash-chaining-d2j</guid>
-    <pubDate>Fri, 01 May 2026 03:47:17 +0000</pubDate>
+    <title>Dart Isolates Deep Dive — compute, SendPort, and Parallel Processing Patterns</title>
+    <link>https://dev.to/kanta13jp1/dart-isolates-deep-dive-compute-sendport-and-parallel-processing-patterns-4ij6</link>
+    <guid>https://dev.to/kanta13jp1/dart-isolates-deep-dive-compute-sendport-and-parallel-processing-patterns-4ij6</guid>
+    <pubDate>Fri, 01 May 2026 09:21:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>At Momentum (a product by ltiora) (https://ltiora.com/), we build retail and wholesale ERP software. One of the more interesting engineering problems we tackled was making our accounting ledger...</description>
+    <description>Dart Isolates Deep Dive — compute, SendPort, and Parallel Processing Patterns Dart&apos;s main thread runs on a single-threaded event loop. CPU-heavy work blocks that loop, freezing your UI. Isolates...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What I Got Wrong Building a RAG Pipeline from Scratch in TypeScript</title>
-    <link>https://dev.to/ayush_nautiyal_bbbc6d39d2/what-i-got-wrong-building-a-rag-pipeline-from-scratch-in-typescript-588g</link>
-    <guid>https://dev.to/ayush_nautiyal_bbbc6d39d2/what-i-got-wrong-building-a-rag-pipeline-from-scratch-in-typescript-588g</guid>
-    <pubDate>Fri, 01 May 2026 03:46:44 +0000</pubDate>
+    <title>Indie Dev Monetization — Pricing Psychology, Subscriptions, and Freemium Done Right</title>
+    <link>https://dev.to/kanta13jp1/indie-dev-monetization-pricing-psychology-subscriptions-and-freemium-done-right-3eb8</link>
+    <guid>https://dev.to/kanta13jp1/indie-dev-monetization-pricing-psychology-subscriptions-and-freemium-done-right-3eb8</guid>
+    <pubDate>Fri, 01 May 2026 09:20:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m building a production-grade, multi-tenant AI support agent in TypeScript. No Python. No LangChain. Just Node.js, PostgreSQL with pgvector, and a lot of wrong assumptions that taught me more...</description>
+    <description>Indie Dev Monetization — Pricing Psychology, Subscriptions, and Freemium Done Right You can build the best product in the world and still fail on monetization. Getting pricing wrong stalls growth...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Clean architecture in React Native isn&apos;t about layers</title>
-    <link>https://dev.to/aoligama/clean-architecture-in-react-native-isnt-about-layers-agl</link>
-    <guid>https://dev.to/aoligama/clean-architecture-in-react-native-isnt-about-layers-agl</guid>
-    <pubDate>Fri, 01 May 2026 03:46:40 +0000</pubDate>
+    <title>Supabase Storage Deep Dive — Bucket Design, Signed URLs, Image Transforms, and RLS</title>
+    <link>https://dev.to/kanta13jp1/supabase-storage-deep-dive-bucket-design-signed-urls-image-transforms-and-rls-3b9k</link>
+    <guid>https://dev.to/kanta13jp1/supabase-storage-deep-dive-bucket-design-signed-urls-image-transforms-and-rls-3b9k</guid>
+    <pubDate>Fri, 01 May 2026 09:19:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every React Native codebase I&apos;ve worked on hits the same wall around month four. A screen that started at 80 lines is now 400. Half of it is useEffect chains coordinating API calls. A push...</description>
+    <description>Supabase Storage Deep Dive — Bucket Design, Signed URLs, Image Transforms, and RLS Supabase Storage is S3-compatible object storage that integrates directly with PostgreSQL Row Level Security....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Running Local AI Models for Free: A Step-by-Step Guide with Python</title>
-    <link>https://dev.to/naimulkarim/running-local-ai-models-for-free-a-step-by-step-guide-with-python-31hd</link>
-    <guid>https://dev.to/naimulkarim/running-local-ai-models-for-free-a-step-by-step-guide-with-python-31hd</guid>
-    <pubDate>Fri, 01 May 2026 03:45:24 +0000</pubDate>
+    <title>Flutter Animation Deep Dive — AnimationController, Custom Tweens, and Physics Simulations</title>
+    <link>https://dev.to/kanta13jp1/flutter-animation-deep-dive-animationcontroller-custom-tweens-and-physics-simulations-136f</link>
+    <guid>https://dev.to/kanta13jp1/flutter-animation-deep-dive-animationcontroller-custom-tweens-and-physics-simulations-136f</guid>
+    <pubDate>Fri, 01 May 2026 09:18:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Large language models are no longer locked behind expensive APIs. Today, you can run powerful AI models locally on your own machine—often for free—while keeping full control over data, latency,...</description>
+    <description>Flutter Animation Deep Dive — AnimationController, Custom Tweens, and Physics Simulations Flutter&apos;s animation system divides into two layers: implicit (value-driven, automatic) and explicit...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Trump’s mass firing just dealt another blow to American science</title>
+    <link>https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/</link>
+    <guid>https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/</guid>
+    <pubDate>Fri, 01 May 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This past week delivered another gut punch for science in the US. This time, the target was the National Science Foundation—a federal agency that funds major research projects to the tune of...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A new US phone network for Christians aims to block porn and gender-related content</title>
+    <link>https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/</link>
+    <guid>https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/</guid>
+    <pubDate>Fri, 01 May 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>A new US-wide cell phone network marketed to Christians is set to launch next week. It blocks porn, which experts in network security say marks the first time a US cell plan has used network-level...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet</title>
@@ -249,33 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Meta says it may be forced to pull Facebook, Instagram, and WhatsApp from New Mexico if the attorney general gets his way. The state is demanding a host of changes that the company says are...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Musk v. Altman Kicks Off, DOJ Guts Voting Rights Unit, and Is the AI Job Apocalypse Overhyped?</title>
-    <link>https://www.wired.com/story/uncanny-valley-podcast-musk-v-altman-doj-guts-voting-rights-unit-is-ai-job-apocalypse-overhyped/</link>
-    <guid>https://www.wired.com/story/uncanny-valley-podcast-musk-v-altman-doj-guts-voting-rights-unit-is-ai-job-apocalypse-overhyped/</guid>
-    <pubDate>Thu, 30 Apr 2026 18:54:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>In this episode of Uncanny Valley, we get into how the Elon Musk-Sam Altman trial goes way beyond their rivalry and could have major implications both for OpenAI and also the AI industry at large.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Exclusive eBook: Inside the stealthy startup that pitched brainless human clones</title>
-    <link>https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/</link>
-    <guid>https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/</guid>
-    <pubDate>Thu, 30 Apr 2026 18:42:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for “brainless clones”...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico</title>
-    <link>https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/</link>
-    <guid>https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/</guid>
-    <pubDate>Thu, 30 Apr 2026 18:20:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI is launching additional opt-in protections for ChatGPT accounts. The new security initiative includes a new partnership with security key provider Yubico.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
