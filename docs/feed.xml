@@ -5,97 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 04 May 2026 04:09:06 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 04 May 2026 07:23:49 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Your Claude-generated code is already out of date. Here&apos;s why.</title>
-    <link>https://dev.to/panav_mhatre_732271d2d44b/your-claude-generated-code-is-already-out-of-date-heres-why-fo1</link>
-    <guid>https://dev.to/panav_mhatre_732271d2d44b/your-claude-generated-code-is-already-out-of-date-heres-why-fo1</guid>
-    <pubDate>Mon, 04 May 2026 04:05:59 +0000</pubDate>
+    <title>A superscript-1 walks past every Go SSRF guard</title>
+    <link>https://dev.to/sankalp_gilda_92ba4374021/a-superscript-1-walks-past-every-go-ssrf-guard-3gk3</link>
+    <guid>https://dev.to/sankalp_gilda_92ba4374021/a-superscript-1-walks-past-every-go-ssrf-guard-3gk3</guid>
+    <pubDate>Mon, 04 May 2026 07:13:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You asked Claude to build a feature. It worked. You shipped it. Six weeks later, you&apos;re adding something related, and nothing makes sense anymore. The code is technically correct but completely...</description>
+    <description>TL;DR. golang.org/x/net/idna.Lookup.ToASCII runs UTS-46 NFKC mapping on hostnames, which folds 100 non-ASCII Unicode digit codepoints (math superscripts, circled digits, fullwidth digits,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Human-AI Collaboration Tools in Workplaces: Engineering the Future of Hybrid Intelligence</title>
-    <link>https://dev.to/vishaluttammane/human-ai-collaboration-tools-in-workplaces-engineering-the-future-of-hybrid-intelligence-2ho5</link>
-    <guid>https://dev.to/vishaluttammane/human-ai-collaboration-tools-in-workplaces-engineering-the-future-of-hybrid-intelligence-2ho5</guid>
-    <pubDate>Mon, 04 May 2026 04:05:29 +0000</pubDate>
+    <title>Adding a Trust Boundary to a Haystack Pipeline</title>
+    <link>https://dev.to/anviren/adding-a-trust-boundary-to-a-haystack-pipeline-1e5d</link>
+    <guid>https://dev.to/anviren/adding-a-trust-boundary-to-a-haystack-pipeline-1e5d</guid>
+    <pubDate>Mon, 04 May 2026 07:02:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Human-AI collaboration tools are redefining how modern workplaces operate, shifting from automation-centric systems to augmentation-driven ecosystems where humans and AI work together as...</description>
+    <description>A Haystack pipeline can be perfectly wired and still unsafe. The retriever returns documents. The ranker ranks them. The prompt builder formats them. The generator answers. Every component did its...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Virtual Environments: Why Your Projects Keep Breaking Each Other</title>
-    <link>https://dev.to/yakhilesh/virtual-environments-why-your-projects-keep-breaking-each-other-17ed</link>
-    <guid>https://dev.to/yakhilesh/virtual-environments-why-your-projects-keep-breaking-each-other-17ed</guid>
-    <pubDate>Mon, 04 May 2026 04:04:02 +0000</pubDate>
+    <title>Why do you keep starting new things but can&apos;t finish them?</title>
+    <link>https://dev.to/rifat240510/why-do-you-keep-starting-new-things-but-cant-finish-them-586p</link>
+    <guid>https://dev.to/rifat240510/why-do-you-keep-starting-new-things-but-cant-finish-them-586p</guid>
+    <pubDate>Mon, 04 May 2026 07:01:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You install NumPy for Project A. Works great. Six months later you start Project B. It needs a newer version of NumPy with features that did not exist before. You upgrade. Project B works. You go...</description>
+    <description>Have you noticed that your problem is not starting… the problem is finishing? You don&apos;t have a problem starting something new. There is excitement in a new idea, there is motivation, there is a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Google Colab: Free GPUs in Your Browser</title>
-    <link>https://dev.to/yakhilesh/google-colab-free-gpus-in-your-browser-81m</link>
-    <guid>https://dev.to/yakhilesh/google-colab-free-gpus-in-your-browser-81m</guid>
-    <pubDate>Mon, 04 May 2026 04:03:10 +0000</pubDate>
+    <title>When DynamoDB Global Tables Go Stale: Chaos Testing Replication Lag with AWS FIS</title>
+    <link>https://dev.to/aws-builders/when-dynamodb-global-tables-go-stale-chaos-testing-replication-lag-with-aws-fis-2ij8</link>
+    <guid>https://dev.to/aws-builders/when-dynamodb-global-tables-go-stale-chaos-testing-replication-lag-with-aws-fis-2ij8</guid>
+    <pubDate>Mon, 04 May 2026 07:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your laptop has a CPU. A CPU runs code one operation at a time, very fast. For Python scripts, data processing, and small models, it is completely fine. Training a neural network is different. A...</description>
+    <description>DynamoDB Global Tables replicate data across regions in seconds, but replication is still asynchronous. That means a simple read from a replica region can occasionally return stale data, which is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>9 Seconds: An AI Coding Agent Deleted a Production Database</title>
-    <link>https://dev.to/rills_stephen/9-seconds-an-ai-coding-agent-deleted-a-production-database-2lhg</link>
-    <guid>https://dev.to/rills_stephen/9-seconds-an-ai-coding-agent-deleted-a-production-database-2lhg</guid>
-    <pubDate>Mon, 04 May 2026 04:00:00 +0000</pubDate>
+    <title>Building B2B feedback, NPS, and announcements as a drop-in embed (not another heavy SDK)</title>
+    <link>https://dev.to/vipinlahoti/building-b2b-feedback-nps-and-announcements-as-a-drop-in-embed-not-another-heavy-sdk-2pel</link>
+    <guid>https://dev.to/vipinlahoti/building-b2b-feedback-nps-and-announcements-as-a-drop-in-embed-not-another-heavy-sdk-2pel</guid>
+    <pubDate>Mon, 04 May 2026 07:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If a model can run a destructive command against your infrastructure, it&apos;s an agent. Doesn&apos;t matter that it lives in your code editor. The &quot;AI assistant&quot; / &quot;AI agent&quot; boundary disappeared the...</description>
+    <description>The problem we kept seeing Product, marketing, and CX teams want on-site feedback, NPS, and lightweight announcements (changelog nudges, maintenance banners, promos) on real pages—marketing sites,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>White Labeling in Angular: One Codebase, Multiple Clients</title>
-    <link>https://dev.to/pbouillon/white-labeling-in-angular-one-codebase-multiple-clients-jp5</link>
-    <guid>https://dev.to/pbouillon/white-labeling-in-angular-one-codebase-multiple-clients-jp5</guid>
-    <pubDate>Mon, 04 May 2026 03:56:10 +0000</pubDate>
+    <title>Apple Sign-In with Flutter and Supabase</title>
+    <link>https://dev.to/gautier/apple-sign-in-with-flutter-and-supabase-40lp</link>
+    <guid>https://dev.to/gautier/apple-sign-in-with-flutter-and-supabase-40lp</guid>
+    <pubDate>Mon, 04 May 2026 06:58:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>White labeling is more common than you might think. When developing software, you often need to deploy the same application for multiple clients, each requiring their own customization: unique...</description>
+    <description>If your Flutter app offers any third-party login on iOS — Google, Facebook, anything — Apple&apos;s App Review guideline 4.8 forces you to also offer Sign in with Apple. Skipping it is a guaranteed App...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Search Bar for Your Firefox New Tab Extension</title>
-    <link>https://dev.to/weatherclockdash/building-a-search-bar-for-your-firefox-new-tab-extension-30og</link>
-    <guid>https://dev.to/weatherclockdash/building-a-search-bar-for-your-firefox-new-tab-extension-30og</guid>
-    <pubDate>Mon, 04 May 2026 03:53:32 +0000</pubDate>
+    <title>Model Routing: 3 Things I Learned Sending Tasks to the Cheapest Model That Actually Works</title>
+    <link>https://dev.to/natevoss/model-routing-3-things-i-learned-sending-tasks-to-the-cheapest-model-that-actually-works-4e31</link>
+    <guid>https://dev.to/natevoss/model-routing-3-things-i-learned-sending-tasks-to-the-cheapest-model-that-actually-works-4e31</guid>
+    <pubDate>Mon, 04 May 2026 06:54:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building a Search Bar for Your Firefox New Tab Extension A search bar is the highest-ROI feature for any new tab extension. Users type queries dozens of times per day — if your extension can save...</description>
+    <description>Everyone benchmarks models. Sonnet beats Haiku on reasoning. Opus beats Sonnet. Haiku is fastest. These things are all true. But benchmarking and deploying are different games. At scale, the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Testing Firefox Extensions with Playwright: End-to-End Testing Guide</title>
-    <link>https://dev.to/weatherclockdash/testing-firefox-extensions-with-playwright-end-to-end-testing-guide-4edo</link>
-    <guid>https://dev.to/weatherclockdash/testing-firefox-extensions-with-playwright-end-to-end-testing-guide-4edo</guid>
-    <pubDate>Mon, 04 May 2026 03:51:31 +0000</pubDate>
+    <title>Strategies to combat adverse effects of AI coding for human engineers</title>
+    <link>https://dev.to/rrsai/strategies-to-combat-adverse-effects-of-ai-coding-for-human-engineers-3if6</link>
+    <guid>https://dev.to/rrsai/strategies-to-combat-adverse-effects-of-ai-coding-for-human-engineers-3if6</guid>
+    <pubDate>Mon, 04 May 2026 06:54:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Testing Firefox Extensions with Playwright: End-to-End Testing Guide Extension testing is one of those things everyone knows they should do but few actually do. I&apos;ve been using Playwright for...</description>
+    <description>Generative coding is burning out engineers. One of the many ways that manifests is in the very people who built last year&apos;s software not having the motivation to build this year&apos;s software. In the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Shift+Space로 한/영 전환하는 Windows 트레이 유틸 (Korean/English IME toggle, open source)</title>
-    <link>https://dev.to/coverboy/shiftspacero-hanyeong-jeonhwanhaneun-windows-teurei-yutil-koreanenglish-ime-toggle-open-source-3lba</link>
-    <guid>https://dev.to/coverboy/shiftspacero-hanyeong-jeonhwanhaneun-windows-teurei-yutil-koreanenglish-ime-toggle-open-source-3lba</guid>
-    <pubDate>Mon, 04 May 2026 03:51:24 +0000</pubDate>
+    <title>Open to Contributions</title>
+    <link>https://dev.to/minh_long/open-to-contributions-2l2g</link>
+    <guid>https://dev.to/minh_long/open-to-contributions-2l2g</guid>
+    <pubDate>Mon, 04 May 2026 06:51:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Windows에서 한/영 전환할 때마다 키보드 종류 설정 → 재부팅 → 다시 풀려있음 → 또 재부팅... 이 무한루프 겪어보신 분 있을 겁니다. 이런 유틸들은 예전부터 많이 있었습니다. 그런데 막상 필요할 때 검색하면 잘 안 나오고 (&quot;개똥도 약에 쓰려면 없다&quot;고), 어쩌다 찾아도 출처 모를 binary 파일만 굴러다녀 실행하기 불안하기도 합니다....</description>
+    <description>Hi, I&apos;m Nguyễn Tứ Minh Long, a full-stack web dev student based in Vietnam. Currently building: Personal AI Assistant (SecondBrain) – RAG-powered AI chat with your documents (Next.js 16 + Supabase...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Roadmap Profesional en Tecnología: Diseña tu crecimiento más allá de la empresa</title>
-    <link>https://dev.to/8infinitecloud/roadmap-profesional-en-tecnologia-disena-tu-crecimiento-mas-alla-de-la-empresa-2bi2</link>
-    <guid>https://dev.to/8infinitecloud/roadmap-profesional-en-tecnologia-disena-tu-crecimiento-mas-alla-de-la-empresa-2bi2</guid>
-    <pubDate>Mon, 04 May 2026 03:47:50 +0000</pubDate>
+    <title>We Rewrote Our Angular 18 App in React 20 and Increased Developer Velocity by 40%</title>
+    <link>https://dev.to/johalputt/we-rewrote-our-angular-18-app-in-react-20-and-increased-developer-velocity-by-40-l3h</link>
+    <guid>https://dev.to/johalputt/we-rewrote-our-angular-18-app-in-react-20-and-increased-developer-velocity-by-40-l3h</guid>
+    <pubDate>Mon, 04 May 2026 06:51:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tu roadmap profesional importa más de lo que crees Una de las etapas más importantes al iniciar en el mundo de la tecnología es construir tu roadmap profesional. Y no, no es exactamente lo mismo...</description>
+    <description>We Rewrote Our Angular 18 App in React 20 and Increased Developer Velocity by 40% Last quarter, our engineering team made the bold call to rewrite our 3-year-old Angular 18 production application...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M</title>
+    <link>https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html</link>
+    <guid>https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html</guid>
+    <pubDate>Mon, 04 May 2026 05:59:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>‘This is fine’ creator says AI startup stole his art</title>
@@ -266,15 +275,6 @@
     <pubDate>Fri, 01 May 2026 22:13:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models</title>
-    <link>https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/</link>
-    <guid>https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/</guid>
-    <pubDate>Fri, 01 May 2026 22:08:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had...</description>
     <category>AI</category>
   </item>
 </channel>
