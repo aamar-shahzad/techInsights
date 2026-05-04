@@ -5,97 +5,142 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 04 May 2026 17:51:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 04 May 2026 21:19:50 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I built an offline-first Markdown editor that runs as a single HTML file</title>
-    <link>https://dev.to/ishizakahiroshi/i-built-an-offline-first-markdown-editor-that-runs-as-a-single-html-file-53ii</link>
-    <guid>https://dev.to/ishizakahiroshi/i-built-an-offline-first-markdown-editor-that-runs-as-a-single-html-file-53ii</guid>
-    <pubDate>Mon, 04 May 2026 17:44:12 +0000</pubDate>
+    <title>5 Nylas CLI commands every AI agent should have access to</title>
+    <link>https://dev.to/qasim157/5-nylas-cli-commands-every-ai-agent-should-have-access-to-2e87</link>
+    <guid>https://dev.to/qasim157/5-nylas-cli-commands-every-ai-agent-should-have-access-to-2e87</guid>
+    <pubDate>Mon, 04 May 2026 21:11:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most Markdown editors today assume cloud sync, Electron, or heavy installations. I wanted something simpler. I wanted a Markdown editor that: Works fully offline Opens local .md files directly...</description>
+    <description>Adding email and calendar tools to an AI agent is mostly an exercise in restraint. Give it 50 commands and the agent gets confused. Give it 5 carefully-chosen ones and it punches above its weight....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>7 Coder Words: Lessons from Building a PWA Word Puzzle for Coders and Nerds</title>
-    <link>https://dev.to/petarov/7-coder-words-how-i-built-a-pwa-word-puzzle-for-programmers-and-nerds-4pg4</link>
-    <guid>https://dev.to/petarov/7-coder-words-how-i-built-a-pwa-word-puzzle-for-programmers-and-nerds-4pg4</guid>
-    <pubDate>Mon, 04 May 2026 17:44:00 +0000</pubDate>
+    <title>Send email from any Linux server in 60 seconds — no SMTP config</title>
+    <link>https://dev.to/qasim157/send-email-from-any-linux-server-in-60-seconds-no-smtp-config-11ac</link>
+    <guid>https://dev.to/qasim157/send-email-from-any-linux-server-in-60-seconds-no-smtp-config-11ac</guid>
+    <pubDate>Mon, 04 May 2026 21:11:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>7 CODER W🙂RDS is a word puzzle game for people interested in computer science in general. You are given 7 clues and you need to guess the word behind each clue by combining shuffled word tiles....</description>
+    <description>You ssh&apos;d into a fresh Linux box and you need to send an email. Maybe a backup completed. Maybe a deploy succeeded. Maybe a process crashed and you want a stack trace in your inbox. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>&quot;Why I stopped trusting npm audit (and built my own)&quot;</title>
-    <link>https://dev.to/neve7er/why-i-stopped-trusting-npm-audit-and-built-my-own-12d3</link>
-    <guid>https://dev.to/neve7er/why-i-stopped-trusting-npm-audit-and-built-my-own-12d3</guid>
-    <pubDate>Mon, 04 May 2026 17:42:52 +0000</pubDate>
+    <title>From Gmail OAuth hell to one-line agent identity</title>
+    <link>https://dev.to/qasim157/from-gmail-oauth-hell-to-one-line-agent-identity-cpp</link>
+    <guid>https://dev.to/qasim157/from-gmail-oauth-hell-to-one-line-agent-identity-cpp</guid>
+    <pubDate>Mon, 04 May 2026 21:10:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Generate a CycloneDX SBOM and deterministic, audit-ready risk report from your package-lock.json. You run npm audit. It says “47 vulnerabilities.” Cool. Which ones actually matter? The one in your...</description>
+    <description>I tried to give an AI agent its own email account three different ways. The first two took most of an afternoon. The third took 28 seconds. This is the migration story. Attempt 1: dedicated Gmail...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Workspace 2026 : May the Fourth Be With You — The Rise of Ephemeral Dev Environments</title>
-    <link>https://dev.to/hexfloor/workspace-2026-may-the-fourth-be-with-you-the-rise-of-ephemeral-dev-environments-153m</link>
-    <guid>https://dev.to/hexfloor/workspace-2026-may-the-fourth-be-with-you-the-rise-of-ephemeral-dev-environments-153m</guid>
-    <pubDate>Mon, 04 May 2026 17:40:18 +0000</pubDate>
+    <title>AI agents need email — your MCP setup is incomplete without it</title>
+    <link>https://dev.to/qasim157/ai-agents-need-email-your-mcp-setup-is-incomplete-without-it-ic6</link>
+    <guid>https://dev.to/qasim157/ai-agents-need-email-your-mcp-setup-is-incomplete-without-it-ic6</guid>
+    <pubDate>Mon, 04 May 2026 21:10:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Let&apos;s have some fun and ask ChatGPT the following question : From the perspective of software system architecture in 2026, what would the Jedi and Sith approaches respectively be...</description>
+    <description>Your MCP setup probably has filesystem, Slack, GitHub, maybe a database connector. Common stack. Common gap: no email. That gap is more important than most teams realise. Here is the case for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Captions Are Useful, But Field Reports Still Need Human Review</title>
-    <link>https://dev.to/filio-ai/ai-captions-are-useful-but-field-reports-still-need-human-review-ab3</link>
-    <guid>https://dev.to/filio-ai/ai-captions-are-useful-but-field-reports-still-need-human-review-ab3</guid>
-    <pubDate>Mon, 04 May 2026 17:39:28 +0000</pubDate>
+    <title>Per-PR ephemeral email inboxes for E2E tests in GitHub Actions</title>
+    <link>https://dev.to/qasim157/per-pr-ephemeral-email-inboxes-for-e2e-tests-in-github-actions-352j</link>
+    <guid>https://dev.to/qasim157/per-pr-ephemeral-email-inboxes-for-e2e-tests-in-github-actions-352j</guid>
+    <pubDate>Mon, 04 May 2026 21:10:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI captions can make field reporting faster. They can also create risk if teams treat them as final truth. That is the tension. In field documentation, a caption is not just a convenience. It can...</description>
+    <description>Your password-reset flow needs an inbox to test against. Your invitation flow too. Your email-verification gate too. The classic setup is a &quot;test+pr-1234@yourdomain.com&quot; alias on a shared mailbox,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Seeking Testers: GNSS App</title>
-    <link>https://dev.to/bertjerred/seeking-testers-gnss-app-mk4</link>
-    <guid>https://dev.to/bertjerred/seeking-testers-gnss-app-mk4</guid>
-    <pubDate>Mon, 04 May 2026 17:38:52 +0000</pubDate>
+    <title>How I auto-triage 200 emails a day with Aider and Nylas</title>
+    <link>https://dev.to/qasim157/how-i-auto-triage-200-emails-a-day-with-aider-and-nylas-kn7</link>
+    <guid>https://dev.to/qasim157/how-i-auto-triage-200-emails-a-day-with-aider-and-nylas-kn7</guid>
+    <pubDate>Mon, 04 May 2026 21:10:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I created &quot;You Are Here,&quot; a GNSS app that uses your Android device&apos;s navigation hardware (_not _wifi or cellular) + your magnetometer to tell you about the satellites around us. Visit the link at...</description>
+    <description>My inbox averages 200 messages a workday. Half are noise. A quarter need a fast acknowledgement. The remainder need real work. The split is mostly stable, so the triage rules are mostly stable, so...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a 4-week hackathon focused entirely on real-world debugging instead of Leetcode problems</title>
-    <link>https://dev.to/vulcanwm/i-built-a-4-week-hackathon-focused-entirely-on-real-world-debugging-instead-of-leetcode-problems-2dgp</link>
-    <guid>https://dev.to/vulcanwm/i-built-a-4-week-hackathon-focused-entirely-on-real-world-debugging-instead-of-leetcode-problems-2dgp</guid>
-    <pubDate>Mon, 04 May 2026 17:38:05 +0000</pubDate>
+    <title>Build a daily email digest with cron and 6 lines of bash</title>
+    <link>https://dev.to/qasim157/build-a-daily-email-digest-with-cron-and-6-lines-of-bash-4ah1</link>
+    <guid>https://dev.to/qasim157/build-a-daily-email-digest-with-cron-and-6-lines-of-bash-4ah1</guid>
+    <pubDate>Mon, 04 May 2026 21:10:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most coding platforms train engineers to solve isolated algorithm problems. But in real engineering, you rarely reverse linked lists. You debug production systems. You trace issues across files....</description>
+    <description>Every product team rebuilds the same thing: a 7 AM email summarising what happened yesterday. Signups. Errors. New customers. Pipeline counts. Some teams use Looker. Some pay Zapier. Some have a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Where misunderstood with Monoliths and Kubernetes: Benchmark</title>
-    <link>https://dev.to/johalputt/where-misunderstood-with-monoliths-and-kubernetes-benchmark-pdl</link>
-    <guid>https://dev.to/johalputt/where-misunderstood-with-monoliths-and-kubernetes-benchmark-pdl</guid>
-    <pubDate>Mon, 04 May 2026 17:36:36 +0000</pubDate>
+    <title>Nylas CLI vs n8n vs Zapier for email automation in 2026</title>
+    <link>https://dev.to/qasim157/nylas-cli-vs-n8n-vs-zapier-for-email-automation-in-2026-76m</link>
+    <guid>https://dev.to/qasim157/nylas-cli-vs-n8n-vs-zapier-for-email-automation-in-2026-76m</guid>
+    <pubDate>Mon, 04 May 2026 21:10:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>85% of teams migrating to Kubernetes from monoliths report no statistically significant latency improvement in the first 12 months, yet 72% still push the migration anyway. Our 10-iteration...</description>
+    <description>You want to send a digest email at 7 AM every weekday, or fire a Slack alert when an &quot;INVOICE&quot; subject lands. Three tools claim to solve this: n8n, Zapier, and the Nylas CLI. They look...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I was introduced to SQL window function</title>
-    <link>https://dev.to/dhairya_pandya/how-i-was-introduced-to-sql-window-function-292m</link>
-    <guid>https://dev.to/dhairya_pandya/how-i-was-introduced-to-sql-window-function-292m</guid>
-    <pubDate>Mon, 04 May 2026 17:32:29 +0000</pubDate>
+    <title>Stop using Postfix for transactional email</title>
+    <link>https://dev.to/qasim157/stop-using-postfix-for-transactional-email-m0</link>
+    <guid>https://dev.to/qasim157/stop-using-postfix-for-transactional-email-m0</guid>
+    <pubDate>Mon, 04 May 2026 21:10:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I was called at my firm for having to create a analytics dashboard for a multiTenet CRM dashboard where the magnitude of rows were in thousands and the efficiency i could not blame postgress or...</description>
+    <description>Postfix has shipped 12 security advisories since 2020 (source). Each one needs a patch, a daemon restart, and a smoke test to confirm mail still flows. Twelve interruptions to ship, for a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Seeking Testers: Chime Ball</title>
-    <link>https://dev.to/bertjerred/seeking-testers-chime-ball-59po</link>
-    <guid>https://dev.to/bertjerred/seeking-testers-chime-ball-59po</guid>
-    <pubDate>Mon, 04 May 2026 17:32:03 +0000</pubDate>
+    <title>I gave my Claude Code agent an email address</title>
+    <link>https://dev.to/qasim157/i-gave-my-claude-code-agent-an-email-address-14hc</link>
+    <guid>https://dev.to/qasim157/i-gave-my-claude-code-agent-an-email-address-14hc</guid>
+    <pubDate>Mon, 04 May 2026 21:09:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I have created an Android app called &quot;Chime Ball.&quot; The idea for this app = SUPER SIMPLICITY, for kids. Balls are dropped into a play area which can be arranged on a stealthy treble clef-ish shelf...</description>
+    <description>My Claude Code agent had everything except an email address. Repo access. Shell. MCP tools. But the moment any task hit &quot;verify your account&quot; or &quot;we sent you a code&quot;, it stalled and asked me to...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Skylight’s 15-inch smart calendar is down to its lowest price to date</title>
+    <link>https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale</link>
+    <guid>https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale</guid>
+    <pubDate>Mon, 04 May 2026 20:44:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When you’re juggling more than just your own calendar, staying organized can be overwhelming. Fortunately, the Skylight Calendar 2 can help simplify things by syncing multiple calendars in a...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Image AI models now drive app growth, beating chatbot upgrades</title>
+    <link>https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/</link>
+    <guid>https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/</guid>
+    <pubDate>Mon, 04 May 2026 19:12:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>SwitchBot’s rechargeable button pusher is on sale for over 20 percent off</title>
+    <link>https://www.theverge.com/gadgets/923162/switchbot-bot-rechargeable-button-presser-mothers-day-sale-deal</link>
+    <guid>https://www.theverge.com/gadgets/923162/switchbot-bot-rechargeable-button-presser-mothers-day-sale-deal</guid>
+    <pubDate>Mon, 04 May 2026 18:47:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you want to give mom something that helps lighten the load, the SwitchBot Bot Rechargeable makes for a great, inexpensive gift. And now through May 10th, you can buy it for around $26.99 ($7...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools</title>
+    <link>https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html</link>
+    <guid>https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html</guid>
+    <pubDate>Mon, 04 May 2026 18:06:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>GameStop offers $56 billion for eBay, struggles to explain how it&apos;ll pay for it</title>
+    <link>https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/</link>
+    <guid>https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/</guid>
+    <pubDate>Mon, 04 May 2026 17:57:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Amid falling revenue and store closures, GameStop wants to buy the much larger eBay.</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>The latest AI news we announced in April 2026</title>
@@ -148,7 +193,7 @@
     <guid>https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/</guid>
     <pubDate>Mon, 04 May 2026 16:36:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Musk texted OpenAI&apos;s president and co-founder saying that he and CEO Sam Altman &quot;will be the most hated men in America.&quot;</description>
+    <description>Musk texted OpenAI&apos;s president and co-founder saying that he and CEO Sam Altman &quot;will be the most hated men in America&quot; if OpenAI doesn&apos;t settle the suit.</description>
     <category>AI</category>
   </item>
   <item>
@@ -231,51 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass</title>
-    <link>https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/</link>
-    <guid>https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/</guid>
-    <pubDate>Mon, 04 May 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The BOGO offer is live. For a limited time, buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Offer ends this Friday, May 8. Save here.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>GameStop makes $56 billion offer to acquire eBay</title>
-    <link>https://www.theverge.com/games/922935/gamestop-ebay-bid</link>
-    <guid>https://www.theverge.com/games/922935/gamestop-ebay-bid</guid>
-    <pubDate>Mon, 04 May 2026 13:46:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>GameStop has made an offer to acquire eBay for $56 billion, which comes as part of GameStop CEO Ryan Cohen&apos;s plan to transform the online marketplace into a &quot;legit competitor to Amazon,&quot; he tells...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes</title>
-    <link>https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/</link>
-    <guid>https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/</guid>
-    <pubDate>Mon, 04 May 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Tailoring AI solutions for health care needs</title>
-    <link>https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/</link>
-    <guid>https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/</guid>
-    <pubDate>Mon, 04 May 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The AI market is full of big promises of grand transformation. Health care is a prime target for those promises, beset as it is by financial pressures, labor shortages, and the growing burden of...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Hisense aggressively cuts the price of its RGB LED TV on release day</title>
-    <link>https://www.theverge.com/tech/922571/hisense-cuts-price-ur9</link>
-    <guid>https://www.theverge.com/tech/922571/hisense-cuts-price-ur9</guid>
-    <pubDate>Mon, 04 May 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Hisense UR9 - the first RGB LED TV to be released this year - is now available for much less than originally revealed. The 65-inch UR9 is now $1,999, while the 75-inch model is $2,999, and the...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
