@@ -5,97 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 04 May 2026 07:23:49 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 04 May 2026 10:25:06 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>A superscript-1 walks past every Go SSRF guard</title>
-    <link>https://dev.to/sankalp_gilda_92ba4374021/a-superscript-1-walks-past-every-go-ssrf-guard-3gk3</link>
-    <guid>https://dev.to/sankalp_gilda_92ba4374021/a-superscript-1-walks-past-every-go-ssrf-guard-3gk3</guid>
-    <pubDate>Mon, 04 May 2026 07:13:22 +0000</pubDate>
+    <title>I Tested Every Major AI Tool Here&apos;s What I Actually Found</title>
+    <link>https://dev.to/bruce_wayne_834bef916a03f/i-tested-every-major-ai-tool-heres-what-i-actually-found-530c</link>
+    <guid>https://dev.to/bruce_wayne_834bef916a03f/i-tested-every-major-ai-tool-heres-what-i-actually-found-530c</guid>
+    <pubDate>Mon, 04 May 2026 10:21:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR. golang.org/x/net/idna.Lookup.ToASCII runs UTS-46 NFKC mapping on hostnames, which folds 100 non-ASCII Unicode digit codepoints (math superscripts, circled digits, fullwidth digits,...</description>
+    <description>Over the past few months I have been using pretty much every major AI tool available right now. Not for research and not for a project, but just as part of my daily student life. Assignments,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Adding a Trust Boundary to a Haystack Pipeline</title>
-    <link>https://dev.to/anviren/adding-a-trust-boundary-to-a-haystack-pipeline-1e5d</link>
-    <guid>https://dev.to/anviren/adding-a-trust-boundary-to-a-haystack-pipeline-1e5d</guid>
-    <pubDate>Mon, 04 May 2026 07:02:47 +0000</pubDate>
+    <title>I Built an Open Source AI News Radar Around Human Taste, Not Just AI Summaries</title>
+    <link>https://dev.to/thysrael/i-built-an-open-source-ai-news-radar-around-human-taste-not-just-ai-summaries-5af</link>
+    <guid>https://dev.to/thysrael/i-built-an-open-source-ai-news-radar-around-human-taste-not-just-ai-summaries-5af</guid>
+    <pubDate>Mon, 04 May 2026 10:16:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A Haystack pipeline can be perfectly wired and still unsafe. The retriever returns documents. The ranker ranks them. The prompt builder formats them. The generator answers. Every component did its...</description>
+    <description>Most AI news tools try to solve information overload by summarizing more content, faster. That was not the product I wanted to build. I wanted something closer to a personal news radar: a system...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why do you keep starting new things but can&apos;t finish them?</title>
-    <link>https://dev.to/rifat240510/why-do-you-keep-starting-new-things-but-cant-finish-them-586p</link>
-    <guid>https://dev.to/rifat240510/why-do-you-keep-starting-new-things-but-cant-finish-them-586p</guid>
-    <pubDate>Mon, 04 May 2026 07:01:06 +0000</pubDate>
+    <title>1.1.1 Life of a Query</title>
+    <link>https://dev.to/joonghyuk_shin_28874f3573/111-life-of-a-query-1phg</link>
+    <guid>https://dev.to/joonghyuk_shin_28874f3573/111-life-of-a-query-1phg</guid>
+    <pubDate>Mon, 04 May 2026 10:13:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Have you noticed that your problem is not starting… the problem is finishing? You don&apos;t have a problem starting something new. There is excitement in a new idea, there is motivation, there is a...</description>
+    <description>This section is the map for the rest of the book. The five stages introduced in the 1.1 chapter overview (parse, analyze/rewrite, plan, portal, execute) are traced here through the actual code:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When DynamoDB Global Tables Go Stale: Chaos Testing Replication Lag with AWS FIS</title>
-    <link>https://dev.to/aws-builders/when-dynamodb-global-tables-go-stale-chaos-testing-replication-lag-with-aws-fis-2ij8</link>
-    <guid>https://dev.to/aws-builders/when-dynamodb-global-tables-go-stale-chaos-testing-replication-lag-with-aws-fis-2ij8</guid>
-    <pubDate>Mon, 04 May 2026 07:00:00 +0000</pubDate>
+    <title>Full agentic coding corrodes the very skills it needs to work</title>
+    <link>https://dev.to/thegatewayguy/full-agentic-coding-corrodes-the-very-skills-it-needs-to-work-449b</link>
+    <guid>https://dev.to/thegatewayguy/full-agentic-coding-corrodes-the-very-skills-it-needs-to-work-449b</guid>
+    <pubDate>Mon, 04 May 2026 10:07:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>DynamoDB Global Tables replicate data across regions in seconds, but replication is still asynchronous. That means a simple read from a replica region can occasionally return stale data, which is...</description>
+    <description>The pitch for full agentic coding sounds clean: you write specs, agents write code, you review and steer. The human stays &quot;in the loop&quot; as the expert orchestrator. But buried in Anthropic&apos;s own...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building B2B feedback, NPS, and announcements as a drop-in embed (not another heavy SDK)</title>
-    <link>https://dev.to/vipinlahoti/building-b2b-feedback-nps-and-announcements-as-a-drop-in-embed-not-another-heavy-sdk-2pel</link>
-    <guid>https://dev.to/vipinlahoti/building-b2b-feedback-nps-and-announcements-as-a-drop-in-embed-not-another-heavy-sdk-2pel</guid>
-    <pubDate>Mon, 04 May 2026 07:00:00 +0000</pubDate>
+    <title>We Cut Compliance Costs by 40% Using Pulumi 3.140 and Chef 18 for Multi-Cloud AWS and GCP</title>
+    <link>https://dev.to/johalputt/we-cut-compliance-costs-by-40-using-pulumi-3140-and-chef-18-for-multi-cloud-aws-and-gcp-5995</link>
+    <guid>https://dev.to/johalputt/we-cut-compliance-costs-by-40-using-pulumi-3140-and-chef-18-for-multi-cloud-aws-and-gcp-5995</guid>
+    <pubDate>Mon, 04 May 2026 10:06:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The problem we kept seeing Product, marketing, and CX teams want on-site feedback, NPS, and lightweight announcements (changelog nudges, maintenance banners, promos) on real pages—marketing sites,...</description>
+    <description>We Cut Compliance Costs by 40% Using Pulumi 3.140 and Chef 18 for Multi-Cloud AWS and GCP Modern multi-cloud environments offer unmatched flexibility, but they also introduce complex compliance...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Apple Sign-In with Flutter and Supabase</title>
-    <link>https://dev.to/gautier/apple-sign-in-with-flutter-and-supabase-40lp</link>
-    <guid>https://dev.to/gautier/apple-sign-in-with-flutter-and-supabase-40lp</guid>
-    <pubDate>Mon, 04 May 2026 06:58:40 +0000</pubDate>
+    <title>Wabi-Sabi and Whitespace: Eastern Philosophy for Web Design</title>
+    <link>https://dev.to/easterndev/wabi-sabi-and-whitespace-eastern-philosophy-for-web-design-1d51</link>
+    <guid>https://dev.to/easterndev/wabi-sabi-and-whitespace-eastern-philosophy-for-web-design-1d51</guid>
+    <pubDate>Mon, 04 May 2026 10:06:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If your Flutter app offers any third-party login on iOS — Google, Facebook, anything — Apple&apos;s App Review guideline 4.8 forces you to also offer Sign in with Apple. Skipping it is a guaranteed App...</description>
+    <description>Wabi-Sabi and Whitespace: Eastern Philosophy for Web Design What I learned from studying traditional aesthetics that completely changed how I build interfaces The Accidental Discovery Last year, I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Model Routing: 3 Things I Learned Sending Tasks to the Cheapest Model That Actually Works</title>
-    <link>https://dev.to/natevoss/model-routing-3-things-i-learned-sending-tasks-to-the-cheapest-model-that-actually-works-4e31</link>
-    <guid>https://dev.to/natevoss/model-routing-3-things-i-learned-sending-tasks-to-the-cheapest-model-that-actually-works-4e31</guid>
-    <pubDate>Mon, 04 May 2026 06:54:30 +0000</pubDate>
+    <title>Complete Guide to Multichain Analytics: Web3 Data Intelligence (2026)</title>
+    <link>https://dev.to/yos/complete-guide-to-multichain-analytics-web3-data-intelligence-2026-2i32</link>
+    <guid>https://dev.to/yos/complete-guide-to-multichain-analytics-web3-data-intelligence-2026-2i32</guid>
+    <pubDate>Mon, 04 May 2026 10:05:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Everyone benchmarks models. Sonnet beats Haiku on reasoning. Opus beats Sonnet. Haiku is fastest. These things are all true. But benchmarking and deploying are different games. At scale, the...</description>
+    <description>Key Takeaways Multichain user journeys span social discovery, multiple chains, and offchain touchpoints so analytics tools must unify all data sources into a single user profile to avoid making...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Strategies to combat adverse effects of AI coding for human engineers</title>
-    <link>https://dev.to/rrsai/strategies-to-combat-adverse-effects-of-ai-coding-for-human-engineers-3if6</link>
-    <guid>https://dev.to/rrsai/strategies-to-combat-adverse-effects-of-ai-coding-for-human-engineers-3if6</guid>
-    <pubDate>Mon, 04 May 2026 06:54:21 +0000</pubDate>
+    <title>C# သင်ခန်းစာ - ၆</title>
+    <link>https://dev.to/khunsai_thawzin_42af6e108/c-sngkhncaa-6-3037</link>
+    <guid>https://dev.to/khunsai_thawzin_42af6e108/c-sngkhncaa-6-3037</guid>
+    <pubDate>Mon, 04 May 2026 10:03:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Generative coding is burning out engineers. One of the many ways that manifests is in the very people who built last year&apos;s software not having the motivation to build this year&apos;s software. In the...</description>
+    <description>Compiler နဲ့ Interpreter ဘာကွာလဲ Compiler နဲ့ Interpreter နှစ်ခုလုံးဟာ ကိုယ်ရေးထားတဲ့ High-level code (C#, Python, Java) တွေကို ကွန်ပျူတာနားလည်တဲ့ Machine code အဖြစ် ပြောင်းပေးတဲ့ &quot;ဘာသာပြန်ဆရာ&quot;...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Open to Contributions</title>
-    <link>https://dev.to/minh_long/open-to-contributions-2l2g</link>
-    <guid>https://dev.to/minh_long/open-to-contributions-2l2g</guid>
-    <pubDate>Mon, 04 May 2026 06:51:29 +0000</pubDate>
+    <title>AI Gateway vs MCP Gateway vs Agent Gateway: What Each One Does (And When You Actually Need Them)</title>
+    <link>https://dev.to/hadil/ai-gateway-vs-mcp-gateway-vs-agent-gateway-what-each-one-does-and-when-you-actually-need-them-33po</link>
+    <guid>https://dev.to/hadil/ai-gateway-vs-mcp-gateway-vs-agent-gateway-what-each-one-does-and-when-you-actually-need-them-33po</guid>
+    <pubDate>Mon, 04 May 2026 10:03:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hi, I&apos;m Nguyễn Tứ Minh Long, a full-stack web dev student based in Vietnam. Currently building: Personal AI Assistant (SecondBrain) – RAG-powered AI chat with your documents (Next.js 16 + Supabase...</description>
+    <description>If you’ve been building with AI recently, you’ve probably seen these terms everywhere: AI Gateway. MCP Gateway. Agent Gateway. And depending on where you read, they either sound like the same...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>We Rewrote Our Angular 18 App in React 20 and Increased Developer Velocity by 40%</title>
-    <link>https://dev.to/johalputt/we-rewrote-our-angular-18-app-in-react-20-and-increased-developer-velocity-by-40-l3h</link>
-    <guid>https://dev.to/johalputt/we-rewrote-our-angular-18-app-in-react-20-and-increased-developer-velocity-by-40-l3h</guid>
-    <pubDate>Mon, 04 May 2026 06:51:04 +0000</pubDate>
+    <title>Digital Sovereignty for AI: What &quot;Sovereignty&quot; Actually Means at the Hardware Layer</title>
+    <link>https://dev.to/voltagegpu/digital-sovereignty-for-ai-what-sovereignty-actually-means-at-the-hardware-layer-4bgp</link>
+    <guid>https://dev.to/voltagegpu/digital-sovereignty-for-ai-what-sovereignty-actually-means-at-the-hardware-layer-4bgp</guid>
+    <pubDate>Mon, 04 May 2026 10:02:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We Rewrote Our Angular 18 App in React 20 and Increased Developer Velocity by 40% Last quarter, our engineering team made the bold call to rewrite our 3-year-old Angular 18 production application...</description>
+    <description>Quick Answer: &quot;Digital sovereignty&quot; in AI isn&apos;t about where your servers are. It&apos;s about who can access your data while it&apos;s being processed. Most &quot;sovereign AI&quot; solutions just move the problem —...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hacking Polymarket</title>
+    <link>https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html</guid>
+    <pubDate>Mon, 04 May 2026 09:46:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Polymarket is a platform where people can bet on real-world events, political and otherwise. Leaving the ethical considerations of this aside (for one, it facilitates assassination), one of the...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M</title>
@@ -266,15 +275,6 @@
     <pubDate>Fri, 01 May 2026 23:06:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>At TechCrunch&apos;s sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now:...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meta buys robotics startup to bolster its humanoid AI ambitions</title>
-    <link>https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/</link>
-    <guid>https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/</guid>
-    <pubDate>Fri, 01 May 2026 22:13:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.</description>
     <category>AI</category>
   </item>
 </channel>
