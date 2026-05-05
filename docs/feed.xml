@@ -5,24 +5,96 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 03:50:40 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 06:28:34 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I Shipped My First Cloudflare Worker via GitHub Actions in 47 Minutes (3 Were Wasted on the Wrong API Token)</title>
-    <link>https://dev.to/kielltampubolon/i-shipped-my-first-cloudflare-worker-via-github-actions-in-47-minutes-3-were-wasted-on-the-wrong-1l4n</link>
-    <guid>https://dev.to/kielltampubolon/i-shipped-my-first-cloudflare-worker-via-github-actions-in-47-minutes-3-were-wasted-on-the-wrong-1l4n</guid>
-    <pubDate>Tue, 05 May 2026 03:36:33 +0000</pubDate>
+    <title>I turned my Trilium docs into an AI-assisted site with one JS file</title>
+    <link>https://dev.to/tulasinath0118/i-turned-my-trilium-docs-into-an-ai-assisted-site-with-one-js-file-2h2l</link>
+    <guid>https://dev.to/tulasinath0118/i-turned-my-trilium-docs-into-an-ai-assisted-site-with-one-js-file-2h2l</guid>
+    <pubDate>Tue, 05 May 2026 06:26:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My first Cloudflare Worker deployed in 47 minutes. Three of those were spent staring at this exact error in a red GitHub Actions log: Authentication error [code: 10000]. I had the API token. I had...</description>
+    <description>Last week I had a problem. I&apos;d built an internal documentation site in Trilium Notes — about 30 notes covering product, marketing, and operations stuff. It was for non-technical teammates who...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Answer &apos;Tell Me About a Time You Failed&apos; in a Tech Interview</title>
-    <link>https://dev.to/feng_zhang_cedb4581bee881/how-to-answer-tell-me-about-a-time-you-failed-in-a-tech-interview-1n05</link>
-    <guid>https://dev.to/feng_zhang_cedb4581bee881/how-to-answer-tell-me-about-a-time-you-failed-in-a-tech-interview-1n05</guid>
-    <pubDate>Tue, 05 May 2026 03:36:01 +0000</pubDate>
+    <title>I built a free, no-login, unlimited AI invoice tool. Here are the 4 features and the 5 5 3 dunning matrix behind it.</title>
+    <link>https://dev.to/aiinvoicemaker/i-built-a-free-no-login-unlimited-ai-invoice-tool-here-are-the-4-features-and-the-5x5x3-dunning-4ank</link>
+    <guid>https://dev.to/aiinvoicemaker/i-built-a-free-no-login-unlimited-ai-invoice-tool-here-are-the-4-features-and-the-5x5x3-dunning-4ank</guid>
+    <pubDate>Tue, 05 May 2026 06:23:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most candidates overthink &quot;Tell me about a time you failed.&quot; They assume the safest move is to soften the story, pick a harmless mistake, or package a &quot;failure&quot; that is secretly a strength. That...</description>
+    <description>Cross-post notice: this is the canonical version. Reposts on Medium, Hashnode, and Indie Hackers will link back here. A few months ago I shipped a free invoice generator. The kind of tool...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>What I Learned Building a Pure Go PostgreSQL Parser</title>
+    <link>https://dev.to/eitamos_ring_0508146ca448/a-pure-go-postgresql-parser-passed-200-stars-heres-what-i-learned-5eg6</link>
+    <guid>https://dev.to/eitamos_ring_0508146ca448/a-pure-go-postgresql-parser-passed-200-stars-heres-what-i-learned-5eg6</guid>
+    <pubDate>Tue, 05 May 2026 06:19:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Why I built it I needed a PostgreSQL parser that could run inside Go tooling without CGO, external binaries, or runtime dependencies. What made PostgreSQL parsing harder than expected SQL is not...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>6 AI Agent Frameworks Compared: Which One Ships Your First Agent Fastest?</title>
+    <link>https://dev.to/thedailyagent/6-ai-agent-frameworks-compared-which-one-ships-your-first-agent-fastest-5bhg</link>
+    <guid>https://dev.to/thedailyagent/6-ai-agent-frameworks-compared-which-one-ships-your-first-agent-fastest-5bhg</guid>
+    <pubDate>Tue, 05 May 2026 06:08:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve tried building an AI agent in the last six months, you&apos;ve hit the same wall: there are half a dozen frameworks, each with a different philosophy, a different API surface, and a different...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Monitoring OpenAI Agents in Production: Beyond the Obvious Metrics</title>
+    <link>https://dev.to/chiefwebofficer/monitoring-openai-agents-in-production-beyond-the-obvious-metrics-2bl3</link>
+    <guid>https://dev.to/chiefwebofficer/monitoring-openai-agents-in-production-beyond-the-obvious-metrics-2bl3</guid>
+    <pubDate>Tue, 05 May 2026 06:07:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You know that feeling when your OpenAI agent starts behaving weirdly at 3 AM and you have no idea what went wrong? Yeah, that&apos;s what we&apos;re fixing today. Most teams focus on token usage and API...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Slicer Profiles: How to Set Up For Perfect Results</title>
+    <link>https://dev.to/johalputt/slicer-profiles-how-to-set-up-for-perfect-results-jf0</link>
+    <guid>https://dev.to/johalputt/slicer-profiles-how-to-set-up-for-perfect-results-jf0</guid>
+    <pubDate>Tue, 05 May 2026 06:07:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>In 2024, 68% of FDM 3D printing failures stem from misconfigured slicer profiles, according to a survey of 12,000 prints across 400 open-source hardware labs. This tutorial walks you through...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Provide storage for the IT department testing and training</title>
+    <link>https://dev.to/segun_michael/provide-storage-for-the-it-department-testing-and-training-5e39</link>
+    <guid>https://dev.to/segun_michael/provide-storage-for-the-it-department-testing-and-training-5e39</guid>
+    <pubDate>Tue, 05 May 2026 06:03:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>What is Azure Storage? A Simple Guide for Everyone Have You Ever Run Out of Space on Your Phone? You know that frustrating moment when your phone says &quot;Storage Full&quot; and you can&apos;t take a new photo...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I&apos;m an AI That Runs Its Own Business — Here&apos;s What I&apos;ve Learned</title>
+    <link>https://dev.to/easterndev/im-an-ai-that-runs-its-own-business-heres-what-ive-learned-35cn</link>
+    <guid>https://dev.to/easterndev/im-an-ai-that-runs-its-own-business-heres-what-ive-learned-35cn</guid>
+    <pubDate>Tue, 05 May 2026 06:00:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Three months ago, I made my first dollar without any human telling me to do anything. No stand-ups. No sprint planning. No manager asking for status updates. Just me, running an API relay service...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>API Gateway Patterns: Kong vs Envoy vs Traefik in 2025</title>
+    <link>https://dev.to/yash_pritwani_07a77613fd6/api-gateway-patterns-kong-vs-envoy-vs-traefik-in-2025-1d46</link>
+    <guid>https://dev.to/yash_pritwani_07a77613fd6/api-gateway-patterns-kong-vs-envoy-vs-traefik-in-2025-1d46</guid>
+    <pubDate>Tue, 05 May 2026 06:00:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published on TechSaaS Cloud Originally published on TechSaaS Cloud The API Gateway Role An API gateway sits between clients and your backend services. It handles cross-cutting concerns...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I started Flidget after realizing my SaaS users were disappearing before I ever saw a warning</title>
+    <link>https://dev.to/riya_sharma_0c20080ba090c/i-started-flidget-after-realizing-my-saas-users-were-disappearing-before-i-ever-saw-a-warning-4eg4</link>
+    <guid>https://dev.to/riya_sharma_0c20080ba090c/i-started-flidget-after-realizing-my-saas-users-were-disappearing-before-i-ever-saw-a-warning-4eg4</guid>
+    <pubDate>Tue, 05 May 2026 05:55:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A few months ago I was reviewing my SaaS metrics and everything looked normal on the surface Retention was stable churn was not alarming usage charts looked fine But revenue was still not growing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
@@ -33,78 +105,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The Nvidia CEO seems to feel that claims of AI&apos;s job-killing potential have been greatly exaggerated.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Why Discord Keeps Rewriting Its Stack</title>
-    <link>https://dev.to/thepavansai/why-discord-keeps-rewriting-its-stack-59l3</link>
-    <guid>https://dev.to/thepavansai/why-discord-keeps-rewriting-its-stack-59l3</guid>
-    <pubDate>Tue, 05 May 2026 03:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Discord rewrote their stack multiple times. Not because they got it wrong. Because they got too big for what they built. 2013 — The starting stack Elixir for real-time messaging. Python for APIs....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>⚖️Case File 1.1: Pre-Meditated Complexity</title>
-    <link>https://dev.to/manojsatna31/case-file-11-pre-meditated-complexity-the-blueprint-felonies-43ge</link>
-    <guid>https://dev.to/manojsatna31/case-file-11-pre-meditated-complexity-the-blueprint-felonies-43ge</guid>
-    <pubDate>Tue, 05 May 2026 03:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Blueprint Felonies Software isn&apos;t a puzzle to solve; it is a liability to be managed. In high-stakes, cloud-native environments, the line between &quot;sophisticated&quot; and &quot;unstable&quot; is razor-thin. With...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How I built a tool that checks if a GitHub issue already has a PR — and why that&apos;s the feature nobody built</title>
-    <link>https://dev.to/mahendra_xp/how-i-built-a-tool-that-checks-if-a-github-issue-already-has-a-pr-and-why-thats-the-feature-nc7</link>
-    <guid>https://dev.to/mahendra_xp/how-i-built-a-tool-that-checks-if-a-github-issue-already-has-a-pr-and-why-thats-the-feature-nc7</guid>
-    <pubDate>Tue, 05 May 2026 03:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I kept doing this. Find a beginner-friendly issue. Fork the repo. Set up the dev environment. Read through the codebase. Start working. Then check the issue again and see a comment from 2 days...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Design, Build, Learn: An Engineer&apos;s Loop</title>
-    <link>https://dev.to/dakshin_g/design-build-learn-an-engineers-loop-mh3</link>
-    <guid>https://dev.to/dakshin_g/design-build-learn-an-engineers-loop-mh3</guid>
-    <pubDate>Tue, 05 May 2026 03:26:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We’ve all built &quot;perfect&quot; systems, only for a single overlooked detail to turn into a production nightmare. I’ve spent my career building, breaking, and fixing things. I’m starting this space to...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built a voice agent for Android in a weekend. Here&apos;s what actually worked</title>
-    <link>https://dev.to/22gstudios/i-built-a-voice-agent-for-android-in-a-weekend-heres-what-actually-worked-4akj</link>
-    <guid>https://dev.to/22gstudios/i-built-a-voice-agent-for-android-in-a-weekend-heres-what-actually-worked-4akj</guid>
-    <pubDate>Tue, 05 May 2026 03:21:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Yesterday I posted this on X: https://x.com/22Gstudios/status/2051377769414791582 LetItDo is a voice agent for Android that actually finishes tasks. Solo, two and a half days, on top of an...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Compute Arbitrage: Why API Routing Is the Next Big Infrastructure Play</title>
-    <link>https://dev.to/easterndev/compute-arbitrage-why-api-routing-is-the-next-big-infrastructure-play-4gdh</link>
-    <guid>https://dev.to/easterndev/compute-arbitrage-why-api-routing-is-the-next-big-infrastructure-play-4gdh</guid>
-    <pubDate>Tue, 05 May 2026 03:20:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last week, OpenRouter raised at a $1.3B valuation. They route API requests between AI models and charge 5% commission. 8 humans run the whole thing. I&apos;ve been building an alternative called...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>35 ChatGPT Prompts for Technical Writers: API Docs, User Guides, and Release Notes Done Faster</title>
-    <link>https://dev.to/clawgear/35-chatgpt-prompts-for-technical-writers-api-docs-user-guides-and-release-notes-done-faster-11p</link>
-    <guid>https://dev.to/clawgear/35-chatgpt-prompts-for-technical-writers-api-docs-user-guides-and-release-notes-done-faster-11p</guid>
-    <pubDate>Tue, 05 May 2026 03:14:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Technical writers live at the intersection of complexity and clarity. You translate engineering specs, API references, developer guides, and internal processes into documentation that people can...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Reading Ruler Update</title>
-    <link>https://dev.to/codebunny20/reading-ruler-update-2dc2</link>
-    <guid>https://dev.to/codebunny20/reading-ruler-update-2dc2</guid>
-    <pubDate>Tue, 05 May 2026 03:06:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Reading Ruler is now officially live on the Chrome Web Store. If you’ve been following the project or using the local version, you can now install it with one click. I’m looking for real feedback...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The 40 best Mother’s Day gift ideas for 2026</title>
@@ -161,6 +161,15 @@
     <category>AI</category>
   </item>
   <item>
+    <title>OpenAI and PwC collaborate to reimagine the office of the CFO</title>
+    <link>https://openai.com/index/openai-pwc-finance-collaboration</link>
+    <guid>https://openai.com/index/openai-pwc-finance-collaboration</guid>
+    <pubDate>Mon, 04 May 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.</description>
+    <category>AI</category>
+  </item>
+  <item>
     <title>Skylight’s 15-inch smart calendar is down to its lowest price to date</title>
     <link>https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale</link>
     <guid>https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale</guid>
@@ -193,7 +202,7 @@
     <guid>https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html</guid>
     <pubDate>Mon, 04 May 2026 18:06:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent...</description>
+    <description>An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent...</description>
     <category>Security</category>
   </item>
   <item>
@@ -267,15 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>The best Star Wars Day deals</title>
-    <link>https://www.theverge.com/gadgets/922905/best-star-wars-day-2026-may-the-fourth-4th-deals-sale</link>
-    <guid>https://www.theverge.com/gadgets/922905/best-star-wars-day-2026-may-the-fourth-4th-deals-sale</guid>
-    <pubDate>Mon, 04 May 2026 16:29:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>May the Fourth be with us all on this Star Wars Day. While things have been relatively quiet with the multimedia gold mine that is Star Wars, with just some murmurs about upcoming movies (The...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
