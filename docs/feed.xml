@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 07 May 2026 07:18:09 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 07 May 2026 10:34:54 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>GraphRAG Explained: How Knowledge Graphs Are Transforming Modern RAG Systems</title>
-    <link>https://dev.to/itprepvn/graphrag-explained-how-knowledge-graphs-are-transforming-modern-rag-systems-3ode</link>
-    <guid>https://dev.to/itprepvn/graphrag-explained-how-knowledge-graphs-are-transforming-modern-rag-systems-3ode</guid>
-    <pubDate>Thu, 07 May 2026 07:13:22 +0000</pubDate>
+    <title>Wolverine + Marten: My random takes and updates</title>
+    <link>https://dev.to/manhhungtran/wolverine-marten-my-random-takes-and-updates-5e55</link>
+    <guid>https://dev.to/manhhungtran/wolverine-marten-my-random-takes-and-updates-5e55</guid>
+    <pubDate>Thu, 07 May 2026 10:26:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Original article: https://itprep.com.vn/graphrag-huong-dan-chuyen-sau-va-toi-uu-hoa/ 🌐 Explore more AI &amp; software engineering content at: https://itprep.com.vn/ Large Language Models are...</description>
+    <description>Some time has passed since my last love-hate post about this stack. Short update: I hate to say it, but cough — I like it. A while back I wrote a post called &quot;Wolverine + Marten: My story and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>2.45 Billion Requests, 1.2 Million IPs: Why Traditional Rate Limiting Is Dead</title>
-    <link>https://dev.to/dimitrisk_cyclopt/245-billion-requests-12-million-ips-why-traditional-rate-limiting-is-dead-mjf</link>
-    <guid>https://dev.to/dimitrisk_cyclopt/245-billion-requests-12-million-ips-why-traditional-rate-limiting-is-dead-mjf</guid>
-    <pubDate>Thu, 07 May 2026 07:11:44 +0000</pubDate>
+    <title>Dart for Java Developers</title>
+    <link>https://dev.to/gochev/dart-for-java-developers-28di</link>
+    <guid>https://dev.to/gochev/dart-for-java-developers-28di</guid>
+    <pubDate>Thu, 07 May 2026 10:22:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What happened A massive DDoS campaign recently hit a large-scale user-generated content platform with over 2.45 billion malicious requests in just five hours. But this wasn&apos;t your typical...</description>
+    <description>Dart for Java Developers A deep, practical mapping from Java to Dart: syntax, type system, concurrency, tooling, Flutter, and backend (Shelf, Relic, Serverpod, and the broader pub.dev ecosystem)....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Hackathon to a Product in a Year</title>
-    <link>https://dev.to/zerodays/from-hackathon-to-a-product-in-a-year-4ia7</link>
-    <guid>https://dev.to/zerodays/from-hackathon-to-a-product-in-a-year-4ia7</guid>
-    <pubDate>Thu, 07 May 2026 07:11:01 +0000</pubDate>
+    <title>Distributed Shopify Inventory Sync: Architecture Guide for Scale</title>
+    <link>https://dev.to/masadashraf/distributed-shopify-inventory-sync-architecture-guide-for-scale-1b60</link>
+    <guid>https://dev.to/masadashraf/distributed-shopify-inventory-sync-architecture-guide-for-scale-1b60</guid>
+    <pubDate>Thu, 07 May 2026 10:20:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last year we shared a bit about an internal hackathon we held in our office. The idea was simple: give the team time and space to experiment, build quickly, and see what new product ideas could...</description>
+    <description>Keeping inventory accurate across Shopify, warehouses, and marketplaces sounds simple. At scale, it is one of the hardest engineering problems in ecommerce. A single API call after each sale works...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon</title>
-    <link>https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm</link>
-    <guid>https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm</guid>
-    <pubDate>Thu, 07 May 2026 07:07:17 +0000</pubDate>
+    <title>Hister: The Most Privacy-Respecting Search Engine</title>
+    <link>https://dev.to/hister/hister-the-most-privacy-respecting-search-engine-21fc</link>
+    <guid>https://dev.to/hister/hister-the-most-privacy-respecting-search-engine-21fc</guid>
+    <pubDate>Thu, 07 May 2026 10:19:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Voici un Dockerfile qu&apos;on retrouve dans la majorité des dépôts publics : FROM node:latest WORKDIR /app COPY . . RUN npm install EXPOSE 3000 CMD [&quot;node&quot;, &quot;server.js&quot;] Six lignes, ça compile, ça...</description>
+    <description>Privacy and web search are in constant tension. Every time you type a query into a search engine you are handing over something valuable: a window into what you are thinking. Most people accept...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I got tired of using the terminal to launch emulators, so I built a free system tray GUI to manage them.</title>
-    <link>https://dev.to/coreyess/how-i-eliminated-the-command-line-from-my-mobile-testing-workflow-2ip8</link>
-    <guid>https://dev.to/coreyess/how-i-eliminated-the-command-line-from-my-mobile-testing-workflow-2ip8</guid>
-    <pubDate>Thu, 07 May 2026 07:07:12 +0000</pubDate>
+    <title>Gemma 4, Read My Ingredient Label and Tell Me If It’s Lying: A Personal AI Health Filter</title>
+    <link>https://dev.to/keerthana_696356/gemma-4-read-my-ingredient-label-and-tell-me-if-its-lying-a-personal-ai-health-filter-1pd6</link>
+    <guid>https://dev.to/keerthana_696356/gemma-4-read-my-ingredient-label-and-tell-me-if-its-lying-a-personal-ai-health-filter-1pd6</guid>
+    <pubDate>Thu, 07 May 2026 10:13:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you are a mobile developer, QA tester, or OSINT investigator, you already know the friction of spinning up virtual devices. Trying to remember exactly what you named your virtual phone,...</description>
+    <description>This is a submission for the Gemma 4 Challenge: Build with Gemma 4 *Most apps still treat “healthy” like it’s a universal setting. High protein? Great. Low fat? Great. Organic? Great. * Except…...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The GSMA Just Mapped Out &quot;Mobile AI&quot; Here&apos;s What It Actually Means for Telecom Builders</title>
-    <link>https://dev.to/telecomhub/the-gsma-just-mapped-out-mobile-ai-heres-what-it-actually-means-for-telecom-builders-1fi2</link>
-    <guid>https://dev.to/telecomhub/the-gsma-just-mapped-out-mobile-ai-heres-what-it-actually-means-for-telecom-builders-1fi2</guid>
-    <pubDate>Thu, 07 May 2026 07:06:49 +0000</pubDate>
+    <title>The Bottleneck Was Never the Model — It&apos;s the Routing Layer</title>
+    <link>https://dev.to/xidao/the-bottleneck-was-never-the-model-its-the-routing-layer-1e6a</link>
+    <guid>https://dev.to/xidao/the-bottleneck-was-never-the-model-its-the-routing-layer-1e6a</guid>
+    <pubDate>Thu, 07 May 2026 10:12:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The GSMA dropped a report in March 2026 that&apos;s worth reading if you work anywhere near telecom infrastructure, MVNO platforms, or network software. It&apos;s not hype it&apos;s more of a structural...</description>
+    <description>In May 2026, a widely-discussed essay on Hacker News argued that &quot;the bottleneck was never the code&quot; — AI code generation has solved the coding bottleneck, but the real bottlenecks remain in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What is the new engineering bottleneck?</title>
-    <link>https://dev.to/leonidbugaev/what-is-the-new-engineering-bottleneck-3p4g</link>
-    <guid>https://dev.to/leonidbugaev/what-is-the-new-engineering-bottleneck-3p4g</guid>
-    <pubDate>Thu, 07 May 2026 07:05:53 +0000</pubDate>
+    <title>Top 5 Social Media APIs for Developers in 2026</title>
+    <link>https://dev.to/kevin_menesesgonzlez/top-5-social-media-apis-for-developers-in-2026-140i</link>
+    <guid>https://dev.to/kevin_menesesgonzlez/top-5-social-media-apis-for-developers-in-2026-140i</guid>
+    <pubDate>Thu, 07 May 2026 10:11:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Something I keep thinking about: Maybe AI is not exposing a new problem in engineering. Maybe it is exposing an old one that we were already bad at. We talk about AI like the bottleneck is still...</description>
+    <description>Most developers don&apos;t quit because the idea was wrong. They quit because they spent three weeks wiring up six different OAuth flows, handling rate limits from five separate platforms, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Trust Is the Bottleneck</title>
-    <link>https://dev.to/leonidbugaev/trust-is-the-bottleneck-7p2</link>
-    <guid>https://dev.to/leonidbugaev/trust-is-the-bottleneck-7p2</guid>
-    <pubDate>Thu, 07 May 2026 07:04:16 +0000</pubDate>
+    <title>The Three Bottlenecks AI Can&apos;t Code Away</title>
+    <link>https://dev.to/wundergraph/the-three-bottlenecks-ai-cant-code-away-5cei</link>
+    <guid>https://dev.to/wundergraph/the-three-bottlenecks-ai-cant-code-away-5cei</guid>
+    <pubDate>Thu, 07 May 2026 10:02:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Everyone is asking the same question now: if AI can help us create much more code, why aren’t engineering teams suddenly moving much faster? I think the question is right, but the answer usually...</description>
+    <description>TL;DR AI writes nearly half of all new code, but teams aren&apos;t shipping faster. The bottleneck moved from writing code to coordination, governance, and review. GraphQL Federation addresses all...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>CalyxOS Android 16 Part 2: The Long-Term Test</title>
-    <link>https://dev.to/nishrico0098/calyxos-android-16-part-2-the-long-term-test-4ajj</link>
-    <guid>https://dev.to/nishrico0098/calyxos-android-16-part-2-the-long-term-test-4ajj</guid>
-    <pubDate>Thu, 07 May 2026 07:02:01 +0000</pubDate>
+    <title>Building SwiftDeploy: A Self-Writing Infrastructure Tool with OPA Policy Enforcement and Prometheus Observability</title>
+    <link>https://dev.to/hezekiah_umoh/building-swiftdeploy-a-self-writing-infrastructure-tool-with-opa-policy-enforcement-and-prometheus-2dm1</link>
+    <guid>https://dev.to/hezekiah_umoh/building-swiftdeploy-a-self-writing-infrastructure-tool-with-opa-policy-enforcement-and-prometheus-2dm1</guid>
+    <pubDate>Thu, 07 May 2026 10:01:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Welcome back! In Part 1, I covered the initial setup, basic functionality, and first impressions of running CalyxOS Android 16 on my Motorola G45 5G (India variant). Now, after over two days of...</description>
+    <description>Building SwiftDeploy: A Self-Writing Infrastructure Tool with OPA Policy Enforcement and Prometheus Observability Introduction What if your deployment tool could refuse to deploy when your disk is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The &quot;Free&quot; AI Coding Tool Lie - What the Limits Actually Look Like in 2026</title>
-    <link>https://dev.to/rmdakshiin/the-free-ai-coding-tool-lie-what-the-limits-actually-look-like-in-2026-8ph</link>
-    <guid>https://dev.to/rmdakshiin/the-free-ai-coding-tool-lie-what-the-limits-actually-look-like-in-2026-8ph</guid>
-    <pubDate>Thu, 07 May 2026 07:01:59 +0000</pubDate>
+    <title>From Gulf Coast Pipe Racks to AI Agent Orchestration: The Engineer&apos;s Path</title>
+    <link>https://dev.to/domoniqueluchin/from-gulf-coast-pipe-racks-to-ai-agent-orchestration-the-engineers-path-120p</link>
+    <guid>https://dev.to/domoniqueluchin/from-gulf-coast-pipe-racks-to-ai-agent-orchestration-the-engineers-path-120p</guid>
+    <pubDate>Thu, 07 May 2026 10:00:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I got burned three times before I started keeping notes. The pattern was always the same. Find an AI coding tool. See &quot;free&quot; on the landing page. Spend a weekend integrating it, learning the...</description>
+    <description>I spent six years designing pipe racks and equipment platforms for Gulf Coast oil and gas facilities. Now I also build AI agent systems that run six businesses. These two things are not as...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The balcony solar boom is coming to the US</title>
+    <link>https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/</link>
+    <guid>https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/</guid>
+    <pubDate>Thu, 07 May 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Dozens of US states are considering legislation to allow people to install plug-in solar systems, often called balcony solar. These small arrays require little to no setup and could help cut...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux</title>
+    <link>https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html</link>
+    <guid>https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html</guid>
+    <pubDate>Thu, 07 May 2026 09:20:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called ZiChatBot...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>What’s next for IVF</title>
+    <link>https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/</link>
+    <guid>https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/</guid>
+    <pubDate>Thu, 07 May 2026 09:04:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Forty-eight years ago this July, Louise Joy Brown became the world’s first person born with the help of in vitro fertilization. Millions more IVF babies have entered the world since then. And...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Five architects of the AI economy explain where the wheels are coming off</title>
@@ -241,15 +268,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows</title>
-    <link>https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/</link>
-    <guid>https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/</guid>
-    <pubDate>Wed, 06 May 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>New research suggests that reliance on AI assistants can have a negative impact on people’s ability to think and problem solve.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Mira Murati tells the court that she couldn’t trust Sam Altman’s words</title>
     <link>https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati</link>
     <guid>https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati</guid>
@@ -257,24 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Mira Murati, OpenAI&apos;s former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing Musk v....</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The 44 best last-minute Mother’s Day gift ideas for 2026</title>
-    <link>https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets</link>
-    <guid>https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets</guid>
-    <pubDate>Wed, 06 May 2026 17:34:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Whether it&apos;s managing a busy home or looking out for everyone around them, moms spend a lot of time every day caring for others. This Sunday, Mother&apos;s Day, is an opportunity to return the favor,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>SpaceX may spend up to $119B on ‘Terafab’ chip factory in Texas</title>
-    <link>https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/</link>
-    <guid>https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/</guid>
-    <pubDate>Wed, 06 May 2026 17:23:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The project would be a &quot;multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility,&quot; according to the proposal.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
