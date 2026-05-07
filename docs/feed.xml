@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 07 May 2026 04:05:31 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 07 May 2026 07:18:09 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>The Scam Campaign Lifecycle: Message, Trust, Infrastructure, Action</title>
-    <link>https://dev.to/bhausfeld1/the-scam-campaign-lifecycle-message-trust-infrastructure-action-o33</link>
-    <guid>https://dev.to/bhausfeld1/the-scam-campaign-lifecycle-message-trust-infrastructure-action-o33</guid>
-    <pubDate>Thu, 07 May 2026 04:01:24 +0000</pubDate>
+    <title>GraphRAG Explained: How Knowledge Graphs Are Transforming Modern RAG Systems</title>
+    <link>https://dev.to/itprepvn/graphrag-explained-how-knowledge-graphs-are-transforming-modern-rag-systems-3ode</link>
+    <guid>https://dev.to/itprepvn/graphrag-explained-how-knowledge-graphs-are-transforming-modern-rag-systems-3ode</guid>
+    <pubDate>Thu, 07 May 2026 07:13:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most scam analysis begins too late. A suspicious website is found, a fake profile is reported, a phone number is flagged, or a victim submits a screenshot after the damage has already started. By...</description>
+    <description>Original article: https://itprep.com.vn/graphrag-huong-dan-chuyen-sau-va-toi-uu-hoa/ 🌐 Explore more AI &amp; software engineering content at: https://itprep.com.vn/ Large Language Models are...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>More ‘Kryten’ and Less ‘Replicant’: The Case for the Mechanical Tell</title>
-    <link>https://dev.to/gigaelk/more-kryten-and-less-replicant-the-case-for-the-mechanical-tell-2gp2</link>
-    <guid>https://dev.to/gigaelk/more-kryten-and-less-replicant-the-case-for-the-mechanical-tell-2gp2</guid>
-    <pubDate>Thu, 07 May 2026 03:59:58 +0000</pubDate>
+    <title>2.45 Billion Requests, 1.2 Million IPs: Why Traditional Rate Limiting Is Dead</title>
+    <link>https://dev.to/dimitrisk_cyclopt/245-billion-requests-12-million-ips-why-traditional-rate-limiting-is-dead-mjf</link>
+    <guid>https://dev.to/dimitrisk_cyclopt/245-billion-requests-12-million-ips-why-traditional-rate-limiting-is-dead-mjf</guid>
+    <pubDate>Thu, 07 May 2026 07:11:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In Star Trek, why does the computer sound so mechanical and emotionless when the holodeck can create characters who can converse indistinguishably from humans? In Voyager, the Doctor himself is as...</description>
+    <description>What happened A massive DDoS campaign recently hit a large-scale user-generated content platform with over 2.45 billion malicious requests in just five hours. But this wasn&apos;t your typical...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Use WireGuard 2.0 with Kubernetes 1.38 for Secure Cluster Networking</title>
-    <link>https://dev.to/johalputt/how-to-use-wireguard-20-with-kubernetes-138-for-secure-cluster-networking-1de7</link>
-    <guid>https://dev.to/johalputt/how-to-use-wireguard-20-with-kubernetes-138-for-secure-cluster-networking-1de7</guid>
-    <pubDate>Thu, 07 May 2026 03:59:28 +0000</pubDate>
+    <title>From Hackathon to a Product in a Year</title>
+    <link>https://dev.to/zerodays/from-hackathon-to-a-product-in-a-year-4ia7</link>
+    <guid>https://dev.to/zerodays/from-hackathon-to-a-product-in-a-year-4ia7</guid>
+    <pubDate>Thu, 07 May 2026 07:11:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In 2024, 68% of Kubernetes clusters still rely on legacy CNI plugins with unpatched CVEs in their encryption layers. WireGuard 2.0 combined with Kubernetes 1.38’s native network policy engine cuts...</description>
+    <description>Last year we shared a bit about an internal hackathon we held in our office. The idea was simple: give the team time and space to experiment, build quickly, and see what new product ideas could...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Zero to Job Data Visualization vs Power BI: Which Wins?</title>
-    <link>https://dev.to/johalputt/from-zero-to-job-data-visualization-vs-power-bi-which-wins-l9p</link>
-    <guid>https://dev.to/johalputt/from-zero-to-job-data-visualization-vs-power-bi-which-wins-l9p</guid>
-    <pubDate>Thu, 07 May 2026 03:56:31 +0000</pubDate>
+    <title>Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon</title>
+    <link>https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm</link>
+    <guid>https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm</guid>
+    <pubDate>Thu, 07 May 2026 07:07:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In Q3 2024, 72% of engineering teams building job data pipelines reported wasted spend on BI tools they couldn&apos;t customize—we benchmarked custom viz from zero against Power BI to find the breaking...</description>
+    <description>Voici un Dockerfile qu&apos;on retrouve dans la majorité des dépôts publics : FROM node:latest WORKDIR /app COPY . . RUN npm install EXPOSE 3000 CMD [&quot;node&quot;, &quot;server.js&quot;] Six lignes, ça compile, ça...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Install NVIDIA Drivers on Fedora 44</title>
-    <link>https://dev.to/kavindotdev/how-to-install-nvidia-drivers-on-fedora-44-1b9a</link>
-    <guid>https://dev.to/kavindotdev/how-to-install-nvidia-drivers-on-fedora-44-1b9a</guid>
-    <pubDate>Thu, 07 May 2026 03:53:34 +0000</pubDate>
+    <title>I got tired of using the terminal to launch emulators, so I built a free system tray GUI to manage them.</title>
+    <link>https://dev.to/coreyess/how-i-eliminated-the-command-line-from-my-mobile-testing-workflow-2ip8</link>
+    <guid>https://dev.to/coreyess/how-i-eliminated-the-command-line-from-my-mobile-testing-workflow-2ip8</guid>
+    <pubDate>Thu, 07 May 2026 07:07:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This guide covers the RPM Fusion method — the recommended and most maintainable way to install NVIDIA proprietary drivers on Fedora. No manual .run installers, no broken dnf states. Prerequisites...</description>
+    <description>If you are a mobile developer, QA tester, or OSINT investigator, you already know the friction of spinning up virtual devices. Trying to remember exactly what you named your virtual phone,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building EDIFlow - Infrastructure Layer: Parsers, Repositories &amp; Data Packages (Part 4)</title>
-    <link>https://dev.to/helloediflow/building-ediflow-infrastructure-layer-parsers-repositories-data-packages-part-4-4hjn</link>
-    <guid>https://dev.to/helloediflow/building-ediflow-infrastructure-layer-parsers-repositories-data-packages-part-4-4hjn</guid>
-    <pubDate>Thu, 07 May 2026 03:44:18 +0000</pubDate>
+    <title>The GSMA Just Mapped Out &quot;Mobile AI&quot; Here&apos;s What It Actually Means for Telecom Builders</title>
+    <link>https://dev.to/telecomhub/the-gsma-just-mapped-out-mobile-ai-heres-what-it-actually-means-for-telecom-builders-1fi2</link>
+    <guid>https://dev.to/telecomhub/the-gsma-just-mapped-out-mobile-ai-heres-what-it-actually-means-for-telecom-builders-1fi2</guid>
+    <pubDate>Thu, 07 May 2026 07:06:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Series: Building EDIFlow - A Clean Architecture Journey in TypeScript (Part 4/6) Reading Time: ~12 minutes Recap — Where We Left Off In Part 3, we built the Application Layer — Use Cases, Output...</description>
+    <description>The GSMA dropped a report in March 2026 that&apos;s worth reading if you work anywhere near telecom infrastructure, MVNO platforms, or network software. It&apos;s not hype it&apos;s more of a structural...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SwiftDeploy: A Tool That Writes Its Own Infrastructure</title>
-    <link>https://dev.to/mordecai_amehson/swiftdeploy-a-tool-that-writes-its-own-infrastructure-170d</link>
-    <guid>https://dev.to/mordecai_amehson/swiftdeploy-a-tool-that-writes-its-own-infrastructure-170d</guid>
-    <pubDate>Thu, 07 May 2026 03:39:01 +0000</pubDate>
+    <title>What is the new engineering bottleneck?</title>
+    <link>https://dev.to/leonidbugaev/what-is-the-new-engineering-bottleneck-3p4g</link>
+    <guid>https://dev.to/leonidbugaev/what-is-the-new-engineering-bottleneck-3p4g</guid>
+    <pubDate>Thu, 07 May 2026 07:05:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What is SwiftDeploy? Most DevOps work involves writing config files manually — nginx.conf, docker-compose.yml, environment variables. SwiftDeploy flips this. You describe what you want in one file...</description>
+    <description>Something I keep thinking about: Maybe AI is not exposing a new problem in engineering. Maybe it is exposing an old one that we were already bad at. We talk about AI like the bottleneck is still...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a 200 line AI router in TypeScript. My monthly bill dropped 41%.</title>
-    <link>https://dev.to/thegdsks/i-built-a-200-line-ai-router-in-typescript-my-monthly-bill-dropped-41-23ok</link>
-    <guid>https://dev.to/thegdsks/i-built-a-200-line-ai-router-in-typescript-my-monthly-bill-dropped-41-23ok</guid>
-    <pubDate>Thu, 07 May 2026 03:34:05 +0000</pubDate>
+    <title>Trust Is the Bottleneck</title>
+    <link>https://dev.to/leonidbugaev/trust-is-the-bottleneck-7p2</link>
+    <guid>https://dev.to/leonidbugaev/trust-is-the-bottleneck-7p2</guid>
+    <pubDate>Thu, 07 May 2026 07:04:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I track my own AI spend across three projects. In March, the line item that grew fastest was not Claude or GPT calls. It was my Cursor seat plus my Copilot seat plus the Anthropic API I was...</description>
+    <description>Everyone is asking the same question now: if AI can help us create much more code, why aren’t engineering teams suddenly moving much faster? I think the question is right, but the answer usually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>⚖️ Case File 1.2: The Irreversibility Trap</title>
-    <link>https://dev.to/manojsatna31/case-file-12-the-irreversibility-trap-blueprint-felonies-continued-49g7</link>
-    <guid>https://dev.to/manojsatna31/case-file-12-the-irreversibility-trap-blueprint-felonies-continued-49g7</guid>
-    <pubDate>Thu, 07 May 2026 03:30:00 +0000</pubDate>
+    <title>CalyxOS Android 16 Part 2: The Long-Term Test</title>
+    <link>https://dev.to/nishrico0098/calyxos-android-16-part-2-the-long-term-test-4ajj</link>
+    <guid>https://dev.to/nishrico0098/calyxos-android-16-part-2-the-long-term-test-4ajj</guid>
+    <pubDate>Thu, 07 May 2026 07:02:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Blueprint Felonies Continued.. The most expensive mistake in architecture isn’t making the wrong decision—it’s making it too early. In 17+ years of building enterprise systems, I’ve seen...</description>
+    <description>Welcome back! In Part 1, I covered the initial setup, basic functionality, and first impressions of running CalyxOS Android 16 on my Motorola G45 5G (India variant). Now, after over two days of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Cloudflare and Stripe just let agents buy domains and ship code. Here is the API.</title>
-    <link>https://dev.to/thegdsks/cloudflare-and-stripe-just-let-agents-buy-domains-and-ship-code-here-is-the-api-59pb</link>
-    <guid>https://dev.to/thegdsks/cloudflare-and-stripe-just-let-agents-buy-domains-and-ship-code-here-is-the-api-59pb</guid>
-    <pubDate>Thu, 07 May 2026 03:27:56 +0000</pubDate>
+    <title>The &quot;Free&quot; AI Coding Tool Lie - What the Limits Actually Look Like in 2026</title>
+    <link>https://dev.to/rmdakshiin/the-free-ai-coding-tool-lie-what-the-limits-actually-look-like-in-2026-8ph</link>
+    <guid>https://dev.to/rmdakshiin/the-free-ai-coding-tool-lie-what-the-limits-actually-look-like-in-2026-8ph</guid>
+    <pubDate>Thu, 07 May 2026 07:01:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On April 30, Cloudflare quietly published a blog post and a docs page that nobody outside the agentic AI crowd noticed for about 24 hours. The headline buried a real shift. AI agents can now...</description>
+    <description>I got burned three times before I started keeping notes. The pattern was always the same. Find an AI coding tool. See &quot;free&quot; on the landing page. Spend a weekend integrating it, learning the...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Five architects of the AI economy explain where the wheels are coming off</title>
+    <link>https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/</link>
+    <guid>https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/</guid>
+    <pubDate>Thu, 07 May 2026 05:25:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Earlier this week, five people who touch every layer of the AI supply chain sat down at the Milken Global Conference in Beverly Hills, where they talked with TechCrunch about everything from chip...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution</title>
+    <link>https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html</link>
+    <guid>https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html</guid>
+    <pubDate>Thu, 07 May 2026 04:15:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Musk’s biggest loyalist became his biggest liability</title>
@@ -256,24 +274,6 @@
     <pubDate>Wed, 06 May 2026 17:23:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The project would be a &quot;multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility,&quot; according to the proposal.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Here&amp;#8217;s what Microsoft is offering long-serving employees to voluntarily retire</title>
-    <link>https://www.theverge.com/report/925218/microsoft-voluntary-retirement-program-package-details</link>
-    <guid>https://www.theverge.com/report/925218/microsoft-voluntary-retirement-program-package-details</guid>
-    <pubDate>Wed, 06 May 2026 17:22:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft revealed last month that it&apos;s planning to offer long-serving employees in the US the ability to voluntarily retire. While the terms of the buyout were supposed to be announced to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>DeepSeek could hit $45B valuation from its first investment round</title>
-    <link>https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/</link>
-    <guid>https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/</guid>
-    <pubDate>Wed, 06 May 2026 17:20:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a fraction of the compute power and at a fraction of the cost of the big U.S. models like...</description>
     <category>AI</category>
   </item>
 </channel>
