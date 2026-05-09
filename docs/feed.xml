@@ -5,97 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 09 May 2026 06:27:08 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 09 May 2026 09:43:21 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>The Nitro Enclave Gotcha That Cost Me 90 Minutes: vsock and a Port That Lied</title>
-    <link>https://dev.to/muhammad_ablugg_13b22884f/the-nitro-enclave-gotcha-that-cost-me-90-minutes-vsock-and-a-port-that-lied-106h</link>
-    <guid>https://dev.to/muhammad_ablugg_13b22884f/the-nitro-enclave-gotcha-that-cost-me-90-minutes-vsock-and-a-port-that-lied-106h</guid>
-    <pubDate>Sat, 09 May 2026 06:08:09 +0000</pubDate>
+    <title>I Built 10 AI Applications in 5 Days as a Beginner — Here&apos;s What Actually Happened</title>
+    <link>https://dev.to/mohan-01/i-built-10-ai-applications-in-5-days-as-a-beginner-heres-what-actually-happened-19ke</link>
+    <guid>https://dev.to/mohan-01/i-built-10-ai-applications-in-5-days-as-a-beginner-heres-what-actually-happened-19ke</guid>
+    <pubDate>Sat, 09 May 2026 09:31:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you are building inside AWS Nitro Enclaves for the first time, the documentation gives you a clean mental model: parent EC2 instance communicates with the enclave over vsock, the enclave runs...</description>
+    <description>Four days ago I was reading about what an API is. By day four I had a working RAG application running locally on my machine — one that could answer questions using documents I fed it, without...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The End of an Internet Era: Ask.com Officially Shuts Down After Nearly 30 Years</title>
-    <link>https://dev.to/yasirawan4831/the-end-of-an-internet-era-askcom-officially-shuts-down-after-nearly-30-years-3b7c</link>
-    <guid>https://dev.to/yasirawan4831/the-end-of-an-internet-era-askcom-officially-shuts-down-after-nearly-30-years-3b7c</guid>
-    <pubDate>Sat, 09 May 2026 06:03:33 +0000</pubDate>
+    <title>How I Deployed FastAPI to EC2 with HTTPS Using API Gateway</title>
+    <link>https://dev.to/blumenbluu/how-i-deployed-fastapi-to-ec2-with-https-using-api-gateway-2gb5</link>
+    <guid>https://dev.to/blumenbluu/how-i-deployed-fastapi-to-ec2-with-https-using-api-gateway-2gb5</guid>
+    <pubDate>Sat, 09 May 2026 09:29:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction The internet has officially said goodbye to one of its oldest and most recognizable search engines. After nearly three decades online, Ask.com has been shut down marking the end of an...</description>
+    <description>Intro I wanted to deploy my FastAPI backend on AWS EC2 and get a proper HTTPS URL without dealing with SSL certificates manually. Turns out API Gateway handles all of that for you — but getting...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Contributing to Magento 2 Open Source: Product Export from Admin Grid</title>
-    <link>https://dev.to/sanjeevkr/contributing-to-magento-2-open-source-product-export-from-admin-grid-29ip</link>
-    <guid>https://dev.to/sanjeevkr/contributing-to-magento-2-open-source-product-export-from-admin-grid-29ip</guid>
-    <pubDate>Sat, 09 May 2026 06:03:22 +0000</pubDate>
+    <title>Debugging a Mysterious Docker Issue</title>
+    <link>https://dev.to/hosni_zaaraoui/debugging-a-mysterious-docker-issue-3o9e</link>
+    <guid>https://dev.to/hosni_zaaraoui/debugging-a-mysterious-docker-issue-3o9e</guid>
+    <pubDate>Sat, 09 May 2026 09:22:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As developers, we often come across small gaps in software that can improve day-to-day work. While working with Magento 2, I noticed that exporting products directly from the product grid mass...</description>
+    <description>I recently encountered a weird issue with my Docker container where it would start, run for a few seconds, and then exit with a non-zero status code. I checked the logs, but there were no obvious...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How a $0.02/Call Model Scored 78.2% on SWE-bench Verified — Beating Every Model on the Leaderboard</title>
-    <link>https://dev.to/kyoma_1234/how-a-002call-model-scored-782-on-swe-bench-verified-beating-every-model-on-the-leaderboard-4bm3</link>
-    <guid>https://dev.to/kyoma_1234/how-a-002call-model-scored-782-on-swe-bench-verified-beating-every-model-on-the-leaderboard-4bm3</guid>
-    <pubDate>Sat, 09 May 2026 05:53:53 +0000</pubDate>
+    <title>How human feedback actually steers TTS fine-tuning</title>
+    <link>https://dev.to/turbo_electric_1c09f3bec0/how-human-feedback-actually-steers-tts-fine-tuning-1g4</link>
+    <guid>https://dev.to/turbo_electric_1c09f3bec0/how-human-feedback-actually-steers-tts-fine-tuning-1g4</guid>
+    <pubDate>Sat, 09 May 2026 09:21:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR We added architectural context to AI coding agents via MCP and tested on SWE-bench Verified (500 real bugs). MiniMax M2.5 — a model that costs $0.02 per call — scored 78.2%, surpassing every...</description>
+    <description>How human feedback actually steers TTS fine-tuning Notes on the iteration loop we ran while fine-tuning F5-TTS and StyleTTS2 on a small Northern English corpus. The headline finding is that the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I got tired of babysitting my Hermes Agent, so I&apos;m hosting one for you</title>
-    <link>https://dev.to/sivarampg/i-got-tired-of-babysitting-my-hermes-agent-so-im-hosting-one-for-you-1m0</link>
-    <guid>https://dev.to/sivarampg/i-got-tired-of-babysitting-my-hermes-agent-so-im-hosting-one-for-you-1m0</guid>
-    <pubDate>Sat, 09 May 2026 05:53:12 +0000</pubDate>
+    <title>docker-compose for Next.js + NestJS local dev</title>
+    <link>https://dev.to/mahmoudmkdm/docker-compose-for-nextjs-nestjs-local-dev-4me5</link>
+    <guid>https://dev.to/mahmoudmkdm/docker-compose-for-nextjs-nestjs-local-dev-4me5</guid>
+    <pubDate>Sat, 09 May 2026 09:21:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve spent any time with Hermes Agent, you already know the feeling. The agent is good. Persistent memory that actually persists. Skills that get sharper the more you use them. Cron jobs that...</description>
+    <description>Most docker-compose tutorials for Next.js stop at &quot;here&apos;s a service block, here&apos;s how to mount your code.&quot; Then you start it on macOS, type a character in your editor, and hot reload doesn&apos;t fire....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>EU calls VPNs &quot;a loophole that needs closing&quot; in age verification push</title>
-    <link>https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/</link>
-    <guid>https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/</guid>
-    <pubDate>Sat, 09 May 2026 05:52:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/ Comments URL: https://news.ycombinator.com/item?id=48072190 Points: 13 # Comments: 1</description>
+    <title>That Meaningless Stress After a Deploy</title>
+    <link>https://dev.to/merbayerp/that-meaningless-stress-after-a-deploy-32o</link>
+    <guid>https://dev.to/merbayerp/that-meaningless-stress-after-a-deploy-32o</guid>
+    <pubDate>Sat, 09 May 2026 09:20:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Recently, I deployed a small CSS change for this blog. Normally, it&apos;s a simple tweak, just shifting a few pixels, but after hitting git push, that inexplicable tension settled over me again. It...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Sync Data from Elasticsearch to Elasticsearch</title>
-    <link>https://dev.to/metaluo/how-to-sync-data-from-elasticsearch-to-elasticsearch-16pp</link>
-    <guid>https://dev.to/metaluo/how-to-sync-data-from-elasticsearch-to-elasticsearch-16pp</guid>
-    <pubDate>Sat, 09 May 2026 05:50:32 +0000</pubDate>
+    <title>Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflow</title>
+    <link>https://dev.to/newbe36524/steamworks-multilingual-metadata-management-from-manual-maintenance-to-structured-workflow-2i9p</link>
+    <guid>https://dev.to/newbe36524/steamworks-multilingual-metadata-management-from-manual-maintenance-to-structured-workflow-2i9p</guid>
+    <pubDate>Sat, 09 May 2026 09:00:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Overview Elasticsearch is a popular search engine that forms part of the modern data stack alongside relational databases, caching, real-time data warehouses, and message-oriented middleware....</description>
+    <description>Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflow The Steam platform requires games to provide store descriptions in 28 languages. Traditional manual...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Users Lie to You (And You Keep Believing Them)</title>
-    <link>https://dev.to/hiroo_fb28f199ab8b833ec8a/why-users-lie-to-you-and-you-keep-believing-them-g21</link>
-    <guid>https://dev.to/hiroo_fb28f199ab8b833ec8a/why-users-lie-to-you-and-you-keep-believing-them-g21</guid>
-    <pubDate>Sat, 09 May 2026 05:49:42 +0000</pubDate>
+    <title>Day 1 — I&apos;m Homeless. I Just Shipped an Autonomous Multi-Agent System.</title>
+    <link>https://dev.to/pingxceo/day-1-im-homeless-i-just-shipped-an-autonomous-multi-agent-system-1djc</link>
+    <guid>https://dev.to/pingxceo/day-1-im-homeless-i-just-shipped-an-autonomous-multi-agent-system-1djc</guid>
+    <pubDate>Sat, 09 May 2026 09:00:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You asked your users what they want. They told you. You built it. Nobody used it. This isn&apos;t bad luck. This is a trap that kills products every single day — and almost nobody in the dev world...</description>
+    <description>Day 1 — I&apos;m Homeless. I Just Shipped an Autonomous Multi-Agent System. Let&apos;s get the uncomfortable part out of the way first: I&apos;m a developer. I&apos;m homeless. I have zero money. That part isn&apos;t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built an AI That Argues With Itself About Anything</title>
-    <link>https://dev.to/shirisha_uppoju_b20d30705/i-built-an-ai-that-argues-with-itself-about-anything-5aa5</link>
-    <guid>https://dev.to/shirisha_uppoju_b20d30705/i-built-an-ai-that-argues-with-itself-about-anything-5aa5</guid>
-    <pubDate>Sat, 09 May 2026 05:48:31 +0000</pubDate>
+    <title>🚀 From Agents to Data Intelligence: Load Files, Scrape Web &amp; Analyze with LangChain</title>
+    <link>https://dev.to/code_with_me/from-agents-to-data-intelligence-load-files-scrape-web-analyze-with-langchain-68n</link>
+    <guid>https://dev.to/code_with_me/from-agents-to-data-intelligence-load-files-scrape-web-analyze-with-langchain-68n</guid>
+    <pubDate>Sat, 09 May 2026 09:00:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Gemma 4 Challenge: Build with Gemma 4 What I Built AgentMesh is a thinking partner that argues with itself. Ask it any opinionated question and three Gemma 4 agents...</description>
+    <description>In my previous blog, I covered: 👉 From LLMs to Agents: Build Smart AI Systems with Tools in LangChain We learned how to: build custom tools create AI agents fetch real-world data 🔥 What’s Next?...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>App Store Rejected? 4 Compliance Mistakes Social App Developers Keep Making</title>
-    <link>https://dev.to/luna_ll/app-store-rejected-4-compliance-mistakes-social-app-developers-keep-making-51m2</link>
-    <guid>https://dev.to/luna_ll/app-store-rejected-4-compliance-mistakes-social-app-developers-keep-making-51m2</guid>
-    <pubDate>Sat, 09 May 2026 05:47:16 +0000</pubDate>
+    <title>Building a Privacy-First URL Shortener on Blockchain</title>
+    <link>https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-1hbm</link>
+    <guid>https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-1hbm</guid>
+    <pubDate>Sat, 09 May 2026 09:00:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR After 7 years building social apps for global markets, here are 4 compliance and localization traps I see developers fall into repeatedly: Vocabulary in store metadata that platforms read as...</description>
+    <description>Why Traditional URL Shorteners Are a Privacy Nightmare When you click a bit.ly link, here&apos;s what happens: Bit.ly logs your IP, timestamp, user agent They see the destination URL They track your...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</title>
+    <link>https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html</link>
+    <guid>https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html</guid>
+    <pubDate>Sat, 09 May 2026 07:16:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service....</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</title>
@@ -265,14 +274,6 @@
     <pubDate>Fri, 08 May 2026 16:19:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
     <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>EMO: Pretraining mixture of experts for emergent modularity</title>
-    <link>https://huggingface.co/blog/allenai/emo</link>
-    <guid>https://huggingface.co/blog/allenai/emo</guid>
-    <pubDate>Fri, 08 May 2026 16:03:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
   </item>
 </channel>
