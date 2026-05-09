@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 09 May 2026 09:43:21 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 09 May 2026 13:52:33 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I Built 10 AI Applications in 5 Days as a Beginner — Here&apos;s What Actually Happened</title>
-    <link>https://dev.to/mohan-01/i-built-10-ai-applications-in-5-days-as-a-beginner-heres-what-actually-happened-19ke</link>
-    <guid>https://dev.to/mohan-01/i-built-10-ai-applications-in-5-days-as-a-beginner-heres-what-actually-happened-19ke</guid>
-    <pubDate>Sat, 09 May 2026 09:31:03 +0000</pubDate>
+    <title>Multi-Model Failover In Your AI Gateway</title>
+    <link>https://dev.to/thenjdevopsguy/multi-model-failover-in-your-ai-gateway-4n8n</link>
+    <guid>https://dev.to/thenjdevopsguy/multi-model-failover-in-your-ai-gateway-4n8n</guid>
+    <pubDate>Sat, 09 May 2026 13:44:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Four days ago I was reading about what an API is. By day four I had a working RAG application running locally on my machine — one that could answer questions using documents I fed it, without...</description>
+    <description>Think about two scenarios that are pretty common. 1) You hit a rate limit or run out of tokens, so you have to &quot;downgrade&quot; to a small/less powerful Model. 2) An LLM provider is down or having...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Deployed FastAPI to EC2 with HTTPS Using API Gateway</title>
-    <link>https://dev.to/blumenbluu/how-i-deployed-fastapi-to-ec2-with-https-using-api-gateway-2gb5</link>
-    <guid>https://dev.to/blumenbluu/how-i-deployed-fastapi-to-ec2-with-https-using-api-gateway-2gb5</guid>
-    <pubDate>Sat, 09 May 2026 09:29:19 +0000</pubDate>
+    <title>AWS Well‑Architected Framework</title>
+    <link>https://dev.to/sachindra149/aws-well-architected-framework-1k6m</link>
+    <guid>https://dev.to/sachindra149/aws-well-architected-framework-1k6m</guid>
+    <pubDate>Sat, 09 May 2026 13:43:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Intro I wanted to deploy my FastAPI backend on AWS EC2 and get a proper HTTPS URL without dealing with SSL certificates manually. Turns out API Gateway handles all of that for you — but getting...</description>
+    <description>The AWS Well‑Architected Framework structures cloud‑native design around six core pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Debugging a Mysterious Docker Issue</title>
-    <link>https://dev.to/hosni_zaaraoui/debugging-a-mysterious-docker-issue-3o9e</link>
-    <guid>https://dev.to/hosni_zaaraoui/debugging-a-mysterious-docker-issue-3o9e</guid>
-    <pubDate>Sat, 09 May 2026 09:22:21 +0000</pubDate>
+    <title>The Overlooked Gem in Microsoft Entra That Gives Your AI Agents Super-Powers</title>
+    <link>https://dev.to/astaykov/the-overlooked-gem-in-microsoft-entra-that-gives-your-ai-agents-super-powers-3mde</link>
+    <guid>https://dev.to/astaykov/the-overlooked-gem-in-microsoft-entra-that-gives-your-ai-agents-super-powers-3mde</guid>
+    <pubDate>Sat, 09 May 2026 13:41:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I recently encountered a weird issue with my Docker container where it would start, run for a few seconds, and then exit with a non-zero status code. I checked the logs, but there were no obvious...</description>
+    <description>Most enterprise conversations about Microsoft Entra stop at the obvious: single sign-on, multifactor authentication, Conditional Access, a handful of well-policed app registrations. Useful,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How human feedback actually steers TTS fine-tuning</title>
-    <link>https://dev.to/turbo_electric_1c09f3bec0/how-human-feedback-actually-steers-tts-fine-tuning-1g4</link>
-    <guid>https://dev.to/turbo_electric_1c09f3bec0/how-human-feedback-actually-steers-tts-fine-tuning-1g4</guid>
-    <pubDate>Sat, 09 May 2026 09:21:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How human feedback actually steers TTS fine-tuning Notes on the iteration loop we ran while fine-tuning F5-TTS and StyleTTS2 on a small Northern English corpus. The headline finding is that the...</description>
+    <title>Read Programming as Theory Building</title>
+    <link>https://codeutopia.net/blog/2026/05/09/you-should-read-programming-as-theory-building/</link>
+    <guid>https://codeutopia.net/blog/2026/05/09/you-should-read-programming-as-theory-building/</guid>
+    <pubDate>Sat, 09 May 2026 13:31:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://codeutopia.net/blog/2026/05/09/you-should-read-programming-as-theory-building/ Comments URL: https://news.ycombinator.com/item?id=48074829 Points: 6 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>docker-compose for Next.js + NestJS local dev</title>
-    <link>https://dev.to/mahmoudmkdm/docker-compose-for-nextjs-nestjs-local-dev-4me5</link>
-    <guid>https://dev.to/mahmoudmkdm/docker-compose-for-nextjs-nestjs-local-dev-4me5</guid>
-    <pubDate>Sat, 09 May 2026 09:21:00 +0000</pubDate>
+    <title>FINANCE PRO: PAYTRACK</title>
+    <link>https://dev.to/daredevil_gotham/finance-pro-paytrack-55na</link>
+    <guid>https://dev.to/daredevil_gotham/finance-pro-paytrack-55na</guid>
+    <pubDate>Sat, 09 May 2026 13:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most docker-compose tutorials for Next.js stop at &quot;here&apos;s a service block, here&apos;s how to mount your code.&quot; Then you start it on macOS, type a character in your editor, and hot reload doesn&apos;t fire....</description>
+    <description>One unexpected challenge while building PayTrack this week: The backend suddenly stopped communicating with Supabase even though the application code was completely correct. After hours of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>That Meaningless Stress After a Deploy</title>
-    <link>https://dev.to/merbayerp/that-meaningless-stress-after-a-deploy-32o</link>
-    <guid>https://dev.to/merbayerp/that-meaningless-stress-after-a-deploy-32o</guid>
-    <pubDate>Sat, 09 May 2026 09:20:12 +0000</pubDate>
+    <title>Building a themeable CMS admin with shadcn/ui + Tailwind v4 — lessons from 50+ components</title>
+    <link>https://dev.to/hamed_pakdaman_c724e294d9/building-a-themeable-cms-admin-with-shadcnui-tailwind-v4-lessons-from-50-components-4j0d</link>
+    <guid>https://dev.to/hamed_pakdaman_c724e294d9/building-a-themeable-cms-admin-with-shadcnui-tailwind-v4-lessons-from-50-components-4j0d</guid>
+    <pubDate>Sat, 09 May 2026 13:29:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Recently, I deployed a small CSS change for this blog. Normally, it&apos;s a simple tweak, just shifting a few pixels, but after hitting git push, that inexplicable tension settled over me again. It...</description>
+    <description>Hi there! I&apos;ve gone through your draft and &quot;fixed&quot; the Markdown to make it look great on the DEV platform. I’ve made a few key improvements based on the DEV Editor Guide: Frontmatter: Added the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflow</title>
-    <link>https://dev.to/newbe36524/steamworks-multilingual-metadata-management-from-manual-maintenance-to-structured-workflow-2i9p</link>
-    <guid>https://dev.to/newbe36524/steamworks-multilingual-metadata-management-from-manual-maintenance-to-structured-workflow-2i9p</guid>
-    <pubDate>Sat, 09 May 2026 09:00:07 +0000</pubDate>
+    <title>How I Evaluated an AI Model on AWS Without Writing a Single Line of Training Code</title>
+    <link>https://dev.to/tidding/how-i-evaluated-an-ai-model-on-aws-without-writing-a-single-line-of-training-code-20o9</link>
+    <guid>https://dev.to/tidding/how-i-evaluated-an-ai-model-on-aws-without-writing-a-single-line-of-training-code-20o9</guid>
+    <pubDate>Sat, 09 May 2026 13:26:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflow The Steam platform requires games to provide store descriptions in 28 languages. Traditional manual...</description>
+    <description>A step-by-step guide to Amazon Bedrock&apos;s model evaluation feature from S3 setup to reading real results Ever wondered whether the AI model you&apos;re about to plug into your production system actually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Day 1 — I&apos;m Homeless. I Just Shipped an Autonomous Multi-Agent System.</title>
-    <link>https://dev.to/pingxceo/day-1-im-homeless-i-just-shipped-an-autonomous-multi-agent-system-1djc</link>
-    <guid>https://dev.to/pingxceo/day-1-im-homeless-i-just-shipped-an-autonomous-multi-agent-system-1djc</guid>
-    <pubDate>Sat, 09 May 2026 09:00:07 +0000</pubDate>
+    <title>I turned a joke product generator into a real API (and a CLI, and a faker.js plugin)</title>
+    <link>https://dev.to/kafk/i-turned-a-joke-product-generator-into-a-real-api-and-a-cli-and-a-fakerjs-plugin-g42</link>
+    <guid>https://dev.to/kafk/i-turned-a-joke-product-generator-into-a-real-api-and-a-cli-and-a-fakerjs-plugin-g42</guid>
+    <pubDate>Sat, 09 May 2026 13:22:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Day 1 — I&apos;m Homeless. I Just Shipped an Autonomous Multi-Agent System. Let&apos;s get the uncomfortable part out of the way first: I&apos;m a developer. I&apos;m homeless. I have zero money. That part isn&apos;t...</description>
+    <description>A while back I built Anycrap — a fake store full of absurdist AI-generated products. It hit #1 on Hacker News, got way more traffic than expected. Here&apos;s what exists now. REST API 35,000+ products...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>🚀 From Agents to Data Intelligence: Load Files, Scrape Web &amp; Analyze with LangChain</title>
-    <link>https://dev.to/code_with_me/from-agents-to-data-intelligence-load-files-scrape-web-analyze-with-langchain-68n</link>
-    <guid>https://dev.to/code_with_me/from-agents-to-data-intelligence-load-files-scrape-web-analyze-with-langchain-68n</guid>
-    <pubDate>Sat, 09 May 2026 09:00:04 +0000</pubDate>
+    <title>Your Team Doesn&apos;t Need a Buddy. It Needs a Coach.</title>
+    <link>https://dev.to/jonoherrington/your-team-doesnt-need-a-buddy-it-needs-a-coach-jfk</link>
+    <guid>https://dev.to/jonoherrington/your-team-doesnt-need-a-buddy-it-needs-a-coach-jfk</guid>
+    <pubDate>Sat, 09 May 2026 13:22:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In my previous blog, I covered: 👉 From LLMs to Agents: Build Smart AI Systems with Tools in LangChain We learned how to: build custom tools create AI agents fetch real-world data 🔥 What’s Next?...</description>
+    <description>I have sat in too many 1:1s where everyone felt better walking out and nothing changed two weeks later. No clear gap named. No behavior contract. No follow-through. That is why I believe most...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Privacy-First URL Shortener on Blockchain</title>
-    <link>https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-1hbm</link>
-    <guid>https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-1hbm</guid>
-    <pubDate>Sat, 09 May 2026 09:00:02 +0000</pubDate>
+    <title>I Built StealthHumanizer — A Free, Open-Source AI Text Humanizer (13 Providers, No Login)</title>
+    <link>https://dev.to/rudra_sarker/i-built-stealthhumanizer-a-free-open-source-ai-text-humanizer-13-providers-no-login-3m3i</link>
+    <guid>https://dev.to/rudra_sarker/i-built-stealthhumanizer-a-free-open-source-ai-text-humanizer-13-providers-no-login-3m3i</guid>
+    <pubDate>Sat, 09 May 2026 13:21:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why Traditional URL Shorteners Are a Privacy Nightmare When you click a bit.ly link, here&apos;s what happens: Bit.ly logs your IP, timestamp, user agent They see the destination URL They track your...</description>
+    <description>The Problem AI detectors like GPTZero, Turnitin, and Originality.ai are everywhere. Students, writers, and professionals are getting flagged even when they write their own content. And the paid...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Let it snow</title>
+    <link>https://www.theverge.com/entertainment/926911/snow-video-games-moomins-froggy</link>
+    <guid>https://www.theverge.com/entertainment/926911/snow-video-games-moomins-froggy</guid>
+    <pubDate>Sat, 09 May 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Water gets all the credit. When gaming companies want to show off new graphics technology, things tend to get wet; splashing waves that are only possible with the latest physics engine, or puddles...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The game that makes me actually want to exercise</title>
+    <link>https://www.theverge.com/tech/927177/zombies-run-boox-billie-eilish-installer</link>
+    <guid>https://www.theverge.com/tech/927177/zombies-run-boox-billie-eilish-installer</guid>
+    <pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hi, friends! Welcome to Installer No. 127, your guide to the best and Verge-iest stuff in the world. (If you&apos;re new here, welcome, my Scorpion challenges your Sub-Zero to a duel, and also you can...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Quantum dot TVs beat RGB LED TVs, says the company that makes QDs for TVs</title>
+    <link>https://www.theverge.com/tech/927442/nanosys-sqd-vs-rgb-led</link>
+    <guid>https://www.theverge.com/tech/927442/nanosys-sqd-vs-rgb-led</guid>
+    <pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>At the Los Angeles Convention Center, two 85-inch TVs sat side by side inside the Nanosys meeting room at Display Week - a yearly business-to-business convention focusing on the technology that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Hackable Robot Lawn Mower Unlocks a New Nightmare</title>
+    <link>https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/</link>
+    <guid>https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/</guid>
+    <pubDate>Sat, 09 May 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets “violent left wing extremists,” leaked documents reveal Russia&apos;s school for elite hackers, and more.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</title>
@@ -238,42 +274,6 @@
     <guid>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b</guid>
     <pubDate>Fri, 08 May 2026 17:41:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Someone out-Trumped the Trump phone</title>
-    <link>https://www.theverge.com/gadgets/926968/trump-mobile-t1-phone-dreame-aurora-phones</link>
-    <guid>https://www.theverge.com/gadgets/926968/trump-mobile-t1-phone-dreame-aurora-phones</guid>
-    <pubDate>Fri, 08 May 2026 17:38:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Where&apos;s the Trump phone? We&apos;re going to keep talking about it every week. We&apos;ve reached out, as usual, to ask about the Trump phone&apos;s whereabouts. This week, Trump Mobile has been trumped. It&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple reportedly has a deal to use Intel-made chips again</title>
-    <link>https://www.theverge.com/tech/926988/apple-intel-chips</link>
-    <guid>https://www.theverge.com/tech/926988/apple-intel-chips</guid>
-    <pubDate>Fri, 08 May 2026 17:22:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple and Intel reached a &quot;preliminary agreement&quot; for Intel to make chips for Apple hardware, The Wall Street Journal reported Friday. Apple had famously moved on from Intel-powered computers with...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Steam Controller’s reservation queue is open</title>
-    <link>https://www.theverge.com/gadgets/924672/steam-controller-reservation-queue-buy</link>
-    <guid>https://www.theverge.com/gadgets/924672/steam-controller-reservation-queue-buy</guid>
-    <pubDate>Fri, 08 May 2026 16:59:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After quickly selling out of the Steam Controller on May 4th, Valve has launched a reservation system to ensure that you can get one without too much hassle. You may not get one as quickly as...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Here’s what you need to know about the cruise ship hantavirus outbreak</title>
-    <link>https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/</link>
-    <guid>https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/</guid>
-    <pubDate>Fri, 08 May 2026 16:19:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers...</description>
     <category>AI</category>
   </item>
 </channel>
