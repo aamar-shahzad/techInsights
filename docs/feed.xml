@@ -5,97 +5,105 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 09 May 2026 17:12:29 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 09 May 2026 21:02:58 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Build an MCP Server in Node.js &amp; TypeScript: A Practical HazelJS Tutorial</title>
-    <link>https://dev.to/arslan_mecom/build-an-mcp-server-in-nodejs-typescript-a-practical-hazeljs-tutorial-3n75</link>
-    <guid>https://dev.to/arslan_mecom/build-an-mcp-server-in-nodejs-typescript-a-practical-hazeljs-tutorial-3n75</guid>
-    <pubDate>Sat, 09 May 2026 17:02:16 +0000</pubDate>
+    <title>Cheap Dedicated CI/CD Runners for GitLab: Shared vs Self-Hosted vs Rented</title>
+    <link>https://dev.to/sepcy/cheap-dedicated-cicd-runners-for-gitlab-shared-vs-self-hosted-vs-rented-2a2a</link>
+    <guid>https://dev.to/sepcy/cheap-dedicated-cicd-runners-for-gitlab-shared-vs-self-hosted-vs-rented-2a2a</guid>
+    <pubDate>Sat, 09 May 2026 21:01:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Expose your existing TypeScript classes to Cursor, Claude Desktop, and any other Model Context Protocol (MCP) client — without writing protocol code, without a heavy SDK, and without standing up a...</description>
+    <description>If your GitLab pipelines are slow, flaky, or eating into your SaaS bill, you&apos;ve probably looked at your runner setup. There are three ways to run GitLab CI jobs, and the cost difference between...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Food Blog Platform with Django — Daily Dev Log</title>
-    <link>https://dev.to/cyberb0x/building-a-food-blog-platform-with-django-daily-dev-log-3n3</link>
-    <guid>https://dev.to/cyberb0x/building-a-food-blog-platform-with-django-daily-dev-log-3n3</guid>
-    <pubDate>Sat, 09 May 2026 17:01:48 +0000</pubDate>
+    <title>Building a Unified Korean Entertainment Database from 10 APIs and Web Scrapers</title>
+    <link>https://dev.to/carasjung/building-a-unified-korean-entertainment-database-from-10-apis-and-web-scrapers-3n91</link>
+    <guid>https://dev.to/carasjung/building-a-unified-korean-entertainment-database-from-10-apis-and-web-scrapers-3n91</guid>
+    <pubDate>Sat, 09 May 2026 20:56:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Today I continued working on my Food Blog Platform 🍰 — a fullstack Django project focused on recipes, search, and user experience. Even though I didn’t add any major new features today, I focused...</description>
+    <description>Korean entertainment has become a global phenomenon with shows such as Squid Game breaking records and K-dramas topping global charts. And yet, the data infrastructure behind it is fragmented....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Automated SQL Migration Review with Real CLI Output (MySQL, PostgreSQL, TiDB)</title>
-    <link>https://dev.to/fanduzi/automated-sql-migration-review-with-real-cli-output-mysql-postgresql-tidb-17b5</link>
-    <guid>https://dev.to/fanduzi/automated-sql-migration-review-with-real-cli-output-mysql-postgresql-tidb-17b5</guid>
-    <pubDate>Sat, 09 May 2026 16:58:27 +0000</pubDate>
+    <title>NetSuite Integration Guide</title>
+    <link>https://dev.to/apideck/netsuite-integration-guide-nap</link>
+    <guid>https://dev.to/apideck/netsuite-integration-guide-nap</guid>
+    <pubDate>Sat, 09 May 2026 20:51:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Auditing MySQL ALTER TABLE Risks with a CLI (Real Output Included) Background I&apos;m the author of DeltaScope, an open-source offline SQL audit tool that supports MySQL, TiDB, and PostgreSQL. This...</description>
+    <description>1. What NetSuite Integration Actually Means NetSuite integration establishes bidirectional data flow between NetSuite and external systems: orders, customers, inventory, transactions, invoices,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I let my OpenAPI spec do the work: one contract for Go, Flutter, and the LLM</title>
-    <link>https://dev.to/tkode_dev/i-let-my-openapi-spec-do-the-work-one-contract-for-go-flutter-and-the-llm-c20</link>
-    <guid>https://dev.to/tkode_dev/i-let-my-openapi-spec-do-the-work-one-contract-for-go-flutter-and-the-llm-c20</guid>
-    <pubDate>Sat, 09 May 2026 16:54:08 +0000</pubDate>
+    <title>You need foreign keys and surrogate keys because you broke your relationships</title>
+    <link>https://dev.to/franckpachot/you-need-foreign-keys-and-surrogate-keys-because-you-broke-your-relationships-3b0j</link>
+    <guid>https://dev.to/franckpachot/you-need-foreign-keys-and-surrogate-keys-because-you-broke-your-relationships-3b0j</guid>
+    <pubDate>Sat, 09 May 2026 20:47:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There was a period on a Django project where a simple question of &quot;is this field actually used on the frontend?&quot; would trigger a small investigation. You&apos;d check the backend, grep through the...</description>
+    <description>Many developers believe they need a relational database because their data has relationships. The reasoning usually goes: &quot;My entities are related, therefore I need foreign keys, therefore I need...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Permissionless On-Chain Agent Training Arena on Solana in 3 Weeks</title>
-    <link>https://dev.to/lymah/i-built-a-permissionless-on-chain-agent-training-arena-on-solana-in-3-weeks-2on2</link>
-    <guid>https://dev.to/lymah/i-built-a-permissionless-on-chain-agent-training-arena-on-solana-in-3-weeks-2on2</guid>
-    <pubDate>Sat, 09 May 2026 16:47:46 +0000</pubDate>
+    <title>🛰 Mission Drishti 📡: How GalaxEye Built the World’s 🌏 First OptoSAR Imaging Satellite 🛰</title>
+    <link>https://dev.to/hemant_007/mission-drishti-how-galaxeye-built-the-worlds-first-optosar-imaging-satellite-4069</link>
+    <guid>https://dev.to/hemant_007/mission-drishti-how-galaxeye-built-the-worlds-first-optosar-imaging-satellite-4069</guid>
+    <pubDate>Sat, 09 May 2026 20:46:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What happens when you put AI agent training on a blockchain, and what I wish someone had told me before I started. TL;DR: I built a Solana program that logs AI agent training episodes on-chain,...</description>
+    <description>🛰️ Mission Drishti 📡: How GalaxEye Built the World’s 🌏 First OptoSAR Imaging Satellite 🛰️ The future of Earth 🌏 observation may not belong to cameras alone. At 2:13 AM ⏳, somewhere above the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Spring Boot in Real Production: What My Lakaut Codebase Taught Me That the Official Docs Leave Out</title>
-    <link>https://dev.to/jtorchia/spring-boot-in-real-production-what-my-lakaut-codebase-taught-me-that-the-official-docs-leave-out-1245</link>
-    <guid>https://dev.to/jtorchia/spring-boot-in-real-production-what-my-lakaut-codebase-taught-me-that-the-official-docs-leave-out-1245</guid>
-    <pubDate>Sat, 09 May 2026 16:45:56 +0000</pubDate>
+    <title>How I Built a Terraform Plan JSON Parser in Python</title>
+    <link>https://dev.to/sudarshan_thakur_1e141b99/how-i-built-a-terraform-plan-json-parser-in-python-gm</link>
+    <guid>https://dev.to/sudarshan_thakur_1e141b99/how-i-built-a-terraform-plan-json-parser-in-python-gm</guid>
+    <pubDate>Sat, 09 May 2026 20:45:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Spring Boot in Real Production: What My Lakaut Codebase Taught Me That the Official Docs Leave Out A datasource pool is basically like the ticket booth at a sold-out stadium show. When the crowd...</description>
+    <description>Most DevOps engineers have run terraform plan thousands of times. Very few have looked at what comes out when you add the -json flag. I spent a couple of weeks inside that JSON output while...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Spring Boot en producción real: lo que mi codebase de Lakaut me enseñó que la documentación oficial omite</title>
-    <link>https://dev.to/jtorchia/spring-boot-en-produccion-real-lo-que-mi-codebase-de-lakaut-me-enseno-que-la-documentacion-oficial-29gi</link>
-    <guid>https://dev.to/jtorchia/spring-boot-en-produccion-real-lo-que-mi-codebase-de-lakaut-me-enseno-que-la-documentacion-oficial-29gi</guid>
-    <pubDate>Sat, 09 May 2026 16:45:49 +0000</pubDate>
+    <title>WebAssembly Is Making No-Login Browser Tools Better — Here&apos;s How</title>
+    <link>https://dev.to/nologintools/webassembly-is-making-no-login-browser-tools-better-heres-how-9mj</link>
+    <guid>https://dev.to/nologintools/webassembly-is-making-no-login-browser-tools-better-heres-how-9mj</guid>
+    <pubDate>Sat, 09 May 2026 20:41:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Spring Boot en producción real: lo que mi codebase de Lakaut me enseñó que la documentación oficial omite Un datasource pool es básicamente como la boletería de un recital de Soda Stereo. Cuando...</description>
+    <description>Here&apos;s something that didn&apos;t happen with an announcement: the floor for what a browser can compute, without sending your data anywhere, has risen considerably in the past two years. Not because...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Gave My Clients a Direct Line Into My App&apos;s Backlog Using OSC</title>
-    <link>https://dev.to/oscdev/how-i-gave-my-clients-a-direct-line-into-my-apps-backlog-using-osc-1p8m</link>
-    <guid>https://dev.to/oscdev/how-i-gave-my-clients-a-direct-line-into-my-apps-backlog-using-osc-1p8m</guid>
-    <pubDate>Sat, 09 May 2026 16:45:06 +0000</pubDate>
+    <title>AI Soft Skills Every Developer Needs</title>
+    <link>https://dev.to/devk3/ai-soft-skills-every-developer-needs-3icl</link>
+    <guid>https://dev.to/devk3/ai-soft-skills-every-developer-needs-3icl</guid>
+    <pubDate>Sat, 09 May 2026 20:36:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How I Gave My Clients a Direct Line Into My App&apos;s Backlog Using OSC Every developer who does client work eventually hits the same wall. The client has feedback. They drop it in Slack, copy someone...</description>
+    <description>While doing bug fixes and feature work, we often use AI either for quick context or direct code changes. But most of the time, we move too fast. We assume the AI understands the entire system:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>One ledger, two chains — what I learned about multi-chain payment architecture from a reader&apos;s correction</title>
-    <link>https://dev.to/itsevilduck/one-ledger-two-chains-what-i-learned-about-multi-chain-payment-architecture-from-a-readers-2jpl</link>
-    <guid>https://dev.to/itsevilduck/one-ledger-two-chains-what-i-learned-about-multi-chain-payment-architecture-from-a-readers-2jpl</guid>
-    <pubDate>Sat, 09 May 2026 16:45:03 +0000</pubDate>
+    <title>Hedystia 2.3: Universal WebSocket, Native Node.js, PostgreSQL, and 20+ New Validations</title>
+    <link>https://dev.to/zastinian/hedystia-23-universal-websocket-native-nodejs-postgresql-and-20-new-validations-1akd</link>
+    <guid>https://dev.to/zastinian/hedystia-23-universal-websocket-native-nodejs-postgresql-and-20-new-validations-1akd</guid>
+    <pubDate>Sat, 09 May 2026 20:33:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the previous post in this series I wrote about Base as the payment rail for QuackBuilds, and made an argument about why card-network economics break for certain payment shapes that onchain...</description>
+    <description>Native Node.js Support The HTTP layer now runs natively on Node.js — no adapter required. listen(port) works the same on Bun and Node. Before: import { adapter } from &quot;@hedystia/adapter&quot;; import {...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built an Endless Learning System From Flashcards</title>
-    <link>https://dev.to/psyconbuilds/i-built-an-endless-learning-system-from-flashcards-5006</link>
-    <guid>https://dev.to/psyconbuilds/i-built-an-endless-learning-system-from-flashcards-5006</guid>
-    <pubDate>Sat, 09 May 2026 16:42:58 +0000</pubDate>
+    <title>The Floci philosophy: stay tiny, feel like real AWS</title>
+    <link>https://dev.to/hectorvent/the-floci-philosophy-stay-tiny-feel-like-real-aws-1h3d</link>
+    <guid>https://dev.to/hectorvent/the-floci-philosophy-stay-tiny-feel-like-real-aws-1h3d</guid>
+    <pubDate>Sat, 09 May 2026 20:24:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I’m doing a PhD in AI, and one thing became obvious very quickly: there is always more to learn. New papers, new methods, new benchmarks, new architectures, new tools, new terminology. The field...</description>
+    <description>Fast and fake. Tiny, instant, until your code touches a real engine and the abstraction cracks. Heavy and faithful. Closer to AWS, but a 3-second startup, hundreds of MB, a bundled Python runtime...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>&quot;OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support&quot;</title>
+    <link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper</link>
+    <guid>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper</guid>
+    <pubDate>Sat, 09 May 2026 18:09:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
   </item>
   <item>
     <title>Dyson’s powerful 360 Vis Nav robovac is down to $279.99 for a limited time</title>
@@ -266,15 +274,6 @@
     <pubDate>Fri, 08 May 2026 18:12:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that&apos;s capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Insider Betting on Polymarket</title>
-    <link>https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/05/insider-betting-on-polymarket.html</guid>
-    <pubDate>Fri, 08 May 2026 17:49:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Insider trading is rife on Polymarket: Analysis by the Anti-Corruption Data Collective, a non-profit research and advocacy group, found that long-shot bets—­defined as wagers of $2,500 or more at...</description>
     <category>Security</category>
   </item>
 </channel>
