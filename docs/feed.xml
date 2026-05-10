@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 09 May 2026 21:02:58 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 04:15:15 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Cheap Dedicated CI/CD Runners for GitLab: Shared vs Self-Hosted vs Rented</title>
-    <link>https://dev.to/sepcy/cheap-dedicated-cicd-runners-for-gitlab-shared-vs-self-hosted-vs-rented-2a2a</link>
-    <guid>https://dev.to/sepcy/cheap-dedicated-cicd-runners-for-gitlab-shared-vs-self-hosted-vs-rented-2a2a</guid>
-    <pubDate>Sat, 09 May 2026 21:01:17 +0000</pubDate>
+    <title>Bulletproofing LLM Structured Output in Python: Healing Retries, Cost Caps, and Drift Detection (Runnable Code)</title>
+    <link>https://dev.to/velsof/bulletproofing-llm-structured-output-in-python-healing-retries-cost-caps-and-drift-detection-c89</link>
+    <guid>https://dev.to/velsof/bulletproofing-llm-structured-output-in-python-healing-retries-cost-caps-and-drift-detection-c89</guid>
+    <pubDate>Sun, 10 May 2026 03:45:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If your GitLab pipelines are slow, flaky, or eating into your SaaS bill, you&apos;ve probably looked at your runner setup. There are three ways to run GitLab CI jobs, and the cost difference between...</description>
+    <description>I shipped a structured-output endpoint to production in March. The schema was clean, JSON mode was on, the model was GPT-4.1, the eval suite was green. Three weeks in, the on-call channel lit up...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Unified Korean Entertainment Database from 10 APIs and Web Scrapers</title>
-    <link>https://dev.to/carasjung/building-a-unified-korean-entertainment-database-from-10-apis-and-web-scrapers-3n91</link>
-    <guid>https://dev.to/carasjung/building-a-unified-korean-entertainment-database-from-10-apis-and-web-scrapers-3n91</guid>
-    <pubDate>Sat, 09 May 2026 20:56:22 +0000</pubDate>
+    <title>CDP Bridge MCP —— a bridge service that connects MCP clients to real browser sessions</title>
+    <link>https://dev.to/lala_par_c28d6b5df2765c7a/cdp-bridge-mcp-a-bridge-service-that-connects-mcp-clients-to-real-browser-sessions-52h8</link>
+    <guid>https://dev.to/lala_par_c28d6b5df2765c7a/cdp-bridge-mcp-a-bridge-service-that-connects-mcp-clients-to-real-browser-sessions-52h8</guid>
+    <pubDate>Sun, 10 May 2026 03:44:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Korean entertainment has become a global phenomenon with shows such as Squid Game breaking records and K-dramas topping global charts. And yet, the data infrastructure behind it is fragmented....</description>
+    <description>CDP Bridge MCP is a bridge service that connects MCP clients to real browser sessions. Through its companion Chromium extension, model clients can access browser pages, list tabs, scan page...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>NetSuite Integration Guide</title>
-    <link>https://dev.to/apideck/netsuite-integration-guide-nap</link>
-    <guid>https://dev.to/apideck/netsuite-integration-guide-nap</guid>
-    <pubDate>Sat, 09 May 2026 20:51:43 +0000</pubDate>
+    <title>Tokenmaxxing: Codex + Claude Code Operator Stack 2026</title>
+    <link>https://dev.to/max_quimby/tokenmaxxing-codex-claude-code-operator-stack-2026-318</link>
+    <guid>https://dev.to/max_quimby/tokenmaxxing-codex-claude-code-operator-stack-2026-318</guid>
+    <pubDate>Sun, 10 May 2026 03:35:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. What NetSuite Integration Actually Means NetSuite integration establishes bidirectional data flow between NetSuite and external systems: orders, customers, inventory, transactions, invoices,...</description>
+    <description>In May 2026, four independent surfaces named the same pattern in the same news cycle. YC Lightcone called it tokenmaxxing — one founder plus an agent harness doing the work of four hundred...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>You need foreign keys and surrogate keys because you broke your relationships</title>
-    <link>https://dev.to/franckpachot/you-need-foreign-keys-and-surrogate-keys-because-you-broke-your-relationships-3b0j</link>
-    <guid>https://dev.to/franckpachot/you-need-foreign-keys-and-surrogate-keys-because-you-broke-your-relationships-3b0j</guid>
-    <pubDate>Sat, 09 May 2026 20:47:56 +0000</pubDate>
+    <title>String Polyfills and Common Interview Methods in JavaScript</title>
+    <link>https://dev.to/pratham69/string-polyfills-and-common-interview-methods-in-javascript-4ha6</link>
+    <guid>https://dev.to/pratham69/string-polyfills-and-common-interview-methods-in-javascript-4ha6</guid>
+    <pubDate>Sun, 10 May 2026 03:35:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Many developers believe they need a relational database because their data has relationships. The reasoning usually goes: &quot;My entities are related, therefore I need foreign keys, therefore I need...</description>
+    <description>Understanding how string methods work under the hood — and building them yourself. Here&apos;s something that changed how I think about JavaScript: anyone can use .trim() or .includes(). You call the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>🛰 Mission Drishti 📡: How GalaxEye Built the World’s 🌏 First OptoSAR Imaging Satellite 🛰</title>
-    <link>https://dev.to/hemant_007/mission-drishti-how-galaxeye-built-the-worlds-first-optosar-imaging-satellite-4069</link>
-    <guid>https://dev.to/hemant_007/mission-drishti-how-galaxeye-built-the-worlds-first-optosar-imaging-satellite-4069</guid>
-    <pubDate>Sat, 09 May 2026 20:46:16 +0000</pubDate>
+    <title>My MCP Server Got Rate-Limited After Auth. Here&apos;s the 5-Line Fix.</title>
+    <link>https://dev.to/zekebuilds/my-mcp-server-got-rate-limited-after-auth-heres-the-5-line-fix-2gl</link>
+    <guid>https://dev.to/zekebuilds/my-mcp-server-got-rate-limited-after-auth-heres-the-5-line-fix-2gl</guid>
+    <pubDate>Sun, 10 May 2026 03:33:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🛰️ Mission Drishti 📡: How GalaxEye Built the World’s 🌏 First OptoSAR Imaging Satellite 🛰️ The future of Earth 🌏 observation may not belong to cameras alone. At 2:13 AM ⏳, somewhere above the...</description>
+    <description>A Sentry MCP user reported it on March 18: &quot;all API calls being rate-limited within a few minutes of auth.&quot; The OAuth handshake works fine. It&apos;s the calls after auth that quietly burn the budget,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Built a Terraform Plan JSON Parser in Python</title>
-    <link>https://dev.to/sudarshan_thakur_1e141b99/how-i-built-a-terraform-plan-json-parser-in-python-gm</link>
-    <guid>https://dev.to/sudarshan_thakur_1e141b99/how-i-built-a-terraform-plan-json-parser-in-python-gm</guid>
-    <pubDate>Sat, 09 May 2026 20:45:05 +0000</pubDate>
+    <title>Monitoring: From Black Box to Glass Box</title>
+    <link>https://dev.to/halton_chen/monitoring-from-black-box-to-glass-box-29h2</link>
+    <guid>https://dev.to/halton_chen/monitoring-from-black-box-to-glass-box-29h2</guid>
+    <pubDate>Sun, 10 May 2026 03:31:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most DevOps engineers have run terraform plan thousands of times. Very few have looked at what comes out when you add the -json flag. I spent a couple of weeks inside that JSON output while...</description>
+    <description>You&apos;ve built your AI agent. You&apos;ve configured the tools, crafted a thoughtful system prompt, and deployed it to your users. Job done, right? Not quite. Once your agent is live, a whole new set of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>WebAssembly Is Making No-Login Browser Tools Better — Here&apos;s How</title>
-    <link>https://dev.to/nologintools/webassembly-is-making-no-login-browser-tools-better-heres-how-9mj</link>
-    <guid>https://dev.to/nologintools/webassembly-is-making-no-login-browser-tools-better-heres-how-9mj</guid>
-    <pubDate>Sat, 09 May 2026 20:41:06 +0000</pubDate>
+    <title>Array Flatten in JavaScript</title>
+    <link>https://dev.to/pratham69/array-flatten-in-javascript-489n</link>
+    <guid>https://dev.to/pratham69/array-flatten-in-javascript-489n</guid>
+    <pubDate>Sun, 10 May 2026 03:26:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Here&apos;s something that didn&apos;t happen with an announcement: the floor for what a browser can compute, without sending your data anywhere, has risen considerably in the past two years. Not because...</description>
+    <description>Turning messy nested arrays into clean, flat ones — and understanding why it matters. At some point, you&apos;ll run into an array that looks like this: const data = [1, [2, 3], [4, [5, 6]], 7]; Arrays...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Soft Skills Every Developer Needs</title>
-    <link>https://dev.to/devk3/ai-soft-skills-every-developer-needs-3icl</link>
-    <guid>https://dev.to/devk3/ai-soft-skills-every-developer-needs-3icl</guid>
-    <pubDate>Sat, 09 May 2026 20:36:46 +0000</pubDate>
+    <title>ECET AI Study Buddy using Gemma 4 – My First Local AI Project</title>
+    <link>https://dev.to/bajiniteenoj/ecet-ai-study-buddy-using-gemma-4-my-first-local-ai-project-218</link>
+    <guid>https://dev.to/bajiniteenoj/ecet-ai-study-buddy-using-gemma-4-my-first-local-ai-project-218</guid>
+    <pubDate>Sun, 10 May 2026 03:25:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>While doing bug fixes and feature work, we often use AI either for quick context or direct code changes. But most of the time, we move too fast. We assume the AI understands the entire system:...</description>
+    <description>🚀 Introduction I built a simple AI Study Buddy for ECET preparation using Gemma 4. The goal of this project is to help students practice multiple-choice questions, get instant answers, and learn...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Hedystia 2.3: Universal WebSocket, Native Node.js, PostgreSQL, and 20+ New Validations</title>
-    <link>https://dev.to/zastinian/hedystia-23-universal-websocket-native-nodejs-postgresql-and-20-new-validations-1akd</link>
-    <guid>https://dev.to/zastinian/hedystia-23-universal-websocket-native-nodejs-postgresql-and-20-new-validations-1akd</guid>
-    <pubDate>Sat, 09 May 2026 20:33:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Native Node.js Support The HTTP layer now runs natively on Node.js — no adapter required. listen(port) works the same on Bun and Node. Before: import { adapter } from &quot;@hedystia/adapter&quot;; import {...</description>
+    <title>Gemini API File Search is now multimodal</title>
+    <link>https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/</link>
+    <guid>https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/</guid>
+    <pubDate>Sun, 10 May 2026 03:22:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/ Comments URL: https://news.ycombinator.com/item?id=48080702 Points: 8...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Floci philosophy: stay tiny, feel like real AWS</title>
-    <link>https://dev.to/hectorvent/the-floci-philosophy-stay-tiny-feel-like-real-aws-1h3d</link>
-    <guid>https://dev.to/hectorvent/the-floci-philosophy-stay-tiny-feel-like-real-aws-1h3d</guid>
-    <pubDate>Sat, 09 May 2026 20:24:50 +0000</pubDate>
+    <title>Array Methods You Must Know</title>
+    <link>https://dev.to/pratham69/array-methods-you-must-know-4h35</link>
+    <guid>https://dev.to/pratham69/array-methods-you-must-know-4h35</guid>
+    <pubDate>Sun, 10 May 2026 03:21:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Fast and fake. Tiny, instant, until your code touches a real engine and the abstraction cracks. Heavy and faithful. Closer to AWS, but a 3-second startup, hundreds of MB, a bundled Python runtime...</description>
+    <description>The six methods that turn JavaScript arrays from basic lists into powerful tools. When I first learned arrays, I thought I was done. Create an array, access elements by index, loop through them...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Voice AI in India is hard. Wispr Flow is betting on it anyway.</title>
+    <link>https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/</link>
+    <guid>https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/</guid>
+    <pubDate>Sun, 10 May 2026 02:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>So you’ve heard these AI terms and nodded along; let’s fix that</title>
+    <link>https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/</link>
+    <guid>https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/</guid>
+    <pubDate>Sat, 09 May 2026 21:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>&quot;OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support&quot;</title>
@@ -257,24 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
     <description>Across the country, schools and colleges postpone year-end tests.</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high</title>
-    <link>https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/</link>
-    <guid>https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/</guid>
-    <pubDate>Fri, 08 May 2026 18:33:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn&apos;t need as many support roles.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms</title>
-    <link>https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html</link>
-    <guid>https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html</guid>
-    <pubDate>Fri, 08 May 2026 18:12:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that&apos;s capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
