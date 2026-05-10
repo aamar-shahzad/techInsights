@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 10 May 2026 13:56:02 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 17:13:14 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Creating Routes and Handling Requests with Express</title>
-    <link>https://dev.to/satyasootar/creating-routes-and-handling-requests-with-express-ibm</link>
-    <guid>https://dev.to/satyasootar/creating-routes-and-handling-requests-with-express-ibm</guid>
-    <pubDate>Sun, 10 May 2026 13:52:33 +0000</pubDate>
+    <title>Improve Filament Import UX with Persistent Error CSV Downloads</title>
+    <link>https://dev.to/filamentmastery/improve-filament-import-ux-with-persistent-error-csv-downloads-54jj</link>
+    <guid>https://dev.to/filamentmastery/improve-filament-import-ux-with-persistent-error-csv-downloads-54jj</guid>
+    <pubDate>Sun, 10 May 2026 17:10:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hello readers 👋, welcome to the 11th blog in our Node.js series! We&apos;ve come a long way. We started by setting up Node.js, understood its event loop, explored blocking vs non‑blocking code, handled...</description>
+    <description>By default, FilamentPHP provides a convenient import action with built-in feedback once the process is complete. After an import finishes, a notification is displayed showing the result, along...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What is Middleware in Express and How It Works</title>
-    <link>https://dev.to/satyasootar/what-is-middleware-in-express-and-how-it-works-47an</link>
-    <guid>https://dev.to/satyasootar/what-is-middleware-in-express-and-how-it-works-47an</guid>
-    <pubDate>Sun, 10 May 2026 13:50:59 +0000</pubDate>
+    <title>Moving 1,100 Paying Customers Between Stripe Accounts in a 3-Hour Window</title>
+    <link>https://dev.to/vatsalpatel/moving-1100-paying-customers-between-stripe-accounts-in-a-3-hour-window-19c4</link>
+    <guid>https://dev.to/vatsalpatel/moving-1100-paying-customers-between-stripe-accounts-in-a-3-hour-window-19c4</guid>
+    <pubDate>Sun, 10 May 2026 17:10:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hello readers 👋, welcome to the 10th blog in our Node.js series! In the last post, we built a clean REST API using Express.js for a users resource. We defined routes and handled different HTTP...</description>
+    <description>In a single 3-hour window at midnight US time, we moved 2,500 US customers from our Australian Stripe account to a new US Stripe account. Payment methods, credits, coupons, promo codes, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Deterministic AI</title>
-    <link>https://dev.to/aaronmaxwell/deterministic-ai-423h</link>
-    <guid>https://dev.to/aaronmaxwell/deterministic-ai-423h</guid>
-    <pubDate>Sun, 10 May 2026 13:45:00 +0000</pubDate>
+    <title>The first time you watch an AI agent buy something, you will feel something you cannot name.</title>
+    <link>https://dev.to/thegdsks/the-first-time-you-watch-an-ai-agent-buy-something-you-will-feel-something-you-cannot-name-35f3</link>
+    <guid>https://dev.to/thegdsks/the-first-time-you-watch-an-ai-agent-buy-something-you-will-feel-something-you-cannot-name-35f3</guid>
+    <pubDate>Sun, 10 May 2026 17:08:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The enthusiasm around AI has been focused on large language models for years now. For quite a few folks, this is their first real experience with AI at all. And I am sure you have noticed...</description>
+    <description>A 91 second experiment, an $11.78 charge, and a moment of hesitation that surprised me more than the result. I knew the agent was going to spend money. I had set the cap. I had created the Stripe...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Self-Updating SEO Brain Inspired by Andrej Karpathy&apos;s LLM Wiki</title>
-    <link>https://dev.to/techwithhari/i-built-a-self-updating-seo-brain-inspired-by-andrej-karpathys-llm-wiki-39p1</link>
-    <guid>https://dev.to/techwithhari/i-built-a-self-updating-seo-brain-inspired-by-andrej-karpathys-llm-wiki-39p1</guid>
-    <pubDate>Sun, 10 May 2026 13:39:47 +0000</pubDate>
+    <title>Beyond Localhost: Implementing Production-Grade Entra ID Auth in .NET Aspire</title>
+    <link>https://dev.to/ipazooki/beyond-localhost-implementing-production-grade-entra-id-auth-in-net-aspire-1if0</link>
+    <guid>https://dev.to/ipazooki/beyond-localhost-implementing-production-grade-entra-id-auth-in-net-aspire-1if0</guid>
+    <pubDate>Sun, 10 May 2026 17:03:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Tweet That Changed How I Think About AI + Knowledge In early April 2026, Andrej Karpathy (OpenAI co-founder, former Tesla AI Director) posted something deceptively simple: &quot;Something I&apos;m...</description>
+    <description>We’ve all been there. You spend two days wiring up authentication for a distributed project. It works perfectly on your machine with a mock provider or a local database, but the moment you try to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Tried 3 Layers of AI Code Review So Your Diff Doesn&apos;t Have To</title>
-    <link>https://dev.to/kenimo49/i-tried-3-layers-of-ai-code-review-so-your-diff-doesnt-have-to-16ec</link>
-    <guid>https://dev.to/kenimo49/i-tried-3-layers-of-ai-code-review-so-your-diff-doesnt-have-to-16ec</guid>
-    <pubDate>Sun, 10 May 2026 13:36:20 +0000</pubDate>
+    <title>FastMCP: Build Production-Ready MCP Servers in Python with Minimal Boilerplate</title>
+    <link>https://dev.to/shrsv/fastmcp-build-production-ready-mcp-servers-in-python-with-minimal-boilerplate-5fgc</link>
+    <guid>https://dev.to/shrsv/fastmcp-build-production-ready-mcp-servers-in-python-with-minimal-boilerplate-5fgc</guid>
+    <pubDate>Sun, 10 May 2026 16:57:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I shipped 3 bugs after &apos;looks good to me&apos; AI code review last quarter I had one of those quarters where every PR went through an AI reviewer, every PR got a friendly &quot;LGTM with minor suggestions&quot;,...</description>
+    <description>Hello, I&apos;m Shrijith Venkatramana. I&apos;m building git-lrc, an AI code reviewer that runs on every commit. Star Us to help devs discover the project. Do give it a try and share your feedback for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>payx3: Multi-Chain Crypto Payment SDK You&apos;ve Been Waiting For</title>
-    <link>https://dev.to/susheel_kumar_2041f5433d2/payx3-multi-chain-crypto-payment-sdk-youve-been-waiting-for-5f2k</link>
-    <guid>https://dev.to/susheel_kumar_2041f5433d2/payx3-multi-chain-crypto-payment-sdk-youve-been-waiting-for-5f2k</guid>
-    <pubDate>Sun, 10 May 2026 13:35:58 +0000</pubDate>
+    <title>Ashnymph’s Childhood EP is exhilarating dance goth rock</title>
+    <link>https://www.theverge.com/entertainment/927620/ashnymph-childhood-ep-music-review</link>
+    <guid>https://www.theverge.com/entertainment/927620/ashnymph-childhood-ep-music-review</guid>
+    <pubDate>Sun, 10 May 2026 16:52:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I&apos;ve got to thank my oldest friend and concert buddy, Tim, for turning me on to this one. Ashnymph is a London band that blends post-punk melodies with Krautrock rhythms and industrial grime....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Getting Started with Python For Data Analytics: A Beginner-Friendly Introduction</title>
+    <link>https://dev.to/derickmenje/getting-started-with-python-for-data-analytics-a-beginner-friendly-introduction-44g2</link>
+    <guid>https://dev.to/derickmenje/getting-started-with-python-for-data-analytics-a-beginner-friendly-introduction-44g2</guid>
+    <pubDate>Sun, 10 May 2026 16:51:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem Every crypto payment integration follows the same painful pattern: Read blockchain docs for each chain Implement RPC calls Handle WebSocket reconnections Parse transaction data...</description>
+    <description>What is Python? Python is a beginner-friendly, &quot;human-readable&quot; programming language that acts like a live translator, allowing you to quickly connect different data tools and organize your work...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Beyond Vibe Coding into Agentic Engineering</title>
-    <link>https://dev.to/aws-builders/beyond-vibe-coding-into-agentic-engineering-5fef</link>
-    <guid>https://dev.to/aws-builders/beyond-vibe-coding-into-agentic-engineering-5fef</guid>
-    <pubDate>Sun, 10 May 2026 13:30:05 +0000</pubDate>
+    <title>Building an AI That Reads Tarot Cards (and Actually Remembers Your Last Reading)</title>
+    <link>https://dev.to/samchenreviews/building-an-ai-that-reads-tarot-cards-and-actually-remembers-your-last-reading-4og3</link>
+    <guid>https://dev.to/samchenreviews/building-an-ai-that-reads-tarot-cards-and-actually-remembers-your-last-reading-4og3</guid>
+    <pubDate>Sun, 10 May 2026 16:50:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In 2025 I published a blog post titled Common security pitfalls using Vibe coding, where I briefly explained what vibe-coding is, and what the security issues arise from &quot;vide coding&quot;. Recently, I...</description>
+    <description>Most tarot apps work like this: shuffle, deal, look up card meaning from a table, display. It&apos;s a random number generator wearing a mystical costume. I wanted to build something that actually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Every Developer Should Write: The Skill That Quietly Changes Everything</title>
-    <link>https://dev.to/safiullahkorai/why-every-developer-should-write-the-skill-that-quietly-changes-everything-2fd4</link>
-    <guid>https://dev.to/safiullahkorai/why-every-developer-should-write-the-skill-that-quietly-changes-everything-2fd4</guid>
-    <pubDate>Sun, 10 May 2026 13:27:50 +0000</pubDate>
+    <title>Debugging confidently wrong answers from LLM-powered features</title>
+    <link>https://dev.to/alanwest/debugging-confidently-wrong-answers-from-llm-powered-features-2f5o</link>
+    <guid>https://dev.to/alanwest/debugging-confidently-wrong-answers-from-llm-powered-features-2f5o</guid>
+    <pubDate>Sun, 10 May 2026 16:50:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I did not plan to become someone who writes. I was just trying to survive as a developer. There were days when nothing made sense. Errors that felt personal. Concepts that refused to stick....</description>
+    <description>The bug that took two weeks to surface A few months back I shipped a feature that used a language model to summarize support tickets and suggest responses. Internal QA loved it. The demo went...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Turning Observability into a Tunable Search Space</title>
-    <link>https://dev.to/rraluca07/turning-observability-into-a-search-space-5dhc</link>
-    <guid>https://dev.to/rraluca07/turning-observability-into-a-search-space-5dhc</guid>
-    <pubDate>Sun, 10 May 2026 13:24:39 +0000</pubDate>
+    <title>Terminal themes optimize for code. Claude Code isn&apos;t code.</title>
+    <link>https://dev.to/palo_alto_ai/terminal-themes-optimize-for-code-claude-code-isnt-code-54n7</link>
+    <guid>https://dev.to/palo_alto_ai/terminal-themes-optimize-for-code-claude-code-isnt-code-54n7</guid>
+    <pubDate>Sun, 10 May 2026 16:44:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the Mlops world, people have long used DAGs/graphs or at least the consensus has been that best practice was to use them. With AI and agents, the types of graphs used for orchestration or...</description>
+    <description>Most of what Claude Code outputs is English. Tool call results, reasoning traces, permission prompts, multi-paragraph explanations — on a busy session my screen is maybe 20% syntax-highlighted...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Diagnosis Didn&apos;t Change My Leadership. Ownership Did.</title>
-    <link>https://dev.to/jonoherrington/diagnosis-didnt-change-my-leadership-ownership-did-3ll5</link>
-    <guid>https://dev.to/jonoherrington/diagnosis-didnt-change-my-leadership-ownership-did-3ll5</guid>
-    <pubDate>Sun, 10 May 2026 13:23:03 +0000</pubDate>
+    <title>I shipped 30 apps. AI crawlers ignore them.</title>
+    <link>https://dev.to/jill_builds_apps/i-shipped-30-apps-ai-crawlers-ignore-them-506c</link>
+    <guid>https://dev.to/jill_builds_apps/i-shipped-30-apps-ai-crawlers-ignore-them-506c</guid>
+    <pubDate>Sun, 10 May 2026 16:43:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I left a role in part because one cross-functional relationship kept overstimulating me and I did not have a framework to understand my own reaction pattern. My ADHD diagnosis did not magically...</description>
+    <description>I have shipped over 30 apps. Most of them are absolute ghosts right now. If you ask an AI tool to find something that does exactly what my projects do, they won&apos;t show up. It is not because the...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We’re feeling cynical about xAI’s big deal with Anthropic</title>
+    <link>https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/</link>
+    <guid>https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/</guid>
+    <pubDate>Sun, 10 May 2026 15:34:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>On the latest episode of the Equity podcast, we discussed what xAI&apos;s deal with Anthropic might mean for parent company SpaceX.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cricut’s $99 craft cutting machine helped me feel creative again</title>
+    <link>https://www.theverge.com/gadgets/924281/cricut-joy-2-smart-cutting-machine-printer-hands-on</link>
+    <guid>https://www.theverge.com/gadgets/924281/cricut-joy-2-smart-cutting-machine-printer-hands-on</guid>
+    <pubDate>Sun, 10 May 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I&apos;ve always been skeptical of products that claim to help you lead a more creative life. But one recently won me over. I&apos;ve spent three weeks with the Cricut Joy 2, a smart cutting and drawing...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Writers are fleeing the Substack Tax</title>
+    <link>https://www.theverge.com/tech/927294/substack-tax-ghost-beehiiv</link>
+    <guid>https://www.theverge.com/tech/927294/substack-tax-ghost-beehiiv</guid>
+    <pubDate>Sun, 10 May 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Substack, the once buzzy newsletter platform, is losing a new swath of writers to rival platforms most people haven&apos;t heard of. Just last month, The Ankler, one of Substack&apos;s most popular...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</title>
@@ -238,42 +274,6 @@
     <pubDate>Fri, 08 May 2026 22:59:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Some found out they didn&apos;t qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Friday Squid Blogging: Giant Squid Live in the Waters of Western Australia</title>
-    <link>https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-giant-squid-live-in-the-waters-of-western-australia.html</guid>
-    <pubDate>Fri, 08 May 2026 21:03:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Evidence of them has been found by analyzing DNA in the seawater. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Asus chases Elgato with its own secondary touchscreen display</title>
-    <link>https://www.theverge.com/games/927333/asus-rog-strix-xg129c-secondary-display</link>
-    <guid>https://www.theverge.com/games/927333/asus-rog-strix-xg129c-secondary-display</guid>
-    <pubDate>Fri, 08 May 2026 20:34:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Asus&apos;s latest gaming monitor is a little smaller than usual. The ROG Strix XG129C, announced on Friday, is a 12.3-inch touchscreen IPS display that&apos;s intended to be a sidekick for a larger main...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Amazon is adding a vertical video feed to Prime Video</title>
-    <link>https://www.theverge.com/streaming/927327/amazon-prime-video-vertical-video-feed</link>
-    <guid>https://www.theverge.com/streaming/927327/amazon-prime-video-vertical-video-feed</guid>
-    <pubDate>Fri, 08 May 2026 20:19:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon Prime Video is joining Netflix and Disney Plus in adding a vertical feed of videos to its streaming app. The new &quot;Clips&quot; feed will offer a stream of short-form videos from shows and movies,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Intel’s comeback story is even wilder than it seems</title>
-    <link>https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/</link>
-    <guid>https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/</guid>
-    <pubDate>Fri, 08 May 2026 20:02:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Intel&apos;s stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company&apos;s actual turnaround.</description>
     <category>AI</category>
   </item>
 </channel>
