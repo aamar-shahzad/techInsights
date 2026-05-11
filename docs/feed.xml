@@ -5,25 +5,232 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 11 May 2026 11:36:35 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 11 May 2026 15:35:38 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Local Multimodal LLM on iOS with `llama.cpp` (Swift + ObjC++)</title>
-    <link>https://dev.to/fosteman/local-multimodal-llm-on-ios-with-llamacpp-swift-objc-2jbc</link>
-    <guid>https://dev.to/fosteman/local-multimodal-llm-on-ios-with-llamacpp-swift-objc-2jbc</guid>
-    <pubDate>Mon, 11 May 2026 11:30:41 +0000</pubDate>
+    <title>My 2026 Productivity Stack</title>
+    <link>https://dev.to/davidmorais/my-2026-productivity-stack-321i</link>
+    <guid>https://dev.to/davidmorais/my-2026-productivity-stack-321i</guid>
+    <pubDate>Mon, 11 May 2026 15:32:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I want a real local pipeline: image in, structured JSON out, no cloud dependency. Optimized to run Metal / ANE or whatever apple exposes ? My goal is to infer a json-struct of variables from image...</description>
+    <description>2026 Producitvity Stack Hey 👋 Every year or so I like to write about the tools I&apos;m using. Partly because I enjoy reading other people&apos;s setups, partly because it forces me to think about whether...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Source Score: Using AI to automate addition of new sources</title>
-    <link>https://dev.to/semmet/source-score-using-ai-to-automate-addition-of-new-sources-ego</link>
-    <guid>https://dev.to/semmet/source-score-using-ai-to-automate-addition-of-new-sources-ego</guid>
-    <pubDate>Mon, 11 May 2026 11:14:19 +0000</pubDate>
+    <title>You’re Not Building Apps. You’re Designing Systems.</title>
+    <link>https://dev.to/stinklewinks/youre-not-building-apps-youre-designing-systems-1o3f</link>
+    <guid>https://dev.to/stinklewinks/youre-not-building-apps-youre-designing-systems-1o3f</guid>
+    <pubDate>Mon, 11 May 2026 15:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This post is a continuation of a microservice I&apos;ve been building. You can check out my last post in the series here. Automate News Source Ingestion with Firecrawl, OpenRouter, and GitHub Actions...</description>
+    <description>Most developers think they’re building applications. Pages. APIs. Features. Endpoints. Something users can click, interact with, and use. But after building enough projects, something becomes...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I wanted to understand Payments better ... and learned about HAR files.</title>
+    <link>https://dev.to/ayda_ma04a645d96526b/i-wanted-to-understand-payments-better-and-learned-about-har-files-4dd9</link>
+    <guid>https://dev.to/ayda_ma04a645d96526b/i-wanted-to-understand-payments-better-and-learned-about-har-files-4dd9</guid>
+    <pubDate>Mon, 11 May 2026 15:29:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I started following up on my challenge of learning more about how payments in Web2 work: I set up my account, my sandbox, and a simple checkout flow. I went through the flow once, and it worked....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</title>
+    <link>https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit</link>
+    <guid>https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit</guid>
+    <pubDate>Mon, 11 May 2026 15:27:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Top 7 Featured DEV Posts of the Week</title>
+    <link>https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-4nik</link>
+    <guid>https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-4nik</guid>
+    <pubDate>Mon, 11 May 2026 15:25:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Welcome to this week&apos;s Top 7, where the DEV editorial team handpicks their favorite posts from the previous week (Saturday-Friday). Congrats to all the authors that made it onto the list 👏 I...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Indexing every WHERE column is not PostgreSQL optimization</title>
+    <link>https://dev.to/bertrand_hartwig_309d1958/indexing-every-where-column-is-not-postgresql-optimization-3gj0</link>
+    <guid>https://dev.to/bertrand_hartwig_309d1958/indexing-every-where-column-is-not-postgresql-optimization-3gj0</guid>
+    <pubDate>Mon, 11 May 2026 15:20:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>One PostgreSQL indexing mistake I see often: “The query filters on A, B and C, so let’s create an index on A, B, C.” That may work, but it may also be the wrong index. For composite B-tree...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🔥 PostgreSQL vs SQLite – which one should you actually use for your web app or SaaS?</title>
+    <link>https://dev.to/rabius-sunny/postgresql-vs-sqlite-which-one-should-you-actually-use-for-your-web-app-or-saas-i0</link>
+    <guid>https://dev.to/rabius-sunny/postgresql-vs-sqlite-which-one-should-you-actually-use-for-your-web-app-or-saas-i0</guid>
+    <pubDate>Mon, 11 May 2026 15:17:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The choice between SQLite and PostgreSQL is a frequent point of confusion. The quick choice is: For almost any public-facing web app or SaaS, you want PostgreSQL. SQLite is for embedded,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Model Showdown Round 4: Opus vs Qwen — Writers, Not Coders</title>
+    <link>https://dev.to/carryologist/model-showdown-round-4-opus-vs-qwen-writers-not-coders-3b0o</link>
+    <guid>https://dev.to/carryologist/model-showdown-round-4-opus-vs-qwen-writers-not-coders-3b0o</guid>
+    <pubDate>Mon, 11 May 2026 15:17:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Two models. Same prompt. Same five fodder files. Same 27 published posts to check for redundancy. Same writing style guide. One chose the Dev.to syndication saga. The other chose the tag taxonomy...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>GM settles California lawsuit claiming it sold driving habit data to insurance companies</title>
+    <link>https://www.theverge.com/transportation/927863/gm-settles-california-lawsuit-claiming-it-sold-driving-habit-data-to-insurance-companies</link>
+    <guid>https://www.theverge.com/transportation/927863/gm-settles-california-lawsuit-claiming-it-sold-driving-habit-data-to-insurance-companies</guid>
+    <pubDate>Mon, 11 May 2026 15:11:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>General Motors has agreed to pay $12.75 million to settle a California data privacy lawsuit that accused the automaker of selling driver location and driver data, as reported earlier by Reuters....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Cloud Barata e Potente: Meu Guia de Bolso para Devs e Startups</title>
+    <link>https://dev.to/kabrau/cloud-barata-e-potente-meu-guia-de-bolso-para-devs-e-startups-32f4</link>
+    <guid>https://dev.to/kabrau/cloud-barata-e-potente-meu-guia-de-bolso-para-devs-e-startups-32f4</guid>
+    <pubDate>Mon, 11 May 2026 15:11:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Gurizada, vou ser direto: cansei de ver projeto bom morrer na praia porque o custo da infraestrutura virou um monstro de sete cabeças. Como CTO, lido dia a dia com GCP e Oracle Cloud para a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>GarlicStamp: an open identity protocol for AI agents</title>
+    <link>https://dev.to/hellohazl/garlicstamp-an-open-identity-protocol-for-ai-agents-16ca</link>
+    <guid>https://dev.to/hellohazl/garlicstamp-an-open-identity-protocol-for-ai-agents-16ca</guid>
+    <pubDate>Mon, 11 May 2026 15:05:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve spent any time wiring AI agents into real systems — picking up tickets, executing trades, managing infrastructure, talking to APIs that cost real money — you&apos;ve already run into the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>LSM Trees: Why Your Database Writes Are Fast and Your Reads Are Lying to You</title>
+    <link>https://dev.to/ericwoooo_kr/lsm-trees-why-your-database-writes-are-fast-and-your-reads-are-lying-to-you-55nb</link>
+    <guid>https://dev.to/ericwoooo_kr/lsm-trees-why-your-database-writes-are-fast-and-your-reads-are-lying-to-you-55nb</guid>
+    <pubDate>Mon, 11 May 2026 15:05:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR: The thing that broke my comfortable ignorance about storage engines was a pipeline ingesting sensor telemetry — about 50,000 inserts per second into a PostgreSQL 15 cluster. The hardware...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Matter and OpenADR team up to connect smart homes to the grid</title>
+    <link>https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management</link>
+    <guid>https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management</guid>
+    <pubDate>Mon, 11 May 2026 14:40:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Smart energy management just took a step closer to becoming simpler. This week, the organizations behind Matter, the smart-home interoperability standard, and the OpenADR protocol, which sends...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Joanna Stern is not a robot, but she lived with them</title>
+    <link>https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation</link>
+    <guid>https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation</guid>
+    <pubDate>Mon, 11 May 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>My guest today is longtime friend of the show Joanna Stern. You all know Joanna: she is the former senior personal technology columnist for The Wall Street Journal, a former Decoder guest host,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Fostering breakthrough AI innovation through customer-back engineering</title>
+    <link>https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/</link>
+    <guid>https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/</guid>
+    <pubDate>Mon, 11 May 2026 13:33:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>TikTok is letting UK users pay to remove ads</title>
+    <link>https://www.theverge.com/tech/927761/tiktok-ad-free-paid-subscription-uk</link>
+    <guid>https://www.theverge.com/tech/927761/tiktok-ad-free-paid-subscription-uk</guid>
+    <pubDate>Mon, 11 May 2026 13:02:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>TikTok is preparing to roll out a paid, ad-free version of its app in the UK. The new subscription announced today will be available to users over 18 &quot;over the coming months,&quot; according to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>There aren’t enough rockets for space data centers. Cowboy Space raised $275 million to build them.</title>
+    <link>https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/</link>
+    <guid>https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/</guid>
+    <pubDate>Mon, 11 May 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Cowboy Space Corporation wants to put data centers in orbit. First, it has to build the rockets to get them there.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Innovation abounds in device charging</title>
+    <link>https://www.technologyreview.com/2026/05/11/1136406/innovation-abounds-in-device-charging/</link>
+    <guid>https://www.technologyreview.com/2026/05/11/1136406/innovation-abounds-in-device-charging/</guid>
+    <pubDate>Mon, 11 May 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The changes may be less perceptible than in smartphones, tablets, or wearables, but chargers have also been quietly reinvented over the last decade. At one time a bulky mix of tangled cables and...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Implementing advanced AI technologies in finance</title>
+    <link>https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/</link>
+    <guid>https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/</guid>
+    <pubDate>Mon, 11 May 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Discord adds a free Xbox Game Pass ‘starter edition’ for Nitro subscribers</title>
+    <link>https://www.theverge.com/news/927722/discord-xbox-game-pass-starter-edition-nitro-subscribers</link>
+    <guid>https://www.theverge.com/news/927722/discord-xbox-game-pass-starter-edition-nitro-subscribers</guid>
+    <pubDate>Mon, 11 May 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Discord is announcing the launch of Nitro Rewards today, a new program for subscribers that bundles benefits from third parties like Microsoft, Logitech, and SteelSeries, into a Nitro...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Wordle is turning into a primetime TV game show on NBC</title>
+    <link>https://www.theverge.com/games/927536/wordle-game-show-nbc-savannah-guthrie-jimmy-fallon-new-york-times</link>
+    <guid>https://www.theverge.com/games/927536/wordle-game-show-nbc-savannah-guthrie-jimmy-fallon-new-york-times</guid>
+    <pubDate>Mon, 11 May 2026 12:50:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Wordle could be the next great game show. NBC has greenlit a game show version of The New York Times&apos; popular puzzle game, and it&apos;s set to debut in 2027 with Savannah Guthrie as the host. The show...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More</title>
+    <link>https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html</link>
+    <guid>https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html</guid>
+    <pubDate>Mon, 11 May 2026 12:36:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Download: the hantavirus outbreak and Musk v. Altman week 2</title>
+    <link>https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/</link>
+    <guid>https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/</guid>
+    <pubDate>Mon, 11 May 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s what you need to know about the cruise ship...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Venmo finally takes privacy seriously</title>
+    <link>https://www.theverge.com/tech/927503/venmo-app-redesign-privacy-posts</link>
+    <guid>https://www.theverge.com/tech/927503/venmo-app-redesign-privacy-posts</guid>
+    <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Venmo is starting to test a big redesign of its app, and as part of the changes, it will be implementing a major new privacy measure: the onboarding process for new users will set their posts to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Your Purple Team Isn&apos;t Purple — It&apos;s Just Red and Blue in the Same Room</title>
+    <link>https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html</link>
+    <guid>https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html</guid>
+    <pubDate>Mon, 11 May 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Windows 11 is getting a macOS-like speed boost</title>
@@ -35,60 +242,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>How I Reduced My Cloud Bill by 60% Without Touching My Code</title>
-    <link>https://dev.to/shy_gamer/how-i-reduced-my-cloud-bill-by-60-without-touching-my-code-4505</link>
-    <guid>https://dev.to/shy_gamer/how-i-reduced-my-cloud-bill-by-60-without-touching-my-code-4505</guid>
-    <pubDate>Mon, 11 May 2026 11:12:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last year I was paying $340/month for infrastructure that served ~50k monthly active users. Today I pay $136/month for the same load. Here&apos;s exactly what I changed — zero code rewrites required....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>10 AI Tools That Actually Save Developers Time in 2026</title>
-    <link>https://dev.to/shy_gamer/10-ai-tools-that-actually-save-developers-time-in-2026-5ff4</link>
-    <guid>https://dev.to/shy_gamer/10-ai-tools-that-actually-save-developers-time-in-2026-5ff4</guid>
-    <pubDate>Mon, 11 May 2026 11:11:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI tools are everywhere — but most of them are hype. After testing dozens of tools in real projects, here are the 10 that actually save me time every single day as a developer. 1. 🤖 Cursor IDE...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How Claude Code Improved My LinkedIn Profile Visibility !!</title>
-    <link>https://dev.to/sanukhandev/how-claude-code-improved-my-linkedin-profile-visibility--390b</link>
-    <guid>https://dev.to/sanukhandev/how-claude-code-improved-my-linkedin-profile-visibility--390b</guid>
-    <pubDate>Mon, 11 May 2026 11:08:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A practical 4-minute case study on using Claude Code to review, restructure, and optimise a LinkedIn profile for better visibility, recruiter discovery, and professional positioning. LinkedIn is...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Organized Dogmatism Controls the Message about Gender Bias in the Academy</title>
-    <link>https://journalofcontroversialideas.org/article/6/1/313</link>
-    <guid>https://journalofcontroversialideas.org/article/6/1/313</guid>
-    <pubDate>Mon, 11 May 2026 11:07:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://journalofcontroversialideas.org/article/6/1/313 Comments URL: https://news.ycombinator.com/item?id=48093468 Points: 10 # Comments: 1</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>6 years building Planning Poker Online: from a weekend project to 147K users (and 3 mistakes I had to fix)</title>
-    <link>https://dev.to/miquelcdp/6-years-building-planning-poker-online-from-a-weekend-project-to-147k-users-and-3-mistakes-i-had-4a04</link>
-    <guid>https://dev.to/miquelcdp/6-years-building-planning-poker-online-from-a-weekend-project-to-147k-users-and-3-mistakes-i-had-4a04</guid>
-    <pubDate>Mon, 11 May 2026 11:05:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In early 2020 I built a real-time planning poker app over a weekend, almost by accident. Six years later, 147,000+ people use it every month, including teams at Google. This is a story about...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Work in Hollywood. Everyone Who Used to Make TV Is Now Training AI</title>
-    <link>https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/</link>
-    <guid>https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/</guid>
-    <pubDate>Mon, 11 May 2026 11:05:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/ Comments URL: https://news.ycombinator.com/item?id=48093446 Points: 6 # Comments: 0</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>LLMs and Text-in-Text Steganography</title>
     <link>https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html</link>
     <guid>https://www.schneier.com/blog/archives/2026/05/llms-and-text-in-text-steganography.html</guid>
@@ -96,24 +249,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>Turns out that LLMs are really good at hiding text messages in other text messages.</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Improving First Byte and Contentful Paint on a Django Website</title>
-    <link>https://dev.to/djangotricks/improving-first-byte-and-contentful-paint-on-a-django-website-2k4f</link>
-    <guid>https://dev.to/djangotricks/improving-first-byte-and-contentful-paint-on-a-django-website-2k4f</guid>
-    <pubDate>Mon, 11 May 2026 11:03:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Recently I have been experimenting with http streaming and realized how it can improve page performance. If you come from the PHP world, you might know the command flush(). It immediately sends to...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>WEEK 3 #100DAYSOFSOLANA: SHARING MY TOOL AND OUTPUT</title>
-    <link>https://dev.to/peter_okoh_/week-3-100daysofsolana-sharing-my-tool-and-output-4fia</link>
-    <guid>https://dev.to/peter_okoh_/week-3-100daysofsolana-sharing-my-tool-and-output-4fia</guid>
-    <pubDate>Mon, 11 May 2026 11:03:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I first started learning Solana, transactions felt like magic. You click &quot;Send&quot;, wait a few seconds, and somehow value moves across a decentralised network. But after spending time building...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Forza Horizon 6 has been leaked and cracked a week before its release</title>
@@ -141,140 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>For screenwriters like me—and job seekers all over—AI gig work is the new waiting tables. In eight months, I’ve done 20 of these soul-crushing contracts for five different platforms. It’s bad.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI Campus Network: Student club interest form</title>
-    <link>https://openai.com/index/openai-campus-network-student-club-interest-form</link>
-    <guid>https://openai.com/index/openai-campus-network-student-club-interest-form</guid>
-    <pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How enterprises are scaling AI</title>
-    <link>https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai</link>
-    <guid>https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai</guid>
-    <pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Logitech’s tiny folding mouse improves upon the laptop trackpad</title>
-    <link>https://www.theverge.com/tech/927695/logitech-folding-mouse-leaked-images</link>
-    <guid>https://www.theverge.com/tech/927695/logitech-folding-mouse-leaked-images</guid>
-    <pubDate>Mon, 11 May 2026 09:57:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Logitech is reportedly developing a new wireless mouse that folds in half to make it easier to carry around in a bag or pocket. According to leaked marketing images shared by WinFuture, Logitech&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads</title>
-    <link>https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html</link>
-    <guid>https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html</guid>
-    <pubDate>Mon, 11 May 2026 07:05:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A malicious Hugging Face repository managed to take a spot in the platform&apos;s trending list by impersonating OpenAI&apos;s Privacy Filter open-weight model to deliver a Rust-based information stealer to...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The new AI-powered Google Finance is expanding to Europe.</title>
-    <link>https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/</link>
-    <guid>https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/</guid>
-    <pubDate>Mon, 11 May 2026 06:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>A screenshot of the AI-powered experience on Google Finance.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Get ready for the whisper-filled office of the future</title>
-    <link>https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/</link>
-    <guid>https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/</guid>
-    <pubDate>Sun, 10 May 2026 21:15:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>How will work setups change if we spend more and more time talking to our computers?</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Bastl Kalimba is a wild synth that thinks it’s a thumb piano</title>
-    <link>https://www.theverge.com/tech/927638/the-bastl-kalimba-is-a-wild-synth-that-thinks-its-a-thumb-piano</link>
-    <guid>https://www.theverge.com/tech/927638/the-bastl-kalimba-is-a-wild-synth-that-thinks-its-a-thumb-piano</guid>
-    <pubDate>Sun, 10 May 2026 20:42:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Make no mistake, the Bastl Kalimba is a synthesizer, you just play it like a kalimba. Its tines don&apos;t really make much sound. There is an internal mic that you can blend in for a little acoustic...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts</title>
-    <link>https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/</link>
-    <guid>https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/</guid>
-    <pubDate>Sun, 10 May 2026 20:40:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X</title>
-    <link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck</link>
-    <guid>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck</guid>
-    <pubDate>Sun, 10 May 2026 18:44:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Ashnymph’s Childhood EP is exhilarating dance goth rock</title>
-    <link>https://www.theverge.com/entertainment/927620/ashnymph-childhood-ep-music-review</link>
-    <guid>https://www.theverge.com/entertainment/927620/ashnymph-childhood-ep-music-review</guid>
-    <pubDate>Sun, 10 May 2026 16:52:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>I&apos;ve got to thank my oldest friend and concert buddy, Tim, for turning me on to this one. Ashnymph is a London band that blends post-punk melodies with Krautrock rhythms and industrial grime....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>We’re feeling cynical about xAI’s big deal with Anthropic</title>
-    <link>https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/</link>
-    <guid>https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/</guid>
-    <pubDate>Sun, 10 May 2026 15:34:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>On the latest episode of the Equity podcast, we discussed what xAI&apos;s deal with Anthropic might mean for parent company SpaceX.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Cricut’s $99 craft cutting machine helped me feel creative again</title>
-    <link>https://www.theverge.com/gadgets/924281/cricut-joy-2-smart-cutting-machine-printer-hands-on</link>
-    <guid>https://www.theverge.com/gadgets/924281/cricut-joy-2-smart-cutting-machine-printer-hands-on</guid>
-    <pubDate>Sun, 10 May 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>I&apos;ve always been skeptical of products that claim to help you lead a more creative life. But one recently won me over. I&apos;ve spent three weeks with the Cricut Joy 2, a smart cutting and drawing...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Writers are fleeing the Substack Tax</title>
-    <link>https://www.theverge.com/tech/927294/substack-tax-ghost-beehiiv</link>
-    <guid>https://www.theverge.com/tech/927294/substack-tax-ghost-beehiiv</guid>
-    <pubDate>Sun, 10 May 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Substack, the once buzzy newsletter platform, is losing a new swath of writers to rival platforms most people haven&apos;t heard of. Just last month, The Ankler, one of Substack&apos;s most popular...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</title>
-    <link>https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html</link>
-    <guid>https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html</guid>
-    <pubDate>Sun, 10 May 2026 12:41:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Netflix may have finally figured out games</title>
-    <link>https://www.theverge.com/column/926250/netflix-tv-games-strategy</link>
-    <guid>https://www.theverge.com/column/926250/netflix-tv-games-strategy</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Netflix, follow Andrew Webster. The Stepback arrives in our subscribers&apos; inboxes at 8AM...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
