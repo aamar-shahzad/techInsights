@@ -5,8 +5,195 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 18 May 2026 15:56:04 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 18 May 2026 18:09:58 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Approaches to tenancy in Postgres</title>
+    <link>https://dev.to/planetscale/approaches-to-tenancy-in-postgres-2m83</link>
+    <guid>https://dev.to/planetscale/approaches-to-tenancy-in-postgres-2m83</guid>
+    <pubDate>Mon, 18 May 2026 18:05:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>By Simeon Griggs Multi-tenancy is a term used across various kinds of technical infrastructure, including application hosting, compute, databases, and more. For example, you may purchase cloud...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Solana Account Explorer: Query On-Chain Data Like a Database</title>
+    <link>https://dev.to/lymah/building-a-solana-account-explorer-query-on-chain-data-like-a-database-293d</link>
+    <guid>https://dev.to/lymah/building-a-solana-account-explorer-query-on-chain-data-like-a-database-293d</guid>
+    <pubDate>Mon, 18 May 2026 17:58:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>From Concept to Code In Part 1 of this series, I explained that everything on Solana is an account with five fields: lamports, data, owner, executable, and rent_epoch. That&apos;s the theory. But...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Role of the Semantic Layer in Data Governance</title>
+    <link>https://dev.to/alexmercedcoder/the-role-of-the-semantic-layer-in-data-governance-1gne</link>
+    <guid>https://dev.to/alexmercedcoder/the-role-of-the-semantic-layer-in-data-governance-1gne</guid>
+    <pubDate>Mon, 18 May 2026 17:58:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most organizations have a data governance policy. It lives in a Confluence page. It defines who owns what data, what terms mean, and who should have access. And almost nobody follows it, because...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>PCA (Principal Component Analysis): Finding the Hidden Structure in High‑Dimensional Data</title>
+    <link>https://dev.to/jacobjerryarackal/pca-principal-component-analysis-finding-the-hidden-structure-in-high-dimensional-data-8h6</link>
+    <guid>https://dev.to/jacobjerryarackal/pca-principal-component-analysis-finding-the-hidden-structure-in-high-dimensional-data-8h6</guid>
+    <pubDate>Mon, 18 May 2026 17:57:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>1. The Problem It Solves Imagine you have a dataset with 100 features, for example, pixel values from 10×10 grayscale images, or 100 different sensor readings from a factory machine. Visualising...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Install Hexabot CLI and Create Your First AI Workflow</title>
+    <link>https://dev.to/marrouchi/install-hexabot-cli-and-create-your-first-ai-workflow-3ah0</link>
+    <guid>https://dev.to/marrouchi/install-hexabot-cli-and-create-your-first-ai-workflow-3ah0</guid>
+    <pubDate>Mon, 18 May 2026 17:57:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Install Hexabot CLI and Create Your First AI Workflow Project Getting started with a new automation platform should not take hours. In this tutorial, I’ll show you how to install the Hexabot CLI,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building Automated AWS Permission Testing Infrastructure for CI/CD</title>
+    <link>https://dev.to/tallgray1/building-automated-aws-permission-testing-infrastructure-for-cicd-3jai</link>
+    <guid>https://dev.to/tallgray1/building-automated-aws-permission-testing-infrastructure-for-cicd-3jai</guid>
+    <pubDate>Mon, 18 May 2026 17:54:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published on graycloudarch.com. I deployed a permission set for our data engineers five times before it worked correctly. The first deployment: S3 reads worked, Glue Data Catalog reads...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Wasm-in-Wasm Virtualizer (with JIT decrypted paged memory)</title>
+    <link>https://dev.to/trustsig/building-a-wasm-in-wasm-virtualizer-with-jit-decrypted-paged-memory-pk1</link>
+    <guid>https://dev.to/trustsig/building-a-wasm-in-wasm-virtualizer-with-jit-decrypted-paged-memory-pk1</guid>
+    <pubDate>Mon, 18 May 2026 17:54:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Intro WebAssembly was built for portability and raw speed. It was definitely not built for keeping secrets. To really protect your code, you have to compile it down to a custom, undocumented...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How I Built a Sales Agent That Scores Deal Health from Memory — No CRM Update Required</title>
+    <link>https://dev.to/shrishant_kashid_4bfc909f/how-i-built-a-sales-agent-that-scores-deal-health-from-memory-no-crm-update-required-2b81</link>
+    <guid>https://dev.to/shrishant_kashid_4bfc909f/how-i-built-a-sales-agent-that-scores-deal-health-from-memory-no-crm-update-required-2b81</guid>
+    <pubDate>Mon, 18 May 2026 17:53:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Sales reps talk to the same people for months. The context — budget concerns raised in week two, the competitor mentioned offhand in week five, the onboarding objection that nearly killed the deal...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Your AI Initiatives Fail Without a Semantic Layer</title>
+    <link>https://dev.to/alexmercedcoder/why-your-ai-initiatives-fail-without-a-semantic-layer-1m0d</link>
+    <guid>https://dev.to/alexmercedcoder/why-your-ai-initiatives-fail-without-a-semantic-layer-1m0d</guid>
+    <pubDate>Mon, 18 May 2026 17:50:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Your team builds an AI agent. It connects to your data warehouse. A product manager types &quot;What was revenue last quarter?&quot; and gets a number. The number is wrong. Nobody knows it&apos;s wrong until...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Giving AI Agents Eyes (Part 2): From Page Snapshots to Interaction Traces</title>
+    <link>https://dev.to/gauravchodwadia/giving-ai-agents-eyes-part-2-from-page-snapshots-to-interaction-traces-24hd</link>
+    <guid>https://dev.to/gauravchodwadia/giving-ai-agents-eyes-part-2-from-page-snapshots-to-interaction-traces-24hd</guid>
+    <pubDate>Mon, 18 May 2026 17:50:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>In Part 1, we solved the representation problem: how to give an LLM a compact, semantic view of a web page using accessibility trees. That gave our AI agent the ability to answer &quot;what is on this...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>All of the updates from Elon Musk and Sam Altman’s battle over OpenAI</title>
+    <link>https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit</link>
+    <guid>https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit</guid>
+    <pubDate>Mon, 18 May 2026 17:49:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Elon Musk Loses Landmark Lawsuit Against OpenAI</title>
+    <link>https://www.wired.com/story/musk-v-altman-jury-verdict/</link>
+    <guid>https://www.wired.com/story/musk-v-altman-jury-verdict/</guid>
+    <pubDate>Mon, 18 May 2026 17:40:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The nine-member panel took only two hours to return a verdict in favor of OpenAI on Monday, which the judge quickly adopted as her own final decision.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Elon Musk lost his case against Sam Altman</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/932383/jury-verdict-musk-v-altman-openai-trial</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/932383/jury-verdict-musk-v-altman-openai-trial</guid>
+    <pubDate>Mon, 18 May 2026 17:39:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After around two hours of deliberation, the jury has reached a unanimous verdict in Musk v. Altman, the tech trial of the year. The group found that two claims were barred by the statute of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>What to expect from Google this week</title>
+    <link>https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/</link>
+    <guid>https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/</guid>
+    <pubDate>Mon, 18 May 2026 17:35:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Elon Musk has lost his lawsuit against Sam Altman and OpenAI</title>
+    <link>https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/</link>
+    <guid>https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/</guid>
+    <pubDate>Mon, 18 May 2026 17:34:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Elon Musk&apos;s claim that he was mistreated by his OpenAI cofounders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests</title>
+    <link>https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html</link>
+    <guid>https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html</guid>
+    <pubDate>Mon, 18 May 2026 17:21:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Signals That Matter – MIT Insider’s Panel</title>
+    <link>https://www.technologyreview.com/2026/05/18/1137430/the-signals-that-matter-mit-insiders-panel/</link>
+    <guid>https://www.technologyreview.com/2026/05/18/1137430/the-signals-that-matter-mit-insiders-panel/</guid>
+    <pubDate>Mon, 18 May 2026 16:57:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Google is rolling out its redesigned Workspace app icons</title>
+    <link>https://www.theverge.com/tech/932417/google-gmail-docs-cal-sheets-workspace-icon-redesign</link>
+    <guid>https://www.theverge.com/tech/932417/google-gmail-docs-cal-sheets-workspace-icon-redesign</guid>
+    <pubDate>Mon, 18 May 2026 16:29:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s not just you - the Google Workspace apps are getting a new look. The redesigned app icons, leaked last month, are now rolling out widely, as we started noticing this morning. Users with the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Sony is raising short-subscription prices for PlayStation Plus</title>
+    <link>https://www.theverge.com/games/932430/sony-playstation-plus-subscription-price-raise</link>
+    <guid>https://www.theverge.com/games/932430/sony-playstation-plus-subscription-price-raise</guid>
+    <pubDate>Mon, 18 May 2026 16:24:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sony is hiking the starting price of one-month and three-month PlayStation Plus subscriptions in &quot;select regions,&quot; blaming &quot;ongoing market conditions.&quot; Beginning May 20th, 1-month subscriptions...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Inside Anduril and Meta’s quest to make smart glasses for warfare</title>
+    <link>https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/</link>
+    <guid>https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/</guid>
+    <pubDate>Mon, 18 May 2026 16:01:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it’s prototyping with Meta, including a vision for ordering drone strikes via...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation</title>
+    <link>https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation</link>
+    <guid>https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation</guid>
+    <pubDate>Mon, 18 May 2026 16:00:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
   <item>
     <title>Amazon Alexa Plus can now create AI-generated podcasts</title>
     <link>https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts</link>
@@ -15,96 +202,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Alexa Plus, Amazon&apos;s upgraded AI assistant, can now generate podcasts on &quot;virtually any topic,&quot; according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Shipping AI Agents Like A Pro</title>
-    <link>https://dev.to/wassimchegham/shipping-ai-agents-like-a-pro-4jo0</link>
-    <guid>https://dev.to/wassimchegham/shipping-ai-agents-like-a-pro-4jo0</guid>
-    <pubDate>Mon, 18 May 2026 15:54:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your agent works on your laptop. It plans a beautiful 4-day hiking trip with a fancy dinner, stays under budget, and nails the itinerary. You hit enter, lean back, and feel like a wizard. Now ship...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>There&apos;s this thing in me pushing me to build a social media app. 😅
-Basically a place where people can connect, be happy and be free.</title>
-    <link>https://dev.to/dumebii/theres-this-thing-in-me-pushing-me-to-build-a-social-media-app-basically-a-place-where-people-4bno</link>
-    <guid>https://dev.to/dumebii/theres-this-thing-in-me-pushing-me-to-build-a-social-media-app-basically-a-place-where-people-4bno</guid>
-    <pubDate>Mon, 18 May 2026 15:53:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Making decisions is hard. So stop making them.</title>
-    <link>https://dev.to/woodpeqr/making-decisions-is-hard-so-stop-making-them-519</link>
-    <guid>https://dev.to/woodpeqr/making-decisions-is-hard-so-stop-making-them-519</guid>
-    <pubDate>Mon, 18 May 2026 15:53:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You probably faced a situation, where you had to make a decision. If not - congratulations on being a very lucky person, but for mortals like me, we have to make decisions all the time, from &quot;what...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Welcome to the Slop KPI Era: How Tokenmaxxing Is Making AI Worse</title>
-    <link>https://dev.to/mishlan/welcome-to-the-slop-kpi-era-how-tokenmaxxing-is-making-ai-worse-16i2</link>
-    <guid>https://dev.to/mishlan/welcome-to-the-slop-kpi-era-how-tokenmaxxing-is-making-ai-worse-16i2</guid>
-    <pubDate>Mon, 18 May 2026 15:47:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On a recent episode of the All-In Podcast, Jensen Huang, the CEO of NVIDIA—a company with a market cap equivalent to that of 1.5 Frances, 4 Polands, or 12 Finlands—said this: &quot;If that $500,000...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>C# Networking Deep Dive with io_uring part 4 - Zero Copy Receive</title>
-    <link>https://dev.to/mda2av/c-networking-deep-dive-with-iouring-part-4-zero-copy-receive-4li</link>
-    <guid>https://dev.to/mda2av/c-networking-deep-dive-with-iouring-part-4-zero-copy-receive-4li</guid>
-    <pubDate>Mon, 18 May 2026 15:47:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In this part 4 we are exploring a &quot;side quest&quot;, io_uring zero copy receive mechanism, even though I&apos;ll still add the scaffold for the code, this will be more of a theoretical part as I don&apos;t have...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Recovering Corrupted ROS 2 Bags Without a ROS 2 Runtime</title>
-    <link>https://dev.to/_4766ad6499d6063cc36ad7/recovering-corrupted-ros-2-bags-without-a-ros-2-runtime-4lc4</link>
-    <guid>https://dev.to/_4766ad6499d6063cc36ad7/recovering-corrupted-ros-2-bags-without-a-ros-2-runtime-4lc4</guid>
-    <pubDate>Mon, 18 May 2026 15:36:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Robots do not always fail gracefully. A delivery robot can hit an obstacle. A lawn-mowing robot can lose power. An inspection robot can emergency-stop in the middle of a mission. In many of these...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Promotion Happened. The Job Did Not.</title>
-    <link>https://dev.to/jonoherrington/the-promotion-happened-the-job-did-not-7i6</link>
-    <guid>https://dev.to/jonoherrington/the-promotion-happened-the-job-did-not-7i6</guid>
-    <pubDate>Mon, 18 May 2026 15:36:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Orgs often mistake meeting voice for delivery leverage ... confidence without multiplication. This piece is the mirror. What happens when someone earns the title and the system does not update...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Open Source Email Server Setup: The 2026 Infrastructure Guide</title>
-    <link>https://dev.to/dhiraj_chatpar_e54b46b388/open-source-email-server-setup-the-2026-infrastructure-guide-1c5a</link>
-    <guid>https://dev.to/dhiraj_chatpar_e54b46b388/open-source-email-server-setup-the-2026-infrastructure-guide-1c5a</guid>
-    <pubDate>Mon, 18 May 2026 15:36:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Definitive Guide to Self-Hosted Email Infrastructure in 2026 Why would anyone self-host email in 2026? AWS SES, SendGrid, Mailgun, and Postmark exist. They&apos;re cheap, reliable, and require zero...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>KumoMTA vs PowerMTA: The 2026 Enterprise Email Infrastructure Comparison</title>
-    <link>https://dev.to/dhiraj_chatpar_e54b46b388/kumomta-vs-powermta-the-2026-enterprise-email-infrastructure-comparison-pf7</link>
-    <guid>https://dev.to/dhiraj_chatpar_e54b46b388/kumomta-vs-powermta-the-2026-enterprise-email-infrastructure-comparison-pf7</guid>
-    <pubDate>Mon, 18 May 2026 15:36:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>KumoMTA vs PowerMTA: The Definitive Guide to Enterprise Email Delivery in 2026 When your platform sends 10 million transactional emails a day, the difference between the right MTA and the wrong...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Set Up KumoMTA: A Complete Guide for High-Volume Email Senders - Updated 2026 Guide</title>
-    <link>https://dev.to/dhiraj_chatpar_e54b46b388/how-to-set-up-kumomta-a-complete-guide-for-high-volume-email-senders-updated-2026-guide-4cg8</link>
-    <guid>https://dev.to/dhiraj_chatpar_e54b46b388/how-to-set-up-kumomta-a-complete-guide-for-high-volume-email-senders-updated-2026-guide-4cg8</guid>
-    <pubDate>Mon, 18 May 2026 15:36:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How to Set Up KumoMTA: A Complete Guide for High-Volume Email Senders KumoMTA&apos;s combination of open-source licensing and modern architecture makes it an attractive choice for teams ready to move...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend</title>
@@ -174,105 +271,6 @@ Basically a place where people can connect, be happy and be free.</title>
     <pubDate>Mon, 18 May 2026 14:08:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Starlink is raising prices across its satellite internet plans in the US - including Standby Mode - with the cheapest 100Mbps Residential plan going from $50 to $55 / month, as reported earlier by...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More</title>
-    <link>https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html</link>
-    <guid>https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html</guid>
-    <pubDate>Mon, 18 May 2026 13:50:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>How to Reduce Phishing Exposure Before It Turns into Business Disruption</title>
-    <link>https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html</link>
-    <guid>https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html</guid>
-    <pubDate>Mon, 18 May 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Leaked images reveal Sony’s 10th anniversary ‘ColleXion’ headphones</title>
-    <link>https://www.theverge.com/tech/932262/sony-1000x-headphone-collexion-image-spec-leaks</link>
-    <guid>https://www.theverge.com/tech/932262/sony-1000x-headphone-collexion-image-spec-leaks</guid>
-    <pubDate>Mon, 18 May 2026 12:10:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>We now have a good idea of what Sony&apos;s upcoming 10th anniversary headphones will look like before their expected launch tomorrow. Leaked image renders of what appears to be Sony&apos;s 1000X &quot;The...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Download: Musk v. Altman week 3, and Trump’s tech trading</title>
-    <link>https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/</link>
-    <guid>https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/</guid>
-    <pubDate>Mon, 18 May 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Musk v. Altman week 3: Musk and Altman traded blows over...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Developer Workstations Are Now Part of the Software Supply Chain</title>
-    <link>https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html</link>
-    <guid>https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html</guid>
-    <pubDate>Mon, 18 May 2026 11:23:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Zero-Day Exploit Against Windows BitLocker</title>
-    <link>https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html</guid>
-    <pubDate>Mon, 18 May 2026 11:08:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>It’s nasty, but it requires physical access to the computer: The exploit, named YellowKey, was published earlier this week by a researcher who goes by the alias Nightmare-Eclipse. It reliably...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Bad, Bad, Bad, Bad Roommate</title>
-    <link>https://www.theverge.com/cs/features/919365/bad-roommate-housing-los-angeles-eviction</link>
-    <guid>https://www.theverge.com/cs/features/919365/bad-roommate-housing-los-angeles-eviction</guid>
-    <pubDate>Mon, 18 May 2026 11:00:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The wildfires that would come to engulf Los Angeles had just begun to burn when Frankee Grove finally admitted to herself that she needed a roommate. It was January 2025, and Grove, then 42, had...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>South Korea’s LetinAR is building optics behind AI glasses</title>
-    <link>https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/</link>
-    <guid>https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/</guid>
-    <pubDate>Mon, 18 May 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>A lens the size of a thumbnail — and the South Korean startup that makes it could become the optical backbone of the AI glasses era.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws</title>
-    <link>https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html</link>
-    <guid>https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html</guid>
-    <pubDate>Mon, 18 May 2026 10:54:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>I’m a Normie. Can Normies Really Vibe Code?</title>
-    <link>https://www.wired.com/story/normie-vibe-code/</link>
-    <guid>https://www.wired.com/story/normie-vibe-code/</guid>
-    <pubDate>Mon, 18 May 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Apparently anyone can vibe code anything these days. So Claude and I tried to make a database for tracking the petty grievances of the masses.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Disco Elysium’s spiritual successor can&amp;#8217;t escape its phantoms</title>
-    <link>https://www.theverge.com/entertainment/931629/zero-parades-for-dead-spies-review-disco-elysium</link>
-    <guid>https://www.theverge.com/entertainment/931629/zero-parades-for-dead-spies-review-disco-elysium</guid>
-    <pubDate>Mon, 18 May 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Zero Parades: For Dead Spies wants you to question the price of forgiveness. After leading a crew of spies through a failed operation, protagonist Cascade is willing to pay whatever amount is...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
