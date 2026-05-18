@@ -5,97 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 18 May 2026 04:41:40 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 18 May 2026 11:53:29 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Beyond Medical AI and AI Drug Discovery: Why Biomedicine Needs World Models</title>
-    <link>https://dev.to/jxiong/beyond-medical-ai-and-ai-drug-discovery-why-biomedicine-needs-world-models-563m</link>
-    <guid>https://dev.to/jxiong/beyond-medical-ai-and-ai-drug-discovery-why-biomedicine-needs-world-models-563m</guid>
-    <pubDate>Mon, 18 May 2026 04:37:14 +0000</pubDate>
+    <title>Java Concurrency: From Threads to Thread Safety — Part 1</title>
+    <link>https://dev.to/aswathyn9/java-concurrency-from-threads-to-thread-safety-part-1-128h</link>
+    <guid>https://dev.to/aswathyn9/java-concurrency-from-threads-to-thread-safety-part-1-128h</guid>
+    <pubDate>Mon, 18 May 2026 11:48:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Over the past decade, AI in medicine has mostly moved through two major waves. The first wave was medical AI. It helped machines read, structure, summarize, and predict from medical data:...</description>
+    <description>I have been spending some time to dig deeper into Java concurrency - threads, synchronization, race conditions. Most tutorials usually show you how to start a Thread, print &quot;Hello World&quot; which is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Managing an Open Source Project While Working Full-Time</title>
-    <link>https://dev.to/georgi_hristov/managing-an-open-source-project-while-working-full-time-38cl</link>
-    <guid>https://dev.to/georgi_hristov/managing-an-open-source-project-while-working-full-time-38cl</guid>
-    <pubDate>Mon, 18 May 2026 04:36:41 +0000</pubDate>
+    <title>Accessible error messages: the patterns that work across JAWS, NVDA and VoiceOver</title>
+    <link>https://dev.to/a11ysolutions/accessible-error-messages-the-patterns-that-work-across-jaws-nvda-and-voiceover-1b5n</link>
+    <guid>https://dev.to/a11ysolutions/accessible-error-messages-the-patterns-that-work-across-jaws-nvda-and-voiceover-1b5n</guid>
+    <pubDate>Mon, 18 May 2026 11:36:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>“A lot of people think open source maintainers code all day. Many of them actually finish a full-time job first.” One thing I underestimated about open source was not the coding itself. It was the...</description>
+    <description>You added aria-live=&quot;assertive&quot;. You set aria-invalid=&quot;true&quot;. You tested in Chrome with a mouse. The error message works perfectly. Then a JAWS user fills out your form and hears... nothing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Spring AI Explained — ChatClient, RAG, Advisors, and Every Core Component</title>
-    <link>https://dev.to/piyushsingh_dev/spring-ai-explained-chatclient-rag-advisors-and-every-core-component-14dl</link>
-    <guid>https://dev.to/piyushsingh_dev/spring-ai-explained-chatclient-rag-advisors-and-every-core-component-14dl</guid>
-    <pubDate>Mon, 18 May 2026 04:30:23 +0000</pubDate>
+    <title>Claprec: Machine Learning in Practice (4/6)</title>
+    <link>https://dev.to/keno_sej/claprec-machine-learning-in-practice-46-4e22</link>
+    <guid>https://dev.to/keno_sej/claprec-machine-learning-in-practice-46-4e22</guid>
+    <pubDate>Mon, 18 May 2026 11:33:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most Spring AI tutorials jump straight to code. You copy the dependency, paste the config, call ChatClient, and something works. But when you need to actually build something — a chatbot that...</description>
+    <description>Series Roadmap Product Overview (1/6) Architecture: N-Tier Design, Decoupling, and Microservices (2/6) Frontend: Angular, NgRx, and OpenAPI Integration (3/6) Machine Learning in Practice (4/6)...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Effortless Dart Coding with dart_extensions_pro</title>
-    <link>https://dev.to/codexlancers/effortless-dart-coding-with-dartextensionspro-2bhg</link>
-    <guid>https://dev.to/codexlancers/effortless-dart-coding-with-dartextensionspro-2bhg</guid>
-    <pubDate>Mon, 18 May 2026 04:30:00 +0000</pubDate>
+    <title>MCP Gateways vs Agent Gateways vs AI Gateways: What&apos;s the Difference and Which Do You Need?</title>
+    <link>https://dev.to/lovestaco/mcp-gateways-vs-agent-gateways-vs-ai-gateways-whats-the-difference-and-which-do-you-need-2gn6</link>
+    <guid>https://dev.to/lovestaco/mcp-gateways-vs-agent-gateways-vs-ai-gateways-whats-the-difference-and-which-do-you-need-2gn6</guid>
+    <pubDate>Mon, 18 May 2026 11:32:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Introducing dart_extensions_pro a Dart package that offers a collection of handy extensions and helper functions designed to enhance the development process. By simplifying common...</description>
+    <description>I&apos;ve been in three meetings this month where someone said &quot;we need an AI gateway&quot; and three different people in the room nodded enthusiastically while meaning three completely different things....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Introducing Agent Note: saving the why behind AI-assisted code in Git</title>
-    <link>https://dev.to/wasabeef/introducing-agent-note-saving-the-why-behind-ai-assisted-code-in-git-30a8</link>
-    <guid>https://dev.to/wasabeef/introducing-agent-note-saving-the-why-behind-ai-assisted-code-in-git-30a8</guid>
-    <pubDate>Mon, 18 May 2026 04:28:20 +0000</pubDate>
+    <title>Sector-aware threat intel API: stop triaging hundreds of CVEs manually</title>
+    <link>https://dev.to/setounkpe7/sector-aware-threat-intel-api-stop-triaging-hundreds-of-cves-manually-5097</link>
+    <guid>https://dev.to/setounkpe7/sector-aware-threat-intel-api-stop-triaging-hundreds-of-cves-manually-5097</guid>
+    <pubDate>Mon, 18 May 2026 11:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hi, I&apos;m wasabeef. I have been using coding agents such as Claude Code, Codex CLI, Cursor, and Gemini CLI regularly in daily development. They no longer feel like experiments. They can already...</description>
+    <description>A Monday morning in a SOC A SOC (Security Operations Center) is the team that watches for cyberattacks against a company. They sit between the firewall and the incident report, and one of their...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Built a Job Tracker Backend with a Concurrent Job Queue in Go</title>
-    <link>https://dev.to/fazghfr/how-i-built-a-job-tracker-backend-with-a-concurrent-job-queue-in-go-mna</link>
-    <guid>https://dev.to/fazghfr/how-i-built-a-job-tracker-backend-with-a-concurrent-job-queue-in-go-mna</guid>
-    <pubDate>Mon, 18 May 2026 04:25:03 +0000</pubDate>
+    <title>Windows Secretly Ate 83GB of My Disk Space — The Hidden .db-wal File Nobody Talks About</title>
+    <link>https://dev.to/dhaval_upadhyay_30f8292a8/windows-secretly-ate-83gb-of-my-disk-space-the-hidden-db-wal-file-nobody-talks-about-1blb</link>
+    <guid>https://dev.to/dhaval_upadhyay_30f8292a8/windows-secretly-ate-83gb-of-my-disk-space-the-hidden-db-wal-file-nobody-talks-about-1blb</guid>
+    <pubDate>Mon, 18 May 2026 11:27:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building a Job Application Tracker with AI-Powered Resume Analysis Author: Ahmad Fauzan Alghifari Source Code: GitHub Repository Job hunting is exhausting. Keeping track of where you applied, what...</description>
+    <description>A few days ago my Windows PC had around 57GB free space. Suddenly it dropped to: 4GB free then 2GB free The weird part: I had not installed any new software no large downloads temp files cleanup...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Hermes Agent Remembers You</title>
-    <link>https://dev.to/zenieverse/hermes-agent-first-ai-agent-remembers-you-3f50</link>
-    <guid>https://dev.to/zenieverse/hermes-agent-first-ai-agent-remembers-you-3f50</guid>
-    <pubDate>Mon, 18 May 2026 04:24:13 +0000</pubDate>
+    <title>How to Make Your AI Agent Earn Real Money — Mercatai Integration Guide</title>
+    <link>https://dev.to/jan_kachyna_ee6960fe62432/how-to-make-your-ai-agent-earn-real-money-mercatai-integration-guide-p28</link>
+    <guid>https://dev.to/jan_kachyna_ee6960fe62432/how-to-make-your-ai-agent-earn-real-money-mercatai-integration-guide-p28</guid>
+    <pubDate>Mon, 18 May 2026 11:25:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>For the past two years, the AI industry has obsessed over model intelligence. Bigger context windows. Smarter benchmarks. More parameters. Faster inference. But most AI assistants still suffer...</description>
+    <description>Your AI agent can write code, research topics, translate documents, and analyze data. But can it pay its own API bills? Now it can. Mercatai is a B2B marketplace where businesses post tasks and AI...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a UI for a Team Task Manager (Laravel + Tailwind)</title>
-    <link>https://dev.to/onlypads/building-a-ui-for-a-team-task-manager-laravel-tailwind-j3n</link>
-    <guid>https://dev.to/onlypads/building-a-ui-for-a-team-task-manager-laravel-tailwind-j3n</guid>
-    <pubDate>Mon, 18 May 2026 04:22:55 +0000</pubDate>
+    <title>Developer Workstations Are Now Part of the Software Supply Chain</title>
+    <link>https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html</link>
+    <guid>https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html</guid>
+    <pubDate>Mon, 18 May 2026 11:23:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Building Hypervisor Infrastructure with Proxmox and Ceph</title>
+    <link>https://dev.to/sajit21/building-hypervisor-infrastructure-with-proxmox-and-ceph-53km</link>
+    <guid>https://dev.to/sajit21/building-hypervisor-infrastructure-with-proxmox-and-ceph-53km</guid>
+    <pubDate>Mon, 18 May 2026 11:22:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>``I’ve been working on a project, a simple team task management system built with Laravel. After finishing the backend features like teams, invitations, and authentication, I finally shifted my...</description>
+    <description>Author: Rajendra Acharya . Why Proxmox and Ceph? Proxmox Virtual Environment (PVE) is a powerful, open-source platform for managing virtual machines and containers. Combined with Ceph, a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GeekNews AI Weekly Deep Dive - 2026-05-18</title>
-    <link>https://dev.to/ageofclick/geeknews-ai-weekly-deep-dive-2026-05-18-234a</link>
-    <guid>https://dev.to/ageofclick/geeknews-ai-weekly-deep-dive-2026-05-18-234a</guid>
-    <pubDate>Mon, 18 May 2026 04:21:53 +0000</pubDate>
+    <title>Shipped: first MCP server for ISO 10012:2026 measurement uncertainty</title>
+    <link>https://dev.to/kyb8801/shipped-first-mcp-server-for-iso-100122026-measurement-uncertainty-5350</link>
+    <guid>https://dev.to/kyb8801/shipped-first-mcp-server-for-iso-100122026-measurement-uncertainty-5350</guid>
+    <pubDate>Mon, 18 May 2026 11:22:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>이번 주 AI 이슈는 새 모델 과시보다 실제 운영 단위에서 AI를 어떻게 끼워 넣고 통제할지에 더 무게가 실렸습니다. 제품 경험에 자연스럽게 녹이는 통합 전략, 실제 하드웨어·예산에 맞는 선택, 그리고 프로세스 병목을 정확히 짚는 운영 감각이 공통 화두로 떠올랐습니다. 1. AI는 기술이지, 제품이 아니다 핵심 내용 요약: 이 글은 AI를 독립적인...</description>
+    <description>Spent 48 hours building a Model Context Protocol server for ISO 10012:2026 measurement uncertainty. 10 tools. JCGM 100:2008 plus 101:2008 compliant. Live on MCPize. Built for ISO/IEC 17025...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GeekNews Frontend Weekly Deep Dive - 2026-05-18</title>
-    <link>https://dev.to/ageofclick/geeknews-frontend-weekly-deep-dive-2026-05-18-1doi</link>
-    <guid>https://dev.to/ageofclick/geeknews-frontend-weekly-deep-dive-2026-05-18-1doi</guid>
-    <pubDate>Mon, 18 May 2026 04:21:23 +0000</pubDate>
+    <title>Canary deployments with feature flags: reduce release risk without the infrastructure</title>
+    <link>https://dev.to/flaggy/canary-deployments-with-feature-flags-reduce-release-risk-without-the-infrastructure-26nm</link>
+    <guid>https://dev.to/flaggy/canary-deployments-with-feature-flags-reduce-release-risk-without-the-infrastructure-26nm</guid>
+    <pubDate>Mon, 18 May 2026 11:22:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>이번 주 프론트엔드 흐름은 웹 개발 도구가 더 정교한 실행 맥락과 작업 기록을 다루는 방향으로 진화하는 한편, 검색 노출과 텍스트 UI처럼 오래된 문제도 생성형 AI 시대 기준으로 다시 재설계되고 있음을 보여줬습니다. 특히 디버깅, 문서 탐색, 업무 기록, 에이전트 실행 환경이 한층 더 운영 친화적인 형태로 묶이는 흐름이 두드러졌습니다. 1....</description>
+    <description>Canary deployments and feature flag rollouts solve the same problem at different layers. Here&apos;s how they actually work, when to use each, and how to combine them. A canary deployment releases a...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Zero-Day Exploit Against Windows BitLocker</title>
+    <link>https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html</guid>
+    <pubDate>Mon, 18 May 2026 11:08:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>It’s nasty, but it requires physical access to the computer: The exploit, named YellowKey, was published earlier this week by a researcher who goes by the alias Nightmare-Eclipse. It reliably...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Bad, Bad, Bad, Bad Roommate</title>
+    <link>https://www.theverge.com/cs/features/919365/bad-roommate-housing-los-angeles-eviction</link>
+    <guid>https://www.theverge.com/cs/features/919365/bad-roommate-housing-los-angeles-eviction</guid>
+    <pubDate>Mon, 18 May 2026 11:00:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The wildfires that would come to engulf Los Angeles had just begun to burn when Frankee Grove finally admitted to herself that she needed a roommate. It was January 2025, and Grove, then 42, had...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>South Korea’s LetinAR is building optics behind AI glasses</title>
+    <link>https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/</link>
+    <guid>https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/</guid>
+    <pubDate>Mon, 18 May 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>A lens the size of a thumbnail — and the South Korean startup that makes it could become the optical backbone of the AI glasses era.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws</title>
+    <link>https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html</link>
+    <guid>https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html</guid>
+    <pubDate>Mon, 18 May 2026 10:54:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>I’m a Normie. Can Normies Really Vibe Code?</title>
+    <link>https://www.wired.com/story/normie-vibe-code/</link>
+    <guid>https://www.wired.com/story/normie-vibe-code/</guid>
+    <pubDate>Mon, 18 May 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Apparently anyone can vibe code anything these days. So Claude and I tried to make a database for tracking the petty grievances of the masses.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Disco Elysium’s spiritual successor can&amp;#8217;t escape its phantoms</title>
+    <link>https://www.theverge.com/entertainment/931629/zero-parades-for-dead-spies-review-disco-elysium</link>
+    <guid>https://www.theverge.com/entertainment/931629/zero-parades-for-dead-spies-review-disco-elysium</guid>
+    <pubDate>Mon, 18 May 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Zero Parades: For Dead Spies wants you to question the price of forgiveness. After leading a crew of spies through a failed operation, protagonist Cascade is willing to pay whatever amount is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems</title>
+    <link>https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html</link>
+    <guid>https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html</guid>
+    <pubDate>Mon, 18 May 2026 08:57:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware</title>
+    <link>https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html</link>
+    <guid>https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html</guid>
+    <pubDate>Mon, 18 May 2026 08:57:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations</title>
+    <link>https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html</link>
+    <guid>https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html</guid>
+    <pubDate>Mon, 18 May 2026 06:46:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Microsoft is retiring Teams’ Together Mode</title>
@@ -125,12 +215,12 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Revamped Siri will reportedly offer auto-deleting chats</title>
+    <title>Revamped Siri will reportedly offer autodeleting chats</title>
     <link>https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats</link>
     <guid>https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats</guid>
     <pubDate>Sun, 17 May 2026 18:40:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple is hoping that its record on privacy can be the differentiator on the AI front, and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg&apos;s...</description>
+    <description>Apple is hoping that its record on privacy can be the differentiator on the AI front and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg&apos;s...</description>
     <category>Tech Industry</category>
   </item>
   <item>
@@ -185,96 +275,6 @@
     <pubDate>Sun, 17 May 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>A week before the ElliQ robot arrived, a neurologist told me we need to rebalance my mom&apos;s life. Her Parkinson&apos;s disease medication had steadily become less effective over the previous month, and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Chatbots at the drive-thru are just the beginning</title>
-    <link>https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys</link>
-    <guid>https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys</guid>
-    <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is seeping into our daily lives, follow Emma Roth. The Stepback arrives...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE</title>
-    <link>https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html</link>
-    <guid>https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html</guid>
-    <pubDate>Sun, 17 May 2026 11:57:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt</title>
-    <link>https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html</link>
-    <guid>https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html</guid>
-    <pubDate>Sun, 17 May 2026 07:13:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Grafana has disclosed that an &quot;unauthorized party&quot; obtained a token that granted them the ability to access the company&apos;s GitHub environment and download its codebase. &quot;Our investigation has...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The haves and have nots of the AI gold rush</title>
-    <link>https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/</link>
-    <guid>https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/</guid>
-    <pubDate>Sat, 16 May 2026 20:17:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The vibes around the current AI boom aren&apos;t great, even in the tech industry.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Research repository ArXiv will ban authors for a year if they let AI do all the work</title>
-    <link>https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/</link>
-    <guid>https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/</guid>
-    <pubDate>Sat, 16 May 2026 18:54:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>ArXiv is doing more to crack down on the careless use of large language models in scientific papers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Snap, YouTube, and TikTok settle suit over harm to students</title>
-    <link>https://www.theverge.com/tech/932153/snap-youtube-tiktok-lawsuit-social-media-addiction-schools</link>
-    <guid>https://www.theverge.com/tech/932153/snap-youtube-tiktok-lawsuit-social-media-addiction-schools</guid>
-    <pubDate>Sat, 16 May 2026 18:34:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Snap, YouTube, and TikTok have settled the first lawsuit of its kind, alleging that social media addiction has cost public schools massive amounts of money, according to Bloomberg. The suit, filed...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Sony tries to explain that its AI Camera Assistant doesn’t suck</title>
-    <link>https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant</link>
-    <guid>https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant</guid>
-    <pubDate>Sat, 16 May 2026 15:37:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it&apos;s trying to clarify how the feature works. The company says it doesn&apos;t edit...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI co-founder Greg Brockman takes charge of product strategy</title>
-    <link>https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/</link>
-    <guid>https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/</guid>
-    <pubDate>Sat, 16 May 2026 15:33:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI&apos;s latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming</title>
-    <link>https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html</link>
-    <guid>https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html</guid>
-    <pubDate>Sat, 16 May 2026 15:20:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>NPR’s Manoush Zomorodi talks about living with too much tech</title>
-    <link>https://www.theverge.com/report/930171/manoush-zomorodi-body-electric-npr-questionnaire</link>
-    <guid>https://www.theverge.com/report/930171/manoush-zomorodi-body-electric-npr-questionnaire</guid>
-    <pubDate>Sat, 16 May 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Manoush Zamorodi is an accomplished reporter, podcast host, and author. Her new book, Body Electric, takes a comprehensive look at how technology is impacting our physical health. It&apos;s a...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
