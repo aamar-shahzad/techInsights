@@ -5,109 +5,181 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 20 May 2026 22:03:42 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 21 May 2026 04:44:10 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>When boto3 doesn&apos;t have it (yet), you write it: a realtime speech-to-speech story in Python</title>
-    <link>https://dev.to/bilardi/when-boto3-doesnt-have-it-yet-you-write-it-a-realtime-speech-to-speech-story-in-python-4c42</link>
-    <guid>https://dev.to/bilardi/when-boto3-doesnt-have-it-yet-you-write-it-a-realtime-speech-to-speech-story-in-python-4c42</guid>
-    <pubDate>Wed, 20 May 2026 22:00:07 +0000</pubDate>
+    <title>How I built an AWS Lambda clone with Firecracker microVMs</title>
+    <link>https://dev.to/vivek_1502/how-built-an-aws-lambda-clone-with-firecracker-microvms-1572</link>
+    <guid>https://dev.to/vivek_1502/how-built-an-aws-lambda-clone-with-firecracker-microvms-1572</guid>
+    <pubDate>Thu, 21 May 2026 04:31:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>At a meetup&apos;s networking session, someone dropped: &quot;the new speech-to-speech feature in Teams is really cool&quot;. Microsoft Teams added the interpreter agent with realtime AI-powered speech-to-speech...</description>
+    <description>Ever wondered what actually happens when you invoke a Lambda function? Not the API layer but the execution layer. What runs your code, how it&apos;s isolated, and how AWS gets cold starts low enough to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Zero-Trust RAG: Defeating the Shared Private Link Deadlock in Azure Terraform</title>
-    <link>https://dev.to/dwoitzik/zero-trust-rag-defeating-the-shared-private-link-deadlock-in-azure-terraform-kdb</link>
-    <guid>https://dev.to/dwoitzik/zero-trust-rag-defeating-the-shared-private-link-deadlock-in-azure-terraform-kdb</guid>
-    <pubDate>Wed, 20 May 2026 22:00:00 +0000</pubDate>
+    <title>The Parallel Road: A Girl, A Machine, and the Architecture of Mind</title>
+    <link>https://dev.to/sreeni5018/the-parallel-road-a-girl-a-machine-and-the-architecture-of-mind-3aa0</link>
+    <guid>https://dev.to/sreeni5018/the-parallel-road-a-girl-a-machine-and-the-architecture-of-mind-3aa0</guid>
+    <pubDate>Thu, 21 May 2026 04:27:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your Terraform pipeline is green. The deployment completes without errors. You grab a coffee. Ten minutes later, you test your new Enterprise RAG application. It throws a 403 Forbidden. You open...</description>
+    <description>Introduction We have spent years talking about artificial intelligence as if it were an alien entity a cold, sudden artifact dropped into our modern world from some distant technological future....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>You Can&apos;t Co-Design What You Don&apos;t Operate</title>
-    <link>https://dev.to/michaeltuszynski/you-cant-co-design-what-you-dont-operate-5ad4</link>
-    <guid>https://dev.to/michaeltuszynski/you-cant-co-design-what-you-dont-operate-5ad4</guid>
-    <pubDate>Wed, 20 May 2026 21:59:23 +0000</pubDate>
+    <title>React: A Complete Guide from Zero to Production</title>
+    <link>https://dev.to/kushang_tailor/react-a-complete-guide-from-zero-to-production-2mdf</link>
+    <guid>https://dev.to/kushang_tailor/react-a-complete-guide-from-zero-to-production-2mdf</guid>
+    <pubDate>Thu, 21 May 2026 04:25:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An article circulating this week argues that faculty AI buy-in in higher education is a human factors engineering problem. The framing is correct. The path the piece describes skips the only two...</description>
+    <description>Read Time: ~15 minutes | Perfect for developers transitioning to React or deepening their framework knowledge. 📌 What is React? React is a JavaScript library for building user interfaces with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Counting tokens is dumb. So we built a free metric for AI proficiency.</title>
-    <link>https://dev.to/charlie_graham_12a6bd8586/counting-tokens-is-dumb-so-we-built-a-free-metric-for-ai-proficiency-5a88</link>
-    <guid>https://dev.to/charlie_graham_12a6bd8586/counting-tokens-is-dumb-so-we-built-a-free-metric-for-ai-proficiency-5a88</guid>
-    <pubDate>Wed, 20 May 2026 21:59:12 +0000</pubDate>
+    <title>코딩 에이전트 DESIGN.md란?</title>
+    <link>https://dev.to/rihpig/koding-eijeonteu-designmdran-2kc5</link>
+    <guid>https://dev.to/rihpig/koding-eijeonteu-designmdran-2kc5</guid>
+    <pubDate>Thu, 21 May 2026 04:22:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We’ve been trying to figure out a real answer to a question that keeps coming up: how do you measure whether someone is actually good at Claude Code, Codex, and the other AI coding tools? Not &quot;do...</description>
+    <description>코딩 에이전트는 빠르게 코드를 작성하지만, 지시하지 않으면 코드베이스의 아키텍처 의도를 모릅니다. Claude Code나 Codex에 모호한 티켓을 주면 컴파일되고 테스트도 통과하지만, 도메인 계층과 HTTP 계층의 경계를 조용히 깨는 코드를 만들 수 있습니다. DESIGN.md는 저장소 안에 아키텍처 의도, 제약 조건, 설계 결정을 기록해...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Musk’s xAI is being sued over its data center generators. Now, it’s buying $2.8B more.</title>
+    <title>Stop Storing Passwords: Build Enterprise SSO in Laravel 🛡️</title>
+    <link>https://dev.to/iprajapatiparesh/stop-storing-passwords-build-enterprise-sso-in-laravel-3m1g</link>
+    <guid>https://dev.to/iprajapatiparesh/stop-storing-passwords-build-enterprise-sso-in-laravel-3m1g</guid>
+    <pubDate>Thu, 21 May 2026 04:22:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Passwords are a Technical Liability When building a B2B SaaS platform at Smart Tech Devs, the default instinct is to scaffold standard email and password authentication. However, in modern...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building an Automated KDP Pipeline: How I Engineered a Passive Income Stream with GPT-4 and n8n</title>
+    <link>https://dev.to/nsst/building-an-automated-kdp-pipeline-how-i-engineered-a-passive-income-stream-with-gpt-4-and-n8n-2bkf</link>
+    <guid>https://dev.to/nsst/building-an-automated-kdp-pipeline-how-i-engineered-a-passive-income-stream-with-gpt-4-and-n8n-2bkf</guid>
+    <pubDate>Thu, 21 May 2026 04:21:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>What if your weekend automation project could pay for its own infrastructure and generate passive income? Last quarter, my book-generation pipeline cost $127 in OpenAI API calls and generated...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Lowdefy Review: Building Internal Tools and AI Agents in YAML</title>
+    <link>https://dev.to/pickuma/lowdefy-review-building-internal-tools-and-ai-agents-in-yaml-ho2</link>
+    <guid>https://dev.to/pickuma/lowdefy-review-building-internal-tools-and-ai-agents-in-yaml-ho2</guid>
+    <pubDate>Thu, 21 May 2026 04:21:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you have ever spent two days wiring up a React admin panel so your ops team can edit a database table, you already know the problem Lowdefy is trying to solve. The framework lets you describe a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>コーディングエージェント向け DESIGN.md とは？</title>
+    <link>https://dev.to/aakira/kodeinguezientoxiang-ke-designmd-toha-4j9j</link>
+    <guid>https://dev.to/aakira/kodeinguezientoxiang-ke-designmd-toha-4j9j</guid>
+    <pubDate>Thu, 21 May 2026 04:20:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>コーディングエージェントは高速で自信満々ですが、指示しない限りコードベースのアーキテクチャを知りません。Claude...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Bank That Blocked Me Twice in One Week</title>
+    <link>https://dev.to/global-commerce-strategy/the-bank-that-blocked-me-twice-in-one-week-4kj2</link>
+    <guid>https://dev.to/global-commerce-strategy/the-bank-that-blocked-me-twice-in-one-week-4kj2</guid>
+    <pubDate>Thu, 21 May 2026 04:20:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Problem We Were Actually Solving We shipped a binary diff tool named diffsweep in 2021. It saved engineering teams 40 percent of their CI minutes by only running tests that touched changed...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>React.js ~use() hook for loading/error guards~</title>
+    <link>https://dev.to/kkr0423/reactjs-use-hook-for-loadingerror-guards-4d97</link>
+    <guid>https://dev.to/kkr0423/reactjs-use-hook-for-loadingerror-guards-4d97</guid>
+    <pubDate>Thu, 21 May 2026 04:13:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Pattern It replaces function UserProfile({ userId }: { userId: string }) { const [user, setUser] = useState&lt;User | null&gt;(null); const [isLoading, setIsLoading] = useState(true); const [error,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>In SpaceX’s IPO, Elon Musk is a risk factor</title>
+    <link>https://www.theverge.com/science/935102/spacex-ipo-elon-musk-tesla-cybertruck-xai-risk-factor</link>
+    <guid>https://www.theverge.com/science/935102/spacex-ipo-elon-musk-tesla-cybertruck-xai-risk-factor</guid>
+    <pubDate>Thu, 21 May 2026 03:42:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The SpaceX IPO is here, and it&apos;s more than just an historic public offering that could make Elon Musk the world&apos;s first trillionaire. It also reveals more ways in which Elon Musk&apos;s companies...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>SpaceX Listed Grok’s ‘Spicy’ Mode as a Risk in Its IPO Filing</title>
+    <link>https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/</link>
+    <guid>https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/</guid>
+    <pubDate>Thu, 21 May 2026 00:43:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The rocket company has set aside more than $500 million for potential litigation losses, in part to account for complaints alleging that Grok created sexualized images.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia</title>
+    <link>https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/</link>
+    <guid>https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/</guid>
+    <pubDate>Thu, 21 May 2026 00:28:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic says it’s about to have its first profitable quarter</title>
+    <link>https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/</link>
+    <guid>https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/</guid>
+    <pubDate>Thu, 21 May 2026 00:21:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers</title>
+    <link>https://www.wired.com/story/elon-musk-spacex-spending-gas-turbines-grok/</link>
+    <guid>https://www.wired.com/story/elon-musk-spacex-spending-gas-turbines-grok/</guid>
+    <pubDate>Wed, 20 May 2026 23:30:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The investment comes as Elon Musk’s AI unit faces complaints about the carbon-emitting units and looks to become a big player in cloud computing.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Clouted wants to take the guesswork out of making short videos go viral</title>
+    <link>https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/</link>
+    <guid>https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/</guid>
+    <pubDate>Wed, 20 May 2026 22:30:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The video clipping startup raised a $7 million seed round led by Slow Ventures.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over</title>
+    <link>https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/</link>
+    <guid>https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/</guid>
+    <pubDate>Wed, 20 May 2026 22:26:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>SpaceX&apos;s IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion — offering the first public look at Elon Musk&apos;s AI financials and more details about his ambitions.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Nvidia posts another record quarter, reveals $43B of holdings in startups</title>
+    <link>https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/</link>
+    <guid>https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/</guid>
+    <pubDate>Wed, 20 May 2026 22:03:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Nvidia announced another record revenue figure after market close on Wednesday, but forecasted that revenue growth would slow in the following quarter.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more</title>
     <link>https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/</link>
     <guid>https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/</guid>
     <pubDate>Wed, 20 May 2026 21:55:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Elon Muks&apos;s xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX&apos;s IPO filing.</description>
+    <description>Elon Musk&apos;s xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX&apos;s IPO filing.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Starship&apos;s Twelfth Flight Test</title>
-    <link>https://www.spacex.com/launches/starship-flight-12</link>
-    <guid>https://www.spacex.com/launches/starship-flight-12</guid>
-    <pubDate>Wed, 20 May 2026 21:41:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.spacex.com/launches/starship-flight-12 Comments URL: https://news.ycombinator.com/item?id=48214558 Points: 3 # Comments: 0</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Choosing the Right RAG Strategy A Complete Decision Guide to Chunking, Agentic RAG, and GraphRAG</title>
-    <link>https://dev.to/sreeni5018/choosing-the-right-rag-strategy-a-complete-decision-guide-to-chunking-agentic-rag-and-graphrag-386d</link>
-    <guid>https://dev.to/sreeni5018/choosing-the-right-rag-strategy-a-complete-decision-guide-to-chunking-agentic-rag-and-graphrag-386d</guid>
-    <pubDate>Wed, 20 May 2026 21:37:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Here is a scenario many RAG builders know well, you wire up a pipeline, load your documents, ask a question and the answer is wrong, vague, or confidently hallucinated. The...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Egregious Cost of Compliance: One Platform&apos;s Overly Broad Restrictions</title>
-    <link>https://dev.to/interface-profit/the-egregious-cost-of-compliance-one-platforms-overly-broad-restrictions-5g2g</link>
-    <guid>https://dev.to/interface-profit/the-egregious-cost-of-compliance-one-platforms-overly-broad-restrictions-5g2g</guid>
-    <pubDate>Wed, 20 May 2026 21:37:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem We Were Actually Solving We were actually trying to solve the classic problem of onboarding new creators. We believed that by supporting PayPal and Stripe, we&apos;d open the door for more...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>GitHub Breach via VSCode Extension, ZTE Router CVE-2026-34472, &amp; Public Repo Secrets Leaks</title>
-    <link>https://dev.to/soytuber/github-breach-via-vscode-extension-zte-router-cve-2026-34472-public-repo-secrets-leaks-14c4</link>
-    <guid>https://dev.to/soytuber/github-breach-via-vscode-extension-zte-router-cve-2026-34472-public-repo-secrets-leaks-14c4</guid>
-    <pubDate>Wed, 20 May 2026 21:36:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>GitHub Breach via VSCode Extension, ZTE Router CVE-2026-34472, &amp; Public Repo Secrets Leaks Today&apos;s Highlights Today&apos;s security news highlights a significant GitHub internal breach traced to a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Applied AI: From Agent Orchestration to Workflow Automation &amp; Code Generation</title>
-    <link>https://dev.to/soytuber/applied-ai-from-agent-orchestration-to-workflow-automation-code-generation-7jl</link>
-    <guid>https://dev.to/soytuber/applied-ai-from-agent-orchestration-to-workflow-automation-code-generation-7jl</guid>
-    <pubDate>Wed, 20 May 2026 21:36:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Applied AI: From Agent Orchestration to Workflow Automation &amp; Code Generation Today&apos;s Highlights This week, we explore the practical applications of AI, from leveraging LLMs for business workflow...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>SQLite Journaling on SMB, TypeGraph for SQL Graphs, Cross-Engine Migrations</title>
-    <link>https://dev.to/soytuber/sqlite-journaling-on-smb-typegraph-for-sql-graphs-cross-engine-migrations-3elb</link>
-    <guid>https://dev.to/soytuber/sqlite-journaling-on-smb-typegraph-for-sql-graphs-cross-engine-migrations-3elb</guid>
-    <pubDate>Wed, 20 May 2026 21:35:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>SQLite Journaling on SMB, TypeGraph for SQL Graphs, Cross-Engine Migrations Today&apos;s Highlights This week&apos;s highlights include advanced SQL techniques for graph queries in PostgreSQL and SQLite,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Anthropic will pay xAI $1.25 billion per month for compute</title>
+    <title>Anthropic will pay xAI $1.25B per month for compute</title>
     <link>https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/</link>
     <guid>https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/</guid>
     <pubDate>Wed, 20 May 2026 21:29:22 +0000</pubDate>
@@ -143,15 +215,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>OpenAI claims it solved an 80-year-old math problem — for real this time</title>
-    <link>https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/</link>
-    <guid>https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/</guid>
-    <pubDate>Wed, 20 May 2026 20:28:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI claims its reasoning model disproved a geometry conjecture unsolved since 1946 — and this time, the mathematicians who exposed its last embarrassing claim are backing it up.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Here are 42 of our favorite deals from REI’s massive Anniversary Sale</title>
     <link>https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026</link>
     <guid>https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026</guid>
@@ -159,24 +222,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>REI’s annual Anniversary Sale — the retailer’s biggest of the year — has arrived, bringing with it discounts on all kinds of outdoor essentials. If you’ve got a camping trip coming up, now is a...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed</title>
-    <link>https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/</link>
-    <guid>https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/</guid>
-    <pubDate>Wed, 20 May 2026 19:47:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Initially billed as an &quot;AI butler,&quot; Iris watches what happens on a user&apos;s desktop and automatically learns how to do tasks for them, its co-founder says.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>100 things we announced at I/O 2026</title>
-    <link>https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/</link>
-    <guid>https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/</guid>
-    <pubDate>Wed, 20 May 2026 19:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>Image with the words &quot;Ready, Set, I/O&quot; and a colorful Gemini logo</description>
-    <category>AI</category>
   </item>
   <item>
     <title>Google publishes exploit code threatening millions of Chromium users</title>
@@ -195,15 +240,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>If you choose to get an extra controller for your Nintendo Switch 2, you can spend a lot — and get a lot in return. Buying Nintendo’s own $89 Switch 2 Pro Controller, for instance, will net you...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>I Gave My OpenClaw Agent a Physical Body</title>
-    <link>https://www.wired.com/story/i-gave-my-openclaw-agent-physical-body-robot/</link>
-    <guid>https://www.wired.com/story/i-gave-my-openclaw-agent-physical-body-robot/</guid>
-    <pubDate>Wed, 20 May 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The coding skills of AI models are about to make it much easier to build and deploy robots.</description>
-    <category>AI</category>
   </item>
   <item>
     <title>Anthropic and OpenAI take their beef to the midterm elections</title>
@@ -233,15 +269,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>OpenAI barrels toward IPO that may happen in September</title>
-    <link>https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/</link>
-    <guid>https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/</guid>
-    <pubDate>Wed, 20 May 2026 17:24:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>A day after Elon Musk lost his lawsuit that threatened OpenAI&apos;s structure, leadership, and finances, OpenAI is reportedly back to prepping for its IPO.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development</title>
     <link>https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html</link>
     <guid>https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html</guid>
@@ -249,33 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART, short for Risk...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>A new experiment brings better group meetings to Google Beam</title>
-    <link>https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/</link>
-    <guid>https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/</guid>
-    <pubDate>Wed, 20 May 2026 16:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>A small group meeting featuring two in-room participants and three participants on-screen.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>You can now remix other people’s YouTube Shorts with AI</title>
-    <link>https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai</link>
-    <guid>https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai</guid>
-    <pubDate>Wed, 20 May 2026 16:41:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google announced a new YouTube Shorts Remix feature that lets users restyle clips or even insert themselves into other people&apos;s videos using Gemini Omni. Now, at the bottom of a YouTube Short,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Samsung has a tentative deal with workers to avoid a memory chip strike</title>
-    <link>https://www.theverge.com/tech/934432/samsung-electronics-strike-memory-chip-supply</link>
-    <guid>https://www.theverge.com/tech/934432/samsung-electronics-strike-memory-chip-supply</guid>
-    <pubDate>Wed, 20 May 2026 16:35:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>More than 47,000 Samsung Electronics workers were gearing up for an 18-day strike after bonus payment negotiations between the company and its union collapsed. The strike was set to start on...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
