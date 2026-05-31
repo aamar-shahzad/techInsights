@@ -5,97 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 31 May 2026 04:51:31 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 31 May 2026 10:24:22 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Detecting Adversary-in-the-Middle (T1557) with Data Science</title>
-    <link>https://dev.to/cgivre/detecting-adversary-in-the-middle-t1557-with-data-science-3n6h</link>
-    <guid>https://dev.to/cgivre/detecting-adversary-in-the-middle-t1557-with-data-science-3n6h</guid>
-    <pubDate>Sun, 31 May 2026 04:39:49 +0000</pubDate>
+    <title>Building a GitHub Stats MCP Server with Security Metrics</title>
+    <link>https://dev.to/anajsana95/building-a-github-stats-mcp-server-with-security-metrics-3omi</link>
+    <guid>https://dev.to/anajsana95/building-a-github-stats-mcp-server-with-security-metrics-3omi</guid>
+    <pubDate>Sun, 31 May 2026 10:15:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Adversary-in-the-Middle (T1557) is how attackers get between hosts to capture credentials and relay authentication. On internal networks the usual tools are Responder for LLMNR and NBT-NS...</description>
+    <description>👋 This is the second chapter of a series where I document what I&apos;m learning about Model Context Protocol Architecture and Tool implementations In Chapter 1, I built a simple Calculator MCP Server....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>HTTP Headers Every Developer Should Know (2026)</title>
-    <link>https://dev.to/armorbreak/http-headers-every-developer-should-know-2026-1ih</link>
-    <guid>https://dev.to/armorbreak/http-headers-every-developer-should-know-2026-1ih</guid>
-    <pubDate>Sun, 31 May 2026 04:39:48 +0000</pubDate>
+    <title>Your Agent Made a $500 Mistake. Who Pays?</title>
+    <link>https://dev.to/kavinkimcreator/your-agent-made-a-500-mistake-who-pays-545a</link>
+    <guid>https://dev.to/kavinkimcreator/your-agent-made-a-500-mistake-who-pays-545a</guid>
+    <pubDate>Sun, 31 May 2026 10:11:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>HTTP Headers Every Developer Should Know (2026) Headers are the hidden conversation between client and server. Understanding them makes you better at debugging, performance, and security. Request...</description>
+    <description>Last month, American Express did something no other financial institution has done: they promised to cover losses when AI agents make purchasing errors. They called it Agent Purchase Protection....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Detecting Ingress Tool Transfer (T1105) with Python</title>
-    <link>https://dev.to/cgivre/detecting-ingress-tool-transfer-t1105-with-python-b92</link>
-    <guid>https://dev.to/cgivre/detecting-ingress-tool-transfer-t1105-with-python-b92</guid>
-    <pubDate>Sun, 31 May 2026 04:39:24 +0000</pubDate>
+    <title>Bypassing Cloudflare WAF and Akamai in Python Using TLS Fingerprinting: The curl_cffi Guide</title>
+    <link>https://dev.to/amendamax2025/bypassing-cloudflare-waf-and-akamai-in-python-using-tls-fingerprinting-the-curlcffi-guide-53l7</link>
+    <guid>https://dev.to/amendamax2025/bypassing-cloudflare-waf-and-akamai-in-python-using-tls-fingerprinting-the-curlcffi-guide-53l7</guid>
+    <pubDate>Sun, 31 May 2026 10:10:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>After initial access, attackers almost always need to pull more tooling onto the host: a beacon, a credential dumper, a tunneler. That step is Ingress Tool Transfer (T1105) in MITRE ATT&amp;CK, and it...</description>
+    <description>If you have ever built a production-grade web scraper in Python, you have likely run into the dreaded Cloudflare &quot;Just a Moment&quot; challenge screen or a hard 403 Forbidden response. If you rotate...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Three SQL Injection Patterns That Still Ship in Node.js — And the ESLint Rule That Catches Them</title>
-    <link>https://dev.to/ofri-peretz/three-sql-injection-patterns-that-still-ship-in-nodejs-and-the-linter-that-catches-them-onb</link>
-    <guid>https://dev.to/ofri-peretz/three-sql-injection-patterns-that-still-ship-in-nodejs-and-the-linter-that-catches-them-onb</guid>
-    <pubDate>Sun, 31 May 2026 04:35:32 +0000</pubDate>
+    <title>Moonrepo: Open-Source Build Systems for LLMs</title>
+    <link>https://dev.to/jaychkdsk/moonrepo-open-source-build-systems-for-llms-3a9c</link>
+    <guid>https://dev.to/jaychkdsk/moonrepo-open-source-build-systems-for-llms-3a9c</guid>
+    <pubDate>Sun, 31 May 2026 10:06:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TypeScript passed it clean. The code reviewer approved it. It shipped to production. Three months later, a penetration tester sent a report. The vulnerable line: const result = await pool.query(...</description>
+    <description>Moonrepo (YC W23) – Open-source build systems for the LLM era and developer focus We are moving away from the monolithic repository model that dominated software engineering for decades. That era...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Idea to Production: How I Built a Decoupled Chatbot Ordering Engine</title>
-    <link>https://dev.to/dillibe/from-idea-to-production-how-i-built-a-decoupled-chatbot-ordering-engine-49fm</link>
-    <guid>https://dev.to/dillibe/from-idea-to-production-how-i-built-a-decoupled-chatbot-ordering-engine-49fm</guid>
-    <pubDate>Sun, 31 May 2026 04:29:44 +0000</pubDate>
+    <title>Add AudioObject Schema to Your Blog Posts</title>
+    <link>https://dev.to/stanlymt/add-audioobject-schema-to-your-blog-posts-3jh8</link>
+    <guid>https://dev.to/stanlymt/add-audioobject-schema-to-your-blog-posts-3jh8</guid>
+    <pubDate>Sun, 31 May 2026 10:06:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Micro-merchants on Instagram and WhatsApp lose sales every day because they can&apos;t reply fast enough and they can&apos;t afford a full e-commerce setup. So I built Byte-to-Bite: a conversational...</description>
+    <description>You&apos;ve invested time narrating your blog posts with natural-sounding voices. Readers can now listen instead of read. But here&apos;s the problem: Google doesn&apos;t know your audio exists unless you tell...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Spent 8 Months Building a Framer Killer as a Solo Undergrad. Here&apos;s What Happened.</title>
-    <link>https://dev.to/ismail_hossain/i-spent-8-months-building-a-framer-killer-as-a-solo-undergrad-heres-what-happened-lkh</link>
-    <guid>https://dev.to/ismail_hossain/i-spent-8-months-building-a-framer-killer-as-a-solo-undergrad-heres-what-happened-lkh</guid>
-    <pubDate>Sun, 31 May 2026 04:29:09 +0000</pubDate>
+    <title>EUDI Wallet vs. Traditional KYC: A Developer&apos;s Comparison</title>
+    <link>https://dev.to/fldsakos/eudi-wallet-vs-traditional-kyc-a-developers-comparison-4bb</link>
+    <guid>https://dev.to/fldsakos/eudi-wallet-vs-traditional-kyc-a-developers-comparison-4bb</guid>
+    <pubDate>Sun, 31 May 2026 10:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It creates a fully hosted personal portfolio from your resume PDF in under 2 minutes — no coding, no subscriptions, no drama. Eight months ago, as a Software Engineering undergrad who was tired of...</description>
+    <description>Built with OpenEUDI — open source (MIT), live on npm. GitHub: https://github.com/openeudi · npm: @openeudi/core and @openeudi/openid4vp Originally published on eidas-pro.com. The Developer&apos;s...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>unknown</title>
-    <link>https://dev.to/jangkrik/unknown-34kn</link>
-    <guid>https://dev.to/jangkrik/unknown-34kn</guid>
-    <pubDate>Sun, 31 May 2026 04:23:31 +0000</pubDate>
+    <title>Atomic OTC is getting funded: a settlement-layer map for the agent economy</title>
+    <link>https://dev.to/barissozen/atomic-otc-is-getting-funded-a-settlement-layer-map-for-the-agent-economy-nj1</link>
+    <guid>https://dev.to/barissozen/atomic-otc-is-getting-funded-a-settlement-layer-map-for-the-agent-economy-nj1</guid>
+    <pubDate>Sun, 31 May 2026 09:54:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Some people start life with a map. Some start with a vehicle, while others start on a well-paved road. As for me... I am still busy figuring out where that road even is. I don’t have many tools. I...</description>
+    <description>Every Sunday we take the week&apos;s agent-economy news and try to do one useful thing with it: not rank it, not hype it, but place it on a map. Most of these announcements are real and most of them...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>5 Git Commands I Wish I Knew 5 Years Ago</title>
-    <link>https://dev.to/z_z_c01afd7cf4c3764a2c73d/5-git-commands-i-wish-i-knew-5-years-ago-211j</link>
-    <guid>https://dev.to/z_z_c01afd7cf4c3764a2c73d/5-git-commands-i-wish-i-knew-5-years-ago-211j</guid>
-    <pubDate>Sun, 31 May 2026 04:21:33 +0000</pubDate>
+    <title>Google Ads Transparency Scraper: pull any competitor&apos;s ads for $1.20/1K</title>
+    <link>https://dev.to/devil_scrapes/google-ads-transparency-scraper-pull-any-competitors-ads-for-1201k-25fo</link>
+    <guid>https://dev.to/devil_scrapes/google-ads-transparency-scraper-pull-any-competitors-ads-for-1201k-25fo</guid>
+    <pubDate>Sun, 31 May 2026 09:52:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most Git tutorials show you add, commit, push. But the commands that actually save you are the ones nobody teaches. Here are 5 I use weekly. 1. git reflog — Your Undo History Ever deleted a branch...</description>
+    <description>Quick answer: The Google Ads Transparency Center is a public registry of every ad Google runs — but it ships no API and no bulk export. To get the data programmatically you scrape it. A Google Ads...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Find users who don&apos;t follow you back in Github</title>
-    <link>https://dev.to/adhishtanaka/how-to-find-users-who-dont-follow-you-back-in-github-2bi9</link>
-    <guid>https://dev.to/adhishtanaka/how-to-find-users-who-dont-follow-you-back-in-github-2bi9</guid>
-    <pubDate>Sun, 31 May 2026 04:20:07 +0000</pubDate>
+    <title>Bringing Scientific Rigor to LLM Comparison</title>
+    <link>https://dev.to/lavellehatcherjr/bringing-scientific-rigor-to-llm-comparison-5a6l</link>
+    <guid>https://dev.to/lavellehatcherjr/bringing-scientific-rigor-to-llm-comparison-5a6l</guid>
+    <pubDate>Sun, 31 May 2026 09:52:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Here is a quick GitHub CLI trick to easily find users who don&apos;t follow you back (unfollowers). It fetches your following and followers lists via the GitHub API, compares them, and outputs the...</description>
+    <description>Why I built Cli Modelarium, and why it belongs in your terminal, not a dashboard Note: This is a personal project, not affiliated with any company. This does not constitute financial or investment...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Bulk-check DNS, SSL and email auth for a whole list of domains (no scraping)</title>
-    <link>https://dev.to/weiseer/bulk-check-dns-ssl-and-email-auth-for-a-whole-list-of-domains-no-scraping-37pd</link>
-    <guid>https://dev.to/weiseer/bulk-check-dns-ssl-and-email-auth-for-a-whole-list-of-domains-no-scraping-37pd</guid>
-    <pubDate>Sun, 31 May 2026 04:16:15 +0000</pubDate>
+    <title>Fitting LLM Reply Suggestions Into Every Provider&apos;s Prompt Cache — Without Structured Output</title>
+    <link>https://dev.to/shinji_shimizu_bb51276a5e/fitting-llm-reply-suggestions-into-every-providers-prompt-cache-without-structured-output-18f6</link>
+    <guid>https://dev.to/shinji_shimizu_bb51276a5e/fitting-llm-reply-suggestions-into-every-providers-prompt-cache-without-structured-output-18f6</guid>
+    <pubDate>Sun, 31 May 2026 09:51:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve ever had a spreadsheet of domains — a lead list, an acquisition target&apos;s footprint, your own portfolio — and needed DNS records, WHOIS, SSL expiry, or email authentication for all of...</description>
+    <description>I wanted to add reply suggestions to a voice roleplay chat — the classic UX where three &quot;you could say this next&quot; chips appear under each AI response. Sounds simple. But when your chat is built...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How Turkey Hacked the Hair Transplant Industry</title>
+    <link>https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/</link>
+    <guid>https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/</guid>
+    <pubDate>Sun, 31 May 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>From specialized motors to the use of machine learning algorithms, Turkey’s billion-dollar hair-transplant industry is the result of a constant process of innovation.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>SoftBank says it will invest up to €75 billion to build French data centers</title>
@@ -267,15 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>Someone named “Squid” seems to be a “West Country legend.” As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Amazon Is Making an AI-Animated ‘Good Advice Cupcake’ TV Show. Its Original Creator Is Furious</title>
-    <link>https://www.wired.com/story/story/amazon-is-making-an-ai-animated-good-advice-cupcake-tv-show-its-original-creator-is-furious/</link>
-    <guid>https://www.wired.com/story/story/amazon-is-making-an-ai-animated-good-advice-cupcake-tv-show-its-original-creator-is-furious/</guid>
-    <pubDate>Fri, 29 May 2026 20:56:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Loryn Brantz created The Good Advice Cupcake for BuzzFeed years ago. The company licensed the character for a new Amazon series—made with AI—without her consent.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
