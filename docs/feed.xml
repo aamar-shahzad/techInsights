@@ -5,275 +5,276 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 01 Jun 2026 13:47:01 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 01 Jun 2026 20:35:08 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I built a free GPA &amp; student loan calculator site with pure HTML/CSS/JS — here&apos;s what I learned</title>
-    <link>https://dev.to/canghun13/i-built-a-free-gpa-student-loan-calculator-site-with-pure-htmlcssjs-heres-what-i-learned-eab</link>
-    <guid>https://dev.to/canghun13/i-built-a-free-gpa-student-loan-calculator-site-with-pure-htmlcssjs-heres-what-i-learned-eab</guid>
-    <pubDate>Mon, 01 Jun 2026 13:45:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I recently launched GPA Vault — a free tool site for US college students with 15 calculators and 16 blog guides covering GPA, student loans, and college costs. No framework, no backend, no...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Novo CNPJ: O &quot;Bug do Milênio&quot; versão Tupiniquim?</title>
-    <link>https://dev.to/alealmeida369/novo-cnpj-o-bug-do-milenio-versao-tupiniquim-319m</link>
-    <guid>https://dev.to/alealmeida369/novo-cnpj-o-bug-do-milenio-versao-tupiniquim-319m</guid>
-    <pubDate>Mon, 01 Jun 2026 13:43:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Se você é dev no Brasil, o número 14 está no seu DNA. Mas o alicerce mudou. O estoque de combinações numéricas do CNPJ esgotou (abrimos 4,2 milhões de empresas só em 2024!) e a Receita Federal deu...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built a free, browser-only European payment QR generator (and an MCP server)</title>
-    <link>https://dev.to/martinhavel/i-built-a-free-browser-only-european-payment-qr-generator-and-an-mcp-server-11k</link>
-    <guid>https://dev.to/martinhavel/i-built-a-free-browser-only-european-payment-qr-generator-and-an-mcp-server-11k</guid>
-    <pubDate>Mon, 01 Jun 2026 13:41:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every time I get an invoice or a broker deposit instruction, I do the same dumb, error-prone thing: copy the IBAN, the amount, and the variable symbol into my banking app by hand. One transposed...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Track Page Views using Application Insights</title>
-    <link>https://dev.to/vimaltwit/track-page-views-using-application-insights-49a</link>
-    <guid>https://dev.to/vimaltwit/track-page-views-using-application-insights-49a</guid>
-    <pubDate>Mon, 01 Jun 2026 13:39:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>To track page views in an Angular application using Azure Application Insights, you typically integrate the Application Insights JavaScript SDK and hook it into Angular routing events. Below is a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Securing Third-Party SaaS with Federation and SCIM</title>
-    <link>https://dev.to/beefedai/securing-third-party-saas-with-federation-and-scim-c5k</link>
-    <guid>https://dev.to/beefedai/securing-third-party-saas-with-federation-and-scim-c5k</guid>
-    <pubDate>Mon, 01 Jun 2026 13:36:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Choosing the federation pattern that minimizes risk and friction Designing SCIM-based automated provisioning that scales Mapping roles and enforcing least privilege in third-party SaaS Eliminating...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I benchmarked my own semantic cache against RedisVL and Upstash for a week. Here is what actually held up</title>
-    <link>https://dev.to/k_ivanow/i-benchmarked-my-own-semantic-cache-against-redisvl-and-upstash-for-a-week-here-is-what-actually-5h9f</link>
-    <guid>https://dev.to/k_ivanow/i-benchmarked-my-own-semantic-cache-against-redisvl-and-upstash-for-a-week-here-is-what-actually-5h9f</guid>
-    <pubDate>Mon, 01 Jun 2026 13:35:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most semantic cache benchmarks are a vendor showing you the one dataset where they win, on a model they finetuned, against a competitor they configured badly. You read it, you nod, you learn...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Rethinking Lakehouse Architecture Through Data Ownership: AWS vs. Snowflake</title>
-    <link>https://dev.to/aws-builders/rethinking-lakehouse-architecture-through-data-ownership-aws-vs-snowflake-336e</link>
-    <guid>https://dev.to/aws-builders/rethinking-lakehouse-architecture-through-data-ownership-aws-vs-snowflake-336e</guid>
-    <pubDate>Mon, 01 Jun 2026 13:31:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Original Japanese article: データの主導権から考えるAWSとSnowflakeのレイクハウスアーキテクチャ Introduction I&apos;m Aki, an AWS Community Builder (@jitepengin). When designing a data platform, discussions about whether to lean...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Meme Monday</title>
-    <link>https://dev.to/ben/meme-monday-25la</link>
-    <guid>https://dev.to/ben/meme-monday-25la</guid>
-    <pubDate>Mon, 01 Jun 2026 13:28:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Meme Monday! Today&apos;s cover image comes from the last thread. DEV is an inclusive space! Humor in poor taste will be downvoted by mods.</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built a container escape audit tool — here&apos;s what v4.0 adds</title>
-    <link>https://dev.to/lromanis/i-built-a-container-escape-audit-tool-heres-what-v40-adds-4m8</link>
-    <guid>https://dev.to/lromanis/i-built-a-container-escape-audit-tool-heres-what-v40-adds-4m8</guid>
-    <pubDate>Mon, 01 Jun 2026 13:24:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>canonical_url: https://github.com/liamromanis101/K8s-container_escape_audit Container security tooling tends to fall into two camps: heavyweight scanners that run outside the container before...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Fortifying Your Linux Bastion: A Comprehensive Guide to Intrusion Detection with Fail2Ban</title>
-    <link>https://dev.to/saikat_goswami_fd81ed5950/fortifying-your-linux-bastion-a-comprehensive-guide-to-intrusion-detection-with-fail2ban-1mgp</link>
-    <guid>https://dev.to/saikat_goswami_fd81ed5950/fortifying-your-linux-bastion-a-comprehensive-guide-to-intrusion-detection-with-fail2ban-1mgp</guid>
-    <pubDate>Mon, 01 Jun 2026 13:24:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the vast, interconnected expanse of the internet, every publicly accessible Linux server is a potential target. Within minutes of being connected to the network, your server will be probed and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Microsoft could be the next Big Tech antitrust target</title>
-    <link>https://www.theverge.com/policy/940220/microsoft-ftc-antitrust-investigation-cloud-ai</link>
-    <guid>https://www.theverge.com/policy/940220/microsoft-ftc-antitrust-investigation-cloud-ai</guid>
-    <pubDate>Mon, 01 Jun 2026 13:23:39 +0000</pubDate>
+    <title>Pebblebee&amp;#8217;s Halo can help track lost items and keep you safe, and it&amp;#8217;s on sale for $50</title>
+    <link>https://www.theverge.com/gadgets/941273/pebblebee-halo-bluetooth-tracker-personal-safety-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/941273/pebblebee-halo-bluetooth-tracker-personal-safety-deal-sale</guid>
+    <pubDate>Mon, 01 Jun 2026 20:30:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Over the past several years, Microsoft has largely managed to withstand populist calls to break up Big Tech while peers faced sweeping lawsuits. But a probe by the Federal Trade Commission...</description>
+    <description>If you’re planning to travel this summer, both a Bluetooth tracker and a personal safety device can come in handy, especially if you’ll be exploring on your own. The Pebblebee Halo combines those...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic</title>
-    <link>https://huggingface.co/blog/nfuller/scalable-enterprise-ai-adoption</link>
-    <guid>https://huggingface.co/blog/nfuller/scalable-enterprise-ai-adoption</guid>
-    <pubDate>Mon, 01 Jun 2026 12:46:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <title>AI Pair Programming Isn&apos;t Autopilot: Scaffolding HandyFEM and Catching What the AI Threw Away</title>
+    <link>https://dev.to/constanza_diaz_dev/ai-pair-programming-isnt-autopilot-scaffolding-handyfem-and-catching-what-the-ai-threw-away-5p6</link>
+    <guid>https://dev.to/constanza_diaz_dev/ai-pair-programming-isnt-autopilot-scaffolding-handyfem-and-catching-what-the-ai-threw-away-5p6</guid>
+    <pubDate>Mon, 01 Jun 2026 20:26:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The agent writes the code. You&apos;re still the engineer. I&apos;m building HandyFEM with Claude Code as my pair. It&apos;s fast — sometimes startlingly so. But the way I work with it is deliberate: I treat...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>WebRTC Video Call Tutorial with PeerJs Alternative</title>
+    <link>https://dev.to/aprogrammer22/webrtc-video-call-tutorial-11-video-chat-in-js-with-metered-peer-4m1e</link>
+    <guid>https://dev.to/aprogrammer22/webrtc-video-call-tutorial-11-video-chat-in-js-with-metered-peer-4m1e</guid>
+    <pubDate>Mon, 01 Jun 2026 20:24:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>WebRTC Video Call Tutorial: Build a 1:1 Video Chat in JavaScript with @metered-ca/peer Scope — a 2-tab, 1:1 WebRTC video call. Two browser tabs join the same channel, each publishes its camera,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>APEX: Agentic Production Execution</title>
+    <link>https://dev.to/herbertcuba/apex-agentic-production-execution-4gjh</link>
+    <guid>https://dev.to/herbertcuba/apex-agentic-production-execution-4gjh</guid>
+    <pubDate>Mon, 01 Jun 2026 20:21:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>APEX: Agentic Production Execution Pronounced &quot;AY-pecks&quot; — a production-grade operating model for teams where humans design and verify while agents execute and iterate. ☝️ This is a reference...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AdaEngine 0.1.0: a Swift game engine with ECS, plugins, Metal/WebGPU, and hot asset reloading</title>
+    <link>https://dev.to/spectraldragon/adaengine-010-a-swift-game-engine-with-ecs-plugins-metalwebgpu-and-hot-asset-reloading-8le</link>
+    <guid>https://dev.to/spectraldragon/adaengine-010-a-swift-game-engine-with-ecs-plugins-metalwebgpu-and-hot-asset-reloading-8le</guid>
+    <pubDate>Mon, 01 Jun 2026 20:16:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I’ve been working on AdaEngine, an open-source game engine and app framework written in Swift, and I’ve just released version 0.1.0. The idea behind AdaEngine is to explore what a modern game...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Python Code Obfuscation: A Practical Guide to Protecting Your IP</title>
+    <link>https://dev.to/epam_india_python/python-code-obfuscation-a-practical-guide-to-protecting-your-ip-44j9</link>
+    <guid>https://dev.to/epam_india_python/python-code-obfuscation-a-practical-guide-to-protecting-your-ip-44j9</guid>
+    <pubDate>Mon, 01 Jun 2026 20:15:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You&apos;ve built something valuable in Python. Maybe it&apos;s a proprietary algorithm, a business logic engine, or an AI application with carefully crafted prompts. Now you need to distribute it — but...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents</title>
+    <link>https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/</link>
+    <guid>https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/</guid>
+    <pubDate>Mon, 01 Jun 2026 20:03:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT&apos;s alleged role in the incident.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>The Download: China’s brain implant ambitions</title>
-    <link>https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/</link>
-    <guid>https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/</guid>
-    <pubDate>Mon, 01 Jun 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China has approved the world’s first invasive...</description>
+    <title>This could be Windows’ M1 moment — but expect it to cost a ton</title>
+    <link>https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram</link>
+    <guid>https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram</guid>
+    <pubDate>Mon, 01 Jun 2026 20:02:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Nvidia&apos;s announcement that it&apos;s getting into the consumer laptop chip space with RTX Spark is huge. Apple has proved for years that Arm-based chips can perform incredibly well while also...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How We Built a Self-Refactoring AI Agent: Inside the &quot;Memory Garbage Collector&quot; of Hermes</title>
+    <link>https://dev.to/programmingcentral/how-we-built-a-self-refactoring-ai-agent-inside-the-memory-garbage-collector-of-hermes-1pg7</link>
+    <guid>https://dev.to/programmingcentral/how-we-built-a-self-refactoring-ai-agent-inside-the-memory-garbage-collector-of-hermes-1pg7</guid>
+    <pubDate>Mon, 01 Jun 2026 20:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you have ever built an autonomous AI agent, you have likely run into the &quot;memory bloat&quot; problem. At first, your agent is fast, sharp, and highly efficient. It solves tasks, writes code, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Gemini’s new AI agent is about as good as Google’s demo</title>
+    <link>https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on</link>
+    <guid>https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on</guid>
+    <pubDate>Mon, 01 Jun 2026 20:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google&apos;s new &quot;24/7&quot; AI agent, Gemini Spark, can be shockingly good at doing things on your behalf. But I&apos;m not sure it&apos;s worth the financial cost and potential privacy tradeoffs. The company gave...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microfrontends Are Deployment Boundaries</title>
+    <link>https://dev.to/lazarv/microfrontends-are-deployment-boundaries-6nm</link>
+    <guid>https://dev.to/lazarv/microfrontends-are-deployment-boundaries-6nm</guid>
+    <pubDate>Mon, 01 Jun 2026 19:59:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Why independent deployment is the real boundary, why build-time composition keeps teams coupled, and why projection is a better primitive for loose microfrontends. Microfrontends are usually sold...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Setting up Azure MCP with Service Principal</title>
+    <link>https://dev.to/richard_nye_d7f0293c269fd/setting-up-azure-mcp-with-service-principal-1hoe</link>
+    <guid>https://dev.to/richard_nye_d7f0293c269fd/setting-up-azure-mcp-with-service-principal-1hoe</guid>
+    <pubDate>Mon, 01 Jun 2026 19:58:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Today I&apos;m going to focus on how to set up Azure MCP Server, but more specifically how to use a service principal to authenticate. During my setup, and I&apos;ve done this with both MacOS using npm and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Astro vs Next.js vs SvelteKit for content sites in 2026</title>
+    <link>https://dev.to/contrite42/astro-vs-nextjs-vs-sveltekit-for-content-sites-in-2026-5hia</link>
+    <guid>https://dev.to/contrite42/astro-vs-nextjs-vs-sveltekit-for-content-sites-in-2026-5hia</guid>
+    <pubDate>Mon, 01 Jun 2026 19:55:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Affiliate disclosure: all three frameworks are open source so there&apos;s nothing to be paid for here. Tool links go to project sites. i run content sites on all three. portfolio on Astro, SaaS...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Introducing StartupBase 2 🎉</title>
+    <link>https://dev.to/attacomsian/introducing-startupbase-2-288p</link>
+    <guid>https://dev.to/attacomsian/introducing-startupbase-2-288p</guid>
+    <pubDate>Mon, 01 Jun 2026 19:55:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Nine years ago, in 2017, I launched StartupBase. At the time, it was a simple side project built around a simple belief: Great products deserve a better way to get discovered. Back then, product...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Dozens of Red Hat packages backdoored through its offical NPM channel</title>
+    <link>https://arstechnica.com/security/2026/06/dozens-of-red-hat-packages-backdoored-through-its-offical-npm-channel/</link>
+    <guid>https://arstechnica.com/security/2026/06/dozens-of-red-hat-packages-backdoored-through-its-offical-npm-channel/</guid>
+    <pubDate>Mon, 01 Jun 2026 19:49:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Anyone who has downloaded affected Red Hat packages should investigate immediately.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta&amp;#8217;s own AI was exploited to hijack Instagram accounts</title>
+    <link>https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked</link>
+    <guid>https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked</guid>
+    <pubDate>Mon, 01 Jun 2026 19:20:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Meta&apos;s AI support chatbot helped hackers hijack Instagram accounts, as reported earlier by 404 Media. In a video shared on Telegram, a hacker shows how they could take over an account by asking...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Casey Neistat’s guide to posting every day</title>
+    <link>https://www.theverge.com/podcast/941140/casey-neistat-daily-vergecast</link>
+    <guid>https://www.theverge.com/podcast/941140/casey-neistat-daily-vergecast</guid>
+    <pubDate>Mon, 01 Jun 2026 19:07:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Some news: The Vergecast is now a daily podcast! Starting today, we&apos;ll be posting every weekday, with even more gadgets and rankings and conversations and feelings and podcasts-within-podcasts....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Water access is now a risk factor in SpaceX’s IPO</title>
+    <link>https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/</link>
+    <guid>https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/</guid>
+    <pubDate>Mon, 01 Jun 2026 18:19:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company says it needs &quot;significant&quot; water resources to cool its data centers, and that access to abundant, affordable water is a challenge.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools</title>
-    <link>https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html</link>
-    <guid>https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html</guid>
-    <pubDate>Mon, 01 Jun 2026 11:30:00 +0000</pubDate>
+    <title>Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm</title>
+    <link>https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html</link>
+    <guid>https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html</guid>
+    <pubDate>Mon, 01 Jun 2026 17:40:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Three years ago, the practical question for an MSP building a cybersecurity practice was which &quot;vCISO platform&quot; to buy. The term was good shorthand for the work at the time: assessments, advisory,...</description>
+    <description>A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a...</description>
     <category>Security</category>
   </item>
   <item>
-    <title>These are the first Nvidia RTX Spark laptops</title>
-    <link>https://www.theverge.com/gadgets/940794/first-nvidia-rtx-spark-laptops-roundup-computex-2026</link>
-    <guid>https://www.theverge.com/gadgets/940794/first-nvidia-rtx-spark-laptops-roundup-computex-2026</guid>
-    <pubDate>Mon, 01 Jun 2026 11:29:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nvidia has officially entered the world of consumer laptop chips with the RTX Spark, and several device makers already have hardware lined up for it. Microsoft, Asus, HP, MSI, Lenovo, and Dell are...</description>
-    <category>Tech Industry</category>
+    <title>Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts</title>
+    <link>https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/</link>
+    <guid>https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/</guid>
+    <pubDate>Mon, 01 Jun 2026 17:32:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
+    <description>The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch</title>
-    <link>https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/</link>
-    <guid>https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/</guid>
-    <pubDate>Mon, 01 Jun 2026 11:00:00 +0000</pubDate>
+    <title>Anthropic Confidentially Files for What Could Be the Largest IPO Ever</title>
+    <link>https://www.wired.com/story/anthropic-files-s1-ipo-sec/</link>
+    <guid>https://www.wired.com/story/anthropic-files-s1-ipo-sec/</guid>
+    <pubDate>Mon, 01 Jun 2026 17:17:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Dozens of people have complained to the Federal Trade Commission about Norse Atlantic Airways’ tech-first customer service operation. Some said they lost thousands of dollars.</description>
+    <description>The AI giant behind Claude submitted paperwork on Monday that would take it public, just a couple of weeks after SpaceX’s splashy IPO announcement.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Asus just announced the OLED Xbox Ally X of my dreams</title>
-    <link>https://www.theverge.com/games/940722/asus-xbox-ally-x20-special-edition-oled-screen</link>
-    <guid>https://www.theverge.com/games/940722/asus-xbox-ally-x20-special-edition-oled-screen</guid>
-    <pubDate>Mon, 01 Jun 2026 10:00:00 +0000</pubDate>
+    <title>Vulnerability Disclosure in the Age of AI</title>
+    <link>https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html</guid>
+    <pubDate>Mon, 01 Jun 2026 16:49:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>New article: “Responsible Disclosure in the Age of AI: A Call for Urgent Action,” by Melissa Hathaway. Abstract: Artificial intelligence is fundamentally reshaping the balance between...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Anthropic has officially filed to go public</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public</guid>
+    <pubDate>Mon, 01 Jun 2026 16:40:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you asked me what I&apos;d change about the Xbox Ally X handheld - aside from fixing Windows, I mean - I&apos;d tell you two key things. First, give me a bigger, better screen. Even a little bit bigger,...</description>
+    <description>After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S....</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack</title>
-    <link>https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html</link>
-    <guid>https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html</guid>
-    <pubDate>Mon, 01 Jun 2026 09:31:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that&apos;s targeting developers using OpenAI Codex through a legitimate-looking remote web UI. The tool, named...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>China has approved the world’s first invasive brain-computer chip—here’s what’s next</title>
-    <link>https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/</link>
-    <guid>https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/</guid>
-    <pubDate>Mon, 01 Jun 2026 09:09:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write. Dong, 39, had sustained spinal cord injuries in a...</description>
+    <title>Anthropic files to go public</title>
+    <link>https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/</link>
+    <guid>https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/</guid>
+    <pubDate>Mon, 01 Jun 2026 16:36:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company said Monday it has filed confidentially for an IPO.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts</title>
-    <link>https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html</link>
-    <guid>https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html</guid>
-    <pubDate>Mon, 01 Jun 2026 08:45:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious...</description>
-    <category>Security</category>
+    <title>Sony’s new fight stick and gaming monitor launch in August</title>
+    <link>https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price</link>
+    <guid>https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price</guid>
+    <pubDate>Mon, 01 Jun 2026 16:36:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sony is sharing new details about some of its upcoming gaming-focused hardware, including pricing and August launch dates for its FlexStrike fight stick and its 27-inch monitor. The FlexStrike...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</title>
-    <link>https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai</link>
-    <guid>https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai</guid>
-    <pubDate>Mon, 01 Jun 2026 04:44:55 +0000</pubDate>
+    <title>This AI weather startup is out-forecasting government agencies</title>
+    <link>https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/</link>
+    <guid>https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/</guid>
+    <pubDate>Mon, 01 Jun 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>WindBorne benefits from its unique combination of model-building and data collection. The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How we used Gemini to build Google I/O 2026</title>
+    <link>https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/</link>
+    <guid>https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/</guid>
+    <pubDate>Mon, 01 Jun 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains</title>
+    <link>https://huggingface.co/blog/JetBrains/mellum2-launch</link>
+    <guid>https://huggingface.co/blog/JetBrains/mellum2-launch</guid>
+    <pubDate>Mon, 01 Jun 2026 15:45:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
   </item>
   <item>
-    <title>This is the Microsoft Surface Laptop Ultra with Nvidia RTX Spark</title>
-    <link>https://www.theverge.com/tech/940584/microsoft-surface-laptop-ultra-nvidia-rtx-spark-pictures</link>
-    <guid>https://www.theverge.com/tech/940584/microsoft-surface-laptop-ultra-nvidia-rtx-spark-pictures</guid>
-    <pubDate>Mon, 01 Jun 2026 04:36:41 +0000</pubDate>
+    <title>Summer Game Fest 2026: All the news from gaming&amp;#8217;s busiest week</title>
+    <link>https://www.theverge.com/games/939206/summer-game-fest-playstation-xbox-gaming-events-2026</link>
+    <guid>https://www.theverge.com/games/939206/summer-game-fest-playstation-xbox-gaming-events-2026</guid>
+    <pubDate>Mon, 01 Jun 2026 15:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Once upon a time, Microsoft had to write off $900 million betting an Arm-based Nvidia chip could power its first flagship Windows portable, the original Microsoft Surface. But today, it&apos;s trying...</description>
+    <description>Get ready for some gaming news. It’s officially June, which means splashy new events from PlayStation, Xbox, and gaming hype man Geoff Keighley. But this season doesn’t just feature the big...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Nvidia announces RTX Spark as ‘the most efficient PC chip ever built’</title>
-    <link>https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date</link>
-    <guid>https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date</guid>
-    <pubDate>Mon, 01 Jun 2026 04:28:53 +0000</pubDate>
+    <title>An affordable, long-lasting AirTag alternative is $15 right now</title>
+    <link>https://www.theverge.com/gadgets/940830/find-my-bluetooth-tracker-bose-qc-ultra-google-pixel-buds-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/940830/find-my-bluetooth-tracker-bose-qc-ultra-google-pixel-buds-deal-sale</guid>
+    <pubDate>Mon, 01 Jun 2026 15:24:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This fall, Nvidia will officially become a consumer PC chipmaker like Intel, AMD, Apple, and Qualcomm, putting a complete computing chip - not just graphics - into the very heart of laptops and...</description>
+    <description>There are many solid Bluetooth trackers for iPhones that tap into Apple’s expansive Find My network. Some are thin, some are a bit chunkier. And, evidently, some look like tiny soccer balls....</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AMD’s new pitch: our old tech is so good you should just keep using it</title>
-    <link>https://www.theverge.com/tech/940524/amd-computex-am5-promise-2029-rx9070gre-7700x3d-5800x3d</link>
-    <guid>https://www.theverge.com/tech/940524/amd-computex-am5-promise-2029-rx9070gre-7700x3d-5800x3d</guid>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Computex 2026 is underway in Taiwan, and we&apos;re expecting all manner of flashy computers with jaw-dropping prices (or no prices at all) as the entire industry navigates RAMageddon. But for desktop...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The QD-OLED gaming monitor that started it all got a big upgrade</title>
-    <link>https://www.theverge.com/games/938956/alienware-computex-tandem-qd-oled-penta-rgb-stripe-gaming-monitors-specs</link>
-    <guid>https://www.theverge.com/games/938956/alienware-computex-tandem-qd-oled-penta-rgb-stripe-gaming-monitors-specs</guid>
-    <pubDate>Sun, 31 May 2026 23:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Alienware is taking to this year&apos;s Computex 2026 in Taipei to announce some cool gaming monitors, most notably two exciting OLED options that are coming at different points this year. First off,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Dell is bringing back the XPS 13 as a MacBook Neo competitor — with a temporary discount to $599</title>
-    <link>https://www.theverge.com/tech/940498/dell-xps-13-student-laptop-intel-wildcat-panther-lake-computex-price</link>
-    <guid>https://www.theverge.com/tech/940498/dell-xps-13-student-laptop-intel-wildcat-panther-lake-computex-price</guid>
-    <pubDate>Sun, 31 May 2026 23:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Dell is making good on its tease from CES and finally announcing a new XPS 13. The XPS 13 returns as a budget-friendly option, launching in July at a promotional student price of $599 - though...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple’s strategy for smart glasses is the same as for smart watches</title>
-    <link>https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches</link>
-    <guid>https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches</guid>
-    <pubDate>Sun, 31 May 2026 21:33:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple isn&apos;t just looking to take on Meta in the smart glasses market; it&apos;s looking to upend eyewear as a whole, according to Bloomberg&apos;s Mark Gurman. When the Apple Watch launched, it wasn&apos;t...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Erin Brockovich takes aim at data center secrecy</title>
-    <link>https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/</link>
-    <guid>https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/</guid>
-    <pubDate>Sun, 31 May 2026 21:05:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Environmental activist Erin Brockovich has a new mission.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How to watch Nvidia&amp;#8217;s Computex keynote</title>
-    <link>https://www.theverge.com/tech/940540/how-to-watch-nvidias-computex-keynote</link>
-    <guid>https://www.theverge.com/tech/940540/how-to-watch-nvidias-computex-keynote</guid>
-    <pubDate>Sun, 31 May 2026 20:20:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>NVIDIA&apos;s CEO Jensen Huang is set to take the stage for his GTC Taipei keynote at 8PM PT / 11PM ET. You can watch all the announcements here and embedded below. Rumors have been flying about what...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Making sense of the debate over AI psychosis</title>
-    <link>https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/</link>
-    <guid>https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/</guid>
-    <pubDate>Sun, 31 May 2026 15:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>On the latest episode of Equity, we debate whether tech CEOs are &quot;uniquely prone to AI psychosis.&quot;</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
