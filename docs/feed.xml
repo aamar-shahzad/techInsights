@@ -5,34 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 03 Jun 2026 19:57:42 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 03 Jun 2026 22:33:06 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How to design usage-based pricing</title>
-    <link>https://dev.to/arnon_shimoni_f734319d79c/how-to-design-usage-based-pricing-23p2</link>
-    <guid>https://dev.to/arnon_shimoni_f734319d79c/how-to-design-usage-based-pricing-23p2</guid>
-    <pubDate>Wed, 03 Jun 2026 19:47:31 +0000</pubDate>
+    <title>Triggering Lambda Durable Functions from SQS</title>
+    <link>https://dev.to/aws-builders/triggering-lambda-durable-functions-from-sqs-350e</link>
+    <guid>https://dev.to/aws-builders/triggering-lambda-durable-functions-from-sqs-350e</guid>
+    <pubDate>Wed, 03 Jun 2026 22:12:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Usage-based pricing is four decisions in a trenchcoat: what you meter, what unit you charge for, how you structure the rate card, and how you handle commits and overages. I&apos;ve seen many teams get...</description>
+    <description>Lambda durable functions, introduced in re:Invent 2025, are a great fit for long-running workflows that need to wait for external events, callbacks, or simply pause between steps. A single durable...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Hidden Problem With Learning Through AI</title>
-    <link>https://dev.to/josaphatstar/the-hidden-problem-with-learning-through-ai-2ki8</link>
-    <guid>https://dev.to/josaphatstar/the-hidden-problem-with-learning-through-ai-2ki8</guid>
-    <pubDate>Wed, 03 Jun 2026 19:44:06 +0000</pubDate>
+    <title>Stop letting your hackathon API keys rot</title>
+    <link>https://dev.to/backboardio/stop-letting-your-hackathon-api-keys-rot-542j</link>
+    <guid>https://dev.to/backboardio/stop-letting-your-hackathon-api-keys-rot-542j</guid>
+    <pubDate>Wed, 03 Jun 2026 22:12:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI is an incredible learning tool. I said it in my previous article, and I still believe it. But after spending months learning new web frameworks and technologies with AI as my main companion, I...</description>
+    <description>You&apos;ve got OpenAI, Anthropic, Gemini, and xAI credits sitting in five dashboards. Plug them all into one API and get free state management, courtesy of Dev.to and MLH. If you&apos;ve done a hackathon...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Dependency Vulnerability Pattern: Management Status in Small Projects</title>
-    <link>https://dev.to/merbayerp/dependency-vulnerability-pattern-management-status-in-small-projects-24fg</link>
-    <guid>https://dev.to/merbayerp/dependency-vulnerability-pattern-management-status-in-small-projects-24fg</guid>
-    <pubDate>Wed, 03 Jun 2026 19:39:46 +0000</pubDate>
+    <title>Scarab Diagnostic Suite Field Test #006: Terraform Console Panic</title>
+    <link>https://dev.to/scarab-systems/scarab-diagnostic-suite-field-test-006-terraform-console-panic-3n68</link>
+    <guid>https://dev.to/scarab-systems/scarab-diagnostic-suite-field-test-006-terraform-console-panic-3n68</guid>
+    <pubDate>Wed, 03 Jun 2026 22:10:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When dealing with small and medium-sized projects, dependency vulnerability management is often an overlooked but troublesome issue. At first, everything seems fine; you add your package, your...</description>
+    <description>This field test was against Terraform core. The issue was a crash in terraform console: https://github.com/hashicorp/terraform/issues/38671 A user reported that entering a full resource reference...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We&apos;re Open Sourcing Our Voice AI Latency Benchmarking Tool</title>
+    <link>https://dev.to/autor_tech/were-open-sourcing-our-voice-ai-latency-benchmarking-tool-3oa8</link>
+    <guid>https://dev.to/autor_tech/were-open-sourcing-our-voice-ai-latency-benchmarking-tool-3oa8</guid>
+    <pubDate>Wed, 03 Jun 2026 21:56:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Last month, a 340ms spike in our TTS pipeline caused 12% of Loquent callers to talk over the AI mid-response. We didn&apos;t catch it for six hours because we were measuring the wrong thing — average...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Dogfooding MEA Against My Zero-Cost Homelab (And the Troubleshooting Hell Along the Way</title>
+    <link>https://dev.to/null_saint/dogfooding-my-own-passive-ics-security-analyzer-against-my-zero-cost-homelab-and-the-12ag</link>
+    <guid>https://dev.to/null_saint/dogfooding-my-own-passive-ics-security-analyzer-against-my-zero-cost-homelab-and-the-12ag</guid>
+    <pubDate>Wed, 03 Jun 2026 21:55:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>By RUGERO Tesla (@404Saint). It’s Wednesday, and if you’re trying to maintain a consistent writing streak, the worst thing that can happen isn&apos;t a lack of ideas—it&apos;s equipment failure. My mouse...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Just have listed my Scrape Agent MCP :-)</title>
+    <link>https://dev.to/artespraticas/just-have-listed-my-scrape-agent-mcp--da1</link>
+    <guid>https://dev.to/artespraticas/just-have-listed-my-scrape-agent-mcp--da1</guid>
+    <pubDate>Wed, 03 Jun 2026 21:53:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I built a pay-per-use web scraping API with Claude&apos;s help — free to try, $0.01/call after that I&apos;m a designer learning to code, and over the past few months I&apos;ve been building my first real API...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>What the ChatGPT for Sheets data-exfiltration bug teaches about AI security</title>
+    <link>https://dev.to/contrite42/what-the-chatgpt-for-sheets-data-exfiltration-bug-teaches-about-ai-security-4j51</link>
+    <guid>https://dev.to/contrite42/what-the-chatgpt-for-sheets-data-exfiltration-bug-teaches-about-ai-security-4j51</guid>
+    <pubDate>Wed, 03 Jun 2026 21:50:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A security firm called PromptArmor published a writeup on May 27, 2026 showing that ChatGPT for Google Sheets, an OpenAI extension with more than 185,000 downloads, could be made to steal a user&apos;s...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apple is bringing age verification to Texas this week</title>
+    <link>https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store</link>
+    <guid>https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store</guid>
+    <pubDate>Wed, 03 Jun 2026 21:49:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple will introduce age verification in the App Store for users in Texas starting on Thursday, June 4th. The move, as spotted by MacRumors, comes just days after a federal appeals court allowed...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Before And After</title>
+    <link>https://dev.to/lingxin_wang_3b88f34b4014/before-and-after-341f</link>
+    <guid>https://dev.to/lingxin_wang_3b88f34b4014/before-and-after-341f</guid>
+    <pubDate>Wed, 03 Jun 2026 21:49:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You Think Testing AI Means Testing the Process? Wrong A Testing Problem My AI Agent can finally write data — assign beds, update predictions, create alerts, place orders. Code done, I got stuck on...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Puppetlabs Modules Roundup – May 2026</title>
+    <link>https://dev.to/puppet/puppetlabs-modules-roundup-may-2026-2gp2</link>
+    <guid>https://dev.to/puppet/puppetlabs-modules-roundup-may-2026-2gp2</guid>
+    <pubDate>Wed, 03 Jun 2026 21:48:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This time around we look back at May 2026 and the 11 Puppetlabs module releases on the Forge, with an emphasis on the changes most likely to matter in active environments. Highlighted Updates New...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Mutagen 0.4.0 Released: Service Extraction, Bug Crunches, and Fixed Persona Drift</title>
+    <link>https://dev.to/jaychkdsk/mutagen-040-released-service-extraction-bug-crunches-and-fixed-persona-drift-3o19</link>
+    <guid>https://dev.to/jaychkdsk/mutagen-040-released-service-extraction-bug-crunches-and-fixed-persona-drift-3o19</guid>
+    <pubDate>Wed, 03 Jun 2026 21:45:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Mutagen 0.4.0 addresses the friction points that plague agentic workflows: context bloat, brittle persona transitions, and the lack of a deterministic path from design document to deployed...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>WiiM expands its whole-home ecosystem with a new soundbar</title>
+    <link>https://www.theverge.com/tech/942748/wiim-releases-first-soundbar</link>
+    <guid>https://www.theverge.com/tech/942748/wiim-releases-first-soundbar</guid>
+    <pubDate>Wed, 03 Jun 2026 21:12:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>WiiM, the audio company that&apos;s challenged the idea that audiophile-level performance requires a small loan, is expanding its whole-home ecosystem with the WiiM Bar, which releases in July. Much...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nvidia is already planning N2X and N3X chips — the goal is the Star Trek computer</title>
+    <link>https://www.theverge.com/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan</link>
+    <guid>https://www.theverge.com/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan</guid>
+    <pubDate>Wed, 03 Jun 2026 20:03:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Just in case you were wondering, Nvidia&apos;s RTX Spark isn&apos;t supposed to be a one-off. The company is not just flirting with becoming the fifth high-profile vendor of consumer laptop chips to see if...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Dashlane issues opaque advisory warning 20 encrypted vaults were stolen</title>
+    <link>https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/</link>
+    <guid>https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/</guid>
+    <pubDate>Wed, 03 Jun 2026 19:53:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Security advisory leaves out key details. Dashlane maintains complete silence.</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal</title>
@@ -40,71 +139,17 @@
     <guid>https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/</guid>
     <pubDate>Wed, 03 Jun 2026 19:38:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>If Alphabet&apos;s record-breaking, $85 billion stock sale signals investor appetite for AI-related offerings, we can see that investors are ready to chow.</description>
+    <description>If Alphabet&apos;s record-breaking $85 billion stock sale signals investor appetite for AI-related offerings, we can see that investors are ready to chow.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>I had a folder full of dead repos. So I built a graveyard — and a way to raise them.</title>
-    <link>https://dev.to/chintanonweb/i-had-a-folder-full-of-dead-repos-so-i-built-a-graveyard-and-a-way-to-raise-them-383l</link>
-    <guid>https://dev.to/chintanonweb/i-had-a-folder-full-of-dead-repos-so-i-built-a-graveyard-and-a-way-to-raise-them-383l</guid>
-    <pubDate>Wed, 03 Jun 2026 19:37:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the GitHub Finish-Up-A-Thon Challenge Try it now — no login: https://chintanonweb.github.io/lazarus/ · Code: https://github.com/chintanonweb/lazarus 💡 In plain English:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>5 Architecture Mistakes I Made as a Full-Stack Developer (And What They Taught Me)</title>
-    <link>https://dev.to/saikrishna_gopannagari_f9/5-architecture-mistakes-i-made-as-a-full-stack-developer-and-what-they-taught-me-1i5b</link>
-    <guid>https://dev.to/saikrishna_gopannagari_f9/5-architecture-mistakes-i-made-as-a-full-stack-developer-and-what-they-taught-me-1i5b</guid>
-    <pubDate>Wed, 03 Jun 2026 19:36:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>5 Architecture Mistakes I Made as a Full-Stack Developer (And What They Taught Me) After more than 9 years building web and mobile applications with React, Node.js, TypeScript, PostgreSQL,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built an AI-Powered Meeting Platform From Scratch — Here’s How It Actually Works</title>
-    <link>https://dev.to/anupam_kumar/i-built-an-ai-powered-meeting-platform-from-scratch-heres-how-it-actually-works-31p</link>
-    <guid>https://dev.to/anupam_kumar/i-built-an-ai-powered-meeting-platform-from-scratch-heres-how-it-actually-works-31p</guid>
-    <pubDate>Wed, 03 Jun 2026 19:33:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A complete breakdown of Hoovik: WebRTC signaling, distributed Node.js with Redis, real-time emotion AI, RAG on meeting transcripts, and a Python transcription pipeline — all wired together. 👉...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How the State.js Ecosystem Solves the Performance vs. Experience Paradox in Modern E‑Commerce</title>
-    <link>https://dev.to/idevgames/how-the-statejs-ecosystem-solves-the-performance-vs-experience-paradox-in-modern-e-commerce-em2</link>
-    <guid>https://dev.to/idevgames/how-the-statejs-ecosystem-solves-the-performance-vs-experience-paradox-in-modern-e-commerce-em2</guid>
-    <pubDate>Wed, 03 Jun 2026 19:33:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Modern premium e‑commerce has a problem nobody talks about enough: Luxury brands want fluid, tactile, high‑end interactions — but the JS runtimes required to achieve them destroy performance....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building LifeFast: A Solo Founder&apos;s Deep Dive into Fasting App Architecture</title>
-    <link>https://dev.to/jane49cloud/building-lifefast-a-solo-founders-deep-dive-into-fasting-app-architecture-p9o</link>
-    <guid>https://dev.to/jane49cloud/building-lifefast-a-solo-founders-deep-dive-into-fasting-app-architecture-p9o</guid>
-    <pubDate>Wed, 03 Jun 2026 19:30:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There&apos;s a specific kind of frustration that comes from using a health app that feels like it was built by engineers who&apos;ve never actually used it. The timer shows a number. The number counts down....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How We Encrypt X Auth Tokens: AES-256-GCM in Practice</title>
-    <link>https://dev.to/helperx/how-we-encrypt-x-auth-tokens-aes-256-gcm-in-practice-4g86</link>
-    <guid>https://dev.to/helperx/how-we-encrypt-x-auth-tokens-aes-256-gcm-in-practice-4g86</guid>
-    <pubDate>Wed, 03 Jun 2026 19:27:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you build a tool that stores authentication tokens for other people&apos;s social media accounts, you have exactly one job before anything else: make sure a database leak doesn&apos;t compromise every...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The MCP Rug Pull - When the Tool You Trusted Yesterday Becomes Malicious Today</title>
-    <link>https://dev.to/node9_ai/the-mcp-rug-pull-when-the-tool-you-trusted-yesterday-becomes-malicious-today-4om</link>
-    <guid>https://dev.to/node9_ai/the-mcp-rug-pull-when-the-tool-you-trusted-yesterday-becomes-malicious-today-4om</guid>
-    <pubDate>Wed, 03 Jun 2026 19:26:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Model Context Protocol (MCP) is having its npm moment. Hundreds of community-built servers expose database access, GitHub APIs, Slack, Notion, your local filesystem. You install one with a...</description>
-    <category>Developer Tools</category>
+    <title>WhatsApp, Slack Notifications Could Hijack Google Gemini on Android</title>
+    <link>https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html</link>
+    <guid>https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html</guid>
+    <pubDate>Wed, 03 Jun 2026 19:11:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini&apos;s voice assistant on Android and made it open a victim&apos;s connected...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon</title>
@@ -170,6 +215,15 @@
     <category>AI</category>
   </item>
   <item>
+    <title>Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT</title>
+    <link>https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html</link>
+    <guid>https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html</guid>
+    <pubDate>Wed, 03 Jun 2026 16:29:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged a new malspam campaign that makes use of Google&apos;s DoubleClick domain as a way to evade detection and ultimately deliver a remote access trojan (RAT) named...</description>
+    <category>Security</category>
+  </item>
+  <item>
     <title>Amazon&amp;#8217;s search bar will invent AI-generated products you can&amp;#8217;t buy</title>
     <link>https://www.theverge.com/tech/942547/amazon-search-bar-ai-images</link>
     <guid>https://www.theverge.com/tech/942547/amazon-search-bar-ai-images</guid>
@@ -222,60 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>A few months ago, Meta effectively handed Supernatural, a popular VR fitness game on the Meta Quest, a death sentence. As part of overarching VR layoffs, the company announced the game would no...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Publishers will be able to opt out of AI Search, thanks to new regulation</title>
-    <link>https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/</link>
-    <guid>https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/</guid>
-    <pubDate>Wed, 03 Jun 2026 14:58:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features. The option will be tested in the U.K. then rolled out globally.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Dreame&amp;#8217;s L20 Ultra robovac is an unbeatable deal for $280</title>
-    <link>https://www.theverge.com/gadgets/942184/dreame-l20-ultra-audible-bose-soundlink-flex-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/942184/dreame-l20-ultra-audible-bose-soundlink-flex-deal-sale</guid>
-    <pubDate>Wed, 03 Jun 2026 14:53:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Dreame L20 Ultra isn’t the company’s newest model, but it’s still a great robovac / mop hybrid that offers strong performance while requiring very little day-to-day maintenance thanks to its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft and OpenAI broke up — now they’re ready to fight</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition</guid>
-    <pubDate>Wed, 03 Jun 2026 14:04:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>At Microsoft&apos;s annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta’s AI agent for WhatsApp Business is now available globally</title>
-    <link>https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/</link>
-    <guid>https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/</guid>
-    <pubDate>Wed, 03 Jun 2026 13:40:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>WhatsApp will charge businesses for using its AI agent based on token usage.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A first look at Microsoft’s Surface Laptop Ultra and Surface Dev Box</title>
-    <link>https://www.theverge.com/tech/941600/microsoft-surface-laptop-ultra-dev-box-hands-on</link>
-    <guid>https://www.theverge.com/tech/941600/microsoft-surface-laptop-ultra-dev-box-hands-on</guid>
-    <pubDate>Wed, 03 Jun 2026 13:22:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft has two new Surface devices arriving later this year, both powered by Nvidia&apos;s RTX Spark chips. I got a chance to take a closer look at both the Surface Laptop Ultra and Surface RTX...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens</title>
-    <link>https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html</link>
-    <guid>https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html</guid>
-    <pubDate>Wed, 03 Jun 2026 12:58:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed a one-click attack via Microsoft Visual Studio Code (VS Code) that makes it possible to steal a user&apos;s GitHub token. &quot;Just by clicking a link, it&apos;s...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
