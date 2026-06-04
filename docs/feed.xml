@@ -5,8 +5,213 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 04 Jun 2026 11:25:20 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 04 Jun 2026 15:43:26 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How NULL Values Skew Comparisons, Aggregations, and Deduplication in GBase 8a</title>
+    <link>https://dev.to/michaelfv/how-null-values-skew-comparisons-aggregations-and-deduplication-in-gbase-8a-42il</link>
+    <guid>https://dev.to/michaelfv/how-null-values-skew-comparisons-aggregations-and-deduplication-in-gbase-8a-42il</guid>
+    <pubDate>Thu, 04 Jun 2026 15:42:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>NULL in a gbase database doesn&apos;t behave like an ordinary value, nor is it simply a blank. It affects comparisons, deduplication, aggregations, and conditional logic in ways that often contradict...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Transformer Attention Is Hopfield&apos;s 1982 Update Rule (And What That Tells Us About LLM Memory)</title>
+    <link>https://dev.to/ki-mathias/transformer-attention-is-hopfields-1982-update-rule-and-what-that-tells-us-about-llm-memory-4i7f</link>
+    <guid>https://dev.to/ki-mathias/transformer-attention-is-hopfields-1982-update-rule-and-what-that-tells-us-about-llm-memory-4i7f</guid>
+    <pubDate>Thu, 04 Jun 2026 15:40:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Hopfield&apos;s associative-memory equation from 1982 and the scaled dot-product attention from Vaswani 2017 are the same operation. One substitution turns one into the other. The 2024 Nobel Prize in...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Lean AI in LangBear</title>
+    <link>https://dev.to/langbear/lean-ai-in-langbear-3oe</link>
+    <guid>https://dev.to/langbear/lean-ai-in-langbear-3oe</guid>
+    <pubDate>Thu, 04 Jun 2026 15:40:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>LangBear is fully bootstrapped. This means no investors&apos; money to burn, no big budgets. All funding has been coming from my main job&apos;s income. This is why I made a decision early on to stay AI...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Metrics That Actually Tell You If Your Enterprise AI Rollout Is Working</title>
+    <link>https://dev.to/sumaskeller/the-metrics-that-actually-tell-you-if-your-enterprise-ai-rollout-is-working-1237</link>
+    <guid>https://dev.to/sumaskeller/the-metrics-that-actually-tell-you-if-your-enterprise-ai-rollout-is-working-1237</guid>
+    <pubDate>Thu, 04 Jun 2026 15:39:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Metrics That Actually Tell You If Your Enterprise AI Rollout Is Working Time saved is not a metric. It&apos;s a hypothesis. Here&apos;s how to measure what actually matters. Enterprise AI deployments...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Beyond Inheritance in Java: A Practical Guide to Composition</title>
+    <link>https://dev.to/vinayagam_6a170db9281d526/beyond-inheritance-in-java-a-practical-guide-to-composition-1150</link>
+    <guid>https://dev.to/vinayagam_6a170db9281d526/beyond-inheritance-in-java-a-practical-guide-to-composition-1150</guid>
+    <pubDate>Thu, 04 Jun 2026 15:36:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction In Java, inheritance is commonly used to reuse code using the extends keyword. However, inheritance is not always the best solution. In many real-world applications, developers prefer...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>From 4GB Ceiling To Modern Exploits: Why 32-bit Architecture Is Still A Security Problem</title>
+    <link>https://dev.to/specs_/from-4gb-ceiling-to-modern-exploits-why-32-bit-architecture-is-still-a-security-problem-3kbc</link>
+    <guid>https://dev.to/specs_/from-4gb-ceiling-to-modern-exploits-why-32-bit-architecture-is-still-a-security-problem-3kbc</guid>
+    <pubDate>Thu, 04 Jun 2026 15:34:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Modern cybersecurity is a war of probability, fought on a battlefield designed decades ago. Here, math is the ultimate wall, but flawed software implementations can reduce that wall to a minor...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How To Use AI Safely In Legacy Codebases</title>
+    <link>https://dev.to/nazar_boyko/how-to-use-ai-safely-in-legacy-codebases-1cgc</link>
+    <guid>https://dev.to/nazar_boyko/how-to-use-ai-safely-in-legacy-codebases-1cgc</guid>
+    <pubDate>Thu, 04 Jun 2026 15:34:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You&apos;ve inherited a system that nobody wants to touch. It&apos;s ten years old. There are class files with three thousand lines. The naming convention changed sometime around year four. The original...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Stripe Webhook Testing: Local Development Guide</title>
+    <link>https://dev.to/digital_trubador/stripe-webhook-testing-local-development-guide-391</link>
+    <guid>https://dev.to/digital_trubador/stripe-webhook-testing-local-development-guide-391</guid>
+    <pubDate>Thu, 04 Jun 2026 15:33:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Stripe webhooks notify your application about events—successful payments, failed charges, subscription changes, disputes. Getting them right matters. A missed webhook can mean unfulfilled orders...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to design pricing for AI APIs and LLM-powered products</title>
+    <link>https://dev.to/arnon_shimoni_f734319d79c/how-to-design-pricing-for-ai-apis-and-llm-powered-products-3lk0</link>
+    <guid>https://dev.to/arnon_shimoni_f734319d79c/how-to-design-pricing-for-ai-apis-and-llm-powered-products-3lk0</guid>
+    <pubDate>Thu, 04 Jun 2026 15:31:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI API pricing comes down to six decisions, in order: what to meter, which primitive to charge for, what to charge per unit, how to structure tiers, hard cap or soft cap, and how the credit wallet...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Learn Compilers Using CrabPascal | Aprenda compiladores com CrabPascal</title>
+    <link>https://dev.to/crabpascal/learn-compilers-using-crabpascal-aprenda-compiladores-com-crabpascal-1p7p</link>
+    <guid>https://dev.to/crabpascal/learn-compilers-using-crabpascal-aprenda-compiladores-com-crabpascal-1p7p</guid>
+    <pubDate>Thu, 04 Jun 2026 15:30:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Bilingual post · Post bilíngue Jump to: English · Português English {#english} Learn Compilers Using CrabPascal Series — Part 2: Previous: Audit Deep Dive: IDE, CI, and Docs...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories</title>
+    <link>https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html</link>
+    <guid>https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html</guid>
+    <pubDate>Thu, 04 Jun 2026 15:15:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A security researcher found a flaw in Anthropic&apos;s Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.</title>
+    <link>https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/</link>
+    <guid>https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/</guid>
+    <pubDate>Thu, 04 Jun 2026 15:05:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The California startup released the fourth-generation of its home assistance robot, Stretch.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>TSMC struggles to keep up with AI demand: &amp;#8216;We can only support so much&amp;#8217;</title>
+    <link>https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles</link>
+    <guid>https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles</guid>
+    <pubDate>Thu, 04 Jun 2026 14:15:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Taiwan Semiconductor Manufacturing Co. - the world&apos;s biggest semiconductor-maker - is struggling to meet demands from American customers even with its factory buildout in the US, according to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple touts $1.4 trillion in App Store billings and sales, 90% without a commission</title>
+    <link>https://techcrunch.com/2026/06/04/apple-touts-1-4-trillion-in-app-store-billings-and-sales-90-without-a-commission/</link>
+    <guid>https://techcrunch.com/2026/06/04/apple-touts-1-4-trillion-in-app-store-billings-and-sales-90-without-a-commission/</guid>
+    <pubDate>Thu, 04 Jun 2026 14:05:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Apple&apos;s App Store generated $1.4 trillion in sales, up from $1.3 trillion last year, with $149 billion in sales for digital goods.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors &amp; 20+ New Stories</title>
+    <link>https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html</link>
+    <guid>https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html</guid>
+    <pubDate>Thu, 04 Jun 2026 14:00:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>We’re giving away a Prime Day grab bag loaded with over $800 of free tech</title>
+    <link>https://www.theverge.com/gadgets/936396/prime-day-grab-bag-giveaway-sweepstakes</link>
+    <guid>https://www.theverge.com/gadgets/936396/prime-day-grab-bag-giveaway-sweepstakes</guid>
+    <pubDate>Thu, 04 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>We’re always testing out new products here The Verge, which presents a bit of a problem for our inventory closet in New York City. It’s literally overflowing with gadgets, new and old, so we’re...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Elon Musk is steamrolling Wall Street to become a trillionaire</title>
+    <link>https://www.theverge.com/podcast/942586/elon-musk-spacex-ipo-x-xai-index-funds</link>
+    <guid>https://www.theverge.com/podcast/942586/elon-musk-spacex-ipo-x-xai-index-funds</guid>
+    <pubDate>Thu, 04 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Today on Decoder, I’m talking to Ryan Mac, a technology reporter at The New York Times and coauthor of the excellent book Character Limit: How Elon Musk Destroyed Twitter, which came out in 2024....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent</title>
+    <link>https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr</link>
+    <guid>https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr</guid>
+    <pubDate>Thu, 04 Jun 2026 12:59:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Let us filter AI slop, you cowards</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok</guid>
+    <pubDate>Thu, 04 Jun 2026 12:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s almost impossible to avoid seeing AI-generated content online, but it doesn&apos;t have to be this way. YouTube, Instagram, TikTok, and more have ramped up content authentication efforts over the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios</title>
+    <link>https://huggingface.co/blog/ServiceNow-AI/eva-bench-data</link>
+    <guid>https://huggingface.co/blog/ServiceNow-AI/eva-bench-data</guid>
+    <pubDate>Thu, 04 Jun 2026 12:24:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa</title>
+    <link>https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html</link>
+    <guid>https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html</guid>
+    <pubDate>Thu, 04 Jun 2026 12:22:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI leaders call for tougher protections against AI-aided bioweapons</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress</guid>
+    <pubDate>Thu, 04 Jun 2026 12:12:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Some of the AI industry&apos;s biggest rivals have put their many, many grievances aside for a common cause: making it harder for people to use their technology to develop biological weapons. In an...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: AI-generated lawsuits and virtual power plants for data centers</title>
+    <link>https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/</link>
+    <guid>https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/</guid>
+    <pubDate>Thu, 04 Jun 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How courts are coping with a flood of AI-generated...</description>
+    <category>AI</category>
+  </item>
   <item>
     <title>How Endava is redesigning software delivery around AI agents</title>
     <link>https://openai.com/index/endava-frontiers</link>
@@ -17,102 +222,31 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Task-Seeded Synthetic Q&amp;A Generation for Nemotron Pretraining</title>
-    <link>https://huggingface.co/blog/nvidia/task-seeded-sdg</link>
-    <guid>https://huggingface.co/blog/nvidia/task-seeded-sdg</guid>
-    <pubDate>Thu, 04 Jun 2026 11:24:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
+    <title>Yes, the Oura Ring 5 is noticeably smaller</title>
+    <link>https://www.theverge.com/gadgets/942616/oura-ring-5-size-comparison-first-impressions</link>
+    <guid>https://www.theverge.com/gadgets/942616/oura-ring-5-size-comparison-first-impressions</guid>
+    <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is not an Oura Ring 5 review. That&apos;s coming later, once I&apos;ve had enough time to really test the new durability and battery life claims, plus the new software updates that start rolling out...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>AI&apos;s Finance Problem Is Quantified — And That&apos;s Bullish for the Builders</title>
-    <link>https://dev.to/the_signal_brief/ais-finance-problem-is-quantified-and-thats-bullish-for-the-builders-1b7m</link>
-    <guid>https://dev.to/the_signal_brief/ais-finance-problem-is-quantified-and-thats-bullish-for-the-builders-1b7m</guid>
-    <pubDate>Thu, 04 Jun 2026 11:20:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What Happened BigFinanceBench (928 expert-authored tasks) and Hedge-Bench (102 real hedge-fund analyst tasks) dropped simultaneously, giving the market its first rigorous, rubric-graded...</description>
-    <category>Developer Tools</category>
+    <title>This Google Photos update has saved your digital photo frame</title>
+    <link>https://www.theverge.com/tech/942860/aura-frame-google-photos-api-update-auto-sync</link>
+    <guid>https://www.theverge.com/tech/942860/aura-frame-google-photos-api-update-auto-sync</guid>
+    <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Aura&apos;s digital photo frames will continue to automatically sync with your Google Photos albums, after API changes threatened to remove the feature. Aura is now rolling out a full migration to...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Python’s Private Variables Aren&apos;t Private: An AppSec Reality Check</title>
-    <link>https://dev.to/micheaol/pythons-private-variables-arent-private-an-appsec-reality-check-3n6o</link>
-    <guid>https://dev.to/micheaol/pythons-private-variables-arent-private-an-appsec-reality-check-3n6o</guid>
-    <pubDate>Thu, 04 Jun 2026 11:20:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Coming to Python from Java or C++? You might have a dangerous assumption about data encapsulation. Look at this typical snippet used for &quot;secure&quot; state management: class BankAccount: def...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Runtime Internals: Heap, VMT, and Built-ins | Internals do runtime</title>
-    <link>https://dev.to/crabpascal/runtime-internals-heap-vmt-and-built-ins-internals-do-runtime-1jbc</link>
-    <guid>https://dev.to/crabpascal/runtime-internals-heap-vmt-and-built-ins-internals-do-runtime-1jbc</guid>
-    <pubDate>Thu, 04 Jun 2026 11:15:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Bilingual post · Post bilíngue Jump to: English · Português English {#english} Runtime Internals: Heap, VMT, and Built-ins Post 037 explained how real .pas units load. Once parsed, something must...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>People Without Dirty Hands Are Wrong</title>
-    <link>https://dev.to/linkbenjamin/people-without-dirty-hands-are-wrong-bii</link>
-    <guid>https://dev.to/linkbenjamin/people-without-dirty-hands-are-wrong-bii</guid>
-    <pubDate>Thu, 04 Jun 2026 11:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A Tale of Two Managers Erin Erin was a newly-promoted manager over a software engineering team. She had been hired 5 years ago as a junior developer and worked on 3 major projects in her time with...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built Kyro: An Open-Source CLI for React Native Diagnostics and Repair</title>
-    <link>https://dev.to/sanjay_s_ce1898fb89995396/i-built-kyro-an-open-source-cli-for-react-native-diagnostics-and-repair-3fnl</link>
-    <guid>https://dev.to/sanjay_s_ce1898fb89995396/i-built-kyro-an-open-source-cli-for-react-native-diagnostics-and-repair-3fnl</guid>
-    <pubDate>Thu, 04 Jun 2026 11:09:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built Kyro: An Open-Source CLI for React Native Diagnostics and Repair Have you ever spent hours debugging a React Native project only to discover the issue was something simple? Maybe: Android...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>&quot;Your Webhooks Are Failing Silently — Here&apos;s How We Fixed It&quot; published: false</title>
-    <link>https://dev.to/serwetarslan/your-webhooks-are-failing-silently-heres-how-we-fixed-itpublished-false-2ajd</link>
-    <guid>https://dev.to/serwetarslan/your-webhooks-are-failing-silently-heres-how-we-fixed-itpublished-false-2ajd</guid>
-    <pubDate>Thu, 04 Jun 2026 11:09:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>description: &quot;After reading 50+ Dev.to posts about webhook frustrations, we built HookSniff to solve the 5 biggest problems developers face with webhook delivery.&quot; Your Webhooks Are Failing...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What Token Extensions Finally Made Me Understand</title>
-    <link>https://dev.to/prasiddhnaik/what-token-extensions-finally-made-me-understand-36p7</link>
-    <guid>https://dev.to/prasiddhnaik/what-token-extensions-finally-made-me-understand-36p7</guid>
-    <pubDate>Thu, 04 Jun 2026 11:09:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Subtitle: Token-2022 showed me that tokens can have rules, not just balances. This week I moved past basic SPL tokens and started using Token Extensions. At first, I thought a token was mostly...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>LongTracer: Open-Source RAG Hallucination Detection Without LLM-as-a-Judge</title>
-    <link>https://dev.to/muzammil_endevsols/longtracer-open-source-rag-hallucination-detection-without-llm-as-a-judge-39eg</link>
-    <guid>https://dev.to/muzammil_endevsols/longtracer-open-source-rag-hallucination-detection-without-llm-as-a-judge-39eg</guid>
-    <pubDate>Thu, 04 Jun 2026 11:08:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Stop paying to evaluate your LLM outputs. Stop tolerating non-deterministic quality gates. LongTracer is the MIT-licensed Python library that catches RAG hallucinations at inference time — no API...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Do Claude Code ao Codex — trocar de ambiente para continuar mudando</title>
-    <link>https://dev.to/yoskee/do-claude-code-ao-codex-trocar-de-ambiente-para-continuar-mudando-10mb</link>
-    <guid>https://dev.to/yoskee/do-claude-code-ao-codex-trocar-de-ambiente-para-continuar-mudando-10mb</guid>
-    <pubDate>Thu, 04 Jun 2026 11:07:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at moday.me. Building MODAY in public. Do Claude Code ao Codex — trocar de ambiente para continuar mudando Levar para o Codex uma marca construída com Claude Code Uma parte...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Claude Code에서 Codex로 — 계속 바뀌기 위해 작업 환경까지 바꾼다</title>
-    <link>https://dev.to/yoskee/claude-codeeseo-codexro-gyesog-baggwigi-wihae-jageob-hwangyeongggaji-baggunda-12c7</link>
-    <guid>https://dev.to/yoskee/claude-codeeseo-codexro-gyesog-baggwigi-wihae-jageob-hwangyeongggaji-baggunda-12c7</guid>
-    <pubDate>Thu, 04 Jun 2026 11:07:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at moday.me. Building MODAY in public. Claude Code에서 Codex로 — 계속 바뀌기 위해 작업 환경까지 바꾼다 Claude Code로 만든 브랜드를 Codex로 옮겨 본다 MODAY의 꽤 큰 부분은 Claude Code로 만들었다. Shopify 테마 수정, Gelato...</description>
-    <category>Developer Tools</category>
+    <title>FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads</title>
+    <link>https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html</link>
+    <guid>https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html</guid>
+    <pubDate>Thu, 04 Jun 2026 11:19:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell. According to Palo Alto Networks Unit...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Hacking Meta’s AI Chatbot</title>
@@ -140,141 +274,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Alpha School’s Ritzy New York City Campus Costs $65,000 a Year—but Isn’t Actually a School</title>
-    <link>https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/</link>
-    <guid>https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/</guid>
-    <pubDate>Thu, 04 Jun 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>A homeschooling center in Manhattan is part of the company’s nationwide expansion. Internal documents reveal its strategy: “Opening date &gt; safety.”</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS</title>
-    <link>https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html</link>
-    <guid>https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html</guid>
-    <pubDate>Thu, 04 Jun 2026 09:51:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Quantum Computing Is Having Its Public Market Moment</title>
-    <link>https://www.wired.com/story/quantum-computing-is-having-its-public-market-moment-quantinuum/</link>
-    <guid>https://www.wired.com/story/quantum-computing-is-having-its-public-market-moment-quantinuum/</guid>
-    <pubDate>Thu, 04 Jun 2026 09:34:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Quantinuum, a quantum computing startup, is losing millions. Investors want in anyway.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Hackers Spied on a Stock Exchange Executive&apos;s Outlook Mailbox for Five Months</title>
-    <link>https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html</link>
-    <guid>https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html</guid>
-    <pubDate>Thu, 04 Jun 2026 09:33:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Amazon develops a warehouse robot workers can speak to</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus</guid>
-    <pubDate>Thu, 04 Jun 2026 09:31:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon has announced a new version of its fully autonomous warehouse robot, Proteus, that will can interact using language instead of code. The expanded capabilities come as part of a growing...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog</title>
-    <link>https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html</link>
-    <guid>https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html</guid>
-    <pubDate>Thu, 04 Jun 2026 07:19:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Shokz upgraded its open earbuds with better sound and a lighter design</title>
-    <link>https://www.theverge.com/tech/942054/shokz-clip-on-opendots-2-air-earbuds-wireless-headphones</link>
-    <guid>https://www.theverge.com/tech/942054/shokz-clip-on-opendots-2-air-earbuds-wireless-headphones</guid>
-    <pubDate>Thu, 04 Jun 2026 07:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Shokz has announced two new versions of its open earbuds. Like the original OpenDots One that launched in May 2025, the new Shokz OpenDots 2 and OpenDots Air are both designed to be worn clipped...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets</title>
-    <link>https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html</link>
-    <guid>https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html</guid>
-    <pubDate>Thu, 04 Jun 2026 06:06:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons</title>
-    <link>https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/</link>
-    <guid>https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/</guid>
-    <pubDate>Thu, 04 Jun 2026 01:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Leading AI labs, executives, and scientists are sending a letter to lawmakers urging them to improve tracking of synthetic DNA sequences that could be used for bioweapons.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nintendo confirms it will sell a new Switch 2 with replaceable battery in the EU</title>
-    <link>https://www.theverge.com/games/942808/nintendo-switch-2-replaceable-battery-eu</link>
-    <guid>https://www.theverge.com/games/942808/nintendo-switch-2-replaceable-battery-eu</guid>
-    <pubDate>Thu, 04 Jun 2026 00:04:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nintendo is planning to launch versions of Switch 2 hardware in the EU that will let users easily replace the battery. To meet its obligations from a new EU regulation that&apos;s set to go into effect...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Lovable signs multiyear deal with Google Cloud to up usage 5x, source says</title>
-    <link>https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/</link>
-    <guid>https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/</guid>
-    <pubDate>Wed, 03 Jun 2026 22:56:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable&apos;s footprint on Google Cloud, and expanded access to Anthropic Claude.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Apple is bringing age verification to Texas this week</title>
-    <link>https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store</link>
-    <guid>https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store</guid>
-    <pubDate>Wed, 03 Jun 2026 21:49:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple will introduce age verification in the App Store for users in Texas starting on Thursday, June 4th. The move, as spotted by MacRumors, comes just days after a federal appeals court allowed...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>WiiM expands its whole-home ecosystem with a new soundbar</title>
-    <link>https://www.theverge.com/tech/942748/wiim-releases-first-soundbar</link>
-    <guid>https://www.theverge.com/tech/942748/wiim-releases-first-soundbar</guid>
-    <pubDate>Wed, 03 Jun 2026 21:12:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>WiiM, the audio company that&apos;s challenged the idea that audiophile-level performance requires a small loan, is expanding its whole-home ecosystem with the WiiM Bar, which releases in July. Much...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nvidia is already planning N2X and N3X chips — the goal is the Star Trek computer</title>
-    <link>https://www.theverge.com/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan</link>
-    <guid>https://www.theverge.com/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan</guid>
-    <pubDate>Wed, 03 Jun 2026 20:03:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Just in case you were wondering, Nvidia&apos;s RTX Spark isn&apos;t supposed to be a one-off. The company is not just flirting with becoming the fifth high-profile vendor of consumer laptop chips to see if...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Can&apos;t make sense of Dashlane&apos;s vault theft notification? You&apos;re not alone.</title>
-    <link>https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/</link>
-    <guid>https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/</guid>
-    <pubDate>Wed, 03 Jun 2026 19:53:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Security advisory leaves out key details. Dashlane maintains complete silence.</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
