@@ -5,97 +5,186 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 08 Jun 2026 05:01:11 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 08 Jun 2026 12:41:48 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Skill, MCP, Plugin, or just a CLI: how I pick a Claude Code extension, lightest first</title>
-    <link>https://dev.to/rapls/skill-mcp-plugin-or-just-a-cli-how-i-pick-a-claude-code-extension-lightest-first-3hon</link>
-    <guid>https://dev.to/rapls/skill-mcp-plugin-or-just-a-cli-how-i-pick-a-claude-code-extension-lightest-first-3hon</guid>
-    <pubDate>Mon, 08 Jun 2026 04:45:51 +0000</pubDate>
+    <title>The NetSapiens inter-domain calling quirk that keeps showing up</title>
+    <link>https://dev.to/johnw007/the-netsapiens-inter-domain-calling-quirk-that-keeps-showing-up-enp</link>
+    <guid>https://dev.to/johnw007/the-netsapiens-inter-domain-calling-quirk-that-keeps-showing-up-enp</guid>
+    <pubDate>Mon, 08 Jun 2026 12:32:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I was building a plugin release with Claude Code, and the changelog draft came together nicely. Pull git log from the last tag to now, drop it under == Changelog ==. That&apos;s a procedure, so it just...</description>
+    <description>Quick share. Been running into this enough times across NetSapiens deployments that it&apos;s worth flagging. Scenario: Call gets placed or transferred between two domains on the same NetSapiens...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built an Adversarial Eval Framework and Attacked 5 LLMs — Every Single One Failed</title>
-    <link>https://dev.to/saurav_bhattacharya/i-built-an-adversarial-eval-framework-and-attacked-5-llms-every-single-one-failed-1j81</link>
-    <guid>https://dev.to/saurav_bhattacharya/i-built-an-adversarial-eval-framework-and-attacked-5-llms-every-single-one-failed-1j81</guid>
-    <pubDate>Mon, 08 Jun 2026 04:32:59 +0000</pubDate>
+    <title>Game Jams no Browser: Você Não Precisa de Unity</title>
+    <link>https://dev.to/taina_costa_f/game-jams-no-browser-voce-nao-precisa-de-unity-2n0f</link>
+    <guid>https://dev.to/taina_costa_f/game-jams-no-browser-voce-nao-precisa-de-unity-2n0f</guid>
+    <pubDate>Mon, 08 Jun 2026 12:32:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR I built agent-eval, a framework that runs real agentic loops with tool calls against live LLM backends, then evaluates outputs through a three-tier assertion pyramid. I threw 10 adversarial...</description>
+    <description>Se você já fez algum front-end interativo, já tem 80% do que precisa pra fazer um jogo simples. Game jams como a June Solstice são desculpa perfeita pra testar isso — três semanas, tema aberto, e...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>You Don&apos;t Own the Code AI Wrote for You</title>
-    <link>https://dev.to/backrun/you-dont-own-the-code-ai-wrote-for-you-24bp</link>
-    <guid>https://dev.to/backrun/you-dont-own-the-code-ai-wrote-for-you-24bp</guid>
-    <pubDate>Mon, 08 Jun 2026 04:30:39 +0000</pubDate>
+    <title>10 JSON Errors Every Developer Hits (And Exactly How to Fix Them)</title>
+    <link>https://dev.to/99tools/10-json-errors-every-developer-hits-and-exactly-how-to-fix-them-39eg</link>
+    <guid>https://dev.to/99tools/10-json-errors-every-developer-hits-and-exactly-how-to-fix-them-39eg</guid>
+    <pubDate>Mon, 08 Jun 2026 12:31:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI is getting faster at generating HTML. That sounds like good news. For most people reading this, it probably is. But there is a group of users for whom faster generation is actually making...</description>
+    <description>JSON looks simple — just key-value pairs, right? But its strictness is legendary. No trailing commas. No comments. No single quotes. No undefined. Miss one rule and your entire payload is dead on...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Heart Part 7 - dalCTF 2026</title>
-    <link>https://dev.to/exploitnotes/heart-part-7-dalctf-2026-2a77</link>
-    <guid>https://dev.to/exploitnotes/heart-part-7-dalctf-2026-2a77</guid>
-    <pubDate>Mon, 08 Jun 2026 04:25:51 +0000</pubDate>
+    <title>Why &quot;Available on All Platforms&quot; Usually Means You&apos;re Excluded</title>
+    <link>https://dev.to/basavaraj_sh_1ea7d95f0f2e/why-available-on-all-platforms-usually-means-youre-excluded-1p5c</link>
+    <guid>https://dev.to/basavaraj_sh_1ea7d95f0f2e/why-available-on-all-platforms-usually-means-youre-excluded-1p5c</guid>
+    <pubDate>Mon, 08 Jun 2026 12:30:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Category: Web Flag: dalctf{p1mp_p1mp_h00r4y} Overview A multi-stage web challenge themed around Kendrick Lamar&apos;s m.A.A.d city / Kung Fu Kenny lore. The attack chain involved: SQL injection to...</description>
+    <description>AI tools keep promising to democratize access - but if your team runs Linux, you already know that promise has some fine print. The Quiet Gap Between &quot;For Everyone&quot; and What Ships There&apos;s a phrase...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>BoxAgnts Tool System (1) — Design Motivation &amp; Architecture Overview</title>
-    <link>https://dev.to/guyoung/boxagnts-tool-system-1-design-motivation-architecture-overview-ojn</link>
-    <guid>https://dev.to/guyoung/boxagnts-tool-system-1-design-motivation-architecture-overview-ojn</guid>
-    <pubDate>Mon, 08 Jun 2026 04:25:39 +0000</pubDate>
+    <title>My 100-days-of-solana experience so far</title>
+    <link>https://dev.to/jriffs/my-100-days-of-solana-experience-so-far-1in3</link>
+    <guid>https://dev.to/jriffs/my-100-days-of-solana-experience-so-far-1in3</guid>
+    <pubDate>Mon, 08 Jun 2026 12:30:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The AI Agent framework landscape has reached a state one could fairly describe as oversaturated. The Python ecosystem has LangChain, CrewAI, and AutoGen; TypeScript offers the Vercel AI SDK; Go...</description>
+    <description>My experience honestly has been fun .. learning about the Solana blockchain, how to build on it and everything in between. the concept which has stuck with me the most is this: For Traditional...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a privacy-first JSON viewer for Chrome after I got tired of waiting</title>
-    <link>https://dev.to/connorleebo/i-built-a-privacy-first-json-viewer-for-chrome-after-i-got-tired-of-waiting-34jf</link>
-    <guid>https://dev.to/connorleebo/i-built-a-privacy-first-json-viewer-for-chrome-after-i-got-tired-of-waiting-34jf</guid>
-    <pubDate>Mon, 08 Jun 2026 04:24:41 +0000</pubDate>
+    <title>Marketing agents need workflow boundaries, not better prompts</title>
+    <link>https://dev.to/gshevchenko/marketing-agents-need-workflow-boundaries-not-better-prompts-199k</link>
+    <guid>https://dev.to/gshevchenko/marketing-agents-need-workflow-boundaries-not-better-prompts-199k</guid>
+    <pubDate>Mon, 08 Jun 2026 12:30:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A few months ago, like many devs, I noticed something off about the JSON viewer extension I&apos;d been using for years. It had been quietly updated. The code went closed-source. Donation popups...</description>
+    <description>On June 6, 2026, I spent the day at Profound HQ in New York City as a selected participant and solo builder at the Marketing Engineering Hackathon. I wrote the canonical field note here: Profound...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why We&apos;re Changing Our Default Eval Model</title>
-    <link>https://dev.to/tessl-io/why-were-changing-our-default-eval-model-50i4</link>
-    <guid>https://dev.to/tessl-io/why-were-changing-our-default-eval-model-50i4</guid>
-    <pubDate>Mon, 08 Jun 2026 04:23:30 +0000</pubDate>
+    <title>Build A Basic AI Agent From Scratch: Long Task Planning</title>
+    <link>https://dev.to/rogiia/build-a-basic-ai-agent-from-scratch-long-task-planning-1o86</link>
+    <guid>https://dev.to/rogiia/build-a-basic-ai-agent-from-scratch-long-task-planning-1o86</guid>
+    <pubDate>Mon, 08 Jun 2026 12:30:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We&apos;re changing the default solver model in our eval harness from Claude Sonnet 4.6 to GLM 5.1. This is the default we provide to everyone running evals on the platform. For most of the work the...</description>
+    <description>In the previous part of the Build A Basic AI Agent From Scratch series, we added the essential tools to our agent to allow it to work autonomously for us. We gave it the ability to find files,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Tokenpocalypse: What AI Token Pricing Means for SL Builders</title>
-    <link>https://dev.to/induwara_ashinsana_9e4d5b/the-tokenpocalypse-what-ai-token-pricing-means-for-sl-builders-1kk8</link>
-    <guid>https://dev.to/induwara_ashinsana_9e4d5b/the-tokenpocalypse-what-ai-token-pricing-means-for-sl-builders-1kk8</guid>
-    <pubDate>Mon, 08 Jun 2026 04:23:24 +0000</pubDate>
+    <title>Gubernator E101 examples examples examplesss....</title>
+    <link>https://dev.to/marioezquerro/gubernator-e101-examples-examples-exampesss-5akn</link>
+    <guid>https://dev.to/marioezquerro/gubernator-e101-examples-examples-exampesss-5akn</guid>
+    <pubDate>Mon, 08 Jun 2026 12:30:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI token pricing is quietly rewriting the budget of every small team that touches a language model, and the cheap years are ending. TechCrunch published a piece on 7 June 2026 called Is this the...</description>
+    <description>Gubernator Examples: Hands-On Tutorials Gubernator features four progressive developer examples designed to walk you from basic container orchestration to advanced AI workloads: Example 101 —...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Rebuilt My Abandoned Dashboard by Starting With Docs — Kumachi Back Office</title>
-    <link>https://dev.to/serunkuma/i-rebuilt-my-abandoned-dashboard-by-starting-with-docs-kumachi-back-office-46pf</link>
-    <guid>https://dev.to/serunkuma/i-rebuilt-my-abandoned-dashboard-by-starting-with-docs-kumachi-back-office-46pf</guid>
-    <pubDate>Mon, 08 Jun 2026 04:20:02 +0000</pubDate>
+    <title>Building a Broadcast Clock: The Math Behind Radio Station Programming Schedules</title>
+    <link>https://dev.to/qua_lekuch_8b2a126c50c656/building-a-broadcast-clock-the-math-behind-radio-station-programming-schedules-jn0</link>
+    <guid>https://dev.to/qua_lekuch_8b2a126c50c656/building-a-broadcast-clock-the-math-behind-radio-station-programming-schedules-jn0</guid>
+    <pubDate>Mon, 08 Jun 2026 12:29:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the GitHub Finish-Up-A-Thon Challenge. What I Built Kumachi Back Office is the private operating system for my creative and professional world. It is a founder command...</description>
+    <description>Building a Broadcast Clock: The Math Behind Radio Station Programming Schedules By the KAVANA engineering team -- June 2026 The broadcast clock defines what happens in each minute of an hour: news...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Before You Write a Single Line: How to Plan Your API Like a Senior Engineer</title>
-    <link>https://dev.to/beeworkk/before-you-write-a-single-line-how-to-plan-your-api-like-a-senior-engineer-1j7a</link>
-    <guid>https://dev.to/beeworkk/before-you-write-a-single-line-how-to-plan-your-api-like-a-senior-engineer-1j7a</guid>
-    <pubDate>Mon, 08 Jun 2026 04:19:46 +0000</pubDate>
+    <title>Building an agentic Jira automation platform with MCP and Temporal</title>
+    <link>https://dev.to/ahmetozel/building-an-agentic-jira-automation-platform-with-mcp-and-temporal-1521</link>
+    <guid>https://dev.to/ahmetozel/building-an-agentic-jira-automation-platform-with-mcp-and-temporal-1521</guid>
+    <pubDate>Mon, 08 Jun 2026 12:28:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In my second week at work, I watched a senior engineer spend 3 days refactoring an API that took 1 day to build. The endpoint worked. The logic was correct. The code was clean. But halfway through...</description>
+    <description>Most &quot;AI automation&quot; demos fall apart the moment a workflow needs to run longer than a single request. An agent makes a few tool calls, the process crashes or times out, and you lose all state. I...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Download: how the World Cup ball will fly and OpenAI’s “super app”</title>
+    <link>https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/</link>
+    <guid>https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/</guid>
+    <pubDate>Mon, 08 Jun 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Building Pakistan Notice Helper: A Small AI Tool for a Very Local Safety Problem</title>
+    <link>https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper</link>
+    <guid>https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper</guid>
+    <pubDate>Mon, 08 Jun 2026 11:46:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Uber tells London to get ready for robotaxis</title>
+    <link>https://www.theverge.com/transportation/945614/uber-wayve-robotaxi-interest-list-launch-london</link>
+    <guid>https://www.theverge.com/transportation/945614/uber-wayve-robotaxi-interest-list-launch-london</guid>
+    <pubDate>Mon, 08 Jun 2026 11:26:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Uber is getting ready to put robotaxis on London&apos;s streets, opening an interest list for riders who want to be among the first to hail one of Wayve&apos;s autonomous vehicles when the service goes live...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic’s Project Glasswing Update</title>
+    <link>https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html</guid>
+    <pubDate>Mon, 08 Jun 2026 11:01:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>In April, Anthropic initated Project Glasswing. The idea was to let companies use their new model to find and fix vulnerabilities in their own software. It was a fantastic PR move, and so many...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>WWDC 2026: How to watch and what to expect</title>
+    <link>https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch</link>
+    <guid>https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch</guid>
+    <pubDate>Mon, 08 Jun 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple&apos;s biggest event of the year is nearly here. The company&apos;s Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple&apos;s other operating systems, and this year&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Momfluencers Are Pitching AI as a Better ‘Coparent’ Than Men</title>
+    <link>https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/</link>
+    <guid>https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/</guid>
+    <pubDate>Mon, 08 Jun 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Moms are outsourcing tedious household tasks to ChatGPT and selling courses teaching others to do the same. Where are all the dads?</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances</title>
+    <link>https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html</link>
+    <guid>https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html</guid>
+    <pubDate>Mon, 08 Jun 2026 10:27:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Why this year’s World Cup ball may not fly as far</title>
+    <link>https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/</link>
+    <guid>https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/</guid>
+    <pubDate>Mon, 08 Jun 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign</title>
+    <link>https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html</link>
+    <guid>https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html</guid>
+    <pubDate>Mon, 08 Jun 2026 07:39:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a financially motivated data theft extortion campaign that has targeted dozens of organizations across professional, legal, and financial...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks</title>
+    <link>https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html</link>
+    <guid>https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html</guid>
+    <pubDate>Mon, 08 Jun 2026 06:08:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft has announced that Visual Studio Code (VS Code) will apply a two-hour delay before extensions for the integrated development environment (IDE) are updated automatically to a newer...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>NASA will wear high-tech Prada long johns to the Moon</title>
@@ -113,14 +202,6 @@
     <pubDate>Sun, 07 Jun 2026 20:26:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>We&apos;re likely to see more price increases as the big AI companies plan to go public.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Amazing Digital Dentures (a failed project)</title>
-    <link>https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures</link>
-    <guid>https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures</guid>
-    <pubDate>Sun, 07 Jun 2026 19:44:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
   </item>
   <item>
@@ -194,87 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Apparently, the &quot;return of Xbox&quot; means a retreat from other platforms. At its Xbox Games Showcase today, Microsoft revealed that Gears of War: E-Day - which was previously rumored for a PS5 launch...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Verge Weekend Questionnaire</title>
-    <link>https://www.theverge.com/entertainment/943285/the-verge-weekend-questionnaire</link>
-    <guid>https://www.theverge.com/entertainment/943285/the-verge-weekend-questionnaire</guid>
-    <pubDate>Sun, 07 Jun 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Have you ever wondered what the most indispensable app is for your favorite musician or how the world’s tech CEOs stay focused? Well, that’s the sort of thing we aim to uncover in our Verge...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Xbox Games Showcase 2026: All the news and trailers</title>
-    <link>https://www.theverge.com/entertainment/944191/xbox-games-showcase-2026-news-trailers</link>
-    <guid>https://www.theverge.com/entertainment/944191/xbox-games-showcase-2026-news-trailers</guid>
-    <pubDate>Sun, 07 Jun 2026 16:40:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The console industry is in a weird place, and both Xbox and PlayStation have a chance to change the narrative a bit with their showcases at Summer Game Fest. Sony did that by focusing on the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI is still working on that ‘super app’</title>
-    <link>https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/</link>
-    <guid>https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/</guid>
-    <pubDate>Sun, 07 Jun 2026 16:23:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>&quot;Chat is dead&quot; — at least, according to a senior OpenAI employee.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks</title>
-    <link>https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/</link>
-    <guid>https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/</guid>
-    <pubDate>Sat, 06 Jun 2026 20:32:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates</title>
-    <link>https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/</link>
-    <guid>https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/</guid>
-    <pubDate>Sat, 06 Jun 2026 18:13:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Apple&apos;s WWDC nears: Here&apos;s what you can look forward to.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Sriram Krishnan is leaving his role as White House AI advisor</title>
-    <link>https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/</link>
-    <guid>https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/</guid>
-    <pubDate>Sat, 06 Jun 2026 17:42:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Krishnan is reportedly starting a new institution to continue shaping Trump&apos;s AI policy.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Trump administration might take an equity stake in OpenAI</title>
-    <link>https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/</link>
-    <guid>https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/</guid>
-    <pubDate>Sat, 06 Jun 2026 16:17:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>President Donald Trump said he&apos;s discussing deals &quot;where the American people can benefit from the success of AI.&quot;</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration</title>
-    <link>https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html</link>
-    <guid>https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html</guid>
-    <pubDate>Sat, 06 Jun 2026 13:36:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The feature is primarily...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Crypto-Funded Chinese Peptide Labs Are Booming</title>
-    <link>https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/</link>
-    <guid>https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/</guid>
-    <pubDate>Sat, 06 Jun 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Plus: Hackers use Meta’s AI bots to hack Instagram accounts, Anthropic helps NSA hackers, a decades-long GPS satellite mystery may have been solved, and more.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
