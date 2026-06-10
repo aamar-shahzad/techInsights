@@ -5,276 +5,276 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 10 Jun 2026 11:47:19 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 10 Jun 2026 16:07:53 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>[🗄️DataBase] N+1 Query Problem</title>
-    <link>https://dev.to/qq5yu/database-n1-query-problem-56kd</link>
-    <guid>https://dev.to/qq5yu/database-n1-query-problem-56kd</guid>
-    <pubDate>Wed, 10 Jun 2026 11:38:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>在做後端開發時，一定遇過這種情況： 👉 API 很單純 👉 查的資料也不多 👉 但效能就是「莫名其妙很慢」 認真查 log 才發現，SQL 被打了幾十次、幾百次，但你明明只寫了一個查詢 這種問題，通常不是你寫錯邏輯，而是踩到了N+1 Query Problem 所以什麼是 N+1 Query Problem 呢? 指的就是 為了取得一組資料，系統額外又發出了 N 次資料庫查詢...</description>
+    <title>Give GitHub Copilot CLI real code intelligence with language servers</title>
+    <link>https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/</link>
+    <guid>https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/</guid>
+    <pubDate>Wed, 10 Jun 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">GitHub Blog</source>
+    <description>Install and configure LSP servers for GitHub Copilot CLI, replacing brute-force grep/decompile with real code intelligence. The post Give GitHub Copilot CLI real code intelligence with language...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>RPGMapEditor.com: A Free Browser-Based Battle Map Maker for D&amp;D and VTTs</title>
-    <link>https://dev.to/thexper_f46a597a4e23988d2/rpgmapeditorcom-a-free-browser-based-battle-map-maker-for-dd-and-vtts-47ee</link>
-    <guid>https://dev.to/thexper_f46a597a4e23988d2/rpgmapeditorcom-a-free-browser-based-battle-map-maker-for-dd-and-vtts-47ee</guid>
-    <pubDate>Wed, 10 Jun 2026 11:37:37 +0000</pubDate>
+    <title>Architecting a Production-Ready Express + TypeScript Backend: Type Augmentation, Global Errors, and Middleware Factories</title>
+    <link>https://dev.to/singh_kashish/architecting-a-production-ready-express-typescript-backend-type-augmentation-global-errors-and-7n1</link>
+    <guid>https://dev.to/singh_kashish/architecting-a-production-ready-express-typescript-backend-type-augmentation-global-errors-and-7n1</guid>
+    <pubDate>Wed, 10 Jun 2026 15:52:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Making a good tabletop RPG map should not require installing a heavy desktop app, learning a complex tool, or spending an hour just to draw a simple dungeon room. That is the idea behind...</description>
+    <description>When building a personal finance tracker, data integrity and system reliability are non-negotiable. One missing try/catch block can crash your whole server, and weak types can let invalid...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>We&apos;ve Seen This Before: What SOA Teaches Us About APIs in the Age of Agents</title>
-    <link>https://dev.to/simongriffiths/weve-seen-this-before-what-soa-teaches-us-about-apis-in-the-age-of-agents-5lm</link>
-    <guid>https://dev.to/simongriffiths/weve-seen-this-before-what-soa-teaches-us-about-apis-in-the-age-of-agents-5lm</guid>
-    <pubDate>Wed, 10 Jun 2026 11:37:31 +0000</pubDate>
+    <title>You Don&apos;t Need Another Agent. You Need a Linter.</title>
+    <link>https://dev.to/utkarsh_bansal_01/you-dont-need-another-agent-you-need-a-linter-1b9i</link>
+    <guid>https://dev.to/utkarsh_bansal_01/you-dont-need-another-agent-you-need-a-linter-1b9i</guid>
+    <pubDate>Wed, 10 Jun 2026 15:49:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the first article in this series, I argued that agents do not replace APIs. They expose the quality of the APIs underneath them. That should feel familiar, because we have been here before. The...</description>
+    <description>In my last post I complained — a lot — about product managers and how they made my life hell with vibe code. PS: apologies, manager, if you&apos;re reading this — but it&apos;s true. Now, I&apos;m not here just...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>We Built NeuralDrive — an AI-Powered Emergency Routing System on AWS in One Day — Top 10 at One With AI Hackathon</title>
-    <link>https://dev.to/emmysmedia/we-built-neuraldrive-an-ai-powered-emergency-routing-system-on-aws-in-one-day-top-10-at-one-419c</link>
-    <guid>https://dev.to/emmysmedia/we-built-neuraldrive-an-ai-powered-emergency-routing-system-on-aws-in-one-day-top-10-at-one-419c</guid>
-    <pubDate>Wed, 10 Jun 2026 11:35:45 +0000</pubDate>
+    <title>Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable</title>
+    <link>https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/</link>
+    <guid>https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/</guid>
+    <pubDate>Wed, 10 Jun 2026 15:41:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Cybersecurity researchers are complaining that Anthropic&apos;s new model Fable has guardrails that are too strict for any cybersecurity work.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>G4 Fractional VMs are now available on Google Cloud!</title>
+    <link>https://dev.to/googleai/g4-fractional-vms-are-now-available-on-google-cloud-knp</link>
+    <guid>https://dev.to/googleai/g4-fractional-vms-are-now-available-on-google-cloud-knp</guid>
+    <pubDate>Wed, 10 Jun 2026 15:38:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey Dev community! 👋 Our 4-person team just made it to the Top 10 of the One With AI Hackathon by Arthurite Integrated x AWS. Here&apos;s our quick stack: Frontend: React + Google Maps Backend: AWS...</description>
+    <description>In 2025 Google Cloud added G4, powered by NVIDIA&apos;s RTX PRO 6000 Blackwell Server Edition GPUs to their offering, allowing them to offer hardware not only for AI applications, but also for other...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building safer AI-agent workflows for the MEXC API</title>
-    <link>https://dev.to/mrcnm/building-safer-ai-agent-workflows-for-the-mexc-api-2g1h</link>
-    <guid>https://dev.to/mrcnm/building-safer-ai-agent-workflows-for-the-mexc-api-2g1h</guid>
-    <pubDate>Wed, 10 Jun 2026 11:34:12 +0000</pubDate>
+    <title>I built an open-source CLI that tells you if ChatGPT cites your brand — and what to do about it</title>
+    <link>https://dev.to/alex-isa/i-built-an-open-source-cli-that-tells-you-if-chatgpt-cites-your-brand-and-what-to-do-about-it-31gg</link>
+    <guid>https://dev.to/alex-isa/i-built-an-open-source-cli-that-tells-you-if-chatgpt-cites-your-brand-and-what-to-do-about-it-31gg</guid>
+    <pubDate>Wed, 10 Jun 2026 15:37:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I’ve been working on a small open-source repo for AI-agent workflows around the MEXC API. The project is not meant to be a “trading bot.” The goal is more specific: to give coding agents like...</description>
+    <description>Your users have started asking ChatGPT and Perplexity instead of Google. So here is the uncomfortable question: when someone asks an AI engine &quot;what is the best tool for &lt;your category&gt;&quot;, does...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I created two ghosts during lunch. The AI gave one a job offer.</title>
-    <link>https://dev.to/xulingfeng/i-created-two-ghosts-during-lunch-the-ai-gave-one-a-job-offer-4icf</link>
-    <guid>https://dev.to/xulingfeng/i-created-two-ghosts-during-lunch-the-ai-gave-one-a-job-offer-4icf</guid>
-    <pubDate>Wed, 10 Jun 2026 11:28:16 +0000</pubDate>
+    <title>CLI over MCP: a small Chrome DevTools experiment in Copilot CLI</title>
+    <link>https://dev.to/maximsaplin/cli-over-mcp-a-small-chrome-devtools-experiment-in-copilot-cli-5gpi</link>
+    <guid>https://dev.to/maximsaplin/cli-over-mcp-a-small-chrome-devtools-experiment-in-copilot-cli-5gpi</guid>
+    <pubDate>Wed, 10 Jun 2026 15:25:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a story about a company that rolled out an AI interview system — and the lunch break I spent creating two ghosts to test it. One of them stuffed its answers with keywords and got a...</description>
+    <description>I ran the same browser smoke task through two paths: direct Chrome DevTools MCP and a custom CLI skill around mcp2cli. In GitHub Copilot CLI with gpt-5.3-codex-medium, direct Chrome DevTools MCP...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Dynamic OG Images in Rails</title>
-    <link>https://dev.to/accreditly/dynamic-og-images-in-rails-1p9m</link>
-    <guid>https://dev.to/accreditly/dynamic-og-images-in-rails-1p9m</guid>
-    <pubDate>Wed, 10 Jun 2026 11:26:35 +0000</pubDate>
+    <title>I Built My Own API Gateway in Rust — Here&apos;s What I Learned</title>
+    <link>https://dev.to/gudhalarya/i-built-my-own-api-gateway-in-rust-heres-what-i-learned-38ne</link>
+    <guid>https://dev.to/gudhalarya/i-built-my-own-api-gateway-in-rust-heres-what-i-learned-38ne</guid>
+    <pubDate>Wed, 10 Jun 2026 15:25:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every blog post, product page, and profile in a Rails app deserves its own Open Graph image, the picture that shows up when someone shares the link on Twitter, LinkedIn, or Slack. The catch is...</description>
+    <description>Every backend project I&apos;ve worked on eventually hits the same wall. You start clean — one service, simple routes, everything works. Then slowly the requirements creep in. &quot;We need rate limiting.&quot;...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I revived a 128MB RAM NAS by building my own control panel</title>
-    <link>https://dev.to/itprogresscorp/how-i-revived-a-128mb-ram-nas-by-building-my-own-control-panel-3keg</link>
-    <guid>https://dev.to/itprogresscorp/how-i-revived-a-128mb-ram-nas-by-building-my-own-control-panel-3keg</guid>
-    <pubDate>Wed, 10 Jun 2026 11:20:47 +0000</pubDate>
+    <title>Proxy OpenAI Through Kong AI Gateway on Kubernetes</title>
+    <link>https://dev.to/thegatewayguy/proxy-openai-through-kong-ai-gateway-on-kubernetes-1p83</link>
+    <guid>https://dev.to/thegatewayguy/proxy-openai-through-kong-ai-gateway-on-kubernetes-1p83</guid>
+    <pubDate>Wed, 10 Jun 2026 15:24:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How I revived a 128MB RAM NAS by building my own control panel It all started with boredom and old hardware I had an old Netgear Stora MS2000 sitting around — a box with just 128 MB of RAM. I had...</description>
+    <description>The Problem With Talking Directly to LLMs Most teams start by wiring their app straight to the OpenAI API. It works — until you need to add auth, rate limiting, observability, or swap out the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Flash Attention: what it does and why it matters</title>
-    <link>https://dev.to/tech_nuggets/flash-attention-what-it-does-and-why-it-matters-59b8</link>
-    <guid>https://dev.to/tech_nuggets/flash-attention-what-it-does-and-why-it-matters-59b8</guid>
-    <pubDate>Wed, 10 Jun 2026 11:20:09 +0000</pubDate>
+    <title>Inngest + Next.js: The Complete Guide (2026)</title>
+    <link>https://dev.to/stacknotice/inngest-nextjs-the-complete-guide-2026-2i33</link>
+    <guid>https://dev.to/stacknotice/inngest-nextjs-the-complete-guide-2026-2i33</guid>
+    <pubDate>Wed, 10 Jun 2026 15:21:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Flash Attention: what it does and why it matters Your training job is paying for an A100 at $3/hour. The loss is going down, gradients are flowing, and the model&apos;s loss curve looks...</description>
+    <description>Serverless functions have a time limit. Vercel gives you 60 seconds on Pro. None of that is enough to send a welcome email sequence, process an uploaded CSV, or run any workflow with multiple...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Technical SEO: A Simple Introduction</title>
-    <link>https://dev.to/gopuadks/technical-seo-a-simple-introduction-man</link>
-    <guid>https://dev.to/gopuadks/technical-seo-a-simple-introduction-man</guid>
-    <pubDate>Wed, 10 Jun 2026 11:19:46 +0000</pubDate>
+    <title>I am building a PDF API because every codebase I touch has a haunted PDF service</title>
+    <link>https://dev.to/johin/i-am-building-a-pdf-api-because-every-codebase-i-touch-has-a-haunted-pdf-service-2nj2</link>
+    <guid>https://dev.to/johin/i-am-building-a-pdf-api-because-every-codebase-i-touch-has-a-haunted-pdf-service-2nj2</guid>
+    <pubDate>Wed, 10 Jun 2026 15:21:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You may have heard that there are three types of SEO: On-page SEO, Off-page SEO, and Technical SEO. However, there are only two types: On-page SEO and Off-page SEO, with Technical SEO being a...</description>
+    <description>There is a file in almost every backend I have worked on. It generates PDFs. Invoices, mostly. Sometimes reports or certificates. It was written years ago by someone who left, it runs a headless...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>NSO Group Hacking WhatsApp Despite Court Order</title>
-    <link>https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html</guid>
-    <pubDate>Wed, 10 Jun 2026 11:08:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>WhatsApp has caught the NSO Group phishing its users, in violation of a court order.</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>BYD to install thousands of 5-minute EV chargers across Europe</title>
-    <link>https://www.theverge.com/transportation/947553/byd-flash-chargers-uk-europe-ev-blade-battery</link>
-    <guid>https://www.theverge.com/transportation/947553/byd-flash-chargers-uk-europe-ev-blade-battery</guid>
-    <pubDate>Wed, 10 Jun 2026 11:04:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Chinese EV colossus BYD has announced plans to speed up its conquest of the European auto market with the rollout of superfast Flash Chargers across the continent. BYD has already installed the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Xbox exploring ‘radically different’ console business models</title>
-    <link>https://www.theverge.com/news/947537/microsoft-xbox-console-hardware-price-changes-ramageddon</link>
-    <guid>https://www.theverge.com/news/947537/microsoft-xbox-console-hardware-price-changes-ramageddon</guid>
-    <pubDate>Wed, 10 Jun 2026 11:04:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The RAMageddon crisis has got Microsoft rethinking its Xbox console hardware business. Xbox CEO Asha Sharma and Xbox strategy chief Matthew Ball have both revealed this week that Microsoft is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar</title>
-    <link>https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html</link>
-    <guid>https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html</guid>
-    <pubDate>Wed, 10 Jun 2026 10:27:49 +0000</pubDate>
+    <title>Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities</title>
+    <link>https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html</link>
+    <guid>https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html</guid>
+    <pubDate>Wed, 10 Jun 2026 15:10:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report...</description>
+    <description>Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure. The...</description>
     <category>Security</category>
   </item>
   <item>
-    <title>Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini</title>
-    <link>https://www.wired.com/story/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/</link>
-    <guid>https://www.wired.com/story/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/</guid>
-    <pubDate>Wed, 10 Jun 2026 10:00:00 +0000</pubDate>
+    <title>Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE</title>
+    <link>https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html</link>
+    <guid>https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html</guid>
+    <pubDate>Wed, 10 Jun 2026 15:00:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Datadog veterans launch AI coding startup Niteshift on a bet against Big AI lock-in</title>
+    <link>https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/</link>
+    <guid>https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/</guid>
+    <pubDate>Wed, 10 Jun 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI coding agent startup Niteshift has raised a $7 million seed round from a who&apos;s who of angels. It&apos;s betting companies will want power over, not lock-in with model makers.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Boox’s quirky page-turning remote won me over</title>
+    <link>https://www.theverge.com/tech/943699/slug-boox-tappy-wireless-bluetooth-remote-page-turn-android-ios-hands-on</link>
+    <guid>https://www.theverge.com/tech/943699/slug-boox-tappy-wireless-bluetooth-remote-page-turn-android-ios-hands-on</guid>
+    <pubDate>Wed, 10 Jun 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Following the launch of the surprisingly popular Kobo Remote, Boox has released its own device to ease the burden of reaching for an e-reader’s touchscreen that’s an arm’s length away. The Tappy...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Apple Watch Series 11 is back to its best price</title>
+    <link>https://www.theverge.com/gadgets/947773/apple-watch-series-11-beats-studio-buds-plus-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/947773/apple-watch-series-11-beats-studio-buds-plus-deal-sale</guid>
+    <pubDate>Wed, 10 Jun 2026 14:57:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple’s upcoming watchOS 27 update will bring Siri AI and other exciting features to the Apple Watch Series 9 and newer Apple Watch models. If you’re contemplating an upgrade, all colorways of the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The three hard-tech moonshots fueling SpaceX’s unbelievable IPO</title>
+    <link>https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/</link>
+    <guid>https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/</guid>
+    <pubDate>Wed, 10 Jun 2026 14:48:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Most of the value in SpaceX&apos;s IPO is effectively a call option on the company&apos;s ambitious space data center plans.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation</title>
+    <link>https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html</link>
+    <guid>https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html</guid>
+    <pubDate>Wed, 10 Jun 2026 14:44:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Warner Music acquires AI attribution startup Sureel AI</title>
+    <link>https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/</link>
+    <guid>https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/</guid>
+    <pubDate>Wed, 10 Jun 2026 14:31:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Through the acquisition, WMG aims to better track when its artists&apos; work is used in AI-generated content or for training AI models.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Valve is phasing out physical Steam gift cards due to scammers</title>
+    <link>https://www.theverge.com/games/947741/valve-steam-physical-gift-cards-scammers</link>
+    <guid>https://www.theverge.com/games/947741/valve-steam-physical-gift-cards-scammers</guid>
+    <pubDate>Wed, 10 Jun 2026 14:10:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After over a decade, Steam will no longer sell physical gift cards in stores. In a support page spotted earlier by Windows Central, Valve says it will no longer restock its gift cards once they...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Five questions for the duo behind The Pelley Minutes</title>
+    <link>https://www.theverge.com/report/947472/five-questions-for-the-duo-behind-the-pelley-minutes</link>
+    <guid>https://www.theverge.com/report/947472/five-questions-for-the-duo-behind-the-pelley-minutes</guid>
+    <pubDate>Wed, 10 Jun 2026 14:06:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Websites are so back! Today&apos;s website worth visiting is The Pelley Minutes, a clever project that puts the career of longtime 60 Minutes correspondent Scott Pelley into perspective. The show may...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Who Runs the Ransomware Group ‘The Gentlemen?’</title>
+    <link>https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/</link>
+    <guid>https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/</guid>
+    <pubDate>Wed, 10 Jun 2026 14:03:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
+    <description>A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Social Reckoning trailer gives us our first look at Jeremy Strong as Zuck</title>
+    <link>https://www.theverge.com/entertainment/947682/social-reckoning-trailer-aaron-sorkin-jeremy-strong-allen-white-facebook</link>
+    <guid>https://www.theverge.com/entertainment/947682/social-reckoning-trailer-aaron-sorkin-jeremy-strong-allen-white-facebook</guid>
+    <pubDate>Wed, 10 Jun 2026 14:02:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Over 15 years after David Fincher and Aaron Sorkin&apos;s The Social Network premiered in theaters, Sony has released the first trailer for The Social Reckoning ahead of its theatrical release on...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The AirPods Pro 3 are $179 at Walmart, their best-ever price</title>
+    <link>https://www.theverge.com/gadgets/947719/airpods-pro-3-walmart-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/947719/airpods-pro-3-walmart-deal-sale</guid>
+    <pubDate>Wed, 10 Jun 2026 14:00:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Ahead of Prime Day, Walmart is offering the best price we’ve seen yet on the Apple AirPods 3 wireless earbuds. Originally $249 (though commonly selling somewhere between $200 and $220), they’re...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Wrongful Arrest Exposes Failures in One of the Oldest Police Face-Recognition Tools in the US</title>
+    <link>https://www.wired.com/story/wrongful-arrest-tests-one-of-the-oldest-police-face-recognition-tools-in-the-us/</link>
+    <guid>https://www.wired.com/story/wrongful-arrest-tests-one-of-the-oldest-police-face-recognition-tools-in-the-us/</guid>
+    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The Argentine national team will be Google’s test bench and technological showcase during the World Cup.</description>
+    <description>The ACLU is suing two Florida police departments over the arrest of a Fort Myers man in a child-abduction case, saying officers treated a flawed face-recognition match as a near-certain ID.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs</title>
-    <link>https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html</link>
-    <guid>https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html</guid>
-    <pubDate>Wed, 10 Jun 2026 09:38:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Microsoft is disabling Office 2019 for Mac next month</title>
-    <link>https://www.theverge.com/news/947518/microsoft-office-2019-for-mac-end-of-support-no-edit</link>
-    <guid>https://www.theverge.com/news/947518/microsoft-office-2019-for-mac-end-of-support-no-edit</guid>
-    <pubDate>Wed, 10 Jun 2026 09:14:35 +0000</pubDate>
+    <title>I’m relieved Siri AI isn’t trying to be a health coach</title>
+    <link>https://www.theverge.com/column/947005/optimizer-siri-ai-wwdc-2026-health-coaches</link>
+    <guid>https://www.theverge.com/column/947005/optimizer-siri-ai-wwdc-2026-health-coaches</guid>
+    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft&apos;s Office 2019 apps for Mac will stop working next month, because the company isn&apos;t renewing a certificate that validates Office licenses. Owners of Office 2019 for Mac are being warned...</description>
+    <description>This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&apos;re going to change your life. This...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>The “steroid olympics” were a circus—and a window into our culture</title>
-    <link>https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/</link>
-    <guid>https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/</guid>
-    <pubDate>Wed, 10 Jun 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and...</description>
+    <title>Google’s Nest Cam with Floodlight is selling at its lowest price yet</title>
+    <link>https://www.theverge.com/gadgets/947264/google-nest-cam-floodlight-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/947264/google-nest-cam-floodlight-deal-sale</guid>
+    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Google Nest Cam with Floodlight is marked down to $179.99 ($100 off) at multiple retailers, including Amazon, Best Buy, Home Depot, and directly from Google. This weather-resistant outdoor...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AT&amp;#038;T is launching $3 ‘unlimited’ day passes for iPads</title>
+    <link>https://www.theverge.com/tech/947574/att-unlimited-day-pass-ipad-data-plan</link>
+    <guid>https://www.theverge.com/tech/947574/att-unlimited-day-pass-ipad-data-plan</guid>
+    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>AT&amp;T has introduced a new &quot;Unlimited Day Pass&quot; cellular data offer for iPad users who need brief connectivity instead of signing up for a long-term plan. The day pass is available for $3 in the US...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>China Opens World’s First Wind-Powered Underwater Data Center</title>
+    <link>https://www.wired.com/story/china-opens-worlds-first-wind-powered-underwater-data-center/</link>
+    <guid>https://www.wired.com/story/china-opens-worlds-first-wind-powered-underwater-data-center/</guid>
+    <pubDate>Wed, 10 Jun 2026 13:39:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>With an initial capacity of 24 megawatts, the innovative data center uses seawater as a natural cooling system.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Waymo built a virtual driver to study how humans react to surprises on the road</title>
-    <link>https://www.theverge.com/transportation/947178/waymo-reference-driver-model-surprise-avoid-collision</link>
-    <guid>https://www.theverge.com/transportation/947178/waymo-reference-driver-model-surprise-avoid-collision</guid>
-    <pubDate>Wed, 10 Jun 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Waymo has a lot of experience building virtual systems to help its autonomous vehicles better understand the real world. It built realistic 3D worlds to better anticipate natural disasters and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>WhatsApp ordered to host rival AI assistants for free</title>
-    <link>https://www.theverge.com/tech/947516/meta-whatsapp-eu-third-party-ai-chatbot-ban-order</link>
-    <guid>https://www.theverge.com/tech/947516/meta-whatsapp-eu-third-party-ai-chatbot-ban-order</guid>
-    <pubDate>Wed, 10 Jun 2026 08:40:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta has been ordered by the European Commission to restore free WhatsApp access for chatbots made by rival AI providers while the regulator finishes its antitrust investigation. The rare interim...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards</title>
-    <link>https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html</link>
-    <guid>https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html</guid>
-    <pubDate>Wed, 10 Jun 2026 07:37:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Meta signs first AI data center deal in India with Reliance</title>
-    <link>https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/</link>
-    <guid>https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/</guid>
-    <pubDate>Wed, 10 Jun 2026 07:05:26 +0000</pubDate>
+    <title>Jedify raises $24M to help companies arm AI agents with context on their business</title>
+    <link>https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/</link>
+    <guid>https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/</guid>
+    <pubDate>Wed, 10 Jun 2026 13:33:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The 168-megawatt facility will support Meta&apos;s global AI computing needs and can be expanded over time.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances</title>
-    <link>https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html</link>
-    <guid>https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html</guid>
-    <pubDate>Wed, 10 Jun 2026 07:02:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances. &quot;On June 5, 2026, ServiceNow applied...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Logitech’s new Mobi Fold squeezes a lot of functionality into a tiny folding mouse</title>
-    <link>https://www.theverge.com/tech/945549/logitech-mobi-fold-wireless-bluetooth-travel-mouse-hands-on</link>
-    <guid>https://www.theverge.com/tech/945549/logitech-mobi-fold-wireless-bluetooth-travel-mouse-hands-on</guid>
-    <pubDate>Wed, 10 Jun 2026 07:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Logitech finally announced its new ultraportable travel mouse following leaked marketing images that spoiled the surprise last month. As the name implies, the Mobi Fold is a compact mouse that can...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows</title>
-    <link>https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html</link>
-    <guid>https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html</guid>
-    <pubDate>Wed, 10 Jun 2026 05:22:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS</title>
-    <link>https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html</link>
-    <guid>https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html</guid>
-    <pubDate>Wed, 10 Jun 2026 05:08:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have flagged half a dozen vulnerabilities in protobuf.js, a JavaScript and TypeScript implementation of Protocol Buffers (Protobuf), that, if successfully exploited,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Google just fired a warning shot in the AI subscription price wars</title>
-    <link>https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/</link>
-    <guid>https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/</guid>
-    <pubDate>Wed, 10 Jun 2026 00:26:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google just made it significantly cheaper to enjoy its budget AI subscription tier.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>From data to decisions: how LSEG is scaling trusted AI</title>
-    <link>https://openai.com/index/lseg</link>
-    <guid>https://openai.com/index/lseg</guid>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>I tried Siri AI, and so far it actually works</title>
-    <link>https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc</link>
-    <guid>https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc</guid>
-    <pubDate>Tue, 09 Jun 2026 23:43:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Parents want one thing, and one thing only, out of AI: to add a list of soccer games or &quot;spirit week&quot; theme days from an email or a poorly formatted flyer onto their calendar in one shot. And I...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How Justin Ernest invested nearly $500M into hot startups without a traditional VC fund</title>
-    <link>https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/</link>
-    <guid>https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/</guid>
-    <pubDate>Tue, 09 Jun 2026 23:17:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Instead of spending a year raising a formal venture fund, the Sabertooth VC founder used a captive network of LPs to invest in startups like Anthropic, Anduril, and SpaceX.</description>
+    <description>The funding round was led by Norwest, with participation S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor.</description>
     <category>AI</category>
   </item>
 </channel>
