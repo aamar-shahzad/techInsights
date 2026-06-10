@@ -5,34 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 10 Jun 2026 16:07:53 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 10 Jun 2026 18:42:08 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Give GitHub Copilot CLI real code intelligence with language servers</title>
-    <link>https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/</link>
-    <guid>https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/</guid>
-    <pubDate>Wed, 10 Jun 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">GitHub Blog</source>
-    <description>Install and configure LSP servers for GitHub Copilot CLI, replacing brute-force grep/decompile with real code intelligence. The post Give GitHub Copilot CLI real code intelligence with language...</description>
+    <title>Debugging the Google Maps Duplicate Loading Bug in React</title>
+    <link>https://dev.to/atayeroclinton/debugging-the-google-maps-duplicate-loading-bug-in-react-1i69</link>
+    <guid>https://dev.to/atayeroclinton/debugging-the-google-maps-duplicate-loading-bug-in-react-1i69</guid>
+    <pubDate>Wed, 10 Jun 2026 18:38:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published on clintech.me If you&apos;ve integrated Google Maps into a React app and seen Autocomplete randomly stop working, Directions silently fail, or the API throw google is not defined...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Architecting a Production-Ready Express + TypeScript Backend: Type Augmentation, Global Errors, and Middleware Factories</title>
-    <link>https://dev.to/singh_kashish/architecting-a-production-ready-express-typescript-backend-type-augmentation-global-errors-and-7n1</link>
-    <guid>https://dev.to/singh_kashish/architecting-a-production-ready-express-typescript-backend-type-augmentation-global-errors-and-7n1</guid>
-    <pubDate>Wed, 10 Jun 2026 15:52:08 +0000</pubDate>
+    <title>How to Format SQL Queries in Python: Best Practices, Gotchas, and Real-World Examples</title>
+    <link>https://dev.to/soverflowed/how-to-format-sql-queries-in-python-best-practices-gotchas-and-real-world-examples-l9g</link>
+    <guid>https://dev.to/soverflowed/how-to-format-sql-queries-in-python-best-practices-gotchas-and-real-world-examples-l9g</guid>
+    <pubDate>Wed, 10 Jun 2026 18:30:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When building a personal finance tracker, data integrity and system reliability are non-negotiable. One missing try/catch block can crash your whole server, and weak types can let invalid...</description>
+    <description>Stop writing SQL strings that look like a ransom note. Here&apos;s how to write queries that are readable, safe, and maintainable. The Problem With &quot;Good Enough&quot; SQL Formatting Most Python developers...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>You Don&apos;t Need Another Agent. You Need a Linter.</title>
-    <link>https://dev.to/utkarsh_bansal_01/you-dont-need-another-agent-you-need-a-linter-1b9i</link>
-    <guid>https://dev.to/utkarsh_bansal_01/you-dont-need-another-agent-you-need-a-linter-1b9i</guid>
-    <pubDate>Wed, 10 Jun 2026 15:49:20 +0000</pubDate>
+    <title>Developer Tools That Actually Save You Time in 2026</title>
+    <link>https://dev.to/moksh/developer-tools-that-actually-save-you-time-in-2026-5apg</link>
+    <guid>https://dev.to/moksh/developer-tools-that-actually-save-you-time-in-2026-5apg</guid>
+    <pubDate>Wed, 10 Jun 2026 18:27:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In my last post I complained — a lot — about product managers and how they made my life hell with vibe code. PS: apologies, manager, if you&apos;re reading this — but it&apos;s true. Now, I&apos;m not here just...</description>
+    <description>As developers, we often lose hours to repetitive tasks - formatting data, debugging auth tokens, or wrestling with encoding issues. The right set of utility tools can cut that overhead...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Built a Freelance Job Hunting Automation on n8n — Here&apos;s Everything I Learned</title>
+    <link>https://dev.to/ihorbbt/i-built-a-freelance-job-hunting-automation-on-n8n-heres-everything-i-learned-4mi</link>
+    <guid>https://dev.to/ihorbbt/i-built-a-freelance-job-hunting-automation-on-n8n-heres-everything-i-learned-4mi</guid>
+    <pubDate>Wed, 10 Jun 2026 18:21:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m a 17-year-old IT student from Luxembourg. A few months ago I got tired of spending 2-3 hours a day manually browsing Upwork, Malt, and Freelancer looking for projects. So I built an automation...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to add a contact form to your static site — no backend, no monthly fee</title>
+    <link>https://dev.to/yehuda_4012c3f0/how-to-add-a-contact-form-to-your-static-site-no-backend-no-monthly-fee-8i9</link>
+    <guid>https://dev.to/yehuda_4012c3f0/how-to-add-a-contact-form-to-your-static-site-no-backend-no-monthly-fee-8i9</guid>
+    <pubDate>Wed, 10 Jun 2026 18:14:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I got tired of paying for form services or spinning up a backend just to handle contact form submissions. So I built RG Forms — a contact form endpoint backed entirely by a Google Sheet you own....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>SAFEDEPLOY AI: DevOps Pipeline Intelligence System</title>
+    <link>https://dev.to/ankit_kumar810/safedeploy-building-a-memory-driven-devops-intelligence-platform-for-secure-and-scalable-software-b80</link>
+    <guid>https://dev.to/ankit_kumar810/safedeploy-building-a-memory-driven-devops-intelligence-platform-for-secure-and-scalable-software-b80</guid>
+    <pubDate>Wed, 10 Jun 2026 18:12:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Problem Statement: DevOps Pipeline Agent: Modern software delivery pipelines generate large amounts of operational data. Understanding the relationship between deployments, infrastructure changes,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Multi-Agent AI Movie Production Team with Google ADK</title>
+    <link>https://dev.to/varun_patil_4c071ec562014/building-a-multi-agent-ai-movie-production-team-with-google-adk-3309</link>
+    <guid>https://dev.to/varun_patil_4c071ec562014/building-a-multi-agent-ai-movie-production-team-with-google-adk-3309</guid>
+    <pubDate>Wed, 10 Jun 2026 18:11:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>🚀 What I Built I created a collaborative AI Multi-Agent system using Google&apos;s new Agent Development Kit (ADK). The system functions as an automated Hollywood Production Team designed to streamline...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Copilot Chat Goes GA in PRs — But Multi-Repo Visibility Is Still Missing</title>
+    <link>https://dev.to/code-board/copilot-chat-goes-ga-in-prs-but-multi-repo-visibility-is-still-missing-p4i</link>
+    <guid>https://dev.to/code-board/copilot-chat-goes-ga-in-prs-but-multi-repo-visibility-is-still-missing-p4i</guid>
+    <pubDate>Wed, 10 Jun 2026 18:05:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>GitHub moved Copilot Chat&apos;s richer pull request experience to general availability this week — side-by-side chat with diffs, inline editing, and context-aware answers without leaving the review...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your Agent Returns 200 and Lies. Verify Before You Trust</title>
+    <link>https://dev.to/alex_spinov/your-agent-returns-200-and-lies-verify-before-you-trust-2cm3</link>
+    <guid>https://dev.to/alex_spinov/your-agent-returns-200-and-lies-verify-before-you-trust-2cm3</guid>
+    <pubDate>Wed, 10 Jun 2026 18:05:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A success gate verifies an AI agent&apos;s claimed success before your system accepts it. SuccessGate runs three read-only checks — schema/contract, claim-vs-evidence against the actual tool-call...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Stop sharing .env files in Discord. I built a zero-setup, E2E encrypted CLI instead.</title>
+    <link>https://dev.to/arjunn881/stop-sharing-env-files-in-discord-i-built-a-zero-setup-e2e-encrypted-cli-instead-hoo</link>
+    <guid>https://dev.to/arjunn881/stop-sharing-env-files-in-discord-i-built-a-zero-setup-e2e-encrypted-cli-instead-hoo</guid>
+    <pubDate>Wed, 10 Jun 2026 18:04:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Sharing environment variables during a quick project hand-off shouldn&apos;t require setting up a heavy enterprise vault like Doppler or Infisical. But it also shouldn&apos;t mean copy-pasting plaintext API...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Microsoft, like, totally gets why students are booing AI-pilled graduation speakers</title>
+    <link>https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft</link>
+    <guid>https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft</guid>
+    <pubDate>Wed, 10 Jun 2026 17:45:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>New college graduates around the country have been booing and heckling commencement speakers who hype up AI. Microsoft would like everyone to talk it out. In a blog post running more than 3,100...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The future of AI regulation is courting the strangest, most anxious bedfellows</title>
+    <link>https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms</link>
+    <guid>https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms</guid>
+    <pubDate>Wed, 10 Jun 2026 17:38:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hello and welcome to Regulator, a newsletter for Verge subscribers about tech politics, tech influence, and tech shenanigans in Washington, DC. (If you&apos;re not a subscriber, you can get on board...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google won’t just admit it’s feeding YouTube creators to its music AI</title>
+    <link>https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube</link>
+    <guid>https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube</guid>
+    <pubDate>Wed, 10 Jun 2026 17:20:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you&apos;ve uploaded a song to YouTube, Google almost certainly considers your video fair game for training its Lyria music AI, it just won&apos;t admit it right now. A group of independent musicians is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>‘AI-pilled’ firms spend $7,500 per employee each month on AI</title>
+    <link>https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/</link>
+    <guid>https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/</guid>
+    <pubDate>Wed, 10 Jun 2026 17:07:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That&apos;s not more than an engineer&apos;s salary — yet.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>You can just tell the Instagram algorithm what you want now</title>
+    <link>https://www.theverge.com/tech/947898/meta-instagram-your-algorithm-main-feed-tell</link>
+    <guid>https://www.theverge.com/tech/947898/meta-instagram-your-algorithm-main-feed-tell</guid>
+    <pubDate>Wed, 10 Jun 2026 17:06:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Instagram is going to let you tweak what its algorithm shows you on your main feed. With the Your Algorithm feature, &quot;you can now see the topics we think you&apos;re interested in, and change them,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon’s Echo speakers can now help kids wind down and fall asleep</title>
+    <link>https://www.theverge.com/tech/947871/amazon-sleep-studio-echo-kids-smart-speakers-calm-moshi-headspace</link>
+    <guid>https://www.theverge.com/tech/947871/amazon-sleep-studio-echo-kids-smart-speakers-calm-moshi-headspace</guid>
+    <pubDate>Wed, 10 Jun 2026 16:54:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon has launched a new feature for its Echo and Echo Kids smart speakers called Sleep Studio that&apos;s designed to make the daily transition to bedtime more enticing for kids and less stressful...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft restricts Claude Fable for employees over data retention concerns</title>
+    <link>https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally</link>
+    <guid>https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally</guid>
+    <pubDate>Wed, 10 Jun 2026 16:50:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it&apos;s already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google will save your Lens photos, Search Live recordings, and Translate audio for AI training</title>
+    <link>https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio</link>
+    <guid>https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio</guid>
+    <pubDate>Wed, 10 Jun 2026 16:18:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google is making some changes to how it saves your interactions with Search. In an email sent to users, Google says it will save the images, files, audio, and video you use to search under a new...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How memory tools can make AI models worse</title>
+    <link>https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/</link>
+    <guid>https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/</guid>
+    <pubDate>Wed, 10 Jun 2026 16:11:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>New research suggests that AI memory systems can degrade model performance and encourage sycophantic tendencies.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance</title>
+    <link>https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html</link>
+    <guid>https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html</guid>
+    <pubDate>Wed, 10 Jun 2026 16:08:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have warned of a &quot;resurgence and expansion&quot; of JDY, a covert network associated with China-nexus state-sponsored threat actors. &quot;The JDY botnet comprises over 1,500 SOHO...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable</title>
@@ -42,69 +195,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Cybersecurity researchers are complaining that Anthropic&apos;s new model Fable has guardrails that are too strict for any cybersecurity work.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>G4 Fractional VMs are now available on Google Cloud!</title>
-    <link>https://dev.to/googleai/g4-fractional-vms-are-now-available-on-google-cloud-knp</link>
-    <guid>https://dev.to/googleai/g4-fractional-vms-are-now-available-on-google-cloud-knp</guid>
-    <pubDate>Wed, 10 Jun 2026 15:38:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In 2025 Google Cloud added G4, powered by NVIDIA&apos;s RTX PRO 6000 Blackwell Server Edition GPUs to their offering, allowing them to offer hardware not only for AI applications, but also for other...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built an open-source CLI that tells you if ChatGPT cites your brand — and what to do about it</title>
-    <link>https://dev.to/alex-isa/i-built-an-open-source-cli-that-tells-you-if-chatgpt-cites-your-brand-and-what-to-do-about-it-31gg</link>
-    <guid>https://dev.to/alex-isa/i-built-an-open-source-cli-that-tells-you-if-chatgpt-cites-your-brand-and-what-to-do-about-it-31gg</guid>
-    <pubDate>Wed, 10 Jun 2026 15:37:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your users have started asking ChatGPT and Perplexity instead of Google. So here is the uncomfortable question: when someone asks an AI engine &quot;what is the best tool for &lt;your category&gt;&quot;, does...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>CLI over MCP: a small Chrome DevTools experiment in Copilot CLI</title>
-    <link>https://dev.to/maximsaplin/cli-over-mcp-a-small-chrome-devtools-experiment-in-copilot-cli-5gpi</link>
-    <guid>https://dev.to/maximsaplin/cli-over-mcp-a-small-chrome-devtools-experiment-in-copilot-cli-5gpi</guid>
-    <pubDate>Wed, 10 Jun 2026 15:25:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I ran the same browser smoke task through two paths: direct Chrome DevTools MCP and a custom CLI skill around mcp2cli. In GitHub Copilot CLI with gpt-5.3-codex-medium, direct Chrome DevTools MCP...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built My Own API Gateway in Rust — Here&apos;s What I Learned</title>
-    <link>https://dev.to/gudhalarya/i-built-my-own-api-gateway-in-rust-heres-what-i-learned-38ne</link>
-    <guid>https://dev.to/gudhalarya/i-built-my-own-api-gateway-in-rust-heres-what-i-learned-38ne</guid>
-    <pubDate>Wed, 10 Jun 2026 15:25:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every backend project I&apos;ve worked on eventually hits the same wall. You start clean — one service, simple routes, everything works. Then slowly the requirements creep in. &quot;We need rate limiting.&quot;...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Proxy OpenAI Through Kong AI Gateway on Kubernetes</title>
-    <link>https://dev.to/thegatewayguy/proxy-openai-through-kong-ai-gateway-on-kubernetes-1p83</link>
-    <guid>https://dev.to/thegatewayguy/proxy-openai-through-kong-ai-gateway-on-kubernetes-1p83</guid>
-    <pubDate>Wed, 10 Jun 2026 15:24:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem With Talking Directly to LLMs Most teams start by wiring their app straight to the OpenAI API. It works — until you need to add auth, rate limiting, observability, or swap out the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Inngest + Next.js: The Complete Guide (2026)</title>
-    <link>https://dev.to/stacknotice/inngest-nextjs-the-complete-guide-2026-2i33</link>
-    <guid>https://dev.to/stacknotice/inngest-nextjs-the-complete-guide-2026-2i33</guid>
-    <pubDate>Wed, 10 Jun 2026 15:21:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Serverless functions have a time limit. Vercel gives you 60 seconds on Pro. None of that is enough to send a welcome email sequence, process an uploaded CSV, or run any workflow with multiple...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I am building a PDF API because every codebase I touch has a haunted PDF service</title>
-    <link>https://dev.to/johin/i-am-building-a-pdf-api-because-every-codebase-i-touch-has-a-haunted-pdf-service-2nj2</link>
-    <guid>https://dev.to/johin/i-am-building-a-pdf-api-because-every-codebase-i-touch-has-a-haunted-pdf-service-2nj2</guid>
-    <pubDate>Wed, 10 Jun 2026 15:21:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There is a file in almost every backend I have worked on. It generates PDFs. Invoices, mostly. Sometimes reports or certificates. It was written years ago by someone who left, it runs a headless...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities</title>
@@ -186,96 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>After over a decade, Steam will no longer sell physical gift cards in stores. In a support page spotted earlier by Windows Central, Valve says it will no longer restock its gift cards once they...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Five questions for the duo behind The Pelley Minutes</title>
-    <link>https://www.theverge.com/report/947472/five-questions-for-the-duo-behind-the-pelley-minutes</link>
-    <guid>https://www.theverge.com/report/947472/five-questions-for-the-duo-behind-the-pelley-minutes</guid>
-    <pubDate>Wed, 10 Jun 2026 14:06:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Websites are so back! Today&apos;s website worth visiting is The Pelley Minutes, a clever project that puts the career of longtime 60 Minutes correspondent Scott Pelley into perspective. The show may...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Who Runs the Ransomware Group ‘The Gentlemen?’</title>
-    <link>https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/</link>
-    <guid>https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/</guid>
-    <pubDate>Wed, 10 Jun 2026 14:03:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
-    <description>A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Social Reckoning trailer gives us our first look at Jeremy Strong as Zuck</title>
-    <link>https://www.theverge.com/entertainment/947682/social-reckoning-trailer-aaron-sorkin-jeremy-strong-allen-white-facebook</link>
-    <guid>https://www.theverge.com/entertainment/947682/social-reckoning-trailer-aaron-sorkin-jeremy-strong-allen-white-facebook</guid>
-    <pubDate>Wed, 10 Jun 2026 14:02:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Over 15 years after David Fincher and Aaron Sorkin&apos;s The Social Network premiered in theaters, Sony has released the first trailer for The Social Reckoning ahead of its theatrical release on...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The AirPods Pro 3 are $179 at Walmart, their best-ever price</title>
-    <link>https://www.theverge.com/gadgets/947719/airpods-pro-3-walmart-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/947719/airpods-pro-3-walmart-deal-sale</guid>
-    <pubDate>Wed, 10 Jun 2026 14:00:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Ahead of Prime Day, Walmart is offering the best price we’ve seen yet on the Apple AirPods 3 wireless earbuds. Originally $249 (though commonly selling somewhere between $200 and $220), they’re...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Wrongful Arrest Exposes Failures in One of the Oldest Police Face-Recognition Tools in the US</title>
-    <link>https://www.wired.com/story/wrongful-arrest-tests-one-of-the-oldest-police-face-recognition-tools-in-the-us/</link>
-    <guid>https://www.wired.com/story/wrongful-arrest-tests-one-of-the-oldest-police-face-recognition-tools-in-the-us/</guid>
-    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The ACLU is suing two Florida police departments over the arrest of a Fort Myers man in a child-abduction case, saying officers treated a flawed face-recognition match as a near-certain ID.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>I’m relieved Siri AI isn’t trying to be a health coach</title>
-    <link>https://www.theverge.com/column/947005/optimizer-siri-ai-wwdc-2026-health-coaches</link>
-    <guid>https://www.theverge.com/column/947005/optimizer-siri-ai-wwdc-2026-health-coaches</guid>
-    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&apos;re going to change your life. This...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google’s Nest Cam with Floodlight is selling at its lowest price yet</title>
-    <link>https://www.theverge.com/gadgets/947264/google-nest-cam-floodlight-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/947264/google-nest-cam-floodlight-deal-sale</guid>
-    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Google Nest Cam with Floodlight is marked down to $179.99 ($100 off) at multiple retailers, including Amazon, Best Buy, Home Depot, and directly from Google. This weather-resistant outdoor...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AT&amp;#038;T is launching $3 ‘unlimited’ day passes for iPads</title>
-    <link>https://www.theverge.com/tech/947574/att-unlimited-day-pass-ipad-data-plan</link>
-    <guid>https://www.theverge.com/tech/947574/att-unlimited-day-pass-ipad-data-plan</guid>
-    <pubDate>Wed, 10 Jun 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>AT&amp;T has introduced a new &quot;Unlimited Day Pass&quot; cellular data offer for iPad users who need brief connectivity instead of signing up for a long-term plan. The day pass is available for $3 in the US...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>China Opens World’s First Wind-Powered Underwater Data Center</title>
-    <link>https://www.wired.com/story/china-opens-worlds-first-wind-powered-underwater-data-center/</link>
-    <guid>https://www.wired.com/story/china-opens-worlds-first-wind-powered-underwater-data-center/</guid>
-    <pubDate>Wed, 10 Jun 2026 13:39:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>With an initial capacity of 24 megawatts, the innovative data center uses seawater as a natural cooling system.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Jedify raises $24M to help companies arm AI agents with context on their business</title>
-    <link>https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/</link>
-    <guid>https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/</guid>
-    <pubDate>Wed, 10 Jun 2026 13:33:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The funding round was led by Norwest, with participation S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
