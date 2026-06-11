@@ -5,97 +5,232 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 11 Jun 2026 04:58:35 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 11 Jun 2026 12:17:33 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How to Use Google Stitch with ChatGPT + Claude to Build a Design System in Minutes</title>
-    <link>https://dev.to/dhaval_2_5_/how-to-use-google-stitch-with-chatgpt-claude-to-build-a-design-system-in-minutes-2c13</link>
-    <guid>https://dev.to/dhaval_2_5_/how-to-use-google-stitch-with-chatgpt-claude-to-build-a-design-system-in-minutes-2c13</guid>
-    <pubDate>Thu, 11 Jun 2026 04:51:31 +0000</pubDate>
+    <title>DNS TTL Best Practices: How to Choose the Right Values</title>
+    <link>https://dev.to/dnsassistant/dns-ttl-best-practices-how-to-choose-the-right-values-4jni</link>
+    <guid>https://dev.to/dnsassistant/dns-ttl-best-practices-how-to-choose-the-right-values-4jni</guid>
+    <pubDate>Thu, 11 Jun 2026 12:15:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most people open Google Stitch and type &quot;a modern website for my startup.&quot; The output is fine. It&apos;s also completely generic. The fix? A 3-AI pipeline — and it takes under 5 minutes. The Workflow...</description>
+    <description>Every DNS record has a TTL (Time to Live) value that controls how long resolvers cache the response before requesting a fresh copy. It&apos;s a single number, measured in seconds, and it&apos;s one of the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>NFS Server Ubuntu 24.04</title>
-    <link>https://dev.to/seno21/nfs-server-ubuntu-2404-44n8</link>
-    <guid>https://dev.to/seno21/nfs-server-ubuntu-2404-44n8</guid>
-    <pubDate>Thu, 11 Jun 2026 04:51:27 +0000</pubDate>
+    <title>Practice Backend Engineering Like You Practice DSA</title>
+    <link>https://dev.to/ari_27701/practice-backend-engineering-like-you-practice-dsa-60k</link>
+    <guid>https://dev.to/ari_27701/practice-backend-engineering-like-you-practice-dsa-60k</guid>
+    <pubDate>Thu, 11 Jun 2026 12:14:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Pada tutorial kali ini saya akan membahas NFS server pada server linux Ubuntu 24.04 LTS. Di postingan sebelumnya saya pernah membahas juga versi synologynya lebih mudah tinggal klak klik saja....</description>
+    <description>Practice Backend Engineering Like You Practice DSA Most platforms teach you how to write algorithms. Very few teach you how to make engineering decisions. That&apos;s the difference between solving...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building Your Own Functional Utility Library</title>
-    <link>https://dev.to/amrishkhan05/building-your-own-functional-utility-library-47ne</link>
-    <guid>https://dev.to/amrishkhan05/building-your-own-functional-utility-library-47ne</guid>
-    <pubDate>Thu, 11 Jun 2026 04:51:00 +0000</pubDate>
+    <title>How Paywalls Actually Work: The Engineering Behind Them</title>
+    <link>https://dev.to/tonywangca/how-paywalls-actually-work-the-engineering-behind-them-38h5</link>
+    <guid>https://dev.to/tonywangca/how-paywalls-actually-work-the-engineering-behind-them-38h5</guid>
+    <pubDate>Thu, 11 Jun 2026 12:12:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One of the best ways to understand a programming concept is to build it yourself. Over the last several articles we&apos;ve discussed: Reduce Transducers Functors FlatMap Monads RxJS Composition And...</description>
+    <description>A paywall is one of the more interesting engineering problems on the web, because the publisher has to satisfy two goals that pull in opposite directions. It needs Google to index the article so...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How My Week-1 Solo Project Showed Up in Google AI Mode (Without Me Asking)</title>
-    <link>https://dev.to/bilal_official/how-my-week-1-solo-project-showed-up-in-google-ai-mode-without-me-asking-27hg</link>
-    <guid>https://dev.to/bilal_official/how-my-week-1-solo-project-showed-up-in-google-ai-mode-without-me-asking-27hg</guid>
-    <pubDate>Thu, 11 Jun 2026 04:50:11 +0000</pubDate>
+    <title>Beyond Dictation: How to Extract True Conversation Intelligence from Audio in Seconds</title>
+    <link>https://dev.to/nfc/beyond-dictation-how-to-extract-true-conversation-intelligence-from-audio-in-seconds-21ep</link>
+    <guid>https://dev.to/nfc/beyond-dictation-how-to-extract-true-conversation-intelligence-from-audio-in-seconds-21ep</guid>
+    <pubDate>Thu, 11 Jun 2026 12:12:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I launched OrganizeShots 7 days ago. No team. No laptop. No funding. Just me, my phone, and Replit. Today I searched my own product on Google. And Google AI described it — with images, features,...</description>
+    <description>In the modern data ecosystem, audio is everywhere. We record customer support calls, sales syncs, product brainstorming sessions, voice memos, and podcasts. Yet, for many companies, these...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Built and Launched a 100% Offline AI Productivity Tracker (Tauri 2, Rust, and Llama 3.2)</title>
-    <link>https://dev.to/devrayat000/how-i-built-and-launched-a-100-offline-ai-productivity-tracker-tauri-2-rust-and-llama-32-pij</link>
-    <guid>https://dev.to/devrayat000/how-i-built-and-launched-a-100-offline-ai-productivity-tracker-tauri-2-rust-and-llama-32-pij</guid>
-    <pubDate>Thu, 11 Jun 2026 04:49:41 +0000</pubDate>
+    <title>I Reduced My System Prompt Tokens by 70% Using a Custom Prompt DSL</title>
+    <link>https://dev.to/kiran_reddyduvvuru_5d884/stop-writing-prompt-essays-building-a-prompt-dsl-and-reducing-system-prompt-tokens-by-70-30la</link>
+    <guid>https://dev.to/kiran_reddyduvvuru_5d884/stop-writing-prompt-essays-building-a-prompt-dsl-and-reducing-system-prompt-tokens-by-70-30la</guid>
+    <pubDate>Thu, 11 Jun 2026 12:10:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>After months of late-night coding, debugging, and wrestling with compiler errors, I finally reached a major milestone: I published my first-ever desktop application to the Microsoft Store. 🎉 The...</description>
+    <description>What if we&apos;ve been writing prompts the wrong way? For the last two years, the AI community has focused on writing better prompts. We&apos;ve all written prompts that look something like this: You are...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Tired of Installing PHP, Composer &amp; MySQL for Every Project? I Built PHPBox</title>
-    <link>https://dev.to/manish_prajapati/tired-of-installing-php-composer-mysql-for-every-project-i-built-phpbox-460e</link>
-    <guid>https://dev.to/manish_prajapati/tired-of-installing-php-composer-mysql-for-every-project-i-built-phpbox-460e</guid>
-    <pubDate>Thu, 11 Jun 2026 04:40:09 +0000</pubDate>
+    <title>Rails Health Check</title>
+    <link>https://dev.to/eclecticcoding/rails-health-check-3cgf</link>
+    <guid>https://dev.to/eclecticcoding/rails-health-check-3cgf</guid>
+    <pubDate>Thu, 11 Jun 2026 12:06:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🚀 After weeks of planning, architecture design, and development, I&apos;m excited to introduce PHPBox! A universal PHP development environment manager that lets you create and run PHP applications...</description>
+    <description>Beyond /up: Production-Grade Health Checks for Rails and Rack Applications Most applications start with a simple question: Is the process alive? Rails answers that with the built-in /up endpoint....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Access Modifiers in Java Explained for Beginners</title>
-    <link>https://dev.to/vinayagam_6a170db9281d526/access-modifiers-in-java-explained-for-beginners-121h</link>
-    <guid>https://dev.to/vinayagam_6a170db9281d526/access-modifiers-in-java-explained-for-beginners-121h</guid>
-    <pubDate>Thu, 11 Jun 2026 04:39:08 +0000</pubDate>
+    <title>The AI Code Trust Debate Is Really a Multi-Repo Visibility Problem</title>
+    <link>https://dev.to/code-board/the-ai-code-trust-debate-is-really-a-multi-repo-visibility-problem-4638</link>
+    <guid>https://dev.to/code-board/the-ai-code-trust-debate-is-really-a-multi-repo-visibility-problem-4638</guid>
+    <pubDate>Thu, 11 Jun 2026 12:05:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction In Java, access modifiers are used to control how variables and methods can be accessed from different places. They are very important for writing safe and organized programs. There...</description>
+    <description>A Hacker News thread posted this week — &apos;Ask HN: What is your (AI) dev tech stack / workflow?&apos; — surfaced something the industry has been slow to name directly: skepticism around AI-generated code...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Move Your WordPress.com Domain to Cloudflare and Halve the Renewal</title>
-    <link>https://dev.to/malcolmlow/move-your-wordpresscom-domain-to-cloudflare-and-halve-the-renewal-4a9n</link>
-    <guid>https://dev.to/malcolmlow/move-your-wordpresscom-domain-to-cloudflare-and-halve-the-renewal-4a9n</guid>
-    <pubDate>Thu, 11 Jun 2026 04:33:59 +0000</pubDate>
+    <title>Most Cloud Exit Strategies Start Too Late — Here&apos;s the Architecture Reason Why</title>
+    <link>https://dev.to/ntctech/most-cloud-exit-strategies-start-too-late-heres-the-architecture-reason-why-4f5f</link>
+    <guid>https://dev.to/ntctech/most-cloud-exit-strategies-start-too-late-heres-the-architecture-reason-why-4f5f</guid>
+    <pubDate>Thu, 11 Jun 2026 12:02:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This post was originally published on Techucation, my blog at malcolmlow.com. Cross-posted here for the dev.to community. My WordPress.com domain renewal notice came in at £16/year, with...</description>
+    <description>Every cloud exit strategy has the same structural problem: by the time the exit decision gets made, the architecture already made it impossible. Not expensive. Not risky. Non-computable. You can&apos;t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Private logic, public rails: Pairing Midnight&apos;s ZK privacy with XRPL settlement</title>
-    <link>https://dev.to/chaps_grid/private-logic-public-rails-pairing-midnights-zk-privacy-with-xrpl-settlement-54p4</link>
-    <guid>https://dev.to/chaps_grid/private-logic-public-rails-pairing-midnights-zk-privacy-with-xrpl-settlement-54p4</guid>
-    <pubDate>Thu, 11 Jun 2026 04:32:46 +0000</pubDate>
+    <title>Boox’s new e-reader could replace your Kindle, Kobo, and digital notepad</title>
+    <link>https://www.theverge.com/tech/947769/boox-onyx-go-6-gen-ii-android-11-e-reader-google-play</link>
+    <guid>https://www.theverge.com/tech/947769/boox-onyx-go-6-gen-ii-android-11-e-reader-google-play</guid>
+    <pubDate>Thu, 11 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Boox has announced a new version of its smallest e-reader that expands the Go 6&apos;s functionality to now include note-taking. The new Go 6 (Gen II) sticks with a 6-inch, 300PPI E Ink screen like its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>ServiceLoader is great — until you want a constructor argument</title>
+    <link>https://dev.to/deniss_larka/serviceloader-is-great-until-you-want-a-constructor-argument-2767</link>
+    <guid>https://dev.to/deniss_larka/serviceloader-is-great-until-you-want-a-constructor-argument-2767</guid>
+    <pubDate>Thu, 11 Jun 2026 11:59:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building on XRPL has taught me one thing fast: public rails are powerful, but not every part of the app should be public. I can put settlement, payments, tokens, escrows, and wallet flows on-chain...</description>
+    <description>I was building a small library that reads accounting files — GnuCash first, other formats maybe later. It&apos;s the textbook case for pluggable implementations: an AccBook interface in the API module,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>PII masking in Polars: MaskOps 2.0, and two metrics that lied to me</title>
-    <link>https://dev.to/fcarvajalbrown/pii-masking-in-polars-maskops-20-and-two-metrics-that-lied-to-me-2bh3</link>
-    <guid>https://dev.to/fcarvajalbrown/pii-masking-in-polars-maskops-20-and-two-metrics-that-lied-to-me-2bh3</guid>
-    <pubDate>Thu, 11 Jun 2026 04:27:39 +0000</pubDate>
+    <title>AgentGuard: The Foundation Missing from Agentic AI Systems</title>
+    <link>https://dev.to/mypatric69/agentguard-the-foundation-missing-from-agentic-ai-systems-1lpk</link>
+    <guid>https://dev.to/mypatric69/agentguard-the-foundation-missing-from-agentic-ai-systems-1lpk</guid>
+    <pubDate>Thu, 11 Jun 2026 11:58:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>MaskOps 2.0 shipped this week. Before I told anyone, I looked at my own numbers. Two of them were lying to me, in opposite directions. MaskOps is a Rust plugin for Polars that does PII masking...</description>
+    <description>This article is a follow-up to &quot;The Blind Spot of Agentic AI Systems&quot;. If you haven&apos;t read it yet, it explains why this tool exists in the first place. A foundation doesn&apos;t define what is built....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Anthropic apologizes for invisible Claude Fable guardrails</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail</guid>
+    <pubDate>Thu, 11 Jun 2026 11:40:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Anthropic has apologized for stealthily throttling its new AI model, Claude Fable 5, with hidden guardrails that undermine both researchers and rivals using it to develop competing systems. The...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The library rules (and so do library streaming services)</title>
+    <link>https://www.theverge.com/tech/942657/library-ebook-borrowing-stream-tv-movies-hoopla-kanopy-overdrive</link>
+    <guid>https://www.theverge.com/tech/942657/library-ebook-borrowing-stream-tv-movies-hoopla-kanopy-overdrive</guid>
+    <pubDate>Thu, 11 Jun 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Summer is almost here, and that means getting outside, having fun in the sun, and touching grass. But if you need to cool down for a bit, allow me to sing the praises of the library. If your local...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI Broke Vulnerability Management. That&apos;s Why CISOs Are Moving Budget to BAS.</title>
+    <link>https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html</link>
+    <guid>https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html</guid>
+    <pubDate>Thu, 11 Jun 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Enhanced License Plate Tracking</title>
+    <link>https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html</guid>
+    <pubDate>Thu, 11 Jun 2026 11:01:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>The surveillance company Leonardo wants more data: A surveillance company plans to add sensors to automatic license plate readers (ALPRs) that would mean the devices, as well as capture the...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Google DeepMind is worried about what happens when millions of agents start to interact</title>
+    <link>https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/</link>
+    <guid>https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/</guid>
+    <pubDate>Thu, 11 Jun 2026 11:00:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>iFixit Trump phone teardown confirms it’s an HTC dupe</title>
+    <link>https://www.theverge.com/gadgets/948262/trump-phone-t1-ifixit-teardown-htc-u24-pro</link>
+    <guid>https://www.theverge.com/gadgets/948262/trump-phone-t1-ifixit-teardown-htc-u24-pro</guid>
+    <pubDate>Thu, 11 Jun 2026 10:40:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After getting its hands on a Trump phone and tearing it apart, iFixit has confirmed what I first reported back in February: the T1 Phone is an almost exact duplicate of the HTC U24 Pro. iFixit...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>YouTube is introducing DMs (again)</title>
+    <link>https://www.theverge.com/streaming/948256/youtube-brings-back-private-messaging-feature-availability</link>
+    <guid>https://www.theverge.com/streaming/948256/youtube-brings-back-private-messaging-feature-availability</guid>
+    <pubDate>Thu, 11 Jun 2026 10:08:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>YouTube is reintroducing private messaging after testing new ways for users to share videos and &quot;have conversations about them&quot; last year. In an announcement on its official blog, YouTube says...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Job titles of the future: Nature’s drug designer</title>
+    <link>https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/</link>
+    <guid>https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/</guid>
+    <pubDate>Thu, 11 Jun 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use. For Merck, he’d developed precision therapies for cancer, HIV, and diabetes...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Inside soccer’s data renaissance</title>
+    <link>https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/</link>
+    <guid>https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/</guid>
+    <pubDate>Thu, 11 Jun 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally send the ball all the way down the pitch and right out of bounds on the opponent’s end. Casual fans...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Why China is betting on big nuclear reactors</title>
+    <link>https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/</link>
+    <guid>https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/</guid>
+    <pubDate>Thu, 11 Jun 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>It’s a tale of two nuclear industries. In China, large reactors are coming together at a stunning pace. The country has nearly doubled its nuclear fleet since 2016, reaching nearly 60 gigawatts of...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack</title>
+    <link>https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html</link>
+    <guid>https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html</guid>
+    <pubDate>Thu, 11 Jun 2026 09:45:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPECTRALVIPER. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Ryanair is under investigation over charging parents to sit with their kids</title>
+    <link>https://www.theverge.com/transportation/948244/ryanair-cma-probe-parents-child-seating-fee</link>
+    <guid>https://www.theverge.com/transportation/948244/ryanair-cma-probe-parents-child-seating-fee</guid>
+    <pubDate>Thu, 11 Jun 2026 08:59:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>European economy airline Ryanair is under investigation in the UK for charging parents mandatory fees to sit with their children. The Competition and Markets Authority (CMA) said it was looking...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Deezer launches an AI music detector for other streaming services</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple</guid>
+    <pubDate>Thu, 11 Jun 2026 08:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Deezer will now scan your playlists on other streaming platforms to detect AI-generated music. Deezer was the first of the big streaming services to start labeling AI-generated music. It even...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks</title>
+    <link>https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html</link>
+    <guid>https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html</guid>
+    <pubDate>Thu, 11 Jun 2026 06:23:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>GitHub has announced what it said are &quot;breaking changes&quot; coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats. The changes aim to...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Opendoor’s India exit is fueling a bigger conversation about AI and outsourcing</title>
@@ -141,141 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
     <description>Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Framework delays its first Laptop 13 Pro shipments by a month</title>
-    <link>https://www.theverge.com/gadgets/948044/framework-laptop-13-pro-delay-shipment-july-august</link>
-    <guid>https://www.theverge.com/gadgets/948044/framework-laptop-13-pro-delay-shipment-july-august</guid>
-    <pubDate>Wed, 10 Jun 2026 23:12:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Framework Laptop 13 Pro is delayed. The new 13-inch Framework flagship was set to launch in June, but shipments from the first batch are now expected in July - and there&apos;s still a chance some...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple’s new Siri AI knows when to shut up</title>
-    <link>https://www.theverge.com/tech/948155/apple-siri-ai-chatbot-personality</link>
-    <guid>https://www.theverge.com/tech/948155/apple-siri-ai-chatbot-personality</guid>
-    <pubDate>Wed, 10 Jun 2026 22:52:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple&apos;s new Siri AI is finally here, and so far, it seems like it works. I have access and have been messing around with it, and my biggest impression so far is that Siri AI is quite curt - which...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims</title>
-    <link>https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/</link>
-    <guid>https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/</guid>
-    <pubDate>Wed, 10 Jun 2026 22:31:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX&apos;s historic IPO.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nearly a million passports and photo IDs were left unprotected on the public internet</title>
-    <link>https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal</link>
-    <guid>https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal</guid>
-    <pubDate>Wed, 10 Jun 2026 21:55:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Typing a few letters and numbers into my web browser, I find myself gaping at the identity documents of complete strangers. The passport of a young woman from Germany. The passport of a man from...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Xbox warns of a &amp;#8216;reset&amp;#8217; as it prepares for layoffs</title>
-    <link>https://www.theverge.com/games/948142/microsoft-xbox-layoffs-reset-asha-sharma</link>
-    <guid>https://www.theverge.com/games/948142/microsoft-xbox-layoffs-reset-asha-sharma</guid>
-    <pubDate>Wed, 10 Jun 2026 21:28:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft&apos;s Xbox division will be hit with significant layoffs next month, according to people familiar with Microsoft&apos;s plans. The company has been preparing for the layoffs internally for weeks,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple, Google add support for Thread 1.4</title>
-    <link>https://www.theverge.com/tech/947888/apple-google-add-support-for-thread-1-4</link>
-    <guid>https://www.theverge.com/tech/947888/apple-google-add-support-for-thread-1-4</guid>
-    <pubDate>Wed, 10 Jun 2026 20:25:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple and Google are updating their smart home streaming devices to Thread 1.4. As first spotted by Matter Alpha and 9to5 Google, the latest spec has arrived on compatible Apple TVs in the tvOS 27...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues</title>
-    <link>https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/</link>
-    <guid>https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/</guid>
-    <pubDate>Wed, 10 Jun 2026 20:19:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Kalshi adds required employment verification for some prediction market bets</title>
-    <link>https://www.theverge.com/business/948083/kalshi-prediction-markets-insider-trading</link>
-    <guid>https://www.theverge.com/business/948083/kalshi-prediction-markets-insider-trading</guid>
-    <pubDate>Wed, 10 Jun 2026 20:18:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The CFTC is considering its first regulation for prediction markets, as arrests over &quot;insider trading&quot; on everything from military operations to Google Search data continue to stack up. As...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Access OpenAI models and Codex through your Oracle cloud commitment</title>
-    <link>https://openai.com/index/openai-on-oracle-cloud</link>
-    <guid>https://openai.com/index/openai-on-oracle-cloud</guid>
-    <pubDate>Wed, 10 Jun 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Claude Fable won’t answer basic biology questions</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions</guid>
-    <pubDate>Wed, 10 Jun 2026 18:43:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anthropic just released Claude Fable 5, calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won&apos;t answer basic...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft, like, totally gets why students are booing AI-pilled graduation speakers</title>
-    <link>https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft</link>
-    <guid>https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft</guid>
-    <pubDate>Wed, 10 Jun 2026 17:45:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>New college graduates around the country have been booing and heckling commencement speakers who hype up AI. Microsoft would like everyone to talk it out. In a blog post running more than 3,100...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The future of AI regulation is courting the strangest, most anxious bedfellows</title>
-    <link>https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms</link>
-    <guid>https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms</guid>
-    <pubDate>Wed, 10 Jun 2026 17:38:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Hello and welcome to Regulator, a newsletter for Verge subscribers about tech politics, tech influence, and tech shenanigans in Washington, DC. (If you&apos;re not a subscriber, you can get on board...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>‘AI-pilled’ firms spend $7,500 per employee each month on AI</title>
-    <link>https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/</link>
-    <guid>https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/</guid>
-    <pubDate>Wed, 10 Jun 2026 17:07:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That&apos;s not more than an engineer&apos;s salary — yet.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How memory tools can make AI models worse</title>
-    <link>https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/</link>
-    <guid>https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/</guid>
-    <pubDate>Wed, 10 Jun 2026 16:11:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>New research suggests that AI memory systems can degrade model performance and encourage sycophantic tendencies.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance</title>
-    <link>https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html</link>
-    <guid>https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html</guid>
-    <pubDate>Wed, 10 Jun 2026 16:08:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have warned of a &quot;resurgence and expansion&quot; of JDY, a covert network associated with China-nexus state-sponsored threat actors. &quot;The JDY botnet comprises over 1,500 SOHO...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
