@@ -5,79 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 12 Jun 2026 11:52:45 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 12 Jun 2026 15:39:17 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How I Ditched Vendor Lock-In — A Practical Guide for 2026</title>
-    <link>https://dev.to/loyaldash/how-i-ditched-vendor-lock-in-a-practical-guide-for-2026-1ko1</link>
-    <guid>https://dev.to/loyaldash/how-i-ditched-vendor-lock-in-a-practical-guide-for-2026-1ko1</guid>
-    <pubDate>Fri, 12 Jun 2026 11:48:41 +0000</pubDate>
+    <title>Why modal.open() should return Promise&lt;TResult&gt;, not Promise&lt;any&gt;</title>
+    <link>https://dev.to/alexey79/why-modalopen-should-return-promise-not-promise-12g</link>
+    <guid>https://dev.to/alexey79/why-modalopen-should-return-promise-not-promise-12g</guid>
+    <pubDate>Fri, 12 Jun 2026 15:36:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Look, how I Ditched Vendor Lock-In — A Practical Guide for 2026 I still remember the day I opened my monthly cloud bill and nearly dropped my coffee. Twelve hundred dollars. For what? Running...</description>
+    <description>How treating modals as typed async operations eliminates boolean state, callback chains, and runtime surprises in React apps. React applications often treat modals as UI details. A boolean flag. A...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Claude API Function Calling: Complete Guide to Tool Use (2026)</title>
-    <link>https://dev.to/kalyna_pro/claude-api-function-calling-complete-guide-to-tool-use-2026-1kh3</link>
-    <guid>https://dev.to/kalyna_pro/claude-api-function-calling-complete-guide-to-tool-use-2026-1kh3</guid>
-    <pubDate>Fri, 12 Jun 2026 11:41:13 +0000</pubDate>
+    <title>How I Cut SQL Query Time from 45 Seconds to 8 Seconds on 2.3 Million Rows</title>
+    <link>https://dev.to/danielnnadi/how-i-cut-sql-query-time-from-45-seconds-to-8-seconds-on-23-million-rows-o3e</link>
+    <guid>https://dev.to/danielnnadi/how-i-cut-sql-query-time-from-45-seconds-to-8-seconds-on-23-million-rows-o3e</guid>
+    <pubDate>Fri, 12 Jun 2026 15:35:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at kalyna.pro Function calling — what Anthropic calls tool use — lets Claude call code you write: query a database, hit an internal API, run a calculation, or check today&apos;s...</description>
+    <description>I inherited a SQL Server database with 2.3 million rows. Queries took 45 seconds. Users were frustrated. Dashboards timed out. Here is exactly what I did. Step 1: Find the slowest queries I used...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Built a Python Script to Export and Analyze Your DEV.to Followers</title>
-    <link>https://dev.to/thetylern/how-i-built-a-python-script-to-export-and-analyze-your-devto-followers-59p6</link>
-    <guid>https://dev.to/thetylern/how-i-built-a-python-script-to-export-and-analyze-your-devto-followers-59p6</guid>
-    <pubDate>Fri, 12 Jun 2026 11:39:38 +0000</pubDate>
+    <title>How I Cut SQL Query Time from 45 Seconds to 8 Seconds on 2.3 Million Rows</title>
+    <link>https://dev.to/danielnnadi/how-i-cut-sql-query-time-from-45-seconds-to-8-seconds-on-23-million-rows-45o4</link>
+    <guid>https://dev.to/danielnnadi/how-i-cut-sql-query-time-from-45-seconds-to-8-seconds-on-23-million-rows-45o4</guid>
+    <pubDate>Fri, 12 Jun 2026 15:35:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It was a Friday, and school was out for the weekend. I made a bit of a Spelling Bee page for my website while I was at school, but that wasn&apos;t enough. I was bored and had no clue what to make...</description>
+    <description>I inherited a SQL Server database with 2.3 million rows. Queries took 45 seconds. Users were frustrated. Dashboards timed out. Here is exactly what I did. Step 1: Find the slowest queries I used...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Linked List Cycle II</title>
-    <link>https://dev.to/jaspreet_singh_86ae1740ac/linked-list-cycle-ii-20g5</link>
-    <guid>https://dev.to/jaspreet_singh_86ae1740ac/linked-list-cycle-ii-20g5</guid>
-    <pubDate>Fri, 12 Jun 2026 11:36:06 +0000</pubDate>
+    <title>Indexes: Quickstart Using PostgreSQL (15 sec read)</title>
+    <link>https://dev.to/effessdev/indexes-quickstart-using-postgresql-min-read-55ee</link>
+    <guid>https://dev.to/effessdev/indexes-quickstart-using-postgresql-min-read-55ee</guid>
+    <pubDate>Fri, 12 Jun 2026 15:35:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>leetcode.com Problem Statement Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null. You are not allowed to modify the linked list. Example...</description>
+    <description>Let&apos;s consider a table user. When we execute a query to find Emily, we are actually going through each record, looking whether the name column equals Emily. Indexes comes in when you want to speed...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Palindrome Linked List</title>
-    <link>https://dev.to/jaspreet_singh_86ae1740ac/palindrome-linked-list-4i4d</link>
-    <guid>https://dev.to/jaspreet_singh_86ae1740ac/palindrome-linked-list-4i4d</guid>
-    <pubDate>Fri, 12 Jun 2026 11:34:07 +0000</pubDate>
+    <title>Testing Neovim in a Container with Finch (like Docker)</title>
+    <link>https://dev.to/aws/testing-neovim-in-a-container-with-finch-like-docker-31dj</link>
+    <guid>https://dev.to/aws/testing-neovim-in-a-container-with-finch-like-docker-31dj</guid>
+    <pubDate>Fri, 12 Jun 2026 15:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>leetcode.com Problem Statement Given the head of a singly linked list, return true if the linked list is a palindrome and false otherwise. Example 1 Input: 1 -&gt; 2 -&gt; 2 -&gt; 1 Output: true Example 2...</description>
+    <description>So developers like CI... for everything! We do this because we like things to be automated. Building software is tedious and risky. If we can push a commit and let things happen in the cloud to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Actuando sobre la Seguridad Perimetral: Cómo Implementar un Cortafuegos Dinámico basado en el Comportamiento DNS</title>
-    <link>https://dev.to/arcadio_ortega/actuando-sobre-la-seguridad-perimetral-como-implementar-un-cortafuegos-dinamico-basado-en-el-4844</link>
-    <guid>https://dev.to/arcadio_ortega/actuando-sobre-la-seguridad-perimetral-como-implementar-un-cortafuegos-dinamico-basado-en-el-4844</guid>
-    <pubDate>Fri, 12 Jun 2026 11:33:22 +0000</pubDate>
+    <title>MongoDB DR Drill Automation with Terraform, Python &amp; Jenkins — How We Made Restores Boring</title>
+    <link>https://dev.to/mrinal_narang_13a3d00eb37/mongodb-dr-drill-automation-with-terraform-python-jenkins-how-we-made-restores-boring-loj</link>
+    <guid>https://dev.to/mrinal_narang_13a3d00eb37/mongodb-dr-drill-automation-with-terraform-python-jenkins-how-we-made-restores-boring-loj</guid>
+    <pubDate>Fri, 12 Jun 2026 15:21:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>En el panorama actual de la ciberseguridad, los métodos tradicionales de filtrado a menudo se quedan cortos ante usuarios que utilizan VPNs, túneles o servidores DNS externos para evadir políticas...</description>
+    <description>Backups Don&apos;t Save You. Restores Do. We ran a MongoDB restore drill last quarter. It failed — not the restore itself, but the confidence. Nobody in the room was sure the data was actually intact....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why I don’t feel the excitement when coding now, unlike before because of AI?</title>
-    <link>https://dev.to/emmanuel-pangan/why-i-dont-feel-the-excitement-when-coding-now-unlike-before-because-of-ai-21d0</link>
-    <guid>https://dev.to/emmanuel-pangan/why-i-dont-feel-the-excitement-when-coding-now-unlike-before-because-of-ai-21d0</guid>
-    <pubDate>Fri, 12 Jun 2026 11:32:03 +0000</pubDate>
+    <title>Giving Your Local LLM Safe Filesystem Access With Ollama Tool Use</title>
+    <link>https://dev.to/pavelespitia/giving-your-local-llm-safe-filesystem-access-with-ollama-tool-use-4o79</link>
+    <guid>https://dev.to/pavelespitia/giving-your-local-llm-safe-filesystem-access-with-ollama-tool-use-4o79</guid>
+    <pubDate>Fri, 12 Jun 2026 15:14:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A little ironic that the header image was generated using AI, but oh well... Before, when I create a game, I would go to countless YouTube tutorials. Then getting yelled on countless forums...</description>
+    <description>A local LLM that can read your files is genuinely useful. A local LLM that can read your files without guardrails is a path-traversal bug with a chat interface. I covered tool calling basics in an...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Image Reconstruction Using Deep Learning: A Complete Guide</title>
-    <link>https://dev.to/for_itthe_9cb5ee8d4b91f2/image-reconstruction-using-deep-learning-a-complete-guide-1fp2</link>
-    <guid>https://dev.to/for_itthe_9cb5ee8d4b91f2/image-reconstruction-using-deep-learning-a-complete-guide-1fp2</guid>
-    <pubDate>Fri, 12 Jun 2026 11:31:09 +0000</pubDate>
+    <title>How Kong&apos;s Control Plane / Data Plane Split Cut Our Gateway Costs by 34% (And Made It a Security Layer)</title>
+    <link>https://dev.to/mrinal_narang_13a3d00eb37/how-kongs-control-plane-data-plane-split-cut-our-gateway-costs-by-34-and-made-it-a-security-1754</link>
+    <guid>https://dev.to/mrinal_narang_13a3d00eb37/how-kongs-control-plane-data-plane-split-cut-our-gateway-costs-by-34-and-made-it-a-security-1754</guid>
+    <pubDate>Fri, 12 Jun 2026 15:13:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A comprehensive guide covering history, techniques, datasets, algorithms, tools, real-world applications, and final year project ideas for image reconstruction using deep learning. Table of...</description>
+    <description>The Problem With How Most Teams Run Kong If you set up Kong the default way, everything lives together — routing, policy enforcement, plugin execution, live traffic handling. One deployment doing...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your package.json diffs are noisy for no reason. I built a zero-dep fixer.</title>
+    <link>https://dev.to/_06a3df6b50aec966668fb/your-packagejson-diffs-are-noisy-for-no-reason-i-built-a-zero-dep-fixer-5fjf</link>
+    <guid>https://dev.to/_06a3df6b50aec966668fb/your-packagejson-diffs-are-noisy-for-no-reason-i-built-a-zero-dep-fixer-5fjf</guid>
+    <pubDate>Fri, 12 Jun 2026 15:13:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Open a PR, and half the package.json diff is keys that didn&apos;t actually change — they just moved. One teammate&apos;s editor writes name at the top, npm install shoves a field somewhere else, a codegen...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>GBase 8c Distributed Cluster Operations: Troubleshooting Common Failures with Hands‑On Fixes</title>
+    <link>https://dev.to/michaelfv/gbase-8c-distributed-cluster-operations-troubleshooting-common-failures-with-hands-on-fixes-2356</link>
+    <guid>https://dev.to/michaelfv/gbase-8c-distributed-cluster-operations-troubleshooting-common-failures-with-hands-on-fixes-2356</guid>
+    <pubDate>Fri, 12 Jun 2026 15:10:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Node crashes, connection storms, shard anomalies, and resource overloads are the most frequent disruptions in a gbase database cluster. This guide dissects real‑world cases and provides...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Govee&amp;#8217;s rechargeable smart table lamp is down to $60</title>
+    <link>https://www.theverge.com/gadgets/948806/govee-table-lamp-classic-jbl-charge-6-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/948806/govee-table-lamp-classic-jbl-charge-6-deal-sale</guid>
+    <pubDate>Fri, 12 Jun 2026 15:07:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Whether you’re planning a backyard barbeque or a World Cup watch party, Govee’s Table Lamp Classic can help set the mood with color-changing lighting effects. Right now it’s down to just $59.99...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>SpaceX’s massive IPO: all the latest news</title>
+    <link>https://www.theverge.com/business/948996/spacex-ipo-elon-musk</link>
+    <guid>https://www.theverge.com/business/948996/spacex-ipo-elon-musk</guid>
+    <pubDate>Fri, 12 Jun 2026 14:35:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>SpaceX’s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and is raising enough money to likely make Elon Musk the first...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>SpaceX IPO: Everything you need to know</title>
+    <link>https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know/</link>
+    <guid>https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know/</guid>
+    <pubDate>Fri, 12 Jun 2026 14:08:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>TechCrunch has followed SpaceX&apos;s start, struggles, and successes from the early days. And we&apos;re here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer</guid>
+    <pubDate>Fri, 12 Jun 2026 14:03:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon founder Jeff Bezos says his new AI startup will work toward developing an &quot;artificial general engineer,&quot; according to reports from The New York Times and CNBC. The startup, called...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>SpaceX is now public</title>
+    <link>https://www.theverge.com/science/947926/spacex-ipo-stock-shares-trading-elon-musk</link>
+    <guid>https://www.theverge.com/science/947926/spacex-ipo-stock-shares-trading-elon-musk</guid>
+    <pubDate>Fri, 12 Jun 2026 13:54:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>SpaceX is now a publicly traded company. In one of the most highly anticipated and controversial public offerings of all time, the rocket venture helmed by Elon Musk started trading on Nasdaq on...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Sorry, the Ooni pizza oven is totally worth it</title>
+    <link>https://www.theverge.com/gadgets/943057/ooni-portable-pizza-oven-is-great-for-bbqs</link>
+    <guid>https://www.theverge.com/gadgets/943057/ooni-portable-pizza-oven-is-great-for-bbqs</guid>
+    <pubDate>Fri, 12 Jun 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Summer is approaching, which means it&apos;s time to enjoy some gloriously warm weather beside the grill. But let me pitch you on an alternative: Instead of the usual burgers, hot dogs, and kebabs,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>BMW’s Neue Klasse M concept brings next-gen EV tech to motorsports</title>
+    <link>https://www.theverge.com/transportation/948635/bmw-neue-klasse-m-concept-motorsports-ev</link>
+    <guid>https://www.theverge.com/transportation/948635/bmw-neue-klasse-m-concept-motorsports-ev</guid>
+    <pubDate>Fri, 12 Jun 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Just in time for Le Mans, BMW is pulling the cover off its new M performance concept built on the Bavarian automaker&apos;s Neue Klasse next-generation architecture. The concept is the debut of a new...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Nintendo DS is still the best gaming handheld for travel</title>
+    <link>https://www.theverge.com/games/942678/nintendo-ds-rules-for-travel</link>
+    <guid>https://www.theverge.com/games/942678/nintendo-ds-rules-for-travel</guid>
+    <pubDate>Fri, 12 Jun 2026 12:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Even with the looming specter of rising prices, there&apos;s never been a better time for portable gaming. The Steam Deck has ushered in a new era of handheld PCs, the Analogue Pocket and other Game...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Summer Upgrade Week</title>
+    <link>https://www.theverge.com/tech/942658/summer-upgrade-week-2026</link>
+    <guid>https://www.theverge.com/tech/942658/summer-upgrade-week-2026</guid>
+    <pubDate>Fri, 12 Jun 2026 12:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The sun is out, the sky is clear. It’s time to get outside and disconnect — from work, at least. This summer, we’re looking at all the ways to upgrade our free time indoors and out, from smart...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: “reprogramming” aging, and the hidden sense of interoception</title>
+    <link>https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/</link>
+    <guid>https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/</guid>
+    <pubDate>Fri, 12 Jun 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code</title>
+    <link>https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html</link>
+    <guid>https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html</guid>
+    <pubDate>Fri, 12 Jun 2026 12:04:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer machines. Called...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>This portable light is great for way more than camping</title>
@@ -87,24 +204,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>It&apos;s intended for camping, but BougeRV&apos;s T1 light is so versatile that it also makes for a great summer travel companion that&apos;ll continue to light the dark corners of your life long after you...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>System Design - 17. Service Discovery &amp; Service Mesh: How Thousands of Services Find Each Other</title>
-    <link>https://dev.to/rajkiran_389/system-design-16-service-discovery-service-mesh-how-thousands-of-services-find-each-other-4g0b</link>
-    <guid>https://dev.to/rajkiran_389/system-design-16-service-discovery-service-mesh-how-thousands-of-services-find-each-other-4g0b</guid>
-    <pubDate>Fri, 12 Jun 2026 11:28:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Covers: Client-Side vs Server-Side Discovery, Service Registries, Service Mesh (Istio/Envoy), Kubernetes DNS The Problem That Didn&apos;t Exist in the Monolith In a monolith, calling another module is...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Mobile Game Power Optimization: Why 30 FPS vs 60 FPS Can Double Energy Usage (Real Data Breakdown)</title>
-    <link>https://dev.to/gameoptim/mobile-game-power-optimization-why-30-fps-vs-60-fps-can-double-energy-usage-real-data-breakdown-110n</link>
-    <guid>https://dev.to/gameoptim/mobile-game-power-optimization-why-30-fps-vs-60-fps-can-double-energy-usage-real-data-breakdown-110n</guid>
-    <pubDate>Fri, 12 Jun 2026 11:24:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Real-world mobile game power consumption varies significantly across rendering complexity, frame rate, and device workload distribution. Based on collected production data from...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Bernie Sanders’ AI Sovereign Wealth Fund Plan</title>
@@ -161,7 +260,7 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Inside Interoception: The hidden sense of how you feel inside</title>
+    <title>Inside interoception: The hidden sense of how you feel inside</title>
     <link>https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/</link>
     <guid>https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/</guid>
     <pubDate>Fri, 12 Jun 2026 09:00:00 +0000</pubDate>
@@ -177,105 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>An INTERPOL-led operation last month resulted in the disruption of Sniper Dz, a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday. The effort, codenamed Operation Ramz,...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Siri won’t be your AI girlfriend</title>
-    <link>https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend</link>
-    <guid>https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend</guid>
-    <pubDate>Fri, 12 Jun 2026 07:00:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Our early testing has already shown that Siri AI knows when to shut up, and that&apos;s very much by design. In an interview with Mostly Human spotted by MacRumors, Craig Federighi said Apple&apos;s new...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs</title>
-    <link>https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html</link>
-    <guid>https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html</guid>
-    <pubDate>Fri, 12 Jun 2026 06:38:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said the dismantling...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale</title>
-    <link>https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/</link>
-    <guid>https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/</guid>
-    <pubDate>Fri, 12 Jun 2026 04:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Avataar AI&apos;s distilled video model is priced at $0.005 for every second of generation</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Theker just raised $85M to build the factory robot that doesn’t specialize in anything</title>
-    <link>https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/</link>
-    <guid>https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/</guid>
-    <pubDate>Fri, 12 Jun 2026 01:48:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker&apos;s machines are built to be reconfigured.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world</title>
-    <link>https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/</link>
-    <guid>https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/</guid>
-    <pubDate>Fri, 12 Jun 2026 01:04:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Apple’s Camera Chief Thinks AI Can Give You Superpowers</title>
-    <link>https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/</link>
-    <guid>https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/</guid>
-    <pubDate>Fri, 12 Jun 2026 01:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The generative features in iOS 27’s new Photos app will add fake pixels to some of your shots, but Apple’s Jon McCormack says the company isn’t using AI “for the sake of AI.”</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How Preply combines AI and human tutors to personalize learning</title>
-    <link>https://openai.com/index/preply</link>
-    <guid>https://openai.com/index/preply</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Why You Might Already Own SpaceX Shares, Siri’s AI Makeover, and Knicks Owner’s Surveillance Machine</title>
-    <link>https://www.wired.com/story/uncanny-valley-podcast-why-you-might-already-own-spacex-shares-siri-ai-makeover-knicks-owner-surveillance-machine/</link>
-    <guid>https://www.wired.com/story/uncanny-valley-podcast-why-you-might-already-own-spacex-shares-siri-ai-makeover-knicks-owner-surveillance-machine/</guid>
-    <pubDate>Thu, 11 Jun 2026 23:37:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Today on Uncanny Valley, we take an early look at the SpaceX IPO and why you might find yourself among the investors without even realizing it.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Amazon&amp;#8217;s Echo Hub gets a customizable new look and Ring&amp;#8217;s AI features</title>
-    <link>https://www.theverge.com/tech/948814/amazon-echo-hub-homescreen-redesign</link>
-    <guid>https://www.theverge.com/tech/948814/amazon-echo-hub-homescreen-redesign</guid>
-    <pubDate>Thu, 11 Jun 2026 22:06:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon&apos;s rolling out a free software update for Echo Hub devices that gives the homescreen a much-needed update to the interface it launched with in 2024. It had already added Alex Plus AI...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities</title>
-    <link>https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html</link>
-    <guid>https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html</guid>
-    <pubDate>Thu, 11 Jun 2026 20:29:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Logitech’s awesome MX Master 3S mouse drops to under $100</title>
-    <link>https://www.theverge.com/gadgets/948204/logitech-mx-master-3s-mouse-sale-deal</link>
-    <guid>https://www.theverge.com/gadgets/948204/logitech-mx-master-3s-mouse-sale-deal</guid>
-    <pubDate>Thu, 11 Jun 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The platform-agnostic Logitech MX Master 3S wireless mouse is discounted to $89.99 at Amazon ($30 off), matching the best price we’ve seen so far this year. While it may look like a somewhat...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
