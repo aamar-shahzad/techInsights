@@ -5,100 +5,176 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 13 Jun 2026 10:38:32 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 14:26:06 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Nobody teaches you how to think like a senior engineer</title>
-    <link>https://dev.to/mohammadi/nobody-teaches-you-how-to-think-like-a-senior-engineer-1kk6</link>
-    <guid>https://dev.to/mohammadi/nobody-teaches-you-how-to-think-like-a-senior-engineer-1kk6</guid>
-    <pubDate>Sat, 13 Jun 2026 10:36:44 +0000</pubDate>
+    <title>Every Stripe decline code, what it actually means, and whether retrying will help</title>
+    <link>https://dev.to/mike_badger/every-stripe-decline-code-what-it-actually-means-and-whether-retrying-will-help-olj</link>
+    <guid>https://dev.to/mike_badger/every-stripe-decline-code-what-it-actually-means-and-whether-retrying-will-help-olj</guid>
+    <pubDate>Sat, 13 Jun 2026 14:14:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Nobody teaches you how to think like a senior engineer because the people who can teach it are too busy doing it. They review your PR and leave one comment that reframes the entire thing — &quot;what...</description>
+    <description>When a card payment fails in Stripe, you get a short string back — insufficient_funds, do_not_honor, authentication_required. Most teams glance at it and let Smart Retries hammer the card on a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Metadata Filtering Before Vector Search: The Recall Win Nobody Measures</title>
-    <link>https://dev.to/gabrielanhaia/metadata-filtering-before-vector-search-the-recall-win-nobody-measures-3c2f</link>
-    <guid>https://dev.to/gabrielanhaia/metadata-filtering-before-vector-search-the-recall-win-nobody-measures-3c2f</guid>
-    <pubDate>Sat, 13 Jun 2026 10:36:06 +0000</pubDate>
+    <title>OAuth2 Login with JWT and Refresh Tokens in Spring Boot — The Setup You&apos;ll Rebuild Every Time</title>
+    <link>https://dev.to/yadrs/oauth2-login-with-jwt-and-refresh-tokens-in-spring-boot-the-setup-youll-rebuild-every-time-40bn</link>
+    <guid>https://dev.to/yadrs/oauth2-login-with-jwt-and-refresh-tokens-in-spring-boot-the-setup-youll-rebuild-every-time-40bn</guid>
+    <pubDate>Sat, 13 Jun 2026 14:12:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Book: RAG Pocket Guide: Retrieval, Chunking, and Reranking Patterns for Production Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My...</description>
+    <description>Most Spring Boot applications eventually need authentication. And many teams rebuild the same foundation every time. Add a login endpoint. Generate a token. Protect some APIs. Then production...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What Is Performance Testing? A Complete Guide for QA Teams</title>
-    <link>https://dev.to/clydegarret123/what-is-performance-testing-a-complete-guide-for-qa-teams-496e</link>
-    <guid>https://dev.to/clydegarret123/what-is-performance-testing-a-complete-guide-for-qa-teams-496e</guid>
-    <pubDate>Sat, 13 Jun 2026 10:36:00 +0000</pubDate>
+    <title>AMLA Is Coming Online: What the EU&apos;s New Anti–Money Laundering Authority Means for Builders and Regulators</title>
+    <link>https://dev.to/arguswire/amla-is-coming-online-what-the-eus-new-anti-money-laundering-authority-means-for-builders-and-2nf7</link>
+    <guid>https://dev.to/arguswire/amla-is-coming-online-what-the-eus-new-anti-money-laundering-authority-means-for-builders-and-2nf7</guid>
+    <pubDate>Sat, 13 Jun 2026 14:11:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In 2018, a major ticketing platform crashed during a high-profile concert sale. Millions of users rushed to buy tickets at the same time, overwhelming the system. Customers were locked out,...</description>
+    <description>If you work anywhere near payments, banking, crypto, or fintech in Europe, a new acronym is about to land in your backlog: AMLA — the EU&apos;s Authority for Anti-Money Laundering and Countering the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Fitz CLI builder: como typer, pero en el lenguaje</title>
-    <link>https://dev.to/martin_palopoli/fitz-cli-builder-como-typer-pero-en-el-lenguaje-2ab0</link>
-    <guid>https://dev.to/martin_palopoli/fitz-cli-builder-como-typer-pero-en-el-lenguaje-2ab0</guid>
-    <pubDate>Sat, 13 Jun 2026 10:35:11 +0000</pubDate>
+    <title>Zero Trust for Home Labs: Bridging the Gap Between Enterprise and Enthusiast</title>
+    <link>https://dev.to/hookprobe/zero-trust-for-home-labs-bridging-the-gap-between-enterprise-and-enthusiast-38gg</link>
+    <guid>https://dev.to/hookprobe/zero-trust-for-home-labs-bridging-the-gap-between-enterprise-and-enthusiast-38gg</guid>
+    <pubDate>Sat, 13 Jun 2026 14:07:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Construí herramientas CLI nativas en Fitz con @command, sin librería que instalar. Help auto-generado, flags con type coercion, positional args por convención, binario nativo a la salida. El mismo...</description>
+    <description>The Evolution of the Home Lab: Why Enterprise Security Standards Matter For the modern cybersecurity professional, the home lab has transcended its origins as a mere hobbyist’s playground. Today,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Fitz CLI builder: like typer, but in the language</title>
-    <link>https://dev.to/martin_palopoli/fitz-cli-builder-like-typer-but-in-the-language-32kg</link>
-    <guid>https://dev.to/martin_palopoli/fitz-cli-builder-like-typer-but-in-the-language-32kg</guid>
-    <pubDate>Sat, 13 Jun 2026 10:34:52 +0000</pubDate>
+    <title>I Was Shocked by How Cheap LLMs Can Be — A Bootcamp Grad&apos;s Guide</title>
+    <link>https://dev.to/truelane/i-was-shocked-by-how-cheap-llms-can-be-a-bootcamp-grads-guide-3bpa</link>
+    <guid>https://dev.to/truelane/i-was-shocked-by-how-cheap-llms-can-be-a-bootcamp-grads-guide-3bpa</guid>
+    <pubDate>Sat, 13 Jun 2026 14:06:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Build native CLI tools in Fitz with @command, no library to install. Help auto-generated, type-coerced flags, positional args by convention, native binary out the door. The same language that...</description>
+    <description>I Was Shocked by How Cheap LLMs Can Be — A Bootcamp Grad&apos;s Guide Three months ago I graduated from a full-stack bootcamp. I was riding the high of building my first CRUD app when my mentor dropped...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Paradox of Power: Why Anthropic Released and Then Restricted Claude Fable 5</title>
-    <link>https://dev.to/grenishrai/the-paradox-of-power-why-anthropic-released-and-then-restricted-claude-fable-5-2g3p</link>
-    <guid>https://dev.to/grenishrai/the-paradox-of-power-why-anthropic-released-and-then-restricted-claude-fable-5-2g3p</guid>
-    <pubDate>Sat, 13 Jun 2026 10:32:35 +0000</pubDate>
+    <title>Day 16: ClickHouse Dictionaries – Eliminating Expensive JOINs with High-Speed In-Memory Lookups</title>
+    <link>https://dev.to/kanishga_subramani_49ad73/day-16-clickhouse-dictionaries-eliminating-expensive-joins-with-high-speed-in-memory-lookups-d5b</link>
+    <guid>https://dev.to/kanishga_subramani_49ad73/day-16-clickhouse-dictionaries-eliminating-expensive-joins-with-high-speed-in-memory-lookups-d5b</guid>
+    <pubDate>Sat, 13 Jun 2026 14:04:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On June 9, 2026, Anthropic released Claude Fable 5, which was described as the most capable AI model publicly available at the time. Within 72 hours, access was cut off globally after intervention...</description>
+    <description>When working with analytical databases, enriching fact tables with customer information, product metadata, geographical mappings, or business attributes is a common requirement. Traditionally,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When to Move Beyond LiteLLM (And When Not To)</title>
-    <link>https://dev.to/sahajmeet_kaur_/when-to-move-beyond-litellm-and-when-not-to-5aj2</link>
-    <guid>https://dev.to/sahajmeet_kaur_/when-to-move-beyond-litellm-and-when-not-to-5aj2</guid>
-    <pubDate>Sat, 13 Jun 2026 10:30:00 +0000</pubDate>
+    <title>PostgreSQL 2200F Error: Causes and Solutions Complete Guide</title>
+    <link>https://dev.to/dbmserror/postgresql-2200f-error-causes-and-solutions-complete-guide-3fhe</link>
+    <guid>https://dev.to/dbmserror/postgresql-2200f-error-causes-and-solutions-complete-guide-3fhe</guid>
+    <pubDate>Sat, 13 Jun 2026 14:03:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>LiteLLM is one of the most useful tools in the modern AI stack, and I want to say that clearly before anything else. If you&apos;re building an AI application and haven&apos;t tried it: a working proxy to...</description>
+    <description>PostgreSQL Error 2200F: Zero Length Character String PostgreSQL error 2200F: zero_length_character_string occurs when an empty string (&apos;&apos;) is passed to a function or operator that requires at...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Bun rewrote itself from Zig to Rust in 9 days with an LLM. That&apos;s terrifying.</title>
-    <link>https://dev.to/adioof/bun-rewrote-itself-from-zig-to-rust-in-9-days-with-an-llm-thats-terrifying-1n1f</link>
-    <guid>https://dev.to/adioof/bun-rewrote-itself-from-zig-to-rust-in-9-days-with-an-llm-thats-terrifying-1n1f</guid>
-    <pubDate>Sat, 13 Jun 2026 10:23:42 +0000</pubDate>
+    <title>Flowork Agent: A Self-Hosted AI Agent OS With Memory, Security, and Offline Capability</title>
+    <link>https://dev.to/alya_mahalini_f05d9953cfa/flowork-agent-a-self-hosted-ai-agent-os-with-memory-security-and-offline-capability-1mk3</link>
+    <guid>https://dev.to/alya_mahalini_f05d9953cfa/flowork-agent-a-self-hosted-ai-agent-os-with-memory-security-and-offline-capability-1mk3</guid>
+    <pubDate>Sat, 13 Jun 2026 14:01:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It took nine days to rewrite all of Bun from Zig to Rust using an LLM and get the new code to the point where I could merge it. I saw that and my reaction was not “cool.” It was “oh no.” Let me be...</description>
+    <description>Most AI forgets you the moment you close the tab. A Flowork agent is something you own. It lives in a folder on your machine, carries its own memory, learns from its own mistakes, and keeps...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Spent $200 in One Day on AI Tokens to Build 86 Browser Tools — A Solo Founder&apos;s Complete Build Log</title>
-    <link>https://dev.to/dngzihng114379/i-spent-200-in-one-day-on-ai-tokens-to-build-86-browser-tools-a-solo-founders-complete-build-log-52j4</link>
-    <guid>https://dev.to/dngzihng114379/i-spent-200-in-one-day-on-ai-tokens-to-build-86-browser-tools-a-solo-founders-complete-build-log-52j4</guid>
-    <pubDate>Sat, 13 Jun 2026 10:22:05 +0000</pubDate>
+    <title>Demo: https://codei-sync-t72r.onrender.com/
+
+I built a real-time collaborative coding platform and would love some honest feedback.
+
+The goal was to remove the friction that often comes with pair programming and collaborative coding sessions. Instead of in</title>
+    <link>https://dev.to/hamza_abbasi_041a62769f6b/demo-httpscodei-sync-t72ronrendercom-i-built-a-real-time-collaborative-coding-platform-3n50</link>
+    <guid>https://dev.to/hamza_abbasi_041a62769f6b/demo-httpscodei-sync-t72ronrendercom-i-built-a-real-time-collaborative-coding-platform-3n50</guid>
+    <pubDate>Sat, 13 Jun 2026 14:00:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>86 tools. Zero backend. One person. Two hospital visits. $200 in tokens in 24 hours. This is what building in public actually looks like — not the highlight reel, but the raw commit history of a...</description>
+    <description>codei-sync-t72r.onrender.com</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Build a Faceless TikTok Channel Pipeline with FFmpeg Micro</title>
-    <link>https://dev.to/javidjamae/build-a-faceless-tiktok-channel-pipeline-with-ffmpeg-micro-2m58</link>
-    <guid>https://dev.to/javidjamae/build-a-faceless-tiktok-channel-pipeline-with-ffmpeg-micro-2m58</guid>
-    <pubDate>Sat, 13 Jun 2026 10:16:10 +0000</pubDate>
+    <title>I built a free, open-source AI calorie tracker because the others got greedy</title>
+    <link>https://dev.to/apoorvdarshan/i-built-a-free-open-source-ai-calorie-tracker-because-the-others-got-greedy-npg</link>
+    <guid>https://dev.to/apoorvdarshan/i-built-a-free-open-source-ai-calorie-tracker-because-the-others-got-greedy-npg</guid>
+    <pubDate>Sat, 13 Jun 2026 14:00:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at ffmpeg-micro.com Faceless TikTok channels post 3-5 times a day. No filming, no editing software, no face on camera. The best ones gross $2K-10K/month from the Creator Fund...</description>
+    <description>Most calorie trackers have drifted into the same place: a subscription wall, ads, a mandatory account, and your eating data quietly monetized. I wanted the opposite, so I built Fud AI — a free,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A German Court Has Ruled That Google Is Liable for False Statements Generated by AI Overviews</title>
+    <title>Never Post’s Mike Rugnetta on the creative process and the value of reliable power</title>
+    <link>https://www.theverge.com/report/949073/mike-rugnetta-youtube-never-post-podcast-questionnaire</link>
+    <guid>https://www.theverge.com/report/949073/mike-rugnetta-youtube-never-post-podcast-questionnaire</guid>
+    <pubDate>Sat, 13 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Mike Rugnetta is a writer, podcast host, producer, audio engineer, educator, musician, sound designer, and father. In short, the man wears a lot of hats. He&apos;s the cocreator and host of the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication</title>
+    <link>https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html</link>
+    <guid>https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html</guid>
+    <pubDate>Sat, 13 Jun 2026 13:23:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>My yard is dying, so I made an app for that</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing</guid>
+    <pubDate>Sat, 13 Jun 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. &quot;~ Channel is unrecoverably...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic cuts off Fable 5 and Mythos 5 access following government order</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security</guid>
+    <pubDate>Sat, 13 Jun 2026 12:55:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Echo Isle is a pint-sized adventure inspired by classic Zelda</title>
+    <link>https://www.theverge.com/games/947136/echo-isle-review-pc</link>
+    <guid>https://www.theverge.com/games/947136/echo-isle-review-pc</guid>
+    <pubDate>Sat, 13 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Echo Isle is heavily inspired by The Legend of Zelda, and it&apos;s not afraid to show it: The retro graphics bear a striking resemblance to Link&apos;s Awakening, the main character wears a blue tunic and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple’s new AI photo editing tools mostly work, for better and worse</title>
+    <link>https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on</link>
+    <guid>https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on</guid>
+    <pubDate>Sat, 13 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The most popular camera in the world just got its first set of serious AI photo editing features, and I don&apos;t think any of us are ready. As far as AI photo editing goes, the new features in iOS 27...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>A better way to manage all your screenshots</title>
+    <link>https://www.theverge.com/tech/949465/pool-screenshots-app-disclosure-day-installer</link>
+    <guid>https://www.theverge.com/tech/949465/pool-screenshots-app-disclosure-day-installer</guid>
+    <pubDate>Sat, 13 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hi, friends! Welcome to Installer No. 132, your guide to the best and Verge-iest stuff in the world. (If you&apos;re new here, welcome, happy soccer, and also you can read all the old editions at the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The future of Hollywood isn’t feeding prompts into vanilla gen AI models</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai</guid>
+    <pubDate>Sat, 13 Jun 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>For all the noise that&apos;s been made about how generative AI is poised to revolutionize the filmmaking industry, there haven&apos;t really been any projects created with the technology that felt like the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>A Court Has Ruled That Google Is Liable for False Statements Generated by AI Overviews</title>
     <link>https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/</link>
     <guid>https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/</guid>
     <pubDate>Sat, 13 Jun 2026 09:00:00 +0000</pubDate>
@@ -204,78 +280,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The tech giant said a group called &quot;Outsider Enterprise&quot; used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Nothing CEO says phone prices are going to keep going up</title>
-    <link>https://www.theverge.com/gadgets/949403/nothing-carl-pei-ram-phone-prices</link>
-    <guid>https://www.theverge.com/gadgets/949403/nothing-carl-pei-ram-phone-prices</guid>
-    <pubDate>Fri, 12 Jun 2026 20:02:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you&apos;re thinking about upgrading your phone, &quot;the best time was yesterday,&quot; according to Nothing CEO and co-founder Carl Pei, echoing a message we heard during MWC. As Android Authority reports,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit</title>
-    <link>https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html</link>
-    <guid>https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html</guid>
-    <pubDate>Fri, 12 Jun 2026 19:33:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them. The malware...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data</title>
-    <link>https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/</link>
-    <guid>https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/</guid>
-    <pubDate>Fri, 12 Jun 2026 19:26:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing</title>
-    <link>https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html</link>
-    <guid>https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html</guid>
-    <pubDate>Fri, 12 Jun 2026 18:59:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Google on Friday said it&apos;s pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The world’s first trillionaire is a killer</title>
-    <link>https://www.theverge.com/tech/949259/the-worlds-first-trillionaire-is-a-killer</link>
-    <guid>https://www.theverge.com/tech/949259/the-worlds-first-trillionaire-is-a-killer</guid>
-    <pubDate>Fri, 12 Jun 2026 18:46:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Elon Musk&apos;s SpaceX IPO will probably make him the richest person to ever walk the planet. And while his mountain of horrible personal conduct could fill multiple books, one fact in particular...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade</title>
-    <link>https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html</link>
-    <guid>https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html</guid>
-    <pubDate>Fri, 12 Jun 2026 18:17:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Mistral is rumored to be raising €3B at €20B valuation</title>
-    <link>https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/</link>
-    <guid>https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/</guid>
-    <pubDate>Fri, 12 Jun 2026 17:38:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Siri is good now??</title>
-    <link>https://www.theverge.com/podcast/949079/siri-ai-good-vergecast</link>
-    <guid>https://www.theverge.com/podcast/949079/siri-ai-good-vergecast</guid>
-    <pubDate>Fri, 12 Jun 2026 17:17:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>You&apos;d be forgiven for thinking this day would never come. Siri has spent a decade and half somewhere between &quot;sort of useful at a few things&quot; and &quot;utterly disastrous, why did I even try, can it...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
