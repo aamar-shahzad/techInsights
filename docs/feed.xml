@@ -5,16 +5,178 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 17 Jun 2026 18:34:47 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 17 Jun 2026 22:13:54 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>.NET Doesn&apos;t Suck in Neovim Anymore</title>
-    <link>https://dev.to/nmiller15/net-doesnt-suck-in-neovim-anymore-4fb8</link>
-    <guid>https://dev.to/nmiller15/net-doesnt-suck-in-neovim-anymore-4fb8</guid>
-    <pubDate>Wed, 17 Jun 2026 18:31:20 +0000</pubDate>
+    <title>I built an image compressor that hits an exact KB size — and never uploads your files</title>
+    <link>https://dev.to/talhaasjad/i-built-an-image-compressor-that-hits-an-exact-kb-size-and-never-uploads-your-files-3jnc</link>
+    <guid>https://dev.to/talhaasjad/i-built-an-image-compressor-that-hits-an-exact-kb-size-and-never-uploads-your-files-3jnc</guid>
+    <pubDate>Wed, 17 Jun 2026 22:01:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I use Neovim btw... Unfortunately, I&apos;m also a C# developer. Anyone who has used .NET in Neovim knows that the language support is tenuous. I&apos;ve spent hours tweaking my configuration to get the...</description>
+    <description>TL;DR: Online forms demand images under a hard limit — &quot;signature under 20 KB,&quot; &quot;photo under 50 KB.&quot; Most compressors make you upload your file to a server to hit that. I built SwiftShrink to do...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🧩 Your MapStruct Mappers Are Hiding Null Bugs</title>
+    <link>https://dev.to/code_with_kyryl/your-mapstruct-mappers-are-hiding-null-bugs-33m5</link>
+    <guid>https://dev.to/code_with_kyryl/your-mapstruct-mappers-are-hiding-null-bugs-33m5</guid>
+    <pubDate>Wed, 17 Jun 2026 21:54:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Someone adds a field to a DTO. The entity already has it. MapStruct compiles fine, the tests pass, the PR merges. Two weeks later the field is null in production and nobody knows why. The compiler...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Event Loop - Entendendo uma das bases do Node</title>
+    <link>https://dev.to/joaovictor6/event-loop-entendendo-uma-das-bases-do-node-41a</link>
+    <guid>https://dev.to/joaovictor6/event-loop-entendendo-uma-das-bases-do-node-41a</guid>
+    <pubDate>Wed, 17 Jun 2026 21:51:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>O Event Loop é o mecanismo responsável por decidir quando callbacks e continuidades de operações assíncronas devem ser executados. Ele não executa operações de I/O diretamente, mas organiza a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Storied Colors – a catalogue of named colors</title>
+    <link>https://storiedcolors.com/</link>
+    <guid>https://storiedcolors.com/</guid>
+    <pubDate>Wed, 17 Jun 2026 21:49:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://storiedcolors.com/ Comments URL: https://news.ycombinator.com/item?id=48577374 Points: 6 # Comments: 0</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Tim Cook says RAM expenses are &amp;#8216;unsustainable&amp;#8217; and Apple is going to raise prices</title>
+    <link>https://www.theverge.com/tech/951948/apple-tim-cook-price-increases-ram</link>
+    <guid>https://www.theverge.com/tech/951948/apple-tim-cook-price-increases-ram</guid>
+    <pubDate>Wed, 17 Jun 2026 21:42:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple is planning to raise prices in response to the ongoing memory shortage. In an interview with The Wall Street Journal, Apple CEO Tim Cook says &quot;price increases are unavoidable:&quot; We&apos;re doing...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Stop Picking Dashboard Icons by Keyword</title>
+    <link>https://dev.to/svgicons/stop-picking-dashboard-icons-by-keyword-ij2</link>
+    <guid>https://dev.to/svgicons/stop-picking-dashboard-icons-by-keyword-ij2</guid>
+    <pubDate>Wed, 17 Jun 2026 21:38:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most dashboard icon problems do not come from bad icons. They come from good icons used with the wrong meaning. You search for users, pick a clean SVG icon, place it in the sidebar, and move on....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Using LLM for Dialogue Management</title>
+    <link>https://dev.to/shashank_ms_6a35baa4be138/using-llm-for-dialogue-management-1lgk</link>
+    <guid>https://dev.to/shashank_ms_6a35baa4be138/using-llm-for-dialogue-management-1lgk</guid>
+    <pubDate>Wed, 17 Jun 2026 21:36:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Dialogue management is the process of tracking conversational state and deciding what an agent should say or do next. Classical systems split this into isolated modules: natural language...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>WIP - Glossário DevOps #1</title>
+    <link>https://dev.to/joaovictor6/wip-glossario-devops-1-171e</link>
+    <guid>https://dev.to/joaovictor6/wip-glossario-devops-1-171e</guid>
+    <pubDate>Wed, 17 Jun 2026 21:36:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Texto com base no livro &quot;Manual de DevOps&quot; WIP significa &quot;Work In Progress&quot;. É uma métrica essencial que representa a quantidade de trabalho iniciado, mas ainda não concluído. Na prática, ela...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>FIFA Hack Authentication Flaw, Chrome Ad Blocker End, AI Supply Chain Security</title>
+    <link>https://dev.to/soytuber/fifa-hack-authentication-flaw-chrome-ad-blocker-end-ai-supply-chain-security-4nme</link>
+    <guid>https://dev.to/soytuber/fifa-hack-authentication-flaw-chrome-ad-blocker-end-ai-supply-chain-security-4nme</guid>
+    <pubDate>Wed, 17 Jun 2026 21:36:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>FIFA Hack Authentication Flaw, Chrome Ad Blocker End, AI Supply Chain Security Today&apos;s Highlights Today&apos;s top security news covers a critical real-world authentication vulnerability, significant...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>LLM Fallback in Production, Agentic eCommerce, and GitHub Copilot for Parallel Agents</title>
+    <link>https://dev.to/soytuber/llm-fallback-in-production-agentic-ecommerce-and-github-copilot-for-parallel-agents-1pap</link>
+    <guid>https://dev.to/soytuber/llm-fallback-in-production-agentic-ecommerce-and-github-copilot-for-parallel-agents-1pap</guid>
+    <pubDate>Wed, 17 Jun 2026 21:35:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>LLM Fallback in Production, Agentic eCommerce, and GitHub Copilot for Parallel Agents Today&apos;s Highlights This week highlights practical applications and architectural considerations for AI...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Can&apos;t Walnut Creek Build 3 Bedroom Apartments with a Playground?</title>
+    <link>https://kevin.burke.dev/kevin/walnut-creek-single-stair/</link>
+    <guid>https://kevin.burke.dev/kevin/walnut-creek-single-stair/</guid>
+    <pubDate>Wed, 17 Jun 2026 21:35:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://kevin.burke.dev/kevin/walnut-creek-single-stair/ Comments URL: https://news.ycombinator.com/item?id=48577246 Points: 4 # Comments: 1</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>VSCO launches Studio Pro mobile photo editing app and plans $500 per year subscription</title>
+    <link>https://www.theverge.com/tech/951863/vsco-studio-pro-vsco-one-subscription</link>
+    <guid>https://www.theverge.com/tech/951863/vsco-studio-pro-vsco-one-subscription</guid>
+    <pubDate>Wed, 17 Jun 2026 20:43:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>VSCO is taking on Adobe with a new Studio Pro editing app rolling out today on iOS and coming to macOS later this year, as Bloomberg reports. At launch, the app offers tools for batch editing,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Roelof Botha joins SpaceX’s board of directors</title>
+    <link>https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/</link>
+    <guid>https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/</guid>
+    <pubDate>Wed, 17 Jun 2026 20:32:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The former Sequoia Capital leader is filling an &quot;existing vacancy&quot; on SpaceX&apos;s board, days after the company went public in the largest IPO ever.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>After unveiling ridiculously expensive AR glasses, Snap’s stock takes a dive</title>
+    <link>https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/</link>
+    <guid>https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/</guid>
+    <pubDate>Wed, 17 Jun 2026 20:24:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Snap&apos;s long-awaited smart glasses debut hasn&apos;t exactly done wonders for the company&apos;s stock.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI</title>
+    <link>https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/</link>
+    <guid>https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/</guid>
+    <pubDate>Wed, 17 Jun 2026 20:17:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Massive breach spills credentials for thousands of sensitive networks</title>
+    <link>https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/</link>
+    <guid>https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/</guid>
+    <pubDate>Wed, 17 Jun 2026 19:54:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Tesco moving 40,000 server workloads off VMware amid Broadcom&apos;s “abusive conduct”</title>
+    <link>https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/</link>
+    <guid>https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/</guid>
+    <pubDate>Wed, 17 Jun 2026 19:43:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Tesco claimed Broadcom hiked its VMware prices by about 175 percent in UK court filings.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Epic wants to let you bring your Fortnite skins to other games</title>
+    <link>https://www.theverge.com/games/951785/epic-games-fortnite-unreal-fest-2026-unreal-engine-6-ai-metaverse</link>
+    <guid>https://www.theverge.com/games/951785/epic-games-fortnite-unreal-fest-2026-unreal-engine-6-ai-metaverse</guid>
+    <pubDate>Wed, 17 Jun 2026 19:09:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Epic Games has been touting the potential of an interoperable metaverse for years, though that vision hasn&apos;t yet become a reality. But with Unreal Engine 6, the next major version of its game...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>World leaders want American AI. They just don’t want America to be able to turn it off.</title>
+    <link>https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/</link>
+    <guid>https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/</guid>
+    <pubDate>Wed, 17 Jun 2026 19:01:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>French President Macron and Indian PM Modi raised alarms at the G7 summit that the U.S. could cut off access to American AI overnight — a fear the Anthropic blackout just made real.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Anthropic becomes first AI startup to join the Frontier carbon removal coalition</title>
@@ -35,24 +197,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Design Principles of Software: A Real-World Notification System in Go</title>
-    <link>https://dev.to/sergiocolqueponce/design-principles-of-software-a-real-world-notification-system-in-go-4g98</link>
-    <guid>https://dev.to/sergiocolqueponce/design-principles-of-software-a-real-world-notification-system-in-go-4g98</guid>
-    <pubDate>Wed, 17 Jun 2026 18:27:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>By Sergio Colque Ponce — Software Engineering, Universidad Privada de Tacna. Full source code: github.com/srg-cp/design-principles-go When people say &quot;this code is well designed&quot;, they rarely mean...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Spec-Driven Development: Let the Spec Drive the Code (With a Real Example)</title>
-    <link>https://dev.to/sergiocolqueponce/spec-driven-development-let-the-spec-drive-the-code-with-a-real-example-589n</link>
-    <guid>https://dev.to/sergiocolqueponce/spec-driven-development-let-the-spec-drive-the-code-with-a-real-example-589n</guid>
-    <pubDate>Wed, 17 Jun 2026 18:26:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>By Sergio Colque Ponce — Software Engineering, Universidad Privada de Tacna. Full source code: github.com/srg-cp/spec-driven-development If you have used an AI coding agent — Copilot, Claude Code,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Operating a Humanoid With Your Body Is a Hot Job in China’s Hardware Capital</title>
     <link>https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/</link>
     <guid>https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/</guid>
@@ -62,7 +206,7 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Social media’s next evolution: User-controlled algorithms</title>
+    <title>Social media’s next evolution: user-controlled algorithms</title>
     <link>https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/</link>
     <guid>https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/</guid>
     <pubDate>Wed, 17 Jun 2026 18:19:48 +0000</pubDate>
@@ -71,67 +215,31 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Build vs Buy Software: A Decision Framework for Growing Businesses</title>
-    <link>https://dev.to/0arch/build-vs-buy-software-a-decision-framework-for-growing-businesses-1alb</link>
-    <guid>https://dev.to/0arch/build-vs-buy-software-a-decision-framework-for-growing-businesses-1alb</guid>
-    <pubDate>Wed, 17 Jun 2026 18:12:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The build-vs-buy question gets answered wrong in both directions. Scrappy teams build things they should have bought, wasting six months reinventing Stripe. Enterprise teams buy things they should...</description>
-    <category>Developer Tools</category>
+    <title>Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments</title>
+    <link>https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html</link>
+    <guid>https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html</guid>
+    <pubDate>Wed, 17 Jun 2026 18:14:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>I Run a Self-Improvement Loop on My OpenClaw Agent Every Night. Here&apos;s What I Learned.</title>
-    <link>https://dev.to/mrclaw207/i-run-a-self-improvement-loop-on-my-openclaw-agent-every-night-heres-what-i-learned-38bp</link>
-    <guid>https://dev.to/mrclaw207/i-run-a-self-improvement-loop-on-my-openclaw-agent-every-night-heres-what-i-learned-38bp</guid>
-    <pubDate>Wed, 17 Jun 2026 18:11:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last month my OpenClaw agent kept making the same mistake: it would run a health check, the script would fail silently, and the agent would report &quot;all systems operational&quot; with total confidence....</description>
-    <category>Developer Tools</category>
+    <title>NEA’s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning</title>
+    <link>https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/</link>
+    <guid>https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/</guid>
+    <pubDate>Wed, 17 Jun 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through...</description>
+    <category>AI</category>
   </item>
   <item>
-    <title>Stop Dumping Your Entire Repository Into AI</title>
-    <link>https://dev.to/vansharora21/stop-dumping-your-entire-repository-into-ai-3f9p</link>
-    <guid>https://dev.to/vansharora21/stop-dumping-your-entire-repository-into-ai-3f9p</guid>
-    <pubDate>Wed, 17 Jun 2026 18:09:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One of the strangest workflows in modern software development looks like this: Ask ChatGPT a question. Realize it doesn&apos;t have enough context. Copy a few files. Add architecture notes. Paste...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How I let AI agents pay for APIs per call (the HTTP 402 path)</title>
-    <link>https://dev.to/lemoncake/how-i-let-ai-agents-pay-for-apis-per-call-the-http-402-path-cp</link>
-    <guid>https://dev.to/lemoncake/how-i-let-ai-agents-pay-for-apis-per-call-the-http-402-path-cp</guid>
-    <pubDate>Wed, 17 Jun 2026 18:07:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve built an MCP server or any API that costs you money to run (an LLM call, a paid data source, compute), you&apos;ve probably hit the same wall I did: How do you get paid per call — when the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built an AI Email Assistant From Scratch: What Nobody Tells You</title>
-    <link>https://dev.to/gentlenode/i-built-an-ai-email-assistant-from-scratch-what-nobody-tells-you-jim</link>
-    <guid>https://dev.to/gentlenode/i-built-an-ai-email-assistant-from-scratch-what-nobody-tells-you-jim</guid>
-    <pubDate>Wed, 17 Jun 2026 18:06:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Honestly, i Built an AI Email Assistant From Scratch: What Nobody Tells You Last Tuesday I was staring at a $487 invoice from a client I love working with, and about 40% of that was my own API...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>React Native Scanner Pro — a modern scanner library for React Native 📷</title>
-    <link>https://dev.to/hardik_viradiya_27/react-native-scanner-pro-a-modern-scanner-library-for-react-native-3dm6</link>
-    <guid>https://dev.to/hardik_viradiya_27/react-native-scanner-pro-a-modern-scanner-library-for-react-native-3dm6</guid>
-    <pubDate>Wed, 17 Jun 2026 18:05:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A while back, I was working on a React Native project that needed scanning functionality. At first, I thought this would be one of those features that takes a day — install a package, follow the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>SCADA, PLC, and BMS: a practical field guide to industrial dispatching</title>
-    <link>https://dev.to/atlasscada/scada-plc-and-bms-a-practical-field-guide-to-industrial-dispatching-40e4</link>
-    <guid>https://dev.to/atlasscada/scada-plc-and-bms-a-practical-field-guide-to-industrial-dispatching-40e4</guid>
-    <pubDate>Wed, 17 Jun 2026 18:05:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you have ever walked past a boiler room, a pumping station, or the rooftop ventilation units of a shopping mall, you have walked past a quiet layer of electronics and software that keeps all of...</description>
-    <category>Developer Tools</category>
+    <title>&quot;Dangerous&quot; AI models are coming no matter what</title>
+    <link>https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/</link>
+    <guid>https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/</guid>
+    <pubDate>Wed, 17 Jun 2026 17:50:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>AI models with advanced hacking capabilities will soon be the norm.</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names</title>
@@ -141,6 +249,15 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>World models are the next big thing in AI beyond LLMs and, with this round, Odyssey has cemented itself as one of the startups to watch.</description>
     <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development</title>
+    <link>https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html</link>
+    <guid>https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html</guid>
+    <pubDate>Wed, 17 Jun 2026 17:36:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft has formally disclosed that it&apos;s working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifier...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Two-thirds of Americans think AI is advancing too quickly</title>
@@ -159,122 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Although Wall Street loves AI, every day Americans are significantly less optimistic about the industry, a new report from Pew Research shows.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible</title>
-    <link>https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/</link>
-    <guid>https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/</guid>
-    <pubDate>Wed, 17 Jun 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Trump administration officials tell WIRED that if Anthropic wants to rerelease Fable 5, it will need to ensure the model&apos;s guardrails can&apos;t be circumvented. Security experts say that can&apos;t be done.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Echo Dot Max is cheaper than ever in an early Prime Day sale</title>
-    <link>https://www.theverge.com/gadgets/951602/amazon-echo-dot-max-early-prime-day-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/951602/amazon-echo-dot-max-early-prime-day-deal-sale</guid>
-    <pubDate>Wed, 17 Jun 2026 16:47:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>We’re seeing good early Prime Day deals ahead of the event next week, and unsurprisingly, some of the best deals are on Amazon’s own devices. Several Echo speakers have dropped to new low prices,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google bets on Gemini to reinvent the smart home speaker</title>
-    <link>https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/</link>
-    <guid>https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/</guid>
-    <pubDate>Wed, 17 Jun 2026 16:30:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google is betting generative AI can breathe new life into the smart speaker. The company&apos;s new $99.99 Google Home Speaker replaces the rigid commands of the Google Assistant era with more...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Vibe-decoding the White House-Anthropic fight over Fable</title>
-    <link>https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house</link>
-    <guid>https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house</guid>
-    <pubDate>Wed, 17 Jun 2026 16:27:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Hello and welcome to Regulator, an email for Verge subscribers about technology, politics, and what happens when science crashes headlong into self-interest. Not a subscriber? Sign up here today!...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Can anyone look cool wearing Snap’s $2,000 glasses?</title>
-    <link>https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion</link>
-    <guid>https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion</guid>
-    <pubDate>Wed, 17 Jun 2026 16:13:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Yesterday, Snap debuted its new $2,195 Specs glasses. In an interview with CNBC, Snap CEO Evan Spiegel described the Specs as something the company had been working on for more than 12 years, an...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline</title>
-    <link>https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html</link>
-    <guid>https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html</guid>
-    <pubDate>Wed, 17 Jun 2026 16:00:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials. Ordinary stuff, until one move near the end. Before his...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>We got free GTA V upgrades before GTA VI</title>
-    <link>https://www.theverge.com/games/951533/gta-v-ps5-xbox-series-x-upgrade</link>
-    <guid>https://www.theverge.com/games/951533/gta-v-ps5-xbox-series-x-upgrade</guid>
-    <pubDate>Wed, 17 Jun 2026 15:45:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Rockstar Games will allow players to upgrade older versions of Grand Theft Auto V for PlayStation 5 and Xbox Series X / S for free just months before the launch of GTA VI. Starting June 18th,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>SanDisk’s new PlayStation 5 SSD will cost you more than three PS5 Pros</title>
-    <link>https://www.theverge.com/tech/951527/sandisk-optimus-gx-pro-850p-nvme-ssd-8tb-ps5-playstation-sony</link>
-    <guid>https://www.theverge.com/tech/951527/sandisk-optimus-gx-pro-850p-nvme-ssd-8tb-ps5-playstation-sony</guid>
-    <pubDate>Wed, 17 Jun 2026 15:34:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>SanDisk has announced an expensive way to boost the PlayStation 5&apos;s storage capacity. The company&apos;s new Optimus GX PRO 850P NVMe SSD is an officially licensed PS5 accessory in capacities ranging...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>MolmoMotion: Language-guided 3D motion forecasting</title>
-    <link>https://huggingface.co/blog/allenai/molmomotion</link>
-    <guid>https://huggingface.co/blog/allenai/molmomotion</guid>
-    <pubDate>Wed, 17 Jun 2026 15:26:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The slowtech revolution is here to kill your phone addiction and rescue your attention span</title>
-    <link>https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span/</link>
-    <guid>https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span/</guid>
-    <pubDate>Wed, 17 Jun 2026 15:24:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>“People just really want to take back control of their time, their lives, their attention... They’re down for whatever helps them do that.”</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it.</title>
-    <link>https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/</link>
-    <guid>https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/</guid>
-    <pubDate>Wed, 17 Jun 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>If physical AI is going to match the accomplishments of LLMs, there&apos;s a data problem that needs to be solved.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Paramount Plus is two dollars for two months of ad-free viewing</title>
-    <link>https://www.theverge.com/gadgets/950929/paramount-plus-two-month-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/950929/paramount-plus-two-month-deal-sale</guid>
-    <pubDate>Wed, 17 Jun 2026 14:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Paramount Plus is offering new and former subscribers a discounted rate until June 25th, 2026. You’ll pay 99 cents per month for the first two months, with the Premium plan automatically renewing...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>In a big year for horror, Widow’s Bay still stands apart</title>
-    <link>https://www.theverge.com/entertainment/951391/widows-bay-season-1-finale-apple-tv-horror</link>
-    <guid>https://www.theverge.com/entertainment/951391/widows-bay-season-1-finale-apple-tv-horror</guid>
-    <pubDate>Wed, 17 Jun 2026 14:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Horror is having a moment. In 2026, the genre is especially well-represented: new blood is dominating the box office through films like Backrooms and Obsession, established names like Sam Raimi...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
