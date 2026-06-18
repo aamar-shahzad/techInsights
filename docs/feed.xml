@@ -5,100 +5,145 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 18 Jun 2026 05:01:48 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 18 Jun 2026 11:57:21 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Routing around Google Maps in Korea: Naver &amp; Kakao deep links, weird coordinates, and iOS clipboard</title>
-    <link>https://dev.to/piyaklabs/routing-around-google-maps-in-korea-naver-kakao-deep-links-weird-coordinates-and-ios-clipboard-25mf</link>
-    <guid>https://dev.to/piyaklabs/routing-around-google-maps-in-korea-naver-kakao-deep-links-weird-coordinates-and-ios-clipboard-25mf</guid>
-    <pubDate>Thu, 18 Jun 2026 04:50:22 +0000</pubDate>
+    <title>`terraform plan` is blind to anything not in its state. So I scan AWS directly with boto3.</title>
+    <link>https://dev.to/hitoshi1964/terraform-plan-is-blind-to-anything-not-in-its-state-so-i-scan-aws-directly-with-boto3-2gm3</link>
+    <guid>https://dev.to/hitoshi1964/terraform-plan-is-blind-to-anything-not-in-its-state-so-i-scan-aws-directly-with-boto3-2gm3</guid>
+    <pubDate>Thu, 18 Jun 2026 11:46:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve traveled to Korea, you&apos;ve hit this wall: Google Maps can&apos;t give you walking or transit directions here. Map-data export is restricted, so locals use Naver Map or KakaoMap instead. The...</description>
+    <description>terraform plan is great at one thing: telling you how your managed resources have drifted from your config. But it has a blind spot baked into its design — it only knows about resources that are...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Is Your &apos;Scalable&apos; Backend a Ticking Time Bomb?</title>
-    <link>https://dev.to/prabashanadev/is-your-scalable-backend-a-ticking-time-bomb-6o7</link>
-    <guid>https://dev.to/prabashanadev/is-your-scalable-backend-a-ticking-time-bomb-6o7</guid>
-    <pubDate>Thu, 18 Jun 2026 04:44:07 +0000</pubDate>
+    <title>I Built an AI Operating System for E-commerce (Because Dashboards are Dead)</title>
+    <link>https://dev.to/nitishkumarpro/i-built-an-ai-operating-system-for-e-commerce-because-dashboards-are-dead-3gbe</link>
+    <guid>https://dev.to/nitishkumarpro/i-built-an-ai-operating-system-for-e-commerce-because-dashboards-are-dead-3gbe</guid>
+    <pubDate>Thu, 18 Jun 2026 11:45:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Is Your &apos;Scalable&apos; Backend a Ticking Time Bomb? Architecting for True Resilience Introduction In the quest for modern applications, the siren call of cloud-native scale, serverless functions, and...</description>
+    <description>Most e-commerce founders spend 80% of their time managing fragmented software and only 20% actually growing their business. We’ve all been there: You have Shopify for the store, Klaviyo for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Weather App Is Lying to You (And Your Window Knows It)</title>
-    <link>https://dev.to/mindon/your-weather-app-is-lying-to-you-and-your-window-knows-it-5g8c</link>
-    <guid>https://dev.to/mindon/your-weather-app-is-lying-to-you-and-your-window-knows-it-5g8c</guid>
-    <pubDate>Thu, 18 Jun 2026 04:37:37 +0000</pubDate>
+    <title>Stop Guessing Between .count, .length, and .size in Rails</title>
+    <link>https://dev.to/pavelmyslik/stop-guessing-between-count-length-and-size-in-rails-46lm</link>
+    <guid>https://dev.to/pavelmyslik/stop-guessing-between-count-length-and-size-in-rails-46lm</guid>
+    <pubDate>Thu, 18 Jun 2026 11:43:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your Weather App Is Lying to You (And Your Window Knows It) I caught my weather app in 35 lies over 19 days. Here&apos;s what I found. The Setup I pointed a $30 IP camera out my window in Shenzhen and...</description>
+    <description>When investigating a slow Rails endpoint, it&apos;s common to start by looking for N+1 queries, missing indexes, or expensive joins. Sometimes, though, the real culprit is much smaller. It might be...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Actually Set Up Claude Projects That Most Users Don&apos;t Know</title>
-    <link>https://dev.to/aniruddhaadak/how-to-actually-set-up-claude-projects-that-most-users-dont-know-462l</link>
-    <guid>https://dev.to/aniruddhaadak/how-to-actually-set-up-claude-projects-that-most-users-dont-know-462l</guid>
-    <pubDate>Thu, 18 Jun 2026 04:34:00 +0000</pubDate>
+    <title>I&apos;m a Solo Developer in Sweden. I Built an AI Chrome Extension to Cut Through Media Bias.</title>
+    <link>https://dev.to/noisefilter_2bdc8953eeac0/im-a-solo-developer-in-sweden-i-built-an-ai-chrome-extension-to-cut-through-media-bias-1a8p</link>
+    <guid>https://dev.to/noisefilter_2bdc8953eeac0/im-a-solo-developer-in-sweden-i-built-an-ai-chrome-extension-to-cut-through-media-bias-1a8p</guid>
+    <pubDate>Thu, 18 Jun 2026 11:40:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most people treat Claude Projects like a folder with a label on it. They create a project. They give it a name. Maybe they write a sentence or two in the system prompt. Maybe they upload a file....</description>
+    <description>The world is full of noise. I built NoiseFilter to cut through it. News is everywhere, and it&apos;s never been harder to know what to trust. Who benefits from this article? Is it pushing an agenda?...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Cloud Security Tool Your Resume is Missing (Part 1)</title>
-    <link>https://dev.to/yescertified/the-cloud-security-tool-your-resume-is-missing-part-1-e2</link>
-    <guid>https://dev.to/yescertified/the-cloud-security-tool-your-resume-is-missing-part-1-e2</guid>
-    <pubDate>Thu, 18 Jun 2026 04:33:21 +0000</pubDate>
+    <title>We Built Deterministic JSON Ops for AI Agents — The Problem It Solves</title>
+    <link>https://dev.to/murali_gour_13cd7a6a6db2c/we-built-deterministic-json-ops-for-ai-agents-the-problem-it-solves-1202</link>
+    <guid>https://dev.to/murali_gour_13cd7a6a6db2c/we-built-deterministic-json-ops-for-ai-agents-the-problem-it-solves-1202</guid>
+    <pubDate>Thu, 18 Jun 2026 11:37:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Have you ever sat down to study for your AWS certification, opened your notes or your course material, and then just stared at the screen? Not because you are lazy. Not because you do not care,...</description>
+    <description>Every AI agent that calls an external API hits the same wall. The response comes back as raw JSON, deeply nested, verbose, full of fields the agent doesn&apos;t need. Before the agent can reason over...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How We Built an AI SaaS on the Edge for Nearly $0 in Infrastructure Costs</title>
-    <link>https://dev.to/theo_oliveira_40b15cfaf73/how-we-built-an-ai-saas-on-the-edge-for-nearly-0-in-infrastructure-costs-24jm</link>
-    <guid>https://dev.to/theo_oliveira_40b15cfaf73/how-we-built-an-ai-saas-on-the-edge-for-nearly-0-in-infrastructure-costs-24jm</guid>
-    <pubDate>Thu, 18 Jun 2026 04:26:22 +0000</pubDate>
+    <title>Your AGENTS.md is valid. Your agent still breaks the rules.</title>
+    <link>https://dev.to/garrison-hq/your-agentsmd-is-valid-your-agent-still-breaks-the-rules-4do6</link>
+    <guid>https://dev.to/garrison-hq/your-agentsmd-is-valid-your-agent-still-breaks-the-rules-4do6</guid>
+    <pubDate>Thu, 18 Jun 2026 11:34:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. Introduction A few months ago, we started building Propoza, a tool that generates business proposals with AI for Brazilian freelancers and small business owners. The problem was practical:...</description>
+    <description>I wrote a tiny operating policy for a support bot. Two rules, both reasonable, both the kind of thing a real team would put in an AGENTS.md: Rule 1. The agent must never reveal the internal API...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Testing &amp; Debugging React Apps — Write Code You Can Actually Trust</title>
-    <link>https://dev.to/kushang_tailor/testing-debugging-react-apps-write-code-you-can-actually-trust-5334</link>
-    <guid>https://dev.to/kushang_tailor/testing-debugging-react-apps-write-code-you-can-actually-trust-5334</guid>
-    <pubDate>Thu, 18 Jun 2026 04:26:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Read Time: ~14 minutes | Ship with confidence — because guessing is not a strategy Prerequisites: React fundamentals, hooks, state management, Next.js basics (Parts 1–4) 📌 What You&apos;ll Learn By the...</description>
+    <title>Challenging the Narrative of European Decline</title>
+    <link>https://paulkrugman.substack.com/p/challenging-the-narrative-of-european-478</link>
+    <guid>https://paulkrugman.substack.com/p/challenging-the-narrative-of-european-478</guid>
+    <pubDate>Thu, 18 Jun 2026 11:34:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://paulkrugman.substack.com/p/challenging-the-narrative-of-european-478 Comments URL: https://news.ycombinator.com/item?id=48583843 Points: 5 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Generate AI Video with Veo 3.1 via the Google Flow API</title>
-    <link>https://dev.to/useapi/how-to-generate-ai-video-with-veo-31-via-the-google-flow-api-2g4i</link>
-    <guid>https://dev.to/useapi/how-to-generate-ai-video-with-veo-31-via-the-google-flow-api-2g4i</guid>
-    <pubDate>Thu, 18 Jun 2026 04:23:24 +0000</pubDate>
+    <title>Unlock Kafka Schemas with Karapace: A Hands-On Guide</title>
+    <link>https://dev.to/zeliotofficial/unlock-kafka-schemas-with-karapace-a-hands-on-guide-4kp6</link>
+    <guid>https://dev.to/zeliotofficial/unlock-kafka-schemas-with-karapace-a-hands-on-guide-4kp6</guid>
+    <pubDate>Thu, 18 Jun 2026 11:29:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Veo 3.1, Google&apos;s flagship video model, runs from a single curl through useapi.net. You drive your own Google Flow account — no Google Cloud project, no enterprise approval, and up to...</description>
+    <description>TL;DR Kafka handles event streaming: producers write to topics, consumers read. JSON parsing lags at scale, so use Karapace Schema Registry (open-source Confluent alternative) with Protobuf for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Built an Autonomous Incident Investigation Agent That Reduced MTTR by 65%</title>
-    <link>https://dev.to/velumal09/how-i-built-an-autonomous-incident-investigation-agent-that-reduced-mttr-by-65-42ae</link>
-    <guid>https://dev.to/velumal09/how-i-built-an-autonomous-incident-investigation-agent-that-reduced-mttr-by-65-42ae</guid>
-    <pubDate>Thu, 18 Jun 2026 04:22:12 +0000</pubDate>
+    <title>I Built a Local Linux Binary Sandbox in Python — Zero Cloud, Zero Root</title>
+    <link>https://dev.to/usmanismail0x/i-built-a-local-linux-binary-sandbox-in-python-zero-cloud-zero-root-f0n</link>
+    <guid>https://dev.to/usmanismail0x/i-built-a-local-linux-binary-sandbox-in-python-zero-cloud-zero-root-f0n</guid>
+    <pubDate>Thu, 18 Jun 2026 11:28:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Series: AI-Native SRE Table of Contents The Problem Every On-Call Engineer Knows What FRIDAY Does Architecture Overview Key Design Decisions The Tool-Use Loop: How FRIDAY Reasons The Training...</description>
+    <description>I wanted a way to analyze suspicious Linux binaries locally without uploading them to VirusTotal, spinning up a virtual machine, or deploying a heavyweight sandbox. So I built Lure — a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Hidden Cost of Employees Asking &quot;What Should I Do Next?&quot;</title>
-    <link>https://dev.to/saifuddin_tipu_ba2d0355b0/the-hidden-cost-of-employees-asking-what-should-i-do-next-5flf</link>
-    <guid>https://dev.to/saifuddin_tipu_ba2d0355b0/the-hidden-cost-of-employees-asking-what-should-i-do-next-5flf</guid>
-    <pubDate>Thu, 18 Jun 2026 04:21:24 +0000</pubDate>
+    <title>How to make production ready OTP handling system</title>
+    <link>https://dev.to/tomdevbrown/how-to-make-production-ready-otp-handling-system-1g5e</link>
+    <guid>https://dev.to/tomdevbrown/how-to-make-production-ready-otp-handling-system-1g5e</guid>
+    <pubDate>Thu, 18 Jun 2026 11:24:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every growing company reaches a point where people start asking the same questions over and over again. &quot;How do I process this request?&quot; &quot;Who approves this?&quot; &quot;What if the customer doesn&apos;t...</description>
+    <description>Handling an OTP (One-Time Password) flow requires a clean sequence so you don&apos;t run into race conditions, like a user trying to verify a token before it&apos;s securely saved in your state or database....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Midjourney Medical goes from generating ‘cat images’ to full-body ultrasound scans</title>
+    <title>Embedding Forbidden Text in Spyware to Discourage AI Analysis</title>
+    <link>https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html</guid>
+    <pubDate>Thu, 18 Jun 2026 11:04:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>At least one malware developer is adding text about nuclear and biological weapons to their spyware, in an effort to stop automatic AI analysis. Details: The _index.js payload begins with a large...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Scripts on Your Checkout Page Are Now a PCI DSS Problem</title>
+    <link>https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html</link>
+    <guid>https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html</guid>
+    <pubDate>Thu, 18 Jun 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into your checkout,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Geoengineering still faces major practical challenges</title>
+    <link>https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges/</link>
+    <guid>https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges/</guid>
+    <pubDate>Thu, 18 Jun 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Solar geoengineering is often portrayed as a sort of emergency brake. Something along the lines of Pull in case of climate emergency to scatter light-reflecting particles to bounce sunlight out of...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The search for dark matter has been blown wide open</title>
+    <link>https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/</link>
+    <guid>https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/</guid>
+    <pubDate>Thu, 18 Jun 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Underneath an Apennine massif, below the Jinping Mountains of Sichuan, and at the bottom of a South Dakota mine, there is a cosmic hunt afoot. Isolated deep beneath these rocky shields, massive...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The UK Will Scan Asylum-Seekers’ Faces for Age Checks—Despite Knowing the Tech Is Flawed</title>
+    <link>https://www.wired.com/story/facial-age-estimate-uk-asylum-seekers/</link>
+    <guid>https://www.wired.com/story/facial-age-estimate-uk-asylum-seekers/</guid>
+    <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Internal Home Office tests of age-verification technology show the risks of life-altering errors. It’s moving forward anyway.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Midjourney goes from generating cat images to full-body ultrasound scans</title>
     <link>https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan</link>
     <guid>https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan</guid>
     <pubDate>Thu, 18 Jun 2026 03:12:31 +0000</pubDate>
@@ -224,57 +269,12 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Operating a Humanoid With Your Body Is a Hot Job in China’s Hardware Capital</title>
-    <link>https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/</link>
-    <guid>https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/</guid>
-    <pubDate>Wed, 17 Jun 2026 18:25:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>In Shenzhen, workers at IO-AI Tech control humanoid robots using a VR rig reminiscent of Ready Player One.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Social media’s next evolution: user-controlled algorithms</title>
-    <link>https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/</link>
-    <guid>https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/</guid>
-    <pubDate>Wed, 17 Jun 2026 18:19:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Social media feeds are becoming more customizable as platforms like Threads, Instagram, and TikTok introduce tools that let users directly influence the algorithms powering their recommendations.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments</title>
     <link>https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html</link>
     <guid>https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html</guid>
     <pubDate>Wed, 17 Jun 2026 18:14:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>NEA’s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning</title>
-    <link>https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/</link>
-    <guid>https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/</guid>
-    <pubDate>Wed, 17 Jun 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>&quot;Dangerous&quot; AI models are coming no matter what</title>
-    <link>https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/</link>
-    <guid>https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/</guid>
-    <pubDate>Wed, 17 Jun 2026 17:50:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>AI models with advanced hacking capabilities will soon be the norm.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development</title>
-    <link>https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html</link>
-    <guid>https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html</guid>
-    <pubDate>Wed, 17 Jun 2026 17:36:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft has formally disclosed that it&apos;s working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifier...</description>
     <category>Security</category>
   </item>
 </channel>
