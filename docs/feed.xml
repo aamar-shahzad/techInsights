@@ -5,43 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 17 Jun 2026 22:13:54 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 18 Jun 2026 05:01:48 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I built an image compressor that hits an exact KB size — and never uploads your files</title>
-    <link>https://dev.to/talhaasjad/i-built-an-image-compressor-that-hits-an-exact-kb-size-and-never-uploads-your-files-3jnc</link>
-    <guid>https://dev.to/talhaasjad/i-built-an-image-compressor-that-hits-an-exact-kb-size-and-never-uploads-your-files-3jnc</guid>
-    <pubDate>Wed, 17 Jun 2026 22:01:46 +0000</pubDate>
+    <title>Routing around Google Maps in Korea: Naver &amp; Kakao deep links, weird coordinates, and iOS clipboard</title>
+    <link>https://dev.to/piyaklabs/routing-around-google-maps-in-korea-naver-kakao-deep-links-weird-coordinates-and-ios-clipboard-25mf</link>
+    <guid>https://dev.to/piyaklabs/routing-around-google-maps-in-korea-naver-kakao-deep-links-weird-coordinates-and-ios-clipboard-25mf</guid>
+    <pubDate>Thu, 18 Jun 2026 04:50:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR: Online forms demand images under a hard limit — &quot;signature under 20 KB,&quot; &quot;photo under 50 KB.&quot; Most compressors make you upload your file to a server to hit that. I built SwiftShrink to do...</description>
+    <description>If you&apos;ve traveled to Korea, you&apos;ve hit this wall: Google Maps can&apos;t give you walking or transit directions here. Map-data export is restricted, so locals use Naver Map or KakaoMap instead. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>🧩 Your MapStruct Mappers Are Hiding Null Bugs</title>
-    <link>https://dev.to/code_with_kyryl/your-mapstruct-mappers-are-hiding-null-bugs-33m5</link>
-    <guid>https://dev.to/code_with_kyryl/your-mapstruct-mappers-are-hiding-null-bugs-33m5</guid>
-    <pubDate>Wed, 17 Jun 2026 21:54:58 +0000</pubDate>
+    <title>Is Your &apos;Scalable&apos; Backend a Ticking Time Bomb?</title>
+    <link>https://dev.to/prabashanadev/is-your-scalable-backend-a-ticking-time-bomb-6o7</link>
+    <guid>https://dev.to/prabashanadev/is-your-scalable-backend-a-ticking-time-bomb-6o7</guid>
+    <pubDate>Thu, 18 Jun 2026 04:44:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Someone adds a field to a DTO. The entity already has it. MapStruct compiles fine, the tests pass, the PR merges. Two weeks later the field is null in production and nobody knows why. The compiler...</description>
+    <description>Is Your &apos;Scalable&apos; Backend a Ticking Time Bomb? Architecting for True Resilience Introduction In the quest for modern applications, the siren call of cloud-native scale, serverless functions, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Event Loop - Entendendo uma das bases do Node</title>
-    <link>https://dev.to/joaovictor6/event-loop-entendendo-uma-das-bases-do-node-41a</link>
-    <guid>https://dev.to/joaovictor6/event-loop-entendendo-uma-das-bases-do-node-41a</guid>
-    <pubDate>Wed, 17 Jun 2026 21:51:46 +0000</pubDate>
+    <title>Your Weather App Is Lying to You (And Your Window Knows It)</title>
+    <link>https://dev.to/mindon/your-weather-app-is-lying-to-you-and-your-window-knows-it-5g8c</link>
+    <guid>https://dev.to/mindon/your-weather-app-is-lying-to-you-and-your-window-knows-it-5g8c</guid>
+    <pubDate>Thu, 18 Jun 2026 04:37:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>O Event Loop é o mecanismo responsável por decidir quando callbacks e continuidades de operações assíncronas devem ser executados. Ele não executa operações de I/O diretamente, mas organiza a...</description>
+    <description>Your Weather App Is Lying to You (And Your Window Knows It) I caught my weather app in 35 lies over 19 days. Here&apos;s what I found. The Setup I pointed a $30 IP camera out my window in Shenzhen and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Storied Colors – a catalogue of named colors</title>
-    <link>https://storiedcolors.com/</link>
-    <guid>https://storiedcolors.com/</guid>
-    <pubDate>Wed, 17 Jun 2026 21:49:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://storiedcolors.com/ Comments URL: https://news.ycombinator.com/item?id=48577374 Points: 6 # Comments: 0</description>
+    <title>How to Actually Set Up Claude Projects That Most Users Don&apos;t Know</title>
+    <link>https://dev.to/aniruddhaadak/how-to-actually-set-up-claude-projects-that-most-users-dont-know-462l</link>
+    <guid>https://dev.to/aniruddhaadak/how-to-actually-set-up-claude-projects-that-most-users-dont-know-462l</guid>
+    <pubDate>Thu, 18 Jun 2026 04:34:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most people treat Claude Projects like a folder with a label on it. They create a project. They give it a name. Maybe they write a sentence or two in the system prompt. Maybe they upload a file....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Cloud Security Tool Your Resume is Missing (Part 1)</title>
+    <link>https://dev.to/yescertified/the-cloud-security-tool-your-resume-is-missing-part-1-e2</link>
+    <guid>https://dev.to/yescertified/the-cloud-security-tool-your-resume-is-missing-part-1-e2</guid>
+    <pubDate>Thu, 18 Jun 2026 04:33:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Have you ever sat down to study for your AWS certification, opened your notes or your course material, and then just stared at the screen? Not because you are lazy. Not because you do not care,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How We Built an AI SaaS on the Edge for Nearly $0 in Infrastructure Costs</title>
+    <link>https://dev.to/theo_oliveira_40b15cfaf73/how-we-built-an-ai-saas-on-the-edge-for-nearly-0-in-infrastructure-costs-24jm</link>
+    <guid>https://dev.to/theo_oliveira_40b15cfaf73/how-we-built-an-ai-saas-on-the-edge-for-nearly-0-in-infrastructure-costs-24jm</guid>
+    <pubDate>Thu, 18 Jun 2026 04:26:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>1. Introduction A few months ago, we started building Propoza, a tool that generates business proposals with AI for Brazilian freelancers and small business owners. The problem was practical:...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Testing &amp; Debugging React Apps — Write Code You Can Actually Trust</title>
+    <link>https://dev.to/kushang_tailor/testing-debugging-react-apps-write-code-you-can-actually-trust-5334</link>
+    <guid>https://dev.to/kushang_tailor/testing-debugging-react-apps-write-code-you-can-actually-trust-5334</guid>
+    <pubDate>Thu, 18 Jun 2026 04:26:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Read Time: ~14 minutes | Ship with confidence — because guessing is not a strategy Prerequisites: React fundamentals, hooks, state management, Next.js basics (Parts 1–4) 📌 What You&apos;ll Learn By the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Generate AI Video with Veo 3.1 via the Google Flow API</title>
+    <link>https://dev.to/useapi/how-to-generate-ai-video-with-veo-31-via-the-google-flow-api-2g4i</link>
+    <guid>https://dev.to/useapi/how-to-generate-ai-video-with-veo-31-via-the-google-flow-api-2g4i</guid>
+    <pubDate>Thu, 18 Jun 2026 04:23:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction Veo 3.1, Google&apos;s flagship video model, runs from a single curl through useapi.net. You drive your own Google Flow account — no Google Cloud project, no enterprise approval, and up to...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How I Built an Autonomous Incident Investigation Agent That Reduced MTTR by 65%</title>
+    <link>https://dev.to/velumal09/how-i-built-an-autonomous-incident-investigation-agent-that-reduced-mttr-by-65-42ae</link>
+    <guid>https://dev.to/velumal09/how-i-built-an-autonomous-incident-investigation-agent-that-reduced-mttr-by-65-42ae</guid>
+    <pubDate>Thu, 18 Jun 2026 04:22:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Series: AI-Native SRE Table of Contents The Problem Every On-Call Engineer Knows What FRIDAY Does Architecture Overview Key Design Decisions The Tool-Use Loop: How FRIDAY Reasons The Training...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Hidden Cost of Employees Asking &quot;What Should I Do Next?&quot;</title>
+    <link>https://dev.to/saifuddin_tipu_ba2d0355b0/the-hidden-cost-of-employees-asking-what-should-i-do-next-5flf</link>
+    <guid>https://dev.to/saifuddin_tipu_ba2d0355b0/the-hidden-cost-of-employees-asking-what-should-i-do-next-5flf</guid>
+    <pubDate>Thu, 18 Jun 2026 04:21:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every growing company reaches a point where people start asking the same questions over and over again. &quot;How do I process this request?&quot; &quot;Who approves this?&quot; &quot;What if the customer doesn&apos;t...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Midjourney Medical goes from generating ‘cat images’ to full-body ultrasound scans</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan</guid>
+    <pubDate>Thu, 18 Jun 2026 03:12:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Midjourney CEO David Holz just showed off the company&apos;s first hardware product and plans to build a San Francisco spa, which he admitted is a bit different from the &quot;cat pictures&quot; produced by its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How to turn off AI in your Google Docs</title>
+    <link>https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/</link>
+    <guid>https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/</guid>
+    <pubDate>Thu, 18 Jun 2026 01:23:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Here&apos;s what you need to do to get those pesky &quot;write with Gemini&quot; pop-ups to go away.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy</title>
+    <link>https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/</link>
+    <guid>https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/</guid>
+    <pubDate>Wed, 17 Jun 2026 22:52:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Days before Anthropic took its most advanced AI models offline, the White House ordered the company to revoke SK Telecom’s access to Claude Mythos over claims of alleged ties to China.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Tim Cook says RAM expenses are &amp;#8216;unsustainable&amp;#8217; and Apple is going to raise prices</title>
@@ -51,60 +132,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Apple is planning to raise prices in response to the ongoing memory shortage. In an interview with The Wall Street Journal, Apple CEO Tim Cook says &quot;price increases are unavoidable:&quot; We&apos;re doing...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Stop Picking Dashboard Icons by Keyword</title>
-    <link>https://dev.to/svgicons/stop-picking-dashboard-icons-by-keyword-ij2</link>
-    <guid>https://dev.to/svgicons/stop-picking-dashboard-icons-by-keyword-ij2</guid>
-    <pubDate>Wed, 17 Jun 2026 21:38:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most dashboard icon problems do not come from bad icons. They come from good icons used with the wrong meaning. You search for users, pick a clean SVG icon, place it in the sidebar, and move on....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Using LLM for Dialogue Management</title>
-    <link>https://dev.to/shashank_ms_6a35baa4be138/using-llm-for-dialogue-management-1lgk</link>
-    <guid>https://dev.to/shashank_ms_6a35baa4be138/using-llm-for-dialogue-management-1lgk</guid>
-    <pubDate>Wed, 17 Jun 2026 21:36:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Dialogue management is the process of tracking conversational state and deciding what an agent should say or do next. Classical systems split this into isolated modules: natural language...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>WIP - Glossário DevOps #1</title>
-    <link>https://dev.to/joaovictor6/wip-glossario-devops-1-171e</link>
-    <guid>https://dev.to/joaovictor6/wip-glossario-devops-1-171e</guid>
-    <pubDate>Wed, 17 Jun 2026 21:36:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Texto com base no livro &quot;Manual de DevOps&quot; WIP significa &quot;Work In Progress&quot;. É uma métrica essencial que representa a quantidade de trabalho iniciado, mas ainda não concluído. Na prática, ela...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>FIFA Hack Authentication Flaw, Chrome Ad Blocker End, AI Supply Chain Security</title>
-    <link>https://dev.to/soytuber/fifa-hack-authentication-flaw-chrome-ad-blocker-end-ai-supply-chain-security-4nme</link>
-    <guid>https://dev.to/soytuber/fifa-hack-authentication-flaw-chrome-ad-blocker-end-ai-supply-chain-security-4nme</guid>
-    <pubDate>Wed, 17 Jun 2026 21:36:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>FIFA Hack Authentication Flaw, Chrome Ad Blocker End, AI Supply Chain Security Today&apos;s Highlights Today&apos;s top security news covers a critical real-world authentication vulnerability, significant...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>LLM Fallback in Production, Agentic eCommerce, and GitHub Copilot for Parallel Agents</title>
-    <link>https://dev.to/soytuber/llm-fallback-in-production-agentic-ecommerce-and-github-copilot-for-parallel-agents-1pap</link>
-    <guid>https://dev.to/soytuber/llm-fallback-in-production-agentic-ecommerce-and-github-copilot-for-parallel-agents-1pap</guid>
-    <pubDate>Wed, 17 Jun 2026 21:35:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>LLM Fallback in Production, Agentic eCommerce, and GitHub Copilot for Parallel Agents Today&apos;s Highlights This week highlights practical applications and architectural considerations for AI...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Can&apos;t Walnut Creek Build 3 Bedroom Apartments with a Playground?</title>
-    <link>https://kevin.burke.dev/kevin/walnut-creek-single-stair/</link>
-    <guid>https://kevin.burke.dev/kevin/walnut-creek-single-stair/</guid>
-    <pubDate>Wed, 17 Jun 2026 21:35:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://kevin.burke.dev/kevin/walnut-creek-single-stair/ Comments URL: https://news.ycombinator.com/item?id=48577246 Points: 4 # Comments: 1</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>VSCO launches Studio Pro mobile photo editing app and plans $500 per year subscription</title>
@@ -242,15 +269,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names</title>
-    <link>https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/</link>
-    <guid>https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/</guid>
-    <pubDate>Wed, 17 Jun 2026 17:43:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>World models are the next big thing in AI beyond LLMs and, with this round, Odyssey has cemented itself as one of the startups to watch.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development</title>
     <link>https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html</link>
     <guid>https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html</guid>
@@ -258,24 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Microsoft has formally disclosed that it&apos;s working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifier...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Two-thirds of Americans think AI is advancing too quickly</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly</guid>
-    <pubDate>Wed, 17 Jun 2026 17:20:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>According to the latest Pew Research poll, 49 percent of Americans report using chatbots at least occasionally, but 63 percent think the tech is advancing too quickly. Overall, use of AI chatbots...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Only 16 percent of Americans think AI will have a positive impact on society, a new study shows</title>
-    <link>https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/</link>
-    <guid>https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/</guid>
-    <pubDate>Wed, 17 Jun 2026 17:00:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Although Wall Street loves AI, every day Americans are significantly less optimistic about the industry, a new report from Pew Research shows.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
