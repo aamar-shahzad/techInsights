@@ -5,34 +5,222 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 18 Jun 2026 15:52:15 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 18 Jun 2026 18:35:35 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Our Competitor Had an AI That Covered 97.2%. We Had a Spreadsheet and a Fake Quote. Guess Who Won.</title>
-    <link>https://dev.to/xulingfeng/our-competitor-had-an-ai-that-covered-972-we-had-a-spreadsheet-and-a-fake-quote-guess-who-won-5cc3</link>
-    <guid>https://dev.to/xulingfeng/our-competitor-had-an-ai-that-covered-972-we-had-a-spreadsheet-and-a-fake-quote-guess-who-won-5cc3</guid>
-    <pubDate>Thu, 18 Jun 2026 15:36:12 +0000</pubDate>
+    <title>Amazon hopes to challenge Nvidia more directly by selling its AI chips</title>
+    <link>https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/</link>
+    <guid>https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/</guid>
+    <pubDate>Thu, 18 Jun 2026 18:22:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Building a Kubernetes Cluster on Red Hat Enterprise Linux 10: A kubeadm Guide</title>
+    <link>https://dev.to/vilan011/building-a-kubernetes-cluster-on-red-hat-enterprise-linux-10-a-kubeadm-guide-1jpe</link>
+    <guid>https://dev.to/vilan011/building-a-kubernetes-cluster-on-red-hat-enterprise-linux-10-a-kubeadm-guide-1jpe</guid>
+    <pubDate>Thu, 18 Jun 2026 18:22:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You walk into the RFP briefing. Your competitor has 200 people, 97% AI coverage, and a 4-day delivery promise. You have 15 people and a proposal you haven&apos;t even finished writing. Do you bet on...</description>
+    <description>Introduction In this post, I&apos;ll walk you through deploying a production-ready Kubernetes cluster on Red Hat Enterprise Linux 10 using kubeadm. This lab was inspired by Anthony E. Nocentino&apos;s...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Perl PAGI Project Updates</title>
-    <link>https://dev.to/jjn1056/perl-pagi-project-updates-4602</link>
-    <guid>https://dev.to/jjn1056/perl-pagi-project-updates-4602</guid>
-    <pubDate>Thu, 18 Jun 2026 15:31:36 +0000</pubDate>
+    <title>Swift VSX Support, Biome Type Inference, Agent Guardrails</title>
+    <link>https://dev.to/devsignal/swift-vsx-support-biome-type-inference-agent-guardrails-en5</link>
+    <guid>https://dev.to/devsignal/swift-vsx-support-biome-type-inference-agent-guardrails-en5</guid>
+    <pubDate>Thu, 18 Jun 2026 18:21:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quick update to anyone interested in upcoming changes to the PAGI project (spiritual successor to Plack/PSGI). 1) Distribution split up: when we released PAGI, we initially released everything as...</description>
+    <description>This week&apos;s tooling news clusters around a recurring theme: removing dependencies that were never really necessary. Biome ditches the TypeScript compiler for type-aware linting. Swift developers...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Agent Framework RAG for Agents: Giving Your Agent the Right Context</title>
-    <link>https://dev.to/lukaswalter/agent-framework-rag-for-agents-giving-your-agent-the-right-context-1n15</link>
-    <guid>https://dev.to/lukaswalter/agent-framework-rag-for-agents-giving-your-agent-the-right-context-1n15</guid>
-    <pubDate>Thu, 18 Jun 2026 15:30:00 +0000</pubDate>
+    <title>AI Can Write the Code. Who Gives It the Context?</title>
+    <link>https://dev.to/icetique/ai-can-write-the-code-who-gives-it-the-context-2l1b</link>
+    <guid>https://dev.to/icetique/ai-can-write-the-code-who-gives-it-the-context-2l1b</guid>
+    <pubDate>Thu, 18 Jun 2026 18:21:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is Part 13 of my series on the Microsoft Agent Framework. You can read the original post over on lukaswalter.dev. In the previous article, we looked at workflows. Workflows make sense when...</description>
+    <description>When you talk to ChatGPT about a subject you understand well, you quickly notice something. The first answer is rarely the final answer. You add context. You correct an assumption. You explain...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Cheaper API Was 2.5x Cheaper. It Cost 1.6x More.</title>
+    <link>https://dev.to/0012303/the-cheaper-api-was-25x-cheaper-it-cost-16x-more-5b7c</link>
+    <guid>https://dev.to/0012303/the-cheaper-api-was-25x-cheaper-it-cost-16x-more-5b7c</guid>
+    <pubDate>Thu, 18 Jun 2026 18:20:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI-disclosure: AI-assisted draft, human-reviewed. The demo numbers are the verbatim stdout of a deterministic, stdlib-only Python script included in full below — re-run it and you get the same...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Workflow SDK AbortController + Claude Fable 5: Issue #38</title>
+    <link>https://dev.to/devsignal/workflow-sdk-abortcontroller-claude-fable-5-issue-38-527d</link>
+    <guid>https://dev.to/devsignal/workflow-sdk-abortcontroller-claude-fable-5-issue-38-527d</guid>
+    <pubDate>Thu, 18 Jun 2026 18:20:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week&apos;s AI tooling news splits cleanly between infrastructure you can ship today and capability bets that require more careful evaluation. Anthropic dropped two significant releases—Fable 5...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hyperpb Parser Matches Generated Code Speed</title>
+    <link>https://dev.to/devsignal/hyperpb-parser-matches-generated-code-speed-33n0</link>
+    <guid>https://dev.to/devsignal/hyperpb-parser-matches-generated-code-speed-33n0</guid>
+    <pubDate>Thu, 18 Jun 2026 18:19:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week&apos;s tooling news splits cleanly between performance and compliance: a Go Protobuf parser that closes the gap between reflection and generated code, and a GitLab update that finally makes...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>IDE fixes, TS 5.9 beta, Claude tool use explained</title>
+    <link>https://dev.to/devsignal/ide-fixes-ts-59-beta-claude-tool-use-explained-epm</link>
+    <guid>https://dev.to/devsignal/ide-fixes-ts-59-beta-claude-tool-use-explained-epm</guid>
+    <pubDate>Thu, 18 Jun 2026 18:18:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week landed a mix of maintenance you can&apos;t skip and concepts worth understanding before they bite you in production. The Continue plugin fixes address real crash vectors that have been...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Biome v1.7 + 5 dev tool updates this week</title>
+    <link>https://dev.to/devsignal/biome-v17-5-dev-tool-updates-this-week-26b1</link>
+    <guid>https://dev.to/devsignal/biome-v17-5-dev-tool-updates-this-week-26b1</guid>
+    <pubDate>Thu, 18 Jun 2026 18:17:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week&apos;s tooling landscape is defined by a recurring theme: reducing operational overhead at the architecture level rather than patching symptoms. Biome automates away the ESLint migration...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Ruff 0.6 stabilizes notebook linting, new SDKs ship</title>
+    <link>https://dev.to/devsignal/ruff-06-stabilizes-notebook-linting-new-sdks-ship-1ajf</link>
+    <guid>https://dev.to/devsignal/ruff-06-stabilizes-notebook-linting-new-sdks-ship-1ajf</guid>
+    <pubDate>Thu, 18 Jun 2026 18:16:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week&apos;s releases split neatly into two themes: Python tooling getting quieter (Ruff shipping defaults that just work) and the multimodal model landscape getting louder (NVIDIA and Microsoft...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Swift 1.0 Stable APIs + Rust 1.95 Language Features</title>
+    <link>https://dev.to/devsignal/swift-10-stable-apis-rust-195-language-features-4e96</link>
+    <guid>https://dev.to/devsignal/swift-10-stable-apis-rust-195-language-features-4e96</guid>
+    <pubDate>Thu, 18 Jun 2026 18:16:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week&apos;s releases are less about flashy new capabilities and more about the quieter, more valuable kind of progress: stable APIs that let you stop maintaining workarounds. Swift&apos;s server...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>MosaicLeaks: Can your research agent keep a secret?</title>
+    <link>https://huggingface.co/blog/ServiceNow/mosaicleaks</link>
+    <guid>https://huggingface.co/blog/ServiceNow/mosaicleaks</guid>
+    <pubDate>Thu, 18 Jun 2026 18:13:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>This robotic self-driving toilet comes to you</title>
+    <link>https://www.theverge.com/tech/952441/yueban-xiaoban-self-driving-autonomous-toilet</link>
+    <guid>https://www.theverge.com/tech/952441/yueban-xiaoban-self-driving-autonomous-toilet</guid>
+    <pubDate>Thu, 18 Jun 2026 18:08:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>During a recent expo in Shanghai that focuses on elderly care, assistive devices, and rehabilitation medicine, a Chinese company called Yueban debuted a smart toilet that does something we haven&apos;t...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI data centers just got a government-mandated fast lane to the grid</title>
+    <link>https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/</link>
+    <guid>https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/</guid>
+    <pubDate>Thu, 18 Jun 2026 17:49:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>FERC told grid operators to give data centers a fast lane for interconnections, but it failed to address electricity supply shortages.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Before SpaceX IPO, investors in China secretly acquired stakes</title>
+    <link>https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/</link>
+    <guid>https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/</guid>
+    <pubDate>Thu, 18 Jun 2026 17:42:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>One previously unreported SpaceX investor has ties to Chinese military contractors.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm</title>
+    <link>https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/</link>
+    <guid>https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/</guid>
+    <pubDate>Thu, 18 Jun 2026 17:37:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
+    <description>For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>A year of Walmart Plus is half off ahead of Prime Day</title>
+    <link>https://www.theverge.com/gadgets/952283/walmart-plus-half-off-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/952283/walmart-plus-half-off-deal-sale</guid>
+    <pubDate>Thu, 18 Jun 2026 17:33:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Do you often find yourself shopping at the big blue, or perhaps you’re just looking for an alternative to Amazon? Either way, Walmart is currently offering a year of its Walmart Plus subscription...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Firefox’s new home page widgets are helping me focus</title>
+    <link>https://www.theverge.com/tech/952354/firefox-home-page-widgets</link>
+    <guid>https://www.theverge.com/tech/952354/firefox-home-page-widgets</guid>
+    <pubDate>Thu, 18 Jun 2026 17:29:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I launched Firefox this morning to find some new blocks on my home page. The widgets that are currently rolling out add sports scores, time zones, a focus timer, and a checklist, which are already...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The smartphone era created an attention crisis. Slowtech is fixing it</title>
+    <link>https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it/</link>
+    <guid>https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it/</guid>
+    <pubDate>Thu, 18 Jun 2026 17:16:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>“People just really want to take back control of their time, their lives, their attention... They’re down for whatever helps them do that.”</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Onion’s rebooted InfoWars is coming July 2nd</title>
+    <link>https://www.theverge.com/news/952264/the-onion-infowars-takeover-alex-jones-relaunch</link>
+    <guid>https://www.theverge.com/news/952264/the-onion-infowars-takeover-alex-jones-relaunch</guid>
+    <pubDate>Thu, 18 Jun 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Onion&apos;s InfoWars officially has a launch date: On July 2nd, the conspiracy network previously run by Alex Jones will return as a comedy and media platform. The reboot comes more than a year...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>‘Queer Eye’s’ life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone</title>
+    <link>https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/</link>
+    <guid>https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/</guid>
+    <pubDate>Thu, 18 Jun 2026 16:55:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Karamo Brown, famous for his pep talks on Netflix’s “Queer Eye,” has jumped into the wellness and AI space with his new app, Kē. After spending a year and a half focusing on his own journey—from...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>3 Amazon Workers Say They’re Under Investigation for Speaking Out About Data Centers</title>
+    <link>https://www.wired.com/story/amazon-workers-under-internal-investigation-after-speaking-out-about-data-centers/</link>
+    <guid>https://www.wired.com/story/amazon-workers-under-internal-investigation-after-speaking-out-about-data-centers/</guid>
+    <pubDate>Thu, 18 Jun 2026 16:03:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The software engineers filed a complaint with Seattle’s civil rights office accusing Amazon of illegally retaliating against them for expressing their personal political beliefs.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Amazon employees say they’re facing termination for backing data center limits</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action</guid>
+    <pubDate>Thu, 18 Jun 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When three Amazon software engineers testified earlier this month at Seattle City Council hearings about data centers, they started their testimony by citing a city law barring employment...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network</title>
+    <link>https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html</link>
+    <guid>https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html</guid>
+    <pubDate>Thu, 18 Jun 2026 15:33:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>If an autonomous AI agent interacts with your company&apos;s core intellectual property today, can your security team instantly name the person who authorized it? For most enterprises, the answer is a...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>No more lightbulbs, much more sports: Five predictions for Roku’s future</title>
@@ -44,31 +232,13 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Preparing Specs for AI Coding Agents</title>
-    <link>https://dev.to/pando85/preparing-specs-for-ai-coding-agents-phb</link>
-    <guid>https://dev.to/pando85/preparing-specs-for-ai-coding-agents-phb</guid>
-    <pubDate>Thu, 18 Jun 2026 15:22:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI coding agents now edit repositories, run commands, and produce branches. That makes the spec before the work more important: it carries the context, boundaries, and success criteria the agent...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Integrate Apache Kafka with Spring Boot: A Production-Ready Guide</title>
-    <link>https://dev.to/prashantsasalatti/how-to-integrate-apache-kafka-with-spring-boot-a-production-ready-guide-e6d</link>
-    <guid>https://dev.to/prashantsasalatti/how-to-integrate-apache-kafka-with-spring-boot-a-production-ready-guide-e6d</guid>
-    <pubDate>Thu, 18 Jun 2026 15:21:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When a Spring Boot service needs to talk to another service without waiting on a synchronous HTTP call, message queues are the usual answer. Apache Kafka has become the default choice for this in...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built Proofline because AI agents are getting too good at sounding finished</title>
-    <link>https://dev.to/aisflows/i-built-proofline-because-ai-agents-are-getting-too-good-at-sounding-finished-2gm7</link>
-    <guid>https://dev.to/aisflows/i-built-proofline-because-ai-agents-are-getting-too-good-at-sounding-finished-2gm7</guid>
-    <pubDate>Thu, 18 Jun 2026 15:20:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI agents are getting very good at writing final reports. The problem is not only that they make mistakes. The problem is that sometimes they make mistakes with excellent presentation. Proofline...</description>
-    <category>Developer Tools</category>
+    <title>ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories</title>
+    <link>https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html</link>
+    <guid>https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html</guid>
+    <pubDate>Thu, 18 Jun 2026 15:27:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The internet did not break this week. It got used exactly as designed, which is worse. Searches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>General Intuition in talks to raise $300M at around $2B valuation</title>
@@ -76,44 +246,8 @@
     <guid>https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/</guid>
     <pubDate>Thu, 18 Jun 2026 15:20:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>General Intuition is in talks to raise around $300 million at a roughly $2 billion valuation from backers including Jeff Bezos. The startup trains AI agents on spatial-temporal reasoning.</description>
+    <description>The startup trains embodied AI and world models using Medal’s dataset of 2 billion videos per year from 10 million monthly active users.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Gas Optimization That Doesn&apos;t Break Security: Storage, Calldata, and the Traps</title>
-    <link>https://dev.to/pavelespitia/gas-optimization-that-doesnt-break-security-storage-calldata-and-the-traps-1ba3</link>
-    <guid>https://dev.to/pavelespitia/gas-optimization-that-doesnt-break-security-storage-calldata-and-the-traps-1ba3</guid>
-    <pubDate>Thu, 18 Jun 2026 15:15:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Gas optimization is satisfying. You shave a few thousand gas off a function and feel clever. But some optimizations trade away safety in ways that are not obvious, and I have seen &quot;optimized&quot;...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a browser diagram editor: which import/export formats actually matter?</title>
-    <link>https://dev.to/diagramnow/building-a-browser-diagram-editor-which-importexport-formats-actually-matter-18b5</link>
-    <guid>https://dev.to/diagramnow/building-a-browser-diagram-editor-which-importexport-formats-actually-matter-18b5</guid>
-    <pubDate>Thu, 18 Jun 2026 15:15:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclosure up front: I&apos;m affiliated with diagram.now — I&apos;m connected to the product. I&apos;m posting this to get developer feedback on diagram import/export interoperability, not to pitch an install....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Road Toward Mainnet: A Security-First Approach to XRPL Lending Protocol</title>
-    <link>https://dev.to/ripplexdev/the-road-toward-mainnet-a-security-first-approach-to-xrpl-lending-protocol-3bn6</link>
-    <guid>https://dev.to/ripplexdev/the-road-toward-mainnet-a-security-first-approach-to-xrpl-lending-protocol-3bn6</guid>
-    <pubDate>Thu, 18 Jun 2026 15:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Over the last several months, XRP Ledger (XRPL) has fundamentally shifted in how amendments move from concept to mainnet. Historically, amendment development was largely focused on functional...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>TerraPower in Deal with Meta for Eight Natrium 345 MW Advanced Nuclear Plants</title>
-    <link>https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/</link>
-    <guid>https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/</guid>
-    <pubDate>Thu, 18 Jun 2026 15:13:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/ Comments URL: https://news.ycombinator.com/item?id=48586648...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>A tech worker-backed PAC is bringing a $5M knife to Big Tech’s $100M gunfight</title>
@@ -140,141 +274,6 @@
     <pubDate>Thu, 18 Jun 2026 14:30:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026. &quot;The clipper in this campaign relies on Windows Script Host and...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The midterms are going to be a data security nightmare</title>
-    <link>https://www.theverge.com/policy/952167/voter-rolls-privacy-election-save-program</link>
-    <guid>https://www.theverge.com/policy/952167/voter-rolls-privacy-election-save-program</guid>
-    <pubDate>Thu, 18 Jun 2026 14:21:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One messy database is threatening to disenfranchise thousands or even millions of registered voters, while leaving even more at risk of intimidation or data breaches, in the name of solving a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Verge’s guide to Amazon Prime Day 2026</title>
-    <link>https://www.theverge.com/gadgets/951437/amazon-prime-day-tech-deals-guide-2026</link>
-    <guid>https://www.theverge.com/gadgets/951437/amazon-prime-day-tech-deals-guide-2026</guid>
-    <pubDate>Thu, 18 Jun 2026 14:17:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon Prime Day 2026 lifts off on June 23rd and will hopefully deliver the best deals of the summer. We’ve been covering the most notable pre-Prime Day discounts happening, and come next week,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023</title>
-    <link>https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html</link>
-    <guid>https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html</guid>
-    <pubDate>Thu, 18 Jun 2026 14:12:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The best robot vacuum deals available ahead of Prime Day</title>
-    <link>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</link>
-    <guid>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</guid>
-    <pubDate>Thu, 18 Jun 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. Prime Day is next week, but many retailers are...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Who decides when AI is too dangerous?</title>
-    <link>https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump</link>
-    <guid>https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump</guid>
-    <pubDate>Thu, 18 Jun 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>On today’s episode of Decoder, my guest is Hayden Field, senior AI reporter for The Verge. Often when Hayden comes on the show, it’s because something has gone wrong in the world of AI. Last...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Scripts on Your Checkout Page Are Now a PCI DSS Problem</title>
-    <link>https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html</link>
-    <guid>https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html</guid>
-    <pubDate>Thu, 18 Jun 2026 13:58:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into your checkout,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic</title>
-    <link>https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html</link>
-    <guid>https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html</guid>
-    <pubDate>Thu, 18 Jun 2026 13:30:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Amazon’s Kindle Colorsoft bundle is almost half off for Prime Day</title>
-    <link>https://www.theverge.com/gadgets/951234/amazon-kindle-colorsoft-bundle-prime-day-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/951234/amazon-kindle-colorsoft-bundle-prime-day-deal-sale</guid>
-    <pubDate>Thu, 18 Jun 2026 13:09:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon’s Kindle Colorsoft Essentials Bundle is on sale for $182.97 (originally $334.97) as an early Prime Day deal, the lowest price we’ve seen for the combo. Unlike other Kindles, the Colorsoft’s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Photoshop and Premiere now have AI assistants</title>
-    <link>https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch</link>
-    <guid>https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch</guid>
-    <pubDate>Thu, 18 Jun 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Adobe&apos;s plan to stick AI assistants into all of its Creative Cloud suite is now fully underway, with new chatbots now rolling out to its biggest editing and design apps. As part of a public beta...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Adobe’s redesigned AI studio remembers what your creations look like</title>
-    <link>https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update</link>
-    <guid>https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update</guid>
-    <pubDate>Thu, 18 Jun 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Adobe is introducing some new capabilities for its Firefly AI assistant, alongside a &quot;reimagined&quot; AI studio that lets you edit and generate new designs from a single interface. The new Firefly...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Download: a new hunt for dark matter and Kenya’s case for going solar</title>
-    <link>https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/</link>
-    <guid>https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/</guid>
-    <pubDate>Thu, 18 Jun 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The search for dark matter has been blown wide open For...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Pixi’s new iOS app turns text messages into interactive AR experiences</title>
-    <link>https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences/</link>
-    <guid>https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences/</guid>
-    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Forget stickers, GIFs, and emoji reactions. Pixi is betting that the next evolution of messaging is interactive augmented reality (AR).</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>This Ghost in the Shell keyboard makes me want to activate the hundred spidery robot fingers inside my regular fingers</title>
-    <link>https://www.theverge.com/tech/951371/iqunix-ev63-ghost-in-the-shell-edition-anime-gaming-mechanical-keyboard-review</link>
-    <guid>https://www.theverge.com/tech/951371/iqunix-ev63-ghost-in-the-shell-edition-anime-gaming-mechanical-keyboard-review</guid>
-    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anime collaborations are everywhere, from Gundam watches and Naruto nights at Major League ballparks to just about anything Evangelion. But these Ghost in the Shell keyboards from Iqunix are some...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network</title>
-    <link>https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html</link>
-    <guid>https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html</guid>
-    <pubDate>Thu, 18 Jun 2026 11:58:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>If an autonomous AI agent interacts with your company&apos;s core intellectual property today, can your security team instantly name the person who authorized it? For most enterprises, the answer is a...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Embedding Forbidden Text in Spyware to Discourage AI Analysis</title>
-    <link>https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html</guid>
-    <pubDate>Thu, 18 Jun 2026 11:04:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>At least one malware developer is adding text about nuclear and biological weapons to their spyware, in an effort to stop automatic AI analysis. Details: The _index.js payload begins with a large...</description>
     <category>Security</category>
   </item>
 </channel>
