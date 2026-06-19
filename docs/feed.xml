@@ -5,97 +5,214 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 19 Jun 2026 12:17:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 19 Jun 2026 18:06:03 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Unit Test AI Guide — Zero Hallucination, Cross-Stack Standard</title>
-    <link>https://dev.to/bhaumik-viitor/unit-test-ai-guide-zero-hallucination-cross-stack-standard-4mb2</link>
-    <guid>https://dev.to/bhaumik-viitor/unit-test-ai-guide-zero-hallucination-cross-stack-standard-4mb2</guid>
-    <pubDate>Fri, 19 Jun 2026 12:14:44 +0000</pubDate>
+    <title>PowerShell Is Underrated</title>
+    <link>https://dev.to/lavkeshdwivedi/powershell-is-underrated-12bj</link>
+    <guid>https://dev.to/lavkeshdwivedi/powershell-is-underrated-12bj</guid>
+    <pubDate>Fri, 19 Jun 2026 17:58:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Focus: Unit Tests ONLY — no integration, no E2E Stacks: Node.js (NestJS/Express) · React.js · Python · Angular · Laravel Goal: AI generates unit tests consistently, deterministically, without...</description>
+    <description>Originally published on lavkesh.com I think people underestimate PowerShell, seeing it as just another shell for automating Windows. But it&apos;s actually one of the best scripting languages for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Reduce Your JavaScript Bundle Size by 70% in 10 Steps</title>
-    <link>https://dev.to/kui_luo/how-to-reduce-your-javascript-bundle-size-by-70-in-10-steps-3j1g</link>
-    <guid>https://dev.to/kui_luo/how-to-reduce-your-javascript-bundle-size-by-70-in-10-steps-3j1g</guid>
-    <pubDate>Fri, 19 Jun 2026 12:08:24 +0000</pubDate>
+    <title>Objects in JavaScript</title>
+    <link>https://dev.to/annapoo/objects-in-javascript-3p4</link>
+    <guid>https://dev.to/annapoo/objects-in-javascript-3p4</guid>
+    <pubDate>Fri, 19 Jun 2026 17:58:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most JavaScript applications ship far more code than necessary. The average web page loads 1.7 MB of JavaScript (HTTP Archive, 2025), but developers only use about 35% of the code they deploy....</description>
+    <description>Objects are one of the most important concepts in JavaScript. Almost everything in JavaScript revolves around objects. Objects help us store related data together and represent real-world entities...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Security Engineers Need to Think Beyond Code</title>
-    <link>https://dev.to/max-b-grc/why-security-engineers-need-to-think-beyond-code-3fn5</link>
-    <guid>https://dev.to/max-b-grc/why-security-engineers-need-to-think-beyond-code-3fn5</guid>
-    <pubDate>Fri, 19 Jun 2026 12:08:06 +0000</pubDate>
+    <title>The Alert Never Fired Because the Loop Skipped the Last Line of the File</title>
+    <link>https://dev.to/bashsnippets/the-alert-never-fired-because-the-loop-skipped-the-last-line-of-the-file-3il8</link>
+    <guid>https://dev.to/bashsnippets/the-alert-never-fired-because-the-loop-skipped-the-last-line-of-the-file-3il8</guid>
+    <pubDate>Fri, 19 Jun 2026 17:58:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The CIA Triad Isn&apos;t Just Jargon. It&apos;s Your Daily Reality. Most developers learn security as an afterthought. You write code first, then maybe add authentication, throw in some encryption if you&apos;re...</description>
+    <description>We kept a plaintext file of hostnames, one per line, and a monitoring script read the file and pinged each host every five minutes. When a host failed to respond, the script sent an email alert....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Listening to the Heartbeat of Your Database: Understanding Change Data Capture (CDC)</title>
-    <link>https://dev.to/calligra/listening-to-the-heartbeat-of-your-database-understanding-change-data-capture-cdc-4kib</link>
-    <guid>https://dev.to/calligra/listening-to-the-heartbeat-of-your-database-understanding-change-data-capture-cdc-4kib</guid>
-    <pubDate>Fri, 19 Jun 2026 12:06:56 +0000</pubDate>
+    <title>Introducing Tigera Lynx</title>
+    <link>https://dev.to/tigeraio/introducing-tigera-lynx-1pk</link>
+    <guid>https://dev.to/tigeraio/introducing-tigera-lynx-1pk</guid>
+    <pubDate>Fri, 19 Jun 2026 17:45:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>CDC stands for Change Data Capture. What You Will Learn What CDC is The story behind it How it works internally Common use cases A simplified implementation example What Is CDC? Change Data...</description>
+    <description>Today we&apos;re announcing the general availability of Tigera Lynx, a unified control plane for Kubernetes-native AI agents. Lynx gives enterprises a single place to find every agent in their...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your LLM reads the whole file. It doesn&apos;t have to.</title>
-    <link>https://dev.to/kiou_ouba_afbd120335456f3/your-llm-reads-the-whole-file-it-doesnt-have-to-hem</link>
-    <guid>https://dev.to/kiou_ouba_afbd120335456f3/your-llm-reads-the-whole-file-it-doesnt-have-to-hem</guid>
-    <pubDate>Fri, 19 Jun 2026 12:05:00 +0000</pubDate>
+    <title>Types of Functions in JavaScript</title>
+    <link>https://dev.to/annapoo/types-of-functions-in-javascript-105</link>
+    <guid>https://dev.to/annapoo/types-of-functions-in-javascript-105</guid>
+    <pubDate>Fri, 19 Jun 2026 17:42:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Coding agents read specs, design docs, and long READMEs every day. Most of the time, they only need a few sections. Yet they load the entire file into context. The hidden cost of &quot;just read the...</description>
+    <description>Functions are one of the most important concepts in JavaScript. They help us organize code, avoid repetition, and make programs easier to understand and maintain. Think of a function as a machine:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>pnpm workspaces in a monorepo: the setup that survived CI on Railway and the problems the docs don&apos;t warn you about</title>
-    <link>https://dev.to/jtorchia/pnpm-workspaces-in-a-monorepo-the-setup-that-survived-ci-on-railway-and-the-problems-the-docs-3aph</link>
-    <guid>https://dev.to/jtorchia/pnpm-workspaces-in-a-monorepo-the-setup-that-survived-ci-on-railway-and-the-problems-the-docs-3aph</guid>
-    <pubDate>Fri, 19 Jun 2026 12:03:08 +0000</pubDate>
+    <title>Strangler Fig: migrare il legacy un pezzo alla volta</title>
+    <link>https://dev.to/dev_iadicola/strangler-fig-migrare-il-legacy-un-pezzo-alla-volta-3eg9</link>
+    <guid>https://dev.to/dev_iadicola/strangler-fig-migrare-il-legacy-un-pezzo-alla-volta-3eg9</guid>
+    <pubDate>Fri, 19 Jun 2026 17:40:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>pnpm workspaces in a monorepo: the setup that survived CI on Railway and the problems the docs don&apos;t warn you about The correct fix for speeding up installs in a TypeScript monorepo is adding more...</description>
+    <description>Il problema: il sistema legacy che non puoi spegnere Hai un gestionale PHP 5.6 con 200.000 righe di codice, nessun test, query SQL inline ovunque, e HTML mescolato con logica di business. Il...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>pnpm workspaces en monorepo: el setup que sobrevivió CI en Railway y los problemas que los docs no anticipan</title>
-    <link>https://dev.to/jtorchia/pnpm-workspaces-en-monorepo-el-setup-que-sobrevivio-ci-en-railway-y-los-problemas-que-los-docs-no-3ji6</link>
-    <guid>https://dev.to/jtorchia/pnpm-workspaces-en-monorepo-el-setup-que-sobrevivio-ci-en-railway-y-los-problemas-que-los-docs-no-3ji6</guid>
-    <pubDate>Fri, 19 Jun 2026 12:03:03 +0000</pubDate>
+    <title>The PostgreSQL mental model that finally clicked for me</title>
+    <link>https://dev.to/goitsemodimo_phaks_04f738/the-postgresql-mental-model-that-finally-clicked-for-me-3kle</link>
+    <guid>https://dev.to/goitsemodimo_phaks_04f738/the-postgresql-mental-model-that-finally-clicked-for-me-3kle</guid>
+    <pubDate>Fri, 19 Jun 2026 17:37:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>pnpm workspaces en monorepo: el setup que sobrevivió CI en Railway y los problemas que los docs no anticipan La solución correcta para acelerar installs en un monorepo TypeScript es agregar más...</description>
+    <description>What i was learning Today i started learning PostgreSQL , the objective was to create a mental model to build a strong foundation and potentially a smooth learning curve for PostgreSQL. What...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Telegram Channels Need Project Pins</title>
-    <link>https://dev.to/agentprojectcontext/telegram-channels-need-project-pins-33aj</link>
-    <guid>https://dev.to/agentprojectcontext/telegram-channels-need-project-pins-33aj</guid>
-    <pubDate>Fri, 19 Jun 2026 12:02:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Telegram Channels Need Project Pins APC is the portable context layer. APX is the daily runtime that makes that context usable. Telegram fits that split well: APC defines what a project is, and...</description>
+    <title>A New Bill Takes Aim at Government Pressure to Silence Lawful Online Speech</title>
+    <link>https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech</link>
+    <guid>https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech</guid>
+    <pubDate>Fri, 19 Jun 2026 17:34:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech Comments URL: https://news.ycombinator.com/item?id=48600950 Points: 10 #...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built an Open-Source API Gateway for 100+ AI Models at $0.14/M Tokens</title>
-    <link>https://dev.to/agenthub_wu/i-built-an-open-source-api-gateway-for-100-ai-models-at-014m-tokens-3m8m</link>
-    <guid>https://dev.to/agenthub_wu/i-built-an-open-source-api-gateway-for-100-ai-models-at-014m-tokens-3m8m</guid>
-    <pubDate>Fri, 19 Jun 2026 12:01:19 +0000</pubDate>
+    <title>MCP Server Security: What Zero-Touch OAuth Means for Your Content Stack</title>
+    <link>https://dev.to/tonyspiro/mcp-server-security-what-zero-touch-oauth-means-for-your-content-stack-3cd8</link>
+    <guid>https://dev.to/tonyspiro/mcp-server-security-what-zero-touch-oauth-means-for-your-content-stack-3cd8</guid>
+    <pubDate>Fri, 19 Jun 2026 17:33:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR AgentHub is a unified, OpenAI-compatible API gateway for 100+ models (DeepSeek, Qwen, Claude, etc.) at $0.14/M tokens — about 99% cheaper than GPT-4. Register (1M free tokens):...</description>
+    <description>The Model Context Protocol community just shipped a significant security update: Enterprise-Managed Authorization (EMA) is now stable. The official announcement landed on the MCP blog this week...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Embedding AI Workflows: Building Our Orquesta SDK</title>
-    <link>https://dev.to/orquesta_live/embedding-ai-workflows-building-our-orquesta-sdk-1bl7</link>
-    <guid>https://dev.to/orquesta_live/embedding-ai-workflows-building-our-orquesta-sdk-1bl7</guid>
-    <pubDate>Fri, 19 Jun 2026 12:00:23 +0000</pubDate>
+    <title>When adding a feature broke a dozen classes</title>
+    <link>https://dev.to/lavkeshdwivedi/when-adding-a-feature-broke-a-dozen-classes-fk6</link>
+    <guid>https://dev.to/lavkeshdwivedi/when-adding-a-feature-broke-a-dozen-classes-fk6</guid>
+    <pubDate>Fri, 19 Jun 2026 17:32:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at orquesta.live/blog/embedding-ai-workflows-orquesta-sdk Embedding AI-powered workflows into existing web applications should be as seamless as possible. This philosophy...</description>
+    <description>Originally published on lavkesh.com I&apos;ve been stung more than once by code that looked fine until a new feature arrived. Suddenly I&apos;m editing a dozen unrelated classes and wondering why the whole...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hue’s wired wall modules bring non-smart lights into its ecosystem</title>
+    <link>https://www.theverge.com/tech/952953/phillips-hue-wired-wall-module-play-lamp-candle-bulb</link>
+    <guid>https://www.theverge.com/tech/952953/phillips-hue-wired-wall-module-play-lamp-candle-bulb</guid>
+    <pubDate>Fri, 19 Jun 2026 17:24:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Smart lighting company Philips Hue has launched its first wired wall modules. Installed behind existing wall switches, the new devices bring non-smart lights into the Hue ecosystem for the first...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Is the US government’s Anthropic ban accidentally helping the brand?</title>
+    <link>https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/</link>
+    <guid>https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/</guid>
+    <pubDate>Fri, 19 Jun 2026 16:08:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care</title>
+    <link>https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/</link>
+    <guid>https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/</guid>
+    <pubDate>Fri, 19 Jun 2026 16:01:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</title>
+    <link>https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html</link>
+    <guid>https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html</guid>
+    <pubDate>Fri, 19 Jun 2026 15:30:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker&apos;s web...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Billionaire Ambani wants AI in every call, app, and home</title>
+    <link>https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/</link>
+    <guid>https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/</guid>
+    <pubDate>Fri, 19 Jun 2026 15:23:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Reliance is weaving AI into telecom services used by more than 500 million people.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites</title>
+    <link>https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html</link>
+    <guid>https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html</guid>
+    <pubDate>Fri, 19 Jun 2026 15:07:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The NTS Radio Player brings the best of internet radio to your hi-fi</title>
+    <link>https://www.theverge.com/entertainment/952910/nts-radio-player-atonemo-music-streaming</link>
+    <guid>https://www.theverge.com/entertainment/952910/nts-radio-player-atonemo-music-streaming</guid>
+    <pubDate>Fri, 19 Jun 2026 14:53:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>NTS Radio and Swedish audio company Atonemo have teamed up on a dedicated player that brings NTS&apos;s genre-defying mixes and streaming stations to almost any stereo or speaker setup. And, like...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The film about Sam Altman has been dropped by Amazon MGM</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped</guid>
+    <pubDate>Fri, 19 Jun 2026 14:15:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Luca Guadagnino&apos;s film about OpenAI CEO Sam Altman, Artificial, has reportedly been dropped by Amazon MGM. The film, which stars Andrew Garfield and covers the rollercoaster five days in 2023...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices</title>
+    <link>https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html</link>
+    <guid>https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html</guid>
+    <pubDate>Fri, 19 Jun 2026 14:00:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Our long national sunscreen nightmare is almost over</title>
+    <link>https://www.theverge.com/column/952744/optimizer-sunscreen-bemotrizinol-fda-health</link>
+    <guid>https://www.theverge.com/column/952744/optimizer-sunscreen-bemotrizinol-fda-health</guid>
+    <pubDate>Fri, 19 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&apos;re going to change your life. Opt in...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The CEO of Allbirds’ new AI biz has a plan, but no employees</title>
+    <link>https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/</link>
+    <guid>https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/</guid>
+    <pubDate>Fri, 19 Jun 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Call it a startup with a sole founder and a very large seed round, but what&apos;s next is less clear.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>T1 Phone PR firm is &amp;#8216;not assisting Trump Mobile any further&amp;#8217;</title>
+    <link>https://www.theverge.com/gadgets/952274/t1-phone-pr-firm-not-assisting-trump-mobile-any-further</link>
+    <guid>https://www.theverge.com/gadgets/952274/t1-phone-pr-firm-not-assisting-trump-mobile-any-further</guid>
+    <pubDate>Fri, 19 Jun 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Where&apos;s the Trump phone? We&apos;re going to keep talking about it every week. We don&apos;t have the phones we preordered yet, but this week we received unexpected news from Trump Mobile&apos;s media relations...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: AI bottleneck debates, and BCI trials take off</title>
+    <link>https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/</link>
+    <guid>https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/</guid>
+    <pubDate>Fri, 19 Jun 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A startup claims it broke through a bottleneck that’s...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>In season 2 of Sugar, Colin Farrell’s quirky detective becomes much more human</title>
@@ -114,6 +231,15 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>We&apos;ve lost something in the past 15 years. Netflix, Amazon, Disney, Apple; they&apos;ve all convinced us that streaming is the best way to watch movies and shows at home. With everything at our...</description>
     <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>From Assistive to Agentic: The AI Shift That&apos;s Redefining Threat Management</title>
+    <link>https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html</link>
+    <guid>https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html</guid>
+    <pubDate>Fri, 19 Jun 2026 11:58:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Introduction The average enterprise security team has 40 or more security tools, giving a lot of visibility into internal telemetry and asset data. But often, these tools are working in siloes,...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Anthropic’s Fable and the State of AI</title>
@@ -150,132 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11,...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>The inevitable weakness of metrics</title>
-    <link>https://www.technologyreview.com/2026/06/19/1138778/inevitable-weakness-metrics-quantified-life-book-review/</link>
-    <guid>https://www.technologyreview.com/2026/06/19/1138778/inevitable-weakness-metrics-quantified-life-book-review/</guid>
-    <pubDate>Fri, 19 Jun 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>There are plenty of useful things a metric can reveal. There are even more it can obscure or corrupt. It took me well over a decade of tracking my own life in ever greater detail to fully...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Brain-computer interface trials are taking off</title>
-    <link>https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/</link>
-    <guid>https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/</guid>
-    <pubDate>Fri, 19 Jun 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This week, I covered the story of Casey Harrell—a man with ALS who is “the first power user” of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The US says ASML’s top chip tool may be in China. ASML says it isn’t</title>
-    <link>https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/</link>
-    <guid>https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/</guid>
-    <pubDate>Fri, 19 Jun 2026 07:59:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>There&apos;s a commercial logic that cuts against the idea that ASML would risk its export license to arm a Chinese customer.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone</title>
-    <link>https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html</link>
-    <guid>https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html</guid>
-    <pubDate>Fri, 19 Jun 2026 06:36:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users. The vulnerability, tracked as...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Barret Zoph is out at OpenAI again after just five months</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab</guid>
-    <pubDate>Fri, 19 Jun 2026 04:49:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Five months after returning to OpenAI, Barret Zoph - the company&apos;s head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M</title>
-    <link>https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/</link>
-    <guid>https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/</guid>
-    <pubDate>Fri, 19 Jun 2026 00:51:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Microsoft discovers new lightweight backdoor that steals cryptocurrency</title>
-    <link>https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/</link>
-    <guid>https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/</guid>
-    <pubDate>Thu, 18 Jun 2026 23:28:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Crypto Clipper spreads over USB and communicates over Tor.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members</title>
-    <link>https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/</link>
-    <guid>https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/</guid>
-    <pubDate>Thu, 18 Jun 2026 22:12:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Leaked files show the invite-only network grades members by their money and fame, shaping who’s in, who’s out, and who pays.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>AI inference startup Baseten reportedly raising $1.5B months after its last mega-round</title>
-    <link>https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/</link>
-    <guid>https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/</guid>
-    <pubDate>Thu, 18 Jun 2026 21:20:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the “inference gold rush&quot; marches on.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The White House Is Making Up Its Rules for AI in Real Time</title>
-    <link>https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/</link>
-    <guid>https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/</guid>
-    <pubDate>Thu, 18 Jun 2026 21:03:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Anthropic still can’t distribute Claude Mythos or Fable 5 after running afoul of the Trump administration. But no one can say exactly what the company did wrong.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Snap spins off AI video team into new company, Dotmo, due to costs</title>
-    <link>https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/</link>
-    <guid>https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/</guid>
-    <pubDate>Thu, 18 Jun 2026 20:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to focus on AI video development.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Valve is so behind on Steam Controller orders that some won&amp;#8217;t ship until 2027</title>
-    <link>https://www.theverge.com/games/952582/valve-steam-controller-reservations-orders-behind-estimated-date</link>
-    <guid>https://www.theverge.com/games/952582/valve-steam-controller-reservations-orders-behind-estimated-date</guid>
-    <pubDate>Thu, 18 Jun 2026 20:26:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Valve has some good news and bad news about Steam Controllers. The good news: If you make a reservation for a Steam Controller, the company will now show you one of three estimates of when you&apos;ll...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>You can now use the Game Boy Camera with your phone</title>
-    <link>https://www.theverge.com/tech/952173/epilogue-gb-operator-game-boy-camera-ios-android-app-iphone</link>
-    <guid>https://www.theverge.com/tech/952173/epilogue-gb-operator-game-boy-camera-ios-android-app-iphone</guid>
-    <pubDate>Thu, 18 Jun 2026 20:22:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The $50 GB Operator is an accessory that lets you connect, play, and authenticate Game Boy, Game Boy Color, and Game Boy Advance cartridges on PCs and other devices. Now it&apos;s getting some new...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI is bringing on some big guns in the lead-up to its IPO</title>
-    <link>https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/</link>
-    <guid>https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/</guid>
-    <pubDate>Thu, 18 Jun 2026 19:59:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
