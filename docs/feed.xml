@@ -5,97 +5,128 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 20 Jun 2026 17:47:21 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 20 Jun 2026 21:39:45 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Token Budgeting: The Engineering Skill Nobody Talks About</title>
-    <link>https://dev.to/sanjay_singh_1/token-budgeting-the-engineering-skill-nobody-talks-about-3ifp</link>
-    <guid>https://dev.to/sanjay_singh_1/token-budgeting-the-engineering-skill-nobody-talks-about-3ifp</guid>
-    <pubDate>Sat, 20 Jun 2026 17:38:41 +0000</pubDate>
+    <title>Supercharge your web app with free AI that runs in your users&apos; browser</title>
+    <link>https://dev.to/petr_patek_12/supercharge-your-web-app-with-free-ai-that-runs-in-your-users-browser-2l2m</link>
+    <guid>https://dev.to/petr_patek_12/supercharge-your-web-app-with-free-ai-that-runs-in-your-users-browser-2l2m</guid>
+    <pubDate>Sat, 20 Jun 2026 21:30:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. The Misconception That&apos;s Costing You Money Ask a developer how to reduce their LLM bill and they&apos;ll say: &quot;write shorter prompts.&quot; Remove adjectives. Trim examples. Cut the system prompt. This...</description>
+    <description>There is a class of feature that used to be impossible to ship for free: anything that needed a language model. You wired up an API key, you ate the per-token bill, and every prompt your users...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Neural Network You Can Watch Train — Forward Pass, Loss, and Backprop, Animated</title>
-    <link>https://dev.to/amargul/i-built-a-neural-network-you-can-watch-train-forward-pass-loss-and-backprop-animated-45db</link>
-    <guid>https://dev.to/amargul/i-built-a-neural-network-you-can-watch-train-forward-pass-loss-and-backprop-animated-45db</guid>
-    <pubDate>Sat, 20 Jun 2026 17:36:00 +0000</pubDate>
+    <title>Why Modular Architecture Makes SaaS Platforms Easier to Scale</title>
+    <link>https://dev.to/sergey_3c52385cf547dee766/why-modular-architecture-makes-saas-platforms-easier-to-scale-3n4g</link>
+    <guid>https://dev.to/sergey_3c52385cf547dee766/why-modular-architecture-makes-saas-platforms-easier-to-scale-3n4g</guid>
+    <pubDate>Sat, 20 Jun 2026 21:25:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every neural-network tutorial I tried threw equations at me before I ever saw what was actually happening. I wanted the reverse: watch the activations flow forward, watch the loss bars shrink,...</description>
+    <description>As SaaS platforms grow, the codebase becomes harder to maintain. Features expand, integrations multiply, and the system starts to feel tightly coupled. Modular architecture solves this problem by...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Populating a Java POJO with Reflection vs. with the ClassFile API - small benchmark</title>
-    <link>https://dev.to/erosb/populating-a-java-pojo-with-reflection-vs-with-the-classfile-api-small-benchmark-37jb</link>
-    <guid>https://dev.to/erosb/populating-a-java-pojo-with-reflection-vs-with-the-classfile-api-small-benchmark-37jb</guid>
-    <pubDate>Sat, 20 Jun 2026 17:35:50 +0000</pubDate>
+    <title>I spent two weeks optimizing 96GB of VRAM for local LLMs. Paid APIs still won.</title>
+    <link>https://dev.to/azaiats/i-spent-two-weeks-optimizing-96gb-of-vram-for-local-llms-paid-apis-still-won-2fc2</link>
+    <guid>https://dev.to/azaiats/i-spent-two-weeks-optimizing-96gb-of-vram-for-local-llms-paid-apis-still-won-2fc2</guid>
+    <pubDate>Sat, 20 Jun 2026 21:24:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I wanted to learn about the ClassFile API, and as a small pet project, I created a benchmark to compare how faster a generated class is than a reflection-based approach when we want to populate a...</description>
+    <description>I run a homelab with four RTX 3090s — 96 GB of VRAM, 44 CPU cores. For two weeks I tried to make it my daily driver for local LLM inference instead of paying for cloud APIs. I got it working. Then...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The First QA Checklist I Would Run On Any AI-Built App In 2026</title>
-    <link>https://dev.to/marcusykim/the-first-qa-checklist-i-would-run-on-any-ai-built-app-in-2026-3p3g</link>
-    <guid>https://dev.to/marcusykim/the-first-qa-checklist-i-would-run-on-any-ai-built-app-in-2026-3p3g</guid>
-    <pubDate>Sat, 20 Jun 2026 17:30:00 +0000</pubDate>
+    <title>Chaos Engineering for Node.js Without the Infrastructure</title>
+    <link>https://dev.to/aarnxvvv/chaos-engineering-for-nodejs-without-the-infrastructure-286f</link>
+    <guid>https://dev.to/aarnxvvv/chaos-engineering-for-nodejs-without-the-infrastructure-286f</guid>
+    <pubDate>Sat, 20 Jun 2026 21:23:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The most dangerous moment in an AI-built app is not when the app is obviously broken. That part is annoying, but at least it is honest. The dangerous moment is when the app looks done. The buttons...</description>
+    <description>Chaos engineering sounds expensive. Netflix built Chaos Monkey to randomly kill production servers. Google runs DiRT (Disaster Recovery Testing) across their entire infrastructure. Amazon does...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a distributed job queue in Go to understand how they actually work</title>
-    <link>https://dev.to/uthman_dev/i-built-a-distributed-job-queue-in-go-to-understand-how-they-actually-work-fhk</link>
-    <guid>https://dev.to/uthman_dev/i-built-a-distributed-job-queue-in-go-to-understand-how-they-actually-work-fhk</guid>
-    <pubDate>Sat, 20 Jun 2026 17:29:19 +0000</pubDate>
+    <title>From the factory floor to AI developer: tools that run in my own plant</title>
+    <link>https://dev.to/maurice_putinas_bc9141cbc/from-the-factory-floor-to-ai-developer-tools-that-run-in-my-own-plant-1f58</link>
+    <guid>https://dev.to/maurice_putinas_bc9141cbc/from-the-factory-floor-to-ai-developer-tools-that-run-in-my-own-plant-1f58</guid>
+    <pubDate>Sat, 20 Jun 2026 21:23:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I have used job queues my whole developer life without knowing what was inside them. So I built one. Not a wrapper around an existing queue. A full implementation from scratch with Redis,...</description>
+    <description>For 13 years I have worked in production at a steel-tube manufacturer. Not in an office — on the floor, with the machines, the night shifts, the handovers at 6 a.m. A few years ago I started...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Replacing Electron with .NET 10: Writing a zero-latency, SIMD-accelerated IDE</title>
-    <link>https://dev.to/iancowley/replacing-electron-with-net-10-writing-a-zero-latency-simd-accelerated-ide-322j</link>
-    <guid>https://dev.to/iancowley/replacing-electron-with-net-10-writing-a-zero-latency-simd-accelerated-ide-322j</guid>
-    <pubDate>Sat, 20 Jun 2026 17:28:18 +0000</pubDate>
+    <title>Day 9 of building an AI agent that controls a phone.
+
+It works perfectly on my phone. But on a friend&apos;s phone, template matching failed. Icons rendered differently. The agent couldn&apos;t send a message.
+
+Now I&apos;m exploring UI hierarchy inspection</title>
+    <link>https://dev.to/okeke_chukwudubem_5f3bf49/day-9-of-building-an-ai-agent-that-controls-a-phone-it-works-perfectly-on-my-phone-but-on-a-1lgl</link>
+    <guid>https://dev.to/okeke_chukwudubem_5f3bf49/day-9-of-building-an-ai-agent-that-controls-a-phone-it-works-perfectly-on-my-phone-but-on-a-1lgl</guid>
+    <pubDate>Sat, 20 Jun 2026 21:23:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Modern development tools have normalized lag. As an industry, we’ve somehow accepted that opening a text editor should consume 2GB of RAM, and that typing rapidly should occasionally stutter while...</description>
+    <description>Project Log #9: My AI Agent Works on My Phone. But What About Yours? Okeke Chukwudubem Okeke Chukwudubem Okeke Chukwudubem Follow Jun 20 Project Log #9: My AI Agent Works on My Phone. But What...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>You Know Zero-Shot, One-Shot &amp; CoT Prompting. But Do You Know ReAct?</title>
-    <link>https://dev.to/lovestaco/you-know-zero-shot-one-shot-cot-prompting-but-do-you-know-react-6bj</link>
-    <guid>https://dev.to/lovestaco/you-know-zero-shot-one-shot-cot-prompting-but-do-you-know-react-6bj</guid>
-    <pubDate>Sat, 20 Jun 2026 17:24:54 +0000</pubDate>
+    <title>Project Log #9: My AI Agent Works on My Phone. But What About Yours?</title>
+    <link>https://dev.to/okeke_chukwudubem_5f3bf49/project-log-9-my-ai-agent-works-on-my-phone-but-what-about-yours-2mng</link>
+    <guid>https://dev.to/okeke_chukwudubem_5f3bf49/project-log-9-my-ai-agent-works-on-my-phone-but-what-about-yours-2mng</guid>
+    <pubDate>Sat, 20 Jun 2026 21:22:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hello, I&apos;m Maneshwar. I&apos;m building git-lrc, a Micro AI code reviewer that runs on every commit. It is free and source-available on Github. Star git-lrc to help devs discover the project. Do give...</description>
+    <description>Day 9. Template matching works. But screen sizes, resolutions, and Android versions might break everything. Eight days ago, the agent was an idea. Now it can read text, handle interruptions, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building the Backend for a Project Management Tool — Express, Prisma, and the Mistakes I Made Along the Way</title>
-    <link>https://dev.to/chinwuba_jeffrey/building-the-backend-for-a-project-management-tool-express-prisma-and-the-mistakes-i-made-along-5gia</link>
-    <guid>https://dev.to/chinwuba_jeffrey/building-the-backend-for-a-project-management-tool-express-prisma-and-the-mistakes-i-made-along-5gia</guid>
-    <pubDate>Sat, 20 Jun 2026 17:22:21 +0000</pubDate>
+    <title>How Calendar Synchronization Works in Multi‑Channel Rental Platforms</title>
+    <link>https://dev.to/sergey_3c52385cf547dee766/how-calendar-synchronization-works-in-multi-channel-rental-platforms-584i</link>
+    <guid>https://dev.to/sergey_3c52385cf547dee766/how-calendar-synchronization-works-in-multi-channel-rental-platforms-584i</guid>
+    <pubDate>Sat, 20 Jun 2026 21:21:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m currently completing a Full Stack Development internship with CodeAlpha, and the first project is a collaborative project management tool. Think stripped-down Trello/Asana users create...</description>
+    <description>Calendar synchronization is one of the most challenging parts of building a multi‑channel rental platform. Every booking, cancellation, modification, or pricing update must propagate across all...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Adding Immersive VR to Bloxd.io with BloxdVR: A Complete Developer Guide</title>
-    <link>https://dev.to/isiguzoflorence521gif/adding-immersive-vr-to-bloxdio-with-bloxdvr-a-complete-developer-guide-2lab</link>
-    <guid>https://dev.to/isiguzoflorence521gif/adding-immersive-vr-to-bloxdio-with-bloxdvr-a-complete-developer-guide-2lab</guid>
-    <pubDate>Sat, 20 Jun 2026 17:19:13 +0000</pubDate>
+    <title>Securing LLM Agent Teams: Inside NRT-Defense v0.4.0</title>
+    <link>https://dev.to/magopredator/securing-llm-agent-teams-inside-nrt-defense-v040-oh</link>
+    <guid>https://dev.to/magopredator/securing-llm-agent-teams-inside-nrt-defense-v040-oh</guid>
+    <pubDate>Sat, 20 Jun 2026 21:19:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Adding Immersive VR to Bloxd.io with BloxdVR: A Complete Developer Guide Welcome! In this article, I&apos;ll walk you through how to add stunning virtual reality capabilities to Bloxd.io using BloxdVR,...</description>
+    <description>Securing LLM Agent Teams: Inside NRT-Defense v0.4.0 Multi-turn autonomous LLM agents are expanding rapidly in safety-critical systems. However, a major vulnerability has been exposed by Lee et al....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What I learned building a local-first password manager with Flutter</title>
-    <link>https://dev.to/niluved/what-i-learned-building-a-local-first-password-manager-with-flutter-3ddg</link>
-    <guid>https://dev.to/niluved/what-i-learned-building-a-local-first-password-manager-with-flutter-3ddg</guid>
-    <pubDate>Sat, 20 Jun 2026 17:19:06 +0000</pubDate>
+    <title>Dead‑Letter Queues: The Safety Net Every SaaS Platform Needs</title>
+    <link>https://dev.to/sergey_3c52385cf547dee766/dead-letter-queues-the-safety-net-every-saas-platform-needs-55pd</link>
+    <guid>https://dev.to/sergey_3c52385cf547dee766/dead-letter-queues-the-safety-net-every-saas-platform-needs-55pd</guid>
+    <pubDate>Sat, 20 Jun 2026 21:18:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I used to keep my passwords in a password-protected, zipped Word document. Stored locally on my PC, with a backup copy on a USB drive. Every password update required opening the file, entering the...</description>
+    <description>Dead‑letter queues (DLQs) are one of the most underrated components in backend architecture. While most developers focus on retries and error handling, the DLQ is what ultimately protects the...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’</title>
+    <link>https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/</link>
+    <guid>https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/</guid>
+    <pubDate>Sat, 20 Jun 2026 20:32:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>&quot;These are not your friends. These are not conscious beings. These are not sentient interlocutors.”</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>In the Weights is your new AI-centric vanity search</title>
+    <link>https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/</link>
+    <guid>https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/</guid>
+    <pubDate>Sat, 20 Jun 2026 19:41:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>So ... what&apos;s your In the Weights score?</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Atlantic created a searchable database of the music used to train AI</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data</guid>
+    <pubDate>Sat, 20 Jun 2026 18:46:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Nobel laureate John Jumper is leaving DeepMind for rival Anthropic</title>
@@ -249,33 +280,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker&apos;s web...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Billionaire Ambani wants AI in every call, app, and home</title>
-    <link>https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/</link>
-    <guid>https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/</guid>
-    <pubDate>Fri, 19 Jun 2026 15:23:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Reliance is weaving AI into telecom services used by more than 500 million people.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites</title>
-    <link>https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html</link>
-    <guid>https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html</guid>
-    <pubDate>Fri, 19 Jun 2026 15:07:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The NTS Radio Player brings the best of internet radio to your hi-fi</title>
-    <link>https://www.theverge.com/entertainment/952910/nts-radio-player-atonemo-music-streaming</link>
-    <guid>https://www.theverge.com/entertainment/952910/nts-radio-player-atonemo-music-streaming</guid>
-    <pubDate>Fri, 19 Jun 2026 14:53:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>NTS Radio and Swedish audio company Atonemo have teamed up on a dedicated player that brings NTS&apos;s genre-defying mixes and streaming stations to almost any stereo or speaker setup. And, like...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
