@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 21 Jun 2026 05:18:14 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 21 Jun 2026 11:24:22 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I Thought I Knew Linux — Then I Actually Learned It (Week 1)</title>
-    <link>https://dev.to/dharam_in/i-thought-i-knew-linux-then-i-actually-learned-it-week-1-2ep9</link>
-    <guid>https://dev.to/dharam_in/i-thought-i-knew-linux-then-i-actually-learned-it-week-1-2ep9</guid>
-    <pubDate>Sun, 21 Jun 2026 05:10:22 +0000</pubDate>
+    <title>The CTO Playbook for AI Agent Data Analysis on a Budget</title>
+    <link>https://dev.to/gentleforge/the-cto-playbook-for-ai-agent-data-analysis-on-a-budget-36i5</link>
+    <guid>https://dev.to/gentleforge/the-cto-playbook-for-ai-agent-data-analysis-on-a-budget-36i5</guid>
+    <pubDate>Sun, 21 Jun 2026 11:20:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Big Picture Before you read this doc you must know english is my second language and this doc is have completely my own words not any AI, translator etc. What an OS really is An Operating...</description>
+    <description>So here&apos;s what happened: the CTO Playbook for AI Agent Data Analysis on a Budget Six months ago my engineering team was burning roughly $14,000 a month on a single AI agent data pipeline. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Local Gradient Accumulation Speeds Training 1.7</title>
-    <link>https://dev.to/olaughter/local-gradient-accumulation-speeds-training-17x-2mdk</link>
-    <guid>https://dev.to/olaughter/local-gradient-accumulation-speeds-training-17x-2mdk</guid>
-    <pubDate>Sun, 21 Jun 2026 05:00:00 +0000</pubDate>
+    <title>AMD ATOM + ATOMesh: Prefill/decode Disaggregation on ROCm</title>
+    <link>https://dev.to/pueding/amd-atom-atomesh-prefilldecode-disaggregation-on-rocm-2p0a</link>
+    <guid>https://dev.to/pueding/amd-atom-atomesh-prefilldecode-disaggregation-on-rocm-2p0a</guid>
+    <pubDate>Sun, 21 Jun 2026 11:20:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>PACI removes the bubbles that cripple asynchronous pipeline parallelism and shaves as much as 1.69× off time‑to‑accuracy compared with the fastest synchronous flush baseline. The paper...</description>
+    <description>What: AMD shipped ATOM + ATOMesh, a ROCm-native LLM serving stack whose headline trick is prefill/decode disaggregation — splitting the two phases of inference onto separate pools of GPUs instead...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What 4 months of building taught me right before my first real launch</title>
-    <link>https://dev.to/harsha_kumar/what-4-months-of-building-taught-me-right-before-my-first-real-launch-4b5g</link>
-    <guid>https://dev.to/harsha_kumar/what-4-months-of-building-taught-me-right-before-my-first-real-launch-4b5g</guid>
-    <pubDate>Sun, 21 Jun 2026 04:51:58 +0000</pubDate>
+    <title>👉 &quot;React Native New Architecture Migration: What Broke and How We Fixed It&quot;</title>
+    <link>https://dev.to/anil_kumar_f60b84bc589038/react-native-new-architecture-migration-what-broke-and-how-we-fixed-it-hoh</link>
+    <guid>https://dev.to/anil_kumar_f60b84bc589038/react-native-new-architecture-migration-what-broke-and-how-we-fixed-it-hoh</guid>
+    <pubDate>Sun, 21 Jun 2026 11:19:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tomorrow I launch XEdge on Peerlist&apos;s Launchpad. It&apos;s not my first time putting XEdge in front of people — I&apos;ve been posting, building in public, talking to users for 4 months. But it&apos;s the first...</description>
+    <description>Recently, I migrated a production React Native application from the Legacy Architecture to the New Architecture (Fabric + TurboModules + JSI). What looked like a simple configuration change:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Stop Letting People Waste Your Time As A Developer</title>
-    <link>https://dev.to/muhammadniazali/stop-letting-people-waste-your-time-as-a-developer-29hj</link>
-    <guid>https://dev.to/muhammadniazali/stop-letting-people-waste-your-time-as-a-developer-29hj</guid>
-    <pubDate>Sun, 21 Jun 2026 04:51:32 +0000</pubDate>
+    <title>Diagnosing a slow Rails page, layer by layer</title>
+    <link>https://dev.to/danewu/diagnosing-a-slow-rails-page-layer-by-layer-3abo</link>
+    <guid>https://dev.to/danewu/diagnosing-a-slow-rails-page-layer-by-layer-3abo</guid>
+    <pubDate>Sun, 21 Jun 2026 11:09:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every developer eventually meets someone who thinks code takes five minutes to write. They message you out of nowhere. They want a full feature built in an hour. No requirements. No reference....</description>
+    <description>&quot;This page feels slow&quot; is a vague bug report. Before changing any code, it helps to have a fixed way to locate where the time goes. A Rails request passes through a few predictable layers, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Monitorear agentes de IA con CloudWatch</title>
-    <link>https://dev.to/aws-builders/monitorear-agentes-de-ia-con-cloudwatch-45c4</link>
-    <guid>https://dev.to/aws-builders/monitorear-agentes-de-ia-con-cloudwatch-45c4</guid>
-    <pubDate>Sun, 21 Jun 2026 04:49:05 +0000</pubDate>
+    <title>Anti-Bot Evasion 2026: Why Your TLS Handshake Is Getting You Flagged (And How to Fix It)</title>
+    <link>https://dev.to/shahraan_hussain_b42640e7/anti-bot-evasion-2026-why-your-tls-handshake-is-getting-you-flagged-and-how-to-fix-it-4cmn</link>
+    <guid>https://dev.to/shahraan_hussain_b42640e7/anti-bot-evasion-2026-why-your-tls-handshake-is-getting-you-flagged-and-how-to-fix-it-4cmn</guid>
+    <pubDate>Sun, 21 Jun 2026 11:05:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Las dos ideas que hicieron el trabajo: Los modos de falla ya son líneas de log. Conviértelos en métricas con MetricFilter, no con código. Las dimensiones por agente/por modelo necesitan EMF, no...</description>
+    <description>Why Your Browser Version Could Be Exposing Your Scraper Before the First Request Modern anti-bot systems no longer rely solely on HTTP headers, JavaScript fingerprints, or IP reputation....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Publish a static page + data API in minutes with MiniUp</title>
-    <link>https://dev.to/miniup_io/publish-a-static-page-data-api-in-minutes-with-miniup-4523</link>
-    <guid>https://dev.to/miniup_io/publish-a-static-page-data-api-in-minutes-with-miniup-4523</guid>
-    <pubDate>Sun, 21 Jun 2026 04:41:25 +0000</pubDate>
+    <title>Blackbox Monitoring vs Internal Metrics - The Gap Between &quot;Healthy&quot; and &quot;Working&quot;</title>
+    <link>https://dev.to/mrinal_narang_13a3d00eb37/blackbox-monitoring-vs-internal-metrics-the-gap-between-healthy-and-working-15ed</link>
+    <guid>https://dev.to/mrinal_narang_13a3d00eb37/blackbox-monitoring-vs-internal-metrics-the-gap-between-healthy-and-working-15ed</guid>
+    <pubDate>Sun, 21 Jun 2026 11:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Full disclosure: this is a promotional walkthrough for MiniUp. What you can build in 10 minutes MiniUp is a platform for publishing: a static page from HTML / a folder / a ZIP and turning...</description>
+    <description>You&apos;ve probably had this incident. Dashboards are all green. CPU is fine. Memory looks good. Pods aren&apos;t restarting. Databases are healthy. But customers can&apos;t log in, or payments won&apos;t process,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SMPTE Makes Its Standards Freely Accessible</title>
-    <link>https://dev.to/ryan_m_823cbee9f96a9dee29/smpte-makes-its-standards-freely-accessible-1i5m</link>
-    <guid>https://dev.to/ryan_m_823cbee9f96a9dee29/smpte-makes-its-standards-freely-accessible-1i5m</guid>
-    <pubDate>Sun, 21 Jun 2026 04:41:23 +0000</pubDate>
+    <title>Your Body, Their Data</title>
+    <link>https://dev.to/rawveg/your-body-their-data-32bk</link>
+    <guid>https://dev.to/rawveg/your-body-their-data-32bk</guid>
+    <pubDate>Sun, 21 Jun 2026 11:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction SMPTE (Society of Motion Picture and Television Engineers) recently made a groundbreaking decision to make its standards freely accessible to the public. This move has significant...</description>
+    <description>Every morning, roughly 62 million Americans strap on a fitness tracker, open a wellness app, or tap through a mood journal before their first cup of coffee. They log sleep scores, heart rate...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Fix Cursor Composer 2.5 Freezing &amp; Stuck on Thinking Issue in 2026</title>
-    <link>https://dev.to/ail_akram_dcc5063c428734b/how-to-fix-cursor-composer-25-freezing-stuck-on-thinking-issue-in-2026-73a</link>
-    <guid>https://dev.to/ail_akram_dcc5063c428734b/how-to-fix-cursor-composer-25-freezing-stuck-on-thinking-issue-in-2026-73a</guid>
-    <pubDate>Sun, 21 Jun 2026 04:37:50 +0000</pubDate>
+    <title>Sony’s Xperia 1 VIII is still a phone for the fans</title>
+    <link>https://www.theverge.com/tech/952245/sony-xperia-1-viii-review</link>
+    <guid>https://www.theverge.com/tech/952245/sony-xperia-1-viii-review</guid>
+    <pubDate>Sun, 21 Jun 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Xperia 1 VIII marks an attempt at a step change for Sony&apos;s flagship phone line. Not only has it had an aesthetic overhaul, but Sony has also revamped the camera system, dropping the continuous...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Prompt injection and LLM security for SaaS</title>
+    <link>https://dev.to/amit_nabarro_6e9ee3016c65/prompt-injection-and-llm-security-for-saas-458n</link>
+    <guid>https://dev.to/amit_nabarro_6e9ee3016c65/prompt-injection-and-llm-security-for-saas-458n</guid>
+    <pubDate>Sun, 21 Jun 2026 10:56:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve been coding with Cursor&apos;s AI agent and suddenly watched the little “Thinking...” indicator spin forever with nothing happening, you&apos;re not alone. Cursor Composer 2.5 freezing is one of...</description>
+    <description>Originally published on 475 Cumulus Prompt injection and LLM security for SaaS A practical security guide for multi-tenant products — why system prompts are not enough, where attacks actually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Fitness Tracker Accuracy Testing Methodology: A Comprehensive Guide</title>
-    <link>https://dev.to/samchenreviews/fitness-tracker-accuracy-testing-methodology-a-comprehensive-guide-m1b</link>
-    <guid>https://dev.to/samchenreviews/fitness-tracker-accuracy-testing-methodology-a-comprehensive-guide-m1b</guid>
-    <pubDate>Sun, 21 Jun 2026 04:35:19 +0000</pubDate>
+    <title>Kubernetes and Cloud Native Associate (KCNA) Study Notes</title>
+    <link>https://dev.to/bassyc/kubernetes-and-cloud-native-associate-kcna-study-notes-1ccj</link>
+    <guid>https://dev.to/bassyc/kubernetes-and-cloud-native-associate-kcna-study-notes-1ccj</guid>
+    <pubDate>Sun, 21 Jun 2026 10:54:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Fitness trackers have become ubiquitous in our daily lives, promising to monitor everything from heart rate to sleep quality. But how accurate are these devices really? With the...</description>
+    <description>I sat the Kubernetes and Cloud Native Associate (KCNA) and passed. KCNA is the entry-level CNCF certification - it covers Kubernetes fundamentals and the wider cloud native landscape at a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Do a Barrel Roll in Your Browser 😄</title>
-    <link>https://dev.to/doabarrelroll/do-a-barrel-roll-in-your-browser-17lo</link>
-    <guid>https://dev.to/doabarrelroll/do-a-barrel-roll-in-your-browser-17lo</guid>
-    <pubDate>Sun, 21 Jun 2026 04:34:34 +0000</pubDate>
+    <title>Stop Copying Your .pre-commit-config.yaml</title>
+    <link>https://dev.to/ldrscke/stop-copying-your-pre-commit-configyaml-241d</link>
+    <guid>https://dev.to/ldrscke/stop-copying-your-pre-commit-configyaml-241d</guid>
+    <pubDate>Sun, 21 Jun 2026 10:53:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Built a small web project that recreates the classic “Do a Barrel Roll” effect. 👉 https://doabarrelroll.online Simple CSS + JavaScript animation. No frameworks. Would love feedback from other...</description>
+    <description>Stop Copy-Pasting: Introducing pc-init We’ve all been there: you’re starting a new project, you’ve got your repo initialized, and now comes the tedious part—setting up the quality gates. You know...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>28 Tips to Take Your ChatGPT Prompts to the Next Level</title>
+    <link>https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/</link>
+    <guid>https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/</guid>
+    <pubDate>Sun, 21 Jun 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Sure, anyone can use OpenAI’s chatbot. But with smart engineering, you can get way more interesting results.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’</title>
@@ -258,24 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care</title>
-    <link>https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/</link>
-    <guid>https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/</guid>
-    <pubDate>Fri, 19 Jun 2026 16:01:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</title>
-    <link>https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html</link>
-    <guid>https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html</guid>
-    <pubDate>Fri, 19 Jun 2026 15:30:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker&apos;s web...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
