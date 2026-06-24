@@ -5,25 +5,259 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 24 Jun 2026 11:17:02 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 24 Jun 2026 15:08:12 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>From 47 to 75 Commits: How a Single _headers File Broke My Brain (and My App) for 8 Hours</title>
-    <link>https://dev.to/chazchege/from-47-to-75-commits-how-a-single-headers-file-broke-my-brain-and-my-app-for-8-hours-59hi</link>
-    <guid>https://dev.to/chazchege/from-47-to-75-commits-how-a-single-headers-file-broke-my-brain-and-my-app-for-8-hours-59hi</guid>
-    <pubDate>Wed, 24 Jun 2026 11:05:36 +0000</pubDate>
+    <title>When pandas runs out of RAM, I change one import line</title>
+    <link>https://dev.to/herbze/when-pandas-runs-out-of-ram-i-change-one-import-line-35k0</link>
+    <guid>https://dev.to/herbze/when-pandas-runs-out-of-ram-i-change-one-import-line-35k0</guid>
+    <pubDate>Wed, 24 Jun 2026 15:01:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The 8-Hour &quot;Please Work&quot; Marathon We’ve all been there. You have a vision. You want to build a completely free, local-first, privacy-respecting PWA toolkit (NeatKit). Everything is running...</description>
+    <description>You know the moment. You&apos;ve got a Parquet file or a fat CSV, you write the obvious pd.read_parquet(...), and Python sits there. Then either it finishes in its own sweet time, or you get the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Quantum Teleportation, and Why It Isn&apos;t Cloning</title>
-    <link>https://dev.to/malcolmlow/quantum-teleportation-and-why-it-isnt-cloning-1fdl</link>
-    <guid>https://dev.to/malcolmlow/quantum-teleportation-and-why-it-isnt-cloning-1fdl</guid>
-    <pubDate>Wed, 24 Jun 2026 11:04:09 +0000</pubDate>
+    <title>Running Local LLMs for Coding: No API Keys, Full Control</title>
+    <link>https://dev.to/learnairesource/running-local-llms-for-coding-no-api-keys-full-control-48cj</link>
+    <guid>https://dev.to/learnairesource/running-local-llms-for-coding-no-api-keys-full-control-48cj</guid>
+    <pubDate>Wed, 24 Jun 2026 15:00:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Part of the Techucation Quantum Series. Teleportation is the most over-sold word in quantum computing. It conjures Star Trek transporters and faster-than-light messaging, and almost every popular...</description>
+    <description>Running Local LLMs for Coding: No API Keys, Full Control You&apos;ve probably noticed the code completion tools getting slower and more rate-limited. You&apos;ve also probably gotten tired of explaining...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to move from an LLM demo to a production-ready healthcare AI agent</title>
+    <link>https://dev.to/kajol_shah/how-to-move-from-an-llm-demo-to-a-production-ready-healthcare-ai-agent-33d1</link>
+    <guid>https://dev.to/kajol_shah/how-to-move-from-an-llm-demo-to-a-production-ready-healthcare-ai-agent-33d1</guid>
+    <pubDate>Wed, 24 Jun 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>From LLM Demo to Healthcare AI Agent: What Developers Need to Build Around the Model Building an AI agent demo is easy. Building a healthcare AI agent that can survive production is a different...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>8BitDo’s all-button controller gets a screen upgrade for customizations without an app</title>
+    <link>https://www.theverge.com/tech/954894/8bitdo-arcade-controller-pro-leverless-hitbox-wireless-switch-bluetooth</link>
+    <guid>https://www.theverge.com/tech/954894/8bitdo-arcade-controller-pro-leverless-hitbox-wireless-switch-bluetooth</guid>
+    <pubDate>Wed, 24 Jun 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>8BitDo announced a new version of its all-button Arcade Controller that debuted a little over a year ago. The new Arcade Controller Pro looks similar to 8BitDo&apos;s original with a leverless (or...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Zoox&amp;#8217;s purpose-built robotaxi is getting a refresh</title>
+    <link>https://www.theverge.com/transportation/955822/zoox-robotaxi-refresh-updates-seats-audio-color</link>
+    <guid>https://www.theverge.com/transportation/955822/zoox-robotaxi-refresh-updates-seats-audio-color</guid>
+    <pubDate>Wed, 24 Jun 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Zoox, the autonomous vehicle company owned by Amazon, unveiled a new look for its boxy, bidirectional robotaxi, calling it the &quot;next evolution&quot; of the vehicle intended for mass production. The...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Build Your Own Modbus-TCP Cache Proxy in Python: One Inverter, Many Home Assistant Clients</title>
+    <link>https://dev.to/cloudapp_dev/build-your-own-modbus-tcp-cache-proxy-in-python-one-inverter-many-home-assistant-clients-1n4a</link>
+    <guid>https://dev.to/cloudapp_dev/build-your-own-modbus-tcp-cache-proxy-in-python-one-inverter-many-home-assistant-clients-1n4a</guid>
+    <pubDate>Wed, 24 Jun 2026 14:59:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Huawei SUN2000 SDongle has an annoying trait you only trip over once you want to connect more than one device: it accepts exactly one concurrent Modbus-TCP connection. The moment Home...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apache Data Lakehouse Weekly: June 17 to June 24, 2026</title>
+    <link>https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-17-to-june-24-2026-3hen</link>
+    <guid>https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-17-to-june-24-2026-3hen</guid>
+    <pubDate>Wed, 24 Jun 2026 14:58:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This week the lakehouse community spent most of its energy on two questions. The first is how the catalog grows from a table directory into a control plane that serves agents, BI tools, and query...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Strong Developers Outside the US Get Ignored by American Companies (It&apos;s Not Your Code)</title>
+    <link>https://dev.to/czechdevusa/why-strong-developers-outside-the-us-get-ignored-by-american-companies-its-not-your-code-2kc5</link>
+    <guid>https://dev.to/czechdevusa/why-strong-developers-outside-the-us-get-ignored-by-american-companies-its-not-your-code-2kc5</guid>
+    <pubDate>Wed, 24 Jun 2026 14:57:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You can build distributed systems, contribute to open source, and pass any technical screen thrown at you. But your applications to US companies go nowhere. No reply. Maybe a form rejection three...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>From Classroom to Real-World: Surviving Week 1 of My Software Engineering Internship</title>
+    <link>https://dev.to/shakiran_nannyombi_b0bf41/from-classroom-to-real-world-surviving-week-1-of-my-software-engineering-internship-204e</link>
+    <guid>https://dev.to/shakiran_nannyombi_b0bf41/from-classroom-to-real-world-surviving-week-1-of-my-software-engineering-internship-204e</guid>
+    <pubDate>Wed, 24 Jun 2026 14:56:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Week 1 of My Software Engineering Internship This week gave me a reality check. I went from building side projects where I made all the decisions to working on a real team, attending client...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title># How I Built an AI Travel Planner — and What I Got Wrong</title>
+    <link>https://dev.to/takshil_pandya_d8453c036d/-how-i-built-an-ai-travel-planner-and-what-i-got-wrong-1pm7</link>
+    <guid>https://dev.to/takshil_pandya_d8453c036d/-how-i-built-an-ai-travel-planner-and-what-i-got-wrong-1pm7</guid>
+    <pubDate>Wed, 24 Jun 2026 14:55:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I built Kartografer — an AI travel planner where you describe a trip and Gemini generates a full day-wise itinerary. You can then edit it, chat with the AI for suggestions, share a public link,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>OpenAI unveils its first custom chip, built by Broadcom</title>
+    <link>https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</link>
+    <guid>https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</guid>
+    <pubDate>Wed, 24 Jun 2026 14:54:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Named Jalapeño, the new processor was designed specifically for the unique needs of OpenAI&apos;s inference systems.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>RAG Explained: Give an LLM Your Own Knowledge</title>
+    <link>https://dev.to/dev48v/rag-explained-give-an-llm-your-own-knowledge-388h</link>
+    <guid>https://dev.to/dev48v/rag-explained-give-an-llm-your-own-knowledge-388h</guid>
+    <pubDate>Wed, 24 Jun 2026 14:53:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>An LLM doesn&apos;t know your company&apos;s docs, last week&apos;s news, or your private data — and it&apos;ll confidently make things up. RAG fixes that: retrieve the relevant facts, put them in the prompt, then...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>REST Brain vs Procedure Brain</title>
+    <link>https://dev.to/shakiran_nannyombi_b0bf41/rest-brain-vs-procedure-brain-1oo6</link>
+    <guid>https://dev.to/shakiran_nannyombi_b0bf41/rest-brain-vs-procedure-brain-1oo6</guid>
+    <pubDate>Wed, 24 Jun 2026 14:53:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>REST Brain vs Procedure Brain Today I had one of the most valuable architecture discussions I&apos;ve been part of. I joined a monorepo expecting the usual: Frontend → API Server → Database Instead, I...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>OpenAI reveals its first AI processor: Jalapeño</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno</guid>
+    <pubDate>Wed, 24 Jun 2026 14:36:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>OpenAI has just revealed a new &quot;intelligence processor&quot; chip for AI servers made in partnership with Broadcom. The chip, called Jalapeño, is designed to power current and future large language...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>This year’s Prime Day deals on Apple products are the best I’ve seen</title>
+    <link>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</link>
+    <guid>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</guid>
+    <pubDate>Wed, 24 Jun 2026 14:33:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon’s Prime Day is now in its second day, and whether you’re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Laptop prices suck these days, but here are 25 Prime Day deals that help a little</title>
+    <link>https://www.theverge.com/gadgets/951105/prime-day-laptop-keyboards-mice-accessories-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/951105/prime-day-laptop-keyboards-mice-accessories-deal-sale</guid>
+    <pubDate>Wed, 24 Jun 2026 14:32:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The RAM, storage, and component crunch has come for new laptop prices. Plenty of models have gone up in price after being on the market for months, and so have those that’ve been on shelves for...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Philips Hue’s smart lights are getting a connectivity upgrade</title>
+    <link>https://www.theverge.com/tech/955767/philips-hue-thread-matter-zigbee-update-silicon-labs</link>
+    <guid>https://www.theverge.com/tech/955767/philips-hue-thread-matter-zigbee-update-silicon-labs</guid>
+    <pubDate>Wed, 24 Jun 2026 14:06:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Philips Hue has announced a connectivity upgrade for its Matter-over-Thread-enabled smart bulbs that will allow them to run both Thread and Zigbee at the same time. The change means you can...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>3 days left to save up to $190 on your TechCrunch Founder Summit 2026 pass</title>
+    <link>https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/</link>
+    <guid>https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/</guid>
+    <pubDate>Wed, 24 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>You have just 3 days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 before Early Bird rates end on June 26 at 11:59 p.m. PT. Register here.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>19 great Prime Day deals on our favorite charging gear</title>
+    <link>https://www.theverge.com/gadgets/951249/prime-day-chargers-power-banks-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/951249/prime-day-chargers-power-banks-deal-sale</guid>
+    <pubDate>Wed, 24 Jun 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you’re sick of your devices running out of juice early into the evening just as you’re about to go out, Prime Day is a great time to pick up a new power bank or charging brick. We’ve rounded up...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google’s TV Streamer 4K is $25 off, its best price ever</title>
+    <link>https://www.theverge.com/gadgets/953074/google-tv-streamer-4k-amazon-prime-day-2026-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/953074/google-tv-streamer-4k-amazon-prime-day-2026-deal-sale</guid>
+    <pubDate>Wed, 24 Jun 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Google TV Streamer 4K is more than just a terrific streaming device. It can also act as a smart home hub, letting you control all major smart home devices directly from your TV. Thanks to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>19 Prime Day deals on our favorite Switch 2 accessories</title>
+    <link>https://www.theverge.com/gadgets/951950/prime-day-nintendo-switch-2-accessories-cases-controllers-docks-chargers-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/951950/prime-day-nintendo-switch-2-accessories-cases-controllers-docks-chargers-deal-sale</guid>
+    <pubDate>Wed, 24 Jun 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Switch 2’s price is set to increase by $50 on September 1st, starting at $499.99, so if you’re purchasing one before that (or you already own one), now’s a good time to also save on...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Google Home Speaker sounds good and looks great — but it’s finicky</title>
+    <link>https://www.theverge.com/gadgets/955537/google-home-smart-speaker-hands-on</link>
+    <guid>https://www.theverge.com/gadgets/955537/google-home-smart-speaker-hands-on</guid>
+    <pubDate>Wed, 24 Jun 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Right out of the box, the new Google Home Speaker passed a couple of important tests. Even with the volume at 100 percent and music blaring out of the speaker, it quickly ducked the audio and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks</title>
+    <link>https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html</link>
+    <guid>https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html</guid>
+    <pubDate>Wed, 24 Jun 2026 12:48:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The &quot;critical exploitable pattern&quot;...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion</title>
+    <link>https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/</link>
+    <guid>https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/</guid>
+    <pubDate>Wed, 24 Jun 2026 12:36:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Modular, one of the most promising chip software startups of the AI era, heads for a multibillion-dollar exit.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Download: introducing the Engineering issue</title>
+    <link>https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/</link>
+    <guid>https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/</guid>
+    <pubDate>Wed, 24 Jun 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Engineering issue We can’t fix...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Stripe, Anthropic and OpenAI are backing an effort to stop respiratory infections</title>
+    <link>https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/</link>
+    <guid>https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/</guid>
+    <pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The common cold comes for us all—often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now, the payment...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The emergence of the web data infrastructure layer for AI</title>
+    <link>https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/</link>
+    <guid>https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/</guid>
+    <pubDate>Wed, 24 Jun 2026 11:59:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Dawn of the Apex Agentic Adversary</title>
+    <link>https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html</link>
+    <guid>https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html</guid>
+    <pubDate>Wed, 24 Jun 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>We are standing at the end of an era we never thought to mourn: the era of human-speed threats. For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Embedding Forbidden Text in Spyware to Discourage AI Analysis</title>
@@ -35,246 +269,12 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Dashboard Design for Incident Response</title>
-    <link>https://dev.to/mrinal_narang_13a3d00eb37/dashboard-design-for-incident-response-24i7</link>
-    <guid>https://dev.to/mrinal_narang_13a3d00eb37/dashboard-design-for-incident-response-24i7</guid>
-    <pubDate>Wed, 24 Jun 2026 11:03:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most dashboards answer one question: Is everything okay? During an incident, nobody&apos;s asking that. The real question: What broke, where, and what changed? Most dashboards fail at incidents because...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Who Wins the Variable Fight in Terraform?</title>
-    <link>https://dev.to/aws-builders/who-wins-the-variable-fight-in-terraform-2e6f</link>
-    <guid>https://dev.to/aws-builders/who-wins-the-variable-fight-in-terraform-2e6f</guid>
-    <pubDate>Wed, 24 Jun 2026 11:02:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A beginner friendly guide to understanding which value Terraform actually picks when the same variable is set in many places Introduction When you start writing Terraform, you quickly learn that...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Offshore Development and Bus Factor: Separating the Real Risk From the Stereotype</title>
-    <link>https://dev.to/khalfankm7/offshore-development-and-bus-factor-separating-the-real-risk-from-the-stereotype-3hd5</link>
-    <guid>https://dev.to/khalfankm7/offshore-development-and-bus-factor-separating-the-real-risk-from-the-stereotype-3hd5</guid>
-    <pubDate>Wed, 24 Jun 2026 11:01:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There&apos;s a common assumption that offshore development inherently raises bus factor risk. The data tells a more precise story, and it&apos;s worth getting right, both as someone who might work offshore...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How I Cut My AI Bill in Half — An Open Source Guide for 2026</title>
-    <link>https://dev.to/eagerspark/how-i-cut-my-ai-bill-in-half-an-open-source-guide-for-2026-3j1h</link>
-    <guid>https://dev.to/eagerspark/how-i-cut-my-ai-bill-in-half-an-open-source-guide-for-2026-3j1h</guid>
-    <pubDate>Wed, 24 Jun 2026 11:01:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Look, how I Cut My AI Bill in Half — An Open Source Guide for 2026 I never thought I&apos;d write a post defending API aggregators. I&apos;ve spent years championing fully self-hosted stacks, running my own...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Trust Is Not a Feature</title>
-    <link>https://dev.to/rawveg/trust-is-not-a-feature-2ln0</link>
-    <guid>https://dev.to/rawveg/trust-is-not-a-feature-2ln0</guid>
-    <pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Somewhere between the press releases and the product demos, something went quietly wrong with explainable AI. What began as a serious academic and civil liberties concern about algorithmic opacity...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building with mini, Part 3/9: Capturing ideas with todo</title>
-    <link>https://dev.to/stkremen/building-with-mini-part-3-capturing-ideas-with-todo-55f4</link>
-    <guid>https://dev.to/stkremen/building-with-mini-part-3-capturing-ideas-with-todo-55f4</guid>
-    <pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In Part 2, pycalc went through its planning interview. A side product you may have noticed: the interview generated ideas we deliberately rejected — Claude itself deferred the ** power operator...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Do localhost à produção: deployando Worker Services .NET como Windows Service, container Linux e Docker</title>
-    <link>https://dev.to/pmraven/do-localhost-a-producao-deployando-worker-services-net-como-windows-service-container-linux-e-o2f</link>
-    <guid>https://dev.to/pmraven/do-localhost-a-producao-deployando-worker-services-net-como-windows-service-container-linux-e-o2f</guid>
-    <pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Seu Worker Service roda lindamente com F5. Mas &quot;roda na minha máquina&quot; não processa pedido nenhum às 3h da manhã. Em produção, um worker é uma aplicação de longa duração que precisa iniciar...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Our favorite Prime Day deals you can shop on day two</title>
-    <link>https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale</link>
-    <guid>https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale</guid>
-    <pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Welcome to day two of Amazon’s four-day Prime Day event, which, if we’re being honest, looks a lot like day one. That’s actually good news, though, because many of the best deals are still around,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Reciprocal Rank Fusion on free Elasticsearch: licensing, workarounds, and the OpenSearch alternative</title>
-    <link>https://dev.to/u11d/reciprocal-rank-fusion-on-free-elasticsearch-licensing-workarounds-and-the-opensearch-alternative-56jk</link>
-    <guid>https://dev.to/u11d/reciprocal-rank-fusion-on-free-elasticsearch-licensing-workarounds-and-the-opensearch-alternative-56jk</guid>
-    <pubDate>Wed, 24 Jun 2026 10:59:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Reciprocal Rank Fusion (RRF) on Elasticsearch is gated to the Enterprise tier. On the Basic/free tier, querying with the rrf retriever returns a 403: { &quot;error&quot;: { &quot;root_cause&quot;: [ { &quot;type&quot;:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>GTA VI finally gets a price tag</title>
-    <link>https://www.theverge.com/games/952204/grand-theft-auto-vi-price</link>
-    <guid>https://www.theverge.com/games/952204/grand-theft-auto-vi-price</guid>
-    <pubDate>Wed, 24 Jun 2026 10:29:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>We finally have a price for Grand Theft Auto VI: $79.99. That gets you the standard edition of the game, while the Ultimate Edition will set you back $99.99. Preorders start at midnight tonight,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Bob Iger’s Disney wanted Apple, Twitter, and 007</title>
-    <link>https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger</link>
-    <guid>https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger</guid>
-    <pubDate>Wed, 24 Jun 2026 10:08:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Bob Iger&apos;s tenure as CEO of Disney came to an end a few months ago, after two decades of leading the entertainment giant through some of its most pivotal transformations and acquisitions. Iger, in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>This flying solar-powered platform could deliver better internet from the air</title>
     <link>https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/</link>
     <guid>https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/</guid>
     <pubDate>Wed, 24 Jun 2026 09:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
     <description>As soon as August, a giant silver bullet will cut its way through the dry air of the southwestern US and cross the Pacific to reach the coast of Japan. Once there, the roughly 200-foot-long craft,...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>All challenges big and small</title>
-    <link>https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/</link>
-    <guid>https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/</guid>
-    <pubDate>Wed, 24 Jun 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>When I was 18, I skipped my high school graduation and headed to Kuwait. It was 1991, the first Gulf War had just ended, and the country was in complete chaos. There was little to no electricity,...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering</title>
-    <link>https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html</link>
-    <guid>https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html</guid>
-    <pubDate>Wed, 24 Jun 2026 08:55:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root</title>
-    <link>https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html</link>
-    <guid>https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html</guid>
-    <pubDate>Wed, 24 Jun 2026 06:50:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The best robot vacuum deals available during Prime Day</title>
-    <link>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</link>
-    <guid>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</guid>
-    <pubDate>Wed, 24 Jun 2026 00:17:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. Prime Day has kicked off, though more than...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>This year’s Prime Day deals on Apple products are the best I’ve seen</title>
-    <link>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</link>
-    <guid>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</guid>
-    <pubDate>Tue, 23 Jun 2026 23:58:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon’s Prime Day sale is here, and whether you’re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11 has already...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>India’s MoEngage bets that the future of marketing is millions of AI agents</title>
-    <link>https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/</link>
-    <guid>https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/</guid>
-    <pubDate>Tue, 23 Jun 2026 23:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Nex Playground is down to its pre-RAMageddon price during Prime Day</title>
-    <link>https://www.theverge.com/gadgets/950871/nex-playground-prime-day-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/950871/nex-playground-prime-day-deal-sale</guid>
-    <pubDate>Tue, 23 Jun 2026 23:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Nex Playground is the family-centric, Kinect-like game console that made one Verge editor’s kids laugh, cry, and ask for more playtime, even when they were sick. The motion-based game play...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>White House drastically shortens deadline for dropping quantum-vulnerable crypto</title>
-    <link>https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/</link>
-    <guid>https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/</guid>
-    <pubDate>Tue, 23 Jun 2026 22:30:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Order warns of national security risks if post-quantum cryptography isn&apos;t adopted in time.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Home will soon get better at recognizing you</title>
-    <link>https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing</link>
-    <guid>https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing</guid>
-    <pubDate>Tue, 23 Jun 2026 22:28:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A new update for Google Home could make it less likely your smart home cameras mistake you for someone else, just because you&apos;re facing away from the camera. Starting June 23rd, Google&apos;s expanding...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Hollywood is bending the knee to OpenAI</title>
-    <link>https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt</link>
-    <guid>https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt</guid>
-    <pubDate>Tue, 23 Jun 2026 22:03:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Netflix, A24, Focus Features, and Warner Bros.&apos; Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino&apos;s new biographical drama about OpenAI cofounder /...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Heads in the game</title>
-    <link>https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/</link>
-    <guid>https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/</guid>
-    <pubDate>Tue, 23 Jun 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The Argentina v. France final of the 2022 Men’s World Cup in Qatar was shaping up to be one of the most epic games in soccer history. With just 12 minutes remaining in the extra time added to the...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Super Mario is mathier than you think</title>
-    <link>https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/</link>
-    <guid>https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/</guid>
-    <pubDate>Tue, 23 Jun 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Here’s a problem you probably didn’t solve in school: You’re an ambitious young plumber from Brooklyn in a world inhabited by violent human-size mushrooms called Goombas. The love of your life has...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A man of many words</title>
-    <link>https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/</link>
-    <guid>https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/</guid>
-    <pubDate>Tue, 23 Jun 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Brian Sietsema has a favorite word. It’s somewhat surprising that he can choose just one. He’s the person spellers rely on to confirm pronunciations and answer questions about the roots of the...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Sharing a love for calculus</title>
-    <link>https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/</link>
-    <guid>https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/</guid>
-    <pubDate>Tue, 23 Jun 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The national conversation about the value of education is currently dominated by speculation about the risks and positive potential of AI. Whatever your own perspective on that debate, I hope...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Stand Up for Research, Innovation, and Education</title>
-    <link>https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/</link>
-    <guid>https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/</guid>
-    <pubDate>Tue, 23 Jun 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Right now, MIT alumni and friends are voicing their support for: America’s scientific and technological leadership Merit-based admissions and affordable education Advances that increase US health,...</description>
     <category>AI</category>
   </item>
 </channel>
