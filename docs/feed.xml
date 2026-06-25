@@ -5,8 +5,170 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 24 Jun 2026 21:45:22 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 25 Jun 2026 04:33:52 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Build a link-preview service with one API call</title>
+    <link>https://dev.to/clausenetizen/build-a-link-preview-service-with-one-api-call-3o4j</link>
+    <guid>https://dev.to/clausenetizen/build-a-link-preview-service-with-one-api-call-3o4j</guid>
+    <pubDate>Thu, 25 Jun 2026 04:24:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When someone pastes a URL into your app&apos;s comment box or chat, you want to show a preview card: the page title, a short description, the favicon, and the social image. Doing that yourself means...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Expected Option&lt;String&gt;, Got Option&lt;()&gt; — Here&apos;s Why</title>
+    <link>https://dev.to/jazz_thumyat/expected-option-got-option-heres-why-5495</link>
+    <guid>https://dev.to/jazz_thumyat/expected-option-got-option-heres-why-5495</guid>
+    <pubDate>Thu, 25 Jun 2026 04:24:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m learning Rust and recently ran into something unexpected with Option type. I expected r to be Option&lt;&amp;mut String&gt;, but it came back as Option&lt;()&gt; instead. Here&apos;s what I tried: let mut vds =...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Exponential backoff with jitter stopped our CI retry storms</title>
+    <link>https://dev.to/claire_nguyen/exponential-backoff-with-jitter-stopped-our-ci-retry-storms-4hlk</link>
+    <guid>https://dev.to/claire_nguyen/exponential-backoff-with-jitter-stopped-our-ci-retry-storms-4hlk</guid>
+    <pubDate>Thu, 25 Jun 2026 04:21:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR: Exponential backoff with jitter spreads client retries over time so a recovering service doesn&apos;t get flattened by a synchronised wave. We added full jitter to our CI agents and a retry...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Stop Wasting Bandwidth: Master API Caching with ETags ⚡</title>
+    <link>https://dev.to/iprajapatiparesh/stop-wasting-bandwidth-master-api-caching-with-etags-1bh7</link>
+    <guid>https://dev.to/iprajapatiparesh/stop-wasting-bandwidth-master-api-caching-with-etags-1bh7</guid>
+    <pubDate>Thu, 25 Jun 2026 04:12:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Redundant Data Tax In data-dense B2B SaaS platforms at Smart Tech Devs, clients constantly poll your API for updates. Imagine a dashboard making a GET /api/system-config request every 60...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>UID2: The Standard That Quietly Replaced the Tracking Cookie</title>
+    <link>https://dev.to/wadco/uid2-the-standard-that-quietly-replaced-the-tracking-cookie-2e12</link>
+    <guid>https://dev.to/wadco/uid2-the-standard-that-quietly-replaced-the-tracking-cookie-2e12</guid>
+    <pubDate>Thu, 25 Jun 2026 04:10:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>While the industry celebrated the “death of the third-party cookie,” advertising platforms built a more persistent and standardized identity system based on your email address. Unified ID 2.0...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>_action: Declarative Event Handlers in an Attribute</title>
+    <link>https://dev.to/jon49/action-declarative-event-handlers-in-an-attribute-3b35</link>
+    <guid>https://dev.to/jon49/action-declarative-event-handlers-in-an-attribute-3b35</guid>
+    <pubDate>Thu, 25 Jun 2026 04:08:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Introduction In HTML Traits I went looking for a cleaner way to attach behavior to an element than wrapping it in a custom element. Traits got me most of the way there: composition over...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>HackTheBox: Nexus Writeup</title>
+    <link>https://dev.to/exploitnotes/hackthebox-nexus-writeup-17od</link>
+    <guid>https://dev.to/exploitnotes/hackthebox-nexus-writeup-17od</guid>
+    <pubDate>Thu, 25 Jun 2026 04:07:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Executive Summary This writeup documents the complete exploitation chain for the Nexus target system, from initial reconnaissance through root compromise. The attack leveraged: Exposed credentials...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Snyk launches Evo ADS to secure AI coding agents with real-time governance</title>
+    <link>https://dev.to/davekurian/snyk-launches-evo-ads-to-secure-ai-coding-agents-with-real-time-governance-2i34</link>
+    <guid>https://dev.to/davekurian/snyk-launches-evo-ads-to-secure-ai-coding-agents-with-real-time-governance-2i34</guid>
+    <pubDate>Thu, 25 Jun 2026 04:05:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI coding agents are no longer novelties—they now generate and ship production code, unsupervised, in enterprise environments. Security has not kept pace. Yesterday’s scanners watch code after it...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Translating Windows system audio in real time — driverless, with no virtual cable</title>
+    <link>https://dev.to/davutakca/translating-windows-system-audio-in-real-time-driverless-with-no-virtual-cable-2842</link>
+    <guid>https://dev.to/davutakca/translating-windows-system-audio-in-real-time-driverless-with-no-virtual-cable-2842</guid>
+    <pubDate>Thu, 25 Jun 2026 03:54:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I build Voxis, an open-source Windows app that translates whatever your system is playing — a video, a game, the other side of a call — and plays the translation back as spoken voice, a few...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>My app didn&apos;t go &quot;viral&quot;. My AWS bill did.</title>
+    <link>https://dev.to/earlgreyhot1701d/my-app-didnt-go-viral-my-aws-bill-did-434h</link>
+    <guid>https://dev.to/earlgreyhot1701d/my-app-didnt-go-viral-my-aws-bill-did-434h</guid>
+    <pubDate>Thu, 25 Jun 2026 03:54:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>And by viral I mean from $0 to $31. Umami told me Clew Directive got 14 visits last month. AWS told me I owed $31 for it. That works out to $2.21 a visitor, which would make it the most expensive...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Europe is pushing back on Washington’s chip war</title>
+    <link>https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/</link>
+    <guid>https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/</guid>
+    <pubDate>Thu, 25 Jun 2026 00:08:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>As ASML CEO Christophe Fouquet told TechCrunch in May, what China can currently buy are older-generation deep ultraviolet tools — gear first shipped about a decade ago — the same machines the...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The top tech Prime Day deals to shop on day two</title>
+    <link>https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale</link>
+    <guid>https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale</guid>
+    <pubDate>Wed, 24 Jun 2026 23:48:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Welcome to day two of Amazon’s four-day Prime Day event, which, if we’re being honest, looks a lot like day one. That’s actually good news, though, because many of the best deals are still around,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Former Infosys chief has a new startup that wants to challenge the IT services world</title>
+    <link>https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/</link>
+    <guid>https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/</guid>
+    <pubDate>Wed, 24 Jun 2026 23:26:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Backed by Mayfield and Aramco Ventures, Vishal Sikka’s new venture brings together veterans from SAP, Infosys, and VianAI.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood</title>
+    <link>https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/</link>
+    <guid>https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/</guid>
+    <pubDate>Wed, 24 Jun 2026 22:41:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>In its first earnings report since going public, the AI chipmaker forecast a narrower gross margin in its core business, scaring investors.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How to Opt Out of Google Search’s New AI Data Training Feature</title>
+    <link>https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training/</link>
+    <guid>https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training/</guid>
+    <pubDate>Wed, 24 Jun 2026 22:36:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Google’s Search history update stores media uploads from your interactions, like images used in reverse image searches, for training its AI models.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>This year’s Prime Day deals on Apple products are the best I’ve seen</title>
+    <link>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</link>
+    <guid>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</guid>
+    <pubDate>Wed, 24 Jun 2026 21:58:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon’s Prime Day is now in its second day, and whether you’re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient</title>
+    <link>https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/</link>
+    <guid>https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/</guid>
+    <pubDate>Wed, 24 Jun 2026 21:56:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>While AI dominates the layoff narrative, engineers are actually making up a larger share of new hires, according to SignalFire data.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The 16 best robot vacuum deals available during Prime Day</title>
+    <link>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</link>
+    <guid>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</guid>
+    <pubDate>Wed, 24 Jun 2026 21:51:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you’ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. We’re now on day two of Prime Day, and Amazon,...</description>
+    <category>Tech Industry</category>
+  </item>
   <item>
     <title>AI researchers continue to leave Google for its rivals</title>
     <link>https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/</link>
@@ -35,31 +197,13 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>The memory chip crunch is paying off for this U.S. company</title>
+    <title>The memory chip crunch is paying off for this US company</title>
     <link>https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/</link>
     <guid>https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/</guid>
     <pubDate>Wed, 24 Jun 2026 21:30:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Revenue quadrupled to $41.45 billion compared with the same period a year ago. The company&apos;s profit, meanwhile, rose from $1.88 billion to an incredible $28.2 billion year-over-year.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Your @EventListener Fires Before the Transaction Commits⚙️</title>
-    <link>https://dev.to/code_with_kyryl/your-eventlistener-fires-before-the-transaction-commits-286m</link>
-    <guid>https://dev.to/code_with_kyryl/your-eventlistener-fires-before-the-transaction-commits-286m</guid>
-    <pubDate>Wed, 24 Jun 2026 21:20:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your domain event fires. Your notification service queries the DB for the entity that just got saved. It finds nothing. You add a log line. It starts working. You remove the log. It breaks again....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a Real-Time World Cup 2026 Bracket Predictor with Vanilla JS and GitHub Actions</title>
-    <link>https://dev.to/ryo_kurita_1a64dfc9182ff0/building-a-real-time-world-cup-2026-bracket-predictor-with-vanilla-js-and-github-actions-5fln</link>
-    <guid>https://dev.to/ryo_kurita_1a64dfc9182ff0/building-a-real-time-world-cup-2026-bracket-predictor-with-vanilla-js-and-github-actions-5fln</guid>
-    <pubDate>Wed, 24 Jun 2026 21:06:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction With the World Cup 2026 group stage reaching its climax, football fans worldwide are speculating about who will make it to the finals. To make this experience interactive, I built a...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>A24 Knows You’re Mad About the Google AI Collab</title>
@@ -80,42 +224,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>How Be Recommended by Inithouse Scores AI Visibility 0 to 100 Across ChatGPT, Perplexity, Claude and Gemini</title>
-    <link>https://dev.to/jakub_inithouse/how-be-recommended-by-inithouse-scores-ai-visibility-0-to-100-across-chatgpt-perplexity-claude-36ob</link>
-    <guid>https://dev.to/jakub_inithouse/how-be-recommended-by-inithouse-scores-ai-visibility-0-to-100-across-chatgpt-perplexity-claude-36ob</guid>
-    <pubDate>Wed, 24 Jun 2026 21:00:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your product might rank on page one of Google and still be invisible to AI. When someone asks ChatGPT &quot;what&apos;s the best project management tool for small teams,&quot; does your product show up? For most...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built a Messenger That Works Without the Internet — And It Changed How I Think About Privacy</title>
-    <link>https://dev.to/6arshid/i-built-a-messenger-that-works-without-the-internet-and-it-changed-how-i-think-about-privacy-4aid</link>
-    <guid>https://dev.to/6arshid/i-built-a-messenger-that-works-without-the-internet-and-it-changed-how-i-think-about-privacy-4aid</guid>
-    <pubDate>Wed, 24 Jun 2026 20:59:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A quiet experiment in Bluetooth, offline communication, and why we gave up too much when we handed our conversations to the cloud. The last time I was truly unreachable, I was in a place with no...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Get Your First Tool Online</title>
-    <link>https://dev.to/mlh/how-to-get-your-first-tool-online-3c8k</link>
-    <guid>https://dev.to/mlh/how-to-get-your-first-tool-online-3c8k</guid>
-    <pubDate>Wed, 24 Jun 2026 20:58:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR - A finished app that only runs on one laptop is a private demo. Getting it online means connecting three things: a place to store the code (version control), a place to run it (a host), and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>RAG vs Agentic AI: A Developer&apos;s Decision Tree (With Code Examples for Both)</title>
-    <link>https://dev.to/dextralabs/rag-vs-agentic-ai-a-developers-decision-tree-with-code-examples-for-both-2nh3</link>
-    <guid>https://dev.to/dextralabs/rag-vs-agentic-ai-a-developers-decision-tree-with-code-examples-for-both-2nh3</guid>
-    <pubDate>Wed, 24 Jun 2026 20:57:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Two different problems wearing similar clothes. Here&apos;s how to tell them apart in thirty seconds, with working code for both. I see this confusion in almost every project kickoff: &quot;We need RAG&quot;...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>A new paper argues Microsoft exaggerated its quantum claims a year ago</title>
     <link>https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims</link>
     <guid>https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims</guid>
@@ -123,42 +231,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>A critique published in Nature Wednesday calls the basic technology behind Microsoft&apos;s &quot;breakthrough&quot; quantum computing chip the Majorana 1 into question. Microsoft unveiled the chip in February...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Autoscaling Is an Authority System, Not a Capacity System</title>
-    <link>https://dev.to/ntctech/autoscaling-is-an-authority-system-not-a-capacity-system-35j2</link>
-    <guid>https://dev.to/ntctech/autoscaling-is-an-authority-system-not-a-capacity-system-35j2</guid>
-    <pubDate>Wed, 24 Jun 2026 20:51:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Autoscaling authority is the condition most cloud operations teams have never formally defined. Every organization running Kubernetes has autoscaling configured. Almost none has treated those...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Python library to bypass Cloudflare/G captcha v2 LOCALLY</title>
-    <link>https://dev.to/sinfolke/python-library-to-bypass-cloudflareg-captcha-v2-locally-1b0p</link>
-    <guid>https://dev.to/sinfolke/python-library-to-bypass-cloudflareg-captcha-v2-locally-1b0p</guid>
-    <pubDate>Wed, 24 Jun 2026 20:51:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Real world example Site name is hidden import asyncio from pylcaptcha.http import BrowserHTTP async def main(imei_number: str): async with BrowserHTTP() as protocol: await...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Making DSPy reliable: self-correcting, schema-validated LLM outputs with automatic prompt optimization</title>
-    <link>https://dev.to/ramkumar_muraleedharanr/making-dspy-reliable-self-correcting-schema-validated-llm-outputs-with-automatic-prompt-2m76</link>
-    <guid>https://dev.to/ramkumar_muraleedharanr/making-dspy-reliable-self-correcting-schema-validated-llm-outputs-with-automatic-prompt-2m76</guid>
-    <pubDate>Wed, 24 Jun 2026 20:47:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I got tired of babysitting LLM prompts, so I built a small open source tool to stop. The pattern that wore me down: every LLM call in a real agent needs a wrapper. Parse the JSON, catch the field...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How We Made Ktor JSON Parsing 66% Faster with 50% Less Memory on KMP</title>
-    <link>https://dev.to/juan_hurtado/how-we-made-ktor-json-parsing-66-faster-with-50-less-memory-on-kmp-2pca</link>
-    <guid>https://dev.to/juan_hurtado/how-we-made-ktor-json-parsing-66-faster-with-50-less-memory-on-kmp-2pca</guid>
-    <pubDate>Wed, 24 Jun 2026 20:43:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you are building Kotlin Multiplatform applications, you know that JSON serialization is often one of the main bottlenecks in high-throughput backends and mobile apps—especially regarding CPU...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Companies are scrambling to stop employees from maxing out AI budgets with small tasks</title>
@@ -197,15 +269,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>This year’s Prime Day deals on Apple products are the best I’ve seen</title>
-    <link>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</link>
-    <guid>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</guid>
-    <pubDate>Wed, 24 Jun 2026 18:05:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon’s Prime Day is now in its second day, and whether you’re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Google is finally opening the Play Store to outside payments</title>
     <link>https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust</link>
     <guid>https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust</guid>
@@ -213,68 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>While the court still hasn&apos;t signed off on the massive settlement resolving Epic&apos;s antitrust lawsuit against Google for having a monopoly over Android&apos;s app store with Google Play, the tech giant...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Prime Day deals under $50 that are really worth it</title>
-    <link>https://www.theverge.com/gadgets/951543/best-prime-day-deals-under-50</link>
-    <guid>https://www.theverge.com/gadgets/951543/best-prime-day-deals-under-50</guid>
-    <pubDate>Wed, 24 Jun 2026 17:28:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re looking for a good deal without spending hundreds, Prime Day discounts have pushed some of our favorite products under $50. You can pick up everything from Nintendo Switch games to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The $27 million Al proxy war over Alex Bores ends in a draw</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results</guid>
-    <pubDate>Wed, 24 Jun 2026 17:25:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited</title>
-    <link>https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html</link>
-    <guid>https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html</guid>
-    <pubDate>Wed, 24 Jun 2026 17:19:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Facebook rolls out an AI companion app for creators</title>
-    <link>https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/</link>
-    <guid>https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/</guid>
-    <pubDate>Wed, 24 Jun 2026 17:16:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The new app, which is currently being tested with select creators, will have Facebook&apos;s recently launched AI creator assistant built into it.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Agility Robotics plans to go public via SPAC in a $2.5B deal</title>
-    <link>https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/</link>
-    <guid>https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/</guid>
-    <pubDate>Wed, 24 Jun 2026 16:48:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Figma adds code layers, support for animations, more AI features in new update</title>
-    <link>https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/</link>
-    <guid>https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/</guid>
-    <pubDate>Wed, 24 Jun 2026 16:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Figma&apos;s update adds a new code layer, support for motion and shaders, and the ability to create custom plug-ins for various tasks using AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel</title>
-    <link>https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel</link>
-    <guid>https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel</guid>
-    <pubDate>Wed, 24 Jun 2026 16:00:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
