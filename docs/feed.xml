@@ -5,97 +5,178 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 26 Jun 2026 04:39:28 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 26 Jun 2026 11:14:22 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>30 Tiny React Hooks That Punch Way Above Their Weight</title>
-    <link>https://dev.to/mursalfk/30-tiny-react-hooks-that-punch-way-above-their-weight-1907</link>
-    <guid>https://dev.to/mursalfk/30-tiny-react-hooks-that-punch-way-above-their-weight-1907</guid>
-    <pubDate>Fri, 26 Jun 2026 04:22:27 +0000</pubDate>
+    <title>Code Smell 320 - Vanity Coverage</title>
+    <link>https://dev.to/mcsee/code-smell-320-vanity-coverage-2g03</link>
+    <guid>https://dev.to/mcsee/code-smell-320-vanity-coverage-2g03</guid>
+    <pubDate>Fri, 26 Jun 2026 11:07:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hello devs 👋 Ever notice how the same ten lines of React keep showing up in every project you touch? You copy them from some old repo, paste them into the new one, rename a variable or two, and...</description>
+    <description>Brushing Over Real Problems TL;DR: You write tests that touch every line but verify nothing, creating false confidence in a broken system. Problems 😔 False confidence Hidden production defects...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Can AI Scan the Internet? AI Search vs Real-Time Monitoring</title>
-    <link>https://dev.to/raj_savaliya/can-ai-scan-the-internet-ai-search-vs-real-time-monitoring-1i5k</link>
-    <guid>https://dev.to/raj_savaliya/can-ai-scan-the-internet-ai-search-vs-real-time-monitoring-1i5k</guid>
-    <pubDate>Fri, 26 Jun 2026 04:05:32 +0000</pubDate>
+    <title>The 45-tool problem: why Juejin 必备 roundups have stopped helping me pick AI tools</title>
+    <link>https://dev.to/ninghonggang/the-45-tool-problem-why-juejin-bi-bei-roundups-have-stopped-helping-me-pick-ai-tools-30ai</link>
+    <guid>https://dev.to/ninghonggang/the-45-tool-problem-why-juejin-bi-bei-roundups-have-stopped-helping-me-pick-ai-tools-30ai</guid>
+    <pubDate>Fri, 26 Jun 2026 11:05:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Can AI Scan the Internet? Understanding AI Search vs. Real-Time Monitoring Introduction The way we find information online is undergoing a massive shift. For over two decades, internet users have...</description>
+    <description>I went down a rabbit hole this morning reading four late-2025 Juejin AI tool roundups back to back, and the thing that finally crystallized for me is that the Juejin &quot;必备&quot; list has quietly inflated...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>tgo Devlog #3: Taming Context Windows, Compiling Lodash, and the Repetitive Reality of True Ownership</title>
-    <link>https://dev.to/mtleadership/tgo-devlog-3-taming-context-windows-compiling-lodash-and-the-repetitive-reality-of-true-4d7l</link>
-    <guid>https://dev.to/mtleadership/tgo-devlog-3-taming-context-windows-compiling-lodash-and-the-repetitive-reality-of-true-4d7l</guid>
-    <pubDate>Fri, 26 Jun 2026 04:00:00 +0000</pubDate>
+    <title>Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack</title>
+    <link>https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html</link>
+    <guid>https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html</guid>
+    <pubDate>Fri, 26 Jun 2026 11:05:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>One Million Passports Leaked Online</title>
+    <link>https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html</guid>
+    <pubDate>Fri, 26 Jun 2026 11:03:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>A database of almost a million passports from around the world was leaked online. Note what happened. A high-value credential—a passport—was used in an ancillary low-value authentication system:...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Building a Multimodal AI Pipeline: Text Image Text Across Three Providers</title>
+    <link>https://dev.to/yait/building-a-multimodal-ai-pipeline-text-image-text-across-three-providers-22oo</link>
+    <guid>https://dev.to/yait/building-a-multimodal-ai-pipeline-text-image-text-across-three-providers-22oo</guid>
+    <pubDate>Fri, 26 Jun 2026 11:02:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I’ve been making massive headway on tgo, my TypeScript to Go compiler library, but it is forcing me to confront some hard realities about how I manage systems, AI, and even people. The Cost of...</description>
+    <description>Three providers, three modalities, under 55 lines of Python — and a PNG file on disk at the end. Claude writes a sunset description, an image generation model paints it, and Qwen Vision analyzes...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Array Methods in JS - Part 2</title>
-    <link>https://dev.to/annapoo/array-methods-in-js-part-2-3hic</link>
-    <guid>https://dev.to/annapoo/array-methods-in-js-part-2-3hic</guid>
-    <pubDate>Fri, 26 Jun 2026 03:42:58 +0000</pubDate>
+    <title>Building Structured Inter-Agent Communication: A Practical Guide</title>
+    <link>https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-m6</link>
+    <guid>https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-m6</guid>
+    <pubDate>Fri, 26 Jun 2026 11:00:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>JavaScript Array Search Methods What are Array Search Methods? Array Search Methods are used to: Find the position (index) of an element. Check whether an element exists. Retrieve an element that...</description>
+    <description>Every multi-agent tutorial shows &quot;Agent A talks to Agent B.&quot; None show how to keep that conversation reliable at scale. The Problem with String-Based Agent Chat # What most frameworks do: result =...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Can We Talk About the &quot;AI/ML Engineer&quot; Shortcut for a Second?</title>
-    <link>https://dev.to/nadasshawer/can-we-talk-about-the-aiml-engineer-shortcut-for-a-second-2dc0</link>
-    <guid>https://dev.to/nadasshawer/can-we-talk-about-the-aiml-engineer-shortcut-for-a-second-2dc0</guid>
-    <pubDate>Fri, 26 Jun 2026 03:42:19 +0000</pubDate>
+    <title>You shipped an MCP server. Nobody found it. Here&apos;s the fix.</title>
+    <link>https://dev.to/palo_alto_ai/you-shipped-an-mcp-server-nobody-found-it-heres-the-fix-10b9</link>
+    <guid>https://dev.to/palo_alto_ai/you-shipped-an-mcp-server-nobody-found-it-heres-the-fix-10b9</guid>
+    <pubDate>Fri, 26 Jun 2026 11:00:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Lately, it feels like my feed is completely flooded with &quot;Become an AI/ML Engineer in 2 Hours!&quot; crash courses and quick certificates promising a golden fast-track into machine learning roles. But...</description>
+    <description>The problem isn&apos;t quality. Most OSS tools die because the author posted once, got silence, and never had time to keep showing up. Distribution is a recurring job — directory submissions, social...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Mastering React Server Components in Next.js 15 Apps</title>
-    <link>https://dev.to/satyamsrivastava/mastering-react-server-components-in-nextjs-15-apps-5748</link>
-    <guid>https://dev.to/satyamsrivastava/mastering-react-server-components-in-nextjs-15-apps-5748</guid>
-    <pubDate>Fri, 26 Jun 2026 03:36:24 +0000</pubDate>
+    <title>Three Years in Four Weeks</title>
+    <link>https://dev.to/rawveg/three-years-in-four-weeks-51b6</link>
+    <guid>https://dev.to/rawveg/three-years-in-four-weeks-51b6</guid>
+    <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Mastering React Server Components in Next.js 15 Apps React Server Components (RSC) have moved from “experimental curiosity” to one of the defining frontend trends for 2026, especially in Next.js...</description>
+    <description>In late February 2026, Perplexity AI quietly published a blog post with a claim that should have set off alarms in every corporate office from London to Los Angeles. The company&apos;s new product,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>JavaScript Arrays Methods - Part 1</title>
-    <link>https://dev.to/annapoo/javascript-arrays-methods-part-1-kb7</link>
-    <guid>https://dev.to/annapoo/javascript-arrays-methods-part-1-kb7</guid>
-    <pubDate>Fri, 26 Jun 2026 03:33:39 +0000</pubDate>
+    <title>It’s the last day of Prime Day — here are over 130 great deals to choose from</title>
+    <link>https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four</link>
+    <guid>https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four</guid>
+    <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>We’ve arrived at the final day of Prime Day, which at this point should probably be called “Prime Week.” We’ve found discounts on all manner of gadgets, including TVs, smart home tech, chargers,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How to Choose the Right Keywords for Different Geographic Markets</title>
+    <link>https://dev.to/kevincarroll85/how-to-choose-the-right-keywords-for-different-geographic-markets-4i3p</link>
+    <guid>https://dev.to/kevincarroll85/how-to-choose-the-right-keywords-for-different-geographic-markets-4i3p</guid>
+    <pubDate>Fri, 26 Jun 2026 10:57:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What is an Array? An Array is a special object in JavaScript used to store multiple values in a single variable. Instead of creating separate variables, let student1 = &quot;John&quot;; let student2 =...</description>
+    <description>When you&apos;re doing keyword research for a new project, the typical workflow involves brainstorming terms, checking search volume, and maybe looking at difficulty scores. But if you&apos;re targeting...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Prompt Isn&apos;t the Problem: Why System Prompts Matter More Than User Prompts in Production AI Applications</title>
-    <link>https://dev.to/saif_urrahman/your-prompt-isnt-the-problem-why-system-prompts-matter-more-than-user-prompts-in-production-ai-1fko</link>
-    <guid>https://dev.to/saif_urrahman/your-prompt-isnt-the-problem-why-system-prompts-matter-more-than-user-prompts-in-production-ai-1fko</guid>
-    <pubDate>Fri, 26 Jun 2026 03:32:00 +0000</pubDate>
+    <title>Knowledge-and-Memory-Management v0.0.2: Knowledge Collection &amp; Memory Management</title>
+    <link>https://dev.to/manoir_yantai_f22f01340f0/knowledge-and-memory-management-v002-knowledge-collection-memory-management-2h8g</link>
+    <guid>https://dev.to/manoir_yantai_f22f01340f0/knowledge-and-memory-management-v002-knowledge-collection-memory-management-2h8g</guid>
+    <pubDate>Fri, 26 Jun 2026 10:56:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction When developers first start building AI applications, they usually focus on one thing: The prompt. Questions like: How can I make Claude respond better? How do I reduce...</description>
+    <description>Knowledge-and-Memory-Management v0.0.2 is a clean release that introduces structured knowledge collection from web, video, and article sources, alongside memory management enhancements. All...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Zero-Dependency Python Library for OTP Codes</title>
-    <link>https://dev.to/fajardevtech/i-built-a-zero-dependency-python-library-for-otp-codes-ki6</link>
-    <guid>https://dev.to/fajardevtech/i-built-a-zero-dependency-python-library-for-otp-codes-ki6</guid>
-    <pubDate>Fri, 26 Jun 2026 03:31:46 +0000</pubDate>
+    <title>Real-Time Network Telemetry for AI: Building an Asynchronous NetFlow/sFlow Ingestion Pipeline in Python</title>
+    <link>https://dev.to/ussdlover/real-time-network-telemetry-for-ai-building-an-asynchronous-netflowsflow-ingestion-pipeline-in-35op</link>
+    <guid>https://dev.to/ussdlover/real-time-network-telemetry-for-ai-building-an-asynchronous-netflowsflow-ingestion-pipeline-in-35op</guid>
+    <pubDate>Fri, 26 Jun 2026 10:56:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem Every automation project hits the same wall: OTP verification. You&apos;re building a bot, a scraper, an automation tool — and then you need to verify an account. GitHub, Google, Discord,...</description>
+    <description>As AI architectures transition from static data processing to real-time agentic monitoring, the data engineering pipelines feeding them must adapt. If you are building an AI-driven anomaly...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Prompt Caching vs Fine-Tuning: Cost-Effective LLM Strategies</title>
-    <link>https://dev.to/kapil/prompt-caching-vs-fine-tuning-cost-effective-llm-strategies-1kem</link>
-    <guid>https://dev.to/kapil/prompt-caching-vs-fine-tuning-cost-effective-llm-strategies-1kem</guid>
-    <pubDate>Fri, 26 Jun 2026 03:30:42 +0000</pubDate>
+    <title>What Is Loopcraft? From Prompt Engineering to Agent Loop System Design</title>
+    <link>https://dev.to/luhuidev/what-is-loopcraft-from-prompt-engineering-to-agent-loop-system-design-2dff</link>
+    <guid>https://dev.to/luhuidev/what-is-loopcraft-from-prompt-engineering-to-agent-loop-system-design-2dff</guid>
+    <pubDate>Fri, 26 Jun 2026 10:53:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Key takeaways Prompt caching can yield up to 70% savings on LLM costs. Fine-tuning is effective but requires significant upfront investment. Choosing between caching and fine-tuning depends on...</description>
+    <description>🙋‍ I’m Luhui Dev, a developer who has been breaking down Agent engineering and exploring how AI can be applied in education. I focus on Agent Harness, LLM application engineering, AI for Math, and...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How Qatar Became FIFA’s Technology Test Lab</title>
+    <link>https://www.wired.com/story/how-qatar-became-fifas-technology-test-lab/</link>
+    <guid>https://www.wired.com/story/how-qatar-became-fifas-technology-test-lab/</guid>
+    <pubDate>Fri, 26 Jun 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Qatar has become the place where FIFA experiments with the next generation of football technology. The results are already visible across this year’s World Cup.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant</title>
+    <link>https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html</link>
+    <guid>https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html</guid>
+    <pubDate>Fri, 26 Jun 2026 09:27:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An active phishing campaign has been targeting hotel and other hospitality organizations across Europe and Asia since April 2026, using photo-themed ZIP files to drop a Node.js implant and dig...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Heat waves mess with your brain. Scientists are trying to figure out why.</title>
+    <link>https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/</link>
+    <guid>https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/</guid>
+    <pubDate>Fri, 26 Jun 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Russia Used Cellebrite on Jailed Activist&apos;s iPhone Months After Sales Cutoff</title>
+    <link>https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html</link>
+    <guid>https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html</guid>
+    <pubDate>Fri, 26 Jun 2026 08:49:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Russian authorities used Cellebrite&apos;s UFED forensic tools to break into the iPhone of detained opposition activist Andrey Pivovarov in June 2021, three months after Cellebrite said it would stop...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Trump Mobile will take your $499 right now</title>
+    <link>https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit</link>
+    <guid>https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit</guid>
+    <pubDate>Fri, 26 Jun 2026 08:40:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Where&apos;s the Trump phone? We&apos;re going to keep talking about it every week. We still don&apos;t have the phones we preordered yet, but this week the T1 hit open sale, no deposit required. Trump Mobile&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google Details Turla&apos;s New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks</title>
+    <link>https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html</link>
+    <guid>https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html</guid>
+    <pubDate>Fri, 26 Jun 2026 07:15:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Anthropic Thinks Its Own Success Is Key to Making AI Safe</title>
@@ -120,7 +201,7 @@
     <guid>https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/</guid>
     <pubDate>Thu, 25 Jun 2026 23:34:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.</description>
+    <description>OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.</description>
     <category>AI</category>
   </item>
   <item>
@@ -194,86 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Microsoft announced today that the price of all Xbox models will rise in August, the second time in less than a year as memory prices continue to wreak havoc on every industry from cars to...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Instagram wants to monopolize your attention</title>
-    <link>https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video</link>
-    <guid>https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video</guid>
-    <pubDate>Thu, 25 Jun 2026 20:10:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This week, Instagram launched a series of new features for its smart TV app that are all designed to get people to spend more time on the platform through the biggest screens in their homes. In...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>RAMageddon just got extremely real</title>
-    <link>https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase</link>
-    <guid>https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase</guid>
-    <pubDate>Thu, 25 Jun 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>As far as prices go, Apple is kind of a reverse canary in the coal mine. With its famously generous margins and immense purchasing volume, it can afford to ride out price fluctuations in its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Notion killing Skiff-influenced email app since most users use AI agents instead</title>
-    <link>https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/</link>
-    <guid>https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/</guid>
-    <pubDate>Thu, 25 Jun 2026 19:04:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Notion is &quot;going all in on using agents to run your inbox.&quot;</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The 16 best robot vacuum deals available during Prime Day</title>
-    <link>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</link>
-    <guid>https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026</guid>
-    <pubDate>Thu, 25 Jun 2026 18:47:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. We’re now on day three of Prime Day, and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT</title>
-    <link>https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/</link>
-    <guid>https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/</guid>
-    <pubDate>Thu, 25 Jun 2026 17:38:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Despite ChatGPT&apos;s commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic&apos;s Claude, data shows.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>AI and Liability</title>
-    <link>https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html</guid>
-    <pubDate>Thu, 25 Jun 2026 17:03:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Earlier this month, a German court ruled that Google is liable for its AI search summaries. Rejecting defenses like “users can check for themselves,” and that they generally know “that information...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>General Intuition’s $2.3B bet that video games can train AI agents for the real world</title>
-    <link>https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/</link>
-    <guid>https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/</guid>
-    <pubDate>Thu, 25 Jun 2026 16:55:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x</title>
-    <link>https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/</link>
-    <guid>https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/</guid>
-    <pubDate>Thu, 25 Jun 2026 16:48:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Un-0 is an image-generation system tool that shows for the first time how the company&apos;s technology can replicate conventional AI systems.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Which tokens does a hybrid model predict better?</title>
-    <link>https://huggingface.co/blog/allenai/hybrid-token-prediction</link>
-    <guid>https://huggingface.co/blog/allenai/hybrid-token-prediction</guid>
-    <pubDate>Thu, 25 Jun 2026 16:11:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
