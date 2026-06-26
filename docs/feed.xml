@@ -5,25 +5,223 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 26 Jun 2026 11:14:22 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 26 Jun 2026 14:47:07 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Code Smell 320 - Vanity Coverage</title>
-    <link>https://dev.to/mcsee/code-smell-320-vanity-coverage-2g03</link>
-    <guid>https://dev.to/mcsee/code-smell-320-vanity-coverage-2g03</guid>
-    <pubDate>Fri, 26 Jun 2026 11:07:00 +0000</pubDate>
+    <title>Why generating code isn’t the same as code intelligence</title>
+    <link>https://dev.to/codeqa/why-generating-code-isnt-the-same-as-code-intelligence-2agc</link>
+    <guid>https://dev.to/codeqa/why-generating-code-isnt-the-same-as-code-intelligence-2agc</guid>
+    <pubDate>Fri, 26 Jun 2026 14:35:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Brushing Over Real Problems TL;DR: You write tests that touch every line but verify nothing, creating false confidence in a broken system. Problems 😔 False confidence Hidden production defects...</description>
+    <description>AI code generation tools can spin up a new endpoint, a data model, or a UI flow in minutes. The problem starts when that code needs to land inside a ten-year-old system with shared libraries,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The 45-tool problem: why Juejin 必备 roundups have stopped helping me pick AI tools</title>
-    <link>https://dev.to/ninghonggang/the-45-tool-problem-why-juejin-bi-bei-roundups-have-stopped-helping-me-pick-ai-tools-30ai</link>
-    <guid>https://dev.to/ninghonggang/the-45-tool-problem-why-juejin-bi-bei-roundups-have-stopped-helping-me-pick-ai-tools-30ai</guid>
-    <pubDate>Fri, 26 Jun 2026 11:05:49 +0000</pubDate>
+    <title>SQL window functions: what separates a mid-level from a senior developer</title>
+    <link>https://dev.to/lbraun7/sql-window-functions-what-separates-a-mid-level-from-a-senior-developer-2mf3</link>
+    <guid>https://dev.to/lbraun7/sql-window-functions-what-separates-a-mid-level-from-a-senior-developer-2mf3</guid>
+    <pubDate>Fri, 26 Jun 2026 14:29:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I went down a rabbit hole this morning reading four late-2025 Juejin AI tool roundups back to back, and the thing that finally crystallized for me is that the Juejin &quot;必备&quot; list has quietly inflated...</description>
+    <description>Most developers know SELECT, JOIN, and GROUP BY. Window functions are where the gap between mid and senior starts to show. What makes window functions different GROUP BY collapses rows. You lose...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I don&apos;t write my language by hand — an organism grows it (Day 5)</title>
+    <link>https://dev.to/umbraaeternaa/i-dont-write-my-language-by-hand-an-organism-grows-it-day-5published-true-4lmi</link>
+    <guid>https://dev.to/umbraaeternaa/i-dont-write-my-language-by-hand-an-organism-grows-it-day-5published-true-4lmi</guid>
+    <pubDate>Fri, 26 Jun 2026 14:29:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m building a programming language. But here&apos;s the strange part: I barely write it by hand anymore. An organism I built grows it for me — day and night, on my own machine. This is Day 5, and it...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I ported Rust&apos;s Result and Option types to TypeScript</title>
+    <link>https://dev.to/madkarma/i-ported-rusts-result-and-option-types-to-typescript-2jld</link>
+    <guid>https://dev.to/madkarma/i-ported-rusts-result-and-option-types-to-typescript-2jld</guid>
+    <pubDate>Fri, 26 Jun 2026 14:28:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve used Rust, you know how nice it is to have Result&lt;T, E&gt; and Option&lt;T&gt; types that make failure and absence explicit instead of something that blows up at runtime. I wanted that in...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Day 41: Monitoring ClickHouse® Performance Metrics</title>
+    <link>https://dev.to/kanishga_subramani_49ad73/day-38-monitoring-clickhouser-performance-metrics-36ob</link>
+    <guid>https://dev.to/kanishga_subramani_49ad73/day-38-monitoring-clickhouser-performance-metrics-36ob</guid>
+    <pubDate>Fri, 26 Jun 2026 14:25:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Monitoring ClickHouse® Performance Metrics Introduction Monitoring is a fundamental part of operating a healthy ClickHouse® deployment. As databases grow larger and analytical workloads become...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Agentless: A Practical, Cost-Effective Workflow for Human-Supervised AI</title>
+    <link>https://dev.to/spark2k06/agentless-a-practical-cost-effective-workflow-for-human-supervised-ai-33gg</link>
+    <guid>https://dev.to/spark2k06/agentless-a-practical-cost-effective-workflow-for-human-supervised-ai-33gg</guid>
+    <pubDate>Fri, 26 Jun 2026 14:16:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>In the current landscape of AI, autonomous agents are often portrayed as the ultimate goal. However, whether you are constrained by corporate security policies or simply prefer to maintain full...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Of course Meta thinks gambling is the future</title>
+    <link>https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast</link>
+    <guid>https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast</guid>
+    <pubDate>Fri, 26 Jun 2026 14:16:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Meta is, by and large, a company built on other companies&apos; ideas. It has almost perfected the strategy: wait for a new platform or social mechanic to take off, then either buy or clone it, put it...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>LLD:12-Vending Machine System</title>
+    <link>https://dev.to/_noob/lld12-vending-machine-system-4n65</link>
+    <guid>https://dev.to/_noob/lld12-vending-machine-system-4n65</guid>
+    <pubDate>Fri, 26 Jun 2026 14:13:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Vending Machine System - State Pattern Implementation This is an implementation of the State design pattern for a vending machine system where the machine changes its behavior based on its...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why have papers by one of history&apos;s most famous physicists been retracted?</title>
+    <link>https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted</link>
+    <guid>https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted</guid>
+    <pubDate>Fri, 26 Jun 2026 14:10:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted Comments URL: https://news.ycombinator.com/item?id=48686834 Points: 50 #...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We launched a platform</title>
+    <link>https://dev.to/thecodinggirl/we-launched-a-platform-2h1p</link>
+    <guid>https://dev.to/thecodinggirl/we-launched-a-platform-2h1p</guid>
+    <pubDate>Fri, 26 Jun 2026 14:07:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Hey everyone, I&apos;m curious what would you guys honestly think about a platform that allows you to publish your startup ideas ,have it analyzed by AI against factors like market demand, competition,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Anthropic&amp;#8217;s Mythos mess is only getting worse</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations</guid>
+    <pubDate>Fri, 26 Jun 2026 14:07:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s been two weeks since Anthropic took its Mythos-class models offline after a Friday evening ultimatum from the Trump administration. The company sprang into action immediately, sending a...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Looking for feedback</title>
+    <link>https://dev.to/make_up_03218e2052a2b70e6/looking-for-feedback-3nn5</link>
+    <guid>https://dev.to/make_up_03218e2052a2b70e6/looking-for-feedback-3nn5</guid>
+    <pubDate>Fri, 26 Jun 2026 14:05:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Dev.to article: I built a free unit converter with 500+ conversions (looking for feedback) Hi everyone! I built ConvertPro, a free unit converter with 500+ conversions. I wanted something fast,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries</title>
+    <link>https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html</link>
+    <guid>https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html</guid>
+    <pubDate>Fri, 26 Jun 2026 13:57:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A flaw in the Linux kernel&apos;s traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed &quot;pedit COW,&quot; is an out-of-bounds write in the...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs</title>
+    <link>https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html</link>
+    <guid>https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html</guid>
+    <pubDate>Fri, 26 Jun 2026 13:53:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A high-severity flaw in Amazon Q Developer let a malicious repository run commands and steal a developer&apos;s cloud credentials. The path was short: a developer opens the repo, trusts the workspace,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Apple&amp;#8217;s AirPods Max 2 headphones are still $150 off — for now</title>
+    <link>https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale</guid>
+    <pubDate>Fri, 26 Jun 2026 13:06:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>One of the best deals this ongoing Prime Day has been on Apple’s latest flagship headphones. The AirPods Max 2 are still available for a heavily discounted price of $399 ($150 off) at Walmart,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Early Bird pricing ends tonight for TechCrunch Founder Summit</title>
+    <link>https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/</link>
+    <guid>https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/</guid>
+    <pubDate>Fri, 26 Jun 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Save up to $190 on your pass to TechCrunch Founder Summit 2026. Early Bird pricing ends today, at 11:59 p.m. PT, after which rates increase. Register now.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue</title>
+    <link>https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html</link>
+    <guid>https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html</guid>
+    <pubDate>Fri, 26 Jun 2026 12:31:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Prime Day is offering rare discounts on Philips Hue smart lights</title>
+    <link>https://www.theverge.com/tech/957269/philips-hue-amazon-prime-day-2026-deal-sale</link>
+    <guid>https://www.theverge.com/tech/957269/philips-hue-amazon-prime-day-2026-deal-sale</guid>
+    <pubDate>Fri, 26 Jun 2026 12:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Philips Hue products don’t often see major discounts, which makes this year’s Prime Day deals especially notable. Prices have dropped significantly across much of the company’s smart lighting...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: brain-melting heatwaves and unprecedented OpenAI restrictions</title>
+    <link>https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/</link>
+    <guid>https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/</guid>
+    <pubDate>Fri, 26 Jun 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>With GTA looming, consoles are getting expensive at the worst possible time</title>
+    <link>https://www.theverge.com/entertainment/957288/gta-6-xbox-ps5-price-hikes</link>
+    <guid>https://www.theverge.com/entertainment/957288/gta-6-xbox-ps5-price-hikes</guid>
+    <pubDate>Fri, 26 Jun 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The release of Grand Theft Auto VI is a singular moment, the kind of massive cultural phenomenon that makes people want to go out and buy a console to play it. It is the preeminent modern example...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets</title>
+    <link>https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html</link>
+    <guid>https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html</guid>
+    <pubDate>Fri, 26 Jun 2026 11:51:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family. JFrog Security Research published a working exploit walkthrough for the flaw on June 25, the first public...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Samsung will soon start charging to access its smart home API</title>
+    <link>https://www.theverge.com/tech/957597/samsung-smartthings-api-charges</link>
+    <guid>https://www.theverge.com/tech/957597/samsung-smartthings-api-charges</guid>
+    <pubDate>Fri, 26 Jun 2026 11:38:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>From October this year Samsung will roll out a variety of new paid tiers for access to its SmartThings API, including a $4.99 monthly plan for &quot;non-commercial, individual developers.&quot; It won&apos;t...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Guardian Agents: The Next Layer of Identity Governance</title>
+    <link>https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html</link>
+    <guid>https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html</guid>
+    <pubDate>Fri, 26 Jun 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Apple’s most powerful Macs might be waiting until 2027 for big processor upgrades</title>
+    <link>https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman</link>
+    <guid>https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman</guid>
+    <pubDate>Fri, 26 Jun 2026 11:14:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple is expected to shake up its usual Mac silicon release strategy, with Bloomberg&apos;s Mark Gurman reporting that there won&apos;t be Pro or Max versions of the upcoming M6 chip. Instead, Apple wants...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack</title>
@@ -44,42 +242,6 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Building a Multimodal AI Pipeline: Text Image Text Across Three Providers</title>
-    <link>https://dev.to/yait/building-a-multimodal-ai-pipeline-text-image-text-across-three-providers-22oo</link>
-    <guid>https://dev.to/yait/building-a-multimodal-ai-pipeline-text-image-text-across-three-providers-22oo</guid>
-    <pubDate>Fri, 26 Jun 2026 11:02:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Three providers, three modalities, under 55 lines of Python — and a PNG file on disk at the end. Claude writes a sunset description, an image generation model paints it, and Qwen Vision analyzes...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building Structured Inter-Agent Communication: A Practical Guide</title>
-    <link>https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-m6</link>
-    <guid>https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-m6</guid>
-    <pubDate>Fri, 26 Jun 2026 11:00:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every multi-agent tutorial shows &quot;Agent A talks to Agent B.&quot; None show how to keep that conversation reliable at scale. The Problem with String-Based Agent Chat # What most frameworks do: result =...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>You shipped an MCP server. Nobody found it. Here&apos;s the fix.</title>
-    <link>https://dev.to/palo_alto_ai/you-shipped-an-mcp-server-nobody-found-it-heres-the-fix-10b9</link>
-    <guid>https://dev.to/palo_alto_ai/you-shipped-an-mcp-server-nobody-found-it-heres-the-fix-10b9</guid>
-    <pubDate>Fri, 26 Jun 2026 11:00:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The problem isn&apos;t quality. Most OSS tools die because the author posted once, got silence, and never had time to keep showing up. Distribution is a recurring job — directory submissions, social...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Three Years in Four Weeks</title>
-    <link>https://dev.to/rawveg/three-years-in-four-weeks-51b6</link>
-    <guid>https://dev.to/rawveg/three-years-in-four-weeks-51b6</guid>
-    <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In late February 2026, Perplexity AI quietly published a blog post with a claim that should have set off alarms in every corporate office from London to Los Angeles. The company&apos;s new product,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>It’s the last day of Prime Day — here are over 130 great deals to choose from</title>
     <link>https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four</link>
     <guid>https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four</guid>
@@ -87,42 +249,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>We’ve arrived at the final day of Prime Day, which at this point should probably be called “Prime Week.” We’ve found discounts on all manner of gadgets, including TVs, smart home tech, chargers,...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How to Choose the Right Keywords for Different Geographic Markets</title>
-    <link>https://dev.to/kevincarroll85/how-to-choose-the-right-keywords-for-different-geographic-markets-4i3p</link>
-    <guid>https://dev.to/kevincarroll85/how-to-choose-the-right-keywords-for-different-geographic-markets-4i3p</guid>
-    <pubDate>Fri, 26 Jun 2026 10:57:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When you&apos;re doing keyword research for a new project, the typical workflow involves brainstorming terms, checking search volume, and maybe looking at difficulty scores. But if you&apos;re targeting...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Knowledge-and-Memory-Management v0.0.2: Knowledge Collection &amp; Memory Management</title>
-    <link>https://dev.to/manoir_yantai_f22f01340f0/knowledge-and-memory-management-v002-knowledge-collection-memory-management-2h8g</link>
-    <guid>https://dev.to/manoir_yantai_f22f01340f0/knowledge-and-memory-management-v002-knowledge-collection-memory-management-2h8g</guid>
-    <pubDate>Fri, 26 Jun 2026 10:56:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Knowledge-and-Memory-Management v0.0.2 is a clean release that introduces structured knowledge collection from web, video, and article sources, alongside memory management enhancements. All...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Real-Time Network Telemetry for AI: Building an Asynchronous NetFlow/sFlow Ingestion Pipeline in Python</title>
-    <link>https://dev.to/ussdlover/real-time-network-telemetry-for-ai-building-an-asynchronous-netflowsflow-ingestion-pipeline-in-35op</link>
-    <guid>https://dev.to/ussdlover/real-time-network-telemetry-for-ai-building-an-asynchronous-netflowsflow-ingestion-pipeline-in-35op</guid>
-    <pubDate>Fri, 26 Jun 2026 10:56:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As AI architectures transition from static data processing to real-time agentic monitoring, the data engineering pipelines feeding them must adapt. If you are building an AI-driven anomaly...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What Is Loopcraft? From Prompt Engineering to Agent Loop System Design</title>
-    <link>https://dev.to/luhuidev/what-is-loopcraft-from-prompt-engineering-to-agent-loop-system-design-2dff</link>
-    <guid>https://dev.to/luhuidev/what-is-loopcraft-from-prompt-engineering-to-agent-loop-system-design-2dff</guid>
-    <pubDate>Fri, 26 Jun 2026 10:53:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🙋‍ I’m Luhui Dev, a developer who has been breaking down Agent engineering and exploring how AI can be applied in education. I focus on Agent Harness, LLM application engineering, AI for Math, and...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>How Qatar Became FIFA’s Technology Test Lab</title>
@@ -150,131 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
     <description>It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Russia Used Cellebrite on Jailed Activist&apos;s iPhone Months After Sales Cutoff</title>
-    <link>https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html</link>
-    <guid>https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html</guid>
-    <pubDate>Fri, 26 Jun 2026 08:49:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Russian authorities used Cellebrite&apos;s UFED forensic tools to break into the iPhone of detained opposition activist Andrey Pivovarov in June 2021, three months after Cellebrite said it would stop...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Trump Mobile will take your $499 right now</title>
-    <link>https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit</link>
-    <guid>https://www.theverge.com/tech/957521/trump-mobile-t1-phone-open-sale-no-deposit</guid>
-    <pubDate>Fri, 26 Jun 2026 08:40:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Where&apos;s the Trump phone? We&apos;re going to keep talking about it every week. We still don&apos;t have the phones we preordered yet, but this week the T1 hit open sale, no deposit required. Trump Mobile&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Details Turla&apos;s New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks</title>
-    <link>https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html</link>
-    <guid>https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html</guid>
-    <pubDate>Fri, 26 Jun 2026 07:15:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Anthropic Thinks Its Own Success Is Key to Making AI Safe</title>
-    <link>https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/</link>
-    <guid>https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/</guid>
-    <pubDate>Fri, 26 Jun 2026 00:49:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Anthropic&apos;s critics argue it&apos;s rapidly accumulating power. The company says that&apos;s what responsible AI development looks like.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Run a vLLM Server on HF Jobs in One Command</title>
-    <link>https://huggingface.co/blog/vllm-jobs</link>
-    <guid>https://huggingface.co/blog/vllm-jobs</guid>
-    <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The White House is asking OpenAI to slow roll the release of its new model over safety concerns</title>
-    <link>https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/</link>
-    <guid>https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/</guid>
-    <pubDate>Thu, 25 Jun 2026 23:34:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data</title>
-    <link>https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/</link>
-    <guid>https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/</guid>
-    <pubDate>Thu, 25 Jun 2026 23:13:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The decision by Amazon-owned MGM Studios to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On Uncanny Valley, we look at where this is all headed.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>This year’s Prime Day deals on Apple products are the best I’ve seen</title>
-    <link>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</link>
-    <guid>https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026</guid>
-    <pubDate>Thu, 25 Jun 2026 23:04:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon’s Prime Day is now in its third day, and whether you’re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Android 17&amp;#8217;s new foldable gaming mode could make flippy phones more fun</title>
-    <link>https://www.theverge.com/tech/957450/android-17-foldable-gaming-mode-virtual-controller</link>
-    <guid>https://www.theverge.com/tech/957450/android-17-foldable-gaming-mode-virtual-controller</guid>
-    <pubDate>Thu, 25 Jun 2026 22:33:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Android 17 is getting a dedicated gaming mode for foldables that will put a virtual gamepad with touch controls on half of your screen to theoretically make it easier to play games. With foldable...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>YouTube updates Shorts to make it even more like TikTok</title>
-    <link>https://www.theverge.com/streaming/957422/youtube-shorts-update-tiktok</link>
-    <guid>https://www.theverge.com/streaming/957422/youtube-shorts-update-tiktok</guid>
-    <pubDate>Thu, 25 Jun 2026 22:08:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>YouTube is adding even more TikTok-like features to Shorts, including a new &quot;clear screen&quot; mode that removes the icons and text from the video you&apos;re watching. In a blog post on Thursday, YouTube...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI will delay GPT-5.6 after Trump administration request</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request</guid>
-    <pubDate>Thu, 25 Jun 2026 21:57:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Framework has good news and bad news</title>
-    <link>https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu</link>
-    <guid>https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu</guid>
-    <pubDate>Thu, 25 Jun 2026 21:23:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Thanks to the component crisis, it&apos;s a bad time to want a new computer. But if you are waiting on a preorder for the Framework Laptop 13 Pro - which Framework&apos;s CEO has called the &quot;MacBook Pro for...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents</title>
-    <link>https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/</link>
-    <guid>https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/</guid>
-    <pubDate>Thu, 25 Jun 2026 20:19:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Score a discounted Xbox console before the prices jump</title>
-    <link>https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale</guid>
-    <pubDate>Thu, 25 Jun 2026 20:18:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft announced today that the price of all Xbox models will rise in August, the second time in less than a year as memory prices continue to wreak havoc on every industry from cars to...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
