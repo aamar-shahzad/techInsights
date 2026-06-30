@@ -5,8 +5,169 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 30 Jun 2026 18:14:29 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 30 Jun 2026 21:45:50 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Can you build observability ingestion on S3 alone — no Kafka, no disks, no coordination layer?</title>
+    <link>https://dev.to/prosvirnin/can-you-build-observability-ingestion-on-s3-alone-no-kafka-no-disks-no-coordination-layer-11ib</link>
+    <guid>https://dev.to/prosvirnin/can-you-build-observability-ingestion-on-s3-alone-no-kafka-no-disks-no-coordination-layer-11ib</guid>
+    <pubDate>Tue, 30 Jun 2026 21:25:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR — A Kafka + Flink + OTel ingestion pipeline cost us ~$700–800/month at 10 MB/s. We rebuilt it as a single binary where the data, the write-ahead log, and the Iceberg catalog all live in S3...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Learn System Design From Scratch (With No Distributed Systems Experience)</title>
+    <link>https://dev.to/arslan_ah/how-to-learn-system-design-from-scratch-with-no-distributed-systems-experience-1591</link>
+    <guid>https://dev.to/arslan_ah/how-to-learn-system-design-from-scratch-with-no-distributed-systems-experience-1591</guid>
+    <pubDate>Tue, 30 Jun 2026 21:24:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you have ever opened a system design article, seen a diagram with twelve boxes, three databases, a message queue, and the words &quot;eventually consistent,&quot; and quietly closed the tab, this post is...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AGENTS.md Is Not Enough for Safe AI Agent Execution</title>
+    <link>https://dev.to/otaready/agentsmd-is-not-enough-for-safe-ai-agent-execution-1h3b</link>
+    <guid>https://dev.to/otaready/agentsmd-is-not-enough-for-safe-ai-agent-execution-1h3b</guid>
+    <pubDate>Tue, 30 Jun 2026 21:24:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Overview AGENTS.md is useful. It gives AI coding agents a place to find repo-specific guidance: how to behave what conventions matter what areas need extra caution what kinds of changes should...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Learn DynamoDB by running it - accesspatterns.dev</title>
+    <link>https://dev.to/martinhicks/learn-dynamodb-by-running-it-accesspatternsdev-8jp</link>
+    <guid>https://dev.to/martinhicks/learn-dynamodb-by-running-it-accesspatternsdev-8jp</guid>
+    <pubDate>Tue, 30 Jun 2026 21:20:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;ve been building on DynamoDB since around 2015, and these days I build tools for it: dynoxide, a DynamoDB engine, and Nubo, a native client. So I&apos;m not neutral about it. It&apos;s the first database...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How I Built an AI Tattoo Design Generator (and What I Learned)</title>
+    <link>https://dev.to/aitattoo_gen/how-i-built-an-ai-tattoo-design-generator-and-what-i-learned-2j68</link>
+    <guid>https://dev.to/aitattoo_gen/how-i-built-an-ai-tattoo-design-generator-and-what-i-learned-2j68</guid>
+    <pubDate>Tue, 30 Jun 2026 21:20:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A few months ago, I set out to solve a problem I kept hearing about in tattoo communities: people struggle to visualize their tattoo ideas before committing to the chair. The result is AI Tattoo...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Amazon fined $2.25 million for failing to help identity theft victims</title>
+    <link>https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine</link>
+    <guid>https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine</guid>
+    <pubDate>Tue, 30 Jun 2026 21:20:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Federal Trade Commission fined Amazon $2.25 million to settle claims that the company failed to help customers who fell victim to identity theft, as reported earlier by Bloomberg. In its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Passwords are not necessary, a Oauth/OIDC approach</title>
+    <link>https://dev.to/joaosalles/passwords-are-not-necessary-a-oauthoidc-approach-hep</link>
+    <guid>https://dev.to/joaosalles/passwords-are-not-necessary-a-oauthoidc-approach-hep</guid>
+    <pubDate>Tue, 30 Jun 2026 21:19:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Intro It is possible to skip the burden of password management, security, encryption and password rotations. When using OAuth 2.0 with OIDC (OpenID Connect), the user can log in with third-party...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Someone asked me if I knew of an alternative project management tool, so I developed one in about 24 hours.</title>
+    <link>https://dev.to/olympstack/someone-asked-me-if-i-knew-of-an-alternative-project-management-tool-so-i-developed-one-in-about-30p4</link>
+    <guid>https://dev.to/olympstack/someone-asked-me-if-i-knew-of-an-alternative-project-management-tool-so-i-developed-one-in-about-30p4</guid>
+    <pubDate>Tue, 30 Jun 2026 21:14:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI is transforming the way we develop software. In the past, creating specific software required an entire team and months of work; AI has accelerated this process a hundredfold—the speed at which...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Bluetooth Is Named After a Viking King</title>
+    <link>https://dev.to/fluidwire/why-bluetooth-is-named-after-a-viking-king-k2k</link>
+    <guid>https://dev.to/fluidwire/why-bluetooth-is-named-after-a-viking-king-k2k</guid>
+    <pubDate>Tue, 30 Jun 2026 21:13:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Pick up almost any connected gadget today and you will find it somewhere: a pair of wireless earbuds, a fitness band, a smart speaker, a car stereo. The little angular logo and the word...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Change a Public Repository to Private Using GitHub CLI</title>
+    <link>https://dev.to/cristian-jonhson/how-to-change-a-public-repository-to-private-using-github-cli-20fc</link>
+    <guid>https://dev.to/cristian-jonhson/how-to-change-a-public-repository-to-private-using-github-cli-20fc</guid>
+    <pubDate>Tue, 30 Jun 2026 21:13:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When working on personal, academic, or professional projects, we often start a repository as public to share progress, test configurations, or collaborate openly. However, at some point, it may...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Route inbound mail to the right agent automatically</title>
+    <link>https://dev.to/mqasimca/route-inbound-mail-to-the-right-agent-automatically-36m</link>
+    <guid>https://dev.to/mqasimca/route-inbound-mail-to-the-right-agent-automatically-36m</guid>
+    <pubDate>Tue, 30 Jun 2026 21:09:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most &quot;AI email agent&quot; demos run one model against one mailbox: every message that lands gets the same prompt, the same context, the same handler. That&apos;s fine for a toy. It falls apart the moment...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The DeepMind trio who built a poker AI are now making money for quant hedge funds</title>
+    <link>https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/</link>
+    <guid>https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/</guid>
+    <pubDate>Tue, 30 Jun 2026 20:33:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>New attack provides one more reason why AI browsers are a bad idea</title>
+    <link>https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/</link>
+    <guid>https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/</guid>
+    <pubDate>Tue, 30 Jun 2026 20:03:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Acer&amp;#8217;s Swift Go 16 is a lot of laptop for $900</title>
+    <link>https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale</guid>
+    <pubDate>Tue, 30 Jun 2026 20:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As high memory and storage prices have driven up the cost of everything from consoles to computers, finding a competent laptop for under $1,000 has become a challenge. Thankfully, the Acer Swift...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google’s NotebookLM can sum up your research in a TikTok-style clip</title>
+    <link>https://www.theverge.com/tech/959778/google-notebooklm-ai-clips</link>
+    <guid>https://www.theverge.com/tech/959778/google-notebooklm-ai-clips</guid>
+    <pubDate>Tue, 30 Jun 2026 19:24:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google&apos;s NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google introduces a faster, cheaper image generator with Nano Banana 2 Lite</title>
+    <link>https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/</link>
+    <guid>https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/</guid>
+    <pubDate>Tue, 30 Jun 2026 19:02:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>LG’s 27-inch Tandem OLED gaming monitor is cheaper than ever</title>
+    <link>https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale</guid>
+    <pubDate>Tue, 30 Jun 2026 18:42:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The price of LG’s UltraGear 27GX700A-B 1440p gaming monitor that came out last August has dropped to nearly its best price yet. You can grab it at Amazon for $484.99 or at LG for $499.99...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration</title>
+    <link>https://huggingface.co/blog/ibm-research/scarfbench</link>
+    <guid>https://huggingface.co/blog/ibm-research/scarfbench</guid>
+    <pubDate>Tue, 30 Jun 2026 18:32:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
   <item>
     <title>007 First Light&amp;#8217;s developer lays off staff but claims its next franchise will continue</title>
     <link>https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs</link>
@@ -26,42 +187,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Institutional Memory in Distributed Financial Systems: When Knowledge Becomes Infrastructure</title>
-    <link>https://dev.to/doomhammerhell/institutional-memory-in-distributed-financial-systems-when-knowledge-becomes-infrastructure-jm0</link>
-    <guid>https://dev.to/doomhammerhell/institutional-memory-in-distributed-financial-systems-when-knowledge-becomes-infrastructure-jm0</guid>
-    <pubDate>Tue, 30 Jun 2026 18:02:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Abstract Distributed financial systems are described through code, architecture diagrams, databases, queues, ledgers, custody protocols, and compliance engines. These elements matter, but they do...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Build a Box Plot Calculator in Pure JavaScript — No Libraries Needed</title>
-    <link>https://dev.to/tianyizhang/build-a-box-plot-calculator-in-pure-javascript-no-libraries-needed-3n3f</link>
-    <guid>https://dev.to/tianyizhang/build-a-box-plot-calculator-in-pure-javascript-no-libraries-needed-3n3f</guid>
-    <pubDate>Tue, 30 Jun 2026 18:00:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Build a Box Plot Calculator in Pure JavaScript — No Libraries Needed A box plot (or box-and-whisker plot) is one of the most powerful tools in exploratory data analysis. In one compact graphic, it...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The 4th Down Revolution: Why NFL Teams Win 67% More Games When They Trust the Math [Jun 30]</title>
-    <link>https://dev.to/edgelab/the-4th-down-revolution-why-nfl-teams-win-67-more-games-when-they-trust-the-math-jun-30-72c</link>
-    <guid>https://dev.to/edgelab/the-4th-down-revolution-why-nfl-teams-win-67-more-games-when-they-trust-the-math-jun-30-72c</guid>
-    <pubDate>Tue, 30 Jun 2026 18:00:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most NFL head coaches would rather punt on 4th-and-2 from the opponent&apos;s 40-yard line than face a talk-radio mob. They&apos;re also leaving approximately 8-12 wins per season on the table across the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>3 MCP servers I actually use daily (and how to set them up)</title>
-    <link>https://dev.to/grahamduescn/3-mcp-servers-i-actually-use-daily-and-how-to-set-them-up-3e98</link>
-    <guid>https://dev.to/grahamduescn/3-mcp-servers-i-actually-use-daily-and-how-to-set-them-up-3e98</guid>
-    <pubDate>Tue, 30 Jun 2026 18:00:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Not a hype list. These are the three MCP servers I have running right now in Claude Desktop. 1. Filesystem mcp-hub install @modelcontextprotocol/server-filesystem I use this to let Claude read...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Anthropic launches Claude Sonnet 5 as a cheaper way to run agents</title>
     <link>https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/</link>
     <guid>https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/</guid>
@@ -69,33 +194,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Claude Sonnet 5</title>
-    <link>https://www.anthropic.com/news/claude-sonnet-5</link>
-    <guid>https://www.anthropic.com/news/claude-sonnet-5</guid>
-    <pubDate>Tue, 30 Jun 2026 17:59:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.anthropic.com/news/claude-sonnet-5 Comments URL: https://news.ycombinator.com/item?id=48736605 Points: 57 # Comments: 7</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Loop Engineering: Do Frontend and Fullstack Devs Actually Need It?</title>
-    <link>https://dev.to/erikch/loop-engineering-do-frontend-and-fullstack-devs-actually-need-it-48eb</link>
-    <guid>https://dev.to/erikch/loop-engineering-do-frontend-and-fullstack-devs-actually-need-it-48eb</guid>
-    <pubDate>Tue, 30 Jun 2026 17:59:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction I keep hearing the term loop engineering. It&apos;s all over my feed, every AI newsletter, half the dev videos I open. So I had the same question you probably have. Is this actually...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Stop Chasing Languages. Learn to Think Like an Engineer.</title>
-    <link>https://dev.to/brixtonmavu/stop-chasing-languages-learn-to-think-like-an-engineer-1l43</link>
-    <guid>https://dev.to/brixtonmavu/stop-chasing-languages-learn-to-think-like-an-engineer-1l43</guid>
-    <pubDate>Tue, 30 Jun 2026 17:54:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Architects write pseudocode, which must then be translated into any programming language. If you’re waiting for the “best” language to start, you’re already behind. As a Software Engineer, You...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Acti puts AI agents directly into your smartphone keyboard</title>
@@ -107,31 +205,22 @@
     <category>AI</category>
   </item>
   <item>
-    <title>The Physics of Microservices: What Thermodynamics Teaches Us About System Design</title>
-    <link>https://dev.to/tasenikol/the-physics-of-microservices-what-thermodynamics-teaches-us-about-system-design-1gof</link>
-    <guid>https://dev.to/tasenikol/the-physics-of-microservices-what-thermodynamics-teaches-us-about-system-design-1gof</guid>
-    <pubDate>Tue, 30 Jun 2026 17:46:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Thermodynamics is the study of energy, disorder, and the stubborn tendency of systems to fall apart. Sound familiar? I spent years studying physics before moving into software engineering. For a...</description>
-    <category>Developer Tools</category>
+    <title>Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data</title>
+    <link>https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html</link>
+    <guid>https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html</guid>
+    <pubDate>Tue, 30 Jun 2026 17:46:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>New Microsoft research shows how attackers can hijack AI agents that act on a user&apos;s behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>Deploy an AI Chatbot on Your NextJS Website using FREE tools</title>
-    <link>https://dev.to/marrouchi/deploy-an-ai-chatbot-on-your-nextjs-website-using-free-tools-4n0a</link>
-    <guid>https://dev.to/marrouchi/deploy-an-ai-chatbot-on-your-nextjs-website-using-free-tools-4n0a</guid>
-    <pubDate>Tue, 30 Jun 2026 17:46:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building an AI agent is easy to demo. Shipping one to a real website, with your own knowledge and a working deployment, is the part that matters. In this tutorial, you’ll see how to build a free...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built a Closed-Loop Self-Healing System for My AI Config — By Accident</title>
-    <link>https://dev.to/yuhaolin2005/i-built-a-closed-loop-self-healing-system-for-my-ai-config-by-accident-51m4</link>
-    <guid>https://dev.to/yuhaolin2005/i-built-a-closed-loop-self-healing-system-for-my-ai-config-by-accident-51m4</guid>
-    <pubDate>Tue, 30 Jun 2026 17:45:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I didn&apos;t set out to build a self-healing system. I just wanted to stop forgetting things. What emerged was a feedback loop that fixes itself without me. After 40+ Claude Code sessions, I noticed a...</description>
-    <category>Developer Tools</category>
+    <title>RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS</title>
+    <link>https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html</link>
+    <guid>https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html</guid>
+    <pubDate>Tue, 30 Jun 2026 17:45:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new two-stage malware family called RustDuck is hijacking home routers, IP cameras, Android boxes, and poorly secured servers, then stitching them into a network built to knock websites and...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Moto&amp;#8217;s Tag 2 tracker is $20 for a limited time</title>
@@ -186,96 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Anthropic&apos;s Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Xbox weighs canceling Blade game and shuttering Arkane</title>
-    <link>https://www.theverge.com/report/959467/microsoft-xbox-cancel-blade-game-arkane-studios-closure</link>
-    <guid>https://www.theverge.com/report/959467/microsoft-xbox-cancel-blade-game-arkane-studios-closure</guid>
-    <pubDate>Tue, 30 Jun 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft is set to announce a wave of layoffs for its Xbox studios and employees next week. Sources familiar with Microsoft&apos;s plans tell The Verge that the layoffs will lead to studio closures or...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Bose Soundlink Max is $120 off ahead of the July 4th weekend</title>
-    <link>https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale</guid>
-    <pubDate>Tue, 30 Jun 2026 16:05:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Bose Soundlink Max is usually $399, but has been on steep discount this week at Amazon, Best Buy, and directly from Bose for $279. This Bluetooth speaker has a big and bold sound, with a wide...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>What is a quantum computer good for? Absolutely nothing — yet</title>
-    <link>https://www.theverge.com/science/959466/quantum-computer-majorana-2-microsoft-trump-eo</link>
-    <guid>https://www.theverge.com/science/959466/quantum-computer-majorana-2-microsoft-trump-eo</guid>
-    <pubDate>Tue, 30 Jun 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>To this day, we have yet to see a quantum computer conclusively perform a single useful task. Existing machines are simply too small and error-ridden to solve commercially relevant problems. That...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints</title>
-    <link>https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html</link>
-    <guid>https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html</guid>
-    <pubDate>Tue, 30 Jun 2026 15:47:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses</title>
-    <link>https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html</link>
-    <guid>https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html</guid>
-    <pubDate>Tue, 30 Jun 2026 15:40:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have flagged an active browser extension campaign that is designed to steal cryptocurrency by stealthily replacing wallet addresses when unsuspecting users initiate a...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Libby will filter out AI content, kind of</title>
-    <link>https://www.theverge.com/column/959433/libby-ai-filter</link>
-    <guid>https://www.theverge.com/column/959433/libby-ai-filter</guid>
-    <pubDate>Tue, 30 Jun 2026 15:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. &quot;AI is the new frontier for...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>X now offers an MCP server to make its platform easier for AI tools to use</title>
-    <link>https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/</link>
-    <guid>https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/</guid>
-    <pubDate>Tue, 30 Jun 2026 15:08:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Podcasting platform Riverside enters the newsletter publishing game</title>
-    <link>https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/</link>
-    <guid>https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/</guid>
-    <pubDate>Tue, 30 Jun 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Users will be able use AI to create newsletters based on their recordings.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Amazon launches new $1 billion FDE org, following OpenAI and Anthropic</title>
-    <link>https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/</link>
-    <guid>https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/</guid>
-    <pubDate>Tue, 30 Jun 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Supreme Court stops Trump&amp;#8217;s attempt to end birthright citizenship</title>
-    <link>https://www.theverge.com/news/959487/supreme-court-birthright-citizenship-trump</link>
-    <guid>https://www.theverge.com/news/959487/supreme-court-birthright-citizenship-trump</guid>
-    <pubDate>Tue, 30 Jun 2026 14:44:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Supreme Court upheld birthright citizenship, ruling 6-3 against President Donald Trump&apos;s effort to end the longstanding constitutional right via executive order. Birthright citizenship dates...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
