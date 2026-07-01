@@ -5,52 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 30 Jun 2026 21:45:50 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Jul 2026 04:53:35 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Can you build observability ingestion on S3 alone — no Kafka, no disks, no coordination layer?</title>
-    <link>https://dev.to/prosvirnin/can-you-build-observability-ingestion-on-s3-alone-no-kafka-no-disks-no-coordination-layer-11ib</link>
-    <guid>https://dev.to/prosvirnin/can-you-build-observability-ingestion-on-s3-alone-no-kafka-no-disks-no-coordination-layer-11ib</guid>
-    <pubDate>Tue, 30 Jun 2026 21:25:57 +0000</pubDate>
+    <title>I gave a brand-new AI the memory of all my old chats, here&apos;s the free tool I built to do it.</title>
+    <link>https://dev.to/arya_koste_5845807df94776/i-gave-a-brand-new-ai-the-memory-of-all-my-old-chats-heres-the-free-tool-i-built-to-do-it-1550</link>
+    <guid>https://dev.to/arya_koste_5845807df94776/i-gave-a-brand-new-ai-the-memory-of-all-my-old-chats-heres-the-free-tool-i-built-to-do-it-1550</guid>
+    <pubDate>Wed, 01 Jul 2026 04:40:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR — A Kafka + Flink + OTel ingestion pipeline cost us ~$700–800/month at 10 MB/s. We rebuilt it as a single binary where the data, the write-ahead log, and the Iceberg catalog all live in S3...</description>
+    <description>My AI conversations were scattered across three apps that couldn&apos;t remember each other. So I built a private, local-first vault that pulls them together and lets me hand my whole history to any...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Learn System Design From Scratch (With No Distributed Systems Experience)</title>
-    <link>https://dev.to/arslan_ah/how-to-learn-system-design-from-scratch-with-no-distributed-systems-experience-1591</link>
-    <guid>https://dev.to/arslan_ah/how-to-learn-system-design-from-scratch-with-no-distributed-systems-experience-1591</guid>
-    <pubDate>Tue, 30 Jun 2026 21:24:53 +0000</pubDate>
+    <title>Client Asset Ownership: Should the Agency or the Client Own the Domain and Hosting?</title>
+    <link>https://dev.to/instarenewal/client-asset-ownership-should-the-agency-or-the-client-own-the-domain-and-hosting-2hp6</link>
+    <guid>https://dev.to/instarenewal/client-asset-ownership-should-the-agency-or-the-client-own-the-domain-and-hosting-2hp6</guid>
+    <pubDate>Wed, 01 Jul 2026 04:24:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you have ever opened a system design article, seen a diagram with twelve boxes, three databases, a message queue, and the words &quot;eventually consistent,&quot; and quietly closed the tab, this post is...</description>
+    <description>Article image Client Asset Ownership: Should the Agency or the Client Own the Domain and Hosting? For freelancers and new agency owners, building solid standard operating procedures (SOPs) is one...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AGENTS.md Is Not Enough for Safe AI Agent Execution</title>
-    <link>https://dev.to/otaready/agentsmd-is-not-enough-for-safe-ai-agent-execution-1h3b</link>
-    <guid>https://dev.to/otaready/agentsmd-is-not-enough-for-safe-ai-agent-execution-1h3b</guid>
-    <pubDate>Tue, 30 Jun 2026 21:24:04 +0000</pubDate>
+    <title>Scaling Codebases Without Platform Bloat</title>
+    <link>https://dev.to/suraj_at_esence/scaling-codebases-without-platform-bloat-1dj8</link>
+    <guid>https://dev.to/suraj_at_esence/scaling-codebases-without-platform-bloat-1dj8</guid>
+    <pubDate>Wed, 01 Jul 2026 04:19:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Overview AGENTS.md is useful. It gives AI coding agents a place to find repo-specific guidance: how to behave what conventions matter what areas need extra caution what kinds of changes should...</description>
+    <description>Redundant compilation lags, bloated CI pipelines and version drift for internal modules quietly drain developer velocity. And normally, it&apos;s too late when the leadership gets the whiff of it....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Learn DynamoDB by running it - accesspatterns.dev</title>
-    <link>https://dev.to/martinhicks/learn-dynamodb-by-running-it-accesspatternsdev-8jp</link>
-    <guid>https://dev.to/martinhicks/learn-dynamodb-by-running-it-accesspatternsdev-8jp</guid>
-    <pubDate>Tue, 30 Jun 2026 21:20:59 +0000</pubDate>
+    <title>The Chicken, the Egg, and the Compiler</title>
+    <link>https://dev.to/dheeraj_006/the-chicken-the-egg-and-the-compiler-18id</link>
+    <guid>https://dev.to/dheeraj_006/the-chicken-the-egg-and-the-compiler-18id</guid>
+    <pubDate>Wed, 01 Jul 2026 04:17:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been building on DynamoDB since around 2015, and these days I build tools for it: dynoxide, a DynamoDB engine, and Nubo, a native client. So I&apos;m not neutral about it. It&apos;s the first database...</description>
+    <description>Bootstrapping with Bootstrap Hi, I am Dheeraj, and this is my first blog here. So I picked a fitting theme: Bootstrapping with Bootstrap. Bootstrapping is a self-starting process that keeps...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Built an AI Tattoo Design Generator (and What I Learned)</title>
-    <link>https://dev.to/aitattoo_gen/how-i-built-an-ai-tattoo-design-generator-and-what-i-learned-2j68</link>
-    <guid>https://dev.to/aitattoo_gen/how-i-built-an-ai-tattoo-design-generator-and-what-i-learned-2j68</guid>
-    <pubDate>Tue, 30 Jun 2026 21:20:36 +0000</pubDate>
+    <title>OpenSearch Serverless NextGen, uv audit, and Why Schema Constraints Break Small Models</title>
+    <link>https://dev.to/devsignal/opensearch-serverless-nextgen-uv-audit-and-why-schema-constraints-break-small-models-10p6</link>
+    <guid>https://dev.to/devsignal/opensearch-serverless-nextgen-uv-audit-and-why-schema-constraints-break-small-models-10p6</guid>
+    <pubDate>Wed, 01 Jul 2026 04:16:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A few months ago, I set out to solve a problem I kept hearing about in tattoo communities: people struggle to visualize their tattoo ideas before committing to the chair. The result is AI Tattoo...</description>
+    <description>This week&apos;s tooling moves cluster around a common theme: eliminating the overhead tax on developer workflows. AWS cut idle costs for search, uv folded security scanning into dependency resolution,...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Chrome Extension Development Setup: The 2026 Starter Guide | ExtensionBooster</title>
+    <link>https://dev.to/quangpl/chrome-extension-development-setup-the-2026-starter-guide-extensionbooster-2e6</link>
+    <guid>https://dev.to/quangpl/chrome-extension-development-setup-the-2026-starter-guide-extensionbooster-2e6</guid>
+    <pubDate>Wed, 01 Jul 2026 04:16:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Chrome extension landscape has shifted significantly. Here&apos;s what&apos;s working. Chrome Extension Development Setup: The 2026 Starter Guide | ExtensionBooster Most “build your first Chrome...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Evaluated 6 Project Management Tools for My 200-Person Team — Here&apos;s What I Actually Picked</title>
+    <link>https://dev.to/danielbrooks1980/i-evaluated-6-project-management-tools-for-my-200-person-team-heres-what-i-actually-picked-44h0</link>
+    <guid>https://dev.to/danielbrooks1980/i-evaluated-6-project-management-tools-for-my-200-person-team-heres-what-i-actually-picked-44h0</guid>
+    <pubDate>Wed, 01 Jul 2026 04:13:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Why I Spent Three Months Testing PM Tools I have been a senior project manager for eight years. My team grew from 15 people to 200 across three time zones, and our tool stack became a Frankenstein...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Shift-Left Meets AI: Catching Bugs Earlier with Predictive ML Models in Your Dev Pipeline</title>
+    <link>https://dev.to/nareshkumar_soundarajan/shift-left-meets-ai-catching-bugs-earlier-with-predictive-ml-models-in-your-dev-pipeline-3bb6</link>
+    <guid>https://dev.to/nareshkumar_soundarajan/shift-left-meets-ai-catching-bugs-earlier-with-predictive-ml-models-in-your-dev-pipeline-3bb6</guid>
+    <pubDate>Wed, 01 Jul 2026 04:12:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Bug Tax Nobody Talks About A bug caught in production costs roughly 100× more to fix than the same bug caught at the requirements stage — a well-documented finding (NIST, IBM) that underpins...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Durable Objects + GLM-5.2 IDOR beats Claude</title>
+    <link>https://dev.to/devsignal/durable-objects-glm-52-idor-beats-claude-46lc</link>
+    <guid>https://dev.to/devsignal/durable-objects-glm-52-idor-beats-claude-46lc</guid>
+    <pubDate>Wed, 01 Jul 2026 04:08:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Three themes dominated AI tooling this week: infrastructure finally catching up to agent runtime requirements, open-weight models closing the gap on specialized security tasks, and the slow death...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Most Complex Code Is the One the User Abandons</title>
+    <link>https://dev.to/guilherme_landim/the-most-complex-code-is-the-one-the-user-abandons-4d15</link>
+    <guid>https://dev.to/guilherme_landim/the-most-complex-code-is-the-one-the-user-abandons-4d15</guid>
+    <pubDate>Wed, 01 Jul 2026 04:02:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A lot of times, the tech industry forgets the golden rule: software isn&apos;t the end goal — it&apos;s just the means to an end. Recently, while talking to small business owners and watching the daily...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service</title>
+    <link>https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html</link>
+    <guid>https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html</guid>
+    <pubDate>Wed, 01 Jul 2026 03:54:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway) that could be exploited by an attacker...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The “Father of the Internet” is finally retiring</title>
+    <link>https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/</link>
+    <guid>https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/</guid>
+    <pubDate>Wed, 01 Jul 2026 03:15:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Vinton Cerf, one of the creators of the protocols underlying the internet, will step down as Google&apos;s chief internet evangelist next week.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Trump drops restrictions on Anthropic’s Mythos and Fable models</title>
+    <link>https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/</link>
+    <guid>https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/</guid>
+    <pubDate>Wed, 01 Jul 2026 02:16:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Anthropic said it would begin restoring access to the Fable on July 1.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Wayve launches $85M employee tender offer at $8.5B valuation</title>
+    <link>https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/</link>
+    <guid>https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/</guid>
+    <pubDate>Wed, 01 Jul 2026 02:04:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Wayve’s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meta is adding ridiculous &amp;#8216;rate limits&amp;#8217; and a soft paywall to its smart glasses</title>
+    <link>https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit</link>
+    <guid>https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit</guid>
+    <pubDate>Wed, 01 Jul 2026 00:51:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Would you pay $20 a month for access to AI hardware you already own? That appears to be one of Meta&apos;s next bets. This week, it quietly announced that your glasses&apos; Conversation Focus feature will...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic&amp;#8217;s long-sidelined Fable 5 is greenlit to return</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back</guid>
+    <pubDate>Wed, 01 Jul 2026 00:03:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Trump Administration Is Lifting Its Export Controls on Anthropic’s Mythos and Fable AI Models</title>
+    <link>https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/</link>
+    <guid>https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/</guid>
+    <pubDate>Tue, 30 Jun 2026 23:23:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The White House is easing restrictions on Anthropic’s most advanced AI models weeks after ordering the company to suspend access for foreign nationals.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Dish files for bankruptcy, but not shutting down</title>
+    <link>https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy</link>
+    <guid>https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy</guid>
+    <pubDate>Tue, 30 Jun 2026 22:46:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Dish, the company that operates Dish TV and Sling TV, has filed for Chapter 11 bankruptcy,&quot; as reported earlier by Reuters. The plan will allow the EchoStar-owned company to continue to wind down...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenClaw is finally available on Android and iOS</title>
+    <link>https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/</link>
+    <guid>https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/</guid>
+    <pubDate>Tue, 30 Jun 2026 21:53:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The free open source agentic program is finally invading your phone.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Claude Science is Anthropic’s newest flagship product</title>
+    <link>https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/</link>
+    <guid>https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/</guid>
+    <pubDate>Tue, 30 Jun 2026 21:50:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Amazon fined $2.25 million for failing to help identity theft victims</title>
@@ -60,51 +195,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The Federal Trade Commission fined Amazon $2.25 million to settle claims that the company failed to help customers who fell victim to identity theft, as reported earlier by Bloomberg. In its...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Passwords are not necessary, a Oauth/OIDC approach</title>
-    <link>https://dev.to/joaosalles/passwords-are-not-necessary-a-oauthoidc-approach-hep</link>
-    <guid>https://dev.to/joaosalles/passwords-are-not-necessary-a-oauthoidc-approach-hep</guid>
-    <pubDate>Tue, 30 Jun 2026 21:19:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Intro It is possible to skip the burden of password management, security, encryption and password rotations. When using OAuth 2.0 with OIDC (OpenID Connect), the user can log in with third-party...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Someone asked me if I knew of an alternative project management tool, so I developed one in about 24 hours.</title>
-    <link>https://dev.to/olympstack/someone-asked-me-if-i-knew-of-an-alternative-project-management-tool-so-i-developed-one-in-about-30p4</link>
-    <guid>https://dev.to/olympstack/someone-asked-me-if-i-knew-of-an-alternative-project-management-tool-so-i-developed-one-in-about-30p4</guid>
-    <pubDate>Tue, 30 Jun 2026 21:14:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI is transforming the way we develop software. In the past, creating specific software required an entire team and months of work; AI has accelerated this process a hundredfold—the speed at which...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Bluetooth Is Named After a Viking King</title>
-    <link>https://dev.to/fluidwire/why-bluetooth-is-named-after-a-viking-king-k2k</link>
-    <guid>https://dev.to/fluidwire/why-bluetooth-is-named-after-a-viking-king-k2k</guid>
-    <pubDate>Tue, 30 Jun 2026 21:13:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Pick up almost any connected gadget today and you will find it somewhere: a pair of wireless earbuds, a fitness band, a smart speaker, a car stereo. The little angular logo and the word...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Change a Public Repository to Private Using GitHub CLI</title>
-    <link>https://dev.to/cristian-jonhson/how-to-change-a-public-repository-to-private-using-github-cli-20fc</link>
-    <guid>https://dev.to/cristian-jonhson/how-to-change-a-public-repository-to-private-using-github-cli-20fc</guid>
-    <pubDate>Tue, 30 Jun 2026 21:13:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When working on personal, academic, or professional projects, we often start a repository as public to share progress, test configurations, or collaborate openly. However, at some point, it may...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Route inbound mail to the right agent automatically</title>
-    <link>https://dev.to/mqasimca/route-inbound-mail-to-the-right-agent-automatically-36m</link>
-    <guid>https://dev.to/mqasimca/route-inbound-mail-to-the-right-agent-automatically-36m</guid>
-    <pubDate>Tue, 30 Jun 2026 21:09:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most &quot;AI email agent&quot; demos run one model against one mailbox: every message that lands gets the same prompt, the same context, the same handler. That&apos;s fine for a toy. It falls apart the moment...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The DeepMind trio who built a poker AI are now making money for quant hedge funds</title>
@@ -184,96 +274,6 @@
     <pubDate>Tue, 30 Jun 2026 18:13:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Anthropic launches Claude Sonnet 5 as a cheaper way to run agents</title>
-    <link>https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/</link>
-    <guid>https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/</guid>
-    <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Acti puts AI agents directly into your smartphone keyboard</title>
-    <link>https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/</link>
-    <guid>https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/</guid>
-    <pubDate>Tue, 30 Jun 2026 17:52:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Acti is betting the smartphone keyboard is the next home for AI assistants. The startup&apos;s new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data</title>
-    <link>https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html</link>
-    <guid>https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html</guid>
-    <pubDate>Tue, 30 Jun 2026 17:46:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>New Microsoft research shows how attackers can hijack AI agents that act on a user&apos;s behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS</title>
-    <link>https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html</link>
-    <guid>https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html</guid>
-    <pubDate>Tue, 30 Jun 2026 17:45:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A new two-stage malware family called RustDuck is hijacking home routers, IP cameras, Android boxes, and poorly secured servers, then stitching them into a network built to knock websites and...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Moto&amp;#8217;s Tag 2 tracker is $20 for a limited time</title>
-    <link>https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale</guid>
-    <pubDate>Tue, 30 Jun 2026 17:38:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Announced at CES 2026, the Moto Tag 2 has finally arrived in the US. The Bluetooth tracker with improved battery life over its predecessor, plus UWB sensing for more accurate tracking, is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body</title>
-    <link>https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/</link>
-    <guid>https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/</guid>
-    <pubDate>Tue, 30 Jun 2026 17:36:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Listen to the session or watch below Billions of dollars are flooding into efforts to reverse aging as scientists explore ways to return cells to a younger state. But how far off are these...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show</title>
-    <link>https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder</link>
-    <guid>https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder</guid>
-    <pubDate>Tue, 30 Jun 2026 17:19:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A new teaser trailer confirmed that Wonka&apos;s The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Rockstar workers push to unionize ahead of GTA VI’s launch</title>
-    <link>https://www.theverge.com/games/959668/rockstar-games-workers-union-gta-vi</link>
-    <guid>https://www.theverge.com/games/959668/rockstar-games-workers-union-gta-vi</guid>
-    <pubDate>Tue, 30 Jun 2026 17:04:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Workers at Grand Theft Auto VI developer Rockstar Games have submitted a request for their union, the IWGB Game Workers Union, to be voluntarily recognized, according to a press release. The...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google&amp;#8217;s killing off Tenor GIF searches in other apps</title>
-    <link>https://www.theverge.com/tech/959658/google-tenor-api-shutdown-gif-picker</link>
-    <guid>https://www.theverge.com/tech/959658/google-tenor-api-shutdown-gif-picker</guid>
-    <pubDate>Tue, 30 Jun 2026 17:00:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The GIF-picking interfaces in some of your favorite online platforms might look different going forward, as Google prepares to shut down the Tenor API today. While the Tenor website, along with...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists</title>
-    <link>https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/</link>
-    <guid>https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/</guid>
-    <pubDate>Tue, 30 Jun 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic&apos;s Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.</description>
     <category>AI</category>
   </item>
 </channel>
