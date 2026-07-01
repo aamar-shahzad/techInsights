@@ -5,97 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Jul 2026 04:53:35 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Jul 2026 11:32:47 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I gave a brand-new AI the memory of all my old chats, here&apos;s the free tool I built to do it.</title>
-    <link>https://dev.to/arya_koste_5845807df94776/i-gave-a-brand-new-ai-the-memory-of-all-my-old-chats-heres-the-free-tool-i-built-to-do-it-1550</link>
-    <guid>https://dev.to/arya_koste_5845807df94776/i-gave-a-brand-new-ai-the-memory-of-all-my-old-chats-heres-the-free-tool-i-built-to-do-it-1550</guid>
-    <pubDate>Wed, 01 Jul 2026 04:40:06 +0000</pubDate>
+    <title>Terraform guide to IAM Policies: The Two Cases You Need to Know</title>
+    <link>https://dev.to/tanseer/terraform-guide-to-iam-policies-the-two-cases-you-need-to-know-j0b</link>
+    <guid>https://dev.to/tanseer/terraform-guide-to-iam-policies-the-two-cases-you-need-to-know-j0b</guid>
+    <pubDate>Wed, 01 Jul 2026 11:21:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My AI conversations were scattered across three apps that couldn&apos;t remember each other. So I built a private, local-first vault that pulls them together and lets me hand my whole history to any...</description>
+    <description>When to attach a ready made policy and when to write your own When you first start writing IAM setup in Terraform, the examples online can feel like they contradict each other. One tutorial writes...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Client Asset Ownership: Should the Agency or the Client Own the Domain and Hosting?</title>
-    <link>https://dev.to/instarenewal/client-asset-ownership-should-the-agency-or-the-client-own-the-domain-and-hosting-2hp6</link>
-    <guid>https://dev.to/instarenewal/client-asset-ownership-should-the-agency-or-the-client-own-the-domain-and-hosting-2hp6</guid>
-    <pubDate>Wed, 01 Jul 2026 04:24:52 +0000</pubDate>
+    <title>Creating an internet for AI, or shall we?</title>
+    <link>https://dev.to/sumitsaurabh927/creating-an-internet-for-ai-or-shall-we-826</link>
+    <guid>https://dev.to/sumitsaurabh927/creating-an-internet-for-ai-or-shall-we-826</guid>
+    <pubDate>Wed, 01 Jul 2026 11:15:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Article image Client Asset Ownership: Should the Agency or the Client Own the Domain and Hosting? For freelancers and new agency owners, building solid standard operating procedures (SOPs) is one...</description>
+    <description>This is more of a rant than an article but I feel like we should start talking about this now rather than later. Till some time ago, my most visited places were Twitter and DevTo. (They were so...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Scaling Codebases Without Platform Bloat</title>
-    <link>https://dev.to/suraj_at_esence/scaling-codebases-without-platform-bloat-1dj8</link>
-    <guid>https://dev.to/suraj_at_esence/scaling-codebases-without-platform-bloat-1dj8</guid>
-    <pubDate>Wed, 01 Jul 2026 04:19:00 +0000</pubDate>
+    <title>How to Selectively Route OpenVPN Traffic Using PassWall2 on OpenWRT</title>
+    <link>https://dev.to/mfat/how-to-selectively-route-openvpn-traffic-using-passwall2-on-openwrt-5aab</link>
+    <guid>https://dev.to/mfat/how-to-selectively-route-openvpn-traffic-using-passwall2-on-openwrt-5aab</guid>
+    <pubDate>Wed, 01 Jul 2026 11:12:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Redundant compilation lags, bloated CI pipelines and version drift for internal modules quietly drain developer velocity. And normally, it&apos;s too late when the leadership gets the whiff of it....</description>
+    <description>If you run OpenVPN directly on your OpenWRT router, it usually hijacks your entire internet connection. But what if you only want specific apps, websites, or devices to use the VPN? By combining...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Chicken, the Egg, and the Compiler</title>
-    <link>https://dev.to/dheeraj_006/the-chicken-the-egg-and-the-compiler-18id</link>
-    <guid>https://dev.to/dheeraj_006/the-chicken-the-egg-and-the-compiler-18id</guid>
-    <pubDate>Wed, 01 Jul 2026 04:17:32 +0000</pubDate>
+    <title>Why I Built OSE Auditor</title>
+    <link>https://dev.to/ose_auditor/why-i-built-ose-auditor-3cnd</link>
+    <guid>https://dev.to/ose_auditor/why-i-built-ose-auditor-3cnd</guid>
+    <pubDate>Wed, 01 Jul 2026 11:12:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Bootstrapping with Bootstrap Hi, I am Dheeraj, and this is my first blog here. So I picked a fitting theme: Bootstrapping with Bootstrap. Bootstrapping is a self-starting process that keeps...</description>
+    <description>A few months ago, I ran into a problem I couldn&apos;t ignore. I was building software with payments, wallets, settlements and complex workflows. Everything looked fine. The tests passed. The API...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenSearch Serverless NextGen, uv audit, and Why Schema Constraints Break Small Models</title>
-    <link>https://dev.to/devsignal/opensearch-serverless-nextgen-uv-audit-and-why-schema-constraints-break-small-models-10p6</link>
-    <guid>https://dev.to/devsignal/opensearch-serverless-nextgen-uv-audit-and-why-schema-constraints-break-small-models-10p6</guid>
-    <pubDate>Wed, 01 Jul 2026 04:16:43 +0000</pubDate>
+    <title>I Benchmarked DeepSeek, Qwen, Kimi &amp; GLM for 30 Days — The Numbers</title>
+    <link>https://dev.to/rarenode/i-benchmarked-deepseek-qwen-kimi-glm-for-30-days-the-numbers-5je</link>
+    <guid>https://dev.to/rarenode/i-benchmarked-deepseek-qwen-kimi-glm-for-30-days-the-numbers-5je</guid>
+    <pubDate>Wed, 01 Jul 2026 11:02:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This week&apos;s tooling moves cluster around a common theme: eliminating the overhead tax on developer workflows. AWS cut idle costs for search, uv folded security scanning into dependency resolution,...</description>
+    <description>I Benchmarked DeepSeek, Qwen, Kimi &amp; GLM for 30 Days — The Numbers I&apos;ll be honest — I didn&apos;t set out to write this. I set out to pick one Chinese LLM family for a client project and move on with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Chrome Extension Development Setup: The 2026 Starter Guide | ExtensionBooster</title>
-    <link>https://dev.to/quangpl/chrome-extension-development-setup-the-2026-starter-guide-extensionbooster-2e6</link>
-    <guid>https://dev.to/quangpl/chrome-extension-development-setup-the-2026-starter-guide-extensionbooster-2e6</guid>
-    <pubDate>Wed, 01 Jul 2026 04:16:24 +0000</pubDate>
+    <title>Optimizing Mobile Web Apps for Low-Bandwidth Networks</title>
+    <link>https://dev.to/emrysunleashed/optimizing-mobile-web-apps-for-low-bandwidth-networks-5693</link>
+    <guid>https://dev.to/emrysunleashed/optimizing-mobile-web-apps-for-low-bandwidth-networks-5693</guid>
+    <pubDate>Wed, 01 Jul 2026 11:01:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Chrome extension landscape has shifted significantly. Here&apos;s what&apos;s working. Chrome Extension Development Setup: The 2026 Starter Guide | ExtensionBooster Most “build your first Chrome...</description>
+    <description>Mobile web performance isn&apos;t just about fast desktop speeds throttled down; it’s an entirely different environment. When developers assume pristine 5G environments, users in high-latency or remote...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Evaluated 6 Project Management Tools for My 200-Person Team — Here&apos;s What I Actually Picked</title>
-    <link>https://dev.to/danielbrooks1980/i-evaluated-6-project-management-tools-for-my-200-person-team-heres-what-i-actually-picked-44h0</link>
-    <guid>https://dev.to/danielbrooks1980/i-evaluated-6-project-management-tools-for-my-200-person-team-heres-what-i-actually-picked-44h0</guid>
-    <pubDate>Wed, 01 Jul 2026 04:13:30 +0000</pubDate>
+    <title>Range anxiety</title>
+    <link>https://www.theverge.com/cs/features/938196/rivian-r2-ev-factory-supply-chain</link>
+    <guid>https://www.theverge.com/cs/features/938196/rivian-r2-ev-factory-supply-chain</guid>
+    <pubDate>Wed, 01 Jul 2026 11:00:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The storm developed quickly over west central Illinois on April 17th, first as a single high-intensity system called a supercell, and then later that evening transforming into a long squall line...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Building with mini, Part 4/9: The main loop — next plan do done</title>
+    <link>https://dev.to/stkremen/building-with-mini-part-4-the-main-loop-next-plan-do-done-344a</link>
+    <guid>https://dev.to/stkremen/building-with-mini-part-4-the-main-loop-next-plan-do-done-344a</guid>
+    <pubDate>Wed, 01 Jul 2026 11:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why I Spent Three Months Testing PM Tools I have been a senior project manager for eight years. My team grew from 15 people to 200 across three time zones, and our tool stack became a Frankenstein...</description>
+    <description>pycalc has a vision (Part 2) and a backlog (Part 3) — and still not a single line of Python. Today we fix that. Four commands form the heart of mini: propose, break down, build, close. One turn of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Shift-Left Meets AI: Catching Bugs Earlier with Predictive ML Models in Your Dev Pipeline</title>
-    <link>https://dev.to/nareshkumar_soundarajan/shift-left-meets-ai-catching-bugs-earlier-with-predictive-ml-models-in-your-dev-pipeline-3bb6</link>
-    <guid>https://dev.to/nareshkumar_soundarajan/shift-left-meets-ai-catching-bugs-earlier-with-predictive-ml-models-in-your-dev-pipeline-3bb6</guid>
-    <pubDate>Wed, 01 Jul 2026 04:12:36 +0000</pubDate>
+    <title>Fake Praise, Real Money</title>
+    <link>https://dev.to/rawveg/fake-praise-real-money-5hj4</link>
+    <guid>https://dev.to/rawveg/fake-praise-real-money-5hj4</guid>
+    <pubDate>Wed, 01 Jul 2026 11:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Bug Tax Nobody Talks About A bug caught in production costs roughly 100× more to fix than the same bug caught at the requirements stage — a well-documented finding (NIST, IBM) that underpins...</description>
+    <description>Patrick Radden Keefe, the best-selling author of Say Nothing and Empire of Pain, both adapted into critically acclaimed television series, has become accustomed to a daily ritual that has nothing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Durable Objects + GLM-5.2 IDOR beats Claude</title>
-    <link>https://dev.to/devsignal/durable-objects-glm-52-idor-beats-claude-46lc</link>
-    <guid>https://dev.to/devsignal/durable-objects-glm-52-idor-beats-claude-46lc</guid>
-    <pubDate>Wed, 01 Jul 2026 04:08:50 +0000</pubDate>
+    <title>Como rodar Classic ASP no Linux: Um guia passo a passo para instalar o AxonASP no Ubuntu ou Debian</title>
+    <link>https://dev.to/lucas_guimaraes/como-rodar-classic-asp-no-linux-um-guia-passo-a-passo-para-instalar-o-axonasp-no-ubuntu-ou-debian-2dna</link>
+    <guid>https://dev.to/lucas_guimaraes/como-rodar-classic-asp-no-linux-um-guia-passo-a-passo-para-instalar-o-axonasp-no-ubuntu-ou-debian-2dna</guid>
+    <pubDate>Wed, 01 Jul 2026 11:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Three themes dominated AI tooling this week: infrastructure finally catching up to agent runtime requirements, open-weight models closing the gap on specialized security tasks, and the slow death...</description>
+    <description>Introdução Hospedar aplicações Classic ASP (Active Server Pages) tradicionalmente significava estar acorrentado ao Windows Server e ao IIS. Para desenvolvedores que dão manutenção em aplicações...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Most Complex Code Is the One the User Abandons</title>
-    <link>https://dev.to/guilherme_landim/the-most-complex-code-is-the-one-the-user-abandons-4d15</link>
-    <guid>https://dev.to/guilherme_landim/the-most-complex-code-is-the-one-the-user-abandons-4d15</guid>
-    <pubDate>Wed, 01 Jul 2026 04:02:54 +0000</pubDate>
+    <title>The cube was a lie: up close with our Dbrand Companion Cube before it gets destroyed</title>
+    <link>https://www.theverge.com/games/959890/dbrand-companion-cube-photos-hands-on</link>
+    <guid>https://www.theverge.com/games/959890/dbrand-companion-cube-photos-hands-on</guid>
+    <pubDate>Wed, 01 Jul 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Dbrand is the company that shipped a product that told Nintendo&apos;s legal team to &quot;go fuck yourself,&quot; and the company that had a second set of lawyer-dodging PS5 plates ready when Sony threatened to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Step-by-Step Process of Penetration Testing: A Defensive Guide</title>
+    <link>https://dev.to/rv_688a20c2e1fe40b6498568/the-step-by-step-process-of-penetration-testing-a-defensive-guide-5f8f</link>
+    <guid>https://dev.to/rv_688a20c2e1fe40b6498568/the-step-by-step-process-of-penetration-testing-a-defensive-guide-5f8f</guid>
+    <pubDate>Wed, 01 Jul 2026 10:57:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A lot of times, the tech industry forgets the golden rule: software isn&apos;t the end goal — it&apos;s just the means to an end. Recently, while talking to small business owners and watching the daily...</description>
+    <description>The Step-by-Step Process of Penetration Testing: A Defensive Guide Learn the structured process of penetration testing to identify vulnerabilities before attackers do. This defensive cybersecurity...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Papa Johns Surveillance-Based Advertising</title>
+    <link>https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html</guid>
+    <pubDate>Wed, 01 Jul 2026 10:53:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Papa Johns is spying on people’s buying activities to predict when they are low on food: The pizza chain recently tapped NBCUniversal, Instacart and the dentsu-owned media agency Carat for help...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Microsoft Accelerates Post-Quantum Cryptography Shift to 2029</title>
+    <link>https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html</link>
+    <guid>https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html</guid>
+    <pubDate>Wed, 01 Jul 2026 10:41:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft on Tuesday said it&apos;s accelerating its quantum safe security roadmap, stating technology advances in quantum computing are making it essential to replace existing encryption standards...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Fujifilm launches two new QuickSnap cameras because Gen Z can&amp;#8217;t get enough</title>
+    <link>https://www.theverge.com/gadgets/960067/fujifilm-quicksnap-active-black-and-white-price-availability</link>
+    <guid>https://www.theverge.com/gadgets/960067/fujifilm-quicksnap-active-black-and-white-price-availability</guid>
+    <pubDate>Wed, 01 Jul 2026 10:05:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Fujifilm is expanding its QuickSnap lineup with a new disposable camera focused on taking monochrome photos and another built to survive harsh outdoor environments. The $22.90 QuickSnap Black and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival</title>
+    <link>https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/</link>
+    <guid>https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/</guid>
+    <pubDate>Wed, 01 Jul 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>A researcher found that using Anthropic’s Claude Opus 4.7, he could break into the website of Front Gate—used by every festival from Lollapalooza to Bonnaroo—and freely issue any ticket he chose.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cleared by the US, derailed by the UK: Getty’s Shutterstock merger falls apart</title>
+    <link>https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination</link>
+    <guid>https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination</guid>
+    <pubDate>Wed, 01 Jul 2026 08:41:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Getty is planning to axe its $3.7 billion merger agreement with Shutterstock after a UK regulator imposed restrictions that would prevent part of Shutterstock&apos;s business from being included in the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware</title>
+    <link>https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html</link>
+    <guid>https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html</guid>
+    <pubDate>Wed, 01 Jul 2026 07:20:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls</title>
+    <link>https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html</link>
+    <guid>https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html</guid>
+    <pubDate>Wed, 01 Jul 2026 06:46:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Anthropic is putting Claude Fable 5 back online worldwide. On June 30, the U.S. Commerce Department lifted the export controls it had imposed on Fable and its more tightly controlled sibling...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts</title>
+    <link>https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html</link>
+    <guid>https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html</guid>
+    <pubDate>Wed, 01 Jul 2026 05:46:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have warned of a &quot;massive, ongoing, automated password spray attack&quot; aimed at Microsoft&apos;s Azure command-line interface (CLI), compromising dozens of accounts in the...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery</title>
+    <link>https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html</link>
+    <guid>https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html</guid>
+    <pubDate>Wed, 01 Jul 2026 05:32:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>ClickFix, the trick that fools people into running malware by hand, has quietly grown a back office. New research shows the malicious commands behind its fake &quot;prove you&apos;re human&quot; pages are now...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service</title>
@@ -107,7 +206,7 @@
     <category>Security</category>
   </item>
   <item>
-    <title>The “Father of the Internet” is finally retiring</title>
+    <title>The ‘Father of the Internet’ is finally retiring</title>
     <link>https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/</link>
     <guid>https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/</guid>
     <pubDate>Wed, 01 Jul 2026 03:15:37 +0000</pubDate>
@@ -121,7 +220,7 @@
     <guid>https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/</guid>
     <pubDate>Wed, 01 Jul 2026 02:16:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic said it would begin restoring access to the Fable on July 1.</description>
+    <description>The Trump administration&apos;s erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.</description>
     <category>AI</category>
   </item>
   <item>
@@ -161,7 +260,7 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Dish files for bankruptcy, but not shutting down</title>
+    <title>Dish files for bankruptcy, but is not shutting down</title>
     <link>https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy</link>
     <guid>https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy</guid>
     <pubDate>Tue, 30 Jun 2026 22:46:52 +0000</pubDate>
@@ -176,104 +275,6 @@
     <pubDate>Tue, 30 Jun 2026 21:53:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The free open source agentic program is finally invading your phone.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Claude Science is Anthropic’s newest flagship product</title>
-    <link>https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/</link>
-    <guid>https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/</guid>
-    <pubDate>Tue, 30 Jun 2026 21:50:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Amazon fined $2.25 million for failing to help identity theft victims</title>
-    <link>https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine</link>
-    <guid>https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine</guid>
-    <pubDate>Tue, 30 Jun 2026 21:20:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Federal Trade Commission fined Amazon $2.25 million to settle claims that the company failed to help customers who fell victim to identity theft, as reported earlier by Bloomberg. In its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The DeepMind trio who built a poker AI are now making money for quant hedge funds</title>
-    <link>https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/</link>
-    <guid>https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/</guid>
-    <pubDate>Tue, 30 Jun 2026 20:33:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>New attack provides one more reason why AI browsers are a bad idea</title>
-    <link>https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/</link>
-    <guid>https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/</guid>
-    <pubDate>Tue, 30 Jun 2026 20:03:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Acer&amp;#8217;s Swift Go 16 is a lot of laptop for $900</title>
-    <link>https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale</guid>
-    <pubDate>Tue, 30 Jun 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>As high memory and storage prices have driven up the cost of everything from consoles to computers, finding a competent laptop for under $1,000 has become a challenge. Thankfully, the Acer Swift...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google’s NotebookLM can sum up your research in a TikTok-style clip</title>
-    <link>https://www.theverge.com/tech/959778/google-notebooklm-ai-clips</link>
-    <guid>https://www.theverge.com/tech/959778/google-notebooklm-ai-clips</guid>
-    <pubDate>Tue, 30 Jun 2026 19:24:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google&apos;s NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google introduces a faster, cheaper image generator with Nano Banana 2 Lite</title>
-    <link>https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/</link>
-    <guid>https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/</guid>
-    <pubDate>Tue, 30 Jun 2026 19:02:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>LG’s 27-inch Tandem OLED gaming monitor is cheaper than ever</title>
-    <link>https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale</guid>
-    <pubDate>Tue, 30 Jun 2026 18:42:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The price of LG’s UltraGear 27GX700A-B 1440p gaming monitor that came out last August has dropped to nearly its best price yet. You can grab it at Amazon for $484.99 or at LG for $499.99...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration</title>
-    <link>https://huggingface.co/blog/ibm-research/scarfbench</link>
-    <guid>https://huggingface.co/blog/ibm-research/scarfbench</guid>
-    <pubDate>Tue, 30 Jun 2026 18:32:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>007 First Light&amp;#8217;s developer lays off staff but claims its next franchise will continue</title>
-    <link>https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs</link>
-    <guid>https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs</guid>
-    <pubDate>Tue, 30 Jun 2026 18:14:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>IO Interactive, the studio behind the Hitman series and 007 First Light, announced that it is laying off staff after a relationship with an &quot;external partner&quot; on its next big franchise, Project...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip</title>
-    <link>https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/</link>
-    <guid>https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/</guid>
-    <pubDate>Tue, 30 Jun 2026 18:13:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.</description>
     <category>AI</category>
   </item>
 </channel>
