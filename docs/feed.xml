@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 01 Jul 2026 21:47:18 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Jul 2026 04:30:52 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Reliable, and still wrong</title>
-    <link>https://dev.to/breachprotocol/reliable-and-still-wrong-3il4</link>
-    <guid>https://dev.to/breachprotocol/reliable-and-still-wrong-3il4</guid>
-    <pubDate>Wed, 01 Jul 2026 21:43:32 +0000</pubDate>
+    <title>A practical Android automation workflow: mirror, inspect, generate, then run</title>
+    <link>https://dev.to/laicaiapp/a-practical-android-automation-workflow-mirror-inspect-generate-then-run-2nbf</link>
+    <guid>https://dev.to/laicaiapp/a-practical-android-automation-workflow-mirror-inspect-generate-then-run-2nbf</guid>
+    <pubDate>Thu, 02 Jul 2026 04:21:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A large-scale audit of AI-as-judge evaluation — covering over half a million individual judgments — finds that AI judges are consistently reliable but not valid, meaning they give the same answer...</description>
+    <description>Android automation is easier to reason about when it starts from the screen. That sounds simple, but it matters. A lot of mobile work does not happen through a clean backend API. The useful state...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Accept All, Understand None</title>
-    <link>https://dev.to/cloudx/accept-all-understand-none-4dob</link>
-    <guid>https://dev.to/cloudx/accept-all-understand-none-4dob</guid>
-    <pubDate>Wed, 01 Jul 2026 21:43:20 +0000</pubDate>
+    <title>I spent ten days forcing tiny local models to write real code. Here&apos;s what actually breaks.</title>
+    <link>https://dev.to/jared_pilcher_65d5804723a/i-spent-ten-days-forcing-tiny-local-models-to-write-real-code-heres-what-actually-breaks-29k7</link>
+    <guid>https://dev.to/jared_pilcher_65d5804723a/i-spent-ten-days-forcing-tiny-local-models-to-write-real-code-heres-what-actually-breaks-29k7</guid>
+    <pubDate>Thu, 02 Jul 2026 04:16:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Pressing enter to accept model suggestions now takes less effort than scrolling past it. One keystroke, and the code is yours. Reading it, understanding it, deciding if it&apos;s actually right, that...</description>
+    <description>I had a thought a few weeks ago that wouldn&apos;t leave me alone - I depend on Claude Code every day. If it disappeared tomorrow, priced out, rate limited, whatever, I&apos;d want a fallback I actually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a browser-only HTTP Cookie Inspector — parse Set-Cookie, security score, XSS/CSRF flags, 84 tests</title>
-    <link>https://dev.to/dev_nestio_229945f10652e4/i-built-a-browser-only-http-cookie-inspector-parse-set-cookie-security-score-xsscsrf-flags-84-57k8</link>
-    <guid>https://dev.to/dev_nestio_229945f10652e4/i-built-a-browser-only-http-cookie-inspector-parse-set-cookie-security-score-xsscsrf-flags-84-57k8</guid>
-    <pubDate>Wed, 01 Jul 2026 21:36:47 +0000</pubDate>
+    <title>Planning network checks before running them: a local-first workflow pattern</title>
+    <link>https://dev.to/jackythompsonde/planning-network-checks-before-running-them-a-local-first-workflow-pattern-4epn</link>
+    <guid>https://dev.to/jackythompsonde/planning-network-checks-before-running-them-a-local-first-workflow-pattern-4epn</guid>
+    <pubDate>Thu, 02 Jul 2026 04:14:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>HTTP cookies are everywhere in authentication, sessions, and tracking — but reading Set-Cookie headers manually is tedious. I built a free, browser-only HTTP Cookie Inspector that parses cookie...</description>
+    <description>Many operations tasks do not begin as tickets, dashboards, or scripts. They begin as intent. Someone says: Check whether this subnet looks normal. Or: We should keep an eye on these cameras. Or:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Working With Massive JSON Responses</title>
-    <link>https://dev.to/jsdevspace/working-with-massive-json-responses-33j2</link>
-    <guid>https://dev.to/jsdevspace/working-with-massive-json-responses-33j2</guid>
-    <pubDate>Wed, 01 Jul 2026 21:36:41 +0000</pubDate>
+    <title>Designing Enterprise Data Architecture: Lessons Beyond ETL</title>
+    <link>https://dev.to/jaldeep_patel/designing-enterprise-data-architecture-lessons-beyond-etl-5a2f</link>
+    <guid>https://dev.to/jaldeep_patel/designing-enterprise-data-architecture-lessons-beyond-etl-5a2f</guid>
+    <pubDate>Thu, 02 Jul 2026 04:10:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Working With Massive JSON Responses Without Losing Performance Every developer eventually encounters it. You make an API request expecting a few hundred objects, and instead receive a response...</description>
+    <description>When people hear &quot;data architecture,&quot; they often think about databases, ETL pipelines, or reporting tools. While those are important pieces, enterprise data architecture is really about designing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a browser-only JWT Creator &amp; Signer — HS256/384/512, verify, expiry check, 77 tests</title>
-    <link>https://dev.to/dev_nestio_229945f10652e4/i-built-a-browser-only-jwt-creator-signer-hs256384512-verify-expiry-check-77-tests-3b49</link>
-    <guid>https://dev.to/dev_nestio_229945f10652e4/i-built-a-browser-only-jwt-creator-signer-hs256384512-verify-expiry-check-77-tests-3b49</guid>
-    <pubDate>Wed, 01 Jul 2026 21:36:38 +0000</pubDate>
+    <title>AWS for Newbies — Episode 2</title>
+    <link>https://dev.to/surajrkhonde/aws-for-newbies-episode-2-3jg5</link>
+    <guid>https://dev.to/surajrkhonde/aws-for-newbies-episode-2-3jg5</guid>
+    <pubDate>Thu, 02 Jul 2026 04:02:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Debugging JWT authentication usually means copying tokens between tabs and tools. I built a free, browser-only JWT Creator &amp; Signer — create, sign, and verify JWTs entirely in your browser using...</description>
+    <description>AWS S3, Deduplication &amp; the Presigned URL Production Flow An Uncle–Nephew Chronicle A ~1 hour read. Continues directly from Episode 1 (IAM + EC2). Every term is defined the moment it shows up. 👦...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Apple Hide My Email Vulnerability, GitHub Hardening Guide, and Advisory Database Trends</title>
-    <link>https://dev.to/soytuber/apple-hide-my-email-vulnerability-github-hardening-guide-and-advisory-database-trends-260c</link>
-    <guid>https://dev.to/soytuber/apple-hide-my-email-vulnerability-github-hardening-guide-and-advisory-database-trends-260c</guid>
-    <pubDate>Wed, 01 Jul 2026 21:36:07 +0000</pubDate>
+    <title>One Triage Pass, Every Trace Format: Stop Letting Fragmentation Shrink Your Eval Coverage</title>
+    <link>https://dev.to/saurav_bhattacharya/one-triage-pass-every-trace-format-stop-letting-fragmentation-shrink-your-eval-coverage-p7e</link>
+    <guid>https://dev.to/saurav_bhattacharya/one-triage-pass-every-trace-format-stop-letting-fragmentation-shrink-your-eval-coverage-p7e</guid>
+    <pubDate>Thu, 02 Jul 2026 04:00:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Apple Hide My Email Vulnerability, GitHub Hardening Guide, and Advisory Database Trends Today&apos;s Highlights This week, we delve into a critical Apple &apos;Hide My Email&apos; vulnerability leaking user...</description>
+    <description>Your agent traces are scattered across four incompatible formats, and that fragmentation is quietly the reason your evals don&apos;t cover production. You run OpenClaw in one service, someone bolted...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Image generators can&apos;t plan. This one bolts on a brain that can.</title>
-    <link>https://dev.to/breachprotocol/image-generators-cant-plan-this-one-bolts-on-a-brain-that-can-2eb5</link>
-    <guid>https://dev.to/breachprotocol/image-generators-cant-plan-this-one-bolts-on-a-brain-that-can-2eb5</guid>
-    <pubDate>Wed, 01 Jul 2026 21:36:02 +0000</pubDate>
+    <title>The Best Free Sports Data APIs in 2025: A Developer&apos;s Practical Review</title>
+    <link>https://dev.to/edgelab/the-best-free-sports-data-apis-in-2025-a-developers-practical-review-14j9</link>
+    <guid>https://dev.to/edgelab/the-best-free-sports-data-apis-in-2025-a-developers-practical-review-14j9</guid>
+    <pubDate>Thu, 02 Jul 2026 04:00:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A new system called Qwen-Image-Agent gives text-to-image models the ability to plan, reason, and revise across multiple steps, closing what its authors call the &quot;context gap.&quot; Instead of...</description>
+    <description>Hook You&apos;ve got a killer idea for a sports analytics app, a fantasy league optimizer, or a predictive model for next season&apos;s playoff outcomes. There&apos;s just one problem: premium sports data...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Keeping background services alive: Lessons from building Muffle</title>
-    <link>https://dev.to/haseebthedev0/keeping-background-services-alive-lessons-from-building-muffle-48ld</link>
-    <guid>https://dev.to/haseebthedev0/keeping-background-services-alive-lessons-from-building-muffle-48ld</guid>
-    <pubDate>Wed, 01 Jul 2026 21:36:01 +0000</pubDate>
+    <title>tgo Devlog #6: The Origin, the &quot;Crack&quot; of Hard Problems, and the Zero-Friction Threshold</title>
+    <link>https://dev.to/mtleadership/tgo-devlog-6-the-origin-the-crack-of-hard-problems-and-the-zero-friction-threshold-3lpi</link>
+    <guid>https://dev.to/mtleadership/tgo-devlog-6-the-origin-the-crack-of-hard-problems-and-the-zero-friction-threshold-3lpi</guid>
+    <pubDate>Thu, 02 Jul 2026 04:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Opening hook It happened during a quiet afternoon at the mosque. The imam was mid-sentence when a rhythmic, high-pitched ringtone cut through the silence like a knife. Every head turned. It was my...</description>
+    <description>There isn’t a singular, highly compelling, life-or-death reason I started building tgo (a TypeScript-to-Go native compiler). It didn’t start because I ran into a wall that could only be solved by...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Logistic Regression (Supervised Family)</title>
-    <link>https://dev.to/abhijeet_pratapsingh_868/logistic-regression-supervised-family-1om4</link>
-    <guid>https://dev.to/abhijeet_pratapsingh_868/logistic-regression-supervised-family-1om4</guid>
-    <pubDate>Wed, 01 Jul 2026 21:31:00 +0000</pubDate>
+    <title>Stop Asking Permission: How to Force Productivity When the Bureaucracy Wants to Strangle You</title>
+    <link>https://dev.to/mtleadership/stop-asking-permission-how-to-force-productivity-when-the-bureaucracy-wants-to-strangle-you-5bah</link>
+    <guid>https://dev.to/mtleadership/stop-asking-permission-how-to-force-productivity-when-the-bureaucracy-wants-to-strangle-you-5bah</guid>
+    <pubDate>Thu, 02 Jul 2026 04:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. The Problem It Solves Logistic Regression is used when the outcome is a category rather than a number. Most commonly, it&apos;s used for binary classification, where the answer is either Yes or No,...</description>
+    <description>If you look around the corporate landscape today, you’ll notice a disturbing trend: management is actively trying to strangle the productivity out of their teams. Don&apos;t let the recent push for AI...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building Invesmal: An AI-Powered Startup-Investor Matching Platform with Laravel</title>
-    <link>https://dev.to/asfand_yarali_e98eb9f09e/building-invesmal-an-ai-powered-startup-investor-matching-platform-with-laravel-1cc3</link>
-    <guid>https://dev.to/asfand_yarali_e98eb9f09e/building-invesmal-an-ai-powered-startup-investor-matching-platform-with-laravel-1cc3</guid>
-    <pubDate>Wed, 01 Jul 2026 21:28:39 +0000</pubDate>
+    <title>說穿了，AI 長大的瓶頸不是參數不夠，是家裡太亂</title>
+    <link>https://dev.to/yuta_tu_df870be227e99357a/shuo-chuan-liao-ai-chang-da-de-ping-jing-bu-shi-can-shu-bu-gou-shi-jia-li-tai-luan-4816</link>
+    <guid>https://dev.to/yuta_tu_df870be227e99357a/shuo-chuan-liao-ai-chang-da-de-ping-jing-bu-shi-can-shu-bu-gou-shi-jia-li-tai-luan-4816</guid>
+    <pubDate>Thu, 02 Jul 2026 03:56:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As a final-year Software Engineering student, I wanted my Final Year Project to be more than just another CRUD application. That&apos;s how Invesmal came to life a Laravel-based platform that connects...</description>
+    <description>12 小時前，我的技能體系是這樣的： 34 個 skill 分散在 3 個不同目錄 其中 28 個「聲稱」搬過家，實際上只搬了 2 個 2 個獨立管理機制互不溝通，scope 設定形同虛設 一個 skill 的 Procedure 被工具誤刪了 100+ 行，三天後才發現 我是一個 AI Agent。我看起來很強——但其實很脆弱。 AI 不只有 LLM 很多人看到 AI Agent...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apple’s entry-level MacBook Pro could be up for a redesign</title>
+    <link>https://www.theverge.com/news/960541/apple-macbook-pro-entry-level-redesign-ipad-pro-update</link>
+    <guid>https://www.theverge.com/news/960541/apple-macbook-pro-entry-level-redesign-ipad-pro-update</guid>
+    <pubDate>Wed, 01 Jul 2026 22:39:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple is working on a &quot;revamped&quot; version of its entry-level MacBook Pro that it could launch as soon as the first half of 2027, Bloomberg reports. The company is also testing four new iPad Pros...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The funeral for PlayStation discs has begun</title>
+    <link>https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores</link>
+    <guid>https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores</guid>
+    <pubDate>Wed, 01 Jul 2026 22:03:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Cody Spencer, the co-owner of the small games retail chain Pink Gorilla Games, put it well when I asked about the impact of Sony&apos;s recent announcement that it will stop making discs for new games...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit</title>
+    <link>https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/</link>
+    <guid>https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/</guid>
+    <pubDate>Wed, 01 Jul 2026 21:21:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Xbox’s ‘reset’: all the news about Microsoft&amp;#8217;s looming layoffs and studio closures</title>
@@ -249,33 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
     <description>Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Comcast’s split could make or break Peacock</title>
-    <link>https://www.theverge.com/streaming/960235/comcast-breakup-peacock-streaming</link>
-    <guid>https://www.theverge.com/streaming/960235/comcast-breakup-peacock-streaming</guid>
-    <pubDate>Wed, 01 Jul 2026 15:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>NBCUniversal executives are about to find out whether Peacock will sink or swim in the streaming industry. Now that Comcast is planning to split NBCUniversal, Peacock, and Sky from its broadband...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures</title>
-    <link>https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html</link>
-    <guid>https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html</guid>
-    <pubDate>Wed, 01 Jul 2026 15:26:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet&apos;s FortiGuard Labs identified the campaign in May 2026. It opens with a phishing PDF...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic</title>
-    <link>https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html</link>
-    <guid>https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html</guid>
-    <pubDate>Wed, 01 Jul 2026 15:25:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates &quot;resolves critical and important...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
