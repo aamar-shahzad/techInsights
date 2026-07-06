@@ -5,97 +5,114 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 05 Jul 2026 21:19:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 06 Jul 2026 04:38:44 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Behind the Curtain: APE-QIL QUANTUM SUPREME OCTOPUS and the 3-Tier Sovereign Auth Pipeline</title>
-    <link>https://dev.to/blacknobilityenterprisellcarch/behind-the-curtain-ape-qil-quantum-supreme-octopus-and-the-3-tier-sovereign-auth-pipeline-545p</link>
-    <guid>https://dev.to/blacknobilityenterprisellcarch/behind-the-curtain-ape-qil-quantum-supreme-octopus-and-the-3-tier-sovereign-auth-pipeline-545p</guid>
-    <pubDate>Sun, 05 Jul 2026 21:07:02 +0000</pubDate>
+    <title>My Reading Room</title>
+    <link>https://dev.to/lavkeshdwivedi/my-reading-room-2ki2</link>
+    <guid>https://dev.to/lavkeshdwivedi/my-reading-room-2ki2</guid>
+    <pubDate>Mon, 06 Jul 2026 04:20:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most API authentication I&apos;ve seen in production follows the same pattern: a single apiKey check at the top of each route handler, maybe a rate limiter slapped on as middleware, and a quota check...</description>
+    <description>Originally published on lavkesh.com I still remember the small reading room in my childhood home in Orai, where I spent most of my afternoons poring over books from the local library. The room was...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>10 Website Performance Optimization Tips Every Developer Should Know</title>
-    <link>https://dev.to/hwttechy/10-website-performance-optimization-tips-every-developer-should-know-48nl</link>
-    <guid>https://dev.to/hwttechy/10-website-performance-optimization-tips-every-developer-should-know-48nl</guid>
-    <pubDate>Sun, 05 Jul 2026 21:05:49 +0000</pubDate>
+    <title>Shifting Mobile Security Left: Applying SAST to Android Apps with MobSF</title>
+    <link>https://dev.to/fabrizioperezperalta/shifting-mobile-security-left-applying-sast-to-android-apps-with-mobsf-47l3</link>
+    <guid>https://dev.to/fabrizioperezperalta/shifting-mobile-security-left-applying-sast-to-android-apps-with-mobsf-47l3</guid>
+    <pubDate>Mon, 06 Jul 2026 04:17:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Website performance is no longer just a nice-to-have feature—it&apos;s a critical factor for user experience, SEO, and business success. Even a one-second delay in page load time can reduce conversions...</description>
+    <description>TL;DR — I took an intentionally vulnerable Android application, ran the static analysis engine of MobSF (Mobile Security Framework) via a local Docker container, and immediately identified...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Docker vs Kubernetes: Do You Actually Need an Orchestrator Yet?</title>
-    <link>https://dev.to/jjoyneriv/docker-vs-kubernetes-do-you-actually-need-an-orchestrator-yet-57k0</link>
-    <guid>https://dev.to/jjoyneriv/docker-vs-kubernetes-do-you-actually-need-an-orchestrator-yet-57k0</guid>
-    <pubDate>Sun, 05 Jul 2026 21:04:57 +0000</pubDate>
+    <title>I built an open-source, self-hosted Git + DevOps tool — Gisia</title>
+    <link>https://dev.to/okoddcat/i-built-an-open-source-self-hosted-git-devops-tool-gisia-12l1</link>
+    <guid>https://dev.to/okoddcat/i-built-an-open-source-self-hosted-git-devops-tool-gisia-12l1</guid>
+    <pubDate>Mon, 06 Jul 2026 04:06:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>&quot;Docker vs Kubernetes&quot; is one of those framings that quietly sends people down the wrong road. It sounds like a choice between two competing tools, so teams treat it like a bake-off. It isn&apos;t....</description>
+    <description>Hey folks 👋 I&apos;ve been building an open-source DevOps tool called Gisia for a while now, and I figured it was time to actually share it with people instead of quietly tinkering on it. It&apos;s a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Docker Compose to Kubernetes: What Actually Changes</title>
-    <link>https://dev.to/jjoyneriv/from-docker-compose-to-kubernetes-what-actually-changes-4ga9</link>
-    <guid>https://dev.to/jjoyneriv/from-docker-compose-to-kubernetes-what-actually-changes-4ga9</guid>
-    <pubDate>Sun, 05 Jul 2026 21:04:54 +0000</pubDate>
+    <title>[Rust Guide] 13.8. Creating Custom Iterators</title>
+    <link>https://dev.to/someb1oody/rust-guide-138-creating-custom-iterators-10h3</link>
+    <guid>https://dev.to/someb1oody/rust-guide-138-creating-custom-iterators-10h3</guid>
+    <pubDate>Mon, 06 Jul 2026 04:06:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;re comfortable with docker compose up, you already understand more of Kubernetes than you think. Compose taught you to describe an application declaratively — services, their images, their...</description>
+    <description>13.8.0 Before We Begin During its design, Rust drew inspiration from many languages, and functional programming had a particularly strong influence on Rust. Functional programming often includes...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Docker Containerization: Turning &apos;Works on My Machine&apos; Into a Reproducible Artifact</title>
-    <link>https://dev.to/jjoyneriv/docker-containerization-turning-works-on-my-machine-into-a-reproducible-artifact-4h00</link>
-    <guid>https://dev.to/jjoyneriv/docker-containerization-turning-works-on-my-machine-into-a-reproducible-artifact-4h00</guid>
-    <pubDate>Sun, 05 Jul 2026 21:04:50 +0000</pubDate>
+    <title>How we optimized our LLM pipeline to cut token usage by 70%</title>
+    <link>https://dev.to/adamo_software/how-we-optimized-our-llm-pipeline-to-cut-token-usage-by-70-533c</link>
+    <guid>https://dev.to/adamo_software/how-we-optimized-our-llm-pipeline-to-cut-token-usage-by-70-533c</guid>
+    <pubDate>Mon, 06 Jul 2026 04:05:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>&quot;Works on my machine&quot; is one of the oldest jokes in software, and it stopped being funny the first time it cost me a weekend. The code was fine. The environment wasn&apos;t. A library version on the...</description>
+    <description>Most teams assume the fastest way to reduce AI costs is to switch to a smaller model. In reality, that&apos;s often the last thing you should do. Within a few weeks we noticed three problems: API costs...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Docker Containerization Habits That Keep Production Calm</title>
-    <link>https://dev.to/jjoyneriv/docker-containerization-habits-that-keep-production-calm-3g63</link>
-    <guid>https://dev.to/jjoyneriv/docker-containerization-habits-that-keep-production-calm-3g63</guid>
-    <pubDate>Sun, 05 Jul 2026 21:04:47 +0000</pubDate>
+    <title>Fable 5 Hype: Fangirling with Datasets to Build a Lakers Dashboard</title>
+    <link>https://dev.to/earlgreyhot1701d/fable-5-hype-fangirling-with-datasets-to-build-a-lakers-dashboard-3pdd</link>
+    <guid>https://dev.to/earlgreyhot1701d/fable-5-hype-fangirling-with-datasets-to-build-a-lakers-dashboard-3pdd</guid>
+    <pubDate>Mon, 06 Jul 2026 04:05:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most of the container incidents I&apos;ve helped clean up didn&apos;t come from anything exotic. They came from small shortcuts that felt reasonable on a Tuesday and turned into a bad Friday. A latest tag...</description>
+    <description>This is the story of a for-fun project, Luka Fit Index that started with me typing &quot;ai for fun? picture this&quot; at Claude Fable 5, Anthropic&apos;s new model, the one all the launch hype has been about....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What Is a Docker Image, Really? Layers, Caching, and Size</title>
-    <link>https://dev.to/jjoyneriv/what-is-a-docker-image-really-layers-caching-and-size-3cca</link>
-    <guid>https://dev.to/jjoyneriv/what-is-a-docker-image-really-layers-caching-and-size-3cca</guid>
-    <pubDate>Sun, 05 Jul 2026 21:04:44 +0000</pubDate>
+    <title>[Rust Guide] 13.7. Using Closures to Capture the Environment With Iterators</title>
+    <link>https://dev.to/someb1oody/rust-guide-137-using-closures-to-capture-the-environment-with-iterators-1ia9</link>
+    <guid>https://dev.to/someb1oody/rust-guide-137-using-closures-to-capture-the-environment-with-iterators-1ia9</guid>
+    <pubDate>Mon, 06 Jul 2026 04:01:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most people learn Docker by copying a Dockerfile that works, shipping it, and moving on. That&apos;s fine until the day a build that used to take twenty seconds suddenly takes four minutes, or an image...</description>
+    <description>13.7.0 Before We Begin During its design, Rust drew inspiration from many languages, and functional programming had a particularly strong influence on Rust. Functional programming often includes...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Your Docker Images Are Huge (and How I Slim Them Down)</title>
-    <link>https://dev.to/jjoyneriv/why-your-docker-images-are-huge-and-how-i-slim-them-down-8oa</link>
-    <guid>https://dev.to/jjoyneriv/why-your-docker-images-are-huge-and-how-i-slim-them-down-8oa</guid>
-    <pubDate>Sun, 05 Jul 2026 21:04:40 +0000</pubDate>
+    <title>🤖 How I Used AI to Build and Deploy My First Website — 6 Exact Prompts That Worked</title>
+    <link>https://dev.to/_b70278078078f44982f07/how-i-used-ai-to-build-and-deploy-my-first-website-6-exact-prompts-that-worked-1mcn</link>
+    <guid>https://dev.to/_b70278078078f44982f07/how-i-used-ai-to-build-and-deploy-my-first-website-6-exact-prompts-that-worked-1mcn</guid>
+    <pubDate>Mon, 06 Jul 2026 03:53:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A 1.2 GB image for a service that&apos;s a few megabytes of compiled code is one of those things everyone accepts until someone actually looks at it. Slow pulls, slow deploys, a bigger attack surface,...</description>
+    <description>Honest confession: when I first tried to deploy a website, I had no idea what I was doing. I&apos;d watch a tutorial, copy some commands, something would break, and I&apos;d spend two hours Googling error...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Docker CLI Commands I Actually Use Every Day</title>
-    <link>https://dev.to/jjoyneriv/the-docker-cli-commands-i-actually-use-every-day-58i3</link>
-    <guid>https://dev.to/jjoyneriv/the-docker-cli-commands-i-actually-use-every-day-58i3</guid>
-    <pubDate>Sun, 05 Jul 2026 21:04:37 +0000</pubDate>
+    <title>I&apos;ve Been Trying to Write AI Video Prompts for Months. They All Sucked Until I Found a Formula.</title>
+    <link>https://dev.to/zackzhang/ive-been-trying-to-write-ai-video-prompts-for-months-they-all-sucked-until-i-found-a-formula-4c54</link>
+    <guid>https://dev.to/zackzhang/ive-been-trying-to-write-ai-video-prompts-for-months-they-all-sucked-until-i-found-a-formula-4c54</guid>
+    <pubDate>Mon, 06 Jul 2026 03:50:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve watched a lot of engineers reach for a GUI or a fresh Google search every time they need to do something with Docker. Nothing wrong with that, but after enough years you notice that the...</description>
+    <description>The Problem Nobody Talks About Everyone&apos;s posting AI-generated videos — characters speaking with lip-sync, manga panels coming alive, virtual idols dancing. The pitch: &quot;just describe what you...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Bot Awakens: Building Your First Crypto Trading Automation</title>
-    <link>https://dev.to/timevolt/the-bot-awakens-building-your-first-crypto-trading-automation-11ml</link>
-    <guid>https://dev.to/timevolt/the-bot-awakens-building-your-first-crypto-trading-automation-11ml</guid>
-    <pubDate>Sun, 05 Jul 2026 21:00:02 +0000</pubDate>
+    <title>Build vs. Buy in 2026: Why 35% of Enterprises Are Replacing SaaS With Custom Software</title>
+    <link>https://dev.to/arthicksdev/build-vs-buy-in-2026-why-35-of-enterprises-are-replacing-saas-with-custom-software-pk6</link>
+    <guid>https://dev.to/arthicksdev/build-vs-buy-in-2026-why-35-of-enterprises-are-replacing-saas-with-custom-software-pk6</guid>
+    <pubDate>Mon, 06 Jul 2026 03:50:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Quest Begins (The &quot;Why&quot;) Honestly, I was tired of staring at candlestick charts while my coffee went cold. I’d spend hours trying to spot a breakout, only to miss the move by a few seconds...</description>
+    <description>Originally published at viviscape.com Thirty-five percent of enterprise teams have already replaced at least one SaaS tool with custom-built software. Seventy-eight percent plan to build more in...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🤗 Kernels: Major Updates</title>
+    <link>https://huggingface.co/blog/revamped-kernels</link>
+    <guid>https://huggingface.co/blog/revamped-kernels</guid>
+    <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Some of the nation’s rich are letting AI teach their kids</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep</guid>
+    <pubDate>Sun, 05 Jul 2026 22:30:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Most Americans don&apos;t trust AI. It&apos;s proven that it doesn&apos;t know what safe toppings for pizza are. People don&apos;t even want to listen to AI music. But none of that matters for some of America&apos;s...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Mr. Lif’s Emergency Rations EP is post-9/11 hip hop at its most daring</title>
@@ -215,15 +232,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Matic’s robot vacuum is getting a $250 price hike in September</title>
-    <link>https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy</link>
-    <guid>https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy</guid>
-    <pubDate>Sat, 04 Jul 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Matic is our favorite robot vacuum by a pretty comfortable margin. If you’ve been thinking about buying one, you may want to plan on doing it sooner than later. The company will raise its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>What is Mistral AI? Everything to know about the OpenAI competitor</title>
     <link>https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/</link>
     <guid>https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/</guid>
@@ -266,15 +274,6 @@
     <pubDate>Fri, 03 Jul 2026 20:19:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>New &quot;Bad Epoll&quot; Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android</title>
-    <link>https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html</link>
-    <guid>https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html</guid>
-    <pubDate>Fri, 03 Jul 2026 19:40:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and...</description>
     <category>Security</category>
   </item>
 </channel>
