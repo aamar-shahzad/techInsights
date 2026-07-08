@@ -5,61 +5,151 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 08 Jul 2026 06:38:30 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 10:30:13 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Build an AI dubbing pipeline: faster-whisper + XTTS-v2 + FFmpeg</title>
-    <link>https://dev.to/masonwritescode/build-an-ai-dubbing-pipeline-faster-whisper-xtts-v2-ffmpeg-114h</link>
-    <guid>https://dev.to/masonwritescode/build-an-ai-dubbing-pipeline-faster-whisper-xtts-v2-ffmpeg-114h</guid>
-    <pubDate>Wed, 08 Jul 2026 06:29:58 +0000</pubDate>
+    <title>Stop Writing Prompts. Start Writing Loops.</title>
+    <link>https://dev.to/mininglamp/stop-writing-prompts-start-writing-loops-416o</link>
+    <guid>https://dev.to/mininglamp/stop-writing-prompts-start-writing-loops-416o</guid>
+    <pubDate>Wed, 08 Jul 2026 10:15:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR We&apos;re building a script that takes a video in English and produces the same video narrated in Spanish, in a cloned version of the original speaker&apos;s voice. Stack: faster-whisper for...</description>
+    <description>For over a year now most people have used LLMs the same way. Write a prompt, send it, get a response. If it is not good enough tweak the prompt and try again. If it works copy the result and move...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Probing FFmpeg&apos;s av1_vulkan encoder: does your GPU actually support it?</title>
-    <link>https://dev.to/masonwritescode/probing-ffmpegs-av1vulkan-encoder-does-your-gpu-actually-support-it-2h07</link>
-    <guid>https://dev.to/masonwritescode/probing-ffmpegs-av1vulkan-encoder-does-your-gpu-actually-support-it-2h07</guid>
-    <pubDate>Wed, 08 Jul 2026 06:29:44 +0000</pubDate>
+    <title>Why MCP Is Becoming the Standard Layer for AI Integrations (And Why Your Team Will Eventually Use It)</title>
+    <link>https://dev.to/damir-karimov/why-mcp-is-becoming-the-standard-layer-for-ai-integrations-and-why-your-team-will-eventually-use-2pn7</link>
+    <guid>https://dev.to/damir-karimov/why-mcp-is-becoming-the-standard-layer-for-ai-integrations-and-why-your-team-will-eventually-use-2pn7</guid>
+    <pubDate>Wed, 08 Jul 2026 10:13:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR FFmpeg 8.x includes av1_vulkan, the first cross-vendor GPU AV1 encoder in mainline FFmpeg. We&apos;ll probe whether your GPU + driver actually expose AV1 encode, run a first working encode,...</description>
+    <description>AI doesn&apos;t need another model. It needs a sane, reusable way to connect models to the real world: tools, data, APIs, and workflows. That&apos;s exactly the problem the Model Context Protocol (MCP) is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Ship a &apos;Go Live&apos; button: OBS in, LL-HLS out, webhooks in between</title>
-    <link>https://dev.to/masonwritescode/ship-a-go-live-button-obs-in-ll-hls-out-webhooks-in-between-7dn</link>
-    <guid>https://dev.to/masonwritescode/ship-a-go-live-button-obs-in-ll-hls-out-webhooks-in-between-7dn</guid>
-    <pubDate>Wed, 08 Jul 2026 06:29:34 +0000</pubDate>
+    <title>When Cloud Agent Platforms Pull the Plug, Local Deployment Is the Only Foundation</title>
+    <link>https://dev.to/mininglamp/when-cloud-agent-platforms-pull-the-plug-local-deployment-is-the-only-foundation-3bjj</link>
+    <guid>https://dev.to/mininglamp/when-cloud-agent-platforms-pull-the-plug-local-deployment-is-the-only-foundation-3bjj</guid>
+    <pubDate>Wed, 08 Jul 2026 10:13:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR We&apos;re adding live streaming to a SaaS dashboard: a backend endpoint that creates a stream, OBS as the broadcaster over RTMPS, LL-HLS playback with hls.js, and a webhook handler that keeps...</description>
+    <description>Two of China&apos;s largest AI model platforms, Doubao and Qwen, both tightened restrictions on custom agents last week. A batch of third-party agents were delisted or had their distribution throttled,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Prevent Duplicate API Processing with Idempotency in MuleSoft</title>
-    <link>https://dev.to/prowesssoft/how-to-prevent-duplicate-api-processing-with-idempotency-in-mulesoft-51h</link>
-    <guid>https://dev.to/prowesssoft/how-to-prevent-duplicate-api-processing-with-idempotency-in-mulesoft-51h</guid>
-    <pubDate>Wed, 08 Jul 2026 06:29:19 +0000</pubDate>
+    <title>AI-Run Ransomware: The Autopilot Was Impressive, the Pilot Still Booked the Flight</title>
+    <link>https://dev.to/coridev/ai-run-ransomware-the-autopilot-was-impressive-the-pilot-still-booked-the-flight-348</link>
+    <guid>https://dev.to/coridev/ai-run-ransomware-the-autopilot-was-impressive-the-pilot-still-booked-the-flight-348</guid>
+    <pubDate>Wed, 08 Jul 2026 10:10:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Duplicate processing is one of those integration problems that looks small in development but becomes painful in production. A client retries an API call because the response timed out. A queue...</description>
+    <description>The story matters, but maybe not for the reason the headline wants you to think &quot;First AI-run ransomware attack&quot; is a hell of a sentence to put in a headline, and it&apos;s already doing the rounds...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Never Deploy Django Without These 6 Things</title>
-    <link>https://dev.to/wambui_cecilia_685a751722/never-deploy-django-without-these-6-things-1hg0</link>
-    <guid>https://dev.to/wambui_cecilia_685a751722/never-deploy-django-without-these-6-things-1hg0</guid>
-    <pubDate>Wed, 08 Jul 2026 06:28:12 +0000</pubDate>
+    <title>I built a screen recorder that turns raw captures into finished video stories — no install, no backend</title>
+    <link>https://dev.to/rtulunay/i-built-a-screen-recorder-that-turns-raw-captures-into-finished-video-stories-no-install-no-3921</link>
+    <guid>https://dev.to/rtulunay/i-built-a-screen-recorder-that-turns-raw-captures-into-finished-video-stories-no-install-no-3921</guid>
+    <pubDate>Wed, 08 Jul 2026 10:06:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Deploying a Django app feels great, until something breaks in production. Everything may work locally, but once you deploy, you might run into missing styles, database errors, or an app that won’t...</description>
+    <description>I built a screen recorder that turns raw captures into finished video stories — no install, no backend Every product demo I recorded looked the same: a raw screen capture, no cursor highlights, no...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Economics of Local LLMs: Why Practical Models Win in African Tech</title>
-    <link>https://dev.to/nahamaalochi/the-economics-of-local-llms-why-practical-models-win-in-african-tech-12hf</link>
-    <guid>https://dev.to/nahamaalochi/the-economics-of-local-llms-why-practical-models-win-in-african-tech-12hf</guid>
-    <pubDate>Wed, 08 Jul 2026 06:24:36 +0000</pubDate>
+    <title>99.9% Uptime: How Much Downtime Is That, Really? (Plus Combined SLA)</title>
+    <link>https://dev.to/skojiocommunity/999-uptime-how-much-downtime-is-that-really-plus-combined-sla-3i42</link>
+    <guid>https://dev.to/skojiocommunity/999-uptime-how-much-downtime-is-that-really-plus-combined-sla-3i42</guid>
+    <pubDate>Wed, 08 Jul 2026 10:05:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One thing I deeply appreciate about Gemma is that Google appears to understand a reality many AI companies conveniently ignore: most developers are not sitting on clusters of H100s. Most of us are...</description>
+    <description>&quot;99.9% uptime&quot; sounds like a small, almost meaningless gap from perfect. In practice it&apos;s the difference between an outage nobody notices and one that ends up in a postmortem. Whether you&apos;re...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Generate TypeScript Types from JSON (Without Getting Optional Fields Wrong)</title>
+    <link>https://dev.to/skojiocommunity/how-to-generate-typescript-types-from-json-without-getting-optional-fields-wrong-4nk0</link>
+    <guid>https://dev.to/skojiocommunity/how-to-generate-typescript-types-from-json-without-getting-optional-fields-wrong-4nk0</guid>
+    <pubDate>Wed, 08 Jul 2026 10:05:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve ever pasted a single JSON object into a &quot;json to typescript&quot; tool and gotten back a clean interface, only to have your API return a slightly different shape the next day and blow up your...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>HTTP client as a first-class citizen: zero deps, bit-for-bit parity, async by default</title>
+    <link>https://dev.to/martin_palopoli/http-client-as-a-first-class-citizen-zero-deps-bit-for-bit-parity-async-by-default-3bib</link>
+    <guid>https://dev.to/martin_palopoli/http-client-as-a-first-class-citizen-zero-deps-bit-for-bit-parity-async-by-default-3bib</guid>
+    <pubDate>Wed, 08 Jul 2026 10:05:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Webhooks, scraping, health checks, proxying. Every language solves outbound HTTP with an external library. In Fitz, http.get/post/put/delete/head/request are language builtins. Async from day one....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>HTTP client outbound como ciudadano de primera clase: cero deps, paridad bit-a-bit, async natural</title>
+    <link>https://dev.to/martin_palopoli/http-client-outbound-como-ciudadano-de-primera-clase-cero-deps-paridad-bit-a-bit-async-natural-29j8</link>
+    <guid>https://dev.to/martin_palopoli/http-client-outbound-como-ciudadano-de-primera-clase-cero-deps-paridad-bit-a-bit-async-natural-29j8</guid>
+    <pubDate>Wed, 08 Jul 2026 10:04:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Webhooks, scraping, health checks, proxying. Cada lenguaje resuelve HTTP client outbound con una librería externa. En Fitz, http.get/post/put/delete/head/request son builtins del lenguaje. Async...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Client Off‑Boarding Blueprint: End Bad Projects Gracefully</title>
+    <link>https://dev.to/futuresense_ai_2fb2d9ae14/client-off-boarding-blueprint-end-bad-projects-gracefully-nb5</link>
+    <guid>https://dev.to/futuresense_ai_2fb2d9ae14/client-off-boarding-blueprint-end-bad-projects-gracefully-nb5</guid>
+    <pubDate>Wed, 08 Jul 2026 10:01:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Client Off‑Boarding Blueprint: End Bad Projects Gracefully 1. The myth you’re probably living by – “just disappear and hope they don’t notice” When I started out, my biggest fear was the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster</title>
+    <link>https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/</link>
+    <guid>https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/</guid>
+    <pubDate>Wed, 08 Jul 2026 09:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Verity Harding tells WIRED that the US government’s nationalistic attitude toward AI is evidence that a worst-case scenario is taking shape.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware</title>
+    <link>https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html</link>
+    <guid>https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html</guid>
+    <pubDate>Wed, 08 Jul 2026 09:04:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices. According...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Samsung will launch its new wide foldable on July 22nd</title>
+    <link>https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july</link>
+    <guid>https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july</guid>
+    <pubDate>Wed, 08 Jul 2026 08:13:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Samsung has announced that its next Galaxy Unpacked launch event will be held on July 22nd, with the tagline: &quot;A new shape unfolds.&quot; It&apos;s long been rumored that Samsung is about to expand its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Hot French startup ZML releases free product to speed inference across lots of AI chips</title>
+    <link>https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/</link>
+    <guid>https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/</guid>
+    <pubDate>Wed, 08 Jul 2026 08:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round</title>
+    <link>https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/</link>
+    <guid>https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/</guid>
+    <pubDate>Wed, 08 Jul 2026 07:16:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Hackers can use 9 of the most popular AI tools to assemble massive botnets</title>
+    <link>https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/</link>
+    <guid>https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/</guid>
+    <pubDate>Wed, 08 Jul 2026 07:00:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>&quot;HalluSquatting&quot; weaponizes LLMs&apos; inability to say &quot;I don&apos;t know.&quot;</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros</title>
@@ -69,42 +159,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Bootstrapped Data Products — Here&apos;s What I Learned</title>
-    <link>https://dev.to/hexsyro/bootstrapped-data-products-heres-what-i-learned-2one</link>
-    <guid>https://dev.to/hexsyro/bootstrapped-data-products-heres-what-i-learned-2one</guid>
-    <pubDate>Wed, 08 Jul 2026 06:16:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m Heshan. I build data products. No VC, no team — just me, a lot of Playwright scripts, and PostgreSQL. Two years ago I couldn&apos;t build anything that worked. Today I run three production data...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What should a modern Go dependency injection framework look like?</title>
-    <link>https://dev.to/shanjunmei/what-should-a-modern-go-dependency-injection-framework-look-like-fg7</link>
-    <guid>https://dev.to/shanjunmei/what-should-a-modern-go-dependency-injection-framework-look-like-fg7</guid>
-    <pubDate>Wed, 08 Jul 2026 06:11:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Go DI has always been a trade-off. Runtime DI frameworks provide a convenient API, but they rely on reflection and discover dependency problems during application startup. Compile-time DI...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Digital Logic Design : Nobody teaches you this!</title>
-    <link>https://dev.to/xaynsaeed/digital-logic-design-nobody-teaches-you-this-4gp6</link>
-    <guid>https://dev.to/xaynsaeed/digital-logic-design-nobody-teaches-you-this-4gp6</guid>
-    <pubDate>Wed, 08 Jul 2026 06:10:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>So I am an Electrical Engineering Student!I was looking for the blogs or GitHub repo&apos;s for months to help me understand some beginner level concepts in DLD but not able to find any one of that so...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Every Developer Works with JSON. Here Are the Tools I Use the Most.</title>
-    <link>https://dev.to/janardan_joshi_6f21026e06/every-developer-works-with-json-here-are-the-tools-i-use-the-most-50p3</link>
-    <guid>https://dev.to/janardan_joshi_6f21026e06/every-developer-works-with-json-here-are-the-tools-i-use-the-most-50p3</guid>
-    <pubDate>Wed, 08 Jul 2026 06:10:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you’re building APIs, web apps, or mobile apps, you’re probably staring at JSON every single day. Some days you’re just trying to validate a massive API response. Other days, you’re playing...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV</title>
@@ -221,60 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Nikita Bier, X&apos;s head of product, said in a post on Monday that &quot;[m]any videos from top accounts are simply stolen from other users, sometimes 5 years after they originally went viral,&quot; while...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The ‘G-Wagen of golf carts’ could be the ideal second car</title>
-    <link>https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs</link>
-    <guid>https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs</guid>
-    <pubDate>Tue, 07 Jul 2026 17:52:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>While the auto industry wrings its hands over the electric vehicle market, sweating details like aerodynamic efficiency and range anxiety, a new EV startup based in Lisbon, Portugal, is zagging in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ABC tells the government to get out of its newsrooms</title>
-    <link>https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech</link>
-    <guid>https://www.theverge.com/policy/962342/abc-fcc-the-view-free-speech</guid>
-    <pubDate>Tue, 07 Jul 2026 17:47:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>ABC is firing back at the Federal Communications Commission after the agency opened an investigation into The View&apos;s airtime of political candidates. In a letter to the FCC on Tuesday, ABC argues...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic is launching Claude Cowork on mobile and web</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web</guid>
-    <pubDate>Tue, 07 Jul 2026 17:46:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Starting Tuesday, Anthropic&apos;s Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google announces Pixel 11 launch event in August</title>
-    <link>https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event</link>
-    <guid>https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event</guid>
-    <pubDate>Tue, 07 Jul 2026 17:22:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google is hosting its next Made by Google launch event for Pixel hardware on August 12th in New York City, according to an invitation sent by Google to The Verge. Unusually, the event is taking...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service</title>
-    <link>https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html</link>
-    <guid>https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html</guid>
-    <pubDate>Tue, 07 Jul 2026 17:10:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim&apos;s phone, steal their banking...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots</title>
-    <link>https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html</link>
-    <guid>https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html</guid>
-    <pubDate>Tue, 07 Jul 2026 16:37:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A critical flaw in Google&apos;s Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project....</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
