@@ -5,8 +5,152 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 07 Jul 2026 21:40:43 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 06:38:30 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Build an AI dubbing pipeline: faster-whisper + XTTS-v2 + FFmpeg</title>
+    <link>https://dev.to/masonwritescode/build-an-ai-dubbing-pipeline-faster-whisper-xtts-v2-ffmpeg-114h</link>
+    <guid>https://dev.to/masonwritescode/build-an-ai-dubbing-pipeline-faster-whisper-xtts-v2-ffmpeg-114h</guid>
+    <pubDate>Wed, 08 Jul 2026 06:29:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR We&apos;re building a script that takes a video in English and produces the same video narrated in Spanish, in a cloned version of the original speaker&apos;s voice. Stack: faster-whisper for...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Probing FFmpeg&apos;s av1_vulkan encoder: does your GPU actually support it?</title>
+    <link>https://dev.to/masonwritescode/probing-ffmpegs-av1vulkan-encoder-does-your-gpu-actually-support-it-2h07</link>
+    <guid>https://dev.to/masonwritescode/probing-ffmpegs-av1vulkan-encoder-does-your-gpu-actually-support-it-2h07</guid>
+    <pubDate>Wed, 08 Jul 2026 06:29:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR FFmpeg 8.x includes av1_vulkan, the first cross-vendor GPU AV1 encoder in mainline FFmpeg. We&apos;ll probe whether your GPU + driver actually expose AV1 encode, run a first working encode,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Ship a &apos;Go Live&apos; button: OBS in, LL-HLS out, webhooks in between</title>
+    <link>https://dev.to/masonwritescode/ship-a-go-live-button-obs-in-ll-hls-out-webhooks-in-between-7dn</link>
+    <guid>https://dev.to/masonwritescode/ship-a-go-live-button-obs-in-ll-hls-out-webhooks-in-between-7dn</guid>
+    <pubDate>Wed, 08 Jul 2026 06:29:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR We&apos;re adding live streaming to a SaaS dashboard: a backend endpoint that creates a stream, OBS as the broadcaster over RTMPS, LL-HLS playback with hls.js, and a webhook handler that keeps...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Prevent Duplicate API Processing with Idempotency in MuleSoft</title>
+    <link>https://dev.to/prowesssoft/how-to-prevent-duplicate-api-processing-with-idempotency-in-mulesoft-51h</link>
+    <guid>https://dev.to/prowesssoft/how-to-prevent-duplicate-api-processing-with-idempotency-in-mulesoft-51h</guid>
+    <pubDate>Wed, 08 Jul 2026 06:29:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Duplicate processing is one of those integration problems that looks small in development but becomes painful in production. A client retries an API call because the response timed out. A queue...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Never Deploy Django Without These 6 Things</title>
+    <link>https://dev.to/wambui_cecilia_685a751722/never-deploy-django-without-these-6-things-1hg0</link>
+    <guid>https://dev.to/wambui_cecilia_685a751722/never-deploy-django-without-these-6-things-1hg0</guid>
+    <pubDate>Wed, 08 Jul 2026 06:28:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Deploying a Django app feels great, until something breaks in production. Everything may work locally, but once you deploy, you might run into missing styles, database errors, or an app that won’t...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Economics of Local LLMs: Why Practical Models Win in African Tech</title>
+    <link>https://dev.to/nahamaalochi/the-economics-of-local-llms-why-practical-models-win-in-african-tech-12hf</link>
+    <guid>https://dev.to/nahamaalochi/the-economics-of-local-llms-why-practical-models-win-in-african-tech-12hf</guid>
+    <pubDate>Wed, 08 Jul 2026 06:24:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>One thing I deeply appreciate about Gemma is that Google appears to understand a reality many AI companies conveniently ignore: most developers are not sitting on clusters of H100s. Most of us are...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros</title>
+    <link>https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html</link>
+    <guid>https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html</guid>
+    <pubDate>Wed, 08 Jul 2026 06:16:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Bootstrapped Data Products — Here&apos;s What I Learned</title>
+    <link>https://dev.to/hexsyro/bootstrapped-data-products-heres-what-i-learned-2one</link>
+    <guid>https://dev.to/hexsyro/bootstrapped-data-products-heres-what-i-learned-2one</guid>
+    <pubDate>Wed, 08 Jul 2026 06:16:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m Heshan. I build data products. No VC, no team — just me, a lot of Playwright scripts, and PostgreSQL. Two years ago I couldn&apos;t build anything that worked. Today I run three production data...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>What should a modern Go dependency injection framework look like?</title>
+    <link>https://dev.to/shanjunmei/what-should-a-modern-go-dependency-injection-framework-look-like-fg7</link>
+    <guid>https://dev.to/shanjunmei/what-should-a-modern-go-dependency-injection-framework-look-like-fg7</guid>
+    <pubDate>Wed, 08 Jul 2026 06:11:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Go DI has always been a trade-off. Runtime DI frameworks provide a convenient API, but they rely on reflection and discover dependency problems during application startup. Compile-time DI...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Digital Logic Design : Nobody teaches you this!</title>
+    <link>https://dev.to/xaynsaeed/digital-logic-design-nobody-teaches-you-this-4gp6</link>
+    <guid>https://dev.to/xaynsaeed/digital-logic-design-nobody-teaches-you-this-4gp6</guid>
+    <pubDate>Wed, 08 Jul 2026 06:10:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>So I am an Electrical Engineering Student!I was looking for the blogs or GitHub repo&apos;s for months to help me understand some beginner level concepts in DLD but not able to find any one of that so...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Every Developer Works with JSON. Here Are the Tools I Use the Most.</title>
+    <link>https://dev.to/janardan_joshi_6f21026e06/every-developer-works-with-json-here-are-the-tools-i-use-the-most-50p3</link>
+    <guid>https://dev.to/janardan_joshi_6f21026e06/every-developer-works-with-json-here-are-the-tools-i-use-the-most-50p3</guid>
+    <pubDate>Wed, 08 Jul 2026 06:10:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you’re building APIs, web apps, or mobile apps, you’re probably staring at JSON every single day. Some days you’re just trying to validate a massive API response. Other days, you’re playing...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV</title>
+    <link>https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html</link>
+    <guid>https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html</guid>
+    <pubDate>Wed, 08 Jul 2026 05:33:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Meta’s glasses will turn off the camera if you tamper with the privacy light</title>
+    <link>https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update</link>
+    <guid>https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update</guid>
+    <pubDate>Tue, 07 Jul 2026 23:55:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amid public backlash over its smart glasses, Meta announced that it will be updating its glasses with a new feature that will disable the camera when it detects that someone has tampered with or...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos</title>
+    <link>https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/</link>
+    <guid>https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:18:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out</title>
+    <link>https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/</link>
+    <guid>https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:59:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>As part of Meta’s Muse Image model rollout, Instagram users with public accounts need to opt out to block AI generations of their content.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Of course viewers are giving up on Netflix shows</title>
+    <link>https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok</link>
+    <guid>https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok</guid>
+    <pubDate>Tue, 07 Jul 2026 21:58:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Even though Netflix is the world&apos;s most popular paid streaming service, the company has been struggling to keep viewers watching its series after their first seasons. Beef - the streamer&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
   <item>
     <title>Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers</title>
     <link>https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming</link>
@@ -15,24 +159,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Starting on August 3rd, Netflix&apos;s streaming library will include video content from dozens of digital media brands including BuzzFeed, Condé Nast, Hearst Magazines, People Inc, and Tastemade. As...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Deploying Matomo Analytics - An Open-Source Google Analytics Alternative</title>
-    <link>https://dev.to/vultr/deploying-matomo-analytics-an-open-source-google-analytics-alternative-3noa</link>
-    <guid>https://dev.to/vultr/deploying-matomo-analytics-an-open-source-google-analytics-alternative-3noa</guid>
-    <pubDate>Tue, 07 Jul 2026 21:35:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Matomo is an open-source web analytics platform that keeps full ownership of visitor data on infrastructure you control, a privacy-first alternative to Google Analytics. This guide deploys Matomo...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Vector Strike: Semantic Search Database Defender</title>
-    <link>https://dev.to/unitbuilds_cc/vector-strike-semantic-search-database-defender-4i87</link>
-    <guid>https://dev.to/unitbuilds_cc/vector-strike-semantic-search-database-defender-4i87</guid>
-    <pubDate>Tue, 07 Jul 2026 21:31:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Have you ever wondered how vector databases like Pinecone, Milvus, Qdrant, or pgvector search through billions of high-dimensional documents in milliseconds? Under the hood, they map semantic...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>OpenAI’s Chief Futurist Is Leaving the Company</title>
@@ -44,84 +170,12 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Aesecnryption demo site</title>
-    <link>https://dev.to/alabaone/aesecnryption-demo-site-3noi</link>
-    <guid>https://dev.to/alabaone/aesecnryption-demo-site-3noi</guid>
-    <pubDate>Tue, 07 Jul 2026 21:29:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I rebuilt aesencryption.net so text AES (128/192/256) runs fully in the browser - the key and plaintext never leave the page. The hard part is staying byte-compatible with common server-side AES...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Deploying Plausible Analytics - Self-Hosted Web Analytics Platform</title>
-    <link>https://dev.to/vultr/deploying-plausible-analytics-self-hosted-web-analytics-platform-48he</link>
-    <guid>https://dev.to/vultr/deploying-plausible-analytics-self-hosted-web-analytics-platform-48he</guid>
-    <pubDate>Tue, 07 Jul 2026 21:29:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Plausible Analytics is an open-source, self-hosted web analytics tool that tracks traffic without cookies or personal data collection, a privacy-first alternative to Google Analytics. This guide...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>[Boost]</title>
-    <link>https://dev.to/theycallmeswift/-49m1</link>
-    <guid>https://dev.to/theycallmeswift/-49m1</guid>
-    <pubDate>Tue, 07 Jul 2026 21:20:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Log Is the Agent AI Engineer World&apos;s Fair Coverage Ishaan Sehgal Ishaan Sehgal Ishaan Sehgal Follow for Daily Context Jun 30 The Log Is the Agent #aie #agents #ai 48 reactions 89 comments 5...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>From vexctl scripts to a governed VEX platform: building vex-ui with Next.js, keyless signing, and a Trivy-consumable repo</title>
-    <link>https://dev.to/darkedges/from-vexctl-scripts-to-a-governed-vex-platform-building-vex-ui-with-nextjs-keyless-signing-and-1jkm</link>
-    <guid>https://dev.to/darkedges/from-vexctl-scripts-to-a-governed-vex-platform-building-vex-ui-with-nextjs-keyless-signing-and-1jkm</guid>
-    <pubDate>Tue, 07 Jul 2026 21:17:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>un Trivy against almost any vendor container image and you&apos;ll get a wall of findings. Most of them don&apos;t matter, the vulnerable code path is never executed in your deployment. The problem is that...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>From Hugging Face to Amazon SageMaker Studio in one click</title>
     <link>https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio</link>
     <guid>https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio</guid>
     <pubDate>Tue, 07 Jul 2026 21:15:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Ethernet Was Invented in 1973 at Xerox PARC</title>
-    <link>https://dev.to/fluidwire/ethernet-was-invented-in-1973-at-xerox-parc-4gja</link>
-    <guid>https://dev.to/fluidwire/ethernet-was-invented-in-1973-at-xerox-parc-4gja</guid>
-    <pubDate>Tue, 07 Jul 2026 21:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every office network, every data center, and a surprising amount of factory-floor automation still runs on a technology that was sketched out in a memo more than fifty years ago. Ethernet was...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Deploying Dokploy - Self-Hosted PaaS for Docker Applications on Ubuntu 24.04</title>
-    <link>https://dev.to/vultr/deploying-dokploy-self-hosted-paas-for-docker-applications-on-ubuntu-2404-27eg</link>
-    <guid>https://dev.to/vultr/deploying-dokploy-self-hosted-paas-for-docker-applications-on-ubuntu-2404-27eg</guid>
-    <pubDate>Tue, 07 Jul 2026 21:12:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Dokploy is an open-source, self-hosted PaaS, a free alternative to Heroku, Vercel, and Netlify, that deploys apps from Git, manages databases, and routes traffic with Traefik&apos;s automatic HTTPS....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Do you test your AI agents for prompt injection? (honest answers only)</title>
-    <link>https://dev.to/bursani/do-you-test-your-ai-agents-for-prompt-injection-honest-answers-only-2n7a</link>
-    <guid>https://dev.to/bursani/do-you-test-your-ai-agents-for-prompt-injection-honest-answers-only-2n7a</guid>
-    <pubDate>Tue, 07 Jul 2026 21:10:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been building security tools for AI agents and I have a genuine question for this community. When you ship an AI powered feature a chatbot, an agent, anything that takes user input and passes...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Deploying Ngrok Ingress Controller on Kubernetes</title>
-    <link>https://dev.to/vultr/deploying-ngrok-ingress-controller-on-kubernetes-j70</link>
-    <guid>https://dev.to/vultr/deploying-ngrok-ingress-controller-on-kubernetes-j70</guid>
-    <pubDate>Tue, 07 Jul 2026 21:09:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ngrok is a distributed reverse proxy that exposes applications to the internet via a masked external domain, without touching internal networking. The Ngrok Ingress Controller brings that model to...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Meta’s new Muse Image model can pull other Instagram users into AI photos</title>
@@ -221,59 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>A critical flaw in Google&apos;s Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project....</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Claude Cowork expands to mobile and web</title>
-    <link>https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/</link>
-    <guid>https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/</guid>
-    <pubDate>Tue, 07 Jul 2026 16:27:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Doom developer id reportedly cut in half as part of Xbox layoffs</title>
-    <link>https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs</link>
-    <guid>https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs</guid>
-    <pubDate>Tue, 07 Jul 2026 16:09:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>As part of the mass layoffs hitting Xbox, Doom developer id Software has laid off around 50 percent of its staff, according to Game Developer. One source claimed to the publication that the cuts...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone</title>
-    <link>https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/</link>
-    <guid>https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/</guid>
-    <pubDate>Tue, 07 Jul 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Claude Cowork now keeps working on tasks even after you close your laptop. It’s part of a larger push toward smartphone-controlled agents.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Hugging Face Models on Foundry Managed Compute</title>
-    <link>https://huggingface.co/blog/microsoft/foundry-managed-compute</link>
-    <guid>https://huggingface.co/blog/microsoft/foundry-managed-compute</guid>
-    <pubDate>Tue, 07 Jul 2026 15:20:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts</title>
-    <link>https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html</link>
-    <guid>https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html</guid>
-    <pubDate>Tue, 07 Jul 2026 15:14:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Discord accidentally banned over 8,000 people for posting grids and other &amp;#8216;benign&amp;#8217; images</title>
-    <link>https://www.theverge.com/games/962156/discord-accidental-bans-grid-images</link>
-    <guid>https://www.theverge.com/games/962156/discord-accidental-bans-grid-images</guid>
-    <pubDate>Tue, 07 Jul 2026 15:02:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Discord says a bug affecting its safety system caused it to mistakenly ban more than 8,000 accounts since May. The platform&apos;s statement follows a wave of reports from users over the past week, who...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
