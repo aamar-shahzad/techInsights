@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 13:54:21 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:15:34 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Setting Up a Local AI Coding Agent with Ollama and Aider</title>
-    <link>https://dev.to/eleonorarocchi/setting-up-a-local-ai-coding-agent-with-ollama-and-aider-1jdi</link>
-    <guid>https://dev.to/eleonorarocchi/setting-up-a-local-ai-coding-agent-with-ollama-and-aider-1jdi</guid>
-    <pubDate>Sat, 11 Jul 2026 13:41:12 +0000</pubDate>
+    <title>jq in Shell Scripts: The Small Things That Trip You Up</title>
+    <link>https://dev.to/schiff_heimlich/jq-in-shell-scripts-the-small-things-that-trip-you-up-3hh2</link>
+    <guid>https://dev.to/schiff_heimlich/jq-in-shell-scripts-the-small-things-that-trip-you-up-3hh2</guid>
+    <pubDate>Sat, 11 Jul 2026 17:05:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Over the past few months, I&apos;ve experimented with several workflows for using LLMs in software development. In this article, I describe the local setup I&apos;ve validated on my own PC: Ollama running...</description>
+    <description>The Setup If you work with JSON APIs, configs, or log processing, you have probably used jq in a shell script. It is solid. But there are a few edge cases that trip people up regularly — things...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Taming the Python and VS Code Workspace Environment</title>
-    <link>https://dev.to/nextbigcreative/taming-the-python-and-vs-code-workspace-environment-23po</link>
-    <guid>https://dev.to/nextbigcreative/taming-the-python-and-vs-code-workspace-environment-23po</guid>
-    <pubDate>Sat, 11 Jul 2026 13:23:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Setup Blueprint Constructing a reliable Python pipeline in VS Code requires anchoring the system with isolated environments. After deploying the editor and core extensions, the workflow shifts...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title># I built 62 free browser tools in one website — no uploads, no sign-ups, works offline</title>
-    <link>https://dev.to/sophia_anjum_0509b2bb7049/-i-built-62-free-browser-tools-in-one-website-no-uploads-no-sign-ups-works-offline-3cia</link>
-    <guid>https://dev.to/sophia_anjum_0509b2bb7049/-i-built-62-free-browser-tools-in-one-website-no-uploads-no-sign-ups-works-offline-3cia</guid>
-    <pubDate>Sat, 11 Jul 2026 13:21:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I got tired of a routine most of us know too well: you need to merge two PDFs, or shrink an image, or make a QR code — so you Google it, land on some ad-covered site, and it asks you to upload...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Will your tracker still exist next year? Switching-cost anxiety, and the one-command exit</title>
-    <link>https://dev.to/radial/will-your-tracker-still-exist-next-year-switching-cost-anxiety-and-the-one-command-exit-1e5e</link>
-    <guid>https://dev.to/radial/will-your-tracker-still-exist-next-year-switching-cost-anxiety-and-the-one-command-exit-1e5e</guid>
-    <pubDate>Sat, 11 Jul 2026 13:13:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You are not really deciding whether a tracker is good today. You are betting on whether it will still be the tracker you want a year from now, after the funding round, the acquisition, the pivot...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>[BLOG] Most AI brand names fail one boring test</title>
-    <link>https://dev.to/nat_rattanasak_d4c9fc56/blog-most-ai-brand-names-fail-one-boring-test-2nnl</link>
-    <guid>https://dev.to/nat_rattanasak_d4c9fc56/blog-most-ai-brand-names-fail-one-boring-test-2nnl</guid>
-    <pubDate>Sat, 11 Jul 2026 13:12:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most AI brand names fail one boring test Hook 187 domain checks. 4 rounds. 16% actually available. The other 84% were pretty names that will never be a business. Problem Founders spend three days...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Authorization Explained: What Really Happens Before Your Card Payment Is Approved?</title>
-    <link>https://dev.to/eunice-js/authorization-explained-what-really-happens-before-your-card-payment-is-approved-3po</link>
-    <guid>https://dev.to/eunice-js/authorization-explained-what-really-happens-before-your-card-payment-is-approved-3po</guid>
-    <pubDate>Sat, 11 Jul 2026 13:06:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A deep dive into the first stage of every card payment. Most of us have made a card payment and seen the familiar message: Transaction Successful The entire process takes only a few seconds. From...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What is SAML? A Complete Guide for API and Identity Engineers</title>
-    <link>https://dev.to/realnamehidden1_61/what-is-saml-a-complete-guide-for-api-and-identity-engineers-3hp1</link>
-    <guid>https://dev.to/realnamehidden1_61/what-is-saml-a-complete-guide-for-api-and-identity-engineers-3hp1</guid>
-    <pubDate>Sat, 11 Jul 2026 13:06:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction If you&apos;ve worked with enterprise APIs, you&apos;ve probably heard statements like: &quot;Our application uses SAML SSO.&quot; &quot;The Identity Provider will send a SAML Assertion.&quot; &quot;Configure SAML...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why UUIDs Belong in Every Developer&apos;s Toolbelt (Not Just Your Database)</title>
-    <link>https://dev.to/zhihu_wu_dea1d82af01a04d7/why-uuids-belong-in-every-developers-toolbelt-not-just-your-database-4jdd</link>
-    <guid>https://dev.to/zhihu_wu_dea1d82af01a04d7/why-uuids-belong-in-every-developers-toolbelt-not-just-your-database-4jdd</guid>
-    <pubDate>Sat, 11 Jul 2026 13:04:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most developers first encounter UUIDs when setting up database primary keys. But UUIDs solve problems far beyond the database — and once you start using them, you&apos;ll wonder why you ever reached...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Semantic/Hybrid Search in the Browser</title>
-    <link>https://bart.degoe.de/semantic-search-in-your-browser/</link>
-    <guid>https://bart.degoe.de/semantic-search-in-your-browser/</guid>
-    <pubDate>Sat, 11 Jul 2026 13:04:35 +0000</pubDate>
+    <title>Female US rower completes historic solo journey from California to Hawaii</title>
+    <link>https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</link>
+    <guid>https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey</guid>
+    <pubDate>Sat, 11 Jul 2026 17:03:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://bart.degoe.de/semantic-search-in-your-browser/ Comments URL: https://news.ycombinator.com/item?id=48871716 Points: 4 # Comments: 0</description>
+    <description>Article URL: https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey Comments URL: https://news.ycombinator.com/item?id=48873692 Points: 3 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Rust: a linguagem do futuro para blockchain — por André Dias Moreira Prol</title>
-    <link>https://dev.to/andr_diasmoreiraprol_b/rust-a-linguagem-do-futuro-para-blockchain-por-andre-dias-moreira-prol-3f6o</link>
-    <guid>https://dev.to/andr_diasmoreiraprol_b/rust-a-linguagem-do-futuro-para-blockchain-por-andre-dias-moreira-prol-3f6o</guid>
-    <pubDate>Sat, 11 Jul 2026 13:01:07 +0000</pubDate>
+    <title>SOLID</title>
+    <link>https://dev.to/victorlisbronzo/solid-3b5c</link>
+    <guid>https://dev.to/victorlisbronzo/solid-3b5c</guid>
+    <pubDate>Sat, 11 Jul 2026 17:02:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quando comecei a estudar Rust há alguns anos, confesso que estranhei sua curva de aprendizado. Hoje, depois de aplicá-la em projetos de tokenização na blockchain Stellar e em sistemas críticos de...</description>
+    <description>O QUE É O SOLID? Se você é dev e já navegou aqui na rede, provavelmente já viu dezenas de posts sobre o assunto... Então, sendo direto, SOLID é o conjunto de 5 princípios que ajudam na melhoria da...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Sixtyfour (YC P25) Is Hiring</title>
+    <link>https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</link>
+    <guid>https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success</guid>
+    <pubDate>Sat, 11 Jul 2026 17:00:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://www.ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success Comments URL: https://news.ycombinator.com/item?id=48873665 Points: 0 #...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>EL RELATOR - your life, narrated like a World Cup goal (in two languages)</title>
+    <link>https://dev.to/terrizoaguimor/el-relator-your-life-narrated-like-a-world-cup-goal-in-two-languages-9b9</link>
+    <guid>https://dev.to/terrizoaguimor/el-relator-your-life-narrated-like-a-world-cup-goal-in-two-languages-9b9</guid>
+    <pubDate>Sat, 11 Jul 2026 16:51:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This is a submission for Weekend Challenge: Passion Edition What I Built EL RELATOR takes any moment of your life — &quot;my test finally passed after three hours of debugging&quot;, &quot;I found parking on a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>oh-my-pi Just Shipped Custom Role Management in Model Hub</title>
+    <link>https://dev.to/terminalblog/oh-my-pi-just-shipped-custom-role-management-in-model-hub-44n3</link>
+    <guid>https://dev.to/terminalblog/oh-my-pi-just-shipped-custom-role-management-in-model-hub-44n3</guid>
+    <pubDate>Sat, 11 Jul 2026 16:46:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>oh-my-pi shipped 2 commits in this window, both by can1357, targeting two sharp pain points: role flexibility and session retrieval speed. What Changed Custom role management in Model Hub. You can...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Two Things Fintech Backends Get Wrong</title>
+    <link>https://dev.to/king_codex/two-things-fintech-backends-get-wrong-2e63</link>
+    <guid>https://dev.to/king_codex/two-things-fintech-backends-get-wrong-2e63</guid>
+    <pubDate>Sat, 11 Jul 2026 16:41:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most backend tutorials stop at &quot;hash the password, you&apos;re secure now.&quot; That&apos;s good advice for authentication. It&apos;s not much use for the rest of a payment system, where you&apos;re dealing with data you...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hermes Just Shipped Gateway Parent Runtime Session Scope</title>
+    <link>https://dev.to/terminalblog/hermes-just-shipped-gateway-parent-runtime-session-scope-1aml</link>
+    <guid>https://dev.to/terminalblog/hermes-just-shipped-gateway-parent-runtime-session-scope-1aml</guid>
+    <pubDate>Sat, 11 Jul 2026 16:41:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Hermes pushed 4 commits in this window, all focused on making the gateway and TUI more reliable in multi-session environments. The theme: session isolation and startup correctness. What Changed...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>OpenClaw Just Shipped Claude Session Fleet</title>
+    <link>https://dev.to/terminalblog/openclaw-just-shipped-claude-session-fleet-3736</link>
+    <guid>https://dev.to/terminalblog/openclaw-just-shipped-claude-session-fleet-3736</guid>
+    <pubDate>Sat, 11 Jul 2026 16:40:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>10 commits landed across OpenClaw in the last 3 hours — the heaviest single-agent push in today&apos;s window. Here&apos;s what shipped and why it matters. What Changed Claude session fleet (#104528)....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Open Session in View Is Convenient — Until It Hides Your Lazy Loading Problem</title>
+    <link>https://dev.to/thellu/open-session-in-view-is-convenient-until-it-hides-your-lazy-loading-problem-20i2</link>
+    <guid>https://dev.to/thellu/open-session-in-view-is-convenient-until-it-hides-your-lazy-loading-problem-20i2</guid>
+    <pubDate>Sat, 11 Jul 2026 16:39:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Spring Boot makes many things easy. Sometimes too easy. One example is Open Session in View. If you use Spring Boot with Spring Data JPA, you may have seen this warning during startup:...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>FL Studio head Constantin Koehncke turns to Reddit for feedback and fun</title>
+    <link>https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview</link>
+    <guid>https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview</guid>
+    <pubDate>Sat, 11 Jul 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you&apos;re a music maker of a certain age, then you probably once dabbled with a pirated copy of a little app called Fruity Loops. These days it&apos;s called FL Studio, and Constantin Koehncke, is the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nintendo’s Talking Flower got a small price cut</title>
+    <link>https://www.theverge.com/gadgets/964138/nintendo-talking-flower-mario-wonder-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/964138/nintendo-talking-flower-mario-wonder-deal-sale</guid>
+    <pubDate>Sat, 11 Jul 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you’re the type of person who could always use a little extra positive affirmation, or you have a weakness for weird gadgets, the Talking Flower might be of interest. I’m only kind of serious....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>White House taps the guy who keeps crying ‘aliens’ to run UFO group</title>
+    <link>https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council</link>
+    <guid>https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council</guid>
+    <pubDate>Sat, 11 Jul 2026 14:18:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the FBI, and &quot;the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI bets on families as ChatGPT goes deeper into households</title>
+    <link>https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/</link>
+    <guid>https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/</guid>
+    <pubDate>Sat, 11 Jul 2026 14:13:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>ICE are heavily armed killers. They’re also huge losers</title>
@@ -188,15 +224,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Apple sues OpenAI for allegedly stealing hardware secrets</title>
-    <link>https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets</link>
-    <guid>https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets</guid>
-    <pubDate>Fri, 10 Jul 2026 21:36:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup&apos;s hardware plans. In its complaint, Apple says it uncovered &quot;a pattern of theft of Apple&apos;s trade...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Friday Squid Blogging: “Squidbleed” Vulnerability</title>
     <link>https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html</link>
     <guid>https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html</guid>
@@ -224,24 +251,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>A decade later, Pokémon Go finally made good on its original promise</title>
-    <link>https://www.theverge.com/games/964022/pokemon-go-10th-anniversary-mewtwo-nyc-go-fest-2026</link>
-    <guid>https://www.theverge.com/games/964022/pokemon-go-10th-anniversary-mewtwo-nyc-go-fest-2026</guid>
-    <pubDate>Fri, 10 Jul 2026 19:51:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When Niantic dropped the first Pokémon Go trailer in 2015, it was hard to grasp how a bunch of players could work together to catch a pokémon like Mewtwo. But this week at the game&apos;s 10th...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ICE is threatening to deport witnesses of its latest shooting</title>
-    <link>https://www.theverge.com/policy/964294/ice-shooting-houston-lorenzo-salgado-araujo</link>
-    <guid>https://www.theverge.com/policy/964294/ice-shooting-houston-lorenzo-salgado-araujo</guid>
-    <pubDate>Fri, 10 Jul 2026 19:20:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Advocates are demanding that the Department of Homeland Security release bodycam footage of the fatal shooting of Lorenzo Salgado Araujo, a Mexican immigrant who was killed by ICE officers in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Open source AI matters more than ever, according to Hugging Face’s Clem Delangue</title>
     <link>https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/</link>
     <guid>https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/</guid>
@@ -266,15 +275,6 @@
     <pubDate>Fri, 10 Jul 2026 16:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a &quot;credible external...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages</title>
-    <link>https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html</link>
-    <guid>https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html</guid>
-    <pubDate>Fri, 10 Jul 2026 16:29:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Unknown threat actors compromised the Injective Labs SDK project&apos;s GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys...</description>
     <category>Security</category>
   </item>
 </channel>
