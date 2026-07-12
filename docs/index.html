@@ -48,7 +48,7 @@
                     <p class="tagline">Technology briefing · curated daily</p>
                 </div>
                 <div class="header-actions">
-                    <span class="updated">Updated July 12, 2026 at 17:17 UTC</span>
+                    <span class="updated">Updated July 12, 2026 at 21:06 UTC</span>
                     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
@@ -116,7 +116,7 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Wired AI</span>
-                                <span class="story-row__time">7 hours ago</span>
+                                <span class="story-row__time">11 hours ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/" target="_blank" rel="noopener noreferrer" class="story-row__link">Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides</a>
@@ -212,7 +212,7 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">TechCrunch AI</span>
-                                <span class="story-row__time">1 day ago</span>
+                                <span class="story-row__time">2 days ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/" target="_blank" rel="noopener noreferrer" class="story-row__link">Apple sues OpenAI over alleged trade secret theft</a>
@@ -236,7 +236,7 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Wired AI</span>
-                                <span class="story-row__time">1 day ago</span>
+                                <span class="story-row__time">2 days ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/" target="_blank" rel="noopener noreferrer" class="story-row__link">Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets</a>
@@ -260,7 +260,7 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">TechCrunch AI</span>
-                                <span class="story-row__time">1 day ago</span>
+                                <span class="story-row__time">2 days ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/" target="_blank" rel="noopener noreferrer" class="story-row__link">Open source AI matters more than ever, according to Hugging Face’s Clem Delangue</a>
@@ -284,7 +284,7 @@
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">TechCrunch AI</span>
-                                <span class="story-row__time">1 day ago</span>
+                                <span class="story-row__time">2 days ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/" target="_blank" rel="noopener noreferrer" class="story-row__link">SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs</a>
@@ -424,132 +424,36 @@ A place for comfort, fun, and distraction to brighten up your day. (Got any idea
                         <article
                             class="story-row story-row--new"
                             tabindex="0"
-                            data-story-title="World Cup Rivalry Bot — AI-Voiced Hype for Every Goal"
+                            data-story-title="Your uptime SLA means nothing when the physical process can&#39;t wait for your rollback"
                             data-story-source="Dev.to"
                             data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/gbolaww/world-cup-rivalry-bot-ai-voiced-hype-for-every-goal-2l71"
-                            data-story-desc="This is a submission for Weekend Challenge: Passion Edition What I Built I built the World Cup Rivalry Bot — a Telegram bot for fans who want their World Cup rivalry to feel alive in their own..."
-                            data-story-body="This is a submission for Weekend Challenge: Passion Edition What I Built I built the World Cup Rivalry Bot — a Telegram bot for fans who want their World Cup rivalry to feel alive in their own group chat. You set your team and your rival, and whenever a real goal happens in the tournament, the bot fires back an AI-generated hype line in your team&#39;s voice — followed by an imagined clapback from the rival&#39;s fans, spoken in a completely different voice. It works in DMs and in group chats, and each person in a group can root for their own team independently. Since World Cup passion isn&#39;t just about scoring — it&#39;s about the back-and-forth banter between rival fans — I wanted the bot to capture both sides of that rivalry, not just one team&#39;s celebration. Demo Try it on Telegram: @worldcup_rivalry_bot Quick flow: /start → set your team (e.g. /team Brazil) /rival Argentina /autohype → the bot starts watching real World Cup 2026 results for both your team and your rival /simulate or /simulaterival → instantly demo the celebration pipeline without waiting for a real goal Code GitHub: https://github.com/Gbolaww/worldcup-rivalry-bot How I Built It The bot is written in Go and runs as a single long-polling process against the Telegram Bot API, deployed on Railway. A few decisions worth calling out: Two voices, two AI models working together. Every goal celebration is a two-part exchange: Google&#39;s Gemini generates a short hype/trash-talk line for whichever team scored, and a second, different clapback line from the other side&#39;s perspective. Each line is converted to speech with ElevenLabs, using two distinct voice IDs — one for the &#34;home&#34; team&#39;s fans, one for the rival&#39;s — so it genuinely sounds like two different people talking past each other, not one narrator switching sides. Real tournament data, not mocked results. The bot polls a public, free World Cup 2026 dataset to detect when a tracked team&#39;s goal total increases, and auto-fires the celebration — no manual trigger needed once /autohype is on. Since that data isn&#39;t second-by-second live, I added /simulate and /simulaterival so the exact same detection-and-celebrate code path can be demoed instantly, without waiting on an actual goal. Per-user state, not per-chat. Team and rival are tracked by Telegram user ID rather than chat ID, so a group of friends can all use the bot in the same group chat, each rooting for their own team, without stepping on each other&#39;s setup. Getting the AI stack working was its own adventure. Both gemini-1.5-flash and gemini-2.0-flash were already fully deprecated by the time I built this, and ElevenLabs had recently locked free-tier API access to preset &#34;library&#34; voices — so most of Saturday went into just finding which models and voices were actually still available before I could write a single hype line. Prize Categories Best Use of Google AI — Gemini generates both the hype line and the rival&#39;s comeback line for every goal. Best Use of ElevenLabs — Two distinct ElevenLabs voices bring each side of the rivalry to life as actual voice notes in the chat."
+                            data-story-link="https://dev.to/mariusgjerd/your-uptime-sla-means-nothing-when-the-physical-process-cant-wait-for-your-rollback-12i2"
+                            data-story-desc="There’s a conversation that happens when IT developers first encounter operational technology. It usually goes something like this: “What’s your uptime requirement?” “99.9%.” “That’s about 8 hours..."
+                            data-story-body="There’s a conversation that happens when IT developers first encounter operational technology. It usually goes something like this: “What’s your uptime requirement?” “99.9%.” “That’s about 8 hours of downtime per year. We can work with that.” “No, 99.9% per shift. We run 24/7. And if the system goes down mid-batch, we lose the entire batch.” The IT developer nods, makes a note, and quietly recalculates. What uptime means in IT In web services, uptime is a statistical measure. Your load balancer distributes traffic. A rolling deployment takes down one instance at a time. If a deploy goes wrong, you roll back. The user retries their request. Maybe they see an error page for a few seconds. 99.9% uptime means roughly 8.7 hours of downtime per year. For most web applications, that’s acceptable. For the unlucky users who hit those 8.7 hours, it’s annoying but not catastrophic. The whole model assumes the system’s state is recoverable. A failed transaction gets retried. A dropped connection reconnects. Deployments are reversible. What uptime means in OT In industrial control systems, “the system” is not the software. It’s the physical process the software controls. A water treatment plant doesn’t pause while you roll back a SCADA update. A cement kiln running at 1400°C doesn’t wait for your deployment pipeline. A paper machine running at 1000 meters per minute doesn’t retry when your historian goes offline. The physical process continues whether the software is healthy or not. And if the software loses control of the process, even briefly, the consequences are measured in: Batches scrapped Equipment damaged by running outside safe parameters Product out of spec that must be discarded In the worst cases: fires, injuries, environmental incidents Your 8.7 hours of acceptable downtime might span three production batches. That’s not an SLA problem. That’s a business continuity problem. The rollback problem Web developers treat rollbacks as a safety net. Something went wrong in production? Roll back to the last good version. Worst case, you lose a few minutes of data. In industrial systems, rollback is often not an option mid-process. If a PLC program update goes wrong mid-batch, you can’t simply restore the previous version and continue. The physical state of the process has changed. Temperatures, pressures, chemical compositions are now different from what the previous version expected. Restoring old software to a new physical state can be more dangerous than finishing the bad deploy. This is why industrial systems have change management processes that look bureaucratic and slow to IT eyes: planned maintenance windows, tested rollback procedures, operator sign-offs. They’re not bureaucracy for its own sake. They’re built around the reality that the software controls something that doesn’t stop. What to do about it If you’re writing software that talks to industrial systems, a few things are worth internalising: Graceful degradation looks different here. In web services, graceful degradation means showing a cached page or a friendly error. In OT, it means the control system continuing to operate safely in manual mode while your software is down. Design for that hand-off explicitly. Test against the physical constraints, not just the software ones. What happens to your system when the network drops for 30 seconds? What does the PLC do? What does the operator see? What alarms trigger? Understand the process before you touch it. The operators who run the plant know things about failure modes that aren’t in any documentation. Talk to them before you write a line of code. The SLA number on the contract is the easy part. Understanding what it actually means for the thing being controlled is the hard part. Originally published at mariusgjerd.github.io, where I write about what happens when code touches the real world. New posts also go out by email: subscribe here."
                             role="listitem"
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">6 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">13 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
-                                <a href="https://dev.to/gbolaww/world-cup-rivalry-bot-ai-voiced-hype-for-every-goal-2l71" target="_blank" rel="noopener noreferrer" class="story-row__link">World Cup Rivalry Bot — AI-Voiced Hype for Every Goal</a>
+                                <a href="https://dev.to/mariusgjerd/your-uptime-sla-means-nothing-when-the-physical-process-cant-wait-for-your-rollback-12i2" target="_blank" rel="noopener noreferrer" class="story-row__link">Your uptime SLA means nothing when the physical process can't wait for your rollback</a>
                             </h3>
                             <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
-                            <p class="story-row__dek">This is a submission for Weekend Challenge: Passion Edition What I Built I built the World Cup Rivalry Bot — a Telegram bot for fans who want their World Cup rivalry to feel alive in their own...</p>
+                            <p class="story-row__dek">There’s a conversation that happens when IT developers first encounter operational technology. It usually goes something like this: “What’s your uptime requirement?” “99.9%.” “That’s about 8 hours...</p>
                             
                         </article>
                         
                         <article
                             class="story-row story-row--new"
                             tabindex="0"
-                            data-story-title="BroncoCTF : Negative Bread Writeup"
+                            data-story-title="Why this blog exists"
                             data-story-source="Dev.to"
                             data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/exploitnotes/broncoctf-negative-bread-writeup-chj"
-                            data-story-desc="Challenge We&#39;re given a single ELF binary, bank: $ file bank bank: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, not stripped..."
-                            data-story-body="Challenge We&#39;re given a single ELF binary, bank: $ file bank bank: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, not stripped Running it presents a menu-driven &#34;bank&#34; simulator: +------------------------------------------+ | BRONCO NATIONAL BANK v3.0 | | &#34;We take security seriously.&#34; | +------------------------------------------+ Welcome! Starting balance: $100 Looking for the flag? It costs $1000000. [1] Deposit (max $10000 per txn, 3 remaining) [2] Withdraw [3] Dispute a Charge (up to $1000000, one-time) [4] Invest (fixed 0.5% return) [5] Buy Flag ($1000000) [6] Exit Goal: get balance to ≥ $1,000,000 starting from $100, with deposits capped at $10,000 × 3 = $30,000 total — nowhere near enough through legitimate means. There must be a logic bug in one of the other options. Recon $ checksec --file=bank RELRO STACK CANARY NX PIE Partial RELRO No canary found NX disabled No PIE No canary, NX disabled, no PIE — this binary could support classic stack smashing / shellcode injection, but the binary is small, not stripped, and has a suspiciously named function sitting right there: $ nm bank | grep &#39; T &#39; 0000000000401223 T main 00000000004011d6 T win A dedicated win function that isn&#39;t called from anywhere obvious in normal program flow is the classic signature of a &#34;reach this function&#34; style challenge — no shellcode or ROP needed, just a logic bug that gets main to call win() on our behalf. $ objdump -d --disassemble=win bank 00000000004011d6 &lt;win&gt;: 4011d6: endbr64 ... call puts@plt ; prints first message ... call puts@plt ; prints second message (the flag) ret Confirmed: win() just prints two strings — almost certainly the flag. The only remaining question is what condition triggers a call to win. Finding the call site $ objdump -d --disassemble=main bank | grep -B5 &#39;call.*win&#39; 401713: mov -0x4(%rbp),%eax 401716: cmp $0xf423f,%eax ; 0xf423f = 999,999 40171b: jbe 401731 ; if balance &lt;= 999999, skip win() 401722: call 4011d6 &lt;win&gt; 0xf423f = 999,999. So the check is simply: if (balance &gt; 999999) { win(); } This is the &#34;Buy Flag&#34; option&#39;s logic — straightforward, no funny business here. The bug must be in how balance (stored at -0x4(%rbp) throughout main) can be inflated. The vulnerable function: Dispute a Charge Disassembling the &#34;Dispute&#34; branch (menu option 3): ; scanf reads dispute_amount into -0x18(%rbp) 4015a9: printf &#34;Dispute amount: $&#34; 4015bf: scanf &#34;%d&#34;, &amp;dispute_amount 4015e2: mov -0x18(%rbp), %eax ; eax = dispute_amount 4015e5: mov %eax, %edx 4015e7: neg %edx ; edx = -dispute_amount 4015e9: cmovns %edx, %eax ; eax = abs(dispute_amount) &lt;-- bounds check uses ABS VALUE 4015ec: cmp $0xf423f, %eax ; compare abs(amount) to 999,999 4015f1: jle 401611 ; if abs(amount) &lt;= 999,999 -&gt; allowed ; 401611: this is the &#34;allowed&#34; path 401611: mov -0x18(%rbp), %eax ; eax = ORIGINAL dispute_amount (NOT abs!) 401614: add %eax, -0x4(%rbp) ; balance += dispute_amount 401617: movl $0x1, -0x8(%rbp) ; mark &#34;already disputed&#34; flag Decompiled, the logic is equivalent to: int dispute_amount; scanf(&#34;%d&#34;, &amp;dispute_amount); if (abs(dispute_amount) &lt;= 999999) { balance += dispute_amount; // uses the ORIGINAL signed value, not the abs() already_disputed = 1; } The bugs No verification of a prior charge. &#34;Dispute a Charge&#34; implies you&#39;re getting a refund for money you previously spent — but the function never checks that any such charge exists. You can &#34;dispute&#34; an amount you never paid. Bounds check vs. effect mismatch. The bounds check validates abs(dispute_amount) &lt;= 999999, correctly rejecting anything with a magnitude over that threshold in either direction. But the actual balance update uses the raw, signed dispute_amount — so a large positive value close to the cap sails through the check and gets added directly to balance, with no requirement that it be tied to real prior activity. Combined, this means: enter 999999 as the dispute amount, and balance jumps by nearly a million dollars, no strings attached. Exploit Starting balance is $100. A single dispute clears the flag threshold: [3] Dispute a Charge (up to $1000000, one-time) Dispute amount: $999999 [+] Dispute processed. Refund of $999999 applied. New balance: $1000099 Balance is now $1,000,099 — over the $999,999 threshold checked at the &#34;Buy Flag&#34; call site. [5] Buy Flag ($1000000) This triggers: if (balance &gt; 999999) { win(); // prints the flag } No deposits, investing, or withdrawals are even necessary — a fresh run straight into option 3 with 999999 is sufficient. Root Cause Summary Issue Detail Missing state validation &#34;Dispute&#34; has no concept of a real prior charge to dispute against — it&#39;s an unconditional credit gated only by a magnitude check. Check/effect mismatch The bounds check computes abs(amount) but the balance update uses the original signed amount, so the &#34;safety&#34; check doesn&#39;t actually constrain what gets added. One-time limit is irrelevant The already_disputed flag prevents a second dispute, but a single dispute is already enough to win, so the limit provides no real protection. Flag Running the exploit path yields the flag output from win(). Key Takeaways When a binary is unstripped and has a suspiciously-named function like win, always check first whether it&#39;s reachable directly through some input-driven logic bug before reaching for exploitation techniques like ROP/shellcode — despite NX disabled and no canary hinting at that path, this challenge didn&#39;t need it. Always check that a bounds/validation check and the operation it guards actually use the same value. Here, the check computed abs(x) but the effect used x directly — a very common class of bug where sanitization is performed on a copy/derived value instead of the value actually used downstream. &#34;Refund&#34;/&#34;dispute&#34;/&#34;credit&#34; style features are worth extra scrutiny in any financial-logic challenge — they&#39;re an intentional design pattern for injecting value into a system, and are exactly where missing state/history validation tends to hide."
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">6 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://dev.to/exploitnotes/broncoctf-negative-bread-writeup-chj" target="_blank" rel="noopener noreferrer" class="story-row__link">BroncoCTF : Negative Bread Writeup</a>
-                            </h3>
-                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
-                            
-                            <p class="story-row__dek">Challenge We're given a single ELF binary, bank: $ file bank bank: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, not stripped...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="Documenting My Journey Through Computer Science, Software Development, and Problem Solving"
-                            data-story-source="Dev.to"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/ap_09/documenting-my-journey-through-computer-science-software-development-and-problem-solving-3297"
-                            data-story-desc="While learning core computer science subjects or development or any tech stack understanding algorithms, programming languages and mathematics is not the hardest part the hardest part is to stay..."
-                            data-story-body="While learning core computer science subjects or development or any tech stack understanding algorithms, programming languages and mathematics is not the hardest part the hardest part is to stay consistent and stay sticked to the goal. Why Am I Writing? Like many aspiring developers, I&#39;ve started countless courses, begun exciting projects, and promised myself I&#39;d stay consistent with programming practice. But more often than I&#39;d like to admit, I left them unfinished. I wasn&#39;t lacking interest—I was lacking consistency. This time, I&#39;m taking a different approach. I&#39;ve decided to document my entire learning journey publicly. Here, I&#39;ll share my progress, the lessons I learn, the mistakes I make, and the milestones I achieve. I&#39;ll also write blogs explaining computer science concepts, data structures and algorithms, mathematical theories, and the ideas behind the projects I build. My hope is that writing about what I learn will keep me accountable, deepen my understanding, and maybe even help someone else who is on the same path. What You Can Expect Over the coming months, I&#39;ll be writing daily ,i will write minimum 1 blog dailway for the upcoming 200 days , about the topics I&#39;m studying and the projects I&#39;m building. Some of the areas I&#39;ll cover include: Data Structures and Algorithms Core Computer Science subjects Mathematics for Computer Science Backend and Full-Stack Development Data Analytics Real-world development projects Lessons learned from debugging and problem solving Productivity, consistency, and my learning process I&#39;ll will be using this is platform to create digital notes that will be easy to understand and will explain fundamental and complex topics of computer science. I believe in building in public. Now, I&#39;m choosing to learn in public. Every concept I master, every project I build, every mistake I make, and every lesson I learn will become a part of this journey. This is Day 1—not of becoming an expert, but of refusing to quit. See you in the next post. Until then, keep learning, keep building, and keep showing up. written by - AP09 - DAY 01"
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">8 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://dev.to/ap_09/documenting-my-journey-through-computer-science-software-development-and-problem-solving-3297" target="_blank" rel="noopener noreferrer" class="story-row__link">Documenting My Journey Through Computer Science, Software Development, and Problem Solving</a>
-                            </h3>
-                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
-                            
-                            <p class="story-row__dek">While learning core computer science subjects or development or any tech stack understanding algorithms, programming languages and mathematics is not the hardest part the hardest part is to stay...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="(Spanish)📝 Caso de Estudio: Si Presto! — De cuadernos de notas a una arquitectura Offline-First en Flutter"
-                            data-story-source="Dev.to"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/aomalejandrodev/caso-de-estudio-si-presto-de-cuadernos-de-notas-a-una-arquitectura-offline-first-en-flutter-32bb"
-                            data-story-desc="📌 Introducción: El origen del problema (De una libreta a código) El software más útil nace de resolver problemas reales cotidianos. Este proyecto comenzó cuando observé a un familiar que prestaba..."
-                            data-story-body="📌 Introducción: El origen del problema (De una libreta a código) El software más útil nace de resolver problemas reales cotidianos. Este proyecto comenzó cuando observé a un familiar que prestaba dinero de manera informal. Su sistema de gestión consistía en una libreta física y hojas de cálculo en Excel. El resultado era caótico: Olvidos frecuentes en las fechas de cobro. Falta de claridad al calcular abonos parciales o intereses acumulados. Horas perdidas redactando manualmente estados de cuenta por WhatsApp. Para solucionar esto, decidí diseñar e implementar Si Presto!, una aplicación móvil nativa construida con Flutter y Firebase enfocada en el control de préstamos informales, optimizada para contextos de baja conectividad y con un modelo híbrido de monetización. 🏗️ La Arquitectura: Diseño de Software y Flujo de Datos Para asegurar un rendimiento óptimo en dispositivos de cualquier gama, estructuré la aplicación bajo una Arquitectura Limpia (Clean Architecture) organizada en un Monorepo móvil con separación estricta de responsabilidades: lib/ ├── core/ # Temas, PDF engines, notificaciones locales ├── domain/ # Entidades inmutables (Freezed) e interfaces ├── data/ # Fuentes de datos (Isar NoSQL, Firebase Auth) y modelos └── presentation/ # Gestión de estado (Riverpod) y páginas UI El Flujo de Datos Híbrido: UI ➔ Riverpod StateNotifiers ➔ Repositorios ➔ Isar DB (Local) ➔ Firebase Cloud Backup (Premium). Toda la generación de código inmutable y reactivo se automatizó utilizando build_runner con herramientas como @freezed, @riverpod e @Isar. 🛡️ Los 4 Grandes Retos Técnicos de Ingeniería 1. Sincronización Offline-First y Consistencia de Datos en Venezuela El Problema: La aplicación debe funcionar sin fricciones en zonas con conectividad intermitente o nula. Si el cobrador registra un abono en la calle sin señal, los saldos locales no pueden duplicarse ni corromperse al recuperar la red. La Solución: Implementé un modelo Offline-First utilizando Isar Database como almacenamiento NoSQL local de alto rendimiento. La aplicación realiza todas las operaciones CRUD de forma síncrona en la base de datos local y, mediante un servicio de sincronización en segundo plano, respalda la información en la nube con Cloud Firestore únicamente si el usuario cuenta con conectividad y posee el plan Premium. 2. Generación Dinámica de PDF Nativos en Dispositivos de Gama Baja El Problema: Generar reportes financieros detallados consume memoria. Si el renderizado se realiza de forma ineficiente, los teléfonos de gama baja pueden sufrir cierres inesperados (crashes por OOM). La Solución: Diseñé un motor de renderizado transaccional utilizando los paquetes nativos pdf y printing. El motor procesa las colecciones inmutables de transacciones en bloques (chunks) directamente en la memoria caché del dispositivo, ensamblando el PDF en tiempo real para que el cobrador pueda exportarlo y compartirlo inmediatamente por WhatsApp sin sobrecargar el procesador del teléfono. 3. Modelo de Monetización Híbrido (AdMob + RevenueCat) El Problema: Mantener la aplicación requiere rentabilidad, pero saturar una herramienta financiera de cobros con anuncios intrusivos arruina por completo la experiencia de usuario (UX). La Solución: Implementé un esquema Freemium controlado minuciosamente desde la capa de datos: Free Tier: Límites lógicos quemados en el repositorio (Máximo 3 deudores y 4 pagos por préstamo) financiados mediante banners publicitarios no intrusivos usando Google Mobile Ads. Premium Tier: Integrado de manera limpia con el SDK de RevenueCat. Al detectar la compra activa mediante el singleton PurchaseService, la aplicación remueve por completo los anuncios, desbloquea deudores/pagos ilimitados, habilita la exportación a PDF y activa el respaldo en la nube con Cloud Firestore. 4. Automatización de Alertas y Notificaciones Locales Para eliminar la dependencia constante de servidores externos (Push Notifications) que pueden fallar si el dispositivo no tiene datos móviles, configuré un servicio autónomo basado en flutter_local_notifications. La aplicación programa internamente recordatorios de cobro locales basados en las fechas límite de las entidades del dominio de datos, manteniendo al cobrador alerta sin consumir datos de red. 🎨 Identidad Visual: Estética Neobrutalista Oscura Para mantener la coherencia con mi marca personal, la interfaz de Si Presto! adopta un estilo Neobrutalista Oscuro caracterizado por: Un fondo oscuro profundo de alto contraste combinado con un verde neón eléctrico (#00FF99) para destacar los saldos positivos. Tarjetas de resumen financiero con bordes marcados y sombras sólidas planas desplazadas, rompiendo con los diseños tradicionales y planos de las aplicaciones bancarias comunes. 🧠 Lecciones de Ingeniería de Producto Construir Si Presto! partiendo de una necesidad familiar real me enseñó que la arquitectura de software senior no se mide por la cantidad de servicios en la nube que utilices, sino por saber delegar eficientemente el cómputo. Al elegir almacenar datos localmente con Isar, renderizar PDFs nativos en el cliente y programar notificaciones locales, reduje los costes de infraestructura de la aplicación a prácticamente cero dólares para el nivel gratuito, asegurando un producto escalable y altamente rentable. Link: https://portfolio-three-topaz-81.vercel.app/es/projects/si-presto"
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">12 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://dev.to/aomalejandrodev/caso-de-estudio-si-presto-de-cuadernos-de-notas-a-una-arquitectura-offline-first-en-flutter-32bb" target="_blank" rel="noopener noreferrer" class="story-row__link">(Spanish)📝 Caso de Estudio: Si Presto! — De cuadernos de notas a una arquitectura Offline-First en Flutter</a>
-                            </h3>
-                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
-                            
-                            <p class="story-row__dek">📌 Introducción: El origen del problema (De una libreta a código) El software más útil nace de resolver problemas reales cotidianos. Este proyecto comenzó cuando observé a un familiar que prestaba...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="Website is served from a 200KB binary"
-                            data-story-source="Hacker News"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://200kb.freelang.dev/"
-                            data-story-desc="Article URL: https://200kb.freelang.dev/ Comments URL: https://news.ycombinator.com/item?id=48882601 Points: 4 # Comments: 0"
-                            data-story-body="Article URL: https://200kb.freelang.dev/ Comments URL: https://news.ycombinator.com/item?id=48882601 Points: 4 # Comments: 0"
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Hacker News</span>
-                                <span class="story-row__time">17 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://200kb.freelang.dev/" target="_blank" rel="noopener noreferrer" class="story-row__link">Website is served from a 200KB binary</a>
-                            </h3>
-                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
-                            
-                            <p class="story-row__dek">Article URL: https://200kb.freelang.dev/ Comments URL: https://news.ycombinator.com/item?id=48882601 Points: 4 # Comments: 0</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="BronoCTF : LEts a GO Writeup"
-                            data-story-source="Dev.to"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/exploitnotes/bronoctf-lets-a-go-writeup-3hal"
-                            data-story-desc="Category: Forensics / Misc Difficulty: Easy Flag: bronco{3ve4yth1ng_1s_aw3s0me} Challenge We&#39;re given lego_bricks_challenge.zip, a 63 KB archive. $ zipinfo lego_bricks_challenge.zip Archive:..."
-                            data-story-body="Category: Forensics / Misc Difficulty: Easy Flag: bronco{3ve4yth1ng_1s_aw3s0me} Challenge We&#39;re given lego_bricks_challenge.zip, a 63 KB archive. $ zipinfo lego_bricks_challenge.zip Archive: lego_bricks_challenge.zip Zip file size: 63307 bytes, number of entries: 333 -rw---- ... lego_bricks_challenge\.DS_Store -rw---- ... lego_bricks_challenge\.cache\sessions\.npmrc -rw---- ... lego_bricks_challenge\.git\objects\pack\docker-compose.yml -rw---- ... lego_bricks_challenge\src\modules\network\protocols\.solver.py ... (329 more decoy entries) ... 333 files, 4434 bytes uncompressed, 4627 bytes compressed The listing reveals 333 files buried in a deep, decoy-heavy directory tree (.cache, .config, .git, .local, data, docs, src, tmp, etc.) — a classic haystack pattern. Almost every file is tiny (0–4 bytes) and named either generically (Dockerfile, go.sum, config.ini, package.json) or as .part_NN, with NN ranging well past 250. The file sizes and naming make it clear most of this is padding meant to bury the real content. Recon Sorting the extracted tree by file size immediately isolates the outlier: $ find lego_bricks_challenge/ -type f -printf &#39;%s %p\n&#39; | sort -n | tail -20 ... 58 lego_bricks_challenge/src/modules/network/protocols/.legacy/Dockerfile 59 lego_bricks_challenge/assets/images/sprites/.sheets/README.md 59 lego_bricks_challenge/src/modules/package.json 60 lego_bricks_challenge/src/modules/.legacy/config.ini 61 lego_bricks_challenge/data/raw/.staging/robots.txt 61 lego_bricks_challenge/src/modules/network/protocols/.legacy/requirements.txt 61 lego_bricks_challenge/tmp/system_logs/kernel/.audit/.DS_Store 62 lego_bricks_challenge/docs/.drafts/app.py 906 lego_bricks_challenge/src/modules/network/protocols/.solver.py Every other file is under 62 bytes; .solver.py at 906 bytes stands out by more than an order of magnitude — and it&#39;s hidden (dot-prefixed) inside an otherwise-decoy path. Reading the solver $ cat &#34;lego_bricks_challenge/src/modules/network/protocols/.solver.py&#34; #!/usr/bin/env python3 &#34;&#34;&#34;Hidden solver for: LEt&#39;s a GO! concatenate .part_00 .. .part_49&#34;&#34;&#34; import os, re, sys def solve(start_dir: str) -&gt; str: pattern = re.compile(r&#34;^\.part_(\d+)$&#34;) parts: dict[int, str] = {} for dirpath, _, filenames in os.walk(start_dir): for fn in filenames: m = pattern.match(fn) if m: idx = int(m.group(1)) if 0 &lt;= idx &lt;= 49: with open(os.path.join(dirpath, fn)) as fh: parts[idx] = fh.read() flag = &#34;&#34;.join(parts[i] for i in sorted(parts)) return flag ... The script&#39;s docstring spells out the trick: &#34;Hidden solver for: LEt&#39;s a GO! concatenate .part_00 .. .part_49&#34;. Its logic: Walk the entire extracted tree. Collect every file matching ^\.part_(\d+)$ whose index is between 0 and 49 inclusive (ignoring the hundreds of .part_NNN decoys with indices outside that range or non-matching names). Concatenate their contents in ascending numeric order — the file&#39;s location in the directory tree is irrelevant, only the number in its name matters. So the real flag is fragmented one character (or a few bytes) at a time across 50 files scattered throughout the tree, hidden among ~280 similarly-named but irrelevant decoy files. Solving The provided .solver.py itself couldn&#39;t be executed directly — it has a stray non-UTF-8 byte (a mangled emoji) in its docstring, which Python&#39;s parser chokes on: SyntaxError: Non-UTF-8 code starting with &#39;\x97&#39; in file .../.solver.py on line 2 Rather than fix the encoding, we reimplemented the same logic cleanly, reading each part in binary mode to sidestep any encoding issues in the data itself: #!/usr/bin/env python3 import os, re, sys def solve(start_dir: str) -&gt; bytes: pattern = re.compile(r&#34;^\.part_(\d+)$&#34;) parts = {} for dirpath, _, filenames in os.walk(start_dir): for fn in filenames: m = pattern.match(fn) if m: idx = int(m.group(1)) if 0 &lt;= idx &lt;= 49: with open(os.path.join(dirpath, fn), &#34;rb&#34;) as fh: parts[idx] = fh.read() missing = [i for i in range(50) if i not in parts] if missing: print(f&#34;WARNING: missing indices {missing}&#34;, file=sys.stderr) return b&#34;&#34;.join(parts[i] for i in sorted(parts)) if __name__ == &#34;__main__&#34;: start = sys.argv[1] if len(sys.argv) &gt; 1 else &#34;lego_bricks_challenge&#34; flag = solve(start) print(flag.decode(&#34;utf-8&#34;, errors=&#34;replace&#34;)) Before running it, we verified all 50 required indices (0–49) existed somewhere in the tree with a quick scan — confirmed Missing indices: [], Found count: 50. Running the reconstruction script: python3 reconstruct_flag.py lego_bricks_challenge bronco{3ve4yth1ng_1s_aw3s0me} Flag bronco{3ve4yth1ng_1s_aw3s0me} Takeaways Sort by size, not by name. In a haystack-style challenge, the real content is usually one clear statistical outlier once you strip away the noise (find ... -printf &#39;%s %p\n&#39; | sort -n). Hidden/dot-prefixed files deserve a look — .solver.py was intentionally invisible to a plain ls. Read the source before running it. The script was self-documenting (docstring told us exactly what to do), which made writing an independent implementation trivial once the provided script hit an encoding snag. Don&#39;t trust file content blindly. A stray non-UTF-8 byte broke the original script&#39;s execution but not its usefulness as a spec — worth distinguishing &#34;this script is broken&#34; from &#34;this script&#39;s logic is wrong.&#34;"
+                            data-story-link="https://dev.to/mariusgjerd/why-this-blog-exists-47dc"
+                            data-story-desc="Hi, I’m Marius Gjerd, a developer based in Bergen, Norway, working at the crossroads of code and physical infrastructure. I started out as an electrician. Then I learned to write software, and for..."
+                            data-story-body="Hi, I’m Marius Gjerd, a developer based in Bergen, Norway, working at the crossroads of code and physical infrastructure. I started out as an electrician. Then I learned to write software, and for the past few years I’ve been building IoT solutions in the energy sector. This autumn I’m starting a three-year degree in Industrial Automation alongside my day job. It covers PLCs, instrumentation, industrial networks, and OT security. That’s a deliberate move. The bridge between IT and OT, between the cloud-connected world of developers and the physical world of industrial control systems, is somewhere I find genuinely interesting, and a place where very few people are comfortable on both sides. This blog is where I’ll write about what I learn along the way. Expect posts on: The strange and useful corners where IT and OT meet Industrial cybersecurity from a developer’s perspective Hands-on experiments with PLCs, sensors, and home labs Lessons from building IoT at scale in energy Whatever else I find worth sharing as I work my way through the degree I’ll write when I have something to say, not on a schedule. Some posts will be technical deep-dives; others will be shorter reflections. All of it will be in my own words, and the code behind the projects will be open source on my GitHub. If any of this is interesting to you, stick around. Originally published at mariusgjerd.github.io, where I write about what happens when code touches the real world. New posts also go out by email: subscribe here."
                             role="listitem"
                         >
                             <div class="story-row__meta">
@@ -557,107 +461,203 @@ A place for comfort, fun, and distraction to brighten up your day. (Got any idea
                                 <span class="story-row__time">17 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
-                                <a href="https://dev.to/exploitnotes/bronoctf-lets-a-go-writeup-3hal" target="_blank" rel="noopener noreferrer" class="story-row__link">BronoCTF : LEts a GO Writeup</a>
+                                <a href="https://dev.to/mariusgjerd/why-this-blog-exists-47dc" target="_blank" rel="noopener noreferrer" class="story-row__link">Why this blog exists</a>
                             </h3>
                             <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
-                            <p class="story-row__dek">Category: Forensics / Misc Difficulty: Easy Flag: bronco{3ve4yth1ng_1s_aw3s0me} Challenge We're given lego_bricks_challenge.zip, a 63 KB archive. $ zipinfo lego_bricks_challenge.zip Archive:...</p>
+                            <p class="story-row__dek">Hi, I’m Marius Gjerd, a developer based in Bergen, Norway, working at the crossroads of code and physical infrastructure. I started out as an electrician. Then I learned to write software, and for...</p>
                             
                         </article>
                         
                         <article
                             class="story-row story-row--new"
                             tabindex="0"
-                            data-story-title="PassionCast: I Built an AI Hype Man for World Cup Fans Using Gemini + ElevenLabs"
+                            data-story-title="CodeForge AI — Turning Passion for Programming into a Smarter Learning Journey."
                             data-story-source="Dev.to"
                             data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/sarvar_04/passioncast-i-built-an-ai-hype-man-for-world-cup-fans-using-gemini-elevenlabs-1ilh"
-                            data-story-desc="This is a submission for Weekend Challenge: Passion Edition What I Built The World Cup quarter-finals are on right now. I&#39;m watching matches, yelling at my screen, and I thought: what if I could..."
-                            data-story-body="This is a submission for Weekend Challenge: Passion Edition What I Built The World Cup quarter-finals are on right now. I&#39;m watching matches, yelling at my screen, and I thought: what if I could bottle that feeling into an audio clip? PassionCast lets you pick your team, choose a passion mode (hype speech, glory moment, rivalry fire, heartbreak, fan anthem, or custom), and generates a 60-second AI commentary clip. Not the generic &#34;your team is amazing&#34; stuff. Actual references to your team&#39;s players, history, and rivals. Pick India, select &#34;Rivalry Fire,&#34; hit generate. You get a breathless commentator talking about the India-Pakistan cricket-meets-football tension, with real names and real context. Try Argentina and you get Maradona, La Albiceleste, the Diego legacy. That&#39;s what I was going for. Demo 👉 Try PassionCast Live Three pre-generated sample clips are on the page. Hit play, no keys needed. You&#39;ll hear: Argentina rivalry fire (Match Commentator voice) India pre-match hype (Epic Narrator voice) England heartbreak (Epic Narrator voice) To generate your own, you&#39;ll need free API keys (30 seconds each): Google AI Studio key ElevenLabs key The flow: Code simplynadaf / PassionCast 🔥 PassionCast Your personal AI hype man for the World Cup 2026. Pick your team. Choose a moment. Get a passionate, AI-generated audio commentary that captures the fire of football fandom. 👉 Try PassionCast Live How It Works Pick your team from 48 World Cup 2026 nations Choose your passion — hype speech, glory moment, rivalry fire, heartbreak, or fan anthem Select a voice — epic narrator, match commentator, or poetic storyteller Generate — Gemini writes the script, ElevenLabs brings it to life as audio Tech Stack Layer Technology Why Script generation Google AI (Gemini 2.0 Flash) High temperature (0.9) + cultural context = scripts that feel personal, not generic Voice synthesis ElevenLabs (Multilingual v2) Low stability (0.4) for emotional range, high style (0.6) for expressiveness Frontend Vanilla JS + Vite Fast, no framework overhead, deploys anywhere Hosting GitHub Pages Free, automatic deploys via GitHub Actions No backend. No database… View on GitHub How I Built It No backend. No framework. One page, vanilla JS, two API calls. Vite for bundling, GitHub Pages for hosting. Browser → Gemini 2.0 Flash (writes script) → ElevenLabs (speaks it) → Audio playback I specifically didn&#39;t want a backend here. The whole point is that someone can fork this, drop in their own keys, and have it running in 30 seconds. The Gemini Part (where I spent most of my time) Getting Gemini to write passionate content was harder than I expected. At temperature 0.7, everything came out bland. &#34;Your team has a proud history. The fans are excited.&#34; Useless. At 0.9, things got interesting. Combined with a detailed system prompt that includes the team name, their rivals, their football culture, and the specific style I want (narrator vs commentator vs poet), the output started feeling real. The trick was constraining length. I needed 150-200 words, the sweet spot for 45-60 seconds of audio. Too short and it feels empty. Too long and ElevenLabs starts rushing or the clip drags. // Note: ${apiKey} is a template literal variable, not a real key. // Users provide their own free key from aistudio.google.com/apikey const response = await fetch( `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, { method: &#39;POST&#39;, headers: { &#39;Content-Type&#39;: &#39;application/json&#39; }, body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.9, maxOutputTokens: 500 } }) } ); The ElevenLabs Part (where the magic happens) I tested default voice settings first. Sounded flat. Like a GPS reading football commentary. The fix: crank down stability to 0.4 (default is higher). This adds emotional variation. The voice wavers, speeds up, gets louder on key phrases. Exactly what you want for sports commentary. Then style to 0.6 for extra expressiveness, and speaker boost on for clarity. Three voices, matched to content: Brian (dramatic narrator) for glory moments Liam (energetic) for rivalry and hype George (poetic storyteller) for heartbreak and anthems body: JSON.stringify({ text: script, model_id: &#39;eleven_multilingual_v2&#39;, voice_settings: { stability: 0.4, similarity_boost: 0.8, style: 0.6, use_speaker_boost: true, } }) Other Decisions I used flag images from flagcdn.com instead of emoji because emoji flags don&#39;t render on Windows for England, Wales, and Scotland (they show as black rectangles). Learned that the hard way after building the whole grid with emoji first. Dark theme with gold/fire accents because... it&#39;s a passion app. Light mode would feel wrong. What I&#39;d Add If I had another weekend: social sharing (let people post their clips), match-day mode that checks today&#39;s fixtures and auto-suggests hype content, and a gallery so you can hear what other fans generated. PRs welcome if you want to tackle any of these. Prize Categories Best Use of Google AI: Gemini 2.0 Flash with temperature 0.9 and detailed cultural prompting. Produces scripts with real player names, real rivalry history, and team-specific fan culture for 48 nations. Three distinct writing styles (narrator, commentator, poet) via style instructions in the prompt. Best Use of ElevenLabs: Multilingual v2 model with deliberately tuned settings. Stability at 0.4 for emotional range (default sounds robotic for sports content). Style at 0.6 for expressiveness. Three voices paired to content types. The output sounds like broadcast commentary, not text-to-speech."
+                            data-story-link="https://dev.to/sunnyspencer/codeforge-ai-turning-passion-for-programming-into-a-smarter-learning-journey-38nh"
+                            data-story-desc="This is a submission for Weekend Challenge: Passion Edition What I Built Demo Code How I Built It Prize Categories"
+                            data-story-body="This is a submission for Weekend Challenge: Passion Edition What I Built Demo Code How I Built It Prize Categories"
                             role="listitem"
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">19 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">17 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
-                                <a href="https://dev.to/sarvar_04/passioncast-i-built-an-ai-hype-man-for-world-cup-fans-using-gemini-elevenlabs-1ilh" target="_blank" rel="noopener noreferrer" class="story-row__link">PassionCast: I Built an AI Hype Man for World Cup Fans Using Gemini + ElevenLabs</a>
+                                <a href="https://dev.to/sunnyspencer/codeforge-ai-turning-passion-for-programming-into-a-smarter-learning-journey-38nh" target="_blank" rel="noopener noreferrer" class="story-row__link">CodeForge AI — Turning Passion for Programming into a Smarter Learning Journey.</a>
                             </h3>
                             <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
-                            <p class="story-row__dek">This is a submission for Weekend Challenge: Passion Edition What I Built The World Cup quarter-finals are on right now. I'm watching matches, yelling at my screen, and I thought: what if I could...</p>
+                            <p class="story-row__dek">This is a submission for Weekend Challenge: Passion Edition What I Built Demo Code How I Built It Prize Categories</p>
                             
                         </article>
                         
                         <article
                             class="story-row story-row--new"
                             tabindex="0"
-                            data-story-title="BroncoCTF : Atomic Substitution Theory Writeup"
+                            data-story-title="I Read Too Much and Forgot Everything So I Built a Tool That Turns My Annotations Into Something I&#39;ll Actually Reread."
                             data-story-source="Dev.to"
                             data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/exploitnotes/broncoctf-atomic-substitution-theory-writeup-1ckd"
-                            data-story-desc="Challenge We&#39;re given secret.txt, a single line of comma-separated tuples wrapped in what looks like braces and underscores: (4, 17), (2, 16), (2, 15), (4, 9), { , (3, 2, 1), (5, 3), _ , (2, 17),..."
-                            data-story-body="Challenge We&#39;re given secret.txt, a single line of comma-separated tuples wrapped in what looks like braces and underscores: (4, 17), (2, 16), (2, 15), (4, 9), { , (3, 2, 1), (5, 3), _ , (2, 17), ... $ file secret.txt secret.txt: ASCII text, with very long lines (479), with no line terminators No further context is given — the challenge is to figure out the encoding scheme from the data alone. Recon The tuples are almost all 2- or 3-element groups of small integers, plus three literal tokens scattered through the stream: {, }, and _. Small integer pairs, a {/} wrapper, and an obvious &#34;flag format&#34; hint (bronco{...}) strongly suggested a coordinate lookup cipher — each tuple indexes into some 2D reference grid, and the underscore/braces are literal characters meant to survive the decode untouched. The first four tuples are the key to spotting the scheme: (4, 17), (2, 16), (2, 15), (4, 9) Reading these as (period, group) coordinates on the periodic table: Tuple Period Group Element Symbol (4, 17) 4 17 Bromine Br (2, 16) 2 16 Oxygen O (2, 15) 2 15 Nitrogen N (4, 9) 4 9 Cobalt Co Concatenating the symbols: Br + O + N + Co = BrONCo → &#34;Bronco&#34; — matching the expected flag prefix exactly. Scheme confirmed. Refining the scheme Most tuples are 2-element (period, group) pairs and decode to a full element symbol (1 or 2 letters). But a number of tuples have a third element, e.g. (4, 17, 2). Decoding these as full symbols produced garbled output, so the third number was tested as a letter index into the 2-letter symbol: (4, 17, 2) -&gt; Br, take letter #2 -&gt; &#34;r&#34; (2, 1, 2) -&gt; Li, take letter #2 -&gt; &#34;i&#34; (3, 13, 1) -&gt; Al, take letter #1 -&gt; &#34;A&#34; This let single letters be pulled out of two-letter element symbols — necessary because plain English text needs individual letters, not 2-character blocks, at most positions. The literal tokens map directly: _ → space { / } → literal brace (flag wrapper) Decoding Running the full tuple stream through this scheme (see decode.py) produces: BrONCo{MY FAVOriTe MeSSAGeS HAVe AT eleMeNT OF S[?9,6?]PriSe} Nearly the entire message resolves cleanly into a coherent, on-theme sentence — fitting, since the challenge itself hinges on the &#34;surprise&#34; of finding a message hidden in periodic table coordinates: MY FAVORITE MESSAGES HAVE AN ELEMENT OF SURPRISE Two positions didn&#39;t resolve automatically: (9, 6) — there is no period 9 on the periodic table (periods only go 1–7), so this tuple has no valid lookup. Context makes the intended letter obvious: the word is S_PRISE, which can only sensibly be SURPRISE, so the missing letter is U. The word decoded as AT reads awkwardly; grammatically the sentence wants AN (&#34;have an element of surprise&#34;). This points to a likely transcription slip in the source tuple for that word (a digit that should differ from what was copied), rather than an error in the decoding scheme itself — every other tuple in the file resolves without issue. Both anomalies are localized to specific known tuples and don&#39;t affect confidence in the rest of the decode, which is fully self-consistent across ~50 other tuples. Final Flag bronco{MY_FAVORITE_MESSAGES_HAVE_AN_ELEMENT_OF_SURPRISE} (Spaces converted to underscores to match standard flag formatting conventions.) Tools decode.py — standalone Python decoder implementing the scheme above. Usage: python3 decode.py secret.txt Full source: #!/usr/bin/env python3 &#34;&#34;&#34; Periodic Table Cipher Decoder ============================== Encoding scheme discovered from secret.txt: - Each token is either: * A literal character: { } _ * A tuple (period, group) -&gt; full element symbol (1 or 2 letters) * A tuple (period, group, index) -&gt; a single letter from that symbol, where index is 1-based (1st or 2nd letter) - &#34;_&#34; represents a space / underscore separator in the final message - &#34;{&#34; and &#34;}&#34; are literal brace characters (used for the flag wrapper) Example: (4,17) (2,16) (2,15) (4,9) -&gt; Br O N Co -&gt; &#34;BrONCo&#34; -&gt; &#34;Bronco&#34; Usage: python3 decode.py secret.txt &#34;&#34;&#34; import re import sys # Standard periodic table symbols by (period, group), IUPAC 1-18 group numbering. # Only positions that are actually populated on a real periodic table are included. PERIODIC_TABLE = { (1, 1): &#39;H&#39;, (1, 18): &#39;He&#39;, (2, 1): &#39;Li&#39;, (2, 2): &#39;Be&#39;, (2, 13): &#39;B&#39;, (2, 14): &#39;C&#39;, (2, 15): &#39;N&#39;, (2, 16): &#39;O&#39;, (2, 17): &#39;F&#39;, (2, 18): &#39;Ne&#39;, (3, 1): &#39;Na&#39;, (3, 2): &#39;Mg&#39;, (3, 13): &#39;Al&#39;, (3, 14): &#39;Si&#39;, (3, 15): &#39;P&#39;, (3, 16): &#39;S&#39;, (3, 17): &#39;Cl&#39;, (3, 18): &#39;Ar&#39;, (4, 1): &#39;K&#39;, (4, 2): &#39;Ca&#39;, (4, 3): &#39;Sc&#39;, (4, 4): &#39;Ti&#39;, (4, 5): &#39;V&#39;, (4, 6): &#39;Cr&#39;, (4, 7): &#39;Mn&#39;, (4, 8): &#39;Fe&#39;, (4, 9): &#39;Co&#39;, (4, 10): &#39;Ni&#39;, (4, 11): &#39;Cu&#39;, (4, 12): &#39;Zn&#39;, (4, 13): &#39;Ga&#39;, (4, 14): &#39;Ge&#39;, (4, 15): &#39;As&#39;, (4, 16): &#39;Se&#39;, (4, 17): &#39;Br&#39;, (4, 18): &#39;Kr&#39;, (5, 1): &#39;Rb&#39;, (5, 2): &#39;Sr&#39;, (5, 3): &#39;Y&#39;, (5, 4): &#39;Zr&#39;, (5, 5): &#39;Nb&#39;, (5, 6): &#39;Mo&#39;, (5, 7): &#39;Tc&#39;, (5, 8): &#39;Ru&#39;, (5, 9): &#39;Rh&#39;, (5, 10): &#39;Pd&#39;, (5, 11): &#39;Ag&#39;, (5, 12): &#39;Cd&#39;, (5, 13): &#39;In&#39;, (5, 14): &#39;Sn&#39;, (5, 15): &#39;Sb&#39;, (5, 16): &#39;Te&#39;, (5, 17): &#39;I&#39;, (5, 18): &#39;Xe&#39;, (6, 1): &#39;Cs&#39;, (6, 2): &#39;Ba&#39;, (6, 3): &#39;La&#39;, (6, 4): &#39;Hf&#39;, (6, 5): &#39;Ta&#39;, (6, 6): &#39;W&#39;, (6, 7): &#39;Re&#39;, (6, 8): &#39;Os&#39;, (6, 9): &#39;Ir&#39;, (6, 10): &#39;Pt&#39;, (6, 11): &#39;Au&#39;, (6, 12): &#39;Hg&#39;, (6, 13): &#39;Tl&#39;, (6, 14): &#39;Pb&#39;, (6, 15): &#39;Bi&#39;, (6, 16): &#39;Po&#39;, (6, 17): &#39;At&#39;, (6, 18): &#39;Rn&#39;, (7, 1): &#39;Fr&#39;, (7, 2): &#39;Ra&#39;, (7, 3): &#39;Ac&#39;, (7, 4): &#39;Rf&#39;, (7, 5): &#39;Db&#39;, (7, 6): &#39;Sg&#39;, (7, 7): &#39;Bh&#39;, (7, 8): &#39;Hs&#39;, (7, 9): &#39;Mt&#39;, (7, 10): &#39;Ds&#39;, (7, 11): &#39;Rg&#39;, (7, 12): &#39;Cn&#39;, (7, 13): &#39;Nh&#39;, (7, 14): &#39;Fl&#39;, (7, 15): &#39;Mc&#39;, (7, 16): &#39;Lv&#39;, (7, 17): &#39;Ts&#39;, (7, 18): &#39;Og&#39;, } # Matches: {, }, _, or a tuple like (4, 17) / (4, 17, 2) TOKEN_RE = re.compile(r&#39;\{|\}|_|\(\s*\d+\s*,\s*\d+\s*(?:,\s*\d+\s*)?\)&#39;) TUPLE_RE = re.compile(r&#39;\(\s*(\d+)\s*,\s*(\d+)\s*(?:,\s*(\d+)\s*)?\)&#39;) def decode(text: str) -&gt; str: output = [] for match in TOKEN_RE.finditer(text): token = match.group(0) if token in (&#39;{&#39;, &#39;}&#39;): output.append(token) continue if token == &#39;_&#39;: output.append(&#39; &#39;) continue tm = TUPLE_RE.match(token) period, group, index = tm.groups() period, group = int(period), int(group) symbol = PERIODIC_TABLE.get((period, group)) if symbol is None: output.append(f&#39;[?{period},{group}?]&#39;) continue if index is None: output.append(symbol) # full symbol else: idx = int(index) if 1 &lt;= idx &lt;= len(symbol): output.append(symbol[idx - 1]) # single letter else: output.append(f&#39;[?{symbol}#{idx}?]&#39;) return &#39;&#39;.join(output) def main(): if len(sys.argv) != 2: print(f&#34;Usage: {sys.argv[0]} &lt;secret.txt&gt;&#34;) sys.exit(1) with open(sys.argv[1], &#39;r&#39;) as f: raw = f.read() result = decode(raw) print(&#34;Decoded message:&#34;) print(result) if __name__ == &#39;__main__&#39;: main() Key Takeaways When a cipher&#39;s tuples don&#39;t line up with an obvious 1:1 substitution, try mapping them onto a real-world reference table (periodic table, keyboard layout, ASCII table, book/page/line, etc.) rather than assuming a purely mathematical transform. Confirming a scheme against a small, checkable prefix (here, the bronco{ flag wrapper) before decoding the whole message saves a lot of wasted effort chasing the wrong theory. When a decode is 95% clean and self-consistent, isolated garbage characters are usually a transcription/OCR artifact in the source data rather than a flaw in the scheme — worth verifying against the raw file before assuming the cipher logic itself is wrong."
+                            data-story-link="https://dev.to/dynn_f/i-read-too-much-and-forgot-everything-so-i-built-a-tool-that-turns-my-highlights-into-something-2d5k"
+                            data-story-desc="This is a submission for Weekend Challenge: Passion Edition What I Built When school let out for summer, I promised myself I&#39;d finally read everything on my list. And I did — I read constantly,..."
+                            data-story-body="This is a submission for Weekend Challenge: Passion Edition What I Built When school let out for summer, I promised myself I&#39;d finally read everything on my list. And I did — I read constantly, highlighting every sentence that hit me along the way. I&#39;m a chronic highlighter. The problem showed up a few weeks in: I had dozens of highlighted documents and no way to use any of it. Highlights scattered across files, buried on pages I&#39;d never revisit. I&#39;d finish a book with fifty things I&#39;d marked as important and a month later couldn&#39;t tell you five of them. All that reading, and I was still forgetting everything. So I built the tool I actually needed: an app that takes a highlighted PDF or DOCX and pulls every highlight, underline, strikeout, and comment into one clean, structured list — no more re-opening a 300-page file to copy-paste forty highlights by hand. From there, it does two things I actually wanted: Organizes by color and type, since I already color-code as I read (yellow for definitions, pink for disagreements) — the tool respects that system instead of ignoring it. Uses AI to turn scattered highlights into a real summary — grouping them into themes and writing connected paragraphs, so a flat list of fragments reads like actual study notes. It exports wherever that information needs to live next — Markdown, Word, PDF, Anki flashcards — and it&#39;s designed to feel like it&#39;s about reading, not about processing files. Demo Watch the demo Code How I Built It The core challenge was that &#34;highlight&#34; isn&#39;t one standard thing — PDF and DOCX store annotations completely differently, so the first real decision was architecture: one shared data model (page/location, color, annotation_type, text, note, timestamp), with a separate extractor per format that all produce it. Adding a new annotation type or file format later means writing one new module, not touching existing code. Extraction: PyMuPDF for PDF (highlights, underlines, strikeouts, and notes are all real annotation subtypes with quad points), python-docx for DOCX (highlights and comments are unambiguous; underline/strikethrough are just text formatting there, so I made that an opt-in toggle, off by default, rather than silently capturing stylistic formatting as if it were intentional). Color as a shared vocabulary, not raw RGB: DOCX highlight colors are a fixed named enum, so I standardized on color names across both formats — for PDF, I snap the extracted RGB to the nearest name in the same palette. That gave both formats one consistent color vocabulary I could actually reason about downstream (filtering, AI hints) instead of reconciling two representations later. Backend/frontend split: FastAPI serves both the API and the static frontend from one process (StaticFiles mount) — same origin, no CORS to configure, no dev/prod mismatch from opening the frontend as a raw file. Google AI — Gemini: the AI layer takes the extracted highlights and does two things in a single structured-JSON call: clusters them into themes, then writes a connective summary per cluster (not a per-highlight summary — a highlight is already a distillation, re-summarizing it individually just loses the exact wording someone chose to keep). I used Gemini Flash-Lite specifically: it&#39;s on the no-cost tier, and clustering short text snippets doesn&#39;t need frontier-level reasoning, so it was the right-sized model rather than the biggest one. Design: I went with an editorial visual style on purpose — serif type for the actual highlighted passages, a colored rule instead of a colored block, everything else quiet — so the tool feels like it&#39;s about the books, not about processing files. Prize Categories Best Use of Google AI — the &#34;Organize with AI&#34; feature uses the Gemini API (Flash-Lite) to cluster extracted highlights into themes and generate a synthesized summary per cluster, turning a flat, page-ordered list of annotations into something that actually reads like study notes. This is a core feature of the app, not an add-on — the whole reason I built the extraction pipeline was to feed it into this step."
                             role="listitem"
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">20 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">24 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
-                                <a href="https://dev.to/exploitnotes/broncoctf-atomic-substitution-theory-writeup-1ckd" target="_blank" rel="noopener noreferrer" class="story-row__link">BroncoCTF : Atomic Substitution Theory Writeup</a>
+                                <a href="https://dev.to/dynn_f/i-read-too-much-and-forgot-everything-so-i-built-a-tool-that-turns-my-highlights-into-something-2d5k" target="_blank" rel="noopener noreferrer" class="story-row__link">I Read Too Much and Forgot Everything So I Built a Tool That Turns My Annotations Into Something I'll Actually Reread.</a>
                             </h3>
                             <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
-                            <p class="story-row__dek">Challenge We're given secret.txt, a single line of comma-separated tuples wrapped in what looks like braces and underscores: (4, 17), (2, 16), (2, 15), (4, 9), { , (3, 2, 1), (5, 3), _ , (2, 17),...</p>
+                            <p class="story-row__dek">This is a submission for Weekend Challenge: Passion Edition What I Built When school let out for summer, I promised myself I'd finally read everything on my list. And I did — I read constantly,...</p>
                             
                         </article>
                         
                         <article
                             class="story-row story-row--new"
                             tabindex="0"
-                            data-story-title="Show HN: Shirei, cross-platform GUI framework in native Go"
-                            data-story-source="Hacker News"
-                            data-story-cat="Developer Tools"
-                            data-story-link="https://github.com/hasenj/go-shirei/"
-                            data-story-desc="Article URL: https://github.com/hasenj/go-shirei/ Comments URL: https://news.ycombinator.com/item?id=48882562 Points: 9 # Comments: 1"
-                            data-story-body="Article URL: https://github.com/hasenj/go-shirei/ Comments URL: https://news.ycombinator.com/item?id=48882562 Points: 9 # Comments: 1"
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">Hacker News</span>
-                                <span class="story-row__time">21 mins ago <span class="badge-new">New</span></span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://github.com/hasenj/go-shirei/" target="_blank" rel="noopener noreferrer" class="story-row__link">Show HN: Shirei, cross-platform GUI framework in native Go</a>
-                            </h3>
-                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
-                            
-                            <p class="story-row__dek">Article URL: https://github.com/hasenj/go-shirei/ Comments URL: https://news.ycombinator.com/item?id=48882562 Points: 9 # Comments: 1</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row story-row--new"
-                            tabindex="0"
-                            data-story-title="NGB Platform v1.3.1: CRM Demo Built with NuGet and npm Packages"
+                            data-story-title="How I Shipped 91+ Privacy-First Utilities with $0 Server Cost: The Architecture of OmniUtil.pro"
                             data-story-source="Dev.to"
                             data-story-cat="Developer Tools"
-                            data-story-link="https://dev.to/ngbplatform/ngb-platform-v131-crm-demo-built-with-nuget-and-npm-packages-5bfc"
-                            data-story-desc="NGB Platform v1.3.1 is released. This release is an important milestone for the project because it shows something I wanted to prove from the beginning: NGB is not a single vertical application...."
-                            data-story-body="NGB Platform v1.3.1 is released. This release is an important milestone for the project because it shows something I wanted to prove from the beginning: NGB is not a single vertical application. NGB is a platform for building vertical business systems. The new CRM demo is not intended to be a Salesforce replacement or a full CRM product. It is a demonstration of how a completely different business vertical can be built on top of NGB Platform using published packages. Live demo: https://crm-demo.ngbplatform.com Release: https://github.com/ngbplatform/NGB/releases/tag/v1.3.1 GitHub repository: https://github.com/ngbplatform/NGB What changed in v1.3.1 The main highlight of this release is the new NGB CRM demo. But the more important part is how it was built. The CRM demo consumes NGB Platform as packages: NGB.Platform.* NuGet packages @ngbplatform/ui npm package That means the CRM demo does not need to clone the platform source projects directly. This is a major step for NGB because it moves the project closer to a real platform model: platform core published backend packages published UI package vertical applications built on top Why CRM? Previous NGB demos were closer to traditional business and ERP-like domains: Property Management Trade Agency Billing Accounting and reporting scenarios Those demos are useful, but they can create the wrong impression. It may look like NGB is only about accounting-heavy systems. That is not the goal. NGB is designed for business applications in general: catalogs documents lifecycle actions posting semantics reference registers operational registers accounting registers reports auditability metadata-driven UI Some verticals need accounting. Some do not. CRM is a good example of a vertical that can use the NGB model without using the accounting engine at all. CRM demo without accounting The CRM demo does not use the accounting engine. It also does not use operational accounting-style movements. That is the point. The demo is built around CRM concepts: accounts contacts products opportunity stages lead intake lead qualification lead conversion opportunity updates quotes activity logs sales pipeline reporting activity reporting quote register reporting lead conversion funnel The CRM flow is document-driven. A lead is captured as a document. Qualification is a document. Lead conversion is a document. Opportunity updates are documents. Quotes are documents with reusable product lines. Activities are documents. When documents are posted, they update read-side projections through reference registers. Reports are built from those projections. So even without accounting, the same NGB platform ideas still apply: source documents → posting boundary → register projections → reports Why packages matter Before this release, it was possible to build verticals inside the repository. That is useful for development, but it is not enough to prove a platform. A real platform should be usable from the outside. With v1.3.1, NGB now has public package families: NuGet packages for backend platform capabilities npm package for the UI framework This makes the platform boundary much clearer. A vertical solution can depend on NGB Platform packages instead of directly depending on platform source projects. That is important for several reasons. First, it validates the public API surface. If a vertical can only work by referencing internal source projects, the platform boundary is not real yet. Second, it makes versioning more meaningful. A vertical can target a specific platform version. Third, it makes the project easier to understand. Developers can look at CRM as an example of how to consume NGB Platform rather than digging through the entire platform implementation first. Current live demos NGB now has multiple live demos: Property Management: https://pm-demo.ngbplatform.com Trade: https://trade-demo.ngbplatform.com Agency Billing: https://ab-demo.ngbplatform.com CRM: https://crm-demo.ngbplatform.com Each demo shows a different type of vertical application built on the same platform foundation. Final thoughts The CRM demo is intentionally not a full CRM product. That is not the purpose. The purpose is to show that NGB Platform can be used to build vertical business applications of different types and different complexity levels. With v1.3.1, NGB takes an important step toward that platform model: published packages, reusable UI, and a new vertical built as an external consumer. Release: https://github.com/ngbplatform/NGB/releases/tag/v1.3.1 Repository: https://github.com/ngbplatform/NGB"
+                            data-story-link="https://dev.to/mmrobiulislam/how-i-shipped-91-privacy-first-utilities-with-0-server-cost-the-architecture-of-omniutilpro-41j6"
+                            data-story-desc="Every time you want to format a piece of JSON, debug a JWT token, compress a PDF, or erase a photo&#39;s background, you make a compromise. You upload your proprietary files or sensitive API keys to a..."
+                            data-story-body="Every time you want to format a piece of JSON, debug a JWT token, compress a PDF, or erase a photo&#39;s background, you make a compromise. You upload your proprietary files or sensitive API keys to a random server, hoping they won&#39;t log it. As a developer, I asked myself: Can we build a hyper-scalable ecosystem of professional tools that run 100% in the browser, protect user privacy, and maintain absolute zero compulsory server costs? The answer is OmniUtil.pro, which recently crossed version v3.66.0 with 91 production-ready tools live. In this post, I will break down the exact client-side architecture that makes this platform lightning-fast and entirely serverless. 🚀 The Architecture: Core Technical Pillars Building 90+ separate interactive applications within a single Next.js codebase without causing compilation chaos or catastrophic bundle sizes required sticking strictly to a &#34;local-first&#34; philosophy. 1. Static Edge Core Stack OmniUtil is powered by Next.js 16 (App Router), TypeScript, and Tailwind CSS v4[cite: 1]. The entire application is deployed statically to edge nodes[cite: 1]. The homepage acts as a lightweight, SEO-optimized marketing landing layer (/), while the interactive heavy lifting is deferred to the workspace at /dashboard. This division ensures sub-second Largest Contentful Paint (LCP) times. 2. Native Client-Side Cryptography (Web Crypto API) Instead of importing heavy third-party NPM libraries that slow down standard bundle loads, our security tools—like the RSA Key Pair Generator and the AES-256 Text Vault—rely entirely on the browser&#39;s native C++ compiled SubtleCrypto engine. For example, chunked files are streamed dynamically using standard Web APIs, ensuring that your data is processed instantly without a single byte leaking to an external server. 3. Heavy-Lifting via WASM Engines When JavaScript limits performance, OmniUtil brings the desktop experience to the browser tab using WebAssembly (WASM)[cite: 1]: ProStudio Screen Recorder: Captures HD streams at 1440p @ 60fps and processes timelines, crops, and multi-segment edits natively through a split browser audio-video layer combined with ffmpeg.wasm[cite: 1]. Big Data SQL Explorer: Provides a full local operational BI database dashboard using @duckdb/duckdb-wasm to parse and run analytical SQL loops over 150MB+ CSV or JSON datasets inside the user&#39;s tab[cite: 1]. AI Models: The Audio Transcriber and Background Remover execute Whisper and ONNX neural network tasks on-device using Transformers.js[cite: 1]. 4. Interconnected Workflow Pipelines Instead of flat, isolated utilities, OmniUtil tools pass raw binary memory fragments (Blob) or text structures through a shared React framework called TransientWorkspaceContext[cite: 1]. You can drop a photo, execute the AI background removal pipeline, pass it straight to the media compressor, stamp a watermark, and export—all without ever re-uploading the file[cite: 1]. text [Raw Document/Media] ➔ [AI/WASM Studio Processing] ➔ [Binary Buffer Handoff] ➔ [AES Crypto Vault]"
                             role="listitem"
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">Dev.to</span>
-                                <span class="story-row__time">22 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">29 mins ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
-                                <a href="https://dev.to/ngbplatform/ngb-platform-v131-crm-demo-built-with-nuget-and-npm-packages-5bfc" target="_blank" rel="noopener noreferrer" class="story-row__link">NGB Platform v1.3.1: CRM Demo Built with NuGet and npm Packages</a>
+                                <a href="https://dev.to/mmrobiulislam/how-i-shipped-91-privacy-first-utilities-with-0-server-cost-the-architecture-of-omniutilpro-41j6" target="_blank" rel="noopener noreferrer" class="story-row__link">How I Shipped 91+ Privacy-First Utilities with $0 Server Cost: The Architecture of OmniUtil.pro</a>
                             </h3>
                             <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
-                            <p class="story-row__dek">NGB Platform v1.3.1 is released. This release is an important milestone for the project because it shows something I wanted to prove from the beginning: NGB is not a single vertical application....</p>
+                            <p class="story-row__dek">Every time you want to format a piece of JSON, debug a JWT token, compress a PDF, or erase a photo's background, you make a compromise. You upload your proprietary files or sensitive API keys to a...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="100 Days of DevOps and Cloud (AWS), Day 9: A Database That Won&#39;t Start Is Usually a Permissions Problem"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-9-a-database-that-wont-start-is-usually-a-permissions-1cpk"
+                            data-story-desc="When a service refuses to start, the instinct is to blame the service. Usually, the service itself is fine, and something around it is broken. Day 9&#39;s dead MariaDB was a clean example of exactly..."
+                            data-story-body="When a service refuses to start, the instinct is to blame the service. Usually, the service itself is fine, and something around it is broken. Day 9&#39;s dead MariaDB was a clean example of exactly that. One Linux task, one AWS task. Bring a failed MariaDB service back to life by reading the logs rather than guessing, then enable termination protection for an EC2 instance so it cannot be deleted on a bad day. The tasks come from the KodeKloud Engineer platform, the same as the rest of this series. MariaDB: read the logs, don&#39;t guess A database that will not start feels opaque, and that is what makes it stressful. It is not actually opaque. MariaDB, like most services, tells you exactly why it failed if you look in the right place, so the discipline is looking before you start changing things. # Where does it stand right now sudo systemctl status mariadb # Read the service&#39;s own log, newest lines first sudo tail -30 /var/log/mariadb/mariadb.log # Narrow the systemd journal to the failure window sudo journalctl -u mariadb --since &#34;2025-11-09 12:43:00&#34; --until &#34;2025-11-09 12:45:00&#34; systemctl status gives you the headline, the last few log lines and whether systemd even tried to start it. The service log and journalctl give you the details. Reading the tail first is the shortcut, the newest lines are almost always the ones that matter. In this case, the log pointed at the runtime directory. MariaDB runs as the mysql user, and it needs to write its socket and PID file into /run/mariadb. That directory was owned by root, so the mysql user could not write to it, and the service died on startup. The fix is one line: # Who owns the runtime directory ls -ld /run/mariadb # Hand it to the user the service actually runs as sudo chown mysql:mysql /run/mariadb # Restart and confirm sudo systemctl restart mariadb sudo systemctl status mariadb That is the whole lesson in miniature. The database engine was never broken. A directory it depended on had the wrong owner, and everything downstream fell over. While you are in there, confirm the service is set to come back after a reboot too: # Make sure the fix survives a reboot sudo systemctl is-enabled mariadb EC2 termination protection: a guard against the irreversible The AWS task is the safety net for the worst kind of mistake, deleting a server you still needed. Terminating an EC2 instance is permanent, so termination protection exists to make it hard to do by accident. Turn it on with one flag: # Enable termination protection aws ec2 modify-instance-attribute \ --instance-id i-1234567890abcdef0 \ --disable-api-termination Same naming quirk I hit with stop protection on Day 8. The flag is --disable-api-termination, which sounds destructive but is the switch that protects the instance. It disables the terminate API for that box. To lift it later, you use --no-disable-api-termination. The note verified this by actually calling terminate-instances and watching it get refused. That works, but if the protection had not applied, you would have deleted the instance to find out. Ask AWS directly instead: # Confirm protection is on without risking the instance aws ec2 describe-instance-attribute \ --instance-id i-1234567890abcdef0 \ --attribute disableApiTermination If it returns true, you are protected, and terminate calls will bounce with an error. Two things to keep in mind. Termination protection and stop protection are separate switches, so a box you want fully guarded needs both. And this only blocks the API path, it does nothing about someone deleting the attached volumes, so treat it as one layer, not the whole wall. The thread Both halves of Day 9 were about the same instinct, slowing down before you act. The database rewarded a careful read of the logs over a panicked restart. The EC2 flag made the destructive action deliberately awkward to perform. Speed feels productive, but the operators who last are the ones who look first. So here is the Day 9 question. Would you rather move fast and hope the thing you are about to break is not the thing you needed, or spend two minutes confirming before you commit? Day 9 down. Ninety-one to go."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">30 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-9-a-database-that-wont-start-is-usually-a-permissions-1cpk" target="_blank" rel="noopener noreferrer" class="story-row__link">100 Days of DevOps and Cloud (AWS), Day 9: A Database That Won't Start Is Usually a Permissions Problem</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">When a service refuses to start, the instinct is to blame the service. Usually, the service itself is fine, and something around it is broken. Day 9's dead MariaDB was a clean example of exactly...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="How Resellers Price Flips With Real Mercari Sold Data (No Manual Digging)"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/devansh365/how-resellers-price-flips-with-real-mercari-sold-data-no-manual-digging-54do"
+                            data-story-desc="The problem If you resell on Mercari, or you price inventory against it, you already know the annoying part. There&#39;s no export button. No bulk download. Just a search page you can scroll through..."
+                            data-story-body="The problem If you resell on Mercari, or you price inventory against it, you already know the annoying part. There&#39;s no export button. No bulk download. Just a search page you can scroll through and click into, one listing at a time, while trying to keep a mental average of what things are actually going for. That gap matters more than it sounds like it should. Asking price and sold price are not the same number. Anyone can list a jacket at $120. Whether it sold for $120, $60, or $35 is the number that tells you if buying that jacket was a good call in the first place. The solution Mercari US Scraper pulls both active and sold listings from any search or category in one run. Price, condition, brand, seller rating, sales count, shipping fee, all as clean data you can drop straight into Excel, Google Sheets, or Airtable. No account, no login, no clicking through pages by hand. One result, once it&#39;s sitting in your spreadsheet: Field Example Title Vintage Patagonia Fleece Jacket, Size L Price $45 Original price $120 Status Sold Condition Like New Seller rating 4.9 (94 sales) Shipping fee $7.99 Line up a few hundred of those and a pricing pattern shows up fast, instead of a guess based on the five listings you happened to click through last week. How to use it Open the Actor in Apify Console and enter a keyword (&#34;Patagonia fleece&#34;) or paste a Mercari search or category URL. Set status to sold_out for completed sales, or on_sale for what&#39;s currently listed. Narrow by price range or condition if you want to (new, like new, good, fair, poor). Set how many results you want and run it. Download as JSON, CSV, Excel, or HTML, whatever your workflow already uses. No code involved. Same steps whether you&#39;re pulling 20 results to sanity-check a category or 5,000 to build a full pricing model. What it&#39;s actually for Checking sold comps before you buy inventory to flip, so you&#39;re pricing off what buyers actually paid instead of what a seller hoped for. Keeping your own listings competitive by seeing what similar sellers are charging right now. Feeding a pricing spreadsheet on a schedule so you&#39;re not re-checking Mercari by hand every week. None of that requires touching a line of code. It just requires not doing the clicking yourself. Try Mercari US Scraper Mercari US Scraper pulls active and sold listings with condition, seller rating, and shipping fee included. $2.99 per 1,000 results, no login required."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">31 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/devansh365/how-resellers-price-flips-with-real-mercari-sold-data-no-manual-digging-54do" target="_blank" rel="noopener noreferrer" class="story-row__link">How Resellers Price Flips With Real Mercari Sold Data (No Manual Digging)</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">The problem If you resell on Mercari, or you price inventory against it, you already know the annoying part. There's no export button. No bulk download. Just a search page you can scroll through...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="My New Launched App (E-verse)"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/everseofficial100crypto/my-new-launched-app-e-verse-3mao"
+                            data-story-desc="🚀 I Just Launched E-Verse V1.0 - A Social App for Coders, Researchers &amp; Science Lovers Hey Dev.to! After weeks of building, I’m finally shipping E-Verse V1.0 🎉 What is E-Verse? E-Verse is a social..."
+                            data-story-body="🚀 I Just Launched E-Verse V1.0 - A Social App for Coders, Researchers &amp; Science Lovers Hey Dev.to! After weeks of building, I’m finally shipping E-Verse V1.0 🎉 What is E-Verse? E-Verse is a social app made for 3 types of people: Coders - Share code snippets and get feedback Researchers - Share AI papers and research findings Science lovers - Learn, network, and build together What’s inside V1.0 Share research, code snippets &amp; AI papers Premium UI: Gradient + Glassmorphism + orbiting logo Built for learning, networking &amp; building Core Social Features in V1.0 Follow / Following system - Build your network of coders &amp; researchers Likes - Upvote the best code snippets and research Feed - See posts from people you follow in a personalized feed Basically: Twitter + GitHub + ResearchGate for tech people. Download it now Android APK: https://github.com/everseofficial100-crypto/E-Verse-/releases/tag/V1.0 Why I built this I got tired of posting research on Twitter and code on GitHub separately. I wanted ONE place where science + code + AI people can actually talk and grow together. I need YOUR help This is V1.0. Please install it and drop feedback here: What’s 1 bug you found? What 1 feature should be in V2? V2 is already planned: Dark mode + Animations + Better feed + Suggested Users GitHub Repo: https://github.com/everseofficial100-crypto/E-Verse-/releases/tag/V1.0 Thanks for supporting a solo builder 🙏 Let’s make E-Verse the home for tech minds."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">35 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/everseofficial100crypto/my-new-launched-app-e-verse-3mao" target="_blank" rel="noopener noreferrer" class="story-row__link">My New Launched App (E-verse)</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">🚀 I Just Launched E-Verse V1.0 - A Social App for Coders, Researchers & Science Lovers Hey Dev.to! After weeks of building, I’m finally shipping E-Verse V1.0 🎉 What is E-Verse? E-Verse is a social...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="Documents Aren&#39;t Bags of Chunks"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/valerykot/documents-arent-bags-of-chunks-3cha"
+                            data-story-desc="One thing kept bothering me about retrieval systems: they often destroy the document before trying to understand it. Imagine taking a technical specification and cutting it with scissors every..."
+                            data-story-body="One thing kept bothering me about retrieval systems: they often destroy the document before trying to understand it. Imagine taking a technical specification and cutting it with scissors every five hundred words. No attention to headings. No respect for sections. No care for where a thought begins and ends. Just cut. Stack. Index. That sounds absurd. Yet this is remarkably close to what many retrieval pipelines do before a document ever reaches a vector database. We&#39;re asking the wrong question One of the most common discussions around RAG sounds like this: What&#39;s the optimal chunk size? 256 tokens? 512? Should chunks overlap? After watching enough retrieval failures, I started thinking this isn&#39;t the right question. The real question isn&#39;t where to split a document. It&#39;s whether every document should be split the same way at all. Imagine this document Suppose you have a technical specification called &#34;Rate Limiting Strategy.&#34; It contains four sections: Why rate limiting exists How the algorithm works A code example Exceptions and edge cases Now index it using fixed-size chunks. The heading lands in one chunk. The code example ends up in another. The explanation of edge cases becomes a third. Each chunk receives its own embedding. Each becomes an independent point in vector space. The text survives. The document, as a coherent unit of meaning, does not. Retrieval works perfectly Now someone asks: &#34;What happens when a user hits the rate limit?&#34; The retriever returns the chunk containing the code. From its perspective, everything worked. The identifiers match. The embeddings are close. The similarity score is high. But something important has disappeared. The heading explaining what this code belongs to is somewhere else. The paragraph explaining why the algorithm behaves this way is somewhere else. The exceptions are somewhere else. The model receives valid code—but stripped of the reasoning that made the code meaningful. It can explain what the function does. It cannot explain why the system behaves that way. Structure is semantics It&#39;s easy to think of document structure as presentation. I don&#39;t. A heading tells the reader: Everything below belongs to the same idea. A section boundary says: This thought ends here. A list says: These items should be understood together. Those aren&#39;t visual decorations. They&#39;re part of the information itself. When those signals disappear during indexing, retrieval loses something that humans almost never notice consciously—but rely on constantly while reading. Meaning doesn&#39;t have a fixed size Eventually I stopped asking: How should I split this document? Instead I started asking: What is the smallest unit that still makes sense on its own? Sometimes that&#39;s a paragraph. Sometimes it&#39;s an entire section. Sometimes it&#39;s a code block together with the explanation above it. Sometimes it&#39;s a diagram and its caption. An architecture decision record often makes sense only when the decision, its rationale, and its consequences stay together. An API reference is easier to understand when an endpoint remains connected to its parameters and examples. Meeting notes become much more useful when decisions stay attached to owners and action items. The right boundary isn&#39;t a character count. It&#39;s a logical boundary. Retrieval found something. Understanding failed. One pattern kept repeating itself. The retrieval engine successfully found text related to the question. The model confidently explained that text. And yet the actual answer was still missing. Not because retrieval failed. Because the document had already been dismantled before retrieval even began. A document is an argument I&#39;ve gradually stopped thinking of documents as long strings of text. They&#39;re closer to arguments. Someone deliberately grouped ideas together. Separated topics. Added headings. Built a flow of reasoning. That structure carries meaning every bit as much as the words themselves. If I break that structure into arbitrary pieces before indexing it, I shouldn&#39;t expect a retrieval engine—or an LLM—to reconstruct it perfectly later. A document isn&#39;t a sequence of tokens. It&#39;s an argument made visible. Next time I want to explore a different question: why finding a document isn&#39;t the same thing as discovering knowledge."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">35 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/valerykot/documents-arent-bags-of-chunks-3cha" target="_blank" rel="noopener noreferrer" class="story-row__link">Documents Aren't Bags of Chunks</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">One thing kept bothering me about retrieval systems: they often destroy the document before trying to understand it. Imagine taking a technical specification and cutting it with scissors every...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="WPForms not sending email notifications — three ways leads vanish quietly"
+                            data-story-source="Dev.to"
+                            data-story-cat="Developer Tools"
+                            data-story-link="https://dev.to/artem_meleshkin_0c4e0a675/wpforms-not-sending-email-notifications-three-ways-leads-vanish-quietly-4dhh"
+                            data-story-desc="WPForms is a good plugin, and most &#34;not sending email&#34; advice for it is the same generic SMTP checklist you have already read. So let&#39;s skip that and start with the three failures that are..."
+                            data-story-body="WPForms is a good plugin, and most &#34;not sending email&#34; advice for it is the same generic SMTP checklist you have already read. So let&#39;s skip that and start with the three failures that are specific to WPForms, all of which share one property: the visitor sees a success message, and you receive nothing. Failure 1: the entry was marked as spam — so no email is sent This is the one that surprises people, and it is documented behaviour. From WPForms&#39; own documentation on spam entries: &#34;After enabling this option, the form will allow all submissions (including spam entries) instead of blocking them. However, form notification emails won&#39;t be delivered if an entry is identified as spam.&#34;wpforms.com — Viewing and Managing Spam Entries Read the consequence carefully. A real customer fills in your client&#39;s form. Akismet or the built-in anti-spam decides, on some heuristic, that they are a bot. The customer sees &#34;Thanks for contacting us!&#34; and goes about their day, satisfied. The entry lands in a Spam folder inside WordPress. No notification is sent to anyone. Nobody knows this happened unless someone thinks to open the spam tab. Marking the entry &#34;Not Spam&#34; afterwards does send the notification — retroactively, once you have found it. Which requires knowing to look. Failure 2: background sending, and a queue that stopped WPForms has an option called Optimize Email Sending. Instead of sending during the submission request, it queues the notification through Action Scheduler and sends it in the background. Faster form, better user experience — with a dependency most people never think about: WP-Cron. WordPress&#39;s scheduler is not a real cron. It fires when someone visits the site. On a low-traffic client site — exactly the kind of site whose owner is anxious about enquiries — the queue can sit for a long time. If Action Scheduler is unhealthy or WP-Cron is disabled without a real cron replacement, queued notifications may never go out at all. The form still says &#34;success&#34;, because from the form&#39;s point of view it did its job: it put the email in a queue. WPForms&#39; own troubleshooting docs suggest turning this option off while diagnosing missing notifications — which tells you how often it is the culprit. And it is a good reminder that a stalled WP-Cron breaks far more than plugin updates. Failure 3: on Lite, the lead does not exist anywhere else &#34;WPForms does not store entries without a paid license, but you can back them up remotely using Lite Connect… Since WPForms Lite doesn&#39;t save entries to your WordPress database, Lite Connect gives you a place to store them safely off your site.&#34;wpforms.com — Lite Connect On Lite, the email is the delivery mechanism. There is no database copy to fall back on. If the notification fails for any of the reasons above, the enquiry is gone — no entry, no record, no way to know it ever happened. (Lite Connect keeps an off-site backup, but restoring it into your dashboard requires upgrading.) This matters for agencies: a client on Lite who says &#34;we&#39;ve had no enquiries for a month&#34; may have had thirty, all of which evaporated. The usual suspects, briefly These apply to every WordPress form plugin, WPForms included, and they are well covered elsewhere — so, briefly: No SMTP. WPForms sends via wp_mail(), which by default hands off to PHP mail() on your host. Unauthenticated, unaligned with SPF or DKIM, from a shared IP. Modern mail providers filter or drop that. From address outside your domain. WPForms&#39; docs ask for a domain-specific From address. The visitor&#39;s address goes in Reply-To, never From. Host blocks or throttles mail(). Common, and deliberate — hosts do it to stop compromised sites spamming. Notification switched off or gated by conditional logic. Check the notification is Active and the conditions actually match. It arrived in the spam folder of the recipient. Every log says &#34;sent&#34;. The client says &#34;nothing&#34;. Why &#34;the SMTP log says Sent&#34; is not an answer People reach for an email log and feel safe. Here is what a log actually certifies, in WP Mail SMTP&#39;s own words: Sent — &#34;The email was sent successfully. This status does not tell you whether the email was delivered.&#34;wpmailsmtp.com — How to View Email Logs There is a Confirmed status, but it only exists for mailers with delivery webhooks, and even then it means the provider handed the message to the recipient&#39;s mail server. It does not mean the message is in the inbox rather than the junk folder, and it certainly does not mean a human saw it. So the honest hierarchy of what each tool proves: The only check that closes the loop There is exactly one way to know that a lead reaches a human: send one, and then look in the mailbox for it. That is what our form monitoring does. On a schedule it submits a synthetic lead through the real form, with a unique marker in the body, and then searches a monitored mailbox over IMAP for that marker. If it turns up, the entire chain is proven end to end — the plugin, the anti-spam rules, wp_mail(), SMTP authentication, the recipient&#39;s filters. If it doesn&#39;t turn up in the expected window, you get an alert. It is not a clever check. It is the check a careful person would run by hand, if a careful person were willing to do it every hour and never forget. The reason it matters is that none of the other signals in this article can catch a spam-flagged entry, a stalled queue, or a message quietly filed into Junk — and those are exactly the failures that cost your client a month of enquiries before anyone notices. FAQ Why does WPForms show success but send no notification? Three WPForms-specific reasons: the entry was flagged as spam (documentation states notification emails are not delivered for spam entries, while the visitor still sees success); background sending queued the email and the queue stalled; or the mail was sent unauthenticated and dropped by the receiving server. Does WPForms Lite store entries? No — entries are not stored without a paid license. Lite Connect backs them up remotely, but restoring into the dashboard requires upgrading. On Lite, a failed email means the lead is gone. What is Optimize Email Sending? It queues notifications through Action Scheduler instead of sending during the request. If WP-Cron or Action Scheduler is unhealthy — common on low-traffic sites — queued emails can be badly delayed or never sent, while the form reports success. Does an SMTP log prove the lead arrived? No. WP Mail SMTP&#39;s docs state the Sent status &#34;does not tell you whether the email was delivered&#34;. Confirmed exists only for mailers with webhooks, and means handoff to the recipient&#39;s server — not inbox versus junk. Originally published at pingvera.com. Originally published at pingvera.com."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">Dev.to</span>
+                                <span class="story-row__time">41 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://dev.to/artem_meleshkin_0c4e0a675/wpforms-not-sending-email-notifications-three-ways-leads-vanish-quietly-4dhh" target="_blank" rel="noopener noreferrer" class="story-row__link">WPForms not sending email notifications — three ways leads vanish quietly</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">WPForms is a good plugin, and most "not sending email" advice for it is the same generic SMTP checklist you have already read. So let's skip that and start with the three failures that are...</p>
                             
                         </article>
                         
@@ -678,6 +678,64 @@ A place for comfort, fun, and distraction to brighten up your day. (Got any idea
                         <article
                             class="story-row story-row--new"
                             tabindex="0"
+                            data-story-title="Lorde says Ray-Ban Meta AI glasses are ‘not sexy’"
+                            data-story-source="The Verge"
+                            data-story-cat="Tech Industry"
+                            data-story-link="https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy"
+                            data-story-desc="Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn&#39;t specify any brands in particular, it&#39;s..."
+                            data-story-body="Lorde performing at the 2026 Governors Ball. | Photo: Siegfried Anthony/Billboard via Getty Images
+
+Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn&#39;t specify any brands in particular, it&#39;s likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses.
+
+The comments were captured in videos shared to social media. After thanking the crowd for being there and taking part in &#34;something real,&#34; she said that it was increasingly hard to know is and isn&#39;t real, before saying &#34;You don&#39;t know if someone is wearing sunglasses or if they&#39;re wearing those fucked up fucking… Can I just say, for …
+
+Read the full story at The Verge."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">The Verge</span>
+                                <span class="story-row__time">56 mins ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy" target="_blank" rel="noopener noreferrer" class="story-row__link">Lorde says Ray-Ban Meta AI glasses are ‘not sexy’</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
+                            data-story-title="Shall We Go On Sinning So That Grace May Increase? is hypnotic, healing, and hopeful"
+                            data-story-source="The Verge"
+                            data-story-cat="Tech Industry"
+                            data-story-link="https://www.theverge.com/entertainment/964532/the-soft-pink-truth-shall-we-go-on-sinning-so-that-grace-may-increase-review"
+                            data-story-desc="Matmos are an incredibly accomplished duo between their own solo records like the masterpiece A Chance to Cut Is a Chance to Cure and production classic Bjork records like Vespertine. But Drew..."
+                            data-story-body="Matmos are an incredibly accomplished duo between their own solo records like the masterpiece A Chance to Cut Is a Chance to Cure and production classic Bjork records like Vespertine. But Drew Daniel, one half of Matmos, is fiendishly prolific. When he&#39;s not literally dreaming up new viral music genres, he&#39;s also putting out records under the banner of The Soft Pink Truth.
+
+Where Matmos usually focuses on a specific musical experiment - using only samples of medical procedures or building instruments out of PVC tubing - Soft Pink Truth goes wherever Daniel&#39;s whims take him. That might be a house record. It might be a bunch of black metal co …
+
+Read the full story at The Verge."
+                            role="listitem"
+                        >
+                            <div class="story-row__meta">
+                                <span class="story-row__source">The Verge</span>
+                                <span class="story-row__time">1 hour ago <span class="badge-new">New</span></span>
+                            </div>
+                            <h3 class="story-row__title">
+                                <a href="https://www.theverge.com/entertainment/964532/the-soft-pink-truth-shall-we-go-on-sinning-so-that-grace-may-increase-review" target="_blank" rel="noopener noreferrer" class="story-row__link">Shall We Go On Sinning So That Grace May Increase? is hypnotic, healing, and hopeful</a>
+                            </h3>
+                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
+                            
+                            <p class="story-row__dek">Matmos are an incredibly accomplished duo between their own solo records like the masterpiece A Chance to Cut Is a Chance to Cure and production classic Bjork records like Vespertine. But Drew...</p>
+                            
+                        </article>
+                        
+                        <article
+                            class="story-row story-row--new"
+                            tabindex="0"
                             data-story-title="Apple’s failed self-driving car program left a legacy of powerful AI chips"
                             data-story-source="The Verge"
                             data-story-cat="Tech Industry"
@@ -692,7 +750,7 @@ Read the full story at The Verge."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">50 mins ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">4 hours ago <span class="badge-new">New</span></span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra" target="_blank" rel="noopener noreferrer" class="story-row__link">Apple’s failed self-driving car program left a legacy of powerful AI chips</a>
@@ -704,7 +762,7 @@ Read the full story at The Verge."
                         </article>
                         
                         <article
-                            class="story-row story-row--new"
+                            class="story-row"
                             tabindex="0"
                             data-story-title="One of SteelSeries&amp;#8217; best gaming headsets is over $100 off"
                             data-story-source="The Verge"
@@ -732,7 +790,7 @@ Read our SteelSeries Arctis Nova Pro review."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">2 hours ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">6 hours ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/gadgets/964125/steelseries-arctis-nova-pro-wireless-headset-deal-sale" target="_blank" rel="noopener noreferrer" class="story-row__link">One of SteelSeries&#8217; best gaming headsets is over $100 off</a>
@@ -744,7 +802,7 @@ Read our SteelSeries Arctis Nova Pro review."
                         </article>
                         
                         <article
-                            class="story-row story-row--new"
+                            class="story-row"
                             tabindex="0"
                             data-story-title="How Philips Hue got the smart home right"
                             data-story-source="The Verge"
@@ -762,7 +820,7 @@ Read the full story at The Verge."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">2 hours ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">6 hours ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/podcast/964515/philips-hue-smart-lights-version-history" target="_blank" rel="noopener noreferrer" class="story-row__link">How Philips Hue got the smart home right</a>
@@ -774,7 +832,7 @@ Read the full story at The Verge."
                         </article>
                         
                         <article
-                            class="story-row story-row--new"
+                            class="story-row"
                             tabindex="0"
                             data-story-title="Less is more with the Oura Ring 5"
                             data-story-source="The Verge"
@@ -792,7 +850,7 @@ Read the full story at The Verge."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">3 hours ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">7 hours ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/tech/964386/oura-ring-5-review-smart-ring-wearables" target="_blank" rel="noopener noreferrer" class="story-row__link">Less is more with the Oura Ring 5</a>
@@ -804,7 +862,7 @@ Read the full story at The Verge."
                         </article>
                         
                         <article
-                            class="story-row story-row--new"
+                            class="story-row"
                             tabindex="0"
                             data-story-title="Blue Prince became a bonding — and learning — experience for my family"
                             data-story-source="The Verge"
@@ -820,7 +878,7 @@ Read the full story at The Verge."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">4 hours ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">8 hours ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/games/964262/blue-prince-family-bonding" target="_blank" rel="noopener noreferrer" class="story-row__link">Blue Prince became a bonding — and learning — experience for my family</a>
@@ -832,7 +890,7 @@ Read the full story at The Verge."
                         </article>
                         
                         <article
-                            class="story-row story-row--new"
+                            class="story-row"
                             tabindex="0"
                             data-story-title="The fight against AI data centers is just beginning"
                             data-story-source="The Verge"
@@ -852,7 +910,7 @@ Read the full story at The Verge."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">5 hours ago <span class="badge-new">New</span></span>
+                                <span class="story-row__time">9 hours ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/column/963346/ai-data-centers-fight" target="_blank" rel="noopener noreferrer" class="story-row__link">The fight against AI data centers is just beginning</a>
@@ -882,7 +940,7 @@ Read the full story at The Verge."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">20 hours ago</span>
+                                <span class="story-row__time">1 day ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo" target="_blank" rel="noopener noreferrer" class="story-row__link">After years of teasing, the viral Nopia synth is ‘basically finished’</a>
@@ -912,7 +970,7 @@ Read the full story at The Verge."
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">22 hours ago</span>
+                                <span class="story-row__time">1 day ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger" target="_blank" rel="noopener noreferrer" class="story-row__link">Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger</a>
@@ -920,68 +978,6 @@ Read the full story at The Verge."
                             <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
                             
                             <p class="story-row__dek">Oregon Attorney General Dan Rayfield had been seeking documents from Paramount related to its takeover of Warner Bros. Discovery. Rayfield also asked a state circuit court judge to delay the...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row"
-                            tabindex="0"
-                            data-story-title="FL Studio head Constantin Koehncke turns to Reddit for feedback and fun"
-                            data-story-source="The Verge"
-                            data-story-cat="Tech Industry"
-                            data-story-link="https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview"
-                            data-story-desc="If you&#39;re a music maker of a certain age, then you probably once dabbled with a pirated copy of a little app called Fruity Loops. These days it&#39;s called FL Studio, and Constantin Koehncke, is the..."
-                            data-story-body="If you&#39;re a music maker of a certain age, then you probably once dabbled with a pirated copy of a little app called Fruity Loops. These days it&#39;s called FL Studio, and Constantin Koehncke, is the man responsible for shepherding the pioneering digital audio workstation (DAW) through the modern age. As CEO of Image Line, the company behind FL Studio, Constantin has overseen the introduction of a number of AI-powered features like stem separation and its Gopher chatbot.
-
-Before taking the reins of Image Line in 2022, Constantin was the head of Native Instruments, where he spearheaded the shift towards digital services, did a stint in marketing, …
-
-Read the full story at The Verge."
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">1 day ago</span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview" target="_blank" rel="noopener noreferrer" class="story-row__link">FL Studio head Constantin Koehncke turns to Reddit for feedback and fun</a>
-                            </h3>
-                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
-                            
-                            <p class="story-row__dek">If you're a music maker of a certain age, then you probably once dabbled with a pirated copy of a little app called Fruity Loops. These days it's called FL Studio, and Constantin Koehncke, is the...</p>
-                            
-                        </article>
-                        
-                        <article
-                            class="story-row"
-                            tabindex="0"
-                            data-story-title="Nintendo’s Talking Flower got a small price cut"
-                            data-story-source="The Verge"
-                            data-story-cat="Tech Industry"
-                            data-story-link="https://www.theverge.com/gadgets/964138/nintendo-talking-flower-mario-wonder-deal-sale"
-                            data-story-desc="If you’re the type of person who could always use a little extra positive affirmation, or you have a weakness for weird gadgets, the Talking Flower might be of interest. I’m only kind of serious...."
-                            data-story-body="If you’re the type of person who could always use a little extra positive affirmation, or you have a weakness for weird gadgets, the Talking Flower might be of interest. I’m only kind of serious. The toy is based on a character from Super Mario Bros. Wonder that guides Mario through levels with quippy, whimsical remarks. It’s a little weird that it even exists, but, then again, this is the company that made Alarmo.
-
-The Talking Flower debuted for $34.99, but it got a small price reduction at Amazon and Walmart. It’ll instead cost you $29.99 to buy the cute talking toy.
-
-Nintendo Talking Flower
-
-Where to Buy: $34.99 $29.99 at Amazon $34.99 $29.99 at Walmart
-
-The Talking Flower doesn’t have much utility. Unlike the $110 Alarmo, it can’t serve as an alarm even though it asks when you go to bed and wake up (so that it knows when to keep quiet). It’s there to call out every passing hour when you’re awake, and to say random stuff unprompted. It can make comments about the general time of day, as well as the temperature thanks to its built-in thermometer. The Talking Flower lacks a microphone, and it doesn’t connect to the internet. However, it has a button that’ll make it say things, if you don’t want to wait for it to randomly blurt out its pre-programmed thoughts. Like in the video game, you can select the language it speaks.
-
-My colleague Andrew Webster went hands-on with the Talking Flower, and his takeaway was that it’s a drip feed of whimsy. However, it would occasionally say something that reminded Andrew to take care of himself, whether it be to slow down and relax or to take a lunch break. I’m entertained by many reviews on Amazon, which highlight that buyers are split on being annoyed with the Talking Flower, but loving it anyway — just like the character in Wonder."
-                            role="listitem"
-                        >
-                            <div class="story-row__meta">
-                                <span class="story-row__source">The Verge</span>
-                                <span class="story-row__time">1 day ago</span>
-                            </div>
-                            <h3 class="story-row__title">
-                                <a href="https://www.theverge.com/gadgets/964138/nintendo-talking-flower-mario-wonder-deal-sale" target="_blank" rel="noopener noreferrer" class="story-row__link">Nintendo’s Talking Flower got a small price cut</a>
-                            </h3>
-                            <span class="story-row__discuss-hint" aria-hidden="true">Discuss ›</span>
-                            
-                            <p class="story-row__dek">If you’re the type of person who could always use a little extra positive affirmation, or you have a weakness for weird gadgets, the Talking Flower might be of interest. I’m only kind of serious....</p>
                             
                         </article>
                         
@@ -1390,7 +1386,7 @@ BillionToOne shows what can happen when you combine an original scientific idea,
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Hacker News</span>
-                                <span class="story-row__time">23 hours ago</span>
+                                <span class="story-row__time">1 day ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install</a>
@@ -1414,7 +1410,7 @@ BillionToOne shows what can happen when you combine an original scientific idea,
                         >
                             <div class="story-row__meta">
                                 <span class="story-row__source">The Hacker News</span>
-                                <span class="story-row__time">23 hours ago</span>
+                                <span class="story-row__time">1 day ago</span>
                             </div>
                             <h3 class="story-row__title">
                                 <a href="https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html" target="_blank" rel="noopener noreferrer" class="story-row__link">Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns</a>
