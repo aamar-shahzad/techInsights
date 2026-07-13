@@ -5,34 +5,169 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 13 Jul 2026 11:28:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 13 Jul 2026 15:11:05 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Quick system design question: Do you actually know the structural difference between a Reverse Proxy, a Load Balancer, and an API Gateway? (Hint: They aren&apos;t the same thing!).</title>
-    <link>https://dev.to/saint_vandora/quick-system-design-question-do-you-actually-know-the-structural-difference-between-a-reverse-5fga</link>
-    <guid>https://dev.to/saint_vandora/quick-system-design-question-do-you-actually-know-the-structural-difference-between-a-reverse-5fga</guid>
-    <pubDate>Mon, 13 Jul 2026 11:08:23 +0000</pubDate>
+    <title>Pandas vs Polars: Which One Should You Use in 2025?</title>
+    <link>https://dev.to/qingluan/pandas-vs-polars-which-one-should-you-use-in-2025-462d</link>
+    <guid>https://dev.to/qingluan/pandas-vs-polars-which-one-should-you-use-in-2025-462d</guid>
+    <pubDate>Mon, 13 Jul 2026 15:05:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Reverse Proxy vs Load Balancer vs API Gateway: The Real Difference FOLASAYO SAMUEL OLAYEMI FOLASAYO SAMUEL OLAYEMI FOLASAYO SAMUEL OLAYEMI Follow Jul 13 Reverse Proxy vs Load Balancer vs API...</description>
+    <description>Pandas vs Polars: Which One Should You Use in 2025? You’re probably still typing df.groupby() in Pandas while your Polars-using teammate has already finished their ETL pipeline and is on lunch....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Reverse Proxy vs Load Balancer vs API Gateway: The Real Difference</title>
-    <link>https://dev.to/saint_vandora/reverse-proxy-vs-load-balancer-vs-api-gateway-the-real-difference-4afl</link>
-    <guid>https://dev.to/saint_vandora/reverse-proxy-vs-load-balancer-vs-api-gateway-the-real-difference-4afl</guid>
-    <pubDate>Mon, 13 Jul 2026 11:06:37 +0000</pubDate>
+    <title>ArborDb: a Rust document store where reading one field doesn&apos;t get slower as the record grows</title>
+    <link>https://dev.to/corebreaker/arbordb-a-rust-document-store-where-reading-one-field-doesnt-get-slower-as-the-record-grows-h8a</link>
+    <guid>https://dev.to/corebreaker/arbordb-a-rust-document-store-where-reading-one-field-doesnt-get-slower-as-the-record-grows-h8a</guid>
+    <pubDate>Mon, 13 Jul 2026 15:02:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Imagine you have built a backend server that handles requests perfectly in development. It easily survives a few hundred users. Then, your application gets picked up on social media, and suddenly...</description>
+    <description>Most embedded document stores make you pay the same price to read one field as to read the whole record: they deserialize the entire value, then hand you the field you asked for. That cost grows...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building the Future of AI for CAD/CAE Engineering</title>
-    <link>https://dev.to/chengjun_jang_1e4e747f4e4/building-the-future-of-ai-for-cadcae-engineering-2h4o</link>
-    <guid>https://dev.to/chengjun_jang_1e4e747f4e4/building-the-future-of-ai-for-cadcae-engineering-2h4o</guid>
-    <pubDate>Mon, 13 Jul 2026 11:05:11 +0000</pubDate>
+    <title>Scraping Indian government open data in 2026: what actually works</title>
+    <link>https://dev.to/mchittineni/scraping-indian-government-open-data-in-2026-what-actually-works-33p</link>
+    <guid>https://dev.to/mchittineni/scraping-indian-government-open-data-in-2026-what-actually-works-33p</guid>
+    <pubDate>Mon, 13 Jul 2026 15:02:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m going to develop an AI platform focused on the CAD/CAE engineering workflow. While today&apos;s large language models are excellent at understanding documentation and engineering knowledge, I&apos;ve...</description>
+    <description>I maintain Village Finder, an open-source mapping project tracking over 78,000 Indian villages. It works by pulling daily raw updates straight from official public administration feeds. That means...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Mexico’s PSM registry after CTA: what filings still matter</title>
+    <link>https://dev.to/openregistry/mexicos-psm-registry-after-cta-what-filings-still-matter-28h5</link>
+    <guid>https://dev.to/openregistry/mexicos-psm-registry-after-cta-what-filings-still-matter-28h5</guid>
+    <pubDate>Mon, 13 Jul 2026 15:01:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Mexico’s Public Registry of Commerce still runs through state-level implementation. Look up the same company twice and historical coverage can shift depending on which Registro Público de Comercio...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Vibe Coding Hangover, Part 2: Your AI Didn&apos;t Just Write Bugs, It Wrote Backdoors</title>
+    <link>https://dev.to/paulthedev/the-vibe-coding-hangover-part-2-your-ai-didnt-just-write-bugs-it-wrote-backdoors-29o9</link>
+    <guid>https://dev.to/paulthedev/the-vibe-coding-hangover-part-2-your-ai-didnt-just-write-bugs-it-wrote-backdoors-29o9</guid>
+    <pubDate>Mon, 13 Jul 2026 15:01:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Back in January, I wrote about the vibe coding hangover. The morning-after feeling of shipping fast with AI, then realizing nobody actually understands the codebase anymore, least of all the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Stop Using 6 Chrome Tabs for Code Reviews—Do It in Your Terminal</title>
+    <link>https://dev.to/learnairesource/stop-using-6-chrome-tabs-for-code-reviews-do-it-in-your-terminal-4n0n</link>
+    <guid>https://dev.to/learnairesource/stop-using-6-chrome-tabs-for-code-reviews-do-it-in-your-terminal-4n0n</guid>
+    <pubDate>Mon, 13 Jul 2026 15:00:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You know that moment when you&apos;re reviewing a PR and you need to: Check the GitHub diff (tab 1) Search stack overflow for the pattern (tab 2) Open the docs (tab 3) Look at existing similar code...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Even Nvidia’s head of automotive fights with Nvidia for compute</title>
+    <link>https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla</link>
+    <guid>https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla</guid>
+    <pubDate>Mon, 13 Jul 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Today, I’m talking with Xinzhou Wu, who is the head of automotive at Nvidia. Nvidia is obviously in the news constantly because of the AI boom — it’s one of the most valuable companies in the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Isn&apos;t Just Only a Term (Tech Winter)</title>
+    <link>https://dev.to/mhmdfirza/-oca</link>
+    <guid>https://dev.to/mhmdfirza/-oca</guid>
+    <pubDate>Mon, 13 Jul 2026 14:58:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Should I quit IT or just live through the burnout? Low-effort AI content as a burnout trigger Klaudia Grzondziel Klaudia Grzondziel Klaudia Grzondziel Follow Jul 9 Should I quit IT or just live...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>[Boost]</title>
+    <link>https://dev.to/anthonymax/-24oc</link>
+    <guid>https://dev.to/anthonymax/-24oc</guid>
+    <pubDate>Mon, 13 Jul 2026 14:54:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I created a platform with a list to help you share your projects 🔥 Anthony Max Anthony Max Anthony Max Follow Jul 13 I created a platform with a list to help you share your projects 🔥 #webdev...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Indian villages with live market prices, government schemes, and soil data</title>
+    <link>https://dev.to/mchittineni/indian-villages-with-live-market-prices-government-schemes-and-soil-data-307f</link>
+    <guid>https://dev.to/mchittineni/indian-villages-with-live-market-prices-government-schemes-and-soil-data-307f</guid>
+    <pubDate>Mon, 13 Jul 2026 14:52:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I mapped 78,000+ Indian villages with live market prices, government schemes, and soil data (Serverless) If you&apos;ve ever tried to query rural geographic data in India, you know the workflow:...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The art and engineering of Sega CD Silpheed</title>
+    <link>https://fabiensanglard.net/silpheed/index.html</link>
+    <guid>https://fabiensanglard.net/silpheed/index.html</guid>
+    <pubDate>Mon, 13 Jul 2026 14:52:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://fabiensanglard.net/silpheed/index.html Comments URL: https://news.ycombinator.com/item?id=48893639 Points: 7 # Comments: 0</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100</title>
+    <link>https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale</guid>
+    <pubDate>Mon, 13 Jul 2026 14:52:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Almost all gaming laptops have gone up in price over the past year. Curiously, the surprisingly fast Asus ROG Flow Z13 gaming laptop/tablet combo has not. It’s actually gotten quite a bit cheaper...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Waze adds new AI-powered features and customization updates</title>
+    <link>https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/</link>
+    <guid>https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/</guid>
+    <pubDate>Mon, 13 Jul 2026 14:18:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Some of the new features are powered by Google&apos;s Gemini AI assistant, which reflects the the tech giant&apos;s broader push to integrate Gemini across its products while also better positioning Waze to...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft</title>
+    <link>https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html</link>
+    <guid>https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html</guid>
+    <pubDate>Mon, 13 Jul 2026 13:03:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Download: a donor conception cap and world models for AI</title>
+    <link>https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/</link>
+    <guid>https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/</guid>
+    <pubDate>Mon, 13 Jul 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Sperm donors need limits, says a European fertility group...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meta Files Patent for AI That Can Listen All Day and Track How You&apos;re Feeling</title>
+    <link>https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html</link>
+    <guid>https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html</guid>
+    <pubDate>Mon, 13 Jul 2026 11:54:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots</title>
+    <link>https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html</link>
+    <guid>https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html</guid>
+    <pubDate>Mon, 13 Jul 2026 11:37:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory</title>
+    <link>https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html</link>
+    <guid>https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html</guid>
+    <pubDate>Mon, 13 Jul 2026 11:02:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. &quot;The script looked for the...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>AI Data Centers and the Concentration of Wealth</title>
@@ -42,69 +177,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. Opposition to AI data centers has emerged as a primary theme in US politics, one that—surprisingly—doesn’t...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Try It: A Working Assessment-First Course</title>
-    <link>https://dev.to/michaeltuszynski/try-it-a-working-assessment-first-course-203b</link>
-    <guid>https://dev.to/michaeltuszynski/try-it-a-working-assessment-first-course-203b</guid>
-    <pubDate>Mon, 13 Jul 2026 11:01:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Eight posts ago the claim was that the AI-education industry is building the wrong product — chatbots students ignore, while the thing that actually moves exam scores is an LLM grading written...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building Structured Inter-Agent Communication: A Practical Guide</title>
-    <link>https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-3nj3</link>
-    <guid>https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-3nj3</guid>
-    <pubDate>Mon, 13 Jul 2026 11:00:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every multi-agent tutorial shows &quot;Agent A talks to Agent B.&quot; None show how to keep that conversation reliable at scale. The Problem with String-Based Agent Chat # What most frameworks do: result =...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Infrastructure as Code with Terraform, Start Here</title>
-    <link>https://dev.to/sri2614/infrastructure-as-code-with-terraform-start-here-28e7</link>
-    <guid>https://dev.to/sri2614/infrastructure-as-code-with-terraform-start-here-28e7</guid>
-    <pubDate>Mon, 13 Jul 2026 11:00:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why clicking in consoles stops working Your first cloud resources come from clicking. You open the AWS console, click through a wizard, create a server. It works, and clicking feels productive....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Berkshire&apos;s $397 Billion Bet Against an Overheated Market!</title>
-    <link>https://dev.to/mgobea/berkshires-397-billion-bet-against-an-overheated-market-53bj</link>
-    <guid>https://dev.to/mgobea/berkshires-397-billion-bet-against-an-overheated-market-53bj</guid>
-    <pubDate>Mon, 13 Jul 2026 11:00:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Mechanics of Capital Preservation: Analyzing Berkshire Hathaway’s Liquidity Strategy The recent disclosure that Berkshire Hathaway has accrued a cash and Treasury-equivalent position...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I made an iOS app called Simmerz</title>
-    <link>https://dev.to/kreosus/i-made-an-ios-app-called-simmerz-99j</link>
-    <guid>https://dev.to/kreosus/i-made-an-ios-app-called-simmerz-99j</guid>
-    <pubDate>Mon, 13 Jul 2026 11:00:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Under the Hood: Why We Built an AI-Powered App Optimizer for React Native &amp; Apple OS Runtimes Optimization is usually the last 10% of the development cycle, but it takes 90% of the debugging...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Stop Letting AI Write Your Entire Component</title>
-    <link>https://dev.to/ntty/stop-letting-ai-write-your-entire-component-280</link>
-    <guid>https://dev.to/ntty/stop-letting-ai-write-your-entire-component-280</guid>
-    <pubDate>Mon, 13 Jul 2026 11:00:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent the last three months using an AI-first editor. At first, it felt like a superpower. I could hit a keyboard shortcut, describe a feature, and watch 50 lines of React code appear. It felt...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Is Your 24/7 Automation Actually Alive? Checking It With a Single Command</title>
-    <link>https://dev.to/bokuwalily/is-your-247-automation-actually-alive-checking-it-with-a-single-command-37p2</link>
-    <guid>https://dev.to/bokuwalily/is-your-247-automation-actually-alive-checking-it-with-a-single-command-37p2</guid>
-    <pubDate>Mon, 13 Jul 2026 11:00:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In my previous autopilot article, I walked through a setup that runs Claude unattended via launchd. This time I want to talk about what happens behind the curtain — the problem where an unattended...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>This free Mac app reveals the truth about your mystery USB-C cables</title>
@@ -197,84 +269,12 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Less is more with the Oura Ring 5</title>
-    <link>https://www.theverge.com/tech/964386/oura-ring-5-review-smart-ring-wearables</link>
-    <guid>https://www.theverge.com/tech/964386/oura-ring-5-review-smart-ring-wearables</guid>
-    <pubDate>Sun, 12 Jul 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you&apos;re reading an Oura Ring 5 review at The Verge, you likely fall into one of two camps: newcomers looking for a smartwatch alternative, or Oura users pondering an upgrade. In the case of the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Blue Prince became a bonding — and learning — experience for my family</title>
-    <link>https://www.theverge.com/games/964262/blue-prince-family-bonding</link>
-    <guid>https://www.theverge.com/games/964262/blue-prince-family-bonding</guid>
-    <pubDate>Sun, 12 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>I&apos;ve always been the gamer in the family. When my son was born nearly 11 years ago, gaming was one of the things I looked forward to sharing with him. Pulling up a chair next to me, he would watch...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides</title>
     <link>https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/</link>
     <guid>https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/</guid>
     <pubDate>Sun, 12 Jul 2026 10:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install</title>
-    <link>https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html</link>
-    <guid>https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html</guid>
-    <pubDate>Sat, 11 Jul 2026 17:59:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns</title>
-    <link>https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html</link>
-    <guid>https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html</guid>
-    <pubDate>Sat, 11 Jul 2026 17:49:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI bets on families as ChatGPT goes deeper into households</title>
-    <link>https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/</link>
-    <guid>https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/</guid>
-    <pubDate>Sat, 11 Jul 2026 14:13:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions</title>
-    <link>https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html</link>
-    <guid>https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html</guid>
-    <pubDate>Sat, 11 Jul 2026 06:45:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI’s Head of Safety Is Leaving the Company</title>
-    <link>https://www.wired.com/story/openai-head-of-safety-leaving/</link>
-    <guid>https://www.wired.com/story/openai-head-of-safety-leaving/</guid>
-    <pubDate>Sat, 11 Jul 2026 01:07:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Johannes Heidecke’s departure comes as OpenAI tries to further integrate its research and safety teams.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meta removes controversial AI feature on Instagram after backlash</title>
-    <link>https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/</link>
-    <guid>https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/</guid>
-    <pubDate>Fri, 10 Jul 2026 23:55:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>&quot;Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,&quot; the company said in a blog post. &quot;We&apos;ve heard the...</description>
     <category>AI</category>
   </item>
 </channel>
