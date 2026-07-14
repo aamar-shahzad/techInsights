@@ -5,96 +5,96 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 14 Jul 2026 03:33:23 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 06:24:36 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Privatise your Data Streams with Bring Your Own Cloud (BYOC)</title>
-    <link>https://dev.to/zeliotofficial/privatise-your-data-streams-with-bring-your-own-cloud-byoc-4f8d</link>
-    <guid>https://dev.to/zeliotofficial/privatise-your-data-streams-with-bring-your-own-cloud-byoc-4f8d</guid>
-    <pubDate>Tue, 14 Jul 2026 03:25:10 +0000</pubDate>
+    <title>Compare Cloud and On-Device AI Costs Without Inventing Energy Numbers</title>
+    <link>https://dev.to/roronoa_/compare-cloud-and-on-device-ai-costs-without-inventing-energy-numbers-gdb</link>
+    <guid>https://dev.to/roronoa_/compare-cloud-and-on-device-ai-costs-without-inventing-energy-numbers-gdb</guid>
+    <pubDate>Tue, 14 Jul 2026 06:18:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Traditional SaaS streaming requires exporting sensitive data to a vendor cloud, creating security risks and egress costs. BYOC reverses this model by running the data plane inside the...</description>
+    <description>“On-device AI saves battery” and “cloud AI is more efficient” can both sound plausible. Neither is a measurement. The placement decision crosses at least four different budgets: user wait +...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Fix Docker Exit Code 137 (OOMKilled): Why It Happens and How to Stop It</title>
-    <link>https://dev.to/jjoyneriv/fix-docker-exit-code-137-oomkilled-why-it-happens-and-how-to-stop-it-4ipf</link>
-    <guid>https://dev.to/jjoyneriv/fix-docker-exit-code-137-oomkilled-why-it-happens-and-how-to-stop-it-4ipf</guid>
-    <pubDate>Tue, 14 Jul 2026 03:21:09 +0000</pubDate>
+    <title>Verify a Self-Hosted Installer Before Running It as Root</title>
+    <link>https://dev.to/odd_background_328/verify-a-self-hosted-installer-before-running-it-as-root-1l8e</link>
+    <guid>https://dev.to/odd_background_328/verify-a-self-hosted-installer-before-running-it-as-root-1l8e</guid>
+    <pubDate>Tue, 14 Jul 2026 06:17:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your container died and docker ps -a shows something like Exited (137) 4 minutes ago. Nine times out of ten that&apos;s the kernel&apos;s OOM killer, not your app crashing on its own. Here&apos;s what exit code...</description>
+    <description>Downloading an installer and immediately executing it as root collapses three operational decisions into one command: Which artifact? -&gt; Did these bytes arrive intact? -&gt; Should this host execute...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Problem: The &quot;Extract-Edit-Recompress&quot; Loop</title>
-    <link>https://dev.to/mystrowin/the-problem-the-extract-edit-recompress-loop-28og</link>
-    <guid>https://dev.to/mystrowin/the-problem-the-extract-edit-recompress-loop-28og</guid>
-    <pubDate>Tue, 14 Jul 2026 03:13:00 +0000</pubDate>
+    <title>Add Arrow-Key Shortcuts to a Confirmation Dialog Without Breaking Accessibility</title>
+    <link>https://dev.to/babycat/add-arrow-key-shortcuts-to-a-confirmation-dialog-without-breaking-accessibility-220g</link>
+    <guid>https://dev.to/babycat/add-arrow-key-shortcuts-to-a-confirmation-dialog-without-breaking-accessibility-220g</guid>
+    <pubDate>Tue, 14 Jul 2026 06:17:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We&apos;ve all been there. You have a compressed file, you need to change one tiny thing inside it, so you: Extract the whole thing. Find the file and edit it. Delete the old archive. Re-compress the...</description>
+    <description>Two buttons in a confirmation dialog look simple: Cancel and Confirm. Keyboard behavior makes the component a small state machine. A recent MonkeyCode change gives us a concrete example. Issue...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>CTF Players: Quick File Sharing Setup for Your Team</title>
-    <link>https://dev.to/simpledrop/ctf-players-quick-file-sharing-setup-for-your-team-59dg</link>
-    <guid>https://dev.to/simpledrop/ctf-players-quick-file-sharing-setup-for-your-team-59dg</guid>
-    <pubDate>Tue, 14 Jul 2026 03:10:57 +0000</pubDate>
+    <title>GPT-5.6 MCP: Testing Servers With Sol, Terra &amp; Luna</title>
+    <link>https://dev.to/rupa_tiwari_dd308948d710f/gpt-56-mcp-testing-servers-with-sol-terra-luna-1524</link>
+    <guid>https://dev.to/rupa_tiwari_dd308948d710f/gpt-56-mcp-testing-servers-with-sol-terra-luna-1524</guid>
+    <pubDate>Tue, 14 Jul 2026 06:17:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>CTF competitions move fast. You find an exploit, grab a config file, capture a flag screenshot — and then spend the next two minutes figuring out how to get it to your teammate. Here&apos;s a practical...</description>
+    <description>📖 TL;DR GPT-5.6 shipped July 9, 2026 in three tiers Sol (flagship), Terra (balanced), and Luna (cheapest) all tuned for agentic tool calling. All three share a 1M-token context window, 128K max...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Lesson 0 - Learning to build with AI: where I learned not to trust it</title>
-    <link>https://dev.to/smukker/lesson-0-learning-to-build-with-ai-where-i-learned-not-to-trust-it-49hf</link>
-    <guid>https://dev.to/smukker/lesson-0-learning-to-build-with-ai-where-i-learned-not-to-trust-it-49hf</guid>
-    <pubDate>Tue, 14 Jul 2026 03:08:09 +0000</pubDate>
+    <title>Measure Documentation Coverage for AI Agents With This Scorecard</title>
+    <link>https://dev.to/bestbee/measure-documentation-coverage-for-ai-agents-with-this-scorecard-5bn8</link>
+    <guid>https://dev.to/bestbee/measure-documentation-coverage-for-ai-agents-with-this-scorecard-5bn8</guid>
+    <pubDate>Tue, 14 Jul 2026 06:16:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>After publishing the first lesson, I realized I should have started the series with why I started to build with AI, what I learned, and how it shaped my view of software development in the age of...</description>
+    <description>The argument that AI makes documentation obsolete confuses two different activities: producing prose and preserving operational knowledge. An agent can generate prose cheaply. It cannot recover a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>3 Claude Bugs That Anthropic Still Hasn&apos;t Fixed</title>
-    <link>https://dev.to/heyradcode/3-claude-bugs-that-anthropic-still-hasnt-fixed-2dpp</link>
-    <guid>https://dev.to/heyradcode/3-claude-bugs-that-anthropic-still-hasnt-fixed-2dpp</guid>
-    <pubDate>Tue, 14 Jul 2026 02:56:03 +0000</pubDate>
+    <title>Build a Reconnecting SSE Task Stream With Node.js</title>
+    <link>https://dev.to/magickong/build-a-reconnecting-sse-task-stream-with-nodejs-g92</link>
+    <guid>https://dev.to/magickong/build-a-reconnecting-sse-task-stream-with-nodejs-g92</guid>
+    <pubDate>Tue, 14 Jul 2026 06:16:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been using Claude for a long time, and overall, I think Anthropic has built one of the best AI products available today. But over the past few months, I encountered three product bugs that...</description>
+    <description>A long-running AI task needs to report more than “loading.” It may be queued, editing, testing, waiting for input, retrying, or complete. For a learning project, Server-Sent Events (SSE) are a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Unspoken Grief of Switching From a Language You Loved</title>
-    <link>https://dev.to/_boweii/the-unspoken-grief-of-switching-from-a-language-you-loved-2o3k</link>
-    <guid>https://dev.to/_boweii/the-unspoken-grief-of-switching-from-a-language-you-loved-2o3k</guid>
-    <pubDate>Tue, 14 Jul 2026 02:55:21 +0000</pubDate>
+    <title>Turn a GitHub Issue Into an AI-Ready Bug Packet</title>
+    <link>https://dev.to/rivera123/turn-a-github-issue-into-an-ai-ready-bug-packet-22o8</link>
+    <guid>https://dev.to/rivera123/turn-a-github-issue-into-an-ai-ready-bug-packet-22o8</guid>
+    <pubDate>Tue, 14 Jul 2026 06:15:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Nobody prepares you for the day you have to leave a programming language behind. There&apos;s no ceremony. No goodbye. One day you&apos;re writing it fluently, thinking in it, dreaming in its syntax — and...</description>
+    <description>I like short bug reports right up to the moment I ask a coding agent to fix one. “Markdown links are broken” leaves the agent to invent the environment, the click behavior, the expected route, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Testing Against State Drift: Guarding a Config Tool Whose Source of Truth Lives Somewhere Else</title>
-    <link>https://dev.to/dobybaxter127/testing-against-state-drift-guarding-a-config-tool-whose-source-of-truth-lives-somewhere-else-kgf</link>
-    <guid>https://dev.to/dobybaxter127/testing-against-state-drift-guarding-a-config-tool-whose-source-of-truth-lives-somewhere-else-kgf</guid>
-    <pubDate>Tue, 14 Jul 2026 02:54:49 +0000</pubDate>
+    <title>Merge Two Link Lists | LeetCode Practice #6</title>
+    <link>https://dev.to/secondlastsleep/merge-two-link-lists-leetcode-practice-6-3870</link>
+    <guid>https://dev.to/secondlastsleep/merge-two-link-lists-leetcode-practice-6-3870</guid>
+    <pubDate>Tue, 14 Jul 2026 06:12:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR — I maintain a browser-based configuration tool for ESA&apos;s Pyxel detector-simulation framework. Its whole job is to help people write configs that a separate, independently-versioned project...</description>
+    <description>Merge Two Sorted Lists You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. Both lists are sorted in non-decreasing order. Return the head...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Stratagems #13: P Posted a Question on a Public Forum. 24 Hours Later, Their Sales Team Called.</title>
-    <link>https://dev.to/xulingfeng/stratagems-13-p-posted-a-question-on-a-public-forum-24-hours-later-their-sales-team-called-29h1</link>
-    <guid>https://dev.to/xulingfeng/stratagems-13-p-posted-a-question-on-a-public-forum-24-hours-later-their-sales-team-called-29h1</guid>
-    <pubDate>Tue, 14 Jul 2026 02:54:49 +0000</pubDate>
+    <title>One Go codebase, two deploy modes: a monolith that becomes microservices without a rewrite</title>
+    <link>https://dev.to/hung1m/one-go-codebase-two-deploy-modes-a-monolith-that-becomes-microservices-without-a-rewrite-3jan</link>
+    <guid>https://dev.to/hung1m/one-go-codebase-two-deploy-modes-a-monolith-that-becomes-microservices-without-a-rewrite-3jan</guid>
+    <pubDate>Tue, 14 Jul 2026 06:11:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Startle the snake by striking the grass. — The 36 Stratagems, Stomp the Grass to Scare the Snake Previously on this series: #1: Mark Johnson Walked Into an AI Audit. The Benchmark Had Everything...</description>
+    <description>Every new backend starts with the same fork in the road, and both paths hurt. Start with microservices and you pay for distributed systems on day one — network hops, eventual consistency, five...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>8 Azure Interview Questions That Reveal Who&apos;s Actually Run a Subscription</title>
-    <link>https://dev.to/maheshbandaru_ba8cc2/8-azure-interview-questions-that-reveal-whos-actually-run-a-subscription-13fm</link>
-    <guid>https://dev.to/maheshbandaru_ba8cc2/8-azure-interview-questions-that-reveal-whos-actually-run-a-subscription-13fm</guid>
-    <pubDate>Tue, 14 Jul 2026 02:51:54 +0000</pubDate>
+    <title>I built a HEIC to JPG converter that never uploads your photos (WebAssembly + libheif)</title>
+    <link>https://dev.to/ritusmoikaushik/i-built-a-heic-to-jpg-converter-that-never-uploads-your-photos-webassembly-libheif-291m</link>
+    <guid>https://dev.to/ritusmoikaushik/i-built-a-heic-to-jpg-converter-that-never-uploads-your-photos-webassembly-libheif-291m</guid>
+    <pubDate>Tue, 14 Jul 2026 06:08:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I once sat across from a candidate who&apos;d listed &quot;Azure&quot; four separate times on his resume — AZ-104, three years of &quot;cloud infrastructure,&quot; the works. I asked him to walk me through what happens...</description>
+    <description>The privacy problem with &quot;online HEIC converters&quot;, and how running libheif in the browser fixes it. If you&apos;ve ever helped a non-technical person get an iPhone photo to open on a Windows laptop,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
