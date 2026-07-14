@@ -5,8 +5,161 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 13 Jul 2026 21:12:37 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 03:33:23 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Privatise your Data Streams with Bring Your Own Cloud (BYOC)</title>
+    <link>https://dev.to/zeliotofficial/privatise-your-data-streams-with-bring-your-own-cloud-byoc-4f8d</link>
+    <guid>https://dev.to/zeliotofficial/privatise-your-data-streams-with-bring-your-own-cloud-byoc-4f8d</guid>
+    <pubDate>Tue, 14 Jul 2026 03:25:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR Traditional SaaS streaming requires exporting sensitive data to a vendor cloud, creating security risks and egress costs. BYOC reverses this model by running the data plane inside the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Fix Docker Exit Code 137 (OOMKilled): Why It Happens and How to Stop It</title>
+    <link>https://dev.to/jjoyneriv/fix-docker-exit-code-137-oomkilled-why-it-happens-and-how-to-stop-it-4ipf</link>
+    <guid>https://dev.to/jjoyneriv/fix-docker-exit-code-137-oomkilled-why-it-happens-and-how-to-stop-it-4ipf</guid>
+    <pubDate>Tue, 14 Jul 2026 03:21:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Your container died and docker ps -a shows something like Exited (137) 4 minutes ago. Nine times out of ten that&apos;s the kernel&apos;s OOM killer, not your app crashing on its own. Here&apos;s what exit code...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Problem: The &quot;Extract-Edit-Recompress&quot; Loop</title>
+    <link>https://dev.to/mystrowin/the-problem-the-extract-edit-recompress-loop-28og</link>
+    <guid>https://dev.to/mystrowin/the-problem-the-extract-edit-recompress-loop-28og</guid>
+    <pubDate>Tue, 14 Jul 2026 03:13:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>We&apos;ve all been there. You have a compressed file, you need to change one tiny thing inside it, so you: Extract the whole thing. Find the file and edit it. Delete the old archive. Re-compress the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>CTF Players: Quick File Sharing Setup for Your Team</title>
+    <link>https://dev.to/simpledrop/ctf-players-quick-file-sharing-setup-for-your-team-59dg</link>
+    <guid>https://dev.to/simpledrop/ctf-players-quick-file-sharing-setup-for-your-team-59dg</guid>
+    <pubDate>Tue, 14 Jul 2026 03:10:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>CTF competitions move fast. You find an exploit, grab a config file, capture a flag screenshot — and then spend the next two minutes figuring out how to get it to your teammate. Here&apos;s a practical...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Lesson 0 - Learning to build with AI: where I learned not to trust it</title>
+    <link>https://dev.to/smukker/lesson-0-learning-to-build-with-ai-where-i-learned-not-to-trust-it-49hf</link>
+    <guid>https://dev.to/smukker/lesson-0-learning-to-build-with-ai-where-i-learned-not-to-trust-it-49hf</guid>
+    <pubDate>Tue, 14 Jul 2026 03:08:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>After publishing the first lesson, I realized I should have started the series with why I started to build with AI, what I learned, and how it shaped my view of software development in the age of...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>3 Claude Bugs That Anthropic Still Hasn&apos;t Fixed</title>
+    <link>https://dev.to/heyradcode/3-claude-bugs-that-anthropic-still-hasnt-fixed-2dpp</link>
+    <guid>https://dev.to/heyradcode/3-claude-bugs-that-anthropic-still-hasnt-fixed-2dpp</guid>
+    <pubDate>Tue, 14 Jul 2026 02:56:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;ve been using Claude for a long time, and overall, I think Anthropic has built one of the best AI products available today. But over the past few months, I encountered three product bugs that...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Unspoken Grief of Switching From a Language You Loved</title>
+    <link>https://dev.to/_boweii/the-unspoken-grief-of-switching-from-a-language-you-loved-2o3k</link>
+    <guid>https://dev.to/_boweii/the-unspoken-grief-of-switching-from-a-language-you-loved-2o3k</guid>
+    <pubDate>Tue, 14 Jul 2026 02:55:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Nobody prepares you for the day you have to leave a programming language behind. There&apos;s no ceremony. No goodbye. One day you&apos;re writing it fluently, thinking in it, dreaming in its syntax — and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Testing Against State Drift: Guarding a Config Tool Whose Source of Truth Lives Somewhere Else</title>
+    <link>https://dev.to/dobybaxter127/testing-against-state-drift-guarding-a-config-tool-whose-source-of-truth-lives-somewhere-else-kgf</link>
+    <guid>https://dev.to/dobybaxter127/testing-against-state-drift-guarding-a-config-tool-whose-source-of-truth-lives-somewhere-else-kgf</guid>
+    <pubDate>Tue, 14 Jul 2026 02:54:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR — I maintain a browser-based configuration tool for ESA&apos;s Pyxel detector-simulation framework. Its whole job is to help people write configs that a separate, independently-versioned project...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Stratagems #13: P Posted a Question on a Public Forum. 24 Hours Later, Their Sales Team Called.</title>
+    <link>https://dev.to/xulingfeng/stratagems-13-p-posted-a-question-on-a-public-forum-24-hours-later-their-sales-team-called-29h1</link>
+    <guid>https://dev.to/xulingfeng/stratagems-13-p-posted-a-question-on-a-public-forum-24-hours-later-their-sales-team-called-29h1</guid>
+    <pubDate>Tue, 14 Jul 2026 02:54:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Startle the snake by striking the grass. — The 36 Stratagems, Stomp the Grass to Scare the Snake Previously on this series: #1: Mark Johnson Walked Into an AI Audit. The Benchmark Had Everything...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>8 Azure Interview Questions That Reveal Who&apos;s Actually Run a Subscription</title>
+    <link>https://dev.to/maheshbandaru_ba8cc2/8-azure-interview-questions-that-reveal-whos-actually-run-a-subscription-13fm</link>
+    <guid>https://dev.to/maheshbandaru_ba8cc2/8-azure-interview-questions-that-reveal-whos-actually-run-a-subscription-13fm</guid>
+    <pubDate>Tue, 14 Jul 2026 02:51:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I once sat across from a candidate who&apos;d listed &quot;Azure&quot; four separate times on his resume — AZ-104, three years of &quot;cloud infrastructure,&quot; the works. I asked him to walk me through what happens...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Already rich, already successful, why the last wave of tech winners is grinding again</title>
+    <link>https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/</link>
+    <guid>https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/</guid>
+    <pubDate>Tue, 14 Jul 2026 02:46:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>They&apos;re rolling up their sleeves again, seemingly out of fear of missing AI&apos;s defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”</title>
+    <link>https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/</link>
+    <guid>https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/</guid>
+    <pubDate>Tue, 14 Jul 2026 00:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company&apos;s financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Video-generation startup PixVerse raises $439M, valuation soars past $2B</title>
+    <link>https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/</link>
+    <guid>https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>With the cash, the company aims to expand its world model offering and reach customers across geographies.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Hermes agent maker Nous Research in talks for new funding at $1.5B valuation</title>
+    <link>https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/</link>
+    <guid>https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/</guid>
+    <pubDate>Mon, 13 Jul 2026 23:31:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft tests Windows Search without all the ads and fluff</title>
+    <link>https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads</link>
+    <guid>https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads</guid>
+    <pubDate>Mon, 13 Jul 2026 21:53:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Microsoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads. In a blog post on Monday, Microsoft announced that it&apos;s rolling out the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OnePlus is reportedly bailing on the US</title>
+    <link>https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe</link>
+    <guid>https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe</guid>
+    <pubDate>Mon, 13 Jul 2026 21:48:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>OnePlus and its parent company, Oppo, plan to announce in the coming days that OnePlus brand will be leaving the US and European markets, according to a machine translation of a WinFuture report....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Siri AI Is Becoming Apple’s Everything Tool</title>
+    <link>https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/</link>
+    <guid>https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/</guid>
+    <pubDate>Mon, 13 Jul 2026 21:39:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Apple’s revamped Siri is more than a voice assistant; it’s now the backbone of the iPhone user experience. You can try it now through the iOS 27 public beta.</description>
+    <category>AI</category>
+  </item>
   <item>
     <title>A two-pack of DJI&amp;#8217;s most capable wireless mics just got its first price cut</title>
     <link>https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale</link>
@@ -17,22 +170,13 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Bumblebee: Perplexity AI Open-Sources a Safe Supply-Chain Scanner</title>
-    <link>https://dev.to/terminalchai/bumblebee-perplexity-ai-open-sources-a-safe-supply-chain-scanner-ief</link>
-    <guid>https://dev.to/terminalchai/bumblebee-perplexity-ai-open-sources-a-safe-supply-chain-scanner-ief</guid>
-    <pubDate>Mon, 13 Jul 2026 21:02:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Auditing Developer Workstations: Meet Bumblebee When a new software supply-chain vulnerability is announced, security teams face a major challenge: how to quickly check if any developer&apos;s local...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)</title>
-    <link>https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7</link>
-    <guid>https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7</guid>
-    <pubDate>Mon, 13 Jul 2026 21:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7 Comments URL: https://news.ycombinator.com/item?id=48898814 Points: 0 # Comments: 0</description>
-    <category>Developer Tools</category>
+    <title>The US government warns that Russia state hackers are coming after your router</title>
+    <link>https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/</link>
+    <guid>https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/</guid>
+    <pubDate>Mon, 13 Jul 2026 21:03:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>With residential proxies all the rage, CISA urges router users to be vigilant.</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Satya Nadella has issued a shocking warning to companies using AI</title>
@@ -40,26 +184,8 @@
     <guid>https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/</guid>
     <pubDate>Mon, 13 Jul 2026 20:59:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>In a surprising blog post on Monday, Microsoft CEO is warning enterprises of the dangers of using proprietary models like Anthropic&apos;s and OpenAI&apos;s.</description>
+    <description>Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Backend/Domain foundation</title>
-    <link>https://dev.to/lksvn/backenddomain-foundation-24hl</link>
-    <guid>https://dev.to/lksvn/backenddomain-foundation-24hl</guid>
-    <pubDate>Mon, 13 Jul 2026 20:58:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Today I continued my TypeScript learning project after a short break. Instead of jumping into React right away, I decided to keep working on the backend/domain side of the Candidate Tracker...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>14 Browser Testing Articles That Changed How I Think About Release Confidence</title>
-    <link>https://dev.to/mellowthunder735/14-browser-testing-articles-that-changed-how-i-think-about-release-confidence-2a2o</link>
-    <guid>https://dev.to/mellowthunder735/14-browser-testing-articles-that-changed-how-i-think-about-release-confidence-2a2o</guid>
-    <pubDate>Mon, 13 Jul 2026 20:57:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Modern browser testing is no longer just about clicking a button and checking whether the next page loads. Frontend applications now contain animated route changes, Shadow DOM components, dynamic...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The Shokz OpenRun Pro are the cheapest they’ve been since January</title>
@@ -69,15 +195,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Noise-canceling earbuds are great for flights and focusing, but they&apos;re not always ideal for outdoor workouts. The last-gen Shokz OpenRun Pro&apos;s open-ear design lets you enjoy music while staying...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How a mesh of peer AI workspaces catches what any single agent misses</title>
-    <link>https://dev.to/soulentheo/how-a-mesh-of-peer-ai-workspaces-catches-what-any-single-agent-misses-2ffh</link>
-    <guid>https://dev.to/soulentheo/how-a-mesh-of-peer-ai-workspaces-catches-what-any-single-agent-misses-2ffh</guid>
-    <pubDate>Mon, 13 Jul 2026 20:57:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How a mesh of peer AI workspaces catches what any single agent misses Two things about agent fleets get most of the current attention. First: agents fail on stale state, so retrieval and memory...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The Pixel colors might rule this year</title>
@@ -125,60 +242,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Podman in Production: The Book, and the Pipeline Behind It</title>
-    <link>https://dev.to/wkerschbaumer/podman-in-production-the-book-and-the-pipeline-behind-it-nie</link>
-    <guid>https://dev.to/wkerschbaumer/podman-in-production-the-book-and-the-pipeline-behind-it-nie</guid>
-    <pubDate>Mon, 13 Jul 2026 20:42:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My first encounter with Podman back in 2020 was involuntary. A customer with air-gapped RHEL 7 machines that we needed to deploy a containerized microservices stack on. Installing third-party...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>A Practical Workflow for Reusable AI Image Prompts</title>
-    <link>https://dev.to/captainchaozi/a-practical-workflow-for-reusable-ai-image-prompts-3gkl</link>
-    <guid>https://dev.to/captainchaozi/a-practical-workflow-for-reusable-ai-image-prompts-3gkl</guid>
-    <pubDate>Mon, 13 Jul 2026 20:39:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most AI image experiments fail for a boring reason: the prompt is treated as a one-off sentence instead of a reusable specification. A reliable image workflow is closer to a small build system. It...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Bootcamp Grad Explores Open-Source AI APIs: What I Learned</title>
-    <link>https://dev.to/purecast/bootcamp-grad-explores-open-source-ai-apis-what-i-learned-3pc</link>
-    <guid>https://dev.to/purecast/bootcamp-grad-explores-open-source-ai-apis-what-i-learned-3pc</guid>
-    <pubDate>Mon, 13 Jul 2026 20:37:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Here&apos;s the thing: bootcamp Grad Explores Open-Source AI APIs: What I Learned I graduated from a coding bootcamp about six months ago, and honestly, I thought I understood the AI landscape. GPT-4o,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>SINGLE RESPONSIBILITY PRINCIPLE</title>
-    <link>https://dev.to/victorlisbronzo/single-responsibility-principle-1g20</link>
-    <guid>https://dev.to/victorlisbronzo/single-responsibility-principle-1g20</guid>
-    <pubDate>Mon, 13 Jul 2026 20:35:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>SINGLE RESPONSIBILITY PRINCIPLE (SRP) A class should have one, and exclusively one, reason to change. In other words, we shouldn&apos;t have a single class doing everything: receiving data, validating...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>PRINCÍPIO DA RESPONSABILIDADE ÚNICA</title>
-    <link>https://dev.to/victorlisbronzo/principio-da-responsabilidade-unica-301d</link>
-    <guid>https://dev.to/victorlisbronzo/principio-da-responsabilidade-unica-301d</guid>
-    <pubDate>Mon, 13 Jul 2026 20:34:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>PRINCÍPIO DA RESPONSABILIDADE ÚNICA Em Inglês: SINGLE RESPONSIBILITY PRINCIPLE (SRP) Uma classe deve ter um, e exclusivamente um, motivo para ser alterada. Ou seja, não devemos ter uma única...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>States make last-ditch effort to stop the Paramount ‘media behemoth’</title>
-    <link>https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit</link>
-    <guid>https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit</guid>
-    <pubDate>Mon, 13 Jul 2026 18:35:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A dozen state attorneys general are trying to block the $110 billion merger of Paramount and Warner Bros Discovery they warn would raise movie prices and crush cable TV distributors. The states -...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>The wildest allegations in Apple’s trade secrets lawsuit against OpenAI</title>
     <link>https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/</link>
     <guid>https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/</guid>
@@ -186,15 +249,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>The EV market is on the road to recovery thanks to high gas prices</title>
-    <link>https://www.theverge.com/transportation/964663/ev-sales-q2-2026-gas-prices-tesla-toyota</link>
-    <guid>https://www.theverge.com/transportation/964663/ev-sales-q2-2026-gas-prices-tesla-toyota</guid>
-    <pubDate>Mon, 13 Jul 2026 18:03:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>As the US war on Iran sent gas prices soaring, American car buyers flocked to electric vehicles - and in particular hybrids. After a sluggish winter and fall, EV sales rebounded in the second...</description>
-    <category>Tech Industry</category>
   </item>
   <item>
     <title>What Anthropic’s latest AI discovery does—and doesn’t—show</title>
@@ -222,60 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Responding to Musk accusing him of being a scammer, Altman said, &quot;homeboy you&apos;re the one sellling [sic] public market investors on short-term space datacenters.&quot;</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found</title>
-    <link>https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html</link>
-    <guid>https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html</guid>
-    <pubDate>Mon, 13 Jul 2026 17:17:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Google and Microsoft have pulled ModHeader, a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The 6 wildest claims in Apple&amp;#8217;s lawsuit against OpenAI</title>
-    <link>https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims</link>
-    <guid>https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims</guid>
-    <pubDate>Mon, 13 Jul 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When Apple employees interviewed for jobs at OpenAI, the AI startup&apos;s hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Should AI help you get away with killing your spouse?</title>
-    <link>https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/</link>
-    <guid>https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/</guid>
-    <pubDate>Mon, 13 Jul 2026 16:31:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>What does a world of total user-aligned AI actually look like?</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Anthropic starts localizing Claude pricing for India, its biggest market after the US</title>
-    <link>https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/</link>
-    <guid>https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/</guid>
-    <pubDate>Mon, 13 Jul 2026 15:34:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Claude users in India are starting to see Indian rupee-denominated subscription plans.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More</title>
-    <link>https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html</link>
-    <guid>https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html</guid>
-    <pubDate>Mon, 13 Jul 2026 15:05:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That&apos;s supposed to be the good news. The catch is that the attackers have the same tools, pointed...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Lessons Learned from CISA’s Recent GitHub Leak</title>
-    <link>https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/</link>
-    <guid>https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/</guid>
-    <pubDate>Mon, 13 Jul 2026 15:03:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
-    <description>The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
