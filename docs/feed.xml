@@ -5,25 +5,205 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 15 Jul 2026 17:38:27 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Jul 2026 21:14:32 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>WordPress Has a DX Problem, and Developers Are Paying for It</title>
-    <link>https://dev.to/jeansmaug/wordpress-has-a-dx-problem-and-developers-are-paying-for-it-c9f</link>
-    <guid>https://dev.to/jeansmaug/wordpress-has-a-dx-problem-and-developers-are-paying-for-it-c9f</guid>
-    <pubDate>Wed, 15 Jul 2026 17:34:49 +0000</pubDate>
+    <title>Reverse-engineering an MMO Aion 2&apos;s network protocol to build a real-time DPS meter (Rust + Tauri)</title>
+    <link>https://dev.to/aionon/reverse-engineering-an-mmo-aion-2s-network-protocol-to-build-a-real-time-dps-meter-rust-tauri-3157</link>
+    <guid>https://dev.to/aionon/reverse-engineering-an-mmo-aion-2s-network-protocol-to-build-a-real-time-dps-meter-rust-tauri-3157</guid>
+    <pubDate>Wed, 15 Jul 2026 21:04:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Cross-posted from the Loopress docs Loopress is a toolset to make WordPress reproducible and reviewable via Git. Versioned snippets, Composer without SSH, and more coming... Check Loopress...</description>
+    <description>Disclosure: this is a write-up about my own side project — a combat analytics tool for AION 2. No affiliation with the game&apos;s publisher. Links at the end. Architecture A Windows desktop app: Rust...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why a Coding-Agent Completion Event Is Not Enough</title>
-    <link>https://dev.to/agentis/why-a-coding-agent-completion-event-is-not-enough-lci</link>
-    <guid>https://dev.to/agentis/why-a-coding-agent-completion-event-is-not-enough-lci</guid>
-    <pubDate>Wed, 15 Jul 2026 17:31:34 +0000</pubDate>
+    <title>When Code &quot;Works&quot; by Accident: Hunting Down an Undocumented Fallback in node-pg-migrate 🔍</title>
+    <link>https://dev.to/lksferreira/when-code-works-by-accident-hunting-down-an-undocumented-fallback-in-node-pg-migrate-4l7d</link>
+    <guid>https://dev.to/lksferreira/when-code-works-by-accident-hunting-down-an-undocumented-fallback-in-node-pg-migrate-4l7d</guid>
+    <pubDate>Wed, 15 Jul 2026 21:01:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A terminal monitor sees task_complete. It sends an alert. The user returns and finds that the event belongs to an old turn, a background worker, or a session they already resumed. The parser found...</description>
+    <description>This is a submission for DEV&apos;s Summer Bug Smash: Smash Stories powered by Sentry. We&apos;ve all spent hours debugging a broken piece of code. But what happens when your code is supposed to fail, but...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Running an LLM agent entirely in your browser</title>
+    <link>https://dev.to/lajosbencz/running-an-llm-agent-entirely-in-your-browser-5foe</link>
+    <guid>https://dev.to/lajosbencz/running-an-llm-agent-entirely-in-your-browser-5foe</guid>
+    <pubDate>Wed, 15 Jul 2026 20:59:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR: I fine-tuned LiquidAI&apos;s LFM2.5 (230M and 350M) into a generic front-end agent that runs entirely in the browser - no server, no API key, no cloud costs. It doesn&apos;t just chat; it calls real...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>What Is Git-Aware Project Management?</title>
+    <link>https://dev.to/cevahir/what-is-git-aware-project-management-17ob</link>
+    <guid>https://dev.to/cevahir/what-is-git-aware-project-management-17ob</guid>
+    <pubDate>Wed, 15 Jul 2026 20:51:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Software teams often plan work in one place and build software somewhere else. Tasks live on a project board. But the real work happens in the IDE, Git branches, commits, pushes, pull requests,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Are computers truly random? How chaos powers randomness.</title>
+    <link>https://dev.to/js_cipher/are-computers-truly-random-how-chaos-powers-randomness-4d93</link>
+    <guid>https://dev.to/js_cipher/are-computers-truly-random-how-chaos-powers-randomness-4d93</guid>
+    <pubDate>Wed, 15 Jul 2026 20:45:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You would have come across randomness on a computer at a particular point; whether it is playing a game where assets spawn at random locations, writing code that requires random numbers, shuffling...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Lattice: The Pure Rust LLM Engine Optimized for Apple Silicon</title>
+    <link>https://dev.to/terminalchai/lattice-the-pure-rust-llm-engine-optimized-for-apple-silicon-37ba</link>
+    <guid>https://dev.to/terminalchai/lattice-the-pure-rust-llm-engine-optimized-for-apple-silicon-37ba</guid>
+    <pubDate>Wed, 15 Jul 2026 20:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Native Local AI on Mac: Meet Lattice Running Large Language Models (LLMs) locally has become standard practice for developers seeking privacy and speed. However, configuring runtimes usually means...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Complex WordPress Platform from Scratch</title>
+    <link>https://dev.to/percevalhasselman/building-a-complex-wordpress-platform-from-scratch-25nf</link>
+    <guid>https://dev.to/percevalhasselman/building-a-complex-wordpress-platform-from-scratch-25nf</guid>
+    <pubDate>Wed, 15 Jul 2026 20:42:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Hi my name is Perceval Hasselman and I&apos;m and Building a simple WordPress website is one thing. Building a scalable platform with user accounts, custom dashboards, search functionality, premium...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Have You Outgrown Prompt Engineering?</title>
+    <link>https://dev.to/bangadpurva/have-you-outgrown-prompt-engineering-14jo</link>
+    <guid>https://dev.to/bangadpurva/have-you-outgrown-prompt-engineering-14jo</guid>
+    <pubDate>Wed, 15 Jul 2026 20:36:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>For a while, prompt engineering felt like a search for the perfect phrase. Give the model a role. Add a few examples. Request a structured format. Refine the wording until the response improves....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem</title>
+    <link>https://dev.to/xbill/my-demo-script-found-a-production-bug-on-its-first-run-a-tiny-post-mortem-k35</link>
+    <guid>https://dev.to/xbill/my-demo-script-found-a-production-bug-on-its-first-run-a-tiny-post-mortem-k35</guid>
+    <pubDate>Wed, 15 Jul 2026 20:36:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I built a demo script to show off a project. It failed on step 2 — and in doing so, it found a real bug that had been sitting in the codebase the whole time, invisible to a fully green test suite....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)</title>
+    <link>https://dev.to/xbill/build-one-ai-tool-server-call-it-from-three-different-agents-mcp-explained-22l2</link>
+    <guid>https://dev.to/xbill/build-one-ai-tool-server-call-it-from-three-different-agents-mcp-explained-22l2</guid>
+    <pubDate>Wed, 15 Jul 2026 20:35:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Have you ever wanted to give an AI assistant a new ability — like generating images — and have that ability work in any AI tool you use, not just one? That&apos;s exactly what this project does, and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Roblox is shutting down its video chat service</title>
+    <link>https://www.theverge.com/games/966181/roblox-connect-video-chat-calling-service-shut-down</link>
+    <guid>https://www.theverge.com/games/966181/roblox-connect-video-chat-calling-service-shut-down</guid>
+    <pubDate>Wed, 15 Jul 2026 20:02:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Roblox will be shutting down Roblox Connect, its video calling service introduced in 2023. Roblox Connect let you video chat with other people using your Roblox avatar, which would be able to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI slop movies are the new direct-to-video cash grabs</title>
+    <link>https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood</link>
+    <guid>https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood</guid>
+    <pubDate>Wed, 15 Jul 2026 20:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan&apos;s new adaptation of The Odyssey. It&apos;s on track to rake in anywhere between...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Windows 0-day drops the same day Microsoft releases record number of patches</title>
+    <link>https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/</link>
+    <guid>https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/</guid>
+    <pubDate>Wed, 15 Jul 2026 19:59:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>HiveLegacy is a &quot;powerful primitive&quot; that&apos;s likely capable of other nefarious actions.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex</title>
+    <link>https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/</link>
+    <guid>https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/</guid>
+    <pubDate>Wed, 15 Jul 2026 19:41:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development</title>
+    <link>https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html</link>
+    <guid>https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html</guid>
+    <pubDate>Wed, 15 Jul 2026 18:43:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Enshittification</title>
+    <link>https://www.theverge.com/policy/966111/cyclospora-explosive-diarrhea-parasite-fda-cdc-taco-bell</link>
+    <guid>https://www.theverge.com/policy/966111/cyclospora-explosive-diarrhea-parasite-fda-cdc-taco-bell</guid>
+    <pubDate>Wed, 15 Jul 2026 18:40:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Bryan, a food broker from Michigan, wasn&apos;t sure if he&apos;d be able to make it to urgent care in time. He started feeling off on Thursday, and by Saturday, he was having to use the bathroom every 15...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI Isn’t Smarter Than a Baby—Yet</title>
+    <link>https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/</link>
+    <guid>https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/</guid>
+    <pubDate>Wed, 15 Jul 2026 18:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Babies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Something&amp;#8217;s glowing on the Pixel 11&amp;#8217;s camera bar</title>
+    <link>https://www.theverge.com/tech/966120/google-pixel-11-camera-bar-teaser</link>
+    <guid>https://www.theverge.com/tech/966120/google-pixel-11-camera-bar-teaser</guid>
+    <pubDate>Wed, 15 Jul 2026 18:24:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>A new teaser for Google&apos;s upcoming Pixel 11 lineup reveals that the phones will feature some kind of glowing orb on the camera bar, as reported by 9to5Google. Google&apos;s store page for the Pixel 11...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>SpaceX falls to $135 IPO price ahead of Starship launch</title>
+    <link>https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/</link>
+    <guid>https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/</guid>
+    <pubDate>Wed, 15 Jul 2026 18:06:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Thinking Machines Lab Drops Its First Model</title>
+    <link>https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/</link>
+    <guid>https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/</guid>
+    <pubDate>Wed, 15 Jul 2026 18:05:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling</title>
+    <link>https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/</link>
+    <guid>https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/</guid>
+    <pubDate>Wed, 15 Jul 2026 18:04:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>It&apos;s the company&apos;s first public proof point after a year and a half spent building AI infrastructure largely out of public view.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Suno snatched millions of songs from YouTube, Genius, and Deezer</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack</guid>
+    <pubDate>Wed, 15 Jul 2026 17:48:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer,...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>What building Shippy taught us about building agents</title>
@@ -34,57 +214,12 @@
     <category>AI</category>
   </item>
   <item>
-    <title>GitHub for Beginners: Your roadmap to mastering the GitHub essentials</title>
-    <link>https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/</link>
-    <guid>https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/</guid>
-    <pubDate>Wed, 15 Jul 2026 17:29:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">GitHub Blog</source>
-    <description>New to GitHub? This beginner&apos;s guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>From a GEO Guide to a GEO Skill: A Practical Workflow for AI Search</title>
-    <link>https://dev.to/paladini/from-a-geo-guide-to-a-geo-skill-a-practical-workflow-for-ai-search-3b5e</link>
-    <guid>https://dev.to/paladini/from-a-geo-guide-to-a-geo-skill-a-practical-workflow-for-ai-search-3b5e</guid>
-    <pubDate>Wed, 15 Jul 2026 17:27:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR — I recently launched GEO Basics, a free and open-source guide to Generative Engine Optimization in English and Brazilian Portuguese. Now, I have turned that approach into a reusable GEO...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Model Routing Is Simple. Until It Isn’t.</title>
     <link>https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt</link>
     <guid>https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt</guid>
     <pubDate>Wed, 15 Jul 2026 17:27:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Understanding HTML Attributes</title>
-    <link>https://dev.to/abimanyu_p_9e75124634d2a4/html-attributes-fli</link>
-    <guid>https://dev.to/abimanyu_p_9e75124634d2a4/html-attributes-fli</guid>
-    <pubDate>Wed, 15 Jul 2026 17:24:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What are HTML Attributes? HTML attributes provide additional information about an HTML element. They help the browser understand how an element should behave, what extra information it contains,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How I built a lightweight standalone behavioral anti-stealer to protect my Windows environment</title>
-    <link>https://dev.to/scidrow666/how-i-built-a-lightweight-standalone-behavioral-anti-stealer-to-protect-my-windows-environment-b95</link>
-    <guid>https://dev.to/scidrow666/how-i-built-a-lightweight-standalone-behavioral-anti-stealer-to-protect-my-windows-environment-b95</guid>
-    <pubDate>Wed, 15 Jul 2026 17:21:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey everyone, Tired of bloated corporate solutions eating up hundreds of megabytes of RAM just to monitor active local connections, I decided to build a lightweight, standalone behavioral...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Supabase Backups Don&apos;t Include Your Storage Files. Here&apos;s What Does.</title>
-    <link>https://dev.to/superlede/supabase-backups-dont-include-your-storage-files-heres-what-does-14e9</link>
-    <guid>https://dev.to/superlede/supabase-backups-dont-include-your-storage-files-heres-what-does-14e9</guid>
-    <pubDate>Wed, 15 Jul 2026 17:20:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The restore finished clean. pg_restore exited 0, every table came back, row counts matched, the app booted. Twenty minutes later the first support message arrived: profile pictures were broken....</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Lucid’s bankruptcy rumor is a bad sign for the EV future</title>
@@ -96,24 +231,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Mastering Java Loops: Under the Hood, Memory Pitfalls, and High-Scale Optimizations</title>
-    <link>https://dev.to/mithamovictor/mastering-java-loops-under-the-hood-memory-pitfalls-and-high-scale-optimizations-3e16</link>
-    <guid>https://dev.to/mithamovictor/mastering-java-loops-under-the-hood-memory-pitfalls-and-high-scale-optimizations-3e16</guid>
-    <pubDate>Wed, 15 Jul 2026 17:11:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An architectural guide to understanding JVM loop bytecode, avoiding the silent GC traps of autoboxing, and engineering ultra-high-throughput loops. Loops are the fundamental engines of data...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Four Instances, Two Data Centers, One Bug: When Redundancy Isn&apos;t Independence</title>
-    <link>https://dev.to/kkierii/four-instances-two-data-centers-one-bug-when-redundancy-isnt-independence-3dl8</link>
-    <guid>https://dev.to/kkierii/four-instances-two-data-centers-one-bug-when-redundancy-isnt-independence-3dl8</guid>
-    <pubDate>Wed, 15 Jul 2026 17:10:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Four instances of the core service. Two physically separate data centers. And a single operating-system defect degraded the whole thing across an entire state anyway. That&apos;s the one-line version...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer</title>
     <link>https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/</link>
     <guid>https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/</guid>
@@ -121,15 +238,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
     <description>OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest...</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>E3 Strategy Dramatically Improves LLM Agent Efficiency in Engineering Workflows</title>
-    <link>https://dev.to/pneumetron/e3-strategy-dramatically-improves-llm-agent-efficiency-in-engineering-workflows-3c75</link>
-    <guid>https://dev.to/pneumetron/e3-strategy-dramatically-improves-llm-agent-efficiency-in-engineering-workflows-3c75</guid>
-    <pubDate>Wed, 15 Jul 2026 17:08:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What Changed Large language model (LLM) agents are increasingly deployed to automate complex, multi-step engineering and informatics workflows. While powerful, these agents frequently exhibit a...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Hack suggests AI music generator Suno scraped YouTube for training data</title>
@@ -159,120 +267,12 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Microsoft patches record number of security vulnerabilities, citing its use of AI</title>
-    <link>https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/</link>
-    <guid>https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/</guid>
-    <pubDate>Wed, 15 Jul 2026 16:20:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Microsoft&apos;s monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company&apos;s product line, thanks to discoveries with AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Samsung shows off ‘brand new shape’ for Z Fold 8 in Spider-Man teaser</title>
     <link>https://www.theverge.com/tech/965997/samsung-spider-man-galaxy-z-fold-8-teaser</link>
     <guid>https://www.theverge.com/tech/965997/samsung-spider-man-galaxy-z-fold-8-teaser</guid>
     <pubDate>Wed, 15 Jul 2026 16:05:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Samsung gave a sneak peek of the &quot;brand new shape&quot; for its upcoming Galaxy Z Fold 8 in a new teaser for Spider-Man: Brand New Day. The video includes a few shots of Spidey taking a foldable phone...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI finally launches hardware… for Codex</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch</guid>
-    <pubDate>Wed, 15 Jul 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI is finally releasing some hardware. No, it isn&apos;t the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps</title>
-    <link>https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html</link>
-    <guid>https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html</guid>
-    <pubDate>Wed, 15 Jul 2026 15:30:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase. On an infected...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Daylight saving time is a step closer to becoming permanent in the US</title>
-    <link>https://www.theverge.com/policy/965952/daylight-saving-time-permanent-us-house</link>
-    <guid>https://www.theverge.com/policy/965952/daylight-saving-time-permanent-us-house</guid>
-    <pubDate>Wed, 15 Jul 2026 15:29:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The US is getting closer to observing daylight saving time year-round. On Tuesday, the House advanced the Sunshine Protection Act on a 308 to 117 vote, which would turn clocks one hour ahead...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple Intelligence approved for launch in China with Alibaba’s Qwen AI</title>
-    <link>https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/</link>
-    <guid>https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/</guid>
-    <pubDate>Wed, 15 Jul 2026 15:29:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Apple Intelligence is headed to China after regulators approved Apple’s AI services through a partnership with Alibaba. The long-rumored deal will bring Alibaba’s Qwen AI models to Apple’s...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>JBL&amp;#8217;s Flip 7 speaker is small, versatile, and 40 percent off</title>
-    <link>https://www.theverge.com/gadgets/965640/jbl-flip-7-nothing-cmf-buds-pro-2-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/965640/jbl-flip-7-nothing-cmf-buds-pro-2-deal-sale</guid>
-    <pubDate>Wed, 15 Jul 2026 15:16:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Sure, Bluetooth speakers are awesome to have for picturesque beach trips, camping weekends, and other outdoor adventures. But they’re just as good to have for some sprinkler time in the yard with...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>8BitDo’s FlipPad is the most pocketable way to turn your phone into a Game Boy</title>
-    <link>https://www.theverge.com/tech/964658/8bitdo-flippad-controller-gamepad-smartphone-price-hands-on-availability</link>
-    <guid>https://www.theverge.com/tech/964658/8bitdo-flippad-controller-gamepad-smartphone-price-hands-on-availability</guid>
-    <pubDate>Wed, 15 Jul 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Both 8BitDo and GameSir announced tiny gamepads designed to turn smartphones into Game Boy-inspired handhelds at CES 2026. GameSir released its Pocket Taco months ago, but the longer wait for...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws</title>
-    <link>https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html</link>
-    <guid>https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html</guid>
-    <pubDate>Wed, 15 Jul 2026 13:18:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718, an invalid...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models</title>
-    <link>https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/</link>
-    <guid>https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/</guid>
-    <pubDate>Wed, 15 Jul 2026 13:10:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Reelful’s AI turns your camera roll into short-form videos for social media</title>
-    <link>https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/</link>
-    <guid>https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/</guid>
-    <pubDate>Wed, 15 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The app is designed for people who want to create social content, but find traditional video editing tools too complex or time-consuming.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Rime picks up $24M Series A to help enterprises field customer calls</title>
-    <link>https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/</link>
-    <guid>https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/</guid>
-    <pubDate>Wed, 15 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Rime is handling over 100 million calls each month across multiple companies.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The tiniest MMO</title>
-    <link>https://www.theverge.com/entertainment/965621/playdate-mmo-pointlessquest</link>
-    <guid>https://www.theverge.com/entertainment/965621/playdate-mmo-pointlessquest</guid>
-    <pubDate>Wed, 15 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>At its peak, around 12 million people subscribed to World of Warcraft so that they could explore the realm of Azeroth together. The audience for PointlessQuest is quite a bit smaller. On launch...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
