@@ -5,25 +5,178 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 17 Jul 2026 10:11:21 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Jul 2026 14:02:51 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>SBA-7a Loan Stip Fraud Detection: Post-PPP Lessons</title>
-    <link>https://dev.to/iurii_rogulia/sba-7a-loan-stip-fraud-detection-post-ppp-lessons-2ef7</link>
-    <guid>https://dev.to/iurii_rogulia/sba-7a-loan-stip-fraud-detection-post-ppp-lessons-2ef7</guid>
-    <pubDate>Fri, 17 Jul 2026 10:00:39 +0000</pubDate>
+    <title>Five Gemma-4 models, one accelerator: what porting E2B 31B to AWS Inferentia2 taught me</title>
+    <link>https://dev.to/gde/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2gf5</link>
+    <guid>https://dev.to/gde/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2gf5</guid>
+    <pubDate>Fri, 17 Jul 2026 13:39:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at htpbe.tech. The version on htpbe.tech stays in sync with the latest detection algorithm — refer to it for the canonical text. The PPP wave was, in retrospect, the largest...</description>
+    <description>I ported the whole Gemma-4 family — E2B, E4B, 12B, 31B, and the 26B-A4B MoE — to run on AWS Inferentia2. Each has its own write-up in this series; this is the map. What&apos;s shared, what&apos;s different,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Server Components vs Client Components: The Mental Model Shift Every Vite Developer Needs</title>
-    <link>https://dev.to/digitaldev/server-components-vs-client-components-the-mental-model-shift-every-vite-developer-needs-46ak</link>
-    <guid>https://dev.to/digitaldev/server-components-vs-client-components-the-mental-model-shift-every-vite-developer-needs-46ak</guid>
-    <pubDate>Fri, 17 Jul 2026 10:00:14 +0000</pubDate>
+    <title>Show DEV: I built a lightweight, extensible Web Page Builder using React 🚀</title>
+    <link>https://dev.to/ebrahim_elmwafy_5d64d93ce/show-dev-i-built-a-lightweight-extensible-web-page-builder-using-react-6b6</link>
+    <guid>https://dev.to/ebrahim_elmwafy_5d64d93ce/show-dev-i-built-a-lightweight-extensible-web-page-builder-using-react-6b6</guid>
+    <pubDate>Fri, 17 Jul 2026 13:38:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction If you have been building applications using Vite and standard React for the last few years, you’ve likely mastered the Single Page Application (SPA) paradigm. You know that...</description>
+    <description>Hey DEV Community! 👋 I wanted to share a project I&apos;ve been working on recently: Pepsi Page Builder. It’s an open-source, lightweight web page builder designed to help users create responsive...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>HackTheBox : Void Whispers Writeup</title>
+    <link>https://dev.to/exploitnotes/hackthebox-void-whispers-writeup-bh5</link>
+    <guid>https://dev.to/exploitnotes/hackthebox-void-whispers-writeup-bh5</guid>
+    <pubDate>Fri, 17 Jul 2026 13:37:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Summary The &quot;Void Whispers&quot; mail-settings panel passes the user-supplied sendMailPath field directly into shell_exec(&quot;which $sendMailPath&quot;) with no escaping. The app only filters literal...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Generator Internals: Why They Are Lazy and What That Actually Means</title>
+    <link>https://dev.to/ameer_abdullah_68d48c8496/generator-internals-why-they-are-lazy-and-what-that-actually-means-1eh1</link>
+    <guid>https://dev.to/ameer_abdullah_68d48c8496/generator-internals-why-they-are-lazy-and-what-that-actually-means-1eh1</guid>
+    <pubDate>Fri, 17 Jul 2026 13:32:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Tracing a generator&apos;s execution reveals a fundamentally different way Python can run code. A generator function looks like a regular function but behaves in a fundamentally different way....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Godot 4 hitbox and hurtbox the easy way (damage, teams, i-frames, knockback)</title>
+    <link>https://dev.to/saltmire/godot-4-hitbox-and-hurtbox-the-easy-way-damage-teams-i-frames-knockback-1ccj</link>
+    <guid>https://dev.to/saltmire/godot-4-hitbox-and-hurtbox-the-easy-way-damage-teams-i-frames-knockback-1ccj</guid>
+    <pubDate>Fri, 17 Jul 2026 13:31:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Almost every action game needs the same thing: something that deals damage, and something that takes it. In Godot 4 the raw tools are Area2D + CollisionShape2D, but wiring them into a real hit is...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Porting Gemma-4 12B (the encoder-free multimodal one) to AWS Inferentia2</title>
+    <link>https://dev.to/xbill/porting-gemma-4-12b-the-encoder-free-multimodal-one-to-aws-inferentia2-5f19</link>
+    <guid>https://dev.to/xbill/porting-gemma-4-12b-the-encoder-free-multimodal-one-to-aws-inferentia2-5f19</guid>
+    <pubDate>Fri, 17 Jul 2026 13:30:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The middle child of the series. The 12B is the first Gemma-4 that&apos;s neither a MatFormer &quot;effective&quot; model (E2B/E4B) nor a giant (31B/26B) — but it has its own two surprises: it&apos;s packaged as a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>My Inferentia port matched its reference token-for-token — and still output garbage</title>
+    <link>https://dev.to/xbill/my-inferentia-port-matched-its-reference-token-for-token-and-still-output-garbage-16d4</link>
+    <guid>https://dev.to/xbill/my-inferentia-port-matched-its-reference-token-for-token-and-still-output-garbage-16d4</guid>
+    <pubDate>Fri, 17 Jul 2026 13:29:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I ported Google&apos;s biggest open Gemma-4 — the 30-billion-parameter dense model — to AWS Inferentia2. The compiled model passed my strictest check: its output was token-for-token identical to the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Porting a 128-expert MoE (Gemma-4 26B-A4B) to AWS Inferentia2 — where every rank weighted the wrong experts</title>
+    <link>https://dev.to/xbill/porting-a-128-expert-moe-gemma-4-26b-a4b-to-aws-inferentia2-where-every-rank-weighted-the-wrong-2ege</link>
+    <guid>https://dev.to/xbill/porting-a-128-expert-moe-gemma-4-26b-a4b-to-aws-inferentia2-where-every-rank-weighted-the-wrong-2ege</guid>
+    <pubDate>Fri, 17 Jul 2026 13:29:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Of the five Gemma-4 models I ported to AWS Inferentia2, the 26B-A4B was the one that was supposed to be impossible: a Mixture of Experts. It compiled on the first try — then produced nothing. The...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Five Gemma-4 models, one accelerator: what porting E2B 31B to AWS Inferentia2 taught me</title>
+    <link>https://dev.to/aws-builders/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2980</link>
+    <guid>https://dev.to/aws-builders/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2980</guid>
+    <pubDate>Fri, 17 Jul 2026 13:29:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I ported the whole Gemma-4 family — E2B, E4B, 12B, 31B, and the 26B-A4B MoE — to run on AWS Inferentia2. Each has its own write-up in this series; this is the map. What&apos;s shared, what&apos;s different,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Silent Crash: How Hallucinated Tool Breaks AI Agents</title>
+    <link>https://dev.to/keerat_rashid/the-silent-crash-how-hallucinated-tool-breaks-ai-agents-34cc</link>
+    <guid>https://dev.to/keerat_rashid/the-silent-crash-how-hallucinated-tool-breaks-ai-agents-34cc</guid>
+    <pubDate>Fri, 17 Jul 2026 13:27:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>There isn&apos;t one version of this failure, there are three distinct patterns, and they cause different kinds of damage. Calling a tool that doesn&apos;t exist. The agent invokes a function name that was...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Trump is selling high-speed access to his market-moving Truth Social posts</title>
+    <link>https://www.theverge.com/policy/967020/trump-truth-social-api-wall-street-traders</link>
+    <guid>https://www.theverge.com/policy/967020/trump-truth-social-api-wall-street-traders</guid>
+    <pubDate>Fri, 17 Jul 2026 12:49:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Trump Media, the company behind Truth Social, is selling Wall Street faster access to the &quot;most market-moving&quot; posts on the US President&apos;s social media platform. On Thursday, Trump Media announced...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: perimenopause misinformation and China’s latest AI leap</title>
+    <link>https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/</link>
+    <guid>https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/</guid>
+    <pubDate>Fri, 17 Jul 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it....</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Why the first GPU financiers are turning to inference chips in a $400 million deal</title>
+    <link>https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/</link>
+    <guid>https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/</guid>
+    <pubDate>Fri, 17 Jul 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>A $400 million chip-backed loan points to the next wave of AI infrastructure deals.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants</title>
+    <link>https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html</link>
+    <guid>https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html</guid>
+    <pubDate>Fri, 17 Jul 2026 11:44:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?</title>
+    <link>https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html</link>
+    <guid>https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html</guid>
+    <pubDate>Fri, 17 Jul 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Details of Alan Turing’s Voice Encryption System</title>
+    <link>https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html</guid>
+    <pubDate>Fri, 17 Jul 2026 11:02:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Really interesting piece of cryptographic history: In November 2023, a large cache of his wartime papers—nicknamed the “Bayley papers”—was auctioned in London for almost half a million U.S....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The war on ‘woke science’ comes for space research</title>
+    <link>https://www.theverge.com/science/966711/omb-grant-science-space-nasa-planetary-society</link>
+    <guid>https://www.theverge.com/science/966711/omb-grant-science-space-nasa-planetary-society</guid>
+    <pubDate>Fri, 17 Jul 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Trump administration is waging a culture war on science, and the latest salvo is in the form of a dry, bureaucratic proposal from the Office of Management and Budget (OMB) that could threaten...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man</title>
+    <link>https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html</link>
+    <guid>https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html</guid>
+    <pubDate>Fri, 17 Jul 2026 10:53:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>God Of War TV series is recasting Kratos</title>
+    <link>https://www.theverge.com/entertainment/966995/god-of-war-amazon-prime-video-kratos-ryan-hurst-recast</link>
+    <guid>https://www.theverge.com/entertainment/966995/god-of-war-amazon-prime-video-kratos-ryan-hurst-recast</guid>
+    <pubDate>Fri, 17 Jul 2026 10:14:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon&apos;s upcoming God Of War show has hit a major snag - it&apos;s now on the hunt for a new Kratos, after an on-set injury put its current lead actor out of commission. Sons of Anarchy star Ryan Hurst...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>San Francisco Demands Apple and Google Delete AI ‘Nudify’ Apps From App Stores</title>
@@ -35,76 +188,13 @@
     <category>AI</category>
   </item>
   <item>
-    <title>MAD-SHOW Lighting Control Software: A Comprehensive Guide from Beginner to Advanced Features</title>
-    <link>https://dev.to/madshow/mad-show-lighting-control-software-a-comprehensive-guide-from-beginner-to-advanced-features-31hj</link>
-    <guid>https://dev.to/madshow/mad-show-lighting-control-software-a-comprehensive-guide-from-beginner-to-advanced-features-31hj</guid>
-    <pubDate>Fri, 17 Jul 2026 09:51:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a complete introductory guide to the MAD-SHOW lighting control software. Whether you are a beginner new to lighting programming or a professional lighting designer seeking a lighting...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>My Personal AI Stack in 2026</title>
-    <link>https://dev.to/jaideepparashar/my-personal-ai-stack-in-2026-2epn</link>
-    <guid>https://dev.to/jaideepparashar/my-personal-ai-stack-in-2026-2epn</guid>
-    <pubDate>Fri, 17 Jul 2026 09:48:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ask ten AI developers what tools they use, and you&apos;ll probably get ten different answers. The AI ecosystem is evolving so quickly that it&apos;s easy to believe you need every new framework, model, and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The AI Blind Spot: Why &quot;It Works&quot; Isn&apos;t the Same as &quot;It&apos;s Safe to Launch&quot;</title>
-    <link>https://dev.to/nokazehayato/the-ai-blind-spot-why-it-works-isnt-the-same-as-its-safe-to-launch-37h2</link>
-    <guid>https://dev.to/nokazehayato/the-ai-blind-spot-why-it-works-isnt-the-same-as-its-safe-to-launch-37h2</guid>
-    <pubDate>Fri, 17 Jul 2026 09:42:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A few months ago, a founder posted about the SaaS he&apos;d just shipped — built entirely with an AI coding assistant, not a line of it typed by hand. He was proud of it, and he had every right to be....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Choose the Right AI Model for Your Application</title>
-    <link>https://dev.to/gwenj/how-to-choose-the-right-ai-model-for-your-application-5a41</link>
-    <guid>https://dev.to/gwenj/how-to-choose-the-right-ai-model-for-your-application-5a41</guid>
-    <pubDate>Fri, 17 Jul 2026 09:42:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Integrating multiple AI models is not difficult. The real challenge is determining which model is best suited for each task. Many developers choose models based only on benchmarks, brand...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Introduction to Probo-ui — Write HTML Entirely in Python series</title>
-    <link>https://dev.to/mojahid0youness/introduction-to-probo-ui-write-html-entirely-in-python-series-5185</link>
-    <guid>https://dev.to/mojahid0youness/introduction-to-probo-ui-write-html-entirely-in-python-series-5185</guid>
-    <pubDate>Fri, 17 Jul 2026 09:40:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A tutorial series, DEV.to blog series — from your first HTML element to production-grade User Interfaces, all in pure Python. Modern Python web frameworks force developers into a split workflow:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Static Accessibility Scanners Miss What AI Agents Hit</title>
-    <link>https://dev.to/a11ysolutions/why-static-accessibility-scanners-miss-what-ai-agents-hit-2bg0</link>
-    <guid>https://dev.to/a11ysolutions/why-static-accessibility-scanners-miss-what-ai-agents-hit-2bg0</guid>
-    <pubDate>Fri, 17 Jul 2026 09:37:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This button passes every automated accessibility scan we&apos;ve thrown at it: &lt;button class=&quot;btn-primary&quot; type=&quot;button&quot;&gt; Check availability &lt;/button&gt; And it breaks every AI agent that tries to book a...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Add newsletter subscriptions to Rails 8 signups</title>
-    <link>https://dev.to/railsdesigner/add-newsletter-subscriptions-to-rails-8-signups-1lbc</link>
-    <guid>https://dev.to/railsdesigner/add-newsletter-subscriptions-to-rails-8-signups-1lbc</guid>
-    <pubDate>Fri, 17 Jul 2026 09:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Users are creating accounts on your new Saas. Yay (and not just family and friends or bots). Yay! Now comes the next step from every marketing handbook: capturing newsletter subscriptions. This...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Two Bugs, Two Strangers, One Week: What Shipping Early Actually Buys You</title>
-    <link>https://dev.to/chriscompiles/two-bugs-two-strangers-one-week-what-shipping-early-actually-buys-you-16im</link>
-    <guid>https://dev.to/chriscompiles/two-bugs-two-strangers-one-week-what-shipping-early-actually-buys-you-16im</guid>
-    <pubDate>Fri, 17 Jul 2026 09:29:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A week ago I put a rough, honestly-a-bit-thin version of PulseWatch in front of real people for the first time. Within days, two different strangers — independently, unprompted — found two real...</description>
-    <category>Developer Tools</category>
+    <title>A scorecard for the AI age</title>
+    <link>https://openai.com/index/a-scorecard-for-the-ai-age</link>
+    <guid>https://openai.com/index/a-scorecard-for-the-ai-age</guid>
+    <pubDate>Fri, 17 Jul 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>There’s a lot of hype around perimenopause. Don’t buy it.</title>
@@ -132,6 +222,24 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
     <description>Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people...</description>
     <category>AI</category>
+  </item>
+  <item>
+    <title>ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files</title>
+    <link>https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html</link>
+    <guid>https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html</guid>
+    <pubDate>Fri, 17 Jul 2026 08:56:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage</title>
+    <link>https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html</link>
+    <guid>https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html</guid>
+    <pubDate>Fri, 17 Jul 2026 08:46:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV</title>
@@ -167,114 +275,6 @@
     <pubDate>Thu, 16 Jul 2026 21:30:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Get ready for more AI characters in Fortnite. Developer Epic Games is going to let Fortnite creators publish experiences featuring characters with AI-powered voices starting on July 30th, and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Samsung’s 55-inch Frame art TV is $200 cheaper than usual</title>
-    <link>https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale</guid>
-    <pubDate>Thu, 16 Jul 2026 20:47:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Samsung’s Frame is different from your average 4K TV. Its biggest selling point involves what it does when you aren’t actively using it. It can display art, turning your living room into a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Netflix says around 300 titles used generative AI</title>
-    <link>https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings</link>
-    <guid>https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings</guid>
-    <pubDate>Thu, 16 Jul 2026 20:29:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Netflix says roughly 300 titles on its platform used generative AI, most of which occurred in post-production. The streaming service revealed the news in its second-quarter earnings report...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Why are people buying so many CDs?</title>
-    <link>https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate</link>
-    <guid>https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate</guid>
-    <pubDate>Thu, 16 Jul 2026 19:55:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>CD sales are apparently going up, reportedly thanks to fans realizing they&apos;re an affordable way to support their favorite artists. According to a new report from research firm Luminate, 16.3...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Now, even Russia&apos;s most elite hackers are using Clickfix to infect devices</title>
-    <link>https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/</link>
-    <guid>https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/</guid>
-    <pubDate>Thu, 16 Jul 2026 19:28:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>The social-engineering technique has primarily been a tool of financially motivated criminals.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Kalshi says it caught Trump&amp;#8217;s teleprompter operator insider trading</title>
-    <link>https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation</link>
-    <guid>https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation</guid>
-    <pubDate>Thu, 16 Jul 2026 18:43:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Kalshi users betting on what President Donald Trump would say during his speeches were reportedly up against tough competition: the president&apos;s teleprompter operator. ABC News reports that federal...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Here’s Why Anthropic Is Pushing States to Regulate AI Faster</title>
-    <link>https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/</link>
-    <guid>https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/</guid>
-    <pubDate>Thu, 16 Jul 2026 18:35:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The company endorsed landmark AI transparency laws in California and New York last year, but its head of US state and local policy says they may already be outdated.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google Vids now lets you star in your own AI videos</title>
-    <link>https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/</link>
-    <guid>https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/</guid>
-    <pubDate>Thu, 16 Jul 2026 18:32:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Roblox launches an AI-powered game-creation feature in its mobile app</title>
-    <link>https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/</link>
-    <guid>https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/</guid>
-    <pubDate>Thu, 16 Jul 2026 18:22:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Roblox&apos;s new &quot;Build&quot; feature lets users generate basic games using a single text prompt.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>New York governor says she&amp;#8217;s using AI to analyze &amp;#8216;every single rule&amp;#8217; in the state</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies</guid>
-    <pubDate>Thu, 16 Jul 2026 17:58:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she&apos;s not against using the technology herself. During an interview with Bloomberg&apos;s Odd...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Ecovacs&amp;#8217; self-cleaning Deebot X11 has hit a new low price</title>
-    <link>https://www.theverge.com/gadgets/966651/ecovacs-deebot-x11-robot-vacuum-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/966651/ecovacs-deebot-x11-robot-vacuum-deal-sale</guid>
-    <pubDate>Thu, 16 Jul 2026 17:57:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Sometimes it feels like keeping your floors clean is one of those never-ending chores, which is why it&apos;s nice to have a versatile robot vacuum take it off your hands. The Ecovacs Deebot X11...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack</title>
-    <link>https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html</link>
-    <guid>https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html</guid>
-    <pubDate>Thu, 16 Jul 2026 17:09:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Google is better than Apple at playing the AI regulations game</title>
-    <link>https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai</link>
-    <guid>https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai</guid>
-    <pubDate>Thu, 16 Jul 2026 16:55:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Today, the European Union ordered Google to give its AI rivals greater access to Android, the open-source operating system that powers billions of devices worldwide. The demand is hardly...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
