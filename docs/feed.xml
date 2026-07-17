@@ -5,97 +5,213 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 17 Jul 2026 14:02:51 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Jul 2026 17:30:17 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Five Gemma-4 models, one accelerator: what porting E2B 31B to AWS Inferentia2 taught me</title>
-    <link>https://dev.to/gde/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2gf5</link>
-    <guid>https://dev.to/gde/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2gf5</guid>
-    <pubDate>Fri, 17 Jul 2026 13:39:29 +0000</pubDate>
+    <title>RocheDB v0.6.0: Locality Validation, Topology Remapping, and Safer Query Boundaries</title>
+    <link>https://dev.to/puffball1567/rochedb-v060-locality-validation-topology-remapping-and-safer-query-boundaries-2e1g</link>
+    <guid>https://dev.to/puffball1567/rochedb-v060-locality-validation-topology-remapping-and-safer-query-boundaries-2e1g</guid>
+    <pubDate>Fri, 17 Jul 2026 17:27:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I ported the whole Gemma-4 family — E2B, E4B, 12B, 31B, and the 26B-A4B MoE — to run on AWS Inferentia2. Each has its own write-up in this series; this is the map. What&apos;s shared, what&apos;s different,...</description>
+    <description>I released RocheDB v0.6.0. Release: https://github.com/puffball1567/rochedb/releases/tag/v0.6.0 RocheDB is a ring-oriented NoSQL document and vector database written in Nim. The project is still a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Show DEV: I built a lightweight, extensible Web Page Builder using React 🚀</title>
-    <link>https://dev.to/ebrahim_elmwafy_5d64d93ce/show-dev-i-built-a-lightweight-extensible-web-page-builder-using-react-6b6</link>
-    <guid>https://dev.to/ebrahim_elmwafy_5d64d93ce/show-dev-i-built-a-lightweight-extensible-web-page-builder-using-react-6b6</guid>
-    <pubDate>Fri, 17 Jul 2026 13:38:03 +0000</pubDate>
+    <title>I sent an AI agent to buy from real stores. Here&apos;s what actually breaks.</title>
+    <link>https://dev.to/omkarpalika/i-sent-an-ai-agent-to-buy-from-real-stores-heres-what-actually-breaks-4g92</link>
+    <guid>https://dev.to/omkarpalika/i-sent-an-ai-agent-to-buy-from-real-stores-heres-what-actually-breaks-4g92</guid>
+    <pubDate>Fri, 17 Jul 2026 17:20:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey DEV Community! 👋 I wanted to share a project I&apos;ve been working on recently: Pepsi Page Builder. It’s an open-source, lightweight web page builder designed to help users create responsive...</description>
+    <description>AI agents are starting to shop for people. ChatGPT has an operator that clicks around the web. Perplexity ships a &quot;buy&quot; button. Anthropic and others are wiring agents into real checkout flows. If...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>HackTheBox : Void Whispers Writeup</title>
-    <link>https://dev.to/exploitnotes/hackthebox-void-whispers-writeup-bh5</link>
-    <guid>https://dev.to/exploitnotes/hackthebox-void-whispers-writeup-bh5</guid>
-    <pubDate>Fri, 17 Jul 2026 13:37:17 +0000</pubDate>
+    <title>New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens</title>
+    <link>https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html</link>
+    <guid>https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html</guid>
+    <pubDate>Fri, 17 Jul 2026 17:12:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator&apos;s own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>From Curiosity to Community: Why I Started Omnikon</title>
+    <link>https://dev.to/rishibyte/from-curiosity-to-community-why-i-started-omnikon-16kg</link>
+    <guid>https://dev.to/rishibyte/from-curiosity-to-community-why-i-started-omnikon-16kg</guid>
+    <pubDate>Fri, 17 Jul 2026 17:11:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Summary The &quot;Void Whispers&quot; mail-settings panel passes the user-supplied sendMailPath field directly into shell_exec(&quot;which $sendMailPath&quot;) with no escaping. The app only filters literal...</description>
+    <description>I&apos;m a Computer Science student and the founder of Omnikon, an open-source organization built around one idea: students learn the most by building real projects with real people. Like many...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Generator Internals: Why They Are Lazy and What That Actually Means</title>
-    <link>https://dev.to/ameer_abdullah_68d48c8496/generator-internals-why-they-are-lazy-and-what-that-actually-means-1eh1</link>
-    <guid>https://dev.to/ameer_abdullah_68d48c8496/generator-internals-why-they-are-lazy-and-what-that-actually-means-1eh1</guid>
-    <pubDate>Fri, 17 Jul 2026 13:32:00 +0000</pubDate>
+    <title>I Built an Open-Source Seller Earnings Calculator for Software Marketplaces</title>
+    <link>https://dev.to/esde_site/i-built-an-open-source-seller-earnings-calculator-for-software-marketplaces-4d09</link>
+    <guid>https://dev.to/esde_site/i-built-an-open-source-seller-earnings-calculator-for-software-marketplaces-4d09</guid>
+    <pubDate>Fri, 17 Jul 2026 17:11:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tracing a generator&apos;s execution reveals a fundamentally different way Python can run code. A generator function looks like a regular function but behaves in a fundamentally different way....</description>
+    <description>Selling a software product for €49 does not mean the seller earns €49. Marketplace commissions, payment-processing fees, VAT, refunds, affiliate commissions, and fixed transaction costs can reduce...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Godot 4 hitbox and hurtbox the easy way (damage, teams, i-frames, knockback)</title>
-    <link>https://dev.to/saltmire/godot-4-hitbox-and-hurtbox-the-easy-way-damage-teams-i-frames-knockback-1ccj</link>
-    <guid>https://dev.to/saltmire/godot-4-hitbox-and-hurtbox-the-easy-way-damage-teams-i-frames-knockback-1ccj</guid>
-    <pubDate>Fri, 17 Jul 2026 13:31:30 +0000</pubDate>
+    <title>Dev Opportunity Radar #8: OpenAI Build Week, AIAF Fellowship, The Residency &amp; AI Dev Tools Zoomcamp</title>
+    <link>https://dev.to/devengers/dev-opportunity-radar-8-openai-build-week-aiaf-fellowship-the-residency-ai-dev-tools-zoomcamp-5bpc</link>
+    <guid>https://dev.to/devengers/dev-opportunity-radar-8-openai-build-week-aiaf-fellowship-the-residency-ai-dev-tools-zoomcamp-5bpc</guid>
+    <pubDate>Fri, 17 Jul 2026 17:11:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Almost every action game needs the same thing: something that deals damage, and something that takes it. In Godot 4 the raw tools are Area2D + CollisionShape2D, but wiring them into a real hit is...</description>
+    <description>TL;DR Welcome back to Dev Opportunity Radar. This is a weekly series where I share opportunities, resources, communities, and interesting finds that I come across, with the goal of helping people...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Porting Gemma-4 12B (the encoder-free multimodal one) to AWS Inferentia2</title>
-    <link>https://dev.to/xbill/porting-gemma-4-12b-the-encoder-free-multimodal-one-to-aws-inferentia2-5f19</link>
-    <guid>https://dev.to/xbill/porting-gemma-4-12b-the-encoder-free-multimodal-one-to-aws-inferentia2-5f19</guid>
-    <pubDate>Fri, 17 Jul 2026 13:30:09 +0000</pubDate>
+    <title>Contribute to Omnikon in GSSoC 2026</title>
+    <link>https://dev.to/rishibyte/contribute-to-omnikon-in-gssoc-2026-1occ</link>
+    <guid>https://dev.to/rishibyte/contribute-to-omnikon-in-gssoc-2026-1occ</guid>
+    <pubDate>Fri, 17 Jul 2026 17:09:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The middle child of the series. The 12B is the first Gemma-4 that&apos;s neither a MatFormer &quot;effective&quot; model (E2B/E4B) nor a giant (31B/26B) — but it has its own two surprises: it&apos;s packaged as a...</description>
+    <description>🚀 Contribute to Omnikon in GSSoC 2026 Looking to make meaningful open-source contributions this GSSoC? We&apos;d love to have you at Omnikon. Our organization is focused on building practical tools and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My Inferentia port matched its reference token-for-token — and still output garbage</title>
-    <link>https://dev.to/xbill/my-inferentia-port-matched-its-reference-token-for-token-and-still-output-garbage-16d4</link>
-    <guid>https://dev.to/xbill/my-inferentia-port-matched-its-reference-token-for-token-and-still-output-garbage-16d4</guid>
-    <pubDate>Fri, 17 Jul 2026 13:29:49 +0000</pubDate>
+    <title>Construindo um assistente pessoal 100% local com Ollama, LangChain e voz — e as armadilhas que ninguém conta</title>
+    <link>https://dev.to/lincoln_romais/construindo-um-assistente-pessoal-100-local-com-ollama-langchain-e-voz-e-as-armadilhas-que-df4</link>
+    <guid>https://dev.to/lincoln_romais/construindo-um-assistente-pessoal-100-local-com-ollama-langchain-e-voz-e-as-armadilhas-que-df4</guid>
+    <pubDate>Fri, 17 Jul 2026 17:05:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I ported Google&apos;s biggest open Gemma-4 — the 30-billion-parameter dense model — to AWS Inferentia2. The compiled model passed my strictest check: its output was token-for-token identical to the...</description>
+    <description>Construindo um JARVIS local: agentes, voz e as armadilhas dos LLMs pequenos Nos últimos dias montei um assistente pessoal do zero rodando 100% na minha máquina — sem chamadas pra API paga, sem...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Porting a 128-expert MoE (Gemma-4 26B-A4B) to AWS Inferentia2 — where every rank weighted the wrong experts</title>
-    <link>https://dev.to/xbill/porting-a-128-expert-moe-gemma-4-26b-a4b-to-aws-inferentia2-where-every-rank-weighted-the-wrong-2ege</link>
-    <guid>https://dev.to/xbill/porting-a-128-expert-moe-gemma-4-26b-a4b-to-aws-inferentia2-where-every-rank-weighted-the-wrong-2ege</guid>
-    <pubDate>Fri, 17 Jul 2026 13:29:28 +0000</pubDate>
+    <title>Linux Foundation x402 protocol enables native AI payments</title>
+    <link>https://dev.to/vpodk/linux-foundation-x402-protocol-enables-native-ai-payments-4pgo</link>
+    <guid>https://dev.to/vpodk/linux-foundation-x402-protocol-enables-native-ai-payments-4pgo</guid>
+    <pubDate>Fri, 17 Jul 2026 17:02:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Of the five Gemma-4 models I ported to AWS Inferentia2, the 26B-A4B was the one that was supposed to be impossible: a Mixture of Experts. It compiled on the first try — then produced nothing. The...</description>
+    <description>The Linux Foundation has officially launched the x402 Foundation to oversee a new open standard for digital transactions. This protocol allows artificial intelligence agents, applications, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Five Gemma-4 models, one accelerator: what porting E2B 31B to AWS Inferentia2 taught me</title>
-    <link>https://dev.to/aws-builders/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2980</link>
-    <guid>https://dev.to/aws-builders/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2980</guid>
-    <pubDate>Fri, 17 Jul 2026 13:29:07 +0000</pubDate>
+    <title>Modern Compute Strategies for Agentic Workloads</title>
+    <link>https://dev.to/vpodk/modern-compute-strategies-for-agentic-workloads-58cm</link>
+    <guid>https://dev.to/vpodk/modern-compute-strategies-for-agentic-workloads-58cm</guid>
+    <pubDate>Fri, 17 Jul 2026 17:02:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I ported the whole Gemma-4 family — E2B, E4B, 12B, 31B, and the 26B-A4B MoE — to run on AWS Inferentia2. Each has its own write-up in this series; this is the map. What&apos;s shared, what&apos;s different,...</description>
+    <description>The rapid rise of AI agents is fundamentally shifting how engineers think about cloud infrastructure and resource management. While Kubernetes served as the standard for container orchestration...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Silent Crash: How Hallucinated Tool Breaks AI Agents</title>
-    <link>https://dev.to/keerat_rashid/the-silent-crash-how-hallucinated-tool-breaks-ai-agents-34cc</link>
-    <guid>https://dev.to/keerat_rashid/the-silent-crash-how-hallucinated-tool-breaks-ai-agents-34cc</guid>
-    <pubDate>Fri, 17 Jul 2026 13:27:35 +0000</pubDate>
+    <title>ISO Standardizes Classic McEliece for Post-Quantum Security</title>
+    <link>https://dev.to/vpodk/iso-standardizes-classic-mceliece-for-post-quantum-security-3m4j</link>
+    <guid>https://dev.to/vpodk/iso-standardizes-classic-mceliece-for-post-quantum-security-3m4j</guid>
+    <pubDate>Fri, 17 Jul 2026 17:02:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There isn&apos;t one version of this failure, there are three distinct patterns, and they cause different kinds of damage. Calling a tool that doesn&apos;t exist. The agent invokes a function name that was...</description>
+    <description>The International Organization for Standardization recently integrated the Classic McEliece algorithm into the ISO-IEC 18033-2 standard for asymmetric ciphers. This official inclusion provides a...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Asus’ top-end 4K QD-OLED gaming monitor is $400 off</title>
+    <link>https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale</guid>
+    <pubDate>Fri, 17 Jul 2026 16:47:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor has almost everything I want in a high-end gaming monitor, most notably a QD-OLED panel for inky black levels and vivid colors that go beyond...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft</title>
+    <link>https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html</link>
+    <guid>https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html</guid>
+    <pubDate>Fri, 17 Jul 2026 16:39:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers</title>
+    <link>https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel</link>
+    <guid>https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel</guid>
+    <pubDate>Fri, 17 Jul 2026 15:57:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Samsung&amp;#8217;s redesigned Z Fold 8 with a wide display just leaked</title>
+    <link>https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak</link>
+    <guid>https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak</guid>
+    <pubDate>Fri, 17 Jul 2026 15:52:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Leaker Evan Blass shared images of Samsung&apos;s redesigned Galaxy Z Fold 8 just days before the July 22nd launch event where Samsung is expected to officially announce the phone. The leaked images...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Is America ready for this quirky Jeep-looking EV that can park itself?</title>
+    <link>https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price</link>
+    <guid>https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price</guid>
+    <pubDate>Fri, 17 Jul 2026 15:48:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Are we living through a small car renaissance? There&apos;s the Slate Truck, Amble&apos;s dune buggy, and the Fiat Topolino, as well as a whole galaxy of kei cars and trucks from Japan that have their own...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware</title>
+    <link>https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest</link>
+    <guid>https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest</guid>
+    <pubDate>Fri, 17 Jul 2026 15:34:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Federal authorities have arrested a Florida man suspected of stealing at least $220,000 in crypto through malware-infected Steam games, as reported earlier by local news outlet Local10. In the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Patreon stops asking AI bots not to scrape — and starts blocking them</title>
+    <link>https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/</link>
+    <guid>https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/</guid>
+    <pubDate>Fri, 17 Jul 2026 15:21:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Over half a million power tool batteries have been recalled due to a USB-C charging fire risk</title>
+    <link>https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall</link>
+    <guid>https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall</guid>
+    <pubDate>Fri, 17 Jul 2026 14:05:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Greenworks Tools has issued a recall for around 554,780 Kobalt-branded power tools designed for yard work because of a battery issue &quot;posing a risk of serious injury from fire hazard.&quot; There have...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Bethesda teases Fallout 5 soon after Xbox’s mass layoffs</title>
+    <link>https://www.theverge.com/entertainment/966724/fallout-5-bethesda</link>
+    <guid>https://www.theverge.com/entertainment/966724/fallout-5-bethesda</guid>
+    <pubDate>Fri, 17 Jul 2026 14:00:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Xbox is currently in a &quot;reset&quot; period that includes laying off around 3,200 employees over the next year, involving deep cuts at beloved studios like id Software and Obsidian Entertainment. Now,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The manosphere&amp;#8217;s testosterone fever is coming for the troops</title>
+    <link>https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops</link>
+    <guid>https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops</guid>
+    <pubDate>Fri, 17 Jul 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&apos;re going to change your life. Opt in...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images</title>
+    <link>https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html</link>
+    <guid>https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html</guid>
+    <pubDate>Fri, 17 Jul 2026 13:48:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM</title>
+    <link>https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review</link>
+    <guid>https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review</guid>
+    <pubDate>Fri, 17 Jul 2026 13:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Last year, Microsoft&apos;s 13-inch Surface Laptop quickly became one of my favorite thin-and-light Windows notebooks. At $900, it was easy to recommend to anyone wanting MacBook Air-like build quality...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Trump is selling high-speed access to his market-moving Truth Social posts</title>
@@ -158,123 +274,6 @@
     <pubDate>Fri, 17 Jul 2026 11:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The Trump administration is waging a culture war on science, and the latest salvo is in the form of a dry, bureaucratic proposal from the Office of Management and Budget (OMB) that could threaten...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man</title>
-    <link>https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html</link>
-    <guid>https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html</guid>
-    <pubDate>Fri, 17 Jul 2026 10:53:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>God Of War TV series is recasting Kratos</title>
-    <link>https://www.theverge.com/entertainment/966995/god-of-war-amazon-prime-video-kratos-ryan-hurst-recast</link>
-    <guid>https://www.theverge.com/entertainment/966995/god-of-war-amazon-prime-video-kratos-ryan-hurst-recast</guid>
-    <pubDate>Fri, 17 Jul 2026 10:14:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon&apos;s upcoming God Of War show has hit a major snag - it&apos;s now on the hunt for a new Kratos, after an on-set injury put its current lead actor out of commission. Sons of Anarchy star Ryan Hurst...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>San Francisco Demands Apple and Google Delete AI ‘Nudify’ Apps From App Stores</title>
-    <link>https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/</link>
-    <guid>https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/</guid>
-    <pubDate>Fri, 17 Jul 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The City Attorney’s Office sent the tech giants cease-and-desist letters this week telling them to stop profiting from 13 “face-swap” apps that are overwhelmingly used to target women and girls.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A scorecard for the AI age</title>
-    <link>https://openai.com/index/a-scorecard-for-the-ai-age</link>
-    <guid>https://openai.com/index/a-scorecard-for-the-ai-age</guid>
-    <pubDate>Fri, 17 Jul 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>There’s a lot of hype around perimenopause. Don’t buy it.</title>
-    <link>https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/</link>
-    <guid>https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/</guid>
-    <pubDate>Fri, 17 Jul 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War</title>
-    <link>https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/</link>
-    <guid>https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/</guid>
-    <pubDate>Fri, 17 Jul 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The CEO of Foundation Future Industries, which counts the president’s son as its chief strategy adviser, tells WIRED it’s exploring some “kinetic things.”</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The risk of weather data sabotage is rising</title>
-    <link>https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/</link>
-    <guid>https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/</guid>
-    <pubDate>Fri, 17 Jul 2026 08:57:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files</title>
-    <link>https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html</link>
-    <guid>https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html</guid>
-    <pubDate>Fri, 17 Jul 2026 08:56:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage</title>
-    <link>https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html</link>
-    <guid>https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html</guid>
-    <pubDate>Fri, 17 Jul 2026 08:46:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV</title>
-    <link>https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html</link>
-    <guid>https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html</guid>
-    <pubDate>Fri, 17 Jul 2026 06:42:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV)...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis</title>
-    <link>https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/</link>
-    <guid>https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/</guid>
-    <pubDate>Thu, 16 Jul 2026 22:17:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>On today’s Uncanny Valley, we unpack OpenAI’s ongoing drama, both legal and reputational, and whether these developments could further hurt the company—particularly in its fight against Anthropic.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs</title>
-    <link>https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/</link>
-    <guid>https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/</guid>
-    <pubDate>Thu, 16 Jul 2026 22:02:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Resellers threatened to ditch HP printing supplies for counterfeits.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Fortnite is getting a bunch of AI-powered ‘personas’</title>
-    <link>https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas</link>
-    <guid>https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas</guid>
-    <pubDate>Thu, 16 Jul 2026 21:30:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Get ready for more AI characters in Fortnite. Developer Epic Games is going to let Fortnite creators publish experiences featuring characters with AI-powered voices starting on July 30th, and...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
