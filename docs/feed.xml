@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 18 Jul 2026 13:49:03 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 18 Jul 2026 17:13:56 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Manual vs Generated OAuth Scopes: Lessons Learned While Building an Identity Platform</title>
-    <link>https://dev.to/oleg_ivanov_a662b77fe36b2/manual-vs-generated-oauth-scopes-lessons-learned-while-building-an-identity-platform-314h</link>
-    <guid>https://dev.to/oleg_ivanov_a662b77fe36b2/manual-vs-generated-oauth-scopes-lessons-learned-while-building-an-identity-platform-314h</guid>
-    <pubDate>Sat, 18 Jul 2026 13:42:23 +0000</pubDate>
+    <title>Stronger application-layer types remove impossible states</title>
+    <link>https://dev.to/lksvn/stronger-application-layer-types-remove-impossible-states-53m4</link>
+    <guid>https://dev.to/lksvn/stronger-application-layer-types-remove-impossible-states-53m4</guid>
+    <pubDate>Sat, 18 Jul 2026 17:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>OAuth scopes have been part of authorization systems for years, and almost every identity provider manages them as independent objects. For small applications, this approach works perfectly....</description>
+    <description>Today I completed a small Company write vertical slice in TypeScript, from business validation to PostgreSQL persistence. One detail clarified why application services are more than repository...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Weighted Averages Lie About AI Readiness — The Case for Bottleneck Scoring</title>
-    <link>https://dev.to/yun_bow/weighted-averages-lie-about-ai-readiness-the-case-for-bottleneck-scoring-2595</link>
-    <guid>https://dev.to/yun_bow/weighted-averages-lie-about-ai-readiness-the-case-for-bottleneck-scoring-2595</guid>
-    <pubDate>Sat, 18 Jul 2026 13:38:49 +0000</pubDate>
+    <title>LLD Domain Modeling: The Complete Mental Framework (How to Think in Any System Design Problem)</title>
+    <link>https://dev.to/saras_growth_space/lld-domain-modeling-the-complete-mental-framework-how-to-think-in-any-system-design-problem-5e16</link>
+    <guid>https://dev.to/saras_growth_space/lld-domain-modeling-the-complete-mental-framework-how-to-think-in-any-system-design-problem-5e16</guid>
+    <pubDate>Sat, 18 Jul 2026 17:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hook Most self-assessment tools score you the same way: answer questions, multiply by weights, sum it up. Higher total = more ready. That model has a structural flaw. A team that doesn&apos;t use Git —...</description>
+    <description>This is the final consolidation of everything in Domain Modeling. If you understand this structure deeply, you don’t need to memorize LLD patterns anymore. You can derive them. The Core Idea of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Shipping With No Analytics</title>
-    <link>https://dev.to/grommash9/shipping-with-no-analytics-4ba8</link>
-    <guid>https://dev.to/grommash9/shipping-with-no-analytics-4ba8</guid>
-    <pubDate>Sat, 18 Jul 2026 13:35:23 +0000</pubDate>
+    <title>The Bug Was in the Grader</title>
+    <link>https://dev.to/nabbilkhan/the-bug-was-in-the-grader-5614</link>
+    <guid>https://dev.to/nabbilkhan/the-bug-was-in-the-grader-5614</guid>
+    <pubDate>Sat, 18 Jul 2026 16:49:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I launched my app I made a decision I was quietly proud of — no analytics, nothing tracked, no data collection at all. I&apos;m the privacy guy, right, the users own their data and I don&apos;t spy on...</description>
+    <description>The most expensive bug I shipped last month was not in a model, and it was not in a prompt. It was in the thing doing the grading. I found it three times, in three different businesses, in the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Art of Digital Minimalism: How to Stay Focused in a World of Noise</title>
-    <link>https://dev.to/pargati_hub_0705c4e214ebe/the-art-of-digital-minimalism-how-to-stay-focused-in-a-world-of-noise-183g</link>
-    <guid>https://dev.to/pargati_hub_0705c4e214ebe/the-art-of-digital-minimalism-how-to-stay-focused-in-a-world-of-noise-183g</guid>
-    <pubDate>Sat, 18 Jul 2026 13:30:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In an era where our pockets vibrate with the constant hum of notifications and our screens are designed to keep us scrolling indefinitely, silence has become a luxury. We live in a world of...</description>
+    <title>OpenEvidence is bribing spouses of CMI and Genentech leadership</title>
+    <link>https://news.ycombinator.com/item?id=48959765</link>
+    <guid>https://news.ycombinator.com/item?id=48959765</guid>
+    <pubDate>Sat, 18 Jul 2026 16:48:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>OpenEvidence is bribing spouses of CMI and Genentech leadership to block competitors Comments URL: https://news.ycombinator.com/item?id=48959765 Points: 3 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Architecting lean LLM caching: how to drop a 20M-row table without losing your AI memory</title>
-    <link>https://dev.to/wondadav/architecting-lean-llm-caching-how-to-drop-a-20m-row-table-without-losing-your-ai-memory-3g2n</link>
-    <guid>https://dev.to/wondadav/architecting-lean-llm-caching-how-to-drop-a-20m-row-table-without-losing-your-ai-memory-3g2n</guid>
-    <pubDate>Sat, 18 Jul 2026 13:28:25 +0000</pubDate>
+    <title>I Built a Password Strength Checker That Actually Works (Here&apos;s Why Most Fail)</title>
+    <link>https://dev.to/swift242/i-built-a-password-strength-checker-that-actually-works-heres-why-most-fail-25kj</link>
+    <guid>https://dev.to/swift242/i-built-a-password-strength-checker-that-actually-works-heres-why-most-fail-25kj</guid>
+    <pubDate>Sat, 18 Jul 2026 16:45:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Any team running an agentic pipeline on a periodically-reloaded dataset caches the output of inputs that repeat across periods to save cost. How you store that cache matters. Storing it in the...</description>
+    <description>Here&apos;s the dirty secret of password security: those little bars that turn green when you add an exclamation mark or a number are basically fancy lies. You know the drill&quot;Password must be 8+...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Don’t Use console.log for Logging: What Vercel’s Founder Warned About</title>
-    <link>https://dev.to/biomathcode/dont-use-consolelog-for-logging-what-vercels-founder-warned-about-1n46</link>
-    <guid>https://dev.to/biomathcode/dont-use-consolelog-for-logging-what-vercels-founder-warned-about-1n46</guid>
-    <pubDate>Sat, 18 Jul 2026 13:22:36 +0000</pubDate>
+    <title>Apache Data Lakehouse Weekly: July 11 to July 18, 2026</title>
+    <link>https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-july-11-to-july-18-2026-3f1p</link>
+    <guid>https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-july-11-to-july-18-2026-3f1p</guid>
+    <pubDate>Sat, 18 Jul 2026 16:44:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I used AI for formatting and grammar. Recently came across this x thread by Pooya Parsa(@_pi0_). He is an open source developer of multiple libraries eg. nitrojsdev, unjs. He trying to solve the...</description>
+    <description>The open lakehouse stack spent this week arguing about what belongs in a spec and what belongs in a release. Iceberg contributors opened a formal push to remove equality deletes from the V4 spec,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Technical Leadership vs. Managerial Leadership: Chart Your Career Path</title>
-    <link>https://dev.to/merbayerp/technical-leadership-vs-managerial-leadership-chart-your-career-path-2o13</link>
-    <guid>https://dev.to/merbayerp/technical-leadership-vs-managerial-leadership-chart-your-career-path-2o13</guid>
-    <pubDate>Sat, 18 Jul 2026 13:18:44 +0000</pubDate>
+    <title>Google is open-sourcing its 3D emoji</title>
+    <link>https://www.theverge.com/design/967606/google-open-source-3d-emoji</link>
+    <guid>https://www.theverge.com/design/967606/google-open-source-3d-emoji</guid>
+    <pubDate>Sat, 18 Jul 2026 16:40:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Now, if you want to, you can use Google&apos;s 3D emoji in your own creations. The company shared some details about how it went about designing the little pictograms and why, as part of World Emoji...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Instrumenting a Go API with Prometheus</title>
+    <link>https://dev.to/yarkhan02/instrumenting-a-go-api-with-prometheus-4d45</link>
+    <guid>https://dev.to/yarkhan02/instrumenting-a-go-api-with-prometheus-4d45</guid>
+    <pubDate>Sat, 18 Jul 2026 16:40:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I received an offer to lead a team developing a new module for a production ERP, two different paths emerged in my mind: deepening my existing technical expertise to become a &apos;Technical...</description>
+    <description>Exposing a /metrics endpoint takes five minutes. Getting the instrumentation itself right — metrics that stay cheap at scale, catch real problems, and don&apos;t lie under load. Here&apos;s a breakdown of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Can Codex Build an Entire x86 Assembly Game Autonomously? A Real-World Experiment</title>
-    <link>https://dev.to/mbostjan/can-codex-build-an-entire-x86-assembly-game-autonomously-a-real-world-experiment-mik</link>
-    <guid>https://dev.to/mbostjan/can-codex-build-an-entire-x86-assembly-game-autonomously-a-real-world-experiment-mik</guid>
-    <pubDate>Sat, 18 Jul 2026 13:18:17 +0000</pubDate>
+    <title>Introducing Light — A New Programming Language</title>
+    <link>https://dev.to/aswinmrajeev/introducing-light-a-new-programming-language-ghd</link>
+    <guid>https://dev.to/aswinmrajeev/introducing-light-a-new-programming-language-ghd</guid>
+    <pubDate>Sat, 18 Jul 2026 16:39:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Can Codex Build an Entire x86 Assembly Game Autonomously? Most demonstrations of AI coding focus on generating snippets of code, building CRUD applications, or creating small projects in modern...</description>
+    <description>Over the past 9 months, I&apos;ve been designing and developing Light, a programming language with the long-term vision of making script automation more structured, consistent, and easier to build and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Your Kafka Stack Is Holding You Back (And How to Fix It)</title>
-    <link>https://dev.to/zeliotofficial/why-your-kafka-stack-is-holding-you-back-and-how-to-fix-it-1gh4</link>
-    <guid>https://dev.to/zeliotofficial/why-your-kafka-stack-is-holding-you-back-and-how-to-fix-it-1gh4</guid>
-    <pubDate>Sat, 18 Jul 2026 13:14:23 +0000</pubDate>
+    <title>geomap-engine: fusing AR pose + object detections into a 2D map, in Rust</title>
+    <link>https://dev.to/bibek_ghimire_aa80c2f89f9/geomap-engine-fusing-ar-pose-object-detections-into-a-2d-map-in-rust-47nb</link>
+    <guid>https://dev.to/bibek_ghimire_aa80c2f89f9/geomap-engine-fusing-ar-pose-object-detections-into-a-2d-map-in-rust-47nb</guid>
+    <pubDate>Sat, 18 Jul 2026 16:36:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Apache Kafka remains foundational but managing it alone is complex and inadequate for modern real-time needs. Condense modernizes Kafka by providing a fully managed, Kafka-native streaming...</description>
+    <description>Every AR toolkit (ARKit, ARCore, RoomPlan, Polycam) bundles SLAM, object detection, and a UI into one closed, heavyweight package. If you just want the middle piece — turn a stream of {camera...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I kept losing the things AI made for me, so I built an iPhone library for them</title>
-    <link>https://dev.to/spingras/i-kept-losing-the-things-ai-made-for-me-so-i-built-an-iphone-library-for-them-4pe7</link>
-    <guid>https://dev.to/spingras/i-kept-losing-the-things-ai-made-for-me-so-i-built-an-iphone-library-for-them-4pe7</guid>
-    <pubDate>Sat, 18 Jul 2026 13:13:22 +0000</pubDate>
+    <title>HI !! Let&apos;s start OOP simply.</title>
+    <link>https://dev.to/roqia_ibahim_d3c8be9de97a/hi-lets-start-oop-simply-5ej</link>
+    <guid>https://dev.to/roqia_ibahim_d3c8be9de97a/hi-lets-start-oop-simply-5ej</guid>
+    <pubDate>Sat, 18 Jul 2026 16:36:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I use Claude and other AIs all the time. A single chat will give me a component. Another will give me a small Python script, Mermaid diagram, Markdown file, or utility that addresses the issue I...</description>
+    <description>OOPاول ما بنبدأ نتعلم ::بنقابل كلمتين مشهورين جدا وهما CLASSES OBJECTS ؟؟؟👀👀OOPطب ما تيجوا فى البداية نعرف يعنى ايه ال :::يسيدى يعنى OOP ”programming paradigm based on concept of “OBJECTS” “ . OR...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>GoPro&amp;#8217;s discounted Max 2 bundle includes $100 worth of accessories</title>
+    <link>https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale</guid>
+    <pubDate>Sat, 18 Jul 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>A 360-degree camera is a great way to ensure you capture every bit of the action, but prices tend to be on the high end for models worth your attention. That’s why it’s notable that the GoPro Max...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time</title>
+    <link>https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview</link>
+    <guid>https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview</guid>
+    <pubDate>Sat, 18 Jul 2026 14:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Carter Sherman has been covering sex, gender, and the complex personal and national politics that accompany them for years. She was a senior reporter for Vice and has written for Elle, Ms....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Surprise! Facial recognition smart locks are actually good</title>
+    <link>https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review</link>
+    <guid>https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review</guid>
+    <pubDate>Sat, 18 Jul 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hands-free unlocking is the future of smart locks. The best smart home tech removes friction, and having your door unlock for you as you walk up is as frictionless as it gets - no passcodes to...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Sony’s flagship RGB LED TV is incredible</title>
@@ -240,42 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Agility is opening a new training center for its Digit robots in Fremont, California.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Shark&amp;#8217;s versatile ChillPill cooling system is back to its best price</title>
-    <link>https://www.theverge.com/gadgets/967512/shark-chillpill-personal-fan-and-cooling-system-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/967512/shark-chillpill-personal-fan-and-cooling-system-deal-sale</guid>
-    <pubDate>Fri, 17 Jul 2026 20:15:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Portable fans are one of the easiest ways to stay cool during the summer, and you don’t have to spend much to find a decent one. If you’re looking for something more versatile, though, Shark’s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AI-driven memory crunch jolts India’s smartphone market</title>
-    <link>https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/</link>
-    <guid>https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/</guid>
-    <pubDate>Fri, 17 Jul 2026 20:09:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>India&apos;s smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>TikTok is testing an AI likeness detection tool</title>
-    <link>https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool</link>
-    <guid>https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool</guid>
-    <pubDate>Fri, 17 Jul 2026 19:34:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Pebble founder Eric Migicovsky says his 30-day warranty is all about trust</title>
-    <link>https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview</link>
-    <guid>https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview</guid>
-    <pubDate>Fri, 17 Jul 2026 19:14:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Pebble founder Eric Migicovsky says buyers of its new e-paper smartwatches should know what they&apos;re signing up for and trust Pebble to make things right if they run into issues, despite the short...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
