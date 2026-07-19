@@ -5,70 +5,160 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 19 Jul 2026 13:53:05 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 19 Jul 2026 17:15:33 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>From a Warehouse Floor to the Microsoft Store - PC Workman Marcin Firmuga</title>
-    <link>https://dev.to/huckler/from-a-warehouse-floor-to-the-microsoft-store-pc-workman-marcin-firmuga-8aa</link>
-    <guid>https://dev.to/huckler/from-a-warehouse-floor-to-the-microsoft-store-pc-workman-marcin-firmuga-8aa</guid>
-    <pubDate>Sun, 19 Jul 2026 13:39:57 +0000</pubDate>
+    <title>NGINX Abuse Guard Module: Auto-Ban Scanners and Bots</title>
+    <link>https://dev.to/dvershinin/nginx-abuse-guard-module-auto-ban-scanners-and-bots-3a93</link>
+    <guid>https://dev.to/dvershinin/nginx-abuse-guard-module-auto-ban-scanners-and-bots-3a93</guid>
+    <pubDate>Sun, 19 Jul 2026 17:06:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on pcworkman.dev. Hire me! - LinkedIn :) There is a temperature a cheap laptop reaches right before it gives up. Mine hits it at 94°C. Fans scream. For most of last year, that...</description>
+    <description>Open your NGINX error log on any public server and you will see the same thing: a steady drip of 404s probing for /wp-login.php, /.env, /phpmyadmin, and a thousand other paths that do not exist on...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Solved Reef Technologies’ Recruitment Game — and Learned to Evaluate the Hiring Process Too</title>
-    <link>https://dev.to/efa/i-solved-reef-technologies-recruitment-game-and-learned-to-evaluate-the-hiring-process-too-3f0g</link>
-    <guid>https://dev.to/efa/i-solved-reef-technologies-recruitment-game-and-learned-to-evaluate-the-hiring-process-too-3f0g</guid>
-    <pubDate>Sun, 19 Jul 2026 13:38:53 +0000</pubDate>
+    <title>Build a Forum Site with GitHub Discussions (No Backend or Database)</title>
+    <link>https://dev.to/notreeceharris/build-a-forum-site-with-github-discussions-no-backend-or-database-5hc0</link>
+    <guid>https://dev.to/notreeceharris/build-a-forum-site-with-github-discussions-no-backend-or-database-5hc0</guid>
+    <pubDate>Sun, 19 Jul 2026 17:04:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>⚖ Context note. This is my personal account of a recruitment process with Reef Technologies in June–July 2026. It combines facts from my correspondence, my own interpretation of the experience,...</description>
+    <description>Community forums are still one of the best ways to collect feedback, answer questions, and build discussions around a project. The problem is that most forum software comes with a lot of overhead....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Designing Safe API Boundaries for a Multi-Pair Spot Trading Bot</title>
-    <link>https://dev.to/weekendly/designing-safe-api-boundaries-for-a-multi-pair-spot-trading-bot-3cho</link>
-    <guid>https://dev.to/weekendly/designing-safe-api-boundaries-for-a-multi-pair-spot-trading-bot-3cho</guid>
-    <pubDate>Sun, 19 Jul 2026 13:35:53 +0000</pubDate>
+    <title>Chat with Your Documents: Building a RAG Pipeline with AWS Blocks</title>
+    <link>https://dev.to/saddamazad/chat-with-your-documents-building-a-rag-pipeline-with-aws-blocks-4jf3</link>
+    <guid>https://dev.to/saddamazad/chat-with-your-documents-building-a-rag-pipeline-with-aws-blocks-4jf3</guid>
+    <pubDate>Sun, 19 Jul 2026 17:01:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I’m building NOVA, a Telegram-based system for automating repeatable Spot trading cycles. The project did not start as an attempt to predict the market or generate trading signals. The original...</description>
+    <description>One of the first features users expect from an AI application is deceptively simple: Upload a document. Ask questions. Get accurate answers. Whether you&apos;re building an internal knowledge portal,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Browser OS Redefined: The Desktop Metaphor Doesn&apos;t Quite Fit a 5&quot; Screen Browser</title>
-    <link>https://dev.to/edmundsparrow/browser-os-redefined-the-desktop-metaphor-doesnt-quite-fit-a-5-screen-browser-4hg1</link>
-    <guid>https://dev.to/edmundsparrow/browser-os-redefined-the-desktop-metaphor-doesnt-quite-fit-a-5-screen-browser-4hg1</guid>
-    <pubDate>Sun, 19 Jul 2026 13:34:01 +0000</pubDate>
+    <title>Laravel Request Lifecycle</title>
+    <link>https://dev.to/mohamed_fakhr_eldin/laravel-request-lifecycle-34cf</link>
+    <guid>https://dev.to/mohamed_fakhr_eldin/laravel-request-lifecycle-34cf</guid>
+    <pubDate>Sun, 19 Jul 2026 16:59:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>GnokeStation is a browser OS: it boots its own environment inside the browser, the same way a traditional OS boots hardware. Tabs are processes. IndexedDB is disk. A SharedWorker is the kernel...</description>
+    <description>1. Request Entry Point The request begins at public/index.php. This file is the entry point for all incoming requests by your web server (Apache / Nginx) configuration. It loads the Composer...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Stop promising people outcomes. Give them one.</title>
-    <link>https://dev.to/fast2future/stop-promising-people-outcomes-give-them-one-4dn2</link>
-    <guid>https://dev.to/fast2future/stop-promising-people-outcomes-give-them-one-4dn2</guid>
-    <pubDate>Sun, 19 Jul 2026 13:30:23 +0000</pubDate>
+    <title>Niti Sheet: The Spreadsheet Where Cells Become Full Nested Sheets – My New Open Alternative to Excel</title>
+    <link>https://dev.to/kunal_sharma_bba82d02630d/niti-sheet-the-spreadsheet-where-cells-become-full-nested-sheets-my-new-open-alternative-to-l1d</link>
+    <guid>https://dev.to/kunal_sharma_bba82d02630d/niti-sheet-the-spreadsheet-where-cells-become-full-nested-sheets-my-new-open-alternative-to-l1d</guid>
+    <pubDate>Sun, 19 Jul 2026 16:58:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A field note on serving first. Short answer: Give people a free, working result instead of promising one. It earns trust faster than any claim, costs little if you build it to be reused, and stays...</description>
+    <description>I&apos;ve built Niti Sheet (https://nitisheet.nitiware.com) — a powerful spreadsheet tool where any cell can turn into its own nested sheet. Perfect for complex data modeling, AI workflows, forms,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The dual-write bug you probably have in production (and the outbox pattern that fixes it)</title>
-    <link>https://dev.to/sklinkert/the-dual-write-bug-you-probably-have-in-production-and-the-outbox-pattern-that-fixes-it-53ee</link>
-    <guid>https://dev.to/sklinkert/the-dual-write-bug-you-probably-have-in-production-and-the-outbox-pattern-that-fixes-it-53ee</guid>
-    <pubDate>Sun, 19 Jul 2026 13:29:29 +0000</pubDate>
+    <title>Hookbox: a self-hosted webhook inbox with HMAC verification and replay</title>
+    <link>https://dev.to/heisenberg_blue/hookbox-a-self-hosted-webhook-inbox-with-hmac-verification-and-replay-3h80</link>
+    <guid>https://dev.to/heisenberg_blue/hookbox-a-self-hosted-webhook-inbox-with-hmac-verification-and-replay-3h80</guid>
+    <pubDate>Sun, 19 Jul 2026 16:43:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Here&apos;s a piece of code I&apos;ve written, in some form, at three different companies: func (s *ProductService) CreateProduct(ctx context.Context, cmd CreateProduct) error { product :=...</description>
+    <description>Hookbox: a self-hosted webhook inbox with HMAC verification and replay Debugging webhooks without a proper inbox is painful: ngrok tabs everywhere, lost payloads, no way to prove a signature was...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Memory-Safe AI Development: A Practical Guide to Writing Technical Specs for Coding Agents</title>
-    <link>https://dev.to/aleksandr_kossarev_e23623/memory-safe-ai-development-a-practical-guide-to-writing-technical-specs-for-coding-agents-42ng</link>
-    <guid>https://dev.to/aleksandr_kossarev_e23623/memory-safe-ai-development-a-practical-guide-to-writing-technical-specs-for-coding-agents-42ng</guid>
-    <pubDate>Sun, 19 Jul 2026 13:28:32 +0000</pubDate>
+    <title>I built a self-hosted one-time secrets service in Node — here&apos;s the threat model</title>
+    <link>https://dev.to/heisenberg_blue/i-built-a-self-hosted-one-time-secrets-service-in-node-heres-the-threat-model-58ak</link>
+    <guid>https://dev.to/heisenberg_blue/i-built-a-self-hosted-one-time-secrets-service-in-node-heres-the-threat-model-58ak</guid>
+    <pubDate>Sun, 19 Jul 2026 16:43:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Memory-Safe AI Development: A Practical Guide to Writing Technical Specs for Coding Agents TL;DR: When you use a coding agent to modify an AI system with persistent memory, you&apos;re modifying the...</description>
+    <description>I built a self-hosted one-time secrets service in Node — here&apos;s the threat model Sharing an API key in Slack feels wrong. Password managers work great inside a team — less great when you need a...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The FBI reportedly won’t investigate ICE anymore</title>
+    <link>https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults</link>
+    <guid>https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults</guid>
+    <pubDate>Sun, 19 Jul 2026 16:42:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>According to the New York Times, federal agents have been told that the FBI will no longer be investigating confrontations involving ICE agents. The DHS and DOJ denied the change in policy to The...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Why Your Git History Isn&apos;t Enough as Proof</title>
+    <link>https://dev.to/vesmot_dev/why-your-git-history-isnt-enough-as-proof-58m7</link>
+    <guid>https://dev.to/vesmot_dev/why-your-git-history-isnt-enough-as-proof-58m7</guid>
+    <pubDate>Sun, 19 Jul 2026 16:40:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every developer has said it at least once: &quot;check the git log — it&apos;s all there.&quot; Commit date, author, diff — it looks like an irrefutable timeline of who wrote what and when. It isn&apos;t. And if you...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to Build Consistent UTM Links for Marketing Campaigns</title>
+    <link>https://dev.to/tool_mint_05313cff538fa82/how-to-build-consistent-utm-links-for-marketing-campaigns-323</link>
+    <guid>https://dev.to/tool_mint_05313cff538fa82/how-to-build-consistent-utm-links-for-marketing-campaigns-323</guid>
+    <pubDate>Sun, 19 Jul 2026 16:39:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>UTM parameters are one of the simplest ways to understand where website traffic comes from. They help marketers identify which campaign, platform, post, advertisement, newsletter, or partner...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🚑 Creating a Self-Healing Automation Framework with Playwright</title>
+    <link>https://dev.to/aswani25/creating-a-self-healing-automation-framework-with-playwright-26k0</link>
+    <guid>https://dev.to/aswani25/creating-a-self-healing-automation-framework-with-playwright-26k0</guid>
+    <pubDate>Sun, 19 Jul 2026 16:36:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>🧠 What is a Self-Healing Automation Framework? A self-healing test framework can automatically detect and recover from broken locators or test failures — reducing test flakiness and manual...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Orchid is a delightfully retro and approachable hipster synth</title>
+    <link>https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review</link>
+    <guid>https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review</guid>
+    <pubDate>Sun, 19 Jul 2026 15:15:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In 2017, I bought an old Magnus chord organ off Craigslist for $10. It&apos;s one of my favorite music gear purchases. Electric chord organs let you play full chords with just a press of a button,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Birdfy&amp;#8217;s solar-powered smart feeder is down to one of its best prices</title>
+    <link>https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale</guid>
+    <pubDate>Sun, 19 Jul 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Birdfy has kicked off a midyear sale, taking up to 40 percent off a range of its smart bird feeders. One of the best deals is on Netvue’s Birdfy Feeder AI-Powered Smart Bird Feeder with Camera,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’</title>
+    <link>https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/</link>
+    <guid>https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/</guid>
+    <pubDate>Sun, 19 Jul 2026 14:52:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>&quot;Everybody knows the Greeks are inside.&quot;</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>US Marshals arrest the Tate brothers in Miami</title>
+    <link>https://www.theverge.com/policy/967651/us-marshals-arrest-the-tate-brothers-in-miami</link>
+    <guid>https://www.theverge.com/policy/967651/us-marshals-arrest-the-tate-brothers-in-miami</guid>
+    <pubDate>Sun, 19 Jul 2026 14:20:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The manosphere influencers Andrew and Tristan Tate were arrested Saturday in Miami by US Marshals in relation to new rape and sex trafficking charges in England. According to the Associated Press,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nonprofit Current AI is racing to build the World Wide Web of AI, free for all</title>
+    <link>https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/</link>
+    <guid>https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/</guid>
+    <pubDate>Sun, 19 Jul 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware</title>
+    <link>https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html</link>
+    <guid>https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html</guid>
+    <pubDate>Sun, 19 Jul 2026 13:30:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware....</description>
+    <category>Security</category>
   </item>
   <item>
     <title>The Clapper was a bad smart home gadget — and a viral sensation</title>
@@ -80,31 +170,13 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Building Production-Grade Agentic AI Systems: A Senior Architect’s Blueprint for Scalability, Latency, and Trust</title>
-    <link>https://dev.to/numb_code_07/building-production-grade-agentic-ai-systems-a-senior-architects-blueprint-for-scalability-4bbp</link>
-    <guid>https://dev.to/numb_code_07/building-production-grade-agentic-ai-systems-a-senior-architects-blueprint-for-scalability-4bbp</guid>
-    <pubDate>Sun, 19 Jul 2026 13:24:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. The State of Agentic AI: Moving Beyond Toy Prototypes The transition of Large Language Model (LLM) systems from simple, single-turn chat interfaces to autonomous, multi-agent workflows marks...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why your Cursor rules never fire: globs, alwaysApply, and description explained</title>
-    <link>https://dev.to/rulestack/why-your-cursor-rules-never-fire-globs-alwaysapply-and-description-explained-b33</link>
-    <guid>https://dev.to/rulestack/why-your-cursor-rules-never-fire-globs-alwaysapply-and-description-explained-b33</guid>
-    <pubDate>Sun, 19 Jul 2026 13:23:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You wrote a .cursor/rules file. It has good rules. And the agent keeps ignoring them. Nine times out of ten this isn&apos;t the model being dumb — it&apos;s that the rule never got attached to the context...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Complete Guide to Local LLM Inference Tools in July 2026: llama.cpp, Ollama, vLLM, SGLang, and Beyond</title>
-    <link>https://dev.to/sreeraj-sreenivasan/the-complete-guide-to-local-llm-inference-tools-in-july-2026-llamacpp-ollama-vllm-sglang-and-4mh1</link>
-    <guid>https://dev.to/sreeraj-sreenivasan/the-complete-guide-to-local-llm-inference-tools-in-july-2026-llamacpp-ollama-vllm-sglang-and-4mh1</guid>
-    <pubDate>Sun, 19 Jul 2026 13:23:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Nine tools, three layers, one decision framework. Everything you need to run open-source models in 2026. Why This Guide Exists The local LLM inference ecosystem has quietly matured into one of the...</description>
-    <category>Developer Tools</category>
+    <title>SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access</title>
+    <link>https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html</link>
+    <guid>https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html</guid>
+    <pubDate>Sun, 19 Jul 2026 13:18:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>The future of physical games is not looking great</title>
@@ -161,42 +233,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>GoPro&amp;#8217;s discounted Max 2 bundle includes $100 worth of accessories</title>
-    <link>https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale</guid>
-    <pubDate>Sat, 18 Jul 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A 360-degree camera is a great way to ensure you capture every bit of the action, but prices tend to be on the high end for models worth your attention. That’s why it’s notable that the GoPro Max...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time</title>
-    <link>https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview</link>
-    <guid>https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview</guid>
-    <pubDate>Sat, 18 Jul 2026 14:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Carter Sherman has been covering sex, gender, and the complex personal and national politics that accompany them for years. She was a senior reporter for Vice and has written for Elle, Ms....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Surprise! Facial recognition smart locks are actually good</title>
-    <link>https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review</link>
-    <guid>https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review</guid>
-    <pubDate>Sat, 18 Jul 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Hands-free unlocking is the future of smart locks. The best smart home tech removes friction, and having your door unlock for you as you walk up is as frictionless as it gets - no passcodes to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Sony’s flagship RGB LED TV is incredible</title>
-    <link>https://www.theverge.com/tech/966788/sony-bravia-9-ii-tv-review</link>
-    <guid>https://www.theverge.com/tech/966788/sony-bravia-9-ii-tv-review</guid>
-    <pubDate>Sat, 18 Jul 2026 12:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Sony Bravia 9 II is the most anticipated new TV in years. It&apos;s an amazing RGB LED TV. I watched Dungeons &amp; Dragons: Honor Among Thieves on the new Bravia with my son, who has been getting into...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Your Period Tracker Is (Probably) Spying on You</title>
     <link>https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/</link>
     <guid>https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/</guid>
@@ -240,42 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>From AI workflows to battery life and security, here&apos;s what it&apos;s really like to live with Vertu&apos;s luxury foldable every day.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Databricks hits $188B valuation, extending its run as AI’s favorite second act</title>
-    <link>https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/</link>
-    <guid>https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/</guid>
-    <pubDate>Fri, 17 Jul 2026 22:12:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Zoom hack that says, ‘Don’t record me’</title>
-    <link>https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/</link>
-    <guid>https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/</guid>
-    <pubDate>Fri, 17 Jul 2026 21:20:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>If every meeting, watercooler conversation, and date gets transcribed and summarized, who&apos;s actually reading any of it?</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code</title>
-    <link>https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html</link>
-    <guid>https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html</guid>
-    <pubDate>Fri, 17 Jul 2026 21:20:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Friday Squid Blogging: Squid Washing Up on Cape Cod Beach</title>
-    <link>https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html</guid>
-    <pubDate>Fri, 17 Jul 2026 21:01:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Lots of articles about this. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
