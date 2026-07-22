@@ -5,97 +5,205 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 22 Jul 2026 17:40:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 22 Jul 2026 21:29:55 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>You don&apos;t understand a system until you&apos;ve rebuilt it</title>
-    <link>https://dev.to/valentynkit/you-dont-understand-a-system-until-youve-rebuilt-it-2e94</link>
-    <guid>https://dev.to/valentynkit/you-dont-understand-a-system-until-youve-rebuilt-it-2e94</guid>
-    <pubDate>Wed, 22 Jul 2026 17:32:07 +0000</pubDate>
+    <title>I ran 3 months of spec-driven development without ever reading the code</title>
+    <link>https://dev.to/giboulz/i-ran-3-months-of-spec-driven-development-without-ever-reading-the-code-1nbc</link>
+    <guid>https://dev.to/giboulz/i-ran-3-months-of-spec-driven-development-without-ever-reading-the-code-1nbc</guid>
+    <pubDate>Wed, 22 Jul 2026 21:28:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>&quot;Build your own X to understand it&quot; is advice so common it has stopped meaning anything. I repeated it for years without being able to say why it worked, which is the same as not understanding it....</description>
+    <description>I&apos;m a scrum master. I was a developer ten years ago. I have enough background to discuss design and trade-offs with an LLM — but three months ago I made a deliberate bet on my solo project: I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Can Write Code Faster Than I Can Responsibly Review It</title>
-    <link>https://dev.to/zenovay/ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4</link>
-    <guid>https://dev.to/zenovay/ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4</guid>
-    <pubDate>Wed, 22 Jul 2026 17:30:30 +0000</pubDate>
+    <title>I Turned Federal Compliance Regulations Into JSON So My AI Coding Agent Could Actually Use Them</title>
+    <link>https://dev.to/firststeptechnology/i-turned-federal-compliance-regulations-into-json-so-my-ai-coding-agent-could-actually-use-them-4p6n</link>
+    <guid>https://dev.to/firststeptechnology/i-turned-federal-compliance-regulations-into-json-so-my-ai-coding-agent-could-actually-use-them-4p6n</guid>
+    <pubDate>Wed, 22 Jul 2026 21:27:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I use Claude Code almost every day while building Zenovay. It can scaffold a feature, trace a bug across several files, write tests, refactor an old module, and explain an unfamiliar part of the...</description>
+    <description>If you&apos;ve ever had to check code or infrastructure against a compliance framework, you know the drill: someone reads a 100-page PDF, then reads your codebase, then makes a judgment call. It&apos;s...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a schemaless intake for my CRM. It silently dropped files three times.</title>
-    <link>https://dev.to/nomurasan/i-built-a-schemaless-intake-for-my-crm-it-silently-dropped-files-three-times-2po7</link>
-    <guid>https://dev.to/nomurasan/i-built-a-schemaless-intake-for-my-crm-it-silently-dropped-files-three-times-2po7</guid>
-    <pubDate>Wed, 22 Jul 2026 17:30:19 +0000</pubDate>
+    <title>I Built urldn-link-check — A GitHub Action to Catch Broken Links Before They Reach Production</title>
+    <link>https://dev.to/la_hsensmira_727afaa0409/i-built-urldn-link-check-a-github-action-to-catch-broken-links-before-they-reach-production-4ob4</link>
+    <guid>https://dev.to/la_hsensmira_727afaa0409/i-built-urldn-link-check-a-github-action-to-catch-broken-links-before-they-reach-production-4ob4</guid>
+    <pubDate>Wed, 22 Jul 2026 21:27:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I dropped a file into my own intake folder, ran the sync, and watched it finish clean. No error. No warning. The file was never there again — not in the index, not in any downstream output, not...</description>
+    <description>Documentation is often the last thing developers think about—until a broken link frustrates users or a README sends someone to a 404 page. I wanted a simple way to automatically verify links in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I asked Reddit what they wanted in a C++ application framework and their answers were...</title>
-    <link>https://dev.to/matthew_faithfull/i-asked-reddit-what-they-wanted-in-a-c-application-framework-and-their-answers-were-lpl</link>
-    <guid>https://dev.to/matthew_faithfull/i-asked-reddit-what-they-wanted-in-a-c-application-framework-and-their-answers-were-lpl</guid>
-    <pubDate>Wed, 22 Jul 2026 17:28:16 +0000</pubDate>
+    <title>PHP ve JavaScript ile Bir IQ Testi Platformu Geliştirirken Öğrendiklerim</title>
+    <link>https://dev.to/emre_karaman_257743ae76df/php-ve-javascript-ile-bir-iq-testi-platformu-gelistirirken-ogrendiklerim-4npa</link>
+    <guid>https://dev.to/emre_karaman_257743ae76df/php-ve-javascript-ile-bir-iq-testi-platformu-gelistirirken-ogrendiklerim-4npa</guid>
+    <pubDate>Wed, 22 Jul 2026 21:23:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In short their answers were useful and highly aligned, not just with with my thinking but with one another. There wasn&apos;t consensus, this is the internet, but there were was remarkable consistency....</description>
+    <description>Bir web projesini çalışır hale getirmekle insanların severek kullandığı bir ürüne dönüştürmek arasında ciddi bir fark var. Test Merkezim’i geliştirirken başlangıçtaki hedefim oldukça basitti:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>🚀 Backend Internals #2: What Actually Happens When You Call `require()`?</title>
-    <link>https://dev.to/joshikrati03/-backend-internals-2-what-actually-happens-when-you-call-require-42bo</link>
-    <guid>https://dev.to/joshikrati03/-backend-internals-2-what-actually-happens-when-you-call-require-42bo</guid>
-    <pubDate>Wed, 22 Jul 2026 17:24:53 +0000</pubDate>
+    <title>Building a School Database with PostgreSQL: A Beginner-Friendly SQL Project</title>
+    <link>https://dev.to/young_odhiambo/building-a-school-database-with-postgresql-a-beginner-friendly-sql-project-1fee</link>
+    <guid>https://dev.to/young_odhiambo/building-a-school-database-with-postgresql-a-beginner-friendly-sql-project-1fee</guid>
+    <pubDate>Wed, 22 Jul 2026 21:17:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In my previous post, we learned that Node.js caches modules, so the same file isn&apos;t executed twice. But have you ever wondered what actually happens the first time you call require()? Let&apos;s break...</description>
+    <description>Introduction As part of my SQL learning journey, I built a simple school database called Greenwood Academy using PostgreSQL. The goal of this project was to practice the most important SQL...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How AI is Transforming Software Development Workflows in 2026</title>
-    <link>https://dev.to/kaixintelligence/how-ai-is-transforming-software-development-workflows-in-2026-4co9</link>
-    <guid>https://dev.to/kaixintelligence/how-ai-is-transforming-software-development-workflows-in-2026-4co9</guid>
-    <pubDate>Wed, 22 Jul 2026 17:23:53 +0000</pubDate>
+    <title>Oracle RMAN Recovery Runbook: Restore, Recover, Prove It</title>
+    <link>https://dev.to/uptimearchitect/oracle-rman-recovery-runbook-restore-recover-prove-it-50mo</link>
+    <guid>https://dev.to/uptimearchitect/oracle-rman-recovery-runbook-restore-recover-prove-it-50mo</guid>
+    <pubDate>Wed, 22 Jul 2026 21:14:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How AI is Transforming Software Development Workflows in 2026 The software development landscape has undergone a seismic shift. What was once the realm of experimental sidekicks has matured into a...</description>
+    <description>The worst day of an Oracle DBA&apos;s career is a restore they&apos;ve never rehearsed. A datafile is gone, or a DELETE ran without a WHERE, or a storage array quietly corrupted a handful of blocks — and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Scaling Vibe Coding: Why 10 Developers Need One Scanner</title>
-    <link>https://dev.to/coppersundev/scaling-vibe-coding-why-10-developers-need-one-scanner-381d</link>
-    <guid>https://dev.to/coppersundev/scaling-vibe-coding-why-10-developers-need-one-scanner-381d</guid>
-    <pubDate>Wed, 22 Jul 2026 17:20:36 +0000</pubDate>
+    <title>The Browser Test Passed. The Product Still Broke.</title>
+    <link>https://dev.to/orbitpickle307/the-browser-test-passed-the-product-still-broke-in6</link>
+    <guid>https://dev.to/orbitpickle307/the-browser-test-passed-the-product-still-broke-in6</guid>
+    <pubDate>Wed, 22 Jul 2026 21:02:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ten developers using AI assistants don&apos;t produce one coherent codebase. They produce ten coding styles, ten prompt strategies, and ten different vulnerability surfaces — then merge them into one...</description>
+    <description>The Browser Test Passed. The Product Still Broke. A browser test can click the right button, see the expected confirmation message, and still tell you almost nothing about whether the feature is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GitGrit - The Open Source Engineering Standards Platform Built From a Decade of Pain Points as an Engineer</title>
-    <link>https://dev.to/zvikfir/gitgrit-the-open-source-engineering-standards-platform-built-from-a-decade-of-pain-points-as-an-4j13</link>
-    <guid>https://dev.to/zvikfir/gitgrit-the-open-source-engineering-standards-platform-built-from-a-decade-of-pain-points-as-an-4j13</guid>
-    <pubDate>Wed, 22 Jul 2026 17:20:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In this article I&apos;m going to present you with something I&apos;ve been working on personally for almost two years now (on and off), and it&apos;s a topic close to my heart. GitGrit - my open source, MIT...</description>
+    <title>Safari Technology Preview 248 Released</title>
+    <link>https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/</link>
+    <guid>https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/</guid>
+    <pubDate>Wed, 22 Jul 2026 21:00:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/ Comments URL: https://news.ycombinator.com/item?id=49013356 Points: 7 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Scaling AI Applications Without Breaking the Bank</title>
-    <link>https://dev.to/kaixintelligence/scaling-ai-applications-without-breaking-the-bank-3i6m</link>
-    <guid>https://dev.to/kaixintelligence/scaling-ai-applications-without-breaking-the-bank-3i6m</guid>
-    <pubDate>Wed, 22 Jul 2026 17:19:17 +0000</pubDate>
+    <title>The White House Is Trying to Figure Out What to Do About Chinese AI</title>
+    <link>https://www.wired.com/story/the-white-house-is-trying-to-figure-out-what-to-do-about-chinese-ai/</link>
+    <guid>https://www.wired.com/story/the-white-house-is-trying-to-figure-out-what-to-do-about-chinese-ai/</guid>
+    <pubDate>Wed, 22 Jul 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>There’s a debate going on in the Trump administration over how to handle increasingly powerful Chinese AI models.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cómo crear y configurar un Virtual Host en un servidor LAMP local</title>
+    <link>https://dev.to/rogertm/como-crear-y-configurar-un-virtual-host-en-un-servidor-lamp-local-1dc5</link>
+    <guid>https://dev.to/rogertm/como-crear-y-configurar-un-virtual-host-en-un-servidor-lamp-local-1dc5</guid>
+    <pubDate>Wed, 22 Jul 2026 20:58:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Scaling AI Applications Without Breaking the Bank In the race to deploy AI at scale, many teams hit a wall: costs. Cloud bills spiral, model inference becomes prohibitively expensive, and data...</description>
+    <description>Introducción Estos son unos sencillos pasos que usualmente sigo para configurar un Virtual Host para los proyectos en los que suelo trabajar, así que intentaré explicarlo de la manera más clara y...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SQLAlchemy ORM Security: The Raw Query Escape Hatch</title>
-    <link>https://dev.to/coppersundev/sqlalchemy-orm-security-the-raw-query-escape-hatch-2ni5</link>
-    <guid>https://dev.to/coppersundev/sqlalchemy-orm-security-the-raw-query-escape-hatch-2ni5</guid>
-    <pubDate>Wed, 22 Jul 2026 17:17:50 +0000</pubDate>
+    <title>I built TabScroll because I was tired of losing tabs</title>
+    <link>https://dev.to/elkhiar_4780f5eb3f1f84d0b/i-built-tabscroll-because-i-was-tired-of-losing-tabs-3pcb</link>
+    <guid>https://dev.to/elkhiar_4780f5eb3f1f84d0b/i-built-tabscroll-because-i-was-tired-of-losing-tabs-3pcb</guid>
+    <pubDate>Wed, 22 Jul 2026 20:55:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>SQLAlchemy&apos;s ORM is one of the better defenses against SQL injection available to Python developers. Normal ORM calls — filter(), filter_by(), query() — compile to parameterized queries. The...</description>
+    <description>I’m the kind of person who always has too many tabs open. Documentation, GitHub, dashboards, test reports, many tabs, and somehow, the one tab I need is always hiding somewhere in the middle....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable</title>
+    <link>https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/</link>
+    <guid>https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/</guid>
+    <pubDate>Wed, 22 Jul 2026 20:49:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Treasury Secretary Scott Bessent warned the U.S. government could sanction Chinese AI companies after White House officials accused Moonshot of distilling Anthropic&apos;s Fable model to develop Kimi K3.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Tesla’s revenues are bouncing back, but profits are still weak</title>
+    <link>https://www.theverge.com/transportation/969311/tesla-q2-2026-earnings-revenue-profit-sales</link>
+    <guid>https://www.theverge.com/transportation/969311/tesla-q2-2026-earnings-revenue-profit-sales</guid>
+    <pubDate>Wed, 22 Jul 2026 20:17:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After a dismal two years of weakening demand, falling sales, and damage to its brand by Elon Musk&apos;s political activities, Tesla&apos;s road to recovery continues apace. On the heels of an impressive...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Price-hiked iPads are a little cheaper right now</title>
+    <link>https://www.theverge.com/gadgets/969003/apple-ipad-air-pro-airtag-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/969003/apple-ipad-air-pro-airtag-deal-sale</guid>
+    <pubDate>Wed, 22 Jul 2026 19:14:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>A number of Apple products got more expensive last month, so we’re happy to find deals wherever and whenever we can. If you’re searching for a high-end iPad, one of the more notable deals...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>iOS code could reportedly let Apple cut off apps when users miss iPhone payments</title>
+    <link>https://www.theverge.com/tech/969596/apple-restricted-mode-ios-27</link>
+    <guid>https://www.theverge.com/tech/969596/apple-restricted-mode-ios-27</guid>
+    <pubDate>Wed, 22 Jul 2026 19:13:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Code found in an iOS 27 beta would allow Apple to put a financed iPhone in &quot;Restricted Mode&quot; if it detects any missed payments, 9to5Mac reports. The finding follows a story from Bloomberg earlier...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How OpenAI’s human mistake led to the AI-powered hack on Hugging Face</title>
+    <link>https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/</link>
+    <guid>https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/</guid>
+    <pubDate>Wed, 22 Jul 2026 19:11:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>China’s Open AI Models Are Challenging Silicon Valley’s Playbook</title>
+    <link>https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/</link>
+    <guid>https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/</guid>
+    <pubDate>Wed, 22 Jul 2026 19:01:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>As access to Anthropic’s and OpenAI’s frontier models becomes more restricted, Chinese labs are pitching their open-source alternatives as stable, accessible, and increasingly capable.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Travis Kalanick’s robotics company raises $1.7B, led by a16z</title>
+    <link>https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/</link>
+    <guid>https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/</guid>
+    <pubDate>Wed, 22 Jul 2026 18:50:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Uber is also investing in Travis Kalanick&apos;s company Atoms, which has made gauzy claims about using industrial AI to modernize the world.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier</title>
+    <link>https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html</link>
+    <guid>https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html</guid>
+    <pubDate>Wed, 22 Jul 2026 18:37:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at least half at every severity level. Critical findings will drop from $20,000-$30,000+ to a fixed $10,000, while its...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Yope raises $12.3M to build a private social network without algorithms or ads</title>
+    <link>https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/</link>
+    <guid>https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/</guid>
+    <pubDate>Wed, 22 Jul 2026 18:13:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs</title>
+    <link>https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html</link>
+    <guid>https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html</guid>
+    <pubDate>Wed, 22 Jul 2026 18:07:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Monday.com lays off hundreds to focus on AI</title>
+    <link>https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/</link>
+    <guid>https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/</guid>
+    <pubDate>Wed, 22 Jul 2026 17:54:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company said it is reducing its headcount by 20%, or about 630 staff, to &quot;support a leaner, more focused operating model&quot; as it focuses on its AI Work Platform.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Apple is reportedly testing a MacBook Neo with more RAM</title>
@@ -168,114 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The latest addition to Philips&apos; Sonicare line of smart electric toothbrushes could take the guesswork out of your brushing routine. The Next-Generation DiamondClean 9900 Prestige uses a...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft is bringing original Xbox games to PC</title>
-    <link>https://www.theverge.com/news/969117/microsoft-xbox-games-pc-backward-compatibility</link>
-    <guid>https://www.theverge.com/news/969117/microsoft-xbox-games-pc-backward-compatibility</guid>
-    <pubDate>Wed, 22 Jul 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft is expanding its Xbox backward compatibility efforts today by bringing original Xbox games to PC. An early preview release will see four classic Xbox games available on PC today, as part...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AMD commits up to $5 billion to  Anthropic</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal</guid>
-    <pubDate>Wed, 22 Jul 2026 14:44:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>AMD says it&apos;s going to invest up to $5 billion in Anthropic, while helping to expand the AI company&apos;s computing power, according to an announcement on Wednesday. As part of the new partnership,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari</title>
-    <link>https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/</link>
-    <guid>https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/</guid>
-    <pubDate>Wed, 22 Jul 2026 13:20:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Passionfroot raises $15M to expand its B2B creator marketplace to the US</title>
-    <link>https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/</link>
-    <guid>https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/</guid>
-    <pubDate>Wed, 22 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Building AI infrastructure with the Effingham County community</title>
-    <link>https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community</link>
-    <guid>https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community</guid>
-    <pubDate>Wed, 22 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>3 Google updates from Galaxy Unpacked 2026</title>
-    <link>https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/</link>
-    <guid>https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/</guid>
-    <pubDate>Wed, 22 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Samsung’s newest foldable finally feels Ultra</title>
-    <link>https://www.theverge.com/gadgets/968200/samsung-galaxy-z-fold-8-ultra-announced-hands-on-photos</link>
-    <guid>https://www.theverge.com/gadgets/968200/samsung-galaxy-z-fold-8-ultra-announced-hands-on-photos</guid>
-    <pubDate>Wed, 22 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>While we wait for Apple&apos;s rumored foldable iPhone, Samsung is polishing a design it already has on the market. I just spent three hours with my hands on the new Z Fold 8 Ultra, and all I can think...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Samsung’s wider Z Fold 8 feels just right</title>
-    <link>https://www.theverge.com/tech/968663/samsung-galaxy-z-fold-8-wide-hands-on</link>
-    <guid>https://www.theverge.com/tech/968663/samsung-galaxy-z-fold-8-wide-hands-on</guid>
-    <pubDate>Wed, 22 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A year after overhauling its Z Fold phone with a radically thinner design, Samsung has changed things up again, this time altering the shape entirely. The Z Fold 8 is wider than any of Samsung&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Samsung’s Galaxy Watch 9 and Ultra 2 bet big on battery</title>
-    <link>https://www.theverge.com/tech/968728/samsung-galaxy-watch-9-ultra-2-hands-on-wearables-smartwatches</link>
-    <guid>https://www.theverge.com/tech/968728/samsung-galaxy-watch-9-ultra-2-hands-on-wearables-smartwatches</guid>
-    <pubDate>Wed, 22 Jul 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It&apos;s a year of refinement for the Galaxy Watch. With the new Galaxy Watch 9 and Galaxy Watch Ultra 2, which are being announced today, Samsung is more or less taking what people like about its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication</title>
-    <link>https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html</link>
-    <guid>https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html</guid>
-    <pubDate>Wed, 22 Jul 2026 12:36:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Download: NASA’s new space telescope and OpenAI’s autonomous hacker</title>
-    <link>https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/</link>
-    <guid>https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/</guid>
-    <pubDate>Wed, 22 Jul 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Advancing the next era of national science</title>
-    <link>https://openai.com/index/advancing-the-next-era-of-national-science</link>
-    <guid>https://openai.com/index/advancing-the-next-era-of-national-science</guid>
-    <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
