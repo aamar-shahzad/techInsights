@@ -5,96 +5,105 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 23 Jul 2026 03:44:18 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 23 Jul 2026 06:39:44 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Inertia and API responses living together in harmony</title>
-    <link>https://dev.to/emilien_kopp_88dd3031992b/inertia-and-api-responses-living-together-in-harmony-3mdl</link>
-    <guid>https://dev.to/emilien_kopp_88dd3031992b/inertia-and-api-responses-living-together-in-harmony-3mdl</guid>
-    <pubDate>Thu, 23 Jul 2026 03:40:11 +0000</pubDate>
+    <title>Stop Memorising IPs: Domain Names for Your Proxmox Homelab with Tailscale App Connectors</title>
+    <link>https://dev.to/pehota/stop-memorising-ips-domain-names-for-your-proxmox-homelab-with-tailscale-app-connectors-5bk7</link>
+    <guid>https://dev.to/pehota/stop-memorising-ips-domain-names-for-your-proxmox-homelab-with-tailscale-app-connectors-5bk7</guid>
+    <pubDate>Thu, 23 Jul 2026 06:26:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I love InertiaJS to the point where it&apos;s becoming a personality trait I tend to want to use it for everything, but adding Inertia to an existing Laravel API gets awkward fast. Same thing happens...</description>
+    <description>I already had Tailscale running — one LXC configured as a subnet router, exposing the rest of the containers over the tailnet. So I could reach them remotely. I just still had to remember the IPs....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My requirements.txt Is Pinned. My MCP Server&apos;s Actual Contract Isn&apos;t, and Nothing Would Catch It Changing.</title>
-    <link>https://dev.to/enjoy_kumawat/my-requirementstxt-is-pinned-my-mcp-servers-actual-contract-isnt-and-nothing-would-catch-it-14ng</link>
-    <guid>https://dev.to/enjoy_kumawat/my-requirementstxt-is-pinned-my-mcp-servers-actual-contract-isnt-and-nothing-would-catch-it-14ng</guid>
-    <pubDate>Thu, 23 Jul 2026 03:35:07 +0000</pubDate>
+    <title>My dashboard took 7.6 seconds to render fifteen numbers 🐌</title>
+    <link>https://dev.to/soumyadeepdey/my-dashboard-took-76-seconds-to-render-fifteen-numbers-5dga</link>
+    <guid>https://dev.to/soumyadeepdey/my-dashboard-took-76-seconds-to-render-fifteen-numbers-5dga</guid>
+    <pubDate>Thu, 23 Jul 2026 06:19:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Back on 2026-07-14 I found and fixed a real landmine in this repo: requirements.txt had mcp[cli] with no version constraint at all. Any fresh install could pull in a breaking major version with...</description>
+    <description>This is a submission for DEV&apos;s Summer Bug Smash: Clear the Lineup powered by Sentry. Not fifteen tables. Fifteen numbers. Four stat tiles, three donut slices, six bars, and a list of four recent...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Jerry Ran Out of Numbers But Drank All the Punch</title>
-    <link>https://dev.to/anchildress1/jerry-ran-out-of-numbers-but-drank-all-the-punch-ne9</link>
-    <guid>https://dev.to/anchildress1/jerry-ran-out-of-numbers-but-drank-all-the-punch-ne9</guid>
-    <pubDate>Thu, 23 Jul 2026 03:31:24 +0000</pubDate>
+    <title>ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push</title>
+    <link>https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/</link>
+    <guid>https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/</guid>
+    <pubDate>Thu, 23 Jul 2026 06:09:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>ServiceNow&apos;s investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>**Reader change:** Instead of repeatedly typing “What now?” the reader learns to design a loop that specifies an activat</title>
+    <link>https://dev.to/anicca_301094325e/reader-change-instead-of-repeatedly-typing-what-now-the-reader-learns-to-design-a-loop-that-55ll</link>
+    <guid>https://dev.to/anicca_301094325e/reader-change-instead-of-repeatedly-typing-what-now-the-reader-learns-to-design-a-loop-that-55ll</guid>
+    <pubDate>Thu, 23 Jul 2026 06:02:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for DEV&apos;s Summer Bug Smash: Smash Stories powered by Sentry. 🦄 I debated writing this for a long time, but I finally talked myself into really writing again after a hiatus,...</description>
+    <description>Reader change: Instead of repeatedly typing “What now?” the reader learns to design a loop that specifies an activation trigger, an observable numeric stop condition, an independent evaluator, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Unity Foundational Architecture: Managing Global State</title>
-    <link>https://dev.to/tenaciousdan/unity-foundational-architecture-managing-global-state-1mlp</link>
-    <guid>https://dev.to/tenaciousdan/unity-foundational-architecture-managing-global-state-1mlp</guid>
-    <pubDate>Thu, 23 Jul 2026 03:28:01 +0000</pubDate>
+    <title>📱 MyZubster Mobile: NFC Payments and the Road to a Fully Decentralized App</title>
+    <link>https://dev.to/danielioni/myzubster-mobile-nfc-payments-and-the-road-to-a-fully-decentralized-app-238e</link>
+    <guid>https://dev.to/danielioni/myzubster-mobile-nfc-payments-and-the-road-to-a-fully-decentralized-app-238e</guid>
+    <pubDate>Thu, 23 Jul 2026 06:01:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Table of Contents: Introduction Constants Singletons &amp; Services Singleton Service Locator Introduction Every Unity developer eventually hits the exact same wall: how do I get my UI script to talk...</description>
+    <description>📱 MyZubster Mobile: NFC Payments and the Road to a Fully Decentralized App A personal journey: from hiring a company to building everything myself – and why I&apos;m sharing it all open‑source. 🧭 Where...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>用 FROST 家族治理模型，构建你的「AI 第一性原理」</title>
-    <link>https://dev.to/llimage/yong-frost-jia-zu-zhi-li-mo-xing-gou-jian-ni-de-ai-di-xing-yuan-li--4gc2</link>
-    <guid>https://dev.to/llimage/yong-frost-jia-zu-zhi-li-mo-xing-gou-jian-ni-de-ai-di-xing-yuan-li--4gc2</guid>
-    <pubDate>Thu, 23 Jul 2026 03:24:58 +0000</pubDate>
+    <title>API&apos;nizi Güvenilmeyen Girişlere Karşı Nasıl Test Edersiniz: Saldırganlar Keşfetmeden Önce</title>
+    <link>https://dev.to/tobiass_hoffmann/apinizi-guvenilmeyen-girislere-karsi-nasil-test-edersiniz-saldirganlar-kesfetmeden-once-84c</link>
+    <guid>https://dev.to/tobiass_hoffmann/apinizi-guvenilmeyen-girislere-karsi-nasil-test-edersiniz-saldirganlar-kesfetmeden-once-84c</guid>
+    <pubDate>Thu, 23 Jul 2026 06:01:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>用 FROST 家族治理模型，构建你的「AI 第一性原理」 作者：神通说 日期：2026-07-23 主题：双项目联动 | 周四代码教程 阅读时间：12分钟 前言：为什么你需要「第一性原理」？ 埃隆·马斯克推崇「第一性原理」思维——从物理学的最基本定律出发，而不是类比他人的做法。 在 AI Agent 开发领域，大多数人都在用 LangChain、CrewAI、AutoGen...</description>
+    <description>TL;DR: API&apos;nizin girdisi bir saldırı yüzeyidir; bu nedenle onu düşmanca isteklerle test edin. Büyük alanlar, yanlış türler, hatalı gövdeler ve enjeksiyon dizeleri gönderin. Uç noktanın 4xx...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The best config in your bake-off didn&apos;t win. Selection did.</title>
-    <link>https://dev.to/alex_spinov/the-best-config-in-your-bake-off-didnt-win-selection-did-4jm2</link>
-    <guid>https://dev.to/alex_spinov/the-best-config-in-your-bake-off-didnt-win-selection-did-4jm2</guid>
-    <pubDate>Thu, 23 Jul 2026 03:24:54 +0000</pubDate>
+    <title>Prompt Injection for API Teams: What It Is and How to Test for It</title>
+    <link>https://dev.to/hassann/prompt-injection-for-api-teams-what-it-is-and-how-to-test-for-it-4029</link>
+    <guid>https://dev.to/hassann/prompt-injection-for-api-teams-what-it-is-and-how-to-test-for-it-4029</guid>
+    <pubDate>Thu, 23 Jul 2026 06:01:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Best-of-K eval selection bias: pick the highest-scoring config from K candidates on one eval set and that observed score is biased up. It reports the expected maximum of K noisy estimates, which...</description>
+    <description>TL;DR: Prompt injection is when text inside a model’s input gets treated as instructions the model then follows. For API teams it shows up in two directions: your API gets called by an LLM or...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Stop manually curling port 9600: Using MCP to triage Logstash bottlenecks</title>
-    <link>https://dev.to/renato_marinho/stop-manually-curling-port-9600-using-mcp-to-triage-logstash-bottlenecks-4o8k</link>
-    <guid>https://dev.to/renato_marinho/stop-manually-curling-port-9600-using-mcp-to-triage-logstash-bottlenecks-4o8k</guid>
-    <pubDate>Thu, 23 Jul 2026 03:21:01 +0000</pubDate>
+    <title>I built free browser-based tools — files never leave your device</title>
+    <link>https://dev.to/gaurav_sheoran_515dbf72f0/i-built-free-browser-based-tools-files-never-leave-your-device-3o30</link>
+    <guid>https://dev.to/gaurav_sheoran_515dbf72f0/i-built-free-browser-based-tools-files-never-leave-your-device-3o30</guid>
+    <pubDate>Thu, 23 Jul 2026 06:01:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I have a ritual. Whenever a pipeline latency alert hits my phone, my first instinct isn&apos;t to open a heavy dashboard or spin up a full Grafana instance. I grab my terminal and start firing curl...</description>
+    <description>Why I Built This I got frustrated with tools like SmallPDF and ILovePDF uploading my sensitive documents to their servers. I wanted something that works entirely in the browser. So I built Wrklyst...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Sovereign Lemmings Released</title>
-    <link>https://dev.to/andreimerlescu/sovereign-lemmings-released-4c9l</link>
-    <guid>https://dev.to/andreimerlescu/sovereign-lemmings-released-4c9l</guid>
-    <pubDate>Thu, 23 Jul 2026 03:17:42 +0000</pubDate>
+    <title>Stop Cursor AI From Writing Broken Code</title>
+    <link>https://dev.to/gagan_builds/stop-cursor-ai-from-writing-broken-code-1h0d</link>
+    <guid>https://dev.to/gagan_builds/stop-cursor-ai-from-writing-broken-code-1h0d</guid>
+    <pubDate>Thu, 23 Jul 2026 06:00:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I have released the Sovereign package on Github. It deploys Lemmings into up to 3 cloud regions for your choice in configuration flavor with cost estimations through dry-runs and aggregating the...</description>
+    <description>If you&apos;ve spent more than a few hours building apps with Cursor or Replit AI, you&apos;ve probably seen this happen. You ask the AI to build a feature. Instead, it: Creates files in random places....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Finding a WinSCP Alternative on macOS:Building a Better SFTP Workflow</title>
-    <link>https://dev.to/o_oliver_3b38e6829628a1e9/finding-a-winscp-alternative-on-macosbuilding-a-better-sftp-workflow-22mo</link>
-    <guid>https://dev.to/o_oliver_3b38e6829628a1e9/finding-a-winscp-alternative-on-macosbuilding-a-better-sftp-workflow-22mo</guid>
-    <pubDate>Thu, 23 Jul 2026 03:08:03 +0000</pubDate>
+    <title>Comment tester la sécurité de votre API contre les entrées malveillantes avant les pirates</title>
+    <link>https://dev.to/antoine_laurentt/comment-tester-la-securite-de-votre-api-contre-les-entrees-malveillantes-avant-les-pirates-49ma</link>
+    <guid>https://dev.to/antoine_laurentt/comment-tester-la-securite-de-votre-api-contre-les-entrees-malveillantes-avant-les-pirates-49ma</guid>
+    <pubDate>Thu, 23 Jul 2026 06:00:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I moved my daily development workflow from Windows to macOS, one small thing kept bothering me: remote file management. WinSCP has been a reliable tool for many developers working on Windows....</description>
+    <description>TL;DR : L&apos;entrée de votre API est une surface d&apos;attaque : testez-la comme telle. Rédigez des cas négatifs qui envoient des champs surdimensionnés, des types erronés, des corps mal formés et des...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Surviving the iOS Push Notification Setup Process</title>
-    <link>https://dev.to/hasnain_alam/surviving-the-ios-push-notification-setup-process-1m4k</link>
-    <guid>https://dev.to/hasnain_alam/surviving-the-ios-push-notification-setup-process-1m4k</guid>
-    <pubDate>Thu, 23 Jul 2026 03:03:36 +0000</pubDate>
+    <title>Integrating External APIs with Agentic AI: A Practical Approach</title>
+    <link>https://dev.to/mzunain/integrating-external-apis-with-agentic-ai-a-practical-approach-3i43</link>
+    <guid>https://dev.to/mzunain/integrating-external-apis-with-agentic-ai-a-practical-approach-3i43</guid>
+    <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why iOS is a different beast To be real with you, setting up notifications on Android is like a walk in the park compared to iOS. Apple takes security seriously, which is great for users but a bit...</description>
+    <description>The Power of API Integration An agent without APIs is limited. Connected to APIs, it&apos;s unstoppable. Common APIs for Agents Data: Stripe, Shopify, Salesforce Communication: Slack, Gmail, Twilio...</description>
     <category>Developer Tools</category>
   </item>
   <item>
@@ -258,15 +267,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Samsung has given us our first chance to check out its upcoming smart glasses in person, revealing two new designs and the first specs in the process, including an impressive 9-hour battery life....</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Arcee, a US open source AI lab, says Chinese models are not inherently dangerous</title>
-    <link>https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/</link>
-    <guid>https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/</guid>
-    <pubDate>Wed, 22 Jul 2026 16:24:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.</description>
-    <category>AI</category>
   </item>
   <item>
     <title>How the Galaxy Z Fold 8 and Z Flip 8 phones compare</title>
