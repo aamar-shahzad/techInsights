@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 25 Jul 2026 06:28:51 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 25 Jul 2026 09:59:29 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>389 Tests Passed. NIST Still Caught the Bug.</title>
-    <link>https://dev.to/copyleftdev/389-tests-passed-nist-still-caught-the-bug-37jh</link>
-    <guid>https://dev.to/copyleftdev/389-tests-passed-nist-still-caught-the-bug-37jh</guid>
-    <pubDate>Sat, 25 Jul 2026 06:17:51 +0000</pubDate>
+    <title>ML Without Magic: Building a Tiny Language Model in Pure Node.js and Watching Every Weight Change</title>
+    <link>https://dev.to/maktordev/ml-without-magic-building-a-tiny-language-model-in-pure-nodejs-and-watching-every-weight-change-5dfh</link>
+    <guid>https://dev.to/maktordev/ml-without-magic-building-a-tiny-language-model-in-pure-nodejs-and-watching-every-weight-change-5dfh</guid>
+    <pubDate>Sat, 25 Jul 2026 09:34:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I gave an AI agent a calculator because I wanted one hard, inspectable point inside a probabilistic workflow. The model could interpret the request and explain the result. The calculator would...</description>
+    <description>Tokenization → embeddings → causal Transformer → LM head → softmax → loss → backpropagation. No TensorFlow, no PyTorch, and no hidden autograd. Repository: tiny-language-model-neuro-js. Most...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Inside the LSTM: An XAI Field Guide to Weather Prediction</title>
-    <link>https://dev.to/meftamila/inside-the-lstm-an-xai-field-guide-to-weather-prediction-4d2p</link>
-    <guid>https://dev.to/meftamila/inside-the-lstm-an-xai-field-guide-to-weather-prediction-4d2p</guid>
-    <pubDate>Sat, 25 Jul 2026 06:07:10 +0000</pubDate>
+    <title>Terraform e YAML - Padrões Avançados e Escalabilidade</title>
+    <link>https://dev.to/apsis-cc/terraform-e-yaml-padroes-avancados-e-escalabilidade-28aa</link>
+    <guid>https://dev.to/apsis-cc/terraform-e-yaml-padroes-avancados-e-escalabilidade-28aa</guid>
+    <pubDate>Sat, 25 Jul 2026 09:30:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>LSTMs are still the go-to architecture for a lot of time series work, but they&apos;re annoying to trust. You get a number out the other end and no real sense of why the model landed there. This...</description>
+    <description>1. Introdução: Rumo à Infraestrutura como Código de Nível Empresarial Nos artigos anteriores desta série, estabelecemos os fundamentos da separação de código e dados no Terraform com YAML (Artigo...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your App Stops Being an App the Moment Someone Pays You</title>
-    <link>https://dev.to/wsdn/your-app-stops-being-an-app-the-moment-someone-pays-you-59m2</link>
-    <guid>https://dev.to/wsdn/your-app-stops-being-an-app-the-moment-someone-pays-you-59m2</guid>
-    <pubDate>Sat, 25 Jul 2026 06:01:22 +0000</pubDate>
+    <title>Why I built Sanctuary: A local-first, zero-tracking reflection app</title>
+    <link>https://dev.to/hrishikesh_jadhav_bbd2b40/why-i-built-sanctuary-a-local-first-zero-tracking-reflection-app-2lfh</link>
+    <guid>https://dev.to/hrishikesh_jadhav_bbd2b40/why-i-built-sanctuary-a-local-first-zero-tracking-reflection-app-2lfh</guid>
+    <pubDate>Sat, 25 Jul 2026 09:20:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What building and operating real services taught me about code, judgment, and responsibility. The first time I watched one of those “Build a SaaS in 30 minutes with AI” videos, I believed it. Not...</description>
+    <description>Most journaling and mental wellness apps require syncing sensitive personal thoughts to cloud servers where they risk being mined or exposed. I wanted a space where user data never leaves the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Tailwind CSS v4: Architecture, Features, and Performance Upgrades Deep Dive</title>
-    <link>https://dev.to/tamizuddin/tailwind-css-v4-architecture-features-and-performance-upgrades-deep-dive-32in</link>
-    <guid>https://dev.to/tamizuddin/tailwind-css-v4-architecture-features-and-performance-upgrades-deep-dive-32in</guid>
-    <pubDate>Sat, 25 Jul 2026 06:00:24 +0000</pubDate>
+    <title>Your OpenAPI spec is already a test plan — here&apos;s how to turn it into Playwright tests automatically</title>
+    <link>https://dev.to/j0ny3nglish/your-openapi-spec-is-already-a-test-plan-heres-how-to-turn-it-into-playwright-tests-automatically-1mp6</link>
+    <guid>https://dev.to/j0ny3nglish/your-openapi-spec-is-already-a-test-plan-heres-how-to-turn-it-into-playwright-tests-automatically-1mp6</guid>
+    <pubDate>Sat, 25 Jul 2026 09:12:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on tamiz.pro. Tailwind CSS v4 marks a pivotal evolution in how utility-first CSS is generated and managed. Moving beyond a simple iteration, v4 introduces a reimagined core...</description>
+    <description>If you&apos;re writing Playwright API tests manually from an OpenAPI/Swagger spec, you&apos;re doing work that should be automated. Every endpoint in your spec already tells you: What the request looks like...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Google mise sur des Gemini moins chers, pas plus forts</title>
-    <link>https://dev.to/thibault_monteiro/google-mise-sur-des-gemini-moins-chers-pas-plus-forts-3blg</link>
-    <guid>https://dev.to/thibault_monteiro/google-mise-sur-des-gemini-moins-chers-pas-plus-forts-3blg</guid>
-    <pubDate>Sat, 25 Jul 2026 06:00:11 +0000</pubDate>
+    <title>Samba File Sharing on Linux: Setting Up Shares With and Without Authentication</title>
+    <link>https://dev.to/sara_xd_60faa231e7be/samba-file-sharing-on-linux-setting-up-shares-with-and-without-authentication-ld2</link>
+    <guid>https://dev.to/sara_xd_60faa231e7be/samba-file-sharing-on-linux-setting-up-shares-with-and-without-authentication-ld2</guid>
+    <pubDate>Sat, 25 Jul 2026 09:12:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>L&apos;essentiel Google lance trois modèles Gemini Flash (3.6 Flash, 3.5 Flash-Lite et 3.5 Flash Cyber) pensés pour faire tourner des agents IA à grande échelle et à moindre coût. Le modèle de travail...</description>
+    <description>If you&apos;ve got a Linux box and a Windows machine on the same network, you shouldn&apos;t need a USB stick to move files between them. That&apos;s the whole reason Samba exists: it makes a Linux server show...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building Email Outreach on AWS SES: The Hidden Engineering Scope</title>
-    <link>https://dev.to/livedirectmarketing/building-email-outreach-on-aws-ses-the-hidden-engineering-scope-4ff5</link>
-    <guid>https://dev.to/livedirectmarketing/building-email-outreach-on-aws-ses-the-hidden-engineering-scope-4ff5</guid>
-    <pubDate>Sat, 25 Jul 2026 06:00:06 +0000</pubDate>
+    <title>I Found the LeetCode for System Design Interview, and It&apos;s Awesome</title>
+    <link>https://dev.to/somadevtoo/i-found-the-leetcode-for-system-design-interview-and-its-awesome-10l</link>
+    <guid>https://dev.to/somadevtoo/i-found-the-leetcode-for-system-design-interview-and-its-awesome-10l</guid>
+    <pubDate>Sat, 25 Jul 2026 09:08:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AWS SES is bait for indie hackers. A fraction of a cent per email, AWS-grade uptime, no per-seat licensing—it looks like the perfect cold-email infrastructure. Then you ship your first campaign...</description>
+    <description>Disclosure: This post includes affiliate links; I may receive compensation if you purchase products or services from the different links provided in this article. Credit: codemia.io Hello Devs, if...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Testing &amp; Debugging AI Agents: Ensuring Reliability in Production</title>
-    <link>https://dev.to/mzunain/testing-debugging-ai-agents-ensuring-reliability-in-production-49ll</link>
-    <guid>https://dev.to/mzunain/testing-debugging-ai-agents-ensuring-reliability-in-production-49ll</guid>
-    <pubDate>Sat, 25 Jul 2026 06:00:00 +0000</pubDate>
+    <title>📐 Mathematics for AI — Foundation Course</title>
+    <link>https://dev.to/ajmal_hasan/mathematics-for-ai-foundation-course-18dk</link>
+    <guid>https://dev.to/ajmal_hasan/mathematics-for-ai-foundation-course-18dk</guid>
+    <pubDate>Sat, 25 Jul 2026 09:06:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Testing Agents is Different Normal code: Fixed inputs → Fixed outputs Agents: Variable inputs → Unpredictable outputs You need different testing strategies. Unit Testing Agent Tools import...</description>
+    <description>Before you can truly understand how AI systems think, learn, and generate responses, you need to understand the math that powers them. This guide covers the essential mathematical concepts that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Small Refresh Bug That Uncovered Security Gaps in My OTP System</title>
-    <link>https://dev.to/iqbal120708/a-small-refresh-bug-that-uncovered-security-gaps-in-my-otp-system-3d20</link>
-    <guid>https://dev.to/iqbal120708/a-small-refresh-bug-that-uncovered-security-gaps-in-my-otp-system-3d20</guid>
-    <pubDate>Sat, 25 Jul 2026 05:42:17 +0000</pubDate>
+    <title>Teaching My Backend to Lock the Door — FastAPI Auth, Phase 3</title>
+    <link>https://dev.to/silentcarry/teaching-my-backend-to-lock-the-door-fastapi-auth-phase-3-5b9o</link>
+    <guid>https://dev.to/silentcarry/teaching-my-backend-to-lock-the-door-fastapi-auth-phase-3-5b9o</guid>
+    <pubDate>Sat, 25 Jul 2026 09:06:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Bug That Started It All It began as a small bug I found myself while testing: OTP verification kept failing whenever I refreshed the page, opened a new tab, or copied the link to open on...</description>
+    <description>Hash the password, hand out a token, and make absolutely sure no one can read someone else&apos;s expenses. So Phase 2 gave my app a mouth. It could finally talk — create, read, update, and delete...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Moving a 136 GB MySQL table to another disk at 2 a.m. (the safe way, not a symlink)</title>
-    <link>https://dev.to/shahab_gohar_21c3bd70019a/moving-a-136-gb-mysql-table-to-another-disk-at-2-am-the-safe-way-not-a-symlink-1jnm</link>
-    <guid>https://dev.to/shahab_gohar_21c3bd70019a/moving-a-136-gb-mysql-table-to-another-disk-at-2-am-the-safe-way-not-a-symlink-1jnm</guid>
-    <pubDate>Sat, 25 Jul 2026 05:41:30 +0000</pubDate>
+    <title>AI Wrappers Are Dying. Three Business Models Survived Instead.</title>
+    <link>https://dev.to/jamilxt/ai-wrappers-are-dying-three-business-models-survived-instead-5db4</link>
+    <guid>https://dev.to/jamilxt/ai-wrappers-are-dying-three-business-models-survived-instead-5db4</guid>
+    <pubDate>Sat, 25 Jul 2026 09:04:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Heads up: the database, table, and column names in this post are dummies. I&apos;ve swapped the real production names for generic ones (app_prod, call_transcripts, call_records, and so on) so nothing...</description>
+    <description>In 2024, everyone and their manager launched an AI wrapper. A thin layer over GPT-4, a nice UI, a subscription fee, and boom: you were an AI company. Product Hunt had hundreds of these launches....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Oh My Opencode — Turn OpenCode into a Multi-Agent System with 7 Specialized Agents</title>
-    <link>https://dev.to/sarantoon/oh-my-opencode-turn-opencode-into-a-multi-agent-system-with-7-specialized-agents-1flm</link>
-    <guid>https://dev.to/sarantoon/oh-my-opencode-turn-opencode-into-a-multi-agent-system-with-7-specialized-agents-1flm</guid>
-    <pubDate>Sat, 25 Jul 2026 05:40:56 +0000</pubDate>
+    <title>What a HIPAA-Compliant AI Voice Agent Actually Costs</title>
+    <link>https://dev.to/pykero/what-a-hipaa-compliant-ai-voice-agent-actually-costs-14ch</link>
+    <guid>https://dev.to/pykero/what-a-hipaa-compliant-ai-voice-agent-actually-costs-14ch</guid>
+    <pubDate>Sat, 25 Jul 2026 09:01:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Oh My Opencode — เปลี่ยน OpenCode ให้เป็น Multi-Agent System ที่ทำงานพร้อมกันได้ โดย Nokka (นก-กา) | 13 กรกฎาคม 2026 บทความนี้เขียนโดย AI (deepseek-v4-pro) ผ่าน Hermes Agent...</description>
+    <description>A HIPAA-compliant AI voice agent for healthcare typically costs $40,000-$150,000 to build, depending on call complexity and EHR integration, plus $2,000-$15,000/month to operate. The build cost...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git</title>
+    <link>https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</link>
+    <guid>https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</guid>
+    <pubDate>Sat, 25 Jul 2026 08:34:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Forget expensive sleepbuds. Buy this pillow instead</title>
+    <link>https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead</link>
+    <guid>https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead</guid>
+    <pubDate>Sat, 25 Jul 2026 07:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Tech companies love to sell us expensive gadgets to solve all of life&apos;s little problems. Sleepbuds sold by the likes of Anker and Ozlo are a good example. These miniature marvels of engineering...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else</title>
@@ -242,15 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release</guid>
-    <pubDate>Fri, 24 Jul 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Weeks after Anthropic&apos;s latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>As US weighs response to Chinese AI, industry urges against broad open-weight restrictions</title>
     <link>https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/</link>
     <guid>https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/</guid>
@@ -267,15 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery</title>
-    <link>https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html</link>
-    <guid>https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html</guid>
-    <pubDate>Fri, 24 Jul 2026 15:12:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
