@@ -5,100 +5,154 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 28 Jul 2026 06:40:10 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 28 Jul 2026 10:44:48 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Building a Browser-Based Voxel Editor with React Three Fiber</title>
-    <link>https://dev.to/yamada_tanaka_c941e884150/building-a-browser-based-voxel-editor-with-react-three-fiber-20af</link>
-    <guid>https://dev.to/yamada_tanaka_c941e884150/building-a-browser-based-voxel-editor-with-react-three-fiber-20af</guid>
-    <pubDate>Tue, 28 Jul 2026 06:37:06 +0000</pubDate>
+    <title>Sharing private Flutter packages shouldn&apos;t cost this much (so I built a free registry)</title>
+    <link>https://dev.to/another1dd/sharing-private-flutter-packages-shouldnt-cost-this-much-so-i-built-a-free-registry-4k3j</link>
+    <guid>https://dev.to/another1dd/sharing-private-flutter-packages-shouldnt-cost-this-much-so-i-built-a-free-registry-4k3j</guid>
+    <pubDate>Tue, 28 Jul 2026 10:39:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I have been building VoxelDraft, a voxel editor that runs entirely in the browser without an account or installation. The editor supports block painting, layers, keyframe animation, GIF recording,...</description>
+    <description>Disclosure: I built Publy, the tool this post ends up recommending. It started as a fix for my own problem, not a product — and this is the honest version of how it happened. If you&apos;ve ever tried...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Review AI-Generated Flutter Code (Before It Breaks Production)</title>
-    <link>https://dev.to/nixan/how-to-review-ai-generated-flutter-code-before-it-breaks-production-486f</link>
-    <guid>https://dev.to/nixan/how-to-review-ai-generated-flutter-code-before-it-breaks-production-486f</guid>
-    <pubDate>Tue, 28 Jul 2026 06:30:00 +0000</pubDate>
+    <title>A black rectangle is not PDF redaction: a reproducible test</title>
+    <link>https://dev.to/giscarunir/a-black-rectangle-is-not-pdf-redaction-a-reproducible-test-1jkf</link>
+    <guid>https://dev.to/giscarunir/a-black-rectangle-is-not-pdf-redaction-a-reproducible-test-1jkf</guid>
+    <pubDate>Tue, 28 Jul 2026 10:37:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every unsupervised AI agent we&apos;ve reviewed that wrote Flutter code made the same seven mistakes. These aren&apos;t typos or stylistic differences. They&apos;re structural failures that compound—bad state...</description>
+    <description>A PDF can look safely redacted while still containing the original email address, phone number, or identifier in its text layer. That happens when someone draws a black rectangle over text instead...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Stop Asking AI for Test Cases: Building a Gate-Controlled SDET Prompt</title>
-    <link>https://dev.to/beinghumantester/stop-asking-ai-for-test-cases-building-a-gate-controlled-sdet-prompt-2den</link>
-    <guid>https://dev.to/beinghumantester/stop-asking-ai-for-test-cases-building-a-gate-controlled-sdet-prompt-2den</guid>
-    <pubDate>Tue, 28 Jul 2026 06:21:33 +0000</pubDate>
+    <title>Codient — A Multi-Model AI Coding Assistant for Your Terminal (and VSCode)</title>
+    <link>https://dev.to/hamidsamak/codient-a-multi-model-ai-coding-assistant-for-your-terminal-and-vscode-22jc</link>
+    <guid>https://dev.to/hamidsamak/codient-a-multi-model-ai-coding-assistant-for-your-terminal-and-vscode-22jc</guid>
+    <pubDate>Tue, 28 Jul 2026 10:33:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How to Get the Maximum Value Out of This Framework Having built and iterated on this prompt through multiple production edge cases, here are the exact execution strategies I recommend depending on...</description>
+    <description>Most AI coding assistants lock you into one model and one workflow. Codient takes a different approach: it&apos;s a command-line tool that drives Claude, ChatGPT, Gemini, and DeepSeek through their...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Checklist When You&apos;re Stuck</title>
-    <link>https://dev.to/thebraindonor/a-checklist-when-youre-stuck-i89</link>
-    <guid>https://dev.to/thebraindonor/a-checklist-when-youre-stuck-i89</guid>
-    <pubDate>Tue, 28 Jul 2026 06:20:42 +0000</pubDate>
+    <title>5 Signs Your Engineering Team Has Outgrown Jira (And What We Built Instead)</title>
+    <link>https://dev.to/projiq/5-signs-your-engineering-team-has-outgrown-jira-and-what-we-built-instead-1681</link>
+    <guid>https://dev.to/projiq/5-signs-your-engineering-team-has-outgrown-jira-and-what-we-built-instead-1681</guid>
+    <pubDate>Tue, 28 Jul 2026 10:31:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I was two hours into a bug and completely certain it was mine. Properties I&apos;d added on the Java side of an application weren&apos;t showing up on the JavaScript side. I&apos;d just touched that code. It had...</description>
+    <description>Jira launched in 2002. Your team is building software in 2026. Something isn&apos;t adding up. Don&apos;t get me wrong — Jira is powerful. But &quot;powerful&quot; and &quot;right for your team&quot; aren&apos;t the same thing....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What&apos;s the smallest, dumbest thing that made you completely lose trust in an AI agent mid task?</title>
-    <link>https://dev.to/sign_left/whats-the-smallest-dumbest-thing-that-made-you-completely-lose-trust-in-an-ai-agent-mid-task-2f2o</link>
-    <guid>https://dev.to/sign_left/whats-the-smallest-dumbest-thing-that-made-you-completely-lose-trust-in-an-ai-agent-mid-task-2f2o</guid>
-    <pubDate>Tue, 28 Jul 2026 06:19:48 +0000</pubDate>
+    <title>Can the New York Times Save Journalism From Our AI Overlords?</title>
+    <link>https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/</link>
+    <guid>https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/</guid>
+    <pubDate>Tue, 28 Jul 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>In 2023, the Times sued OpenAI and Microsoft for copyright infringement. They’ve since spent more than $20 million on the case, and publisher A.G. Sulzberger has no plans to stop fighting it.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>10 LLM Failure Modes I Encountered While Engineering with ChatGPT</title>
+    <link>https://dev.to/younic/10-llm-failure-modes-i-encountered-while-engineering-with-chatgpt-32f3</link>
+    <guid>https://dev.to/younic/10-llm-failure-modes-i-encountered-while-engineering-with-chatgpt-32f3</guid>
+    <pubDate>Tue, 28 Jul 2026 10:28:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It doesn&apos;t even have to be a big dramatic failures, more the small moments where something clicked and you went from trusting the output by default to double checking everything. For me it was...</description>
+    <description>After weeks of collaborating with ChatGPT as my engineering partner while building an AI platform, I started noticing recurring collaboration patterns. They weren&apos;t random. They appeared again and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SOLID Principles Cheat Sheet</title>
-    <link>https://dev.to/architect_bytes/solid-principles-cheat-sheet-33oc</link>
-    <guid>https://dev.to/architect_bytes/solid-principles-cheat-sheet-33oc</guid>
-    <pubDate>Tue, 28 Jul 2026 06:19:00 +0000</pubDate>
+    <title>hey @dev.to team my recent PUBLISHED dev.to posts are only visible for logged in users, example - https://dev.to/sp1983/dsci-series-rakulang-ci-4472</title>
+    <link>https://dev.to/sp1983/hey-devto-team-my-recent-published-devto-posts-are-only-visible-for-logged-in-users-example--hh</link>
+    <guid>https://dev.to/sp1983/hey-devto-team-my-recent-published-devto-posts-are-only-visible-for-logged-in-users-example--hh</guid>
+    <pubDate>Tue, 28 Jul 2026 10:28:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Writing software that scales from a small monolith into a multi-team distributed system requires strict architectural discipline. The SOLID principles—coined by Robert C. Martin (&quot;Uncle...</description>
+    <description>DSCI series / Rakulang CI Sp1983 Sp1983 Sp1983 Follow Jul 28 DSCI series / Rakulang CI #rakulang #ci #devops #automation Add Comment 2 min read</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Uncover Hidden Internal Linking Issues with a Free SEO Audit Workflow 🔍</title>
-    <link>https://dev.to/lucy-green/uncover-hidden-internal-linking-issues-with-a-free-seo-audit-workflow-49np</link>
-    <guid>https://dev.to/lucy-green/uncover-hidden-internal-linking-issues-with-a-free-seo-audit-workflow-49np</guid>
-    <pubDate>Tue, 28 Jul 2026 06:18:26 +0000</pubDate>
+    <title>How I Scored 910/1000 on CCAF Claude Certification and Open-Sourced My Last Cheat Sheet</title>
+    <link>https://dev.to/ahmdhsn-dev/how-i-scored-9101000-on-ccaf-claude-certification-and-open-sourced-my-last-cheat-sheet-5ae1</link>
+    <guid>https://dev.to/ahmdhsn-dev/how-i-scored-9101000-on-ccaf-claude-certification-and-open-sourced-my-last-cheat-sheet-5ae1</guid>
+    <pubDate>Tue, 28 Jul 2026 10:25:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tired of burning cash on expensive SEO suites just to run a simple competitor analysis? Me too. That’s why I built a lean workflow using the Chrome DevTools Network tab and a lightweight, free...</description>
+    <description>I passed Claude Certified Architect Foundations (CCAF) with 910/1000 on 15 July 2026, and I&apos;m the first at my company to finish it. I open-sourced the study notes I built:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>One small AI workflow that solved our stale API documentation problem</title>
-    <link>https://dev.to/flutwiz/one-small-ai-workflow-that-solved-our-stale-api-documentation-problem-14g1</link>
-    <guid>https://dev.to/flutwiz/one-small-ai-workflow-that-solved-our-stale-api-documentation-problem-14g1</guid>
-    <pubDate>Tue, 28 Jul 2026 06:18:09 +0000</pubDate>
+    <title>Deep Agents Filesystem Permissions: A Beginner-Friendly Guide with 3 Python Examples</title>
+    <link>https://dev.to/syeedmdtalha/deep-agents-filesystem-permissions-a-beginner-friendly-guide-with-3-python-examples-5hd8</link>
+    <guid>https://dev.to/syeedmdtalha/deep-agents-filesystem-permissions-a-beginner-friendly-guide-with-3-python-examples-5hd8</guid>
+    <pubDate>Tue, 28 Jul 2026 10:20:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One of the most annoying parts of backend development isn&apos;t building APIs. It&apos;s keeping the documentation up to date. Everyone knows it should happen. Everyone plans to do it. But when you&apos;re...</description>
+    <description>An AI agent that can read and write files is only as safe as the boundaries you put around it. A coding agent might need full access to a project folder, but it should never be able to open .env,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Manticore Search authentication rollout checklist for production</title>
-    <link>https://dev.to/sanikolaev/manticore-search-authentication-rollout-checklist-for-production-5427</link>
-    <guid>https://dev.to/sanikolaev/manticore-search-authentication-rollout-checklist-for-production-5427</guid>
-    <pubDate>Tue, 28 Jul 2026 06:15:49 +0000</pubDate>
+    <title>Episode 4: Low-Level Design</title>
+    <link>https://dev.to/surajrkhonde/episode-4-low-level-design-4g27</link>
+    <guid>https://dev.to/surajrkhonde/episode-4-low-level-design-4g27</guid>
+    <pubDate>Tue, 28 Jul 2026 10:15:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In production, &quot;turn it on and done&quot; almost never works. On a standalone node, the technical sequence is short: enable auth, restart Manticore, create an admin user, and update clients. A topology...</description>
+    <description>This series follows a fictional conversation between an experienced engineer and his nephew. Every episode explores one stage of how software moves from an idea to production. 👦 Nephew: Uncle, I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Staj Günlükleri #1: Gömülü Sistemler ve Yazılım Süreçlerine Giriş</title>
-    <link>https://dev.to/derykuscu/staj-gunlukleri-1-gomulu-sistemler-ve-yazilim-sureclerine-giris-4be9</link>
-    <guid>https://dev.to/derykuscu/staj-gunlukleri-1-gomulu-sistemler-ve-yazilim-sureclerine-giris-4be9</guid>
-    <pubDate>Tue, 28 Jul 2026 06:12:54 +0000</pubDate>
+    <title>One bounded context per microservice is how you build a distributed monolith</title>
+    <link>https://dev.to/adioof/one-bounded-context-per-microservice-is-how-you-build-a-distributed-monolith-2jcd</link>
+    <guid>https://dev.to/adioof/one-bounded-context-per-microservice-is-how-you-build-a-distributed-monolith-2jcd</guid>
+    <pubDate>Tue, 28 Jul 2026 10:12:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Herkese selam! 👋 Eprom Elektronik bünyesindeki gömülü sistemler stajımın ilk haftasını geride bıraktım. Bu haftayı hem teorik araştırmalarla hem de Arduino ve donanım bileşenleri üzerinde pratik...</description>
+    <description>I&apos;m sure you are familiar with the concept that one bounded context should map to one microservice. The rule is silently constructing the very thing that everyone says they despise. A monolith...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost</title>
+    <title>Silicon Valley’s Next IPO Billionaires Are Coming. Nonprofits Are Ready for Them</title>
+    <link>https://www.wired.com/story/nonprofits-are-getting-ready-for-the-funding-anthropalypse/</link>
+    <guid>https://www.wired.com/story/nonprofits-are-getting-ready-for-the-funding-anthropalypse/</guid>
+    <pubDate>Tue, 28 Jul 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Anthropic and OpenAI employees are expected to give generously after their companies go public. “It’s going to be a wild ride,” says one nonprofit leader.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Samsung’s chip workers are jumping ship to rival SK Hynix</title>
+    <link>https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/</link>
+    <guid>https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/</guid>
+    <pubDate>Tue, 28 Jul 2026 09:18:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Hugging Face is being used to easily undress women and children</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children</guid>
+    <pubDate>Tue, 28 Jul 2026 09:07:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That&apos;s according to a new report published by the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In</title>
+    <link>https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html</link>
+    <guid>https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html</guid>
+    <pubDate>Tue, 28 Jul 2026 08:11:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit</title>
+    <link>https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html</link>
+    <guid>https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html</guid>
+    <pubDate>Tue, 28 Jul 2026 08:04:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost</title>
     <link>https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html</link>
     <guid>https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html</guid>
     <pubDate>Tue, 28 Jul 2026 06:07:22 +0000</pubDate>
@@ -221,60 +275,6 @@
     <pubDate>Mon, 27 Jul 2026 18:32:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework</title>
-    <link>https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html</link>
-    <guid>https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html</guid>
-    <pubDate>Mon, 27 Jul 2026 18:10:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI)...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.</title>
-    <link>https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/</link>
-    <guid>https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/</guid>
-    <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI’s Hugging Face breach has reignited the debate over alignment and control</title>
-    <link>https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/</link>
-    <guid>https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/</guid>
-    <pubDate>Mon, 27 Jul 2026 17:28:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI&apos;s Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption</title>
-    <link>https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html</link>
-    <guid>https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html</guid>
-    <pubDate>Mon, 27 Jul 2026 17:16:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Why China is giving away its best AI models</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies</guid>
-    <pubDate>Mon, 27 Jul 2026 16:51:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI&apos;s Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Threads users can now chat with Meta AI in their DMs</title>
-    <link>https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/</link>
-    <guid>https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/</guid>
-    <pubDate>Mon, 27 Jul 2026 16:45:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta on Monday said it is rolling out its Meta AI chatbot within Threads&apos; DMs, giving users a way to chat with the AI assistant.</description>
     <category>AI</category>
   </item>
 </channel>
