@@ -5,43 +5,232 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 28 Jul 2026 10:44:48 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 28 Jul 2026 14:36:53 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Sharing private Flutter packages shouldn&apos;t cost this much (so I built a free registry)</title>
-    <link>https://dev.to/another1dd/sharing-private-flutter-packages-shouldnt-cost-this-much-so-i-built-a-free-registry-4k3j</link>
-    <guid>https://dev.to/another1dd/sharing-private-flutter-packages-shouldnt-cost-this-much-so-i-built-a-free-registry-4k3j</guid>
-    <pubDate>Tue, 28 Jul 2026 10:39:05 +0000</pubDate>
+    <title>Reality Doesn’t Fit in a Prompt</title>
+    <link>https://dev.to/alexzerntev/reality-doesnt-fit-in-a-prompt-425g</link>
+    <guid>https://dev.to/alexzerntev/reality-doesnt-fit-in-a-prompt-425g</guid>
+    <pubDate>Tue, 28 Jul 2026 14:33:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclosure: I built Publy, the tool this post ends up recommending. It started as a fix for my own problem, not a product — and this is the honest version of how it happened. If you&apos;ve ever tried...</description>
+    <description>LLMs took the tech industry by storm and changed our relationship with machines. They can answer questions, reason through unfamiliar problems, and increasingly act on our behalf. Yet something...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A black rectangle is not PDF redaction: a reproducible test</title>
-    <link>https://dev.to/giscarunir/a-black-rectangle-is-not-pdf-redaction-a-reproducible-test-1jkf</link>
-    <guid>https://dev.to/giscarunir/a-black-rectangle-is-not-pdf-redaction-a-reproducible-test-1jkf</guid>
-    <pubDate>Tue, 28 Jul 2026 10:37:51 +0000</pubDate>
+    <title>IP Risk Score Thresholds: What to Do at Each Level</title>
+    <link>https://dev.to/abdullah_afzal/ip-risk-score-thresholds-what-to-do-at-each-level-3ji2</link>
+    <guid>https://dev.to/abdullah_afzal/ip-risk-score-thresholds-what-to-do-at-each-level-3ji2</guid>
+    <pubDate>Tue, 28 Jul 2026 14:32:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A PDF can look safely redacted while still containing the original email address, phone number, or identifier in its text layer. That happens when someone draws a black rectangle over text instead...</description>
+    <description>An IP risk score is a 0 to 100 rating of how much abuse an IP address has been associated with. Every guide tells you to respond proportionally to it. Almost none of them name a number. The page...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Codient — A Multi-Model AI Coding Assistant for Your Terminal (and VSCode)</title>
-    <link>https://dev.to/hamidsamak/codient-a-multi-model-ai-coding-assistant-for-your-terminal-and-vscode-22jc</link>
-    <guid>https://dev.to/hamidsamak/codient-a-multi-model-ai-coding-assistant-for-your-terminal-and-vscode-22jc</guid>
-    <pubDate>Tue, 28 Jul 2026 10:33:32 +0000</pubDate>
+    <title>Where Does RAG Actually Cost You Money? (Episode 4)</title>
+    <link>https://dev.to/surajrkhonde/where-does-rag-actually-cost-you-money-episode-4-1bg3</link>
+    <guid>https://dev.to/surajrkhonde/where-does-rag-actually-cost-you-money-episode-4-1bg3</guid>
+    <pubDate>Tue, 28 Jul 2026 14:30:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most AI coding assistants lock you into one model and one workflow. Codient takes a different approach: it&apos;s a command-line tool that drives Claude, ChatGPT, Gemini, and DeepSeek through their...</description>
+    <description>How One Bad Chunk Can Triple Your LLM Bill After Episode 2, I trusted my extraction pipeline. Clean text, tables intact, headers stripped out. I felt like I&apos;d earned the right to stop worrying...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>5 Signs Your Engineering Team Has Outgrown Jira (And What We Built Instead)</title>
-    <link>https://dev.to/projiq/5-signs-your-engineering-team-has-outgrown-jira-and-what-we-built-instead-1681</link>
-    <guid>https://dev.to/projiq/5-signs-your-engineering-team-has-outgrown-jira-and-what-we-built-instead-1681</guid>
-    <pubDate>Tue, 28 Jul 2026 10:31:53 +0000</pubDate>
+    <title>What Actually Is an MCP Gateway?</title>
+    <link>https://dev.to/composiodev/what-actually-is-an-mcp-gateway-37aa</link>
+    <guid>https://dev.to/composiodev/what-actually-is-an-mcp-gateway-37aa</guid>
+    <pubDate>Tue, 28 Jul 2026 14:21:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Jira launched in 2002. Your team is building software in 2026. Something isn&apos;t adding up. Don&apos;t get me wrong — Jira is powerful. But &quot;powerful&quot; and &quot;right for your team&quot; aren&apos;t the same thing....</description>
+    <description>Every team that connects agents to real tools hits the same wall at roughly the same time. It usually looks like a Slack message: &quot;Who has the Jira token?&quot; Here&apos;s what&apos;s underneath that, and what...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Alerts aren’t controls: soft warn / hard stop for Cursor and Claude Code loops</title>
+    <link>https://dev.to/lucianlature/alerts-arent-controls-soft-warn-hard-stop-for-cursor-and-claude-code-loops-2afc</link>
+    <guid>https://dev.to/lucianlature/alerts-arent-controls-soft-warn-hard-stop-for-cursor-and-claude-code-loops-2afc</guid>
+    <pubDate>Tue, 28 Jul 2026 14:21:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you run Cursor or Claude Code hard, you already know the shape of the bill: The session feels cheap while you&apos;re in the loop. The meter (or the invoice) shows up later. By then the damage is...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AI Is Finding Bugs Faster Than You&apos;re Patching Them — What Website Owners Should Do Differently</title>
+    <link>https://dev.to/stanleya/ai-is-finding-bugs-faster-than-youre-patching-them-what-website-owners-should-do-differently-1679</link>
+    <guid>https://dev.to/stanleya/ai-is-finding-bugs-faster-than-youre-patching-them-what-website-owners-should-do-differently-1679</guid>
+    <pubDate>Tue, 28 Jul 2026 14:21:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>&quot;As AI helps defenders discover more issues, customers will see a higher volume of security updates included in each security release.&quot; — Pavan Davuluri, Microsoft EVP, Windows + Devices, July 9,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Microsoft Copilot Tasks Preview Moves Copilot From Answers to Cross-App Actions</title>
+    <link>https://dev.to/alifar/microsoft-copilot-tasks-preview-moves-copilot-from-answers-to-cross-app-actions-1698</link>
+    <guid>https://dev.to/alifar/microsoft-copilot-tasks-preview-moves-copilot-from-answers-to-cross-app-actions-1698</guid>
+    <pubDate>Tue, 28 Jul 2026 14:20:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Microsoft has opened a limited research preview of Copilot Tasks, a new capability designed to move Copilot beyond conversational answers and into carrying out multi-step work across apps and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Blockchain; The damned and cursed hero we need to tame down the chaotic AI mess</title>
+    <link>https://dev.to/ryo_suwito/blockchain-the-damned-and-cursed-hero-we-need-to-tame-down-the-chaotic-ai-mess-5gfl</link>
+    <guid>https://dev.to/ryo_suwito/blockchain-the-damned-and-cursed-hero-we-need-to-tame-down-the-chaotic-ai-mess-5gfl</guid>
+    <pubDate>Tue, 28 Jul 2026 14:20:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Yeah, I know. Blockchain. NFTs. Web3. Three words capable of triggering instant PTSD flashbacks involving monkey JPEGs, celebrity rug pulls, Discord servers, and some guy named CryptoAlphaWolf69...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Your Code Cannot Be Perfectly Efficient</title>
+    <link>https://dev.to/paulcrinigan/why-your-code-cannot-be-perfectly-efficient-1gpn</link>
+    <guid>https://dev.to/paulcrinigan/why-your-code-cannot-be-perfectly-efficient-1gpn</guid>
+    <pubDate>Tue, 28 Jul 2026 14:19:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every optimization conversation eventually hits a wall that has nothing to do with the code. You cut allocations, you batch the I/O, you move the hot loop into a tighter language, and the machine...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Built an AI Proposal Writer in 2 Weeks. Here&apos;s the Exact Prompt Architecture That Made It Work.</title>
+    <link>https://dev.to/yan_yan_096c6a71b7657ec65/i-built-an-ai-proposal-writer-in-2-weeks-heres-the-exact-prompt-architecture-that-made-it-286k</link>
+    <guid>https://dev.to/yan_yan_096c6a71b7657ec65/i-built-an-ai-proposal-writer-in-2-weeks-heres-the-exact-prompt-architecture-that-made-it-286k</guid>
+    <pubDate>Tue, 28 Jul 2026 14:18:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m a freelance Next.js developer. Last month I built ProposalAI — a tool that reads Upwork job posts and generates tailored proposals. Here&apos;s the technical breakdown of what I learned. The...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Fish Audio raises $50M seed to build AI voice models for creators and enterprises</title>
+    <link>https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/</link>
+    <guid>https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/</guid>
+    <pubDate>Tue, 28 Jul 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Since launching last year, the startup today has more than 8 million people using the open-source or hosted version of its models, and now generates annual recurring revenue of $21 million.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach</title>
+    <link>https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html</link>
+    <guid>https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html</guid>
+    <pubDate>Tue, 28 Jul 2026 13:33:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog&apos;s software...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Recursive Superintelligence signs $410 compute deal with Amazon</title>
+    <link>https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/</link>
+    <guid>https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/</guid>
+    <pubDate>Tue, 28 Jul 2026 13:19:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>5 ways AI Mode in Search helps you enjoy the real world</title>
+    <link>https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/</link>
+    <guid>https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/</guid>
+    <pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>5 ways to host the ultimate dinner party with Google Search</title>
+    <link>https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/</link>
+    <guid>https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/</guid>
+    <pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>An illustrated black magnifying glass with a sparkle in a white circle surrounded by a dinner party tablescape</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Twelve South’s stylish charging tray now delivers more wireless power with a smaller footprint</title>
+    <link>https://www.theverge.com/tech/969957/twelve-south-valet-wireless-charger-qi2-25w-leather</link>
+    <guid>https://www.theverge.com/tech/969957/twelve-south-valet-wireless-charger-qi2-25w-leather</guid>
+    <pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Following the original&apos;s debut at CES earlier this year, Twelve South is introducing a new version of its leather-wrapped Valet charging tray designed for use in places where space is at a...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>You don’t need to splurge on an expensive handheld fan to beat the heat</title>
+    <link>https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan</link>
+    <guid>https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan</guid>
+    <pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Despite what influencers may say, you don’t need to spend $99.99 on Dyson’s HushJet Mini Cool or $149.99 for the Shark ChillPill to survive the summer whenever you leave the comfort of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root</title>
+    <link>https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html</link>
+    <guid>https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html</guid>
+    <pubDate>Tue, 28 Jul 2026 12:56:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Logitech’s handheld plans are on ice — don’t expect a G Cloud 2 soon</title>
+    <link>https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview</link>
+    <guid>https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview</guid>
+    <pubDate>Tue, 28 Jul 2026 12:31:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Logitech&apos;s new gaming boss, Robin Piispanen, tells me he likes the idea of gaming handhelds. &quot;It&apos;s such a charming value proposition,&quot; he says, as we sip iced vanilla lattes at my local cafe. But...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Perplexity’s Personal Computer turns Windows PCs into AI agents</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents</guid>
+    <pubDate>Tue, 28 Jul 2026 12:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world&apos;s most popular OS to be used as a locally run AI system. Like the Mac version that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple launches ‘Upgrade’ program to lease new devices</title>
+    <link>https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch</link>
+    <guid>https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch</guid>
+    <pubDate>Tue, 28 Jul 2026 12:23:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple has officially introduced &quot;Apple Upgrade,&quot; a new leasing program that aims to make it easier to get your hands on the latest iPhone, Mac, iPad, and Apple Watch models. The service is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: OpenAI’s predictable hack, and an AI stock sell-off</title>
+    <link>https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/</link>
+    <guid>https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/</guid>
+    <pubDate>Tue, 28 Jul 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Smart rings are looking like my kind of AI gadget</title>
+    <link>https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index</link>
+    <guid>https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index</guid>
+    <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Over the last few months, I&apos;ve spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays</title>
+    <link>https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html</link>
+    <guid>https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html</guid>
+    <pubDate>Tue, 28 Jul 2026 11:55:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Axon Is Another License Plate Surveillance Company</title>
+    <link>https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html</guid>
+    <pubDate>Tue, 28 Jul 2026 11:06:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Governments are switching, but I’m not sure it makes a difference: …some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if they’re only...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Can the New York Times Save Journalism From Our AI Overlords?</title>
@@ -51,60 +240,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>In 2023, the Times sued OpenAI and Microsoft for copyright infringement. They’ve since spent more than $20 million on the case, and publisher A.G. Sulzberger has no plans to stop fighting it.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>10 LLM Failure Modes I Encountered While Engineering with ChatGPT</title>
-    <link>https://dev.to/younic/10-llm-failure-modes-i-encountered-while-engineering-with-chatgpt-32f3</link>
-    <guid>https://dev.to/younic/10-llm-failure-modes-i-encountered-while-engineering-with-chatgpt-32f3</guid>
-    <pubDate>Tue, 28 Jul 2026 10:28:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>After weeks of collaborating with ChatGPT as my engineering partner while building an AI platform, I started noticing recurring collaboration patterns. They weren&apos;t random. They appeared again and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>hey @dev.to team my recent PUBLISHED dev.to posts are only visible for logged in users, example - https://dev.to/sp1983/dsci-series-rakulang-ci-4472</title>
-    <link>https://dev.to/sp1983/hey-devto-team-my-recent-published-devto-posts-are-only-visible-for-logged-in-users-example--hh</link>
-    <guid>https://dev.to/sp1983/hey-devto-team-my-recent-published-devto-posts-are-only-visible-for-logged-in-users-example--hh</guid>
-    <pubDate>Tue, 28 Jul 2026 10:28:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>DSCI series / Rakulang CI Sp1983 Sp1983 Sp1983 Follow Jul 28 DSCI series / Rakulang CI #rakulang #ci #devops #automation Add Comment 2 min read</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How I Scored 910/1000 on CCAF Claude Certification and Open-Sourced My Last Cheat Sheet</title>
-    <link>https://dev.to/ahmdhsn-dev/how-i-scored-9101000-on-ccaf-claude-certification-and-open-sourced-my-last-cheat-sheet-5ae1</link>
-    <guid>https://dev.to/ahmdhsn-dev/how-i-scored-9101000-on-ccaf-claude-certification-and-open-sourced-my-last-cheat-sheet-5ae1</guid>
-    <pubDate>Tue, 28 Jul 2026 10:25:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I passed Claude Certified Architect Foundations (CCAF) with 910/1000 on 15 July 2026, and I&apos;m the first at my company to finish it. I open-sourced the study notes I built:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Deep Agents Filesystem Permissions: A Beginner-Friendly Guide with 3 Python Examples</title>
-    <link>https://dev.to/syeedmdtalha/deep-agents-filesystem-permissions-a-beginner-friendly-guide-with-3-python-examples-5hd8</link>
-    <guid>https://dev.to/syeedmdtalha/deep-agents-filesystem-permissions-a-beginner-friendly-guide-with-3-python-examples-5hd8</guid>
-    <pubDate>Tue, 28 Jul 2026 10:20:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An AI agent that can read and write files is only as safe as the boundaries you put around it. A coding agent might need full access to a project folder, but it should never be able to open .env,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Episode 4: Low-Level Design</title>
-    <link>https://dev.to/surajrkhonde/episode-4-low-level-design-4g27</link>
-    <guid>https://dev.to/surajrkhonde/episode-4-low-level-design-4g27</guid>
-    <pubDate>Tue, 28 Jul 2026 10:15:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This series follows a fictional conversation between an experienced engineer and his nephew. Every episode explores one stage of how software moves from an idea to production. 👦 Nephew: Uncle, I...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>One bounded context per microservice is how you build a distributed monolith</title>
-    <link>https://dev.to/adioof/one-bounded-context-per-microservice-is-how-you-build-a-distributed-monolith-2jcd</link>
-    <guid>https://dev.to/adioof/one-bounded-context-per-microservice-is-how-you-build-a-distributed-monolith-2jcd</guid>
-    <pubDate>Tue, 28 Jul 2026 10:12:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m sure you are familiar with the concept that one bounded context should map to one microservice. The rule is silently constructing the very thing that everyone says they despise. A monolith...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Silicon Valley’s Next IPO Billionaires Are Coming. Nonprofits Are Ready for Them</title>
@@ -141,141 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution....</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit</title>
-    <link>https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html</link>
-    <guid>https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html</guid>
-    <pubDate>Tue, 28 Jul 2026 08:04:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost</title>
-    <link>https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html</link>
-    <guid>https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html</guid>
-    <pubDate>Tue, 28 Jul 2026 06:07:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Hugging Face Has a Deepfake Nudes Problem</title>
-    <link>https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/</link>
-    <guid>https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/</guid>
-    <pubDate>Tue, 28 Jul 2026 05:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Researchers tested top image editing models on Hugging Face and found they could easily create explicit deepfakes—and 1,000 image editing prompts show how people use the software.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw</title>
-    <link>https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html</link>
-    <guid>https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html</guid>
-    <pubDate>Tue, 28 Jul 2026 04:43:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing</title>
-    <link>https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/</link>
-    <guid>https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/</guid>
-    <pubDate>Tue, 28 Jul 2026 04:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI</title>
-    <link>https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/</link>
-    <guid>https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/</guid>
-    <pubDate>Tue, 28 Jul 2026 00:13:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China&apos;s growing AI capabilities.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>X Money is launching in the US starting today</title>
-    <link>https://www.theverge.com/tech/971649/x-money-launch-elon-musk</link>
-    <guid>https://www.theverge.com/tech/971649/x-money-launch-elon-musk</guid>
-    <pubDate>Mon, 27 Jul 2026 22:10:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>X Money, a core part of Elon Musk&apos;s mission to turn X into an &quot;everything app,&quot; is rolling out starting today, 9to5Mac reports. The payment platform offers a digital wallet and peer-to-peer...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft unveils AI security tools it says outperform competing platforms</title>
-    <link>https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/</link>
-    <guid>https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/</guid>
-    <pubDate>Mon, 27 Jul 2026 21:56:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Microsoft says tools cost less than competing ones and outperform them, too.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Razer’s analog Huntsman V3 Pro is over 20 percent off</title>
-    <link>https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale</guid>
-    <pubDate>Mon, 27 Jul 2026 21:29:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Gaming keyboards have evolved over the years to add RGB LEDs, extra knobs, and buttons with screens, but one feature has remained fairly consistent: the mechanical switch. That’s slowly changing,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Satya Nadella says companies that trust one AI for everything may not survive</title>
-    <link>https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/</link>
-    <guid>https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/</guid>
-    <pubDate>Mon, 27 Jul 2026 21:17:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>PSA: Your Claude shared chats and Artifacts may have ended up on Google</title>
-    <link>https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/</link>
-    <guid>https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/</guid>
-    <pubDate>Mon, 27 Jul 2026 20:19:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Private Claude Chats Exposed in Google and Bing Search Results</title>
-    <link>https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/</link>
-    <guid>https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/</guid>
-    <pubDate>Mon, 27 Jul 2026 20:08:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The screwup shows how tricky it can be to stop web crawlers from making ostensibly private conversations with AI chatbots entirely too public.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Xbox’s huge outage even blocked games on disc</title>
-    <link>https://www.theverge.com/games/971545/xbox-outage-disc-physical-games</link>
-    <guid>https://www.theverge.com/games/971545/xbox-outage-disc-physical-games</guid>
-    <pubDate>Mon, 27 Jul 2026 19:53:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>An extended Xbox outage that began Sunday evening didn&apos;t just cause issues for people trying to play digital games - it blocked people from playing their disc-based games, too. Xbox&apos;s status page...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nanoleaf&amp;#8217;s colorful pegboard and shelf kit is half off</title>
-    <link>https://www.theverge.com/gadgets/971535/nanoleaf-blocks-combo-xl-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/971535/nanoleaf-blocks-combo-xl-deal-sale</guid>
-    <pubDate>Mon, 27 Jul 2026 19:24:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nanoleaf’s Blocks Combo XL Smarter Kit is a fun back-to-school buy that can add pops of customizable light and storage to your wall. It combines colorful smart lighting panels with a low-profile...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system</title>
-    <link>https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/</link>
-    <guid>https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/</guid>
-    <pubDate>Mon, 27 Jul 2026 18:32:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
