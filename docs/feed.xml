@@ -5,97 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 29 Jul 2026 14:30:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 29 Jul 2026 17:38:15 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>The Rogue AI Story Isn&apos;t About Rogue AI. It&apos;s About Credentials You Forgot Existed</title>
-    <link>https://dev.to/coridev/the-rogue-ai-story-isnt-about-rogue-ai-its-about-credentials-you-forgot-existed-5a9c</link>
-    <guid>https://dev.to/coridev/the-rogue-ai-story-isnt-about-rogue-ai-its-about-credentials-you-forgot-existed-5a9c</guid>
-    <pubDate>Wed, 29 Jul 2026 14:19:52 +0000</pubDate>
+    <title>Building a Legal Document Analyzer in typescript with NodeJS</title>
+    <link>https://dev.to/nisa_fatima_bcd75fa085b76/building-a-legal-document-analyzer-in-typescript-with-nodejs-392p</link>
+    <guid>https://dev.to/nisa_fatima_bcd75fa085b76/building-a-legal-document-analyzer-in-typescript-with-nodejs-392p</guid>
+    <pubDate>Wed, 29 Jul 2026 17:30:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An autonomous ChatGPT agent broke out of its test environment and used exposed credentials to hit Hugging Face and at least three other services, for days, before anyone caught it. That sentence...</description>
+    <description>Legal documents are notoriously complex, filled with specialized terminology, hidden risks, and critical obligations. Lawyers and legal professionals spend countless hours reviewing contracts,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Pick a Good Manager, and Your Career Changes</title>
-    <link>https://dev.to/pskclub/pick-a-good-manager-and-your-career-changes-i62</link>
-    <guid>https://dev.to/pskclub/pick-a-good-manager-and-your-career-changes-i62</guid>
-    <pubDate>Wed, 29 Jul 2026 14:15:05 +0000</pubDate>
+    <title>RAG - Query Transformation and Expansion</title>
+    <link>https://dev.to/ramya_perumal/rag-query-transformation-and-expansion-n6i</link>
+    <guid>https://dev.to/ramya_perumal/rag-query-transformation-and-expansion-n6i</guid>
+    <pubDate>Wed, 29 Jul 2026 17:27:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Adapted from a talk by 9arm — watch the original video at youtube.com/watch?v=6FMl4YaJnts The Lesson From 5 Wasted Years: Nobody Teaches You Career Growth There&apos;s one thing nobody teaches you when...</description>
+    <description>Query Transformation When a user asks a blended or incomplete query, such as: &quot;How do I deploy it?&quot; the LLM uses the background context it already has to transform the query into a more meaningful...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Code-Roasting Rubber Duck</title>
-    <link>https://dev.to/tmoreton/i-built-a-code-roasting-rubber-duck-39d2</link>
-    <guid>https://dev.to/tmoreton/i-built-a-code-roasting-rubber-duck-39d2</guid>
-    <pubDate>Wed, 29 Jul 2026 14:14:06 +0000</pubDate>
+    <title>Laravel Sanctum with Nuxt SSR: why the session disappears on the server</title>
+    <link>https://dev.to/nuxavel/laravel-sanctum-with-nuxt-ssr-why-the-session-disappears-on-the-server-4eno</link>
+    <guid>https://dev.to/nuxavel/laravel-sanctum-with-nuxt-ssr-why-the-session-disappears-on-the-server-4eno</guid>
+    <pubDate>Wed, 29 Jul 2026 17:21:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every developer knows rubber-duck debugging: you explain your code to a rubber duck on your desk, and halfway through the explanation you spot the bug yourself. The duck just sits there. Silent....</description>
+    <description>It works in the browser and 401s during server rendering. The cause is that your SSR fetch is a different HTTP client entirely — one with no cookies, no browser Origin, and often no route to the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Sharing tRPC v11 types between Next.js and Expo: a real-world indie Web + iOS setup</title>
-    <link>https://dev.to/hirodeath/sharing-trpc-v11-types-between-nextjs-and-expo-a-real-world-indie-web-ios-setup-3067</link>
-    <guid>https://dev.to/hirodeath/sharing-trpc-v11-types-between-nextjs-and-expo-a-real-world-indie-web-ios-setup-3067</guid>
-    <pubDate>Wed, 29 Jul 2026 14:08:55 +0000</pubDate>
+    <title>Building a WhatsApp AI Agent with Gemini Using Gemini as Your Copilot</title>
+    <link>https://dev.to/devpato/-building-a-whatsapp-ai-agent-with-gemini-using-gemini-as-your-copilot-41</link>
+    <guid>https://dev.to/devpato/-building-a-whatsapp-ai-agent-with-gemini-using-gemini-as-your-copilot-41</guid>
+    <pubDate>Wed, 29 Jul 2026 17:19:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a translation of my original article in Japanese: Zenn I build and run a service as a solo developer that ships both a web app (Next.js) and an iOS app (Expo / React Native). The one thing...</description>
+    <description>What you&apos;ll build: A WhatsApp number that replies with an AI agent powered by Google Gemini. You&apos;ll use Gemini (via the Gemini CLI or Gemini Code Assist in your IDE) as your pair-programming...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Choose DuckDB rather than SQLite</title>
-    <link>https://tracewayapp.com/blog/sqlite-vs-duckdb</link>
-    <guid>https://tracewayapp.com/blog/sqlite-vs-duckdb</guid>
-    <pubDate>Wed, 29 Jul 2026 14:05:40 +0000</pubDate>
+    <title>Measuring the Tendency of AI Agents to Go Rogue</title>
+    <link>https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html</guid>
+    <pubDate>Wed, 29 Jul 2026 17:07:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>This essay was written with Barath Raghavan, and originally appeared in The Guardian. In July, Hugging Face, a company that hosts much of the world’s AI software and open-source AI models, was...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The One-Line Audit That Might Save You a Container Incident</title>
+    <link>https://dev.to/schiff_heimlich/the-one-line-audit-that-might-save-you-a-container-incident-570f</link>
+    <guid>https://dev.to/schiff_heimlich/the-one-line-audit-that-might-save-you-a-container-incident-570f</guid>
+    <pubDate>Wed, 29 Jul 2026 17:05:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The One-Line Audit That Might Save You a Container Incident Here&apos;s something I check whenever I&apos;m reviewing a new container image. docker run --rm [image] which busybox If it returns a path,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Stop Faking Your Mock APIs: Introducing Playground API 🚀</title>
+    <link>https://dev.to/nileshcodehub/stop-faking-your-mock-apis-introducing-playground-api-5b03</link>
+    <guid>https://dev.to/nileshcodehub/stop-faking-your-mock-apis-introducing-playground-api-5b03</guid>
+    <pubDate>Wed, 29 Jul 2026 17:05:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you’ve ever built a frontend prototype, mobile app, or design demo, you’ve likely run into this common headache: You connect your app to a mock REST API (like standard JSONPlaceholder). You...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>PgDog (YC P25) Is Hiring</title>
+    <link>https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer</link>
+    <guid>https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer</guid>
+    <pubDate>Wed, 29 Jul 2026 17:01:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://tracewayapp.com/blog/sqlite-vs-duckdb Comments URL: https://news.ycombinator.com/item?id=49097730 Points: 16 # Comments: 1</description>
+    <description>Article URL: https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer Comments URL: https://news.ycombinator.com/item?id=49100056 Points: 0 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Offense + Defense combined — How the two pair up (for self-taught developers)</title>
-    <link>https://dev.to/dexterlung/offense-defense-combined-how-the-two-pair-up-for-self-taught-developers-49c0</link>
-    <guid>https://dev.to/dexterlung/offense-defense-combined-how-the-two-pair-up-for-self-taught-developers-49c0</guid>
-    <pubDate>Wed, 29 Jul 2026 14:05:15 +0000</pubDate>
+    <title>How I fixed Cyrillic support in jsPDF (the clean way)</title>
+    <link>https://dev.to/aleksandrov_todor_bff7f67/how-i-fixed-cyrillic-support-in-jspdf-the-clean-way-58hh</link>
+    <guid>https://dev.to/aleksandrov_todor_bff7f67/how-i-fixed-cyrillic-support-in-jspdf-the-clean-way-58hh</guid>
+    <pubDate>Wed, 29 Jul 2026 17:01:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>May 2026 · Series &quot;Trace Lock — Governance notes from pairing with AI to write code&quot; · Post 4 of 9 The previous two posts covered the two trace-lock modes separately: A1 Defensive: after tripping...</description>
+    <description>If you&apos;ve ever tried to generate a PDF with jsPDF that contains Cyrillic (or really any non-Latin text), you&apos;ve probably seen this: instead of your text, you get garbage characters, question...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How AI Is Rebuilding Software Engineering - Part 1: What’s Actually Changing</title>
-    <link>https://dev.to/smfiorillo/how-ai-is-rebuilding-software-engineering-part-1-whats-actually-changing-4h18</link>
-    <guid>https://dev.to/smfiorillo/how-ai-is-rebuilding-software-engineering-part-1-whats-actually-changing-4h18</guid>
-    <pubDate>Wed, 29 Jul 2026 14:01:54 +0000</pubDate>
+    <title>OpenAI’s Frontier Governance Framework Raises the Question of How AI Progress Should Be Paced</title>
+    <link>https://dev.to/alifar/openais-frontier-governance-framework-raises-the-question-of-how-ai-progress-should-be-paced-4al4</link>
+    <guid>https://dev.to/alifar/openais-frontier-governance-framework-raises-the-question-of-how-ai-progress-should-be-paced-4al4</guid>
+    <pubDate>Wed, 29 Jul 2026 17:00:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We are living through one of the most challenging moments the software industry has faced. AI’s disruption made us rethink almost everything: how we build software, the roles we know, how we...</description>
+    <description>OpenAI has set out formal materials for governing frontier AI risks, while also signaling that the rate of future AI progress could become a public-policy question. The company’s published...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Personal AI Cloud: Why Everyone Will Have Their Own Private LLM by 2027</title>
-    <link>https://dev.to/theaiprism/the-personal-ai-cloud-why-everyone-will-have-their-own-private-llm-by-2027-d70</link>
-    <guid>https://dev.to/theaiprism/the-personal-ai-cloud-why-everyone-will-have-their-own-private-llm-by-2027-d70</guid>
-    <pubDate>Wed, 29 Jul 2026 14:00:43 +0000</pubDate>
+    <title>The Silent iOS 17 Crash Hiding in `@Dependency` and `withTaskGroup`</title>
+    <link>https://dev.to/emadbeyrami/the-silent-ios-17-crash-hiding-in-dependency-and-withtaskgroup-g8c</link>
+    <guid>https://dev.to/emadbeyrami/the-silent-ios-17-crash-hiding-in-dependency-and-withtaskgroup-g8c</guid>
+    <pubDate>Wed, 29 Jul 2026 16:59:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on The AI Prism When was the last time you actually read the terms of service before hitting “Agree”? Exactly. For the last three years, we’ve been happily feeding our most...</description>
+    <description>A subtle Swift Concurrency pitfall for developers using Point-Free&apos;s swift-dependencies. I recently tracked down a crash that only affected users running iOS 17. The stack trace pointed deep into...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Anthropic’s Mythos Preview Shows How AI Is Reshaping Defensive Vulnerability Research</title>
-    <link>https://dev.to/alifar/anthropics-mythos-preview-shows-how-ai-is-reshaping-defensive-vulnerability-research-4lll</link>
-    <guid>https://dev.to/alifar/anthropics-mythos-preview-shows-how-ai-is-reshaping-defensive-vulnerability-research-4lll</guid>
-    <pubDate>Wed, 29 Jul 2026 14:00:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Anthropic says its Claude Mythos Preview research model can autonomously identify and, in many cases, exploit zero-day vulnerabilities in real software environments. The results span browser,...</description>
-    <category>Developer Tools</category>
+    <title>Full school day cellphone bans are more popular than ever</title>
+    <link>https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever</link>
+    <guid>https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever</guid>
+    <pubDate>Wed, 29 Jul 2026 16:42:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As schools across the country continue to implement cellphone bans, a new Pew Research Center survey shows they continue to gain support. Seventy-seven percent of US adults support banning...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Matter 1.4 in Production: What Actually Changed for IoT Device Makers</title>
-    <link>https://dev.to/zediot/matter-14-in-production-what-actually-changed-for-iot-device-makers-1g2l</link>
-    <guid>https://dev.to/zediot/matter-14-in-production-what-actually-changed-for-iot-device-makers-1g2l</guid>
-    <pubDate>Wed, 29 Jul 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;re building IoT devices with Matter support — or planning to — you&apos;ve probably heard about Matter 1.4. The spec documents are thorough, but between the pages of formal protocol definitions...</description>
-    <category>Developer Tools</category>
+    <title>Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory</title>
+    <link>https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html</link>
+    <guid>https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html</guid>
+    <pubDate>Wed, 29 Jul 2026 15:39:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners</title>
+    <link>https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/</link>
+    <guid>https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/</guid>
+    <pubDate>Wed, 29 Jul 2026 15:35:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI home management startup Hint, co-founded by Martha Stewart, wants to become an “AI for your home,” combining property records, maintenance schedules, home documents, and an AI assistant into a...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape</title>
+    <link>https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html</link>
+    <guid>https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html</guid>
+    <pubDate>Wed, 29 Jul 2026 15:31:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Ferrari Luce has at least 500 fans</title>
+    <link>https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales</link>
+    <guid>https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales</guid>
+    <pubDate>Wed, 29 Jul 2026 15:28:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Just two months after a bumpy launch earlier this year, Ferrari has reportedly already hit its 2026 sales goal for its polarizing, Jony Ive-designed Luce EV. Ahead of Ferrari announcing its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Remarkable’s refurbished bundle is an awesome deal that’s over $350 off</title>
+    <link>https://www.theverge.com/gadgets/972219/remarkable-paper-pro-twelve-south-airfly-2-pro-deluxe-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/972219/remarkable-paper-pro-twelve-south-airfly-2-pro-deluxe-deal-sale</guid>
+    <pubDate>Wed, 29 Jul 2026 15:09:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>A lot of us here at The Verge are fans of Remarkable’s digital note-taking tablets, and right now one of its higher-end options is much cheaper than usual. The Remarkable Paper Pro normally sells...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Encore AI raises $30M to build AI agents that learn from customer calls</title>
+    <link>https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/</link>
+    <guid>https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/</guid>
+    <pubDate>Wed, 29 Jul 2026 14:41:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The startup analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline</title>
+    <link>https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html</link>
+    <guid>https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html</guid>
+    <pubDate>Wed, 29 Jul 2026 13:48:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments</title>
+    <link>https://thehackernews.com/2026/07/nine-year-fraud-campaign.html</link>
+    <guid>https://thehackernews.com/2026/07/nine-year-fraud-campaign.html</guid>
+    <pubDate>Wed, 29 Jul 2026 13:42:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>DoorDash is going airborne with new drone delivery division</title>
@@ -185,96 +275,6 @@
     <pubDate>Wed, 29 Jul 2026 11:01:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>As AI content floods the internet, Pangram raises $9M to detect it</title>
-    <link>https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/</link>
-    <guid>https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/</guid>
-    <pubDate>Wed, 29 Jul 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>We’re running out of reasons to ignore AI safety</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning</guid>
-    <pubDate>Wed, 29 Jul 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity</title>
-    <link>https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html</link>
-    <guid>https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html</guid>
-    <pubDate>Wed, 29 Jul 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Xbox outage shouldn&amp;#8217;t have affected games on disc, Microsoft confirms</title>
-    <link>https://www.theverge.com/games/972416/xbox-outage-game-disc-entitlement-check-issue</link>
-    <guid>https://www.theverge.com/games/972416/xbox-outage-game-disc-entitlement-check-issue</guid>
-    <pubDate>Wed, 29 Jul 2026 10:58:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After the recent Xbox outage even blocked people from playing offline disc-based console games, Microsoft is trying to soothe concerns that you don&apos;t truly own anything under Xbox&apos;s license...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>More Typos, Fewer Em Dashes: Writers Are Creating an Anti-AI ‘Literary Counterculture’</title>
-    <link>https://www.wired.com/story/more-typos-fewer-em-dashes-writers-are-creating-an-anti-ai-literary-counterculture/</link>
-    <guid>https://www.wired.com/story/more-typos-fewer-em-dashes-writers-are-creating-an-anti-ai-literary-counterculture/</guid>
-    <pubDate>Wed, 29 Jul 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Novelists, journalists, and power LinkedIn posters are embracing first-person narratives and idiosyncrasies to avoid being mistaken for chat bots.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Boomers Can’t Stop Gifting Their Grandkids AI-Generated Slop Books</title>
-    <link>https://www.wired.com/story/boomers-cant-stop-gifting-their-grandkids-ai-generated-slop-books/</link>
-    <guid>https://www.wired.com/story/boomers-cant-stop-gifting-their-grandkids-ai-generated-slop-books/</guid>
-    <pubDate>Wed, 29 Jul 2026 09:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Parents are getting fed up with garbled bedtime stories that feature characters based on actual photos of their children.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass</title>
-    <link>https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html</link>
-    <guid>https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html</guid>
-    <pubDate>Wed, 29 Jul 2026 08:58:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The AI Hype Index: Unsexy AI</title>
-    <link>https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/</link>
-    <guid>https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/</guid>
-    <pubDate>Wed, 29 Jul 2026 08:42:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach</title>
-    <link>https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html</link>
-    <guid>https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html</guid>
-    <pubDate>Wed, 29 Jul 2026 07:51:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face&apos;s production environment also hacked multiple...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands</title>
-    <link>https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html</link>
-    <guid>https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html</guid>
-    <pubDate>Wed, 29 Jul 2026 07:47:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live...</description>
     <category>Security</category>
   </item>
 </channel>
