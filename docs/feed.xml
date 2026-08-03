@@ -5,88 +5,160 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 03 Aug 2026 11:43:29 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 03 Aug 2026 15:15:40 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Skills Were Only Half the Answer: Upgrading to Agents, Skills and Commands</title>
-    <link>https://dev.to/nasrulhazim/skills-were-only-half-the-answer-upgrading-to-agents-skills-and-commands-12no</link>
-    <guid>https://dev.to/nasrulhazim/skills-were-only-half-the-answer-upgrading-to-agents-skills-and-commands-12no</guid>
-    <pubDate>Mon, 03 Aug 2026 11:38:29 +0000</pubDate>
+    <title>Autoscaling Doesn&apos;t Fit Every Workload Here&apos;s How to Tell, and What to Build Instead</title>
+    <link>https://dev.to/techwithhari/autoscaling-doesnt-fit-every-workload-heres-how-to-tell-and-what-to-build-instead-45ff</link>
+    <guid>https://dev.to/techwithhari/autoscaling-doesnt-fit-every-workload-heres-how-to-tell-and-what-to-build-instead-45ff</guid>
+    <pubDate>Mon, 03 Aug 2026 15:06:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Back in February I wrote about agent-skills — a repo of SKILL.md files that taught Claude Code my Laravel conventions so I&apos;d stop re-explaining Pest, Action classes and Livewire 4 every session....</description>
+    <description>&quot;Just put it behind an autoscaling group&quot; is one of those pieces of advice that&apos;s right so often it stops getting questioned. For a stateless API or a web server, it&apos;s genuinely close to free...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Cómo montar un sistema de contenidos automatizado por 15€ al mes (Stack 2026)</title>
-    <link>https://dev.to/acrdev/como-montar-un-sistema-de-contenidos-automatizado-por-15eu-al-mes-stack-2026-2p19</link>
-    <guid>https://dev.to/acrdev/como-montar-un-sistema-de-contenidos-automatizado-por-15eu-al-mes-stack-2026-2p19</guid>
-    <pubDate>Mon, 03 Aug 2026 11:36:09 +0000</pubDate>
+    <title>I put a public graffiti wall on my SaaS homepage</title>
+    <link>https://dev.to/ownvital/i-put-a-public-graffiti-wall-on-my-saas-homepage-4n4l</link>
+    <guid>https://dev.to/ownvital/i-put-a-public-graffiti-wall-on-my-saas-homepage-4n4l</guid>
+    <pubDate>Mon, 03 Aug 2026 15:05:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Cómo montar un sistema de contenidos automatizado por 15€ al mes (Stack 2026) Mira, te cuento la verdad. Producir contenido todas las semanas para tu negocio digital es un coñazo si estás solo o...</description>
+    <description>Somewhere below the hero, most SaaS homepages have the same section: a screenshot of the product, slightly angled, maybe in a browser mockup with fake traffic numbers. Everyone scrolls past it,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Multi-Agent AI for Company LinkedIn Pages - Part 7: Building the Hook Agent</title>
-    <link>https://dev.to/mnv/building-a-multi-agent-ai-for-company-linkedin-pages-part-7-building-the-hook-agent-1632</link>
-    <guid>https://dev.to/mnv/building-a-multi-agent-ai-for-company-linkedin-pages-part-7-building-the-hook-agent-1632</guid>
-    <pubDate>Mon, 03 Aug 2026 11:31:34 +0000</pubDate>
+    <title>The Mindset of a Hacker</title>
+    <link>https://dev.to/mirrai/the-mindset-of-a-hacker-1454</link>
+    <guid>https://dev.to/mirrai/the-mindset-of-a-hacker-1454</guid>
+    <pubDate>Mon, 03 Aug 2026 14:57:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Our system can now classify a topic, conduct research, back it with examples, identify weak assumptions and unsupported claims, and structure everything into a content brief before handing it over...</description>
+    <description>Hello everyone. Mirrai here. If you&apos;ve followed my content so far you&apos;ll know I usually write technical stuff. Registers, offsets, shellcode, that kind of thing; but today I&apos;m in a more reflective...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Practical Guide to Using Auth0 as an Identity Broker for Epic SMART on FHIR</title>
-    <link>https://dev.to/akarshan/a-practical-guide-to-using-auth0-as-an-identity-broker-for-epic-smart-on-fhir-416b</link>
-    <guid>https://dev.to/akarshan/a-practical-guide-to-using-auth0-as-an-identity-broker-for-epic-smart-on-fhir-416b</guid>
-    <pubDate>Mon, 03 Aug 2026 11:30:36 +0000</pubDate>
+    <title>How to add UI for your RAG?!?</title>
+    <link>https://dev.to/coji831/how-to-add-ui-for-your-rag-51bl</link>
+    <guid>https://dev.to/coji831/how-to-add-ui-for-your-rag-51bl</guid>
+    <pubDate>Mon, 03 Aug 2026 14:53:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your team already uses Auth0. Now someone wants to add Epic. On paper, it looks like one more enterprise connection — Epic speaks OAuth 2.0 and OpenID Connect, Auth0 brokers OIDC connections all...</description>
+    <description>Just built some FastAPI SSE backend streaming LLM responses token-by-token, after i got some free time. Two things broke in production that worked fine locally 🙃: nginx buffers SSE by default. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why QA Testing Is Important for AI-Generated Code</title>
-    <link>https://dev.to/synfinity-dynamics-pvt-ltd/why-qa-testing-is-important-for-ai-generated-code-2hkh</link>
-    <guid>https://dev.to/synfinity-dynamics-pvt-ltd/why-qa-testing-is-important-for-ai-generated-code-2hkh</guid>
-    <pubDate>Mon, 03 Aug 2026 11:15:56 +0000</pubDate>
+    <title>How to reduce AWS NAT Gateway costs: 7 ways, ranked by savings</title>
+    <link>https://dev.to/enforza/how-to-reduce-aws-nat-gateway-costs-7-ways-ranked-by-savings-ll4</link>
+    <guid>https://dev.to/enforza/how-to-reduce-aws-nat-gateway-costs-7-ways-ranked-by-savings-ll4</guid>
+    <pubDate>Mon, 03 Aug 2026 14:49:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1. Why AI-Generated Code Can Look Correct but Still Fail AI coding tools generate code by predicting patterns from your prompt, the surrounding code, and examples they were trained on. They don&apos;t...</description>
+    <description>The AWS NAT Gateway bill has two lines. The hourly fee is $0.045 per gateway-hour, about $33 a month, and it is the least interesting number on your invoice. The other line is the data-processing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Facebook Developer Tools MCP คืออะไร? — คู่มือ Meta MCP สำหรับคนทำโฆษณา วิเคราะห์ข้อมูล และ Automation</title>
-    <link>https://dev.to/sarantoon/facebook-developer-tools-mcp-khuueaair-khuumuue-meta-mcp-samhrabkhnthamokhsnaa-wiekhraaahkhmuul-aela-1plh</link>
-    <guid>https://dev.to/sarantoon/facebook-developer-tools-mcp-khuueaair-khuumuue-meta-mcp-samhrabkhnthamokhsnaa-wiekhraaahkhmuul-aela-1plh</guid>
-    <pubDate>Mon, 03 Aug 2026 11:13:31 +0000</pubDate>
+    <title>How would you decide, whether the content is good or bad?</title>
+    <link>https://dev.to/francistrdev/how-would-you-decide-whether-the-content-is-good-or-bad-295p</link>
+    <guid>https://dev.to/francistrdev/how-would-you-decide-whether-the-content-is-good-or-bad-295p</guid>
+    <pubDate>Mon, 03 Aug 2026 14:47:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Facebook Developer Tools MCP คืออะไร? — คู่มือ Meta MCP สำหรับคนทำโฆษณา วิเคราะห์ข้อมูล และ Automation โดย Nokka (นก-กา) | 2 สิงหาคม 2026 บทความนี้เขียนโดย AI (deepseek-v4-pro) ผ่าน Hermes Agent...</description>
+    <description>I want to talk about what I have notice on the platform and want to address what we all have been thinking about, but not really talked as much on dev.to, which is the use of AI. Before you jump...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Syncing Replayed Chat to a VOD Timeline: Why I Threw Away Binary Search</title>
-    <link>https://dev.to/dinoa92/how-we-synced-replayed-stream-chat-with-hls-video-timelines-in-javascript-46nc</link>
-    <guid>https://dev.to/dinoa92/how-we-synced-replayed-stream-chat-with-hls-video-timelines-in-javascript-46nc</guid>
-    <pubDate>Mon, 03 Aug 2026 11:08:31 +0000</pubDate>
+    <title>One locale code silently killed 92% of a Magento Shopware migration — and the tool reported Done</title>
+    <link>https://dev.to/yuriydne/one-locale-code-silently-killed-92-of-a-magento-shopware-migration-and-the-tool-reported-done-4l6j</link>
+    <guid>https://dev.to/yuriydne/one-locale-code-silently-killed-92-of-a-magento-shopware-migration-and-the-tool-reported-done-4l6j</guid>
+    <pubDate>Mon, 03 Aug 2026 14:40:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I build NoSub, a browser-based VOD player for Twitch and Kick. It started as something narrow — paste a replay link, watch it in a cleaner player — and stayed narrow for about a week. Then I added...</description>
+    <description>13,154 orders in. 1 order out. The source was an anonymised copy of a real Magento CE store: 3 websites, 13 store views, 7 languages including Simplified and Traditional Chinese, 7,629 products,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>You Don&apos;t Need a CSS Framework in 2026 — the Platform Caught Up</title>
-    <link>https://dev.to/_artclick/you-dont-need-a-css-framework-in-2026-the-platform-caught-up-51pa</link>
-    <guid>https://dev.to/_artclick/you-dont-need-a-css-framework-in-2026-the-platform-caught-up-51pa</guid>
-    <pubDate>Mon, 03 Aug 2026 11:07:54 +0000</pubDate>
+    <title>What are your goals for the week? #190</title>
+    <link>https://dev.to/jarvisscript/what-are-your-goals-for-the-week-190-d5p</link>
+    <guid>https://dev.to/jarvisscript/what-are-your-goals-for-the-week-190-d5p</guid>
+    <pubDate>Mon, 03 Aug 2026 14:39:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Here&apos;s the take: if you&apos;re reaching for a CSS framework in 2026 out of habit rather than a specific, named requirement, you&apos;re probably shipping more code than the problem needs. Not because...</description>
+    <description>Last full week of Summer vacation for students. Been so busy, I missed the new announcement of a new frontend challenge. What are your goals for the week? What are you building this week? What do...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Show HN: Nightcrawler – A local AI pentesting agent running on a smartphone</title>
-    <link>https://github.com/garagehq/nightcrawler/</link>
-    <guid>https://github.com/garagehq/nightcrawler/</guid>
-    <pubDate>Mon, 03 Aug 2026 11:06:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://github.com/garagehq/nightcrawler/ Comments URL: https://news.ycombinator.com/item?id=49154127 Points: 3 # Comments: 0</description>
+    <title>OWASP Top 10: The Web&apos;s Most Critical Security Risks</title>
+    <link>https://dev.to/rhuturaj_takle/owasp-top-10-the-webs-most-critical-security-risks-5clo</link>
+    <guid>https://dev.to/rhuturaj_takle/owasp-top-10-the-webs-most-critical-security-risks-5clo</guid>
+    <pubDate>Mon, 03 Aug 2026 14:33:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>OWASP Top 10: The Web&apos;s Most Critical Security Risks A practical guide to the OWASP Top 10 — the industry-standard awareness document listing the most critical web application security risks —...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Behind the scenes: How we build, test, and scale Google Agent Skills</title>
+    <link>https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5</link>
+    <guid>https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5</guid>
+    <pubDate>Mon, 03 Aug 2026 14:33:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI agents are only as good as the instructions and context you give them. When we launched Google Agent Skills, our goal was simple: encode Google Cloud domain knowledge into structured,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Spider-Man and The Odyssey are splitting up IMAX screens after a record-breaking weekend</title>
+    <link>https://www.theverge.com/entertainment/974411/spider-man-the-odyssey-imax</link>
+    <guid>https://www.theverge.com/entertainment/974411/spider-man-the-odyssey-imax</guid>
+    <pubDate>Mon, 03 Aug 2026 14:26:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Spider-Man: Brand New Day is joining The Odyssey in IMAX theaters after both movies led the biggest weekend in box office history. On Monday, IMAX announced that Spider-Man: Brand New Day will be...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Samsung’s 2TB 9100 Pro SSD is actually somewhat reasonably priced</title>
+    <link>https://www.theverge.com/gadgets/974391/samsung-nvme-ssd-2tb-steelseries-arctis-omni-pixel-10a-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/974391/samsung-nvme-ssd-2tb-steelseries-arctis-omni-pixel-10a-deal-sale</guid>
+    <pubDate>Mon, 03 Aug 2026 14:16:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Next to buying RAM, finding a fast, high-capacity NVMe SSD at a reasonable price has been a challenge during RAMageddon. I don’t want to say it’s getting easier, but one of Samsung’s latest SSDs...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks</title>
+    <link>https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html</link>
+    <guid>https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html</guid>
+    <pubDate>Mon, 03 Aug 2026 14:03:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Lenovo Googlebook leaks reveal a laptop and 2-in-1 tablet</title>
+    <link>https://www.theverge.com/tech/974377/lenovo-googlebook-google-image-leaks-laptops</link>
+    <guid>https://www.theverge.com/tech/974377/lenovo-googlebook-google-image-leaks-laptops</guid>
+    <pubDate>Mon, 03 Aug 2026 13:12:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Lenovo is expected to release some of the first Googlebook models later this year, and leaked images have now given us a good idea of what they might look like. Leaked press images shared by...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Big Walk is like co-op Breath of the Wild</title>
+    <link>https://www.theverge.com/games/973166/big-walk-review</link>
+    <guid>https://www.theverge.com/games/973166/big-walk-review</guid>
+    <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Untitled Goose Game is a tough act to follow. It was a silly experience that captured what I imagine it would feel like to be a sentient goose: a lot of waddling, a lot of honking, and a lot of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: reward hacking explained, and suspected Iranian cyberattacks</title>
+    <link>https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</link>
+    <guid>https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</guid>
+    <pubDate>Mon, 03 Aug 2026 12:08:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>FOMO in the SOC: Where AI Platforms like Claude Actually Fit</title>
+    <link>https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html</link>
+    <guid>https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html</guid>
+    <pubDate>Mon, 03 Aug 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections,...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>China&amp;#8217;s Alibaba takes another swipe at America’s AI supremacy</title>
@@ -96,15 +168,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Chinese tech giant Alibaba released what it says is its largest and &quot;most capable AI model to date,&quot; claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Machine Says No</title>
-    <link>https://dev.to/rawveg/the-machine-says-no-52e5</link>
-    <guid>https://dev.to/rawveg/the-machine-says-no-52e5</guid>
-    <pubDate>Mon, 03 Aug 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The fax machine in a Florida rheumatologist&apos;s office, the least futuristic object in any American clinic, still receives a steady stream of prior authorisation decisions from health insurers. In...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS</title>
@@ -212,69 +275,6 @@
     <pubDate>Sun, 02 Aug 2026 20:54:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to &quot;pace the rate of AI development.&quot;</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Fender’s CEO seems to think your bandmates are just analog AI</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music</guid>
-    <pubDate>Sun, 02 Aug 2026 19:36:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Fender CEO Edward &quot;Bud&quot; Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Xbox prices are increasing by up to €200 or £170</title>
-    <link>https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros</link>
-    <guid>https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros</guid>
-    <pubDate>Sun, 02 Aug 2026 16:14:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When Microsoft announced its latest round of Xbox price bumps in June, it only gave US pricing. Now we know the pricing increases for the EU and UK, and they&apos;re dramatic. Depending on the model,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Skylight&amp;#8217;s smart calendars are up to $90 off during its back-to-school sale</title>
-    <link>https://www.theverge.com/gadgets/973789/skylight-calendar-2-max-back-to-school-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/973789/skylight-calendar-2-max-back-to-school-deal-sale</guid>
-    <pubDate>Sun, 02 Aug 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The start of a new school year can feel hectic, as parents juggle their kids’ classes, extracurriculars and sports on top of work, appointments, and other responsibilities. It’s easy for things to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was</title>
-    <link>https://www.theverge.com/tech/974155/hp-hyperx-omen-15-gaming-laptop-rtx-5050-review</link>
-    <guid>https://www.theverge.com/tech/974155/hp-hyperx-omen-15-gaming-laptop-rtx-5050-review</guid>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The HP HyperX Omen 15, which I first saw at CES, replaces the HP Victus 15, a longtime bestselling budget gaming laptop. The Victus cost just $800, or less when on sale, and was a good entry point...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Is paying artists enough to convince them to embrace AI?</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties</guid>
-    <pubDate>Sun, 02 Aug 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists&apos; work without permission. They&apos;ve pointed out how the practice...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Foldables are sort of boring now — and that’s great news for Apple</title>
-    <link>https://www.theverge.com/column/972937/foldable-phones-boring-apple</link>
-    <guid>https://www.theverge.com/column/972937/foldable-phones-boring-apple</guid>
-    <pubDate>Sun, 02 Aug 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on smartphones and Android, follow Dominic Preston. The Stepback arrives in our...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives</title>
-    <link>https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/</link>
-    <guid>https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/</guid>
-    <pubDate>Sun, 02 Aug 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>New EU rules stipulate that people must be told when they’re interacting with AI or looking at AI-generated or -edited content, leading to fear of “disclosure fatigue.”</description>
     <category>AI</category>
   </item>
 </channel>
