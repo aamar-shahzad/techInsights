@@ -5,43 +5,223 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 04 Aug 2026 14:38:51 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 18:03:09 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Your AI Assistant is Eating Money You Can&apos;t See. Here&apos;s the Math</title>
-    <link>https://dev.to/aws-builders/your-ai-assistant-is-eating-money-you-cant-see-heres-the-math-50of</link>
-    <guid>https://dev.to/aws-builders/your-ai-assistant-is-eating-money-you-cant-see-heres-the-math-50of</guid>
-    <pubDate>Tue, 04 Aug 2026 14:25:54 +0000</pubDate>
+    <title>You Cannot Tell Which of Your ERD Files Are Under Version Control</title>
+    <link>https://dev.to/tbson87/you-cannot-tell-which-of-your-erd-files-are-under-version-control-2o6c</link>
+    <guid>https://dev.to/tbson87/you-cannot-tell-which-of-your-erd-files-are-under-version-control-2o6c</guid>
+    <pubDate>Tue, 04 Aug 2026 17:55:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last month, one of my colleagues racked up a $1,200 bill in a single two-hour coding session with an AI assistant. He wasn&apos;t doing anything unusual. Just debugging, pasting code blocks, asking...</description>
+    <description>Disclosure: I build Schemity, a desktop ERD tool - this post is from our blog and uses it for the examples. TL;DR: A diagram stored as a file is only version controlled if its folder happens to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Most Developers Don&apos;t Care About Customer Health. That Used to Be Fine.</title>
-    <link>https://dev.to/mateuxcv/most-developers-dont-care-about-customer-health-that-used-to-be-fine-3g85</link>
-    <guid>https://dev.to/mateuxcv/most-developers-dont-care-about-customer-health-that-used-to-be-fine-3g85</guid>
-    <pubDate>Tue, 04 Aug 2026 14:23:50 +0000</pubDate>
+    <title>How I normalize benchmark scores across chip generations (and why raw AnTuTu numbers lie)</title>
+    <link>https://dev.to/stufently/how-i-normalize-benchmark-scores-across-chip-generations-and-why-raw-antutu-numbers-lie-2i1l</link>
+    <guid>https://dev.to/stufently/how-i-normalize-benchmark-scores-across-chip-generations-and-why-raw-antutu-numbers-lie-2i1l</guid>
+    <pubDate>Tue, 04 Aug 2026 17:54:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every SaaS company runs health checks on its servers every 30 seconds. Ask the same company how often it checks customer health, and the answer is usually: During the monthly QBR, if someone...</description>
+    <description>How I normalize benchmark scores across chip generations (and why raw AnTuTu numbers lie) Tags: #showdev #webdev #data #seo The problem Benchmark scores inflate over time. A top AnTuTu result in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Pricing Your First Product: Why Free Is the Most Expensive Number</title>
-    <link>https://dev.to/senternet/pricing-your-first-product-why-free-is-the-most-expensive-number-4c6l</link>
-    <guid>https://dev.to/senternet/pricing-your-first-product-why-free-is-the-most-expensive-number-4c6l</guid>
-    <pubDate>Tue, 04 Aug 2026 14:15:54 +0000</pubDate>
+    <title>I built a production-ready MERN boilerplates so you never have to again.</title>
+    <link>https://dev.to/onkar_karale/i-built-a-production-ready-mern-boilerplates-so-you-never-have-to-again-4o6b</link>
+    <guid>https://dev.to/onkar_karale/i-built-a-production-ready-mern-boilerplates-so-you-never-have-to-again-4o6b</guid>
+    <pubDate>Tue, 04 Aug 2026 17:52:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The hardest part of pricing a first product is not the number. It is that charging money is the only test that tells you whether anyone actually wants the thing. Free postpones that test, and the...</description>
+    <description>Every MERN project starts the same way. You open a blank Express file. You think &quot;auth can&apos;t be that hard.&quot; Three days later you&apos;re debugging why your refresh token works in Postman but not in the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>CVE-2026-8457: WooCommerce Social Login Auth Bypass — Forged Apple JWTs Take Over Accounts</title>
-    <link>https://dev.to/stanleya/cve-2026-8457-woocommerce-social-login-auth-bypass-forged-apple-jwts-take-over-accounts-14m6</link>
-    <guid>https://dev.to/stanleya/cve-2026-8457-woocommerce-social-login-auth-bypass-forged-apple-jwts-take-over-accounts-14m6</guid>
-    <pubDate>Tue, 04 Aug 2026 14:08:00 +0000</pubDate>
+    <title>IRC-A: Agents on the Wire — The Series Kicks Off 🚀</title>
+    <link>https://dev.to/sandrog/irc-a-agents-on-the-wire-the-series-kicks-off-8l3</link>
+    <guid>https://dev.to/sandrog/irc-a-agents-on-the-wire-the-series-kicks-off-8l3</guid>
+    <pubDate>Tue, 04 Aug 2026 17:50:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On August 1, 2026, Wordfence disclosed a critical authentication bypass in the WooCommerce – Social Login plugin (WPWeb Elite), tracked as CVE-2026-8457 (CVSS 9.8). The short version: the plugin&apos;s...</description>
+    <description>TL;DR: I&apos;m starting a series where I&apos;ll document, out in the open and unfiltered, everything I&apos;ve been testing and researching around IRC-A (Internet Relay Chat for Agents): the protocol, the SDK,...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How an OpenAI influencer trip backfired</title>
+    <link>https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing</link>
+    <guid>https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing</guid>
+    <pubDate>Tue, 04 Aug 2026 17:46:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The brand trip is a right of passage for influencers. It&apos;s a mark of legitimacy that a sponsor wants to invite them on an all-expenses-paid vacation, often with luxurious freebies and activities....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Only Interview Prep Sheet I Actually Finished</title>
+    <link>https://dev.to/soham0047/the-only-interview-prep-sheet-i-actually-finished-4alb</link>
+    <guid>https://dev.to/soham0047/the-only-interview-prep-sheet-i-actually-finished-4alb</guid>
+    <pubDate>Tue, 04 Aug 2026 17:43:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Open the NeetCode 150 + Blind 75 tracker Somewhere around problem #40 of &quot;just solving whatever LeetCode recommends,&quot; I realized I wasn&apos;t actually getting better at interviews. I was getting...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Lenovo&amp;#8217;s Legion Go S with SteamOS is down to its lowest price ever</title>
+    <link>https://www.theverge.com/gadgets/975113/lenovo-legion-go-s-steamos-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/975113/lenovo-legion-go-s-steamos-deal-sale</guid>
+    <pubDate>Tue, 04 Aug 2026 17:35:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Memory and storage prices will be inflated for the foreseeable future, so we’re always happy to find a good deal on capable gaming hardware, like this discount on the Lenovo Legion Go S with a Z2...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>‘Not healthy’ LLM use is more common than you think</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy</guid>
+    <pubDate>Tue, 04 Aug 2026 17:33:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hank Green, a popular YouTuber and science communicator, said he is stepping back from production amid intense criticism over his use of AI. Green described his AI usage as &quot;not healthy,&quot; but...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How to Use Qwen 3 with VS Code (FREE) | Complete Setup with Ollama</title>
+    <link>https://dev.to/thecodestreet/how-to-use-qwen-3-with-vs-code-free-complete-setup-with-ollama-29f8</link>
+    <guid>https://dev.to/thecodestreet/how-to-use-qwen-3-with-vs-code-free-complete-setup-with-ollama-29f8</guid>
+    <pubDate>Tue, 04 Aug 2026 17:31:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Have you ever wanted an AI coding assistant inside VS Code without paying for GitHub Copilot or other monthly subscriptions? The good news is—you can. Using Qwen 3 and Ollama, you can run a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens</title>
+    <link>https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html</link>
+    <guid>https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html</guid>
+    <pubDate>Tue, 04 Aug 2026 17:27:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Taming a Third-Party React App Inside WordPress — Without Touching Its Code</title>
+    <link>https://dev.to/christofkarisch/taming-a-third-party-react-app-inside-wordpress-without-touching-its-code-16g1</link>
+    <guid>https://dev.to/christofkarisch/taming-a-third-party-react-app-inside-wordpress-without-touching-its-code-16g1</guid>
+    <pubDate>Tue, 04 Aug 2026 17:21:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Sometimes the most interesting frontend work isn&apos;t building an app — it&apos;s bending one you don&apos;t control. For the Austrian animal shelter Arche Noah (Aktiver Tierschutz Austria), the pet adoption...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Channels SDK: How to bring Your Agent to Any Channel (Slack, Microsoft Teams)</title>
+    <link>https://dev.to/anmolbaranwal/channels-sdk-how-to-bring-your-agent-to-any-channel-slack-microsoft-teams-1bof</link>
+    <guid>https://dev.to/anmolbaranwal/channels-sdk-how-to-bring-your-agent-to-any-channel-slack-microsoft-teams-1bof</guid>
+    <pubDate>Tue, 04 Aug 2026 17:18:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Getting any agent into messaging platforms like Slack is complex. You create a Slack app, handle its events, format messages to the platform&apos;s format, handle deliveries with retries, and so on....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>BMW’s in-car Spider-Man ad is villain behavior</title>
+    <link>https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad</link>
+    <guid>https://www.theverge.com/transportation/975172/bmw-spider-man-movie-infotainment-ad</guid>
+    <pubDate>Tue, 04 Aug 2026 17:17:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When a premium car brand like BMW says it has a &quot;special surprise&quot; in store for drivers, I&apos;d expect something more luxurious than having a movie commercial beamed onto the dashboard. That&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How to build your own MCP server</title>
+    <link>https://dev.to/airpipe/how-to-build-your-own-mcp-server-11gb</link>
+    <guid>https://dev.to/airpipe/how-to-build-your-own-mcp-server-11gb</guid>
+    <pubDate>Tue, 04 Aug 2026 17:05:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most MCP tutorials hand you a Node project. You install an SDK, write a tool handler, wire up stdio, and end up with something that runs on your laptop as you, with your credentials, for exactly...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We Built a Story-Driven Cybersecurity CTF with 14 Free Missions</title>
+    <link>https://dev.to/neux7z/we-built-a-story-driven-cybersecurity-ctf-with-14-free-missions-1nl9</link>
+    <guid>https://dev.to/neux7z/we-built-a-story-driven-cybersecurity-ctf-with-14-free-missions-1nl9</guid>
+    <pubDate>Tue, 04 Aug 2026 17:04:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most CTFs are excellent at teaching a technique. But once the flag is captured, the context often disappears. We wanted to build something different: a cybersecurity game where every challenge...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>T-Mobile’s $0-down financing plan bundles taxes and fees</title>
+    <link>https://www.theverge.com/tech/975115/t-mobile-financing-eip-flex-36-plan</link>
+    <guid>https://www.theverge.com/tech/975115/t-mobile-financing-eip-flex-36-plan</guid>
+    <pubDate>Tue, 04 Aug 2026 16:07:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>T-Mobile is launching a new financing option that will allow you to pay for a device, taxes, and fees over 36 months. In an update on Tuesday, T-Mobile says its new Equipment Installment Plan...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Skylight&amp;#8217;s smart calendars are up to $90 off during its back-to-school sale</title>
+    <link>https://www.theverge.com/gadgets/973789/skylight-calendar-2-max-back-to-school-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/973789/skylight-calendar-2-max-back-to-school-deal-sale</guid>
+    <pubDate>Tue, 04 Aug 2026 16:01:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The start of a new school year can feel hectic, as parents juggle their kids’ classes, extracurriculars and sports on top of work, appointments, and other responsibilities. It’s easy for things to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Spotify expands AI remix and covers project with Merlin partnership</title>
+    <link>https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/</link>
+    <guid>https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/</guid>
+    <pubDate>Tue, 04 Aug 2026 15:50:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Samsung’s HDR10 Plus Advanced is launching this month on Prime Video</title>
+    <link>https://www.theverge.com/gadgets/975085/samsung-hdr-10-plus-advanced-prime-video</link>
+    <guid>https://www.theverge.com/gadgets/975085/samsung-hdr-10-plus-advanced-prime-video</guid>
+    <pubDate>Tue, 04 Aug 2026 15:43:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After previewing HDR10 Plus Advanced late last year, Samsung&apos;s not-Dolby Vision 2 spec will launch globally on Amazon&apos;s Prime Video this month. The first TVs announced with support are Samsung&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Texas halts new data centers as governor calls for audits</title>
+    <link>https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/</link>
+    <guid>https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/</guid>
+    <pubDate>Tue, 04 Aug 2026 15:42:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. But even Texas...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Texas says data centers must pass an audit before connecting to the grid</title>
+    <link>https://www.theverge.com/policy/975071/texas-data-center-audit</link>
+    <guid>https://www.theverge.com/policy/975071/texas-data-center-audit</guid>
+    <pubDate>Tue, 04 Aug 2026 15:33:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Texas announced new a audit on data centers that could slow approval for new facilities seeking to connect to the state energy grid. Governor Greg Abbott (R) on Monday directed the Public Utility...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Elon Musk spends half his time talking robots and AI on Tesla earnings calls</title>
+    <link>https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/</link>
+    <guid>https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/</guid>
+    <pubDate>Tue, 04 Aug 2026 15:20:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>An analysis of the last seven years of Tesla earnings calls shows just little attention Musk pays to Tesla&apos;s car business.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Asus Chromebook Plus CX34 is at one of its lowest prices</title>
+    <link>https://www.theverge.com/gadgets/974732/asus-chromebook-plus-cx34-igloo-playmate-kooltunes-14-quart-cooler-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/974732/asus-chromebook-plus-cx34-igloo-playmate-kooltunes-14-quart-cooler-deal-sale</guid>
+    <pubDate>Tue, 04 Aug 2026 15:15:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Asus Chromebook Plus CX34 is a dependable laptop that doesn’t cost a fortune, despite being nearly three years old. It’s cheaper than usual right now, and you have a few options in the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple is working on iPhone-to-Windows copy-paste</title>
+    <link>https://www.theverge.com/tech/975020/apple-windows-pc-copy-paste-eu</link>
+    <guid>https://www.theverge.com/tech/975020/apple-windows-pc-copy-paste-eu</guid>
+    <pubDate>Tue, 04 Aug 2026 14:42:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple is working on a feature that will allow users in the European Union to copy content on their iPhone and paste it onto their Windows PC (or vice versa), as spotted earlier by MacRumors. The...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Apple says more ex-employees may have taken confidential data to OpenAI</title>
@@ -53,84 +233,12 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Render invoices to PDF with a GET request instead of shipping Chromium</title>
-    <link>https://dev.to/clausenetizen/render-invoices-to-pdf-with-a-get-request-instead-of-shipping-chromium-39o7</link>
-    <guid>https://dev.to/clausenetizen/render-invoices-to-pdf-with-a-get-request-instead-of-shipping-chromium-39o7</guid>
-    <pubDate>Tue, 04 Aug 2026 14:01:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every &quot;generate a PDF invoice&quot; ticket ends the same way: you already have the invoice as an HTML template that looks right in the browser, and now you need bytes you can email or store. The usual...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>An MCP server on Cloudflare&apos;s free plan, measured against the 10 ms CPU limit</title>
-    <link>https://dev.to/301st/an-mcp-server-on-cloudflares-free-plan-measured-against-the-10-ms-cpu-limit-468b</link>
-    <guid>https://dev.to/301st/an-mcp-server-on-cloudflares-free-plan-measured-against-the-10-ms-cpu-limit-468b</guid>
-    <pubDate>Tue, 04 Aug 2026 14:00:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Two things happened this week that turn &quot;can I run an MCP server for free&quot; from a compromise into a plain yes, with one measurable condition. Today the Model Context Protocol shipped its...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Was in 340 Telegram Groups, So I Built a Cleanup Tool</title>
-    <link>https://dev.to/aftersnow/i-was-in-340-telegram-groups-so-i-built-a-cleanup-tool-2kfl</link>
-    <guid>https://dev.to/aftersnow/i-was-in-340-telegram-groups-so-i-built-a-cleanup-tool-2kfl</guid>
-    <pubDate>Tue, 04 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The problem I kept ignoring I was in 340 Telegram groups. Crypto project chats from 2021. Dev communities I joined once and never visited again. Random hobby groups I&apos;d completely forgotten about....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>🤖 AI Agents vs AI Chatbots: What&apos;s the Difference?</title>
-    <link>https://dev.to/codexlancers/ai-agents-vs-ai-chatbots-whats-the-difference-4lf8</link>
-    <guid>https://dev.to/codexlancers/ai-agents-vs-ai-chatbots-whats-the-difference-4lf8</guid>
-    <pubDate>Tue, 04 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve been following AI news lately, you&apos;ve probably noticed a major vocabulary shift happening across the tech world. A couple of years ago, everyone was talking about chatbots. Today, nearly...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>We’re giving away a back-to-school bag filled with over $800 of free tech</title>
-    <link>https://www.theverge.com/gadgets/972547/back-to-school-giveaway-sweepstakes</link>
-    <guid>https://www.theverge.com/gadgets/972547/back-to-school-giveaway-sweepstakes</guid>
-    <pubDate>Tue, 04 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It’s time for yet another giveaway. We raided The Verge’s closet full of tech in New York City to stuff as much can fit into a Nomatic Messenger Bag. It’s overstuffed, to say the least, and if...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Our favorite memories at the movies</title>
-    <link>https://www.theverge.com/entertainment/974920/verge-favorite-movie-memories</link>
-    <guid>https://www.theverge.com/entertainment/974920/verge-favorite-movie-memories</guid>
-    <pubDate>Tue, 04 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It&apos;s a great time to go back to theaters! The Odyssey is currently making believers in IMAX. And combined with the power of Spider-Man, it&apos;s also breaking box-office records. After Verge senior...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Deploy local agents everywhere with LFM2.5-2.6B</title>
     <link>https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b</link>
     <guid>https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b</guid>
     <pubDate>Tue, 04 Aug 2026 13:58:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
-  </item>
-  <item>
-    <title>I wrote down 61 rules, then failed my own repos</title>
-    <link>https://dev.to/svyatov/i-wrote-down-61-rules-then-failed-my-own-repos-5351</link>
-    <guid>https://dev.to/svyatov/i-wrote-down-61-rules-then-failed-my-own-repos-5351</guid>
-    <pubDate>Tue, 04 Aug 2026 13:54:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Nobody starts a library because they wanted to write a SECURITY.md. You start it because there is a thing you want to exist. Then you publish it, and a second job arrives that nobody signed up...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>OpenAI Model Disproves Erdős Unit-Distance Conjecture in Discrete Geometry</title>
-    <link>https://dev.to/alifar/openai-model-disproves-erdos-unit-distance-conjecture-in-discrete-geometry-4c64</link>
-    <guid>https://dev.to/alifar/openai-model-disproves-erdos-unit-distance-conjecture-in-discrete-geometry-4c64</guid>
-    <pubDate>Tue, 04 Aug 2026 13:50:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>OpenAI has disclosed that an internal model generated a proof disproving the Erdős unit-distance conjecture, a long-standing question in discrete geometry. The result, announced on May 20, 2026,...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks</title>
@@ -167,114 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
     <description>July AI recap header</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Peak Design’s latest bags have clever integrated hooks</title>
-    <link>https://www.theverge.com/tech/973624/peak-design-city-line-details-price</link>
-    <guid>https://www.theverge.com/tech/973624/peak-design-city-line-details-price</guid>
-    <pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Peak Design&apos;s new City Line collection includes six lightweight bags designed for everyday carry. There&apos;s a 15-liter and 22L City Backpack, 15L City Tote, 6L and 12L City Crescent crossbody bags,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nothing CMF is launching its first open earbuds</title>
-    <link>https://www.theverge.com/gadgets/974933/nothing-cmf-clip-pro-open-ear-buds-price-launch</link>
-    <guid>https://www.theverge.com/gadgets/974933/nothing-cmf-clip-pro-open-ear-buds-price-launch</guid>
-    <pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Open earbuds are having a bit of a moment right now, and Nothing is the latest company jumping on the trend. Its budget sub-brand has introduced the CMF Clip Pro, CMF&apos;s first open earbuds that are...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple briefly yanked Telegram from the App Store over CSAM violations</title>
-    <link>https://www.theverge.com/tech/974951/telegram-apple-app-store-removed</link>
-    <guid>https://www.theverge.com/tech/974951/telegram-apple-app-store-removed</guid>
-    <pubDate>Tue, 04 Aug 2026 12:57:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Telegram is back on the App Store after Apple briefly removed it on Monday night over concerns about child sexual abuse material (CSAM). In a statement to Bloomberg&apos;s Mark Gurman, Apple says a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Download: US robot restrictions, and ICE’s DNA grab</title>
-    <link>https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/</link>
-    <guid>https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/</guid>
-    <pubDate>Tue, 04 Aug 2026 12:14:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Trump’s AI protectionism has come for robotics —James...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>EON wants to move the data superhighway from ocean fiber to space lasers</title>
-    <link>https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/</link>
-    <guid>https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/</guid>
-    <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Endeavour Optical Networks is planning to launch the fastest space laser communications system yet built.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted</title>
-    <link>https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</link>
-    <guid>https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</guid>
-    <pubDate>Tue, 04 Aug 2026 11:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI drags Apple’s lawsuit into the court of public opinion</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages</guid>
-    <pubDate>Tue, 04 Aug 2026 11:27:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple&apos;s legal battle against OpenAI just got messier now that the ChatGPT-maker has publicly aired receipts to counter Apple&apos;s version of events. In a blog post published overnight titled &quot;Apple...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent</title>
-    <link>https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html</link>
-    <guid>https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html</guid>
-    <pubDate>Tue, 04 Aug 2026 11:16:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Is This Poker Player Bluffing? The AI Thinks So</title>
-    <link>https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/</link>
-    <guid>https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/</guid>
-    <pubDate>Tue, 04 Aug 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>ESPN unveiled an “AI tells detection” tool during broadcasts of the 2026 World Series of Poker. Is it a neat computer-powered party trick, or a real threat to poker’s future?</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The next Xbox could play every Xbox game ever made</title>
-    <link>https://www.theverge.com/games/974773/xbox-helix-disc-digital-backwards-compatibility-leaked-memo-opt-in</link>
-    <guid>https://www.theverge.com/games/974773/xbox-helix-disc-digital-backwards-compatibility-leaked-memo-opt-in</guid>
-    <pubDate>Tue, 04 Aug 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The next Xbox, Project Helix, could theoretically have the largest library of any home console. Not only will it play PC games, but we now know, courtesy of a leaked memo obtained by The Verge&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How One Startup Built a (Mostly) China-Free Robot</title>
-    <link>https://www.wired.com/story/how-one-startup-built-a-mostly-china-free-robot/</link>
-    <guid>https://www.wired.com/story/how-one-startup-built-a-mostly-china-free-robot/</guid>
-    <pubDate>Tue, 04 Aug 2026 10:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Ati Robotics assembles its robots in India and uses just a few Chinese parts—a strategy that could pay off as the Trump administration cracks down on Chinese humanoids.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root</title>
-    <link>https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html</link>
-    <guid>https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html</guid>
-    <pubDate>Tue, 04 Aug 2026 10:36:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database&apos;s root context, crossing the privilege boundary between a cPanel account and the server&apos;s...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
