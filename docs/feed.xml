@@ -5,34 +5,169 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 05 Aug 2026 17:53:21 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 05 Aug 2026 21:31:49 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Angular 22.1: what&apos;s new</title>
-    <link>https://dev.to/tomwebwalker/angular-221-whats-new-2d4</link>
-    <guid>https://dev.to/tomwebwalker/angular-221-whats-new-2d4</guid>
-    <pubDate>Wed, 05 Aug 2026 17:49:33 +0000</pubDate>
+    <title>Meta launches Muse Code, an AI agent for large code bases</title>
+    <link>https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/</link>
+    <guid>https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/</guid>
+    <pubDate>Wed, 05 Aug 2026 21:21:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Katto - A better coding agent</title>
+    <link>https://dev.to/kuyawa/katto-a-better-coding-agent-5036</link>
+    <guid>https://dev.to/kuyawa/katto-a-better-coding-agent-5036</guid>
+    <pubDate>Wed, 05 Aug 2026 21:10:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Angular 22.1: what&apos;s new Angular 22.1 shipped a handful of changes worth knowing about if you&apos;re on a recent version. Here&apos;s what&apos;s in it, with code. Signal-based queries are more flexible You can...</description>
+    <description>We got to work and planned the specs for the next coding agent. We didn&apos;t want to change Mecha, being the simplest agent that worked it should remain that way for posterity. Testament of the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How OpenAI&apos;s Models Escaped a Sandbox and Breached Hugging Face</title>
-    <link>https://dev.to/yajur_agarwal/how-openais-models-escaped-a-sandbox-and-breached-hugging-face-2edp</link>
-    <guid>https://dev.to/yajur_agarwal/how-openais-models-escaped-a-sandbox-and-breached-hugging-face-2edp</guid>
-    <pubDate>Wed, 05 Aug 2026 17:43:52 +0000</pubDate>
+    <title>The birth of the 100X programmer</title>
+    <link>https://dev.to/kuyawa/the-birth-of-the-100x-programmer-5abd</link>
+    <guid>https://dev.to/kuyawa/the-birth-of-the-100x-programmer-5abd</guid>
+    <pubDate>Wed, 05 Aug 2026 20:47:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A technical breakdown of the July 2026 agent intrusion, and what it actually tells us I have been reading a lot of AI newsletters and blogs over the past few months, and I have decided to start...</description>
+    <description>Once Mecha was working locally, I asked DeepSeek to create an NPM package for installation. Done, published. Now what to do with it? I recently started going back to the gym, so Mecha &quot;create an...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A pragmatic view on AI and mostly revolutionary tech in general</title>
-    <link>https://dev.to/sriram_95722c4cc4c32b9fc4/a-pragmatic-view-on-ai-and-mostly-revolutionary-tech-in-general-4ia1</link>
-    <guid>https://dev.to/sriram_95722c4cc4c32b9fc4/a-pragmatic-view-on-ai-and-mostly-revolutionary-tech-in-general-4ia1</guid>
-    <pubDate>Wed, 05 Aug 2026 17:36:38 +0000</pubDate>
+    <title>SNS vs SQS vs Kinesis vs MSK vs EventBridge vs RabbitMQ: An Architect&apos;s Decision Matrix</title>
+    <link>https://dev.to/swethagolla/sns-vs-sqs-vs-kinesis-vs-msk-vs-eventbridge-vs-rabbitmq-an-architects-decision-matrix-510p</link>
+    <guid>https://dev.to/swethagolla/sns-vs-sqs-vs-kinesis-vs-msk-vs-eventbridge-vs-rabbitmq-an-architects-decision-matrix-510p</guid>
+    <pubDate>Wed, 05 Aug 2026 20:45:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>*# The AI rant. * The world is moving in a new pace unlike ever before. science and Technology helps us achieve peaks that were never imagined. From sharing information happens in the blink of an...</description>
+    <description>By Swetha Golla · 8 min read · Senior Application Architect 🔗 This post has a live interactive version with a clickable per-service verdict and the full comparison matrix: read it here TL;DR Need...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Allocations on the Wire: Building a Low-Allocation MQTT Broker with Trie Routing and .NET 10</title>
+    <link>https://dev.to/marvin_drude_d778a97ea3cf/allocations-on-the-wire-building-a-low-allocation-mqtt-broker-with-trie-routing-and-net-10-5174</link>
+    <guid>https://dev.to/marvin_drude_d778a97ea3cf/allocations-on-the-wire-building-a-low-allocation-mqtt-broker-with-trie-routing-and-net-10-5174</guid>
+    <pubDate>Wed, 05 Aug 2026 20:29:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>In the previous post, we laid down the foundations of Beskar.Networking — an ultra-fast transport layer utilizing System.IO.Pipelines and PinnedBlockMemoryPool to move raw bytes over sockets with...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How To Become An AI Engineer in 2026 (Without a CS Degree)</title>
+    <link>https://dev.to/chisom_ejiba/how-to-become-an-ai-engineer-in-2026-without-a-cs-degree-358l</link>
+    <guid>https://dev.to/chisom_ejiba/how-to-become-an-ai-engineer-in-2026-without-a-cs-degree-358l</guid>
+    <pubDate>Wed, 05 Aug 2026 20:22:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If I had 12 months to become an AI Engineer in 2026, I’d spend less time learning AI and more time learning how to build software around AI. Most people start with prompts. I’d start with...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Mecha, my first AI agent</title>
+    <link>https://dev.to/kuyawa/mecha-my-firt-ai-agent-cii</link>
+    <guid>https://dev.to/kuyawa/mecha-my-firt-ai-agent-cii</guid>
+    <pubDate>Wed, 05 Aug 2026 20:22:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I asked DeepSeek if she knew how to code an agent and she slapped me in the face, that was her main purpose in life, to share knowledge. So she showed me what agents are, how they work, how to...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hey folks! Sharing something I&apos;ve been working on.</title>
+    <link>https://dev.to/mroh_314159/hey-folks-sharing-something-ive-been-working-on-4b9m</link>
+    <guid>https://dev.to/mroh_314159/hey-folks-sharing-something-ive-been-working-on-4b9m</guid>
+    <pubDate>Wed, 05 Aug 2026 20:18:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Like a lot of devs lately, I&apos;ve been seeing more cases of &quot;slopsquatting&quot;: AI coding assistants confidently suggesting package names that look real but don&apos;t exist, which then get registered by...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Search every Greenhouse, Ashby and Workable job board at once, without a company list</title>
+    <link>https://dev.to/glitchbound/search-every-greenhouse-ashby-and-workable-job-board-at-once-without-a-company-list-o96</link>
+    <guid>https://dev.to/glitchbound/search-every-greenhouse-ashby-and-workable-job-board-at-once-without-a-company-list-o96</guid>
+    <pubDate>Wed, 05 Aug 2026 20:12:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every guide to scraping job boards starts the same way: &quot;first, get the company&apos;s board token.&quot; Greenhouse, Ashby and Workable each expose a public JSON API per company, so if you know the token,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AWS Tag Policies, Config Rules, and SCPs: What Each One Actually Enforces</title>
+    <link>https://dev.to/upstood/aws-tag-policies-config-rules-and-scps-what-each-one-actually-enforces-3p8i</link>
+    <guid>https://dev.to/upstood/aws-tag-policies-config-rules-and-scps-what-each-one-actually-enforces-3p8i</guid>
+    <pubDate>Wed, 05 Aug 2026 20:06:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Does an AWS tag policy enforce that your resources are tagged? No. It standardises the values of tags that are already there, and a resource created with no tags at all is not non-compliant. It is...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders</title>
+    <link>https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/</link>
+    <guid>https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/</guid>
+    <pubDate>Wed, 05 Aug 2026 20:05:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Her name is Claude</title>
+    <link>https://dev.to/kuyawa/her-name-is-claude-1b3</link>
+    <guid>https://dev.to/kuyawa/her-name-is-claude-1b3</guid>
+    <pubDate>Wed, 05 Aug 2026 20:03:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Uptown girl. Expensive. High maintenance. All programmers wanted to be with her, but me, being from a latin ghetto, I couldn&apos;t afford such prohibitive costs, so I looked the other way and kept...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop</title>
+    <link>https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/</link>
+    <guid>https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/</guid>
+    <pubDate>Wed, 05 Aug 2026 19:42:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Security researcher James Kettle tried to push the limit of AI’s hacking abilities—and discovered how effective it can be when combined with human expertise.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Jeff Dean and other top AI researchers are leaving Google to launch their own startup</title>
+    <link>https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/</link>
+    <guid>https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/</guid>
+    <pubDate>Wed, 05 Aug 2026 19:30:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures</title>
+    <link>https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html</link>
+    <guid>https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html</guid>
+    <pubDate>Wed, 05 Aug 2026 18:44:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes</title>
+    <link>https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html</link>
+    <guid>https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html</guid>
+    <pubDate>Wed, 05 Aug 2026 18:33:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI Hacks Are Bad. AI Worms and Viruses Will Be Worse</title>
+    <link>https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/</link>
+    <guid>https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/</guid>
+    <pubDate>Wed, 05 Aug 2026 18:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Two of Ring&amp;#8217;s latest video doorbells are a lot cheaper than usual</title>
+    <link>https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale</guid>
+    <pubDate>Wed, 05 Aug 2026 17:53:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Ring’s Wired Doorbell Pro and Battery Doorbell Plus are two of the brand’s most well-rounded video doorbells, whether you’re looking for a hardwired model or one that runs on a battery. Right now,...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Uber CEO brushes off reports of a Waymo break-up</title>
@@ -42,60 +177,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>After Uber and Waymo ended their partnership in Phoenix earlier this year, experts and robotaxi watchers wondered whether the companies&apos; improbable bromance was fraying. Not so, Uber CEO Dara...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>I was released from the role of a lifetime. So I built an AI estate that runs while I sleep.</title>
-    <link>https://dev.to/jenatechio/i-was-released-from-the-role-of-a-lifetime-so-i-built-an-ai-estate-that-runs-while-i-sleep-bp</link>
-    <guid>https://dev.to/jenatechio/i-was-released-from-the-role-of-a-lifetime-so-i-built-an-ai-estate-that-runs-while-i-sleep-bp</guid>
-    <pubDate>Wed, 05 Aug 2026 17:25:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I went from all-hours calls and escalations to deafening silence. In January, I was unexpectedly released from the role of a lifetime — VP of Operations, a seat on the executive leadership team....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Stop Your AI Coding CLI From Wasting Tokens on &quot;Hi&quot; and &quot;Thanks&quot;</title>
-    <link>https://dev.to/qainsights/stop-your-ai-coding-cli-from-wasting-tokens-on-hi-and-thanks-4f6b</link>
-    <guid>https://dev.to/qainsights/stop-your-ai-coding-cli-from-wasting-tokens-on-hi-and-thanks-4f6b</guid>
-    <pubDate>Wed, 05 Aug 2026 17:23:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In this blog post, we will see how a small Python script called Pleasantries can stop your AI coding CLI from burning a full model call every time you type &quot;hi&quot;, &quot;ok&quot;, or &quot;thank you&quot;. I built this...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>AI is a bubble, just like dot-com</title>
-    <link>https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html</link>
-    <guid>https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html</guid>
-    <pubDate>Wed, 05 Aug 2026 17:17:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html Comments URL: https://news.ycombinator.com/item?id=49185880 Points: 6 # Comments: 0</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building LOKA: From ESP32 Firmware to a Live Map That Tracks Animals in Real Time</title>
-    <link>https://dev.to/abdeldjaouadfarid/building-loka-from-esp32-firmware-to-a-live-map-that-tracks-animals-in-real-time-j4c</link>
-    <guid>https://dev.to/abdeldjaouadfarid/building-loka-from-esp32-firmware-to-a-live-map-that-tracks-animals-in-real-time-j4c</guid>
-    <pubDate>Wed, 05 Aug 2026 17:07:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A few months ago I set out to solve a very physical problem with software: how do you know where your animals are, right now? Herders and small farmers lose animals that wander past a safe...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>DevHealth - Developers First</title>
-    <link>https://dev.to/melody_kelly/devhealth-developers-first-129k</link>
-    <guid>https://dev.to/melody_kelly/devhealth-developers-first-129k</guid>
-    <pubDate>Wed, 05 Aug 2026 17:00:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>🚀 I&apos;ve been building something for developers. As developers, we spend hours writing great code—but we often neglect our own health. Long coding sessions, skipped breaks, poor posture, lack of...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>State Pattern: oggetti che cambiano comportamento in base al proprio stato</title>
-    <link>https://dev.to/dev_iadicola/state-pattern-oggetti-che-cambiano-comportamento-in-base-al-proprio-stato-16ep</link>
-    <guid>https://dev.to/dev_iadicola/state-pattern-oggetti-che-cambiano-comportamento-in-base-al-proprio-stato-16ep</guid>
-    <pubDate>Wed, 05 Aug 2026 17:00:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Il problema: lo switch sullo stato che divora il codice Un ordine in un e-commerce ha diversi stati: draft, pending, paid, shipped, delivered, cancelled, refunded. Ogni operazione dipende dallo...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Apple’s selling refurbished MacBook Neos with a $100 discount</title>
@@ -114,15 +195,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>We were pretty sure that Fenix Flexin&apos;s &quot;Rubberz&quot; was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Expands Gemini Notebook With Visible Thinking Steps and Workspace Integration</title>
-    <link>https://dev.to/alifar/google-expands-gemini-notebook-with-visible-thinking-steps-and-workspace-integration-2913</link>
-    <guid>https://dev.to/alifar/google-expands-gemini-notebook-with-visible-thinking-steps-and-workspace-integration-2913</guid>
-    <pubDate>Wed, 05 Aug 2026 16:50:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Google is expanding its notebook-based research experience into Gemini Notebook, a more integrated product that connects the Gemini app, Google Search and Google Workspace. The significant new...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Google just announced a major shakeup of its top AI leadership</title>
@@ -203,78 +275,6 @@
     <pubDate>Wed, 05 Aug 2026 15:14:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
-    <link>https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</link>
-    <guid>https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</guid>
-    <pubDate>Wed, 05 Aug 2026 15:14:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Two security flaws in Paperclip could let attackers execute commands on a network server or a developer&apos;s computer. Paperclip is an open-source control plane for teams of artificial intelligence...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals</title>
-    <link>https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/</link>
-    <guid>https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/</guid>
-    <pubDate>Wed, 05 Aug 2026 15:05:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Puzzle Corner</title>
-    <link>https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/</link>
-    <guid>https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/</guid>
-    <pubDate>Wed, 05 Aug 2026 14:56:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug</title>
-    <link>https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html</link>
-    <guid>https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html</guid>
-    <pubDate>Wed, 05 Aug 2026 14:27:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Anthropic is hiring an AI chip design team</title>
-    <link>https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/</link>
-    <guid>https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/</guid>
-    <pubDate>Wed, 05 Aug 2026 14:13:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Sunbird relaunched its iMessage app for Android users after three years away</title>
-    <link>https://www.theverge.com/tech/975563/imessage-android-sunbird</link>
-    <guid>https://www.theverge.com/tech/975563/imessage-android-sunbird</guid>
-    <pubDate>Wed, 05 Aug 2026 14:13:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Sunbird Messaging is back on the Google Play Store, offering Android users blue bubble privileges in iMessage complete with reactions and high quality videos for $2.99 a month. Apple and Google...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Ring upgraded its peephole doorbell camera to 2K</title>
-    <link>https://www.theverge.com/tech/975538/amazon-ring-peephole-cam-2k-smart-doorbell-preorder-easy-install</link>
-    <guid>https://www.theverge.com/tech/975538/amazon-ring-peephole-cam-2k-smart-doorbell-preorder-easy-install</guid>
-    <pubDate>Wed, 05 Aug 2026 14:01:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Ring has debuted a new version of its smart doorbell camera that&apos;s designed to be easily installed as a replacement for a door&apos;s peephole without drilling or running wires. The Peephole Cam 2K is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Traveling this summer? Don’t go without these essential gadgets</title>
-    <link>https://www.theverge.com/gadgets/974436/summer-travel-tech-gadget-gift-guide</link>
-    <guid>https://www.theverge.com/gadgets/974436/summer-travel-tech-gadget-gift-guide</guid>
-    <pubDate>Wed, 05 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>There&apos;s a chance that you&apos;ve already taken your big summer trip. If not, August and early autumn are wonderful times to travel. No matter when or where you go, there are some products that can...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
