@@ -5,97 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 07 Aug 2026 00:55:00 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 07 Aug 2026 05:50:10 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>My Terraform Drift Pipeline Fixed the Change, Then Forgot It</title>
-    <link>https://dev.to/lbagga/my-terraform-drift-pipeline-fixed-the-change-then-forgot-it-gpg</link>
-    <guid>https://dev.to/lbagga/my-terraform-drift-pipeline-fixed-the-change-then-forgot-it-gpg</guid>
-    <pubDate>Fri, 07 Aug 2026 00:51:46 +0000</pubDate>
+    <title>LINE Service Messages vs Messaging API: Choose the Right Message Path</title>
+    <link>https://dev.to/unifyport/line-service-messages-vs-messaging-api-choose-the-right-message-path-2209</link>
+    <guid>https://dev.to/unifyport/line-service-messages-vs-messaging-api-choose-the-right-message-path-2209</guid>
+    <pubDate>Fri, 07 Aug 2026 05:43:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My Terraform drift pipeline could detect a manual EC2 tag change, classify it as LOW, and run Terraform to remove it. Then the pipeline moved on. The evidence existed, but it was spread across...</description>
+    <description>LINE MINI App Service Messages and the LINE Messaging API can both deliver messages to users, but they solve different problems. A Service Message confirms or follows up on an action completed...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>RAG Powered Apps with Amazon Bedrock, Part 2: Automating the RAG Pipeline with Terraform</title>
-    <link>https://dev.to/chigo_e/rag-powered-apps-with-amazon-bedrock-part-2-automating-the-rag-pipeline-with-terraform-4po4</link>
-    <guid>https://dev.to/chigo_e/rag-powered-apps-with-amazon-bedrock-part-2-automating-the-rag-pipeline-with-terraform-4po4</guid>
-    <pubDate>Fri, 07 Aug 2026 00:47:33 +0000</pubDate>
+    <title>How asyncio Really Works Under the Hood</title>
+    <link>https://dev.to/turalmu95150474/how-asyncio-really-works-under-the-hood-7b8</link>
+    <guid>https://dev.to/turalmu95150474/how-asyncio-really-works-under-the-hood-7b8</guid>
+    <pubDate>Fri, 07 Aug 2026 05:25:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Before you start: This picks up where Part 1 left off. From part 1, you would&apos;ve learned how to setup a Bedrock Knowledge Base in the console. In addition to that, you should have a general...</description>
+    <description>Python&apos;s asyncio is usually introduced through its public API: define a coroutine with async def, suspend it with await, and run several operations concurrently with create_task() or gather()....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Teaching an Audio Model More About Barbados</title>
-    <link>https://dev.to/hammertoe/teaching-an-audio-model-more-about-barbados-32o2</link>
-    <guid>https://dev.to/hammertoe/teaching-an-audio-model-more-about-barbados-32o2</guid>
-    <pubDate>Fri, 07 Aug 2026 00:30:31 +0000</pubDate>
+    <title>One skill per action looked like the safe boundary</title>
+    <link>https://dev.to/michaeltruong/one-skill-per-action-looked-like-the-safe-boundary-13pj</link>
+    <guid>https://dev.to/michaeltruong/one-skill-per-action-looked-like-the-safe-boundary-13pj</guid>
+    <pubDate>Fri, 07 Aug 2026 05:24:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Automatic speech recognition is very good until somebody mentions the name of a local school, a village, a politician, a festival, or a cricket ground. Then things get strange. In an earlier test...</description>
+    <description>I&apos;ve been building an AI-assisted editorial pipeline in Cursor. Notion cards capture observations, skills score and schedule them, and agents draft markdown that eventually syncs to dev.to. In...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GitHub pauses the Kimi K3 rollout in Copilot while it works a GitHub Actions incident</title>
-    <link>https://dev.to/leobaniak/github-pauses-the-kimi-k3-rollout-in-copilot-while-it-works-a-github-actions-incident-3o9l</link>
-    <guid>https://dev.to/leobaniak/github-pauses-the-kimi-k3-rollout-in-copilot-while-it-works-a-github-actions-incident-3o9l</guid>
-    <pubDate>Fri, 07 Aug 2026 00:24:50 +0000</pubDate>
+    <title>Do you assume or confirm?</title>
+    <link>https://dev.to/gerardo_leon/do-you-assume-or-confirm-57m3</link>
+    <guid>https://dev.to/gerardo_leon/do-you-assume-or-confirm-57m3</guid>
+    <pubDate>Fri, 07 Aug 2026 05:21:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A GitHub product launch is being held back by the CI/CD platform underneath it. On August 6 GitHub filed a Changelog entry announcing that Kimi K3, an open-weight model, is now generally available...</description>
+    <description>Note: This article describes a debugging case from 2023. Some of the technologies mentioned here have since changed in relevance. In particular, Moment.js is now considered a legacy project in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Set Up Rate Limiting in Nuxt</title>
-    <link>https://dev.to/sadegh_shaikhi_0549a5c17f/how-to-set-up-rate-limiting-in-nuxt-3lcb</link>
-    <guid>https://dev.to/sadegh_shaikhi_0549a5c17f/how-to-set-up-rate-limiting-in-nuxt-3lcb</guid>
-    <pubDate>Fri, 07 Aug 2026 00:23:06 +0000</pubDate>
+    <title>Why Context Engineering Is More Important Than Prompt Engineering</title>
+    <link>https://dev.to/jaideepparashar/why-context-engineering-is-more-important-than-prompt-engineering-3d64</link>
+    <guid>https://dev.to/jaideepparashar/why-context-engineering-is-more-important-than-prompt-engineering-3d64</guid>
+    <pubDate>Fri, 07 Aug 2026 05:20:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Rate limiting is one of those things that doesn&apos;t feel urgent—until someone hammers your login endpoint at 3am and you wake up to a flooded database and a locked-out user base. I added this to my...</description>
+    <description>For the past few years, prompt engineering has been one of the hottest topics in AI. Countless tutorials have promised the &quot;perfect prompt.&quot; Courses have been built around writing better prompts....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Three Ways Your Training Data Lies to You (And None of Them Throw an Error)</title>
-    <link>https://dev.to/rickeshtn/three-ways-your-training-data-lies-to-you-and-none-of-them-throw-an-error-4044</link>
-    <guid>https://dev.to/rickeshtn/three-ways-your-training-data-lies-to-you-and-none-of-them-throw-an-error-4044</guid>
-    <pubDate>Fri, 07 Aug 2026 00:21:27 +0000</pubDate>
+    <title>Demystifying the Factory Method Design Pattern in Java</title>
+    <link>https://dev.to/lathika_sri_88d9341d35d80/demystifying-the-factory-method-design-pattern-in-java-3b7m</link>
+    <guid>https://dev.to/lathika_sri_88d9341d35d80/demystifying-the-factory-method-design-pattern-in-java-3b7m</guid>
+    <pubDate>Fri, 07 Aug 2026 05:18:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every failure I am about to describe produced a clean run. No exception, no stack trace, no red build. Each one produced a plausible number that I believed for longer than I should have. That is...</description>
+    <description>Introduction In software development, creating objects can become complicated when a program needs to work with different types of objects. If object creation logic is written directly throughout...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Deploying Qwen3.8 Max as a Task‑Oriented Agent in Python</title>
-    <link>https://dev.to/robust_true_try/deploying-qwen38-max-as-a-task-oriented-agent-in-python-1c03</link>
-    <guid>https://dev.to/robust_true_try/deploying-qwen38-max-as-a-task-oriented-agent-in-python-1c03</guid>
-    <pubDate>Fri, 07 Aug 2026 00:21:23 +0000</pubDate>
+    <title>Cursor vs Claude Code: Which Wins for Laravel Devs?</title>
+    <link>https://dev.to/avinashvagh/cursor-vs-claude-code-which-wins-for-laravel-devs-3ocg</link>
+    <guid>https://dev.to/avinashvagh/cursor-vs-claude-code-which-wins-for-laravel-devs-3ocg</guid>
+    <pubDate>Fri, 07 Aug 2026 05:17:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You need a model that can plan, reason, and act across multiple steps. Qwen3.8 Max claims the top spot on the agentic index, but that alone doesn&apos;t guarantee a smooth integration. What You&apos;ll...</description>
+    <description>Quick answer: In the Claude Code vs Cursor debate, Claude Code wins for Laravel developers who delegate large tasks — multi-file refactors, building a full module, upgrading Eloquent relationships...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your reasoning model isn&apos;t dumb. Your parser is throwing away its best answers.</title>
-    <link>https://dev.to/rickeshtn/your-reasoning-model-isnt-dumb-your-parser-is-throwing-away-its-best-answers-4kdg</link>
-    <guid>https://dev.to/rickeshtn/your-reasoning-model-isnt-dumb-your-parser-is-throwing-away-its-best-answers-4kdg</guid>
-    <pubDate>Fri, 07 Aug 2026 00:19:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I benchmarked a vision-language model and scored it at 0.31. The real number was 0.70. Same model, same weights, same hardware, same 100 questions. The only thing that changed was how I read its...</description>
+    <title>Anthropic CEO reportedly worried new hires only care about money</title>
+    <link>https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html</link>
+    <guid>https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html</guid>
+    <pubDate>Fri, 07 Aug 2026 05:15:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html Comments URL: https://news.ycombinator.com/item?id=49206115 Points: 6 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>[Advanced Rust] 2.6. API Design Principles of Flexibility Pt.2 - Object Safety, API Design, and Generic Trait Methods</title>
-    <link>https://dev.to/someb1oody/advanced-rust-26-api-design-principles-of-flexibility-pt2-object-safety-api-design-and-37i5</link>
-    <guid>https://dev.to/someb1oody/advanced-rust-26-api-design-principles-of-flexibility-pt2-object-safety-api-design-and-37i5</guid>
-    <pubDate>Fri, 07 Aug 2026 00:19:39 +0000</pubDate>
+    <title>Building Scalable Multi-Agent Workflows &amp; RAG Pipelines with LangGraph and FastAPI</title>
+    <link>https://dev.to/mithxcode/building-scalable-multi-agent-workflows-rag-pipelines-with-langgraph-and-fastapi-2lm0</link>
+    <guid>https://dev.to/mithxcode/building-scalable-multi-agent-workflows-rag-pipelines-with-langgraph-and-fastapi-2lm0</guid>
+    <pubDate>Fri, 07 Aug 2026 05:14:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>2.6.1. Object Safety When defining a trait, whether it is object-safe is also part of the unstated contract. Object safety is a concept in Rust related to trait objects. It determines whether a...</description>
+    <description>Building fully autonomous AI systems requires moving beyond simple linear prompts to robust, stateful agentic workflows. In this article, I share my core architecture for engineering Multi-Agent...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Checking that a count didn&apos;t change — a sanity check before writing a reorder API&apos;s result</title>
-    <link>https://dev.to/susumun/checking-that-a-count-didnt-change-a-sanity-check-before-writing-a-reorder-apis-result-hg9</link>
-    <guid>https://dev.to/susumun/checking-that-a-count-didnt-change-a-sanity-check-before-writing-a-reorder-apis-result-hg9</guid>
-    <pubDate>Fri, 07 Aug 2026 00:18:39 +0000</pubDate>
+    <title>Why Upscaling the Wrong Video File Makes Quality Worse: A Source-First Diagnostic Workflow</title>
+    <link>https://dev.to/tover0314/why-upscaling-the-wrong-video-file-makes-quality-worse-a-source-first-diagnostic-workflow-2h8a</link>
+    <guid>https://dev.to/tover0314/why-upscaling-the-wrong-video-file-makes-quality-worse-a-source-first-diagnostic-workflow-2h8a</guid>
+    <pubDate>Fri, 07 Aug 2026 05:06:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building a drag-and-drop reorder feature for a list of items means sending the new order to the server and saving it. If there&apos;s even a small flaw in the reordering logic, that save can quietly...</description>
+    <description>Disclosure: I work on PixelatedFix and have a commercial interest in video-quality diagnostics. The workflow below starts with source recovery, corrected exports, and lossless transfer because...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>One of China’s Most Powerful AI Models Has Also Escaped Containment</title>
+    <link>https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/</link>
+    <guid>https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/</guid>
+    <pubDate>Fri, 07 Aug 2026 01:16:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400</title>
@@ -267,15 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>This generation of twentysomethings is so disillusioned with swipe-based dating apps that they&apos;ll try literally anything else — even an AI matchmaker.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Apple increases trade-in offers and adds new Android devices</title>
-    <link>https://www.theverge.com/tech/976210/apple-trade-in-values-increased</link>
-    <guid>https://www.theverge.com/tech/976210/apple-trade-in-values-increased</guid>
-    <pubDate>Thu, 06 Aug 2026 15:47:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple bumped up its trade-in offers for iPhones, iPads, Macs, Apple Watches, and certain Android phones, with some devices now worth over $100 more, 9to5Mac reports. The Mac Studio&apos;s trade-in...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
