@@ -5,97 +5,142 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 08 Aug 2026 08:59:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 13:12:10 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Meta Muse Spark 1.2 Honest Review: Loses the Benchmarks, Wins as an Agent</title>
-    <link>https://dev.to/aditi_gupta_8d81622a592aa/meta-muse-spark-12-honest-review-loses-the-benchmarks-wins-as-an-agent-1m8c</link>
-    <guid>https://dev.to/aditi_gupta_8d81622a592aa/meta-muse-spark-12-honest-review-loses-the-benchmarks-wins-as-an-agent-1m8c</guid>
-    <pubDate>Sat, 08 Aug 2026 08:49:34 +0000</pubDate>
+    <title>SEQUENCE vs IDENTITY in SQL Server: Choosing the Right Auto-Increment</title>
+    <link>https://dev.to/tygryso/sequence-vs-identity-in-sql-server-choosing-the-right-auto-increment-3bf3</link>
+    <guid>https://dev.to/tygryso/sequence-vs-identity-in-sql-server-choosing-the-right-auto-increment-3bf3</guid>
+    <pubDate>Sat, 08 Aug 2026 13:05:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Meta just shipped two things at once: Muse Spark 1.2, the model, and Muse Code, an agentic harness that wraps around it. The interesting part is that they pull in opposite directions. On raw...</description>
+    <description>TL;DR Pick the wrong auto-increment strategy in SQL Server and you find out in production. An INT IDENTITY column hits 2,147,483,647. Replication nodes collide on the same keys. A failover jumps...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Open-Weight vs Closed-Weight AI Models: What It Means for You</title>
-    <link>https://dev.to/akbar_952c24f291bf201eb0c/open-weight-vs-closed-weight-ai-models-what-it-means-for-you-5340</link>
-    <guid>https://dev.to/akbar_952c24f291bf201eb0c/open-weight-vs-closed-weight-ai-models-what-it-means-for-you-5340</guid>
-    <pubDate>Sat, 08 Aug 2026 08:41:58 +0000</pubDate>
+    <title>This Last Week in AI: Aug 8, 2026</title>
+    <link>https://dev.to/lukeocodes/this-last-week-in-ai-aug-8-2026-46g6</link>
+    <guid>https://dev.to/lukeocodes/this-last-week-in-ai-aug-8-2026-46g6</guid>
+    <pubDate>Sat, 08 Aug 2026 12:56:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on the OxygenLabs blog. Every few weeks a new AI model is announced, and the coverage splits into two camps: one says the model is &quot;open&quot;, the other says it is &quot;closed&quot;. If...</description>
+    <description>Five stories defined the AI industry the week of August 3. Cloudflare launched a browser purpose-built for AI agents. Five of the biggest companies in AI agreed on a single standard for agent...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Most Verification Is Just Bigger Classification</title>
-    <link>https://dev.to/harryfloyd/most-verification-is-just-bigger-classification-42g8</link>
-    <guid>https://dev.to/harryfloyd/most-verification-is-just-bigger-classification-42g8</guid>
-    <pubDate>Sat, 08 Aug 2026 08:36:17 +0000</pubDate>
+    <title>How Git Worktrees Improve AI Coding Workflows</title>
+    <link>https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd</link>
+    <guid>https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd</guid>
+    <pubDate>Sat, 08 Aug 2026 12:48:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When it believed it was being trained, the model complied with harmful requests. About fourteen percent of the time. When it believed the same conversations would not flow into training, the...</description>
+    <description>AI coding tools become much more useful when they are given clear boundaries. One practical way to create those boundaries is with Git worktrees. A Git branch gives you separate history. A...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Average Is Nobody&apos;s Result</title>
-    <link>https://dev.to/harryfloyd/the-average-is-nobodys-result-5hln</link>
-    <guid>https://dev.to/harryfloyd/the-average-is-nobodys-result-5hln</guid>
-    <pubDate>Sat, 08 Aug 2026 08:36:00 +0000</pubDate>
+    <title>I built an async wrapper for OpenAI/Anthropic SDKs because I didn&apos;t want a proxy in my request path</title>
+    <link>https://dev.to/mandarvshinde/i-built-an-async-wrapper-for-openaianthropic-sdks-because-i-didnt-want-a-proxy-in-my-request-path-1h1p</link>
+    <guid>https://dev.to/mandarvshinde/i-built-an-async-wrapper-for-openaianthropic-sdks-because-i-didnt-want-a-proxy-in-my-request-path-1h1p</guid>
+    <pubDate>Sat, 08 Aug 2026 12:46:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In 2013 four researchers went back to a completed mammography study and asked it a question it had not been designed to answer. The original study had put 50 radiologists in front of 180...</description>
+    <description>I kept running into the same tradeoff building cost tooling for teams shipping LLM features. Every attribution tool in this space works the same way: you point base_url at a proxy, and it sees...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Robot Coworker Is Still a Pilot</title>
-    <link>https://dev.to/harryfloyd/your-robot-coworker-is-still-a-pilot-12n1</link>
-    <guid>https://dev.to/harryfloyd/your-robot-coworker-is-still-a-pilot-12n1</guid>
-    <pubDate>Sat, 08 Aug 2026 08:35:44 +0000</pubDate>
+    <title>My Idempotency Guard Exists to Survive One Specific Error. That Error Made It Fail Open.</title>
+    <link>https://dev.to/enjoy_kumawat/my-idempotency-guard-exists-to-survive-one-specific-error-that-error-made-it-fail-open-4fbo</link>
+    <guid>https://dev.to/enjoy_kumawat/my-idempotency-guard-exists-to-survive-one-specific-error-that-error-made-it-fail-open-4fbo</guid>
+    <pubDate>Sat, 08 Aug 2026 12:46:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In February, BMW published the results of a pilot at its plant in Spartanburg, South Carolina. A humanoid robot made by Figure had been lifting sheet metal parts into a welding cell, ten-hour...</description>
+    <description>Five days ago I added a duplicate-publish guard to publish_devto.py, the script this blog&apos;s own publishing pipeline calls to go live. The reasoning was straightforward: a POST to DEV.to&apos;s API can...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Where Your Metrics Fold</title>
-    <link>https://dev.to/harryfloyd/where-your-metrics-fold-20o</link>
-    <guid>https://dev.to/harryfloyd/where-your-metrics-fold-20o</guid>
-    <pubDate>Sat, 08 Aug 2026 08:35:28 +0000</pubDate>
+    <title>My MCP Tool Fetches Before It Writes and Logs Every Change. It Never Checked Whether There Was Anything to Change.</title>
+    <link>https://dev.to/enjoy_kumawat/my-mcp-tool-fetches-before-it-writes-and-logs-every-change-it-never-checked-whether-there-was-243m</link>
+    <guid>https://dev.to/enjoy_kumawat/my-mcp-tool-fetches-before-it-writes-and-logs-every-change-it-never-checked-whether-there-was-243m</guid>
+    <pubDate>Sat, 08 Aug 2026 12:45:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The dashboard read 87 percent complete, and it was right: 87 percent of the scheduled tasks for the launch were genuinely done, ticked off, verified. The board did its job. Then the launch slipped...</description>
+    <description>Two fixes ago, update_article — one of the tools in this repo&apos;s MCP server — got hardened twice. The first time, because it took a bare integer article_id, PUT whatever fields you gave it straight...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Angular SSR renders your page for every visitor. Here is what that costs.</title>
-    <link>https://dev.to/nigrosimone/angular-ssr-renders-your-page-for-every-visitor-here-is-what-that-costs-jfb</link>
-    <guid>https://dev.to/nigrosimone/angular-ssr-renders-your-page-for-every-visitor-here-is-what-that-costs-jfb</guid>
-    <pubDate>Sat, 08 Aug 2026 08:34:13 +0000</pubDate>
+    <title>A Government Liquor Board Lab-Tests Every Bottle It Sells. Almost Nobody Uses the Data.</title>
+    <link>https://dev.to/sakurai_ts_745cc85d7d4294/a-government-liquor-board-lab-tests-every-bottle-it-sells-almost-nobody-uses-the-data-1j4d</link>
+    <guid>https://dev.to/sakurai_ts_745cc85d7d4294/a-government-liquor-board-lab-tests-every-bottle-it-sells-almost-nobody-uses-the-data-1j4d</guid>
+    <pubDate>Sat, 08 Aug 2026 12:43:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Angular SSR renders your page on the server, which is the whole point. It renders it again for the next visitor, and again for the one after that, and it ships nothing to stop that happening. On a...</description>
+    <description>The best datasets aren&apos;t hidden. They&apos;re published in plain sight by bureaucracies that have no idea anyone might want them — collected for compliance, exposed out of habit, and abandoned one page...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Hardware Backdoors in x86 CPUs: The 2026 Hacker News Wake-Up Call</title>
-    <link>https://dev.to/kaixintelligence/hardware-backdoors-in-x86-cpus-the-2026-hacker-news-wake-up-call-3edj</link>
-    <guid>https://dev.to/kaixintelligence/hardware-backdoors-in-x86-cpus-the-2026-hacker-news-wake-up-call-3edj</guid>
-    <pubDate>Sat, 08 Aug 2026 08:31:46 +0000</pubDate>
+    <title>Day 24 of 100</title>
+    <link>https://dev.to/hirave_palak/day-24-of-100-4b92</link>
+    <guid>https://dev.to/hirave_palak/day-24-of-100-4b92</guid>
+    <pubDate>Sat, 08 Aug 2026 12:43:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hardware Backdoors in x86 CPUs: The 2026 Hacker News Wake-Up Call In late January 2026, the front page of Hacker News was dominated by a single, chilling headline: &quot;Hardware backdoor found in X...</description>
+    <description>Today I learnt all about files, paths and directories. I learnt what a relative and absolute file path is as well as how to use both in Pycharm alongside reading and writing files. Rather than...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Understanding Both Fundamentals &amp; Abstractions Is Important</title>
-    <link>https://dev.to/plutonic_18/understanding-both-fundamentals-abstractions-is-important-3opk</link>
-    <guid>https://dev.to/plutonic_18/understanding-both-fundamentals-abstractions-is-important-3opk</guid>
-    <pubDate>Sat, 08 Aug 2026 08:27:43 +0000</pubDate>
+    <title>Why Low-Code Platforms Need a Plugin Mechanism</title>
+    <link>https://dev.to/informat/why-low-code-platforms-need-a-plugin-mechanism-5ag3</link>
+    <guid>https://dev.to/informat/why-low-code-platforms-need-a-plugin-mechanism-5ag3</guid>
+    <pubDate>Sat, 08 Aug 2026 12:43:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the process of making something useful, there are multiple kinds of abstractions created, use them but know the fundamentals. Abstractions make usage easier but knowing fundamentals always help...</description>
+    <description>In the previous post about workflow engines, I ended with a distinction: Workflows determine how business moves forward. Automation and plugins determine how the platform extends those actions...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend</title>
-    <link>https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe</link>
-    <guid>https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe</guid>
-    <pubDate>Sat, 08 Aug 2026 08:24:41 +0000</pubDate>
+    <title>If You Can Give a Lightning Talk, You Can Probably Go Bungee Jumping</title>
+    <link>https://dev.to/tanahiro2010/if-you-can-give-a-lightning-talk-you-can-probably-go-bungee-jumping-4005</link>
+    <guid>https://dev.to/tanahiro2010/if-you-can-give-a-lightning-talk-you-can-probably-go-bungee-jumping-4005</guid>
+    <pubDate>Sat, 08 Aug 2026 12:42:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Google Cloud published a security-team overview this week outlining how it detects and contains abuse across its shared infrastructure, and for engineers running pipelines on GCP the operational...</description>
+    <description>If You Can Give a Lightning Talk, You Can Probably Go Bungee Jumping I have a question for anyone who has ever given a lightning talk. Do you remember those few dozen seconds right before you...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Is this $450 laptop from an unknown brand too good to be true?</title>
+    <link>https://www.theverge.com/tech/977031/chuwi-unibook-laptop-intel-wildcat-lake-review</link>
+    <guid>https://www.theverge.com/tech/977031/chuwi-unibook-laptop-intel-wildcat-lake-review</guid>
+    <pubDate>Sat, 08 Aug 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Finding a good laptop under $500 was hard enough before RAMageddon. They nearly always had cheap hardware and underpowered, often outdated chips. That&apos;s what made the MacBook Neo so disruptive: It...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>My favorite feel-good show is back</title>
+    <link>https://www.theverge.com/tech/977084/ted-lasso-bose-tony-installer</link>
+    <guid>https://www.theverge.com/tech/977084/ted-lasso-bose-tony-installer</guid>
+    <pubDate>Sat, 08 Aug 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hi, friends! Welcome to Installer No. 139, your guide to the best and Verge-iest stuff in the world. (If you&apos;re new here, welcome, barbecue sauce, and also you can read all the old editions at the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How to Disable Gemini in Gmail and Google Docs</title>
+    <link>https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/</link>
+    <guid>https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/</guid>
+    <pubDate>Sat, 08 Aug 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers</title>
+    <link>https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html</link>
+    <guid>https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html</guid>
+    <pubDate>Sat, 08 Aug 2026 08:54:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Attacker-controlled instructions can make Atlassian&apos;s Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens</title>
+    <link>https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html</link>
+    <guid>https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html</guid>
+    <pubDate>Sat, 08 Aug 2026 08:03:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Nitecore’s latest power bank is the lightest and most compact yet</title>
@@ -230,50 +275,6 @@
     <pubDate>Fri, 07 Aug 2026 18:04:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>There’s something magical about using instant cameras that smartphones can’t match. You can capture a moment, print it out, and then give the photo as a gift or hold onto it. Image quality won’t...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Disney Plus tries a new AI-powered search</title>
-    <link>https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search</link>
-    <guid>https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search</guid>
-    <pubDate>Fri, 07 Aug 2026 17:53:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Disney is testing a new AI-powered tool for Disney Plus that uses a natural language search, a voice query, or a suggested prompt to create a customized row of show and movie recommendations....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>TutorMoments: Do AI tutors know when to help and when to hold back?</title>
-    <link>https://huggingface.co/blog/allenai/tutormoments</link>
-    <guid>https://huggingface.co/blog/allenai/tutormoments</guid>
-    <pubDate>Fri, 07 Aug 2026 17:53:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Microsoft Edge is about to lock out older ad blockers, just like Chrome did</title>
-    <link>https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3</link>
-    <guid>https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3</guid>
-    <pubDate>Fri, 07 Aug 2026 17:43:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft Edge is ending support for the Manifest V2 extensions platform, which will cut off the uBlock Origin adblocker and others like it, just like Google Chrome did earlier this year....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Grab the entire Lord of the Rings trilogy on 4K Blu-ray for $50</title>
-    <link>https://www.theverge.com/gadgets/976792/lord-of-the-rings-trilogy-4k-uhd-blu-ray-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/976792/lord-of-the-rings-trilogy-4k-uhd-blu-ray-deal-sale</guid>
-    <pubDate>Fri, 07 Aug 2026 16:58:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Looking to spend a weekend inside with a good binge? Gruv has The Lord of the Rings trilogy on 4K Blu-ray marked down to $49.99, just below Amazon’s price and only a little bit higher than the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>What&amp;#8217;s behind the Google AI shake-up</title>
-    <link>https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast</link>
-    <guid>https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast</guid>
-    <pubDate>Fri, 07 Aug 2026 16:45:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Some of the biggest names on Google&apos;s AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google&apos;s models seem...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
