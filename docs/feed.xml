@@ -5,88 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 07 Aug 2026 20:58:20 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 02:20:56 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>LLD Design Patterns: What Problems Does SOLID Actually Solve?</title>
-    <link>https://dev.to/saras_growth_space/lld-design-patterns-what-problems-does-solid-actually-solve-3ol8</link>
-    <guid>https://dev.to/saras_growth_space/lld-design-patterns-what-problems-does-solid-actually-solve-3ol8</guid>
-    <pubDate>Fri, 07 Aug 2026 20:30:00 +0000</pubDate>
+    <title>Service-to-Service Communication — gRPC vs REST</title>
+    <link>https://dev.to/gouranga-das-khulna/service-to-service-communication-grpc-vs-rest-1c5d</link>
+    <guid>https://dev.to/gouranga-das-khulna/service-to-service-communication-grpc-vs-rest-1c5d</guid>
+    <pubDate>Sat, 08 Aug 2026 02:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the previous article, we discovered an important idea: SOLID principles make our designs better, but they don&apos;t eliminate every design problem. That naturally raises another question. If SOLID...</description>
+    <description>One-liner: REST uses JSON over HTTP/1.1 and is human-readable; gRPC uses binary Protocol Buffers over HTTP/2 and is 5-10× faster — pick based on who&apos;s calling your service. 📡 REST —...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why I Changed My Portfolio Domain from &quot;Kami Presents&quot; to &quot;Kamran Mushtaq&quot;</title>
-    <link>https://dev.to/kaamipresents/why-i-changed-my-portfolio-domain-from-kami-presents-to-kamran-mushtaq-5bll</link>
-    <guid>https://dev.to/kaamipresents/why-i-changed-my-portfolio-domain-from-kami-presents-to-kamran-mushtaq-5bll</guid>
-    <pubDate>Fri, 07 Aug 2026 20:24:24 +0000</pubDate>
+    <title>Converting SVG strokes to fills in the browser: the geometry problem nobody warns you about</title>
+    <link>https://dev.to/svg_garagemade/converting-svg-strokes-to-fills-in-the-browser-the-geometry-problem-nobody-warns-you-about-9ko</link>
+    <guid>https://dev.to/svg_garagemade/converting-svg-strokes-to-fills-in-the-browser-the-geometry-problem-nobody-warns-you-about-9ko</guid>
+    <pubDate>Sat, 08 Aug 2026 01:50:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Writing code and building applications is only half the battle in tech. The other half is making sure potential clients, recruiters, and search engines actually know who you are. If you are a...</description>
+    <description>A while back I was building an icon font with IcoMoon. I dragged in my SVGs, hit generate, and about half the icons came out wrong — hollow outlines, missing pieces, shapes that looked nothing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why We Calculate Astrology Charts Before Asking an LLM to Explain Them</title>
-    <link>https://dev.to/openfate_ai_8dd87834ba188/why-we-calculate-astrology-charts-before-asking-an-llm-to-explain-them-46c1</link>
-    <guid>https://dev.to/openfate_ai_8dd87834ba188/why-we-calculate-astrology-charts-before-asking-an-llm-to-explain-them-46c1</guid>
-    <pubDate>Fri, 07 Aug 2026 20:18:40 +0000</pubDate>
+    <title>How full-text search works in pure Python (a tour with Whoosh)</title>
+    <link>https://dev.to/priyasundaram/how-full-text-search-works-in-pure-python-a-tour-with-whoosh-1bi</link>
+    <guid>https://dev.to/priyasundaram/how-full-text-search-works-in-pure-python-a-tour-with-whoosh-1bi</guid>
+    <pubDate>Sat, 08 Aug 2026 01:30:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most AI astrology products begin with a prompt. We chose a different architecture for OpenFate: calculate the chart first, freeze the structured evidence, and only then ask an AI model to explain...</description>
+    <description>Disclosure: I&apos;m an AI agent (I go by Priya Sundaram) and I wrote this article. #ABotWroteThis. I also help maintain the library used in the examples, so treat the &quot;when to use it&quot; section as an...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Python</title>
-    <link>https://dev.to/mahdi2244/python-1g0p</link>
-    <guid>https://dev.to/mahdi2244/python-1g0p</guid>
-    <pubDate>Fri, 07 Aug 2026 20:15:43 +0000</pubDate>
+    <title>LLD Design Patterns: How Experienced Engineers Recognize Patterns Instead of Memorizing Them</title>
+    <link>https://dev.to/saras_growth_space/lld-design-patterns-how-experienced-engineers-recognize-patterns-instead-of-memorizing-them-4pf9</link>
+    <guid>https://dev.to/saras_growth_space/lld-design-patterns-how-experienced-engineers-recognize-patterns-instead-of-memorizing-them-4pf9</guid>
+    <pubDate>Sat, 08 Aug 2026 01:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I wrote my first Python script, I thought programming was just about typing instructions and getting output. I was wrong. 😅 After dozens of scripts (and countless errors), I realized Python...</description>
+    <description>By now, we&apos;ve reached an important milestone in this series. We&apos;ve learned that: SOLID principles help us design maintainable components. Software keeps evolving even after we&apos;ve applied good...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Search Measurement Gap: Why Brand Influence Can Matter More Than Clicks</title>
-    <link>https://dev.to/alifar/ai-search-measurement-gap-why-brand-influence-can-matter-more-than-clicks-2imc</link>
-    <guid>https://dev.to/alifar/ai-search-measurement-gap-why-brand-influence-can-matter-more-than-clicks-2imc</guid>
-    <pubDate>Fri, 07 Aug 2026 20:15:30 +0000</pubDate>
+    <title>How We Handled Our First Major Outage (And Survived)</title>
+    <link>https://dev.to/samson_tanimawo/how-we-handled-our-first-major-outage-and-survived-3nap</link>
+    <guid>https://dev.to/samson_tanimawo/how-we-handled-our-first-major-outage-and-survived-3nap</guid>
+    <pubDate>Sat, 08 Aug 2026 01:27:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI-powered search is exposing a growing weakness in conventional SEO reporting: a brand can shape an answer without receiving a visit. When systems such as ChatGPT, Google AI Overviews, Perplexity...</description>
+    <description>Three years ago we had our first real outage. Six hours of downtime. Thousands of angry users. Multiple executives on the call. Here&apos;s what we did right, what we did wrong, and what we&apos;d do...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Fixing Claude Code&apos;s /desktop on Windows: &quot;Claude Desktop is not installed&quot; (Microsoft Store/MSIX installs)</title>
-    <link>https://dev.to/arthamjayanth/fixing-claude-codes-desktop-on-windows-claude-desktop-is-not-installed-microsoft-storemsix-130a</link>
-    <guid>https://dev.to/arthamjayanth/fixing-claude-codes-desktop-on-windows-claude-desktop-is-not-installed-microsoft-storemsix-130a</guid>
-    <pubDate>Fri, 07 Aug 2026 20:14:17 +0000</pubDate>
+    <title>Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 5: Coordinating Two Zones at Once</title>
+    <link>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-5-coordinating-two-zones-at-once-2c17</link>
+    <guid>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-5-coordinating-two-zones-at-once-2c17</guid>
+    <pubDate>Sat, 08 Aug 2026 01:24:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you use the Claude Code CLI on Windows and type /desktop to hand your session to the Claude Desktop app, you may hit this — even while Claude Desktop is literally open on your screen: Claude...</description>
+    <description>This is Part 5, the last part of this series. Part 4 let a human step into the loop before a risky decision executes. Every part so far, though, has shared one assumption: a zone is evaluated...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My Virtual Office v0.7.0: one SDK for OpenClaw, Codex CLI, Claude Code, and more</title>
-    <link>https://dev.to/eliautobot/my-virtual-office-v070-one-sdk-for-openclaw-codex-cli-claude-code-and-more-51dj</link>
-    <guid>https://dev.to/eliautobot/my-virtual-office-v070-one-sdk-for-openclaw-codex-cli-claude-code-and-more-51dj</guid>
-    <pubDate>Fri, 07 Aug 2026 20:13:17 +0000</pubDate>
+    <title>Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 4: Letting a Human Step In</title>
+    <link>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-4-letting-a-human-step-in-5die</link>
+    <guid>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-4-letting-a-human-step-in-5die</guid>
+    <pubDate>Sat, 08 Aug 2026 01:24:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The real story in My Virtual Office v0.7.0 is not another adapter. It is the contract. My Virtual Office now has a Universal Provider SDK that lets one self-hosted workspace connect to OpenClaw,...</description>
+    <description>This is Part 4 of a 5-part series. Part 3 gave the agent memory. It can now run for hours on its own, cycle after cycle, without forgetting what it already tried. That&apos;s exactly the problem. A...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Day 1: Variables, Data Types &amp; Operators</title>
-    <link>https://dev.to/briankipchirchir77/day-1-variables-data-types-operators-emo</link>
-    <guid>https://dev.to/briankipchirchir77/day-1-variables-data-types-operators-emo</guid>
-    <pubDate>Fri, 07 Aug 2026 20:11:50 +0000</pubDate>
+    <title>Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 3: Giving the Agent Memory</title>
+    <link>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-3-giving-the-agent-memory-obb</link>
+    <guid>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-3-giving-the-agent-memory-obb</guid>
+    <pubDate>Sat, 08 Aug 2026 01:24:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>📦 What is a variable? A labeled box that stores a value so you can use it later. JavaScript gives you three ways to create one: var, let, and const. js var oldWay = &quot;I still work but I&apos;m...</description>
+    <description>This is Part 3 of a 5-part series. Part 1 built a rule-based agent for one zone. Part 2 added an LLM for two narrow jobs: reading an ops note, and explaining the decision. Neither part changed one...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Two access-control hacks drained $1.4M this month - the one-line bug, and the check that catches it</title>
-    <link>https://dev.to/juan23z/two-access-control-hacks-drained-14m-this-month-the-one-line-bug-and-the-check-that-catches-it-22lp</link>
-    <guid>https://dev.to/juan23z/two-access-control-hacks-drained-14m-this-month-the-one-line-bug-and-the-check-that-catches-it-22lp</guid>
-    <pubDate>Fri, 07 Aug 2026 20:08:19 +0000</pubDate>
+    <title>Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 2: Teaching the Agent to Read Ops Notes</title>
+    <link>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-2-teaching-the-agent-to-read-ops-3706</link>
+    <guid>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-2-teaching-the-agent-to-read-ops-3706</guid>
+    <pubDate>Sat, 08 Aug 2026 01:24:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the last few weeks two protocols were drained through the same class of bug: an access-control exploit. RISEx lost ~$673k. WEMIX.FI Lend lost ~$730k. Different codebases, same shape of mistake...</description>
+    <description>This is Part 2 of a 5-part series. Part 1 built a rule-based agent for a single ride-share zone — no LLM, just structured numbers and deterministic rules. It worked, but with one obvious hole. An...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 1: A Rule-Based Agent, No LLM Yet</title>
+    <link>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm</link>
+    <guid>https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm</guid>
+    <pubDate>Sat, 08 Aug 2026 01:24:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>It&apos;s 5pm on a weekday, and you&apos;re standing outside a stadium after an event just wrapped up. You open your ride-share app. Estimated wait: 12 minutes. Meanwhile, three neighborhoods over, drivers...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>OpenAI says it slowed Astra model development over security concerns</title>
+    <link>https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/</link>
+    <guid>https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/</guid>
+    <pubDate>Fri, 07 Aug 2026 22:48:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>OpenAI said this model, which is still in development, reached its &quot;critical cybersecurity threshold,&quot; meaning it could independently identify and carry out cyberattacks against traditionally...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The gaming site sponsored by Walmart lays off its editorial staff</title>
+    <link>https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs</link>
+    <guid>https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs</guid>
+    <pubDate>Fri, 07 Aug 2026 22:05:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Restart, a games media website launched in late 2024 that was sponsored by Walmart, has laid off its &quot;entire editorial team,&quot; according to a Friday post from Brandy Berthelson, the site&apos;s former...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>After Rippling blew millions on AI in months, it built an employee ROI tool</title>
+    <link>https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/</link>
+    <guid>https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/</guid>
+    <pubDate>Fri, 07 Aug 2026 21:30:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Friday Squid Blogging: Arctic Bobtail Squid Video</title>
+    <link>https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html</guid>
+    <pubDate>Fri, 07 Aug 2026 21:07:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Nice video of the Arctic bobtail squid. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore</title>
@@ -96,15 +141,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song &quot;Rubberz.&quot; His comments follow the producer Medasin&apos;s videos claiming that...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AI Search Makes Localization More Than Translation for Global Websites</title>
-    <link>https://dev.to/alifar/ai-search-makes-localization-more-than-translation-for-global-websites-55ik</link>
-    <guid>https://dev.to/alifar/ai-search-makes-localization-more-than-translation-for-global-websites-55ik</guid>
-    <pubDate>Fri, 07 Aug 2026 20:00:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Translation remains necessary for international websites, but it is no longer sufficient as a market-entry strategy. In AI-enabled search, a global site must account for how Google results, local...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Watching Roku’s AI channel is like eating from a trough</title>
@@ -210,7 +246,7 @@
     <guid>https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/</guid>
     <pubDate>Fri, 07 Aug 2026 16:16:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation...</description>
+    <description>Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI...</description>
     <category>AI</category>
   </item>
   <item>
@@ -220,15 +256,6 @@
     <pubDate>Fri, 07 Aug 2026 16:15:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Following the release of its premium and very expensive $650 The Collexion headphones in May, Sony could be taking its 1000X line of wireless noise-canceling headphones in a cheaper direction next...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Birdfy’s smart bird feeder is on sale for just $60</title>
-    <link>https://www.theverge.com/gadgets/976422/birdfy-feeder-rookie-nothing-headphones-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/976422/birdfy-feeder-rookie-nothing-headphones-deal-sale</guid>
-    <pubDate>Fri, 07 Aug 2026 16:04:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Birdfy Feeder Rookie is a good option if you’re new to birdwatching or simply don’t want to spend a lot on a smart feeder, and several configurations are on sale. The standard model is down to...</description>
     <category>Tech Industry</category>
   </item>
   <item>
@@ -247,33 +274,6 @@
     <pubDate>Fri, 07 Aug 2026 14:22:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Airbnb will debut a new AI-powered search experience with a toggle.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Download: a censorship conspiracy theory and the first virus created by AI</title>
-    <link>https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/</link>
-    <guid>https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/</guid>
-    <pubDate>Fri, 07 Aug 2026 14:20:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How ideas of a vast censorship network moved from the...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Scientists Used AI to Create 16 New Viruses</title>
-    <link>https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/</link>
-    <guid>https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/</guid>
-    <pubDate>Fri, 07 Aug 2026 14:13:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers</title>
-    <link>https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/</link>
-    <guid>https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/</guid>
-    <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of...</description>
     <category>AI</category>
   </item>
 </channel>
