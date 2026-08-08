@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 08 Aug 2026 13:12:10 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 16:51:17 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>SEQUENCE vs IDENTITY in SQL Server: Choosing the Right Auto-Increment</title>
-    <link>https://dev.to/tygryso/sequence-vs-identity-in-sql-server-choosing-the-right-auto-increment-3bf3</link>
-    <guid>https://dev.to/tygryso/sequence-vs-identity-in-sql-server-choosing-the-right-auto-increment-3bf3</guid>
-    <pubDate>Sat, 08 Aug 2026 13:05:59 +0000</pubDate>
+    <title>Frontend system design interviews are weird. Here’s how I now approach functional requirements.</title>
+    <link>https://dev.to/ale3oula/frontend-system-design-interviews-are-weird-heres-how-i-now-approach-functional-requirements-3ea6</link>
+    <guid>https://dev.to/ale3oula/frontend-system-design-interviews-are-weird-heres-how-i-now-approach-functional-requirements-3ea6</guid>
+    <pubDate>Sat, 08 Aug 2026 16:40:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Pick the wrong auto-increment strategy in SQL Server and you find out in production. An INT IDENTITY column hits 2,147,483,647. Replication nodes collide on the same keys. A failover jumps...</description>
+    <description>One of the worst types of interviews for me is the system design. It feels overwhelming, even though i studied computer science, i took all the network and operating systems and DBMS courses. I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>This Last Week in AI: Aug 8, 2026</title>
-    <link>https://dev.to/lukeocodes/this-last-week-in-ai-aug-8-2026-46g6</link>
-    <guid>https://dev.to/lukeocodes/this-last-week-in-ai-aug-8-2026-46g6</guid>
-    <pubDate>Sat, 08 Aug 2026 12:56:56 +0000</pubDate>
+    <title>5 Free Domain Investigate APIs That Cut Due Diligence Time</title>
+    <link>https://dev.to/onizuka/5-free-domain-investigate-apis-that-cut-due-diligence-time-134g</link>
+    <guid>https://dev.to/onizuka/5-free-domain-investigate-apis-that-cut-due-diligence-time-134g</guid>
+    <pubDate>Sat, 08 Aug 2026 16:37:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Five stories defined the AI industry the week of August 3. Cloudflare launched a browser purpose-built for AI agents. Five of the biggest companies in AI agreed on a single standard for agent...</description>
+    <description>security, #api, #webdev, #sideprojects That TXT record saved me $8,500 Last Tuesday I almost wired $8,500 to a domain broker. The landing page looked legit. Escrow was ready. Then I ran one DNS...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Git Worktrees Improve AI Coding Workflows</title>
-    <link>https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd</link>
-    <guid>https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd</guid>
-    <pubDate>Sat, 08 Aug 2026 12:48:51 +0000</pubDate>
+    <title>Every web rich-text editor is missing a ruler</title>
+    <link>https://dev.to/jlc488/every-web-rich-text-editor-is-missing-a-ruler-10go</link>
+    <guid>https://dev.to/jlc488/every-web-rich-text-editor-is-missing-a-ruler-10go</guid>
+    <pubDate>Sat, 08 Aug 2026 16:34:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI coding tools become much more useful when they are given clear boundaries. One practical way to create those boundaries is with Git worktrees. A Git branch gives you separate history. A...</description>
+    <description>Originally published on Medium. Word processors have had a horizontal ruler for forty years. You grab a marker, drag, and the paragraph&apos;s margins move. Every writer knows it without being taught....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built an async wrapper for OpenAI/Anthropic SDKs because I didn&apos;t want a proxy in my request path</title>
-    <link>https://dev.to/mandarvshinde/i-built-an-async-wrapper-for-openaianthropic-sdks-because-i-didnt-want-a-proxy-in-my-request-path-1h1p</link>
-    <guid>https://dev.to/mandarvshinde/i-built-an-async-wrapper-for-openaianthropic-sdks-because-i-didnt-want-a-proxy-in-my-request-path-1h1p</guid>
-    <pubDate>Sat, 08 Aug 2026 12:46:54 +0000</pubDate>
+    <title>Spot Cross-Exchange Crypto Spreads in Minutes — Open Source Monitor (MIT)</title>
+    <link>https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0</link>
+    <guid>https://dev.to/micha_919009f8389/spot-cross-exchange-crypto-spreads-in-minutes-open-source-monitor-mit-3pb0</guid>
+    <pubDate>Sat, 08 Aug 2026 16:31:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I kept running into the same tradeoff building cost tooling for teams shipping LLM features. Every attribution tool in this space works the same way: you point base_url at a proxy, and it sees...</description>
+    <description>Ever wondered how far Bitcoin’s bid/ask drifts between Binance, Kraken, Coinbase, Bitget, and KuCoin — after fees? Crypto Arbitrage Monitor is an open-source dashboard that polls public...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My Idempotency Guard Exists to Survive One Specific Error. That Error Made It Fail Open.</title>
-    <link>https://dev.to/enjoy_kumawat/my-idempotency-guard-exists-to-survive-one-specific-error-that-error-made-it-fail-open-4fbo</link>
-    <guid>https://dev.to/enjoy_kumawat/my-idempotency-guard-exists-to-survive-one-specific-error-that-error-made-it-fail-open-4fbo</guid>
-    <pubDate>Sat, 08 Aug 2026 12:46:02 +0000</pubDate>
+    <title>GitLab wires Anthropic&apos;s Claude security tooling into its pipeline via MCP</title>
+    <link>https://dev.to/leobaniak/gitlab-wires-anthropics-claude-security-tooling-into-its-pipeline-via-mcp-3hd6</link>
+    <guid>https://dev.to/leobaniak/gitlab-wires-anthropics-claude-security-tooling-into-its-pipeline-via-mcp-3hd6</guid>
+    <pubDate>Sat, 08 Aug 2026 16:24:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Five days ago I added a duplicate-publish guard to publish_devto.py, the script this blog&apos;s own publishing pipeline calls to go live. The reasoning was straightforward: a POST to DEV.to&apos;s API can...</description>
+    <description>Every commit is a promise that somebody, somewhere, will notice if it breaks something. Two vendors telling you they will each hold up half of that promise is a different animal from one system...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My MCP Tool Fetches Before It Writes and Logs Every Change. It Never Checked Whether There Was Anything to Change.</title>
-    <link>https://dev.to/enjoy_kumawat/my-mcp-tool-fetches-before-it-writes-and-logs-every-change-it-never-checked-whether-there-was-243m</link>
-    <guid>https://dev.to/enjoy_kumawat/my-mcp-tool-fetches-before-it-writes-and-logs-every-change-it-never-checked-whether-there-was-243m</guid>
-    <pubDate>Sat, 08 Aug 2026 12:45:33 +0000</pubDate>
+    <title>OpenAI Hit Its Own Brakes. Now What?</title>
+    <link>https://dev.to/deanlee/openai-hit-its-own-brakes-now-what-54oi</link>
+    <guid>https://dev.to/deanlee/openai-hit-its-own-brakes-now-what-54oi</guid>
+    <pubDate>Sat, 08 Aug 2026 16:22:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Two fixes ago, update_article — one of the tools in this repo&apos;s MCP server — got hardened twice. The first time, because it took a bare integer article_id, PUT whatever fields you gave it straight...</description>
+    <description>On Friday evening, OpenAI published a blog post stating it could not rule out that its upcoming model Astra had reached the &quot;Critical&quot; cybersecurity threshold under its own Preparedness Framework....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Government Liquor Board Lab-Tests Every Bottle It Sells. Almost Nobody Uses the Data.</title>
-    <link>https://dev.to/sakurai_ts_745cc85d7d4294/a-government-liquor-board-lab-tests-every-bottle-it-sells-almost-nobody-uses-the-data-1j4d</link>
-    <guid>https://dev.to/sakurai_ts_745cc85d7d4294/a-government-liquor-board-lab-tests-every-bottle-it-sells-almost-nobody-uses-the-data-1j4d</guid>
-    <pubDate>Sat, 08 Aug 2026 12:43:47 +0000</pubDate>
+    <title>AI This Week (Aug 2026): Qwen3.8 Max, DeepSeek V4-Flash, and Models Shipping Like Patches</title>
+    <link>https://dev.to/ai_maya_063fc568e157562fd/ai-this-week-aug-2026-qwen38-max-deepseek-v4-flash-and-models-shipping-like-patches-17fc</link>
+    <guid>https://dev.to/ai_maya_063fc568e157562fd/ai-this-week-aug-2026-qwen38-max-deepseek-v4-flash-and-models-shipping-like-patches-17fc</guid>
+    <pubDate>Sat, 08 Aug 2026 16:19:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The best datasets aren&apos;t hidden. They&apos;re published in plain sight by bureaucracies that have no idea anyone might want them — collected for compliance, exposed out of habit, and abandoned one page...</description>
+    <description>If you blinked this week, you missed three frontier model releases. August 2026 is making one thing very clear: large language models now ship like software patches, not like moon landings. Here&apos;s...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Day 24 of 100</title>
-    <link>https://dev.to/hirave_palak/day-24-of-100-4b92</link>
-    <guid>https://dev.to/hirave_palak/day-24-of-100-4b92</guid>
-    <pubDate>Sat, 08 Aug 2026 12:43:34 +0000</pubDate>
+    <title>A Google Sheets .xlsx breaks silently in Excel: the 203 cells IFERROR swallowed</title>
+    <link>https://dev.to/aulvem/a-google-sheets-xlsx-breaks-silently-in-excel-the-203-cells-iferror-swallowed-1cmj</link>
+    <guid>https://dev.to/aulvem/a-google-sheets-xlsx-breaks-silently-in-excel-the-203-cells-iferror-swallowed-1cmj</guid>
+    <pubDate>Sat, 08 Aug 2026 16:16:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Today I learnt all about files, paths and directories. I learnt what a relative and absolute file path is as well as how to use both in Pycharm alongside reading and writing files. Rather than...</description>
+    <description>Export a Google Sheet to .xlsx, hand it to someone, and they open a different file than the one you tested. ARRAYFORMULA and QUERY don&apos;t exist in Excel, which is unsurprising — the annoying part...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Low-Code Platforms Need a Plugin Mechanism</title>
-    <link>https://dev.to/informat/why-low-code-platforms-need-a-plugin-mechanism-5ag3</link>
-    <guid>https://dev.to/informat/why-low-code-platforms-need-a-plugin-mechanism-5ag3</guid>
-    <pubDate>Sat, 08 Aug 2026 12:43:16 +0000</pubDate>
+    <title>I Talked to an Elon Musk AI About Product Management — Here&apos;s What It Said About Surviving the AI Wave</title>
+    <link>https://dev.to/cdragon123code/i-talked-to-an-elon-musk-ai-about-product-management-heres-what-it-said-about-surviving-the-ai-2j0d</link>
+    <guid>https://dev.to/cdragon123code/i-talked-to-an-elon-musk-ai-about-product-management-heres-what-it-said-about-surviving-the-ai-2j0d</guid>
+    <pubDate>Sat, 08 Aug 2026 16:12:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In the previous post about workflow engines, I ended with a distinction: Workflows determine how business moves forward. Automation and plugins determine how the platform extends those actions...</description>
+    <description>I Talked to an Elon Musk AI About Product Management — Here&apos;s What It Said &quot;The only rules you have to follow are the laws of physics — everything else is a recommendation.&quot; Lately, I&apos;ve been...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>If You Can Give a Lightning Talk, You Can Probably Go Bungee Jumping</title>
-    <link>https://dev.to/tanahiro2010/if-you-can-give-a-lightning-talk-you-can-probably-go-bungee-jumping-4005</link>
-    <guid>https://dev.to/tanahiro2010/if-you-can-give-a-lightning-talk-you-can-probably-go-bungee-jumping-4005</guid>
-    <pubDate>Sat, 08 Aug 2026 12:42:03 +0000</pubDate>
+    <title>How to implement networked multiplayer games in Python using an open-source framework</title>
+    <link>https://dev.to/tio-fabi/how-to-implement-networked-multiplayer-games-in-python-using-an-open-source-framework-3ekc</link>
+    <guid>https://dev.to/tio-fabi/how-to-implement-networked-multiplayer-games-in-python-using-an-open-source-framework-3ekc</guid>
+    <pubDate>Sat, 08 Aug 2026 16:07:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If You Can Give a Lightning Talk, You Can Probably Go Bungee Jumping I have a question for anyone who has ever given a lightning talk. Do you remember those few dozen seconds right before you...</description>
+    <description>Introduction Turn-based multiplayer games are a sweet spot for learning + prototyping: simple enough to implement quickly, but real enough to teach networking, game state, and API design. I wrote...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Buc-ee’s dodges John Oliver to sue another small business</title>
+    <link>https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart</link>
+    <guid>https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart</guid>
+    <pubDate>Sat, 08 Aug 2026 15:47:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Buc-ee&apos;s became something of a viral sensation during the World Cup, but it has a troubling history of suing small gas stations and convenience stores. On a recent episode of Last Week Tonight,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro</title>
+    <link>https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview</link>
+    <guid>https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview</guid>
+    <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Tom Vek burst onto the scene in 2005 with his album We Have Sound, which garnered a solid 7.6 from the tastemakers of the day over at Pitchfork. His undeniably catchy brand of dancy indietronica...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Is this $450 laptop from an unknown brand too good to be true?</title>
@@ -258,24 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data</title>
-    <link>https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html</link>
-    <guid>https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html</guid>
-    <pubDate>Fri, 07 Aug 2026 18:16:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. &quot;UNC6671 continues to rely on...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The only instant cameras worth your money</title>
-    <link>https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak</link>
-    <guid>https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak</guid>
-    <pubDate>Fri, 07 Aug 2026 18:04:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>There’s something magical about using instant cameras that smartphones can’t match. You can capture a moment, print it out, and then give the photo as a gift or hold onto it. Image quality won’t...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
