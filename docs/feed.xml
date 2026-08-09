@@ -5,70 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 09 Aug 2026 13:15:17 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 09 Aug 2026 16:53:25 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>The Guardrail&apos;s Failure Mode Is Always &quot;Allow&quot;</title>
-    <link>https://dev.to/aiexplore369zoho/the-guardrails-failure-mode-is-always-allow-2a6p</link>
-    <guid>https://dev.to/aiexplore369zoho/the-guardrails-failure-mode-is-always-allow-2a6p</guid>
-    <pubDate>Sun, 09 Aug 2026 13:01:11 +0000</pubDate>
+    <title>Understanding and Solving the N+1 Problem in Spring Data JPA / Hibernate</title>
+    <link>https://dev.to/programming_coyote/understanding-and-solving-the-n1-problem-in-spring-data-jpa-hibernate-2jn</link>
+    <guid>https://dev.to/programming_coyote/understanding-and-solving-the-n1-problem-in-spring-data-jpa-hibernate-2jn</guid>
+    <pubDate>Sun, 09 Aug 2026 16:52:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR — Most production guardrails are implemented as a second LLM or classifier call wrapped in a try/except that defaults to allowing content when that call times out, rate-limits, or returns...</description>
+    <description>If you are working with ORM (Object-Relational Mapping) tools like Hibernate or Spring Data JPA, there is a high chance you will run into a common performance issue called the N+1 Problem. Whether...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The SQL CASE Expression, Explained for Beginners</title>
-    <link>https://dev.to/michaelnocito/the-sql-case-expression-explained-for-beginners-19ec</link>
-    <guid>https://dev.to/michaelnocito/the-sql-case-expression-explained-for-beginners-19ec</guid>
-    <pubDate>Sun, 09 Aug 2026 13:00:35 +0000</pubDate>
+    <title>Distributed Trust and Multimodal Perception for Next-Generation Autonomous Drone Defense</title>
+    <link>https://dev.to/sher213/distributed-trust-and-multimodal-perception-fornext-generation-autonomous-drone-defense-25h1</link>
+    <guid>https://dev.to/sher213/distributed-trust-and-multimodal-perception-fornext-generation-autonomous-drone-defense-25h1</guid>
+    <pubDate>Sun, 09 Aug 2026 16:38:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>CASE is SQL&apos;s if/else. It is how you clean messy values, sort numbers into bands, build flags, and count several things in one query. This guide covers the whole of it. How CASE decides. Both...</description>
+    <description>Distributed Trust and Multimodal Perception for Next-Generation Autonomous Drone Defense A Blockchain-Coordinated Multi-Node Architecture for Trusted Drone Arrays and Adaptive Airspace Security...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How SQL and Python Work Together in Data Analysis</title>
-    <link>https://dev.to/michaelnocito/how-sql-and-python-work-together-in-data-analysis-565o</link>
-    <guid>https://dev.to/michaelnocito/how-sql-and-python-work-together-in-data-analysis-565o</guid>
-    <pubDate>Sun, 09 Aug 2026 13:00:27 +0000</pubDate>
+    <title>The Metaverse Failed. Augmented Reality Didn&apos;t.</title>
+    <link>https://dev.to/sampseiol1/the-metaverse-failed-augmented-reality-didnt-58oc</link>
+    <guid>https://dev.to/sampseiol1/the-metaverse-failed-augmented-reality-didnt-58oc</guid>
+    <pubDate>Sun, 09 Aug 2026 16:27:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every data analyst job posting asks for SQL and Python. That raises an honest beginner question nobody seems to answer directly. If both work with data, why do I need two tools? Aren&apos;t they...</description>
+    <description>Why spatial computing might find its second act in science, education, and low-budget development For a stretch of 2021 and 2022, it looked like computing was about to move somewhere else...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Exploratory Data Analysis Matters</title>
-    <link>https://dev.to/michaelnocito/why-exploratory-data-analysis-matters-1lf1</link>
-    <guid>https://dev.to/michaelnocito/why-exploratory-data-analysis-matters-1lf1</guid>
-    <pubDate>Sun, 09 Aug 2026 13:00:20 +0000</pubDate>
+    <title>I Built a React Performance Analyzer Because Lighthouse Wasn&apos;t Telling Me Why</title>
+    <link>https://dev.to/ozma/i-built-a-react-performance-analyzer-because-lighthouse-wasnt-telling-me-why-3pal</link>
+    <guid>https://dev.to/ozma/i-built-a-react-performance-analyzer-because-lighthouse-wasnt-telling-me-why-3pal</guid>
+    <pubDate>Sun, 09 Aug 2026 16:23:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Exploratory data analysis , or EDA, is the habit of looking at your data before you compute anything from it. This guide covers what to look at, the research showing why it is not optional, and...</description>
+    <description>I was working on a React project when I ran into a performance problem. The application worked. The Lighthouse score wasn&apos;t terrible. But something still felt wrong. Some interactions felt...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Data Is Never Fully Clean, and Analysts Ship Anyway</title>
-    <link>https://dev.to/michaelnocito/your-data-is-never-fully-clean-and-analysts-ship-anyway-4hc8</link>
-    <guid>https://dev.to/michaelnocito/your-data-is-never-fully-clean-and-analysts-ship-anyway-4hc8</guid>
-    <pubDate>Sun, 09 Aug 2026 13:00:12 +0000</pubDate>
+    <title>Building a look-first AI image generator instead of another blank prompt box</title>
+    <link>https://dev.to/eudy/building-a-look-first-ai-image-generator-instead-of-another-blank-prompt-box-3deo</link>
+    <guid>https://dev.to/eudy/building-a-look-first-ai-image-generator-instead-of-another-blank-prompt-box-3deo</guid>
+    <pubDate>Sun, 09 Aug 2026 16:22:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Analysts ship work that still has flaws in it. They do it by documenting every imperfection and making it defensible. This guide covers how, at the three levels real analysts use, with examples...</description>
+    <description>Most AI image tools still begin the same way: Here is a blank prompt box. Now describe exactly what you want. That is powerful if you already know how to write prompts. But for many users,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Operationalization: Turning Fuzzy Questions Into Measurable Definitions</title>
-    <link>https://dev.to/michaelnocito/operationalization-turning-fuzzy-questions-into-measurable-definitions-4mid</link>
-    <guid>https://dev.to/michaelnocito/operationalization-turning-fuzzy-questions-into-measurable-definitions-4mid</guid>
-    <pubDate>Sun, 09 Aug 2026 13:00:04 +0000</pubDate>
+    <title>Nvidia Is Buying a Call Option on Power</title>
+    <link>https://dev.to/deanlee/nvidia-is-buying-a-call-option-on-power-3j5e</link>
+    <guid>https://dev.to/deanlee/nvidia-is-buying-a-call-option-on-power-3j5e</guid>
+    <pubDate>Sun, 09 Aug 2026 16:22:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Business questions arrive fuzzy. Popular. Churned. Engaged. Hidden gem. Someone has to turn that fuzz into an exact rule before a single query can run, and this guide is how that is done. The work...</description>
+    <description>Nvidia&apos;s reported investment in Lancium looks small next to the numbers usually attached to AI infrastructure. Up to $3 billion is not small money, but it sits beside $500 billion Stargate...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Loaded Obeyed: Why Your Agent Quotes Rules It Doesn&apos;t Follow</title>
-    <link>https://dev.to/buildloops/loaded-obeyed-why-your-agent-quotes-rules-it-doesnt-follow-2256</link>
-    <guid>https://dev.to/buildloops/loaded-obeyed-why-your-agent-quotes-rules-it-doesnt-follow-2256</guid>
-    <pubDate>Sun, 09 Aug 2026 13:00:00 +0000</pubDate>
+    <title>The AI Price War Just Changed How I Architect Software, and Most Devs Haven&apos;t Noticed</title>
+    <link>https://dev.to/sirbrian/the-ai-price-war-just-changed-how-i-architect-software-and-most-devs-havent-noticed-30b7</link>
+    <guid>https://dev.to/sirbrian/the-ai-price-war-just-changed-how-i-architect-software-and-most-devs-havent-noticed-30b7</guid>
+    <pubDate>Sun, 09 Aug 2026 16:21:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The file was loaded. The rules just weren&apos;t followed. Here&apos;s the two-failure diagnostic that tells you which one you have — and what to do for each. My agent used to follow my rules. The...</description>
+    <description>Everyone&apos;s watching the AI price war for the wrong reason. The headlines are about how cheap tokens got. The actual story is what cheap tokens do to how you should be architecting software right...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Nvidia Is Buying the Part of AI Nobody Can pip install</title>
+    <link>https://dev.to/reidmarlow/nvidia-is-buying-the-part-of-ai-nobody-can-pip-install-383</link>
+    <guid>https://dev.to/reidmarlow/nvidia-is-buying-the-part-of-ai-nobody-can-pip-install-383</guid>
+    <pubDate>Sun, 09 Aug 2026 16:20:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Nvidia is reportedly putting up to $3 billion into Lancium, a Texas power-infrastructure developer tied to the Stargate data-center project. The reported structure is simple enough. An initial $2...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Predictive AI in Action: Engineering a Real-Time Dashboard for Canadian Fleet Optimization</title>
+    <link>https://dev.to/juanpacol/predictive-ai-in-action-engineering-a-real-time-dashboard-for-canadian-fleet-optimization-1bmm</link>
+    <guid>https://dev.to/juanpacol/predictive-ai-in-action-engineering-a-real-time-dashboard-for-canadian-fleet-optimization-1bmm</guid>
+    <pubDate>Sun, 09 Aug 2026 16:15:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>After completing Codeboxx&apos;s AI for Developers certification, I engineered a full-stack operations platform for Rocket Elevators that monitors 45,000+ elevators across Canada in real-time. This...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The median MCP server costs 3,150 tokens before your agent calls anything</title>
+    <link>https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3</link>
+    <guid>https://dev.to/onlyoneaman/the-median-mcp-server-costs-3150-tokens-before-your-agent-calls-anything-4np3</guid>
+    <pubDate>Sun, 09 Aug 2026 16:13:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every MCP server you connect sends its full tool list to the model before the model does anything. You pay for that list on every single turn, whether the agent uses one of those tools or none of...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>49ers coach says his Tesla was on Autopilot when he crashed</title>
+    <link>https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash</link>
+    <guid>https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash</guid>
+    <pubDate>Sun, 09 Aug 2026 15:56:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Four weeks ago, San Francisco 49ers coach Kyle Shanahan was involved in an accident near downtown Palo Alto. At the time Shanahan said only that the accident was his fault. But during a recent...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy</title>
+    <link>https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/</link>
+    <guid>https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/</guid>
+    <pubDate>Sun, 09 Aug 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>On the latest episode of Equity, we spoke to Jill Lepore about &quot;government by machines&quot; and why Elon Musk is a bad science fiction reader.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The AI safety test is becoming a safety risk</title>
+    <link>https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/</link>
+    <guid>https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/</guid>
+    <pubDate>Sun, 09 Aug 2026 14:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Dropbox is a PC builder’s best friend</title>
@@ -78,33 +132,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>In 2018 I bet my reputation and self-worth on a huge crowdfunded game design project. It could have been a failure for many reasons, but the one I became most worried about was losing all of the...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Inside the NEXUS AI App Builder: an agentic full-stack workspace, not a code generator</title>
-    <link>https://dev.to/sali_ac161a1b71406354896c/inside-the-nexus-ai-app-builder-an-agentic-full-stack-workspace-not-a-code-generator-59cg</link>
-    <guid>https://dev.to/sali_ac161a1b71406354896c/inside-the-nexus-ai-app-builder-an-agentic-full-stack-workspace-not-a-code-generator-59cg</guid>
-    <pubDate>Sun, 09 Aug 2026 12:53:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Inside the NEXUS AI App Builder: an agentic full-stack workspace, not a code generator Published: August 4, 2026 Category: AI Builder Reading time: 11 minutes Author: NEXUS AI Team Most &quot;AI app...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Path Traversal Fix Cursor Writes Ignores Symlinks (CWE-22)</title>
-    <link>https://dev.to/c_k_fb750e731394/the-path-traversal-fix-cursor-writes-ignores-symlinks-cwe-22-1cdj</link>
-    <guid>https://dev.to/c_k_fb750e731394/the-path-traversal-fix-cursor-writes-ignores-symlinks-cwe-22-1cdj</guid>
-    <pubDate>Sun, 09 Aug 2026 12:53:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Ask Cursor to fix a path traversal bug and you get path.basename, path.resolve, and a startsWith containment check. It looks like the textbook answer. The check is pure string math. It never...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Amazon circumvents Gilroy community vote for AI data center</title>
-    <link>https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window</link>
-    <guid>https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window</guid>
-    <pubDate>Sun, 09 Aug 2026 12:52:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL:...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>AI detectors are creating a new era of distrust</title>
@@ -249,33 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist</title>
-    <link>https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html</link>
-    <guid>https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html</guid>
-    <pubDate>Sat, 08 Aug 2026 06:57:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts</title>
-    <link>https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html</link>
-    <guid>https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html</guid>
-    <pubDate>Sat, 08 Aug 2026 06:52:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV)...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI says it slowed Astra model development over security concerns</title>
-    <link>https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/</link>
-    <guid>https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/</guid>
-    <pubDate>Fri, 07 Aug 2026 22:48:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI said this model, which is still in development, reached its &quot;critical cybersecurity threshold,&quot; meaning it could independently identify and carry out cyberattacks against traditionally...</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
