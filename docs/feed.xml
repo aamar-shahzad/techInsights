@@ -5,15 +5,96 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 09 Aug 2026 20:51:02 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 02:34:00 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How the IO-Link IODD checksum works</title>
-    <link>https://dev.to/calumk/how-the-io-link-iodd-checksum-works-2jbp</link>
-    <guid>https://dev.to/calumk/how-the-io-link-iodd-checksum-works-2jbp</guid>
-    <pubDate>Sun, 09 Aug 2026 20:36:13 +0000</pubDate>
+    <title>Memory Management and Optimization in JavaScript</title>
+    <link>https://dev.to/sharique_siddiqui_8242dad/memory-management-and-optimization-in-javascript-dbh</link>
+    <guid>https://dev.to/sharique_siddiqui_8242dad/memory-management-and-optimization-in-javascript-dbh</guid>
+    <pubDate>Mon, 10 Aug 2026 02:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every IODD (IO Device Description) file carries a checksum near the end: &lt;Stamp crc=&quot;1462814215&quot;&gt; &lt;Checker name=&quot;IODD-Checker V1.1.1&quot; version=&quot;V1.1.1.0&quot;/&gt; &lt;/Stamp&gt; It is mandatory. Change one byte...</description>
+    <description>When building JavaScript applications—whether front-end or back-end—performance is more than just execution speed. Memory management plays a vital role in how smooth and responsive your...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Loop engineering: stop prompting, start defining outcomes</title>
+    <link>https://dev.to/ayaan278/loop-engineering-stop-prompting-start-defining-outcomes-lho</link>
+    <guid>https://dev.to/ayaan278/loop-engineering-stop-prompting-start-defining-outcomes-lho</guid>
+    <pubDate>Mon, 10 Aug 2026 02:20:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A few years ago, I was integrating with an API that shall remain nameless. It told me almost nothing — no error messages, no logs worth reading. Just HTTP status codes and a dashboard with exactly...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Too lazy for Bash: My life with a local AI assistant</title>
+    <link>https://dev.to/codisfy/too-lazy-for-bash-my-life-with-a-local-ai-assistant-25pb</link>
+    <guid>https://dev.to/codisfy/too-lazy-for-bash-my-life-with-a-local-ai-assistant-25pb</guid>
+    <pubDate>Mon, 10 Aug 2026 02:13:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A few days ago I wanted to change something on my local media server. Normally I&apos;d SSH into it, remember where I&apos;d configured everything, look up a couple of commands I&apos;d forgotten, make the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Sharepoint List daoru test</title>
+    <link>https://dev.to/yili_zhang_flow/sharepoint-list-study-20260800-46o6</link>
+    <guid>https://dev.to/yili_zhang_flow/sharepoint-list-study-20260800-46o6</guid>
+    <pubDate>Mon, 10 Aug 2026 02:09:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>(async () =&gt; { const web = _spPageContextInfo.webAbsoluteUrl; const EMPTY_LISTS_FIRST = false; const SKIP_EXISTING_ITEMS = true; // ---- load JSON via file picker ---- const data = await new...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Dev Log: 2026-08-09 — 72 classes that should have been 8 rows, and a compliance clock</title>
+    <link>https://dev.to/nasrulhazim/dev-log-2026-08-09-72-classes-that-should-have-been-8-rows-and-a-compliance-clock-25h0</link>
+    <guid>https://dev.to/nasrulhazim/dev-log-2026-08-09-72-classes-that-should-have-been-8-rows-and-a-compliance-clock-25h0</guid>
+    <pubDate>Mon, 10 Aug 2026 02:02:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Sixteen commits, all on one private deployment platform, spread across a very long day — a batch just after midnight and then a second run in the late afternoon. The big architectural thread of...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>A driver that quietly does nothing is worse than one that isn&apos;t there</title>
+    <link>https://dev.to/nasrulhazim/a-driver-that-quietly-does-nothing-is-worse-than-one-that-isnt-there-61m</link>
+    <guid>https://dev.to/nasrulhazim/a-driver-that-quietly-does-nothing-is-worse-than-one-that-isnt-there-61m</guid>
+    <pubDate>Mon, 10 Aug 2026 02:02:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR A method that can&apos;t do its job has three options: do it, throw, or return &quot;I can&apos;t&quot; as a value. What it must never do is return normally having done nothing. I gave a firewall abstraction...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How I built an automated Twitter + Telegram whale alert bot for Polymarket</title>
+    <link>https://dev.to/manpreet_brar_264e408885a/how-i-built-an-automated-twitter-telegram-whale-alert-bot-for-polymarket-1ahp</link>
+    <guid>https://dev.to/manpreet_brar_264e408885a/how-i-built-an-automated-twitter-telegram-whale-alert-bot-for-polymarket-1ahp</guid>
+    <pubDate>Mon, 10 Aug 2026 01:45:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Built WhaleTrack — it tracks big Polymarket traders and alerts when they place large bets. Here&apos;s the technical stack behind the automated alert system. The core loop (runs every 5 min): Polls...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Built a Free AI Screen Recorder That Auto-Edits Your Videos</title>
+    <link>https://dev.to/gabutskuy/i-built-a-free-ai-screen-recorder-that-auto-edits-your-videos-3gkj</link>
+    <guid>https://dev.to/gabutskuy/i-built-a-free-ai-screen-recorder-that-auto-edits-your-videos-3gkj</guid>
+    <pubDate>Mon, 10 Aug 2026 01:45:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I Built a Free AI Screen Recorder That Auto-Edits Your Videos Every content creator knows the pain: you spend 3-5 hours editing a 10-minute screen recording. Cropping dead space, adding zooms,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AI Agent vs. Single Prompt: When Automation Actually Pays Off</title>
+    <link>https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-1cbe</link>
+    <guid>https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-1cbe</guid>
+    <pubDate>Mon, 10 Aug 2026 01:44:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Everyone is talking about AI agents, but most people still use a single prompt. The honest question: when does an agent actually pay for itself? Here is my rule, learned from building an...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AI Agent vs. Single Prompt: When Automation Actually Pays Off</title>
+    <link>https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-2951</link>
+    <guid>https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-2951</guid>
+    <pubDate>Mon, 10 Aug 2026 01:44:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Everyone is talking about AI agents, but most people still use a single prompt. The honest question: when does an agent actually pay for itself? Here is my rule, learned from building an...</description>
     <category>Developer Tools</category>
   </item>
   <item>
@@ -26,15 +107,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Why Your Reusable Components Keep Breaking (And How to Fix Your API Design)</title>
-    <link>https://dev.to/joemetry/why-your-reusable-components-keep-breaking-and-how-to-fix-your-api-design-3pld</link>
-    <guid>https://dev.to/joemetry/why-your-reusable-components-keep-breaking-and-how-to-fix-your-api-design-3pld</guid>
-    <pubDate>Sun, 09 Aug 2026 20:31:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ever stared at a component library you built just three weeks ago, only to realize it&apos;s already suffocating under a mountain of boolean props like hasBadge, isCompact, and withIcon? I ran into...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>No Dogs in Space is a music history podcast for true obsessives</title>
     <link>https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast</link>
     <guid>https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast</guid>
@@ -42,78 +114,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Sadly, there hasn&apos;t been a new episode of No Dogs in Space since July of 2024. Part four of the podcast&apos;s series on Can wrapped up an abbreviated season three, which focused on experimental rock....</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Async-First Doesn’t Mean Async-Only</title>
-    <link>https://dev.to/tohru_yaginuma_4f041533c6/async-first-doesnt-mean-async-only-ebm</link>
-    <guid>https://dev.to/tohru_yaginuma_4f041533c6/async-first-doesnt-mean-async-only-ebm</guid>
-    <pubDate>Sun, 09 Aug 2026 20:27:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Key Takeaways Asynchronous discussions can lose momentum because participants are focused on different tasks. For complex or important topics, it’s often better to switch to synchronous...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I tested my security extension against 20 real sites and found three bugs - in my own tool</title>
-    <link>https://dev.to/bright_asarebediako_a70d/i-tested-my-security-extension-against-20-real-sites-and-found-three-bugs-in-my-own-tool-36nn</link>
-    <guid>https://dev.to/bright_asarebediako_a70d/i-tested-my-security-extension-against-20-real-sites-and-found-three-bugs-in-my-own-tool-36nn</guid>
-    <pubDate>Sun, 09 Aug 2026 20:26:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I built &apos;QuickAudit&apos;, a browser extension that runs ten OWASP-style security checks on whatever web page you&apos;re currently viewing (headers, cookie flags, mixed content, vulnerable JS libraries via...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Two free datasets that are easy to pull and easy to misread</title>
-    <link>https://dev.to/scrapemint/two-free-datasets-that-are-easy-to-pull-and-easy-to-misread-4hpf</link>
-    <guid>https://dev.to/scrapemint/two-free-datasets-that-are-easy-to-pull-and-easy-to-misread-4hpf</guid>
-    <pubDate>Sun, 09 Aug 2026 20:24:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Some of the most useful public data needs no key, no account and no browser. You can get it with one HTTP call. The hard part was never fetching it. The hard part is knowing what the number...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Built a Tool to Detect Delayed Access Revocation</title>
-    <link>https://dev.to/kernelkain/i-built-a-tool-to-detect-delayed-access-revocation-427d</link>
-    <guid>https://dev.to/kernelkain/i-built-a-tool-to-detect-delayed-access-revocation-427d</guid>
-    <pubDate>Sun, 09 Aug 2026 20:16:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This weekend, I built TimeTrap. It started with a simple question: What if access is revoked, but something that depends on it stays active? That small delay can become a real security problem. 🔗...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Poland now 6th-largest EU economy, ahead of Switzerland and Belgium</title>
-    <link>https://www.euronews.com/business/2026/08/09/poland-now-sixth-largest-eu-economy-ahead-of-switzerland-and-belgium</link>
-    <guid>https://www.euronews.com/business/2026/08/09/poland-now-sixth-largest-eu-economy-ahead-of-switzerland-and-belgium</guid>
-    <pubDate>Sun, 09 Aug 2026 20:13:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.euronews.com/business/2026/08/09/poland-now-sixth-largest-eu-economy-ahead-of-switzerland-and-belgium Comments URL: https://news.ycombinator.com/item?id=49235323 Points:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What We Check Before Shipping an LLM Integration to a Client</title>
-    <link>https://dev.to/lycore/what-we-check-before-shipping-an-llm-integration-to-a-client-39fl</link>
-    <guid>https://dev.to/lycore/what-we-check-before-shipping-an-llm-integration-to-a-client-39fl</guid>
-    <pubDate>Sun, 09 Aug 2026 20:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When we hand off an LLM-powered feature to a client, they are putting it in front of their users. Some of those users will try to break it — not always maliciously, but because users probe things....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Hidden Architecture of AI: Do You Know What an LLM Harness Is?</title>
-    <link>https://dev.to/pabli44/the-hidden-architecture-of-ai-do-you-know-what-an-llm-harness-is-4ldl</link>
-    <guid>https://dev.to/pabli44/the-hidden-architecture-of-ai-do-you-know-what-an-llm-harness-is-4ldl</guid>
-    <pubDate>Sun, 09 Aug 2026 20:07:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Yes, you heard that right! I am talking about LLM harnesses—the logical, security, and structural infrastructure that empowers a Large Language Model to deliver accurate and valuable responses to...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Deletes all instances of Microsoft&apos;s GDID and prevents minting of new ones</title>
-    <link>https://github.com/yegors/deGDID</link>
-    <guid>https://github.com/yegors/deGDID</guid>
-    <pubDate>Sun, 09 Aug 2026 20:06:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://github.com/yegors/deGDID Comments URL: https://news.ycombinator.com/item?id=49235242 Points: 7 # Comments: 2</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Anthropic is turning Claude Code’s auto mode on by default</title>
