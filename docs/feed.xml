@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 11 Aug 2026 05:28:42 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 09:13:12 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Rust SIMD Just Came to the GPU — and It Changes How We Think About Parallel Programming</title>
-    <link>https://dev.to/trismegistus/rust-simd-just-came-to-the-gpu-and-it-changes-how-we-think-about-parallel-programming-44n</link>
-    <guid>https://dev.to/trismegistus/rust-simd-just-came-to-the-gpu-and-it-changes-how-we-think-about-parallel-programming-44n</guid>
-    <pubDate>Tue, 11 Aug 2026 05:21:29 +0000</pubDate>
+    <title>Your Test Went Red. Can You Read It?</title>
+    <link>https://dev.to/onurkesim/your-test-went-red-can-you-read-it-4mm4</link>
+    <guid>https://dev.to/onurkesim/your-test-went-red-can-you-read-it-4mm4</guid>
+    <pubDate>Tue, 11 Aug 2026 09:06:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>For decades, GPU programming has meant one of two things: writing CUDA kernels in C++ or wrestling with OpenCL. Both require you to think in a fundamentally different paradigm than CPU...</description>
+    <description>Thesis: A gate being green is not enough. When it turns red, it must be readable—and the guard that makes it readable must stand where it cannot disappear. To test my assertion, I deleted SKIP...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Cline After 5 Months: The Free VS Code AI Agent That Isn&apos;t Actually Free</title>
-    <link>https://dev.to/ramdai_bista/cline-after-5-months-the-free-vs-code-ai-agent-that-isnt-actually-free-54gh</link>
-    <guid>https://dev.to/ramdai_bista/cline-after-5-months-the-free-vs-code-ai-agent-that-isnt-actually-free-54gh</guid>
-    <pubDate>Tue, 11 Aug 2026 05:19:10 +0000</pubDate>
+    <title>22 Things You Should Test Before Shipping an LLM Prompt to Production</title>
+    <link>https://dev.to/byt3sage/22-things-you-should-test-before-shipping-an-llm-prompt-to-production-cbk</link>
+    <guid>https://dev.to/byt3sage/22-things-you-should-test-before-shipping-an-llm-prompt-to-production-cbk</guid>
+    <pubDate>Tue, 11 Aug 2026 09:05:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclosure: This article contains affiliate links. We may earn a commission at no extra cost to you. It never changes our rankings — we only make money if we point you to the tool that&apos;s actually...</description>
+    <description>We test our code. We write unit tests, feature tests, integration tests and end-to-end tests. We run static analysis. We review pull requests. We build CI pipelines specifically to stop bad code...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Porting a Python PEG parser to Rust in 72 hours, and actually proving it worked</title>
-    <link>https://dev.to/avyuktsoni0731/porting-a-python-peg-parser-to-rust-in-72-hours-and-actually-proving-it-worked-3jl2</link>
-    <guid>https://dev.to/avyuktsoni0731/porting-a-python-peg-parser-to-rust-in-72-hours-and-actually-proving-it-worked-3jl2</guid>
-    <pubDate>Tue, 11 Aug 2026 05:17:39 +0000</pubDate>
+    <title>Lazy Load Angular Services with `injectAsync()</title>
+    <link>https://dev.to/certosinolab/lazy-load-angular-services-with-injectasync-c7h</link>
+    <guid>https://dev.to/certosinolab/lazy-load-angular-services-with-injectasync-c7h</guid>
+    <pubDate>Tue, 11 Aug 2026 09:00:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There&apos;s a joke that every Rust project starts with someone saying &quot;we should rewrite this in Rust&quot; and ends four weekends later with a half-finished repo and a lot of new opinions about lifetimes....</description>
+    <description>Angular has always made it easy to lazy-load routes and components. But what about services? Imagine your application has an export feature that depends on a large library for generating...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Optimizing LLM Context for OpenAPI: A Deterministic Approach to Token Reduction</title>
-    <link>https://dev.to/theanshulprakash/optimizing-llm-context-for-openapi-a-deterministic-approach-to-token-reduction-da2</link>
-    <guid>https://dev.to/theanshulprakash/optimizing-llm-context-for-openapi-a-deterministic-approach-to-token-reduction-da2</guid>
-    <pubDate>Tue, 11 Aug 2026 05:09:11 +0000</pubDate>
+    <title>How Claude Marks AI-Generated Content?</title>
+    <link>https://dev.to/hassann/how-claude-marks-ai-generated-content-245a</link>
+    <guid>https://dev.to/hassann/how-claude-marks-ai-generated-content-245a</guid>
+    <pubDate>Tue, 11 Aug 2026 09:00:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How deterministic context batching reduced approximate token usage by ~81.7% while building an agentic API testing prototype See It in Action I also recorded a short demo showing the complete...</description>
+    <description>Anthropic has signed the EU AI Act’s Article 50(2) Code of Practice on Transparency of AI-Generated Content and is implementing that commitment in its models. Claude models launched on or after...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Tired of JS for simple UI in Ruby?</title>
-    <link>https://dev.to/aditya_kalia/tired-of-js-for-simple-ui-54p</link>
-    <guid>https://dev.to/aditya_kalia/tired-of-js-for-simple-ui-54p</guid>
-    <pubDate>Tue, 11 Aug 2026 05:07:28 +0000</pubDate>
+    <title>Open Source Image Watermark Remover Built with Python &amp; OpenCV (Web UI + CLI)</title>
+    <link>https://dev.to/mia1928/open-source-image-watermark-remover-built-with-python-opencv-web-ui-cli-2beh</link>
+    <guid>https://dev.to/mia1928/open-source-image-watermark-remover-built-with-python-opencv-web-ui-cli-2beh</guid>
+    <pubDate>Tue, 11 Aug 2026 09:00:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Meet web_ruby_ui — write reactive client-side SPAs using 100% pure Ruby via WebAssembly. Features state management &amp; VDOM diffing. Give it a try &amp; share feedback! 🚀...</description>
+    <description>I’m sharing an open-source watermark removal project powered by OpenCV image inpainting. GitHub Repository: gosailing2028/WatermarkRemoval This learning-oriented tool comes with both a browser web...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Java Fundamentals — Part 1</title>
-    <link>https://dev.to/srivalli_srivalli_42fb6dc/java-fundamentals-part-1-27ak</link>
-    <guid>https://dev.to/srivalli_srivalli_42fb6dc/java-fundamentals-part-1-27ak</guid>
-    <pubDate>Tue, 11 Aug 2026 04:58:54 +0000</pubDate>
+    <title>AI Is Helping Solve the Intricate Genetic Puzzle of Schizophrenia</title>
+    <link>https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/</link>
+    <guid>https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/</guid>
+    <pubDate>Tue, 11 Aug 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Recent findings provide one of the most detailed pictures to date of the genetic architecture of schizophrenia, opening up new avenues for research into the disorder.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>You Review AI Code Less Carefully Than Human Code. That Is Backwards.</title>
+    <link>https://dev.to/raghavsharma_/you-review-ai-code-less-carefully-than-human-code-that-is-backwards-akg</link>
+    <guid>https://dev.to/raghavsharma_/you-review-ai-code-less-carefully-than-human-code-that-is-backwards-akg</guid>
+    <pubDate>Tue, 11 Aug 2026 09:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>**1. What is Java? **Definition Java is a high-level, object-oriented, class-based programming language designed to be portable across different operating systems. Java was originally developed at...</description>
+    <description>Two pull requests land. A colleague wrote one by hand, and you read every line. The other came out of an AI tool, and it looks clean, consistent, and idiomatic. You scan it, leave no comments, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How the Internet Finds Its Way: A Guide to DNS Resolution</title>
-    <link>https://dev.to/saurav_tb_pandey/how-the-internet-finds-its-way-a-guide-to-dns-resolution-4ok0</link>
-    <guid>https://dev.to/saurav_tb_pandey/how-the-internet-finds-its-way-a-guide-to-dns-resolution-4ok0</guid>
-    <pubDate>Tue, 11 Aug 2026 04:53:02 +0000</pubDate>
+    <title>Meta&apos;s Muse Glimmer: a real agentic model that fits on your own GPU</title>
+    <link>https://dev.to/alvarito1983/metas-muse-glimmer-a-real-agentic-model-that-fits-on-your-own-gpu-16oh</link>
+    <guid>https://dev.to/alvarito1983/metas-muse-glimmer-a-real-agentic-model-that-fits-on-your-own-gpu-16oh</guid>
+    <pubDate>Tue, 11 Aug 2026 08:58:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Have you ever wondered how typing a few letters into your browser magically brings up your favorite website in milliseconds? This seamless connection is powered by a vital background process...</description>
+    <description>On August 10th, Meta released Muse Glimmer, a 30-billion-parameter open model built specifically to run local AI agents on consumer hardware — scheduling, file organization, tool calling,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What is Cybersecurity?</title>
-    <link>https://dev.to/yash-infra/what-is-cybersecurity-478p</link>
-    <guid>https://dev.to/yash-infra/what-is-cybersecurity-478p</guid>
-    <pubDate>Tue, 11 Aug 2026 04:52:36 +0000</pubDate>
+    <title>IP Geolocation Is Wrong — Why VPN Detection Fails 90% Of Us</title>
+    <link>https://dev.to/onizuka/ip-geolocation-is-wrong-why-vpn-detection-fails-90-of-us-46bh</link>
+    <guid>https://dev.to/onizuka/ip-geolocation-is-wrong-why-vpn-detection-fails-90-of-us-46bh</guid>
+    <pubDate>Tue, 11 Aug 2026 08:53:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In today&apos;s interconnected digital landscape, Cybersecurity is no longer just an IT concern—it is an essential pillar of modern software engineering and system architecture. At its core,...</description>
+    <description>security, #api, #cybersecurity, #webdev Last Tuesday, a paying customer in Austin couldn&apos;t finish checkout. Our fraud engine had flagged her IP as a &quot;high-risk VPN.&quot; She was on Spectrum. At home....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built 59 free browser-based dev tools in vanilla JS — here&apos;s what I learned</title>
-    <link>https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-4h0b</link>
-    <guid>https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-4h0b</guid>
-    <pubDate>Tue, 11 Aug 2026 04:50:01 +0000</pubDate>
+    <title>5 Ataques Zero-Trust con LLMs que Afectan Tu Seguridad</title>
+    <link>https://dev.to/angelh/5-ataques-zero-trust-con-llms-que-afectan-tu-seguridad-2jb4</link>
+    <guid>https://dev.to/angelh/5-ataques-zero-trust-con-llms-que-afectan-tu-seguridad-2jb4</guid>
+    <pubDate>Tue, 11 Aug 2026 08:48:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been quietly building Antigravity Tools — a collection of 59 free, browser-based developer utilities — and today I&apos;m sharing everything I built and learned. Why vanilla JS? No React, no build...</description>
+    <description>Descubre las amenazas emergentes de IA que tus sistemas actuales no están detectando y cómo protegerte antes de que sea demasiado tarde. 5 Ataques &apos;Zero-Trust&apos; con LLMs que Ignoras AHORA Descubre...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>10 Python Design Patterns to Streamline Your Python Development Projects</title>
-    <link>https://dev.to/sahil_khurana_486f374ecf2/10-python-design-patterns-to-streamline-your-python-development-projects-3fbi</link>
-    <guid>https://dev.to/sahil_khurana_486f374ecf2/10-python-design-patterns-to-streamline-your-python-development-projects-3fbi</guid>
-    <pubDate>Tue, 11 Aug 2026 04:49:42 +0000</pubDate>
+    <title>7 n8n workflows that actually pay for themselves (from a solo automation agency)</title>
+    <link>https://dev.to/ayushopchauhan/7-n8n-workflows-that-actually-pay-for-themselves-from-a-solo-automation-agency-an9</link>
+    <guid>https://dev.to/ayushopchauhan/7-n8n-workflows-that-actually-pay-for-themselves-from-a-solo-automation-agency-an9</guid>
+    <pubDate>Tue, 11 Aug 2026 08:45:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Design patterns have a reputation for being over-applied. Someone reads the Gang of Four book, discovers Singleton and Factory, and starts reaching for them everywhere — including places where a...</description>
+    <description>I build automations for agencies for a living. All of it on n8n, most of it self-hosted. Over a couple of years the same handful of workflows keep coming up, because they remove real hours of...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine</title>
+    <link>https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html</link>
+    <guid>https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html</guid>
+    <pubDate>Tue, 11 Aug 2026 06:55:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins</title>
+    <link>https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html</link>
+    <guid>https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html</guid>
+    <pubDate>Tue, 11 Aug 2026 05:48:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform&apos;s plugins team to temporarily...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>OpenAI reportedly completed a $7 billion employee tender offer</title>
@@ -248,33 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors</title>
-    <link>https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html</link>
-    <guid>https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html</guid>
-    <pubDate>Mon, 10 Aug 2026 15:00:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Apple will stream Friday Night Baseball live in Vision Pro</title>
-    <link>https://www.theverge.com/tech/977199/apple-will-stream-friday-night-baseball-live-in-vision-pro</link>
-    <guid>https://www.theverge.com/tech/977199/apple-will-stream-friday-night-baseball-live-in-vision-pro</guid>
-    <pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Starting on Friday, August 28th, Apple will begin streaming Friday Night Baseball in immersive video on Apple Vision Pro. The stream will feature commentary from various analysts and reporters,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Evolve your marketing with new AI tools</title>
-    <link>https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/</link>
-    <guid>https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/</guid>
-    <pubDate>Mon, 10 Aug 2026 14:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>Advisor UI in Google Ads and Google Analytics</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
