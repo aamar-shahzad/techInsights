@@ -5,8 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 13 Aug 2026 17:12:03 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 21:03:01 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How to Contribute to Open Source</title>
+    <link>https://dev.to/v4nd1t/how-to-contribute-to-open-source-523o</link>
+    <guid>https://dev.to/v4nd1t/how-to-contribute-to-open-source-523o</guid>
+    <pubDate>Thu, 13 Aug 2026 20:56:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Disclaimer: Contributing to open source requires patience—lots of it. If you lack the time or willingness to persevere, open source may not be the right choice for you. Instead, consider building...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Rate Limiting Isn&apos;t One Layer: What LogicVisor and Titan Actually Do Differently</title>
+    <link>https://dev.to/david_essien/rate-limiting-isnt-one-layer-what-logicvisor-and-titan-actually-do-differently-3kim</link>
+    <guid>https://dev.to/david_essien/rate-limiting-isnt-one-layer-what-logicvisor-and-titan-actually-do-differently-3kim</guid>
+    <pubDate>Thu, 13 Aug 2026 20:53:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>&quot;Add rate limiting&quot; sounds like one task. It&apos;s actually three separate layers, each defending against a different failure mode, with different trade-offs and different amounts of trust you can...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Database Isolation Levels &amp; Read Phenomena: An Extensive Deep Dive</title>
+    <link>https://dev.to/urvish_shah/database-isolation-levels-read-phenomena-an-extensive-deep-dive-4bm9</link>
+    <guid>https://dev.to/urvish_shah/database-isolation-levels-read-phenomena-an-extensive-deep-dive-4bm9</guid>
+    <pubDate>Thu, 13 Aug 2026 20:43:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Databases are messy places. In the real world, thousands of users are reading, writing, updating, and deleting data at the exact same millisecond. Because databases are multi-user systems, letting...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>MCP C# SDK Protocol Negotiation: Pin 2026-07-28 When Fallback Is Unsafe</title>
+    <link>https://dev.to/ssukhpinder/mcp-c-sdk-protocol-negotiation-pin-2026-07-28-when-fallback-is-unsafe-2fhk</link>
+    <guid>https://dev.to/ssukhpinder/mcp-c-sdk-protocol-negotiation-pin-2026-07-28-when-fallback-is-unsafe-2fhk</guid>
+    <pubDate>Thu, 13 Aug 2026 20:37:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>MCP C# SDK protocol negotiation can quietly change the wire contract beneath an otherwise successful connection. The stable MCP C# SDK 2.0.0 release prefers the 2026-07-28 protocol, but it also...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>gRPC over a Unix socket, not HTTP: a real IPC tradeoff from a HIPAA-postured edge system</title>
+    <link>https://dev.to/clintmathews/grpc-over-a-unix-socket-not-http-a-real-ipc-tradeoff-from-a-hipaa-postured-edge-system-4foa</link>
+    <guid>https://dev.to/clintmathews/grpc-over-a-unix-socket-not-http-a-real-ipc-tradeoff-from-a-hipaa-postured-edge-system-4foa</guid>
+    <pubDate>Thu, 13 Aug 2026 20:32:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m building PhotonicOps, an offline, air-gapped telemetry ingestion and agentic hardware-triage engine for silicon photonic biosensors. That&apos;s the kind of microfluidic optical sensor used in...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We measured the &quot;AI review tax&quot; across 5,388 repos. The median repo doesn&apos;t pay one.</title>
+    <link>https://dev.to/maki_vlach_289e052694eb2e/we-measured-the-ai-review-tax-across-5388-repos-the-median-repo-doesnt-pay-one-1bc1</link>
+    <guid>https://dev.to/maki_vlach_289e052694eb2e/we-measured-the-ai-review-tax-across-5388-repos-the-median-repo-doesnt-pay-one-1bc1</guid>
+    <pubDate>Thu, 13 Aug 2026 20:30:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The claim you hear from one side is that AI-written code is a review burden everywhere. The claim from the other is that it&apos;s free velocity. We read 5,388 public repositories — 444,225 merged pull...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Difference Between Good Code and Bad Code is 5 Minutes</title>
+    <link>https://dev.to/logical_bytes/the-difference-between-good-code-and-bad-code-is-5-minutes-4a99</link>
+    <guid>https://dev.to/logical_bytes/the-difference-between-good-code-and-bad-code-is-5-minutes-4a99</guid>
+    <pubDate>Thu, 13 Aug 2026 20:22:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I&apos;m a fan of the KISS principle. Keep it simple. That applies when you&apos;re building something new, but it applies just as much when you&apos;re fixing something old. Across every role I&apos;ve had — agency...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Beyond the Switchover: Using RDS Snapshots to Safely Test MySQL 8.4 Compatibility Before Your Blue/Green Cutover</title>
+    <link>https://dev.to/sammy_cloud/beyond-the-switchover-using-rds-snapshots-to-safely-test-mysql-84-compatibility-before-your-2991</link>
+    <guid>https://dev.to/sammy_cloud/beyond-the-switchover-using-rds-snapshots-to-safely-test-mysql-84-compatibility-before-your-2991</guid>
+    <pubDate>Thu, 13 Aug 2026 20:16:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AWS RDS Blue/Green deployment is a powerful zero-downtime tool, but its Green environment is read-only by design. Here is how to layer a snapshot-based test instance on top of it to validate...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Kyverno allowLatestTag Pitfalls: How Policy Can Stop Pods From Restarting</title>
+    <link>https://dev.to/futhgar/kyverno-allowlatesttag-pitfalls-how-policy-can-stop-pods-from-restarting-3dki</link>
+    <guid>https://dev.to/futhgar/kyverno-allowlatesttag-pitfalls-how-policy-can-stop-pods-from-restarting-3dki</guid>
+    <pubDate>Thu, 13 Aug 2026 20:15:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A pod gets evicted at 3am because a node ran out of memory. The ReplicaSet controller does what it&apos;s supposed to do and creates a replacement. The replacement never gets admitted, because six...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.</title>
+    <link>https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/</link>
+    <guid>https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/</guid>
+    <pubDate>Thu, 13 Aug 2026 20:14:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>NP-Overrated</title>
+    <link>https://gruhn.me/blog/2026-08-13/</link>
+    <guid>https://gruhn.me/blog/2026-08-13/</guid>
+    <pubDate>Thu, 13 Aug 2026 20:14:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://gruhn.me/blog/2026-08-13/ Comments URL: https://news.ycombinator.com/item?id=49291268 Points: 9 # Comments: 0</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>White House recruits security firms to hack overseas cybercriminals</title>
+    <link>https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/</link>
+    <guid>https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/</guid>
+    <pubDate>Thu, 13 Aug 2026 19:38:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Trump memo is first time gov&apos;t has authorized private sector to perform cyber attacks.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI is losing its second executive this week</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure</guid>
+    <pubDate>Thu, 13 Aug 2026 19:28:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the &quot;coming weeks&quot; to &quot;pursue...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed</title>
+    <link>https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/</link>
+    <guid>https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/</guid>
+    <pubDate>Thu, 13 Aug 2026 19:22:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>IBM partners with OpenAI to bolster enterprise AI push</title>
+    <link>https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/</link>
+    <guid>https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/</guid>
+    <pubDate>Thu, 13 Aug 2026 19:19:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>IBM plans to train and certify tens of thousands of consultants on OpenAI&apos;s technologies as part of this deal.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Trump admin will start letting private firms launch international cyberattacks</title>
+    <link>https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms</link>
+    <guid>https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms</guid>
+    <pubDate>Thu, 13 Aug 2026 18:56:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Trump administration is launching a new program that will allow private firms to perform cyberattacks against foreign criminals, as reported earlier by Bloomberg. The private firms would...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>I finally found a robot lawnmower I’d trust with my yard</title>
+    <link>https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame</link>
+    <guid>https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame</guid>
+    <pubDate>Thu, 13 Aug 2026 18:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Robot lawnmowers are finally good enough to take a lot of work out of maintaining a yard, but they’re still not set-it-and-forget-it machines. If you don’t want these autonomous cutting machines...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic set AI agents loose on the same task. They started a turf war.</title>
+    <link>https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/</link>
+    <guid>https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/</guid>
+    <pubDate>Thu, 13 Aug 2026 18:28:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Building a practical path to post-quantum cryptography</title>
+    <link>https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/</link>
+    <guid>https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/</guid>
+    <pubDate>Thu, 13 Aug 2026 18:11:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>You can now just point at a mess and this robot vacuum will suck it up</title>
+    <link>https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review</link>
+    <guid>https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review</guid>
+    <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Matic, my current favorite robot vacuum, just got a big upgrade. The company has launched Matic Cues, which brings voice and gesture control to the robot. Now, you can talk directly to your vacuum...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets</title>
+    <link>https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop</link>
+    <guid>https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop</guid>
+    <pubDate>Thu, 13 Aug 2026 17:16:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
   <item>
     <title>OpenAI hires new CRO as executive shake-up continues</title>
     <link>https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/</link>
@@ -17,94 +205,13 @@
     <category>AI</category>
   </item>
   <item>
-    <title>I Stopped Scraping Business Directories and Built an MCP Server on Official Registry Data</title>
-    <link>https://dev.to/darksider4all_afa2428f63d0/i-stopped-scraping-business-directories-and-built-an-mcp-server-on-official-registry-data-4caf</link>
-    <guid>https://dev.to/darksider4all_afa2428f63d0/i-stopped-scraping-business-directories-and-built-an-mcp-server-on-official-registry-data-4caf</guid>
-    <pubDate>Thu, 13 Aug 2026 17:05:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Stopped Scraping Business Directories and Built an MCP Server on Official Registry Data For a long time I built B2B lead-generation tools the way everyone does: scrape a directory, fight the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>An empty result is not an all clear</title>
-    <link>https://dev.to/siddharth_pandey_27/an-empty-result-is-not-an-all-clear-4998</link>
-    <guid>https://dev.to/siddharth_pandey_27/an-empty-result-is-not-an-all-clear-4998</guid>
-    <pubDate>Thu, 13 Aug 2026 17:04:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An infrastructure audit runs across your account and comes back with two findings on S3. You fix both, close the ticket, and move on. What the report did not tell you is that the role running it...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Multi region deployment with Terraform modules</title>
-    <link>https://dev.to/techwithhari/multi-region-deployment-with-terraform-modules-2jok</link>
-    <guid>https://dev.to/techwithhari/multi-region-deployment-with-terraform-modules-2jok</guid>
-    <pubDate>Thu, 13 Aug 2026 16:59:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The problem I was managing infrastructure across multiple regions a handful of virtual machines, one per region, each running the same service. The Terraform setup had grown the way these things...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>AI Governance 101: What ML Practitioners Actually Need to Know</title>
-    <link>https://dev.to/sakramen/ai-governance-101-what-ml-practitioners-actually-need-to-know-39b5</link>
-    <guid>https://dev.to/sakramen/ai-governance-101-what-ml-practitioners-actually-need-to-know-39b5</guid>
-    <pubDate>Thu, 13 Aug 2026 16:48:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI regulation isn&apos;t abstract policy anymore. If you&apos;re building systems that touch hiring, credit, healthcare, or law enforcement, there are now legal requirements attached to your model&apos;s...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Letting an AI ask &apos;what shipped in this field this week?&apos;</title>
-    <link>https://dev.to/rss-atlas/letting-an-ai-ask-what-shipped-in-this-field-this-week-1nk0</link>
-    <guid>https://dev.to/rss-atlas/letting-an-ai-ask-what-shipped-in-this-field-this-week-1nk0</guid>
-    <pubDate>Thu, 13 Aug 2026 16:48:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ask an assistant about recent developments and you get one of two things: whatever was in its training data, or the top few web search results. What you cannot ask is the thing you actually want —...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How I Built a Complete Web Studio Site in 5 Days (with AI Chat, Blog, and Analytics)</title>
-    <link>https://dev.to/astap/how-i-built-a-complete-web-studio-site-in-5-days-with-ai-chat-blog-and-analytics-56c2</link>
-    <guid>https://dev.to/astap/how-i-built-a-complete-web-studio-site-in-5-days-with-ai-chat-blog-and-analytics-56c2</guid>
-    <pubDate>Thu, 13 Aug 2026 16:47:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How I Built a Complete Web Studio Site in 5 Days Building a website is easy. Building a complete website with AI chat, multi-language support, real-time analytics, and SEO optimization in 5 days?...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Google Search Console Platform Properties Bring Social and Video Search Data Into View</title>
-    <link>https://dev.to/alifar/google-search-console-platform-properties-bring-social-and-video-search-data-into-view-1ndl</link>
-    <guid>https://dev.to/alifar/google-search-console-platform-properties-bring-social-and-video-search-data-into-view-1ndl</guid>
-    <pubDate>Thu, 13 Aug 2026 16:45:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Google Search Console has expanded beyond websites with Platform Properties, a property type for connecting eligible Instagram, TikTok, X and YouTube accounts. The change gives creators,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>AI Operating System for Organizations</title>
-    <link>https://dev.to/pr1ncepandey/ai-operating-system-for-organizations-c3j</link>
-    <guid>https://dev.to/pr1ncepandey/ai-operating-system-for-organizations-c3j</guid>
-    <pubDate>Thu, 13 Aug 2026 16:45:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve built an AI Operating System for Organizations that turns scattered data like GitHub commits, pull requests, and issues into a connected graph. This allows teams to ask questions like &quot;Who...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Google Play Contacts Policy 2027 for Capacitor</title>
-    <link>https://dev.to/capawesome/google-play-contacts-policy-2027-for-capacitor-3ak</link>
-    <guid>https://dev.to/capawesome/google-play-contacts-policy-2027-for-capacitor-3ak</guid>
-    <pubDate>Thu, 13 Aug 2026 16:45:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Google Play&apos;s new Contacts Permissions policy takes effect on January 27, 2027. Apps that target Android 17 (API level 37) or later may only declare READ_CONTACTS if the Android Contact Picker...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>7 AI Coding Mistakes Developers Keep Making</title>
-    <link>https://dev.to/chizurumchidimma/7-ai-coding-mistakes-developers-keep-making-2jd3</link>
-    <guid>https://dev.to/chizurumchidimma/7-ai-coding-mistakes-developers-keep-making-2jd3</guid>
-    <pubDate>Thu, 13 Aug 2026 16:44:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why the smartest tool in your stack still needs a skeptical human behind it I review a lot of code that didn&apos;t start as code. It started as a prompt. And most of the time, you can tell. Not...</description>
-    <category>Developer Tools</category>
+    <title>Bring your spreadsheet data to life with Sheets canvas</title>
+    <link>https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/</link>
+    <guid>https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/</guid>
+    <pubDate>Thu, 13 Aug 2026 16:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>The video shows Sheets canvas in action.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>2K launches new studio to build its &amp;#8216;next blockbuster sports franchise&amp;#8217;</title>
@@ -161,120 +268,12 @@
     <category>AI</category>
   </item>
   <item>
-    <title>I looked inside an AI generated movie, and the best parts were all human</title>
-    <link>https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list</link>
-    <guid>https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list</guid>
-    <pubDate>Thu, 13 Aug 2026 15:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Imagine a trio of bumbling, English lads who fantasize about becoming megastars while knocking back a few pints in a grimy pub somewhere in London. Picture the guys chortling and trying to one-up...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs</title>
     <link>https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/</link>
     <guid>https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/</guid>
     <pubDate>Thu, 13 Aug 2026 15:08:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Nvidia has a plan to make sure its GPUs won&apos;t lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>This is Instagram&amp;#8217;s new logo</title>
-    <link>https://www.theverge.com/tech/979583/this-is-instagrams-new-logo</link>
-    <guid>https://www.theverge.com/tech/979583/this-is-instagrams-new-logo</guid>
-    <pubDate>Thu, 13 Aug 2026 15:00:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Instagram has unveiled a new wordmark, moving away from the recognizable cursive typeface it&apos;s used over the last decade. The updated wordmark is a strange mix of half-cursive half-print that&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Wolverine on the PS5 made me care about Marvel’s mutant for the first time</title>
-    <link>https://www.theverge.com/games/977564/marvels-wolverine-ps5-preview-character-combat</link>
-    <guid>https://www.theverge.com/games/977564/marvels-wolverine-ps5-preview-character-combat</guid>
-    <pubDate>Thu, 13 Aug 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Going into my demo of Marvel&apos;s Wolverine, I mainly wanted to try out the game&apos;s very bloody combat. And it is delightfully bloody. But after two-ish hours of slashing and stabbing (and parrying!)...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple in talks to pay publishers to provide Siri with current news: report</title>
-    <link>https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/</link>
-    <guid>https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/</guid>
-    <pubDate>Thu, 13 Aug 2026 14:34:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The tech giant has considered a nine-figure budget for the payments, according to the WSJ.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Does Google even want to win at AI?</title>
-    <link>https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis</link>
-    <guid>https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis</guid>
-    <pubDate>Thu, 13 Aug 2026 14:10:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about a question that’s been rocketing around the tech industry for the past week: Is Google losing the AI race?...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Rivian is finally getting a long-requested feature — and no, it’s not CarPlay</title>
-    <link>https://www.theverge.com/transportation/978093/rivian-r1s-r1t-2027-captains-chairs</link>
-    <guid>https://www.theverge.com/transportation/978093/rivian-r1s-r1t-2027-captains-chairs</guid>
-    <pubDate>Thu, 13 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Rivian R1S owners, rejoice. Rivian has heard your pleas for second-row captain&apos;s chairs. For years, Rivian owners have lamented the absence of captain&apos;s chairs in the R1S, noting that the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Flock is tightening its rules in response to a growing surveillance backlash</title>
-    <link>https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/</link>
-    <guid>https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/</guid>
-    <pubDate>Thu, 13 Aug 2026 13:41:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Download: kids’ thoughts on AI, and female clones of male mice</title>
-    <link>https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/</link>
-    <guid>https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/</guid>
-    <pubDate>Thu, 13 Aug 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Separating AI’s Technological Problems from Its Capitalism Problems</title>
-    <link>https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html</guid>
-    <pubDate>Thu, 13 Aug 2026 11:07:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>This essay was written with Nathan E. Sanders, and originally appeared in Tech Policy Press. AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>What’s behind this summer’s heat, and why 2027 could be worse</title>
-    <link>https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/</link>
-    <guid>https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/</guid>
-    <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the hottest two-month stretch in Europe since record-keeping began. The contiguous US endured its hottest...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed</title>
-    <link>https://openai.com/index/previewing-ultrafast</link>
-    <guid>https://openai.com/index/previewing-ultrafast</guid>
-    <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How kids feel about AI, in their own words</title>
-    <link>https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/</link>
-    <guid>https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/</guid>
-    <pubDate>Thu, 13 Aug 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers...</description>
     <category>AI</category>
   </item>
 </channel>
