@@ -5,96 +5,96 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 14 Aug 2026 02:45:42 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 05:46:00 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Why AI Agents Fail in Production — and How I Fixed Each Failure</title>
-    <link>https://dev.to/mryadavgulshan/why-ai-agents-fail-in-production-and-how-i-fixed-each-failure-577a</link>
-    <guid>https://dev.to/mryadavgulshan/why-ai-agents-fail-in-production-and-how-i-fixed-each-failure-577a</guid>
-    <pubDate>Fri, 14 Aug 2026 02:30:00 +0000</pubDate>
+    <title>Event-Driven Architecture on AWS: SQS vs SNS vs EventBridge vs Kinesis — Patterns, Anti-Patterns, and When to Use What</title>
+    <link>https://dev.to/alpeshkumbhare/event-driven-architecture-on-aws-sqs-vs-sns-vs-eventbridge-vs-kinesis-patterns-anti-patterns-4l7l</link>
+    <guid>https://dev.to/alpeshkumbhare/event-driven-architecture-on-aws-sqs-vs-sns-vs-eventbridge-vs-kinesis-patterns-anti-patterns-4l7l</guid>
+    <pubDate>Fri, 14 Aug 2026 05:38:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The contrarian take: most agent failures are not the model&apos;s fault. They are architectural. Here is what I have debugged in real deployments and the exact fix for each. Here is an opinion that has...</description>
+    <description>Event-driven architecture (EDA) is how modern distributed systems communicate at scale. Instead of services calling each other directly (tight coupling), services emit events (&quot;this happened&quot;) and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why NocoBase rejects your .doc and .xls uploads</title>
-    <link>https://dev.to/stale_orbit/why-nocobase-rejects-your-doc-and-xls-uploads-4o53</link>
-    <guid>https://dev.to/stale_orbit/why-nocobase-rejects-your-doc-and-xls-uploads-4o53</guid>
-    <pubDate>Fri, 14 Aug 2026 02:24:50 +0000</pubDate>
+    <title>OpenAI Expands Daybreak, Unleashes GPT-5.6-Cyber Model</title>
+    <link>https://dev.to/luckytaorem/openai-expands-daybreak-unleashes-gpt-56-cyber-model-3kkb</link>
+    <guid>https://dev.to/luckytaorem/openai-expands-daybreak-unleashes-gpt-56-cyber-model-3kkb</guid>
+    <pubDate>Fri, 14 Aug 2026 05:32:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>NocoBase file storage lets you restrict uploads to a list of allowed MIME types. Someone on the official forum filled that list in correctly — application/pdf, application/msword,...</description>
+    <description>Overview of the Daybreak Expansion OpenAI’s Daybreak initiative, originally launched as a sandbox for defensive AI‑driven security work, has entered a new phase. By extending the program to a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Architecting Offline Geofencing Without Battery Drain: The Muffle Journey</title>
-    <link>https://dev.to/haseebthedev0/architecting-offline-geofencing-without-battery-drain-the-muffle-journey-4f0a</link>
-    <guid>https://dev.to/haseebthedev0/architecting-offline-geofencing-without-battery-drain-the-muffle-journey-4f0a</guid>
-    <pubDate>Fri, 14 Aug 2026 02:22:25 +0000</pubDate>
+    <title>Architects, Not Code Writers: Why System Design Matters More in the Age of AI</title>
+    <link>https://dev.to/ravirohith/architects-not-code-writers-why-system-design-matters-more-in-the-age-of-ai-12di</link>
+    <guid>https://dev.to/ravirohith/architects-not-code-writers-why-system-design-matters-more-in-the-age-of-ai-12di</guid>
+    <pubDate>Fri, 14 Aug 2026 05:24:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It happened during a quiet afternoon at the local library. I was deep in a focused debugging session when my phone suddenly blared a loud, jarring ringtone. Every head in the room turned toward...</description>
+    <description>How token economics make code structure a cost, speed, and correctness problem — not just a style one. If you&apos;re a software engineer working with AI coding agents, your job has fundamentally...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Two thirds of my architecture document wasn&apos;t enforceable</title>
-    <link>https://dev.to/kaleemn/two-thirds-of-my-architecture-document-wasnt-enforceable-am6</link>
-    <guid>https://dev.to/kaleemn/two-thirds-of-my-architecture-document-wasnt-enforceable-am6</guid>
-    <pubDate>Fri, 14 Aug 2026 02:21:30 +0000</pubDate>
+    <title>When Your Local API Needs to Talk to a Real Device</title>
+    <link>https://dev.to/gokulnh/when-your-local-api-needs-to-talk-to-a-real-device-1amb</link>
+    <guid>https://dev.to/gokulnh/when-your-local-api-needs-to-talk-to-a-real-device-1amb</guid>
+    <pubDate>Fri, 14 Aug 2026 05:23:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I keep an architecture document for a platform I&apos;ve been building for months. Not diagrams. Just decisions in plain English. &quot;This system fulfills orders, it never creates them.&quot; &quot;External...</description>
+    <description>There is a point in development where testing entirely on your laptop stops being enough. The API works. The frontend works. The emulator works. Then you pick up an actual phone and discover that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Payment system security: protecting money, keys, and trust</title>
-    <link>https://dev.to/weston_carnes_d580b505e0c/payment-system-security-protecting-money-keys-and-trust-i52</link>
-    <guid>https://dev.to/weston_carnes_d580b505e0c/payment-system-security-protecting-money-keys-and-trust-i52</guid>
-    <pubDate>Fri, 14 Aug 2026 02:16:00 +0000</pubDate>
+    <title>NVIDIA GPU roadmap explained: from A100 to H200 and beyond</title>
+    <link>https://dev.to/prateek_navani_157c1ed2b7/nvidia-gpu-roadmap-explained-from-a100-to-h200-and-beyond-b9k</link>
+    <guid>https://dev.to/prateek_navani_157c1ed2b7/nvidia-gpu-roadmap-explained-from-a100-to-h200-and-beyond-b9k</guid>
+    <pubDate>Fri, 14 Aug 2026 05:22:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Cross-post. Original: stellarbytecapital.com/blog/payment-system-security A payment system is a target from the first day it touches real money. Attackers don&apos;t need a clever zero-day; they&apos;ll...</description>
+    <description>If you have spent any time provisioning AI infrastructure over the last few years, you have watched the ground shift under you more than once. A100. Then H100. Then H200. Now Blackwell and Rubin...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Write Policy Is the Hard Part: Promotion Pipelines for Agent Memory</title>
-    <link>https://dev.to/futhgar/the-write-policy-is-the-hard-part-promotion-pipelines-for-agent-memory-5mc</link>
-    <guid>https://dev.to/futhgar/the-write-policy-is-the-hard-part-promotion-pipelines-for-agent-memory-5mc</guid>
-    <pubDate>Fri, 14 Aug 2026 02:15:48 +0000</pubDate>
+    <title>Cloud Cost Optimization Is an Engineering Problem, Not a Finance Problem</title>
+    <link>https://dev.to/mannyfrank_07/cloud-cost-optimization-is-an-engineering-problem-not-a-finance-problem-3999</link>
+    <guid>https://dev.to/mannyfrank_07/cloud-cost-optimization-is-an-engineering-problem-not-a-finance-problem-3999</guid>
+    <pubDate>Fri, 14 Aug 2026 05:22:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most &quot;agent memory&quot; tutorials stop at the retrieval side. They show you a Qdrant collection, a qdrant-find call, an embedding model, and call it done. Retrieval is the easy 20%. The part that...</description>
+    <description>There is a cloud-cost problem that engineering teams have normalized for far too long. The AWS bill arrives. Someone notices that it is higher than expected. Finance asks what happened....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Free Online Tools Website for Developers</title>
-    <link>https://dev.to/chenshanyue/i-built-a-free-online-tools-website-for-developers-1nng</link>
-    <guid>https://dev.to/chenshanyue/i-built-a-free-online-tools-website-for-developers-1nng</guid>
-    <pubDate>Fri, 14 Aug 2026 02:06:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey devs! I recently built a simple tools website for developers: JSON Formatter &amp; Validator QR Code Generator Password Generator Base64 Encoder/Decoder All free, no signup required....</description>
+    <title>GLM-5.3: Frontier Coding with Emergent Cyber Capabilities</title>
+    <link>https://z.ai/blog/glm-5.3</link>
+    <guid>https://z.ai/blog/glm-5.3</guid>
+    <pubDate>Fri, 14 Aug 2026 05:19:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 39 # Comments: 5</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Heart of .NET: A Deep Dive into the System Namespace</title>
-    <link>https://dev.to/csadikemre/the-heart-of-net-a-deep-dive-into-the-system-namespace-db0</link>
-    <guid>https://dev.to/csadikemre/the-heart-of-net-a-deep-dive-into-the-system-namespace-db0</guid>
-    <pubDate>Fri, 14 Aug 2026 02:00:55 +0000</pubDate>
+    <title>Stop Overworking Your Code: A Friendly Guide to Debouncing</title>
+    <link>https://dev.to/saurav_tb_pandey/stop-overworking-your-code-a-friendly-guide-to-debouncing-4f2k</link>
+    <guid>https://dev.to/saurav_tb_pandey/stop-overworking-your-code-a-friendly-guide-to-debouncing-4f2k</guid>
+    <pubDate>Fri, 14 Aug 2026 05:19:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you write C# every day, you use the System namespace all the time — probably without thinking about it. In this post, we&apos;ll slow down and really look at it: what it is, what&apos;s inside it, where...</description>
+    <description>Have you ever clicked a checkout button on a website, noticed nothing happened instantly, and clicked it three more times out of frustration? Behind the scenes, that website might have just...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenAI Foundation Expands Civil Society AI Effort With Grants and New Leadership</title>
-    <link>https://dev.to/alifar/openai-foundation-expands-civil-society-ai-effort-with-grants-and-new-leadership-46f4</link>
-    <guid>https://dev.to/alifar/openai-foundation-expands-civil-society-ai-effort-with-grants-and-new-leadership-46f4</guid>
-    <pubDate>Fri, 14 Aug 2026 02:00:30 +0000</pubDate>
+    <title>Your LLM gateway takes a cut. Seventeen lines of Python tell you how big.</title>
+    <link>https://dev.to/altrouter/your-llm-gateway-takes-a-cut-seventeen-lines-of-python-tell-you-how-big-45jc</link>
+    <guid>https://dev.to/altrouter/your-llm-gateway-takes-a-cut-seventeen-lines-of-python-tell-you-how-big-45jc</guid>
+    <pubDate>Fri, 14 Aug 2026 05:18:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The OpenAI Foundation is expanding its work with nonprofits, NGOs and philanthropic institutions through a combination of grantmaking, leadership and public-interest AI strategy. The effort is...</description>
+    <description>You wanted to try three models from three vendors, so you did the sensible thing: pointed one client at a gateway, put one key in the environment, and stopped thinking about it. A gateway here is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Join our DEV Weekend Challenge: Dog Days Edition! $1,000 in Prizes Across FIVE Winners. Submissions Due August 17 at 6:59 AM UTC.</title>
-    <link>https://dev.to/devteam/join-our-dev-weekend-challenge-dog-days-edition-1000-in-prizes-across-five-winners-submissions-1g4i</link>
-    <guid>https://dev.to/devteam/join-our-dev-weekend-challenge-dog-days-edition-1000-in-prizes-across-five-winners-submissions-1g4i</guid>
-    <pubDate>Fri, 14 Aug 2026 02:00:00 +0000</pubDate>
+    <title>LLM Model Selection Matrix: Pick the Cheapest Reliable Model for Each Feature</title>
+    <link>https://dev.to/jackm-singularity/llm-model-selection-matrix-pick-the-cheapest-reliable-model-for-each-feature-1n1m</link>
+    <guid>https://dev.to/jackm-singularity/llm-model-selection-matrix-pick-the-cheapest-reliable-model-for-each-feature-1n1m</guid>
+    <pubDate>Fri, 14 Aug 2026 05:18:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We&apos;re back with another DEV Weekend Challenge, a short bite-sized challenge planned to fit into your weekend. We know the submission window is tight, so we&apos;ve set the timing to ensure that no...</description>
+    <description>Most AI product teams do not have a model problem. They have a matching problem. A chat rewrite, a support answer, a SQL assistant, and an autonomous workflow should not all use the same large...</description>
     <category>Developer Tools</category>
   </item>
   <item>
