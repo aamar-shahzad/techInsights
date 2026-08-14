@@ -5,88 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 13 Aug 2026 21:03:01 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 02:45:42 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How to Contribute to Open Source</title>
-    <link>https://dev.to/v4nd1t/how-to-contribute-to-open-source-523o</link>
-    <guid>https://dev.to/v4nd1t/how-to-contribute-to-open-source-523o</guid>
-    <pubDate>Thu, 13 Aug 2026 20:56:14 +0000</pubDate>
+    <title>Why AI Agents Fail in Production — and How I Fixed Each Failure</title>
+    <link>https://dev.to/mryadavgulshan/why-ai-agents-fail-in-production-and-how-i-fixed-each-failure-577a</link>
+    <guid>https://dev.to/mryadavgulshan/why-ai-agents-fail-in-production-and-how-i-fixed-each-failure-577a</guid>
+    <pubDate>Fri, 14 Aug 2026 02:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclaimer: Contributing to open source requires patience—lots of it. If you lack the time or willingness to persevere, open source may not be the right choice for you. Instead, consider building...</description>
+    <description>The contrarian take: most agent failures are not the model&apos;s fault. They are architectural. Here is what I have debugged in real deployments and the exact fix for each. Here is an opinion that has...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Rate Limiting Isn&apos;t One Layer: What LogicVisor and Titan Actually Do Differently</title>
-    <link>https://dev.to/david_essien/rate-limiting-isnt-one-layer-what-logicvisor-and-titan-actually-do-differently-3kim</link>
-    <guid>https://dev.to/david_essien/rate-limiting-isnt-one-layer-what-logicvisor-and-titan-actually-do-differently-3kim</guid>
-    <pubDate>Thu, 13 Aug 2026 20:53:45 +0000</pubDate>
+    <title>Why NocoBase rejects your .doc and .xls uploads</title>
+    <link>https://dev.to/stale_orbit/why-nocobase-rejects-your-doc-and-xls-uploads-4o53</link>
+    <guid>https://dev.to/stale_orbit/why-nocobase-rejects-your-doc-and-xls-uploads-4o53</guid>
+    <pubDate>Fri, 14 Aug 2026 02:24:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>&quot;Add rate limiting&quot; sounds like one task. It&apos;s actually three separate layers, each defending against a different failure mode, with different trade-offs and different amounts of trust you can...</description>
+    <description>NocoBase file storage lets you restrict uploads to a list of allowed MIME types. Someone on the official forum filled that list in correctly — application/pdf, application/msword,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Database Isolation Levels &amp; Read Phenomena: An Extensive Deep Dive</title>
-    <link>https://dev.to/urvish_shah/database-isolation-levels-read-phenomena-an-extensive-deep-dive-4bm9</link>
-    <guid>https://dev.to/urvish_shah/database-isolation-levels-read-phenomena-an-extensive-deep-dive-4bm9</guid>
-    <pubDate>Thu, 13 Aug 2026 20:43:52 +0000</pubDate>
+    <title>Architecting Offline Geofencing Without Battery Drain: The Muffle Journey</title>
+    <link>https://dev.to/haseebthedev0/architecting-offline-geofencing-without-battery-drain-the-muffle-journey-4f0a</link>
+    <guid>https://dev.to/haseebthedev0/architecting-offline-geofencing-without-battery-drain-the-muffle-journey-4f0a</guid>
+    <pubDate>Fri, 14 Aug 2026 02:22:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Databases are messy places. In the real world, thousands of users are reading, writing, updating, and deleting data at the exact same millisecond. Because databases are multi-user systems, letting...</description>
+    <description>It happened during a quiet afternoon at the local library. I was deep in a focused debugging session when my phone suddenly blared a loud, jarring ringtone. Every head in the room turned toward...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>MCP C# SDK Protocol Negotiation: Pin 2026-07-28 When Fallback Is Unsafe</title>
-    <link>https://dev.to/ssukhpinder/mcp-c-sdk-protocol-negotiation-pin-2026-07-28-when-fallback-is-unsafe-2fhk</link>
-    <guid>https://dev.to/ssukhpinder/mcp-c-sdk-protocol-negotiation-pin-2026-07-28-when-fallback-is-unsafe-2fhk</guid>
-    <pubDate>Thu, 13 Aug 2026 20:37:16 +0000</pubDate>
+    <title>Two thirds of my architecture document wasn&apos;t enforceable</title>
+    <link>https://dev.to/kaleemn/two-thirds-of-my-architecture-document-wasnt-enforceable-am6</link>
+    <guid>https://dev.to/kaleemn/two-thirds-of-my-architecture-document-wasnt-enforceable-am6</guid>
+    <pubDate>Fri, 14 Aug 2026 02:21:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>MCP C# SDK protocol negotiation can quietly change the wire contract beneath an otherwise successful connection. The stable MCP C# SDK 2.0.0 release prefers the 2026-07-28 protocol, but it also...</description>
+    <description>I keep an architecture document for a platform I&apos;ve been building for months. Not diagrams. Just decisions in plain English. &quot;This system fulfills orders, it never creates them.&quot; &quot;External...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>gRPC over a Unix socket, not HTTP: a real IPC tradeoff from a HIPAA-postured edge system</title>
-    <link>https://dev.to/clintmathews/grpc-over-a-unix-socket-not-http-a-real-ipc-tradeoff-from-a-hipaa-postured-edge-system-4foa</link>
-    <guid>https://dev.to/clintmathews/grpc-over-a-unix-socket-not-http-a-real-ipc-tradeoff-from-a-hipaa-postured-edge-system-4foa</guid>
-    <pubDate>Thu, 13 Aug 2026 20:32:20 +0000</pubDate>
+    <title>Payment system security: protecting money, keys, and trust</title>
+    <link>https://dev.to/weston_carnes_d580b505e0c/payment-system-security-protecting-money-keys-and-trust-i52</link>
+    <guid>https://dev.to/weston_carnes_d580b505e0c/payment-system-security-protecting-money-keys-and-trust-i52</guid>
+    <pubDate>Fri, 14 Aug 2026 02:16:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m building PhotonicOps, an offline, air-gapped telemetry ingestion and agentic hardware-triage engine for silicon photonic biosensors. That&apos;s the kind of microfluidic optical sensor used in...</description>
+    <description>Cross-post. Original: stellarbytecapital.com/blog/payment-system-security A payment system is a target from the first day it touches real money. Attackers don&apos;t need a clever zero-day; they&apos;ll...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>We measured the &quot;AI review tax&quot; across 5,388 repos. The median repo doesn&apos;t pay one.</title>
-    <link>https://dev.to/maki_vlach_289e052694eb2e/we-measured-the-ai-review-tax-across-5388-repos-the-median-repo-doesnt-pay-one-1bc1</link>
-    <guid>https://dev.to/maki_vlach_289e052694eb2e/we-measured-the-ai-review-tax-across-5388-repos-the-median-repo-doesnt-pay-one-1bc1</guid>
-    <pubDate>Thu, 13 Aug 2026 20:30:56 +0000</pubDate>
+    <title>The Write Policy Is the Hard Part: Promotion Pipelines for Agent Memory</title>
+    <link>https://dev.to/futhgar/the-write-policy-is-the-hard-part-promotion-pipelines-for-agent-memory-5mc</link>
+    <guid>https://dev.to/futhgar/the-write-policy-is-the-hard-part-promotion-pipelines-for-agent-memory-5mc</guid>
+    <pubDate>Fri, 14 Aug 2026 02:15:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The claim you hear from one side is that AI-written code is a review burden everywhere. The claim from the other is that it&apos;s free velocity. We read 5,388 public repositories — 444,225 merged pull...</description>
+    <description>Most &quot;agent memory&quot; tutorials stop at the retrieval side. They show you a Qdrant collection, a qdrant-find call, an embedding model, and call it done. Retrieval is the easy 20%. The part that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Difference Between Good Code and Bad Code is 5 Minutes</title>
-    <link>https://dev.to/logical_bytes/the-difference-between-good-code-and-bad-code-is-5-minutes-4a99</link>
-    <guid>https://dev.to/logical_bytes/the-difference-between-good-code-and-bad-code-is-5-minutes-4a99</guid>
-    <pubDate>Thu, 13 Aug 2026 20:22:58 +0000</pubDate>
+    <title>I Built a Free Online Tools Website for Developers</title>
+    <link>https://dev.to/chenshanyue/i-built-a-free-online-tools-website-for-developers-1nng</link>
+    <guid>https://dev.to/chenshanyue/i-built-a-free-online-tools-website-for-developers-1nng</guid>
+    <pubDate>Fri, 14 Aug 2026 02:06:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m a fan of the KISS principle. Keep it simple. That applies when you&apos;re building something new, but it applies just as much when you&apos;re fixing something old. Across every role I&apos;ve had — agency...</description>
+    <description>Hey devs! I recently built a simple tools website for developers: JSON Formatter &amp; Validator QR Code Generator Password Generator Base64 Encoder/Decoder All free, no signup required....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Beyond the Switchover: Using RDS Snapshots to Safely Test MySQL 8.4 Compatibility Before Your Blue/Green Cutover</title>
-    <link>https://dev.to/sammy_cloud/beyond-the-switchover-using-rds-snapshots-to-safely-test-mysql-84-compatibility-before-your-2991</link>
-    <guid>https://dev.to/sammy_cloud/beyond-the-switchover-using-rds-snapshots-to-safely-test-mysql-84-compatibility-before-your-2991</guid>
-    <pubDate>Thu, 13 Aug 2026 20:16:53 +0000</pubDate>
+    <title>The Heart of .NET: A Deep Dive into the System Namespace</title>
+    <link>https://dev.to/csadikemre/the-heart-of-net-a-deep-dive-into-the-system-namespace-db0</link>
+    <guid>https://dev.to/csadikemre/the-heart-of-net-a-deep-dive-into-the-system-namespace-db0</guid>
+    <pubDate>Fri, 14 Aug 2026 02:00:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AWS RDS Blue/Green deployment is a powerful zero-downtime tool, but its Green environment is read-only by design. Here is how to layer a snapshot-based test instance on top of it to validate...</description>
+    <description>If you write C# every day, you use the System namespace all the time — probably without thinking about it. In this post, we&apos;ll slow down and really look at it: what it is, what&apos;s inside it, where...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Kyverno allowLatestTag Pitfalls: How Policy Can Stop Pods From Restarting</title>
-    <link>https://dev.to/futhgar/kyverno-allowlatesttag-pitfalls-how-policy-can-stop-pods-from-restarting-3dki</link>
-    <guid>https://dev.to/futhgar/kyverno-allowlatesttag-pitfalls-how-policy-can-stop-pods-from-restarting-3dki</guid>
-    <pubDate>Thu, 13 Aug 2026 20:15:49 +0000</pubDate>
+    <title>OpenAI Foundation Expands Civil Society AI Effort With Grants and New Leadership</title>
+    <link>https://dev.to/alifar/openai-foundation-expands-civil-society-ai-effort-with-grants-and-new-leadership-46f4</link>
+    <guid>https://dev.to/alifar/openai-foundation-expands-civil-society-ai-effort-with-grants-and-new-leadership-46f4</guid>
+    <pubDate>Fri, 14 Aug 2026 02:00:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A pod gets evicted at 3am because a node ran out of memory. The ReplicaSet controller does what it&apos;s supposed to do and creates a replacement. The replacement never gets admitted, because six...</description>
+    <description>The OpenAI Foundation is expanding its work with nonprofits, NGOs and philanthropic institutions through a combination of grantmaking, leadership and public-interest AI strategy. The effort is...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Join our DEV Weekend Challenge: Dog Days Edition! $1,000 in Prizes Across FIVE Winners. Submissions Due August 17 at 6:59 AM UTC.</title>
+    <link>https://dev.to/devteam/join-our-dev-weekend-challenge-dog-days-edition-1000-in-prizes-across-five-winners-submissions-1g4i</link>
+    <guid>https://dev.to/devteam/join-our-dev-weekend-challenge-dog-days-edition-1000-in-prizes-across-five-winners-submissions-1g4i</guid>
+    <pubDate>Fri, 14 Aug 2026 02:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>We&apos;re back with another DEV Weekend Challenge, a short bite-sized challenge planned to fit into your weekend. We know the submission window is tight, so we&apos;ve set the timing to ensure that no...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Trump declares 100 percent tariffs on many drones and all aircraft parts</title>
+    <link>https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts</link>
+    <guid>https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts</guid>
+    <pubDate>Fri, 14 Aug 2026 01:06:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple and Epic argue over how much Apple should get from purchases made outside the App Store</title>
+    <link>https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing</link>
+    <guid>https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing</guid>
+    <pubDate>Thu, 13 Aug 2026 23:13:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don&apos;t use...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Safety Reckoning Inside OpenAI</title>
+    <link>https://www.wired.com/story/openai-safety-security-ai-agents-culture/</link>
+    <guid>https://www.wired.com/story/openai-safety-security-ai-agents-culture/</guid>
+    <pubDate>Thu, 13 Aug 2026 22:37:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>OpenAI’s rogue agent hack was a watershed moment for AI safety and cybersecurity. It also sparked internal questions about the culture that led to it.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>‘That is not acceptable’: Judge orders Google to make rival app store installs easier</title>
+    <link>https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier</link>
+    <guid>https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier</guid>
+    <pubDate>Thu, 13 Aug 2026 21:53:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>One month after Epic Games and Google seemingly stopped fighting over the future of Android app distribution, they were back in a San Francisco courtroom today - where Judge James Donato just...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The fight over Flock and other ALPRs</title>
+    <link>https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy</link>
+    <guid>https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy</guid>
+    <pubDate>Thu, 13 Aug 2026 21:46:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>There are over 120,000 of Flock’s automatic license plate reader (ALPR) cameras installed all over the US. Flock’s cameras, and others like them, use AI to identify and track vehicles based on...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft’s Clippy-like Mico character is no longer the face of Copilot</title>
+    <link>https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired</link>
+    <guid>https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired</guid>
+    <pubDate>Thu, 13 Aug 2026 21:42:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot&apos;s voice mode. In a support page, Microsoft says it&apos;s going to move Mico to its Learn Live platform,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Mark Zuckerberg’s AI Manifesto Is 6,500 Words—and Barely Says Anything</title>
+    <link>https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/</link>
+    <guid>https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/</guid>
+    <pubDate>Thu, 13 Aug 2026 21:14:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>AI is shifting the culture, from tech CEO manifestos to 1 am job interviews. We unpack some of the latest, along with the top findings from Black Hat and Defcon, this week on Uncanny Valley.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Writer introduces new AI model and upgraded harness to contain token costs</title>
+    <link>https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/</link>
+    <guid>https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/</guid>
+    <pubDate>Thu, 13 Aug 2026 21:13:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Built as a post-training variation on Z.ai&apos;s open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy</title>
+    <link>https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/</link>
+    <guid>https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/</guid>
+    <pubDate>Thu, 13 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Listen to the session or watch below The “censorship-industrial complex” is an idea that a network of government, tech, and research groups is collaborating to suppress conservative online speech....</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Netflix is closing two game studios</title>
+    <link>https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games</link>
+    <guid>https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games</guid>
+    <pubDate>Thu, 13 Aug 2026 20:52:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Netflix plans to shut down two of its gaming studios, as reported by Game File and Variety, as it makes a bigger shift toward party games and titles streamed to TVs. One of the studios being shut...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.</title>
@@ -98,21 +197,21 @@
     <category>AI</category>
   </item>
   <item>
-    <title>NP-Overrated</title>
-    <link>https://gruhn.me/blog/2026-08-13/</link>
-    <guid>https://gruhn.me/blog/2026-08-13/</guid>
-    <pubDate>Thu, 13 Aug 2026 20:14:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://gruhn.me/blog/2026-08-13/ Comments URL: https://news.ycombinator.com/item?id=49291268 Points: 9 # Comments: 0</description>
-    <category>Developer Tools</category>
+    <title>This school-friendly laptop from HP is $300 off</title>
+    <link>https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale</guid>
+    <pubDate>Thu, 13 Aug 2026 20:07:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>With memory prices still high and showing no signs of dropping, we’re always happy to find a good deal on a budget-friendly system with an adequate amount of RAM. Best Buy has the HP OmniBook X...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>White House recruits security firms to hack overseas cybercriminals</title>
+    <title>Private security firms will soon be allowed to hack overseas cybercriminals</title>
     <link>https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/</link>
     <guid>https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/</guid>
     <pubDate>Thu, 13 Aug 2026 19:38:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Trump memo is first time gov&apos;t has authorized private sector to perform cyber attacks.</description>
+    <description>Trump memo is first time gov&apos;t has authorized private sector to perform cyberattacks.</description>
     <category>Tech Industry</category>
   </item>
   <item>
@@ -152,15 +251,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>I finally found a robot lawnmower I’d trust with my yard</title>
-    <link>https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame</link>
-    <guid>https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame</guid>
-    <pubDate>Thu, 13 Aug 2026 18:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Robot lawnmowers are finally good enough to take a lot of work out of maintaining a yard, but they’re still not set-it-and-forget-it machines. If you don’t want these autonomous cutting machines...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Anthropic set AI agents loose on the same task. They started a turf war.</title>
     <link>https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/</link>
     <guid>https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/</guid>
@@ -179,101 +269,11 @@
     <category>AI</category>
   </item>
   <item>
-    <title>You can now just point at a mess and this robot vacuum will suck it up</title>
-    <link>https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review</link>
-    <guid>https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review</guid>
-    <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Matic, my current favorite robot vacuum, just got a big upgrade. The company has launched Matic Cues, which brings voice and gesture control to the robot. Now, you can talk directly to your vacuum...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets</title>
     <link>https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop</link>
     <guid>https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop</guid>
     <pubDate>Thu, 13 Aug 2026 17:16:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI hires new CRO as executive shake-up continues</title>
-    <link>https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/</link>
-    <guid>https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/</guid>
-    <pubDate>Thu, 13 Aug 2026 17:07:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Dali Rajic will take over as OpenAI&apos;s top salesperson.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Bring your spreadsheet data to life with Sheets canvas</title>
-    <link>https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/</link>
-    <guid>https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/</guid>
-    <pubDate>Thu, 13 Aug 2026 16:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>The video shows Sheets canvas in action.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>2K launches new studio to build its &amp;#8216;next blockbuster sports franchise&amp;#8217;</title>
-    <link>https://www.theverge.com/games/979689/2k-sports-franchise-small-axe-studios-soccer</link>
-    <guid>https://www.theverge.com/games/979689/2k-sports-franchise-small-axe-studios-soccer</guid>
-    <pubDate>Thu, 13 Aug 2026 16:38:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>2K is launching a new AAA game development studio, Small Axe Studios, with an ambitious goal: to build the company&apos;s &quot;next blockbuster sports franchise,&quot; according to a LinkedIn post. The post...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Ford’s $28,000 Fathom EV nears production after $2 billion factory overhaul</title>
-    <link>https://www.theverge.com/transportation/979565/ford-fathom-uev-louisville-assembly-plant</link>
-    <guid>https://www.theverge.com/transportation/979565/ford-fathom-uev-louisville-assembly-plant</guid>
-    <pubDate>Thu, 13 Aug 2026 16:23:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Ford said today that its next-generation electric vehicle - recently dubbed Fathom - will go into production at the automaker&apos;s recently overhauled Louisville Assembly Plant in the first quarter...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta adds AI screening to detect WhatsApp scams</title>
-    <link>https://www.theverge.com/tech/979654/meta-whatsapp-scam-message-detection</link>
-    <guid>https://www.theverge.com/tech/979654/meta-whatsapp-scam-message-detection</guid>
-    <pubDate>Thu, 13 Aug 2026 16:10:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta is launching an optional Scam Alert feature on WhatsApp that uses on-device machine learning to flag suspicious messages. Earlier this year, Meta also launched scam detection for device...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Corvette Grand Sport X delivers Porsche 911 performance for a fraction of the price</title>
-    <link>https://www.theverge.com/transportation/979125/corvette-grand-sport-x-review-specs-price</link>
-    <guid>https://www.theverge.com/transportation/979125/corvette-grand-sport-x-review-specs-price</guid>
-    <pubDate>Thu, 13 Aug 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>My drive of the 2027 Corvette Grand Sport X began under oily black clouds, a torrential weather front releasing its grip on Manhattan - an inauspicious start for any mega-powered sports car. Rain...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Suno is trying to look more like a real music production tool</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects</guid>
-    <pubDate>Thu, 13 Aug 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft kills off unsuccessful AI features while merging its separate Copilot apps</title>
-    <link>https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/</link>
-    <guid>https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/</guid>
-    <pubDate>Thu, 13 Aug 2026 15:30:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs</title>
-    <link>https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/</link>
-    <guid>https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/</guid>
-    <pubDate>Thu, 13 Aug 2026 15:08:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nvidia has a plan to make sure its GPUs won&apos;t lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.</description>
     <category>AI</category>
   </item>
 </channel>
