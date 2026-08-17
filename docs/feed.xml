@@ -5,10 +5,180 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 17 Aug 2026 16:45:44 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 20:43:06 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Amazon, once an online bookseller, is destroying rare books to train AI models</title>
+    <title>MiniAI Chat SDK – React AI Chat in 5 Minutes with Claude, Gemini, and LLM7</title>
+    <link>https://dev.to/mini_7181c522f240ea3c26a2/miniai-chat-sdk-react-ai-chat-in-5-minutes-with-claude-gemini-and-llm7-2gc8</link>
+    <guid>https://dev.to/mini_7181c522f240ea3c26a2/miniai-chat-sdk-react-ai-chat-in-5-minutes-with-claude-gemini-and-llm7-2gc8</guid>
+    <pubDate>Mon, 17 Aug 2026 20:31:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Hey everyone! 👋 I&apos;m a solo developer and I built a React SDK that makes it super easy to add AI chat to any app. What it does: Supports Claude, Gemini, and LLM7 in one package Beautiful,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>My best-looking GitHub Actions run shipped zero installs</title>
+    <link>https://dev.to/heinrichneb/my-best-looking-github-actions-run-shipped-zero-installs-1ee8</link>
+    <guid>https://dev.to/heinrichneb/my-best-looking-github-actions-run-shipped-zero-installs-1ee8</guid>
+    <pubDate>Mon, 17 Aug 2026 20:28:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Quick take Your publish job is green. That proves you sent the file. It does not prove anyone can install it. Every publish step I have ever written ended at the upload. The API accepted the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your CI is not flaky. It fails every 7 days.</title>
+    <link>https://dev.to/heinrichneb/your-ci-is-not-flaky-it-fails-every-7-days-4ljd</link>
+    <guid>https://dev.to/heinrichneb/your-ci-is-not-flaky-it-fails-every-7-days-4ljd</guid>
+    <pubDate>Mon, 17 Aug 2026 20:28:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Quick take Before you label a failing test flaky, write down the dates it failed. Flaky has no rhythm. Yours might. &quot;Flaky&quot; is the most expensive word in CI. It closes the investigation. Nobody...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Has your GitHub Actions gate ever said no?</title>
+    <link>https://dev.to/heinrichneb/has-your-github-actions-gate-ever-said-no-dj2</link>
+    <guid>https://dev.to/heinrichneb/has-your-github-actions-gate-ever-said-no-dj2</guid>
+    <pubDate>Mon, 17 Aug 2026 20:28:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Quick take Quick question. That guard you added to CI last month — have you ever watched it refuse anything? Most of us test in one direction. We prove the thing works. We almost never prove the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Parsing numbers from JSON in Python</title>
+    <link>https://dev.to/pomidoroshev/parsing-numbers-from-json-in-python-2e8c</link>
+    <guid>https://dev.to/pomidoroshev/parsing-numbers-from-json-in-python-2e8c</guid>
+    <pubDate>Mon, 17 Aug 2026 20:25:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Consider this hypothetical endpoint in a Python-based web-server: # withdraw.py import json from flask import Flask, request app = Flask(__name__) STATE = {&quot;balance&quot;: 1000} @app.post(&quot;/withdraw&quot;)...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Real-Time Robot Telemetry Visualization on Android</title>
+    <link>https://dev.to/vmodal_ai/real-time-robot-telemetry-visualization-on-android-1893</link>
+    <guid>https://dev.to/vmodal_ai/real-time-robot-telemetry-visualization-on-android-1893</guid>
+    <pubDate>Mon, 17 Aug 2026 20:25:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Real-Time Robot Telemetry Visualization on Android Introduction Robots continuously generate telemetry such as position, velocity, battery level, temperature, sensor readings, and operating state....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Entry-Level Job Is the Canary</title>
+    <link>https://dev.to/prpatel05/the-entry-level-job-is-the-canary-2m3b</link>
+    <guid>https://dev.to/prpatel05/the-entry-level-job-is-the-canary-2m3b</guid>
+    <pubDate>Mon, 17 Aug 2026 20:24:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Your headcount plan is a forecast about which tasks survive. Most people are making it from a statistic they have misread. The statistic is 16%, and it comes from Canaries in the Coal Mine?, a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Android + ROS 2: Building a Robot Control App with Kotlin</title>
+    <link>https://dev.to/vmodal_ai/android-ros-2-building-a-robot-control-app-with-kotlin-59m1</link>
+    <guid>https://dev.to/vmodal_ai/android-ros-2-building-a-robot-control-app-with-kotlin-59m1</guid>
+    <pubDate>Mon, 17 Aug 2026 20:24:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Android + ROS 2: Building a Robot Control App with Kotlin Introduction Physical AI is bringing together robotics, edge computing, computer vision, and intelligent mobile interfaces. Android is a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Graceful Multi-Tenant Lifecycle: Managing Isolated Containers, Drains, and Deferred Purges in Python</title>
+    <link>https://dev.to/andriimahalias/graceful-multi-tenant-lifecycle-managing-isolated-containers-drains-and-deferred-purges-in-python-1dk2</link>
+    <guid>https://dev.to/andriimahalias/graceful-multi-tenant-lifecycle-managing-isolated-containers-drains-and-deferred-purges-in-python-1dk2</guid>
+    <pubDate>Mon, 17 Aug 2026 20:20:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When building a multi-tenant SaaS control plane that provisions dedicated infrastructure per client - such as isolated Docker containers running alongside dynamic PostgreSQL databases - managing...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Most Important Feature of a Legal AI Might Be Knowing When Not to Answer</title>
+    <link>https://dev.to/jimmyknowslaw/the-most-important-feature-of-a-legal-ai-might-be-knowing-when-not-to-answer-4g0e</link>
+    <guid>https://dev.to/jimmyknowslaw/the-most-important-feature-of-a-legal-ai-might-be-knowing-when-not-to-answer-4g0e</guid>
+    <pubDate>Mon, 17 Aug 2026 20:20:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>One of the things that gets overlooked when building AI for legal use is uncertainty. Most AI products are designed to answer questions. Legal questions are different. A person might type: “I got...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Same Cluster, 33 Points More Utilization: What Changed Was the Order</title>
+    <link>https://huggingface.co/blog/Dharma-AI/gpu-management-pt2</link>
+    <guid>https://huggingface.co/blog/Dharma-AI/gpu-management-pt2</guid>
+    <pubDate>Mon, 17 Aug 2026 19:46:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>This compact Glorious mechanical keyboard is just $35</title>
+    <link>https://www.theverge.com/gadgets/981134/glorious-gmmk-3-mechanical-keyboard-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/981134/glorious-gmmk-3-mechanical-keyboard-deal-sale</guid>
+    <pubDate>Mon, 17 Aug 2026 19:27:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Are you curious about custom mechanical keyboards, but don’t want to spend hundreds just to get started without being sure you’ll enjoy the hobby? You can grab the 65-percent Glorious GMMK 3...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>What Flock’s defenders are missing</title>
+    <link>https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/</link>
+    <guid>https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/</guid>
+    <pubDate>Mon, 17 Aug 2026 19:16:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Wordle meets Clippy in this new word game</title>
+    <link>https://www.theverge.com/entertainment/981014/dartwords-clippy-word-game</link>
+    <guid>https://www.theverge.com/entertainment/981014/dartwords-clippy-word-game</guid>
+    <pubDate>Mon, 17 Aug 2026 19:03:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Like many of us, Sam Rosenthal plays games like Wordle every day, chasing after good scores and sharing the results with friends and family. But he&apos;s also a game designer, the creative director at...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection</title>
+    <link>https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html</link>
+    <guid>https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html</guid>
+    <pubDate>Mon, 17 Aug 2026 18:44:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake&apos;s public snowflakedb/snowflake-connector-net repository that it said could be...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads</title>
+    <link>https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</link>
+    <guid>https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</guid>
+    <pubDate>Mon, 17 Aug 2026 18:22:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic</title>
+    <link>https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html</link>
+    <guid>https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html</guid>
+    <pubDate>Mon, 17 Aug 2026 17:41:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>YouTube is changing how it counts views to give the numbers a boost</title>
+    <link>https://www.theverge.com/streaming/981105/youtube-video-view-counting-update</link>
+    <guid>https://www.theverge.com/streaming/981105/youtube-video-view-counting-update</guid>
+    <pubDate>Mon, 17 Aug 2026 17:13:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>YouTube will soon count a view as soon as a video starts to play, lining up with the system used by Instagram, TikTok, and its Shorts videos. The update will go into effect on August 24th, &quot;which...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Analogue Pocket gets a Supreme makeover in red or gold</title>
+    <link>https://www.theverge.com/games/981054/analogue-pocket-supreme-red-gold-fall-winter-2026-collection</link>
+    <guid>https://www.theverge.com/games/981054/analogue-pocket-supreme-red-gold-fall-winter-2026-collection</guid>
+    <pubDate>Mon, 17 Aug 2026 16:40:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Analogue and Supreme are teaming up to release metallic versions of the Analogue Pocket handheld in red and gold as part of Supreme&apos;s fall / winter 2026 collection. Here&apos;s how they&apos;re described on...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon, which started off selling books, is destroying rare texts to train AI</title>
     <link>https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/</link>
     <guid>https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/</guid>
     <pubDate>Mon, 17 Aug 2026 16:38:44 +0000</pubDate>
@@ -17,40 +187,22 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Run AI-Proposed Shell Commands in a systemd Probe Before You Run Them for Real</title>
-    <link>https://dev.to/github_7727/run-ai-proposed-shell-commands-in-a-systemd-probe-before-you-run-them-for-real-2aed</link>
-    <guid>https://dev.to/github_7727/run-ai-proposed-shell-commands-in-a-systemd-probe-before-you-run-them-for-real-2aed</guid>
-    <pubDate>Mon, 17 Aug 2026 16:36:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclosure: This article was prepared as part of MonkeyCode&apos;s product outreach. A free model can produce shell commands that are syntactically valid but operationally unsafe, and the free server...</description>
-    <category>Developer Tools</category>
+    <title>Sonos finally added Live Activities controls for your iPhone lockscreen</title>
+    <link>https://www.theverge.com/tech/981008/sonos-mobile-ios-iphone-app-live-activities</link>
+    <guid>https://www.theverge.com/tech/981008/sonos-mobile-ios-iphone-app-live-activities</guid>
+    <pubDate>Mon, 17 Aug 2026 16:38:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sonos released an update to its mobile app that finally introduces support for iOS&apos; Live Activities, giving iPhone users quick access to playback controls on their lockscreen. The added...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Java Introduction: What Is Java, Who Created It, and How Sun Microsystems Became Oracle?</title>
-    <link>https://dev.to/poushmita_paul_fddcbe1a2f/java-introduction-what-is-java-who-created-it-and-how-sun-microsystems-became-oracle-4abp</link>
-    <guid>https://dev.to/poushmita_paul_fddcbe1a2f/java-introduction-what-is-java-who-created-it-and-how-sun-microsystems-became-oracle-4abp</guid>
-    <pubDate>Mon, 17 Aug 2026 16:30:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Part of my Java Learning Series — Telusko Core Java If you are starting to learn Java, you will probably hear names such as James Gosling, Sun Microsystems, Oak, Oracle, JVM, and Java very...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What I Learned Shipping My First Chrome Extension to the Web Store</title>
-    <link>https://dev.to/10aburnett/what-i-learned-shipping-my-first-chrome-extension-to-the-web-store-42lb</link>
-    <guid>https://dev.to/10aburnett/what-i-learned-shipping-my-first-chrome-extension-to-the-web-store-42lb</guid>
-    <pubDate>Mon, 17 Aug 2026 16:23:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent the last few months building and shipping a Chrome extension called Promo Drop, a free tool that finds verified promo codes and cashback for products on Whop. It is live on the Chrome Web...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>QUASAR: How Saliency-Weighted Reconstruction Closes the Loss Floor Gap in LLM Quantization-Aware Training</title>
-    <link>https://dev.to/prabhakar_chaudhary_7afe4/quasar-how-saliency-weighted-reconstruction-closes-the-loss-floor-gap-in-llm-quantization-aware-5akb</link>
-    <guid>https://dev.to/prabhakar_chaudhary_7afe4/quasar-how-saliency-weighted-reconstruction-closes-the-loss-floor-gap-in-llm-quantization-aware-5akb</guid>
-    <pubDate>Mon, 17 Aug 2026 16:20:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>QUASAR: How Saliency-Weighted Reconstruction Closes the Loss Floor Gap in LLM Quantization-Aware Training Quantization is one of the most practical tools in the LLM deployment toolkit. Shrinking a...</description>
-    <category>Developer Tools</category>
+    <title>Trump’s dumb border wall</title>
+    <link>https://www.theverge.com/report/980933/trump-border-wall-big-bend-arizona-cottonwood-tree-sit</link>
+    <guid>https://www.theverge.com/report/980933/trump-border-wall-big-bend-arizona-cottonwood-tree-sit</guid>
+    <pubDate>Mon, 17 Aug 2026 16:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>About 22 miles south of the former mining town of Patagonia, Arizona, down a winding, unpaved mountain road that passes cows grazing on open range, stands a cottonwood tree believed to be at least...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Groq raises $350M to fuel its pivot from AI chips to neocloud</title>
@@ -60,60 +212,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Overview of the RTOS Kernel Project</title>
-    <link>https://dev.to/cangulmez/overview-of-the-rtos-kernel-project-lca</link>
-    <guid>https://dev.to/cangulmez/overview-of-the-rtos-kernel-project-lca</guid>
-    <pubDate>Mon, 17 Aug 2026 16:14:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In previous tutorial, I&apos;ve gave you the theoretical background about ARM Cortex-M3/4 processors. In here, I will explain the RTOS kernel project structure. You can access and inspect the kernel...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Ecology of Engineering Teams</title>
-    <link>https://dev.to/druid628/the-ecology-of-engineering-teams-3jgg</link>
-    <guid>https://dev.to/druid628/the-ecology-of-engineering-teams-3jgg</guid>
-    <pubDate>Mon, 17 Aug 2026 16:07:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Over the past several weeks, I&apos;ve introduced five engineering archetypes that I&apos;ve encountered throughout my career: The Gardener The Mason The Blacksmith The Bear Killer The Chef If you&apos;ve read...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Copilot Autofix Introduced a Critical CI/CD Bug at Snowflake. Here&apos;s How to Harden GitHub Actions</title>
-    <link>https://dev.to/jamilxt/copilot-autofix-introduced-a-critical-cicd-bug-at-snowflake-heres-how-to-harden-github-actions-1pf</link>
-    <guid>https://dev.to/jamilxt/copilot-autofix-introduced-a-critical-cicd-bug-at-snowflake-heres-how-to-harden-github-actions-1pf</guid>
-    <pubDate>Mon, 17 Aug 2026 16:05:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On June 23, an autonomous AI security tool walked into Snowflake&apos;s internal Jira. It did not brute-force a login or find a leaked password. The door was left open five days earlier by a commit...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Understanding Async Programming</title>
-    <link>https://dev.to/aws/understanding-async-programming-4mei</link>
-    <guid>https://dev.to/aws/understanding-async-programming-4mei</guid>
-    <pubDate>Mon, 17 Aug 2026 16:01:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Async programming, short for asynchronous programming, is one of those concepts that might sound intimidating at first but becomes surprisingly intuitive once you understand the problem it is...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Cutting Cloud Costs with a Few Habits</title>
-    <link>https://dev.to/cloudfrontier/cutting-cloud-costs-with-a-few-habits-2b1b</link>
-    <guid>https://dev.to/cloudfrontier/cutting-cloud-costs-with-a-few-habits-2b1b</guid>
-    <pubDate>Mon, 17 Aug 2026 16:01:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Silent Budget Killer Cloud bills creep up. You start with a small instance, a managed database, and a bucket. A year later, you&apos;re paying for resources you forgot existed. The worst part? Most...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How canvases make agentic workflows visible, steerable, and cost-efficient</title>
-    <link>https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/</link>
-    <guid>https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/</guid>
-    <pubDate>Mon, 17 Aug 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">GitHub Blog</source>
-    <description>Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas. The post How canvases make...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project</title>
@@ -161,15 +259,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>It’s about ethics in journalism, with Ben Smith</title>
-    <link>https://www.theverge.com/podcast/980759/ben-smith-semafor-ethics-journalism-ai-events-buzzfeed-media-news</link>
-    <guid>https://www.theverge.com/podcast/980759/ben-smith-semafor-ethics-journalism-ai-events-buzzfeed-media-news</guid>
-    <pubDate>Mon, 17 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Today I’m talking to Ben Smith, the editor-in-chief of Semafor. Everywhere you go, people say they don’t trust the media — and yet they’ve never consumed more of it. Audiences have moved on from...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More</title>
     <link>https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</link>
     <guid>https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</guid>
@@ -185,96 +274,6 @@
     <pubDate>Mon, 17 Aug 2026 13:10:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Wispr’s total funding is now over $361 million.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Download: dead robot friends and the “censorship-industrial complex”</title>
-    <link>https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/</link>
-    <guid>https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/</guid>
-    <pubDate>Mon, 17 Aug 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What happens when a kid’s robot best friend dies? When...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How MCP Servers Can Expose Enterprise Secrets</title>
-    <link>https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html</link>
-    <guid>https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html</guid>
-    <pubDate>Mon, 17 Aug 2026 11:58:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Hacking Public Wi-Fi DNS to Steal Credentials</title>
-    <link>https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html</guid>
-    <pubDate>Mon, 17 Aug 2026 11:18:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Criminals are hacking into public Wi-Fi devices—at hotels, conference centers, and so on—around the world and changing their DNS settings. The goal is to redirect users to fake login pages and...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>How to take better photos of your pets</title>
-    <link>https://www.theverge.com/tech/970021/how-to-take-better-pet-photos</link>
-    <guid>https://www.theverge.com/tech/970021/how-to-take-better-pet-photos</guid>
-    <pubDate>Mon, 17 Aug 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Like the pets of any self-respecting millennial, my cats have their own Instagram account. Noodle and Loaf - aka Carb Cats - aren&apos;t exactly celebrities. But they are used to having their photos...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Whisker’s AI-powered litter robot thinks my cats swapped bodies</title>
-    <link>https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review</link>
-    <guid>https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review</guid>
-    <pubDate>Mon, 17 Aug 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The greatest invention in pet tech in recent years is the litter robot. A machine that scoops your kitties&apos; poop so you don&apos;t have to - what else could a cat owner possibly want? How about...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic explains how Claude&amp;#8217;s invisible text watermarks will work</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system</guid>
-    <pubDate>Mon, 17 Aug 2026 10:57:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anthropic has clarified how it&apos;s planning to apply invisible watermarks to Claude-generated text in order to comply with Europe&apos;s AI transparency rules. On Friday, Anthropic announced that...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access</title>
-    <link>https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html</link>
-    <guid>https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html</guid>
-    <pubDate>Mon, 17 Aug 2026 10:52:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies</title>
-    <link>https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html</link>
-    <guid>https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html</guid>
-    <pubDate>Mon, 17 Aug 2026 09:29:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>How much hydrogen awaits us underground?</title>
-    <link>https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/</link>
-    <guid>https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/</guid>
-    <pubDate>Mon, 17 Aug 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>In the 1990s, Barbara Sherwood Lollar descended into the Kidd Creek mine in northern Ontario, which cuts more than three kilometers into the ancient root of North America. There her team of...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>What happens when a kid’s robot best friend dies?</title>
-    <link>https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/</link>
-    <guid>https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/</guid>
-    <pubDate>Mon, 17 Aug 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage...</description>
     <category>AI</category>
   </item>
 </channel>
