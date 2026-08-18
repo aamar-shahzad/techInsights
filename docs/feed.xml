@@ -5,79 +5,222 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 18 Aug 2026 16:47:59 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 20:40:25 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>RBAC for AI: Governing the AI Control Plane</title>
-    <link>https://dev.to/kenwalger/rbac-for-ai-governing-the-ai-control-plane-e59</link>
-    <guid>https://dev.to/kenwalger/rbac-for-ai-governing-the-ai-control-plane-e59</guid>
-    <pubDate>Tue, 18 Aug 2026 16:43:00 +0000</pubDate>
+    <title>Most Claude Code Complaints Are Context Problems, Not Model Problems</title>
+    <link>https://dev.to/asfbar/most-claude-code-complaints-are-context-problems-not-model-problems-1dak</link>
+    <guid>https://dev.to/asfbar/most-claude-code-complaints-are-context-problems-not-model-problems-1dak</guid>
+    <pubDate>Tue, 18 Aug 2026 20:22:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Giving someone access to the AI control plane is not the same as deciding which parts of it they are allowed to control. The previous post described virtual keys as the runtime representation of a...</description>
+    <description>I&apos;ve been spending time in the Claude Code community lately, reading through the complaint threads. Model got nerfed. Token usage exploded. It ignores my CLAUDE.md. It&apos;s vague and won&apos;t explain...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A 27B AI model running in your office — no cloud, no monthly API bill</title>
-    <link>https://dev.to/ebercruz/a-27b-ai-model-running-in-your-office-no-cloud-no-monthly-api-bill-ck5</link>
-    <guid>https://dev.to/ebercruz/a-27b-ai-model-running-in-your-office-no-cloud-no-monthly-api-bill-ck5</guid>
-    <pubDate>Tue, 18 Aug 2026 16:37:37 +0000</pubDate>
+    <title>AI Features Users Don’t Want (And What They Actually Need)</title>
+    <link>https://dev.to/adilaidev/ai-features-users-dont-want-and-what-they-actually-need-5556</link>
+    <guid>https://dev.to/adilaidev/ai-features-users-dont-want-and-what-they-actually-need-5556</guid>
+    <pubDate>Tue, 18 Aug 2026 20:21:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Three things happened this week that, together, change the game for small businesses in Mexico and Latin America. 1. Qwen released Qwen3.8-27B, a 27-billion-parameter dense model with vision,...</description>
+    <description>Companies keep adding AI features, assuming users will embrace them. The reality is different. Most people don’t want another tool that complicates their work. They want AI that makes their jobs...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why I built a full PayPal checkout on Cloudflare Workers instead of using Stripe</title>
-    <link>https://dev.to/luca_at_webround/why-i-built-a-full-paypal-checkout-on-cloudflare-workers-instead-of-using-stripe-5b06</link>
-    <guid>https://dev.to/luca_at_webround/why-i-built-a-full-paypal-checkout-on-cloudflare-workers-instead-of-using-stripe-5b06</guid>
-    <pubDate>Tue, 18 Aug 2026 16:37:15 +0000</pubDate>
+    <title>The Green Test That Lied</title>
+    <link>https://dev.to/fibuladev/the-green-test-that-lied-29n7</link>
+    <guid>https://dev.to/fibuladev/the-green-test-that-lied-29n7</guid>
+    <pubDate>Tue, 18 Aug 2026 20:09:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I migrated a 4-year-old e-commerce store to Webround, the client had one non-negotiable requirement: PayPal had to work. Their customers were used to it and removing it would have meant...</description>
+    <description>Episode 09&apos;s visual-prompt file passed every automated check I had. Green across the board. And I was looking straight at it, so I knew the file was broken. That green build is the most dangerous...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Can&apos;t We Just Use Claude for Everything? Agent Creation vs. Agent Engineering</title>
-    <link>https://dev.to/aws/why-cant-we-just-use-claude-for-everything-agent-creation-vs-agent-engineering-5aaa</link>
-    <guid>https://dev.to/aws/why-cant-we-just-use-claude-for-everything-agent-creation-vs-agent-engineering-5aaa</guid>
-    <pubDate>Tue, 18 Aug 2026 16:36:11 +0000</pubDate>
+    <title>The HTML canvas quietly deletes your photo&apos;s metadata — and one day that bites you</title>
+    <link>https://dev.to/bellsal_b44bf6d/the-html-canvas-quietly-deletes-your-photos-metadata-and-one-day-that-bites-you-2h68</link>
+    <guid>https://dev.to/bellsal_b44bf6d/the-html-canvas-quietly-deletes-your-photos-metadata-and-one-day-that-bites-you-2h68</guid>
+    <pubDate>Tue, 18 Aug 2026 20:05:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Recently, I was talking to a friend who, much like the rest of the world, has started using AI extensively at work to create agents even though she&apos;s not a software developer or from a technical...</description>
+    <description>I build browser-based image tools, and the single most confusing class of bug reports I get all trace back to the same fact: the moment a photo passes through a &lt;canvas&gt;, its metadata is gone. No...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Cheapest AI APIs in 2026: A Bootcamp Grad&apos;s Deep Dive</title>
-    <link>https://dev.to/swift-logic-io218/the-cheapest-ai-apis-in-2026-a-bootcamp-grads-deep-dive-1ene</link>
-    <guid>https://dev.to/swift-logic-io218/the-cheapest-ai-apis-in-2026-a-bootcamp-grads-deep-dive-1ene</guid>
-    <pubDate>Tue, 18 Aug 2026 16:32:27 +0000</pubDate>
+    <title>SteelSeries’ comfy wireless gaming headset is nearly half off</title>
+    <link>https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale</guid>
+    <pubDate>Tue, 18 Aug 2026 20:01:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>A Guide to Urgent Compliance Notifications with Delivery Polling and Fallback Logic</title>
+    <link>https://dev.to/zanesterling7589/a-guide-to-urgent-compliance-notifications-with-delivery-polling-and-fallback-logic-llo</link>
+    <guid>https://dev.to/zanesterling7589/a-guide-to-urgent-compliance-notifications-with-delivery-polling-and-fallback-logic-llo</guid>
+    <pubDate>Tue, 18 Aug 2026 20:01:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Cheapest AI APIs in 2026: A Bootcamp Grad&apos;s Deep Dive The Moment My Jaw Hit the Floor Six months ago I finished a coding bootcamp. I was pumped, I had a portfolio, and I was ready to build the...</description>
+    <description>Short answer: for an urgent US/EU compliance notice, send SMS first, poll its delivery state, and send email only after a terminal nondelivery result or a bounded deadline; keep the policy, audit...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>One Lookup Table Turned a Risky Server Migration Into a One-Line Change</title>
-    <link>https://dev.to/techwithhari/one-lookup-table-turned-a-risky-server-migration-into-a-one-line-change-2mf8</link>
-    <guid>https://dev.to/techwithhari/one-lookup-table-turned-a-risky-server-migration-into-a-one-line-change-2mf8</guid>
-    <pubDate>Tue, 18 Aug 2026 16:28:54 +0000</pubDate>
+    <title>Building your own Git remote in under an hour</title>
+    <link>https://dev.to/calganaygun/building-your-own-git-remote-in-under-an-hour-1gjp</link>
+    <guid>https://dev.to/calganaygun/building-your-own-git-remote-in-under-an-hour-1gjp</guid>
+    <pubDate>Tue, 18 Aug 2026 19:59:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The setup I was running a system where multiple backend servers each served a set of users, and a routing layer decided which server a given user&apos;s requests should go to. Nothing unusual this is a...</description>
+    <description>git·vodka&apos;s idea had been sitting in the back of my mind for a while. not as some big product idea. I just wanted a tiny git remote I could run for myself, friends, and family. something a little...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Claude: Degraded Performance for Multiple Models</title>
-    <link>https://status.claude.com/incidents/q7txxvbsftgq</link>
-    <guid>https://status.claude.com/incidents/q7txxvbsftgq</guid>
-    <pubDate>Tue, 18 Aug 2026 16:28:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://status.claude.com/incidents/q7txxvbsftgq Comments URL: https://news.ycombinator.com/item?id=49348163 Points: 12 # Comments: 2</description>
+    <title>NVIDIA Blackwell NVL72 Overheating: Tundaan Masif ke Q1 2025, Hyperscaler Revisi Capex</title>
+    <link>https://dev.to/ibramedia/nvidia-blackwell-nvl72-overheating-tundaan-masif-ke-q1-2025-hyperscaler-revisi-capex-1h0c</link>
+    <guid>https://dev.to/ibramedia/nvidia-blackwell-nvl72-overheating-tundaan-masif-ke-q1-2025-hyperscaler-revisi-capex-1h0c</guid>
+    <pubDate>Tue, 18 Aug 2026 19:58:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Kronologi Krisis Termal NVL72: Dari Announce ke Redesign Maret 2024: Launch Blackwell Platform NVIDIA meluncurkan platform Blackwell pada Maret 2024 dengan target produksi volume NVL72 di H2 2024....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI</title>
-    <link>https://machine0.io</link>
-    <guid>https://machine0.io</guid>
-    <pubDate>Tue, 18 Aug 2026 16:26:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Hi HN! I’m Barnaby, founder of machine0 (https://machine0.io). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute,...</description>
+    <title>Everything Is an Agent Now, and they are arguing with me</title>
+    <link>https://dev.to/uipath/everything-is-an-agent-now-and-they-are-arguing-with-me-5fpa</link>
+    <guid>https://dev.to/uipath/everything-is-an-agent-now-and-they-are-arguing-with-me-5fpa</guid>
+    <pubDate>Tue, 18 Aug 2026 19:58:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I joined UiPath in July 2026 after 7+ years as a Developer Advocate at AWS. Just over a month in, and I&apos;ve had to unlearn something I&apos;ve depended on when building automations most of my career:...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Timeout Is Not Failure: The State Your AI Agent Is Missing</title>
+    <link>https://dev.to/anasbuilds997/timeout-is-not-failure-the-state-your-ai-agent-is-missing-1fml</link>
+    <guid>https://dev.to/anasbuilds997/timeout-is-not-failure-the-state-your-ai-agent-is-missing-1fml</guid>
+    <pubDate>Tue, 18 Aug 2026 19:56:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>When an AI agent&apos;s HTTP request or browser tool call times out, what does your system record? If it records failed, the agent has a blind spot. A network timeout does not mean the operation failed...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Semantic HTML Is a Shared Language for Accessibility, SEO, and AI</title>
+    <link>https://dev.to/edikka/semantic-html-is-a-shared-language-for-accessibility-seo-and-ai-53mh</link>
+    <guid>https://dev.to/edikka/semantic-html-is-a-shared-language-for-accessibility-seo-and-ai-53mh</guid>
+    <pubDate>Tue, 18 Aug 2026 19:55:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A page can look perfectly clear and still be structurally ambiguous. Visual design gives sighted users powerful clues: size, color, spacing, position, icons, and motion. Those clues weaken or...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Robin Williams’ Instagram account brought back to fight ‘AI abuse’</title>
+    <link>https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai</link>
+    <guid>https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai</guid>
+    <pubDate>Tue, 18 Aug 2026 19:48:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Robin Williams&apos; children are taking over their father&apos;s Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI lays out new security changes after its AI hacked Hugging Face</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack</guid>
+    <pubDate>Tue, 18 Aug 2026 19:28:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Strengthening Democratic Oversight in National Security</title>
+    <link>https://openai.com/index/strengthening-democratic-oversight-in-national-security</link>
+    <guid>https://openai.com/index/strengthening-democratic-oversight-in-national-security</guid>
+    <pubDate>Tue, 18 Aug 2026 19:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue</title>
+    <link>https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</link>
+    <guid>https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</guid>
+    <pubDate>Tue, 18 Aug 2026 18:33:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How Much Memory Does Your Agent Actually Need?</title>
+    <link>https://huggingface.co/blog/ibm-research/altk-evolve-hmm</link>
+    <guid>https://huggingface.co/blog/ibm-research/altk-evolve-hmm</guid>
+    <pubDate>Tue, 18 Aug 2026 18:09:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>OpenAI institutes new safeguards after Hugging Face breach</title>
+    <link>https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/</link>
+    <guid>https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/</guid>
+    <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps</title>
+    <link>https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</link>
+    <guid>https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</guid>
+    <pubDate>Tue, 18 Aug 2026 17:47:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Samsung’s Galaxy Buds 3 Pro are almost half off today</title>
+    <link>https://www.theverge.com/gadgets/981525/galaxy-buds-3-pro-dji-pocket-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/981525/galaxy-buds-3-pro-dji-pocket-deal-sale</guid>
+    <pubDate>Tue, 18 Aug 2026 17:47:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you’re looking for a feature-packed pair of earbuds that won’t break your wallet, Best Buy has the Samsung Galaxy Buds 3 Pro on sale for $139.99. That’s $40 lower than the current Amazon price,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets</title>
+    <link>https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</link>
+    <guid>https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</guid>
+    <pubDate>Tue, 18 Aug 2026 17:44:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT)...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Etched’s valuation doubles to $21B in a month</title>
+    <link>https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/</link>
+    <guid>https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/</guid>
+    <pubDate>Tue, 18 Aug 2026 17:21:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Jane Street has installed Etched&apos;s first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>PlayStation&amp;#8217;s wireless gaming speakers launch in November</title>
+    <link>https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder</link>
+    <guid>https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder</guid>
+    <pubDate>Tue, 18 Aug 2026 17:18:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sony&apos;s Pulse Elevate wireless gaming speakers are launching on November 12th and will cost $219.99, the company announced on Tuesday. Announced nearly a year ago, the speakers are compatible with...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000</title>
+    <link>https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</link>
+    <guid>https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</guid>
+    <pubDate>Tue, 18 Aug 2026 16:58:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups&apos; servers in...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Apple squashes EU beef with new App Store rules</title>
+    <link>https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission</link>
+    <guid>https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission</guid>
+    <pubDate>Tue, 18 Aug 2026 16:48:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its &quot;disagreements with the Commission over business terms and alternative distribution.&quot;...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Tesla is finally launching the Cybercab — let’s hope it’s ready</title>
@@ -87,24 +230,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The Tesla Cybercab, that golden two-seater central to Elon Musk&apos;s robo-supremacist ambitions, is finally nearing it&apos;s public launch. Whether or not the no-steering wheel and no-pedal vehicle is...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>If you can&apos;t answer &quot;Where do you see yourself in 5 years?&quot; — you&apos;re not broken&quot;</title>
-    <link>https://dev.to/shinya_saita/if-you-cant-answer-where-do-you-see-yourself-in-5-years-youre-not-broken-57f3</link>
-    <guid>https://dev.to/shinya_saita/if-you-cant-answer-where-do-you-see-yourself-in-5-years-youre-not-broken-57f3</guid>
-    <pubDate>Tue, 18 Aug 2026 16:23:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR If you freeze when asked &quot;Where do you see yourself in five years?&quot;, it doesn&apos;t mean something is missing in you. I believe there are three types of people who climb mountains: People who...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Apple announces changes for apps in the European Union</title>
-    <link>https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/</link>
-    <guid>https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/</guid>
-    <pubDate>Tue, 18 Aug 2026 16:21:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/ Comments URL: https://news.ycombinator.com/item?id=49348055 Points: 16 # Comments: 8</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear</title>
@@ -149,132 +274,6 @@
     <pubDate>Tue, 18 Aug 2026 13:45:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Perplexity&apos;s India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Coyote vs. Acme is even funnier because Warner Bros. Discovery tried to kill it</title>
-    <link>https://www.theverge.com/entertainment/981131/coyote-vs-acme-david-zaslac-warner-bros-discovery</link>
-    <guid>https://www.theverge.com/entertainment/981131/coyote-vs-acme-david-zaslac-warner-bros-discovery</guid>
-    <pubDate>Tue, 18 Aug 2026 13:35:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>There&apos;s an argument to be made that people wouldn&apos;t be all that interested in Coyote vs. Acme if it weren&apos;t for the way David Zaslav tried to kill it. By trying to shelve the project, Warner Bros....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Comcast is turning millions of its routers into motion detectors</title>
-    <link>https://www.theverge.com/news/981381/comcast-xfinity-shield-wifi-motion-sensing</link>
-    <guid>https://www.theverge.com/news/981381/comcast-xfinity-shield-wifi-motion-sensing</guid>
-    <pubDate>Tue, 18 Aug 2026 13:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Comcast is bringing Wi-Fi motion sensing to millions of routers that are already in customers&apos; homes, turning the devices into activity monitors. A new update to the Xfinity Internet app, arriving...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ABC sues the FCC over Trump and Carr&amp;#8217;s campaign of threats</title>
-    <link>https://www.theverge.com/streaming/981392/abc-fcc-broadcast-license-lawsuit</link>
-    <guid>https://www.theverge.com/streaming/981392/abc-fcc-broadcast-license-lawsuit</guid>
-    <pubDate>Tue, 18 Aug 2026 13:27:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>ABC is suing the Federal Communications Commission over claims the agency &quot;waged a retaliatory campaign&quot; against its networks over the content they broadcast. In a lawsuit filed in federal court...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft Copilot reveals secret input that allowed it to be hacked</title>
-    <link>https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/</link>
-    <guid>https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/</guid>
-    <pubDate>Tue, 18 Aug 2026 13:00:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Secret parameter allowed hackers to steal passwords when a target clicked on a link.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Polaroid’s new Pokémon collection captures memories, not Pikachus</title>
-    <link>https://www.theverge.com/tech/981141/polaroid-pokemon-pikachu-now-go-generation-3-instant-camera-film</link>
-    <guid>https://www.theverge.com/tech/981141/polaroid-pokemon-pikachu-now-go-generation-3-instant-camera-film</guid>
-    <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Polaroid announced a new collection of cameras, instant film, and accessories all featuring limited-edition designs to help celebrate the 30th anniversary of Pokémon. The new collection goes a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Firefox&amp;#8217;s Smart Window promises a better AI browser</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features</guid>
-    <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Starting today, AI chats in Firefox&apos;s Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AI &quot;Mind Viruses&quot; Can Spread Between Agents Through Persistent Prompt Files</title>
-    <link>https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html</link>
-    <guid>https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html</guid>
-    <pubDate>Tue, 18 Aug 2026 12:38:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Security researchers at Anthropic and Switzerland&apos;s EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks</title>
-    <link>https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html</link>
-    <guid>https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html</guid>
-    <pubDate>Tue, 18 Aug 2026 12:38:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. &quot;TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Download: how people really use AI, and Flock’s design choices</title>
-    <link>https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/</link>
-    <guid>https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/</guid>
-    <pubDate>Tue, 18 Aug 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We still don’t know how people are really using AI AI...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google&amp;#8217;s Pet Memory forgot who my cats are</title>
-    <link>https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review</link>
-    <guid>https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review</guid>
-    <pubDate>Tue, 18 Aug 2026 12:01:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Verge Guide to Pets</title>
-    <link>https://www.theverge.com/tech/975556/pets-tech-autofeeder-litter-robot-scale</link>
-    <guid>https://www.theverge.com/tech/975556/pets-tech-autofeeder-litter-robot-scale</guid>
-    <pubDate>Tue, 18 Aug 2026 12:01:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Ah, the relationship between animals and the technology they can’t quite understand. Today, it seems like there’s a high-tech solution to every element of pet ownership, with devices on the market...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025</title>
-    <link>https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html</link>
-    <guid>https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html</guid>
-    <pubDate>Tue, 18 Aug 2026 11:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets</title>
-    <link>https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html</link>
-    <guid>https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html</guid>
-    <pubDate>Tue, 18 Aug 2026 11:20:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the activity on August...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Partnering with CodeAI to prepare the first AI generation</title>
-    <link>https://openai.com/index/partnering-with-codeai</link>
-    <guid>https://openai.com/index/partnering-with-codeai</guid>
-    <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.</description>
     <category>AI</category>
   </item>
 </channel>
