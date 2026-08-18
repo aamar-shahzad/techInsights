@@ -5,97 +5,145 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 17 Aug 2026 20:43:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 01:50:27 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>MiniAI Chat SDK – React AI Chat in 5 Minutes with Claude, Gemini, and LLM7</title>
-    <link>https://dev.to/mini_7181c522f240ea3c26a2/miniai-chat-sdk-react-ai-chat-in-5-minutes-with-claude-gemini-and-llm7-2gc8</link>
-    <guid>https://dev.to/mini_7181c522f240ea3c26a2/miniai-chat-sdk-react-ai-chat-in-5-minutes-with-claude-gemini-and-llm7-2gc8</guid>
-    <pubDate>Mon, 17 Aug 2026 20:31:47 +0000</pubDate>
+    <title>A Generated SQL Query Got Faster by Returning Fewer Rows. Test That Before You Merge It</title>
+    <link>https://dev.to/codepy_1473/a-generated-sql-query-got-faster-by-returning-fewer-rows-test-that-before-you-merge-it-h50</link>
+    <guid>https://dev.to/codepy_1473/a-generated-sql-query-got-faster-by-returning-fewer-rows-test-that-before-you-merge-it-h50</guid>
+    <pubDate>Tue, 18 Aug 2026 01:34:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey everyone! 👋 I&apos;m a solo developer and I built a React SDK that makes it super easy to add AI chat to any app. What it does: Supports Claude, Gemini, and LLM7 in one package Beautiful,...</description>
+    <description>Have you ever watched a generated SQL refactor run faster and assumed it must be correct? That assumption breaks down when the speedup comes from an inner join that silently drops rows the old...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My best-looking GitHub Actions run shipped zero installs</title>
-    <link>https://dev.to/heinrichneb/my-best-looking-github-actions-run-shipped-zero-installs-1ee8</link>
-    <guid>https://dev.to/heinrichneb/my-best-looking-github-actions-run-shipped-zero-installs-1ee8</guid>
-    <pubDate>Mon, 17 Aug 2026 20:28:16 +0000</pubDate>
+    <title>A Free Model vs 30 Security Advisory Records: An Accuracy Test You Can Rerun</title>
+    <link>https://dev.to/gitlab_3188/a-free-model-vs-30-security-advisory-records-an-accuracy-test-you-can-rerun-67h</link>
+    <guid>https://dev.to/gitlab_3188/a-free-model-vs-30-security-advisory-records-an-accuracy-test-you-can-rerun-67h</guid>
+    <pubDate>Tue, 18 Aug 2026 01:30:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quick take Your publish job is green. That proves you sent the file. It does not prove anyone can install it. Every publish step I have ever written ended at the upload. The API accepted the...</description>
+    <description>A single wrong severity label can push a bad dependency upgrade into production. An advisory said &quot;moderate.&quot; The package in our tree was critical. The model guessed low. I did not trust the model...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your CI is not flaky. It fails every 7 days.</title>
-    <link>https://dev.to/heinrichneb/your-ci-is-not-flaky-it-fails-every-7-days-4ljd</link>
-    <guid>https://dev.to/heinrichneb/your-ci-is-not-flaky-it-fails-every-7-days-4ljd</guid>
-    <pubDate>Mon, 17 Aug 2026 20:28:15 +0000</pubDate>
+    <title>DeepSeek vs Qwen vs Kimi vs GLM: A Cloud Architect&apos;s Take</title>
+    <link>https://dev.to/bolddeck/deepseek-vs-qwen-vs-kimi-vs-glm-a-cloud-architects-take-278m</link>
+    <guid>https://dev.to/bolddeck/deepseek-vs-qwen-vs-kimi-vs-glm-a-cloud-architects-take-278m</guid>
+    <pubDate>Tue, 18 Aug 2026 01:29:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quick take Before you label a failing test flaky, write down the dates it failed. Flaky has no rhythm. Yours might. &quot;Flaky&quot; is the most expensive word in CI. It closes the investigation. Nobody...</description>
+    <description>DeepSeek vs Qwen vs Kimi vs GLM: A Cloud Architect&apos;s Take I&apos;ve been running LLM workloads in production for the better part of three years now, and the past twelve months have been wild. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Has your GitHub Actions gate ever said no?</title>
-    <link>https://dev.to/heinrichneb/has-your-github-actions-gate-ever-said-no-dj2</link>
-    <guid>https://dev.to/heinrichneb/has-your-github-actions-gate-ever-said-no-dj2</guid>
-    <pubDate>Mon, 17 Aug 2026 20:28:14 +0000</pubDate>
+    <title>An ambiguity gate for AI coding agents: measure the request before writing code</title>
+    <link>https://dev.to/q00/an-ambiguity-gate-for-ai-coding-agents-measure-the-request-before-writing-code-4n75</link>
+    <guid>https://dev.to/q00/an-ambiguity-gate-for-ai-coding-agents-measure-the-request-before-writing-code-4n75</guid>
+    <pubDate>Tue, 18 Aug 2026 01:27:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quick take Quick question. That guard you added to CI last month — have you ever watched it refuse anything? Most of us test in one direction. We prove the thing works. We almost never prove the...</description>
+    <description>Every AI coding agent I have used will happily start writing code from a one-line request. &quot;Build a task management CLI&quot; leaves the data model, storage, priority rules, and ID scheme for the model...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Parsing numbers from JSON in Python</title>
-    <link>https://dev.to/pomidoroshev/parsing-numbers-from-json-in-python-2e8c</link>
-    <guid>https://dev.to/pomidoroshev/parsing-numbers-from-json-in-python-2e8c</guid>
-    <pubDate>Mon, 17 Aug 2026 20:25:39 +0000</pubDate>
+    <title>Reading an IP Address Like a Security Analyst: A Field Guide</title>
+    <link>https://dev.to/cris240493/reading-an-ip-address-like-a-security-analyst-a-field-guide-1ffg</link>
+    <guid>https://dev.to/cris240493/reading-an-ip-address-like-a-security-analyst-a-field-guide-1ffg</guid>
+    <pubDate>Tue, 18 Aug 2026 01:18:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Consider this hypothetical endpoint in a Python-based web-server: # withdraw.py import json from flask import Flask, request app = Flask(__name__) STATE = {&quot;balance&quot;: 1000} @app.post(&quot;/withdraw&quot;)...</description>
+    <description>Every device on the internet is reachable through an IP address. Behind each address hides a story: a country, an organization, a network operator, and sometimes a threat actor. Reading that story...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Real-Time Robot Telemetry Visualization on Android</title>
-    <link>https://dev.to/vmodal_ai/real-time-robot-telemetry-visualization-on-android-1893</link>
-    <guid>https://dev.to/vmodal_ai/real-time-robot-telemetry-visualization-on-android-1893</guid>
-    <pubDate>Mon, 17 Aug 2026 20:25:12 +0000</pubDate>
+    <title>Why Strong Google Rankings Do Not Necessarily Translate Into LLM Brand Visibility</title>
+    <link>https://dev.to/alifar/why-strong-google-rankings-do-not-necessarily-translate-into-llm-brand-visibility-2hb7</link>
+    <guid>https://dev.to/alifar/why-strong-google-rankings-do-not-necessarily-translate-into-llm-brand-visibility-2hb7</guid>
+    <pubDate>Tue, 18 Aug 2026 01:15:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Real-Time Robot Telemetry Visualization on Android Introduction Robots continuously generate telemetry such as position, velocity, battery level, temperature, sensor readings, and operating state....</description>
+    <description>Strong Google rankings remain valuable, but they are not a direct measure of whether a brand will be surfaced, cited, or recalled in LLM-driven search experiences. Fractl&apos;s Generative Engine...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Entry-Level Job Is the Canary</title>
-    <link>https://dev.to/prpatel05/the-entry-level-job-is-the-canary-2m3b</link>
-    <guid>https://dev.to/prpatel05/the-entry-level-job-is-the-canary-2m3b</guid>
-    <pubDate>Mon, 17 Aug 2026 20:24:29 +0000</pubDate>
+    <title>Generated Report Delivery — Bulk Email, SMS, Queue Workers, and Cron Reconciliation</title>
+    <link>https://dev.to/ashwhispertorvin64/generated-report-delivery-bulk-email-sms-queue-workers-and-cron-reconciliation-264p</link>
+    <guid>https://dev.to/ashwhispertorvin64/generated-report-delivery-bulk-email-sms-queue-workers-and-cron-reconciliation-264p</guid>
+    <pubDate>Tue, 18 Aug 2026 01:13:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your headcount plan is a forecast about which tasks survive. Most people are making it from a statistic they have misread. The statistic is 16%, and it comes from Canaries in the Coal Mine?, a...</description>
+    <description>A Node.js service tries to send bulk event notifications for a generated media report, but the page says report_delivery_unknown after its email worker completes. The worker dashboard is green....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Android + ROS 2: Building a Robot Control App with Kotlin</title>
-    <link>https://dev.to/vmodal_ai/android-ros-2-building-a-robot-control-app-with-kotlin-59m1</link>
-    <guid>https://dev.to/vmodal_ai/android-ros-2-building-a-robot-control-app-with-kotlin-59m1</guid>
-    <pubDate>Mon, 17 Aug 2026 20:24:21 +0000</pubDate>
+    <title>So we got hit by a scraping attack today. 
+
+AI Agent scraped one of my website, even cloudflare out of the box wasn’t able to stop it. 5m requests in a span of 2hrs
+
+They were using Lightpanda, a headless browser for agents, but instead of running workflow</title>
+    <link>https://dev.to/jeramos/so-we-got-hit-by-a-scraping-attack-today-ai-agent-scraped-one-of-my-website-even-cloudflare-4n2l</link>
+    <guid>https://dev.to/jeramos/so-we-got-hit-by-a-scraping-attack-today-ai-agent-scraped-one-of-my-website-even-cloudflare-4n2l</guid>
+    <pubDate>Tue, 18 Aug 2026 01:09:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Android + ROS 2: Building a Robot Control App with Kotlin Introduction Physical AI is bringing together robotics, edge computing, computer vision, and intelligent mobile interfaces. Android is a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Graceful Multi-Tenant Lifecycle: Managing Isolated Containers, Drains, and Deferred Purges in Python</title>
-    <link>https://dev.to/andriimahalias/graceful-multi-tenant-lifecycle-managing-isolated-containers-drains-and-deferred-purges-in-python-1dk2</link>
-    <guid>https://dev.to/andriimahalias/graceful-multi-tenant-lifecycle-managing-isolated-containers-drains-and-deferred-purges-in-python-1dk2</guid>
-    <pubDate>Mon, 17 Aug 2026 20:20:34 +0000</pubDate>
+    <title>Building an Immersive 3D Dice Roller with React and Three.js</title>
+    <link>https://dev.to/mahankenway/building-an-immersive-3d-dice-roller-with-react-and-threejs-15jj</link>
+    <guid>https://dev.to/mahankenway/building-an-immersive-3d-dice-roller-with-react-and-threejs-15jj</guid>
+    <pubDate>Tue, 18 Aug 2026 01:06:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When building a multi-tenant SaaS control plane that provisions dedicated infrastructure per client - such as isolated Docker containers running alongside dynamic PostgreSQL databases - managing...</description>
+    <description>Hey RPG community! I wanted to share a tool I built for my tabletop sessions — Arcane-Dice. Inspired by the immersive dice rolling experience in Baldur&apos;s Gate 3, I built this web-based 3D dice...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Most Important Feature of a Legal AI Might Be Knowing When Not to Answer</title>
-    <link>https://dev.to/jimmyknowslaw/the-most-important-feature-of-a-legal-ai-might-be-knowing-when-not-to-answer-4g0e</link>
-    <guid>https://dev.to/jimmyknowslaw/the-most-important-feature-of-a-legal-ai-might-be-knowing-when-not-to-answer-4g0e</guid>
-    <pubDate>Mon, 17 Aug 2026 20:20:14 +0000</pubDate>
+    <title>From 30 Minutes to 3 Seconds: Automated LLM Memory Recall Testing with pytest + FAISS</title>
+    <link>https://dev.to/_eb7f2a654e97a60ae9f96e/from-30-minutes-to-3-seconds-automated-llm-memory-recall-testing-with-pytest-faiss-3f12</link>
+    <guid>https://dev.to/_eb7f2a654e97a60ae9f96e/from-30-minutes-to-3-seconds-automated-llm-memory-recall-testing-with-pytest-faiss-3f12</guid>
+    <pubDate>Tue, 18 Aug 2026 01:05:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One of the things that gets overlooked when building AI for legal use is uncertainty. Most AI products are designed to answer questions. Legal questions are different. A person might type: “I got...</description>
+    <description>At 1:30 a.m., the user group blew up: &quot;Why did the AI forget my dietary restriction again?&quot; I dragged myself out of bed and checked. The memory &quot;no cilantro&quot; was still in the memory store, but...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Anthropic’s annualized revenue surges to $65B</title>
+    <link>https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/</link>
+    <guid>https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/</guid>
+    <pubDate>Mon, 17 Aug 2026 23:56:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The model maker added $18 billion in annualized revenue in two months.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Reddit’s AI is turning posts into podcasts and short videos</title>
+    <link>https://www.theverge.com/tech/981289/reddit-ai-text-video-posts</link>
+    <guid>https://www.theverge.com/tech/981289/reddit-ai-text-video-posts</guid>
+    <pubDate>Mon, 17 Aug 2026 23:46:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Reddit is trying out a new way for people to take in content on Reddit: by turning text posts into audio / video content. As part of an experiment, some posts are being adapted into videos that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI automation startup Relay shuts down, staff joins Google’s Chrome team</title>
+    <link>https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/</link>
+    <guid>https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/</guid>
+    <pubDate>Mon, 17 Aug 2026 21:27:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>&quot;We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,&quot; Jacob Bank, Relay founder and CEO, said.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects</title>
+    <link>https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</link>
+    <guid>https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</guid>
+    <pubDate>Mon, 17 Aug 2026 21:03:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>ABC&amp;#8217;s livestreamed news show is powered by trending topics</title>
+    <link>https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show</link>
+    <guid>https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show</guid>
+    <pubDate>Mon, 17 Aug 2026 20:59:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social media and searching on the web, as reported earlier by Variety. Though the...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Same Cluster, 33 Points More Utilization: What Changed Was the Order</title>
@@ -230,51 +278,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Apple&apos;s changing its rules for data collection consent prompts after Germany&apos;s Federal Cartel Office accused Apple of giving the prompts a design that favored its own apps. Apple&apos;s App Tracking...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>WiiM’s capable HomePod-esque smart speaker is almost $50 off</title>
-    <link>https://www.theverge.com/gadgets/980916/wiim-sound-speaker-lite-airpods-max-2-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/980916/wiim-sound-speaker-lite-airpods-max-2-deal-sale</guid>
-    <pubDate>Mon, 17 Aug 2026 14:35:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The smart speaker market is more or less dominated by major tech companies: Apple, Google, Sonos, and Amazon. But WiiM’s powerful 100W Sound smart speaker is an attractive alternative because it’s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Uber partners with Zipline on Eats drone deliveries</title>
-    <link>https://www.theverge.com/transportation/980912/uber-eats-zipline-drone-delivery-investment</link>
-    <guid>https://www.theverge.com/transportation/980912/uber-eats-zipline-drone-delivery-investment</guid>
-    <pubDate>Mon, 17 Aug 2026 14:24:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Uber is teaming up with drone company Zipline to start airborne takeout deliveries later this year, with the goal of reaching one million daily drone deliveries by 2029. Uber also said it was...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nvidia discloses $21B stake in SpaceX</title>
-    <link>https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/</link>
-    <guid>https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/</guid>
-    <pubDate>Mon, 17 Aug 2026 14:22:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More</title>
-    <link>https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</link>
-    <guid>https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</guid>
-    <pubDate>Mon, 17 Aug 2026 13:23:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Wispr raises $280M at $2B valuation as it looks beyond dictation</title>
-    <link>https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/</link>
-    <guid>https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/</guid>
-    <pubDate>Mon, 17 Aug 2026 13:10:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Wispr’s total funding is now over $361 million.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
