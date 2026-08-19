@@ -5,43 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 18 Aug 2026 20:40:25 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 01:52:38 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Most Claude Code Complaints Are Context Problems, Not Model Problems</title>
-    <link>https://dev.to/asfbar/most-claude-code-complaints-are-context-problems-not-model-problems-1dak</link>
-    <guid>https://dev.to/asfbar/most-claude-code-complaints-are-context-problems-not-model-problems-1dak</guid>
-    <pubDate>Tue, 18 Aug 2026 20:22:15 +0000</pubDate>
+    <title>How to Build a CAD-Style Layout Editor on Top of Extracted HTML</title>
+    <link>https://dev.to/bonzai2carn/how-to-build-a-cad-style-layout-editor-on-top-of-extracted-html-4ihd</link>
+    <guid>https://dev.to/bonzai2carn/how-to-build-a-cad-style-layout-editor-on-top-of-extracted-html-4ihd</guid>
+    <pubDate>Wed, 19 Aug 2026 01:45:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve been spending time in the Claude Code community lately, reading through the complaint threads. Model got nerfed. Token usage exploded. It ignores my CLAUDE.md. It&apos;s vague and won&apos;t explain...</description>
+    <description>TLDR If you have extracted a PDF to HTML and want users to rearrange and edit the layout in the browser, you do not need position: absolute or canvas overlays. The extracted DOM is already a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Features Users Don’t Want (And What They Actually Need)</title>
-    <link>https://dev.to/adilaidev/ai-features-users-dont-want-and-what-they-actually-need-5556</link>
-    <guid>https://dev.to/adilaidev/ai-features-users-dont-want-and-what-they-actually-need-5556</guid>
-    <pubDate>Tue, 18 Aug 2026 20:21:30 +0000</pubDate>
+    <title>Warp terminal alternatives in 2026 (and 2 outdated reasons to switch)</title>
+    <link>https://dev.to/chen_zong_43c81f1a65b1a54/warp-terminal-alternatives-in-2026-and-2-outdated-reasons-to-switch-1ll5</link>
+    <guid>https://dev.to/chen_zong_43c81f1a65b1a54/warp-terminal-alternatives-in-2026-and-2-outdated-reasons-to-switch-1ll5</guid>
+    <pubDate>Wed, 19 Aug 2026 01:37:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Companies keep adding AI features, assuming users will embrace them. The reality is different. Most people don’t want another tool that complicates their work. They want AI that makes their jobs...</description>
+    <description>The short answer Warp is an excellent AI terminal — and in 2026 it&apos;s a different product than most &quot;Warp alternative&quot; articles describe. Two of the old complaints are gone: Warp no longer forces...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Green Test That Lied</title>
-    <link>https://dev.to/fibuladev/the-green-test-that-lied-29n7</link>
-    <guid>https://dev.to/fibuladev/the-green-test-that-lied-29n7</guid>
-    <pubDate>Tue, 18 Aug 2026 20:09:39 +0000</pubDate>
+    <title>How 500 Concurrent HN Connections Took Down Peakd.io - and How I Rebuilt the Infrastructure</title>
+    <link>https://dev.to/peakd/how-500-concurrent-hn-connections-took-down-peakd-and-how-i-rebuilt-the-infrastructure-4537</link>
+    <guid>https://dev.to/peakd/how-500-concurrent-hn-connections-took-down-peakd-and-how-i-rebuilt-the-infrastructure-4537</guid>
+    <pubDate>Wed, 19 Aug 2026 01:33:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Episode 09&apos;s visual-prompt file passed every automated check I had. Green across the board. And I was looking straight at it, so I knew the file was broken. That green build is the most dangerous...</description>
+    <description>A few weeks ago I posted Peakd on Hacker News, and ~500 concurrent connections took the site down in under a minute. The failure: a single Express instance, no HTTP cache, no connection pooling,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The HTML canvas quietly deletes your photo&apos;s metadata — and one day that bites you</title>
-    <link>https://dev.to/bellsal_b44bf6d/the-html-canvas-quietly-deletes-your-photos-metadata-and-one-day-that-bites-you-2h68</link>
-    <guid>https://dev.to/bellsal_b44bf6d/the-html-canvas-quietly-deletes-your-photos-metadata-and-one-day-that-bites-you-2h68</guid>
-    <pubDate>Tue, 18 Aug 2026 20:05:32 +0000</pubDate>
+    <title>Why I Don’t Want AI Coding Agents to Have Shell Access by Default</title>
+    <link>https://dev.to/lukie81/why-i-dont-want-ai-coding-agents-to-have-shell-access-by-default-kng</link>
+    <guid>https://dev.to/lukie81/why-i-dont-want-ai-coding-agents-to-have-shell-access-by-default-kng</guid>
+    <pubDate>Wed, 19 Aug 2026 01:33:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I build browser-based image tools, and the single most confusing class of bug reports I get all trace back to the same fact: the moment a photo passes through a &lt;canvas&gt;, its metadata is gone. No...</description>
+    <description>AI coding agents are becoming very good at working with real codebases. They can inspect a repository, trace bugs across multiple files, suggest architectural changes, write tests, and...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Building a server monitoring SaaS on Cloudflare Workers — architecture, decisions, mistakes</title>
+    <link>https://dev.to/shannonops/building-a-server-monitoring-saas-on-cloudflare-workers-architecture-decisions-mistakes-7em</link>
+    <guid>https://dev.to/shannonops/building-a-server-monitoring-saas-on-cloudflare-workers-architecture-decisions-mistakes-7em</guid>
+    <pubDate>Wed, 19 Aug 2026 01:33:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR Pulse is a server monitoring SaaS I built as a solo founder for Latin American small businesses. It runs entirely on Cloudflare Workers + Turso (libsql) + R2, with a Go agent that installs...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Best Strategy Frameworks Every Product Leader Should Know</title>
+    <link>https://dev.to/david_moralesweaver_3807/best-strategy-frameworks-every-product-leader-should-know-27hi</link>
+    <guid>https://dev.to/david_moralesweaver_3807/best-strategy-frameworks-every-product-leader-should-know-27hi</guid>
+    <pubDate>Wed, 19 Aug 2026 01:31:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Product leaders have no shortage of frameworks. There are frameworks for prioritization, discovery, roadmapping, growth, pricing, positioning, customer interviews, experimentation, and almost...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Google Gemini Adds Free Full-Length SAT Practice Tests With Instant Study Feedback</title>
+    <link>https://dev.to/alifar/google-gemini-adds-free-full-length-sat-practice-tests-with-instant-study-feedback-25d4</link>
+    <guid>https://dev.to/alifar/google-gemini-adds-free-full-length-sat-practice-tests-with-instant-study-feedback-25d4</guid>
+    <pubDate>Wed, 19 Aug 2026 01:30:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Google Gemini now lets users take free, full-length SAT practice tests directly in the Gemini app. The feature combines vetted test content from education partners including The Princeton Review...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The cp932 crash in the build gate that only happened on Windows — static detection, behavioral testing, and a negative check</title>
+    <link>https://dev.to/susumun/the-cp932-crash-in-the-build-gate-that-only-happened-on-windows-static-detection-behavioral-mpd</link>
+    <guid>https://dev.to/susumun/the-cp932-crash-in-the-build-gate-that-only-happened-on-windows-static-detection-behavioral-mpd</guid>
+    <pubDate>Wed, 19 Aug 2026 01:26:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The symptom During the Windows build for v1.6.11, the build gate reported &quot;version number consistency check failed.&quot; But the version numbers were correct everywhere. The real cause was not a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We scanned a bunch of vibe-coded repos. Here&apos;s what showed up every time.</title>
+    <link>https://dev.to/gojongo/we-scanned-a-bunch-of-vibe-coded-repos-heres-what-showed-up-every-time-5a5m</link>
+    <guid>https://dev.to/gojongo/we-scanned-a-bunch-of-vibe-coded-repos-heres-what-showed-up-every-time-5a5m</guid>
+    <pubDate>Wed, 19 Aug 2026 01:24:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>We know AI builds fast. We also know that things happen inside the AI black box that no one plans or intends. We set out to open the box and look at what AI produced---not in a demo, not in a blog...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Designing High-Availability Architecture for Google Cloud: Real-World GCP Architect Insights</title>
+    <link>https://dev.to/packetsnifferben/designing-high-availability-architecture-for-google-cloud-real-world-gcp-architect-insights-4ekd</link>
+    <guid>https://dev.to/packetsnifferben/designing-high-availability-architecture-for-google-cloud-real-world-gcp-architect-insights-4ekd</guid>
+    <pubDate>Wed, 19 Aug 2026 01:21:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Designing enterprise applications on Google Cloud Platform (GCP) requires moving beyond theoretical product features and addressing real-world operational challenges—such as high availability,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Cursor capitalizes on GitHub frustration, launches rival hosting platform</title>
+    <link>https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/</link>
+    <guid>https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/</guid>
+    <pubDate>Tue, 18 Aug 2026 22:14:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers&apos; long preferred favorite, GitHub.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>SteelSeries’ comfy wireless gaming headset is nearly half off</title>
@@ -51,60 +114,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>A Guide to Urgent Compliance Notifications with Delivery Polling and Fallback Logic</title>
-    <link>https://dev.to/zanesterling7589/a-guide-to-urgent-compliance-notifications-with-delivery-polling-and-fallback-logic-llo</link>
-    <guid>https://dev.to/zanesterling7589/a-guide-to-urgent-compliance-notifications-with-delivery-polling-and-fallback-logic-llo</guid>
-    <pubDate>Tue, 18 Aug 2026 20:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: for an urgent US/EU compliance notice, send SMS first, poll its delivery state, and send email only after a terminal nondelivery result or a bounded deadline; keep the policy, audit...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building your own Git remote in under an hour</title>
-    <link>https://dev.to/calganaygun/building-your-own-git-remote-in-under-an-hour-1gjp</link>
-    <guid>https://dev.to/calganaygun/building-your-own-git-remote-in-under-an-hour-1gjp</guid>
-    <pubDate>Tue, 18 Aug 2026 19:59:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>git·vodka&apos;s idea had been sitting in the back of my mind for a while. not as some big product idea. I just wanted a tiny git remote I could run for myself, friends, and family. something a little...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>NVIDIA Blackwell NVL72 Overheating: Tundaan Masif ke Q1 2025, Hyperscaler Revisi Capex</title>
-    <link>https://dev.to/ibramedia/nvidia-blackwell-nvl72-overheating-tundaan-masif-ke-q1-2025-hyperscaler-revisi-capex-1h0c</link>
-    <guid>https://dev.to/ibramedia/nvidia-blackwell-nvl72-overheating-tundaan-masif-ke-q1-2025-hyperscaler-revisi-capex-1h0c</guid>
-    <pubDate>Tue, 18 Aug 2026 19:58:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Kronologi Krisis Termal NVL72: Dari Announce ke Redesign Maret 2024: Launch Blackwell Platform NVIDIA meluncurkan platform Blackwell pada Maret 2024 dengan target produksi volume NVL72 di H2 2024....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Everything Is an Agent Now, and they are arguing with me</title>
-    <link>https://dev.to/uipath/everything-is-an-agent-now-and-they-are-arguing-with-me-5fpa</link>
-    <guid>https://dev.to/uipath/everything-is-an-agent-now-and-they-are-arguing-with-me-5fpa</guid>
-    <pubDate>Tue, 18 Aug 2026 19:58:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I joined UiPath in July 2026 after 7+ years as a Developer Advocate at AWS. Just over a month in, and I&apos;ve had to unlearn something I&apos;ve depended on when building automations most of my career:...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Timeout Is Not Failure: The State Your AI Agent Is Missing</title>
-    <link>https://dev.to/anasbuilds997/timeout-is-not-failure-the-state-your-ai-agent-is-missing-1fml</link>
-    <guid>https://dev.to/anasbuilds997/timeout-is-not-failure-the-state-your-ai-agent-is-missing-1fml</guid>
-    <pubDate>Tue, 18 Aug 2026 19:56:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When an AI agent&apos;s HTTP request or browser tool call times out, what does your system record? If it records failed, the agent has a blind spot. A network timeout does not mean the operation failed...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Semantic HTML Is a Shared Language for Accessibility, SEO, and AI</title>
-    <link>https://dev.to/edikka/semantic-html-is-a-shared-language-for-accessibility-seo-and-ai-53mh</link>
-    <guid>https://dev.to/edikka/semantic-html-is-a-shared-language-for-accessibility-seo-and-ai-53mh</guid>
-    <pubDate>Tue, 18 Aug 2026 19:55:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A page can look perfectly clear and still be structurally ambiguous. Visual design gives sighted users powerful clues: size, color, spacing, position, icons, and motion. Those clues weaken or...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Robin Williams’ Instagram account brought back to fight ‘AI abuse’</title>
@@ -125,7 +134,7 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Strengthening Democratic Oversight in National Security</title>
+    <title>Strengthening democratic oversight in national security</title>
     <link>https://openai.com/index/strengthening-democratic-oversight-in-national-security</link>
     <guid>https://openai.com/index/strengthening-democratic-oversight-in-national-security</guid>
     <pubDate>Tue, 18 Aug 2026 19:00:00 +0000</pubDate>
@@ -265,15 +274,6 @@
     <pubDate>Tue, 18 Aug 2026 13:50:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Perplexity’s free AI offer left it with millions more users in India</title>
-    <link>https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/</link>
-    <guid>https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/</guid>
-    <pubDate>Tue, 18 Aug 2026 13:45:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Perplexity&apos;s India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.</description>
     <category>AI</category>
   </item>
 </channel>
