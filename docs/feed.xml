@@ -5,97 +5,241 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 19 Aug 2026 08:54:05 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 13:08:03 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>We Publish the Data Before It&apos;s Correct. On Purpose.</title>
-    <link>https://dev.to/srdjan_poppovic/we-publish-the-data-before-its-correct-on-purpose-4j13</link>
-    <guid>https://dev.to/srdjan_poppovic/we-publish-the-data-before-its-correct-on-purpose-4j13</guid>
-    <pubDate>Wed, 19 Aug 2026 08:52:13 +0000</pubDate>
+    <title>Implementing Support Agent 2FA with SMS OTP and Email Fallback</title>
+    <link>https://dev.to/saxonfletcher2366/implementing-support-agent-2fa-with-sms-otp-and-email-fallback-340e</link>
+    <guid>https://dev.to/saxonfletcher2366/implementing-support-agent-2fa-with-sms-otp-and-email-fallback-340e</guid>
+    <pubDate>Wed, 19 Aug 2026 13:05:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Someone asks for yesterday&apos;s maximum temperature in Belgrade. We don&apos;t have it. We won&apos;t have it for another four days, and when we do have it, the number will be wrong — not badly wrong, but...</description>
+    <description>Short answer: build passwordless support-agent sign-in as one OTP challenge with two delivery attempts, then feed permanent email bounces into the same recipient-suppression boundary used by...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built FridgeChef: A Web App That Turns Your Ingredients Into Recipe Ideas 🍳</title>
-    <link>https://dev.to/hiba_hashimsaleem_530b30/i-built-fridgechef-a-web-app-that-turns-your-ingredients-into-recipe-ideas-17kf</link>
-    <guid>https://dev.to/hiba_hashimsaleem_530b30/i-built-fridgechef-a-web-app-that-turns-your-ingredients-into-recipe-ideas-17kf</guid>
-    <pubDate>Wed, 19 Aug 2026 08:46:08 +0000</pubDate>
+    <title>Everyone is saving 60% on LLM costs. Nobody will show you the numbers.</title>
+    <link>https://dev.to/fortitudeomnis/everyone-is-saving-60-on-llm-costs-nobody-will-show-you-the-numbers-5e7j</link>
+    <guid>https://dev.to/fortitudeomnis/everyone-is-saving-60-on-llm-costs-nobody-will-show-you-the-numbers-5e7j</guid>
+    <pubDate>Wed, 19 Aug 2026 13:05:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Have you ever opened your fridge, seen a bunch of random ingredients, and thought: “What am I supposed to make with this?” 😭 That’s the problem I wanted to solve with FridgeChef. FridgeChef is a...</description>
+    <description>Every few weeks the same post does the rounds. Someone&apos;s routing layer cut their LLM bill by 60%, &quot;with no drop in quality&quot;, and here&apos;s a lovely chart to prove it. Except it doesn&apos;t prove...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Docker, Index, and a very expensive lesson in reading pricing tables</title>
-    <link>https://dev.to/miles_huynh/docker-index-and-a-very-expensive-lesson-in-reading-pricing-tables-2k96</link>
-    <guid>https://dev.to/miles_huynh/docker-index-and-a-very-expensive-lesson-in-reading-pricing-tables-2k96</guid>
-    <pubDate>Wed, 19 Aug 2026 08:42:36 +0000</pubDate>
+    <title>Greatness Is Forged by Limitation</title>
+    <link>https://dev.to/adamthedeveloper/greatness-is-forged-by-limitation-e20</link>
+    <guid>https://dev.to/adamthedeveloper/greatness-is-forged-by-limitation-e20</guid>
+    <pubDate>Wed, 19 Aug 2026 13:04:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Quiet learning day, mostly — until AWS almost let me subscribe to something that costs $57,600 a month. Dockerizing Bludit, locally Containerized nginx + PHP-FPM + a fresh Bludit clone with Docker...</description>
+    <description>Can&apos;t believe I spent 2 weeks writing this. Last week, I gave a talk at a Cursor community event about AI and how it&apos;s changing the way we build software. The event went great, and after the talk,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI coding agent usage limits: what actually resets, and when</title>
-    <link>https://dev.to/sam_novak_574b07811e18495/ai-coding-agent-usage-limits-what-actually-resets-and-when-7h4</link>
-    <guid>https://dev.to/sam_novak_574b07811e18495/ai-coding-agent-usage-limits-what-actually-resets-and-when-7h4</guid>
-    <pubDate>Wed, 19 Aug 2026 08:40:05 +0000</pubDate>
+    <title>Syncing Webround and Brevo newsletter subscribers on Cloudflare Workers</title>
+    <link>https://dev.to/luca_at_webround/syncing-webround-and-brevo-newsletter-subscribers-on-cloudflare-workers-3pbl</link>
+    <guid>https://dev.to/luca_at_webround/syncing-webround-and-brevo-newsletter-subscribers-on-cloudflare-workers-3pbl</guid>
+    <pubDate>Wed, 19 Aug 2026 13:03:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI coding agent usage limits: what actually resets, and when Most confusion about AI usage limits is not about the numbers. It is about the fact that every vendor meters something different, on...</description>
+    <description>When a client migrated their store to Webround, they already had an active Brevo account with about 3,000 newsletter contacts built up over multiple years. However, their original integration had...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Practical Workflow for Delegating Software Tasks to AI Agents</title>
-    <link>https://dev.to/paruyryan/a-practical-workflow-for-delegating-software-tasks-to-ai-agents-4epe</link>
-    <guid>https://dev.to/paruyryan/a-practical-workflow-for-delegating-software-tasks-to-ai-agents-4epe</guid>
-    <pubDate>Wed, 19 Aug 2026 08:36:17 +0000</pubDate>
+    <title>The Names Came In as Gibberish and Excel Said Nothing</title>
+    <link>https://dev.to/michaelnocito/the-names-came-in-as-gibberish-and-excel-said-nothing-8gc</link>
+    <guid>https://dev.to/michaelnocito/the-names-came-in-as-gibberish-and-excel-said-nothing-8gc</guid>
+    <pubDate>Wed, 19 Aug 2026 13:00:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI coding agents are becoming capable of handling increasingly complex development work. But the quality of the result still depends heavily on how the task is prepared, assigned, reviewed, and...</description>
+    <description>This article gives you the fix for a specific ugly sight: names importing as Ã©, Ã¼ and rows of symbols where letters should be. The fix at import is one dropdown: Data &gt; From Text/CSV, set File...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>MCP, Subagents, and Hooks in Claude Code: The Guide I Wish I&apos;d Had</title>
-    <link>https://dev.to/alvarito1983/mcp-subagents-and-hooks-in-claude-code-the-guide-i-wish-id-had-4gg</link>
-    <guid>https://dev.to/alvarito1983/mcp-subagents-and-hooks-in-claude-code-the-guide-i-wish-id-had-4gg</guid>
-    <pubDate>Wed, 19 Aug 2026 08:36:15 +0000</pubDate>
+    <title>Does the European Accessibility Act apply to you? If you employ fewer than 10 people, probably not.</title>
+    <link>https://dev.to/grounded/does-the-european-accessibility-act-apply-to-you-if-you-employ-fewer-than-10-people-probably-not-501e</link>
+    <guid>https://dev.to/grounded/does-the-european-accessibility-act-apply-to-you-if-you-employ-fewer-than-10-people-probably-not-501e</guid>
+    <pubDate>Wed, 19 Aug 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on El Rack — Spanish tech reviews from a sysadmin/homelab perspective. Claude Code is capable right out of the box, but it starts to feel thin the moment your project needs to...</description>
+    <description>I sell a tool that helps with European Accessibility Act compliance, so this is an odd article to write: most of the people currently being sold tools like mine do not have to comply with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Our Documentation Was Lying. The Model Believed It.</title>
-    <link>https://dev.to/srdjan_poppovic/our-documentation-was-lying-the-model-believed-it-6n</link>
-    <guid>https://dev.to/srdjan_poppovic/our-documentation-was-lying-the-model-believed-it-6n</guid>
-    <pubDate>Wed, 19 Aug 2026 08:26:58 +0000</pubDate>
+    <title>Welcome Thread - v389</title>
+    <link>https://dev.to/devteam/welcome-thread-v389-onj</link>
+    <guid>https://dev.to/devteam/welcome-thread-v389-onj</guid>
+    <pubDate>Wed, 19 Aug 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There is a variable called slp — sea-level pressure. Our API documentation lists it as available. Our error messages list it among the valid options. Our fine-tuned model, asked about air pressure...</description>
+    <description>Leave a comment below to introduce yourself! You can talk about what brought you here, what you&apos;re learning, or just a fun fact about yourself. Reply to someone&apos;s comment, either with a question...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Excel in Real-World Data Analysis: Still the Workhorse</title>
-    <link>https://dev.to/anthony_kibet_4f0cc67d37f/-excel-in-real-world-data-analysis-still-the-workhorse-2608</link>
-    <guid>https://dev.to/anthony_kibet_4f0cc67d37f/-excel-in-real-world-data-analysis-still-the-workhorse-2608</guid>
-    <pubDate>Wed, 19 Aug 2026 08:23:18 +0000</pubDate>
+    <title>A practical guide to live streaming protocols, latency and scaling</title>
+    <link>https://dev.to/ankush_banyal_708fa19a469/a-practical-guide-to-live-streaming-protocols-latency-and-scaling-15p8</link>
+    <guid>https://dev.to/ankush_banyal_708fa19a469/a-practical-guide-to-live-streaming-protocols-latency-and-scaling-15p8</guid>
+    <pubDate>Wed, 19 Aug 2026 12:55:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ask any data analyst what tool they touched first, and there&apos;s a good chance the answer is Excel. Despite the rise of Python, R, and cloud-based BI platforms, Excel hasn&apos;t gone anywhere. It&apos;s...</description>
+    <description>Live video looks simple until you build it. Then you discover that &quot;low latency&quot; means five different things, that your CDN and your latency target are fighting each other, and that the box which...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Trust is a feature you build, not a claim you make</title>
-    <link>https://dev.to/issam_fathi/trust-is-a-feature-you-build-not-a-claim-you-make-24mo</link>
-    <guid>https://dev.to/issam_fathi/trust-is-a-feature-you-build-not-a-claim-you-make-24mo</guid>
-    <pubDate>Wed, 19 Aug 2026 08:17:02 +0000</pubDate>
+    <title>Learnt Git Rebasing the hard way</title>
+    <link>https://dev.to/satwiksps/learnt-git-rebassing-the-hard-way-2dmd</link>
+    <guid>https://dev.to/satwiksps/learnt-git-rebassing-the-hard-way-2dmd</guid>
+    <pubDate>Wed, 19 Aug 2026 12:49:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent part of my career in e commerce, in the years when online retail was still arguing with itself about whether people would ever hand over card details to a stranger. The industry solved...</description>
+    <description>Hello again! Weeks 9 and 10 covered the fourth estimator family, the first release that carries my work, and a git mess that taught me more than the code did. PR #1920 merged, and sbi 0.27 shipped...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Help Intern Projects Succeed in the Real World (Beyond a Great Demo)</title>
-    <link>https://dev.to/hainanzhao/how-to-help-intern-projects-succeed-in-the-real-world-beyond-a-great-demo-28c5</link>
-    <guid>https://dev.to/hainanzhao/how-to-help-intern-projects-succeed-in-the-real-world-beyond-a-great-demo-28c5</guid>
-    <pubDate>Wed, 19 Aug 2026 08:16:38 +0000</pubDate>
+    <title>Namecheap closes every auction at 11:00 AM ET. Last-second bidding is a myth.</title>
+    <link>https://dev.to/markfulton/namecheap-closes-every-auction-at-1100-am-et-last-second-bidding-is-a-myth-3kbl</link>
+    <guid>https://dev.to/markfulton/namecheap-closes-every-auction-at-1100-am-et-last-second-bidding-is-a-myth-3kbl</guid>
+    <pubDate>Wed, 19 Aug 2026 12:49:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Engineering · Mentorship Every intern project is a brilliant opportunity to bridge the gap between academic theory and production-grade engineering. But to help interns truly succeed, we need to...</description>
+    <description>If you have ever tried to win a domain at auction, you probably assumed the game works like eBay: watch the clock, wait for the last eight seconds, fire your bid, walk away with the name. On...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Amazon seemingly leaked Jason Statham’s entire Mutiny movie</title>
+    <link>https://www.theverge.com/entertainment/981943/amazon-prime-video-mutiny-movie-leak</link>
+    <guid>https://www.theverge.com/entertainment/981943/amazon-prime-video-mutiny-movie-leak</guid>
+    <pubDate>Wed, 19 Aug 2026 12:32:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Jason Statham&apos;s upcoming film Mutiny is set to hit theaters on August 21st, but it can already be streamed in full on the US version of Amazon&apos;s Prime Video service. My colleague Dominic Preston...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: AI’s self-improvement problem, and what’s driving the heat</title>
+    <link>https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/</link>
+    <guid>https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/</guid>
+    <pubDate>Wed, 19 Aug 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI’s recursive self-improvement might not come so quickly...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI isn’t close to curing cancer. This startup says it knows what it will take.</title>
+    <link>https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/</link>
+    <guid>https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>It&apos;s the data, stupid.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Nvidia’s new financial strategy does not compute</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The women’s soccer league trying to fix fantasy sports</title>
+    <link>https://www.theverge.com/entertainment/981880/womens-super-league-wsl-fantasy-league-app</link>
+    <guid>https://www.theverge.com/entertainment/981880/womens-super-league-wsl-fantasy-league-app</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Most fantasy sports leagues suffer the same problem: retention. Leagues play out over monthslong seasons, require regular attention, and can punish players severely for missing even a single week....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon’s drones will soon deliver to nearly 500 US cities and towns</title>
+    <link>https://www.theverge.com/tech/981908/amazon-prime-air-drone-delivery-us-expansion</link>
+    <guid>https://www.theverge.com/tech/981908/amazon-prime-air-drone-delivery-us-expansion</guid>
+    <pubDate>Wed, 19 Aug 2026 11:53:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon says its drone delivery service will reach &quot;nearly 500 cities and towns in the United States&quot; by the end of this year, increasing its coverage by six times compared to the current...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The everyday tech I use to track my corgi</title>
+    <link>https://www.theverge.com/gadgets/981143/airtag-corgi-pet-tech-tracking</link>
+    <guid>https://www.theverge.com/gadgets/981143/airtag-corgi-pet-tech-tracking</guid>
+    <pubDate>Wed, 19 Aug 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Apple AirTag may be a jack-of-all-trades - people use it for keeping track of keys, suitcases, backpacks, purses - but I think the most logical use case for it, by far, is keeping track of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data</title>
+    <link>https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html</link>
+    <guid>https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html</guid>
+    <pubDate>Wed, 19 Aug 2026 11:25:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation</title>
+    <link>https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</link>
+    <guid>https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</guid>
+    <pubDate>Wed, 19 Aug 2026 11:01:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>ICE Collecting DNA Samples</title>
+    <link>https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html</guid>
+    <pubDate>Wed, 19 Aug 2026 10:46:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>ICE collected nearly a million DNA samples last year.</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Framework gave its 12-inch laptop some hardware upgrades</title>
+    <link>https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability</link>
+    <guid>https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability</guid>
+    <pubDate>Wed, 19 Aug 2026 10:14:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Framework has refreshed its 12-inch convertible laptop, introducing Intel&apos;s latest Core Series 3 processors, expanded hardware customizations, and a pre-built Linux option. The cheapest pre-built...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Relativity Networks raises $22 million to bring a faster kind of fiber to data centers</title>
+    <link>https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/</link>
+    <guid>https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/</guid>
+    <pubDate>Wed, 19 Aug 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Child-monitoring apps might need a reboot</title>
+    <link>https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/</link>
+    <guid>https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/</guid>
+    <pubDate>Wed, 19 Aug 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Pam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Flock Has a Powerful New AI Tool for Police. We Got Its Code</title>
+    <link>https://www.wired.com/story/flock-safety-os-investigate/</link>
+    <guid>https://www.wired.com/story/flock-safety-os-investigate/</guid>
+    <pubDate>Wed, 19 Aug 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Flock’s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure</title>
+    <link>https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</link>
+    <guid>https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</guid>
+    <pubDate>Wed, 19 Aug 2026 06:01:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data</title>
+    <link>https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</link>
+    <guid>https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</guid>
+    <pubDate>Wed, 19 Aug 2026 05:39:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Cursor capitalizes on GitHub frustration, launches rival hosting platform</title>
@@ -132,149 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Robin Williams&apos; children are taking over their father&apos;s Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday,...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI lays out new security changes after its AI hacked Hugging Face</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack</guid>
-    <pubDate>Tue, 18 Aug 2026 19:28:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Strengthening democratic oversight in national security</title>
-    <link>https://openai.com/index/strengthening-democratic-oversight-in-national-security</link>
-    <guid>https://openai.com/index/strengthening-democratic-oversight-in-national-security</guid>
-    <pubDate>Tue, 18 Aug 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue</title>
-    <link>https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</link>
-    <guid>https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</guid>
-    <pubDate>Tue, 18 Aug 2026 18:33:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How Much Memory Does Your Agent Actually Need?</title>
-    <link>https://huggingface.co/blog/ibm-research/altk-evolve-hmm</link>
-    <guid>https://huggingface.co/blog/ibm-research/altk-evolve-hmm</guid>
-    <pubDate>Tue, 18 Aug 2026 18:09:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI institutes new safeguards after Hugging Face breach</title>
-    <link>https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/</link>
-    <guid>https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/</guid>
-    <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps</title>
-    <link>https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</link>
-    <guid>https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</guid>
-    <pubDate>Tue, 18 Aug 2026 17:47:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Samsung’s Galaxy Buds 3 Pro are almost half off today</title>
-    <link>https://www.theverge.com/gadgets/981525/galaxy-buds-3-pro-dji-pocket-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/981525/galaxy-buds-3-pro-dji-pocket-deal-sale</guid>
-    <pubDate>Tue, 18 Aug 2026 17:47:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re looking for a feature-packed pair of earbuds that won’t break your wallet, Best Buy has the Samsung Galaxy Buds 3 Pro on sale for $139.99. That’s $40 lower than the current Amazon price,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets</title>
-    <link>https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</link>
-    <guid>https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</guid>
-    <pubDate>Tue, 18 Aug 2026 17:44:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT)...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Etched’s valuation doubles to $21B in a month</title>
-    <link>https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/</link>
-    <guid>https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/</guid>
-    <pubDate>Tue, 18 Aug 2026 17:21:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Jane Street has installed Etched&apos;s first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>PlayStation&amp;#8217;s wireless gaming speakers launch in November</title>
-    <link>https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder</link>
-    <guid>https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder</guid>
-    <pubDate>Tue, 18 Aug 2026 17:18:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Sony&apos;s Pulse Elevate wireless gaming speakers are launching on November 12th and will cost $219.99, the company announced on Tuesday. Announced nearly a year ago, the speakers are compatible with...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000</title>
-    <link>https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</link>
-    <guid>https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</guid>
-    <pubDate>Tue, 18 Aug 2026 16:58:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups&apos; servers in...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Apple squashes EU beef with new App Store rules</title>
-    <link>https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission</link>
-    <guid>https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission</guid>
-    <pubDate>Tue, 18 Aug 2026 16:48:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its &quot;disagreements with the Commission over business terms and alternative distribution.&quot;...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Tesla is finally launching the Cybercab — let’s hope it’s ready</title>
-    <link>https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready</link>
-    <guid>https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready</guid>
-    <pubDate>Tue, 18 Aug 2026 16:26:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Tesla Cybercab, that golden two-seater central to Elon Musk&apos;s robo-supremacist ambitions, is finally nearing it&apos;s public launch. Whether or not the no-steering wheel and no-pedal vehicle is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear</title>
-    <link>https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/</link>
-    <guid>https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/</guid>
-    <pubDate>Tue, 18 Aug 2026 16:19:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Peacock is raising prices by up to $3</title>
-    <link>https://www.theverge.com/streaming/981418/peacock-price-increase-august-2026</link>
-    <guid>https://www.theverge.com/streaming/981418/peacock-price-increase-august-2026</guid>
-    <pubDate>Tue, 18 Aug 2026 14:11:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Peacock is raising prices across its streaming plans once again, with the company&apos;s cheapest ad-supported Select tier going from $7.99 to $8.99 / month, as reported earlier by Variety. The Premium...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Warp’s new system is an out-of-the-box software factory for AI development</title>
-    <link>https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/</link>
-    <guid>https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/</guid>
-    <pubDate>Tue, 18 Aug 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
