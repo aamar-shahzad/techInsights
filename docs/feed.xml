@@ -5,97 +5,204 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 19 Aug 2026 13:08:03 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 16:46:18 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Implementing Support Agent 2FA with SMS OTP and Email Fallback</title>
-    <link>https://dev.to/saxonfletcher2366/implementing-support-agent-2fa-with-sms-otp-and-email-fallback-340e</link>
-    <guid>https://dev.to/saxonfletcher2366/implementing-support-agent-2fa-with-sms-otp-and-email-fallback-340e</guid>
-    <pubDate>Wed, 19 Aug 2026 13:05:27 +0000</pubDate>
+    <title>How to do work queuing?</title>
+    <link>https://dev.to/ymerzouka/how-to-do-work-queuing-3loc</link>
+    <guid>https://dev.to/ymerzouka/how-to-do-work-queuing-3loc</guid>
+    <pubDate>Wed, 19 Aug 2026 16:37:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: build passwordless support-agent sign-in as one OTP challenge with two delivery attempts, then feed permanent email bounces into the same recipient-suppression boundary used by...</description>
+    <description>Introduction One of the important things to consider for this CI/CD tool is how to execute the different jobs. CI/CD jobs are long running and can take up to many hours depending on the complexity...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Everyone is saving 60% on LLM costs. Nobody will show you the numbers.</title>
-    <link>https://dev.to/fortitudeomnis/everyone-is-saving-60-on-llm-costs-nobody-will-show-you-the-numbers-5e7j</link>
-    <guid>https://dev.to/fortitudeomnis/everyone-is-saving-60-on-llm-costs-nobody-will-show-you-the-numbers-5e7j</guid>
-    <pubDate>Wed, 19 Aug 2026 13:05:03 +0000</pubDate>
+    <title>Authentication Before Building Features</title>
+    <link>https://dev.to/tushar7084/authentication-before-building-features-boa</link>
+    <guid>https://dev.to/tushar7084/authentication-before-building-features-boa</guid>
+    <pubDate>Wed, 19 Aug 2026 16:36:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every few weeks the same post does the rounds. Someone&apos;s routing layer cut their LLM bill by 60%, &quot;with no drop in quality&quot;, and here&apos;s a lovely chart to prove it. Except it doesn&apos;t prove...</description>
+    <description>One thing almost every developer can relate to is implementing authentication before building the actual features. In most applications, many endpoints need to be secured so that only...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Greatness Is Forged by Limitation</title>
-    <link>https://dev.to/adamthedeveloper/greatness-is-forged-by-limitation-e20</link>
-    <guid>https://dev.to/adamthedeveloper/greatness-is-forged-by-limitation-e20</guid>
-    <pubDate>Wed, 19 Aug 2026 13:04:47 +0000</pubDate>
+    <title>I Design AI Workflows With Review Points, Not Blind Automation</title>
+    <link>https://dev.to/nwhite_systems/i-design-ai-workflows-with-review-points-not-blind-automation-5fik</link>
+    <guid>https://dev.to/nwhite_systems/i-design-ai-workflows-with-review-points-not-blind-automation-5fik</guid>
+    <pubDate>Wed, 19 Aug 2026 16:34:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Can&apos;t believe I spent 2 weeks writing this. Last week, I gave a talk at a Cursor community event about AI and how it&apos;s changing the way we build software. The event went great, and after the talk,...</description>
+    <description>Automation becomes risky when it is treated as an answer rather than a system. I do not start with a model. I start with the decision that must remain trustworthy: what enters the workflow, what...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Syncing Webround and Brevo newsletter subscribers on Cloudflare Workers</title>
-    <link>https://dev.to/luca_at_webround/syncing-webround-and-brevo-newsletter-subscribers-on-cloudflare-workers-3pbl</link>
-    <guid>https://dev.to/luca_at_webround/syncing-webround-and-brevo-newsletter-subscribers-on-cloudflare-workers-3pbl</guid>
-    <pubDate>Wed, 19 Aug 2026 13:03:35 +0000</pubDate>
+    <title>Hybrid Delivery Isn&apos;t a Compromise. It&apos;s the Only Honest Answer Most Enterprises Have Left.</title>
+    <link>https://dev.to/javiercastromdq/hybrid-delivery-isnt-a-compromise-its-the-only-honest-answer-most-enterprises-have-left-1m7j</link>
+    <guid>https://dev.to/javiercastromdq/hybrid-delivery-isnt-a-compromise-its-the-only-honest-answer-most-enterprises-have-left-1m7j</guid>
+    <pubDate>Wed, 19 Aug 2026 16:30:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When a client migrated their store to Webround, they already had an active Brevo account with about 3,000 newsletter contacts built up over multiple years. However, their original integration had...</description>
+    <description>The obsession with &quot;pure&quot; agile was always more about certification revenue and conference talks than about shipping software in organizations where regulators, auditors, and budgets are real....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Names Came In as Gibberish and Excel Said Nothing</title>
-    <link>https://dev.to/michaelnocito/the-names-came-in-as-gibberish-and-excel-said-nothing-8gc</link>
-    <guid>https://dev.to/michaelnocito/the-names-came-in-as-gibberish-and-excel-said-nothing-8gc</guid>
-    <pubDate>Wed, 19 Aug 2026 13:00:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This article gives you the fix for a specific ugly sight: names importing as Ã©, Ã¼ and rows of symbols where letters should be. The fix at import is one dropdown: Data &gt; From Text/CSV, set File...</description>
+    <title>Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams</title>
+    <link>https://github.com/onecli/onecli</link>
+    <guid>https://github.com/onecli/onecli</guid>
+    <pubDate>Wed, 19 Aug 2026 16:29:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Hi HN, Jonathan &amp; Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent.Here’s what you can do with it:1. get a sandboxed agent, with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Does the European Accessibility Act apply to you? If you employ fewer than 10 people, probably not.</title>
-    <link>https://dev.to/grounded/does-the-european-accessibility-act-apply-to-you-if-you-employ-fewer-than-10-people-probably-not-501e</link>
-    <guid>https://dev.to/grounded/does-the-european-accessibility-act-apply-to-you-if-you-employ-fewer-than-10-people-probably-not-501e</guid>
-    <pubDate>Wed, 19 Aug 2026 13:00:00 +0000</pubDate>
+    <title>How to find a device by its MAC address</title>
+    <link>https://dev.to/deviceshelf/how-to-find-a-device-by-its-mac-address-34d0</link>
+    <guid>https://dev.to/deviceshelf/how-to-find-a-device-by-its-mac-address-34d0</guid>
+    <pubDate>Wed, 19 Aug 2026 16:27:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I sell a tool that helps with European Accessibility Act compliance, so this is an odd article to write: most of the people currently being sold tools like mine do not have to comply with...</description>
+    <description>A MAC address is usually all your router gives you about a device: twelve hex digits like a4:cf:12:9b:00:01, maybe with a half-usable name next to it. The good news: those digits carry more...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Welcome Thread - v389</title>
-    <link>https://dev.to/devteam/welcome-thread-v389-onj</link>
-    <guid>https://dev.to/devteam/welcome-thread-v389-onj</guid>
-    <pubDate>Wed, 19 Aug 2026 13:00:00 +0000</pubDate>
+    <title>We reviewed the new Pixel lineup, ask us anything</title>
+    <link>https://www.theverge.com/tech/981537/pixel-11-pro-fold-watch-5-ama</link>
+    <guid>https://www.theverge.com/tech/981537/pixel-11-pro-fold-watch-5-ama</guid>
+    <pubDate>Wed, 19 Aug 2026 16:15:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The embargo has lifted on Google&apos;s Pixel 11 series, as well as for its Pixel Watch 5. Now we get to talk smack - just kidding, the new hardware is good. We have four reviews live on the site that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI Engineering for Flutter Developers — Building Reliable AI Features in Flutter</title>
+    <link>https://dev.to/techwithsam/ai-engineering-for-flutter-developers-building-reliable-ai-features-in-flutter-54d8</link>
+    <guid>https://dev.to/techwithsam/ai-engineering-for-flutter-developers-building-reliable-ai-features-in-flutter-54d8</guid>
+    <pubDate>Wed, 19 Aug 2026 16:13:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Leave a comment below to introduce yourself! You can talk about what brought you here, what you&apos;re learning, or just a fun fact about yourself. Reply to someone&apos;s comment, either with a question...</description>
+    <description>Building a reliable AI feature that works well in production is not so easy; it&apos;s a completely different skill. For this part 2, we&apos;re going to focus on three critical skills every AI Engineer...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A practical guide to live streaming protocols, latency and scaling</title>
-    <link>https://dev.to/ankush_banyal_708fa19a469/a-practical-guide-to-live-streaming-protocols-latency-and-scaling-15p8</link>
-    <guid>https://dev.to/ankush_banyal_708fa19a469/a-practical-guide-to-live-streaming-protocols-latency-and-scaling-15p8</guid>
-    <pubDate>Wed, 19 Aug 2026 12:55:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Live video looks simple until you build it. Then you discover that &quot;low latency&quot; means five different things, that your CDN and your latency target are fighting each other, and that the box which...</description>
+    <title>Civic Hygiene – avoid building technologies that could be used by a police state</title>
+    <link>https://shkspr.mobi/blog/2013/11/civic-hygiene/</link>
+    <guid>https://shkspr.mobi/blog/2013/11/civic-hygiene/</guid>
+    <pubDate>Wed, 19 Aug 2026 16:07:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://shkspr.mobi/blog/2013/11/civic-hygiene/ Comments URL: https://news.ycombinator.com/item?id=49363433 Points: 96 # Comments: 39</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Learnt Git Rebasing the hard way</title>
-    <link>https://dev.to/satwiksps/learnt-git-rebassing-the-hard-way-2dmd</link>
-    <guid>https://dev.to/satwiksps/learnt-git-rebassing-the-hard-way-2dmd</guid>
-    <pubDate>Wed, 19 Aug 2026 12:49:35 +0000</pubDate>
+    <title>Quantum Computing: A Complete Learning Path</title>
+    <link>https://dev.to/malcolmlow/quantum-computing-a-complete-learning-path-3c67</link>
+    <guid>https://dev.to/malcolmlow/quantum-computing-a-complete-learning-path-3c67</guid>
+    <pubDate>Wed, 19 Aug 2026 16:05:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hello again! Weeks 9 and 10 covered the fourth estimator family, the first release that carries my work, and a git mess that taught me more than the code did. PR #1920 merged, and sbi 0.27 shipped...</description>
+    <description>QUANTUM SERIES 2026 — The complete learning path, from a single qubit to Grover&apos;s algorithm. This is the index to the Techucation Quantum Series: a sequence of hands-on posts that build quantum...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Namecheap closes every auction at 11:00 AM ET. Last-second bidding is a myth.</title>
-    <link>https://dev.to/markfulton/namecheap-closes-every-auction-at-1100-am-et-last-second-bidding-is-a-myth-3kbl</link>
-    <guid>https://dev.to/markfulton/namecheap-closes-every-auction-at-1100-am-et-last-second-bidding-is-a-myth-3kbl</guid>
-    <pubDate>Wed, 19 Aug 2026 12:49:04 +0000</pubDate>
+    <title>Building an AI-Powered Security TUI with Rust and MCP</title>
+    <link>https://dev.to/owaspblt/building-an-ai-powered-security-tui-with-rust-and-mcp-oj9</link>
+    <guid>https://dev.to/owaspblt/building-an-ai-powered-security-tui-with-rust-and-mcp-oj9</guid>
+    <pubDate>Wed, 19 Aug 2026 16:05:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you have ever tried to win a domain at auction, you probably assumed the game works like eBay: watch the clock, wait for the last eight seconds, fire your bid, walk away with the name. On...</description>
+    <description>Picking up where I left off In my midterm update, I introduced the two main parts I was working on for OWASP BLT: BLT-MCP, which connects AI models with the BLT API, and BLT-CLI, a Rust-based...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Pixel 11 Pro is a great phone, no thanks to its flashiest new features</title>
+    <link>https://www.theverge.com/tech/981713/google-pixel-11-pro-review</link>
+    <guid>https://www.theverge.com/tech/981713/google-pixel-11-pro-review</guid>
+    <pubDate>Wed, 19 Aug 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google is trying to get you off your phone. The Pixel 11 Pro is &quot;A Phone Designed to Help You Use It Less,&quot; the company promises. It can proactively help you book restaurant reservations, take the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google’s Pixel 11 Pro Fold feels like the end of an era</title>
+    <link>https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review</link>
+    <guid>https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review</guid>
+    <pubDate>Wed, 19 Aug 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The foldable phone market is in the middle of a huge transformation, but no one told Google. Last year, Samsung transformed its Galaxy Z Fold 7 with a dramatically thinner design. This year, it...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google’s Pixel Watch 5 is promising — but it isn’t finished</title>
+    <link>https://www.theverge.com/tech/981957/google-pixel-watch-5-review-wearables-smartwatch</link>
+    <guid>https://www.theverge.com/tech/981957/google-pixel-watch-5-review-wearables-smartwatch</guid>
+    <pubDate>Wed, 19 Aug 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Google Pixel Watch 5 has, in many ways, been the hardest Pixel Watch to accurately review. Barely anything has changed in terms of hardware. The sizes are the same, the chips and battery got...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Pixel 11 isn’t the best Pixel of 2026, but it’s the smartest buy</title>
+    <link>https://www.theverge.com/tech/982190/google-pixel-11-review</link>
+    <guid>https://www.theverge.com/tech/982190/google-pixel-11-review</guid>
+    <pubDate>Wed, 19 Aug 2026 16:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;d be easy to overlook the Pixel 11. Want the best cameras? The Pixel 11 Pro is your answer. Want the best bargain? The Pixel 10A is still a great deal. But the Pixel 11 might be the sweet spot...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>TerraPower’s nuclear reactor has a secret weapon for powering AI data centers</title>
+    <link>https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/</link>
+    <guid>https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/</guid>
+    <pubDate>Wed, 19 Aug 2026 15:44:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>TerraPower&apos;s nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required</title>
+    <link>https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/</link>
+    <guid>https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/</guid>
+    <pubDate>Wed, 19 Aug 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Amazon Fire TV devices are getting a free Alexa Plus upgrade</title>
+    <link>https://www.theverge.com/tech/982166/amazon-alexa-plus-fire-tv-free</link>
+    <guid>https://www.theverge.com/tech/982166/amazon-alexa-plus-fire-tv-free</guid>
+    <pubDate>Wed, 19 Aug 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon is bringing Alexa Plus to Fire TV device owners in the US for free. Starting today, users in the US with an Amazon Fire TV Stick, Fire TV Cube, Amazon Ember smart TV, or other TV with Alexa...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Calendly throws its hat into meeting note-taker circus</title>
+    <link>https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/</link>
+    <guid>https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/</guid>
+    <pubDate>Wed, 19 Aug 2026 14:09:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Calendly is also releasing a meeting scheduling assistant called Callie.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>This robot vacuum solves my kitchen stool problem</title>
+    <link>https://www.theverge.com/tech/981874/mova-v70-ultra-robot-vacuum-mop-arm-hands-on-review</link>
+    <guid>https://www.theverge.com/tech/981874/mova-v70-ultra-robot-vacuum-mop-arm-hands-on-review</guid>
+    <pubDate>Wed, 19 Aug 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Robot vacuums are great at keeping your floors clean, but there are a few areas they fall down on the job - stairs being one. Another is chairs and stools. You know the scenario: You have a row of...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>LFM2.5 Q4\_0 Checkpoints from Quantization-Aware Distillation</title>
+    <link>https://huggingface.co/blog/LiquidAI/qad</link>
+    <guid>https://huggingface.co/blog/LiquidAI/qad</guid>
+    <pubDate>Wed, 19 Aug 2026 13:48:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs</title>
+    <link>https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html</link>
+    <guid>https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html</guid>
+    <pubDate>Wed, 19 Aug 2026 13:12:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT)...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Amazon seemingly leaked Jason Statham’s entire Mutiny movie</title>
@@ -103,7 +210,7 @@
     <guid>https://www.theverge.com/entertainment/981943/amazon-prime-video-mutiny-movie-leak</guid>
     <pubDate>Wed, 19 Aug 2026 12:32:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Jason Statham&apos;s upcoming film Mutiny is set to hit theaters on August 21st, but it can already be streamed in full on the US version of Amazon&apos;s Prime Video service. My colleague Dominic Preston...</description>
+    <description>Jason Statham&apos;s upcoming film Mutiny is set to hit theaters on August 21st, but for at least an hour today it was available to stream in full on the US version of Amazon Prime Video. My colleague...</description>
     <category>Tech Industry</category>
   </item>
   <item>
@@ -143,22 +250,22 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Amazon’s drones will soon deliver to nearly 500 US cities and towns</title>
-    <link>https://www.theverge.com/tech/981908/amazon-prime-air-drone-delivery-us-expansion</link>
-    <guid>https://www.theverge.com/tech/981908/amazon-prime-air-drone-delivery-us-expansion</guid>
-    <pubDate>Wed, 19 Aug 2026 11:53:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon says its drone delivery service will reach &quot;nearly 500 cities and towns in the United States&quot; by the end of this year, increasing its coverage by six times compared to the current...</description>
-    <category>Tech Industry</category>
+    <title>Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P</title>
+    <link>https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html</link>
+    <guid>https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html</guid>
+    <pubDate>Wed, 19 Aug 2026 11:34:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>The everyday tech I use to track my corgi</title>
-    <link>https://www.theverge.com/gadgets/981143/airtag-corgi-pet-tech-tracking</link>
-    <guid>https://www.theverge.com/gadgets/981143/airtag-corgi-pet-tech-tracking</guid>
+    <title>Phishing 3.0: The Fight Moves to Agent Versus Agent</title>
+    <link>https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html</link>
+    <guid>https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html</guid>
     <pubDate>Wed, 19 Aug 2026 11:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Apple AirTag may be a jack-of-all-trades - people use it for keeping track of keys, suitcases, backpacks, purses - but I think the most logical use case for it, by far, is keeping track of...</description>
-    <category>Tech Industry</category>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment....</description>
+    <category>Security</category>
   </item>
   <item>
     <title>StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data</title>
@@ -168,114 +275,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation</title>
-    <link>https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</link>
-    <guid>https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</guid>
-    <pubDate>Wed, 19 Aug 2026 11:01:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>ICE Collecting DNA Samples</title>
-    <link>https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html</guid>
-    <pubDate>Wed, 19 Aug 2026 10:46:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>ICE collected nearly a million DNA samples last year.</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Framework gave its 12-inch laptop some hardware upgrades</title>
-    <link>https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability</link>
-    <guid>https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability</guid>
-    <pubDate>Wed, 19 Aug 2026 10:14:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Framework has refreshed its 12-inch convertible laptop, introducing Intel&apos;s latest Core Series 3 processors, expanded hardware customizations, and a pre-built Linux option. The cheapest pre-built...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Relativity Networks raises $22 million to bring a faster kind of fiber to data centers</title>
-    <link>https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/</link>
-    <guid>https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/</guid>
-    <pubDate>Wed, 19 Aug 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Child-monitoring apps might need a reboot</title>
-    <link>https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/</link>
-    <guid>https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/</guid>
-    <pubDate>Wed, 19 Aug 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Pam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Flock Has a Powerful New AI Tool for Police. We Got Its Code</title>
-    <link>https://www.wired.com/story/flock-safety-os-investigate/</link>
-    <guid>https://www.wired.com/story/flock-safety-os-investigate/</guid>
-    <pubDate>Wed, 19 Aug 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Flock’s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure</title>
-    <link>https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</link>
-    <guid>https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</guid>
-    <pubDate>Wed, 19 Aug 2026 06:01:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data</title>
-    <link>https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</link>
-    <guid>https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</guid>
-    <pubDate>Wed, 19 Aug 2026 05:39:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Cursor capitalizes on GitHub frustration, launches rival hosting platform</title>
-    <link>https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/</link>
-    <guid>https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/</guid>
-    <pubDate>Tue, 18 Aug 2026 22:14:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers&apos; long preferred favorite, GitHub.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>ChatGPT Ads expands across Europe</title>
-    <link>https://openai.com/index/chatgpt-ads-expands-across-europe</link>
-    <guid>https://openai.com/index/chatgpt-ads-expands-across-europe</guid>
-    <pubDate>Tue, 18 Aug 2026 22:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>SteelSeries’ comfy wireless gaming headset is nearly half off</title>
-    <link>https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale</guid>
-    <pubDate>Tue, 18 Aug 2026 20:01:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Robin Williams’ Instagram account brought back to fight ‘AI abuse’</title>
-    <link>https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai</link>
-    <guid>https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai</guid>
-    <pubDate>Tue, 18 Aug 2026 19:48:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Robin Williams&apos; children are taking over their father&apos;s Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday,...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
