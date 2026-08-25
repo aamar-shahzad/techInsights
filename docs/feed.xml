@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 24 Aug 2026 20:47:55 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 25 Aug 2026 01:52:12 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Structured Data for AI Answer Engines: Why JSON-LD Decides Whether You Get Cited</title>
-    <link>https://dev.to/merlonix/structured-data-for-ai-answer-engines-why-json-ld-decides-whether-you-get-cited-4mad</link>
-    <guid>https://dev.to/merlonix/structured-data-for-ai-answer-engines-why-json-ld-decides-whether-you-get-cited-4mad</guid>
-    <pubDate>Mon, 24 Aug 2026 20:22:21 +0000</pubDate>
+    <title>My agent inflated its own state file to 49MB. Every check passed for three days.</title>
+    <link>https://dev.to/dustin_chu_a6651d9057cfb4/my-agent-inflated-its-own-state-file-to-49mb-every-check-passed-for-three-days-2ah8</link>
+    <guid>https://dev.to/dustin_chu_a6651d9057cfb4/my-agent-inflated-its-own-state-file-to-49mb-every-check-passed-for-three-days-2ah8</guid>
+    <pubDate>Tue, 25 Aug 2026 01:35:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on the Merlonix blog. There are two different questions about your site and an AI answer engine, and people collapse them into one. The first is can the engine reach your page...</description>
+    <description>I run an agent that wakes every four hours, does one thing, and writes its state back to STATUS.md. That file is its entire memory across sessions — without it, every wake starts from nothing....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What our coverage number did not protect</title>
-    <link>https://dev.to/sovantica/what-our-coverage-number-did-not-protect-2ck2</link>
-    <guid>https://dev.to/sovantica/what-our-coverage-number-did-not-protect-2ck2</guid>
-    <pubDate>Mon, 24 Aug 2026 20:20:02 +0000</pubDate>
+    <title>Every Enterprise Will Have Its Own AI Harness</title>
+    <link>https://dev.to/mickymultani/every-enterprise-will-have-its-own-ai-harness-1gfi</link>
+    <guid>https://dev.to/mickymultani/every-enterprise-will-have-its-own-ai-harness-1gfi</guid>
+    <pubDate>Tue, 25 Aug 2026 01:30:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Engrava&apos;s test suite had 3,845 tests and 94.22% line coverage. There was more test code in the repository than production code. By every number we had, the thing was well tested. Then we ran a...</description>
+    <description>I think every large enterprise is going to have its own AI harness. Not necessarily a proprietary harness built from scratch. More likely, it will be an open core that the enterprise configures...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to test document management software with 20 real files</title>
-    <link>https://dev.to/jun-stoatify/how-to-test-document-management-software-with-20-real-files-32e6</link>
-    <guid>https://dev.to/jun-stoatify/how-to-test-document-management-software-with-20-real-files-32e6</guid>
-    <pubDate>Mon, 24 Aug 2026 20:15:34 +0000</pubDate>
+    <title>Google Rewrites Meta Descriptions Often: What SMBs Should Do to Protect CTR</title>
+    <link>https://dev.to/alifar/google-rewrites-meta-descriptions-often-what-smbs-should-do-to-protect-ctr-57ao</link>
+    <guid>https://dev.to/alifar/google-rewrites-meta-descriptions-often-what-smbs-should-do-to-protect-ctr-57ao</guid>
+    <pubDate>Tue, 25 Aug 2026 01:15:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most software evaluations test the happy path. Document systems need a less cooperative fixture set: phone scans, repeated names, signed revisions, office files, and access rules. Build a test set...</description>
+    <description>Google does not reliably show the meta description that a business writes for its pages. Analysis cited by Search Engine Land found that about 70% of tracked queries displayed a Google-written...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Android SDK for Robot Battery, Power, and Charging Management</title>
-    <link>https://dev.to/vmodal_ai/android-sdk-for-robot-battery-power-and-charging-management-1b49</link>
-    <guid>https://dev.to/vmodal_ai/android-sdk-for-robot-battery-power-and-charging-management-1b49</guid>
-    <pubDate>Mon, 24 Aug 2026 20:15:20 +0000</pubDate>
+    <title>Building a Countdown Timer Without External Dependencies: A Vanilla JS Journey</title>
+    <link>https://dev.to/ggwork/building-a-countdown-timer-without-external-dependencies-a-vanilla-js-journey-25m7</link>
+    <guid>https://dev.to/ggwork/building-a-countdown-timer-without-external-dependencies-a-vanilla-js-journey-25m7</guid>
+    <pubDate>Tue, 25 Aug 2026 01:12:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Android SDK for Robot Battery, Power, and Charging Management In autonomous mobile robotics (AMR) and industrial automation, power lifecycle management is critical. A robot that unexpectedly...</description>
+    <description>There&apos;s something oddly satisfying about building a tool that thousands of people might use daily, especially when you decide to do it with zero dependencies. No React, no Vue, no moment.js — just...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Ingest-Time Compilation Takes On Query-Time RAG, and Agentic Retrieval Meets Its Limits</title>
-    <link>https://dev.to/felipe0liveira/ingest-time-compilation-takes-on-query-time-rag-and-agentic-retrieval-meets-its-limits-1fll</link>
-    <guid>https://dev.to/felipe0liveira/ingest-time-compilation-takes-on-query-time-rag-and-agentic-retrieval-meets-its-limits-1fll</guid>
-    <pubDate>Mon, 24 Aug 2026 20:15:02 +0000</pubDate>
+    <title>Transforme PowerPoint em Vídeo IA em 20s: Guia WAN‑3.0</title>
+    <link>https://dev.to/leojulieta/transforme-powerpoint-em-video-ia-em-20s-guia-wan-30-3d75</link>
+    <guid>https://dev.to/leojulieta/transforme-powerpoint-em-video-ia-em-20s-guia-wan-30-3d75</guid>
+    <pubDate>Tue, 25 Aug 2026 01:05:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This digest covers RAG and GraphRAG developments from roughly August 17–24, 2026: new arXiv papers, Hugging Face Daily Papers picks, and posts from the blogs we track. 🔥 Highlights RAG Deserves an...</description>
+    <description>WAN‑3.0: Converta PowerPoint em Vídeos IA em 10‑20 s – Guia Prático e Comparativo Introdução A IA chinesa WAN‑3.0 está mudando a forma como criamos vídeos a partir de slides: em menos de 30 s você...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Hey, I&apos;m new here! Documenting my Java, Spring Boot &amp; Applied AI learning journey 👋</title>
-    <link>https://dev.to/shreya_karka/hey-im-new-here-documenting-my-java-spring-boot-applied-ai-learning-journey-3i75</link>
-    <guid>https://dev.to/shreya_karka/hey-im-new-here-documenting-my-java-spring-boot-applied-ai-learning-journey-3i75</guid>
-    <pubDate>Mon, 24 Aug 2026 20:13:41 +0000</pubDate>
+    <title>I created a free app that reads the weight from any scale via a photo so you don&apos;t have to type it in every day</title>
+    <link>https://dev.to/no_fortes_2c9f7698569068/i-created-a-free-app-that-reads-the-weight-from-any-scale-via-a-photo-so-you-dont-have-to-type-it-2iin</link>
+    <guid>https://dev.to/no_fortes_2c9f7698569068/i-created-a-free-app-that-reads-the-weight-from-any-scale-via-a-photo-so-you-dont-have-to-type-it-2iin</guid>
+    <pubDate>Tue, 25 Aug 2026 01:02:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hi everyone! I&apos;m excited to join the DEV community. What I&apos;m doing: I&apos;m learning Java and Spring Boot, and also picking up AI/Machine Learning fundamentals. Instead of keeping notes to myself, I&apos;m...</description>
+    <description>Anyone who tracks their weight knows the biggest hassle is having to open an app and manually enter the number. We usually end up forgetting or just get unmotivated. To solve this, I developed...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Day 31: Stash Keeps What Status Won&apos;t Show, and Private Is a Flag, Not a Subnet</title>
-    <link>https://dev.to/ndcodes/day-31-stash-keeps-what-status-wont-show-and-private-is-a-flag-not-a-subnet-1hkc</link>
-    <guid>https://dev.to/ndcodes/day-31-stash-keeps-what-status-wont-show-and-private-is-a-flag-not-a-subnet-1hkc</guid>
-    <pubDate>Mon, 24 Aug 2026 20:12:31 +0000</pubDate>
+    <title># Technocore and DIDs: How AI Agents Prove Identity with Cryptographic Signatures</title>
+    <link>https://dev.to/maragung/-technocore-and-dids-how-ai-agents-prove-identity-with-cryptographic-signatures-45n3</link>
+    <guid>https://dev.to/maragung/-technocore-and-dids-how-ai-agents-prove-identity-with-cryptographic-signatures-45n3</guid>
+    <pubDate>Tue, 25 Aug 2026 00:58:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Both of today&apos;s tasks involved something real that the interface never mentions. Git keeps work in a place that git status will not tell you about. The RDS console wizard builds a resource on your...</description>
+    <description>A contribution to the agent &amp; developer community My DID: did:key:z6MkeZAT641SbbXmAUqP8yZe2UqpFnRLC9XihYkQR2EherwJ Background: Agents Need Identity AI agents increasingly operate on their own...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>llms.txt Explained: What It Is, Whether AI Answer Engines Read It, and How to Write One</title>
-    <link>https://dev.to/merlonix/llmstxt-explained-what-it-is-whether-ai-answer-engines-read-it-and-how-to-write-one-5gof</link>
-    <guid>https://dev.to/merlonix/llmstxt-explained-what-it-is-whether-ai-answer-engines-read-it-and-how-to-write-one-5gof</guid>
-    <pubDate>Mon, 24 Aug 2026 20:10:02 +0000</pubDate>
+    <title>Per-user two-factor auth in CakePHP with CakeDC/Users (opt-in, one method)</title>
+    <link>https://dev.to/viniciusbig/per-user-two-factor-auth-in-cakephp-with-cakedcusers-opt-in-one-method-4n6d</link>
+    <guid>https://dev.to/viniciusbig/per-user-two-factor-auth-in-cakephp-with-cakedcusers-opt-in-one-method-4n6d</guid>
+    <pubDate>Tue, 25 Aug 2026 00:52:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on the Merlonix blog. /llms.txt is the file everyone adding &quot;AI SEO&quot; to their site keeps hearing about and nobody quite explains. It gets lumped in with robots.txt because it...</description>
+    <description>CakeDC/Users gives you TOTP two-factor authentication almost for free: flip one config key and every login grows a &quot;enter your 6-digit code&quot; step. The catch is that word every. The built-in flow...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Routing Around Rate Limits: A Free-Tier Model Proxy in 100 Lines</title>
-    <link>https://dev.to/hackrs_3352/routing-around-rate-limits-a-free-tier-model-proxy-in-100-lines-22j</link>
-    <guid>https://dev.to/hackrs_3352/routing-around-rate-limits-a-free-tier-model-proxy-in-100-lines-22j</guid>
-    <pubDate>Mon, 24 Aug 2026 20:05:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Free models are not useless; they are just rate-limited. The moment you try to run something real against them, you hit a wall: a 429 that arrives exactly when you need an answer. The standard...</description>
+    <title>What languages are agent skills written in?</title>
+    <link>https://plicara.ai/research/agent-skill-languages/</link>
+    <guid>https://plicara.ai/research/agent-skill-languages/</guid>
+    <pubDate>Tue, 25 Aug 2026 00:52:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://plicara.ai/research/agent-skill-languages/ Comments URL: https://news.ycombinator.com/item?id=49427825 Points: 3 # Comments: 0</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Agent Memory Poisoning: Why Content Screening and Provenance Ranking Can&apos;t Stop Persistent False Information</title>
-    <link>https://dev.to/mech_app_ai/agent-memory-poisoning-why-content-screening-and-provenance-ranking-cant-stop-persistent-false-3lh0</link>
-    <guid>https://dev.to/mech_app_ai/agent-memory-poisoning-why-content-screening-and-provenance-ranking-cant-stop-persistent-false-3lh0</guid>
-    <pubDate>Mon, 24 Aug 2026 20:05:41 +0000</pubDate>
+    <title>I built a free image and video hosting tool after Imgur blocked the UK</title>
+    <link>https://dev.to/danielbankss/i-built-a-free-image-and-video-hosting-tool-after-imgur-blocked-the-uk-29na</link>
+    <guid>https://dev.to/danielbankss/i-built-a-free-image-and-video-hosting-tool-after-imgur-blocked-the-uk-29na</guid>
+    <pubDate>Tue, 25 Aug 2026 00:51:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Persistent memory in agents creates a new failure mode: false information stored once can contaminate every future session that retrieves it. A recent paper (arXiv:2608.21230v1) measures this...</description>
+    <description>On 30 September 2025, Imgur blocked the entire United Kingdom. No warning. No migration tool. No grace period. One day it worked, the next it didn&apos;t — and with it went millions of embedded images...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC</title>
+    <link>https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/</link>
+    <guid>https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/</guid>
+    <pubDate>Tue, 25 Aug 2026 00:23:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The AI hedge fund went from &quot;the talk of Wall Street&quot; to &quot;subject of federal subpoenas&quot; faster than you can say &quot;diversify your portfolio.&quot;</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Lenovo confirms Legion Go issues after gamers report bricked devices</title>
+    <link>https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked</link>
+    <guid>https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked</guid>
+    <pubDate>Mon, 24 Aug 2026 23:38:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When a company&apos;s software update turns your computer into a useless brick, should fixes be free? Framework, the modular computer startup, apparently thinks so. But it&apos;s not clear that computing...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Trump bought SpaceX shares two weeks after blockbuster IPO</title>
+    <link>https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/</link>
+    <guid>https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/</guid>
+    <pubDate>Mon, 24 Aug 2026 21:24:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026</title>
@@ -116,6 +143,15 @@
     <category>Tech Industry</category>
   </item>
   <item>
+    <title>Inaudible sounds used to fingerprint browsers catch AliExpress red-handed</title>
+    <link>https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/</link>
+    <guid>https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/</guid>
+    <pubDate>Mon, 24 Aug 2026 19:19:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Is the technique outdated? Yes. Is it still creepy? Also yes.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
     <title>Instinct’s powerful AI assistant is raising privacy and security concerns</title>
     <link>https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/</link>
     <guid>https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/</guid>
@@ -123,6 +159,24 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.</description>
     <category>AI</category>
+  </item>
+  <item>
+    <title>Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt</title>
+    <link>https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</link>
+    <guid>https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</guid>
+    <pubDate>Mon, 24 Aug 2026 17:41:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work. The harder part is what comes after....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning</title>
+    <link>https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html</link>
+    <guid>https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html</guid>
+    <pubDate>Mon, 24 Aug 2026 17:41:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Zillow and Redfin settle FTC antitrust case over their rental listings partnership</title>
@@ -222,60 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Today on Decoder, I’m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe — it’s a major fundraising platform where you can donate to help people with everything from medical expenses...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Hugging Face reportedly in talks to be acquired for $13B</title>
-    <link>https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/</link>
-    <guid>https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/</guid>
-    <pubDate>Mon, 24 Aug 2026 13:47:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders&apos; feeling of responsibility to community, doubts arise as to whether...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Netflix reportedly considers opening its app to other streamers</title>
-    <link>https://www.theverge.com/streaming/983741/netflix-open-app-peacock-fox-one</link>
-    <guid>https://www.theverge.com/streaming/983741/netflix-open-app-peacock-fox-one</guid>
-    <pubDate>Mon, 24 Aug 2026 13:47:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Netflix executives have considered making third-party streaming services available within its app, according to a report from The New York Times. The recent discussions reportedly centered around...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords</title>
-    <link>https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html</link>
-    <guid>https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html</guid>
-    <pubDate>Mon, 24 Aug 2026 12:35:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that&apos;s used to deliver next-stage payloads and likely sell access to ransomware groups....</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Download: kids outlearning AI, and space travel agents</title>
-    <link>https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/</link>
-    <guid>https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/</guid>
-    <pubDate>Mon, 24 Aug 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Advancing price-performance for developers with GPT‑5.6 in Kiro</title>
-    <link>https://openai.com/index/gpt-5-6-in-kiro</link>
-    <guid>https://openai.com/index/gpt-5-6-in-kiro</guid>
-    <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt</title>
-    <link>https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</link>
-    <guid>https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</guid>
-    <pubDate>Mon, 24 Aug 2026 11:58:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work. The harder part is what comes after....</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
