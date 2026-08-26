@@ -5,8 +5,206 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 25 Aug 2026 20:45:28 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 26 Aug 2026 01:58:03 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Building OmniGIF: A Client-Side GIF Toolkit with WebAssembly (No Server Uploads)</title>
+    <link>https://dev.to/sunkehappy/building-omnigif-a-client-side-gif-toolkit-with-webassembly-no-server-uploads-29o1</link>
+    <guid>https://dev.to/sunkehappy/building-omnigif-a-client-side-gif-toolkit-with-webassembly-no-server-uploads-29o1</guid>
+    <pubDate>Wed, 26 Aug 2026 01:30:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most online GIF tools send your file to a remote server. I built OmniGIF to prove that&apos;s unnecessary — modern browsers can decode, encode, and transform GIFs entirely on the client. The...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Copilot&apos;s Code Review Cannot Block Your Merge. It Says So in the Docs.</title>
+    <link>https://dev.to/ugliai/copilots-code-review-cannot-block-your-merge-it-says-so-in-the-docs-hfm</link>
+    <guid>https://dev.to/ugliai/copilots-code-review-cannot-block-your-merge-it-says-so-in-the-docs-hfm</guid>
+    <pubDate>Wed, 26 Aug 2026 01:26:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>GitHub&apos;s own documentation is unambiguous about this: Copilot always submits a Comment review — never Approve, never Request changes. It does not count toward required approvals. It does not block...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The fuss with running a code ONLY once in React.js (after page load)</title>
+    <link>https://dev.to/midnqp/the-fuss-with-running-a-code-only-once-in-reactjs-after-page-load-jo7</link>
+    <guid>https://dev.to/midnqp/the-fuss-with-running-a-code-only-once-in-reactjs-after-page-load-jo7</guid>
+    <pubDate>Wed, 26 Aug 2026 01:10:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Firstly, filename here is _runOnce.tsx. This file here is a client-side component that allows for important client side logic. &apos;use client&apos; export default function RunOnce() { // access...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Implementing a Free LLM API Without a Credit Card — Understanding Rate Limits and Fallback Design</title>
+    <link>https://dev.to/orca_forge/implementing-a-free-llm-api-without-a-credit-card-understanding-rate-limits-and-fallback-design-322b</link>
+    <guid>https://dev.to/orca_forge/implementing-a-free-llm-api-without-a-credit-card-understanding-rate-limits-and-fallback-design-322b</guid>
+    <pubDate>Wed, 26 Aug 2026 01:09:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>📝 Originally published (in Japanese) at forge.workstyle.tech. When you want to use an LLM for a personal project or a prototype, the first obstacle usually isn&apos;t technical — it&apos;s registering...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Incin, a rust machine learning framework for setting fire to dimensionality bugs</title>
+    <link>https://dev.to/xupremix/incin-a-rust-machine-learning-framework-for-setting-fire-to-dimensionality-bugs-55h8</link>
+    <guid>https://dev.to/xupremix/incin-a-rust-machine-learning-framework-for-setting-fire-to-dimensionality-bugs-55h8</guid>
+    <pubDate>Wed, 26 Aug 2026 01:07:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Incin is a deep learning framework in Rust where a tensor’s shape, dtype, device and gradient state all live in its type. Shape, dtype, device mismatches and so on are compiler errors. use...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AI Cut Korean Herbal Medicine Prep Time from 300 Minutes to 5 - But the Smart Part Is What It Didn&apos;t Touch: the Korean Medicine Doctor&apos;s Judgment</title>
+    <link>https://dev.to/judy_miranttie/ai-cut-korean-herbal-medicine-prep-time-from-300-minutes-to-5-but-the-smart-part-is-what-it-1hlc</link>
+    <guid>https://dev.to/judy_miranttie/ai-cut-korean-herbal-medicine-prep-time-from-300-minutes-to-5-but-the-smart-part-is-what-it-1hlc</guid>
+    <pubDate>Wed, 26 Aug 2026 01:00:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Honestly, when I saw the headline &quot;Someone in Korea used AI to cut the prep time for a dose of Korean herbal medicine from 300 minutes to 5,&quot; the first thing that caught my eye wasn&apos;t &quot;whoa,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Even Cloudflare Is Now Issuing Wallets to AI - The &apos;Spending Cap&apos; Everyone&apos;s Racing to Build Is What Actually Makes AI Safe to Spend Money</title>
+    <link>https://dev.to/judy_miranttie/even-cloudflare-is-now-issuing-wallets-to-ai-the-spending-cap-everyones-racing-to-build-is-4opm</link>
+    <guid>https://dev.to/judy_miranttie/even-cloudflare-is-now-issuing-wallets-to-ai-the-spending-cap-everyones-racing-to-build-is-4opm</guid>
+    <pubDate>Wed, 26 Aug 2026 01:00:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Honestly, when I saw Cloudflare&apos;s announcement, my first reaction wasn&apos;t &quot;oh cool, something new&quot;—it was &quot;there goes another giant company proving the thing I&apos;ve been saying all along.&quot; What...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Self-Healing Playwright Tests for $0: Five Versions of Getting There</title>
+    <link>https://dev.to/flashpeter7/self-healing-playwright-tests-for-0-five-versions-of-getting-there-93p</link>
+    <guid>https://dev.to/flashpeter7/self-healing-playwright-tests-for-0-five-versions-of-getting-there-93p</guid>
+    <pubDate>Wed, 26 Aug 2026 00:59:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Five Versions of an AI Testing Tool: What I Tried, What It Cost, Where It Broke I wanted automated health checks for an e-commerce storefront. Standard stuff: search works, product page renders,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Proxmox vs Spinifex: Hypervisor Management vs AWS-Compatible Cloud</title>
+    <link>https://dev.to/toddyholiday/proxmox-vs-spinifex-hypervisor-management-vs-aws-compatible-cloud-81e</link>
+    <guid>https://dev.to/toddyholiday/proxmox-vs-spinifex-hypervisor-management-vs-aws-compatible-cloud-81e</guid>
+    <pubDate>Wed, 26 Aug 2026 00:58:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Proxmox VE and Spinifex are both open source platforms for running virtual machines on hardware you own, and both are licensed under AGPLv3. That&apos;s roughly where the similarity ends. Proxmox is a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>[Boost]</title>
+    <link>https://dev.to/justin_engelbrecht_183ff3/-12la</link>
+    <guid>https://dev.to/justin_engelbrecht_183ff3/-12la</guid>
+    <pubDate>Wed, 26 Aug 2026 00:55:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I Tried to Prompt-Inject My Own Agent Engine. It Didn&apos;t Work. Here&apos;s Why. Debashish Ghosal Debashish Ghosal Debashish Ghosal Follow Aug 25 I Tried to Prompt-Inject My Own Agent Engine. It Didn&apos;t...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Robotics startup Generalist reaches $3B valuation, sources say</title>
+    <link>https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/</link>
+    <guid>https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/</guid>
+    <pubDate>Wed, 26 Aug 2026 00:40:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>OpenAI loses a top data center exec, as stream of high-profile departures continues</title>
+    <link>https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/</link>
+    <guid>https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/</guid>
+    <pubDate>Wed, 26 Aug 2026 00:06:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Garmin’s new Fenix 9 adds brighter screens and smoother map panning</title>
+    <link>https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch</link>
+    <guid>https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch</guid>
+    <pubDate>Tue, 25 Aug 2026 22:20:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED display with a brightness of up to 3,000 nits, making it twice as bright as its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Trump is upping the price of Big Tech’s favorite visa</title>
+    <link>https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration</link>
+    <guid>https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration</guid>
+    <pubDate>Tue, 25 Aug 2026 21:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In the span of a few hours on Monday, the Department of Homeland Security announced that it would be implementing a fee of over $103,000 on H-1B visas, and news broke that the State Department...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Addressing a sticking point in sustainable adhesives</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Petroleum-based adhesives are everywhere: bonding the wood and drywall in a construction project, holding together the joints of furniture, and even sticking labels to otherwise recyclable...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>YouTuber finds niche as college admissions mentor</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>As a first-generation student from a small town, Gohar Khan ’21 had to navigate the college admissions process largely on his own. He founded his YouTube channel, Gohar’s Guide, to make things...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Launching youth entrepreneurship</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Even as a teenager, Laurie Stach ’06 says, she had a “crazy ambition to take on the world and solve problems.” At MIT, she realized she wasn’t the only one. “Adults always see these youth who are...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A new stamp on cyberfraud prevention</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>For Rupert Young ’95, SM ’95, his career in data science and cybersecurity began when his grandfather gifted him thousands of stamps: He built intricate databases to catalogue them, displaying the...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AgeLab research inspires an A I startup</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Amping up T cells to target cancer</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Taking your temperature from the inside</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Oral and forehead thermometers may not accurately capture a person’s core body temperature, and the few ingestible temperature sensors on the market are so big they are hard to swallow and risk...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Seeing through murky waters</title>
+    <link>https://www.technologyreview.com/2026/08/25/1140955/seeing-through-murky-waters/</link>
+    <guid>https://www.technologyreview.com/2026/08/25/1140955/seeing-through-murky-waters/</guid>
+    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>When remotely operated vehicles settle on the seafloor or dig through a sand bed, they can kick up clouds of sediment that onboard cameras struggle to see through. Often, the only thing to do is...</description>
+    <category>AI</category>
+  </item>
   <item>
     <title>At just $8, you owe it to yourself to grab Inscryption</title>
     <link>https://www.theverge.com/gadgets/984677/inscryption-humble-daniel-mullins-pony-island-deal-sale</link>
@@ -17,24 +215,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>FDA aprova wearable que mede cetonas e glicose em tempo real</title>
-    <link>https://dev.to/leojulieta/fda-aprova-wearable-que-mede-cetonas-e-glicose-em-tempo-real-5gfb</link>
-    <guid>https://dev.to/leojulieta/fda-aprova-wearable-que-mede-cetonas-e-glicose-em-tempo-real-5gfb</guid>
-    <pubDate>Tue, 25 Aug 2026 20:28:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>FDA aprova o primeiro wearable que mede cetonas e glicose ao mesmo tempo Revolução para atletas, diabéticos e entusiastas da dieta keto Introdução Imagine poder conferir, a cada 5 minutos, o nível...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Understanding the Git Workflow: Working Directory, Staging, Commit and Push</title>
-    <link>https://dev.to/javan_p_962641807facd5030/understanding-the-git-workflow-working-directory-staging-commit-and-push-14hc</link>
-    <guid>https://dev.to/javan_p_962641807facd5030/understanding-the-git-workflow-working-directory-staging-commit-and-push-14hc</guid>
-    <pubDate>Tue, 25 Aug 2026 20:26:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Git is a version control system. It runs on your computer and keeps track of changes made to your project. Git workflow are steps you take to move a change from your local files into...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>The Witcher 3 is getting a remaster</title>
     <link>https://www.theverge.com/games/984680/the-witcher-3-wild-hunt-remastered-launch-date-trailer</link>
     <guid>https://www.theverge.com/games/984680/the-witcher-3-wild-hunt-remastered-launch-date-trailer</guid>
@@ -42,87 +222,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>CD Projekt Red is remastering The Witcher 3: Wild Hunt, the hit RPG that first launched in 2015, and the updated game will be available starting September 29th. The Witcher 3: Wild Hunt -...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Node.js Moderation Control: Large Volume User Content Through Batch LLM Triage</title>
-    <link>https://dev.to/oswaldjohansson6946/nodejs-moderation-control-large-volume-user-content-through-batch-llm-triage-2nn0</link>
-    <guid>https://dev.to/oswaldjohansson6946/nodejs-moderation-control-large-volume-user-content-through-batch-llm-triage-2nn0</guid>
-    <pubDate>Tue, 25 Aug 2026 20:20:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: For a large game-report backlog, use batch LLM classification with token counting, then send only borderline reports to a human review queue. Set the queue boundary from a quality...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Supercharging Your Daily Dev Workflow with GitHub Copilot: From Jira to JUnit</title>
-    <link>https://dev.to/shubhamp23/supercharging-your-daily-dev-workflow-with-github-copilot-from-jira-to-junit-fc7</link>
-    <guid>https://dev.to/shubhamp23/supercharging-your-daily-dev-workflow-with-github-copilot-from-jira-to-junit-fc7</guid>
-    <pubDate>Tue, 25 Aug 2026 20:20:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As developers, we’ve largely moved past the novelty of AI as just an &quot;autocomplete on steroids.&quot; Today, the real productivity gains come from integrating AI deeply into the entire software...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Multi-tenant Angular deployments: CloudFront vs Cloudflare Pages</title>
-    <link>https://dev.to/darell/multi-tenant-angular-deployments-cloudfront-vs-cloudflare-pages-2pil</link>
-    <guid>https://dev.to/darell/multi-tenant-angular-deployments-cloudfront-vs-cloudflare-pages-2pil</guid>
-    <pubDate>Tue, 25 Aug 2026 20:19:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The decision is not CloudFront versus Cloudflare Pages The real decision is what must be isolated per tenant. One Angular build can serve several hostnames when the edge identifies the host and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Angular cache bugs after switching user context</title>
-    <link>https://dev.to/darell/angular-cache-bugs-after-switching-user-context-idl</link>
-    <guid>https://dev.to/darell/angular-cache-bugs-after-switching-user-context-idl</guid>
-    <pubDate>Tue, 25 Aug 2026 20:19:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The bug: the API was correct, but the user saw data from another context A cache often breaks after switching user, tenant, active account, or permission set. The screen requests the same endpoint...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Terraform Says the Resource Already Exists: Recover State Ownership</title>
-    <link>https://dev.to/darell/terraform-says-the-resource-already-exists-recover-state-ownership-1gpd</link>
-    <guid>https://dev.to/darell/terraform-says-the-resource-already-exists-recover-state-ownership-1gpd</guid>
-    <pubDate>Tue, 25 Aug 2026 20:19:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The problem is not that Terraform cannot create the resource An AlreadyExists, AlreadyAssociated, or creation conflict often triggers the wrong response: delete something and run apply again. Do...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why Keycloak Roles Don&apos;t Reach Spring Security</title>
-    <link>https://dev.to/jihedbfrart/why-keycloak-roles-dont-reach-spring-security-3dao</link>
-    <guid>https://dev.to/jihedbfrart/why-keycloak-roles-dont-reach-spring-security-3dao</guid>
-    <pubDate>Tue, 25 Aug 2026 20:18:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It happens to every team migrating to Keycloak. You&apos;ve set up your realm, created roles, and assigned them to your users. You configure your Spring Boot application as an OAuth2 Resource Server....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Despliegues Angular multi-tenant: CloudFront vs Cloudflare Pages</title>
-    <link>https://dev.to/darell/despliegues-angular-multi-tenant-cloudfront-vs-cloudflare-pages-1jai</link>
-    <guid>https://dev.to/darell/despliegues-angular-multi-tenant-cloudfront-vs-cloudflare-pages-1jai</guid>
-    <pubDate>Tue, 25 Aug 2026 20:16:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>La decisión no es CloudFront contra Cloudflare Pages La decisión real es qué debe aislarse por tenant. Un mismo build de Angular puede atender varios hostnames si el edge identifica el host y la...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Bugs de caché en Angular al cambiar de contexto de usuario</title>
-    <link>https://dev.to/darell/bugs-de-cache-en-angular-al-cambiar-de-contexto-de-usuario-l7k</link>
-    <guid>https://dev.to/darell/bugs-de-cache-en-angular-al-cambiar-de-contexto-de-usuario-l7k</guid>
-    <pubDate>Tue, 25 Aug 2026 20:16:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>El bug: la API respondió bien, pero el usuario vio datos ajenos a su contexto Una caché suele fallar después de cambiar de usuario, tenant, cuenta activa o permiso. La pantalla solicita el mismo...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding</title>
-    <link>https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/</link>
-    <guid>https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/</guid>
-    <pubDate>Tue, 25 Aug 2026 19:03:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company&apos;s new fundraising total now stands at $232 million.</description>
-    <category>AI</category>
   </item>
   <item>
     <title>Dreame’s dream of a rocket-powered car is dead</title>
@@ -152,24 +251,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Art and algorithms at Sotheby’s</title>
-    <link>https://www.technologyreview.com/2026/08/25/1140908/art-and-algorithms-at-sothebys/</link>
-    <guid>https://www.technologyreview.com/2026/08/25/1140908/art-and-algorithms-at-sothebys/</guid>
-    <pubDate>Tue, 25 Aug 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Do fine art and high tech ever converge? At Sotheby’s they do, thanks to Kelly Shen ’17. Shen works in the growing field of art intelligence for the New York auction house. Shen builds algorithms...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Claude Cowork finally remembers what you told the app in chat</title>
-    <link>https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/</link>
-    <guid>https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/</guid>
-    <pubDate>Tue, 25 Aug 2026 17:50:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Bose’s smallest Bluetooth speaker is a great deal at 35 percent off</title>
     <link>https://www.theverge.com/gadgets/984414/bose-soundlink-micro-seagate-game-drive-deal-sale</link>
     <guid>https://www.theverge.com/gadgets/984414/bose-soundlink-micro-seagate-game-drive-deal-sale</guid>
@@ -195,86 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Instagram is launching a new Reels-editing feature that automatically trims your video clips to focus on the highlights. The feature, called First Draft, is rolling out to Instagram&apos;s iPhone app...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nothing OS 5.0 brings a new Glyph Interface app and a more customizable homescreen</title>
-    <link>https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17</link>
-    <guid>https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17</guid>
-    <pubDate>Tue, 25 Aug 2026 16:58:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your wallpaper, which update whenever your wallpaper changes. Alongside Android&apos;s...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>GeForce Now is getting support for the Steam Controller</title>
-    <link>https://www.theverge.com/games/984422/nvidia-geforce-now-steam-controller-machine-support</link>
-    <guid>https://www.theverge.com/games/984422/nvidia-geforce-now-steam-controller-machine-support</guid>
-    <pubDate>Tue, 25 Aug 2026 16:47:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nvidia&apos;s GeForce Now cloud gaming service will officially support Valve&apos;s Steam Controller and Steam Machine starting later this year. With Steam Controller support, you&apos;ll be able to play games...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Polestar claims it was blindsided by sales ban</title>
-    <link>https://www.theverge.com/transportation/984390/polestar-blindsided-sales-ban-letter-dealer-trump</link>
-    <guid>https://www.theverge.com/transportation/984390/polestar-blindsided-sales-ban-letter-dealer-trump</guid>
-    <pubDate>Tue, 25 Aug 2026 16:14:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Polestar said the Trump administration strung it along for months before finally rejecting its request to continue selling its electric vehicles in the US under a rule outlawing vehicles with...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>5 ways to upgrade your home decor with Google Search</title>
-    <link>https://blog.google/products-and-platforms/products/search/home-decor-tips/</link>
-    <guid>https://blog.google/products-and-platforms/products/search/home-decor-tips/</guid>
-    <pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Granite 4.2 LLMs: How They&apos;re Built</title>
-    <link>https://huggingface.co/blog/ibm-granite/granite-4-2</link>
-    <guid>https://huggingface.co/blog/ibm-granite/granite-4-2</guid>
-    <pubDate>Tue, 25 Aug 2026 15:14:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Gamma acquires Accel-backed design startup Lica</title>
-    <link>https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/</link>
-    <guid>https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/</guid>
-    <pubDate>Tue, 25 Aug 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Lica co-founders are going to work on Gamma&apos;s new research team.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show</title>
-    <link>https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/</link>
-    <guid>https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/</guid>
-    <pubDate>Tue, 25 Aug 2026 14:22:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw</title>
-    <link>https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html</link>
-    <guid>https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html</guid>
-    <pubDate>Tue, 25 Aug 2026 14:07:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android</title>
-    <link>https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html</link>
-    <guid>https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html</guid>
-    <pubDate>Tue, 25 Aug 2026 13:19:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
