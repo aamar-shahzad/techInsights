@@ -5,97 +5,259 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 26 Aug 2026 09:01:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 26 Aug 2026 13:15:58 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Why your mobile XPath breaks: a practical ranking of locator strategies for Android, iOS and Flutter</title>
-    <link>https://dev.to/morph93/why-your-mobile-xpath-breaks-a-practical-ranking-of-locator-strategies-for-android-ios-and-flutter-25la</link>
-    <guid>https://dev.to/morph93/why-your-mobile-xpath-breaks-a-practical-ranking-of-locator-strategies-for-android-ios-and-flutter-25la</guid>
-    <pubDate>Wed, 26 Aug 2026 08:56:18 +0000</pubDate>
+    <title>Learning OWASP A01 and A02: Broken Access Control and Security Misconfiguration</title>
+    <link>https://dev.to/samyuktha_saravanan_97001/learning-owasp-a01-and-a02-broken-access-control-and-security-misconfiguration-44a6</link>
+    <guid>https://dev.to/samyuktha_saravanan_97001/learning-owasp-a01-and-a02-broken-access-control-and-security-misconfiguration-44a6</guid>
+    <pubDate>Wed, 26 Aug 2026 13:06:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A lot of what gets filed as &quot;flaky mobile test&quot; is a locator that was never stable in the first place. The test passed for three weeks, a developer wrapped a view in a FrameLayout, and an absolute...</description>
+    <description>By Samyuktha Introduction Not every learning exercise ends with a dramatic finding, and that&apos;s a fine outcome. This post walks through two OWASP Top 10 (2025) categories I studied hands-on via...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Multi-stage builds in Docker: smaller, cleaner images</title>
-    <link>https://dev.to/fj_palacios/multi-stage-builds-in-docker-smaller-cleaner-images-14dn</link>
-    <guid>https://dev.to/fj_palacios/multi-stage-builds-in-docker-smaller-cleaner-images-14dn</guid>
-    <pubDate>Wed, 26 Aug 2026 08:53:52 +0000</pubDate>
+    <title>Down, Up, Sideways: The Three Directions I Dig Deeper With AI</title>
+    <link>https://dev.to/dexterlung/down-up-sideways-the-three-directions-i-dig-deeper-with-ai-51j2</link>
+    <guid>https://dev.to/dexterlung/down-up-sideways-the-three-directions-i-dig-deeper-with-ai-51j2</guid>
+    <pubDate>Wed, 26 Aug 2026 13:05:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>There&apos;s a particular kind of waste that happens in Docker images and that everyone accepts as normal until someone points it out: shipping the compiler to production. You need the Go toolchain to...</description>
+    <description>Everyone says the key to working with AI is asking better, deeper questions. I used to think so too. Until I mined six weeks of my own AI conversations — over a thousand prompts (that&apos;s a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The EU Cyber Resilience Act&apos;s reporting clock starts September 11. What is your team actually doing about it?</title>
-    <link>https://dev.to/albernaz_/the-eu-cyber-resilience-acts-reporting-clock-starts-september-11-what-is-your-team-actually-doing-2lil</link>
-    <guid>https://dev.to/albernaz_/the-eu-cyber-resilience-acts-reporting-clock-starts-september-11-what-is-your-team-actually-doing-2lil</guid>
-    <pubDate>Wed, 26 Aug 2026 08:49:37 +0000</pubDate>
+    <title>How do you design permissions for a multi-tenant SaaS product?</title>
+    <link>https://dev.to/imamifti056/how-do-you-design-permissions-for-a-multi-tenant-saas-product-1c9e</link>
+    <guid>https://dev.to/imamifti056/how-do-you-design-permissions-for-a-multi-tenant-saas-product-1c9e</guid>
+    <pubDate>Wed, 26 Aug 2026 13:04:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>September 11 is coming up fast, and I&apos;ve had the same conversation with four different founders this month: &quot;does the Cyber Resilience Act apply to us?&quot; Every one of them assumed yes. Two of them...</description>
+    <description>I’ve been thinking a lot recently while working on migrating the Role and Permission System of our organization-based SaaS product to a more scalable authorization architecture. Our product has...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Build a Simple Developer Environment Checker with Python</title>
-    <link>https://dev.to/arthur_luca/build-a-simple-developer-environment-checker-with-python-542e</link>
-    <guid>https://dev.to/arthur_luca/build-a-simple-developer-environment-checker-with-python-542e</guid>
-    <pubDate>Wed, 26 Aug 2026 08:42:36 +0000</pubDate>
+    <title>LLMOps for Compound AI Systems — Observability &amp; Cost</title>
+    <link>https://dev.to/nainikmehta/llmops-for-compound-ai-systems-observability-cost-d6b</link>
+    <guid>https://dev.to/nainikmehta/llmops-for-compound-ai-systems-observability-cost-d6b</guid>
+    <pubDate>Wed, 26 Aug 2026 13:01:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I am a Arthur, and in this article I want to share a small Python project that can be surprisingly useful when working on a new server, VPS, or development machine. When I start working on a new...</description>
+    <description>Why most GenAI pilots crumble after launch Most GenAI pilots don&apos;t fail because the models are bad — they fail because the surrounding system wasn&apos;t built for production. In 2026 an &quot;LLM call&quot; is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The End of Programming</title>
-    <link>https://pauldix.com/the-end-of-programming</link>
-    <guid>https://pauldix.com/the-end-of-programming</guid>
-    <pubDate>Wed, 26 Aug 2026 08:37:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://pauldix.com/the-end-of-programming Comments URL: https://news.ycombinator.com/item?id=49445717 Points: 4 # Comments: 0</description>
+    <title>Building Connect Now: My Take on Real-Time Video Calling</title>
+    <link>https://dev.to/basantgautam/building-connect-now-my-take-on-real-time-video-calling-53ca</link>
+    <guid>https://dev.to/basantgautam/building-connect-now-my-take-on-real-time-video-calling-53ca</guid>
+    <pubDate>Wed, 26 Aug 2026 13:01:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A while back I set out to build my own video calling app — Connect Now — mostly because I was curious how apps like Zoom or Google Meet actually manage to send video and audio between two...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenAI&apos;s data center chief left. Why builders should care</title>
-    <link>https://dev.to/induwara_ashinsana_9e4d5b/openais-data-center-chief-left-why-builders-should-care-3l3n</link>
-    <guid>https://dev.to/induwara_ashinsana_9e4d5b/openais-data-center-chief-left-why-builders-should-care-3l3n</guid>
-    <pubDate>Wed, 26 Aug 2026 08:36:04 +0000</pubDate>
+    <title>Where to Find Free Datasets to Practice With (And How to Pick One)</title>
+    <link>https://dev.to/michaelnocito/where-to-find-free-datasets-to-practice-with-and-how-to-pick-one-5am7</link>
+    <guid>https://dev.to/michaelnocito/where-to-find-free-datasets-to-practice-with-and-how-to-pick-one-5am7</guid>
+    <pubDate>Wed, 26 Aug 2026 13:00:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>OpenAI lost its top data center exec last week, and unlike most executive departures at a frontier lab, this one sits close to something you actually depend on: capacity. Chris Malone, who ran...</description>
+    <description>By Michael Nocito, data analyst · Published August 8, 2026 By the end of this page you will have a shortlist of places that hold millions of free datasets, and something more useful than that: a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Nuxt server routes with Hono RPC-style type safety — no router rewrite</title>
-    <link>https://dev.to/yoshinoriishii/nuxt-server-routes-with-hono-rpc-style-type-safety-no-rewrite-205k</link>
-    <guid>https://dev.to/yoshinoriishii/nuxt-server-routes-with-hono-rpc-style-type-safety-no-rewrite-205k</guid>
-    <pubDate>Wed, 26 Aug 2026 08:35:32 +0000</pubDate>
+    <title>NETO: Chat P2P local para equipos dev sin depender de la nube</title>
+    <link>https://dev.to/dasilvaba/neto-chat-p2p-local-para-equipos-dev-sin-depender-de-la-nube-5ehe</link>
+    <guid>https://dev.to/dasilvaba/neto-chat-p2p-local-para-equipos-dev-sin-depender-de-la-nube-5ehe</guid>
+    <pubDate>Wed, 26 Aug 2026 13:00:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Here is a Nuxt route written the way the docs recommend, and the code that calls it: // server/api/users/[id].get.ts import { z } from &apos;zod&apos; export default defineEventHandler(async (event) =&gt; {...</description>
+    <description>¿Tu equipo comparte credenciales por Slack? ¿Discuten arquitectura en plataformas que almacenan cada mensaje en servidores ajenos? Existe una alternativa que no sale de tu red local: NETO. ¿Qué es...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Determinism Is a Feature</title>
-    <link>https://dev.to/pierrelaurentmedori/determinism-is-a-feature-3kb9</link>
-    <guid>https://dev.to/pierrelaurentmedori/determinism-is-a-feature-3kb9</guid>
-    <pubDate>Wed, 26 Aug 2026 08:31:29 +0000</pubDate>
+    <title>How to Export SQL Results to CSV and Excel (Without Wrecking the Data)</title>
+    <link>https://dev.to/michaelnocito/how-to-export-sql-results-to-csv-and-excel-without-wrecking-the-data-57gk</link>
+    <guid>https://dev.to/michaelnocito/how-to-export-sql-results-to-csv-and-excel-without-wrecking-the-data-57gk</guid>
+    <pubDate>Wed, 26 Aug 2026 13:00:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We spent seventy years building machines that do exactly the same thing every time. It took about three years of AI hype to start describing that property as a limitation. I keep running into the...</description>
+    <description>By Michael Nocito, data analyst · Published August 8, 2026 By the end of this page you will export a query result and open it with the leading zeros, the accented characters and the dates all...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Reading Constraints Like Neo: How to See the Algorithm Instantly</title>
-    <link>https://dev.to/timevolt/reading-constraints-like-neo-how-to-see-the-algorithm-instantly-4116</link>
-    <guid>https://dev.to/timevolt/reading-constraints-like-neo-how-to-see-the-algorithm-instantly-4116</guid>
-    <pubDate>Wed, 26 Aug 2026 08:25:08 +0000</pubDate>
+    <title>Excel Tables vs Ranges: What Ctrl+T Actually Changes</title>
+    <link>https://dev.to/michaelnocito/excel-tables-vs-ranges-what-ctrlt-actually-changes-502f</link>
+    <guid>https://dev.to/michaelnocito/excel-tables-vs-ranges-what-ctrlt-actually-changes-502f</guid>
+    <pubDate>Wed, 26 Aug 2026 13:00:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Quest Begins (The &quot;Why&quot;) I still remember the first time I stared at a competitive‑programming statement and felt my brain short‑circuit. The problem talked about “n ≤ 2·10⁵”, “each value is...</description>
+    <description>By Michael Nocito, data analyst · Published August 8, 2026 By the end of this page you can turn a list into a real Excel table, write formulas that name their columns instead of pointing at cells,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Organized a WordPress Content Website for Better Readability and User Experience</title>
-    <link>https://dev.to/find-supplement-review/how-i-organized-a-wordpress-content-website-for-better-readability-and-user-experience-3e06</link>
-    <guid>https://dev.to/find-supplement-review/how-i-organized-a-wordpress-content-website-for-better-readability-and-user-experience-3e06</guid>
-    <pubDate>Wed, 26 Aug 2026 08:24:58 +0000</pubDate>
+    <title>QueryStory wants you to believe what AI is telling you</title>
+    <link>https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/</link>
+    <guid>https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/</guid>
+    <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>We Analyzed 1 Million AI Voice Calls in India. Here’s What Actually Makes Them Work</title>
+    <link>https://dev.to/tanya_qoulomb14/we-analyzed-1-million-ai-voice-calls-in-india-heres-what-actually-makes-them-work-4m3o</link>
+    <guid>https://dev.to/tanya_qoulomb14/we-analyzed-1-million-ai-voice-calls-in-india-heres-what-actually-makes-them-work-4m3o</guid>
+    <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How I Organized a WordPress Content Website for Better Readability and User Experience Building a content-heavy WordPress website is not only about publishing more articles. The real challenge is...</description>
+    <description>Most discussions about AI voice agents eventually come down to one question: “Does it sound human?” It’s an important question. But after analyzing more than one million AI-assisted business calls...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Ring says its new encryption limits what it can give police</title>
+    <link>https://www.theverge.com/tech/984838/ring-take-encryption-throw-away-the-key-law-enforcement</link>
+    <guid>https://www.theverge.com/tech/984838/ring-take-encryption-throw-away-the-key-law-enforcement</guid>
+    <pubDate>Wed, 26 Aug 2026 12:55:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Ring has a new way to protect your videos. It&apos;s developed an encryption method called TAKE, short for Throw Away the Key Encryption, that the Amazon-owned company says will protect your videos...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Arga is building a better way to train enterprise AI agents</title>
+    <link>https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/</link>
+    <guid>https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/</guid>
+    <pubDate>Wed, 26 Aug 2026 12:55:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Download: the Kids issue arrives, and Bill Gates reveals his AI fears</title>
+    <link>https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/</link>
+    <guid>https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/</guid>
+    <pubDate>Wed, 26 Aug 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids’...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Spyware for Babies</title>
+    <link>https://www.schneier.com/blog/archives/2026/08/spyware-for-babies.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/08/spyware-for-babies.html</guid>
+    <pubDate>Wed, 26 Aug 2026 12:05:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>The New York Times has a long article (alt link) on surveillance systems aimed at babies. They are increasingly using AI. Nanit and its rivals want to own 24/7 health tracking for the...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Rockstar finally responds to &amp;#8216;heartbreaking&amp;#8217; GTA 6 leaks</title>
+    <link>https://www.theverge.com/games/984959/gta-vi-leaks-rockstar-games-official-statement-heartbreaking</link>
+    <guid>https://www.theverge.com/games/984959/gta-vi-leaks-rockstar-games-official-statement-heartbreaking</guid>
+    <pubDate>Wed, 26 Aug 2026 12:04:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Rockstar Games has released its first official statement following days of sustained leaks of footage from Grand Theft Auto VI, calling the period &quot;heartbreaking for our team.&quot; Not long after...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses</title>
+    <link>https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/</link>
+    <guid>https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/</guid>
+    <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The second-generation Bose QuietComfort Headphones are good, but don’t stand out</title>
+    <link>https://www.theverge.com/tech/984764/bose-quietcomfort-headphones-gen-2-review</link>
+    <guid>https://www.theverge.com/tech/984764/bose-quietcomfort-headphones-gen-2-review</guid>
+    <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Bose QuietComfort headphones used to be innovative. Bose&apos;s noise-canceling research is the reason the technology is where it is today, and its headphones set the standard. They were the ubiquitous...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code</title>
+    <link>https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html</link>
+    <guid>https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html</guid>
+    <pubDate>Wed, 26 Aug 2026 11:55:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura&apos;s HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine</title>
+    <link>https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html</link>
+    <guid>https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html</guid>
+    <pubDate>Wed, 26 Aug 2026 11:36:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The SOC we&apos;ve always known was built around a model that guarantees most of the alert queue will never receive analyst review. There&apos;s never time. In a traditional SOC, the typical progression...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Bill Gates is deeply worried about AI, and he’s no longer staying quiet</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet</guid>
+    <pubDate>Wed, 26 Aug 2026 11:07:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Bill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awakening. Once a staunch AI optimist, the Microsoft cofounder is now deeply pessimistic about what AI...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Runable hits $21M to bet AI agents can go from building businesses to growing them</title>
+    <link>https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/</link>
+    <guid>https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/</guid>
+    <pubDate>Wed, 26 Aug 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Runable says 60%–70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI Slop Is Ruining Cute Animals on the Internet</title>
+    <link>https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy/</link>
+    <guid>https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy/</guid>
+    <pubDate>Wed, 26 Aug 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Pet owners, rescue agencies, and wildlife groups are calling for new safeguards as AI makes it harder to tell whether animals, from polar bears to house cats, are real or fake.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users&apos; Reservations in Tests</title>
+    <link>https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html</link>
+    <guid>https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html</guid>
+    <pubDate>Wed, 26 Aug 2026 10:27:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Ikea’s Xbox collection includes a giant thumbstick stool</title>
+    <link>https://www.theverge.com/games/984869/ikea-xbox-yxstaby-collection-thumbstick-stool</link>
+    <guid>https://www.theverge.com/games/984869/ikea-xbox-yxstaby-collection-thumbstick-stool</guid>
+    <pubDate>Wed, 26 Aug 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Ikea has teamed up with Microsoft to launch a new assortment of gaming-inspired furniture and home accessories, coinciding with the 25th anniversary of the first Xbox console. The nine-piece...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation</title>
+    <link>https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html</link>
+    <guid>https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html</guid>
+    <pubDate>Wed, 26 Aug 2026 09:38:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence operation, which relied on its artificial intelligence (AI)...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Raised on AI</title>
+    <link>https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/</link>
+    <guid>https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/</guid>
+    <pubDate>Wed, 26 Aug 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms....</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI models flub these intelligence tests. Can you fare any better?</title>
+    <link>https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/</link>
+    <guid>https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/</guid>
+    <pubDate>Wed, 26 Aug 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown</title>
@@ -107,174 +269,12 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode</title>
+    <title>New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode</title>
     <link>https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html</link>
     <guid>https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html</guid>
     <pubDate>Wed, 26 Aug 2026 07:12:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Bill Gates says we’ve passed AI’s danger thresholds. Now what?</title>
-    <link>https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/</link>
-    <guid>https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/</guid>
-    <pubDate>Wed, 26 Aug 2026 07:01:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue....</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload</title>
-    <link>https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html</link>
-    <guid>https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html</guid>
-    <pubDate>Wed, 26 Aug 2026 06:27:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes</title>
-    <link>https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html</link>
-    <guid>https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html</guid>
-    <pubDate>Wed, 26 Aug 2026 05:47:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple&apos;s Activation Lock from stolen devices, using rented AI voice agents that call...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call</title>
-    <link>https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/</link>
-    <guid>https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/</guid>
-    <pubDate>Wed, 26 Aug 2026 03:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Ringg has raised $10 million from Peak XV as a part of its Series A extension.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Robotics startup Generalist reaches $3B valuation, sources say</title>
-    <link>https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/</link>
-    <guid>https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/</guid>
-    <pubDate>Wed, 26 Aug 2026 00:40:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI loses a top data center exec as stream of high-profile departures continues</title>
-    <link>https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/</link>
-    <guid>https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/</guid>
-    <pubDate>Wed, 26 Aug 2026 00:06:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>In a statement to TechCrunch about Malone&apos;s departure, OpenAI said it had &quot;recently reorganized&quot; its &quot;infrastructure organization to support the scale and pace of our work.&quot;</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Garmin’s new Fenix 9 adds brighter screens and smoother map panning</title>
-    <link>https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch</link>
-    <guid>https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch</guid>
-    <pubDate>Tue, 25 Aug 2026 22:20:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED display with a brightness of up to 3,000 nits, making it twice as bright as its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Trump is upping the price of Big Tech’s favorite visa</title>
-    <link>https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration</link>
-    <guid>https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration</guid>
-    <pubDate>Tue, 25 Aug 2026 21:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In the span of a few hours on Monday, the Department of Homeland Security announced that it would be implementing a fee of over $103,000 on H-1B visas, and news broke that the State Department...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Addressing a sticking point in sustainable adhesives</title>
-    <link>https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/</link>
-    <guid>https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/</guid>
-    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Petroleum-based adhesives are everywhere: bonding the wood and drywall in a construction project, holding together the joints of furniture, and even sticking labels to otherwise recyclable...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>YouTuber finds niche as college admissions mentor</title>
-    <link>https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/</link>
-    <guid>https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/</guid>
-    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>As a first-generation student from a small town, Gohar Khan ’21 had to navigate the college admissions process largely on his own. He founded his YouTube channel, Gohar’s Guide, to make things...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Launching youth entrepreneurship</title>
-    <link>https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/</link>
-    <guid>https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/</guid>
-    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Even as a teenager, Laurie Stach ’06 says, she had a “crazy ambition to take on the world and solve problems.” At MIT, she realized she wasn’t the only one. “Adults always see these youth who are...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A new stamp on cyberfraud prevention</title>
-    <link>https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/</link>
-    <guid>https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/</guid>
-    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>For Rupert Young ’95, SM ’95, his career in data science and cybersecurity began when his grandfather gifted him thousands of stamps: He built intricate databases to catalogue them, displaying the...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>AgeLab research inspires an A I startup</title>
-    <link>https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/</link>
-    <guid>https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/</guid>
-    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Amping up T cells to target cancer</title>
-    <link>https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/</link>
-    <guid>https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/</guid>
-    <pubDate>Tue, 25 Aug 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>At just $8, you owe it to yourself to grab Inscryption</title>
-    <link>https://www.theverge.com/gadgets/984677/inscryption-humble-daniel-mullins-pony-island-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/984677/inscryption-humble-daniel-mullins-pony-island-deal-sale</guid>
-    <pubDate>Tue, 25 Aug 2026 20:38:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you watched the Gamescom 2026 announcements, you might have caught a trailer for the bizarre, frenetic Pony Island 2: Panda Circus, a game from Daniel Mullins. In case you haven’t heard of him,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Witcher 3 is getting a remaster</title>
-    <link>https://www.theverge.com/games/984680/the-witcher-3-wild-hunt-remastered-launch-date-trailer</link>
-    <guid>https://www.theverge.com/games/984680/the-witcher-3-wild-hunt-remastered-launch-date-trailer</guid>
-    <pubDate>Tue, 25 Aug 2026 20:24:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>CD Projekt Red is remastering The Witcher 3: Wild Hunt, the hit RPG that first launched in 2015, and the updated game will be available starting September 29th. The Witcher 3: Wild Hunt -...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Dreame’s dream of a rocket-powered car is dead</title>
-    <link>https://www.theverge.com/transportation/984485/dreame-rocket-car-shut-down</link>
-    <guid>https://www.theverge.com/transportation/984485/dreame-rocket-car-shut-down</guid>
-    <pubDate>Tue, 25 Aug 2026 18:52:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Dreame, the Chinese vacuum company that aspires to be a global technology giant, is reportedly shutting down its automotive project after funding from the government dried up. According to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches</title>
-    <link>https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html</link>
-    <guid>https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html</guid>
-    <pubDate>Tue, 25 Aug 2026 18:17:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an &quot;unprecedented, whole-of-government, economic campaign&quot; against the nation...</description>
     <category>Security</category>
   </item>
 </channel>
