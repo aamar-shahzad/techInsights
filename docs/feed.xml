@@ -5,8 +5,134 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 31 Aug 2026 21:28:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 01 Sep 2026 05:08:15 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>AI Operating Model: Why Scaling AI Is an Organisational Design Problem</title>
+    <link>https://dev.to/cralgo/ai-operating-model-why-scaling-ai-is-an-organisational-design-problem-2cg9</link>
+    <guid>https://dev.to/cralgo/ai-operating-model-why-scaling-ai-is-an-organisational-design-problem-2cg9</guid>
+    <pubDate>Tue, 01 Sep 2026 05:01:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI adoption is getting easier. Scaling AI is not. Models are more capable. APIs are easier to access. Copilots can be deployed quickly. Teams can prototype useful workflows in days. Yet many...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>One Command to Verify an Agent Patch: Seeded Hypothesis, Fixture Contracts, and a TTL Quarantine</title>
+    <link>https://dev.to/datacpp_8185/one-command-to-verify-an-agent-patch-seeded-hypothesis-fixture-contracts-and-a-ttl-quarantine-2goo</link>
+    <guid>https://dev.to/datacpp_8185/one-command-to-verify-an-agent-patch-seeded-hypothesis-fixture-contracts-and-a-ttl-quarantine-2goo</guid>
+    <pubDate>Tue, 01 Sep 2026 04:54:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>One Command to Verify an Agent Patch: Seeded Hypothesis, Fixture Contracts, and a TTL Quarantine A merge gate should be a single command, not a mental checklist. When the patch comes from an...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your Refactor Needs an Oracle: Characterization Tests vs. AI Diffs</title>
+    <link>https://dev.to/hackrs_6393/your-refactor-needs-an-oracle-characterization-tests-vs-ai-diffs-3igo</link>
+    <guid>https://dev.to/hackrs_6393/your-refactor-needs-an-oracle-characterization-tests-vs-ai-diffs-3igo</guid>
+    <pubDate>Tue, 01 Sep 2026 04:53:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>AI-generated refactors fail silently. The code looks clean. The tests pass. Then a production edge case breaks. Characterization tests catch that break before it ships. This workflow locks current...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Enterprise AI vs Traditional Software: Key Differences</title>
+    <link>https://dev.to/the-tisa/enterprise-ai-vs-traditional-software-key-differences-dic</link>
+    <guid>https://dev.to/the-tisa/enterprise-ai-vs-traditional-software-key-differences-dic</guid>
+    <pubDate>Tue, 01 Sep 2026 04:34:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve spent any time in a planning meeting over the last two years, you&apos;ve probably heard someone ask &quot;why can&apos;t we just add AI to this?&quot; It&apos;s a fair question, but it usually hides a much...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Token Service Isolation: Containing Customer Support Chat Reconnect and Backfill Failures</title>
+    <link>https://dev.to/jamesanderson3589/token-service-isolation-containing-customer-support-chat-reconnect-and-backfill-failures-2bji</link>
+    <guid>https://dev.to/jamesanderson3589/token-service-isolation-containing-customer-support-chat-reconnect-and-backfill-failures-2bji</guid>
+    <pubDate>Tue, 01 Sep 2026 04:32:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Short answer: isolate token issuance from the chat data path, scope each token to one tenant, conversation, actor, and capability, then make reconnect depend on a durable cursor rather than on...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Benchmarking Cyber Deception: Why Legacy Honeypots Fail Under High Concurrency (And How EchidraOSS Fixes It)</title>
+    <link>https://dev.to/qyleron-dev/benchmarking-cyber-deception-why-legacy-honeypots-fail-under-high-concurrency-and-how-echidraoss-48d</link>
+    <guid>https://dev.to/qyleron-dev/benchmarking-cyber-deception-why-legacy-honeypots-fail-under-high-concurrency-and-how-echidraoss-48d</guid>
+    <pubDate>Tue, 01 Sep 2026 04:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A concurrency comparison of Cowrie, Thinkst Canary, and generic Twisted listeners against EchidraOSS&apos;s async FastAPI core. The difference shows up exactly when it matters most: under a connection...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>One Prop Per State: Rethinking React&apos;s Controlled/Uncontrolled Boilerplate</title>
+    <link>https://dev.to/wmzy/one-prop-per-state-rethinking-reacts-controlleduncontrolled-boilerplate-2gob</link>
+    <guid>https://dev.to/wmzy/one-prop-per-state-rethinking-reacts-controlleduncontrolled-boilerplate-2gob</guid>
+    <pubDate>Tue, 01 Sep 2026 04:23:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve ever wrapped a &lt;Select&gt;, &lt;DatePicker&gt;, or &lt;Dialog&gt;, you&apos;ve written this: function Select({ value, defaultValue, onChange }) { const [internal, setInternal] = useState(defaultValue);...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Shipping a binary 4 days late, honestly</title>
+    <link>https://dev.to/mahirhir/shipping-a-binary-4-days-late-honestly-2bcb</link>
+    <guid>https://dev.to/mahirhir/shipping-a-binary-4-days-late-honestly-2bcb</guid>
+    <pubDate>Tue, 01 Sep 2026 04:15:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Full disclosure before anything else, since this is a post about a release: the tarball described here was built on my machine, not by CI. It carries no DSSE attestation, covers exactly one...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>From Code to Content: How I Turn My Technical Skills into a Freelance Business</title>
+    <link>https://dev.to/kasia_chil_fa339fd2c4f786/from-code-to-content-how-i-turn-my-technical-skills-into-a-freelance-business-2327</link>
+    <guid>https://dev.to/kasia_chil_fa339fd2c4f786/from-code-to-content-how-i-turn-my-technical-skills-into-a-freelance-business-2327</guid>
+    <pubDate>Tue, 01 Sep 2026 04:08:23 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Why the best way to leverage your tech background isn&apos;t always writing more code—it’s explaining it to the world. As a technical writer deeply immersed in Python, FastAPI, and AI deployments, my...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>My Server Sleeps at Night. That Turned Out to Be a Security Feature.</title>
+    <link>https://dev.to/dhruv_malaviya_cdcc71e595/my-server-sleeps-at-night-that-turned-out-to-be-a-security-feature-469j</link>
+    <guid>https://dev.to/dhruv_malaviya_cdcc71e595/my-server-sleeps-at-night-that-turned-out-to-be-a-security-feature-469j</guid>
+    <pubDate>Tue, 01 Sep 2026 04:03:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I gave my side project a sleep schedule on Krova Cloud to save money — power off at 1 AM, wake at 7. The surprise side effect: zero attack surface while asleep. Here&apos;s the setup, the cron, and the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI</title>
+    <link>https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/</link>
+    <guid>https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/</guid>
+    <pubDate>Tue, 01 Sep 2026 00:13:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Google TV Streamer now costs $50 more</title>
+    <link>https://www.theverge.com/tech/987032/google-tv-streamer-price-increase</link>
+    <guid>https://www.theverge.com/tech/987032/google-tv-streamer-price-increase</guid>
+    <pubDate>Mon, 31 Aug 2026 22:32:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Google raised the price of its 4K streaming box to $149, up $50 from its original $99 price. The new price is currently live at the Google Store and Best Buy, but Amazon appears to still be...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>JMGO’s very bright all-in-one projector looks ideal for gamers and sports</title>
+    <link>https://www.theverge.com/tech/985986/jmgo-4k-gaming-projector-price-specs</link>
+    <guid>https://www.theverge.com/tech/985986/jmgo-4k-gaming-projector-price-specs</guid>
+    <pubDate>Mon, 31 Aug 2026 22:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>JMGO&apos;s 4K 120Hz Iris Ultra Max all-in-one Google TV projector is now available outside China. It gets its name from a new dual-iris system that lets it produce an impressive 10,000:1 native...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>FTC lawsuit alleges Amazon has been ‘secretly and systematically’ overcharging for ads</title>
+    <link>https://www.theverge.com/tech/986982/amazon-advertising-prices-ftc-lawsuit</link>
+    <guid>https://www.theverge.com/tech/986982/amazon-advertising-prices-ftc-lawsuit</guid>
+    <pubDate>Mon, 31 Aug 2026 21:41:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The FTC and 22 state attorneys general are suing Amazon for allegedly using a &quot;secret ad surcharge&quot; to drive up prices for ads on its website and app. FTC chairman Andrew Ferguson claims in a blog...</description>
+    <category>Tech Industry</category>
+  </item>
   <item>
     <title>I went to the loneliest baseball game on Apple Vision Pro</title>
     <link>https://www.theverge.com/tech/986967/apple-vision-pro-mlb-red-sox-yankees-immersive-game</link>
@@ -15,96 +141,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>This weekend, I strapped on an Apple Vision Pro to watch a baseball game in immersive virtual reality for the first time. It was technically impressive, visually pretty remarkable, and also didn&apos;t...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Merge PDFs in the browser with JavaScript (no uploads, no server)</title>
-    <link>https://dev.to/jalalkhn/merge-pdfs-in-the-browser-with-javascript-no-uploads-no-server-213o</link>
-    <guid>https://dev.to/jalalkhn/merge-pdfs-in-the-browser-with-javascript-no-uploads-no-server-213o</guid>
-    <pubDate>Mon, 31 Aug 2026 21:16:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In this post I&apos;ll show how to merge PDF files entirely in the browser using PDF.js and pdf-lib — no server, no file upload, no backend. Everything runs on the user&apos;s machine, which is great for...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Case Study: Scaling Smart Teleassistance Voice Routing with Edge Compute and Zero-Cold-Start Cascades</title>
-    <link>https://dev.to/enrique_drack_34c8d81d28d/case-study-scaling-smart-teleassistance-voice-routing-with-edge-compute-and-zero-cold-start-o00</link>
-    <guid>https://dev.to/enrique_drack_34c8d81d28d/case-study-scaling-smart-teleassistance-voice-routing-with-edge-compute-and-zero-cold-start-o00</guid>
-    <pubDate>Mon, 31 Aug 2026 21:02:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In mission-critical infrastructure, latency isn&apos;t just a metric—it&apos;s the difference between a resolved incident and a catastrophic outage. Whether you are managing an SRE team handling cluster...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Autonomous (YC F25) Is Hiring Engineers</title>
-    <link>https://news.ycombinator.com/item?id=49514781</link>
-    <guid>https://news.ycombinator.com/item?id=49514781</guid>
-    <pubDate>Mon, 31 Aug 2026 21:00:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Comments URL: https://news.ycombinator.com/item?id=49514781 Points: 0 # Comments: 0</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The hardest part of a long-running agent job is knowing where it got to</title>
-    <link>https://dev.to/minh_thanhdang_1cb47092e/the-hardest-part-of-a-long-running-agent-job-is-knowing-where-it-got-to-50ac</link>
-    <guid>https://dev.to/minh_thanhdang_1cb47092e/the-hardest-part-of-a-long-running-agent-job-is-knowing-where-it-got-to-50ac</guid>
-    <pubDate>Mon, 31 Aug 2026 20:54:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I wrote this post for my entry to the All Things Agentic Hackathon. TLDR: I built a five-agent design team on Gemini (Including Gemini Flash 3.7 and Gemma 4) that takes a brief and a folder of...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Did you know Grok Bot can watch videos for you?</title>
-    <link>https://dev.to/debs_obrien/did-you-know-grok-bot-can-watch-videos-for-you-190h</link>
-    <guid>https://dev.to/debs_obrien/did-you-know-grok-bot-can-watch-videos-for-you-190h</guid>
-    <pubDate>Mon, 31 Aug 2026 20:46:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It&apos;s totally insane. You have to see it to believe it. I created a new bot in Grok Bot. I called it CoachBot. I seem to like putting bot in the name of my bots. What I wanted, and this is...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Am analizat 100 de site-uri ale afacerilor locale din România. Iată ce am găsit</title>
-    <link>https://dev.to/carpatodesign/am-analizat-100-de-site-uri-ale-afacerilor-locale-din-romania-iata-ce-am-gasit-2fbk</link>
-    <guid>https://dev.to/carpatodesign/am-analizat-100-de-site-uri-ale-afacerilor-locale-din-romania-iata-ce-am-gasit-2fbk</guid>
-    <pubDate>Mon, 31 Aug 2026 20:38:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Am analizat 100 de site-uri ale afacerilor locale din România pentru a vedea cât de bine sunt pregătite din punct de vedere tehnic, SEO, UX și conversie. Nu ne-am uitat doar la design. Am...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I Published Every Flaw My Safety Tool Can&apos;t Catch. It Made It More Credible, Not Less.</title>
-    <link>https://dev.to/debashish_ghosal/i-published-every-flaw-my-safety-tool-cant-catch-it-made-it-more-credible-not-less-57go</link>
-    <guid>https://dev.to/debashish_ghosal/i-published-every-flaw-my-safety-tool-cant-catch-it-made-it-more-credible-not-less-57go</guid>
-    <pubDate>Mon, 31 Aug 2026 20:25:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a companion to the PlannerCritic series. Article 5 was about what happened when I tried to break my own engine. This one is about the three seams I know it can&apos;t close — and why I wrote...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Why I Stopped Writing Regex by Hand</title>
-    <link>https://dev.to/karthik_siva_07d3cf4c8443/why-i-stopped-writing-regex-by-hand-3gen</link>
-    <guid>https://dev.to/karthik_siva_07d3cf4c8443/why-i-stopped-writing-regex-by-hand-3gen</guid>
-    <pubDate>Mon, 31 Aug 2026 20:20:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why I Stopped Writing Regex by Hand I&apos;ve used regex101 for years. It&apos;s a genuinely good tool live testing, an auto-generated explanation panel, a huge community pattern library, debugging tools...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>L&apos;autocomplétion zsh avec Composer et Symfony console</title>
-    <link>https://dev.to/gromnan/lautocompletion-zsh-avec-composer-et-symfony-console-5cg</link>
-    <guid>https://dev.to/gromnan/lautocompletion-zsh-avec-composer-et-symfony-console-5cg</guid>
-    <pubDate>Mon, 31 Aug 2026 20:19:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>tl;dr Le script de completion est sur ce gist, et cette commande installe tout d&apos;un coup : mkdir -p ~/.config/zsh/completions curl -fsSL...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Task state is a call stack for agent work</title>
-    <link>https://dev.to/likhan/task-state-is-a-call-stack-for-agent-work-a22</link>
-    <guid>https://dev.to/likhan/task-state-is-a-call-stack-for-agent-work-a22</guid>
-    <pubDate>Mon, 31 Aug 2026 20:19:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I was one hero image away from publishing a post about sprint planning. Generate it, wire the manifest, build the route. Three steps, then done. I opened the image prompt for one last look and...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The Pentagon now has its own version of ChatGPT and Grok</title>
@@ -152,7 +188,7 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Hugging Face hack could indicate cultural issues at OpenAI</title>
+    <title>The Hugging Face hack could indicate cultural issues at OpenAI</title>
     <link>https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/</link>
     <guid>https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/</guid>
     <pubDate>Mon, 31 Aug 2026 18:00:00 +0000</pubDate>
@@ -224,24 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Debian won&amp;#8217;t ban AI code from its Linux distribution</title>
-    <link>https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy</link>
-    <guid>https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy</guid>
-    <pubDate>Mon, 31 Aug 2026 15:34:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Debian voted to allow developers to use AI tools in their contributions to the Linux distribution&apos;s &quot;development, maintenance, [and] documentation.&quot; The new policy on AI acknowledges that...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Sony’s WH-1000XM5 headphones are back down to their lowest price</title>
-    <link>https://www.theverge.com/gadgets/986647/sony-wh1000xm5-headphones-nintendo-switch-2-matic-sonos-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/986647/sony-wh1000xm5-headphones-nintendo-switch-2-matic-sonos-deal-sale</guid>
-    <pubDate>Mon, 31 Aug 2026 15:31:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Sony is one of many companies offering Labor Day discounts on tech products, though its week-long sale on the last-gen WH-1000XM5 is one of the most attractive deals I found upon logging in this...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout</title>
     <link>https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/</link>
     <guid>https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/</guid>
@@ -251,15 +269,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>New York governor to 3D-printed gun leader: &amp;#8216;tell Cody I will get ahead of him&amp;#8217;</title>
-    <link>https://www.theverge.com/policy/986733/kathy-hochul-3d-printed-guns-cody-wilson-response</link>
-    <guid>https://www.theverge.com/policy/986733/kathy-hochul-3d-printed-guns-cody-wilson-response</guid>
-    <pubDate>Mon, 31 Aug 2026 14:20:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Cody Wilson, the creator of the first 3D-printed gun, announced a tool last week aimed at skirting a New York law that prevents 3D printers from making firearms - and taunting governor Kathy...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More</title>
     <link>https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html</link>
     <guid>https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html</guid>
@@ -267,15 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Meeting note-taker Circleback adds a free tier to attract more customers</title>
-    <link>https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/</link>
-    <guid>https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/</guid>
-    <pubDate>Mon, 31 Aug 2026 12:56:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Circleback is also introducing new pricing plans starting from $14 per month.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
