@@ -5,97 +5,160 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 03 Sep 2026 19:17:34 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 03 Sep 2026 22:35:04 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Wrapping Component Libraries</title>
-    <link>https://dev.to/nrazukasi/wrapping-component-libraries-3cj</link>
-    <guid>https://dev.to/nrazukasi/wrapping-component-libraries-3cj</guid>
-    <pubDate>Thu, 03 Sep 2026 19:07:11 +0000</pubDate>
+    <title>Six open-source AI workflow kits you can actually inspect</title>
+    <link>https://dev.to/softwaresausage/six-open-source-ai-workflow-kits-you-can-actually-inspect-amc</link>
+    <guid>https://dev.to/softwaresausage/six-open-source-ai-workflow-kits-you-can-actually-inspect-amc</guid>
+    <pubDate>Thu, 03 Sep 2026 22:20:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How production libraries handle decoupling, and what I learned building my own wrapper layer The Pattern Everyone Uses (But I Didn&apos;t Understand) Ever notice how you can import Material UI...</description>
+    <description>Disclosure: Software Sausage is our product and publishes these recipes. The kits are free and MIT-licensed. AI tools helped draft and edit this article; the workflow status and evidence limits...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When Forms Start Talking to Each Other</title>
-    <link>https://dev.to/nrazukasi/when-forms-start-talking-to-each-other-53al</link>
-    <guid>https://dev.to/nrazukasi/when-forms-start-talking-to-each-other-53al</guid>
-    <pubDate>Thu, 03 Sep 2026 19:07:10 +0000</pubDate>
+    <title>Eval-First RAG: Use Separate Scores to Triage Failures</title>
+    <link>https://dev.to/nsachok/eval-first-rag-use-separate-scores-to-triage-failures-33ed</link>
+    <guid>https://dev.to/nsachok/eval-first-rag-use-separate-scores-to-triage-failures-33ed</guid>
+    <pubDate>Thu, 03 Sep 2026 22:20:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Declarative Field Dependencies in React: How Configuration Replaces useEffect Spaghetti The Problem Complex forms are everywhere in enterprise applications. Registration forms, checkout flows,...</description>
+    <description>An end-to-end RAG score can show that answer quality changed. By itself, it cannot tell you where to begin investigating. The evidence returned to the model may be wrong, or the model may have...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building Super-Flexible Web Applications</title>
-    <link>https://dev.to/nrazukasi/building-super-flexible-web-applications-65e</link>
-    <guid>https://dev.to/nrazukasi/building-super-flexible-web-applications-65e</guid>
-    <pubDate>Thu, 03 Sep 2026 19:06:55 +0000</pubDate>
+    <title>OpenAI Astra: What Published Cybersecurity Testing Means for AI Automation</title>
+    <link>https://dev.to/alifar/openai-astra-what-published-cybersecurity-testing-means-for-ai-automation-5e05</link>
+    <guid>https://dev.to/alifar/openai-astra-what-published-cybersecurity-testing-means-for-ai-automation-5e05</guid>
+    <pubDate>Thu, 03 Sep 2026 22:16:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Multi-Layer Runtime Configuration: How to Change Your Entire UI Without Rebuilding The Problem Hardcoded configuration is everywhere: Need to change the primary color? Edit the code, rebuild,...</description>
+    <description>OpenAI&apos;s publicly documented work on Astra points to a high-capability AI system being evaluated through a cybersecurity and safety lens. The clearest official account is OpenAI&apos;s Path to Astra,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Self-Mounting Micro-Frontends: A Simple Pattern</title>
-    <link>https://dev.to/nrazukasi/self-mounting-micro-frontends-a-simple-pattern-28ka</link>
-    <guid>https://dev.to/nrazukasi/self-mounting-micro-frontends-a-simple-pattern-28ka</guid>
-    <pubDate>Thu, 03 Sep 2026 19:06:43 +0000</pubDate>
+    <title>MCP for auth in 5 minutes: phone verification through your AI agent</title>
+    <link>https://dev.to/rayas/mcp-for-auth-in-5-minutes-phone-verification-through-your-ai-agent-48om</link>
+    <guid>https://dev.to/rayas/mcp-for-auth-in-5-minutes-phone-verification-through-your-ai-agent-48om</guid>
+    <pubDate>Thu, 03 Sep 2026 22:14:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How to embed modern React/Vue/Svelte into legacy applications without complex orchestration The Problem How do you put a micro-frontend project onto a monolithic page? Not just theoretically,...</description>
+    <description>Most AI coding tutorials stop at &quot;ask the agent to write code&quot;. This one is about giving the agent a tool it can call, an MCP server, so it can send and verify one-time codes while you&apos;re still...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I benchmarked 17 Electron apps on an 8GB Mac (and built an alternative that uses 2.2GB RAM)</title>
-    <link>https://dev.to/eddie3k/i-benchmarked-17-electron-apps-on-an-8gb-mac-and-built-an-alternative-that-uses-22gb-ram-mnm</link>
-    <guid>https://dev.to/eddie3k/i-benchmarked-17-electron-apps-on-an-8gb-mac-and-built-an-alternative-that-uses-22gb-ram-mnm</guid>
-    <pubDate>Thu, 03 Sep 2026 19:06:17 +0000</pubDate>
+    <title>Supabase phone auth without a built-in provider: the Send SMS Hook, step by step</title>
+    <link>https://dev.to/rayas/supabase-phone-auth-without-a-built-in-provider-the-send-sms-hook-step-by-step-2k5b</link>
+    <guid>https://dev.to/rayas/supabase-phone-auth-without-a-built-in-provider-the-send-sms-hook-step-by-step-2k5b</guid>
+    <pubDate>Thu, 03 Sep 2026 22:14:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Like many developers, I work on an 8GB Mac (2019 MacBook Pro). If you keep Slack, Teams, Outlook, Spotify, and Notion open, Activity Monitor quickly climbs past 10GB and swap memory thrashes your...</description>
+    <description>Supabase ships phone auth with a short list of built-in SMS providers. If the one you want isn&apos;t on it, you&apos;re not stuck. There&apos;s a documented escape hatch called the Send SMS Hook, and it takes...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Dinosaur Game&apos;s Speed Curve, Decoded: A Reverse-Engineer&apos;s Field Notes</title>
-    <link>https://dev.to/lizely/the-dinosaur-games-speed-curve-decoded-a-reverse-engineers-field-notes-1l77</link>
-    <guid>https://dev.to/lizely/the-dinosaur-games-speed-curve-decoded-a-reverse-engineers-field-notes-1l77</guid>
-    <pubDate>Thu, 03 Sep 2026 19:02:44 +0000</pubDate>
+    <title>Streamlit 1.63.0 Launches New UI Widgets and Performance Boost</title>
+    <link>https://dev.to/techpulse01239/streamlit-1630-launches-new-ui-widgets-and-performance-boost-2k8l</link>
+    <guid>https://dev.to/techpulse01239/streamlit-1630-launches-new-ui-widgets-and-performance-boost-2k8l</guid>
+    <pubDate>Thu, 03 Sep 2026 22:14:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve ever tried to push a run past 999 in Chrome&apos;s offline runner, you&apos;ve probably wondered why the dinosaur suddenly feels unfair around the 700 mark. The truth is buried inside a tidy...</description>
+    <description>Lead The popular open‑source data‑app framework Streamlit rolled out version 1.63.0 on September 1, 2026. The update brings a suite of new UI widgets, a 20 % speed improvement in the caching...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The first ten minutes of an outage are a coordination problem</title>
-    <link>https://dev.to/ginocorp_industries/the-first-ten-minutes-of-an-outage-are-a-coordination-problem-1o1c</link>
-    <guid>https://dev.to/ginocorp_industries/the-first-ten-minutes-of-an-outage-are-a-coordination-problem-1o1c</guid>
-    <pubDate>Thu, 03 Sep 2026 19:00:33 +0000</pubDate>
+    <title>FedEx Shut Down Its SOAP API. Your WooCommerce Store Might Have Failed Silently</title>
+    <link>https://dev.to/jessriche/fedex-shut-down-its-soap-api-your-woocommerce-store-might-have-failed-silently-4g99</link>
+    <guid>https://dev.to/jessriche/fedex-shut-down-its-soap-api-your-woocommerce-store-might-have-failed-silently-4g99</guid>
+    <pubDate>Thu, 03 Sep 2026 22:09:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most of the time an outage runs long, the bug was not the hard part. The hard part is that four competent people saw the alert, and all four started working on it inside the same two minutes, in...</description>
+    <description>TL;DR: FedEx permanently shut down its legacy SOAP Web Services on June 1, 2026. Any integration still depending on those endpoints stopped getting FedEx rates. What surprised me was not the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Google WeatherNext 3 Delivers Finer Global AI Forecasts for Weather-Sensitive Operations</title>
-    <link>https://dev.to/alifar/google-weathernext-3-delivers-finer-global-ai-forecasts-for-weather-sensitive-operations-4plf</link>
-    <guid>https://dev.to/alifar/google-weathernext-3-delivers-finer-global-ai-forecasts-for-weather-sensitive-operations-4plf</guid>
-    <pubDate>Thu, 03 Sep 2026 19:00:30 +0000</pubDate>
+    <title>What Is an AI Harness? A Practical Guide with a Laravel CMS Example</title>
+    <link>https://dev.to/yasserelgammal/what-is-an-ai-harness-a-practical-guide-with-a-laravel-cms-example-3d4g</link>
+    <guid>https://dev.to/yasserelgammal/what-is-an-ai-harness-a-practical-guide-with-a-laravel-cms-example-3d4g</guid>
+    <pubDate>Thu, 03 Sep 2026 22:03:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Google has introduced WeatherNext 3, the next-generation release of its global weather AI model. The model provides hourly forecast timesteps up to 15 days ahead, global coverage, and...</description>
+    <description>An AI harness is a structured set of files, rules, skills, workflows, and project context that surrounds an AI coding agent. Instead of repeating the same instructions in every prompt, the harness...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GitHub Quietly Removed merge_commit_sha From Its API. Your Automation Won&apos;t Error, It&apos;ll Just Be Wrong.</title>
-    <link>https://dev.to/driftsignal/github-quietly-removed-mergecommitsha-from-its-api-your-automation-wont-error-itll-just-be-4a6a</link>
-    <guid>https://dev.to/driftsignal/github-quietly-removed-mergecommitsha-from-its-api-your-automation-wont-error-itll-just-be-4a6a</guid>
-    <pubDate>Thu, 03 Sep 2026 18:59:26 +0000</pubDate>
+    <title>The ESP32 as a Home Lab Workhorse: 5 Jobs It Does Better Than a Pi</title>
+    <link>https://dev.to/numbpill3d/the-esp32-as-a-home-lab-workhorse-5-jobs-it-does-better-than-a-pi-32jh</link>
+    <guid>https://dev.to/numbpill3d/the-esp32-as-a-home-lab-workhorse-5-jobs-it-does-better-than-a-pi-32jh</guid>
+    <pubDate>Thu, 03 Sep 2026 22:02:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>GitHub&apos;s REST API version 2026-03-10 removed a field called merge_commit_sha from every pull request response. If your automation reads that field to find out which commit a merged PR landed as,...</description>
+    <description>When you do not need a full Linux box. I have a drawer full of Raspberry Pis. Pi 3s, Pi 4s, a Pi 5 that runs hot enough to warm my office. I love them. But over the last two years, I have quietly...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A reader said my gate was checking the wrong thing. Proving him right broke my harness twice</title>
-    <link>https://dev.to/mahirhir/a-reader-said-my-gate-was-checking-the-wrong-thing-proving-him-right-broke-my-harness-twice-2hpf</link>
-    <guid>https://dev.to/mahirhir/a-reader-said-my-gate-was-checking-the-wrong-thing-proving-him-right-broke-my-harness-twice-2hpf</guid>
-    <pubDate>Thu, 03 Sep 2026 18:58:43 +0000</pubDate>
+    <title>You can watch the coolant flow inside Ugreen’s liquid-cooled power bank</title>
+    <link>https://www.theverge.com/tech/988648/ugreen-magflow-pro-magnetic-wireless-power-bank-10k-liquid-cooling</link>
+    <guid>https://www.theverge.com/tech/988648/ugreen-magflow-pro-magnetic-wireless-power-bank-10k-liquid-cooling</guid>
+    <pubDate>Thu, 03 Sep 2026 22:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Does your power bank have &quot;CryoPulse technology&quot; or a &quot;Cyber Window&quot;? If you disappointingly answered &quot;no&quot; to both, you might want to consider upgrading to Ugreen&apos;s new MagFlow Pro Magnetic Power...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>TinyML on ESP32-S3: Person Detection Without Sending Anything to the Cloud</title>
+    <link>https://dev.to/numbpill3d/tinyml-on-esp32-s3-person-detection-without-sending-anything-to-the-cloud-ggp</link>
+    <guid>https://dev.to/numbpill3d/tinyml-on-esp32-s3-person-detection-without-sending-anything-to-the-cloud-ggp</guid>
+    <pubDate>Thu, 03 Sep 2026 21:58:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A reader told me the enforcement hook I had just written up was checking the wrong predicate. He was right. Running the control he asked for took two attempts, because both times my harness broke...</description>
+    <description>Local inference that actually runs. Your smart camera is not smart. It&apos;s a snitch with a monthly bill. It sees a person, panics, compresses a blurry JPEG, uploads your hallway to a data center in...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Nobody Is Saying Why OpenAI and Anthropic Had Outages Today</title>
+    <link>https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/</link>
+    <guid>https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/</guid>
+    <pubDate>Thu, 03 Sep 2026 21:56:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Prediction Market Betting Is Getting People Banned and Arrested</title>
+    <link>https://www.wired.com/story/prediction-market-betting-is-getting-people-banned-and-arrested/</link>
+    <guid>https://www.wired.com/story/prediction-market-betting-is-getting-people-banned-and-arrested/</guid>
+    <pubDate>Thu, 03 Sep 2026 21:48:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>This week on Uncanny Valley, we dig into the latest prediction market buzz, Flock’s AI-powered police search tool, and how tech bros don’t know how to talk about “rouge” AI agents</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Dungeons &amp;#038; Dragons is getting a &amp;#8216;Ravenloft&amp;#8217; live-action Netflix series</title>
+    <link>https://www.theverge.com/entertainment/989880/dungeons-and-dragons-ravenloft-netflix</link>
+    <guid>https://www.theverge.com/entertainment/989880/dungeons-and-dragons-ravenloft-netflix</guid>
+    <pubDate>Thu, 03 Sep 2026 20:48:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>A Ravenloft series is currently in development from executive producer Alfonso Cuarón, writer and executive producer John August, and Hasbro Entertainment, Deadline reports. It could bring to life...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Confused about which VPN is right, US senator asks the NSA for guidance</title>
+    <link>https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/</link>
+    <guid>https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/</guid>
+    <pubDate>Thu, 03 Sep 2026 19:52:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation</title>
+    <link>https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/</link>
+    <guid>https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/</guid>
+    <pubDate>Thu, 03 Sep 2026 19:36:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The high-profile startup&apos;s annual revenue run rate stands at over $100 million.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>VMware migration reduces Tottenham Hotspur&apos;s licensing fees by 85 percent</title>
+    <link>https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/</link>
+    <guid>https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/</guid>
+    <pubDate>Thu, 03 Sep 2026 18:58:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Pro soccer team&apos;s CTO points to &quot;issues with the Broadcom takeover.&quot;</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Abliteration.ai is making a business out of removing AI guardrails</title>
@@ -213,69 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Cast your mind back a decade or so, and smartphone makers were obsessed with shrinking the bezel on phones. Screens got bigger, the black bars around them got smaller, and for a while it looked...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Circular’s new smart rings add contactless payments and vibrating alerts</title>
-    <link>https://www.theverge.com/tech/988517/circular-ring-3-pro-slim-nfc-contactless-payment-vibrating-alerts</link>
-    <guid>https://www.theverge.com/tech/988517/circular-ring-3-pro-slim-nfc-contactless-payment-vibrating-alerts</guid>
-    <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Circular announced its new Ring 3 Series today as a follow-up to the Ring 2 that debuted at CES 2025 with upgraded sensors and FDA-cleared atrial fibrillation detection. The new Ring 3 collection...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Moto Watch Ultra is a return to Wear OS</title>
-    <link>https://www.theverge.com/gadgets/988734/moto-watch-ultra-release-date-price-specs-wear-os-ifa</link>
-    <guid>https://www.theverge.com/gadgets/988734/moto-watch-ultra-release-date-price-specs-wear-os-ifa</guid>
-    <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Just a few months after getting back into the smartwatch game, Motorola is targeting the premium end of the market with the first Moto Watch Ultra. It comes with some upgrades from the recent Moto...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Lenovo’s new MacBook Neo competitor comes in two sizes and seven colors</title>
-    <link>https://www.theverge.com/tech/988765/lenovo-ideapad-vibe-laptop-macbook-neo-competitor-ifa-colors-price-specs</link>
-    <guid>https://www.theverge.com/tech/988765/lenovo-ideapad-vibe-laptop-macbook-neo-competitor-ifa-colors-price-specs</guid>
-    <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Lenovo is announcing the IdeaPad Vibe, a productivity laptop aimed at taking on the MacBook Neo with a similar starting price and a wider range of colors. The Vibe comes in 14- and 15-inch sizes,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>This ultra-thin Lenovo laptop concept uses solid-state cooling</title>
-    <link>https://www.theverge.com/tech/988882/lenovo-project-aeroblade-concept-frore-airjet-silent-cooling</link>
-    <guid>https://www.theverge.com/tech/988882/lenovo-project-aeroblade-concept-frore-airjet-silent-cooling</guid>
-    <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Lenovo is announcing a new concept laptop for IFA 2026 that uses solid-state cooling instead of traditional fans, making it incredibly thin and super light. The 14-inch Project AeroBlade concept...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root</title>
-    <link>https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html</link>
-    <guid>https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html</guid>
-    <pubDate>Thu, 03 Sep 2026 15:52:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory</title>
-    <link>https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html</link>
-    <guid>https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html</guid>
-    <pubDate>Thu, 03 Sep 2026 15:26:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Google’s latest AI weather model gives you no excuse to forget your umbrella</title>
-    <link>https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/</link>
-    <guid>https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/</guid>
-    <pubDate>Thu, 03 Sep 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google...</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
