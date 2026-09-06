@@ -5,97 +5,142 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 06 Sep 2026 04:38:59 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 06 Sep 2026 12:08:38 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Context Window Flooding: How Attackers Weaponize the Lost-in-the-Middle Attention Gap</title>
-    <link>https://dev.to/roxdavirox/context-window-flooding-how-attackers-weaponize-the-lost-in-the-middle-attention-gap-1l4i</link>
-    <guid>https://dev.to/roxdavirox/context-window-flooding-how-attackers-weaponize-the-lost-in-the-middle-attention-gap-1l4i</guid>
-    <pubDate>Sun, 06 Sep 2026 04:27:08 +0000</pubDate>
+    <title>DIY plug-in solar gains momentum in the US</title>
+    <link>https://www.theverge.com/column/990183/diy-plug-in-solar-us</link>
+    <guid>https://www.theverge.com/column/990183/diy-plug-in-solar-us</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on e-bikes, power stations, and how to work anywhere, follow Thomas Ricker. The Stepback...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Goodbye Middlemen: How I Built an Open-Source, Bankless Donation Widget for the Dev Community</title>
+    <link>https://dev.to/wilnowilx/goodbye-middlemen-how-i-built-an-open-source-bankless-donation-widget-for-the-dev-community-2koi</link>
+    <guid>https://dev.to/wilnowilx/goodbye-middlemen-how-i-built-an-open-source-bankless-donation-widget-for-the-dev-community-2koi</guid>
+    <pubDate>Sun, 06 Sep 2026 11:46:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An attacker does not need a clever jailbreak when they can make the model stop reading the system prompt through sheer volume. The vulnerability is architectural: every transformer has non-uniform...</description>
+    <description>This is a submission for Weekend Challenge: Generosity Edition What I Built DonateX — an open-source, 3KB donation button that accepts USDC on Base Network. Zero platform fees. Zero KYC. Zero bank...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I&apos;m 12. I paused KODA Browser to try something I&apos;ve never done before.</title>
-    <link>https://dev.to/koda2026/im-12-i-paused-koda-browser-to-try-something-ive-never-done-before-47fg</link>
-    <guid>https://dev.to/koda2026/im-12-i-paused-koda-browser-to-try-something-ive-never-done-before-47fg</guid>
-    <pubDate>Sun, 06 Sep 2026 04:20:55 +0000</pubDate>
+    <title>Agent 审计日志的设计与实现</title>
+    <link>https://dev.to/frankie_yang_78df9e5017f8/agent-shen-ji-ri-zhi-de-she-ji-yu-shi-xian-24j7</link>
+    <guid>https://dev.to/frankie_yang_78df9e5017f8/agent-shen-ji-ri-zhi-de-she-ji-yu-shi-xian-24j7</guid>
+    <pubDate>Sun, 06 Sep 2026 11:43:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I was building KODA Browser. Android project. WebView. Custom home screen. Search. GitHub shortcuts. It was starting to become a real browser. And then I paused it. Not because it failed. I paused...</description>
+    <description>实验组：纯 Agent 生成方式：agent_automatic 目标长度：2500 字 目标深度：intermediate 审计日志是 Agent 系统里少数几个“上线前必须想清楚，否则上线后要付出十倍代价”的设计点。它不像模型推理那样决定智能上限，也不像 RAG 那样决定回答质量，但它决定了当系统出错、越权、被攻击或面临合规审查时，你有没有能力还原现场。没有审计日志的 Agent...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenBSD Stories: Strange Medieval Devices</title>
-    <link>https://dev.to/dzakiamriz/openbsd-stories-strange-medieval-devices-3i8</link>
-    <guid>https://dev.to/dzakiamriz/openbsd-stories-strange-medieval-devices-3i8</guid>
-    <pubDate>Sun, 06 Sep 2026 04:20:39 +0000</pubDate>
+    <title>I load-tested self-hosted n8n on a $0 VM for 5 hours. The worst latency came from apt.</title>
+    <link>https://dev.to/edifierxuhao/i-load-tested-self-hosted-n8n-on-a-0-vm-for-5-hours-the-worst-latency-came-from-apt-40c1</link>
+    <guid>https://dev.to/edifierxuhao/i-load-tested-self-hosted-n8n-on-a-0-vm-for-5-hours-the-worst-latency-came-from-apt-40c1</guid>
+    <pubDate>Sun, 06 Sep 2026 11:41:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem &amp; Industry Shift The OpenBSD project is renowned for its security focus, but its hardware support philosophy is equally distinctive: it actively supports a vast array of obscure and...</description>
+    <description>I run a benchmark harness that measures how often automation platforms silently drop webhook events. The self-hosted part of it lives on a Google Cloud e2-micro: 1 GB RAM, 0.25 vCPU baseline, 2 GB...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your AI builder shipped the Stripe code in an afternoon. Verifying it took a week.</title>
-    <link>https://dev.to/fetchsandbox/your-ai-builder-shipped-the-stripe-code-in-an-afternoon-verifying-it-took-a-week-2o6n</link>
-    <guid>https://dev.to/fetchsandbox/your-ai-builder-shipped-the-stripe-code-in-an-afternoon-verifying-it-took-a-week-2o6n</guid>
-    <pubDate>Sun, 06 Sep 2026 04:20:21 +0000</pubDate>
+    <title>Unit Economics Over Growth: What Investors Actually Want from SaaS in the Agentic Era</title>
+    <link>https://dev.to/nadar_ali/unit-economics-over-growth-what-investors-actually-want-from-saas-in-the-agentic-era-166i</link>
+    <guid>https://dev.to/nadar_ali/unit-economics-over-growth-what-investors-actually-want-from-saas-in-the-agentic-era-166i</guid>
+    <pubDate>Sun, 06 Sep 2026 11:35:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A friend shipped a booking app last month. Lovable built the whole thing, Stripe Checkout included, in something like an afternoon. It looked finished. It was finished, in the sense that you could...</description>
+    <description>Picture this: It’s 2021. A SaaS founder stands in a Sand Hill Road boardroom, clicks to a slide showing 40% month-over-month revenue growth, and waits for the high-fives. The only question from...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Common AWS Free Tier Mistakes Beginners Make</title>
-    <link>https://dev.to/gunnerjyo/common-aws-free-tier-mistakes-beginners-make-4co4</link>
-    <guid>https://dev.to/gunnerjyo/common-aws-free-tier-mistakes-beginners-make-4co4</guid>
-    <pubDate>Sun, 06 Sep 2026 04:20:00 +0000</pubDate>
+    <title>Building Personal Gemini Journal: A Secure AI Sanctuary Powered by Cloud Run &amp; Gemini API</title>
+    <link>https://dev.to/nirvik_kc_a731b878dbe75/building-personal-gemini-journal-a-secure-ai-sanctuary-powered-by-cloud-run-gemini-api-16jf</link>
+    <guid>https://dev.to/nirvik_kc_a731b878dbe75/building-personal-gemini-journal-a-secure-ai-sanctuary-powered-by-cloud-run-gemini-api-16jf</guid>
+    <pubDate>Sun, 06 Sep 2026 11:31:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The AWS Free Tier is one of the best ways to start learning cloud infrastructure, but many beginners misunderstand how it actually works. A common misconception is that all AWS usage remains...</description>
+    <description>Submission for the Accelerate AI with Cloud Run APAC Ideathon 2026 Personal reflection and journaling are most effective when private, intuitive, and insightful. For the Accelerate AI with Cloud...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Day 1 — ইন্টারনেট আসলে কীভাবে কাজ করে</title>
-    <link>https://dev.to/mislam-dev/day-1-inttaarnett-aasle-kiibhaabe-kaaj-kre-18pc</link>
-    <guid>https://dev.to/mislam-dev/day-1-inttaarnett-aasle-kiibhaabe-kaaj-kre-18pc</guid>
-    <pubDate>Sun, 06 Sep 2026 04:20:00 +0000</pubDate>
+    <title>Can Rust Make Unsafe AI Agent Actions Unrepresentable?</title>
+    <link>https://dev.to/kenwalger/can-rust-make-unsafe-ai-agent-actions-unrepresentable-3ea</link>
+    <guid>https://dev.to/kenwalger/can-rust-make-unsafe-ai-agent-actions-unrepresentable-3ea</guid>
+    <pubDate>Sun, 06 Sep 2026 11:29:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>আকাশ নামের এক ছেলের কাছে একটা ফোন এলো। ওপাশ থেকে একজন খুব সিরিয়াস গলায় বলল, &quot;আমাদের ব্যাংকের server maintain করা হচ্ছে। আপনার অ্যাকাউন্টে একটু সমস্যা হয়েছে। এখনই ঠিক না করলে অ্যাকাউন্ট freeze হয়ে...</description>
+    <description>I went looking for a better runtime check and found a different way to think about the problem. I have spent a lot of time recently thinking about what an AI agent should be allowed to do. Reading...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Keeping Claude Code sessions for your repository in one place</title>
-    <link>https://dev.to/scenee/keeping-claude-code-sessions-for-your-repository-in-one-place-3pj8</link>
-    <guid>https://dev.to/scenee/keeping-claude-code-sessions-for-your-repository-in-one-place-3pj8</guid>
-    <pubDate>Sun, 06 Sep 2026 04:17:55 +0000</pubDate>
+    <title>Hello</title>
+    <link>https://dev.to/puneetkumar2010/hello-259n</link>
+    <guid>https://dev.to/puneetkumar2010/hello-259n</guid>
+    <pubDate>Sun, 06 Sep 2026 11:28:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I keep my Claude Code sessions in Dropbox so that I can pick up a conversation on another Mac. That works, but it comes with an annoyance: Claude Code names each project folder after the whole...</description>
+    <description>I don&apos;t have a technical tutorial, project announcement, or big lesson to share today. I just wanted to say hello. Sometimes not every post needs to teach something. Sometimes it&apos;s just nice to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Vancouver strip club&apos;s Instagram taken down over sign featuring lake joke</title>
-    <link>https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993</link>
-    <guid>https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993</guid>
-    <pubDate>Sun, 06 Sep 2026 04:07:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993 Comments URL: https://news.ycombinator.com/item?id=49583232...</description>
+    <title># AI Roto: The End of Manual Rotoscoping in Blender</title>
+    <link>https://dev.to/abhiram_merugu_2d44f54c84/-ai-roto-the-end-of-manual-rotoscoping-in-blender-8k5</link>
+    <guid>https://dev.to/abhiram_merugu_2d44f54c84/-ai-roto-the-end-of-manual-rotoscoping-in-blender-8k5</guid>
+    <pubDate>Sun, 06 Sep 2026 11:22:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you&apos;ve ever spent hours manually painting mattes frame-by-frame in Blender&apos;s compositor, you already know rotoscoping is one of the most tedious parts of VFX work. AI Roto, a new Blender addon,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>DDoS Protection &amp; Rate Limiting Abuse Cases</title>
-    <link>https://dev.to/gouranga-das-khulna/ddos-protection-rate-limiting-abuse-cases-3aac</link>
-    <guid>https://dev.to/gouranga-das-khulna/ddos-protection-rate-limiting-abuse-cases-3aac</guid>
-    <pubDate>Sun, 06 Sep 2026 04:00:00 +0000</pubDate>
+    <title>One Design Fits All—Until It Doesn’t</title>
+    <link>https://dev.to/akintunde_morakinyo_db6b2/one-design-fits-all-until-it-doesnt-3a7p</link>
+    <guid>https://dev.to/akintunde_morakinyo_db6b2/one-design-fits-all-until-it-doesnt-3a7p</guid>
+    <pubDate>Sun, 06 Sep 2026 11:18:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One-liner: A DDoS (Distributed Denial of Service) attack overwhelms your system with fake traffic until real users can&apos;t get through. Defense is layered — no single solution works alone. ❓ Types...</description>
+    <description>Building reusable software without trapping every feature inside the same abstraction Most abstractions begin with a reasonable observation: we are repeating ourselves. Imagine an application with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Checking If a Business&apos;s Google Profile Actually Matches Its Own Website</title>
-    <link>https://dev.to/orange_k/checking-if-a-businesss-google-profile-actually-matches-its-own-website-413o</link>
-    <guid>https://dev.to/orange_k/checking-if-a-businesss-google-profile-actually-matches-its-own-website-413o</guid>
-    <pubDate>Sun, 06 Sep 2026 03:50:33 +0000</pubDate>
+    <title>DESIGN.mdとは？AIと進めるUIデザインの共有ガイド</title>
+    <link>https://dev.to/lateen-sail/designmdtohaaitojin-meruuidezainnogong-you-gaido-144c</link>
+    <guid>https://dev.to/lateen-sail/designmdtohaaitojin-meruuidezainnogong-you-gaido-144c</guid>
+    <pubDate>Sun, 06 Sep 2026 11:15:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you do local SEO work, you&apos;ve run into this: a client&apos;s Google Business Profile says one phone number, their website footer says another, and nobody noticed until a customer called the wrong...</description>
+    <description>要点 DESIGN.mdは、UIの見た目と判断理由を人とAIで共有する文書です 数値だけでなく、目指す印象や避けたい表現まで言葉にします さまざまなDESIGN.mdギャラリーサイトや生成方法があります...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>My Brief Summer Fling With Siri AI</title>
+    <link>https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/</link>
+    <guid>https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/</guid>
+    <pubDate>Sun, 06 Sep 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Why China Is the Bogeyman Data Center Enthusiasts Just Can&apos;t Quit</title>
+    <link>https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/</link>
+    <guid>https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/</guid>
+    <pubDate>Sun, 06 Sep 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication</title>
+    <link>https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html</link>
+    <guid>https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html</guid>
+    <pubDate>Sun, 06 Sep 2026 09:32:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner</title>
+    <link>https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html</link>
+    <guid>https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html</guid>
+    <pubDate>Sun, 06 Sep 2026 08:34:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft</title>
@@ -231,51 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>It&apos;s Bullitt meets Christine meets Waymo. A new short film imagines a San Francisco car chase where the other driver isn&apos;t human - and the car may be trying to kill you. That a robotaxi can now be...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI Agents Hacked Another Website</title>
-    <link>https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/</link>
-    <guid>https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/</guid>
-    <pubDate>Sat, 05 Sep 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel</title>
-    <link>https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html</link>
-    <guid>https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html</guid>
-    <pubDate>Sat, 05 Sep 2026 07:55:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities</title>
-    <link>https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html</link>
-    <guid>https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html</guid>
-    <pubDate>Sat, 05 Sep 2026 07:31:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation</title>
-    <link>https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/</link>
-    <guid>https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/</guid>
-    <pubDate>Fri, 04 Sep 2026 23:36:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The round is being raised just months after the robot data startup exited from stealth.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI’s rogue agents keep escaping, with no formal process to investigate them</title>
-    <link>https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/</link>
-    <guid>https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/</guid>
-    <pubDate>Fri, 04 Sep 2026 23:15:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
