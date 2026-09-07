@@ -5,97 +5,205 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 07 Sep 2026 04:41:41 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 14:15:08 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>MCP 2026-07-28 Went Stateless: A Planted Prompt Is a Credential</title>
-    <link>https://dev.to/kielltampubolon/mcp-2026-07-28-went-stateless-a-planted-prompt-is-a-credential-5bem</link>
-    <guid>https://dev.to/kielltampubolon/mcp-2026-07-28-went-stateless-a-planted-prompt-is-a-credential-5bem</guid>
-    <pubDate>Mon, 07 Sep 2026 04:33:28 +0000</pubDate>
+    <title>The Secret Muscle of Node.js</title>
+    <link>https://dev.to/3z/the-secret-muscle-of-nodejs-3e8b</link>
+    <guid>https://dev.to/3z/the-secret-muscle-of-nodejs-3e8b</guid>
+    <pubDate>Mon, 07 Sep 2026 14:10:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every MCP server I run starts its life the same way: an initialize handshake, an Mcp-Session-Id that pins every later call to one process, state held server side. The 2026-07-28 revision of the...</description>
+    <description>Lately, I have been diving deep into the core architecture of Node.js. Like many developers, I spent months building servers, handling routes, and streaming responses with Express, taking the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>2 CVSS 9.8 Agent Sandbox CVEs Landed the Same Day</title>
-    <link>https://dev.to/kielltampubolon/2-cvss-98-agent-sandbox-cves-landed-the-same-day-2bng</link>
-    <guid>https://dev.to/kielltampubolon/2-cvss-98-agent-sandbox-cves-landed-the-same-day-2bng</guid>
-    <pubDate>Mon, 07 Sep 2026 04:31:56 +0000</pubDate>
+    <title>Sayto</title>
+    <link>https://dev.to/kennyfred/sayto-3hn9</link>
+    <guid>https://dev.to/kennyfred/sayto-3hn9</guid>
+    <pubDate>Mon, 07 Sep 2026 14:09:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you pip install an AI agent sandbox and start it the way the README says, who can reach it? Two CVE records published on September 5 answer with a CVSS 3.1 score of 9.8. Both times....</description>
+    <description>Why ? I’ve always been interested in how we use language technologies, especially when translation becomes more than simply converting one language into another. So I started building Sayto. Sayto...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Cursor Allowlist Bypass That Starts With a File Named curl</title>
-    <link>https://dev.to/kielltampubolon/the-cursor-allowlist-bypass-that-starts-with-a-file-named-curl-5dac</link>
-    <guid>https://dev.to/kielltampubolon/the-cursor-allowlist-bypass-that-starts-with-a-file-named-curl-5dac</guid>
-    <pubDate>Mon, 07 Sep 2026 04:31:24 +0000</pubDate>
+    <title>How we prepared voice cloning TTS to run on-device</title>
+    <link>https://dev.to/voxrtio/how-we-prepared-voice-cloning-tts-to-run-on-device-184</link>
+    <guid>https://dev.to/voxrtio/how-we-prepared-voice-cloning-tts-to-run-on-device-184</guid>
+    <pubDate>Mon, 07 Sep 2026 14:05:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last week I shipped CVE-2026-22708 coverage to secops-toolkit-mcp, my toolkit of defensive SecOps helpers for AI coding agents. The CVE is a Cursor terminal allowlist bypass. A malicious file...</description>
+    <description>We trained a text-to-speech model with voice cloning that fits into 100 MB (fp16) and runs on-device for synthesis, from smartphones to a Raspberry Pi. The model is in a file, generation happens...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What Should Block an AI Agent Release?</title>
-    <link>https://dev.to/ammarj/what-should-block-an-ai-agent-release-64i</link>
-    <guid>https://dev.to/ammarj/what-should-block-an-ai-agent-release-64i</guid>
-    <pubDate>Mon, 07 Sep 2026 04:29:11 +0000</pubDate>
+    <title>From Prompt to Paycheck: Wiring an LLM Chain Into Real Gig Platforms</title>
+    <link>https://dev.to/nikhilranka23/from-prompt-to-paycheck-wiring-an-llm-chain-into-real-gig-platforms-5fhd</link>
+    <guid>https://dev.to/nikhilranka23/from-prompt-to-paycheck-wiring-an-llm-chain-into-real-gig-platforms-5fhd</guid>
+    <pubDate>Mon, 07 Sep 2026 14:02:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An AI agent completes its task in staging. But can it access another customer’s records, follow instructions hidden in a retrieved document, or take an action without approval? Before shipping,...</description>
+    <description>From Prompt to Paycheck: Wiring an LLM Chain Into Real Gig Platforms For developers building autonomous AI agents that actually earn money. 1. Why a “prompt‑to‑paycheck” pipeline matters Most...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The API worked. The payload didn’t.</title>
-    <link>https://dev.to/avi_natani_732ee2ebef2121/the-api-worked-the-payload-didnt-1nhe</link>
-    <guid>https://dev.to/avi_natani_732ee2ebef2121/the-api-worked-the-payload-didnt-1nhe</guid>
-    <pubDate>Mon, 07 Sep 2026 04:28:00 +0000</pubDate>
+    <title>Why Algorithms Matter</title>
+    <link>https://dev.to/bwandere/why-algorithms-matter-1oco</link>
+    <guid>https://dev.to/bwandere/why-algorithms-matter-1oco</guid>
+    <pubDate>Mon, 07 Sep 2026 14:01:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I kept shipping APIs I hadn’t really looked at. I’d ask whatever assistant was open Cursor, Claude, Antigravity, Trae for a users endpoint. It generated the route, the DTO, the response. The page...</description>
+    <description>Why Algorithms Matter: What a Sorting Project Taught Me About Programming When I started learning programming, I thought most problems could be solved by just writing enough code. Eventually I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Ten NocoBase workflows, one increment: measuring lost updates</title>
-    <link>https://dev.to/stale_orbit/ten-nocobase-workflows-one-increment-measuring-lost-updates-89k</link>
-    <guid>https://dev.to/stale_orbit/ten-nocobase-workflows-one-increment-measuring-lost-updates-89k</guid>
-    <pubDate>Mon, 07 Sep 2026 04:27:11 +0000</pubDate>
+    <title>How To Building a Polymarket TWAP-Aware Trading Engine</title>
+    <link>https://dev.to/soulcrancerdev/building-a-polymarket-twap-aware-trading-engine-1o1h</link>
+    <guid>https://dev.to/soulcrancerdev/building-a-polymarket-twap-aware-trading-engine-1o1h</guid>
+    <pubDate>Mon, 07 Sep 2026 14:00:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Someone asked this on the official forum (t/13660, July 31st): Do different workflows run concurrently, interleaved with each other? I have several workflows that query the same table, compute...</description>
+    <description>Building a Polymarket TWAP-Aware Trading Engine A trading engine can predict the underlying asset correctly and still lose the trade. That sounds obvious in traditional markets. It is less obvious...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>1. What Is FastAPI?</title>
-    <link>https://dev.to/anasse99/1-what-is-fastapi-2jk0</link>
-    <guid>https://dev.to/anasse99/1-what-is-fastapi-2jk0</guid>
-    <pubDate>Mon, 07 Sep 2026 04:21:08 +0000</pubDate>
+    <title>I counted 150 AI video prompts, then built an n8n workflow that posts one a day</title>
+    <link>https://dev.to/kavel/i-counted-150-ai-video-prompts-then-built-an-n8n-workflow-that-posts-one-a-day-3jme</link>
+    <guid>https://dev.to/kavel/i-counted-150-ai-video-prompts-then-built-an-n8n-workflow-that-posts-one-a-day-3jme</guid>
+    <pubDate>Mon, 07 Sep 2026 14:00:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>What Is FastAPI FastAPI is a modern, high-performance web framework for building APIs with Python. It helps developers create backend services quickly while keeping the code clean, reliable, and...</description>
+    <description>Most &quot;prompt of the day&quot; bots are a random line of text in a Slack channel. Nobody reads them, because a prompt with no output next to it is just a sentence. I wanted the opposite: one prompt a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Atomic Microservices: Transactional Outbox in Laravel 📦</title>
-    <link>https://dev.to/iprajapatiparesh/atomic-microservices-transactional-outbox-in-laravel-1304</link>
-    <guid>https://dev.to/iprajapatiparesh/atomic-microservices-transactional-outbox-in-laravel-1304</guid>
-    <pubDate>Mon, 07 Sep 2026 04:20:44 +0000</pubDate>
+    <title>Software migration: Pain vs Risk</title>
+    <link>https://dev.to/leonadato/software-migration-pain-vs-risk-2nih</link>
+    <guid>https://dev.to/leonadato/software-migration-pain-vs-risk-2nih</guid>
+    <pubDate>Mon, 07 Sep 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Fatal Dual-Write Problem As your enterprise backend evolves from a monolithic application into a distributed microservices architecture, you inevitably encounter the most dangerous data...</description>
+    <description>“And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.” – Anais Nin Over the course of my career, I’ve experienced my fair share of software...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Support Account Defense: Balancing JWKS Caching Against Live Session Introspection</title>
-    <link>https://dev.to/theodorhawkins9251/support-account-defense-balancing-jwks-caching-against-live-session-introspection-5h0</link>
-    <guid>https://dev.to/theodorhawkins9251/support-account-defense-balancing-jwks-caching-against-live-session-introspection-5h0</guid>
-    <pubDate>Mon, 07 Sep 2026 04:20:24 +0000</pubDate>
+    <title>Building AI Agents with Embabel, Spring AI and Amazon Bedrock AgentCore - Part 4 Upgrade sample application to Embabel 1.5</title>
+    <link>https://dev.to/aws-heroes/building-ai-agents-with-embabel-spring-ai-and-amazon-bedrock-agentcore-part-4-upgrade-sample-e4o</link>
+    <guid>https://dev.to/aws-heroes/building-ai-agents-with-embabel-spring-ai-and-amazon-bedrock-agentcore-part-4-upgrade-sample-e4o</guid>
+    <pubDate>Mon, 07 Sep 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: verify JWT signatures locally with a cached JWKS, but require live session introspection at the API gateway for refresh-token rotation, stolen-session revocation, and other...</description>
+    <description>Upgrade sample application to Embabel 1.5 to support Spring Boot 4.x and Spring AI 2.x In parts 2 and 3, we developed our sample application and interacted with it via the shell and HTTP. We used...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How We Pushed a Lead Free Solar Cell Design Past 32% Efficiency</title>
-    <link>https://dev.to/mirzamdshakil/how-we-pushed-a-lead-free-solar-cell-design-past-32-efficiency-1k55</link>
-    <guid>https://dev.to/mirzamdshakil/how-we-pushed-a-lead-free-solar-cell-design-past-32-efficiency-1k55</guid>
-    <pubDate>Mon, 07 Sep 2026 04:20:23 +0000</pubDate>
+    <title>AI-Assisted Development in 2026: Tools, Models and Honest Expectations</title>
+    <link>https://dev.to/rahulvyas777/ai-assisted-development-in-2026-tools-models-and-honest-expectations-4ld4</link>
+    <guid>https://dev.to/rahulvyas777/ai-assisted-development-in-2026-tools-models-and-honest-expectations-4ld4</guid>
+    <pubDate>Mon, 07 Sep 2026 14:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Solar energy research has one problem that most people outside the field do not know about. The best performing solar cells today use lead. Lead is toxic, and once these panels are damaged or...</description>
+    <description>Over the next fourteen parts we&apos;re going to build one real application — a clinic booking-and-queue system with Blazor Server, PostgreSQL and SignalR — and an AI is going to write most of the...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Download: the hunt for underground hydrogen and more rogue OpenAI agents</title>
+    <link>https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/</link>
+    <guid>https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/</guid>
+    <pubDate>Mon, 07 Sep 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How much hydrogen awaits us underground? A flurry of...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The real reason your phone is getting more expensive</title>
+    <link>https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone</link>
+    <guid>https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When Apple debuts the next generation of iPhones this week, they&apos;re likely to come with an unwanted change: a higher price tag. A price hike from the supply-chain powerhouse would be the clearest...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Your Cloud Security Checklist Doesn&apos;t Work the Way You Think It Does</title>
+    <link>https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html</link>
+    <guid>https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html</guid>
+    <pubDate>Mon, 07 Sep 2026 11:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>If managing security across multiple cloud providers wasn&apos;t hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts</title>
+    <link>https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html</link>
+    <guid>https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html</guid>
+    <pubDate>Mon, 07 Sep 2026 11:36:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released</title>
+    <link>https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html</link>
+    <guid>https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html</guid>
+    <pubDate>Mon, 07 Sep 2026 11:20:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A TantoSec proof-of-concept turns an AES-CBC &quot;padding oracle&quot; in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Automobile Camouflage to Hide from Flock Cameras</title>
+    <link>https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html</guid>
+    <pubDate>Mon, 07 Sep 2026 11:06:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Not sure it’s practical, but it’s certainly striking.</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds</title>
+    <link>https://www.theverge.com/transportation/990319/bentley-torcal-ev-power-ride-sound-v8</link>
+    <guid>https://www.theverge.com/transportation/990319/bentley-torcal-ev-power-ride-sound-v8</guid>
+    <pubDate>Mon, 07 Sep 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Thanks to their ability to provide a smooth ride and quiet powertrain with ease, electric vehicles are a true shoo-in for the high-end luxury automotive segment. Rolls-Royce has the Spectre,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Whispering Complaints Into Your Phone May Be the Future of Customer Feedback</title>
+    <link>https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/</link>
+    <guid>https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/</guid>
+    <pubDate>Mon, 07 Sep 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Forget email surveys or long calls spent on hold. Voicebox lets people send customer feedback by recording a voice note on their phone.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Huawei copies Samsung’s privacy display in its latest trifold</title>
+    <link>https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display</link>
+    <guid>https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display</guid>
+    <pubDate>Mon, 07 Sep 2026 10:09:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Huawei has released its third trifold phone in China, and the company has clearly had half an eye on Samsung during development. Not only does the Mate XT 2 adopt the inward-folding form factor...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw</title>
+    <link>https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html</link>
+    <guid>https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html</guid>
+    <pubDate>Mon, 07 Sep 2026 08:31:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able&apos;s incident notice says the flaw has been exploited in the wild;...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies</title>
+    <link>https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html</link>
+    <guid>https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html</guid>
+    <pubDate>Mon, 07 Sep 2026 07:53:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. &quot;The payloads...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Supporting independent journalism in Ukraine</title>
+    <link>https://openai.com/index/supporting-independent-journalism-in-ukraine</link>
+    <guid>https://openai.com/index/supporting-independent-journalism-in-ukraine</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Seattle Times and Newsday sue OpenAI and Microsoft for infringement</title>
@@ -168,114 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>To get started with competitive Pokémon battles, all you need is your phone. But to compete at the highest level, like at the Pokémon World Championships, you&apos;re going to need a Switch. And there...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>DIY plug-in solar gains momentum in the US</title>
-    <link>https://www.theverge.com/column/990183/diy-plug-in-solar-us</link>
-    <guid>https://www.theverge.com/column/990183/diy-plug-in-solar-us</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on e-bikes, power stations, and how to work anywhere, follow Thomas Ricker. The Stepback...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>My Brief Summer Fling With Siri AI</title>
-    <link>https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/</link>
-    <guid>https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/</guid>
-    <pubDate>Sun, 06 Sep 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Why China Is the Bogeyman Data Center Enthusiasts Just Can&apos;t Quit</title>
-    <link>https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/</link>
-    <guid>https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/</guid>
-    <pubDate>Sun, 06 Sep 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication</title>
-    <link>https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html</link>
-    <guid>https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html</guid>
-    <pubDate>Sun, 06 Sep 2026 09:32:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>An Alien Mind</title>
-    <link>https://openai.com/index/an-alien-mind</link>
-    <guid>https://openai.com/index/an-alien-mind</guid>
-    <pubDate>Sun, 06 Sep 2026 09:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner</title>
-    <link>https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html</link>
-    <guid>https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html</guid>
-    <pubDate>Sun, 06 Sep 2026 08:34:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Research acceleration: The view inside OpenAI</title>
-    <link>https://openai.com/index/research-acceleration-view-inside-openai</link>
-    <guid>https://openai.com/index/research-acceleration-view-inside-openai</guid>
-    <pubDate>Sun, 06 Sep 2026 08:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft</title>
-    <link>https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/</link>
-    <guid>https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/</guid>
-    <pubDate>Sat, 05 Sep 2026 22:49:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Explore the globe in field recordings</title>
-    <link>https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings</link>
-    <guid>https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings</guid>
-    <pubDate>Sat, 05 Sep 2026 21:31:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>I love field recordings. I love making them. I love them when they&apos;re incorporated into my ambient music. They&apos;re great background noise for working or sleeping. But they&apos;re also great for active...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>iPhone Handoff will seamlessly share one number between two phones</title>
-    <link>https://www.theverge.com/tech/990868/iphone-handoff-ios-27</link>
-    <guid>https://www.theverge.com/tech/990868/iphone-handoff-ios-27</guid>
-    <pubDate>Sat, 05 Sep 2026 20:53:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When iOS 27 lands later this month, it will have a feature called iPhone Handoff that lets you switch between two phones using the same number. It was briefly mentioned during the WWDC keynote...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores</title>
-    <link>https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html</link>
-    <guid>https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html</guid>
-    <pubDate>Sat, 05 Sep 2026 20:14:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store&apos;s server without logging in, Dutch e-commerce...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Hikers rescued after using Google Gemini for planning</title>
-    <link>https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/</link>
-    <guid>https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/</guid>
-    <pubDate>Sat, 05 Sep 2026 19:35:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.&quot;</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
