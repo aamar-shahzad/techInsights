@@ -5,97 +5,106 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 06 Sep 2026 22:07:23 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 04:41:41 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Compare Against the Schema They Shipped, Not the One You Expected</title>
-    <link>https://dev.to/kenielzep97/compare-against-the-schema-they-shipped-not-the-one-you-expected-3mb8</link>
-    <guid>https://dev.to/kenielzep97/compare-against-the-schema-they-shipped-not-the-one-you-expected-3mb8</guid>
-    <pubDate>Sun, 06 Sep 2026 21:57:04 +0000</pubDate>
+    <title>MCP 2026-07-28 Went Stateless: A Planted Prompt Is a Credential</title>
+    <link>https://dev.to/kielltampubolon/mcp-2026-07-28-went-stateless-a-planted-prompt-is-a-credential-5bem</link>
+    <guid>https://dev.to/kielltampubolon/mcp-2026-07-28-went-stateless-a-planted-prompt-is-a-credential-5bem</guid>
+    <pubDate>Mon, 07 Sep 2026 04:33:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My harness flagged the model for sending the wrong arguments. It compared what the model actually sent against what the run had committed to in advance, and they did not match. The mismatch was...</description>
+    <description>Every MCP server I run starts its life the same way: an initialize handshake, an Mcp-Session-Id that pins every later call to one process, state held server side. The 2026-07-28 revision of the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>You Aren&apos;t Choosing an AI Tool. You&apos;re Choosing Who Gets Paged at 2 AM.</title>
-    <link>https://dev.to/debashish_ghosal/you-arent-choosing-an-ai-tool-youre-choosing-who-gets-paged-at-2-am-5g4a</link>
-    <guid>https://dev.to/debashish_ghosal/you-arent-choosing-an-ai-tool-youre-choosing-who-gets-paged-at-2-am-5g4a</guid>
-    <pubDate>Sun, 06 Sep 2026 21:43:50 +0000</pubDate>
+    <title>2 CVSS 9.8 Agent Sandbox CVEs Landed the Same Day</title>
+    <link>https://dev.to/kielltampubolon/2-cvss-98-agent-sandbox-cves-landed-the-same-day-2bng</link>
+    <guid>https://dev.to/kielltampubolon/2-cvss-98-agent-sandbox-cves-landed-the-same-day-2bng</guid>
+    <pubDate>Mon, 07 Sep 2026 04:31:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Part of AI Leadership in the Real World — how leaders turn scattered pilots into governed, adopted, measurable capability. TLDR: A support agent doing 50,000 chats a month needs ~3.5 FTE and...</description>
+    <description>If you pip install an AI agent sandbox and start it the way the README says, who can reach it? Two CVE records published on September 5 answer with a CVSS 3.1 score of 9.8. Both times....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Handover: small charities know what hurts, not what skill they are missing</title>
-    <link>https://dev.to/ndcodes/handover-small-charities-know-what-hurts-not-what-skill-they-are-missing-4jpf</link>
-    <guid>https://dev.to/ndcodes/handover-small-charities-know-what-hurts-not-what-skill-they-are-missing-4jpf</guid>
-    <pubDate>Sun, 06 Sep 2026 21:39:38 +0000</pubDate>
+    <title>The Cursor Allowlist Bypass That Starts With a File Named curl</title>
+    <link>https://dev.to/kielltampubolon/the-cursor-allowlist-bypass-that-starts-with-a-file-named-curl-5dac</link>
+    <guid>https://dev.to/kielltampubolon/the-cursor-allowlist-bypass-that-starts-with-a-file-named-curl-5dac</guid>
+    <pubDate>Mon, 07 Sep 2026 04:31:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for Weekend Challenge: Generosity Edition What I Built Handover takes a plain description of what is going wrong inside a small charity and works out the role that would fix...</description>
+    <description>Last week I shipped CVE-2026-22708 coverage to secops-toolkit-mcp, my toolkit of defensive SecOps helpers for AI coding agents. The CVE is a Cursor terminal allowlist bypass. A malicious file...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Local Embeddings vs. API Embeddings — Why I Chose sentence-transformers</title>
-    <link>https://dev.to/pgmpofu/local-embeddings-vs-api-embeddings-why-i-chose-sentence-transformers-21jc</link>
-    <guid>https://dev.to/pgmpofu/local-embeddings-vs-api-embeddings-why-i-chose-sentence-transformers-21jc</guid>
-    <pubDate>Sun, 06 Sep 2026 21:31:28 +0000</pubDate>
+    <title>What Should Block an AI Agent Release?</title>
+    <link>https://dev.to/ammarj/what-should-block-an-ai-agent-release-64i</link>
+    <guid>https://dev.to/ammarj/what-should-block-an-ai-agent-release-64i</guid>
+    <pubDate>Mon, 07 Sep 2026 04:29:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every RAG pipeline needs to convert text into vectors. The question is where that conversion happens. You have two options: run an embedding model locally on your own hardware, or call an API that...</description>
+    <description>An AI agent completes its task in staging. But can it access another customer’s records, follow instructions hidden in a retrieved document, or take an action without approval? Before shipping,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Karibu Give; USSD Micro-Philanthropy for the Next Billion Givers</title>
-    <link>https://dev.to/ruita_wachira/karibu-give-ussd-micro-philanthropy-for-the-next-billion-givers-46a3</link>
-    <guid>https://dev.to/ruita_wachira/karibu-give-ussd-micro-philanthropy-for-the-next-billion-givers-46a3</guid>
-    <pubDate>Sun, 06 Sep 2026 21:31:25 +0000</pubDate>
+    <title>The API worked. The payload didn’t.</title>
+    <link>https://dev.to/avi_natani_732ee2ebef2121/the-api-worked-the-payload-didnt-1nhe</link>
+    <guid>https://dev.to/avi_natani_732ee2ebef2121/the-api-worked-the-payload-didnt-1nhe</guid>
+    <pubDate>Mon, 07 Sep 2026 04:28:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for Weekend Challenge: Generosity Edition What I Built Karibu Give (Swahili for Welcome, Give) is a USSD micro-donation platform that works on a kabambe phone(feature phone)...</description>
+    <description>I kept shipping APIs I hadn’t really looked at. I’d ask whatever assistant was open Cursor, Claude, Antigravity, Trae for a users endpoint. It generated the route, the DTO, the response. The page...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your prompt system has no tests, and that is why you cannot tell it is broken</title>
-    <link>https://dev.to/latifox/your-prompt-system-has-no-tests-and-that-is-why-you-cannot-tell-it-is-broken-10bh</link>
-    <guid>https://dev.to/latifox/your-prompt-system-has-no-tests-and-that-is-why-you-cannot-tell-it-is-broken-10bh</guid>
-    <pubDate>Sun, 06 Sep 2026 21:24:56 +0000</pubDate>
+    <title>Ten NocoBase workflows, one increment: measuring lost updates</title>
+    <link>https://dev.to/stale_orbit/ten-nocobase-workflows-one-increment-measuring-lost-updates-89k</link>
+    <guid>https://dev.to/stale_orbit/ten-nocobase-workflows-one-increment-measuring-lost-updates-89k</guid>
+    <pubDate>Mon, 07 Sep 2026 04:27:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tags: ai, python, testing, showdev Code fails loudly. A prompt system fails in silence, and it fails while still producing something that looks completely fine. I found this out the slow way. I...</description>
+    <description>Someone asked this on the official forum (t/13660, July 31st): Do different workflows run concurrently, interleaved with each other? I have several workflows that query the same table, compute...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Overhead Ratio Is Lying to You — I Built an AI Tool to Prove It</title>
-    <link>https://dev.to/hassan_shah_733ea1eb37c88/the-overhead-ratio-is-lying-to-you-i-built-an-ai-tool-to-prove-it-2684</link>
-    <guid>https://dev.to/hassan_shah_733ea1eb37c88/the-overhead-ratio-is-lying-to-you-i-built-an-ai-tool-to-prove-it-2684</guid>
-    <pubDate>Sun, 06 Sep 2026 21:23:26 +0000</pubDate>
+    <title>1. What Is FastAPI?</title>
+    <link>https://dev.to/anasse99/1-what-is-fastapi-2jk0</link>
+    <guid>https://dev.to/anasse99/1-what-is-fastapi-2jk0</guid>
+    <pubDate>Mon, 07 Sep 2026 04:21:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for Weekend Challenge: Generosity Edition What I Built GlassPocket — a tool that argues against the &quot;overhead ratio,&quot; the dominant heuristic people use to judge charities...</description>
+    <description>What Is FastAPI FastAPI is a modern, high-performance web framework for building APIs with Python. It helps developers create backend services quickly while keeping the code clean, reliable, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Freebuff, AgentRouter, OpenRouter, and Experiential Labs Give You Free AI Models (And the Business Tactics Behind It)</title>
-    <link>https://dev.to/dibyajyoti0/how-freebuff-agentrouter-openrouter-and-experiential-labs-give-you-free-ai-models-and-the-23lc</link>
-    <guid>https://dev.to/dibyajyoti0/how-freebuff-agentrouter-openrouter-and-experiential-labs-give-you-free-ai-models-and-the-23lc</guid>
-    <pubDate>Sun, 06 Sep 2026 21:23:14 +0000</pubDate>
+    <title>Atomic Microservices: Transactional Outbox in Laravel 📦</title>
+    <link>https://dev.to/iprajapatiparesh/atomic-microservices-transactional-outbox-in-laravel-1304</link>
+    <guid>https://dev.to/iprajapatiparesh/atomic-microservices-transactional-outbox-in-laravel-1304</guid>
+    <pubDate>Mon, 07 Sep 2026 04:20:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Frontier AI models are expensive to call directly. A single day of heavy Claude or GPT-5 usage in an agentic coding loop can rack up real money. But a small cluster of gateways and coding-agent...</description>
+    <description>The Fatal Dual-Write Problem As your enterprise backend evolves from a monolithic application into a distributed microservices architecture, you inevitably encounter the most dangerous data...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Hook System — Blocking AI Mistakes with Structure</title>
-    <link>https://dev.to/dbsoul/the-hook-system-blocking-ai-mistakes-with-structure-2k69</link>
-    <guid>https://dev.to/dbsoul/the-hook-system-blocking-ai-mistakes-with-structure-2k69</guid>
-    <pubDate>Sun, 06 Sep 2026 21:22:54 +0000</pubDate>
+    <title>Support Account Defense: Balancing JWKS Caching Against Live Session Introspection</title>
+    <link>https://dev.to/theodorhawkins9251/support-account-defense-balancing-jwks-caching-against-live-session-introspection-5h0</link>
+    <guid>https://dev.to/theodorhawkins9251/support-account-defense-balancing-jwks-caching-against-live-session-introspection-5h0</guid>
+    <pubDate>Mon, 07 Sep 2026 04:20:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is chapter 4 of my book **Building Autonomous AI Agents with Claude Code* — a field guide to turning Claude Code from a coding assistant into an agent that remembers, verifies its own work,...</description>
+    <description>Short answer: verify JWT signatures locally with a cached JWKS, but require live session introspection at the API gateway for refresh-token rotation, stolen-session revocation, and other...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What We Actually Work With</title>
-    <link>https://dev.to/studiomeyer_io/what-we-actually-work-with-3b5</link>
-    <guid>https://dev.to/studiomeyer_io/what-we-actually-work-with-3b5</guid>
-    <pubDate>Sun, 06 Sep 2026 21:20:03 +0000</pubDate>
+    <title>How We Pushed a Lead Free Solar Cell Design Past 32% Efficiency</title>
+    <link>https://dev.to/mirzamdshakil/how-we-pushed-a-lead-free-solar-cell-design-past-32-efficiency-1k55</link>
+    <guid>https://dev.to/mirzamdshakil/how-we-pushed-a-lead-free-solar-cell-design-past-32-efficiency-1k55</guid>
+    <pubDate>Mon, 07 Sep 2026 04:20:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A lot gets said about models. Hardly anything about the surroundings. Yet in daily work the surroundings are what decide. What is described here is not a product and not something we sell. It is...</description>
+    <description>Solar energy research has one problem that most people outside the field do not know about. The best performing solar cells today use lead. Lead is toxic, and once these panels are damaged or...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Seattle Times and Newsday sue OpenAI and Microsoft for infringement</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft</guid>
+    <pubDate>Sun, 06 Sep 2026 23:36:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>An Amazon cargo plane crashed at Miami International Airport</title>
@@ -266,15 +275,6 @@
     <pubDate>Sat, 05 Sep 2026 19:35:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.&quot;</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure</title>
-    <link>https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/</link>
-    <guid>https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/</guid>
-    <pubDate>Sat, 05 Sep 2026 18:05:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.</description>
     <category>AI</category>
   </item>
 </channel>
