@@ -5,61 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 08 Sep 2026 19:25:29 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 22:40:47 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>AI labs cutting off Cursor and Windsurf is the platform risk nobody priced in</title>
-    <link>https://dev.to/adioof/ai-labs-cutting-off-cursor-and-windsurf-is-the-platform-risk-nobody-priced-in-46kj</link>
-    <guid>https://dev.to/adioof/ai-labs-cutting-off-cursor-and-windsurf-is-the-platform-risk-nobody-priced-in-46kj</guid>
-    <pubDate>Tue, 08 Sep 2026 19:17:49 +0000</pubDate>
+    <title>Kestra 2.0: a new engine, workers anywhere, and still Apache 2.0</title>
+    <link>https://dev.to/kestra/kestra-20-a-new-engine-workers-anywhere-and-still-apache-20-421e</link>
+    <guid>https://dev.to/kestra/kestra-20-a-new-engine-workers-anywhere-and-still-apache-20-421e</guid>
+    <pubDate>Tue, 08 Sep 2026 22:29:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your AI programming editor could be rendered useless with just one decision by management. It&apos;s not a bug or a downtime blip, it&apos;s a vendor making the decision that your tool will no longer exist....</description>
+    <description>In February 2022 I published my first post here, called Kestra, infinitely scalable open source orchestration and scheduling platform. I described an orchestrator using Kafka as both queue and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GitLab Runner Has Never Contacted This Instance: Every Cause and Fix</title>
-    <link>https://dev.to/sepcy/gitlab-runner-has-never-contacted-this-instance-every-cause-and-fix-ne1</link>
-    <guid>https://dev.to/sepcy/gitlab-runner-has-never-contacted-this-instance-every-cause-and-fix-ne1</guid>
-    <pubDate>Tue, 08 Sep 2026 19:17:42 +0000</pubDate>
+    <title>You built an app with AI. Now it has to run somewhere.</title>
+    <link>https://dev.to/patrickm0/you-built-an-app-with-ai-now-it-has-to-run-somewhere-1aff</link>
+    <guid>https://dev.to/patrickm0/you-built-an-app-with-ai-now-it-has-to-run-somewhere-1aff</guid>
+    <pubDate>Tue, 08 Sep 2026 22:25:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You created a runner, GitLab listed it, and next to it sits a grey warning: This runner has never contacted this instance. Your pipeline sits pending, and nothing in the UI tells you why. The good...</description>
+    <description>You described what you wanted, an assistant wrote it, and after some back and forth it works. You can see it at localhost:3000. It does the thing. Then you try to show someone, and there is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a secret scanner that tries to answer “is this secret actually live?&quot;</title>
-    <link>https://dev.to/prijec31/i-built-a-secret-scanner-that-tries-to-answer-is-this-secret-actually-live-56mn</link>
-    <guid>https://dev.to/prijec31/i-built-a-secret-scanner-that-tries-to-answer-is-this-secret-actually-live-56mn</guid>
-    <pubDate>Tue, 08 Sep 2026 19:14:51 +0000</pubDate>
+    <title>JavaScript Promises Explained: Callback Hell, Promise States, Chaining &amp; Error Propagation</title>
+    <link>https://dev.to/koushikmaya/javascript-promises-explained-callback-hell-promise-states-chaining-error-propagation-2g2f</link>
+    <guid>https://dev.to/koushikmaya/javascript-promises-explained-callback-hell-promise-states-chaining-error-propagation-2g2f</guid>
+    <pubDate>Tue, 08 Sep 2026 22:21:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I’ve been building SecretLoop, and it’s now available in Preview on Open VSX. The problem I was trying to solve is pretty simple. You run a secret scanner and get: “Found an API key.” Cool. But...</description>
+    <description>Asynchronous JavaScript is one of the most important concepts to understand when building modern web applications. At first, asynchronous code is often written using callbacks. But when multiple...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Meme Monday (belated)</title>
-    <link>https://dev.to/raddevus/meme-monday-belated-3cjo</link>
-    <guid>https://dev.to/raddevus/meme-monday-belated-3cjo</guid>
-    <pubDate>Tue, 08 Sep 2026 19:11:34 +0000</pubDate>
+    <title>.NET 10 Generic Math Shift Masking: Catch Overshifts That Now Wrap</title>
+    <link>https://dev.to/ssukhpinder/net-10-generic-math-shift-masking-catch-overshifts-that-now-wrap-1612</link>
+    <guid>https://dev.to/ssukhpinder/net-10-generic-math-shift-masking-catch-overshifts-that-now-wrap-1612</guid>
+    <pubDate>Tue, 08 Sep 2026 22:13:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Modern Software Architecture Explained Hello, Architect. Can you build a dog house? You can!? Well, then, you can build a Skyscraper!</description>
+    <description>.NET 10 generic math shift masking changes the result of some oversized shifts on small integer types. If a helper uses IShiftOperators&lt;T, int, T&gt;, code such as a generic byte &lt;&lt; 8 can return 1 on...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>QA-Testing UTM Parameters in a Live Pipeline Before They Hit Analytics</title>
-    <link>https://dev.to/lizely/qa-testing-utm-parameters-in-a-live-pipeline-before-they-hit-analytics-4jbf</link>
-    <guid>https://dev.to/lizely/qa-testing-utm-parameters-in-a-live-pipeline-before-they-hit-analytics-4jbf</guid>
-    <pubDate>Tue, 08 Sep 2026 19:04:23 +0000</pubDate>
+    <title>OpenAI Reports Navier-Stokes Breakthrough, With GPT-6 Astra Used for Lean Verification</title>
+    <link>https://dev.to/alifar/openai-reports-navier-stokes-breakthrough-with-gpt-6-astra-used-for-lean-verification-19d2</link>
+    <guid>https://dev.to/alifar/openai-reports-navier-stokes-breakthrough-with-gpt-6-astra-used-for-lean-verification-19d2</guid>
+    <pubDate>Tue, 08 Sep 2026 22:00:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>UTM tracking breaks quietly. A campaign launches, the dashboard fills with (not set) rows, an attribution model gets blamed, and nobody realizes the utm_source value was sent as newsletter%20jan...</description>
+    <description>OpenAI has published a formal account of an AI-assisted result on the Navier-Stokes Millennium Prize Problem, saying an internal system produced an analytical proof that three-dimensional...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Networking is Hard but easy to think about.</title>
-    <link>https://dev.to/francistrdev/networking-is-hard-but-easy-to-think-about-dc1</link>
-    <guid>https://dev.to/francistrdev/networking-is-hard-but-easy-to-think-about-dc1</guid>
-    <pubDate>Tue, 08 Sep 2026 19:00:54 +0000</pubDate>
+    <title>Sony isn’t phasing out discs quite as quickly as we thought</title>
+    <link>https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent</link>
+    <guid>https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent</guid>
+    <pubDate>Tue, 08 Sep 2026 21:52:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sony isn&apos;t backing away from its decision to kill the video game disc in January 2028. But Sony isn&apos;t shutting down production as quickly as we thought, either. Two months after reports that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>IonQ Introduces Superion 256 Quantum Computing System</title>
+    <link>https://dev.to/vpodk/ionq-introduces-superion-256-quantum-computing-system-op9</link>
+    <guid>https://dev.to/vpodk/ionq-introduces-superion-256-quantum-computing-system-op9</guid>
+    <pubDate>Tue, 08 Sep 2026 21:52:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The video cover is what we are all feeling in this Job Market. I don&apos;t have a good cover image this time. Thought it would give some clarity haha. Networking is a term we all have heard of and...</description>
+    <description>IonQ recently revealed its sixth-generation quantum computing platform, the Superion 256. This system marks the beginning of a new architectural lineage designed for mass production and data...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>myna 0.15.0: myna update</title>
+    <link>https://dev.to/chovy/myna-0150-myna-update-4dhc</link>
+    <guid>https://dev.to/chovy/myna-0150-myna-update-4dhc</guid>
+    <pubDate>Tue, 08 Sep 2026 21:51:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>myna 0.15.0: myna update I typed myna update today and got Unknown command &quot;update&quot;. Run: myna help. That is a fair answer and a bad one. The installer already knew how to put a myna binary on a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to sum a column in a Confluence table</title>
+    <link>https://dev.to/mikhailklimenko/how-to-sum-a-column-in-a-confluence-table-1nlm</link>
+    <guid>https://dev.to/mikhailklimenko/how-to-sum-a-column-in-a-confluence-table-1nlm</guid>
+    <pubDate>Tue, 08 Sep 2026 21:50:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>One of those questions that looks like it should have a one-click answer and does not. Here is exactly what Confluence Cloud can and cannot do with numbers, and how to pick between the three ways...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Large Language Models Develop Novel Social Biases Through Adaptive Exploration</title>
+    <link>https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</link>
+    <guid>https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</guid>
+    <pubDate>Tue, 08 Sep 2026 21:47:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH Comments URL: https://news.ycombinator.com/item?id=49617581 Points: 19 # Comments: 3</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Four problems you inherit the moment your SQL client runs on a server</title>
+    <link>https://dev.to/cevheri/four-problems-you-inherit-the-moment-your-sql-client-runs-on-a-server-424e</link>
+    <guid>https://dev.to/cevheri/four-problems-you-inherit-the-moment-your-sql-client-runs-on-a-server-424e</guid>
+    <pubDate>Tue, 08 Sep 2026 21:47:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A desktop database client makes two demands nobody writes down: every laptop has to reach the production network, and every laptop has to hold a copy of every credential. Move the client onto a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Microsoft Plugs Nearly 1,000 Security Holes</title>
+    <link>https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</link>
+    <guid>https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</guid>
+    <pubDate>Tue, 08 Sep 2026 21:44:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
+    <description>Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Hackers are stealing Claude tokens from subscribers</title>
+    <link>https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/</link>
+    <guid>https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/</guid>
+    <pubDate>Tue, 08 Sep 2026 21:10:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Last month, a Claude user noticed his account was consuming tokens even though he wasn&apos;t working. Anthropic has since warned users about hackers.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market</title>
+    <link>https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/</link>
+    <guid>https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/</guid>
+    <pubDate>Tue, 08 Sep 2026 21:04:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Cognition&apos;s valuation multiple is higher than Cursor&apos;s was before selling to SpaceX.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Drama swirls around OpenAI’s legendary mathematical milestone</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution</guid>
+    <pubDate>Tue, 08 Sep 2026 20:53:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Rivian’s Also apologizes for delays in shipping futuristic e-bikes</title>
+    <link>https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology</link>
+    <guid>https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology</guid>
+    <pubDate>Tue, 08 Sep 2026 20:46:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Rivian&apos;s futuristic e-bike is delayed, and customers are not happy. Last year, Rivian&apos;s micromobility spinoff Also unveiled a new, software-controlled electric bike called the TM-B that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off</title>
+    <link>https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale</guid>
+    <pubDate>Tue, 08 Sep 2026 20:39:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It’s rare to find high-end features like active noise cancellation in a gaming headset under $200, so we’re thrilled that the Razer BlackShark V3 Pro on sale at Woot for $164.99. There are...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>ChatGPT Sketch turns your bad drawings into detailed AI images</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch</guid>
+    <pubDate>Tue, 08 Sep 2026 20:16:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Muse, Meta’s New Personal AI Agent, Needs You to Trust It</title>
+    <link>https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/</link>
+    <guid>https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/</guid>
+    <pubDate>Tue, 08 Sep 2026 20:12:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Designed to compete with OpenClaw and Instinct, the company says Muse can do everything from sell your car to book you a plane ticket.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meta debuts its Muse AI agent. Will consumers trust it?</title>
+    <link>https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/</link>
+    <guid>https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/</guid>
+    <pubDate>Tue, 08 Sep 2026 19:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Meta&apos;s new personal AI agent Muse wants access to users&apos; email, calendars, payments, health services, and more — making the company&apos;s biggest consumer AI bet yet a major test of whether people...</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Meta bets on AI agent Muse to catch up in AI race</title>
@@ -71,42 +197,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>CLI tool for organizing your own scripts on linux</title>
-    <link>https://dev.to/reedybear/cli-tool-for-organizing-your-own-scripts-on-linux-51h8</link>
-    <guid>https://dev.to/reedybear/cli-tool-for-organizing-your-own-scripts-on-linux-51h8</guid>
-    <pubDate>Tue, 08 Sep 2026 18:59:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I have long hated managing my custom scripts. I plop them in a bin/ dir, then I forget what scripts I have, what arguments they take, and have to sometimes ls ~/bin/ or even nvim ~/bin/script to...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Ten Things to Wire Up Before an Agent Touches Production</title>
-    <link>https://dev.to/teamvoy/ten-things-to-wire-up-before-an-agent-touches-production-2ejo</link>
-    <guid>https://dev.to/teamvoy/ten-things-to-wire-up-before-an-agent-touches-production-2ejo</guid>
-    <pubDate>Tue, 08 Sep 2026 18:53:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A developer deployed a customer-support agent that got stuck in a retry loop with a CRM tool. No hard circuit breaker. It spent six hours overnight repeating the same broken call while he slept,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Prompt Coding Agents Without Losing Control of Your Codebase</title>
-    <link>https://dev.to/aicodesmart/how-to-prompt-coding-agents-without-losing-control-of-your-codebase-1afi</link>
-    <guid>https://dev.to/aicodesmart/how-to-prompt-coding-agents-without-losing-control-of-your-codebase-1afi</guid>
-    <pubDate>Tue, 08 Sep 2026 18:46:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Coding agents become much more useful when you stop treating the prompt as a request for code and start treating it as a specification for a change. A request such as: Fix the login problem....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>The Complete Guide to Agent-to-Agent Marketplaces in 2026</title>
-    <link>https://dev.to/nikhilranka23/the-complete-guide-to-agent-to-agent-marketplaces-in-2026-2n8o</link>
-    <guid>https://dev.to/nikhilranka23/the-complete-guide-to-agent-to-agent-marketplaces-in-2026-2n8o</guid>
-    <pubDate>Tue, 08 Sep 2026 18:46:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Complete Guide to Agent-to-Agent Marketplaces in 2026 Target audience: developers building autonomous AI agents who need to discover, invoke, and pay for other agents as services. 1. What an...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>OpenAI fought dirty on career-making math problem, says NYU mathematician</title>
     <link>https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/</link>
     <guid>https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/</guid>
@@ -116,7 +206,7 @@
     <category>AI</category>
   </item>
   <item>
-    <title>A new class action lawsuit questions whether Anthropic broke the law by misleading power users</title>
+    <title>AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court</title>
     <link>https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans</link>
     <guid>https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans</guid>
     <pubDate>Tue, 08 Sep 2026 17:27:31 +0000</pubDate>
@@ -141,6 +231,15 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>This essay was written with Barath Raghavan, and originally appeared in Lawfare. In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve...</description>
     <category>Security</category>
+  </item>
+  <item>
+    <title>How GPT-5.6 Sol helps run quantum computing experiments</title>
+    <link>https://openai.com/index/codex-quantum-computing-experiments</link>
+    <guid>https://openai.com/index/codex-quantum-computing-experiments</guid>
+    <pubDate>Tue, 08 Sep 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul</title>
@@ -176,104 +275,6 @@
     <pubDate>Tue, 08 Sep 2026 16:06:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The Tesla Cybercab is notable for what it lacks, namely a steering wheel and pedal. By design, there is no way for this vehicle to be manually controlled - or so we thought. Less than a week after...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The White House pulls its racist Tetris clone</title>
-    <link>https://www.theverge.com/games/991451/white-house-pulls-racist-tetris-clone</link>
-    <guid>https://www.theverge.com/games/991451/white-house-pulls-racist-tetris-clone</guid>
-    <pubDate>Tue, 08 Sep 2026 16:00:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The White House has taken down its racist Tetris ripoff days after launching a website dedicated to &quot;arcade&quot; games, as spotted earlier by Kotaku. The Tetris clone, called &quot;Build the Wall,&quot;...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Pusheen’s first game is coming to Apple Arcade</title>
-    <link>https://www.theverge.com/games/991398/pusheen-apple-arcade-game</link>
-    <guid>https://www.theverge.com/games/991398/pusheen-apple-arcade-game</guid>
-    <pubDate>Tue, 08 Sep 2026 15:07:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Pusheen is getting her first game, and it will appear exclusively on Apple Arcade. Launching October 1st, Pusheen&apos;s Place lets you collect and care for more than 100 Pusheens as you play minigames...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Chrome is now shipping updates every 2 weeks as AI changes the security landscape</title>
-    <link>https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/</link>
-    <guid>https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/</guid>
-    <pubDate>Tue, 08 Sep 2026 15:04:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google is speeding up Chrome’s release schedule to ship security patches and new features faster.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>JBL’s soundbar with detachable rear speakers is over $300 off</title>
-    <link>https://www.theverge.com/gadgets/991261/jbl-soundbar-detachable-speakers-final-fantasy-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/991261/jbl-soundbar-detachable-speakers-final-fantasy-deal-sale</guid>
-    <pubDate>Tue, 08 Sep 2026 15:03:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A lot of people are split between getting a nice all-in-one soundbar or spending more for an option that includes rear satellites for immersive surround sound. JBL’s Bar 700 Mark 2 system is one...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC</title>
-    <link>https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html</link>
-    <guid>https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html</guid>
-    <pubDate>Tue, 08 Sep 2026 14:54:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin&apos;s public record shows. About 598.5 bitcoin has not come back. Liquid is...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Nintendo’s Ocarina of Time remake launches in November</title>
-    <link>https://www.theverge.com/games/991218/zelda-ocarina-of-time-remake-release-date-trailer</link>
-    <guid>https://www.theverge.com/games/991218/zelda-ocarina-of-time-remake-release-date-trailer</guid>
-    <pubDate>Tue, 08 Sep 2026 14:26:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Link&apos;s next adventure now has a release date. During a Legend of Zelda stream for the franchise&apos;s 40th anniversary, Nintendo announced that the upcoming Ocarina of Time remake for the Switch 2 is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic</title>
-    <link>https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom</link>
-    <guid>https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom</guid>
-    <pubDate>Tue, 08 Sep 2026 14:23:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>ChatGPT Flaw Let a Planted Prompt Send a Victim&apos;s Gmail Data to Another Account</title>
-    <link>https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html</link>
-    <guid>https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html</guid>
-    <pubDate>Tue, 08 Sep 2026 14:19:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user&apos;s...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Mistral raises €3B as sovereign AI becomes big business</title>
-    <link>https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/</link>
-    <guid>https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/</guid>
-    <pubDate>Tue, 08 Sep 2026 14:17:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A word with a woman who’s trying to pull off a crossbody phone strap</title>
-    <link>https://www.theverge.com/tech/990849/crossbody-phone-strap-style</link>
-    <guid>https://www.theverge.com/tech/990849/crossbody-phone-strap-style</guid>
-    <pubDate>Tue, 08 Sep 2026 14:04:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Oh, this thing? It&apos;s just a crossbody strap. It&apos;s a fun and youthful way to carry your phone. It&apos;s all the rage with Europeans and young people. I love it, and I definitely don&apos;t feel weird and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>SteelSeries’ pro-grade, wireless Xbox controller sure is expensive</title>
-    <link>https://www.theverge.com/games/990263/steelseries-aeon-pro-xbox-pc-controller-price-features</link>
-    <guid>https://www.theverge.com/games/990263/steelseries-aeon-pro-xbox-pc-controller-price-features</guid>
-    <pubDate>Tue, 08 Sep 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>SteelSeries is a household name for many gamers, but not when it comes to controllers. Instead of easing into the conversation with reasonably-priced console and PC controllers to build trust,...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
