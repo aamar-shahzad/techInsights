@@ -5,106 +5,259 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 09 Sep 2026 04:42:19 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 09 Sep 2026 12:58:05 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>JWKS and Session Verification Explained — 5 Recovery Paths for Fintech APIs</title>
-    <link>https://dev.to/andersonblake6857/jwks-and-session-verification-explained-5-recovery-paths-for-fintech-apis-3e0a</link>
-    <guid>https://dev.to/andersonblake6857/jwks-and-session-verification-explained-5-recovery-paths-for-fintech-apis-3e0a</guid>
-    <pubDate>Wed, 09 Sep 2026 04:32:16 +0000</pubDate>
+    <title>Building a Choose-Your-Own-Adventure API with NestJS — Part 1: The Foundation</title>
+    <link>https://dev.to/_notbu7ch/building-a-choose-your-own-adventure-api-with-nestjs-part-1-the-foundation-3904</link>
+    <guid>https://dev.to/_notbu7ch/building-a-choose-your-own-adventure-api-with-nestjs-part-1-the-foundation-3904</guid>
+    <pubDate>Wed, 09 Sep 2026 12:55:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: use JWKS verification to establish that a token was signed by an accepted issuer, then use session verification to decide whether that still-valid token should be allowed to act. For...</description>
+    <description>This is the first post in a series where I learn backend development by building &quot;Grimoire API&quot; — a REST API for a choose-your-own-adventure book, complete with XP and badges (because why not...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Detect Ransomware with Machine Learning</title>
-    <link>https://dev.to/cgivre/how-to-detect-ransomware-with-machine-learning-3dc5</link>
-    <guid>https://dev.to/cgivre/how-to-detect-ransomware-with-machine-learning-3dc5</guid>
-    <pubDate>Wed, 09 Sep 2026 04:30:06 +0000</pubDate>
+    <title>Silent HMAC Key Contamination: Uncovering a Logic Flaw in Burp&apos;s JWT Editor Extension</title>
+    <link>https://dev.to/rivenx173/silent-hmac-key-contamination-uncovering-a-logic-flaw-in-burps-jwt-editor-extension-1hcp</link>
+    <guid>https://dev.to/rivenx173/silent-hmac-key-contamination-uncovering-a-logic-flaw-in-burps-jwt-editor-extension-1hcp</guid>
+    <pubDate>Wed, 09 Sep 2026 12:54:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>By the time a classifier decides a binary is ransomware, the useful question is how many files you lost, not whether you caught it. That framing is missing from most work on this problem. Papers...</description>
+    <description>How a failing Web Security Academy lab led to a root-cause analysis of a hidden bug JWT Editor was shortlisted for &quot;Best Auth &amp; Access Control&quot; in PortSwigger&apos;s 2026 Burp Suite Extension Awards....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>N-able N-central Pre-Auth RCE Flaw Exploited in the Wild</title>
-    <link>https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html</link>
-    <guid>https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html</guid>
-    <pubDate>Wed, 09 Sep 2026 04:27:51 +0000</pubDate>
+    <title>In a Few Weeks, I Won&apos;t Know How My Own App Works</title>
+    <link>https://dev.to/testingil/in-a-few-weeks-i-wont-know-how-my-own-app-works-4eg</link>
+    <guid>https://dev.to/testingil/in-a-few-weeks-i-wont-know-how-my-own-app-works-4eg</guid>
+    <pubDate>Wed, 09 Sep 2026 12:53:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I’ve been doing a lot of code reviews recently, and I’ve noticed something about my experience during the reviews. And what it means for code in general, but specifically for AI generated code....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>7 Pieces of Advice for New Software Engineers</title>
+    <link>https://dev.to/franciscolunadev82/7-pieces-of-advice-for-new-software-engineers-1f5m</link>
+    <guid>https://dev.to/franciscolunadev82/7-pieces-of-advice-for-new-software-engineers-1f5m</guid>
+    <pubDate>Wed, 09 Sep 2026 12:50:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>From a founding engineer in a startup: Don&apos;t refactor or do more work than needed unless it&apos;s your own company. Prioritize your health and learning. In a traditional job, you&apos;re a number for...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Call That Hasn&apos;t Started Yet</title>
+    <link>https://dev.to/rittlyofficial/the-call-that-hasnt-started-yet-3644</link>
+    <guid>https://dev.to/rittlyofficial/the-call-that-hasnt-started-yet-3644</guid>
+    <pubDate>Wed, 09 Sep 2026 12:49:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A technical companion to the WebRTC connection journey: signaling, SDP, Offer/Answer, ICE, STUN, TURN, Trickle ICE, and connectivity debugging. What this article adds The Medium article follows a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Learn Trapping Rain Water, Top K Frequent and Selection Sort with Step-by-Step Visualization in DSA View View 👀👀</title>
+    <link>https://dev.to/nyaomaru/learn-trapping-rain-water-top-k-frequent-and-selection-sort-with-step-by-step-visualization-in-dsa-1flg</link>
+    <guid>https://dev.to/nyaomaru/learn-trapping-rain-water-top-k-frequent-and-selection-sort-with-step-by-step-visualization-in-dsa-1flg</guid>
+    <pubDate>Wed, 09 Sep 2026 12:48:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Hoi hoi! I’m @nyaomaru, a frontend engineer who has been obsessed with ramen lately. 😸🍜 Have you used DSA View View already? 👀👀 I Built a Tool to Visualize DSA. Let’s Learn Together! (DSA View...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Testability Is a Feature. Does Your Code Agent Know About It?</title>
+    <link>https://dev.to/testingil/testability-is-a-feature-does-your-code-agent-know-about-it-1el1</link>
+    <guid>https://dev.to/testingil/testability-is-a-feature-does-your-code-agent-know-about-it-1el1</guid>
+    <pubDate>Wed, 09 Sep 2026 12:48:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I always say that testability is a feature. It needs a customer – usually testers. We need to define what it means. And we need to build it in. The question is what happens to testability when...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>13 Attacks, 0 Vulnerabilities: Building a Security Toolkit — With Zero Dependencies, ZeroVault</title>
+    <link>https://dev.to/aaditya201014/13-attacks-0-vulnerabilities-building-a-security-toolkit-that-hacks-itself-with-zero-1f12</link>
+    <guid>https://dev.to/aaditya201014/13-attacks-0-vulnerabilities-building-a-security-toolkit-that-hacks-itself-with-zero-1f12</guid>
+    <pubDate>Wed, 09 Sep 2026 12:47:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>TL;DR — I built a complete security toolkit (encrypted vault, TOTP authenticator, file encryptor, git secrets scanner, QR code generator, and a self-testing penetration suite) using nothing but...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to make AI videos: production diary of a one-minute film</title>
+    <link>https://dev.to/hiper2d/how-to-make-ai-videos-production-diary-of-a-one-minute-film-450</link>
+    <guid>https://dev.to/hiper2d/how-to-make-ai-videos-production-diary-of-a-one-minute-film-450</guid>
+    <pubDate>Wed, 09 Sep 2026 12:46:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>In this article, I want to show the step-by-step process of building this video. It&apos;s a continuation of &quot;I&apos;m Not Going to Wake Them&quot;. That one cost me $16 on assets generation and took 3 days to...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>DeepSeek Harness (DSH) vs Pi Agent: Everything you need to know</title>
+    <link>https://dev.to/composiodev/deepseek-harness-dsh-vs-pi-agent-everything-you-need-to-know-5bci</link>
+    <guid>https://dev.to/composiodev/deepseek-harness-dsh-vs-pi-agent-everything-you-need-to-know-5bci</guid>
+    <pubDate>Wed, 09 Sep 2026 12:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>DeepSeek released its own agent harness this August. It crossed 66k stars in about a day (yes, sir!) and went over 200k by early September. That is already pretty crazy for something that is still...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How to watch Apple’s September 9th launch event</title>
+    <link>https://www.theverge.com/tech/989692/apple-iphone-launch-event-september-2026-how-to-watch</link>
+    <guid>https://www.theverge.com/tech/989692/apple-iphone-launch-event-september-2026-how-to-watch</guid>
+    <pubDate>Wed, 09 Sep 2026 12:28:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple&apos;s September 9th launch event could be one of its biggest in years. It will be Apple&apos;s first event since John Ternus took over as CEO on September 1st, stepping in for Tim Cook, and will...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: OpenAI’s turning point for math and a battery record</title>
+    <link>https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/</link>
+    <guid>https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/</guid>
+    <pubDate>Wed, 09 Sep 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What OpenAI’s latest controversy tells us about the future...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up</title>
+    <link>https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/</link>
+    <guid>https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/</guid>
+    <pubDate>Wed, 09 Sep 2026 12:05:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Students who use AI generally score worse at school</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa</guid>
+    <pubDate>Wed, 09 Sep 2026 12:05:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Students who use AI to help them study tend to perform worse at school than those who don&apos;t, according to data from a global OECD educational report. The situation is more complex than it sounds...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE</title>
+    <link>https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html</link>
+    <guid>https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html</guid>
+    <pubDate>Wed, 09 Sep 2026 11:57:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog,...</description>
+    <description>A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between...</description>
     <category>Security</category>
   </item>
   <item>
-    <title>A Failed Voice Path Should Change the Next Call</title>
-    <link>https://dev.to/ilya_mozerov_867dbdd91feb/a-failed-voice-path-should-change-the-next-call-5028</link>
-    <guid>https://dev.to/ilya_mozerov_867dbdd91feb/a-failed-voice-path-should-change-the-next-call-5028</guid>
-    <pubDate>Wed, 09 Sep 2026 04:23:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Our local voice reflex had a sensible routing rule: when the workstation was occupied and the event was proven, deliver it locally. Then the local TTS engine failed. The next proven event met the...</description>
-    <category>Developer Tools</category>
+    <title>DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval</title>
+    <link>https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html</link>
+    <guid>https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html</guid>
+    <pubDate>Wed, 09 Sep 2026 11:17:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A flaw in DeepSeek Harness, DeepSeek&apos;s open-source tool for running AI coding agents on a developer&apos;s machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>Why WSO2 Identity Server, WSO2 Identity Platform and ThunderID All Exist</title>
-    <link>https://dev.to/pasindu_balasooriya/why-wso2-identity-server-wso2-identity-platform-and-thunderid-all-exist-26lh</link>
-    <guid>https://dev.to/pasindu_balasooriya/why-wso2-identity-server-wso2-identity-platform-and-thunderid-all-exist-26lh</guid>
-    <pubDate>Wed, 09 Sep 2026 04:11:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Identity management sounds simple on the surface. A user logs in, the system checks who they are and access is granted. But underneath that simple idea sits a huge amount of...</description>
-    <category>Developer Tools</category>
+    <title>Claude Fable Solves a Historical Cipher</title>
+    <link>https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html</guid>
+    <pubDate>Wed, 09 Sep 2026 11:08:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Claude Fable 5.1 solved a 370-year-old cipher in forty-four minutes. This tracks with what I wrote about AIs doing mathematics: It’s good at things that involve lots of searching and testing.</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>Logistics Account Recovery: 4 Identity Signals for Continuity When Emails Change</title>
-    <link>https://dev.to/leopoldholm3736/logistics-account-recovery-4-identity-signals-for-continuity-when-emails-change-2fho</link>
-    <guid>https://dev.to/leopoldholm3736/logistics-account-recovery-4-identity-signals-for-continuity-when-emails-change-2fho</guid>
-    <pubDate>Wed, 09 Sep 2026 04:10:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: keep the account anchored to an internal identity record, then treat email as one replaceable recovery factor. For a logistics SaaS, that means a driver can rotate refresh tokens and...</description>
-    <category>Developer Tools</category>
+    <title>Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets</title>
+    <link>https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html</link>
+    <guid>https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html</guid>
+    <pubDate>Wed, 09 Sep 2026 10:43:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>The Independent Auditor Pattern — &quot;Don&apos;t Let the Thing That Built It Verify It&quot;</title>
-    <link>https://dev.to/dbsoul/the-independent-auditor-pattern-dont-let-the-thing-that-built-it-verify-it-4bbo</link>
-    <guid>https://dev.to/dbsoul/the-independent-auditor-pattern-dont-let-the-thing-that-built-it-verify-it-4bbo</guid>
-    <pubDate>Wed, 09 Sep 2026 04:10:03 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is chapter 6 of my book **Building Autonomous AI Agents with Claude Code* — a field guide to turning Claude Code from a coding assistant into an agent that remembers, verifies its own work,...</description>
-    <category>Developer Tools</category>
+    <title>Worried Anthropic researchers warn that AI &amp;#8216;could kill all humans&amp;#8217;</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans</guid>
+    <pubDate>Wed, 09 Sep 2026 09:56:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence &quot;could kill all humans&quot; by the end of the decade, just hours after a colleague resigned...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Getting maths out of ChatGPT and into Word without it turning into backslashes</title>
-    <link>https://dev.to/anuis258/getting-maths-out-of-chatgpt-and-into-word-without-it-turning-into-backslashes-3hf5</link>
-    <guid>https://dev.to/anuis258/getting-maths-out-of-chatgpt-and-into-word-without-it-turning-into-backslashes-3hf5</guid>
-    <pubDate>Wed, 09 Sep 2026 04:04:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ask ChatGPT to derive something. You get a clean equation on screen. Copy it into a document and you get one of three outcomes: \frac{-b \pm \sqrt{b^2-4ac}}{2a} …or a jumble of characters that...</description>
-    <category>Developer Tools</category>
+    <title>U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok</title>
+    <link>https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html</link>
+    <guid>https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html</guid>
+    <pubDate>Wed, 09 Sep 2026 09:32:26 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting &quot;systematic extraction&quot; of proprietary functionalities and capabilities...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>Designing Spoiler Controls and Evidence Labels for a Horror Game Wiki</title>
-    <link>https://dev.to/zakoxiaoyumao0621/designing-spoiler-controls-and-evidence-labels-for-a-horror-game-wiki-1ake</link>
-    <guid>https://dev.to/zakoxiaoyumao0621/designing-spoiler-controls-and-evidence-labels-for-a-horror-game-wiki-1ake</guid>
-    <pubDate>Wed, 09 Sep 2026 03:51:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A reader searches for help opening a puzzle box. The result supplies the answer in its preview, includes a later character reveal in the heading, and never explains whether the solution was...</description>
-    <category>Developer Tools</category>
+    <title>Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox</title>
+    <link>https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html</link>
+    <guid>https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html</guid>
+    <pubDate>Wed, 09 Sep 2026 09:11:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>OpenWorkProof Update: What We’ve Shipped—and What You Can Verify Today</title>
-    <link>https://dev.to/dengyier/openworkproof-update-what-weve-shipped-and-what-you-can-verify-today-3n2p</link>
-    <guid>https://dev.to/dengyier/openworkproof-update-what-weve-shipped-and-what-you-can-verify-today-3n2p</guid>
-    <pubDate>Wed, 09 Sep 2026 03:49:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My last update here was on August 25. Since then, OpenWorkProof Core 1.4.0 and our first DeepSeek Harness plugin have shipped. I owe readers a concrete account of what is available and how to...</description>
-    <category>Developer Tools</category>
+    <title>Batteries just broke another record in the US</title>
+    <link>https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/</link>
+    <guid>https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/</guid>
+    <pubDate>Wed, 09 Sep 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the...</description>
+    <category>AI</category>
   </item>
   <item>
-    <title>From OpenSpec to AIDLC: How I Improved My Team&apos;s AI Code Quality</title>
-    <link>https://dev.to/qtalen/from-openspec-to-aidlc-how-i-improved-my-teams-ai-code-quality-3mn2</link>
-    <guid>https://dev.to/qtalen/from-openspec-to-aidlc-how-i-improved-my-teams-ai-code-quality-3mn2</guid>
-    <pubDate>Wed, 09 Sep 2026 03:40:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>No new commands to learn, just pick it up and use it By this August, our team had been writing code with AI for more than half a year. The biggest thing I noticed during this time was that our...</description>
-    <category>Developer Tools</category>
+    <title>New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root</title>
+    <link>https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html</link>
+    <guid>https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html</guid>
+    <pubDate>Wed, 09 Sep 2026 08:19:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Understanding the thermal ceiling in portable power</title>
+    <link>https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/</link>
+    <guid>https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/</guid>
+    <pubDate>Wed, 09 Sep 2026 08:18:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Plug a phone into a modern charger and the first 10 minutes are impressive. The next 20 are not. This is not a defect. It’s the connected device protecting itself. As temperature rises during...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans</title>
+    <link>https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html</link>
+    <guid>https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html</guid>
+    <pubDate>Wed, 09 Sep 2026 07:36:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed</title>
+    <link>https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html</link>
+    <guid>https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html</guid>
+    <pubDate>Wed, 09 Sep 2026 06:47:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution</title>
+    <link>https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html</link>
+    <guid>https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html</guid>
+    <pubDate>Wed, 09 Sep 2026 06:25:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000</title>
+    <link>https://www.theverge.com/tech/991884/apple-iphone-duo-rumor-foldable</link>
+    <guid>https://www.theverge.com/tech/991884/apple-iphone-duo-rumor-foldable</guid>
+    <pubDate>Wed, 09 Sep 2026 05:26:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>With only a few hours left until the first iPhone launch event since John Ternus took over as the CEO of Apple, Bloomberg reporter Mark Gurman says the name of the company&apos;s long-rumored folding...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>What OpenAI’s latest controversy tells us about the future of math</title>
@@ -123,159 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Sony isn&apos;t backing away from its decision to kill the video game disc in January 2028. But Sony isn&apos;t shutting down production as quickly as we thought, either. Two months after reports that...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft Plugs Nearly 1,000 Security Holes</title>
-    <link>https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</link>
-    <guid>https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</guid>
-    <pubDate>Tue, 08 Sep 2026 21:44:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
-    <description>Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Why this month&apos;s Microsoft patch release is a doozy</title>
-    <link>https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/</link>
-    <guid>https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/</guid>
-    <pubDate>Tue, 08 Sep 2026 21:11:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Hackers are stealing Claude tokens from subscribers</title>
-    <link>https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/</link>
-    <guid>https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/</guid>
-    <pubDate>Tue, 08 Sep 2026 21:10:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Last month, a Claude user noticed his account was consuming tokens even though he wasn&apos;t working. Anthropic has since warned users about hackers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market</title>
-    <link>https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/</link>
-    <guid>https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/</guid>
-    <pubDate>Tue, 08 Sep 2026 21:04:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Cognition&apos;s valuation multiple is higher than Cursor&apos;s was before selling to SpaceX.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Drama swirls around OpenAI’s legendary mathematical milestone</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution</guid>
-    <pubDate>Tue, 08 Sep 2026 20:53:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Rivian spinout Also apologizes for delays in shipping futuristic e-bikes</title>
-    <link>https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology</link>
-    <guid>https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology</guid>
-    <pubDate>Tue, 08 Sep 2026 20:46:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Rivian&apos;s futuristic e-bike is delayed, and customers are not happy. Last year, Rivian&apos;s micromobility spinoff Also unveiled a new, software-controlled electric bike called the TM-B that...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off</title>
-    <link>https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale</guid>
-    <pubDate>Tue, 08 Sep 2026 20:39:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It’s rare to find high-end features like active noise cancellation in a gaming headset under $200, so we’re thrilled that the Razer BlackShark V3 Pro on sale at Woot for $164.99. There are...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ChatGPT Sketch turns your bad drawings into detailed AI images</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch</guid>
-    <pubDate>Tue, 08 Sep 2026 20:16:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Muse, Meta’s New Personal AI Agent, Needs You to Trust It</title>
-    <link>https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/</link>
-    <guid>https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/</guid>
-    <pubDate>Tue, 08 Sep 2026 20:12:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Designed to compete with OpenClaw and Instinct, the company says Muse can do everything from sell your car to book you a plane ticket.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meta debuts its Muse AI agent. Will consumers trust it?</title>
-    <link>https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/</link>
-    <guid>https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/</guid>
-    <pubDate>Tue, 08 Sep 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta&apos;s new personal AI agent Muse wants access to users&apos; email, calendars, payments, health services, and more — making the company&apos;s biggest consumer AI bet yet a major test of whether people...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meta bets on AI agent Muse to catch up in AI race</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race</guid>
-    <pubDate>Tue, 08 Sep 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI fought dirty on career-making math problem, says NYU mathematician</title>
-    <link>https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/</link>
-    <guid>https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/</guid>
-    <pubDate>Tue, 08 Sep 2026 17:32:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>There is a $1 million bounty for the first person providing a solution to the Navier-Stokes existence and smoothness problem.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans</guid>
-    <pubDate>Tue, 08 Sep 2026 17:27:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anthropic says power users are key to its business - it&apos;s prioritized them even when it means cutting off other popular applications, like OpenClaw. But some of these same customers say Anthropic...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nintendo isn’t scared of GTA VI</title>
-    <link>https://www.theverge.com/games/991484/zelda-ocarina-of-time-gta-6</link>
-    <guid>https://www.theverge.com/games/991484/zelda-ocarina-of-time-gta-6</guid>
-    <pubDate>Tue, 08 Sep 2026 17:13:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>There&apos;s never really been a game like Grand Theft Auto VI before, one that has completely altered the lineup of games around it. Everyone, it seems, is scared of going up against Grand Theft Auto...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AIs as Modern Genies</title>
-    <link>https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html</guid>
-    <pubDate>Tue, 08 Sep 2026 17:12:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>This essay was written with Barath Raghavan, and originally appeared in Lawfare. In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>How GPT-5.6 Sol helps run quantum computing experiments</title>
-    <link>https://openai.com/index/codex-quantum-computing-experiments</link>
-    <guid>https://openai.com/index/codex-quantum-computing-experiments</guid>
-    <pubDate>Tue, 08 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul</title>
-    <link>https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/</link>
-    <guid>https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/</guid>
-    <pubDate>Tue, 08 Sep 2026 16:42:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
