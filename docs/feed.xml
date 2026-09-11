@@ -5,97 +5,196 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 11 Sep 2026 04:41:02 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 12:49:30 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Node.js Consumer Capacity: Webhook Delivery, Rate Limits, and Dead-Letter Decisions</title>
-    <link>https://dev.to/rasmusberg6592/nodejs-consumer-capacity-webhook-delivery-rate-limits-and-dead-letter-decisions-492m</link>
-    <guid>https://dev.to/rasmusberg6592/nodejs-consumer-capacity-webhook-delivery-rate-limits-and-dead-letter-decisions-492m</guid>
-    <pubDate>Fri, 11 Sep 2026 04:21:04 +0000</pubDate>
+    <title>What is Debouncing in JavaScript? – A Practical Explanation</title>
+    <link>https://dev.to/kansoldev/what-is-debouncing-in-javascript-a-practical-explanation-519l</link>
+    <guid>https://dev.to/kansoldev/what-is-debouncing-in-javascript-a-practical-explanation-519l</guid>
+    <pubDate>Fri, 11 Sep 2026 12:45:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: treat a renewal reminder&apos;s business deadline as the primary SLO, then make the Node.js consumer&apos;s rate limit, acknowledgement boundary, retry policy, and dead-letter path one...</description>
+    <description>Have you ever typed into a search box and noticed that suggestions don&apos;t appear immediately, but only after you pause for a moment?, or you resized your browser window and observed that complex...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Retry That Restored Access</title>
-    <link>https://dev.to/anusha_mukka/the-retry-that-restored-access-3cec</link>
-    <guid>https://dev.to/anusha_mukka/the-retry-that-restored-access-3cec</guid>
-    <pubDate>Fri, 11 Sep 2026 04:20:52 +0000</pubDate>
+    <title>Where This Approach Does Not Work</title>
+    <link>https://dev.to/anton_brilliantov/where-this-approach-does-not-work-1fcg</link>
+    <guid>https://dev.to/anton_brilliantov/where-this-approach-does-not-work-1fcg</guid>
+    <pubDate>Fri, 11 Sep 2026 12:44:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Retries keep distributed systems moving through timeouts and temporary failures. In an access system, though, an old retry can be more dangerous than a failed request. This is Part 2 of Security...</description>
+    <description>Three kinds of tasks the method does not cover, and the price of splitting. 👋 I&apos;m Anton — a backend engineer working in PHP/Symfony and Go, currently carving a live PHP monolith into Go services....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A happy-path MCP demo proves almost nothing about tenant isolation</title>
-    <link>https://dev.to/kielltampubolon/a-happy-path-mcp-demo-proves-almost-nothing-about-tenant-isolation-17p</link>
-    <guid>https://dev.to/kielltampubolon/a-happy-path-mcp-demo-proves-almost-nothing-about-tenant-isolation-17p</guid>
-    <pubDate>Fri, 11 Sep 2026 04:20:33 +0000</pubDate>
+    <title>Skip the manual PostHog setup: EAS wires it into your Expo app for you</title>
+    <link>https://dev.to/expo/skip-the-manual-posthog-setup-eas-wires-it-into-your-expo-app-for-you-28ji</link>
+    <guid>https://dev.to/expo/skip-the-manual-posthog-setup-eas-wires-it-into-your-expo-app-for-you-28ji</guid>
+    <pubDate>Fri, 11 Sep 2026 12:43:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most MCP demos look the same. A tool is registered. A client calls it. The tool returns the expected data. Everyone nods. That demo tells you the tool can work. It tells you nothing about what...</description>
+    <description>You know the drill. Sign up for PostHog, create an org, create a project, decide which of the four SDK packages you actually need this time, hook up the config plugin, copy the project key out of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Bridging Webhooks to Your Event Mesh: A Secure Edge Pattern for Kafka, Redpanda, and NATS</title>
-    <link>https://dev.to/instawebhook/bridging-webhooks-to-your-event-mesh-a-secure-edge-pattern-for-kafka-redpanda-and-nats-2m8l</link>
-    <guid>https://dev.to/instawebhook/bridging-webhooks-to-your-event-mesh-a-secure-edge-pattern-for-kafka-redpanda-and-nats-2m8l</guid>
-    <pubDate>Fri, 11 Sep 2026 04:20:20 +0000</pubDate>
+    <title>Stage 2 of enterprise AI adoption: data and retrieval</title>
+    <link>https://dev.to/williamchiu/stage-2-of-enterprise-ai-adoption-data-and-retrieval-lc6</link>
+    <guid>https://dev.to/williamchiu/stage-2-of-enterprise-ai-adoption-data-and-retrieval-lc6</guid>
+    <pubDate>Fri, 11 Sep 2026 12:37:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>API event standardization API integration middleware API webhook payload mapping AsyncAPI specification AsyncAPI webhook design asyncAPI webhooks CloudEvents 1.0.2 CloudEvents 1.0.2 specification...</description>
+    <description>This is part 2 of a series that started with the full reference diagram in part 0 and covered identity and the gateway in part 1. Stage 2 covers the column marked 2 on that diagram, DATA &amp;...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What actually changes when an MCP server leaves your laptop</title>
-    <link>https://dev.to/kielltampubolon/what-actually-changes-when-an-mcp-server-leaves-your-laptop-3fhh</link>
-    <guid>https://dev.to/kielltampubolon/what-actually-changes-when-an-mcp-server-leaves-your-laptop-3fhh</guid>
-    <pubDate>Fri, 11 Sep 2026 04:19:27 +0000</pubDate>
+    <title>8 Software Books AI Has Made More Relevant</title>
+    <link>https://dev.to/bibryam/8-software-books-ai-has-made-more-relevant-h0j</link>
+    <guid>https://dev.to/bibryam/8-software-books-ai-has-made-more-relevant-h0j</guid>
+    <pubDate>Fri, 11 Sep 2026 12:37:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An MCP server that works locally is not the same as an MCP server that runs behind a gateway other people can reach. Every tutorial shows the local case because the local case is easy. The...</description>
+    <description>AI can now write much of the source code. Do software engineering books still matter? AI is changing how we write code, but many of the difficult decisions around it are familiar. We still need to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A valid payment webhook can still be dangerous to process twice</title>
-    <link>https://dev.to/kielltampubolon/a-valid-payment-webhook-can-still-be-dangerous-to-process-twice-bpj</link>
-    <guid>https://dev.to/kielltampubolon/a-valid-payment-webhook-can-still-be-dangerous-to-process-twice-bpj</guid>
-    <pubDate>Fri, 11 Sep 2026 04:19:24 +0000</pubDate>
+    <title>&quot;Cannot Reproduce&quot; Often Means &quot;Different Build&quot;, and Four Places That Happens</title>
+    <link>https://dev.to/session_replay/cannot-reproduce-often-means-different-build-and-four-places-that-happens-m06</link>
+    <guid>https://dev.to/session_replay/cannot-reproduce-often-means-different-build-and-four-places-that-happens-m06</guid>
+    <pubDate>Fri, 11 Sep 2026 12:32:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Payment providers retry. That is normal. What is not normal is what most applications do when the retry arrives. A valid Stripe, Midtrans, Tripay, or Xendit webhook can still be dangerous to...</description>
+    <description>I published something this morning saying a feature had shipped. It had not. The work was real, the commits were real, and they were sitting on a branch that was not main. I had read a git log...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your CLI Tool Needs an MCP Server: Shipping One in a Day, Protocol by Hand</title>
-    <link>https://dev.to/_ab214f84f83a01455a74b/your-cli-tool-needs-an-mcp-server-shipping-one-in-a-day-protocol-by-hand-37de</link>
-    <guid>https://dev.to/_ab214f84f83a01455a74b/your-cli-tool-needs-an-mcp-server-shipping-one-in-a-day-protocol-by-hand-37de</guid>
-    <pubDate>Fri, 11 Sep 2026 04:15:33 +0000</pubDate>
+    <title>How I Built an Automated AI Career Coach using Make.com</title>
+    <link>https://dev.to/adiela_samogide_d22803bf/how-i-built-an-automated-ai-career-coach-using-makecom-9n3</link>
+    <guid>https://dev.to/adiela_samogide_d22803bf/how-i-built-an-automated-ai-career-coach-using-makecom-9n3</guid>
+    <pubDate>Fri, 11 Sep 2026 12:25:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Your CLI Tool Needs an MCP Server: Shipping One in a Day, Protocol by Hand Published on 2026-09-11 · xbrowser v1.23.1 Every CLI tool built before 2026 is asking itself the same question: how do AI...</description>
+    <description>As businesses and educational programs scale, evaluating user progress manually becomes a massive bottleneck. Recently, I built an automated workflow to solve this exact problem: a system that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Difference Between vh, vw &amp; px</title>
-    <link>https://dev.to/sajin_joe/difference-between-vh-vw-px-2kd8</link>
-    <guid>https://dev.to/sajin_joe/difference-between-vh-vw-px-2kd8</guid>
-    <pubDate>Fri, 11 Sep 2026 04:14:27 +0000</pubDate>
+    <title>Terraforming a Blog: The Setup</title>
+    <link>https://dev.to/kishan_patel_39444796092d/terraforming-a-blog-the-setup-1ofn</link>
+    <guid>https://dev.to/kishan_patel_39444796092d/terraforming-a-blog-the-setup-1ofn</guid>
+    <pubDate>Fri, 11 Sep 2026 12:25:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>1.px (Pixels) Pixels are the traditional building blocks of web design. If you set an item&apos;s width to 300px, it will stay exactly 300 pixels wide whether a user views it on a tiny smartphone or a...</description>
+    <description>Why engineer something when you can overengineer it? As I am just getting back into cloud, I looked up many different videos and articles about how I should learn cloud engineering. The first one...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The 5-Minute Trick That Landed Me 3 Job Offers</title>
-    <link>https://dev.to/rahmanfrr/the-5-minute-trick-that-landed-me-3-job-offers-jff</link>
-    <guid>https://dev.to/rahmanfrr/the-5-minute-trick-that-landed-me-3-job-offers-jff</guid>
-    <pubDate>Fri, 11 Sep 2026 04:12:01 +0000</pubDate>
+    <title>Attackers Chain Two JFrog Artifactory Flaws to Mint Admin Tokens and Plant Rust Backdoors</title>
+    <link>https://dev.to/etairos/attackers-chain-two-jfrog-artifactory-flaws-to-mint-admin-tokens-and-plant-rust-backdoors-155m</link>
+    <guid>https://dev.to/etairos/attackers-chain-two-jfrog-artifactory-flaws-to-mint-admin-tokens-and-plant-rust-backdoors-155m</guid>
+    <pubDate>Fri, 11 Sep 2026 12:20:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I used to prep for interviews the normal way. Read the job post twice. Practice &quot;tell me about yourself&quot; in the mirror. Show up hoping for the best. Three offers later, I do one thing differently....</description>
+    <description>TL;DR what: Attackers chained CVE-2026-42018 and CVE-2026-42016 in self-hosted JFrog Artifactory to turn an unauthenticated request into an administrator-scope token, then installed Groovy plugins...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Real-World Project: A Posting Collection &amp; Analysis Agent from Start to Finish</title>
-    <link>https://dev.to/dbsoul/real-world-project-a-posting-collection-analysis-agent-from-start-to-finish-1g2j</link>
-    <guid>https://dev.to/dbsoul/real-world-project-a-posting-collection-analysis-agent-from-start-to-finish-1g2j</guid>
-    <pubDate>Fri, 11 Sep 2026 04:10:06 +0000</pubDate>
+    <title>Medimos como 4 marcas aparecem no ChatGPT e no Gemini — os números que encontramos</title>
+    <link>https://dev.to/robertokerber/medimos-como-4-marcas-aparecem-no-chatgpt-e-no-gemini-os-numeros-que-encontramos-2a86</link>
+    <guid>https://dev.to/robertokerber/medimos-como-4-marcas-aparecem-no-chatgpt-e-no-gemini-os-numeros-que-encontramos-2a86</guid>
+    <pubDate>Fri, 11 Sep 2026 12:20:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is chapter 8 of my book **Building Autonomous AI Agents with Claude Code* — a field guide to turning Claude Code from a coding assistant into an agent that remembers, verifies its own work,...</description>
+    <description>Trabalhamos com uma pergunta que toda marca vai fazer cedo ou tarde: quando alguém pede uma recomendação ao ChatGPT, ao Gemini ou a outro assistente, a minha marca aparece? Não é uma pergunta...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Download: biotech’s future and cheaper, cleaner steel</title>
+    <link>https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/</link>
+    <guid>https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/</guid>
+    <pubDate>Fri, 11 Sep 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the under-35s shaping the future of biotech Every...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Arizona’s lifeline for chip manufacturing is drying up</title>
+    <link>https://www.theverge.com/science/993522/water-chip-semiconductor-manufacturing-colorado-river</link>
+    <guid>https://www.theverge.com/science/993522/water-chip-semiconductor-manufacturing-colorado-river</guid>
+    <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Arizona, an epicenter for the bipartisan push to revive American chip manufacturing, is about to lose more than a quarter of the water it typically pulls each year from the Colorado River. The...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Cliff Stoll’s DEF CON Talk</title>
+    <link>https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/09/cliff-stolls-def-con-talk.html</guid>
+    <pubDate>Fri, 11 Sep 2026 11:09:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>In August, Cliff Stoll gave a talk at DEF CON, remembering the wily hacker he stalked forty years ago. Great fun.</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Insta360 launches a single-lens Osmo Pocket rival you can actually buy in the US</title>
+    <link>https://www.theverge.com/gadgets/993837/insta360-luna-pro-steadicam-gimbal-release-price-specs</link>
+    <guid>https://www.theverge.com/gadgets/993837/insta360-luna-pro-steadicam-gimbal-release-price-specs</guid>
+    <pubDate>Fri, 11 Sep 2026 11:07:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Insta360&apos;s first compact steadycam, the Luna Ultra, made a splash this year by beating DJI to launch with two lenses. Now it&apos;s followed the Ultra with a slightly stripped back Pro model, which...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple addresses iPhone Duo copycats</title>
+    <link>https://www.theverge.com/tech/993795/apple-addresses-iphone-duo-copycats</link>
+    <guid>https://www.theverge.com/tech/993795/apple-addresses-iphone-duo-copycats</guid>
+    <pubDate>Fri, 11 Sep 2026 10:02:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple was far from the first company to announce a passport-shaped folding phone this year, but that doesn&apos;t mean it wasn&apos;t copied. As my colleague Dom Preston already explained, it&apos;s almost...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meet the under-35s shaping the future of biotech</title>
+    <link>https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/</link>
+    <guid>https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/</guid>
+    <pubDate>Fri, 11 Sep 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Why So Many AI Researchers Think the Machines Could Kill Everyone</title>
+    <link>https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/</link>
+    <guid>https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/</guid>
+    <pubDate>Fri, 11 Sep 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors</title>
+    <link>https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html</link>
+    <guid>https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html</guid>
+    <pubDate>Fri, 11 Sep 2026 07:31:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor</title>
+    <link>https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html</link>
+    <guid>https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html</guid>
+    <pubDate>Fri, 11 Sep 2026 07:14:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims&apos; computers,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws</title>
+    <link>https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html</link>
+    <guid>https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html</guid>
+    <pubDate>Fri, 11 Sep 2026 06:46:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware</title>
+    <link>https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html</link>
+    <guid>https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html</guid>
+    <pubDate>Fri, 11 Sep 2026 06:19:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC)...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal</title>
@@ -121,7 +220,7 @@
     <guid>https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/</guid>
     <pubDate>Thu, 10 Sep 2026 21:35:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness and building businesses.</description>
+    <description>Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.</description>
     <category>AI</category>
   </item>
   <item>
@@ -177,105 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>It&apos;s the hot new thing in tech, and it&apos;s where all the jobs are. Students who don&apos;t learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic reveals rogue AI agents hate CAPTCHAs, just like you</title>
-    <link>https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/</link>
-    <guid>https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/</guid>
-    <pubDate>Thu, 10 Sep 2026 17:54:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Come inside the mind of a bot trying to convince the internet it&apos;s human.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories</title>
-    <link>https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html</link>
-    <guid>https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html</guid>
-    <pubDate>Thu, 10 Sep 2026 17:47:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content</title>
-    <link>https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/</link>
-    <guid>https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/</guid>
-    <pubDate>Thu, 10 Sep 2026 17:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Amazon’s Fire TV Stick 4K is over half off at under $20</title>
-    <link>https://www.theverge.com/gadgets/993455/fire-tv-stick-4k-resident-evil-requiem-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/993455/fire-tv-stick-4k-resident-evil-requiem-deal-sale</guid>
-    <pubDate>Thu, 10 Sep 2026 16:58:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Looking to take full advantage of your 4K television, but your current streaming stick doesn’t have the right features? Through September 13th, you can grab an Amazon Fire TV Stick 4K from Woot...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</title>
-    <link>https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</link>
-    <guid>https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</guid>
-    <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Electric air taxis get the green light for test flights in Texas</title>
-    <link>https://www.theverge.com/transportation/993341/evtol-air-taxi-aviation-eipp-texas</link>
-    <guid>https://www.theverge.com/transportation/993341/evtol-air-taxi-aviation-eipp-texas</guid>
-    <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A new federal program to test the feasibility of electric, hybrid-electric, and autonomous aircraft kicks off today in Texas - before the rules governing this new technology have even been...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Universal Music is launching an AI music platform with ElevenLabs</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai</guid>
-    <pubDate>Thu, 10 Sep 2026 15:38:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Where to preorder the new Apple Watch Series 12 and Ultra 4</title>
-    <link>https://www.theverge.com/gadgets/988579/apple-watch-series-12-5g-ultra-4-preorder-buy</link>
-    <guid>https://www.theverge.com/gadgets/988579/apple-watch-series-12-5g-ultra-4-preorder-buy</guid>
-    <pubDate>Thu, 10 Sep 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The iPhone Duo was the unequivocal star of Apple&apos;s &quot;Surprise and shine&quot; event, but not for people who were mostly paying attention for news on wearables. Thankfully, Apple had a lot to share about...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Wolverine on the PS5 goes back to a simpler (and bloodier) style of action game</title>
-    <link>https://www.theverge.com/games/992937/wolverine-review-ps5</link>
-    <guid>https://www.theverge.com/games/992937/wolverine-review-ps5</guid>
-    <pubDate>Thu, 10 Sep 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Marvel&apos;s Wolverine captures just how angry its lead character is. The latest PS5 exclusive from Spider-Man developer Insomniac, Wolverine is a straightforward action game that is at its best when...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta’s Muse AI works and creeps me out</title>
-    <link>https://www.theverge.com/tech/993391/meta-muse-ai-hands-on</link>
-    <guid>https://www.theverge.com/tech/993391/meta-muse-ai-hands-on</guid>
-    <pubDate>Thu, 10 Sep 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta has launched its new Muse assistant, marking the company&apos;s first real foray into AI-powered productivity tools. The company says its AI agent can &quot;take the busywork off your plate&quot; by helping...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Play Early Access Abused to Push Thousands of Deceptive Android Apps</title>
-    <link>https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html</link>
-    <guid>https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html</guid>
-    <pubDate>Thu, 10 Sep 2026 14:36:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Bad actors are misusing Google Play&apos;s Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven&apos;t...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
