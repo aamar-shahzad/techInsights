@@ -5,97 +5,115 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 11 Sep 2026 22:35:19 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 04:34:30 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>From 9 Seconds of Voice AI Latency to 1.5 Seconds: Building an In-House Voice AI System</title>
-    <link>https://dev.to/mehar_aziz/from-9-seconds-of-voice-ai-latency-to-15-seconds-building-an-in-house-voice-ai-system-bal</link>
-    <guid>https://dev.to/mehar_aziz/from-9-seconds-of-voice-ai-latency-to-15-seconds-building-an-in-house-voice-ai-system-bal</guid>
-    <pubDate>Fri, 11 Sep 2026 22:22:26 +0000</pubDate>
+    <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
+    <link>https://openai.com/index/perplexity-improving-accuracy-with-astra</link>
+    <guid>https://openai.com/index/perplexity-improving-accuracy-with-astra</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>How to Regenerate an Old Invoice PDF Identically in Node.js: A Dispute Workflow</title>
+    <link>https://dev.to/adalbertcross4085/how-to-regenerate-an-old-invoice-pdf-identically-in-nodejs-a-dispute-workflow-1058</link>
+    <guid>https://dev.to/adalbertcross4085/how-to-regenerate-an-old-invoice-pdf-identically-in-nodejs-a-dispute-workflow-1058</guid>
+    <pubDate>Sat, 12 Sep 2026 04:31:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Nine seconds of silence. That&apos;s how long a caller waited after asking our AI assistant a simple question like &quot;What&apos;s the TB test process?&quot; long enough that most people would hang up, assuming the...</description>
+    <description>Short answer: for a dispute, do not “recreate” an old invoice by rerunning today’s template; preserve the original PDF bytes, verify their hash, and only render a replacement when the original...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Claude CRO Audit Workflow: Faster Data Triage With Human Evidence Validation</title>
-    <link>https://dev.to/alifar/claude-cro-audit-workflow-faster-data-triage-with-human-evidence-validation-3jfk</link>
-    <guid>https://dev.to/alifar/claude-cro-audit-workflow-faster-data-triage-with-human-evidence-validation-3jfk</guid>
-    <pubDate>Fri, 11 Sep 2026 22:15:30 +0000</pubDate>
+    <title>I just did something my AI agents couldn&apos;t</title>
+    <link>https://dev.to/effessdev/i-just-did-something-my-ai-agents-couldnt-pmi</link>
+    <guid>https://dev.to/effessdev/i-just-did-something-my-ai-agents-couldnt-pmi</guid>
+    <pubDate>Sat, 12 Sep 2026 04:30:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Claude can speed up the early stages of a conversion-rate-optimization audit, but it should not be treated as the system that decides what is true or what to test. A documented workflow published...</description>
+    <description>It is funny how things work out. You can let AI tools try to fix a code problem for days, but nothing works until you finally step in and do it yourself. I was working on my ESP-IDF project and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Optimized My Bump Version Tool and Made It 1,000,000x Faster Than Its Python Counterparts.</title>
-    <link>https://dev.to/wiseai/i-optimized-my-bump-version-tool-and-made-it-1000000x-faster-than-its-python-counterparts-2i83</link>
-    <guid>https://dev.to/wiseai/i-optimized-my-bump-version-tool-and-made-it-1000000x-faster-than-its-python-counterparts-2i83</guid>
-    <pubDate>Fri, 11 Sep 2026 22:15:08 +0000</pubDate>
+    <title>Memory64 moved the browser ceiling and exposed an ABI gap</title>
+    <link>https://dev.to/sarthakagrawal927/memory64-moved-the-browser-ceiling-and-exposed-an-abi-gap-14o5</link>
+    <guid>https://dev.to/sarthakagrawal927/memory64-moved-the-browser-ceiling-and-exposed-an-abi-gap-14o5</guid>
+    <pubDate>Sat, 12 Sep 2026 04:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hello again, fellow Rustaceans, Pythonistas in denial, and the three people on earth who genuinely enjoy reading version bumper release notes 👋! If you were here for my last post, where I rewrote...</description>
+    <description>A 32-bit WebAssembly heap put the browser playground near a 4 GB ceiling. With weights and AdamW state, that limited the fp32 model size to roughly 250 million parameters. Compiling the same C++...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Project Blinkenlights</title>
-    <link>https://blinkenlights.de/en/</link>
-    <guid>https://blinkenlights.de/en/</guid>
-    <pubDate>Fri, 11 Sep 2026 22:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 3 # Comments: 1</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>A Brief History of AI (1940s–2020s)</title>
-    <link>https://dev.to/hr21don/a-brief-history-of-ai-1940s-2020s-cm2</link>
-    <guid>https://dev.to/hr21don/a-brief-history-of-ai-1940s-2020s-cm2</guid>
-    <pubDate>Fri, 11 Sep 2026 22:02:11 +0000</pubDate>
+    <title>Daxon: Bringing a Complete Data Intelligence Workspace Into VS Code</title>
+    <link>https://dev.to/loftytechlabs_/daxon-bringing-a-complete-data-intelligence-workspace-into-vs-code-53if</link>
+    <guid>https://dev.to/loftytechlabs_/daxon-bringing-a-complete-data-intelligence-workspace-into-vs-code-53if</guid>
+    <pubDate>Sat, 12 Sep 2026 04:28:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI&apos;s journey took 80 years. But the real inflection point came in the last couple years. How is your organisation tackling AI adoption? Where are you seeing the biggest wins and what are the...</description>
+    <description>What if your data tools lived where you already write your code? We built Daxon to answer exactly that. Daxon is an all-in-one Data Intelligence &amp; SQL platform built natively inside VS Code,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues</title>
-    <link>https://github.com/mirza-rizvi/ResolveHQ</link>
-    <guid>https://github.com/mirza-rizvi/ResolveHQ</guid>
-    <pubDate>Fri, 11 Sep 2026 21:48:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 3 # Comments: 0</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Meet isimbulamadimscript (IBS): A Lightweight Embedded Language for Web Games</title>
-    <link>https://dev.to/yusuf_iel_fd98c3a8f76cb/meet-isimbulamadimscript-ibs-a-lightweight-embedded-language-for-web-games-16mb</link>
-    <guid>https://dev.to/yusuf_iel_fd98c3a8f76cb/meet-isimbulamadimscript-ibs-a-lightweight-embedded-language-for-web-games-16mb</guid>
-    <pubDate>Fri, 11 Sep 2026 21:42:46 +0000</pubDate>
+    <title>Modeling Data Distributions: The Core Idea Behind Generative Models</title>
+    <link>https://dev.to/zeromathai/modeling-data-distributions-the-core-idea-behind-generative-models-3hjc</link>
+    <guid>https://dev.to/zeromathai/modeling-data-distributions-the-core-idea-behind-generative-models-3hjc</guid>
+    <pubDate>Sat, 12 Sep 2026 04:16:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey everyone! 👋 I built isimbulamadimscript (IBS), a zero-dependency, lightweight, embeddable scripting language designed for web games and interactive logic. Why does it exist? Instead of...</description>
+    <description>A generative model is not trying to memorize a dataset. Its real target is the probability structure that could have produced the observed data. That distinction is the foundation of distribution...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to get Free AI credits in your terminal</title>
-    <link>https://dev.to/chidera_ezeudu_0870985528/how-to-get-free-ai-credits-in-your-terminal-517f</link>
-    <guid>https://dev.to/chidera_ezeudu_0870985528/how-to-get-free-ai-credits-in-your-terminal-517f</guid>
-    <pubDate>Fri, 11 Sep 2026 21:41:51 +0000</pubDate>
+    <title>I Typed the Same Docker Command Five Times This Week. So I Built a Snippet Manager That Lives in My Terminal</title>
+    <link>https://dev.to/ke_jia_24bb2f9f84f14f728a/i-typed-the-same-docker-command-five-times-this-week-so-i-built-a-snippet-manager-that-lives-in-my-2hoj</link>
+    <guid>https://dev.to/ke_jia_24bb2f9f84f14f728a/i-typed-the-same-docker-command-five-times-this-week-so-i-built-a-snippet-manager-that-lives-in-my-2hoj</guid>
+    <pubDate>Sat, 12 Sep 2026 04:13:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve ever wanted an AI coding assistant that lives right in your shell no browser tab, no subscription, no API key required to start I built exactly that, and it&apos;s free to use. Meet Dario...</description>
+    <description>Every developer has a drawer of &quot;useful code&quot; scattered across five places: Browser bookmarks — that Stack Overflow answer with the exact flag Chat history — the one-liner a coworker sent in Slack...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a High-Performance Video Game Price Tracker: Architecture &amp; Lessons Learned</title>
-    <link>https://dev.to/nakashiko/building-a-high-performance-video-game-price-tracker-architecture-lessons-learned-35d3</link>
-    <guid>https://dev.to/nakashiko/building-a-high-performance-video-game-price-tracker-architecture-lessons-learned-35d3</guid>
-    <pubDate>Fri, 11 Sep 2026 21:40:54 +0000</pubDate>
+    <title>Customer Domains and DNS Records: Signed URLs for Secure Asset Delivery</title>
+    <link>https://dev.to/mordecainilsson7582/customer-domains-and-dns-records-signed-urls-for-secure-asset-delivery-2nlg</link>
+    <guid>https://dev.to/mordecainilsson7582/customer-domains-and-dns-records-signed-urls-for-secure-asset-delivery-2nlg</guid>
+    <pubDate>Sat, 12 Sep 2026 04:13:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Like many developers who also happen to be gamers, I got tired of dealing with slow, ad-heavy price aggregators. I wanted a fast, lightweight platform to monitor real-time discounts, identify...</description>
+    <description>Short answer: point a customer subdomain at your asset host with a CNAME, then keep authorization in signed URLs. DNS decides where a request goes; it never decides who may make it. For a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GPT-6 built this earth exploration site in 5 prompts</title>
-    <link>https://earth.ethanplus.ai/</link>
-    <guid>https://earth.ethanplus.ai/</guid>
-    <pubDate>Fri, 11 Sep 2026 21:39:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://earth.ethanplus.ai/ Comments URL: https://news.ycombinator.com/item?id=49665756 Points: 3 # Comments: 0</description>
+    <title>Scoped API Keys for CI Pipelines: Least-Privilege Rotation After Build Log Leaks</title>
+    <link>https://dev.to/celesteraine1783/scoped-api-keys-for-ci-pipelines-least-privilege-rotation-after-build-log-leaks-3oin</link>
+    <guid>https://dev.to/celesteraine1783/scoped-api-keys-for-ci-pipelines-least-privilege-rotation-after-build-log-leaks-3oin</guid>
+    <pubDate>Sat, 12 Sep 2026 04:12:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Short answer: give each CI job a short-lived, narrowly scoped API key, keep it out of build output, and make revocation a tested path rather than an incident-day improvisation. The deciding...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Circuit Breaker Pattern</title>
+    <link>https://dev.to/gouranga-das-khulna/circuit-breaker-pattern-39op</link>
+    <guid>https://dev.to/gouranga-das-khulna/circuit-breaker-pattern-39op</guid>
+    <pubDate>Sat, 12 Sep 2026 04:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>One-liner: A circuit breaker stops calling a failing service to give it time to recover — instead of hammering it with requests that are guaranteed to fail. ❓ The Problem: Cascading Failures User...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hardening a SaaS login on Cloudflare Free: Turnstile, Google sign-in and email without SMTP</title>
+    <link>https://dev.to/alexandroskyv/hardening-a-saas-login-on-cloudflare-free-turnstile-google-sign-in-and-email-without-smtp-1lh</link>
+    <guid>https://dev.to/alexandroskyv/hardening-a-saas-login-on-cloudflare-free-turnstile-google-sign-in-and-email-without-smtp-1lh</guid>
+    <pubDate>Sat, 12 Sep 2026 03:55:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>SyllogOS is a multi-tenant platform I&apos;m building for Greek cultural associations and the federations they belong to: members, boards, events, documents. Its first tenant is a regional federation,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data</title>
+    <link>https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/</link>
+    <guid>https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/</guid>
+    <pubDate>Fri, 11 Sep 2026 22:58:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The round for the two-year-old startup is coming together months after Mecka announced its Series A.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Friday Squid Blogging: Rotting Squid on a Beached California Boat</title>
@@ -107,12 +125,12 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too</title>
+    <title>Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too</title>
     <link>https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/</link>
     <guid>https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/</guid>
     <pubDate>Fri, 11 Sep 2026 20:59:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be &quot;a form of public good.&quot;</description>
+    <description>Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.</description>
     <category>AI</category>
   </item>
   <item>
@@ -206,15 +224,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO</title>
-    <link>https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/</link>
-    <guid>https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/</guid>
-    <pubDate>Fri, 11 Sep 2026 16:46:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure</title>
     <link>https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html</link>
     <guid>https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html</guid>
@@ -266,15 +275,6 @@
     <pubDate>Fri, 11 Sep 2026 16:01:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Frank Shaw is leaving Microsoft after 17 years as chief communications officer. In an internal note to his team, Shaw says he&apos;s &quot;decided it is time for me to move on and try new things,&quot; after...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta may have leaked the first look at its slim &amp;#8216;Project Phoenix&amp;#8217; headset</title>
-    <link>https://www.theverge.com/tech/994055/meta-project-phoenix-headset-leak</link>
-    <guid>https://www.theverge.com/tech/994055/meta-project-phoenix-headset-leak</guid>
-    <pubDate>Fri, 11 Sep 2026 15:38:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Just a couple of weeks before Meta Connect starts on September 23rd, UploadVR posted images seemingly revealing the design for Meta&apos;s &quot;Project Phoenix&quot; headset. The images, which UploadVR says...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
