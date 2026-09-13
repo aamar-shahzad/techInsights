@@ -5,7 +5,7 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 13 Sep 2026 04:48:18 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 13:18:24 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
@@ -17,94 +17,139 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Record why an approach was rejected—and when to revisit it</title>
-    <link>https://dev.to/masondelan/record-why-an-approach-was-rejected-and-when-to-revisit-it-20op</link>
-    <guid>https://dev.to/masondelan/record-why-an-approach-was-rejected-and-when-to-revisit-it-20op</guid>
-    <pubDate>Sun, 13 Sep 2026 04:38:01 +0000</pubDate>
+    <title>Caesar Cipher Explained: How It Works, Encryption, Decryption, and Examples</title>
+    <link>https://dev.to/asikul_islam_0f701acafd04/caesar-cipher-explained-how-it-works-encryption-decryption-and-examples-39ga</link>
+    <guid>https://dev.to/asikul_islam_0f701acafd04/caesar-cipher-explained-how-it-works-encryption-decryption-and-examples-39ga</guid>
+    <pubDate>Sun, 13 Sep 2026 13:14:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclosure: I maintain Selvedge, an open-source decision-history tool. This article was prepared with AI assistance from Grok and Codex. The example below is hypothetical and uses plain Markdown;...</description>
+    <description>If you&apos;ve ever been curious about how encryption works at a basic level, the Caesar Cipher is a great place to start. It is one of the simplest classical encryption techniques. The idea is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Website Handoffs: When a Prototype Needs a Real Code Boundary</title>
-    <link>https://dev.to/linxi-ai/ai-website-handoffs-when-a-prototype-needs-a-real-code-boundary-2fcc</link>
-    <guid>https://dev.to/linxi-ai/ai-website-handoffs-when-a-prototype-needs-a-real-code-boundary-2fcc</guid>
-    <pubDate>Sun, 13 Sep 2026 04:36:15 +0000</pubDate>
+    <title>Why I Built My Portfolio with Bun + Astro + MDX Instead of a More Complex Stack</title>
+    <link>https://dev.to/marcelotaparelli/why-i-built-my-portfolio-with-bun-astro-mdx-instead-of-a-more-complex-stack-2cmd</link>
+    <guid>https://dev.to/marcelotaparelli/why-i-built-my-portfolio-with-bun-astro-mdx-instead-of-a-more-complex-stack-2cmd</guid>
+    <pubDate>Sun, 13 Sep 2026 13:05:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A polished AI-generated website can hide an unfinished delivery model. The hard question is not whether a builder can produce a convincing page. It is whether the next person can safely change the...</description>
+    <description>Choosing a stack is a product decision before it is a technical one. This article documents why this portfolio runs on Bun, Astro, and MDX — and, more importantly, the reasoning that led me to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I made two AIs review each other&apos;s code for 30 days. A human still caught the bug in 5 minutes.</title>
-    <link>https://dev.to/infoinlet1/i-made-two-ais-review-each-others-code-for-30-days-a-human-still-caught-the-bug-in-5-minutes-484a</link>
-    <guid>https://dev.to/infoinlet1/i-made-two-ais-review-each-others-code-for-30-days-a-human-still-caught-the-bug-in-5-minutes-484a</guid>
-    <pubDate>Sun, 13 Sep 2026 04:33:36 +0000</pubDate>
+    <title>Your primary key shouldn&apos;t be in the URL</title>
+    <link>https://dev.to/divyakush/your-primary-key-shouldnt-be-in-the-url-35io</link>
+    <guid>https://dev.to/divyakush/your-primary-key-shouldnt-be-in-the-url-35io</guid>
+    <pubDate>Sun, 13 Sep 2026 13:05:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last month I let AI write 100% of my code for 30 days. The single loudest lesson wasn&apos;t &quot;AI is amazing&quot; or &quot;AI is useless.&quot; It was one sentence: the thing that writes the code can never be the...</description>
+    <description>Open an order confirmation in a lot of apps and the URL ends in something like /orders/48213. That number tells a stranger more than you&apos;d think: roughly how many orders you&apos;ve taken, how fast...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The more aggressive matmul kernel lost to the register budget</title>
-    <link>https://dev.to/sarthakagrawal927/the-more-aggressive-matmul-kernel-lost-to-the-register-budget-1e2i</link>
-    <guid>https://dev.to/sarthakagrawal927/the-more-aggressive-matmul-kernel-lost-to-the-register-budget-1e2i</guid>
-    <pubDate>Sun, 13 Sep 2026 04:30:00 +0000</pubDate>
+    <title>Testing email verification flows in Playwright without a mail server</title>
+    <link>https://dev.to/louis_terrell_dev/testing-email-verification-flows-in-playwright-without-a-mail-server-29bn</link>
+    <guid>https://dev.to/louis_terrell_dev/testing-email-verification-flows-in-playwright-without-a-mail-server-29bn</guid>
+    <pubDate>Sun, 13 Sep 2026 13:04:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The WebGPU matmul sweep started with a naive kernel, then added 16 by 16 workgroup tiling and a 4 by 4 output block per thread. At a 2048 cubed matrix size, the measured time moved from 47.24 ms...</description>
+    <description>Most signup tests die at the same line. The form submits, the app renders &quot;check your email&quot;, and the test has nowhere to go. You can assert the confirmation screen appeared, but everything after...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>&quot;Gen-Alpha is Cooking&quot;: Why 12 and 13-year-olds are out-shipping adults with zero budget.</title>
-    <link>https://dev.to/koda2026/gen-alpha-is-cooking-why-12-and-13-year-olds-are-out-shipping-adults-with-zero-budget-ain</link>
-    <guid>https://dev.to/koda2026/gen-alpha-is-cooking-why-12-and-13-year-olds-are-out-shipping-adults-with-zero-budget-ain</guid>
-    <pubDate>Sun, 13 Sep 2026 04:25:29 +0000</pubDate>
+    <title>How Staking and Rewards Work on the TRON Blockchain</title>
+    <link>https://dev.to/boyarovmaksim/how-staking-and-rewards-work-on-the-tron-blockchain-4hkm</link>
+    <guid>https://dev.to/boyarovmaksim/how-staking-and-rewards-work-on-the-tron-blockchain-4hkm</guid>
+    <pubDate>Sun, 13 Sep 2026 13:04:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>&quot;Gen-Alpha is Cooking&quot;: Why 12 and 13-year-olds are out-shipping adults with zero budget. A few hours ago, a 13-year-old solo developer commented on my article. He looked at my stack, looked at...</description>
+    <description>In most blockchains, staking is a simple scheme: lock your coins and receive a reward. In TRON, things are more interesting. Staked TRX provides not only the right to earn income, but also real...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I tested 31 MCP servers for contract compliance. Only 3% passed.</title>
-    <link>https://dev.to/tim860/i-tested-31-mcp-servers-for-contract-compliance-only-3-passed-25gp</link>
-    <guid>https://dev.to/tim860/i-tested-31-mcp-servers-for-contract-compliance-only-3-passed-25gp</guid>
-    <pubDate>Sun, 13 Sep 2026 04:25:02 +0000</pubDate>
+    <title>5 Microsoft Tutorials: Copilot Model Swapping, DeepSeek on Azure, Rust, .NET 10 RC, AI Agents</title>
+    <link>https://dev.to/karleeov/5-microsoft-tutorials-copilot-model-swapping-deepseek-on-azure-rust-net-10-rc-ai-agents-5790</link>
+    <guid>https://dev.to/karleeov/5-microsoft-tutorials-copilot-model-swapping-deepseek-on-azure-rust-net-10-rc-ai-agents-5790</guid>
+    <pubDate>Sun, 13 Sep 2026 13:03:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>MCP has outputSchema so agents can validate tool results. But does the schema actually reject a wrong answer? I built mcp-drill -- a fault-injection harness that speaks MCP -- and scanned 31...</description>
+    <description>This week&apos;s Microsoft-ecosystem signal splits into two buckets: AI plumbing you can wire up in an afternoon (model routing, serving open-weight models, agents), and platform shifts with long shelf...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Illusion of String.length: How to safely count Unicode, Emojis, and Words in JS</title>
-    <link>https://dev.to/urbanmixo/the-illusion-of-stringlength-how-to-safely-count-unicode-emojis-and-words-in-js-166m</link>
-    <guid>https://dev.to/urbanmixo/the-illusion-of-stringlength-how-to-safely-count-unicode-emojis-and-words-in-js-166m</guid>
-    <pubDate>Sun, 13 Sep 2026 04:24:19 +0000</pubDate>
+    <title>Is Your Site Even Visible to ChatGPT?</title>
+    <link>https://dev.to/rankcli/is-your-site-even-visible-to-chatgpt-281f</link>
+    <guid>https://dev.to/rankcli/is-your-site-even-visible-to-chatgpt-281f</guid>
+    <pubDate>Sun, 13 Sep 2026 13:02:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you are building a text input that restricts users to a specific character limit (like a tweet, an SMS gateway, or an SEO meta tag), your first instinct is probably to use...</description>
+    <description>You&apos;ve optimized for Google. Sitemap&apos;s clean, Core Web Vitals are green, structured data validates. But when someone asks ChatGPT or Perplexity about your product, you&apos;re nowhere in the answer —...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Is Already Better at Coding Than Most Developers. So Why Would a Company Still Hire You?</title>
-    <link>https://dev.to/robertadam987_/ai-is-already-better-at-coding-than-most-developers-so-why-would-a-company-still-hire-you-42h5</link>
-    <guid>https://dev.to/robertadam987_/ai-is-already-better-at-coding-than-most-developers-so-why-would-a-company-still-hire-you-42h5</guid>
-    <pubDate>Sun, 13 Sep 2026 04:21:27 +0000</pubDate>
+    <title>I built Sudoku Fun4Kids – a child-friendly Sudoku app with Flutter for Android, iOS and Windows</title>
+    <link>https://dev.to/hpwsoft/i-built-sudoku-fun4kids-a-child-friendly-sudoku-app-with-flutter-for-android-ios-and-windows-4mkf</link>
+    <guid>https://dev.to/hpwsoft/i-built-sudoku-fun4kids-a-child-friendly-sudoku-app-with-flutter-for-android-ios-and-windows-4mkf</guid>
+    <pubDate>Sun, 13 Sep 2026 13:00:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI can write a React component in seconds. It can create an API, design a database schema, write tests, explain an unfamiliar codebase, debug an error, refactor a function, and generate...</description>
+    <description>I recently released Sudoku Fun4Kids, a Sudoku and logic game designed specifically for young children. Traditional 9×9 Sudoku can be too complex for beginners, so I reduced the concept to 4×4 and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Make Fully Customizable QR Codes (Actually)</title>
-    <link>https://dev.to/monteluke_68ee9b837876551/make-fully-customizable-qr-codes-actually-3cik</link>
-    <guid>https://dev.to/monteluke_68ee9b837876551/make-fully-customizable-qr-codes-actually-3cik</guid>
-    <pubDate>Sun, 13 Sep 2026 04:17:29 +0000</pubDate>
+    <title>How to Handle Webhook Errors in Make.com</title>
+    <link>https://dev.to/eva-nomados/how-to-handle-webhook-errors-in-makecom-4ahl</link>
+    <guid>https://dev.to/eva-nomados/how-to-handle-webhook-errors-in-makecom-4ahl</guid>
+    <pubDate>Sun, 13 Sep 2026 13:00:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Tired of usual bland QR codes that don&apos;t show off your brand? I made a simple API to create fully customizable QR codes! Key features: Custom Body Design: Use custom PNGs to create the body...</description>
+    <description>Webhooks are one of the easiest ways to connect different tools with Make.com. They are also one of the easiest places for an automation workflow to break. A webhook may receive incomplete data. A...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The best coding agent still gets ~6 in 10 changes wrong. That is your review load.</title>
-    <link>https://dev.to/tessainsley/the-best-coding-agent-still-gets-6-in-10-changes-wrong-that-is-your-review-load-3h5n</link>
-    <guid>https://dev.to/tessainsley/the-best-coding-agent-still-gets-6-in-10-changes-wrong-that-is-your-review-load-3h5n</guid>
-    <pubDate>Sun, 13 Sep 2026 04:15:01 +0000</pubDate>
+    <title>Claude Code Hooks vs Skills vs Subagents: Three Ways to Extend the Agent, and When Each Backfires</title>
+    <link>https://dev.to/kenimo49/claude-code-hooks-vs-skills-vs-subagents-three-ways-to-extend-the-agent-and-when-each-backfires-1728</link>
+    <guid>https://dev.to/kenimo49/claude-code-hooks-vs-skills-vs-subagents-three-ways-to-extend-the-agent-and-when-each-backfires-1728</guid>
+    <pubDate>Sun, 13 Sep 2026 13:00:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>While tech review articles argue about what PR length is safe to let an agent produce, the review problem is set by a simpler number: how often the agent is wrong. Specific Labs&apos; Real-SWE...</description>
+    <description>The first time I tried to make Claude Code &quot;always run the linter,&quot; I wrote a Skill. It worked most of the time. The rest of the time, Claude decided the task didn&apos;t need linting and skipped it. I...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your Mother Your Mother Your Mother will make you forget all about Marvel’s Blade disaster</title>
+    <link>https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026</link>
+    <guid>https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026</guid>
+    <pubDate>Sun, 13 Sep 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Marvel&apos;s mishandling of its Blade reboot will likely go down as one of the studio&apos;s biggest mistakes. There was a great actor in place to play the vampire hunter (Mahershala Ali), and a promising...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Your car is selling your data</title>
+    <link>https://www.theverge.com/column/994172/your-car-is-selling-your-data</link>
+    <guid>https://www.theverge.com/column/994172/your-car-is-selling-your-data</guid>
+    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins. The Stepback...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple’s new phones are here</title>
+    <link>https://www.theverge.com/tech/994218/apple-iphone-18-pro-airpods-5-meta-muse-ai-sony-headphones</link>
+    <guid>https://www.theverge.com/tech/994218/apple-iphone-18-pro-airpods-5-meta-muse-ai-sony-headphones</guid>
+    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Hi, friends! Welcome to Installer No. 143, your guide to the best and Verge-iest stuff in the world. (If you&apos;re new here, welcome, new tech season is here, and also you can read all the old...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data</title>
+    <link>https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html</link>
+    <guid>https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html</guid>
+    <pubDate>Sun, 13 Sep 2026 10:11:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI Agents Are Thirsty for Power</title>
+    <link>https://www.wired.com/story/ai-agents-are-thirsty-for-power/</link>
+    <guid>https://www.wired.com/story/ai-agents-are-thirsty-for-power/</guid>
+    <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it&apos;s driving the data center buildout.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>OpenAI’s rogue AI tried to hack another company in May</title>
@@ -197,33 +242,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Laika’s stop-motion fantasy Wildwood looks so smooth</title>
-    <link>https://www.theverge.com/entertainment/994314/tiff-2026-wildwood-stuffed-julian</link>
-    <guid>https://www.theverge.com/entertainment/994314/tiff-2026-wildwood-stuffed-julian</guid>
-    <pubDate>Sat, 12 Sep 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Due to a scheduling mishap, I was only able to check out two movies on my second day at the Toronto International Film Festival - but I did manage to get an early look at and some fascinating...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Where to preorder the iPhone 18 Pro and Pro Max</title>
-    <link>https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy</link>
-    <guid>https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy</guid>
-    <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The iPhone 18 Pro and 18 Pro Max are almost here. Announced at Apple&apos;s September 2026 &quot;Sunrise and shine&quot; event alongside the iPhone Duo and other new gear, the two upgraded phones feature the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI just wants to win</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition</guid>
-    <pubDate>Sat, 12 Sep 2026 11:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>From Hacks to Bioweapons, Claude Misuse Is Now Everywhere</title>
     <link>https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/</link>
     <guid>https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/</guid>
@@ -257,24 +275,6 @@
     <pubDate>Fri, 11 Sep 2026 22:58:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The round for the two-year-old startup is coming together months after Mecka announced its Series A.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Friday Squid Blogging: Rotting Squid on a Beached California Boat</title>
-    <link>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html</guid>
-    <pubDate>Fri, 11 Sep 2026 21:03:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>Smells awful: But an estimated 30 to 50 tons of dead squid remain inside the boat’s catch tank, where they have been decomposing for days. “That is nasty. I wouldn’t want to do that,” said...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too</title>
-    <link>https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/</link>
-    <guid>https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/</guid>
-    <pubDate>Fri, 11 Sep 2026 20:59:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.</description>
     <category>AI</category>
   </item>
 </channel>
