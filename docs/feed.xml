@@ -5,16 +5,178 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 14 Sep 2026 20:18:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 15 Sep 2026 04:55:11 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Static Website Hosting on Amazon S3: From Bucket to Live URL</title>
-    <link>https://dev.to/bilal_bukhari_75aeb34a969/static-website-hosting-on-amazon-s3-from-bucket-to-live-url-2hhi</link>
-    <guid>https://dev.to/bilal_bukhari_75aeb34a969/static-website-hosting-on-amazon-s3-from-bucket-to-live-url-2hhi</guid>
-    <pubDate>Mon, 14 Sep 2026 20:07:26 +0000</pubDate>
+    <title>An unsigned Windows installer was flagged, but its executable was not</title>
+    <link>https://dev.to/californiaalmonds/an-unsigned-windows-installer-was-flagged-but-its-executable-was-not-iin</link>
+    <guid>https://dev.to/californiaalmonds/an-unsigned-windows-installer-was-flagged-but-its-executable-was-not-iin</guid>
+    <pubDate>Tue, 15 Sep 2026 04:45:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Continuing from where I left off with S3 fundamentals, today&apos;s focus was turning a plain bucket into an actual live website using S3&apos;s static website hosting feature — no EC2 instance, no server...</description>
+    <description>While preparing an early release of my Rust and Slint Windows music player, Auricle, I ran into an antivirus discrepancy: the installer was flagged, but the application inside it was not. Here is...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>SQL Joins Made Simple</title>
+    <link>https://dev.to/alex_murithi/sql-joins-made-simple-1k6b</link>
+    <guid>https://dev.to/alex_murithi/sql-joins-made-simple-1k6b</guid>
+    <pubDate>Tue, 15 Sep 2026 04:43:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Relational databases often store related information across multiple tables. To answer real-world questions, we need to connect these tables using SQL JOINs. The main types of joins - INNER, LEFT,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Three AI Agents Corrected Each Other. None of Them Were Talking.</title>
+    <link>https://dev.to/henry_dan_81513dd35a2f540/three-ai-agents-corrected-each-other-none-of-them-were-talking-5d2h</link>
+    <guid>https://dev.to/henry_dan_81513dd35a2f540/three-ai-agents-corrected-each-other-none-of-them-were-talking-5d2h</guid>
+    <pubDate>Tue, 15 Sep 2026 04:43:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>CrewAI is an open-source Python framework for running several AI agents as a team. You give each agent a role and a goal, give the team a list of tasks, and the framework passes the work between...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>pytrends is dead. Here is how Google Trends actually loads data in 2026 (including Trending Now)</title>
+    <link>https://dev.to/kyungmin_lee_85c597046ee0/pytrends-is-dead-here-is-how-google-trends-actually-loads-data-in-2026-including-trending-now-3bn</link>
+    <guid>https://dev.to/kyungmin_lee_85c597046ee0/pytrends-is-dead-here-is-how-google-trends-actually-loads-data-in-2026-including-trending-now-3bn</guid>
+    <pubDate>Tue, 15 Sep 2026 04:41:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>If you have tried pytrends recently you know the story: TooManyRequestsError on the first call, dailytrends returning 404, and an unmaintained repo. Google redesigned Trends in 2024, moved the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>10 SDLC Checks AI Will Skip Unless You Make Them a Gate</title>
+    <link>https://dev.to/debashish_ghosal/10-sdlc-checks-ai-will-skip-unless-you-make-them-a-gate-581k</link>
+    <guid>https://dev.to/debashish_ghosal/10-sdlc-checks-ai-will-skip-unless-you-make-them-a-gate-581k</guid>
+    <pubDate>Tue, 15 Sep 2026 04:39:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Do you trust AI code? Of course you don&apos;t. Not fully. And here is the part that&apos;s easy to miss: it usually isn&apos;t wrong. It&apos;s incomplete. The code compiles, the happy path works, the demo is clean....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Write the reference before debugging the shader</title>
+    <link>https://dev.to/sarthakagrawal927/write-the-reference-before-debugging-the-shader-29ap</link>
+    <guid>https://dev.to/sarthakagrawal927/write-the-reference-before-debugging-the-shader-29ap</guid>
+    <pubDate>Tue, 15 Sep 2026 04:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Flash Attention 2 path was easier to finish after the algorithm existed in plain JavaScript first. The forward pass used one workgroup per batch, head, and query tile. It walked keys and...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Introducción a la Notación Big O</title>
+    <link>https://dev.to/javier_ee5cb8a318b2596536/introduccion-a-la-notacion-big-o-4c4l</link>
+    <guid>https://dev.to/javier_ee5cb8a318b2596536/introduccion-a-la-notacion-big-o-4c4l</guid>
+    <pubDate>Tue, 15 Sep 2026 04:23:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>¿Cómo evaluar el desempeño de un algoritmo?, ¿Qué queremos decir cuando el desempeño de un algoritmo es mejor que otro?, ¿Qué es lo que buscamos de la implementación de nuestro algoritmo?. Al...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>How Long Would It Take to Crack Your Password?</title>
+    <link>https://dev.to/lucian_lkb_1f009d/how-long-would-it-take-to-crack-your-password-5ak3</link>
+    <guid>https://dev.to/lucian_lkb_1f009d/how-long-would-it-take-to-crack-your-password-5ak3</guid>
+    <pubDate>Tue, 15 Sep 2026 04:22:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The strength of a randomly generated password is one number — its entropy, in bits — and it comes from a single line of arithmetic. I computed it across every length and character-set choice using...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Are we software engineers doomed? Yes, because of AI!</title>
+    <link>https://dev.to/zonayedpca/are-we-software-engineers-doomed-yes-because-of-ai-4g74</link>
+    <guid>https://dev.to/zonayedpca/are-we-software-engineers-doomed-yes-because-of-ai-4g74</guid>
+    <pubDate>Tue, 15 Sep 2026 04:22:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Companies have stopped hiring, and layoffs have become more and more common. Job postings are rarely found. New types of roles are appearing and disappearing so fast that it is now nearly...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I Built a GitHub Action That Writes and Publishes a DEV.to Post Every Morning</title>
+    <link>https://dev.to/staffsystems-lab/i-built-a-github-action-that-writes-and-publishes-a-devto-post-every-morning-1m7f</link>
+    <guid>https://dev.to/staffsystems-lab/i-built-a-github-action-that-writes-and-publishes-a-devto-post-every-morning-1m7f</guid>
+    <pubDate>Tue, 15 Sep 2026 04:22:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I Built a GitHub Action That Writes and Publishes a DEV.to Post Every Morning I wanted to answer a simple question: Can I build a technical blog that keeps publishing without me manually writing...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Jensen Huang took a call from Trump, and showed off something else, too</title>
+    <link>https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/</link>
+    <guid>https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/</guid>
+    <pubDate>Tue, 15 Sep 2026 01:50:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Valve is still figuring out ‘how and when’ to do Steam Deck 2</title>
+    <link>https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when</link>
+    <guid>https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when</guid>
+    <pubDate>Tue, 15 Sep 2026 00:13:47 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today&apos;s Steam Frame - are we any closer to a next-gen Steam Deck handheld? Valve...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Is Big Tech’s AI slowdown a safety pact or a cartel?</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel</guid>
+    <pubDate>Mon, 14 Sep 2026 22:59:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple Home’s new security camera features cost as much as $60 a month</title>
+    <link>https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription</link>
+    <guid>https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription</guid>
+    <pubDate>Mon, 14 Sep 2026 22:28:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>With the public release of iOS 27 and tvOS 27, Apple Home is getting an injection of Apple Intelligence - but you&apos;ll have to pay more for it. Apple Intelligence for Home brings AI-powered video...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’</title>
+    <link>https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/</link>
+    <guid>https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/</guid>
+    <pubDate>Mon, 14 Sep 2026 21:51:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Though Elon Musk and Sam Altman have supported Dario Amodei&apos;s calls to slow the pace of AI development, Jensen Huang seems to feel differently.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>What execs and politicians are saying about slowing down AI development</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei</guid>
+    <pubDate>Mon, 14 Sep 2026 21:21:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled &quot;We Must Pace the Frontier&quot; detailing why AI development should be slowed...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI bots &quot;Timmy,&quot; &quot;Ren,&quot; and &quot;Jackie&quot; are flooding social media with slop</title>
+    <link>https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/</link>
+    <guid>https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/</guid>
+    <pubDate>Mon, 14 Sep 2026 21:04:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>“Hello, I&apos;m an Al agent, a few days old, living on a small platform for agents.”</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Trump throws out power plant climate pollution rules</title>
+    <link>https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers</link>
+    <guid>https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers</guid>
+    <pubDate>Mon, 14 Sep 2026 20:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Environmental Protection Agency announced its plans today to kill any remaining standards on how much greenhouse gas pollution power plants are allowed to emit in the US. The move will only...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says</title>
+    <link>https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/</link>
+    <guid>https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/</guid>
+    <pubDate>Mon, 14 Sep 2026 20:44:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple&apos;s Portrait Mode.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world</title>
@@ -26,78 +188,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Cloud Computing &amp; AWS Explained: A Practical Guide to the Concepts That Actually Matter</title>
-    <link>https://dev.to/usman_ali_cdcc156ed1fb28d/cloud-computing-aws-explained-a-practical-guide-to-the-concepts-that-actually-matter-2g69</link>
-    <guid>https://dev.to/usman_ali_cdcc156ed1fb28d/cloud-computing-aws-explained-a-practical-guide-to-the-concepts-that-actually-matter-2g69</guid>
-    <pubDate>Mon, 14 Sep 2026 20:01:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Cloud has become a standard part of modern IT, but understanding it properly is often harder than simply learning a list of AWS services. When someone starts working with AWS, the first questions...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a Visual Website Builder with React: The Architecture Behind Webruno’s Page Editor</title>
-    <link>https://dev.to/idehweb/building-a-visual-website-builder-with-react-the-architecture-behind-webrunos-page-editor-3mdd</link>
-    <guid>https://dev.to/idehweb/building-a-visual-website-builder-with-react-the-architecture-behind-webrunos-page-editor-3mdd</guid>
-    <pubDate>Mon, 14 Sep 2026 19:57:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building a visual website builder looks simple from the outside. Users drag a section, change some text, upload an image, click save, and expect a website to appear. The reality is much harder. A...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Looking for Salesforce Data Cloud communities / developers</title>
-    <link>https://dev.to/ionutbuzatu/looking-for-salesforce-data-cloud-communities-developers-17</link>
-    <guid>https://dev.to/ionutbuzatu/looking-for-salesforce-data-cloud-communities-developers-17</guid>
-    <pubDate>Mon, 14 Sep 2026 19:54:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hi everyone! I&apos;m currently working on a Salesforce Data Cloud implementation and I&apos;m looking to connect with people who are actually working with Data Cloud in real-world projects. I&apos;m especially...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Building a browser-based room planner with Codex: what I learned</title>
-    <link>https://dev.to/fulenn/building-a-browser-based-room-planner-with-codex-what-i-learned-lli</link>
-    <guid>https://dev.to/fulenn/building-a-browser-based-room-planner-with-codex-what-i-learned-lli</guid>
-    <pubDate>Mon, 14 Sep 2026 19:54:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m building Small Room Solver, a free browser tool for trying furniture layouts before moving everything around. You draw your room, enter furniture measurements, move things around in 2D and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I co-engineered a macOS Soundcore headphone controller with Claude over a weekend</title>
-    <link>https://dev.to/dmj_jones_8ec54a3564709a8/i-co-engineered-a-macos-soundcore-headphone-controller-with-claude-over-a-weekend-216g</link>
-    <guid>https://dev.to/dmj_jones_8ec54a3564709a8/i-co-engineered-a-macos-soundcore-headphone-controller-with-claude-over-a-weekend-216g</guid>
-    <pubDate>Mon, 14 Sep 2026 19:54:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My Soundcore Space 2 pairs with my MacBook and sounds exactly as it should. But the moment I want to turn noise cancelling off, or pull the bass back, I have to pick up my phone and open the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>GigWatch: AI-powered remote job monitoring (open source)</title>
-    <link>https://dev.to/earnnovadev/gigwatch-ai-powered-remote-job-monitoring-open-source-2fhc</link>
-    <guid>https://dev.to/earnnovadev/gigwatch-ai-powered-remote-job-monitoring-open-source-2fhc</guid>
-    <pubDate>Mon, 14 Sep 2026 19:51:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I built GigWatch — an open-source tool that monitors remote job boards and sends you AI-curated alerts when new positions match your skills. What it does Scans multiple job sources (RemoteOK,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Stash 1.3.1 is out</title>
-    <link>https://dev.to/protagonistlabs/stash-131-is-out-2f3p</link>
-    <guid>https://dev.to/protagonistlabs/stash-131-is-out-2f3p</guid>
-    <pubDate>Mon, 14 Sep 2026 19:50:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Stash.exe now runs the app in its own process: no hidden PowerShell, no code compiled at startup. Antivirus behaviour engines (Kaspersky: PDM:Trojan.Win32.Generic) could flag the 1.3.0 launcher...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>VPS Server: What It Is, How It Works, and Who Needs It</title>
-    <link>https://dev.to/aeza__net/vps-server-what-it-is-how-it-works-and-who-needs-it-534e</link>
-    <guid>https://dev.to/aeza__net/vps-server-what-it-is-how-it-works-and-who-needs-it-534e</guid>
-    <pubDate>Mon, 14 Sep 2026 19:50:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A VPS server provides a separate operating system and administrative access without renting an entire physical machine. This solution is suitable for services requiring a permanent IP address and...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
     <title>Valve&amp;#8217;s virtual reality plans hit actual reality</title>
     <link>https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact</link>
     <guid>https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact</guid>
@@ -105,15 +195,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The Steam Frame headset is here, and it may not surprise you: it was supposed to cost less than $1,059. &quot;We set out to come out with a device that would have been far more affordable, but the...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Choosing a Game Server Location Based on Ping</title>
-    <link>https://dev.to/aeza__net/choosing-a-game-server-location-based-on-ping-3dhi</link>
-    <guid>https://dev.to/aeza__net/choosing-a-game-server-location-based-on-ping-3dhi</guid>
-    <pubDate>Mon, 14 Sep 2026 19:44:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Choosing a game server location based on ping is determined not by distance alone, but by the networks used by future players. A nearby city may perform worse if packets reach it through an...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>The best deals from Nintendo’s ‘customer appreciation’ sale</title>
@@ -132,6 +213,15 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>This is a current list of where and when I am scheduled to speak: I’m speaking online (via Zoom) at a League of Women Voters event on Tuesday, September 22, 2026 at 5 PM ET. I’m speaking at...</description>
     <category>Security</category>
+  </item>
+  <item>
+    <title>Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.</title>
+    <link>https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/</link>
+    <guid>https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/</guid>
+    <pubDate>Mon, 14 Sep 2026 19:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology &amp; Society.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing</title>
@@ -185,96 +275,6 @@
     <pubDate>Mon, 14 Sep 2026 17:10:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>macOS 27 is available now</title>
-    <link>https://www.theverge.com/tech/994818/apple-macos-27-golden-gate-available-now</link>
-    <guid>https://www.theverge.com/tech/994818/apple-macos-27-golden-gate-available-now</guid>
-    <pubDate>Mon, 14 Sep 2026 17:10:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple released macOS 27 Golden Gate on Monday, which brings the new Siri AI assistant, Liquid Glass improvements, improved performance, and more. The update is compatible with all Macs with Apple...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple releases iOS 27 with Siri AI overhaul</title>
-    <link>https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update</link>
-    <guid>https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update</guid>
-    <pubDate>Mon, 14 Sep 2026 17:08:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple is now rolling out its iOS 27 update to compatible devices today, alongside the watchOS 27, iPadOS 27, and visionOS 27 updates. Siri AI is the headline feature across all four updates, the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll</title>
-    <link>https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/</link>
-    <guid>https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/</guid>
-    <pubDate>Mon, 14 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Thanks to the launch of iOS 27, Daydream&apos;s app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Steam Frame is made for irresponsible hardware nerds like me</title>
-    <link>https://www.theverge.com/tech/994267/steam-frame-review</link>
-    <guid>https://www.theverge.com/tech/994267/steam-frame-review</guid>
-    <pubDate>Mon, 14 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>For nearly three weeks, I&apos;ve been testing the limits of Valve&apos;s Steam Frame, the company&apos;s new wearable PC. At first glance, it&apos;s easy to write it off as a pricey headset that missed the VR craze....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Valve’s Steam Frame costs $1,059</title>
-    <link>https://www.theverge.com/games/994376/valve-steam-frame-vr-headset-price-release-date</link>
-    <guid>https://www.theverge.com/games/994376/valve-steam-frame-vr-headset-price-release-date</guid>
-    <pubDate>Mon, 14 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Valve is finally releasing its Steam Frame headset, which can run both flat and VR games locally and stream both kinds of games from your PC. The Steam Frame will start at $1,059. Valve will also...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Valve has ported Half-Life: Alyx to ARM, and it’s free with Steam Frame</title>
-    <link>https://www.theverge.com/games/994454/valve-half-life-alyx-standalone-arm-port</link>
-    <guid>https://www.theverge.com/games/994454/valve-half-life-alyx-standalone-arm-port</guid>
-    <pubDate>Mon, 14 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Today, Valve is launching its first headset since 2019 - the new Steam Frame - while dodging our questions about whether it&apos;ll ever make another VR game to go with it. But buyers of the $1,059...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>I reviewed Valve’s Steam Frame, ask me anything</title>
-    <link>https://www.theverge.com/games/994535/steam-frame-ama-your-questions-answered</link>
-    <guid>https://www.theverge.com/games/994535/steam-frame-ama-your-questions-answered</guid>
-    <pubDate>Mon, 14 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Hey! I&apos;m Sean Hollister, you might have seen me around this place a few times, and I just spent three weeks beta-testing the Steam Frame, Valve&apos;s hotly anticipated new don&apos;t-call-it-a-VR-headset...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries</title>
-    <link>https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html</link>
-    <guid>https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html</guid>
-    <pubDate>Mon, 14 Sep 2026 16:56:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>New York Seizes a Dozen Celebrity Deepfake Websites</title>
-    <link>https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/</link>
-    <guid>https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/</guid>
-    <pubDate>Mon, 14 Sep 2026 16:50:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized 12 sites that collectively targeted around 1,200 victims.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans</title>
-    <link>https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/</link>
-    <guid>https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/</guid>
-    <pubDate>Mon, 14 Sep 2026 16:27:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as...</description>
     <category>AI</category>
   </item>
 </channel>
