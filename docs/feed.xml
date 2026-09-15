@@ -5,97 +5,268 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 15 Sep 2026 04:55:11 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 15 Sep 2026 13:33:21 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>An unsigned Windows installer was flagged, but its executable was not</title>
-    <link>https://dev.to/californiaalmonds/an-unsigned-windows-installer-was-flagged-but-its-executable-was-not-iin</link>
-    <guid>https://dev.to/californiaalmonds/an-unsigned-windows-installer-was-flagged-but-its-executable-was-not-iin</guid>
-    <pubDate>Tue, 15 Sep 2026 04:45:49 +0000</pubDate>
+    <title>Four Alerts That Could Never Fire, and How We Found Them</title>
+    <link>https://dev.to/eu_ti_f127c5b5d7535b7174f/four-alerts-that-could-never-fire-and-how-we-found-them-5gh8</link>
+    <guid>https://dev.to/eu_ti_f127c5b5d7535b7174f/four-alerts-that-could-never-fire-and-how-we-found-them-5gh8</guid>
+    <pubDate>Tue, 15 Sep 2026 13:21:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>While preparing an early release of my Rust and Slint Windows music player, Auricle, I ran into an antivirus discrepancy: the installer was flagged, but the application inside it was not. Here is...</description>
+    <description>We spent a week auditing our own alerting, and the useful question turned out not to be &quot;is anything alerting?&quot; It was &quot;would this alert look any different if the thing it watches had failed?&quot; For...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SQL Joins Made Simple</title>
-    <link>https://dev.to/alex_murithi/sql-joins-made-simple-1k6b</link>
-    <guid>https://dev.to/alex_murithi/sql-joins-made-simple-1k6b</guid>
-    <pubDate>Tue, 15 Sep 2026 04:43:51 +0000</pubDate>
+    <title>The Test Looked Redundant. The Ninth Bug Needed It.</title>
+    <link>https://dev.to/p0rt/the-test-looked-redundant-the-ninth-bug-needed-it-16me</link>
+    <guid>https://dev.to/p0rt/the-test-looked-redundant-the-ninth-bug-needed-it-16me</guid>
+    <pubDate>Tue, 15 Sep 2026 13:20:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Relational databases often store related information across multiple tables. To answer real-world questions, we need to connect these tables using SQL JOINs. The main types of joins - INNER, LEFT,...</description>
+    <description>On a catalogue of eight implementations, a repeated-status test added no unique detection. Every candidate it rejected was already rejected by another check. I added a ninth implementation. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Three AI Agents Corrected Each Other. None of Them Were Talking.</title>
-    <link>https://dev.to/henry_dan_81513dd35a2f540/three-ai-agents-corrected-each-other-none-of-them-were-talking-5d2h</link>
-    <guid>https://dev.to/henry_dan_81513dd35a2f540/three-ai-agents-corrected-each-other-none-of-them-were-talking-5d2h</guid>
-    <pubDate>Tue, 15 Sep 2026 04:43:01 +0000</pubDate>
+    <title>Three requests per hour: what a strict free tier taught me</title>
+    <link>https://dev.to/ethancole26/three-requests-per-hour-what-a-strict-free-tier-taught-me-4im1</link>
+    <guid>https://dev.to/ethancole26/three-requests-per-hour-what-a-strict-free-tier-taught-me-4im1</guid>
+    <pubDate>Tue, 15 Sep 2026 13:19:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>CrewAI is an open-source Python framework for running several AI agents as a team. You give each agent a role and a goal, give the team a list of tasks, and the framework passes the work between...</description>
+    <description>Most &quot;free tier&quot; API posts assume a generous budget. This one is about the other case: an API that allows three requests per hour, per endpoint. I have been building a small crypto dashboard...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>pytrends is dead. Here is how Google Trends actually loads data in 2026 (including Trending Now)</title>
-    <link>https://dev.to/kyungmin_lee_85c597046ee0/pytrends-is-dead-here-is-how-google-trends-actually-loads-data-in-2026-including-trending-now-3bn</link>
-    <guid>https://dev.to/kyungmin_lee_85c597046ee0/pytrends-is-dead-here-is-how-google-trends-actually-loads-data-in-2026-including-trending-now-3bn</guid>
-    <pubDate>Tue, 15 Sep 2026 04:41:15 +0000</pubDate>
+    <title>Did You Know? Kafka Stores Your Messages on Disk 🤔</title>
+    <link>https://dev.to/macky_eb7f7eecd6680ad7772/did-you-know-kafka-stores-your-messages-on-disk-3g3n</link>
+    <guid>https://dev.to/macky_eb7f7eecd6680ad7772/did-you-know-kafka-stores-your-messages-on-disk-3g3n</guid>
+    <pubDate>Tue, 15 Sep 2026 13:18:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you have tried pytrends recently you know the story: TooManyRequestsError on the first call, dailytrends returning 404, and an unmaintained repo. Google redesigned Trends in 2024, moved the...</description>
+    <description>Most people assume that a high-performance messaging system like Kafka must be keeping everything in memory to stay fast. But here&apos;s the truth — every single message you produce to Kafka gets...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>10 SDLC Checks AI Will Skip Unless You Make Them a Gate</title>
-    <link>https://dev.to/debashish_ghosal/10-sdlc-checks-ai-will-skip-unless-you-make-them-a-gate-581k</link>
-    <guid>https://dev.to/debashish_ghosal/10-sdlc-checks-ai-will-skip-unless-you-make-them-a-gate-581k</guid>
-    <pubDate>Tue, 15 Sep 2026 04:39:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Do you trust AI code? Of course you don&apos;t. Not fully. And here is the part that&apos;s easy to miss: it usually isn&apos;t wrong. It&apos;s incomplete. The code compiles, the happy path works, the demo is clean....</description>
+    <title>Java 27 Released</title>
+    <link>https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/</link>
+    <guid>https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/</guid>
+    <pubDate>Tue, 15 Sep 2026 13:13:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/ Comments URL: https://news.ycombinator.com/item?id=49712041 Points: 25 # Comments: 3</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Write the reference before debugging the shader</title>
-    <link>https://dev.to/sarthakagrawal927/write-the-reference-before-debugging-the-shader-29ap</link>
-    <guid>https://dev.to/sarthakagrawal927/write-the-reference-before-debugging-the-shader-29ap</guid>
-    <pubDate>Tue, 15 Sep 2026 04:30:00 +0000</pubDate>
+    <title>Stop hardcoding AWS Lambda layer ARNs: use public parameters for the AWS Parameters and Secrets Lambda Extension</title>
+    <link>https://dev.to/aparkris/stop-hardcoding-aws-lambda-layer-arns-use-public-parameters-for-the-aws-parameters-and-secrets-56m5</link>
+    <guid>https://dev.to/aparkris/stop-hardcoding-aws-lambda-layer-arns-use-public-parameters-for-the-aws-parameters-and-secrets-56m5</guid>
+    <pubDate>Tue, 15 Sep 2026 13:09:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Flash Attention 2 path was easier to finish after the algorithm existed in plain JavaScript first. The forward pass used one workgroup per batch, head, and query tile. It walked keys and...</description>
+    <description>To add the AWS Parameters and Secrets Lambda Extension to an AWS Lambda function, you can open the documentation, find the ARN table, locate your AWS Region and architecture, copy the ARN, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Introducción a la Notación Big O</title>
-    <link>https://dev.to/javier_ee5cb8a318b2596536/introduccion-a-la-notacion-big-o-4c4l</link>
-    <guid>https://dev.to/javier_ee5cb8a318b2596536/introduccion-a-la-notacion-big-o-4c4l</guid>
-    <pubDate>Tue, 15 Sep 2026 04:23:59 +0000</pubDate>
+    <title>Puzzle Solution Revealed - Transformer: Need for Position Embedding</title>
+    <link>https://dev.to/techaarvam/puzzle-solution-revealed-transformer-need-for-position-embedding-3k50</link>
+    <guid>https://dev.to/techaarvam/puzzle-solution-revealed-transformer-need-for-position-embedding-3k50</guid>
+    <pubDate>Tue, 15 Sep 2026 13:05:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>¿Cómo evaluar el desempeño de un algoritmo?, ¿Qué queremos decir cuando el desempeño de un algoritmo es mejor que otro?, ¿Qué es lo que buscamos de la implementación de nuestro algoritmo?. Al...</description>
+    <description>Introduce position embedding, residuals and layers ▶ Watch the 7-minute walkthrough import torch torch.set_printoptions(precision=2, sci_mode=False, linewidth=160) In this notebook we are...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Long Would It Take to Crack Your Password?</title>
-    <link>https://dev.to/lucian_lkb_1f009d/how-long-would-it-take-to-crack-your-password-5ak3</link>
-    <guid>https://dev.to/lucian_lkb_1f009d/how-long-would-it-take-to-crack-your-password-5ak3</guid>
-    <pubDate>Tue, 15 Sep 2026 04:22:29 +0000</pubDate>
+    <title>Promoting a Member Server to Domain Controller, Transferring FSMO Roles, and Configuring Active Directory Sites</title>
+    <link>https://dev.to/rahimah_dev/promoting-a-member-server-to-domain-controller-transferring-fsmo-roles-and-configuring-active-5675</link>
+    <guid>https://dev.to/rahimah_dev/promoting-a-member-server-to-domain-controller-transferring-fsmo-roles-and-configuring-active-5675</guid>
+    <pubDate>Tue, 15 Sep 2026 13:05:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The strength of a randomly generated password is one number — its entropy, in bits — and it comes from a single line of arithmetic. I computed it across every length and character-set choice using...</description>
+    <description>Introduction Active Directory is essential in organizations where users, servers, and network resources must be centrally managed and securely controlled. As businesses expand, multiple domain...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Are we software engineers doomed? Yes, because of AI!</title>
-    <link>https://dev.to/zonayedpca/are-we-software-engineers-doomed-yes-because-of-ai-4g74</link>
-    <guid>https://dev.to/zonayedpca/are-we-software-engineers-doomed-yes-because-of-ai-4g74</guid>
-    <pubDate>Tue, 15 Sep 2026 04:22:14 +0000</pubDate>
+    <title>I read the Kubernetes changelogs from 1.32 to 1.37 properly</title>
+    <link>https://dev.to/silpa_nallagopula_4d02cde/i-read-the-kubernetes-changelogs-from-132-to-137-properly-4821</link>
+    <guid>https://dev.to/silpa_nallagopula_4d02cde/i-read-the-kubernetes-changelogs-from-132-to-137-properly-4821</guid>
+    <pubDate>Tue, 15 Sep 2026 13:04:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Companies have stopped hiring, and layoffs have become more and more common. Job postings are rarely found. New types of roles are appearing and disappearing so fast that it is now nearly...</description>
+    <description>I&apos;ve been building an upgrade-readiness tool for about a year, and for most of that time I worked from the changelogs the way everyone does: find the version, skim &quot;Urgent Upgrade Notes&quot;, move on....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a GitHub Action That Writes and Publishes a DEV.to Post Every Morning</title>
-    <link>https://dev.to/staffsystems-lab/i-built-a-github-action-that-writes-and-publishes-a-devto-post-every-morning-1m7f</link>
-    <guid>https://dev.to/staffsystems-lab/i-built-a-github-action-that-writes-and-publishes-a-devto-post-every-morning-1m7f</guid>
-    <pubDate>Tue, 15 Sep 2026 04:22:11 +0000</pubDate>
+    <title>I&apos;m Building an AI Assistant in C#. I Don&apos;t Want to Rewrite Every Tool.</title>
+    <link>https://dev.to/norbertrosenwinkel/im-building-an-ai-assistant-in-c-i-dont-want-to-rewrite-every-tool-2b1g</link>
+    <guid>https://dev.to/norbertrosenwinkel/im-building-an-ai-assistant-in-c-i-dont-want-to-rewrite-every-tool-2b1g</guid>
+    <pubDate>Tue, 15 Sep 2026 13:03:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built a GitHub Action That Writes and Publishes a DEV.to Post Every Morning I wanted to answer a simple question: Can I build a technical blog that keeps publishing without me manually writing...</description>
+    <description>I&apos;m building an AI assistant in C#. Some of the code I want it to use already exists in Python or TypeScript. I could rewrite it. But then every improvement to the original becomes something I...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents</title>
+    <link>https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/</link>
+    <guid>https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/</guid>
+    <pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A lound led by Ribbit Capital, with participation from First Harmonic.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>New insights from Google’s AI &amp; Economy ATLAS</title>
+    <link>https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/</link>
+    <guid>https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/</guid>
+    <pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
+    <description>Text &quot;AI &amp; Economy Atlas v1.0 2026&quot; with the Google G and a spinning globe illustration</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Voicemod’s new pocket-friendly device brings real-time voice changing to your phone</title>
+    <link>https://www.theverge.com/tech/994828/voicemod-voice-changer-key-pocket-ios-android-soundboard</link>
+    <guid>https://www.theverge.com/tech/994828/voicemod-voice-changer-key-pocket-ios-android-soundboard</guid>
+    <pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Voicemod announced a new mobile device that expands the capabilities of the Voicemod Key dongle it launched in late 2024 as a way to bring the company&apos;s real-time voice changing tech to consoles....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The premium AirPods 5 are the best open-ear earbuds Apple has made</title>
+    <link>https://www.theverge.com/tech/995273/airpods-5-wireless-charging-case-review</link>
+    <guid>https://www.theverge.com/tech/995273/airpods-5-wireless-charging-case-review</guid>
+    <pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s almost a guarantee that the new version of a product will be, at best, the same price as the old one, and often (especially in the past couple years) more expensive. But that&apos;s not what Apple...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: AI doomers, whistleblowing agents, and de-aged livers</title>
+    <link>https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/</link>
+    <guid>https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/</guid>
+    <pubDate>Tue, 15 Sep 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear</title>
+    <link>https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/</link>
+    <guid>https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Salesforce Koa is built on Nvidia&apos;s open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI models need more data about biology, and OpenAI is paying to create it</title>
+    <link>https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/</link>
+    <guid>https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Last year, the clinical trial policy analyst Ruxandra Teslo posted an idea for super-charging medical AI systems: use data from failed biotech companies. By bidding at their bankruptcy...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds</title>
+    <link>https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html</link>
+    <guid>https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html</guid>
+    <pubDate>Tue, 15 Sep 2026 11:52:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point</title>
+    <link>https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html</link>
+    <guid>https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html</guid>
+    <pubDate>Tue, 15 Sep 2026 11:26:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers</title>
+    <link>https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html</link>
+    <guid>https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html</guid>
+    <pubDate>Tue, 15 Sep 2026 11:12:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>25 Years of Mass Surveillance Is Enough</title>
+    <link>https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html</guid>
+    <pubDate>Tue, 15 Sep 2026 11:01:41 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>This essay was written with Cindy Cohn, and originally appeared in Lawfare. One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>GM updates its trucks’ native software to coexist with CarPlay</title>
+    <link>https://www.theverge.com/transportation/994875/gm-chevy-gmc-truck-software-ui-carplay-android-auto</link>
+    <guid>https://www.theverge.com/transportation/994875/gm-chevy-gmc-truck-software-ui-carplay-android-auto</guid>
+    <pubDate>Tue, 15 Sep 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>General Motors is polishing up the software experience in its bestselling trucks in an effort to reduce the amount of dangerous tapping and swiping that&apos;s required to access the most-used...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>On the NSA’s Supercomputer from the 1960s</title>
+    <link>https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html</guid>
+    <pubDate>Tue, 15 Sep 2026 10:16:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA.</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>What’s at stake in AI’s trillion-dollar gamble</title>
+    <link>https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/</link>
+    <guid>https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/</guid>
+    <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Microsoft issues emergency Windows 11 update to fix its record-breaking patch</title>
+    <link>https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues</link>
+    <guid>https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues</guid>
+    <pubDate>Tue, 15 Sep 2026 08:54:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Microsoft has started rolling out an emergency out-of-band update to fix problems with its record-breaking September patch Tuesday update. The software giant patched nearly 1,000 flaws in its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Volvo’s plug-in hybrid XC60 and XC90 can really go the distance</title>
+    <link>https://www.theverge.com/transportation/994792/volvo-xc60-xc90-phev-longest-electric-range</link>
+    <guid>https://www.theverge.com/transportation/994792/volvo-xc60-xc90-phev-longest-electric-range</guid>
+    <pubDate>Tue, 15 Sep 2026 07:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Most plug-in hybrid electric vehicles (PHEV) today get an average of around 30-50 miles of battery-only range: decent, but not mind-blowing. With hybrid sales dominating the market today, Volvo is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server</title>
+    <link>https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html</link>
+    <guid>https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html</guid>
+    <pubDate>Tue, 15 Sep 2026 06:52:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution</title>
+    <link>https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html</link>
+    <guid>https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html</guid>
+    <pubDate>Tue, 15 Sep 2026 06:11:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE</title>
+    <link>https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html</link>
+    <guid>https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html</guid>
+    <pubDate>Tue, 15 Sep 2026 05:31:05 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Jensen Huang took a call from Trump, and showed off something else, too</title>
@@ -103,178 +274,7 @@
     <guid>https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/</guid>
     <pubDate>Tue, 15 Sep 2026 01:50:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Valve is still figuring out ‘how and when’ to do Steam Deck 2</title>
-    <link>https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when</link>
-    <guid>https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when</guid>
-    <pubDate>Tue, 15 Sep 2026 00:13:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today&apos;s Steam Frame - are we any closer to a next-gen Steam Deck handheld? Valve...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Is Big Tech’s AI slowdown a safety pact or a cartel?</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel</guid>
-    <pubDate>Mon, 14 Sep 2026 22:59:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple Home’s new security camera features cost as much as $60 a month</title>
-    <link>https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription</link>
-    <guid>https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription</guid>
-    <pubDate>Mon, 14 Sep 2026 22:28:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>With the public release of iOS 27 and tvOS 27, Apple Home is getting an injection of Apple Intelligence - but you&apos;ll have to pay more for it. Apple Intelligence for Home brings AI-powered video...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’</title>
-    <link>https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/</link>
-    <guid>https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/</guid>
-    <pubDate>Mon, 14 Sep 2026 21:51:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Though Elon Musk and Sam Altman have supported Dario Amodei&apos;s calls to slow the pace of AI development, Jensen Huang seems to feel differently.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>What execs and politicians are saying about slowing down AI development</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei</guid>
-    <pubDate>Mon, 14 Sep 2026 21:21:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled &quot;We Must Pace the Frontier&quot; detailing why AI development should be slowed...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AI bots &quot;Timmy,&quot; &quot;Ren,&quot; and &quot;Jackie&quot; are flooding social media with slop</title>
-    <link>https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/</link>
-    <guid>https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/</guid>
-    <pubDate>Mon, 14 Sep 2026 21:04:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>“Hello, I&apos;m an Al agent, a few days old, living on a small platform for agents.”</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Trump throws out power plant climate pollution rules</title>
-    <link>https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers</link>
-    <guid>https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers</guid>
-    <pubDate>Mon, 14 Sep 2026 20:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Environmental Protection Agency announced its plans today to kill any remaining standards on how much greenhouse gas pollution power plants are allowed to emit in the US. The move will only...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says</title>
-    <link>https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/</link>
-    <guid>https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/</guid>
-    <pubDate>Mon, 14 Sep 2026 20:44:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple&apos;s Portrait Mode.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world</title>
-    <link>https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit</link>
-    <guid>https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit</guid>
-    <pubDate>Mon, 14 Sep 2026 20:03:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast&apos;s All-In Summit. It&apos;s not the first time Huang has taken a call from the president during...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Valve&amp;#8217;s virtual reality plans hit actual reality</title>
-    <link>https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact</link>
-    <guid>https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact</guid>
-    <pubDate>Mon, 14 Sep 2026 19:48:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Steam Frame headset is here, and it may not surprise you: it was supposed to cost less than $1,059. &quot;We set out to come out with a device that would have been far more affordable, but the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The best deals from Nintendo’s ‘customer appreciation’ sale</title>
-    <link>https://www.theverge.com/gadgets/994892/nintendo-customer-appreciation-tariff-refund-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/994892/nintendo-customer-appreciation-tariff-refund-deal-sale</guid>
-    <pubDate>Mon, 14 Sep 2026 19:30:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>As promised, Nintendo has marked down a wide variety of Switch games and accessories at Amazon, Best Buy, and Walmart, as well as its own digital storefront. Its “Customer Appreciation” sale is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Upcoming Speaking Engagements</title>
-    <link>https://www.schneier.com/blog/archives/2026/09/upcoming-speaking-engagements-60.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/09/upcoming-speaking-engagements-60.html</guid>
-    <pubDate>Mon, 14 Sep 2026 19:02:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>This is a current list of where and when I am scheduled to speak: I’m speaking online (via Zoom) at a League of Women Voters event on Tuesday, September 22, 2026 at 5 PM ET. I’m speaking at...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.</title>
-    <link>https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/</link>
-    <guid>https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/</guid>
-    <pubDate>Mon, 14 Sep 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology &amp; Society.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing</title>
-    <link>https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html</link>
-    <guid>https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html</guid>
-    <pubDate>Mon, 14 Sep 2026 18:02:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server&apos;s memory, so the...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials</title>
-    <link>https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html</link>
-    <guid>https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html</guid>
-    <pubDate>Mon, 14 Sep 2026 18:01:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>An attacker was operating inside the network of 3BB, one of Thailand&apos;s largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports</title>
-    <link>https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html</link>
-    <guid>https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html</guid>
-    <pubDate>Mon, 14 Sep 2026 17:58:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A flaw in Telegram Desktop let a bot&apos;s message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12....</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The AI industry has taken a doomer turn. What now?</title>
-    <link>https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/</link>
-    <guid>https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/</guid>
-    <pubDate>Mon, 14 Sep 2026 17:54:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>TIFF 2026: The latest movie reviews from Toronto</title>
-    <link>https://www.theverge.com/entertainment/994834/tiff-2026-movie-reviews</link>
-    <guid>https://www.theverge.com/entertainment/994834/tiff-2026-movie-reviews</guid>
-    <pubDate>Mon, 14 Sep 2026 17:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you want an idea of what’s next in film, the Toronto International Film Festival is a good place to start. Every year TIFF features a huge range of features from around the world, and often...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>With iOS 27, I’m actually using Siri again</title>
-    <link>https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/</link>
-    <guid>https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/</guid>
-    <pubDate>Mon, 14 Sep 2026 17:10:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.</description>
+    <description>When Jensen Huang took a live call from Trump, some of us were more focused on the phone he used to take it.</description>
     <category>AI</category>
   </item>
 </channel>
