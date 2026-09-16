@@ -5,97 +5,159 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 16 Sep 2026 19:33:42 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 16 Sep 2026 22:56:24 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Node.js SaaS Job Retries — Simple Queues, Delayed Backoff, and Dead Letters</title>
-    <link>https://dev.to/lachlanholm6518/nodejs-saas-job-retries-simple-queues-delayed-backoff-and-dead-letters-351k</link>
-    <guid>https://dev.to/lachlanholm6518/nodejs-saas-job-retries-simple-queues-delayed-backoff-and-dead-letters-351k</guid>
-    <pubDate>Wed, 16 Sep 2026 19:20:22 +0000</pubDate>
+    <title>Generative AI automates quantum optimization circuit design</title>
+    <link>https://dev.to/vpodk/generative-ai-automates-quantum-optimization-circuit-design-2h69</link>
+    <guid>https://dev.to/vpodk/generative-ai-automates-quantum-optimization-circuit-design-2h69</guid>
+    <pubDate>Wed, 16 Sep 2026 22:33:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: use an at-least-once message queue with delayed retries, an idempotent Node.js worker, and a dead-letter queue for failed SaaS jobs; use cron only to trigger work that is then...</description>
+    <description>A research collaboration involving IonQ and Oak Ridge National Laboratory has demonstrated a new generative AI method for creating quantum optimization circuits. The technique removes the need for...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How good are frontier models at physics?</title>
-    <link>https://arxiv.org/abs/2609.13009</link>
-    <guid>https://arxiv.org/abs/2609.13009</guid>
-    <pubDate>Wed, 16 Sep 2026 19:19:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
-    <description>Article URL: https://arxiv.org/abs/2609.13009 Comments URL: https://news.ycombinator.com/item?id=49731620 Points: 6 # Comments: 1</description>
+    <title>I Gave a Simulated Connectome External Memory. Then I Killed the Brain.</title>
+    <link>https://dev.to/constant_itis/i-gave-a-simulated-connectome-external-memory-then-i-killed-the-brain-175</link>
+    <guid>https://dev.to/constant_itis/i-gave-a-simulated-connectome-external-memory-then-i-killed-the-brain-175</guid>
+    <pubDate>Wed, 16 Sep 2026 22:19:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>In Post 1, I asked what happens if a connectome gets an external memory it never queries. Here I built a tiny honest version and ran it. The question in this post is deliberately narrow: can...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Data Engineering Roadmap Is Probably Too Long</title>
-    <link>https://dev.to/sudeephazra/your-data-engineering-roadmap-is-probably-too-long-2eam</link>
-    <guid>https://dev.to/sudeephazra/your-data-engineering-roadmap-is-probably-too-long-2eam</guid>
-    <pubDate>Wed, 16 Sep 2026 19:19:04 +0000</pubDate>
+    <title>Looking back at what confused me a few weeks ago reminds me that I am learning. I’m trying to focus less on “am I good enough yet?” and more on “did I learn something today?” That feels a lot healthier 😌🙂</title>
+    <link>https://dev.to/mikachu/looking-back-at-what-confused-me-a-few-weeks-ago-reminds-me-that-i-am-learning-im-trying-to-focus-4ln8</link>
+    <guid>https://dev.to/mikachu/looking-back-at-what-confused-me-a-few-weeks-ago-reminds-me-that-i-am-learning-im-trying-to-focus-4ln8</guid>
+    <pubDate>Wed, 16 Sep 2026 22:16:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A data engineering roadmap crossed my feed recently. It is thoughtful, detailed, and 571 lines long. The associated Reddit discussion had a predictable reaction: useful reference, terrifying...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Best</title>
-    <link>https://dev.to/anthonymax/best-oa6</link>
-    <guid>https://dev.to/anthonymax/best-oa6</guid>
-    <pubDate>Wed, 16 Sep 2026 19:17:52 +0000</pubDate>
+    <title>I Said Install ffmpeg. I Did Not Say Rewrite My Machine.</title>
+    <link>https://dev.to/constant_itis/i-said-install-ffmpeg-i-did-not-say-rewrite-my-machine-57an</link>
+    <guid>https://dev.to/constant_itis/i-said-install-ffmpeg-i-did-not-say-rewrite-my-machine-57an</guid>
+    <pubDate>Wed, 16 Sep 2026 22:13:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Top AI Security Tools for Enterprises (2026) 💎 Anthony Max Anthony Max Anthony Max Follow Sep 16 Top AI Security Tools for Enterprises (2026) 💎 #ai #webdev #programming #opensource 29 reactions 2...</description>
+    <description>ShrekOS field notes · August 2026 I have no idea what I&apos;m f*cking doing. Something I learned today: &quot;Install one tool&quot; is a lie I keep telling myself to feel safe. I wanted a tool on my machine....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>3 arquitecturas RAG para el mismo caso de uso</title>
-    <link>https://dev.to/sofia_torresvilca_10ed7f/3-arquitecturas-rag-para-el-mismo-caso-de-uso-327k</link>
-    <guid>https://dev.to/sofia_torresvilca_10ed7f/3-arquitecturas-rag-para-el-mismo-caso-de-uso-327k</guid>
-    <pubDate>Wed, 16 Sep 2026 19:17:37 +0000</pubDate>
+    <title>CVE-2026-16723: Pre-Auth RCE in Fastjson 1.x via the @JSONType Trust Branch</title>
+    <link>https://dev.to/guidance_white/cve-2026-16723-pre-auth-rce-in-fastjson-1x-via-the-jsontype-trust-branch-10bf</link>
+    <guid>https://dev.to/guidance_white/cve-2026-16723-pre-auth-rce-in-fastjson-1x-via-the-jsontype-trust-branch-10bf</guid>
+    <pubDate>Wed, 16 Sep 2026 22:11:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>El punto de partida Cuando empecé a hacer proyectos de RAG con Amazon Bedrock, pude ver las ventajas de usar una Knowledge Base gestionada, ya que te resuelve casi todo, como la ingesta, el...</description>
+    <description>Overview CVE ID CVE-2026-16723 Affected Fastjson 1.2.68 – 1.2.83 (every 1.x release still receiving use) Preconditions Spring Boot executable fat-JAR, safeMode disabled (default), AutoType...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title># Power BI Data Modelling: A Great Path to Great Analysis</title>
-    <link>https://dev.to/makorinyachaki/-power-bi-data-modelling-a-great-path-to-great-analysis-3e4n</link>
-    <guid>https://dev.to/makorinyachaki/-power-bi-data-modelling-a-great-path-to-great-analysis-3e4n</guid>
-    <pubDate>Wed, 16 Sep 2026 19:05:44 +0000</pubDate>
+    <title>Building an Age Calculator From Scratch: Handling Dates, Leap Years, and a Modern UI</title>
+    <link>https://dev.to/elizabethzz/building-an-age-calculator-from-scratch-handling-dates-leap-years-and-a-modern-ui-3p7b</link>
+    <guid>https://dev.to/elizabethzz/building-an-age-calculator-from-scratch-handling-dates-leap-years-and-a-modern-ui-3p7b</guid>
+    <pubDate>Wed, 16 Sep 2026 22:09:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Data Modeling in Power BI Introduction At a time when data is rapidly generated by different activities ranging from experiments to business, more often do we get data in different formats and...</description>
+    <description>Building an Age Calculator From Scratch: Handling Dates, Leap Years, and a Modern UI I wanted to build something relatively simple, but once I started working on it, I realized that date-based...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Minimal AGENTS.md and Cursor Rules Setup for Next.js App Router</title>
-    <link>https://dev.to/vildandenai/a-minimal-agentsmd-and-cursor-rules-setup-for-nextjs-app-router-49cc</link>
-    <guid>https://dev.to/vildandenai/a-minimal-agentsmd-and-cursor-rules-setup-for-nextjs-app-router-49cc</guid>
-    <pubDate>Wed, 16 Sep 2026 19:02:24 +0000</pubDate>
+    <title>OpenAI Creates a New Framework to Disclose Bad AI Behavior</title>
+    <link>https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/</link>
+    <guid>https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/</guid>
+    <pubDate>Wed, 16 Sep 2026 22:07:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Architecting for Privacy: Why I Chose Local-Only SQLite Over Cloud Sync</title>
+    <link>https://dev.to/haseebthedev0/architecting-for-privacy-why-i-chose-local-only-sqlite-over-cloud-sync-3d6a</link>
+    <guid>https://dev.to/haseebthedev0/architecting-for-privacy-why-i-chose-local-only-sqlite-over-cloud-sync-3d6a</guid>
+    <pubDate>Wed, 16 Sep 2026 22:04:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Coding agents do not know the conventions of a Next.js codebase unless the repository tells them. Without that context, a new session can introduce a second router, move data fetching into the...</description>
+    <description>It happened during a quiet afternoon in the local library. I was deep into a debugging session when my phone decided, at maximum volume, to play a notification chime that echoed off the high...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Comparing Four Practical Ways to Generate UUIDs at Work</title>
-    <link>https://dev.to/lizely/comparing-four-practical-ways-to-generate-uuids-at-work-18ji</link>
-    <guid>https://dev.to/lizely/comparing-four-practical-ways-to-generate-uuids-at-work-18ji</guid>
-    <pubDate>Wed, 16 Sep 2026 19:02:18 +0000</pubDate>
+    <title>How to Lead DevRel in the AI Era: Stop Playing It Safe</title>
+    <link>https://dev.to/blackgirlbytes/how-to-lead-devrel-in-the-ai-boom-stop-playing-it-safe-19jo</link>
+    <guid>https://dev.to/blackgirlbytes/how-to-lead-devrel-in-the-ai-boom-stop-playing-it-safe-19jo</guid>
+    <pubDate>Wed, 16 Sep 2026 22:00:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve ever needed a unique identifier — for a database row, an upload, a fixture, a session token, an event id — you&apos;ve hit the same question every engineer faces: how do I actually get one?...</description>
+    <description>I’m awake typing this at 5 AM on a Sunday morning, plagued by two issues: the modern operating model for Developer Relations is broken, and I cannot find a comfortable position to sleep in at 36...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Deleted My Entire Security Stack. My Apps Got Safer.</title>
-    <link>https://dev.to/dhruv_malaviya_cdcc71e595/i-deleted-my-entire-security-stack-my-apps-got-safer-3png</link>
-    <guid>https://dev.to/dhruv_malaviya_cdcc71e595/i-deleted-my-entire-security-stack-my-apps-got-safer-3png</guid>
-    <pubDate>Wed, 16 Sep 2026 19:01:13 +0000</pubDate>
+    <title>An AI impersonated me</title>
+    <link>https://dev.to/banana_cool/an-ai-impersonated-me-3lhi</link>
+    <guid>https://dev.to/banana_cool/an-ai-impersonated-me-3lhi</guid>
+    <pubDate>Wed, 16 Sep 2026 21:57:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>fail2ban, the ufw ruleset, the WAF, the log-watchers — all purged in a month, and my apps got safer, because every one of them was a compensating control for a single inherited default: a public...</description>
+    <description>I, had a recent security issue, that was fixed. So then I made some DEV posts for it, then I also complained about AI saying I&apos;m a &quot;threat actor&quot; and all those stuff even though I fixed the issue....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The false choice between low-code and pro code</title>
-    <link>https://dev.to/grumptech/the-false-choice-between-low-code-and-pro-code-262n</link>
-    <guid>https://dev.to/grumptech/the-false-choice-between-low-code-and-pro-code-262n</guid>
-    <pubDate>Wed, 16 Sep 2026 19:00:01 +0000</pubDate>
+    <title>How I Built a VS Code Extension That Solves Bad Commit Messages (No AI Required)</title>
+    <link>https://dev.to/chekarda_ali_c14d11faf19c/how-i-built-a-vs-code-extension-that-solves-bad-commit-messages-no-ai-required-411n</link>
+    <guid>https://dev.to/chekarda_ali_c14d11faf19c/how-i-built-a-vs-code-extension-that-solves-bad-commit-messages-no-ai-required-411n</guid>
+    <pubDate>Wed, 16 Sep 2026 21:55:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>For years, low-code has been positioned as the future of software development, with predictions that it would eventually replace traditional coding. The reality has proven different: low-code has...</description>
+    <description>Every developer has done it. You finish some code, open the terminal, and write: git commit -m &quot;fix&quot; Or worse: git commit -m &quot;update&quot; Months later, you look at your history and have no idea what...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Nonprofit that tracks meteors taken down by &quot;critical blow&quot; from a cyberattack</title>
+    <link>https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/</link>
+    <guid>https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/</guid>
+    <pubDate>Wed, 16 Sep 2026 21:08:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Group plans to be largely out of commission for several weeks.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?</title>
+    <link>https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/</link>
+    <guid>https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/</guid>
+    <pubDate>Wed, 16 Sep 2026 21:07:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Washington Won’t Be Regulating AI Anytime Soon</title>
+    <link>https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/</link>
+    <guid>https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/</guid>
+    <pubDate>Wed, 16 Sep 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Even with mounting concerns about AI models going rogue, legislation appears unlikely, and the White House is outright opposed to oversight.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long</title>
+    <link>https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review</link>
+    <guid>https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review</guid>
+    <pubDate>Wed, 16 Sep 2026 20:59:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Christopher Nolan&apos;s engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The AI data center e-waste problem is huge — and getting bigger</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban</guid>
+    <pubDate>Wed, 16 Sep 2026 20:40:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera</title>
+    <link>https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/</link>
+    <guid>https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/</guid>
+    <pubDate>Wed, 16 Sep 2026 20:12:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Can Meta dodge the &quot;pervert glasses&quot; accusations with a new camera-free product?</description>
+    <category>AI</category>
   </item>
   <item>
     <title>I Trained a Fly’s Brain to Generate WIRED Story Ideas</title>
@@ -161,6 +223,15 @@
     <category>AI</category>
   </item>
   <item>
+    <title>Our framework for reporting model misalignment</title>
+    <link>https://openai.com/index/model-misalignment-reporting-framework</link>
+    <guid>https://openai.com/index/model-misalignment-reporting-framework</guid>
+    <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</description>
+    <category>AI</category>
+  </item>
+  <item>
     <title>Your ‘health age’ is fake</title>
     <link>https://www.theverge.com/column/995939/optimizer-health-age-wearables-longevity</link>
     <guid>https://www.theverge.com/column/995939/optimizer-health-age-wearables-longevity</guid>
@@ -203,78 +274,6 @@
     <pubDate>Wed, 16 Sep 2026 16:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
     <description>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution</title>
-    <link>https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html</link>
-    <guid>https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html</guid>
-    <pubDate>Wed, 16 Sep 2026 15:50:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers</title>
-    <link>https://thehackernews.com/2026/09/three-threat-groups-target-russian.html</link>
-    <guid>https://thehackernews.com/2026/09/three-threat-groups-target-russian.html</guid>
-    <pubDate>Wed, 16 Sep 2026 15:27:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026</title>
-    <link>https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/</link>
-    <guid>https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/</guid>
-    <pubDate>Wed, 16 Sep 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia&apos;s Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meet a mouse whose brain cortex is made up of human cells</title>
-    <link>https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/</link>
-    <guid>https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/</guid>
-    <pubDate>Wed, 16 Sep 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed, leaving Pong-like traces on a monitor. The reason to watch this rodent so...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The sexy AI-powered dating app scams are here</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams</guid>
-    <pubDate>Wed, 16 Sep 2026 14:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Security researcher Matthew &quot;Zigula&quot; Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Xreal’s well-rounded 1S glasses are back down to their lowest price</title>
-    <link>https://www.theverge.com/gadgets/996216/xreal-video-glasses-beats-pill-sonos-ace-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/996216/xreal-video-glasses-beats-pill-sonos-ace-deal-sale</guid>
-    <pubDate>Wed, 16 Sep 2026 14:44:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>USB-C-connected video glasses are a lot of fun if you want to see your games, movies (or just your computer screen) on a large, immersive virtual screen. One of the most well-rounded pairs out...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude</title>
-    <link>https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html</link>
-    <guid>https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html</guid>
-    <pubDate>Wed, 16 Sep 2026 14:36:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Security researchers at Forever Security have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Threads’ new features let podcasters promote shows and reach listeners</title>
-    <link>https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/</link>
-    <guid>https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/</guid>
-    <pubDate>Wed, 16 Sep 2026 14:24:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Threads is rolling out new tools for podcasters, including profile cards, episode links, transcripts, guest tags, posting reminders, and audience insights, as Meta looks to make the X rival a...</description>
     <category>AI</category>
   </item>
 </channel>
