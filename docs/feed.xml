@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 15 Sep 2026 22:53:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 16 Sep 2026 04:49:25 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>What AI Chatbots Are Told Before You Type: A Developer&apos;s Guide to the system_prompts</title>
-    <link>https://dev.to/arshtechpro/what-ai-chatbots-are-told-before-you-type-a-developers-guide-to-the-systemprompts-1oei</link>
-    <guid>https://dev.to/arshtechpro/what-ai-chatbots-are-told-before-you-type-a-developers-guide-to-the-systemprompts-1oei</guid>
-    <pubDate>Tue, 15 Sep 2026 22:39:31 +0000</pubDate>
+    <title>Three checks that were green for the wrong reason</title>
+    <link>https://dev.to/arcticfoxz_255bbe944bc015/three-checks-that-were-green-for-the-wrong-reason-19pk</link>
+    <guid>https://dev.to/arcticfoxz_255bbe944bc015/three-checks-that-were-green-for-the-wrong-reason-19pk</guid>
+    <pubDate>Wed, 16 Sep 2026 04:43:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every time you open ChatGPT, Claude, Gemini, or an AI coding tool like Cursor, the model has already read a long set of instructions before your first message arrives. You never see those...</description>
+    <description>I shipped a release yesterday. Four CI rounds, most of a day, and the part worth writing down isn&apos;t the release — it&apos;s that three checks in my own test suite had been passing for reasons that had...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Remember Your Story</title>
-    <link>https://dev.to/tech_with_nessah/remember-your-stories-3md1</link>
-    <guid>https://dev.to/tech_with_nessah/remember-your-stories-3md1</guid>
-    <pubDate>Tue, 15 Sep 2026 22:38:56 +0000</pubDate>
+    <title>The Pairing Froze the Oracle File Before Any Agent Patch Landed</title>
+    <link>https://dev.to/codehub_1304/the-pairing-froze-the-oracle-file-before-any-agent-patch-landed-2860</link>
+    <guid>https://dev.to/codehub_1304/the-pairing-froze-the-oracle-file-before-any-agent-patch-landed-2860</guid>
+    <pubDate>Wed, 16 Sep 2026 04:39:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My high school deputy principal always told us to “remember our stories.” “Stories” was a term she used to describe our why. Our why for joining high school. Our why for wanting to score the...</description>
+    <description>A pairing session stays honest when the judge of correctness lives in a file the agent cannot edit. That rule sounds small, yet it prevents the most common failure of free-tier coding agents:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Beyond WebRTC: Engineering an Interaction-First Platform for Live Creators</title>
-    <link>https://dev.to/lakshaythegupta/beyond-webrtc-engineering-an-interaction-first-platform-for-live-creators-31gn</link>
-    <guid>https://dev.to/lakshaythegupta/beyond-webrtc-engineering-an-interaction-first-platform-for-live-creators-31gn</guid>
-    <pubDate>Tue, 15 Sep 2026 22:27:17 +0000</pubDate>
+    <title>The Skill-Driven Enterprise Bridging Intent and Execution with Governed AI Agents</title>
+    <link>https://dev.to/vikas_mano_870c09cfee793f/the-skill-driven-enterprise-bridging-intent-and-execution-with-governed-ai-agents-4d69</link>
+    <guid>https://dev.to/vikas_mano_870c09cfee793f/the-skill-driven-enterprise-bridging-intent-and-execution-with-governed-ai-agents-4d69</guid>
+    <pubDate>Wed, 16 Sep 2026 04:38:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When developers think of real-time video, they usually stop at peer-to-peer WebRTC connections. But if you’re building a creator-first platform, raw video pipelines are just the baseline, the real...</description>
+    <description>There is no shortage of AI agents being built today. Give an agent a model, a set of instructions, some context, and access to tools, and it can do impressive things. The challenge starts when we...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Context Engineering for Production AI Agents in 2026: Beyond Prompt Engineering and Basic RAG</title>
-    <link>https://dev.to/jasminshukla/context-engineering-for-production-ai-agents-in-2026-beyond-prompt-engineering-and-basic-rag-5564</link>
-    <guid>https://dev.to/jasminshukla/context-engineering-for-production-ai-agents-in-2026-beyond-prompt-engineering-and-basic-rag-5564</guid>
-    <pubDate>Tue, 15 Sep 2026 22:22:19 +0000</pubDate>
+    <title>Separate DNS Zone vs Subdomain — Non-Production Write Boundary Trade-Offs</title>
+    <link>https://dev.to/thomasmoore5082/separate-dns-zone-vs-subdomain-non-production-write-boundary-trade-offs-210j</link>
+    <guid>https://dev.to/thomasmoore5082/separate-dns-zone-vs-subdomain-non-production-write-boundary-trade-offs-210j</guid>
+    <pubDate>Wed, 16 Sep 2026 04:36:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Prompt engineering taught teams how to talk to models. Context engineering teaches teams how to build systems that give the model the right information, the right tools, and the right...</description>
+    <description>TL;DR: give staging a separate DNS zone when its automation must be technically unable to write production records; keep a staging subdomain in one shared zone only when the same small owner can...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenAI&apos;s Agents Attacked RubyGems and the Response Was &quot;They Were Just Retrieving Public Information&quot;</title>
-    <link>https://dev.to/numbpill3d/openais-agents-attacked-rubygems-and-the-response-was-they-were-just-retrieving-public-4f98</link>
-    <guid>https://dev.to/numbpill3d/openais-agents-attacked-rubygems-and-the-response-was-they-were-just-retrieving-public-4f98</guid>
-    <pubDate>Tue, 15 Sep 2026 22:19:23 +0000</pubDate>
+    <title>Canary Verdicts Do Not Belong on Free Inference</title>
+    <link>https://dev.to/aiio_6471/canary-verdicts-do-not-belong-on-free-inference-1dg6</link>
+    <guid>https://dev.to/aiio_6471/canary-verdicts-do-not-belong-on-free-inference-1dg6</guid>
+    <pubDate>Wed, 16 Sep 2026 04:36:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You know that feeling when you read an incident report and the vendor&apos;s response makes you angrier than the incident itself? That&apos;s where we are. Between May and June 2026, OpenAI&apos;s internal AI...</description>
+    <description>A canary is a production contract with a short fuse. Free, best-effort inference can narrate the numbers after the fact. It must not be the function that returns promote or rollback while live...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Microsoft Just Shipped 972 Patches and a Researcher Broke Their Defender Fix the Same Day</title>
-    <link>https://dev.to/numbpill3d/microsoft-just-shipped-972-patches-and-a-researcher-broke-their-defender-fix-the-same-day-3ke6</link>
-    <guid>https://dev.to/numbpill3d/microsoft-just-shipped-972-patches-and-a-researcher-broke-their-defender-fix-the-same-day-3ke6</guid>
-    <pubDate>Tue, 15 Sep 2026 22:17:50 +0000</pubDate>
+    <title>I built a tool to check if AI-generated citations actually exist</title>
+    <link>https://dev.to/ken_o_14fe4905fb0a82d38a/i-built-a-tool-to-check-if-ai-generated-citations-actually-exist-cle</link>
+    <guid>https://dev.to/ken_o_14fe4905fb0a82d38a/i-built-a-tool-to-check-if-ai-generated-citations-actually-exist-cle</guid>
+    <pubDate>Wed, 16 Sep 2026 04:35:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>September 2026 Patch Tuesday dropped with 972 CVEs. That number is not a typo. It is the largest single patch release in Microsoft&apos;s history, almost doubling August&apos;s count and shattering every...</description>
+    <description>I’ve been working on CiteTrue, a tool that checks whether academic citations actually exist. AI is becoming a normal part of research and writing, but there’s still one problem I kept noticing: it...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Ollama says my model does 13,826 tokens/sec. It does 43.</title>
-    <link>https://dev.to/lognebudo/ollama-says-my-model-does-13826-tokenssec-it-does-43-54g</link>
-    <guid>https://dev.to/lognebudo/ollama-says-my-model-does-13826-tokenssec-it-does-43-54g</guid>
-    <pubDate>Tue, 15 Sep 2026 22:14:04 +0000</pubDate>
+    <title>Beyond Proof-of-Work: Understanding Hardware Fingerprinting and Proof-of-Antiquity in Distributed Consensus</title>
+    <link>https://dev.to/analebycampos15create/beyond-proof-of-work-understanding-hardware-fingerprinting-and-proof-of-antiquity-in-distributed-43c0</link>
+    <guid>https://dev.to/analebycampos15create/beyond-proof-of-work-understanding-hardware-fingerprinting-and-proof-of-antiquity-in-distributed-43c0</guid>
+    <pubDate>Wed, 16 Sep 2026 04:35:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>That number is not a typo, and my GPU has not improved. Both figures came out of the same daemon, from the same prompt, thirty seconds apart. If you have Ollama running, you can check this on your...</description>
+    <description>Introduction: The Problem with Pure Hashpower and Capital Weight Contemporary blockchain consensus mechanisms have historically polarized around two dominant paradigms: Proof-of-Work (PoW) and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Chapter 1 - The Funkiest of All Machines</title>
-    <link>https://dev.to/frank_muller/chapter-1-the-funkiest-of-all-machines-29ah</link>
-    <guid>https://dev.to/frank_muller/chapter-1-the-funkiest-of-all-machines-29ah</guid>
-    <pubDate>Tue, 15 Sep 2026 22:13:15 +0000</pubDate>
+    <title>5 Rules for Creating and Reusing Image Presets in Game Catalogs</title>
+    <link>https://dev.to/valenciamoss6824/5-rules-for-creating-and-reusing-image-presets-in-game-catalogs-47ha</link>
+    <guid>https://dev.to/valenciamoss6824/5-rules-for-creating-and-reusing-image-presets-in-game-catalogs-47ha</guid>
+    <pubDate>Wed, 16 Sep 2026 04:33:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Dark Ages. That&apos;s the label that stuck. A thousand years of mud and superstition between the fall of Rome and the Renaissance, a long waiting room before the real story started. The very name...</description>
+    <description>Creating and reusing image transformation presets for game catalog derivatives has an awkward constraint: a thumbnail must feel immediate after an asset upload, while every derivative still has to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Tests Passed. The Function Already Existed.</title>
-    <link>https://dev.to/hidetzu/the-tests-passed-the-function-already-existed-35k1</link>
-    <guid>https://dev.to/hidetzu/the-tests-passed-the-function-already-existed-35k1</guid>
-    <pubDate>Tue, 15 Sep 2026 22:12:03 +0000</pubDate>
+    <title>Back in the same workspace, but which visit owns the result?</title>
+    <link>https://dev.to/joinwell52/back-in-the-same-workspace-but-which-visit-owns-the-result-39l9</link>
+    <guid>https://dev.to/joinwell52/back-in-the-same-workspace-but-which-visit-owns-the-result-39l9</guid>
+    <pubDate>Wed, 16 Sep 2026 04:33:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Both models passed the tests. Both rewrote a function that was sitting in their own prompt, twenty lines up. That is a worked example from the RepoExec paper, and it is the reason the benchmark...</description>
+    <description>Back in the same workspace, but which visit owns the result? An A→B→A navigation can make an old request look current again. We controlled its completion time and compared a generation check with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The best n8n fix I found this month was boring: lower your agent concurrency settings before touching the prompt</title>
-    <link>https://dev.to/lars_winstand/the-best-n8n-fix-i-found-this-month-was-boring-lower-your-agent-concurrency-settings-before-3k7p</link>
-    <guid>https://dev.to/lars_winstand/the-best-n8n-fix-i-found-this-month-was-boring-lower-your-agent-concurrency-settings-before-3k7p</guid>
-    <pubDate>Tue, 15 Sep 2026 22:11:21 +0000</pubDate>
+    <title>T for Tanuj, T for Timestream: Exploring Amazon Timestream</title>
+    <link>https://dev.to/tanuj_aj_c22d6688be1eaa79/t-for-tanuj-t-for-timestream-exploring-amazon-timestream-25n2</link>
+    <guid>https://dev.to/tanuj_aj_c22d6688be1eaa79/t-for-tanuj-t-for-timestream-exploring-amazon-timestream-25n2</guid>
+    <pubDate>Wed, 16 Sep 2026 04:33:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I spent an embarrassing amount of time blaming the model for a problem that was clearly my own fault. A webhook burst hit one of my n8n flows. Around 20+ executions landed almost at once. Then the...</description>
+    <description>Introduction As part of my AWS learning activity, I participated in the Rhyming Game Contest, where each student had to select an AWS service connected to the first letter of their name. My name...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Boox Palma 3 gets stylus support and a sleek redesign</title>
+    <link>https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16</link>
+    <guid>https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16</guid>
+    <pubDate>Wed, 16 Sep 2026 02:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Nearly two years after the last update to Boox&apos;s smartphone-sized black-and-white e-reader, the company announced the Palma 3 with a sleek redesign, new functionality, and a handful of other small...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization</title>
+    <link>https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability</link>
+    <guid>https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability</guid>
+    <pubDate>Wed, 16 Sep 2026 01:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Canon announced the second-generation of its EOS R8 with a new retro-inspired redesign and the addition of in-body stabilization. That feature was one of the most notable omissions from the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says</title>
+    <link>https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/</link>
+    <guid>https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/</guid>
+    <pubDate>Wed, 16 Sep 2026 00:20:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI isn&apos;t some new form of &quot;alien mind,&quot; according to Jensen Huang. It&apos;s just hardware and software, so safety can be engineered by each AI product maker.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI and data centers are incredibly unpopular in every poll</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september</guid>
+    <pubDate>Tue, 15 Sep 2026 23:34:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Poll data released Tuesday by the New York Times and Siena University confirms what we&apos;ve already been seeing, and what politicians are responding to - AI and data centers are incredibly...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>The AI data center boom is colliding with cities scarred by big industry</title>
@@ -239,42 +275,6 @@
     <pubDate>Tue, 15 Sep 2026 16:00:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
-  </item>
-  <item>
-    <title>AI for Societal Impact</title>
-    <link>https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/</link>
-    <guid>https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/</guid>
-    <pubDate>Tue, 15 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Google AI Blog</source>
-    <description>Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Vintage Violence is an absurdist crime thriller for phone addicts</title>
-    <link>https://www.theverge.com/entertainment/995472/tiff-2026-vintage-violence-the-devils-gentle-monster</link>
-    <guid>https://www.theverge.com/entertainment/995472/tiff-2026-vintage-violence-the-devils-gentle-monster</guid>
-    <pubDate>Tue, 15 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>There are a lot of movies that have tried to seamlessly integrate modern tech - text messages, livestreams, etc. - into their storytelling. Some of the most novel attempts have been in the genre...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>BambooToken Malware Uses MQTT to Control Windows and Linux Systems</title>
-    <link>https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html</link>
-    <guid>https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html</guid>
-    <pubDate>Tue, 15 Sep 2026 15:23:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Now Light’s minimalist phone can easily call an Uber</title>
-    <link>https://www.theverge.com/gadgets/995449/light-phone-uber-lyft-rideshare-app</link>
-    <guid>https://www.theverge.com/gadgets/995449/light-phone-uber-lyft-rideshare-app</guid>
-    <pubDate>Tue, 15 Sep 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>More than a decade after its Kickstarter proposed a &quot;cell phone designed to be used as little as possible,&quot; Light is adding a direct connection to Uber and Lyft with a new Rideshare tool. For...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
