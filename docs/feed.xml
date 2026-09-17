@@ -5,60 +5,151 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 16 Sep 2026 22:56:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 17 Sep 2026 04:53:14 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Generative AI automates quantum optimization circuit design</title>
-    <link>https://dev.to/vpodk/generative-ai-automates-quantum-optimization-circuit-design-2h69</link>
-    <guid>https://dev.to/vpodk/generative-ai-automates-quantum-optimization-circuit-design-2h69</guid>
-    <pubDate>Wed, 16 Sep 2026 22:33:52 +0000</pubDate>
+    <title>A Safer Way to Validate Social Publishing Automation</title>
+    <link>https://dev.to/noah_taro_1e3297725e3fcbf/a-safer-way-to-validate-social-publishing-automation-kig</link>
+    <guid>https://dev.to/noah_taro_1e3297725e3fcbf/a-safer-way-to-validate-social-publishing-automation-kig</guid>
+    <pubDate>Thu, 17 Sep 2026 04:37:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A research collaboration involving IonQ and Oak Ridge National Laboratory has demonstrated a new generative AI method for creating quantum optimization circuits. The technique removes the need for...</description>
+    <description>Reliable social publishing automation is not just about making the final click happen. If you only measure whether a post was sent, you can miss the failures that matter most: the wrong account,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Gave a Simulated Connectome External Memory. Then I Killed the Brain.</title>
-    <link>https://dev.to/constant_itis/i-gave-a-simulated-connectome-external-memory-then-i-killed-the-brain-175</link>
-    <guid>https://dev.to/constant_itis/i-gave-a-simulated-connectome-external-memory-then-i-killed-the-brain-175</guid>
-    <pubDate>Wed, 16 Sep 2026 22:19:45 +0000</pubDate>
+    <title>The Prompt Changed and There Is No Commit for It</title>
+    <link>https://dev.to/sergueyasaelshinder/the-prompt-changed-and-there-is-no-commit-for-it-1nmd</link>
+    <guid>https://dev.to/sergueyasaelshinder/the-prompt-changed-and-there-is-no-commit-for-it-1nmd</guid>
+    <pubDate>Thu, 17 Sep 2026 04:37:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In Post 1, I asked what happens if a connectome gets an external memory it never queries. Here I built a tiny honest version and ran it. The question in this post is deliberately narrow: can...</description>
+    <description>The answers got worse on Tuesday. Nothing shipped on Monday. The code is identical to the code that worked last week. The branch has not moved. Somebody edited the prompt in a browser console on...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Looking back at what confused me a few weeks ago reminds me that I am learning. I’m trying to focus less on “am I good enough yet?” and more on “did I learn something today?” That feels a lot healthier 😌🙂</title>
-    <link>https://dev.to/mikachu/looking-back-at-what-confused-me-a-few-weeks-ago-reminds-me-that-i-am-learning-im-trying-to-focus-4ln8</link>
-    <guid>https://dev.to/mikachu/looking-back-at-what-confused-me-a-few-weeks-ago-reminds-me-that-i-am-learning-im-trying-to-focus-4ln8</guid>
-    <pubDate>Wed, 16 Sep 2026 22:16:50 +0000</pubDate>
+    <title>They Uploaded a File and It Was Not an Image</title>
+    <link>https://dev.to/sergueyasaelshinder/they-uploaded-a-file-and-it-was-not-an-image-1dd2</link>
+    <guid>https://dev.to/sergueyasaelshinder/they-uploaded-a-file-and-it-was-not-an-image-1dd2</guid>
+    <pubDate>Thu, 17 Sep 2026 04:36:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Somebody uploaded a profile picture. It was not a picture. The endpoint checked the extension. The file was called avatar.png, and an extension is not a fact. It is a claim, typed by the person...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Said Install ffmpeg. I Did Not Say Rewrite My Machine.</title>
-    <link>https://dev.to/constant_itis/i-said-install-ffmpeg-i-did-not-say-rewrite-my-machine-57an</link>
-    <guid>https://dev.to/constant_itis/i-said-install-ffmpeg-i-did-not-say-rewrite-my-machine-57an</guid>
-    <pubDate>Wed, 16 Sep 2026 22:13:57 +0000</pubDate>
+    <title>I built guardrails for Claude Code after it told me a fix &quot;worked&quot; when it didn&apos;t</title>
+    <link>https://dev.to/kuvosuco/i-built-guardrails-for-claude-code-after-it-told-me-a-fix-worked-when-it-didnt-2a32</link>
+    <guid>https://dev.to/kuvosuco/i-built-guardrails-for-claude-code-after-it-told-me-a-fix-worked-when-it-didnt-2a32</guid>
+    <pubDate>Thu, 17 Sep 2026 04:32:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>ShrekOS field notes · August 2026 I have no idea what I&apos;m f*cking doing. Something I learned today: &quot;Install one tool&quot; is a lie I keep telling myself to feel safe. I wanted a tool on my machine....</description>
+    <description>Just shipped this after getting burned one too many times: Claude Code Guardrails Pack — free hooks and skills that stop an AI coding agent from claiming work is done when it never actually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>CVE-2026-16723: Pre-Auth RCE in Fastjson 1.x via the @JSONType Trust Branch</title>
-    <link>https://dev.to/guidance_white/cve-2026-16723-pre-auth-rce-in-fastjson-1x-via-the-jsontype-trust-branch-10bf</link>
-    <guid>https://dev.to/guidance_white/cve-2026-16723-pre-auth-rce-in-fastjson-1x-via-the-jsontype-trust-branch-10bf</guid>
-    <pubDate>Wed, 16 Sep 2026 22:11:34 +0000</pubDate>
+    <title>Who Maintains ERP Customisations After Go-Live?</title>
+    <link>https://dev.to/aprilaide/who-maintains-erp-customisations-after-go-live-o5</link>
+    <guid>https://dev.to/aprilaide/who-maintains-erp-customisations-after-go-live-o5</guid>
+    <pubDate>Thu, 17 Sep 2026 04:32:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Overview CVE ID CVE-2026-16723 Affected Fastjson 1.2.68 – 1.2.83 (every 1.x release still receiving use) Preconditions Spring Boot executable fat-JAR, safeMode disabled (default), AutoType...</description>
+    <description>An ERP can be live and still leave important work outside the system. The finance team may still reconcile production data by hand. A warehouse may keep a side spreadsheet because a customer needs...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building an Age Calculator From Scratch: Handling Dates, Leap Years, and a Modern UI</title>
-    <link>https://dev.to/elizabethzz/building-an-age-calculator-from-scratch-handling-dates-leap-years-and-a-modern-ui-3p7b</link>
-    <guid>https://dev.to/elizabethzz/building-an-age-calculator-from-scratch-handling-dates-leap-years-and-a-modern-ui-3p7b</guid>
-    <pubDate>Wed, 16 Sep 2026 22:09:40 +0000</pubDate>
+    <title>Coupling vs. Cohesion: The Two Forces That Shape Good Software</title>
+    <link>https://dev.to/nsikanadaowo/coupling-vs-cohesion-the-two-forces-that-shape-good-software-36gg</link>
+    <guid>https://dev.to/nsikanadaowo/coupling-vs-cohesion-the-two-forces-that-shape-good-software-36gg</guid>
+    <pubDate>Thu, 17 Sep 2026 04:31:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building an Age Calculator From Scratch: Handling Dates, Leap Years, and a Modern UI I wanted to build something relatively simple, but once I started working on it, I realized that date-based...</description>
+    <description>Good software is not only about making each component work. It is also about deciding: What belongs together? What should stay separate? Which modules should know about each other? How much...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Two days of kernel debugging ended at one default value</title>
+    <link>https://dev.to/sarthakagrawal927/two-days-of-kernel-debugging-ended-at-one-default-value-19nd</link>
+    <guid>https://dev.to/sarthakagrawal927/two-days-of-kernel-debugging-ended-at-one-default-value-19nd</guid>
+    <pubDate>Thu, 17 Sep 2026 04:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Browser training plateaued near a loss of 2.45. The curve was smooth enough to look like a model or kernel limit. The WebGPU kernels were not the cause. The browser used a learning rate of 3e-3...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>TopAccess: Freelancer Review</title>
+    <link>https://dev.to/milla_z/topaccess-freelancer-review-2aj7</link>
+    <guid>https://dev.to/milla_z/topaccess-freelancer-review-2aj7</guid>
+    <pubDate>Thu, 17 Sep 2026 04:29:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The new offer for freelancers. For $29.95 a month, you stop depending on any single job platform&apos;s algorithm, any single marketplace&apos;s acceptance rate, any single recruiter&apos;s mood. Or at least...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Why Important Work Stays “Almost Done” for Weeks</title>
+    <link>https://dev.to/ksoft_technologies_33f7f6/why-important-work-stays-almost-done-for-weeks-idh</link>
+    <guid>https://dev.to/ksoft_technologies_33f7f6/why-important-work-stays-almost-done-for-weeks-idh</guid>
+    <pubDate>Thu, 17 Sep 2026 04:23:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A team can be busy all week and still finish almost nothing important. That sounds harsh, but it happens constantly. The project board is active. Standups happen. Tickets move. Updates are posted....</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Which Video Format Is Actually Smallest? H.264 vs VP9 vs AV1, Measured</title>
+    <link>https://dev.to/lucian_lkb_1f009d/which-video-format-is-actually-smallest-h264-vs-vp9-vs-av1-measured-1b12</link>
+    <guid>https://dev.to/lucian_lkb_1f009d/which-video-format-is-actually-smallest-h264-vs-vp9-vs-av1-measured-1b12</guid>
+    <pubDate>Thu, 17 Sep 2026 04:22:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>&quot;Convert it to MP4 to save space&quot; is advice you hear constantly, and it&apos;s mostly wrong. MP4 is a container — a box that holds video, audio and metadata — not a compression method. The thing that...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026</title>
+    <link>https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/</link>
+    <guid>https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/</guid>
+    <pubDate>Thu, 17 Sep 2026 03:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed,...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The streamers are fighting over Halloween</title>
+    <link>https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie</link>
+    <guid>https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie</guid>
+    <pubDate>Thu, 17 Sep 2026 03:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Toronto International Film Festival is a place to go to see the future of film, but this year it also provided a glimpse at what is coming very soon in the realm of streaming. Four different...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Snap tries to make the case again for its $2,200 smart glasses</title>
+    <link>https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/</link>
+    <guid>https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/</guid>
+    <pubDate>Thu, 17 Sep 2026 00:58:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Since Specs&apos; debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Al Gore says the real AI risk isn’t data centers</title>
+    <link>https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/</link>
+    <guid>https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/</guid>
+    <pubDate>Wed, 16 Sep 2026 23:43:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>In an interview with TechCrunch, Al Gore suggested he isn&apos;t losing sleep over AI data center emissions — he&apos;s more worried about the AI industry&apos;s own warnings about where the technology is headed.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac</title>
+    <link>https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac</link>
+    <guid>https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac</guid>
+    <pubDate>Wed, 16 Sep 2026 23:40:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Snap is introducing &quot;Specs Intelligence,&quot; a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>I wore Snap’s $2,200 smart glasses</title>
+    <link>https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses</link>
+    <guid>https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses</guid>
+    <pubDate>Wed, 16 Sep 2026 23:40:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>My favorite part of wearing the Specs, Snap&apos;s new augmented reality glasses, was playing dominoes. Sitting across the table from a Snap employee wearing the same pair of chunky glasses, I could...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>OpenAI Creates a New Framework to Disclose Bad AI Behavior</title>
@@ -68,42 +159,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Architecting for Privacy: Why I Chose Local-Only SQLite Over Cloud Sync</title>
-    <link>https://dev.to/haseebthedev0/architecting-for-privacy-why-i-chose-local-only-sqlite-over-cloud-sync-3d6a</link>
-    <guid>https://dev.to/haseebthedev0/architecting-for-privacy-why-i-chose-local-only-sqlite-over-cloud-sync-3d6a</guid>
-    <pubDate>Wed, 16 Sep 2026 22:04:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It happened during a quiet afternoon in the local library. I was deep into a debugging session when my phone decided, at maximum volume, to play a notification chime that echoed off the high...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How to Lead DevRel in the AI Era: Stop Playing It Safe</title>
-    <link>https://dev.to/blackgirlbytes/how-to-lead-devrel-in-the-ai-boom-stop-playing-it-safe-19jo</link>
-    <guid>https://dev.to/blackgirlbytes/how-to-lead-devrel-in-the-ai-boom-stop-playing-it-safe-19jo</guid>
-    <pubDate>Wed, 16 Sep 2026 22:00:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I’m awake typing this at 5 AM on a Sunday morning, plagued by two issues: the modern operating model for Developer Relations is broken, and I cannot find a comfortable position to sleep in at 36...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>An AI impersonated me</title>
-    <link>https://dev.to/banana_cool/an-ai-impersonated-me-3lhi</link>
-    <guid>https://dev.to/banana_cool/an-ai-impersonated-me-3lhi</guid>
-    <pubDate>Wed, 16 Sep 2026 21:57:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I, had a recent security issue, that was fixed. So then I made some DEV posts for it, then I also complained about AI saying I&apos;m a &quot;threat actor&quot; and all those stuff even though I fixed the issue....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>How I Built a VS Code Extension That Solves Bad Commit Messages (No AI Required)</title>
-    <link>https://dev.to/chekarda_ali_c14d11faf19c/how-i-built-a-vs-code-extension-that-solves-bad-commit-messages-no-ai-required-411n</link>
-    <guid>https://dev.to/chekarda_ali_c14d11faf19c/how-i-built-a-vs-code-extension-that-solves-bad-commit-messages-no-ai-required-411n</guid>
-    <pubDate>Wed, 16 Sep 2026 21:55:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every developer has done it. You finish some code, open the terminal, and write: git commit -m &quot;fix&quot; Or worse: git commit -m &quot;update&quot; Months later, you look at your history and have no idea what...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Nonprofit that tracks meteors taken down by &quot;critical blow&quot; from a cyberattack</title>
@@ -220,60 +275,6 @@
     <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Our framework for reporting model misalignment</title>
-    <link>https://openai.com/index/model-misalignment-reporting-framework</link>
-    <guid>https://openai.com/index/model-misalignment-reporting-framework</guid>
-    <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Your ‘health age’ is fake</title>
-    <link>https://www.theverge.com/column/995939/optimizer-health-age-wearables-longevity</link>
-    <guid>https://www.theverge.com/column/995939/optimizer-health-age-wearables-longevity</guid>
-    <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&apos;re going to change your life. Opt in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google will now let any AI agent run your smart home</title>
-    <link>https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date</link>
-    <guid>https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date</guid>
-    <pubDate>Wed, 16 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home&apos;s data using the standardized Model...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic merges Claude chat and Cowork in one interface</title>
-    <link>https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/</link>
-    <guid>https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/</guid>
-    <pubDate>Wed, 16 Sep 2026 16:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic is initially releasing these features to Pro and Max plan subscribers.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Claude comes for Gemini with its own take on Docs and Slides</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides</guid>
-    <pubDate>Wed, 16 Sep 2026 16:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Claude is getting a pair of new tools today: Docs and Slides. They&apos;ll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Helping older adults use AI in everyday life</title>
-    <link>https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</link>
-    <guid>https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</guid>
-    <pubDate>Wed, 16 Sep 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</description>
     <category>AI</category>
   </item>
 </channel>
