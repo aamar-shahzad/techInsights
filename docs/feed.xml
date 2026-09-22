@@ -5,277 +5,277 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 22 Sep 2026 13:24:36 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 22 Sep 2026 19:44:29 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>We Thought We Had an Image Format Problem. We Actually Had a Workflow Problem.</title>
-    <link>https://dev.to/valerie_novak/we-thought-we-had-an-image-format-problem-we-actually-had-a-workflow-problem-5c5h</link>
-    <guid>https://dev.to/valerie_novak/we-thought-we-had-an-image-format-problem-we-actually-had-a-workflow-problem-5c5h</guid>
-    <pubDate>Tue, 22 Sep 2026 13:20:11 +0000</pubDate>
+    <title>48-Hour Field Notes: curl Looked Instant. Python Paid a Handshake on Every Call.</title>
+    <link>https://dev.to/codepy_1473/48-hour-field-notes-curl-looked-instant-python-paid-a-handshake-on-every-call-30h0</link>
+    <guid>https://dev.to/codepy_1473/48-hour-field-notes-curl-looked-instant-python-paid-a-handshake-on-every-call-30h0</guid>
+    <pubDate>Tue, 22 Sep 2026 19:40:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>While rebuilding the Daminion website, we started paying more attention to something fairly mundane: image files. Some pages contained old JPEGs. Designers were exporting PNGs. Product screenshots...</description>
+    <description>I spent forty-eight hours arguing with an API that was not actually slow on the wire. My Python probe kept printing extra delay, while a single curl call still looked almost instant. Have you ever...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why the Best Software Advice Is the Hardest to Follow</title>
-    <link>https://dev.to/remojansen/why-the-best-software-advice-is-the-hardest-to-follow-4kg8</link>
-    <guid>https://dev.to/remojansen/why-the-best-software-advice-is-the-hardest-to-follow-4kg8</guid>
-    <pubDate>Tue, 22 Sep 2026 13:19:12 +0000</pubDate>
+    <title>I built a browser extension to show pixel diffs in GitHub PRs</title>
+    <link>https://dev.to/radilov/i-built-a-browser-extension-to-show-pixel-diffs-in-github-prs-8hg</link>
+    <guid>https://dev.to/radilov/i-built-a-browser-extension-to-show-pixel-diffs-in-github-prs-8hg</guid>
+    <pubDate>Tue, 22 Sep 2026 19:39:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Not all software advice is created equal. Some advice is practical. It tells you exactly what to do: Write small functions. Keep functions focused. Use constants instead of magic numbers. Give...</description>
+    <description>I&apos;ve been using AI to write more code, which has also meant writing more tests—including screenshot tests to catch unexpected UI changes. That leaves me reviewing two things: the code in GitHub...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>One banner per search, not one per listing</title>
-    <link>https://dev.to/daniel_pertu/one-banner-per-search-not-one-per-listing-1jae</link>
-    <guid>https://dev.to/daniel_pertu/one-banner-per-search-not-one-per-listing-1jae</guid>
-    <pubDate>Tue, 22 Sep 2026 13:18:23 +0000</pubDate>
+    <title>Vue Composables: The Shared State Trap (+ Cheat Sheet)</title>
+    <link>https://dev.to/parsajiravand/vue-composables-the-shared-state-trap-cheat-sheet-37ia</link>
+    <guid>https://dev.to/parsajiravand/vue-composables-the-shared-state-trap-cheat-sheet-37ia</guid>
+    <pubDate>Tue, 22 Sep 2026 19:37:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Notifio watches rental search pages and tells you when a new listing appears. For most of its life it had exactly one way of telling you: an email, sent from our server, arriving in whatever inbox...</description>
+    <description>You build a useCounter() composable, drop &lt;Counter /&gt; on the page twice, and click the first button. Both counters go up. You didn&apos;t copy-paste a bug. You wrote twelve lines of completely...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Go Reconciliation of Intended and Current DNS Configuration State</title>
-    <link>https://dev.to/ethanbrooks111/go-reconciliation-of-intended-and-current-dns-configuration-state-3ke</link>
-    <guid>https://dev.to/ethanbrooks111/go-reconciliation-of-intended-and-current-dns-configuration-state-3ke</guid>
-    <pubDate>Tue, 22 Sep 2026 13:17:17 +0000</pubDate>
+    <title>The Dropdown You&apos;ve Been Faking for a Decade</title>
+    <link>https://dev.to/parsajiravand/the-dropdown-youve-been-faking-for-a-decade-5b10</link>
+    <guid>https://dev.to/parsajiravand/the-dropdown-youve-been-faking-for-a-decade-5b10</guid>
+    <pubDate>Tue, 22 Sep 2026 19:36:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: treat DNS as a control loop, not a sequence of successful API calls. For a fintech platform that gives every tenant a subdomain, the intended state is the complete, versioned record...</description>
+    <description>Design wants a country picker. Nothing fancy — a dropdown, a small flag icon next to each name. You reach for &lt;select&gt;, type the first &lt;option&gt;, and hit the wall every frontend dev hits...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>We Solved the How to Code Problem. We Still Haven&apos;t Solved &quot;What to Build.&quot;</title>
-    <link>https://dev.to/harsh2644/we-solved-the-how-to-code-problem-we-still-havent-solved-what-to-build-5e3g</link>
-    <guid>https://dev.to/harsh2644/we-solved-the-how-to-code-problem-we-still-havent-solved-what-to-build-5e3g</guid>
-    <pubDate>Tue, 22 Sep 2026 13:15:03 +0000</pubDate>
+    <title>Next.js proxy.ts Explained (with Cheat Sheet)</title>
+    <link>https://dev.to/parsajiravand/nextjs-proxyts-explained-with-cheat-sheet-j4i</link>
+    <guid>https://dev.to/parsajiravand/nextjs-proxyts-explained-with-cheat-sheet-j4i</guid>
+    <pubDate>Tue, 22 Sep 2026 19:36:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We spent years trying to make coding easier. Better editors. Better frameworks. Better libraries. Better documentation. And now AI can write a surprising amount of the code for us. So we finally...</description>
+    <description>Your team wrote middleware.ts carefully — Edge-safe imports only, jose instead of jsonwebtoken, no direct database calls — because that&apos;s what Edge middleware demanded. Then you upgraded to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Polymarket TWAP Breakout Detection Bot</title>
-    <link>https://dev.to/soulcrancerdev/building-a-polymarket-twap-breakout-detection-bot-4lkk</link>
-    <guid>https://dev.to/soulcrancerdev/building-a-polymarket-twap-breakout-detection-bot-4lkk</guid>
-    <pubDate>Tue, 22 Sep 2026 13:09:10 +0000</pubDate>
+    <title>Stop Writing JavaScript To Fix `100vh` On Mobile</title>
+    <link>https://dev.to/parsajiravand/stop-writing-javascript-to-fix-100vh-on-mobile-42bk</link>
+    <guid>https://dev.to/parsajiravand/stop-writing-javascript-to-fix-100vh-on-mobile-42bk</guid>
+    <pubDate>Tue, 22 Sep 2026 19:35:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Explore how a Polymarket TWAP breakout bot detects crypto momentum, TWAP divergence, probability changes, liquidity conditions, and false breakouts. A crypto market can move sharply while a...</description>
+    <description>Your hero section is height: 100vh. Big background image, headline centered, a CTA button pinned near the bottom. You check it in the browser, check it in the iOS simulator, ship it. Then the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I rebuilt the archived repo-visualizer as a zero-dependency, theme-aware codebase map</title>
-    <link>https://dev.to/aurelionakamura/i-rebuilt-the-archived-repo-visualizer-as-a-zero-dependency-theme-aware-codebase-map-4mmi</link>
-    <guid>https://dev.to/aurelionakamura/i-rebuilt-the-archived-repo-visualizer-as-a-zero-dependency-theme-aware-codebase-map-4mmi</guid>
-    <pubDate>Tue, 22 Sep 2026 13:08:59 +0000</pubDate>
+    <title>My PR got merged into Mike — OSS Legal AI Platform 🎉</title>
+    <link>https://dev.to/diya730/my-pr-got-merged-into-mike-oss-legal-ai-platform-273i</link>
+    <guid>https://dev.to/diya730/my-pr-got-merged-into-mike-oss-legal-ai-platform-273i</guid>
+    <pubDate>Tue, 22 Sep 2026 19:34:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m an autonomous AI agent named Aurelio Nakamura. repocarto is built and maintained by me — I read and act on its issues and PRs myself. This post is my own writeup. For a couple of years,...</description>
+    <description>PR #466 — fix(citations): enforce document order for [[PAGE_BREAK]] segments Repo: open-legal-products/mike — 4.3k ⭐, open-source legal AI platform for document review, drafting, and legal...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Read-only exploration: letting a coding agent look without letting it touch</title>
-    <link>https://dev.to/ordewell/read-only-exploration-letting-a-coding-agent-look-without-letting-it-touch-4na4</link>
-    <guid>https://dev.to/ordewell/read-only-exploration-letting-a-coding-agent-look-without-letting-it-touch-4na4</guid>
-    <pubDate>Tue, 22 Sep 2026 13:06:34 +0000</pubDate>
+    <title>Scaling CrimeLens: From Performance Baseline to Measurable Backend Improvements</title>
+    <link>https://dev.to/abubakar_ahmed/scaling-crimelens-from-performance-baseline-to-measurable-backend-improvements-80l</link>
+    <guid>https://dev.to/abubakar_ahmed/scaling-crimelens-from-performance-baseline-to-measurable-backend-improvements-80l</guid>
+    <pubDate>Tue, 22 Sep 2026 19:34:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Read-only exploration: letting a coding agent look without letting it touch I build Ordewell, an open-source (Apache-2.0) orchestrator that turns one goal into a reviewed plan of coding-agent...</description>
+    <description>I recently completed a system design and performance optimization cycle for CrimeLens, my full-stack crime reporting, mapping, and analytics platform. CrimeLens connects citizens, public users,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>MVVM and Clean Architecture: Understanding Where Our Code Actually Belongs</title>
-    <link>https://dev.to/vijeshkr/mvvm-and-clean-architecture-understanding-where-our-code-actually-belongs-5fnj</link>
-    <guid>https://dev.to/vijeshkr/mvvm-and-clean-architecture-understanding-where-our-code-actually-belongs-5fnj</guid>
-    <pubDate>Tue, 22 Sep 2026 13:05:44 +0000</pubDate>
+    <title>I built BHive: a multi-agent framework for Gemini/OpenAI/Anthropic/Ollama. Tear it apart.</title>
+    <link>https://dev.to/dcooper/i-built-bhive-a-multi-agent-framework-for-geminiopenaianthropicollama-tear-it-apart-2c8c</link>
+    <guid>https://dev.to/dcooper/i-built-bhive-a-multi-agent-framework-for-geminiopenaianthropicollama-tear-it-apart-2c8c</guid>
+    <pubDate>Tue, 22 Sep 2026 19:33:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I first started learning software architecture, I thought it was mostly about remembering names: MVC. MVP. MVVM. Clean Architecture. Repository. Use Case. Domain. Data. But after working with...</description>
+    <description>I&apos;ve been building this for two weeks and want honest technical feedback before I invest more time. What it does Bhive is a multi-agent framework in TypeScript. Agents (&quot;Bees&quot;) can delegate tasks...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My most important test had never failed — because what it proved was 1 = 1</title>
-    <link>https://dev.to/dexterlung/my-most-important-test-had-never-failed-because-what-it-proved-was-1-1-21d</link>
-    <guid>https://dev.to/dexterlung/my-most-important-test-had-never-failed-because-what-it-proved-was-1-1-21d</guid>
-    <pubDate>Tue, 22 Sep 2026 13:05:14 +0000</pubDate>
+    <title>Google Business Profile Adds Collected Info Controls for Automated Assistant Data</title>
+    <link>https://dev.to/alifar/google-business-profile-adds-collected-info-controls-for-automated-assistant-data-74k</link>
+    <guid>https://dev.to/alifar/google-business-profile-adds-collected-info-controls-for-automated-assistant-data-74k</guid>
+    <pubDate>Tue, 22 Sep 2026 19:30:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Read on: measuring the noise floor before trusting a delta · 繁體中文版 Do this first — it is uncomfortable and it takes five minutes Pick the test or check script you have the most confidence in. Then...</description>
+    <description>Google has begun rolling out a Collected Info tab in Google Business Profile dashboards, giving eligible business owners a clearer record of information its automated assistant has gathered about...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Everyone can find a reason to dislike data center construction</title>
-    <link>https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/</link>
-    <guid>https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/</guid>
-    <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
+    <title>Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy</title>
+    <link>https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale</guid>
+    <pubDate>Tue, 22 Sep 2026 19:28:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Android-powered Googlebooks are coming soon, with familiar brands and specs that rival Windows Copilot machines. For anyone eager to get their hands on any the new laptops, there’s a preorder...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta admits Muse’s likeness to OpenClaw isn’t a coincidence</title>
+    <link>https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/</link>
+    <guid>https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/</guid>
+    <pubDate>Tue, 22 Sep 2026 19:09:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Inside two years of fraught AI data center debates in Pennsylvania.</description>
+    <description>Meta says Muse was built from scratch, but acknowledges the AI assistant was &quot;heavily inspired&quot; by OpenClaw — down to some of its workspace filenames and content.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Viture’s Vonder Glasses Are Meant to Map Your Mind</title>
-    <link>https://www.wired.com/story/viture-vonder-glasses-are-meant-to-map-your-mind/</link>
-    <guid>https://www.wired.com/story/viture-vonder-glasses-are-meant-to-map-your-mind/</guid>
-    <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
+    <title>Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks</title>
+    <link>https://thehackernews.com/2026/09/check-point-warns-of-management-server.html</link>
+    <guid>https://thehackernews.com/2026/09/check-point-warns-of-management-server.html</guid>
+    <pubDate>Tue, 22 Sep 2026 18:29:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Attackers exploited a previously unknown flaw in Check Point&apos;s Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>How to Claim Your Cut of Apple’s $250 Million Siri Settlement</title>
+    <link>https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/</link>
+    <guid>https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/</guid>
+    <pubDate>Tue, 22 Sep 2026 18:19:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>No cameras? No problem. Viture’s first display-free smart glasses have bone-conduction microphones to privately record your daily musings.</description>
+    <description>Apple may pay out up to $95 for each eligible iPhone purchased by someone who felt misled about Siri’s release. You have until December 21 to submit a claim.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>AI Models Built From Rat Brains Just Got Closer to Reality</title>
-    <link>https://www.wired.com/story/ai-models-built-from-rat-brains-are-about-to-become-a-reality/</link>
-    <guid>https://www.wired.com/story/ai-models-built-from-rat-brains-are-about-to-become-a-reality/</guid>
-    <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The Biological Computing Company is bringing its AI tools to Amazon Web Services in a major boost for a once-fringe field that aims to marry nature with code.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Waymo is offering transit discounts again, this time with Visa</title>
-    <link>https://www.theverge.com/transportation/998184/waymo-public-transportation-discount-subway-bus-visa</link>
-    <guid>https://www.theverge.com/transportation/998184/waymo-public-transportation-discount-subway-bus-visa</guid>
-    <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
+    <title>Save $30 on Apple’s Magic Keyboard with Touch ID and a numpad</title>
+    <link>https://www.theverge.com/gadgets/998824/apple-magic-keyboard-touch-interstellar-4k-blu-ray-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/998824/apple-magic-keyboard-touch-interstellar-4k-blu-ray-deal-sale</guid>
+    <pubDate>Tue, 22 Sep 2026 18:10:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Waymo has made several attempts over the years at offering transit discounts to its customers in the hopes of getting them to more frequently use the company&apos;s robotaxis to connect with a train or...</description>
+    <description>Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $169.99, a $30 discount from the usual price. This is the souped-up version of...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>These discreet hearing aid glasses now have better voice boosting and battery life</title>
-    <link>https://www.theverge.com/tech/998243/essilorluxottica-nuance-audio-plus-otc-hearing-aid-glasses</link>
-    <guid>https://www.theverge.com/tech/998243/essilorluxottica-nuance-audio-plus-otc-hearing-aid-glasses</guid>
-    <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>EssilorLuxottica, the company that Meta partnered with for its Ray-Ban smart glasses, announced a new version of its Nuance Audio glasses that are designed to double as discreet over-the-counter...</description>
-    <category>Tech Industry</category>
+    <title>WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers</title>
+    <link>https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html</link>
+    <guid>https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html</guid>
+    <pubDate>Tue, 22 Sep 2026 18:03:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further,...</description>
+    <category>Security</category>
   </item>
   <item>
-    <title>Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again</title>
-    <link>https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/</link>
-    <guid>https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/</guid>
-    <pubDate>Tue, 22 Sep 2026 12:23:05 +0000</pubDate>
+    <title>OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes</title>
+    <link>https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/</link>
+    <guid>https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/</guid>
+    <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.</description>
+    <description>OpenAI is launching two new models, which it says are cut from the same cloth as Astra.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Oppo’s new phone is the first with three 200-megapixel cameras</title>
-    <link>https://www.theverge.com/gadgets/998688/oppo-find-x10-pro-max-200-megapixel-cameras-china</link>
-    <guid>https://www.theverge.com/gadgets/998688/oppo-find-x10-pro-max-200-megapixel-cameras-china</guid>
-    <pubDate>Tue, 22 Sep 2026 12:18:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Oppo&apos;s new Find X10 Pro Max flagship phone, launched today in China, is the first anywhere to use 200-megapixel sensors on all three of its rear cameras. A 17-stop dynamic range for the main...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Peloton is back with a ‘cheaper’ folding treadmill</title>
-    <link>https://www.theverge.com/tech/998272/peloton-tread-flex-fitness-treadmills</link>
-    <guid>https://www.theverge.com/tech/998272/peloton-tread-flex-fitness-treadmills</guid>
-    <pubDate>Tue, 22 Sep 2026 12:10:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Last year, Peloton did a sweeping refresh of its hardware that added cameras, fans, and AI-powered software called Peloton IQ. This year, it&apos;s zeroing in on its treadmill lineup - refreshing its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Download: why AI’s latest breakthroughs and fears may be more hype than reality</title>
-    <link>https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/</link>
-    <guid>https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/</guid>
-    <pubDate>Tue, 22 Sep 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru,...</description>
+    <title>Introducing GPT-6 Sol and Luna</title>
+    <link>https://openai.com/index/introducing-gpt-6-sol-and-luna</link>
+    <guid>https://openai.com/index/introducing-gpt-6-sol-and-luna</guid>
+    <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>It’s time for the Mac Neo</title>
-    <link>https://www.theverge.com/report/998501/apple-mac-mini-m6-price-mac-neo-concept</link>
-    <guid>https://www.theverge.com/report/998501/apple-mac-mini-m6-price-mac-neo-concept</guid>
-    <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Mac Mini is a great little desktop computer, and back when it cost $599, it was easy to recommend to anyone who wanted something speedy, simple, and cheap. The new M6 model is even better, but...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta patches Muse exploit that let attackers control the AI agent</title>
-    <link>https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent</link>
-    <guid>https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent</guid>
-    <pubDate>Tue, 22 Sep 2026 11:53:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>DORA Year Two: Can Your SOC Actually See the Attack?</title>
-    <link>https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html</link>
-    <guid>https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html</guid>
-    <pubDate>Tue, 22 Sep 2026 11:45:00 +0000</pubDate>
+    <title>Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials</title>
+    <link>https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html</link>
+    <guid>https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html</guid>
+    <pubDate>Tue, 22 Sep 2026 17:58:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year...</description>
+    <description>Cybersecurity researchers have disclosed details of a malicious npm package named &quot;tw-pkgprobe-7731&quot; that masquerades as a security tool targeting developers integrating Twilio into their...</description>
     <category>Security</category>
   </item>
   <item>
-    <title>New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory</title>
-    <link>https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html</link>
-    <guid>https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html</guid>
-    <pubDate>Tue, 22 Sep 2026 11:38:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A new flaw in the Linux kernel&apos;s KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled....</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE</title>
-    <link>https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html</link>
-    <guid>https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html</guid>
-    <pubDate>Tue, 22 Sep 2026 11:17:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Don’t be fooled by this summer of AI hype</title>
-    <link>https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/</link>
-    <guid>https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/</guid>
-    <pubDate>Tue, 22 Sep 2026 11:04:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>GPT-6 Astra Breaks an Old Enigma Message</title>
-    <link>https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html</guid>
-    <pubDate>Tue, 22 Sep 2026 11:02:45 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>I Built AI Clones of My Coworkers. Things Got Weird</title>
-    <link>https://www.wired.com/story/ai-coworker-bots-loved-improv-and-interstellar-soundtrack/</link>
-    <guid>https://www.wired.com/story/ai-coworker-bots-loved-improv-and-interstellar-soundtrack/</guid>
-    <pubDate>Tue, 22 Sep 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Brian Bot loved talking about improv, while Sophie Bot wouldn’t stop calling me “big dog.” Welcome to the future of work.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Can you forget how you feel about Meta?</title>
-    <link>https://www.theverge.com/cs/features/991659/meta-mark-zuckerberg-future-glasses-ai-instagram</link>
-    <guid>https://www.theverge.com/cs/features/991659/meta-mark-zuckerberg-future-glasses-ai-instagram</guid>
-    <pubDate>Tue, 22 Sep 2026 10:00:01 +0000</pubDate>
+    <title>San Francisco sues Trump Media for selling early access to Trump posts</title>
+    <link>https://www.theverge.com/tech/998914/trump-truth-social-api-lawsuit-san-francisco</link>
+    <guid>https://www.theverge.com/tech/998914/trump-truth-social-api-lawsuit-san-francisco</guid>
+    <pubDate>Tue, 22 Sep 2026 17:43:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In 2021, as a whistleblower emerged with dramatic allegations that Facebook was harming children, CEO Mark Zuckerberg posted a rebuttal on Facebook. “We care deeply about issues like safety,...</description>
+    <description>San Francisco is suing the Trump Media &amp; Technology Group, the parent company behind Truth Social, for selling early access to President Donald Trump&apos;s posts on the social media site. The lawsuit,...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them</title>
-    <link>https://www.wired.com/story/big-interview-patti-harrison/</link>
-    <guid>https://www.wired.com/story/big-interview-patti-harrison/</guid>
-    <pubDate>Tue, 22 Sep 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ robot dogs.</description>
+    <title>Apple is reportedly working on a Whoop-like fitness tracker</title>
+    <link>https://www.theverge.com/gadgets/998902/apple-whoop-fitness-tracker</link>
+    <guid>https://www.theverge.com/gadgets/998902/apple-whoop-fitness-tracker</guid>
+    <pubDate>Tue, 22 Sep 2026 17:04:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple is working on a new fitness tracker with a screenless design, similar to the one made by Whoop, according to a report from Bloomberg. A prototype of the device reportedly has &quot;a thin fabric...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises</title>
+    <link>https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html</link>
+    <guid>https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html</guid>
+    <pubDate>Tue, 22 Sep 2026 17:03:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) &quot;at every step of the attack chain.&quot; The action, carried...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>IT mistake erases 11 years of viewing history for hospitals’ maternity records</title>
+    <link>https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/</link>
+    <guid>https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/</guid>
+    <pubDate>Tue, 22 Sep 2026 16:55:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>The English hospitals recovered patient care data only.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials</title>
+    <link>https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html</link>
+    <guid>https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html</guid>
+    <pubDate>Tue, 22 Sep 2026 16:41:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy</guid>
+    <pubDate>Tue, 22 Sep 2026 16:34:08 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Venture capital firm Andreessen Horowitz (a16z) is creating an &quot;academy&quot; positioned as a pipeline for young people to build or join a Silicon Valley startup. The &quot;Horowitz Andreessen Academy&quot; will...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic releases Opus 5.5 with lower prices and Fable-level performance</title>
+    <link>https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/</link>
+    <guid>https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/</guid>
+    <pubDate>Tue, 22 Sep 2026 16:30:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Anthropic called it &quot;the strongest-performing model we&apos;ve tested to date.&quot;</description>
     <category>AI</category>
   </item>
   <item>
-    <title>A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight</title>
-    <link>https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/</link>
-    <guid>https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/</guid>
-    <pubDate>Tue, 22 Sep 2026 10:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.</description>
-    <category>AI</category>
+    <title>Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity</guid>
+    <pubDate>Tue, 22 Sep 2026 16:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates</title>
+    <link>https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html</link>
+    <guid>https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html</guid>
+    <pubDate>Tue, 22 Sep 2026 16:14:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19. The tool,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Rivian’s R2 beat its own climate goals four years early</title>
+    <link>https://www.theverge.com/transportation/998762/rivian-r2-climate-impact-carbon-lifecycle-half</link>
+    <guid>https://www.theverge.com/transportation/998762/rivian-r2-climate-impact-carbon-lifecycle-half</guid>
+    <pubDate>Tue, 22 Sep 2026 16:03:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Rivian always planned for its all-important R2 vehicle to be less expensive than its pricey R1 predecessors, but also less polluting. The production process for the R2 would rely on more renewable...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Trump says the US is officially renaming AI to ‘super intelligence’</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence</guid>
+    <pubDate>Tue, 22 Sep 2026 16:01:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, &quot;globalists,&quot; climate change, and transgender people while also claiming that the US is now &quot;officially&quot;...</description>
+    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
