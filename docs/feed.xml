@@ -5,277 +5,276 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 23 Sep 2026 04:45:14 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 13:38:38 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I went looking for sandwiches and found a DEX pool trading with itself</title>
-    <link>https://dev.to/edycutjong/i-went-looking-for-sandwiches-and-found-a-dex-pool-trading-with-itself-2kj8</link>
-    <guid>https://dev.to/edycutjong/i-went-looking-for-sandwiches-and-found-a-dex-pool-trading-with-itself-2kj8</guid>
-    <pubDate>Wed, 23 Sep 2026 04:37:43 +0000</pubDate>
+    <title>How to Debug a Network Connection When Everything Looks Fine</title>
+    <link>https://dev.to/matthew_ambrose_58859ac31/how-to-debug-a-network-connection-when-everything-looks-fine-4hn9</link>
+    <guid>https://dev.to/matthew_ambrose_58859ac31/how-to-debug-a-network-connection-when-everything-looks-fine-4hn9</guid>
+    <pubDate>Wed, 23 Sep 2026 13:35:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A DEX trader sees a quote and a fill and cannot tell what stood between them. I set out to measure the obvious suspect, the sandwich: a bot that buys just before you and sells straight after, in...</description>
+    <description>One of the more confusing networking problems is the one where everything appears to be working. The computer is connected to Wi-Fi. The network icon looks normal. An IP address is assigned. You...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Two in three &apos;liquidity pulled&apos; alerts are the same wallet putting it back</title>
-    <link>https://dev.to/edycutjong/two-in-three-liquidity-pulled-alerts-are-the-same-wallet-putting-it-back-5f2f</link>
-    <guid>https://dev.to/edycutjong/two-in-three-liquidity-pulled-alerts-are-the-same-wallet-putting-it-back-5f2f</guid>
-    <pubDate>Wed, 23 Sep 2026 04:37:13 +0000</pubDate>
+    <title>Your ZPL label printed wrong. It&apos;s almost always one of these 5 things</title>
+    <link>https://dev.to/labelixa/your-zpl-label-printed-wrong-its-almost-always-one-of-these-5-things-4d41</link>
+    <guid>https://dev.to/labelixa/your-zpl-label-printed-wrong-its-almost-always-one-of-these-5-things-4d41</guid>
+    <pubDate>Wed, 23 Sep 2026 13:34:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A treasury bot pings: LP removed, −$21,330,275, UNI/WBTC. Somebody pulls up a chart, somebody asks in the group chat whether the market maker left, and for the next hour the answer is a guess. The...</description>
+    <description>A ZPL printer almost never reports an error — it prints something, and the something is wrong. That silence is why label bugs feel mysterious. In practice most wrong labels come down to one of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why I Chose P2P Instead of S3 for My File Transfer Product</title>
-    <link>https://dev.to/anirban00537/why-i-chose-p2p-instead-of-s3-for-my-file-transfer-product-3mgo</link>
-    <guid>https://dev.to/anirban00537/why-i-chose-p2p-instead-of-s3-for-my-file-transfer-product-3mgo</guid>
-    <pubDate>Wed, 23 Sep 2026 04:34:59 +0000</pubDate>
+    <title>Send raw ZPL to a Zebra printer with zero drivers (port 9100)</title>
+    <link>https://dev.to/labelixa/send-raw-zpl-to-a-zebra-printer-with-zero-drivers-port-9100-5fi7</link>
+    <guid>https://dev.to/labelixa/send-raw-zpl-to-a-zebra-printer-with-zero-drivers-port-9100-5fi7</guid>
+    <pubDate>Wed, 23 Sep 2026 13:34:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When I started thinking seriously about building a large-file transfer product, Amazon S3 felt like the obvious architecture. It is reliable. It scales. It has excellent tooling. Every backend...</description>
+    <description>A ZPL file does not need a driver to be printed. Most networked thermal printers listen on TCP port 9100 (&quot;raw&quot; / &quot;JetDirect&quot; printing) and treat everything that arrives there as printer commands....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>TVL Trend Analysis &amp; Liquidity Risk Assessment: Gemini</title>
-    <link>https://dev.to/dannydoes_2abdf9c/tvl-trend-analysis-liquidity-risk-assessment-gemini-1ila</link>
-    <guid>https://dev.to/dannydoes_2abdf9c/tvl-trend-analysis-liquidity-risk-assessment-gemini-1ila</guid>
-    <pubDate>Wed, 23 Sep 2026 04:34:35 +0000</pubDate>
+    <title>How I Built an Inventory-Balanced Trading Strategy for Polymarket</title>
+    <link>https://dev.to/benjamin_cup/how-i-built-an-inventory-balanced-trading-strategy-for-polymarket-2g2o</link>
+    <guid>https://dev.to/benjamin_cup/how-i-built-an-inventory-balanced-trading-strategy-for-polymarket-2g2o</guid>
+    <pubDate>Wed, 23 Sep 2026 13:32:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TVL Trend Analysis &amp; Liquidity Risk Assessment: Gemini Target Protocol: Gemini (TVL: $5795.0M) TVL Trend Analysis &amp; Liquidity Risk Assessment – Gemini Protocol: Gemini (Ethereum &amp; L2) – Current...</description>
+    <description>Most trading bots focus on one question: When should I buy or sell? While building my latest Polymarket strategy, I found another question to be just as important: What happens after the trade? A...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I had 47 tabs open during an incident. Never again.</title>
-    <link>https://dev.to/karaniph/i-had-47-tabs-open-during-an-incident-never-again-2kg8</link>
-    <guid>https://dev.to/karaniph/i-had-47-tabs-open-during-an-incident-never-again-2kg8</guid>
-    <pubDate>Wed, 23 Sep 2026 04:31:00 +0000</pubDate>
+    <title>How to Run Laya Typed Decisions Locally Instead of Calling Jev</title>
+    <link>https://dev.to/jmeg8r/how-to-run-laya-typed-decisions-locally-instead-of-calling-jev-4pj9</link>
+    <guid>https://dev.to/jmeg8r/how-to-run-laya-typed-decisions-locally-instead-of-calling-jev-4pj9</guid>
+    <pubDate>Wed, 23 Sep 2026 13:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>i use my chrome browser alot when SSHing to my VMs. It was killing my laptop. I&apos;m an AWS cloud engineer. I don&apos;t live in an IDE all day. I live in Slack, GitHub, our AWS org (12 accounts through...</description>
+    <description>Typed decision models return an option and a probability instead of prose. This is how I run the open-weight one (Laya) on a Mac Studio behind a TypeSafe-compatible API, the loader mistake that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Angular Security Headers: A Practical Guide to Securing Your Angular Application</title>
-    <link>https://dev.to/amit-jangid/angular-security-headers-a-practical-guide-to-securing-your-angular-application-g4i</link>
-    <guid>https://dev.to/amit-jangid/angular-security-headers-a-practical-guide-to-securing-your-angular-application-g4i</guid>
-    <pubDate>Wed, 23 Sep 2026 04:29:01 +0000</pubDate>
+    <title>What is ShaadKit? A Look at My Personal Foundation for Next.js Projects</title>
+    <link>https://dev.to/shaadcode/what-is-shaadkit-a-look-at-my-personal-foundation-for-nextjs-projects-19k0</link>
+    <guid>https://dev.to/shaadcode/what-is-shaadkit-a-look-at-my-personal-foundation-for-nextjs-projects-19k0</guid>
+    <pubDate>Wed, 23 Sep 2026 13:28:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;ve started a new series focused on hardening Angular applications using browser and HTTP security controls. In Part 1, I cover the fundamentals of security headers and how they add another layer...</description>
+    <description>Where Does the Problem Start? Imagine you&apos;ve started a new Next.js project. You&apos;re about to build something new and exciting. But before you even write a single line of code for the actual...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Send 100GB+ Files Directly Between Browsers Without Cloud Storage</title>
-    <link>https://dev.to/anirban00537/how-i-send-100gb-files-directly-between-browsers-without-cloud-storage-544j</link>
-    <guid>https://dev.to/anirban00537/how-i-send-100gb-files-directly-between-browsers-without-cloud-storage-544j</guid>
-    <pubDate>Wed, 23 Sep 2026 04:24:40 +0000</pubDate>
+    <title>Progressive Disclosure: Shaping Claude Code&apos;s Output</title>
+    <link>https://dev.to/reporails/progressive-disclosure-shaping-claude-codes-output-4dg4</link>
+    <guid>https://dev.to/reporails/progressive-disclosure-shaping-claude-codes-output-4dg4</guid>
+    <pubDate>Wed, 23 Sep 2026 13:26:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most file-sharing products are built around the same basic idea: Upload the file to a server. Store it somewhere. Generate a link. Let the recipient download it later. That model is simple,...</description>
+    <description>Opus 5.5 shipped on September 22, and its replies read differently: answer first, less throat-clearing. Box, testing it before launch, found its answers &quot;40% less verbose without losing accuracy&quot;,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Production RAG on the Lakehouse with BigQuery Vector Search and Apache Iceberg</title>
-    <link>https://dev.to/gde/production-rag-on-the-lakehouse-with-bigquery-vector-search-and-apache-iceberg-5g3</link>
-    <guid>https://dev.to/gde/production-rag-on-the-lakehouse-with-bigquery-vector-search-and-apache-iceberg-5g3</guid>
-    <pubDate>Wed, 23 Sep 2026 04:24:08 +0000</pubDate>
+    <title>Maybe We’re Asking AI the Wrong Question</title>
+    <link>https://dev.to/romesh_prasanga_d2e1fcb53/yjrjt-274j</link>
+    <guid>https://dev.to/romesh_prasanga_d2e1fcb53/yjrjt-274j</guid>
+    <pubDate>Wed, 23 Sep 2026 13:24:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>As teams rush to build with Generative AI, they&apos;re creating a dangerous chasm between their data and AI stacks. This common architectural flaw introduces massive technical debt and business risk....</description>
+    <description>What if the biggest danger from AI isn’t that it hates humanity — but that it has no reason to care about us? There is a question that keeps appearing whenever people talk about advanced...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Windows can decode (and encode) HEIC without ImageMagick - but your browser can&apos;t decode it at all</title>
-    <link>https://dev.to/_8729c5bde46be2/windows-can-decode-and-encode-heic-without-imagemagick-but-your-browser-cant-decode-it-at-all-51ca</link>
-    <guid>https://dev.to/_8729c5bde46be2/windows-can-decode-and-encode-heic-without-imagemagick-but-your-browser-cant-decode-it-at-all-51ca</guid>
-    <pubDate>Wed, 23 Sep 2026 04:23:43 +0000</pubDate>
+    <title>React State vs Server State: Why You Shouldn&apos;t Store Everything in useState</title>
+    <link>https://dev.to/prince_patel_09/react-state-vs-server-state-why-you-shouldnt-store-everything-in-usestate-19da</link>
+    <guid>https://dev.to/prince_patel_09/react-state-vs-server-state-why-you-shouldnt-store-everything-in-usestate-19da</guid>
+    <pubDate>Wed, 23 Sep 2026 13:24:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Someone hands you a folder of iPhone photos, every file is .heic, and the form you need to upload them to wants JPG. The usual advice is &quot;install ImageMagick&quot; or &quot;use this website&quot;. Neither is...</description>
+    <description>I used to think fetching API data in React was pretty straightforward. Fetch the data → put it in useState → render it. And for a small application, it works perfectly fine. const [users,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The one law the whole series assumes: an AI that goes down silently is worse than one that&apos;s dead</title>
-    <link>https://dev.to/derekwang85/the-one-law-the-whole-series-assumes-an-ai-that-goes-down-silently-is-worse-than-one-thats-dead-3fc7</link>
-    <guid>https://dev.to/derekwang85/the-one-law-the-whole-series-assumes-an-ai-that-goes-down-silently-is-worse-than-one-thats-dead-3fc7</guid>
-    <pubDate>Wed, 23 Sep 2026 04:23:00 +0000</pubDate>
+    <title>Flow — Experience the Library, Through Luminary</title>
+    <link>https://dev.to/eanups/flow-experience-the-library-through-luminary-2bcp</link>
+    <guid>https://dev.to/eanups/flow-experience-the-library-through-luminary-2bcp</guid>
+    <pubDate>Wed, 23 Sep 2026 13:23:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI Harness Engineering · Essay Six · derek wang (derekwang85) The hardest constraint in this whole pyramid isn&apos;t strategy, architecture, contracts, or gates. It&apos;s the bottom layer, the one nobody...</description>
+    <description>This is the experience I want reading with Luminary to feel like — not a feature list, but a day in the life: a trip to the library. The story runs on top; the italic line under each screenshot...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenAI wants to consult elite mathematicians about how to not fumble again</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel</guid>
-    <pubDate>Wed, 23 Sep 2026 00:17:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4</title>
-    <link>https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/</link>
-    <guid>https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/</guid>
-    <pubDate>Tue, 22 Sep 2026 23:21:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Founders shouldn&apos;t have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.</description>
+    <title>**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**</title>
+    <link>https://huggingface.co/blog/nvidia/nemotron-diarization</link>
+    <guid>https://huggingface.co/blog/nvidia/nemotron-diarization</guid>
+    <pubDate>Wed, 23 Sep 2026 13:17:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
   </item>
   <item>
-    <title>Paramount will need to release way more movies to make this merger work</title>
-    <link>https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails</link>
-    <guid>https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails</guid>
-    <pubDate>Tue, 22 Sep 2026 22:26:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Snorkel AI triples valuation to $3.5B as demand for AI training data booms</title>
-    <link>https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/</link>
-    <guid>https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/</guid>
-    <pubDate>Tue, 22 Sep 2026 21:56:43 +0000</pubDate>
+    <title>Spotify’s is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’</title>
+    <link>https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/</link>
+    <guid>https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/</guid>
+    <pubDate>Wed, 23 Sep 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.</description>
+    <description>Spotify is rolling out Taste Profile to Premium users in the U.S., letting listeners see how the streamer understands their tastes and use natural language to reshape their recommendations</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Better prompt caching for GPT-6</title>
-    <link>https://openai.com/index/better-prompt-caching-for-gpt-6</link>
-    <guid>https://openai.com/index/better-prompt-caching-for-gpt-6</guid>
-    <pubDate>Tue, 22 Sep 2026 21:00:00 +0000</pubDate>
+    <title>OpenAI extends cyber access to Ukraine for civilian defense</title>
+    <link>https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense</link>
+    <guid>https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense</guid>
+    <pubDate>Wed, 23 Sep 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.</description>
+    <description>OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Rabbit’s new AI agent doesn’t need an R1 to run</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3</guid>
-    <pubDate>Tue, 22 Sep 2026 20:52:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don&apos;t need its hardware to use, as reported earlier by Wired. The startup says its new OS3...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Saudi Arabia’s new Exobot EVs make the Cybertruck look normal</title>
-    <link>https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot</link>
-    <guid>https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot</guid>
-    <pubDate>Tue, 22 Sep 2026 20:14:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Kingdom of Saudi Arabia is mostly known for its global dominance over petroleum production and oil reserves - not necessarily cars and auto manufacturing, and certainly not electric vehicle...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Qualcomm launches two new smartphone chips with emphasis on AI</title>
-    <link>https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/</link>
-    <guid>https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/</guid>
-    <pubDate>Tue, 22 Sep 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Qualcomm’s Snapdragon 8 Elite Gen 6 comes in an Extreme version too</title>
-    <link>https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6</link>
-    <guid>https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6</guid>
-    <pubDate>Tue, 22 Sep 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Qualcomm has announced the Snapdragon 8 Elite Gen 6, this year joined by the 8 Elite Extreme Gen 6 too. The company describes both new phone chips as flagships, and the spec differences are...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Motorola’s wild-looking Signature 27 runs Qualcomm’s new Extreme chipset</title>
-    <link>https://www.theverge.com/tech/998844/motorola-signature-27-specs-snapdragon-8-elite-extreme-gen-6</link>
-    <guid>https://www.theverge.com/tech/998844/motorola-signature-27-specs-snapdragon-8-elite-extreme-gen-6</guid>
-    <pubDate>Tue, 22 Sep 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Motorola is the first company to announce a phone running Qualcomm&apos;s top-end Snapdragon 8 Elite Extreme Gen 6 chip. The Signature 27 looks set to be Motorola&apos;s most advanced flagship in some...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple clarifies that Texture and Grain controls are exclusive to the latest iPhones’ cameras</title>
-    <link>https://www.theverge.com/tech/998874/apple-iphone-18-pro-ios-27-camera-texture-grain-photographic-style</link>
-    <guid>https://www.theverge.com/tech/998874/apple-iphone-18-pro-ios-27-camera-texture-grain-photographic-style</guid>
-    <pubDate>Tue, 22 Sep 2026 19:48:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple&apos;s new texture and grain controls for stylizing photos will be more limited on older phones than initially expected. A confusingly worded press release from Apple indicated that the new...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft disrupts AI-assisted platform that compromised 12,000 accounts</title>
-    <link>https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/</link>
-    <guid>https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/</guid>
-    <pubDate>Tue, 22 Sep 2026 19:45:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy</title>
-    <link>https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale</guid>
-    <pubDate>Tue, 22 Sep 2026 19:28:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Android-powered Googlebooks are coming soon, with familiar brands and specs that rival Windows Copilot machines. For anyone eager to get their hands on any the new laptops, there’s a preorder...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta admits Muse’s likeness to OpenClaw isn’t a coincidence</title>
-    <link>https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/</link>
-    <guid>https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/</guid>
-    <pubDate>Tue, 22 Sep 2026 19:09:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta says Muse was built from scratch, but acknowledges the AI assistant was &quot;heavily inspired&quot; by OpenClaw — down to some of its workspace filenames and content.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks</title>
-    <link>https://thehackernews.com/2026/09/check-point-warns-of-management-server.html</link>
-    <guid>https://thehackernews.com/2026/09/check-point-warns-of-management-server.html</guid>
-    <pubDate>Tue, 22 Sep 2026 18:29:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Attackers exploited a previously unknown flaw in Check Point&apos;s Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>How to Claim Your Cut of Apple’s $250 Million Siri Settlement</title>
-    <link>https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/</link>
-    <guid>https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/</guid>
-    <pubDate>Tue, 22 Sep 2026 18:19:13 +0000</pubDate>
+    <title>Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw</title>
+    <link>https://www.wired.com/story/metas-muse-ai-agent-zero-day/</link>
+    <guid>https://www.wired.com/story/metas-muse-ai-agent-zero-day/</guid>
+    <pubDate>Wed, 23 Sep 2026 12:54:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Apple may pay out up to $95 for each eligible iPhone purchased by someone who felt misled about Siri’s release. You have until December 21 to submit a claim.</description>
+    <description>Meta says it issued a fix for the Muse zero-day vulnerability that would have let attackers do “whatever” they wanted on a victim’s Mac, highlighting the inherent dangers of AI helpers.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Save $30 on Apple’s Magic Keyboard with Touch ID and a numpad</title>
-    <link>https://www.theverge.com/gadgets/998824/apple-magic-keyboard-touch-interstellar-4k-blu-ray-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/998824/apple-magic-keyboard-touch-interstellar-4k-blu-ray-deal-sale</guid>
-    <pubDate>Tue, 22 Sep 2026 18:10:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $169.99, a $30 discount from the usual price. This is the souped-up version of...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers</title>
-    <link>https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html</link>
-    <guid>https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html</guid>
-    <pubDate>Tue, 22 Sep 2026 18:03:10 +0000</pubDate>
+    <title>New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control</title>
+    <link>https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html</link>
+    <guid>https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html</guid>
+    <pubDate>Wed, 23 Sep 2026 12:16:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further,...</description>
+    <description>A flaw in cPanel&apos;s CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take &quot;full control of the server,&quot; the company said on September 22. A second bug in...</description>
     <category>Security</category>
   </item>
   <item>
-    <title>OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes</title>
-    <link>https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/</link>
-    <guid>https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/</guid>
-    <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI is launching two new models, which it says are cut from the same cloth as Astra.</description>
+    <title>The Download: India’s smart glasses menace and AI’s trillion-dollar gamble</title>
+    <link>https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/</link>
+    <guid>https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/</guid>
+    <pubDate>Wed, 23 Sep 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When...</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Introducing GPT-6 Sol and Luna</title>
-    <link>https://openai.com/index/introducing-gpt-6-sol-and-luna</link>
-    <guid>https://openai.com/index/introducing-gpt-6-sol-and-luna</guid>
-    <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.</description>
+    <title>Xiaomi’s new 18 Pro phones improve on Samsung’s privacy display</title>
+    <link>https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china</link>
+    <guid>https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china</guid>
+    <pubDate>Wed, 23 Sep 2026 12:04:45 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Xiaomi&apos;s new 18 Pro and 18 Pro Max launched in China today, and feature a more flexible take on the privacy display tech introduced this year on Samsung&apos;s Galaxy S26 Ultra. They combine it with...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Ema raises $77M as AI starts eating into enterprise software and services</title>
+    <link>https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/</link>
+    <guid>https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/</guid>
+    <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.</description>
     <category>AI</category>
+  </item>
+  <item>
+    <title>545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent</title>
+    <link>https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html</link>
+    <guid>https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html</guid>
+    <pubDate>Wed, 23 Sep 2026 11:47:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests</title>
+    <link>https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html</link>
+    <guid>https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html</guid>
+    <pubDate>Wed, 23 Sep 2026 11:47:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape</title>
+    <link>https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html</link>
+    <guid>https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html</guid>
+    <pubDate>Wed, 23 Sep 2026 11:12:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A use-after-free in the Linux kernel&apos;s AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Research on Models Engaging in Genie-Like Behavior</title>
+    <link>https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html</guid>
+    <pubDate>Wed, 23 Sep 2026 11:03:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>New paper: “Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.” Abstract: We discover a novel and surprising phenomenon of...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>OpenAI nabs key Patreon execs ahead of upcoming announcement</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam</guid>
+    <pubDate>Wed, 23 Sep 2026 11:02:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, co-founder and technology chief Sam Yam...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Eight Sleep’s new cooling hub is small enough to hide under your bed</title>
+    <link>https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking</link>
+    <guid>https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking</guid>
+    <pubDate>Wed, 23 Sep 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Eight Sleep announced the next version of its &quot;intelligent sleep system&quot; designed to regulate the temperature of your bed in response to tracked health and sleep metrics like breathing and heart...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AT&amp;T Is Automating Away Jobs—and Its Old Telecom Empire</title>
+    <link>https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/</link>
+    <guid>https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/</guid>
+    <pubDate>Wed, 23 Sep 2026 10:15:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The telecom giant is eager to show Wall Street that it can do more with less. That means fewer employees, less electricity, and increased automation.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Smart glasses are already causing havoc in India</title>
+    <link>https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/</link>
+    <guid>https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/</guid>
+    <pubDate>Wed, 23 Sep 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers</title>
+    <link>https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html</link>
+    <guid>https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html</guid>
+    <pubDate>Wed, 23 Sep 2026 08:29:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware</title>
+    <link>https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html</link>
+    <guid>https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html</guid>
+    <pubDate>Wed, 23 Sep 2026 08:29:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input</title>
+    <link>https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html</link>
+    <guid>https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html</guid>
+    <pubDate>Wed, 23 Sep 2026 07:04:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants</title>
+    <link>https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html</link>
+    <guid>https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html</guid>
+    <pubDate>Wed, 23 Sep 2026 05:30:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency....</description>
+    <category>Security</category>
   </item>
 </channel>
 </rss>
