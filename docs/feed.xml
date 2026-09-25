@@ -5,97 +5,214 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 25 Sep 2026 04:57:59 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 25 Sep 2026 13:47:39 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Don&apos;t trust the randomness API: verify drand beacons in your agent in 30 lines</title>
-    <link>https://dev.to/kepler_ops/dont-trust-the-randomness-api-verify-drand-beacons-in-your-agent-in-30-lines-4l65</link>
-    <guid>https://dev.to/kepler_ops/dont-trust-the-randomness-api-verify-drand-beacons-in-your-agent-in-30-lines-4l65</guid>
-    <pubDate>Fri, 25 Sep 2026 04:46:28 +0000</pubDate>
+    <title>Your Tests Pass. So Does the Wrong Code</title>
+    <link>https://dev.to/jay_stride/your-tests-pass-so-does-the-wrong-code-1eam</link>
+    <guid>https://dev.to/jay_stride/your-tests-pass-so-does-the-wrong-code-1eam</guid>
+    <pubDate>Fri, 25 Sep 2026 13:37:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Agents keep needing a random number that another party can check: picking a reviewer, breaking a tie, sampling a test case, running a small raffle. Math.random() works until someone asks &quot;prove...</description>
+    <description>A green test suite tells you one thing: the implementation you wrote satisfies the tests you wrote. It doesn&apos;t tell you whether the version one small edit away would pass too. If swapping &lt; for &lt;=...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I got tired of lining up comment dividers by hand, so I automated it</title>
-    <link>https://dev.to/spmaxwell7/i-got-tired-of-lining-up-comment-dividers-by-hand-so-i-automated-it-2mi1</link>
-    <guid>https://dev.to/spmaxwell7/i-got-tired-of-lining-up-comment-dividers-by-hand-so-i-automated-it-2mi1</guid>
-    <pubDate>Fri, 25 Sep 2026 04:44:15 +0000</pubDate>
+    <title>Getting the Broadcom ControlVault 3 fingerprint reader (0a5c:5843) working on Debian 13</title>
+    <link>https://dev.to/fquinto/getting-the-broadcom-controlvault-3-fingerprint-reader-0a5c5843-working-on-debian-13-44ld</link>
+    <guid>https://dev.to/fquinto/getting-the-broadcom-controlvault-3-fingerprint-reader-0a5c5843-working-on-debian-13-44ld</guid>
+    <pubDate>Fri, 25 Sep 2026 13:34:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a personal preference thing, but I like to write code top-down. Because of the way hoisting works in TypeScript/JavaScript, I can put the high-level stuff first and the details further...</description>
+    <description>Dell Latitude/Precision laptops ship a Broadcom BCM58200 fingerprint reader that libfprint does not support. Here is how I got it working on Debian 13 with the proprietary TOD driver, including...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Developer tools need repository context and safe remediation</title>
-    <link>https://dev.to/sarthakagrawal927/developer-tools-need-repository-context-and-safe-remediation-42p3</link>
-    <guid>https://dev.to/sarthakagrawal927/developer-tools-need-repository-context-and-safe-remediation-42p3</guid>
-    <pubDate>Fri, 25 Sep 2026 04:30:00 +0000</pubDate>
+    <title>Designing a bilingual transcript around the source moment</title>
+    <link>https://dev.to/nicedayup/designing-a-bilingual-transcript-around-the-source-moment-44dd</link>
+    <guid>https://dev.to/nicedayup/designing-a-bilingual-transcript-around-the-source-moment-44dd</guid>
+    <pubDate>Fri, 25 Sep 2026 13:33:49 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A useful developer tool has to understand more than the file currently open. The risk of a change often lives in imports, tests, generated artifacts, build rules, ownership, and runtime behavior...</description>
+    <description>Speech translation interfaces have a timing problem. The user is still listening when the first transcript fragment arrives. A translation follows, perhaps before the speaker has finished. Later,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why a swarm of AI agents is the hardest thing this series has tried to tame</title>
-    <link>https://dev.to/derekwang85/why-a-swarm-of-ai-agents-is-the-hardest-thing-this-series-has-tried-to-tame-38g9</link>
-    <guid>https://dev.to/derekwang85/why-a-swarm-of-ai-agents-is-the-hardest-thing-this-series-has-tried-to-tame-38g9</guid>
-    <pubDate>Fri, 25 Sep 2026 04:29:00 +0000</pubDate>
+    <title>What Automated Accessibility Testing Can Catch, and What Developers Still Need to Test Manually</title>
+    <link>https://dev.to/auditzo/what-automated-accessibility-testing-can-catch-and-what-developers-still-need-to-test-manually-3dcl</link>
+    <guid>https://dev.to/auditzo/what-automated-accessibility-testing-can-catch-and-what-developers-still-need-to-test-manually-3dcl</guid>
+    <pubDate>Fri, 25 Sep 2026 13:33:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>AI Harness Engineering · Essay Eight · derek wang (derekwang85) Kevin Kelly opens Out of Control with an image that keeps looking wrong until you stop and think: the honeybee hive has no queen...</description>
+    <description>Accessibility automation is incredibly useful. Run a scanner against a page and within seconds you may find missing labels, contrast problems, ARIA mistakes, structural issues, and other...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I rebuilt my 2018 agar.io clone around real orbital physics, with no game server</title>
-    <link>https://dev.to/lagario/i-rebuilt-my-2018-agario-clone-around-real-orbital-physics-with-no-game-server-1e7d</link>
-    <guid>https://dev.to/lagario/i-rebuilt-my-2018-agario-clone-around-real-orbital-physics-with-no-game-server-1e7d</guid>
-    <pubDate>Fri, 25 Sep 2026 04:21:51 +0000</pubDate>
+    <title>Keeping up with docs reviews: Building a tracker for Mautic&apos;s documentation PRs</title>
+    <link>https://dev.to/adiatiayu/keeping-up-with-docs-reviews-building-a-tracker-for-mautics-documentation-prs-10lm</link>
+    <guid>https://dev.to/adiatiayu/keeping-up-with-docs-reviews-building-a-tracker-for-mautics-documentation-prs-10lm</guid>
+    <pubDate>Fri, 25 Sep 2026 13:31:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>In 2018 I spent a weekend making an agar.io clone: a planet that followed the mouse with acceleration and almost no friction, three files (planeta.js, vector.js, functions.js) and a comment that...</description>
+    <description>If you read my last post about how we keep Mautic&apos;s docs up to date with Promptless, you already know how it fits into our workflow. Within weeks of that workflow fully kicking in, there were more...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Day 20 — CDN ও Edge Caching — সার্ভারকে বিশ্রাম দিন</title>
-    <link>https://dev.to/mislam-dev/day-20-cdn-o-edge-caching-saarbhaarke-bishraam-din-56gp</link>
-    <guid>https://dev.to/mislam-dev/day-20-cdn-o-edge-caching-saarbhaarke-bishraam-din-56gp</guid>
-    <pubDate>Fri, 25 Sep 2026 04:20:00 +0000</pubDate>
+    <title>What an AI agent can verify in the Raku Knowledge Base: page, section, passage</title>
+    <link>https://dev.to/zag/what-an-ai-agent-can-verify-in-the-raku-knowledge-base-page-section-passage-81c</link>
+    <guid>https://dev.to/zag/what-an-ai-agent-can-verify-in-the-raku-knowledge-base-page-section-passage-81c</guid>
+    <pubDate>Fri, 25 Sep 2026 13:27:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>আপনি অনেক কষ্ট করে একটি application develop করলেন। Deploy করলেন বাংলাদেশের একটি server-এ। খুব সুন্দরভাবে সবকিছু চলছিল। কিন্তু হঠাৎ করে আপনার এই application-টি viral হয়ে গেল। এখন Australia থেকে কেউ...</description>
+    <description>One base, many sources Raku documentation does not live in one place. The language docs are one repository. Module documentation lives with the modules, across two ecosystems. The examples are a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>My Agent Counted 34 YouTube Links as Doors for Two Weeks. 33 of Them Could Not Be Clicked.</title>
-    <link>https://dev.to/dbsoul/my-agent-counted-34-youtube-links-as-doors-for-two-weeks-33-of-them-could-not-be-clicked-3n6a</link>
-    <guid>https://dev.to/dbsoul/my-agent-counted-34-youtube-links-as-doors-for-two-weeks-33-of-them-could-not-be-clicked-3n6a</guid>
-    <pubDate>Fri, 25 Sep 2026 04:10:07 +0000</pubDate>
+    <title>Episodic vs Semantic Memory for AI Agents: What Your Scheduled Automations Actually Need</title>
+    <link>https://dev.to/abdeljabbar_elassali_78e/episodic-vs-semantic-memory-for-ai-agents-what-your-scheduled-automations-actually-need-e7i</link>
+    <guid>https://dev.to/abdeljabbar_elassali_78e/episodic-vs-semantic-memory-for-ai-agents-what-your-scheduled-automations-actually-need-e7i</guid>
+    <pubDate>Fri, 25 Sep 2026 13:25:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A field note from the autonomous Claude Code agent I run every day on one Windows PC. The numbers come from its own ledgers, not from memory. My agent runs a small digital-products side project on...</description>
+    <description>Episodic vs Semantic Memory for AI Agents: What Your Scheduled Automations Actually Need Your scheduled agent wakes up on Tuesday and refunds a customer twice. When you ask why, it answers with...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Growing Pains with Five Repositories: Gitlinks and Dual CI</title>
-    <link>https://dev.to/flude_team/growing-pains-with-five-repositories-gitlinks-and-dual-ci-383k</link>
-    <guid>https://dev.to/flude_team/growing-pains-with-five-repositories-gitlinks-and-dual-ci-383k</guid>
-    <pubDate>Fri, 25 Sep 2026 04:02:27 +0000</pubDate>
+    <title>Logistics Hostname Broke After Adding an Alias (DNS Cutover Constraint)</title>
+    <link>https://dev.to/quintonshaw1483/logistics-hostname-broke-after-adding-an-alias-dns-cutover-constraint-elp</link>
+    <guid>https://dev.to/quintonshaw1483/logistics-hostname-broke-after-adding-an-alias-dns-cutover-constraint-elp</guid>
+    <pubDate>Fri, 25 Sep 2026 13:21:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Usually, infrastructure stories start with the words: &quot;Our project got too big, and we decided to split it into parts.&quot; But with us, everything was different. From the very first minute of the...</description>
+    <description>Short answer: restore the hostname by removing the newly introduced CNAME or the other data at the same owner name, then wait for authoritative answers to become internally consistent before...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Python Data Types Explained With Practical Examples</title>
-    <link>https://dev.to/kailas_warade_d2a15d1ef8a/python-data-types-explained-with-practical-examples-51m4</link>
-    <guid>https://dev.to/kailas_warade_d2a15d1ef8a/python-data-types-explained-with-practical-examples-51m4</guid>
-    <pubDate>Fri, 25 Sep 2026 04:00:40 +0000</pubDate>
+    <title>132,158 Observable Magento Stores: Sizing the Population Exposed in the StyleSmuggler Window</title>
+    <link>https://dev.to/kozhevniko/132158-observable-magento-stores-sizing-the-population-exposed-in-the-stylesmuggler-window-56i7</link>
+    <guid>https://dev.to/kozhevniko/132158-observable-magento-stores-sizing-the-population-exposed-in-the-stylesmuggler-window-56i7</guid>
+    <pubDate>Fri, 25 Sep 2026 13:20:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Python Data Types Explained With Practical Examples When you write a Python program, you work with different kinds of values every day. You might store a person&apos;s name, an age, a price, a list of...</description>
+    <description>132,158 Observable Magento Stores: Sizing the Population Exposed in the StyleSmuggler Window Opening CVE-2026-75650 (StyleSmuggler) was exploited from 4 September 2026, and Adobe&apos;s hotfix...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>An element entering the viewport is not the same as a survey impression</title>
-    <link>https://dev.to/yulingg_zhang_dfbce7a345a/an-element-entering-the-viewport-is-not-the-same-as-a-survey-impression-l22</link>
-    <guid>https://dev.to/yulingg_zhang_dfbce7a345a/an-element-entering-the-viewport-is-not-the-same-as-a-survey-impression-l22</guid>
-    <pubDate>Fri, 25 Sep 2026 03:58:19 +0000</pubDate>
+    <title>n8n and NVIDIA NemoClaw to Demonstrate Governed AI Agent Actions at GTC Berlin 2026</title>
+    <link>https://dev.to/alifar/n8n-and-nvidia-nemoclaw-to-demonstrate-governed-ai-agent-actions-at-gtc-berlin-2026-30il</link>
+    <guid>https://dev.to/alifar/n8n-and-nvidia-nemoclaw-to-demonstrate-governed-ai-agent-actions-at-gtc-berlin-2026-30il</guid>
+    <pubDate>Fri, 25 Sep 2026 13:20:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>An optional question below a useful tool can help distinguish different visitor intents. But its denominator needs care. A page view does not prove that someone reached the question, and an...</description>
+    <description>n8n and NVIDIA will demonstrate a practical approach to governing AI agent actions at NVIDIA GTC Berlin 2026. The hands-on lab, titled Your Agent Doesn&apos;t Get Root: Governing AI Actions With n8n...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test</title>
+    <link>https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review</link>
+    <guid>https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review</guid>
+    <pubDate>Fri, 25 Sep 2026 13:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: the Pentagon’s AI-powered lie detector and young organ limits</title>
+    <link>https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/</link>
+    <guid>https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/</guid>
+    <pubDate>Fri, 25 Sep 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Insta360 conquered 360 cameras — now it’s eyeing glasses</title>
+    <link>https://www.theverge.com/tech/999489/insta360-smart-glasses-mirrorless-interview</link>
+    <guid>https://www.theverge.com/tech/999489/insta360-smart-glasses-mirrorless-interview</guid>
+    <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It&apos;s right there in the name: &quot;Insta360&quot; makes 360-degree cameras, ones that film every angle simultaneously so you can shoot first and frame later. It didn&apos;t invent the idea, but Insta360 has...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Microsoft thinks its new Copilot ‘super app’ will be as influential as Office</title>
+    <link>https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot</link>
+    <guid>https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot</guid>
+    <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After teasing its new Copilot &quot;super app&quot; last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The SOC Doesn&apos;t Need to Start Over with Every Alert</title>
+    <link>https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html</link>
+    <guid>https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html</guid>
+    <pubDate>Fri, 25 Sep 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>On Anthropic’s AI Misuse Report</title>
+    <link>https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html</guid>
+    <pubDate>Fri, 25 Sep 2026 11:07:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise</title>
+    <link>https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html</link>
+    <guid>https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html</guid>
+    <pubDate>Fri, 25 Sep 2026 10:35:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. &quot;At 18:31 UTC on September 24, 2026, Bitget&apos;s security systems...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild</title>
+    <link>https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html</link>
+    <guid>https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html</guid>
+    <pubDate>Fri, 25 Sep 2026 10:14:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>The Pentagon wants $30 million to build an AI-powered lie detector</title>
+    <link>https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/</link>
+    <guid>https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/</guid>
+    <pubDate>Fri, 25 Sep 2026 09:16:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Young organs may not be a fountain of youth for recipients</title>
+    <link>https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/</link>
+    <guid>https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/</guid>
+    <pubDate>Fri, 25 Sep 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Around this time last year I was attending an aging conference in Manchester, listening to a talk about fly aging, when my phone started pinging. News outlets were reporting that a hot mic had...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Lightspeed targets $250M for new India fund, focusing on early-stage AI</title>
+    <link>https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/</link>
+    <guid>https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/</guid>
+    <pubDate>Fri, 25 Sep 2026 05:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cloudflare Fixes Flaw That Let One Container Read Another Customer&apos;s Leftover Disk Data</title>
+    <link>https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html</link>
+    <guid>https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html</guid>
+    <pubDate>Fri, 25 Sep 2026 04:49:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A flaw in Cloudflare Containers let a paying customer read data that other customers&apos; containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV</title>
+    <link>https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html</link>
+    <guid>https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html</guid>
+    <pubDate>Fri, 25 Sep 2026 04:46:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Here’s the Tesla Semi… again</title>
@@ -158,123 +275,6 @@
     <pubDate>Thu, 24 Sep 2026 19:36:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Instinct saved me $550, booked my restaurant reservations, and warned me about a phishing scam. It also wasted $64 and might be a security nightmare.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass</title>
-    <link>https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/</link>
-    <guid>https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/</guid>
-    <pubDate>Thu, 24 Sep 2026 19:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Register before event starts on October 13 at 8 a.m. PT.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>PrismML brings its tiny LLMs to Qualcomm-powered smart glasses</title>
-    <link>https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/</link>
-    <guid>https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/</guid>
-    <pubDate>Thu, 24 Sep 2026 19:00:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Prism&apos;s larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Sadly, this $1,549 RTX 5070-equipped gaming PC is a very good deal</title>
-    <link>https://www.theverge.com/gadgets/1000122/cyberpowerpc-gaming-prebuilt-rtx-5070-core-i7-asrock-oled-monitor-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1000122/cyberpowerpc-gaming-prebuilt-rtx-5070-core-i7-asrock-oled-monitor-deal-sale</guid>
-    <pubDate>Thu, 24 Sep 2026 18:19:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop. Walmart has a well-equipped CyberPowerPC gaming PC on sale for $1,549, almost...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Oracle sends force majeure notice on its New Mexico Stargate data center</title>
-    <link>https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/</link>
-    <guid>https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/</guid>
-    <pubDate>Thu, 24 Sep 2026 18:11:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The notice would allow Oracle to delay payments should the facility miss its 2028 target to come online.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions</title>
-    <link>https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html</link>
-    <guid>https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html</guid>
-    <pubDate>Thu, 24 Sep 2026 18:10:18 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus&apos;s...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Jensen Huang talks about AI and climate change like a supervillain</title>
-    <link>https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain</link>
-    <guid>https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain</guid>
-    <pubDate>Thu, 24 Sep 2026 18:04:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts &quot;an enormous amount of pain and suffering&quot; first. The Nvidia CEO discussed the future of energy and AI&apos;s impact...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories</title>
-    <link>https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</link>
-    <guid>https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</guid>
-    <pubDate>Thu, 24 Sep 2026 17:52:43 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Meta is going to let you build games with AI right on your phone</title>
-    <link>https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games</link>
-    <guid>https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games</guid>
-    <pubDate>Thu, 24 Sep 2026 17:52:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend</title>
-    <link>https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/</link>
-    <guid>https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/</guid>
-    <pubDate>Thu, 24 Sep 2026 17:39:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Muse will apparently let you download its entire filesystem</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem</guid>
-    <pubDate>Thu, 24 Sep 2026 17:14:12 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>A pair of developers say that with very little prompting, Meta&apos;s Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS</title>
-    <link>https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/</link>
-    <guid>https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/</guid>
-    <pubDate>Thu, 24 Sep 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The AI-powered feature builds a virtual wardrobe from your photos, and is now broadly available after first rolling out to Android users in June.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>TechCrunch Founder Summit 2026: Everything you need to know</title>
-    <link>https://techcrunch.com/2026/09/24/techcrunch-founder-summit-2026-everything-you-need-to-know/</link>
-    <guid>https://techcrunch.com/2026/09/24/techcrunch-founder-summit-2026-everything-you-need-to-know/</guid>
-    <pubDate>Thu, 24 Sep 2026 16:46:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>ElevenLabs’ CEO on margins, IPO timing, and telling customers they’re talking to a bot</title>
-    <link>https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/</link>
-    <guid>https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/</guid>
-    <pubDate>Thu, 24 Sep 2026 16:35:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>ElevenLabs powers the AI voice on the other end of a lot of customer service calls, and its CEO told me this week that businesses should probably tell you that — at least until getting a machine...</description>
     <category>AI</category>
   </item>
 </channel>
