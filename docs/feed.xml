@@ -5,97 +5,154 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 26 Sep 2026 13:05:37 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 19:13:37 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Why Your Diff Shows Every Line Changed (And It&apos;s Not Your Code)</title>
-    <link>https://dev.to/zhihu_wu_dea1d82af01a04d7/why-your-diff-shows-every-line-changed-and-its-not-your-code-19f8</link>
-    <guid>https://dev.to/zhihu_wu_dea1d82af01a04d7/why-your-diff-shows-every-line-changed-and-its-not-your-code-19f8</guid>
-    <pubDate>Sat, 26 Sep 2026 13:02:11 +0000</pubDate>
+    <title>Deferred Deep Links in React Native: Complete Integration Guide</title>
+    <link>https://dev.to/linktrail/deferred-deep-links-in-react-native-complete-integration-guide-2gek</link>
+    <guid>https://dev.to/linktrail/deferred-deep-links-in-react-native-complete-integration-guide-2gek</guid>
+    <pubDate>Sat, 26 Sep 2026 19:02:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You open a pull request. You changed one line. The diff is 412 lines. You blame the linter, then yourself. Usually it&apos;s neither. A diff compares characters before it compares meaning, and the...</description>
+    <description>If you&apos;ve shipped a React Native app, you&apos;ve probably wired up universal links / app links already. Existing users tap a link, the OS hands it to your app, Linking.addEventListener fires, you push...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Brazil&apos;s Central Bank Protects User Privacy in Its CBDC (DREX)</title>
-    <link>https://dev.to/andr_diasmoreiraprol_b/how-brazils-central-bank-protects-user-privacy-in-its-cbdc-drex-49mp</link>
-    <guid>https://dev.to/andr_diasmoreiraprol_b/how-brazils-central-bank-protects-user-privacy-in-its-cbdc-drex-49mp</guid>
-    <pubDate>Sat, 26 Sep 2026 13:01:26 +0000</pubDate>
+    <title>I built a wellness app that is designed to be closed</title>
+    <link>https://dev.to/vikas_sahani_3a7e2706846c/i-built-a-wellness-app-that-is-designed-to-be-closed-6hb</link>
+    <guid>https://dev.to/vikas_sahani_3a7e2706846c/i-built-a-wellness-app-that-is-designed-to-be-closed-6hb</guid>
+    <pubDate>Sat, 26 Sep 2026 19:00:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When the Central Bank of Brazil announced that Drex would arrive with programmable money, my inbox filled with one recurring question: &quot;Will the government watch every transaction I make?&quot; As...</description>
+    <description>Most wellness apps earn more the more often you open them. That one fact explains a lot of their design: the streak you are afraid to break, the 9 pm notification, the red badge, the &quot;you missed...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Dirty Logistics Data to a Management-Ready Power BI Solution</title>
-    <link>https://dev.to/jkisutsa/from-dirty-logistics-data-to-a-management-ready-power-bi-solution-2ik0</link>
-    <guid>https://dev.to/jkisutsa/from-dirty-logistics-data-to-a-management-ready-power-bi-solution-2ik0</guid>
-    <pubDate>Sat, 26 Sep 2026 13:01:13 +0000</pubDate>
+    <title>What Actually Happens When You Run kubectl apply</title>
+    <link>https://dev.to/muskan_bandta/what-actually-happens-when-you-run-kubectl-apply-3c04</link>
+    <guid>https://dev.to/muskan_bandta/what-actually-happens-when-you-run-kubectl-apply-3c04</guid>
+    <pubDate>Sat, 26 Sep 2026 18:58:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Building a dashboard is only the visible part of a business intelligence project. Before a chart can support a decision, the underlying data must be understood, cleaned, standardised,...</description>
+    <description>You type kubectl apply -f deployment.yaml, it says created, and a few seconds later your app is running. It feels like magic, and because it feels like magic, most people never learn what happens...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>n8n vs Make: How to Choose, With Verified 2026 Pricing</title>
-    <link>https://dev.to/2pizza/n8n-vs-make-how-to-choose-with-verified-2026-pricing-2fk8</link>
-    <guid>https://dev.to/2pizza/n8n-vs-make-how-to-choose-with-verified-2026-pricing-2fk8</guid>
-    <pubDate>Sat, 26 Sep 2026 13:00:10 +0000</pubDate>
+    <title>I Built a Snowflake RAG Assistant That Actually Works in Production</title>
+    <link>https://dev.to/artemooon/i-built-a-snowflake-rag-assistant-that-actually-works-in-production-1ogo</link>
+    <guid>https://dev.to/artemooon/i-built-a-snowflake-rag-assistant-that-actually-works-in-production-1ogo</guid>
+    <pubDate>Sat, 26 Sep 2026 18:45:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR: Make bills per module execution, n8n bills per workflow execution regardless of how many steps are in it. That single difference decides most cost comparisons: deep workflows favour n8n,...</description>
+    <description>Table of Contents The problem The architecture The Implementation Creating an Agent Syncing files to Sharepoint using Openflow Creating a stream and task to run a procedure automatically Testing...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your Test Suite Is Slow Because It Tests Postgres</title>
-    <link>https://dev.to/_66d02d0cc1ece7d1137c5f/your-test-suite-is-slow-because-it-tests-postgres-2k6o</link>
-    <guid>https://dev.to/_66d02d0cc1ece7d1137c5f/your-test-suite-is-slow-because-it-tests-postgres-2k6o</guid>
+    <title>I Built an Interactive System Design Simulator — Learn by Breaking Things</title>
+    <link>https://dev.to/saurabhd01/i-built-an-interactive-system-design-simulator-learn-by-breaking-things-4d06</link>
+    <guid>https://dev.to/saurabhd01/i-built-an-interactive-system-design-simulator-learn-by-breaking-things-4d06</guid>
+    <pubDate>Sat, 26 Sep 2026 18:23:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The Problem Every system design resource teaches the same way: here&apos;s a concept, here&apos;s a diagram, memorize it. But in real interviews, you need to APPLY these concepts under pressure. What I...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials</title>
+    <link>https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html</link>
+    <guid>https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html</guid>
+    <pubDate>Sat, 26 Sep 2026 18:22:52 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>I built a persistent context system for Claude Code using Obsidian.</title>
+    <link>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-2e99</link>
+    <guid>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-2e99</guid>
+    <pubDate>Sat, 26 Sep 2026 18:21:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I built a persistent context system for Claude Code using Obsidian. The problem I was trying to solve was Claude starting new sessions without enough context from previous work. The setup uses an...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>I built a persistent context system for Claude Code using Obsidian.
+
+Repo: https://github.com/seestack-dev/claude-obsidian-memory/
+I also made a full walkthrough showing the setup and a session-recovery test: https://youtu.be/gf8Bg71121c</title>
+    <link>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-repo-48de</link>
+    <guid>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-repo-48de</guid>
+    <pubDate>Sat, 26 Sep 2026 18:20:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>GitHub - seestack-dev/claude-obsidian-memory: A persistent memory and agent workflow system for Claude Code using Obsidian. · GitHub A persistent memory and agent workflow system for Claude Code...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Your Search Query Is a Program: Composing Role-Based SQL With the Strategy Pattern</title>
+    <link>https://dev.to/purbano/your-search-query-is-a-program-composing-role-based-sql-with-the-strategy-pattern-3o3a</link>
+    <guid>https://dev.to/purbano/your-search-query-is-a-program-composing-role-based-sql-with-the-strategy-pattern-3o3a</guid>
+    <pubDate>Sat, 26 Sep 2026 18:19:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every business application has this screen somewhere: a table of records, filter boxes above it, and a user who may only see part of the data. The first query is a SELECT with a WHERE on the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>🔍 My Next.js Portfolio Was Invisible to Google &amp; ChatGPT — Here&apos;s How I Fixed It</title>
+    <link>https://dev.to/dhruv_15_11/my-nextjs-portfolio-was-invisible-to-google-chatgpt-heres-how-i-fixed-it-1eg0</link>
+    <guid>https://dev.to/dhruv_15_11/my-nextjs-portfolio-was-invisible-to-google-chatgpt-heres-how-i-fixed-it-1eg0</guid>
+    <pubDate>Sat, 26 Sep 2026 18:17:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>👋 Hey! I&apos;m Dhruv Sheladiya, a Full Stack Developer working with the MERN Stack, React.js, Next.js &amp; Node.js. This is the story of how I found out my own portfolio was basically invisible, and the...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Future of AI in Software Development: What 2026 Actually Looks Like</title>
+    <link>https://dev.to/nlocoding/future-of-ai-in-software-development-what-2026-actually-looks-like-hhf</link>
+    <guid>https://dev.to/nlocoding/future-of-ai-in-software-development-what-2026-actually-looks-like-hhf</guid>
+    <pubDate>Sat, 26 Sep 2026 18:15:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Originally published at nlocoding.com 81% of developers surveyed in 2026 say they trust AI-generated code more than code written by junior colleagues. (Source: GitHub Copilot Survey 2026) The...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Kids turned the comment section of an NPR podcast into a group chat</title>
+    <link>https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section</link>
+    <guid>https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section</guid>
+    <pubDate>Sat, 26 Sep 2026 17:32:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Middle schoolers, likely blocked from other apps and social networks, apparently turned the Spotify comment section under an episode of NPR&apos;s Wild Card into an impromptu group chat. In a new...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI pauses training of its ‘most capable models’</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause</guid>
+    <pubDate>Sat, 26 Sep 2026 16:34:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As reports of OpenAI&apos;s models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>I created an interactive digital avatar of myself — and you can talk to it</title>
+    <link>https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/</link>
+    <guid>https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/</guid>
+    <pubDate>Sat, 26 Sep 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Can Cloudflare CEO Matthew Prince save the web from AI?</title>
+    <link>https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising</link>
+    <guid>https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising</guid>
+    <pubDate>Sat, 26 Sep 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Control Resonant is a great game — it’s even better when you read everything</title>
+    <link>https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs</link>
+    <guid>https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs</guid>
     <pubDate>Sat, 26 Sep 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I quit running the test suite on my laptop. Not deliberately. I just stopped typing the command, because by the time it finished I had lost the thread of whatever I was fixing. Standup would end,...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>An LLM Decision API That Returns Values, Not Text</title>
-    <link>https://dev.to/smakosh/an-llm-decision-api-that-returns-values-not-text-p6</link>
-    <guid>https://dev.to/smakosh/an-llm-decision-api-that-returns-values-not-text-p6</guid>
-    <pubDate>Sat, 26 Sep 2026 12:59:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. A lot of production LLM traffic is not generation at all. It is a model...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>LLM Cost Optimization at $100k a Month</title>
-    <link>https://dev.to/smakosh/llm-cost-optimization-at-100k-a-month-2cni</link>
-    <guid>https://dev.to/smakosh/llm-cost-optimization-at-100k-a-month-2cni</guid>
-    <pubDate>Sat, 26 Sep 2026 12:58:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. If you spend $100,000 a month on inference, the largest line item is...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Automatic Model Selection by Request Difficulty</title>
-    <link>https://dev.to/smakosh/automatic-model-selection-by-request-difficulty-1koe</link>
-    <guid>https://dev.to/smakosh/automatic-model-selection-by-request-difficulty-1koe</guid>
-    <pubDate>Sat, 26 Sep 2026 12:57:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. Most production traffic is not uniform. The same endpoint gets &quot;reword...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Smart Routing Benchmark: Cost and Quality</title>
-    <link>https://dev.to/smakosh/smart-routing-benchmark-cost-and-quality-49e9</link>
-    <guid>https://dev.to/smakosh/smart-routing-benchmark-cost-and-quality-49e9</guid>
-    <pubDate>Sat, 26 Sep 2026 12:57:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. Routing a prompt to a cheaper model only helps if the answer is useful....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>We Broke Prod With Cache Misses So You Don&apos;t Have To</title>
-    <link>https://dev.to/satyaki_saha_367d015583da/we-broke-prod-with-cache-misses-so-you-dont-have-to-14le</link>
-    <guid>https://dev.to/satyaki_saha_367d015583da/we-broke-prod-with-cache-misses-so-you-dont-have-to-14le</guid>
-    <pubDate>Sat, 26 Sep 2026 12:45:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Today&apos;s blog is mostly about the common ways cache misses have happened in our system, and how we resolved them. Cache misses — and the system crashes they cause — are something you will face very...</description>
-    <category>Developer Tools</category>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In Control Resonant, the entire world is at stake. But that didn&apos;t stop the diligent employees of the Federal Bureau of Control from filing reams of paperwork, and it didn&apos;t stop me from reading...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Pokémon card resellers have turned collecting into an online blood sport</title>
@@ -107,6 +164,15 @@
     <category>Tech Industry</category>
   </item>
   <item>
+    <title>Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells</title>
+    <link>https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html</link>
+    <guid>https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html</guid>
+    <pubDate>Sat, 26 Sep 2026 11:46:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity...</description>
+    <category>Security</category>
+  </item>
+  <item>
     <title>Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?</title>
     <link>https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/</link>
     <guid>https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/</guid>
@@ -114,6 +180,15 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages.</description>
     <category>AI</category>
+  </item>
+  <item>
+    <title>Zero Trust for AI Agents Starts With Fixing Zero Visibility</title>
+    <link>https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html</link>
+    <guid>https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html</guid>
+    <pubDate>Sat, 26 Sep 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link</title>
@@ -204,78 +279,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>Anyone interested in joining has to ask Muse to put them on the list.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand</title>
-    <link>https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/</link>
-    <guid>https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/</guid>
-    <pubDate>Fri, 25 Sep 2026 20:30:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>They wanted the silicon. They got the sand.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?</title>
-    <link>https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/</link>
-    <guid>https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/</guid>
-    <pubDate>Fri, 25 Sep 2026 19:38:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Ads appearing all over the Internet are trying to scam people.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic to pay Akamai $11.6 billion over seven years in cloud deal</title>
-    <link>https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/</link>
-    <guid>https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/</guid>
-    <pubDate>Fri, 25 Sep 2026 19:13:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic has committed $11.6 billion over seven years to Akamai&apos;s cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
-    <link>https://openai.com/index/proaction</link>
-    <guid>https://openai.com/index/proaction</guid>
-    <pubDate>Fri, 25 Sep 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his</title>
-    <link>https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/</link>
-    <guid>https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/</guid>
-    <pubDate>Fri, 25 Sep 2026 18:48:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing</title>
-    <link>https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/</link>
-    <guid>https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/</guid>
-    <pubDate>Fri, 25 Sep 2026 18:33:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The funding, which comes from Third Point, Nvidia, and others, will fuel the company&apos;s massive AI data center buildout.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Roku&amp;#8217;s first OLED TVs are up to $400 off, starting at $699</title>
-    <link>https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale</guid>
-    <pubDate>Fri, 25 Sep 2026 18:18:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Roku recently launched its first-ever OLED TVs. The $999 starting price was already impressive for the 55-inch Pro Series model that has a 120Hz refresh rate OLED panel (with four HDMI 2.1 ports...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Phones don’t have lights</title>
-    <link>https://www.theverge.com/podcast/1000751/vergecast-meta-connect-muse-googlebooks</link>
-    <guid>https://www.theverge.com/podcast/1000751/vergecast-meta-connect-muse-googlebooks</guid>
-    <pubDate>Fri, 25 Sep 2026 17:42:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Mark Zuckerberg has a new defense of the Ray-Ban Meta glasses: They&apos;re actually doing more to signal they&apos;re taking a photo than phones do. He&apos;s brought this up in at least two recent interviews,...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
