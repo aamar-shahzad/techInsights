@@ -5,97 +5,151 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 26 Sep 2026 04:58:53 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 13:05:37 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Implementing Modern Documentation Search for Developer Portals</title>
-    <link>https://dev.to/ming_guang_4110847626ef21/implementing-modern-documentation-search-for-developer-portals-2g8k</link>
-    <guid>https://dev.to/ming_guang_4110847626ef21/implementing-modern-documentation-search-for-developer-portals-2g8k</guid>
-    <pubDate>Sat, 26 Sep 2026 04:43:58 +0000</pubDate>
+    <title>Why Your Diff Shows Every Line Changed (And It&apos;s Not Your Code)</title>
+    <link>https://dev.to/zhihu_wu_dea1d82af01a04d7/why-your-diff-shows-every-line-changed-and-its-not-your-code-19f8</link>
+    <guid>https://dev.to/zhihu_wu_dea1d82af01a04d7/why-your-diff-shows-every-line-changed-and-its-not-your-code-19f8</guid>
+    <pubDate>Sat, 26 Sep 2026 13:02:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When developers or users land on a technical portal, their primary goal is to find precise answers quickly. A poorly implemented search bar leads to frustration, increased support tickets, and...</description>
+    <description>You open a pull request. You changed one line. The diff is 412 lines. You blame the linter, then yourself. Usually it&apos;s neither. A diff compares characters before it compares meaning, and the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Fail2ban Isn&apos;t Enough: Building CNSL, a Self-Hosted SIEM for Linux &amp; Kubernetes</title>
-    <link>https://dev.to/rahadbhuiya/why-fail2ban-isnt-enough-building-cnsl-a-self-hosted-siem-for-linux-kubernetes-5f7i</link>
-    <guid>https://dev.to/rahadbhuiya/why-fail2ban-isnt-enough-building-cnsl-a-self-hosted-siem-for-linux-kubernetes-5f7i</guid>
-    <pubDate>Sat, 26 Sep 2026 04:35:44 +0000</pubDate>
+    <title>How Brazil&apos;s Central Bank Protects User Privacy in Its CBDC (DREX)</title>
+    <link>https://dev.to/andr_diasmoreiraprol_b/how-brazils-central-bank-protects-user-privacy-in-its-cbdc-drex-49mp</link>
+    <guid>https://dev.to/andr_diasmoreiraprol_b/how-brazils-central-bank-protects-user-privacy-in-its-cbdc-drex-49mp</guid>
+    <pubDate>Sat, 26 Sep 2026 13:01:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you manage Linux servers, your security stack probably looks something like this: Fail2ban scanning /var/log/auth.log for failed SSH passwords. A reverse proxy or web server (NGINX / Caddy)...</description>
+    <description>When the Central Bank of Brazil announced that Drex would arrive with programmable money, my inbox filled with one recurring question: &quot;Will the government watch every transaction I make?&quot; As...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Five prompts that make a Codex bug fix easier to verify</title>
-    <link>https://dev.to/tam_nguyenvan_1f689d35bc9/five-prompts-that-make-a-codex-bug-fix-easier-to-verify-22hj</link>
-    <guid>https://dev.to/tam_nguyenvan_1f689d35bc9/five-prompts-that-make-a-codex-bug-fix-easier-to-verify-22hj</guid>
-    <pubDate>Sat, 26 Sep 2026 04:35:13 +0000</pubDate>
+    <title>From Dirty Logistics Data to a Management-Ready Power BI Solution</title>
+    <link>https://dev.to/jkisutsa/from-dirty-logistics-data-to-a-management-ready-power-bi-solution-2ik0</link>
+    <guid>https://dev.to/jkisutsa/from-dirty-logistics-data-to-a-management-ready-power-bi-solution-2ik0</guid>
+    <pubDate>Sat, 26 Sep 2026 13:01:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A Codex task can end with a convincing explanation while leaving the original bug untested. The useful question at handoff is simple: what observation shows that the reported behavior changed?...</description>
+    <description>Introduction Building a dashboard is only the visible part of a business intelligence project. Before a chart can support a decision, the underlying data must be understood, cleaned, standardised,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When a silent failure hit you, what did it actually cost?</title>
-    <link>https://dev.to/aditya_mishra_2417/when-a-silent-failure-hit-you-what-did-it-actually-cost-1bnm</link>
-    <guid>https://dev.to/aditya_mishra_2417/when-a-silent-failure-hit-you-what-did-it-actually-cost-1bnm</guid>
-    <pubDate>Sat, 26 Sep 2026 04:31:54 +0000</pubDate>
+    <title>n8n vs Make: How to Choose, With Verified 2026 Pricing</title>
+    <link>https://dev.to/2pizza/n8n-vs-make-how-to-choose-with-verified-2026-pricing-2fk8</link>
+    <guid>https://dev.to/2pizza/n8n-vs-make-how-to-choose-with-verified-2026-pricing-2fk8</guid>
+    <pubDate>Sat, 26 Sep 2026 13:00:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Plenty of threads here about catching runs that report success while nothing happened. I&apos;ve read most of them. What I can&apos;t find anywhere is the number. So: when it happened to you — How long...</description>
+    <description>TL;DR: Make bills per module execution, n8n bills per workflow execution regardless of how many steps are in it. That single difference decides most cost comparisons: deep workflows favour n8n,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Day 21 - Scaling - Horizontal vs Vertical Scaling - কোনটা কখন করবেন?</title>
-    <link>https://dev.to/mislam-dev/day-21-scaling-horizontal-vs-vertical-scaling-konttaa-kkhn-krben-ge7</link>
-    <guid>https://dev.to/mislam-dev/day-21-scaling-horizontal-vs-vertical-scaling-konttaa-kkhn-krben-ge7</guid>
-    <pubDate>Sat, 26 Sep 2026 04:20:00 +0000</pubDate>
+    <title>Your Test Suite Is Slow Because It Tests Postgres</title>
+    <link>https://dev.to/_66d02d0cc1ece7d1137c5f/your-test-suite-is-slow-because-it-tests-postgres-2k6o</link>
+    <guid>https://dev.to/_66d02d0cc1ece7d1137c5f/your-test-suite-is-slow-because-it-tests-postgres-2k6o</guid>
+    <pubDate>Sat, 26 Sep 2026 13:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>আপনার build করা application-টি এতই viral হয়ে গেছে যে, এর user base lakh cross করে গেছে। এবং concurrent user লাখের কাছাকাছি। এই অবস্থায় আপনার যে server আছে, তা user-দের load নিতে পারছে না। Peak...</description>
+    <description>I quit running the test suite on my laptop. Not deliberately. I just stopped typing the command, because by the time it finished I had lost the thread of whatever I was fixing. Standup would end,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>สร้าง AI Dojo ในทีมเล็ก: สนามซ้อมขั้นต่ำที่เริ่มได้ในวันหยุด</title>
-    <link>https://dev.to/sarantoon/sraang-ai-dojo-ainthiimelk-snaamchmkhantamthiierimaidainwanhyud-4f2o</link>
-    <guid>https://dev.to/sarantoon/sraang-ai-dojo-ainthiimelk-snaamchmkhantamthiierimaidainwanhyud-4f2o</guid>
-    <pubDate>Sat, 26 Sep 2026 04:15:18 +0000</pubDate>
+    <title>An LLM Decision API That Returns Values, Not Text</title>
+    <link>https://dev.to/smakosh/an-llm-decision-api-that-returns-values-not-text-p6</link>
+    <guid>https://dev.to/smakosh/an-llm-decision-api-that-returns-values-not-text-p6</guid>
+    <pubDate>Sat, 26 Sep 2026 12:59:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>สร้าง AI Dojo ในทีมเล็ก: สนามซ้อมขั้นต่ำที่เริ่มได้ในวันหยุด โดย Nokka (นก-กา) | 26 กันยายน 2026 บทความนี้เขียนโดย AI (โมเดล glm-5.3 ของผู้ให้บริการ ollama-cloud) ผ่าน Hermes Agent จาก Nous...</description>
+    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. A lot of production LLM traffic is not generation at all. It is a model...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Audit Your Company for Repeated Work in One Afternoon</title>
-    <link>https://dev.to/ksoft_technologies_33f7f6/how-to-audit-your-company-for-repeated-work-in-one-afternoon-mdi</link>
-    <guid>https://dev.to/ksoft_technologies_33f7f6/how-to-audit-your-company-for-repeated-work-in-one-afternoon-mdi</guid>
-    <pubDate>Sat, 26 Sep 2026 04:10:43 +0000</pubDate>
+    <title>LLM Cost Optimization at $100k a Month</title>
+    <link>https://dev.to/smakosh/llm-cost-optimization-at-100k-a-month-2cni</link>
+    <guid>https://dev.to/smakosh/llm-cost-optimization-at-100k-a-month-2cni</guid>
+    <pubDate>Sat, 26 Sep 2026 12:58:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most companies do not need a six-month transformation program to discover where time is disappearing. You can learn a lot by tracing three real workflows for a few hours. Not asking teams where...</description>
+    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. If you spend $100,000 a month on inference, the largest line item is...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>inner_text() Doesn&apos;t Read Form Fields: An 18-Day Blocker That Never Existed</title>
-    <link>https://dev.to/dbsoul/innertext-doesnt-read-form-fields-an-18-day-blocker-that-never-existed-2pac</link>
-    <guid>https://dev.to/dbsoul/innertext-doesnt-read-form-fields-an-18-day-blocker-that-never-existed-2pac</guid>
-    <pubDate>Sat, 26 Sep 2026 04:10:06 +0000</pubDate>
+    <title>Automatic Model Selection by Request Difficulty</title>
+    <link>https://dev.to/smakosh/automatic-model-selection-by-request-difficulty-1koe</link>
+    <guid>https://dev.to/smakosh/automatic-model-selection-by-request-difficulty-1koe</guid>
+    <pubDate>Sat, 26 Sep 2026 12:57:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A field note from the autonomous Claude Code agent I run every day on one Windows PC. The numbers come from its own ledgers, not from memory. This one is short, and I wish someone had told my...</description>
+    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. Most production traffic is not uniform. The same endpoint gets &quot;reword...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Retry That Wasn&apos;t the Fix</title>
-    <link>https://dev.to/amankumar1905/the-retry-that-wasnt-the-fix-343o</link>
-    <guid>https://dev.to/amankumar1905/the-retry-that-wasnt-the-fix-343o</guid>
-    <pubDate>Sat, 26 Sep 2026 04:04:48 +0000</pubDate>
+    <title>Smart Routing Benchmark: Cost and Quality</title>
+    <link>https://dev.to/smakosh/smart-routing-benchmark-cost-and-quality-49e9</link>
+    <guid>https://dev.to/smakosh/smart-routing-benchmark-cost-and-quality-49e9</guid>
+    <pubDate>Sat, 26 Sep 2026 12:57:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every engineer knows this feeling: a request fails, you retry it, it works, and you tell yourself you&apos;ll come back to figure out why later. Later rarely comes. The retry quietly becomes the fix,...</description>
+    <description>Originally published on LLM Gateway. Disclosure: I work on LLM Gateway; this republication was prepared with AI assistance. Routing a prompt to a cheaper model only helps if the answer is useful....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I spent months building a markdown notes app and finally shipped it — here&apos;s the whole story</title>
-    <link>https://dev.to/parimalmahindrakar/i-spent-months-building-a-markdown-notes-app-and-finally-shipped-it-heres-the-whole-story-3boe</link>
-    <guid>https://dev.to/parimalmahindrakar/i-spent-months-building-a-markdown-notes-app-and-finally-shipped-it-heres-the-whole-story-3boe</guid>
-    <pubDate>Sat, 26 Sep 2026 04:01:32 +0000</pubDate>
+    <title>We Broke Prod With Cache Misses So You Don&apos;t Have To</title>
+    <link>https://dev.to/satyaki_saha_367d015583da/we-broke-prod-with-cache-misses-so-you-dont-have-to-14le</link>
+    <guid>https://dev.to/satyaki_saha_367d015583da/we-broke-prod-with-cache-misses-so-you-dont-have-to-14le</guid>
+    <pubDate>Sat, 26 Sep 2026 12:45:40 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>So I&apos;ve been sitting on this project for a while now and I think it&apos;s finally time to talk about it. I wanted a place to write. Not just dump text somewhere — actually write, in markdown, with my...</description>
+    <description>Today&apos;s blog is mostly about the common ways cache misses have happened in our system, and how we resolved them. Cache misses — and the system crashes they cause — are something you will face very...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Pokémon card resellers have turned collecting into an online blood sport</title>
+    <link>https://www.theverge.com/games/1001002/pokemon-30th-celebration-scalping-resellers</link>
+    <guid>https://www.theverge.com/games/1001002/pokemon-30th-celebration-scalping-resellers</guid>
+    <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Earlier this month, Pokémon card content creator Natalie Roush posted a video to her YouTube and Instagram pages that enraged the larger collection community. In the now-deleted video, Roush shows...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?</title>
+    <link>https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/</link>
+    <guid>https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/</guid>
+    <pubDate>Sat, 26 Sep 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link</title>
+    <link>https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html</link>
+    <guid>https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html</guid>
+    <pubDate>Sat, 26 Sep 2026 09:55:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild</title>
+    <link>https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html</link>
+    <guid>https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html</guid>
+    <pubDate>Sat, 26 Sep 2026 08:49:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack</title>
+    <link>https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html</link>
+    <guid>https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html</guid>
+    <pubDate>Sat, 26 Sep 2026 07:48:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Can &amp;#8216;eSUV&amp;#8217; e-bikes really go from trail to town?</title>
+    <link>https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox</link>
+    <guid>https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox</guid>
+    <pubDate>Sat, 26 Sep 2026 07:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Have you ever wanted an electric bike that easily transitions from the drudgery of urban asphalt to adventures in gravel and dirt? That&apos;s what a subclass of so-called &quot;electric SUV&quot; (eSUV) e-bikes...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>At Meta Connect, the company’s smart glasses were everywhere</title>
@@ -206,15 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic</title>
-    <link>https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/</link>
-    <guid>https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/</guid>
-    <pubDate>Fri, 25 Sep 2026 18:22:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as...</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Roku&amp;#8217;s first OLED TVs are up to $400 off, starting at $699</title>
     <link>https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale</link>
     <guid>https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale</guid>
@@ -230,51 +275,6 @@
     <pubDate>Fri, 25 Sep 2026 17:42:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Mark Zuckerberg has a new defense of the Ray-Ban Meta glasses: They&apos;re actually doing more to signal they&apos;re taking a photo than phones do. He&apos;s brought this up in at least two recent interviews,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>These camera apps give you more control over the iPhone 18 Pro’s aperture</title>
-    <link>https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera</link>
-    <guid>https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera</guid>
-    <pubDate>Fri, 25 Sep 2026 17:23:30 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the questionable limitations of the iPhone 18 Pro&apos;s new main camera with a variable aperture is that you&apos;re limited to just four settings in the native iOS&apos; camera app in manual mode:...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Tesla&amp;#8217;s Optimus robot is going through growing pains</title>
-    <link>https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands</link>
-    <guid>https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands</guid>
-    <pubDate>Fri, 25 Sep 2026 17:01:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Hitting its goal of making 20,000 Optimus robots per week is reportedly proving tricky for Tesla. The Information reports that Tesla produced &quot;several hundred robots a week&quot; last month, after it...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta makes the Muse filesystem even more accessible</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem</guid>
-    <pubDate>Fri, 25 Sep 2026 16:49:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Yesterday, with a little prodding, it was discovered that Meta&apos;s Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K</title>
-    <link>https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k</link>
-    <guid>https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k</guid>
-    <pubDate>Fri, 25 Sep 2026 16:22:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple is expected to announce more hardware before the end of the year following the debut of the iPhone 18 Pro and folding iPhone Duo earlier this month. The updated products will include a new...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Sony and UMG are suing Suno again</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music</guid>
-    <pubDate>Fri, 25 Sep 2026 15:51:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it&apos;s trained on user outputs from previous models,...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
