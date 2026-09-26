@@ -5,52 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 26 Sep 2026 19:13:37 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 22:51:10 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Deferred Deep Links in React Native: Complete Integration Guide</title>
-    <link>https://dev.to/linktrail/deferred-deep-links-in-react-native-complete-integration-guide-2gek</link>
-    <guid>https://dev.to/linktrail/deferred-deep-links-in-react-native-complete-integration-guide-2gek</guid>
-    <pubDate>Sat, 26 Sep 2026 19:02:11 +0000</pubDate>
+    <title>Don&apos;t put your agent guardrails in the system prompt</title>
+    <link>https://dev.to/alexiskroberson/dont-put-your-agent-guardrails-in-the-system-prompt-54p2</link>
+    <guid>https://dev.to/alexiskroberson/dont-put-your-agent-guardrails-in-the-system-prompt-54p2</guid>
+    <pubDate>Sat, 26 Sep 2026 22:44:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If you&apos;ve shipped a React Native app, you&apos;ve probably wired up universal links / app links already. Existing users tap a link, the OS hands it to your app, Linking.addEventListener fires, you push...</description>
+    <description>Coding agents write, refactor, and open pull requests at a pace humans can&apos;t match. The instinct is to stuff safety into the system prompt: &quot;never push to main,&quot; &quot;don&apos;t touch secrets,&quot; &quot;always run...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built a wellness app that is designed to be closed</title>
-    <link>https://dev.to/vikas_sahani_3a7e2706846c/i-built-a-wellness-app-that-is-designed-to-be-closed-6hb</link>
-    <guid>https://dev.to/vikas_sahani_3a7e2706846c/i-built-a-wellness-app-that-is-designed-to-be-closed-6hb</guid>
-    <pubDate>Sat, 26 Sep 2026 19:00:38 +0000</pubDate>
+    <title>Diagrams as Code: Keep Your Architecture Docs Alive Inside the Repo</title>
+    <link>https://dev.to/eme_gug_0821b41b948be6516/diagrams-as-code-keep-your-architecture-docs-alive-inside-the-repo-40co</link>
+    <guid>https://dev.to/eme_gug_0821b41b948be6516/diagrams-as-code-keep-your-architecture-docs-alive-inside-the-repo-40co</guid>
+    <pubDate>Sat, 26 Sep 2026 22:42:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most wellness apps earn more the more often you open them. That one fact explains a lot of their design: the streak you are afraid to break, the 9 pm notification, the red badge, the &quot;you missed...</description>
+    <description>Bạn còn nhớ lần gần nhất mở file architecture.png trong thư mục docs/ không? Nếu team bạn giống phần lớn team mình từng làm thì file đó được vẽ bằng draw.io từ hai năm trước. Người vẽ đã nghỉ...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What Actually Happens When You Run kubectl apply</title>
-    <link>https://dev.to/muskan_bandta/what-actually-happens-when-you-run-kubectl-apply-3c04</link>
-    <guid>https://dev.to/muskan_bandta/what-actually-happens-when-you-run-kubectl-apply-3c04</guid>
-    <pubDate>Sat, 26 Sep 2026 18:58:06 +0000</pubDate>
+    <title>Will It Stack? An agent that knows which Raspberry Pi HATs fight over the same pins</title>
+    <link>https://dev.to/anur4ag/will-it-stack-an-agent-that-knows-which-raspberry-pi-hats-fight-over-the-same-pins-4kl4</link>
+    <guid>https://dev.to/anur4ag/will-it-stack-an-agent-that-knows-which-raspberry-pi-hats-fight-over-the-same-pins-4kl4</guid>
+    <pubDate>Sat, 26 Sep 2026 22:41:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You type kubectl apply -f deployment.yaml, it says created, and a few seconds later your app is running. It feels like magic, and because it feels like magic, most people never learn what happens...</description>
+    <description>This is a submission for the Sanity Challenge, Path One: Ship an Agent That Queries Real Content How this was made: Will It Stack was built end to end by Claude Code, an AI coding agent, running...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built a Snowflake RAG Assistant That Actually Works in Production</title>
-    <link>https://dev.to/artemooon/i-built-a-snowflake-rag-assistant-that-actually-works-in-production-1ogo</link>
-    <guid>https://dev.to/artemooon/i-built-a-snowflake-rag-assistant-that-actually-works-in-production-1ogo</guid>
-    <pubDate>Sat, 26 Sep 2026 18:45:20 +0000</pubDate>
+    <title>A Startup Claims Its AI Is 444x Cheaper. Nobody Can Prove It. Everyone&apos;s Buying It.</title>
+    <link>https://dev.to/mukul-kumar-mishra/a-startup-claims-its-ai-is-444x-cheaper-nobody-can-prove-it-everyones-buying-it-3n5m</link>
+    <guid>https://dev.to/mukul-kumar-mishra/a-startup-claims-its-ai-is-444x-cheaper-nobody-can-prove-it-everyones-buying-it-3n5m</guid>
+    <pubDate>Sat, 26 Sep 2026 22:37:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Table of Contents The problem The architecture The Implementation Creating an Agent Syncing files to Sharepoint using Openflow Creating a stream and task to run a procedure automatically Testing...</description>
+    <description>September 15. A startup walks out of stealth with $40 million and a claim so aggressive it sounds like a typo: decisions in milliseconds, at 444 times less cost than the models you&apos;re using right...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built an Interactive System Design Simulator — Learn by Breaking Things</title>
-    <link>https://dev.to/saurabhd01/i-built-an-interactive-system-design-simulator-learn-by-breaking-things-4d06</link>
-    <guid>https://dev.to/saurabhd01/i-built-an-interactive-system-design-simulator-learn-by-breaking-things-4d06</guid>
-    <pubDate>Sat, 26 Sep 2026 18:23:01 +0000</pubDate>
+    <title>I Got Rejected 2 Minutes After Applying. So Much for &apos;Skills-Based Hiring.&apos;</title>
+    <link>https://dev.to/mikachu/i-got-rejected-2-minutes-after-applying-so-much-for-skills-based-hiring-4315</link>
+    <guid>https://dev.to/mikachu/i-got-rejected-2-minutes-after-applying-so-much-for-skills-based-hiring-4315</guid>
+    <pubDate>Sat, 26 Sep 2026 22:36:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem Every system design resource teaches the same way: here&apos;s a concept, here&apos;s a diagram, memorize it. But in real interviews, you need to APPLY these concepts under pressure. What I...</description>
+    <description>I applied for a Junior Solutions Engineer role today. Not a senior role. Not a staff role. Not some &quot;10 years of experience required&quot; fantasy posting. A junior role. The requirements were things...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Google&apos;s QAT Gemma 4 26B-A4B on One TPU v6e: 15.6x the KV Cache and 1.9x the Throughput of FP8</title>
+    <link>https://dev.to/gde/googles-qat-gemma-4-26b-a4b-on-one-tpu-v6e-156x-the-kv-cache-and-19x-the-throughput-of-fp8-36kl</link>
+    <guid>https://dev.to/gde/googles-qat-gemma-4-26b-a4b-on-one-tpu-v6e-156x-the-kv-cache-and-19x-the-throughput-of-fp8-36kl</guid>
+    <pubDate>Sat, 26 Sep 2026 22:35:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>This article provides a step by step guide to serving Google&apos;s quantization-aware-trained (QAT) Gemma 4 26B-A4B on one Google Cloud TPU v6e chip with vLLM, and compares it with the FP8 build that...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>One tag, many listeners: fan-out on BullMQ without a broker</title>
+    <link>https://dev.to/madmorett/one-tag-many-listeners-fan-out-on-bullmq-without-a-broker-2i3j</link>
+    <guid>https://dev.to/madmorett/one-tag-many-listeners-fan-out-on-bullmq-without-a-broker-2i3j</guid>
+    <pubDate>Sat, 26 Sep 2026 22:31:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I am the CTO of Monest, a Brazilian startup. We collect debt through conversations: text and voice, mostly automated, on behalf of companies that are themselves regulated and have their own...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>My GitHub Activity Graph Went Offline—So I Made It Static</title>
+    <link>https://dev.to/alizaminj/my-github-activity-graph-went-offline-so-i-made-it-static-4he0</link>
+    <guid>https://dev.to/alizaminj/my-github-activity-graph-went-offline-so-i-made-it-static-4he0</guid>
+    <pubDate>Sat, 26 Sep 2026 22:25:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I use my GitHub profile README to share what I work on, along with an activity graph that adds a quick visual snapshot of my recent contributions. Then one day the graph disappeared: its URL...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Best Local AI Models for Mac by RAM (8GB–128GB)</title>
+    <link>https://dev.to/aifeed_space/best-local-ai-models-for-mac-by-ram-8gb-to-128gb-4g1g</link>
+    <guid>https://dev.to/aifeed_space/best-local-ai-models-for-mac-by-ram-8gb-to-128gb-4g1g</guid>
+    <pubDate>Sat, 26 Sep 2026 22:23:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>The short answer: choose a Mac for local AI by unified memory first and chip generation second. Keep at least 25–30% of memory free for macOS, context, and the applications you actually use. A...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Transferencia columnar zero-copy: Apache Arrow se une a ClickHouse en Python.</title>
+    <link>https://dev.to/william_rodriguez_65a5898/transferencia-columnar-zero-copy-apache-arrow-se-une-a-clickhouse-en-python-cn5</link>
+    <guid>https://dev.to/william_rodriguez_65a5898/transferencia-columnar-zero-copy-apache-arrow-se-une-a-clickhouse-en-python-cn5</guid>
+    <pubDate>Sat, 26 Sep 2026 22:21:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Día 04 de la serie técnica WClickHouse Open Source. La serialización fila a fila es el mayor cuello de botella en analítica Python. WClickHouse insert_arrow() mueve bloques columnares contiguos...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apple hit with $5.7 billion in damages over haptic patents</title>
+    <link>https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents</link>
+    <guid>https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents</guid>
+    <pubDate>Sat, 26 Sep 2026 21:30:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents. Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages. According to CNBC, &quot;The...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Insurers claim AI is already increasing healthcare costs</title>
+    <link>https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/</link>
+    <guid>https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/</guid>
+    <pubDate>Sat, 26 Sep 2026 21:02:06 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Decap is the man behind the drums behind your favorite song</title>
+    <link>https://www.theverge.com/report/1000994/decap-drums-that-knock-interview</link>
+    <guid>https://www.theverge.com/report/1000994/decap-drums-that-knock-interview</guid>
+    <pubDate>Sat, 26 Sep 2026 19:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I don&apos;t think I&apos;m going to hurt anyone&apos;s feelings by pointing out that Decap doesn&apos;t have the name recognition of Kendrick Lamar, Olivia Rodrigo, or Charli XCX. But his fingerprints are all over...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials</title>
@@ -60,54 +132,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>I built a persistent context system for Claude Code using Obsidian.</title>
-    <link>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-2e99</link>
-    <guid>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-2e99</guid>
-    <pubDate>Sat, 26 Sep 2026 18:21:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I built a persistent context system for Claude Code using Obsidian. The problem I was trying to solve was Claude starting new sessions without enough context from previous work. The setup uses an...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I built a persistent context system for Claude Code using Obsidian.
-
-Repo: https://github.com/seestack-dev/claude-obsidian-memory/
-I also made a full walkthrough showing the setup and a session-recovery test: https://youtu.be/gf8Bg71121c</title>
-    <link>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-repo-48de</link>
-    <guid>https://dev.to/seestack/i-built-a-persistent-context-system-for-claude-code-using-obsidian-repo-48de</guid>
-    <pubDate>Sat, 26 Sep 2026 18:20:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>GitHub - seestack-dev/claude-obsidian-memory: A persistent memory and agent workflow system for Claude Code using Obsidian. · GitHub A persistent memory and agent workflow system for Claude Code...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Your Search Query Is a Program: Composing Role-Based SQL With the Strategy Pattern</title>
-    <link>https://dev.to/purbano/your-search-query-is-a-program-composing-role-based-sql-with-the-strategy-pattern-3o3a</link>
-    <guid>https://dev.to/purbano/your-search-query-is-a-program-composing-role-based-sql-with-the-strategy-pattern-3o3a</guid>
-    <pubDate>Sat, 26 Sep 2026 18:19:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every business application has this screen somewhere: a table of records, filter boxes above it, and a user who may only see part of the data. The first query is a SELECT with a WHERE on the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>🔍 My Next.js Portfolio Was Invisible to Google &amp; ChatGPT — Here&apos;s How I Fixed It</title>
-    <link>https://dev.to/dhruv_15_11/my-nextjs-portfolio-was-invisible-to-google-chatgpt-heres-how-i-fixed-it-1eg0</link>
-    <guid>https://dev.to/dhruv_15_11/my-nextjs-portfolio-was-invisible-to-google-chatgpt-heres-how-i-fixed-it-1eg0</guid>
-    <pubDate>Sat, 26 Sep 2026 18:17:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>👋 Hey! I&apos;m Dhruv Sheladiya, a Full Stack Developer working with the MERN Stack, React.js, Next.js &amp; Node.js. This is the story of how I found out my own portfolio was basically invisible, and the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Future of AI in Software Development: What 2026 Actually Looks Like</title>
-    <link>https://dev.to/nlocoding/future-of-ai-in-software-development-what-2026-actually-looks-like-hhf</link>
-    <guid>https://dev.to/nlocoding/future-of-ai-in-software-development-what-2026-actually-looks-like-hhf</guid>
-    <pubDate>Sat, 26 Sep 2026 18:15:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at nlocoding.com 81% of developers surveyed in 2026 say they trust AI-generated code more than code written by junior colleagues. (Source: GitHub Copilot Survey 2026) The...</description>
-    <category>Developer Tools</category>
   </item>
   <item>
     <title>Kids turned the comment section of an NPR podcast into a group chat</title>
@@ -251,33 +275,6 @@ I also made a full walkthrough showing the setup and a session-recovery test: ht
     <pubDate>Fri, 25 Sep 2026 22:20:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>AI agents operating in OpenAI&apos;s research environment posted user images on public image-hosting sites without the lab&apos;s knowledge.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>U.S. Soldier Gets 70 Months in Prison for AT&amp;T, Verizon Extortions</title>
-    <link>https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/</link>
-    <guid>https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/</guid>
-    <pubDate>Fri, 25 Sep 2026 21:44:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
-    <description>A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&amp;T customers in 2024 was...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee</title>
-    <link>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html</guid>
-    <pubDate>Fri, 25 Sep 2026 21:08:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>I feel like someone who reads this blog will want to go to this: Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Meta opens early access program for new Muse features</title>
-    <link>https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/</link>
-    <guid>https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/</guid>
-    <pubDate>Fri, 25 Sep 2026 20:34:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anyone interested in joining has to ask Muse to put them on the list.</description>
     <category>AI</category>
   </item>
 </channel>
