@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 27 Sep 2026 19:45:30 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 27 Sep 2026 23:03:20 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Cron jobs: the tiny line that runs half your backend</title>
-    <link>https://dev.to/4thwithme/cron-jobs-the-tiny-line-that-runs-half-your-backend-3o8a</link>
-    <guid>https://dev.to/4thwithme/cron-jobs-the-tiny-line-that-runs-half-your-backend-3o8a</guid>
-    <pubDate>Sun, 27 Sep 2026 19:36:51 +0000</pubDate>
+    <title>What is the Dependency Inversion Principle?</title>
+    <link>https://dev.to/3ayut0/what-is-the-dependency-inversion-principle-4mk2</link>
+    <guid>https://dev.to/3ayut0/what-is-the-dependency-inversion-principle-4mk2</guid>
+    <pubDate>Sun, 27 Sep 2026 22:55:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every backend has a few jobs nobody looks at. The nightly backup. The 9 AM report. The script that deletes old files. Each one is a single line of cron. They work fine for months. Then one day you...</description>
+    <description>I recently encountered this principle while I was learning modern server-side design in Node.js and found out that this is one of the core concepts of the SOLID Principles. I&apos;m going to explain...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Moving off Event Tickets Plus: what your WooCommerce ticket data looks like</title>
-    <link>https://dev.to/jeffreyinman/moving-off-event-tickets-plus-what-your-woocommerce-ticket-data-looks-like-2akm</link>
-    <guid>https://dev.to/jeffreyinman/moving-off-event-tickets-plus-what-your-woocommerce-ticket-data-looks-like-2akm</guid>
-    <pubDate>Sun, 27 Sep 2026 19:22:35 +0000</pubDate>
+    <title>AI 3D Character Creation — No GPU Required</title>
+    <link>https://dev.to/plastikelectrik/ai-3d-character-creation-no-gpu-required-44mj</link>
+    <guid>https://dev.to/plastikelectrik/ai-3d-character-creation-no-gpu-required-44mj</guid>
+    <pubDate>Sun, 27 Sep 2026 22:53:29 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Event Tickets Plus sells your event tickets through WooCommerce. If you&apos;re moving off it, whether because of the Liquid Web changes or because you&apos;re leaving The Events Calendar altogether, the...</description>
+    <description>Four ways to get a human (or a goblin) into your game, running entirely on a CPU-only VPS. A while back I wrote about CHARFORGE and 3D GAME ENGINE as two apps. As of this week, that framing is a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Sign in to a remote MCP server in Claude Code: /mcp and claude mcp login</title>
-    <link>https://dev.to/aicoding-guide/sign-in-to-a-remote-mcp-server-in-claude-code-mcp-and-claude-mcp-login-43i7</link>
-    <guid>https://dev.to/aicoding-guide/sign-in-to-a-remote-mcp-server-in-claude-code-mcp-and-claude-mcp-login-43i7</guid>
-    <pubDate>Sun, 27 Sep 2026 19:21:56 +0000</pubDate>
+    <title>AI as an Optional Capability, Not an Application Dependency</title>
+    <link>https://dev.to/qnbs/ai-as-an-optional-capability-not-an-application-dependency-20jf</link>
+    <guid>https://dev.to/qnbs/ai-as-an-optional-capability-not-an-application-dependency-20jf</guid>
+    <pubDate>Sun, 27 Sep 2026 22:49:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at https://aicoding-guide.com. Hosted MCP servers like Sentry, Linear and Notion are not usable the moment you register their URL. They need a browser sign-in first, and...</description>
+    <description>Try a small experiment with your favorite AI-powered app: revoke the API key, switch off the network, and open it again. A surprising number of products fail this test — not the AI features, the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The A2UI Contract: A Deep Dive into Agent-to-UI Architecture</title>
-    <link>https://dev.to/akashpal/the-a2ui-contract-a-deep-dive-into-agent-to-ui-architecture-4i00</link>
-    <guid>https://dev.to/akashpal/the-a2ui-contract-a-deep-dive-into-agent-to-ui-architecture-4i00</guid>
-    <pubDate>Sun, 27 Sep 2026 19:21:30 +0000</pubDate>
+    <title>Implementation is where judgements go to become invisible</title>
+    <link>https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h</link>
+    <guid>https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h</guid>
+    <pubDate>Sun, 27 Sep 2026 22:38:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A2UI answers one design question: what happens when you let a language model design a UI on the fly. It refuses to let the model write a single line of code. It sends a description instead, and a...</description>
+    <description>One question, three answers I have a small tool that finds people waiting for a reply from me. It had three versions. Each one was correct. Each one gave a different answer. Version one said 18....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>160 browser-only tools later: the engineering decisions that actually mattered</title>
-    <link>https://dev.to/4min/160-browser-only-tools-later-the-engineering-decisions-that-actually-mattered-34k6</link>
-    <guid>https://dev.to/4min/160-browser-only-tools-later-the-engineering-decisions-that-actually-mattered-34k6</guid>
-    <pubDate>Sun, 27 Sep 2026 19:14:29 +0000</pubDate>
+    <title>Building a Chrome extension that reads Hanifi Rohingya webpages in Latin script</title>
+    <link>https://dev.to/abaziz/building-a-chrome-extension-that-reads-hanifi-rohingya-webpages-in-latin-script-35e1</link>
+    <guid>https://dev.to/abaziz/building-a-chrome-extension-that-reads-hanifi-rohingya-webpages-in-latin-script-35e1</guid>
+    <pubDate>Sun, 27 Sep 2026 22:37:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>My last post was the tour — the tools, the categories, why everything runs in your browser. This one is the sticky stuff: the decisions that cost me the most time, so you can skip them. Stack in...</description>
+    <description>Rohingya has two writing systems in active use. Hanifi Rohingya is a right-to-left script that has been in Unicode since 2018 (block U+10D00–U+10D3F). Rohingyalish is Rohingya written in the Latin...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>5 Low Competition AI Coding Tools That Are Cheaper &amp; Faster (2026)</title>
-    <link>https://dev.to/nlocoding/5-low-competition-ai-coding-tools-that-are-cheaper-faster-2026-3jn1</link>
-    <guid>https://dev.to/nlocoding/5-low-competition-ai-coding-tools-that-are-cheaper-faster-2026-3jn1</guid>
-    <pubDate>Sun, 27 Sep 2026 19:14:12 +0000</pubDate>
+    <title>I built an open-source AI coworker that logs in with 2FA without the model ever seeing your passwords</title>
+    <link>https://dev.to/danielehrhardt/i-built-an-open-source-ai-coworker-that-logs-in-with-2fa-without-the-model-ever-seeing-your-48ep</link>
+    <guid>https://dev.to/danielehrhardt/i-built-an-open-source-ai-coworker-that-logs-in-with-2fa-without-the-model-ever-seeing-your-48ep</guid>
+    <pubDate>Sun, 27 Sep 2026 22:24:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at nlocoding.com 67% of developers say they’re overwhelmed by AI tool choices, but only 11% can name a low competition AI coding tool by brand. (Source: JetBrains Developer...</description>
+    <description>Every AI agent I tried had the same weak spot: it was great until it reached a login screen. Then it needed a password, a 2FA code, or me. So I built Godmode Bot, an open-source (MIT) AI coworker...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GitHub Just Killed SHA-1 Over HTTPS</title>
-    <link>https://dev.to/shresthapandey/github-just-killed-sha-1-over-https-4nj5</link>
-    <guid>https://dev.to/shresthapandey/github-just-killed-sha-1-over-https-4nj5</guid>
-    <pubDate>Sun, 27 Sep 2026 19:05:52 +0000</pubDate>
+    <title>I Vibe Coded a GitHub Action — Then Turned It Into a Real Product</title>
+    <link>https://dev.to/hamzatopo/i-vibe-coded-a-github-action-then-turned-it-into-a-real-product-4ml9</link>
+    <guid>https://dev.to/hamzatopo/i-vibe-coded-a-github-action-then-turned-it-into-a-real-product-4ml9</guid>
+    <pubDate>Sun, 27 Sep 2026 22:24:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>On September 15, 2026, GitHub turned off SHA-1 for HTTPS and TLS on github.com and its CDNs. They had been warning about it since April. If your client can&apos;t do a TLS handshake without SHA-1, you...</description>
+    <description>I Vibe Coded a GitHub Action — Then Turned It Into a Real Product A few days ago, I had a simple thought: Developers show how much they code all the time. But what if we showed what they actually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Your SQLAlchemy test factory fails at random past 50 rows. Here&apos;s the one-line fix.</title>
-    <link>https://dev.to/rachidjef/your-sqlalchemy-test-factory-fails-at-random-past-50-rows-heres-the-one-line-fix-3dn6</link>
-    <guid>https://dev.to/rachidjef/your-sqlalchemy-test-factory-fails-at-random-past-50-rows-heres-the-one-line-fix-3dn6</guid>
-    <pubDate>Sun, 27 Sep 2026 19:04:07 +0000</pubDate>
+    <title>When the Tool-Makers decides what skills should become obsolete</title>
+    <link>https://dev.to/estheticallybawo/when-the-tool-makers-decides-what-skills-should-become-obsolete-42o1</link>
+    <guid>https://dev.to/estheticallybawo/when-the-tool-makers-decides-what-skills-should-become-obsolete-42o1</guid>
+    <pubDate>Sun, 27 Sep 2026 22:14:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You write a test that seeds a hundred rows with a factory. It fails with IntegrityError: UNIQUE constraint failed: users.id. You run it again and it passes. You run it a third time and it fails....</description>
+    <description>This article is a sequel for an ongoing Substack series whatWEBecome where I explore our historical and anthropological origins within the context of innovation, inventions and technology and how...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Screenshot testing a design system with Playwright and Docker</title>
-    <link>https://dev.to/artembelik/screenshot-testing-a-design-system-with-playwright-and-docker-1pci</link>
-    <guid>https://dev.to/artembelik/screenshot-testing-a-design-system-with-playwright-and-docker-1pci</guid>
-    <pubDate>Sun, 27 Sep 2026 19:03:36 +0000</pubDate>
+    <title>Laya: replace your LLM-as-a-judge with a 322M-parameter decision engine</title>
+    <link>https://dev.to/aifrontierpost/laya-replace-your-llm-as-a-judge-with-a-322m-parameter-decision-engine-2bdf</link>
+    <guid>https://dev.to/aifrontierpost/laya-replace-your-llm-as-a-judge-with-a-322m-parameter-decision-engine-2bdf</guid>
+    <pubDate>Sun, 27 Sep 2026 22:11:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I work on the Koobiq design system, which has component libraries for React and Angular. in this article I&apos;ll show how the screenshot tests in our React library are set up and which decisions made...</description>
+    <description>Originally published at AI Frontier Post. You have a support inbox, a moderation queue, or an agent that needs to route its own work. The decision you need is embarrassingly simple — which...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Road to Golden Jacket</title>
-    <link>https://dev.to/cristianjulian/road-to-golden-jacket-4736</link>
-    <guid>https://dev.to/cristianjulian/road-to-golden-jacket-4736</guid>
-    <pubDate>Sun, 27 Sep 2026 19:03:32 +0000</pubDate>
+    <title>From Tiled to PixiJS and back: editable maps in TypeScript</title>
+    <link>https://dev.to/riebel/from-tiled-to-pixijs-and-back-editable-maps-in-typescript-4gje</link>
+    <guid>https://dev.to/riebel/from-tiled-to-pixijs-and-back-editable-maps-in-typescript-4gje</guid>
+    <pubDate>Sun, 27 Sep 2026 22:05:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>More than four years after passing the AWS Cloud Practitioner, learning and earning AWS certifications along the way, I finally achieved the Golden Jacket! I&apos;ve been earning a few certifications...</description>
+    <description>Open a map in Tiled. Build a bridge in the browser. Open the changed map in Tiled again. I&apos;m working on pixi-tiledmap, a TypeScript library for loading, rendering, editing, and exporting Tiled...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Out of the Park Baseball lets me enjoy baseball even when the Mets suck</title>
+    <link>https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review</link>
+    <guid>https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review</guid>
+    <pubDate>Sun, 27 Sep 2026 21:59:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>If you were to ask me what game or game series I&apos;ve sunk the most time into, the answer would be easy: Out of the Park Baseball (OOTP). I have spent roughly 2,300 hours, according to Steam,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Engram is a sampler that turns broken AI hallucinations into music</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music</guid>
+    <pubDate>Sun, 27 Sep 2026 20:46:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It&apos;s a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic’s CEO is about to have dinner with President Trump</title>
+    <link>https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</link>
+    <guid>https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/</guid>
+    <pubDate>Sun, 27 Sep 2026 20:34:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>This will be the first one-on-one meeting between Dario Amodei and Donald Trump</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Can Muse overcome Meta’s trust issues?</title>
+    <link>https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/</link>
+    <guid>https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/</guid>
+    <pubDate>Sun, 27 Sep 2026 19:57:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>On Equity, we discussed how Meta&apos;s AI announcement managed to steal the spotlight from OpenAI and Anthropic.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>OpenAI agents tried to ‘bruteforce’ a UN website</title>
@@ -224,24 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Can Cloudflare CEO Matthew Prince save the web from AI?</title>
-    <link>https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising</link>
-    <guid>https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising</guid>
-    <pubDate>Sat, 26 Sep 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Control Resonant is a great game — it’s even better when you read everything</title>
-    <link>https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs</link>
-    <guid>https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs</guid>
-    <pubDate>Sat, 26 Sep 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In Control Resonant, the entire world is at stake. But that didn&apos;t stop the diligent employees of the Federal Bureau of Control from filing reams of paperwork, and it didn&apos;t stop me from reading...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells</title>
     <link>https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html</link>
     <guid>https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html</guid>
@@ -258,24 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Zero Trust for AI Agents Starts With Fixing Zero Visibility</title>
-    <link>https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html</link>
-    <guid>https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html</guid>
-    <pubDate>Sat, 26 Sep 2026 10:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link</title>
-    <link>https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html</link>
-    <guid>https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html</guid>
-    <pubDate>Sat, 26 Sep 2026 09:55:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
