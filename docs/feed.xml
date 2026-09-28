@@ -5,96 +5,96 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 27 Sep 2026 23:03:20 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 05:24:09 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>What is the Dependency Inversion Principle?</title>
-    <link>https://dev.to/3ayut0/what-is-the-dependency-inversion-principle-4mk2</link>
-    <guid>https://dev.to/3ayut0/what-is-the-dependency-inversion-principle-4mk2</guid>
-    <pubDate>Sun, 27 Sep 2026 22:55:20 +0000</pubDate>
+    <title>Your Python venv Is (Mostly) a Symlink — Here&apos;s Why That Matters</title>
+    <link>https://dev.to/anikethsdeshpande/your-python-venv-is-mostly-a-symlink-heres-why-that-matters-33cm</link>
+    <guid>https://dev.to/anikethsdeshpande/your-python-venv-is-mostly-a-symlink-heres-why-that-matters-33cm</guid>
+    <pubDate>Mon, 28 Sep 2026 05:17:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I recently encountered this principle while I was learning modern server-side design in Node.js and found out that this is one of the core concepts of the SOLID Principles. I&apos;m going to explain...</description>
+    <description>TL;DR — On Linux and macOS, python3 -m venv .venv does not create a copy of Python. The python inside your venv is a symlink that points back to the system interpreter. The standard library isn&apos;t...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI 3D Character Creation — No GPU Required</title>
-    <link>https://dev.to/plastikelectrik/ai-3d-character-creation-no-gpu-required-44mj</link>
-    <guid>https://dev.to/plastikelectrik/ai-3d-character-creation-no-gpu-required-44mj</guid>
-    <pubDate>Sun, 27 Sep 2026 22:53:29 +0000</pubDate>
+    <title>Tooling with Amazon Bedrock</title>
+    <link>https://dev.to/pribeiro/tooling-with-amazon-bedrock-59i0</link>
+    <guid>https://dev.to/pribeiro/tooling-with-amazon-bedrock-59i0</guid>
+    <pubDate>Mon, 28 Sep 2026 05:13:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Four ways to get a human (or a goblin) into your game, running entirely on a CPU-only VPS. A while back I wrote about CHARFORGE and 3D GAME ENGINE as two apps. As of this week, that framing is a...</description>
+    <description>This post is part of my notes from Formação AWS, a course by Henrylle Maia. It covers a class from Desafio Labs, one of the course&apos;s sections, that focuses on Amazon Bedrock. In this class, I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI as an Optional Capability, Not an Application Dependency</title>
-    <link>https://dev.to/qnbs/ai-as-an-optional-capability-not-an-application-dependency-20jf</link>
-    <guid>https://dev.to/qnbs/ai-as-an-optional-capability-not-an-application-dependency-20jf</guid>
-    <pubDate>Sun, 27 Sep 2026 22:49:19 +0000</pubDate>
+    <title>From Playground to Caching: Learning Amazon Bedrock</title>
+    <link>https://dev.to/pribeiro/from-playground-to-caching-learning-amazon-bedrock-3g4e</link>
+    <guid>https://dev.to/pribeiro/from-playground-to-caching-learning-amazon-bedrock-3g4e</guid>
+    <pubDate>Mon, 28 Sep 2026 05:10:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Try a small experiment with your favorite AI-powered app: revoke the API key, switch off the network, and open it again. A surprising number of products fail this test — not the AI features, the...</description>
+    <description>This post is part of my notes from Formação AWS, a course by Henrylle Maia. It covers a class from Desafio Labs (one of the course&apos;s sections) that focuses on Amazon Bedrock. In this class, I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Implementation is where judgements go to become invisible</title>
-    <link>https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h</link>
-    <guid>https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h</guid>
-    <pubDate>Sun, 27 Sep 2026 22:38:21 +0000</pubDate>
+    <title>Markdown Kitchen Sink: A Comprehensive Demo</title>
+    <link>https://dev.to/jantolentino/markdown-kitchen-sink-a-comprehensive-demo-1d7g</link>
+    <guid>https://dev.to/jantolentino/markdown-kitchen-sink-a-comprehensive-demo-1d7g</guid>
+    <pubDate>Mon, 28 Sep 2026 05:10:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>One question, three answers I have a small tool that finds people waiting for a reply from me. It had three versions. Each one was correct. Each one gave a different answer. Version one said 18....</description>
+    <description>Markdown Kitchen Sink Heading 1 This is a paragraph of text. You can use bold, italic, or a combination of both. You can also use inline code. Heading 2 Here is a link to my portfolio. Heading 3...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Chrome extension that reads Hanifi Rohingya webpages in Latin script</title>
-    <link>https://dev.to/abaziz/building-a-chrome-extension-that-reads-hanifi-rohingya-webpages-in-latin-script-35e1</link>
-    <guid>https://dev.to/abaziz/building-a-chrome-extension-that-reads-hanifi-rohingya-webpages-in-latin-script-35e1</guid>
-    <pubDate>Sun, 27 Sep 2026 22:37:07 +0000</pubDate>
+    <title>How to Reuse an Existing TON Connect Instance with Omniston Widget Integrated Mode</title>
+    <link>https://dev.to/ivan_cryptovazimazima/how-to-reuse-an-existing-ton-connect-instance-with-omniston-widget-integrated-mode-1p6m</link>
+    <guid>https://dev.to/ivan_cryptovazimazima/how-to-reuse-an-existing-ton-connect-instance-with-omniston-widget-integrated-mode-1p6m</guid>
+    <pubDate>Mon, 28 Sep 2026 05:04:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Rohingya has two writing systems in active use. Hanifi Rohingya is a right-to-left script that has been in Unicode since 2018 (block U+10D00–U+10D3F). Rohingyalish is Rohingya written in the Latin...</description>
+    <description>If your TON dApp already has wallet connectivity, you should not create another TON Connect instance just for the Omniston Widget. Instead, configure the widget in integrated mode and pass it the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built an open-source AI coworker that logs in with 2FA without the model ever seeing your passwords</title>
-    <link>https://dev.to/danielehrhardt/i-built-an-open-source-ai-coworker-that-logs-in-with-2fa-without-the-model-ever-seeing-your-48ep</link>
-    <guid>https://dev.to/danielehrhardt/i-built-an-open-source-ai-coworker-that-logs-in-with-2fa-without-the-model-ever-seeing-your-48ep</guid>
-    <pubDate>Sun, 27 Sep 2026 22:24:34 +0000</pubDate>
+    <title>Supercharging Your Security Audits: My Deep Dive into a Game-Changing AI Skill</title>
+    <link>https://dev.to/ishank-dev/supercharging-your-security-audits-my-deep-dive-into-a-game-changing-ai-skill-5efe</link>
+    <guid>https://dev.to/ishank-dev/supercharging-your-security-audits-my-deep-dive-into-a-game-changing-ai-skill-5efe</guid>
+    <pubDate>Mon, 28 Sep 2026 05:00:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every AI agent I tried had the same weak spot: it was great until it reached a login screen. Then it needed a password, a 2FA code, or me. So I built Godmode Bot, an open-source (MIT) AI coworker...</description>
+    <description>Have you ever stared at a complex codebase, knowing there are hidden security vulnerabilities lurking, but feeling overwhelmed by the sheer scale of manual auditing? Or perhaps you&apos;ve wished for a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Vibe Coded a GitHub Action — Then Turned It Into a Real Product</title>
-    <link>https://dev.to/hamzatopo/i-vibe-coded-a-github-action-then-turned-it-into-a-real-product-4ml9</link>
-    <guid>https://dev.to/hamzatopo/i-vibe-coded-a-github-action-then-turned-it-into-a-real-product-4ml9</guid>
-    <pubDate>Sun, 27 Sep 2026 22:24:21 +0000</pubDate>
+    <title>India’s Top 10 IoT Platforms for Education in 2026</title>
+    <link>https://dev.to/marsomelody/indias-top-10-iot-platforms-for-education-in-2026-pe8</link>
+    <guid>https://dev.to/marsomelody/indias-top-10-iot-platforms-for-education-in-2026-pe8</guid>
+    <pubDate>Mon, 28 Sep 2026 05:00:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Vibe Coded a GitHub Action — Then Turned It Into a Real Product A few days ago, I had a simple thought: Developers show how much they code all the time. But what if we showed what they actually...</description>
+    <description>IoT education in India is moving beyond basic Arduino experiments. Students are increasingly working with ESP32, ESP8266, Arduino, sensors, MQTT, dashboards, cloud platforms, APIs, automation, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>When the Tool-Makers decides what skills should become obsolete</title>
-    <link>https://dev.to/estheticallybawo/when-the-tool-makers-decides-what-skills-should-become-obsolete-42o1</link>
-    <guid>https://dev.to/estheticallybawo/when-the-tool-makers-decides-what-skills-should-become-obsolete-42o1</guid>
-    <pubDate>Sun, 27 Sep 2026 22:14:55 +0000</pubDate>
+    <title>Dear Coder: Open This If You&apos;re Feeling AI FOMO</title>
+    <link>https://dev.to/canro91/dear-coder-open-this-if-youre-feeling-ai-fomo-58d4</link>
+    <guid>https://dev.to/canro91/dear-coder-open-this-if-youre-feeling-ai-fomo-58d4</guid>
+    <pubDate>Mon, 28 Sep 2026 05:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This article is a sequel for an ongoing Substack series whatWEBecome where I explore our historical and anthropological origins within the context of innovation, inventions and technology and how...</description>
+    <description>It&apos;s all over the headlines. Every so often, someone reveals a model X% faster. A tech CEO makes bold claims about the future of coding. The stock market reacts with euphoria. Prices go up. AI has...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Laya: replace your LLM-as-a-judge with a 322M-parameter decision engine</title>
-    <link>https://dev.to/aifrontierpost/laya-replace-your-llm-as-a-judge-with-a-322m-parameter-decision-engine-2bdf</link>
-    <guid>https://dev.to/aifrontierpost/laya-replace-your-llm-as-a-judge-with-a-322m-parameter-decision-engine-2bdf</guid>
-    <pubDate>Sun, 27 Sep 2026 22:11:01 +0000</pubDate>
+    <title>Linux Week 2: Learning, Practicing &amp; Figuring Things Out</title>
+    <link>https://dev.to/the_duchess_of_hackers/linux-week-2-learning-practicing-figuring-things-out-53op</link>
+    <guid>https://dev.to/the_duchess_of_hackers/linux-week-2-learning-practicing-figuring-things-out-53op</guid>
+    <pubDate>Mon, 28 Sep 2026 04:53:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published at AI Frontier Post. You have a support inbox, a moderation queue, or an agent that needs to route its own work. The decision you need is embarrassingly simple — which...</description>
+    <description>Last week, I shared my first update from my Linux journey with Akwannya Hub’s Skill Pods, where I had just completed Chapters 1–3. This week, I moved on to Chapters 4–6, and honestly, I’m starting...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Tiled to PixiJS and back: editable maps in TypeScript</title>
-    <link>https://dev.to/riebel/from-tiled-to-pixijs-and-back-editable-maps-in-typescript-4gje</link>
-    <guid>https://dev.to/riebel/from-tiled-to-pixijs-and-back-editable-maps-in-typescript-4gje</guid>
-    <pubDate>Sun, 27 Sep 2026 22:05:26 +0000</pubDate>
+    <title>Token savings depend on what you count: three numbers from the same benchmark runs</title>
+    <link>https://dev.to/member_b8352c00/token-savings-depend-on-what-you-count-three-numbers-from-the-same-benchmark-runs-4fje</link>
+    <guid>https://dev.to/member_b8352c00/token-savings-depend-on-what-you-count-three-numbers-from-the-same-benchmark-runs-4fje</guid>
+    <pubDate>Mon, 28 Sep 2026 04:48:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Open a map in Tiled. Build a bridge in the browser. Open the changed map in Tiled again. I&apos;m working on pixi-tiledmap, a TypeScript library for loading, rendering, editing, and exporting Tiled...</description>
+    <description>Disclosure: I&apos;m affiliated with Belcore, a memory and context layer for LLM apps. This is a measurement post. The numbers, their limits, and one result that did not hold up are all below. Why...</description>
     <category>Developer Tools</category>
   </item>
   <item>
