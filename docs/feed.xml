@@ -5,97 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 03 Oct 2026 13:23:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 19:13:48 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Telling Docker Daemons Apart from Other Docker-Facing Services</title>
-    <link>https://dev.to/kozhevniko/telling-docker-daemons-apart-from-other-docker-facing-services-36lf</link>
-    <guid>https://dev.to/kozhevniko/telling-docker-daemons-apart-from-other-docker-facing-services-36lf</guid>
-    <pubDate>Sat, 03 Oct 2026 13:20:51 +0000</pubDate>
+    <title>Why You Should Never Trust the Frontend for Server-Side Verification</title>
+    <link>https://dev.to/dilutedev/why-you-should-never-trust-the-frontend-for-server-side-verification-230n</link>
+    <guid>https://dev.to/dilutedev/why-you-should-never-trust-the-frontend-for-server-side-verification-230n</guid>
+    <pubDate>Sat, 03 Oct 2026 19:04:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Telling Docker Daemons Apart from Other Docker-Facing Services Docker is a name for several things that answer on a network. The CARBONATO advisory concerns exactly one of them, and confusing the...</description>
+    <description>Earlier today, I was booking a train ticket online. The platform required NIN (National Identification Number) verification before letting me continue. I entered a valid NIN. The verification call...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>udharbook for my frend</title>
-    <link>https://dev.to/yashvendra_nirwan_6dcc24c/udharbook-for-my-frend-42lo</link>
-    <guid>https://dev.to/yashvendra_nirwan_6dcc24c/udharbook-for-my-frend-42lo</guid>
-    <pubDate>Sat, 03 Oct 2026 13:19:17 +0000</pubDate>
+    <title>How to organize a large OpenAPI spec: multi-file structure, $ref rules, and CI checks</title>
+    <link>https://dev.to/jeff_pdc/how-to-organize-a-large-openapi-spec-multi-file-structure-ref-rules-and-ci-checks-194n</link>
+    <guid>https://dev.to/jeff_pdc/how-to-organize-a-large-openapi-spec-multi-file-structure-ref-rules-and-ci-checks-194n</guid>
+    <pubDate>Sat, 03 Oct 2026 19:04:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend 🌱 Hacktoberfest Weekend Challenge: Build for a Friend What I Built I built a Digital Udhar Record System for my...</description>
+    <description>Every OpenAPI document starts as one clean file. Then it reaches forty operations and the file is 2,000 lines, then a hundred operations and pull requests conflict on every merge, then nobody...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Free DISA STIG checklists, sorted by product</title>
-    <link>https://dev.to/tickyouoff/free-disa-stig-checklists-sorted-by-product-5h5a</link>
-    <guid>https://dev.to/tickyouoff/free-disa-stig-checklists-sorted-by-product-5h5a</guid>
-    <pubDate>Sat, 03 Oct 2026 13:17:30 +0000</pubDate>
+    <title>Gev: Gmail label suggestions with an embedded inference engine.</title>
+    <link>https://dev.to/opticxc/gev-gmail-label-suggestions-with-an-embedded-inference-engine-eci</link>
+    <guid>https://dev.to/opticxc/gev-gmail-label-suggestions-with-an-embedded-inference-engine-eci</guid>
+    <pubDate>Sat, 03 Oct 2026 19:04:21 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A FortiGate goes in at the edge, an OpenShift 4.12 cluster comes up, and each ticket says to apply the STIG. DISA writes a separate Security Technical Implementation Guide for every product, so...</description>
+    <description>I wanted a simpler way to sort email without sending message text to an AI service. So I started building Gev: a browser extension that reads my Gmail messages and automatically labels them into...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Claude Code vs Cursor: Terminal Agent or Full IDE?</title>
-    <link>https://dev.to/lau_stim_6fd8ca5fbe129ea6/claude-code-vs-cursor-terminal-agent-or-full-ide-3gg</link>
-    <guid>https://dev.to/lau_stim_6fd8ca5fbe129ea6/claude-code-vs-cursor-terminal-agent-or-full-ide-3gg</guid>
-    <pubDate>Sat, 03 Oct 2026 13:17:29 +0000</pubDate>
+    <title>How to Prepare for Your Final Year Project Viva (Simple Guide)</title>
+    <link>https://dev.to/collegeprojectexpert/how-to-prepare-for-your-final-year-project-viva-simple-guide-3167</link>
+    <guid>https://dev.to/collegeprojectexpert/how-to-prepare-for-your-final-year-project-viva-simple-guide-3167</guid>
+    <pubDate>Sat, 03 Oct 2026 19:04:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Claude Code wins if you live in the terminal: it plans multi-step refactors, runs its own commands, and works inside any codebase without an editor switch. Cursor wins if you want AI woven...</description>
+    <description>The viva is where many students lose marks, even with a working project. Examiners usually want to see that you understand what you built. Here is a simple way to prepare. 1. Know Your Problem...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How do you know Claude Code actually loaded your skill? We stopped trusting &apos;I read it&apos; and check the transcript</title>
-    <link>https://dev.to/rulestack/how-do-you-know-claude-code-actually-loaded-your-skill-we-stopped-trusting-i-read-it-and-check-4nf9</link>
-    <guid>https://dev.to/rulestack/how-do-you-know-claude-code-actually-loaded-your-skill-we-stopped-trusting-i-read-it-and-check-4nf9</guid>
-    <pubDate>Sat, 03 Oct 2026 13:17:00 +0000</pubDate>
+    <title>Monte seu Detector de Deepfakes em 4h com Python e Docker</title>
+    <link>https://dev.to/leojulieta/monte-seu-detector-de-deepfakes-em-4h-com-python-e-docker-1jk6</link>
+    <guid>https://dev.to/leojulieta/monte-seu-detector-de-deepfakes-em-4h-com-python-e-docker-1jk6</guid>
+    <pubDate>Sat, 03 Oct 2026 19:03:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Three of our agent&apos;s project skills are supposed to be loaded on every full run. Since 2026-09-24 we no longer take the agent&apos;s word that it loaded them: a check reads Claude Code&apos;s own transcript...</description>
+    <description>Detector de Deepfakes DIY 2026 – Crie seu filtro anti‑desinformação em poucas horas Introdução Você já recebeu um vídeo suspeito no WhatsApp ou viu uma “declaração” de um candidato que parecia...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Much to Charge for Freelance Data Entry</title>
-    <link>https://dev.to/d3bd863b497b/how-much-to-charge-for-freelance-data-entry-36i6</link>
-    <guid>https://dev.to/d3bd863b497b/how-much-to-charge-for-freelance-data-entry-36i6</guid>
-    <pubDate>Sat, 03 Oct 2026 13:16:58 +0000</pubDate>
+    <title>Native iOS push notifications for your OpenClaw agents (no PWA)</title>
+    <link>https://dev.to/verdeoc/native-ios-push-notifications-for-your-openclaw-agents-no-pwa-5b4i</link>
+    <guid>https://dev.to/verdeoc/native-ios-push-notifications-for-your-openclaw-agents-no-pwa-5b4i</guid>
+    <pubDate>Sat, 03 Oct 2026 19:02:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This article first appeared on Invoala. Most freelance data entry work should be priced at an effective hourly rate you set yourself — commonly somewhere between roughly $12 and $40 per hour...</description>
+    <description>OpenClaw agents run on a Mac (a Gateway). You talk to them from Telegram, the Control UI, or the official iOS app. The problem: once you close the app, you stop seeing when an agent finishes or...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Best AI Presentation Makers in 2026: 6 Tools Tested</title>
-    <link>https://dev.to/lau_stim_6fd8ca5fbe129ea6/best-ai-presentation-makers-in-2026-6-tools-tested-2919</link>
-    <guid>https://dev.to/lau_stim_6fd8ca5fbe129ea6/best-ai-presentation-makers-in-2026-6-tools-tested-2919</guid>
-    <pubDate>Sat, 03 Oct 2026 13:16:22 +0000</pubDate>
+    <title>Build a Fast Deepfake Detector in an Afternoon (2026)</title>
+    <link>https://dev.to/leojulieta/build-a-fast-deepfake-detector-in-an-afternoon-2026-3672</link>
+    <guid>https://dev.to/leojulieta/build-a-fast-deepfake-detector-in-an-afternoon-2026-3672</guid>
+    <pubDate>Sat, 03 Oct 2026 19:02:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR Gamma is the best overall AI presentation maker: fastest topic-to-deck generation, clean default design, free tier, export from Plus ($10/mo). Beautiful.ai is for teams that need design...</description>
+    <description>Build Your Own Deepfake Detector in 2026 – A Hands‑On Guide for Journalists, Creators, and Developers Introduction Every day you hear about a “viral” video that looks real but turns out to be...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Model Routing, Not GPUs, Is the Real AI Infrastructure Lever</title>
-    <link>https://dev.to/aiexplore369zoho/model-routing-not-gpus-is-the-real-ai-infrastructure-lever-109o</link>
-    <guid>https://dev.to/aiexplore369zoho/model-routing-not-gpus-is-the-real-ai-infrastructure-lever-109o</guid>
-    <pubDate>Sat, 03 Oct 2026 13:16:17 +0000</pubDate>
+    <title>Argo CD a fundo como funciona o GitOps na prática</title>
+    <link>https://dev.to/ikauedev/argo-cd-a-fundo-como-funciona-o-gitops-na-pratica-3onj</link>
+    <guid>https://dev.to/ikauedev/argo-cd-a-fundo-como-funciona-o-gitops-na-pratica-3onj</guid>
+    <pubDate>Sat, 03 Oct 2026 19:01:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR — Most teams optimize AI infrastructure cost by chasing cheaper GPUs or better quantization, but the biggest lever is architectural: routing requests across a tiered fleet of models instead...</description>
+    <description>O Argo CD resolve um problema simples e caro: garantir que o que está rodando no Kubernetes é exatamente o que está versionado no Git. Ele é um controlador declarativo de entrega contínua (CD)...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenKhata: Building a Local-First Digital Credit Ledger for a Kirana Shop</title>
-    <link>https://dev.to/ishaanchowdhury_ic10/openkhata-building-a-local-first-digital-credit-ledger-for-a-kirana-shop-3a15</link>
-    <guid>https://dev.to/ishaanchowdhury_ic10/openkhata-building-a-local-first-digital-credit-ledger-for-a-kirana-shop-3a15</guid>
-    <pubDate>Sat, 03 Oct 2026 13:14:39 +0000</pubDate>
+    <title>5 Python Project Ideas for Final Year Students</title>
+    <link>https://dev.to/collegeprojectexpert/5-python-project-ideas-for-final-year-students-4bmd</link>
+    <guid>https://dev.to/collegeprojectexpert/5-python-project-ideas-for-final-year-students-4bmd</guid>
+    <pubDate>Sat, 03 Oct 2026 19:01:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I Built I built OpenKhata for my friend Rahul, whose family runs a traditional kirana (neighborhood grocery)...</description>
+    <description>Choosing a final year project is hard. Here are 5 Python ideas that are easy to demo and easy to explain in a viva. 1. Face Recognition Attendance System Use OpenCV and the face_recognition...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How do you collect website feedback from clients without it becoming a mess?</title>
-    <link>https://dev.to/pankaj_9/how-do-you-collect-website-feedback-from-clients-without-it-becoming-a-mess-2a7b</link>
-    <guid>https://dev.to/pankaj_9/how-do-you-collect-website-feedback-from-clients-without-it-becoming-a-mess-2a7b</guid>
-    <pubDate>Sat, 03 Oct 2026 13:12:42 +0000</pubDate>
+    <title>Crea tu filtro anti‑deepfake en tiempo real sin ser experto</title>
+    <link>https://dev.to/leojulieta/crea-tu-filtro-anti-deepfake-en-tiempo-real-sin-ser-experto-17p4</link>
+    <guid>https://dev.to/leojulieta/crea-tu-filtro-anti-deepfake-en-tiempo-real-sin-ser-experto-17p4</guid>
+    <pubDate>Sat, 03 Oct 2026 19:01:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I’m a frontend developer and one thing that always bothered me on client projects was the feedback process. Clients would send things like: “Make this button bigger” “Change this section” “Use...</description>
+    <description>Detecta y bloquea deepfakes en tiempo real: guía práctica para crear tu propio filtro anti‑desinformación en 2026 Introducción ¿Te preocupa que en las próximas elecciones aparezcan videos falsos...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Amazon responds to data center backlash, says it no longer uses NDAs</title>
+    <link>https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/</link>
+    <guid>https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/</guid>
+    <pubDate>Sat, 03 Oct 2026 18:43:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike</title>
+    <link>https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/</link>
+    <guid>https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/</guid>
+    <pubDate>Sat, 03 Oct 2026 18:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Capcom is preparing for a ‘future where we create games together with AI’</title>
+    <link>https://www.theverge.com/games/1004418/capcom-ai-game-development</link>
+    <guid>https://www.theverge.com/games/1004418/capcom-ai-game-development</guid>
+    <pubDate>Sat, 03 Oct 2026 16:49:10 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Capcom&apos;s Pragmata might be all about the horrors of AI, but in practice the studio doesn&apos;t seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI safety employee resigns, claiming the company’s ‘culture is broken’</title>
+    <link>https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/</link>
+    <guid>https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/</guid>
+    <pubDate>Sat, 03 Oct 2026 16:30:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The best early October Prime Day deals happening now</title>
+    <link>https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october</link>
+    <guid>https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october</guid>
+    <pubDate>Sat, 03 Oct 2026 16:22:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Splice CEO Kakul Srivastava thinks AI emails are killing conversations</title>
+    <link>https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview</link>
+    <guid>https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview</guid>
+    <pubDate>Sat, 03 Oct 2026 15:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics</title>
+    <link>https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html</link>
+    <guid>https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html</guid>
+    <pubDate>Sat, 03 Oct 2026 14:38:46 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.K.&apos;s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing&apos;s state security...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware</title>
+    <link>https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html</link>
+    <guid>https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html</guid>
+    <pubDate>Sat, 03 Oct 2026 14:36:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>An OpenAI safety employee has quit and is sounding the alarm</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm</guid>
+    <pubDate>Sat, 03 Oct 2026 14:31:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>All the AI agents that can live in your text messages</title>
+    <link>https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/</link>
+    <guid>https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/</guid>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Muse Creates Detailed Profiles of All Your Friends and Family</title>
@@ -186,96 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Apple will add new limits for &quot;full disk access&quot; on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it&apos;s rolling out new controls...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Sling TV drops its one-day cable passes</title>
-    <link>https://www.theverge.com/streaming/1004300/sling-tv-pass-cable-drops</link>
-    <guid>https://www.theverge.com/streaming/1004300/sling-tv-pass-cable-drops</guid>
-    <pubDate>Fri, 02 Oct 2026 20:00:20 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Dish-owned Sling TV will no longer be offering its Sling Pass feature that allowed people to buy a single day of cable TV programming at a time, as reported by The Desk. The feature was announced...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass</title>
-    <link>https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/</link>
-    <guid>https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/</guid>
-    <pubDate>Fri, 02 Oct 2026 19:15:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents</title>
-    <link>https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/</link>
-    <guid>https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/</guid>
-    <pubDate>Fri, 02 Oct 2026 18:11:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>OpenAI’s Dot agent is enterprise software that can also order your dinner</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent</guid>
-    <pubDate>Fri, 02 Oct 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It&apos;s a tale as old as last week: OpenAI&apos;s new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Call it AI, call it Super Intelligence, only 2% of consumers are buying it</title>
-    <link>https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/</link>
-    <guid>https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/</guid>
-    <pubDate>Fri, 02 Oct 2026 17:56:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)</title>
-    <link>https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/</link>
-    <guid>https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/</guid>
-    <pubDate>Fri, 02 Oct 2026 17:48:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Breaking up (with Elon Musk) is hard to do</title>
-    <link>https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis</link>
-    <guid>https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis</guid>
-    <pubDate>Fri, 02 Oct 2026 17:37:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from &quot;Big...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers</title>
-    <link>https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html</link>
-    <guid>https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html</guid>
-    <pubDate>Fri, 02 Oct 2026 17:33:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A critical flaw in GitLab&apos;s AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign</title>
-    <link>https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html</link>
-    <guid>https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html</guid>
-    <pubDate>Fri, 02 Oct 2026 17:33:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants</title>
-    <link>https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/</link>
-    <guid>https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/</guid>
-    <pubDate>Fri, 02 Oct 2026 17:32:05 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Blackstone&apos;s Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
