@@ -5,96 +5,104 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 03 Oct 2026 19:13:48 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 23:04:36 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Why You Should Never Trust the Frontend for Server-Side Verification</title>
-    <link>https://dev.to/dilutedev/why-you-should-never-trust-the-frontend-for-server-side-verification-230n</link>
-    <guid>https://dev.to/dilutedev/why-you-should-never-trust-the-frontend-for-server-side-verification-230n</guid>
-    <pubDate>Sat, 03 Oct 2026 19:04:56 +0000</pubDate>
+    <title>A success message does not prove your form saved anything</title>
+    <link>https://dev.to/goatscancode/a-success-message-does-not-prove-your-form-saved-anything-2obl</link>
+    <guid>https://dev.to/goatscancode/a-success-message-does-not-prove-your-form-saved-anything-2obl</guid>
+    <pubDate>Sat, 03 Oct 2026 23:00:27 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Earlier today, I was booking a train ticket online. The platform required NIN (National Identification Number) verification before letting me continue. I entered a valid NIN. The verification call...</description>
+    <description>A form can show a cheerful confirmation while the server rejects the request. If you&apos;re debugging that behaviour, start with a small contract: the interface should show success only after the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to organize a large OpenAPI spec: multi-file structure, $ref rules, and CI checks</title>
-    <link>https://dev.to/jeff_pdc/how-to-organize-a-large-openapi-spec-multi-file-structure-ref-rules-and-ci-checks-194n</link>
-    <guid>https://dev.to/jeff_pdc/how-to-organize-a-large-openapi-spec-multi-file-structure-ref-rules-and-ci-checks-194n</guid>
-    <pubDate>Sat, 03 Oct 2026 19:04:27 +0000</pubDate>
+    <title>Intergrating Payments to your SaaS from Cameroon shouldn’t be this much of a Hassle</title>
+    <link>https://dev.to/orashus/intergrating-payments-to-your-saas-from-cameroon-shouldnt-be-this-much-of-a-hassle-8fo</link>
+    <guid>https://dev.to/orashus/intergrating-payments-to-your-saas-from-cameroon-shouldnt-be-this-much-of-a-hassle-8fo</guid>
+    <pubDate>Sat, 03 Oct 2026 23:00:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every OpenAPI document starts as one clean file. Then it reaches forty operations and the file is 2,000 lines, then a hundred operations and pull requests conflict on every merge, then nobody...</description>
+    <description>In my last post about renaming Trivue to Tagviu, I mentioned having a rough time integrating international payments as a developer based in Cameroon. Let&apos;s talk about it. I tried several popular...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Gev: Gmail label suggestions with an embedded inference engine.</title>
-    <link>https://dev.to/opticxc/gev-gmail-label-suggestions-with-an-embedded-inference-engine-eci</link>
-    <guid>https://dev.to/opticxc/gev-gmail-label-suggestions-with-an-embedded-inference-engine-eci</guid>
-    <pubDate>Sat, 03 Oct 2026 19:04:21 +0000</pubDate>
+    <title>I built an L1 ticket deflector that knows when to stop: LangGraph + human-in-the-loop</title>
+    <link>https://dev.to/madebyexpert/i-built-an-l1-ticket-deflector-that-knows-when-to-stop-langgraph-human-in-the-loop-4fd3</link>
+    <guid>https://dev.to/madebyexpert/i-built-an-l1-ticket-deflector-that-knows-when-to-stop-langgraph-human-in-the-loop-4fd3</guid>
+    <pubDate>Sat, 03 Oct 2026 22:57:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I wanted a simpler way to sort email without sending message text to an AI service. So I started building Gev: a browser extension that reads my Gmail messages and automatically labels them into...</description>
+    <description>I built an L1 ticket deflector that knows when to stop: LangGraph + human-in-the-loop The same tickets arrive at every IT service desk: password resets, VPN that won&apos;t connect, &quot;how do I install...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Prepare for Your Final Year Project Viva (Simple Guide)</title>
-    <link>https://dev.to/collegeprojectexpert/how-to-prepare-for-your-final-year-project-viva-simple-guide-3167</link>
-    <guid>https://dev.to/collegeprojectexpert/how-to-prepare-for-your-final-year-project-viva-simple-guide-3167</guid>
-    <pubDate>Sat, 03 Oct 2026 19:04:10 +0000</pubDate>
+    <title>MCP Authentication Explained: OAuth 2.1 for Remote MCP Servers</title>
+    <link>https://dev.to/jeff_pdc/mcp-authentication-explained-oauth-21-for-remote-mcp-servers-ak8</link>
+    <guid>https://dev.to/jeff_pdc/mcp-authentication-explained-oauth-21-for-remote-mcp-servers-ak8</guid>
+    <pubDate>Sat, 03 Oct 2026 22:57:48 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The viva is where many students lose marks, even with a working project. Examiners usually want to see that you understand what you built. Here is a simple way to prepare. 1. Know Your Problem...</description>
+    <description>A local MCP server launched over stdio inherits whatever credentials are already on your machine. Your shell has AWS_PROFILE, DOCKER_HOST, and a dozen tokens in ~/.config, and the server just uses...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Monte seu Detector de Deepfakes em 4h com Python e Docker</title>
-    <link>https://dev.to/leojulieta/monte-seu-detector-de-deepfakes-em-4h-com-python-e-docker-1jk6</link>
-    <guid>https://dev.to/leojulieta/monte-seu-detector-de-deepfakes-em-4h-com-python-e-docker-1jk6</guid>
-    <pubDate>Sat, 03 Oct 2026 19:03:12 +0000</pubDate>
+    <title>The Agent Said It Was Done. The Database Disagreed.</title>
+    <link>https://huggingface.co/blog/microsoft/thinkingbox</link>
+    <guid>https://huggingface.co/blog/microsoft/thinkingbox</guid>
+    <pubDate>Sat, 03 Oct 2026 22:56:48 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>k4i street app</title>
+    <link>https://dev.to/adamelguermat/k4i-street-app-4np8</link>
+    <guid>https://dev.to/adamelguermat/k4i-street-app-4np8</guid>
+    <pubDate>Sat, 03 Oct 2026 22:54:16 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Detector de Deepfakes DIY 2026 – Crie seu filtro anti‑desinformação em poucas horas Introdução Você já recebeu um vídeo suspeito no WhatsApp ou viu uma “declaração” de um candidato que parecia...</description>
+    <description>K4I Street K4I Street is a personal productivity and information management application designed to help users organize important parts of their daily life in one private and modern space. The app...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Native iOS push notifications for your OpenClaw agents (no PWA)</title>
-    <link>https://dev.to/verdeoc/native-ios-push-notifications-for-your-openclaw-agents-no-pwa-5b4i</link>
-    <guid>https://dev.to/verdeoc/native-ios-push-notifications-for-your-openclaw-agents-no-pwa-5b4i</guid>
-    <pubDate>Sat, 03 Oct 2026 19:02:43 +0000</pubDate>
+    <title>Introduction to Kiro Workflows</title>
+    <link>https://dev.to/w4ls3n/introduction-to-kiro-workflows-2f8o</link>
+    <guid>https://dev.to/w4ls3n/introduction-to-kiro-workflows-2f8o</guid>
+    <pubDate>Sat, 03 Oct 2026 22:53:45 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>OpenClaw agents run on a Mac (a Gateway). You talk to them from Telegram, the Control UI, or the official iOS app. The problem: once you close the app, you stop seeing when an agent finishes or...</description>
+    <description>What is Kiro Workflows? Kiro Workflows is a new Kiro feature that lets users orchestrate multiple agents by defining the flow in a structured, declarative language (JSON or YAML). The workflow...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Build a Fast Deepfake Detector in an Afternoon (2026)</title>
-    <link>https://dev.to/leojulieta/build-a-fast-deepfake-detector-in-an-afternoon-2026-3672</link>
-    <guid>https://dev.to/leojulieta/build-a-fast-deepfake-detector-in-an-afternoon-2026-3672</guid>
-    <pubDate>Sat, 03 Oct 2026 19:02:26 +0000</pubDate>
+    <title>Build a Go Admin Dashboard: Triage Open Error Groups in 2026</title>
+    <link>https://dev.to/yannicksterling6563/build-a-go-admin-dashboard-triage-open-error-groups-in-2026-54bc</link>
+    <guid>https://dev.to/yannicksterling6563/build-a-go-admin-dashboard-triage-open-error-groups-in-2026-54bc</guid>
+    <pubDate>Sat, 03 Oct 2026 22:44:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Build Your Own Deepfake Detector in 2026 – A Hands‑On Guide for Journalists, Creators, and Developers Introduction Every day you hear about a “viral” video that looks real but turns out to be...</description>
+    <description>A healthtech error inbox has one constraint that changes the design: retain enough evidence to reconstruct a customer incident, but do not turn every payload into a permanent copy of sensitive...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Argo CD a fundo como funciona o GitOps na prática</title>
-    <link>https://dev.to/ikauedev/argo-cd-a-fundo-como-funciona-o-gitops-na-pratica-3onj</link>
-    <guid>https://dev.to/ikauedev/argo-cd-a-fundo-como-funciona-o-gitops-na-pratica-3onj</guid>
-    <pubDate>Sat, 03 Oct 2026 19:01:42 +0000</pubDate>
+    <title>Optimizing Zpool Scrub Performance During Home Server Upgrade and Maintenance with Efficient Hardware and Power Management</title>
+    <link>https://dev.to/elenbit/optimizing-zpool-scrub-performance-during-home-server-upgrade-and-maintenance-with-efficient-3l</link>
+    <guid>https://dev.to/elenbit/optimizing-zpool-scrub-performance-during-home-server-upgrade-and-maintenance-with-efficient-3l</guid>
+    <pubDate>Sat, 03 Oct 2026 22:44:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>O Argo CD resolve um problema simples e caro: garantir que o que está rodando no Kubernetes é exatamente o que está versionado no Git. Ele é um controlador declarativo de entrega contínua (CD)...</description>
+    <description>Introduction: The Critical Role of Zpool Scrubbing in Home Server Maintenance In home server environments, zpool scrubbing is a fundamental operation that ensures data integrity by systematically...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>5 Python Project Ideas for Final Year Students</title>
-    <link>https://dev.to/collegeprojectexpert/5-python-project-ideas-for-final-year-students-4bmd</link>
-    <guid>https://dev.to/collegeprojectexpert/5-python-project-ideas-for-final-year-students-4bmd</guid>
-    <pubDate>Sat, 03 Oct 2026 19:01:32 +0000</pubDate>
+    <title>I Turned My Web Directory Into a Growing Collection of Tools, Sites, and Experiments</title>
+    <link>https://dev.to/base31/i-turned-my-web-directory-into-a-growing-collection-of-tools-sites-and-experiments-4b88</link>
+    <guid>https://dev.to/base31/i-turned-my-web-directory-into-a-growing-collection-of-tools-sites-and-experiments-4b88</guid>
+    <pubDate>Sat, 03 Oct 2026 22:42:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Choosing a final year project is hard. Here are 5 Python ideas that are easy to demo and easy to explain in a viva. 1. Face Recognition Attendance System Use OpenCV and the face_recognition...</description>
+    <description>A little while ago, I shared base31.org as a small home for the interesting internet. Since then, the idea has grown beyond a directory. base31 is now a place to discover interesting websites, use...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Crea tu filtro anti‑deepfake en tiempo real sin ser experto</title>
-    <link>https://dev.to/leojulieta/crea-tu-filtro-anti-deepfake-en-tiempo-real-sin-ser-experto-17p4</link>
-    <guid>https://dev.to/leojulieta/crea-tu-filtro-anti-deepfake-en-tiempo-real-sin-ser-experto-17p4</guid>
-    <pubDate>Sat, 03 Oct 2026 19:01:31 +0000</pubDate>
+    <title>Flock sob ataque: como detectar, se proteger e evitar multas</title>
+    <link>https://dev.to/leojulieta/flock-sob-ataque-como-detectar-se-proteger-e-evitar-multas-1p2d</link>
+    <guid>https://dev.to/leojulieta/flock-sob-ataque-como-detectar-se-proteger-e-evitar-multas-1p2d</guid>
+    <pubDate>Sat, 03 Oct 2026 22:42:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Detecta y bloquea deepfakes en tiempo real: guía práctica para crear tu propio filtro anti‑desinformación en 2026 Introducción ¿Te preocupa que en las próximas elecciones aparezcan videos falsos...</description>
+    <description>Flock na mira da justiça: como detectar, se proteger e garantir a conformidade Introdução Um veredicto histórico do Tribunal Distrital de Nova Iorque declarou o Flock como “vigilância massiva...</description>
     <category>Developer Tools</category>
   </item>
   <item>
@@ -266,15 +274,6 @@
     <pubDate>Fri, 02 Oct 2026 20:30:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>Many of Netflix&apos;s biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few weeks, though,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple will limit Mac disk access as AI agents ‘substantially’ increase risk</title>
-    <link>https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents</link>
-    <guid>https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents</guid>
-    <pubDate>Fri, 02 Oct 2026 20:08:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple will add new limits for &quot;full disk access&quot; on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it&apos;s rolling out new controls...</description>
     <category>Tech Industry</category>
   </item>
 </channel>
