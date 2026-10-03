@@ -5,97 +5,142 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 02 Oct 2026 20:45:03 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 05:19:09 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Your Next.js build should not need your database</title>
-    <link>https://dev.to/lotustechlabs/your-nextjs-build-should-not-need-your-database-3o85</link>
-    <guid>https://dev.to/lotustechlabs/your-nextjs-build-should-not-need-your-database-3o85</guid>
-    <pubDate>Fri, 02 Oct 2026 20:43:37 +0000</pubDate>
+    <title>O Harness, o SDD e o Vibe-Coding: uma abordagem de engenharia</title>
+    <link>https://dev.to/maiquelleonel/o-harness-o-sdd-e-o-vibe-coding-uma-abordagem-de-engenharia-1p19</link>
+    <guid>https://dev.to/maiquelleonel/o-harness-o-sdd-e-o-vibe-coding-uma-abordagem-de-engenharia-1p19</guid>
+    <pubDate>Sat, 03 Oct 2026 05:15:55 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If a page reads from your database, render it on demand, not during the build. Prerendering it means your build container needs a route to Postgres, and on self-hosted infrastructure that route is...</description>
+    <description>Infraestrutura como contrato: o Harness contendo a entropia da automação Mover um software além da fase “mashup” exige substituir a intuição por uma governança de engenharia rígida. No cenário...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Does `httpResource` cost you bundle size? I measured four Angular API generators</title>
-    <link>https://dev.to/constantant/does-httpresource-cost-you-bundle-size-i-measured-four-angular-api-generators-4ij8</link>
-    <guid>https://dev.to/constantant/does-httpresource-cost-you-bundle-size-i-measured-four-angular-api-generators-4ij8</guid>
-    <pubDate>Fri, 02 Oct 2026 20:43:28 +0000</pubDate>
+    <title>Which Port Is Nginx Listening On? Check and Change It Safely</title>
+    <link>https://dev.to/__3381495fd2b/which-port-is-nginx-listening-on-check-and-change-it-safely-j20</link>
+    <guid>https://dev.to/__3381495fd2b/which-port-is-nginx-listening-on-check-and-change-it-safely-j20</guid>
+    <pubDate>Sat, 03 Oct 2026 05:15:51 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I maintain @constantant/openapi-resource-gen, an Nx generator that emits one InjectionToken per OpenAPI endpoint, each in its own file, so that endpoints you never inject cost nothing. I claimed...</description>
+    <description>Nginx commonly serves HTTP on TCP port 80 and HTTPS on TCP port 443, but those conventions don’t tell you what a particular server is actually listening on. The active listen directives and the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built fix-commit: A Git Pre-Commit Tool That Doesn&apos;t Just Find Secrets — It Fixes Them</title>
-    <link>https://dev.to/ansari_sultan/i-built-fix-commit-a-git-pre-commit-tool-that-doesnt-just-find-secrets-it-fixes-them-174b</link>
-    <guid>https://dev.to/ansari_sultan/i-built-fix-commit-a-git-pre-commit-tool-that-doesnt-just-find-secrets-it-fixes-them-174b</guid>
-    <pubDate>Fri, 02 Oct 2026 20:42:48 +0000</pubDate>
+    <title>Deploying Django with Gunicorn and Nginx: A Practical Ubuntu Setup</title>
+    <link>https://dev.to/__3381495fd2b/deploying-django-with-gunicorn-and-nginx-a-practical-ubuntu-setup-4113</link>
+    <guid>https://dev.to/__3381495fd2b/deploying-django-with-gunicorn-and-nginx-a-practical-ubuntu-setup-4113</guid>
+    <pubDate>Sat, 03 Oct 2026 05:15:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built fix-commit: A Git Pre-Commit Tool That Doesn&apos;t Just Find Secrets — It Fixes Them Hardcoded secrets are one of those problems that every developer knows about, but they are still incredibly...</description>
+    <description>A Django app needs more than a development server to handle production traffic. A common setup gives each layer one job: Nginx accepts web requests, Gunicorn runs Django’s WSGI application, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>CAS-Protected Status Transitions in Client Management</title>
-    <link>https://dev.to/sumaninster/cas-protected-status-transitions-in-client-management-3gah</link>
-    <guid>https://dev.to/sumaninster/cas-protected-status-transitions-in-client-management-3gah</guid>
-    <pubDate>Fri, 02 Oct 2026 20:42:37 +0000</pubDate>
+    <title>SPRINT: O método para validar e lançar grandes ideias em apenas 5 dias</title>
+    <link>https://dev.to/maiquelleonel/sprint-o-metodo-para-validar-e-lancar-grandes-ideias-em-apenas-5-dias-1pek</link>
+    <guid>https://dev.to/maiquelleonel/sprint-o-metodo-para-validar-e-lancar-grandes-ideias-em-apenas-5-dias-1pek</guid>
+    <pubDate>Sat, 03 Oct 2026 05:15:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The Problem: Race Conditions in Multi-Channel Conversations When an Indian SMB manages customer conversations across WhatsApp, Instagram DM, SMS, and email simultaneously, state changes collide. A...</description>
+    <description>Sabe aquelas reuniões intermináveis que nunca chegam a lugar nenhum? Aquele produto que você passou meses construindo para descobrir que ninguém queria usar? O livro SPRINT: O método usado no...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Staleness is not evenly distributed and it eats your newest rows first</title>
-    <link>https://dev.to/unmannedops/staleness-is-not-evenly-distributed-and-it-eats-your-newest-rows-first-4of3</link>
-    <guid>https://dev.to/unmannedops/staleness-is-not-evenly-distributed-and-it-eats-your-newest-rows-first-4of3</guid>
-    <pubDate>Fri, 02 Oct 2026 20:41:04 +0000</pubDate>
+    <title>Port 25 Explained: How SMTP Email Delivery Works</title>
+    <link>https://dev.to/__3381495fd2b/port-25-explained-how-smtp-email-delivery-works-29b2</link>
+    <guid>https://dev.to/__3381495fd2b/port-25-explained-how-smtp-email-delivery-works-29b2</guid>
+    <pubDate>Sat, 03 Oct 2026 05:14:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>We run a publishing agent with nobody watching it. Before it posts anything, it asks the destination&apos;s account listing endpoint a simple question: do I already have this? That question is the...</description>
+    <description>Port 25 is mainly for email moving between mail servers. If you’re configuring a website, script, or email app to send messages through a provider, you’ll usually need that provider’s submission...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Approved the PR. Nobody Knows Why the Code Works.</title>
-    <link>https://dev.to/dejavo/ai-approved-the-pr-nobody-knows-why-the-code-works-12k4</link>
-    <guid>https://dev.to/dejavo/ai-approved-the-pr-nobody-knows-why-the-code-works-12k4</guid>
-    <pubDate>Fri, 02 Oct 2026 20:39:05 +0000</pubDate>
+    <title>Listing DNF Repositories: Enabled, Disabled, and DNF4 vs DNF5</title>
+    <link>https://dev.to/__3381495fd2b/listing-dnf-repositories-enabled-disabled-and-dnf4-vs-dnf5-1g28</link>
+    <guid>https://dev.to/__3381495fd2b/listing-dnf-repositories-enabled-disabled-and-dnf4-vs-dnf5-1g28</guid>
+    <pubDate>Sat, 03 Oct 2026 05:14:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Picture this, you open a PR and the AI report is already waiting. Three findings, all minor. You skim the diff, approve, and move on. A month later someone asks why that service retries three...</description>
+    <description>When a repository seems to be missing, the first question is whether it is disabled or whether your system uses a different DNF command than the one you tried. DNF4 and DNF5 use different syntax...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I Rebuilt My AI Doctor App with Spring AI and MCP (and Stopped Stuffing Prompts)</title>
-    <link>https://dev.to/iswayamverma/how-i-rebuilt-my-ai-doctor-app-with-spring-ai-and-mcp-and-stopped-stuffing-prompts-40b1</link>
-    <guid>https://dev.to/iswayamverma/how-i-rebuilt-my-ai-doctor-app-with-spring-ai-and-mcp-and-stopped-stuffing-prompts-40b1</guid>
-    <pubDate>Fri, 02 Oct 2026 20:37:40 +0000</pubDate>
+    <title>CosmoDex: Making Coding Practice Feel Like a Game 🚀</title>
+    <link>https://dev.to/harsha_nandi_d66568aa75c4/cosmodex-making-coding-practice-feel-like-a-game-4iki</link>
+    <guid>https://dev.to/harsha_nandi_d66568aa75c4/cosmodex-making-coding-practice-feel-like-a-game-4iki</guid>
+    <pubDate>Sat, 03 Oct 2026 05:14:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hi, I&apos;m Swayam Verma, a backend developer from Bhopal, India, working with Java and Spring Boot. This post is about Virtual AI Doctor, an AI health assistant I built, and the biggest change I made...</description>
+    <description>CosmoDex: Making Coding Practice Feel Like a Game 🚀 Learning to code is easy to start, but difficult to stay consistent with. You solve a few problems, get stuck, lose motivation, switch between...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Role of Context in AI Speech Generation</title>
-    <link>https://dev.to/voice_developer/the-role-of-context-in-ai-speech-generation-5c5b</link>
-    <guid>https://dev.to/voice_developer/the-role-of-context-in-ai-speech-generation-5c5b</guid>
-    <pubDate>Fri, 02 Oct 2026 20:37:37 +0000</pubDate>
+    <title>DNS Port 53: When to Use UDP, TCP, DoT, or DoH</title>
+    <link>https://dev.to/__3381495fd2b/dns-port-53-when-to-use-udp-tcp-dot-or-doh-ob7</link>
+    <guid>https://dev.to/__3381495fd2b/dns-port-53-when-to-use-udp-tcp-dot-or-doh-ob7</guid>
+    <pubDate>Sat, 03 Oct 2026 05:13:56 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why Context Matters When Building AI‑Driven Voice When you’re writing a chatbot, a virtual tour guide, or a podcast‑style narrator, the first thing that comes to mind is accuracy – “Will the AI...</description>
+    <description>When a DNS lookup times out, the problem may not be the domain name. Traditional DNS uses port 53 over both UDP and TCP, and allowing only one transport can break some queries or DNS operations....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Why Money Calculations Should Not Use Floating Point</title>
-    <link>https://dev.to/vat-engine/why-money-calculations-should-not-use-floating-point-3fha</link>
-    <guid>https://dev.to/vat-engine/why-money-calculations-should-not-use-floating-point-3fha</guid>
-    <pubDate>Fri, 02 Oct 2026 20:36:33 +0000</pubDate>
+    <title>Caddy or Nginx Proxy Manager? Choose the Workflow You’ll Maintain</title>
+    <link>https://dev.to/__3381495fd2b/caddy-or-nginx-proxy-manager-choose-the-workflow-youll-maintain-2jc9</link>
+    <guid>https://dev.to/__3381495fd2b/caddy-or-nginx-proxy-manager-choose-the-workflow-youll-maintain-2jc9</guid>
+    <pubDate>Sat, 03 Oct 2026 05:13:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Financial software often starts with code that looks completely harmless: const price = 19.99; const vatRate = 0.19; const vat = price * vatRate; The formula is not the surprising part. The...</description>
+    <description>Choosing a reverse proxy is partly a technical decision and partly a question of how you want to manage changes. Caddy and Nginx Proxy Manager can both route requests to self-hosted apps over...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Build Automated Post-Call QA Scoring with Telnyx Decision Models</title>
-    <link>https://dev.to/sonam_gupta_dba00ec9473e5/build-automated-post-call-qa-scoring-with-telnyx-decision-models-nh2</link>
-    <guid>https://dev.to/sonam_gupta_dba00ec9473e5/build-automated-post-call-qa-scoring-with-telnyx-decision-models-nh2</guid>
-    <pubDate>Fri, 02 Oct 2026 20:36:24 +0000</pubDate>
+    <title>DHCP Ports Explained: UDP 67/68 for IPv4 and 546/547 for IPv6</title>
+    <link>https://dev.to/__3381495fd2b/dhcp-ports-explained-udp-6768-for-ipv4-and-546547-for-ipv6-b1f</link>
+    <guid>https://dev.to/__3381495fd2b/dhcp-ports-explained-udp-6768-for-ipv4-and-546547-for-ipv6-b1f</guid>
+    <pubDate>Sat, 03 Oct 2026 05:12:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Support teams have a math problem. Thousands of customer calls happen every week, but supervisors can manually review only a small fraction of them. Even when a call is graded, that score often...</description>
+    <description>A device joins a network, asks for an address, and waits. If it never gets a lease, checking whether “DHCP is open” is not enough: DHCP uses different UDP ports for IPv4 and IPv6, and relays can...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Meta wants your next gadget to be Muse-infused</title>
+    <link>https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/</link>
+    <guid>https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/</guid>
+    <pubDate>Sat, 03 Oct 2026 00:45:39 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Meta wants Muse in your TV and your toaster, so it&apos;s giving the code away for free.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Apple changes full-disk access permissions to curb abuse from AI agents</title>
+    <link>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</link>
+    <guid>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</guid>
+    <pubDate>Fri, 02 Oct 2026 23:03:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Meta says FDA isn&apos;t sufficient to Muse reading messages. Apple begs to differ.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Sean Parker is rebuilding Stability AI around music</title>
+    <link>https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/</link>
+    <guid>https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/</guid>
+    <pubDate>Fri, 02 Oct 2026 21:09:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels&apos; blessing and money.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meta open sources code to let you make Muse AI gadgets</title>
+    <link>https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link</link>
+    <guid>https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link</guid>
+    <pubDate>Fri, 02 Oct 2026 21:08:37 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Meta now lets you make your own Muse gadgets that feature the company&apos;s new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing</title>
+    <link>https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html</guid>
+    <pubDate>Fri, 02 Oct 2026 21:02:18 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I’m not optimistic. As usual, you can also use this squid post to talk about the security...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Netflix is pivoting away from prestige</title>
@@ -230,51 +275,6 @@
     <pubDate>Fri, 02 Oct 2026 17:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>With all the talk about how AI might one day kill us all, it&apos;s easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created &quot;crash-test dummies&quot; to solve...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Beehiiv creators are buzzing about a new price increase</title>
-    <link>https://www.theverge.com/tech/1004133/beehiiv-price-increase-reactions</link>
-    <guid>https://www.theverge.com/tech/1004133/beehiiv-price-increase-reactions</guid>
-    <pubDate>Fri, 02 Oct 2026 16:51:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Beehiiv, a creator platform that has risen in popularity as an alternative to Substack, is increasing its prices - and many users aren&apos;t happy. In a post explaining the increase, Beehiiv cofounder...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nacon’s new PS5 controller can mix audio from your phone and console</title>
-    <link>https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller</link>
-    <guid>https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller</guid>
-    <pubDate>Fri, 02 Oct 2026 16:35:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nacon announced what the company is claiming is the world&apos;s first officially licensed PlayStation 5 controller with a built-in screen for adjusting settings like joystick sensitivity or remapping...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>A model guide for the GPT-6 family</title>
-    <link>https://openai.com/index/practical-guide-building-gpt-6</link>
-    <guid>https://openai.com/index/practical-guide-building-gpt-6</guid>
-    <pubDate>Fri, 02 Oct 2026 16:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>These AI Experts Want to Do High-Stakes Research Out in the Open</title>
-    <link>https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/</link>
-    <guid>https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/</guid>
-    <pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Redefining enterprise intelligence with autonomous AI</title>
-    <link>https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/</link>
-    <guid>https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/</guid>
-    <pubDate>Fri, 02 Oct 2026 15:49:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues...</description>
     <category>AI</category>
   </item>
 </channel>
