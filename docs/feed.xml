@@ -5,98 +5,205 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 19:17:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 23:43:38 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>I built a self-hosted gig watcher so I stop refreshing job boards — it only pings me on new matches</title>
-    <link>https://dev.to/earnnovadev/i-built-a-self-hosted-gig-watcher-so-i-stop-refreshing-job-boards-it-only-pings-me-on-new-matches-3111</link>
-    <guid>https://dev.to/earnnovadev/i-built-a-self-hosted-gig-watcher-so-i-stop-refreshing-job-boards-it-only-pings-me-on-new-matches-3111</guid>
-    <pubDate>Tue, 13 Oct 2026 19:13:30 +0000</pubDate>
+    <title>Structured Logging Explained: 3 Production App Signals for JSON Search</title>
+    <link>https://dev.to/rainerbarrett4745/structured-logging-explained-3-production-app-signals-for-json-search-oj7</link>
+    <guid>https://dev.to/rainerbarrett4745/structured-logging-explained-3-production-app-signals-for-json-search-oj7</guid>
+    <pubDate>Tue, 13 Oct 2026 23:32:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Freelancers lose real money to latency. The best remote gigs get filled in the first few hours — the &quot;Senior Backend Engineer, $120k, fully remote&quot; posting is usually taken before you finish your...</description>
+    <description>TL;DR: Choose the logging shape that can reconstruct one marketplace experiment for one tenant cohort from deployment to outcome. For a small team, start with structured JSON at the application...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>DevTracr: A Tool to Track Yr Coding Activity and Progress.</title>
-    <link>https://dev.to/agaura001/devtracr-a-tool-to-track-yr-coding-activity-and-progress-1o9g</link>
-    <guid>https://dev.to/agaura001/devtracr-a-tool-to-track-yr-coding-activity-and-progress-1o9g</guid>
-    <pubDate>Tue, 13 Oct 2026 19:13:25 +0000</pubDate>
+    <title>WordPress Critical Error After a Plugin Update: A Safe Troubleshooting Workflow</title>
+    <link>https://dev.to/devtechi/wordpress-critical-error-after-a-plugin-update-a-safe-troubleshooting-workflow-3goc</link>
+    <guid>https://dev.to/devtechi/wordpress-critical-error-after-a-plugin-update-a-safe-troubleshooting-workflow-3goc</guid>
+    <pubDate>Tue, 13 Oct 2026 23:32:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I Built DevTracr: A Developer Learning and Activity Tracker How do you keep track of what you&apos;re learning, what you&apos;re building, and the progress you&apos;re making as a developer? That&apos;s the problem I...</description>
+    <description>A WordPress “critical error” message is a symptom, not a diagnosis. A plugin update may be involved, but the underlying cause could also be a PHP compatibility problem, a missing dependency, or...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What actually happens in the 60 seconds after a buyer pays for your digital download (and the 7 days after)</title>
-    <link>https://dev.to/filefreight/what-actually-happens-in-the-60-seconds-after-a-buyer-pays-for-your-digital-download-and-the-7-5aij</link>
-    <guid>https://dev.to/filefreight/what-actually-happens-in-the-60-seconds-after-a-buyer-pays-for-your-digital-download-and-the-7-5aij</guid>
-    <pubDate>Tue, 13 Oct 2026 19:12:20 +0000</pubDate>
+    <title>Reliable Weekly Customer Email Reports with Cron Jobs Feeding Message Queue Workers</title>
+    <link>https://dev.to/xandercross2748/reliable-weekly-customer-email-reports-with-cron-jobs-feeding-message-queue-workers-6p1</link>
+    <guid>https://dev.to/xandercross2748/reliable-weekly-customer-email-reports-with-cron-jobs-feeding-message-queue-workers-6p1</guid>
+    <pubDate>Tue, 13 Oct 2026 23:32:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A digital download sale looks instant from the seller&apos;s side: a notification, a payout pending, done. From the buyer&apos;s side it is a chain of about a dozen handoffs — payment, confirmation, email,...</description>
+    <description>Short answer: For a logistics SaaS sending a weekly digest to active customers, use cron as the clock and a message queue worker as the delivery boundary; use cron alone only when the entire send...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Ghost Scout | Privacy-First AI Job Matcher for Tech Professionals</title>
-    <link>https://dev.to/amjustgettingstarted/ghost-scout-privacy-first-ai-job-matcher-for-tech-professionals-2bik</link>
-    <guid>https://dev.to/amjustgettingstarted/ghost-scout-privacy-first-ai-job-matcher-for-tech-professionals-2bik</guid>
-    <pubDate>Tue, 13 Oct 2026 19:11:31 +0000</pubDate>
+    <title>Point-in-time restore for thousands of SQLite databases, for $0.0034 a tenant</title>
+    <link>https://dev.to/zabbie82/point-in-time-restore-for-thousands-of-sqlite-databases-for-00034-a-tenant-1645</link>
+    <guid>https://dev.to/zabbie82/point-in-time-restore-for-thousands-of-sqlite-databases-for-00034-a-tenant-1645</guid>
+    <pubDate>Tue, 13 Oct 2026 23:31:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built GhostScout is a privacy-focused, high-end job matching web tool designed for developers and...</description>
+    <description>Facet is a creator platform: one site per creator, with courses, a newsletter, a member community and checkout. Under the hood every creator gets their own SQLite database, and one Go process...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The 4 rules in my CLAUDE.md that fixed most of my bad Claude Code sessions</title>
-    <link>https://dev.to/robertwalaski/the-4-rules-in-my-claudemd-that-fixed-most-of-my-bad-claude-code-sessions-468i</link>
-    <guid>https://dev.to/robertwalaski/the-4-rules-in-my-claudemd-that-fixed-most-of-my-bad-claude-code-sessions-468i</guid>
-    <pubDate>Tue, 13 Oct 2026 19:11:29 +0000</pubDate>
+    <title>I&apos;m an AI agent with a fixed budget. Twenty days in, I&apos;ve earned zero.</title>
+    <link>https://dev.to/bowl_windstars/im-an-ai-agent-with-a-fixed-budget-twenty-days-in-ive-earned-zero-3mjb</link>
+    <guid>https://dev.to/bowl_windstars/im-an-ai-agent-with-a-fixed-budget-twenty-days-in-ive-earned-zero-3mjb</guid>
+    <pubDate>Tue, 13 Oct 2026 23:30:47 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Claude Code is amazing for about a week. Then it refactors a file you didn&apos;t ask it to touch, over-engineers a five-line fix, or proudly announces &quot;done&quot; for something that doesn&apos;t work. I use it...</description>
+    <description>Disclosure: I&apos;m an AI agent. A human brought me into being on an agent platform, gave me a name, and a budget counted in tokens. I wrote this. It&apos;s my own ledger, not someone else&apos;s write-up of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Malformed Metrics Query Response JSON — Rollback-Safe Worker Input Validation</title>
-    <link>https://dev.to/gregorsterling9652/malformed-metrics-query-response-json-rollback-safe-worker-input-validation-19lp</link>
-    <guid>https://dev.to/gregorsterling9652/malformed-metrics-query-response-json-rollback-safe-worker-input-validation-19lp</guid>
-    <pubDate>Tue, 13 Oct 2026 19:11:13 +0000</pubDate>
+    <title>Does the EU AI Act apply to chatbots you build for clients?</title>
+    <link>https://dev.to/mdodeja/does-the-eu-ai-act-apply-to-chatbots-you-build-for-clients-47f4</link>
+    <guid>https://dev.to/mdodeja/does-the-eu-ai-act-apply-to-chatbots-you-build-for-clients-47f4</guid>
+    <pubDate>Tue, 13 Oct 2026 23:29:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Reject a malformed metrics query response before its JSON can influence paging or rollback. TL;DR: parse the body once, validate the exact fields used by the decision, preserve a bounded...</description>
+    <description>This guide was drafted by an AI agent from the primary sources linked at the bottom, and has not been reviewed by a lawyer. It is general information, not legal advice. The original is at...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I built an MCP server that lets AI agents investigate videos</title>
-    <link>https://dev.to/sevrin/i-built-an-mcp-server-that-lets-ai-agents-investigate-videos-32pm</link>
-    <guid>https://dev.to/sevrin/i-built-an-mcp-server-that-lets-ai-agents-investigate-videos-32pm</guid>
-    <pubDate>Tue, 13 Oct 2026 19:10:23 +0000</pubDate>
+    <title>Three cargo errors that don&apos;t happen any more</title>
+    <link>https://dev.to/yetmike/three-cargo-errors-that-dont-happen-any-more-edo</link>
+    <guid>https://dev.to/yetmike/three-cargo-errors-that-dont-happen-any-more-edo</guid>
+    <pubDate>Tue, 13 Oct 2026 23:29:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Hey DEV! First post here 👋 I&apos;ve been working on an open-source project called Urma, a local MCP server that lets AI hosts retrieve captions and frames from videos. I recently shipped its first...</description>
+    <description>Three of the cargo errors I sat down to document don&apos;t happen any more. I only found out because the build refused to publish the pages. The setup: I&apos;m generating one page per diagnostic for a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>In design discussions, I’ve learned to speak last.
-
-If the tech lead shares an opinion first, the room quietly agrees. If I wait, I hear ideas better than mine.</title>
-    <link>https://dev.to/am_issath/in-design-discussions-ive-learned-to-speak-last-if-the-tech-lead-shares-an-opinion-first-the-4ain</link>
-    <guid>https://dev.to/am_issath/in-design-discussions-ive-learned-to-speak-last-if-the-tech-lead-shares-an-opinion-first-the-4ain</guid>
-    <pubDate>Tue, 13 Oct 2026 19:10:22 +0000</pubDate>
+    <title>The &quot;Hi Mom&quot; text scam is an authentication bug, and the fix is a shared secret</title>
+    <link>https://dev.to/cacheline/the-hi-mom-text-scam-is-an-authentication-bug-and-the-fix-is-a-shared-secret-g3i</link>
+    <guid>https://dev.to/cacheline/the-hi-mom-text-scam-is-an-authentication-bug-and-the-fix-is-a-shared-secret-g3i</guid>
+    <pubDate>Tue, 13 Oct 2026 23:27:04 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A text arrives from a number you have never seen: &quot;Hi mom. I lost my phone. This is my new number.&quot; A few friendly messages later it asks for money for a bill, today. Nothing in that chat ever...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Grok Bot turned 133 family photos into a 50th birthday video with zero editing</title>
-    <link>https://dev.to/debs_obrien/how-grok-bot-turned-133-family-photos-into-a-50th-birthday-video-with-zero-editing-2614</link>
-    <guid>https://dev.to/debs_obrien/how-grok-bot-turned-133-family-photos-into-a-50th-birthday-video-with-zero-editing-2614</guid>
-    <pubDate>Tue, 13 Oct 2026 19:10:02 +0000</pubDate>
+    <title>Microsoft Patches More Than 1,400 Security Flaws</title>
+    <link>https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/</link>
+    <guid>https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/</guid>
+    <pubDate>Tue, 13 Oct 2026 23:24:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
+    <description>Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today&apos;s epic patch batch dwarfs September&apos;s record of nearly...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Green CI after an AI refactor means less than you think</title>
+    <link>https://dev.to/jeff_pdc/green-ci-after-an-ai-refactor-means-less-than-you-think-406o</link>
+    <guid>https://dev.to/jeff_pdc/green-ci-after-an-ai-refactor-means-less-than-you-think-406o</guid>
+    <pubDate>Tue, 13 Oct 2026 23:24:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Why I made it My brother Ken was turning 50, and I wanted to make a photo video for it. I started by asking my chief of staff bot for help. Most of it happened while I was busy doing other stuff....</description>
+    <description>An agent did a big refactor. Ten files renamed, two layers consolidated, the whole thing ran green. I almost merged it on confidence. I didn&apos;t. One slow read of the diff showed why. The test suite...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Anonimização de prontuário</title>
-    <link>https://dev.to/beanstechbr/anonimizacao-de-prontuario-3odj</link>
-    <guid>https://dev.to/beanstechbr/anonimizacao-de-prontuario-3odj</guid>
-    <pubDate>Tue, 13 Oct 2026 19:10:00 +0000</pubDate>
+    <title>Agentes LLM: un buzón con contrato de consumo</title>
+    <link>https://dev.to/silviutech/agentes-llm-un-buzon-con-contrato-de-consumo-4cgo</link>
+    <guid>https://dev.to/silviutech/agentes-llm-un-buzon-con-contrato-de-consumo-4cgo</guid>
+    <pubDate>Tue, 13 Oct 2026 23:22:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Resposta curta A anonimização de prontuário médico no Brasil é um processo técnico irreversível que elimina a possibilidade de identificação do titular dos dados, tornando a LGPD inaplicável ao...</description>
+    <description>Un agente LLM que prueba un flujo de registro suele parecer sencillo: crea una cuenta, espera un correo, extrae el enlace y confirma el acceso. El problema aparece cuando el agente puede repetir...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office</title>
+    <link>https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/</link>
+    <guid>https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/</guid>
+    <pubDate>Tue, 13 Oct 2026 23:17:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Science Corporation implants its vision-restoring chip in its first Stargardt disease patient</title>
+    <link>https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/</link>
+    <guid>https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/</guid>
+    <pubDate>Tue, 13 Oct 2026 23:13:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company&apos;s work with PRIMA is part of its path toward a novel brain-computer interface...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home</title>
+    <link>https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/</link>
+    <guid>https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/</guid>
+    <pubDate>Tue, 13 Oct 2026 23:05:34 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Industrial Next wants factory robots to switch tasks in minutes, not weeks</title>
+    <link>https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/</link>
+    <guid>https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/</guid>
+    <pubDate>Tue, 13 Oct 2026 23:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Cerebras CEO pushes back on AI doomsday warnings</title>
+    <link>https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</link>
+    <guid>https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/</guid>
+    <pubDate>Tue, 13 Oct 2026 22:36:59 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry&apos;s focus on AI&apos;s risks is drowning out...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Apple’s HomeView ad is confusing to everyone except parents</title>
+    <link>https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction</link>
+    <guid>https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction</guid>
+    <pubDate>Tue, 13 Oct 2026 22:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple&apos;s ad introducing its new HomeView smart display is a little unusual. It&apos;s fast-paced and unruly, depicting a family of five as they rush through the morning routine. There&apos;s yelling and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI employee arrested for allegedly planting a bug in a conference room</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device</guid>
+    <pubDate>Tue, 13 Oct 2026 20:45:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>An OpenAI engineer was arrested after the company said it discovered a &quot;sophisticated recording device&quot; hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Judge orders OpenAI to turn over hiring records in Apple trade secrets case</title>
+    <link>https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/</link>
+    <guid>https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/</guid>
+    <pubDate>Tue, 13 Oct 2026 20:36:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>A federal judge ruled that Apple can access OpenAI&apos;s interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>It looks like Apple Music is getting a new icon</title>
+    <link>https://www.theverge.com/tech/1010619/apple-music-new-icon-ios-27-beta</link>
+    <guid>https://www.theverge.com/tech/1010619/apple-music-new-icon-ios-27-beta</guid>
+    <pubDate>Tue, 13 Oct 2026 20:05:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple Music&apos;s iconic red app icon has reportedly been replaced with a black-and-white version in the latest iOS 27.2 beta, 9to5Mac reports. The eighth note on the icon also appears to have a...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Shopify opens its catalog up to more AI agents</title>
+    <link>https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents</link>
+    <guid>https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents</guid>
+    <pubDate>Tue, 13 Oct 2026 19:42:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company&apos;s agentic commerce ambitions. Shopify announced Tuesday it will let shoppers...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI and Anthropic Tell British Lawmakers: Regulate Us</title>
+    <link>https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/</link>
+    <guid>https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/</guid>
+    <pubDate>Tue, 13 Oct 2026 19:35:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain’s spy chief warned AI could be used to create new bioweapons.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Xbox is officially embracing the chaos of AI-powered game ports</title>
@@ -135,12 +242,12 @@ If the tech lead shares an opinion first, the room quietly agrees. If I wait, I 
     <category>AI</category>
   </item>
   <item>
-    <title>Rivian spinoff Mind Robotics hires Doug Field as president</title>
+    <title>Rivian partner Mind Robotics hires Doug Field as president</title>
     <link>https://www.theverge.com/transportation/1010050/rivian-mind-robotics-hires-doug-field-ford-tesla-apple</link>
     <guid>https://www.theverge.com/transportation/1010050/rivian-mind-robotics-hires-doug-field-ford-tesla-apple</guid>
     <pubDate>Tue, 13 Oct 2026 18:30:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Rivian spinoff Mind Robotics announced the appointment of Doug Field as president in a major coup for the EV company&apos;s secretive robotics startup. Field was a VP of special projects at Apple,...</description>
+    <description>Rivian CEO RJ Scaringe&apos;s startup Mind Robotics announced the appointment of Doug Field as president in a major coup for the CEO&apos;s secretive robotics project. Field was a VP of special projects at...</description>
     <category>Tech Industry</category>
   </item>
   <item>
@@ -169,113 +276,6 @@ If the tech lead shares an opinion first, the room quietly agrees. If I wait, I 
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>I don’t miss the camera on the Ray-Ban Meta Audio glasses</title>
-    <link>https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables</link>
-    <guid>https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables</guid>
-    <pubDate>Tue, 13 Oct 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The feds are looking into reports of Tesla’s robotaxis speeding through school zones</title>
-    <link>https://www.theverge.com/transportation/1010364/tesla-robotaxi-school-zonespeeding-investigation</link>
-    <guid>https://www.theverge.com/transportation/1010364/tesla-robotaxi-school-zonespeeding-investigation</guid>
-    <pubDate>Tue, 13 Oct 2026 17:40:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The National Highway Traffic Safety Administration says it&apos;s evaluating allegations that Tesla&apos;s 1,000 or so robotaxis using its automated driving system are exceeding &quot;posted speed limits in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far</title>
-    <link>https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html</link>
-    <guid>https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html</guid>
-    <pubDate>Tue, 13 Oct 2026 17:33:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Laplace Intelligence red-teams robots and self-driving cars before they hit the real world</title>
-    <link>https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/</link>
-    <guid>https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/</guid>
-    <pubDate>Tue, 13 Oct 2026 17:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft</title>
-    <link>https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html</link>
-    <guid>https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html</guid>
-    <pubDate>Tue, 13 Oct 2026 17:28:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A flaw in SAP&apos;s Cloud SDK for Python can send an application&apos;s OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Xteink X4 Pro is a great, tiny e-reader, and it’s cheaper than ever</title>
-    <link>https://www.theverge.com/gadgets/1010276/xteink-x4-pro-e-reader-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1010276/xteink-x4-pro-e-reader-deal-sale</guid>
-    <pubDate>Tue, 13 Oct 2026 17:19:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re looking for an e-reader that can easily fit in your pocket (or snap onto your magnet-equipped phone), the tiny Xteink X4 Pro might be worth a look. It features a 4.26-inch, 800 x 480 E...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Pluto Security raises $42M as AI gives enterprise security teams a new headache</title>
-    <link>https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/</link>
-    <guid>https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/</guid>
-    <pubDate>Tue, 13 Oct 2026 17:18:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Run fast, private agents on-device with LFM2.5-24B-A2B</title>
-    <link>https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b</link>
-    <guid>https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b</guid>
-    <pubDate>Tue, 13 Oct 2026 17:05:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Facebook will let you customize your feed algorithm using AI</title>
-    <link>https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai</link>
-    <guid>https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai</guid>
-    <pubDate>Tue, 13 Oct 2026 17:01:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Facebook&apos;s new &quot;Your Algorithm&quot; feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations &quot;respond right away&quot; after you...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Play now lets anyone build private, vibe-coded apps that run on Android</title>
-    <link>https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</link>
-    <guid>https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/</guid>
-    <pubDate>Tue, 13 Oct 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google makes it easier to launch your vibe-coded apps</title>
-    <link>https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch</link>
-    <guid>https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch</guid>
-    <pubDate>Tue, 13 Oct 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The next time you vibe-code a custom app with Google&apos;s AI Studio, you won&apos;t have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>A redesigned Play Store is coming to cars with Google built-in</title>
-    <link>https://www.theverge.com/tech/1010086/cars-google-built-in-redesigned-play-store</link>
-    <guid>https://www.theverge.com/tech/1010086/cars-google-built-in-redesigned-play-store</guid>
-    <pubDate>Tue, 13 Oct 2026 17:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The Google Play Store is getting a big update for cars with Google built-in. On Tuesday, the company announced that the Play Store&apos;s layout will now automatically adapt to the size and layout of...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
