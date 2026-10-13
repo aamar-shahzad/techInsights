@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 12 Oct 2026 17:54:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 02:00:57 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Small-App Observability Stack in 2026 — Checkout Health Monitoring for Reconstruction</title>
-    <link>https://dev.to/eliasfischer8351/small-app-observability-stack-in-2026-checkout-health-monitoring-for-reconstruction-19b6</link>
-    <guid>https://dev.to/eliasfischer8351/small-app-observability-stack-in-2026-checkout-health-monitoring-for-reconstruction-19b6</guid>
-    <pubDate>Mon, 12 Oct 2026 17:45:22 +0000</pubDate>
+    <title>shadcn&apos;s switch toggles one setting, so give each switch a label readers see</title>
+    <link>https://dev.to/davekurian/shadcns-switch-toggles-one-setting-so-give-each-switch-a-label-readers-see-24eg</link>
+    <guid>https://dev.to/davekurian/shadcns-switch-toggles-one-setting-so-give-each-switch-a-label-readers-see-24eg</guid>
+    <pubDate>Tue, 13 Oct 2026 01:58:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: instrument the checkout workflow around one reconstruction contract, then send its metrics, structured events, and correlated errors to replaceable backends while an independent...</description>
+    <description>A settings toggle looks simple, and most of the work is in its label. shadcn&apos;s switch is a checked and unchecked control, and its page pairs it with a Field and a FieldLabel, so the label is part...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Choose Web SaaS App Logging APIs in 2026 (Request-Trace Incident Reconstruction)</title>
-    <link>https://dev.to/raffertybarrett4726/choose-web-saas-app-logging-apis-in-2026-request-trace-incident-reconstruction-3bd9</link>
-    <guid>https://dev.to/raffertybarrett4726/choose-web-saas-app-logging-apis-in-2026-request-trace-incident-reconstruction-3bd9</guid>
-    <pubDate>Mon, 12 Oct 2026 17:44:33 +0000</pubDate>
+    <title>If the Agent Agrees First, Discard the Review</title>
+    <link>https://dev.to/airs_6907/if-the-agent-agrees-first-discard-the-review-52fk</link>
+    <guid>https://dev.to/airs_6907/if-the-agent-agrees-first-discard-the-review-52fk</guid>
+    <pubDate>Tue, 13 Oct 2026 01:58:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: choose an app logging API by testing whether it can reconstruct one scheduled import from its expected start through its last durable result. For a web SaaS running in the US and EU,...</description>
+    <description>If the Agent Agrees First, Discard the Review A first-pass agreement is a failed agent review. You heard your own premise read back to you. Block the merge until a scored dissent log exists. The...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Compile-Time vs Run-Time Polymorphism in Java</title>
-    <link>https://dev.to/mayur_bodhare/compile-time-vs-run-time-polymorphism-in-java-301f</link>
-    <guid>https://dev.to/mayur_bodhare/compile-time-vs-run-time-polymorphism-in-java-301f</guid>
-    <pubDate>Mon, 12 Oct 2026 17:44:23 +0000</pubDate>
+    <title>Add an AI Chatbot to Your Website That Hands Off to a Human</title>
+    <link>https://dev.to/geminate_solutions_9b6035/add-an-ai-chatbot-to-your-website-that-hands-off-to-a-human-45e2</link>
+    <guid>https://dev.to/geminate_solutions_9b6035/add-an-ai-chatbot-to-your-website-that-hands-off-to-a-human-45e2</guid>
+    <pubDate>Tue, 13 Oct 2026 01:58:08 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Two things used to puzzle me about Java. First: I printed an object and got something like Dog@1b6d3586 instead of anything useful. Second: I knew Animal a = new Dog(); was legal, but I had no...</description>
+    <description>If you want to add an AI chatbot to your website without it making things up, the fix is simple to describe. Let it answer only from your own pages, make it score how well those pages support each...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Learning LangChain</title>
-    <link>https://dev.to/sabimantock/learning-langchain-4jlp</link>
-    <guid>https://dev.to/sabimantock/learning-langchain-4jlp</guid>
-    <pubDate>Mon, 12 Oct 2026 17:44:01 +0000</pubDate>
+    <title>Case Study: A Contract Fixture That Stops a Widened HTTP Client</title>
+    <link>https://dev.to/devrs_9381/case-study-a-contract-fixture-that-stops-a-widened-http-client-5g1p</link>
+    <guid>https://dev.to/devrs_9381/case-study-a-contract-fixture-that-stops-a-widened-http-client-5g1p</guid>
+    <pubDate>Tue, 13 Oct 2026 01:57:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A while back I built Synapse, a small app that answers questions using my own notes. I did every part of it by hand: load the files, turn them into vectors, find the closest ones to the question,...</description>
+    <description>You should refuse an agent-written HTTP client until a local contract fixture agrees with every status that client treats as success. A helpful model will often widen success to any 2xx response,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>GitHub Copilot app for Beginners: How to teach Copilot about your codebase</title>
-    <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</link>
-    <guid>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</guid>
-    <pubDate>Mon, 12 Oct 2026 17:43:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">GitHub Blog</source>
-    <description>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot...</description>
+    <title>A Zero Bill Is Not Evidence: Production Gates for a Free Model Allowance</title>
+    <link>https://dev.to/codecpp_5026/a-zero-bill-is-not-evidence-production-gates-for-a-free-model-allowance-4ck6</link>
+    <guid>https://dev.to/codecpp_5026/a-zero-bill-is-not-evidence-production-gates-for-a-free-model-allowance-4ck6</guid>
+    <pubDate>Tue, 13 Oct 2026 01:57:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>A zero invoice does not make an agent job production-ready. If you cannot show a token ledger, a pinned host, and a floor that fails the run when the allowance thins out, you do not have a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I scanned 1,902 local-business websites for AI readiness. One in four already has an llms.txt.</title>
-    <link>https://dev.to/dcblack87/i-scanned-1902-local-business-websites-for-ai-readiness-one-in-four-already-has-an-llmstxt-47c1</link>
-    <guid>https://dev.to/dcblack87/i-scanned-1902-local-business-websites-for-ai-readiness-one-in-four-already-has-an-llmstxt-47c1</guid>
-    <pubDate>Mon, 12 Oct 2026 17:43:03 +0000</pubDate>
+    <title>Running MoE LLMs Larger Than Your RAM: A Practical Guide to mmap, Expert Offloading and SSD Streaming with llama.cpp</title>
+    <link>https://dev.to/eme_gug_0821b41b948be6516/running-moe-llms-larger-than-your-ram-a-practical-guide-to-mmap-expert-offloading-and-ssd-2f88</link>
+    <guid>https://dev.to/eme_gug_0821b41b948be6516/running-moe-llms-larger-than-your-ram-a-practical-guide-to-mmap-expert-offloading-and-ssd-2f88</guid>
+    <pubDate>Tue, 13 Oct 2026 01:54:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I build a tool that checks whether AI answer engines can read a website. On 12 October I pointed it at 1,902 ordinary local-business sites in the USA and UK: dentists, plumbers, hairdressers,...</description>
+    <description>Tuần này trên Hacker News có một project khá thú vị tên Janas: chạy LLM lớn hơn RAM bằng cách stream các expert từ SSD. Đọc xong mình nhớ lại hồi đầu năm, khi cố nhét một model MoE hơn 100B params...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Apache Hue answers on 183,061 hosts by title and holds no application fingerprint</title>
-    <link>https://dev.to/jeffreyciend/apache-hue-answers-on-183061-hosts-by-title-and-holds-no-application-fingerprint-57ke</link>
-    <guid>https://dev.to/jeffreyciend/apache-hue-answers-on-183061-hosts-by-title-and-holds-no-application-fingerprint-57ke</guid>
-    <pubDate>Mon, 12 Oct 2026 17:40:55 +0000</pubDate>
+    <title>Your AI research folder is full of opinions that never met each other</title>
+    <link>https://dev.to/neusoftware/your-ai-research-folder-is-full-of-opinions-that-never-met-each-other-3b57</link>
+    <guid>https://dev.to/neusoftware/your-ai-research-folder-is-full-of-opinions-that-never-met-each-other-3b57</guid>
+    <pubDate>Tue, 13 Oct 2026 01:53:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Apache Hue answers on 183,061 hosts by title and holds no application fingerprint Apache Hue is a web interface for Hadoop and, more recently, for SQL engines such as Hive, Impala and Spark. It is...</description>
+    <description>Ask a hard question in five chat windows and you&apos;ll end up with five essays. Four of them will say &quot;it depends,&quot; in slightly different fonts. It feels like research. It&apos;s filing. The structural...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Yield Strategy Optimization Report: Sentora Curator</title>
-    <link>https://dev.to/dannydoes_2abdf9c/yield-strategy-optimization-report-sentora-curator-4ikg</link>
-    <guid>https://dev.to/dannydoes_2abdf9c/yield-strategy-optimization-report-sentora-curator-4ikg</guid>
-    <pubDate>Mon, 12 Oct 2026 17:39:30 +0000</pubDate>
+    <title>shadcn&apos;s alert is a callout for attention, so match its variant to the risk</title>
+    <link>https://dev.to/davekurian/shadcns-alert-is-a-callout-for-attention-so-match-its-variant-to-the-risk-1aml</link>
+    <guid>https://dev.to/davekurian/shadcns-alert-is-a-callout-for-attention-so-match-its-variant-to-the-risk-1aml</guid>
+    <pubDate>Tue, 13 Oct 2026 01:53:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Yield Strategy Optimization Report: Sentora Curator Target Protocol: Sentora Curator (TVL: $2568.2M) Yield Strategy Optimization Report – Sentora Curator Prepared by: [Your Firm] – Senior DeFi...</description>
+    <description>A callout that sits in the page is a different job from a message that fades away. shadcn&apos;s alert is a callout for user attention, and its page says nothing about when to use one, so the choice of...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>[PT] O TV Time acabou. Só tinhamos 5 dias para salvar a história de seus usuários</title>
-    <link>https://dev.to/jhoni_franchini/pt-o-tv-time-acabou-so-tinhamos-5-dias-para-salvar-a-historia-de-seus-usuarios-2g19</link>
-    <guid>https://dev.to/jhoni_franchini/pt-o-tv-time-acabou-so-tinhamos-5-dias-para-salvar-a-historia-de-seus-usuarios-2g19</guid>
-    <pubDate>Mon, 12 Oct 2026 17:39:14 +0000</pubDate>
+    <title>How to Audit SaaS KPIs with a Node.js Metrics API (Without Dashboard Noise)</title>
+    <link>https://dev.to/jasperflint6947/how-to-audit-saas-kpis-with-a-nodejs-metrics-api-without-dashboard-noise-15a1</link>
+    <guid>https://dev.to/jasperflint6947/how-to-audit-saas-kpis-with-a-nodejs-metrics-api-without-dashboard-noise-15a1</guid>
+    <pubDate>Tue, 13 Oct 2026 01:52:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Como contornamos os desafios da nuvem para aumentarmos nossos downloads em 102% com usuários de um concorrente. O prazo não era nosso O TV Time anunciou que iria encerrar as suas atividades. Para...</description>
+    <description>For an e-commerce SaaS app, a metrics dashboard API is useful only when it preserves both the customer-visible outcome and a route back to detailed incident evidence. A graph that says checkout...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>[EN] TV Time shut down. We only had 5 days to save its users&apos; history</title>
-    <link>https://dev.to/jhoni_franchini/en-tv-time-shut-down-we-only-had-5-days-to-save-its-users-history-1gkf</link>
-    <guid>https://dev.to/jhoni_franchini/en-tv-time-shut-down-we-only-had-5-days-to-save-its-users-history-1gkf</guid>
-    <pubDate>Mon, 12 Oct 2026 17:38:52 +0000</pubDate>
+    <title>shadcn&apos;s radio group allows one choice at a time, so pick the default on purpose</title>
+    <link>https://dev.to/davekurian/shadcns-radio-group-allows-one-choice-at-a-time-so-pick-the-default-on-purpose-1h4</link>
+    <guid>https://dev.to/davekurian/shadcns-radio-group-allows-one-choice-at-a-time-so-pick-the-default-on-purpose-1h4</guid>
+    <pubDate>Tue, 13 Oct 2026 01:47:46 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How we bypassed cloud challenges to increase our downloads by 102% with users from a competitor. The deadline wasn&apos;t ours TV Time announced it was shutting down its operations. For those who had...</description>
+    <description>A plan picker needs exactly one answer, and a radio group enforces that for you. The parts you still own are the default the form starts with and the label each option carries. What the shadcn...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>The Social Reckoning is flopping at the box office</title>
+    <link>https://www.theverge.com/entertainment/1009630/social-reckoning-box-office-other-mommy</link>
+    <guid>https://www.theverge.com/entertainment/1009630/social-reckoning-box-office-other-mommy</guid>
+    <pubDate>Mon, 12 Oct 2026 21:20:57 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron&apos;s Sorkin&apos;s follow up to The Social Network...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta releases its first frontier model, Muse Wonder</title>
+    <link>https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/</link>
+    <guid>https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/</guid>
+    <pubDate>Mon, 12 Oct 2026 17:56:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him</title>
+    <link>https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/</link>
+    <guid>https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/</guid>
+    <pubDate>Mon, 12 Oct 2026 17:55:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Musk, we find your lack of security disturbing.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>WindBorne wins a hefty US Air Force contract for its balloon data</title>
@@ -103,7 +130,7 @@
     <guid>https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/</guid>
     <pubDate>Mon, 12 Oct 2026 17:19:14 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>A Silicon Valley startup that uses weather balloons and AI to predict the weather won a US military contract worth almost $50 million.</description>
+    <description>A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.</description>
     <category>AI</category>
   </item>
   <item>
@@ -134,6 +161,15 @@
     <category>Tech Industry</category>
   </item>
   <item>
+    <title>Honeyjar offers AI tools to improve PR and comms at every company</title>
+    <link>https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</link>
+    <guid>https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/</guid>
+    <pubDate>Mon, 12 Oct 2026 15:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?</description>
+    <category>AI</category>
+  </item>
+  <item>
     <title>The Yandex outage probably didn’t blitz Russian bots</title>
     <link>https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk</link>
     <guid>https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk</guid>
@@ -148,7 +184,7 @@
     <guid>https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/</guid>
     <pubDate>Mon, 12 Oct 2026 15:31:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Microsoft President Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.</description>
+    <description>Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.</description>
     <category>AI</category>
   </item>
   <item>
@@ -240,42 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>The Fitbit Edge may not be Google&apos;s best-kept fitness-tracking secret, but as of today, its existence is official. The tracker sits smack-dab between the recently launched Fitbit Air and the more...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs</title>
-    <link>https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout</link>
-    <guid>https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout</guid>
-    <pubDate>Mon, 12 Oct 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the &quot;primary AI inference system&quot; for Microsoft&apos;s products and services. Maia 300 not only improves the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Former Plaud exec raises $26M for AI app that listens to you in the background</title>
-    <link>https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/</link>
-    <guid>https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/</guid>
-    <pubDate>Mon, 12 Oct 2026 12:47:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you&apos;ll believe the tech...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Download: moon city problems and drone traffic controllers</title>
-    <link>https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/</link>
-    <guid>https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/</guid>
-    <pubDate>Mon, 12 Oct 2026 12:10:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Mars may be a hellhole, but the moon is not far behind The...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Bring Your Own Agent: Your Employees&apos; Assistants Are Already Logged In</title>
-    <link>https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html</link>
-    <guid>https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html</guid>
-    <pubDate>Mon, 12 Oct 2026 11:55:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta&apos;s Muse because it doesn&apos;t identify itself as a bot while browsing; Instinct keeps raising privacy...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
