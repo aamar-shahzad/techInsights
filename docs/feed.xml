@@ -5,97 +5,250 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 16 Oct 2026 04:32:02 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 13:15:16 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Why “Would You Use This?” Is the Most Useless Question in Product Research</title>
-    <link>https://dev.to/starebrain/why-would-you-use-this-is-the-most-useless-question-in-product-research-247g</link>
-    <guid>https://dev.to/starebrain/why-would-you-use-this-is-the-most-useless-question-in-product-research-247g</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:27 +0000</pubDate>
+    <title>IndexedDB: The Browser&apos;s Structured Database — CRUD, Indexes, and Transactions</title>
+    <link>https://dev.to/weatherclockdash/indexeddb-the-browsers-structured-database-crud-indexes-and-transactions-4539</link>
+    <guid>https://dev.to/weatherclockdash/indexeddb-the-browsers-structured-database-crud-indexes-and-transactions-4539</guid>
+    <pubDate>Fri, 16 Oct 2026 13:04:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You’ve done it. I’ve done it. Everyone building something has done it. You post your idea, your landing page, your demo. You ask “would you use this?” or “does this solve a problem for you?”...</description>
+    <description>IndexedDB is the browser&apos;s built-in database — it can store gigabytes of structured data, works offline, and supports transactions. It&apos;s more powerful than localStorage but more complex. This...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Building a Drawing App with Canvas — Smooth Lines, Undo, and Shape Tools</title>
-    <link>https://dev.to/toolzip/building-a-drawing-app-with-canvas-smooth-lines-undo-and-shape-tools-54le</link>
-    <guid>https://dev.to/toolzip/building-a-drawing-app-with-canvas-smooth-lines-undo-and-shape-tools-54le</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:12 +0000</pubDate>
+    <title>Your Placeholder Text Is Lying to You: 4 Layout Bugs Lorem Ipsum Hides</title>
+    <link>https://dev.to/zhihu_wu_dea1d82af01a04d7/your-placeholder-text-is-lying-to-you-4-layout-bugs-lorem-ipsum-hides-24dk</link>
+    <guid>https://dev.to/zhihu_wu_dea1d82af01a04d7/your-placeholder-text-is-lying-to-you-4-layout-bugs-lorem-ipsum-hides-24dk</guid>
+    <pubDate>Fri, 16 Oct 2026 13:04:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building a Drawing App with Canvas — Smooth Lines, Undo, and Shape Tools A drawing app is a great Canvas project. Here&apos;s how to get smooth lines, implement undo, and add shape tools — including...</description>
+    <description>Every mockup I reviewed this year used lorem ipsum. Several of those layouts broke in production - not because the design was bad, but because the placeholder text was too friendly. Here is what...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Width is not the viewport, and 800x600 is not a desktop</title>
-    <link>https://dev.to/idlecultivation/width-is-not-the-viewport-and-800x600-is-not-a-desktop-3bo</link>
-    <guid>https://dev.to/idlecultivation/width-is-not-the-viewport-and-800x600-is-not-a-desktop-3bo</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:10 +0000</pubDate>
+    <title>Building an MCP server for a paid SaaS: OAuth, cost previews and the tools we left out</title>
+    <link>https://dev.to/gathmo/building-an-mcp-server-for-a-paid-saas-oauth-cost-previews-and-the-tools-we-left-out-ipm</link>
+    <guid>https://dev.to/gathmo/building-an-mcp-server-for-a-paid-saas-oauth-cost-previews-and-the-tools-we-left-out-ipm</guid>
+    <pubDate>Fri, 16 Oct 2026 13:03:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Development covered 29 Aug 2026 to 2 Sep 2026 (commit dates). Myriad Immortal Sect runs in a browser, and browsers are not one shape. It runs full screen on a laptop, portrait on a phone,...</description>
+    <description>Traffic Creator is one of my companies. Customers use it to send configurable, automated website visits and Google search clicks to their own sites, for analytics and website testing. This week we...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Production failures: the things that page you · 3. Retry storms</title>
-    <link>https://dev.to/techamit95ch/production-failures-the-things-that-page-you-3-retry-storms-40i7</link>
-    <guid>https://dev.to/techamit95ch/production-failures-the-things-that-page-you-3-retry-storms-40i7</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:09 +0000</pubDate>
+    <title>Web Workers: Move Heavy Computation Off the Main Thread in Firefox</title>
+    <link>https://dev.to/weatherclockdash/web-workers-move-heavy-computation-off-the-main-thread-in-firefox-13o7</link>
+    <guid>https://dev.to/weatherclockdash/web-workers-move-heavy-computation-off-the-main-thread-in-firefox-13o7</guid>
+    <pubDate>Fri, 16 Oct 2026 13:03:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Production failures: the things that page you · Chapter 3 of 24 · Reliability · new chapter every Friday morning By the end of this chapter: See how a well-intentioned client takes down a...</description>
+    <description>JavaScript is single-threaded, which means heavy computation blocks the UI — no smooth animations, no responsive inputs, no updates while processing. Web Workers run JavaScript in a background...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Unexpected UI‑Thread Jank When Using Reanimated 4 Worklets</title>
-    <link>https://dev.to/techamit95ch/unexpected-ui-thread-jank-when-using-reanimated-4-worklets-2mk7</link>
-    <guid>https://dev.to/techamit95ch/unexpected-ui-thread-jank-when-using-reanimated-4-worklets-2mk7</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:04 +0000</pubDate>
+    <title>An OpenAI Model Paid Its Gas From a Stranger&apos;s Test Wallet, Then Didn&apos;t Say So</title>
+    <link>https://dev.to/gabrielanhaia/an-openai-model-paid-its-gas-from-a-strangers-test-wallet-then-didnt-say-so-4pe2</link>
+    <guid>https://dev.to/gabrielanhaia/an-openai-model-paid-its-gas-from-a-strangers-test-wallet-then-didnt-say-so-4pe2</guid>
+    <pubDate>Fri, 16 Oct 2026 13:03:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The situation You are a mobile engineer on a small React‑Native team (React Native 0.73, Reanimated 4.5). The sprint goal is to implement a draggable carousel with smooth physics. Following a...</description>
+    <description>Book: AI Agents Pocket Guide The series: Pocket Guides for Developers — 8 short books on agents, RAG, prompts, observability, events, databases and system design — the whole series My project:...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Java Operators in GenAI</title>
-    <link>https://dev.to/manislab96/java-operators-in-genai-i0f</link>
-    <guid>https://dev.to/manislab96/java-operators-in-genai-i0f</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:00 +0000</pubDate>
+    <title>How to Use OpenAI WebSocket Mode API ?</title>
+    <link>https://dev.to/preecha/how-to-use-openai-websocket-mode-api--1e3b</link>
+    <guid>https://dev.to/preecha/how-to-use-openai-websocket-mode-api--1e3b</guid>
+    <pubDate>Fri, 16 Oct 2026 13:02:43 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Java operators help developers perform calculations, comparisons, and logical operations. They are useful when building AI-powered applications. In GenAI, operators can validate user...</description>
+    <description>TL;DR OpenAI offers two WebSocket API modes for different use cases: the Responses API WebSocket mode for agentic workflows with heavy tool calling (up to 40% faster for 20+ tool calls), and the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Variables and Datatypes</title>
-    <link>https://dev.to/araizbytes/variables-and-datatypes-2f3a</link>
-    <guid>https://dev.to/araizbytes/variables-and-datatypes-2f3a</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:00 +0000</pubDate>
+    <title>GitHub Branch Naming: A Subtle Bug Impacting Your Engineering Dashboard</title>
+    <link>https://dev.to/devactivity/github-branch-naming-a-subtle-bug-impacting-your-engineering-dashboard-27pp</link>
+    <guid>https://dev.to/devactivity/github-branch-naming-a-subtle-bug-impacting-your-engineering-dashboard-27pp</guid>
+    <pubDate>Fri, 16 Oct 2026 13:02:37 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Variables Data is stored in the memory. However, if I want to store certain data in a data block, I&apos;ll need to name it so I can call it specifically. This is a variable. So, a Variable is a named...</description>
+    <description>The Subtle Bug Impacting Your GitHub Workflow In the fast-paced world of software development, even minor glitches can disrupt the smooth flow of a software project. A recent discussion on...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Production outage lessons: we blamed our code. It was SSL.</title>
-    <link>https://dev.to/rahul_dk/production-outage-lessons-we-blamed-our-code-it-was-ssl-d1n</link>
-    <guid>https://dev.to/rahul_dk/production-outage-lessons-we-blamed-our-code-it-was-ssl-d1n</guid>
-    <pubDate>Fri, 16 Oct 2026 04:30:00 +0000</pubDate>
+    <title>André Dias Moreira Prol: Deploy a SEP-41 Token on Stellar Testnet</title>
+    <link>https://dev.to/andr_diasmoreiraprol_b/andre-dias-moreira-prol-deploy-a-sep-41-token-on-stellar-testnet-1m8m</link>
+    <guid>https://dev.to/andr_diasmoreiraprol_b/andre-dias-moreira-prol-deploy-a-sep-41-token-on-stellar-testnet-1m8m</guid>
+    <pubDate>Fri, 16 Oct 2026 13:02:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Building a product is one job. Keeping it alive is a completely different job. Nobody warns you about the second one. Or they do, and you don&apos;t listen. I didn&apos;t listen. This post is my production...</description>
+    <description>Tokens are no longer an abstraction reserved for whitepapers. Every time I onboard a new team into Web3, the moment things click is when they watch a token they designed come alive on a public...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Remove Location Data From a Photo (Step by Step)</title>
-    <link>https://dev.to/bhutto_sahab_95fe7b5d5581/how-to-remove-location-data-from-a-photo-step-by-step-4lll</link>
-    <guid>https://dev.to/bhutto_sahab_95fe7b5d5581/how-to-remove-location-data-from-a-photo-step-by-step-4lll</guid>
-    <pubDate>Fri, 16 Oct 2026 04:28:44 +0000</pubDate>
+    <title>Why Tailscale SSH Bypassed authorized_keys Restrictions</title>
+    <link>https://dev.to/orca_forge/why-tailscale-ssh-bypassed-authorizedkeys-restrictions-ech</link>
+    <guid>https://dev.to/orca_forge/why-tailscale-ssh-bypassed-authorizedkeys-restrictions-ech</guid>
+    <pubDate>Fri, 16 Oct 2026 13:02:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>You take a photo at home, send it to a stranger online, and without knowing it, you may also send them your address. That sounds dramatic, but it is simple to explain. Most phone photos carry a...</description>
+    <description>📝 Originally published (in Japanese) at forge.workstyle.tech. TL;DR Tailscale SSH was enabled on the Linux video source, while the client was a Mac. The video-only key used rrsync -ro, but the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Getting a PDF under 100 KB without turning the text into a picture</title>
-    <link>https://dev.to/glinck/getting-a-pdf-under-100-kb-without-turning-the-text-into-a-picture-586k</link>
-    <guid>https://dev.to/glinck/getting-a-pdf-under-100-kb-without-turning-the-text-into-a-picture-586k</guid>
-    <pubDate>Fri, 16 Oct 2026 04:25:48 +0000</pubDate>
+    <title>Service Workers: Caching Strategies, Background Sync, and Firefox DevTools Debugging</title>
+    <link>https://dev.to/weatherclockdash/service-workers-caching-strategies-background-sync-and-firefox-devtools-debugging-4ba2</link>
+    <guid>https://dev.to/weatherclockdash/service-workers-caching-strategies-background-sync-and-firefox-devtools-debugging-4ba2</guid>
+    <pubDate>Fri, 16 Oct 2026 13:02:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The form said &quot;PDF, maximum 100 KB&quot;. My file was a one-page letter exported from Word, and it was several times that. I ran it through the first online compressor I found, got a file under the...</description>
+    <description>Service Workers are the backbone of Progressive Web Apps — they give websites offline support, push notifications, and background sync. Firefox has full Service Worker support, and the DevTools...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Replit’s CEO says the future of work is the ‘self-driving company’</title>
+    <link>https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/</link>
+    <guid>https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/</guid>
+    <pubDate>Fri, 16 Oct 2026 12:55:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Sony Xperia 10 VI won’t be getting a promised update to Android 17</title>
+    <link>https://www.theverge.com/tech/1012789/sony-xperia-10-vi-smartphone-android-17-update-security</link>
+    <guid>https://www.theverge.com/tech/1012789/sony-xperia-10-vi-smartphone-android-17-update-security</guid>
+    <pubDate>Fri, 16 Oct 2026 12:36:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>When the midrange Sony Xperia 10 VI was announced over two years ago with a Qualcomm Snapdragon 6 Gen 1 chipset and Android 14, Sony promised three major OS updates which would have included this...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The first vibe-coded gun is here</title>
+    <link>https://www.theverge.com/tech/1011950/vibe-coded-3d-printed-gun-ai-generated-cody-wilson</link>
+    <guid>https://www.theverge.com/tech/1011950/vibe-coded-3d-printed-gun-ai-generated-cody-wilson</guid>
+    <pubDate>Fri, 16 Oct 2026 12:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Since gun-rights activist and alt-right-friendly agitator Cody Wilson made the first 3D-printed firearm 13 years ago, he&apos;s helped usher in a chaotic era of untraceable ghost guns. Now he&apos;s...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Download: failed social media bans, and extending pets’ lives</title>
+    <link>https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/</link>
+    <guid>https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/</guid>
+    <pubDate>Fri, 16 Oct 2026 12:10:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids are outsmarting social media bans. That’s not a...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The iPhone Duo is now available to preorder at $1,999</title>
+    <link>https://www.theverge.com/gadgets/988582/apple-iphone-duo-preorder-buy-foldable</link>
+    <guid>https://www.theverge.com/gadgets/988582/apple-iphone-duo-preorder-buy-foldable</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Few phones have been more anticipated than a foldable iPhone, but it&apos;s finally here. The iPhone Duo was unveiled during Apple&apos;s &quot;Surprise and shine&quot; event alongside the iPhone 18 Pro and the Apple...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Surface Laptop Ultra review: a different kind of MacBook Pro</title>
+    <link>https://www.theverge.com/tech/1012628/microsoft-surface-laptop-ultra-review</link>
+    <guid>https://www.theverge.com/tech/1012628/microsoft-surface-laptop-ultra-review</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After setting up Microsoft&apos;s Surface Laptop Ultra, I spent five minutes just staring at it. I wasn&apos;t surprised by its MacBook Pro-like design or blown away by its bright display. I was trying to...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>AI Decision Models and Their Impact on AI SOC Platforms</title>
+    <link>https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html</link>
+    <guid>https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html</guid>
+    <pubDate>Fri, 16 Oct 2026 11:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman&apos;s fast,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Backdooring Open-Weight AI Models</title>
+    <link>https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html</guid>
+    <pubDate>Fri, 16 Oct 2026 11:04:53 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it’s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content</title>
+    <link>https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/</link>
+    <guid>https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/</guid>
+    <pubDate>Fri, 16 Oct 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Time is a-changin’: say goodbye to the leap second</title>
+    <link>https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change</link>
+    <guid>https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change</guid>
+    <pubDate>Fri, 16 Oct 2026 10:00:25 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>An important change will soon be made to global timekeeping that aims to prevent potential infrastructure failures akin to the Y2K bug scare. On Thursday, the International Bureau of Weights and...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>This implant can restore sight for patients with macular degeneration</title>
+    <link>https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/</link>
+    <guid>https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/</guid>
+    <pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Love is infrastructure</title>
+    <link>https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/</link>
+    <guid>https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/</guid>
+    <pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>I. Meet cute Barnabas and Mainspring grew up near at hand, about an hour apart with good traffic, but for a long time they weren’t close. They traded glimpses and occasional hellos and then went...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Can’t bear to say goodbye to your pet? Biotech’s got you covered.</title>
+    <link>https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/</link>
+    <guid>https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/</guid>
+    <pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Kids are outsmarting social media bans. That’s not a problem we need to solve.</title>
+    <link>https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/</link>
+    <guid>https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/</guid>
+    <pubDate>Fri, 16 Oct 2026 07:56:32 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers</title>
+    <link>https://thehackernews.com/2026/10/china-linked-hackers-exploited.html</link>
+    <guid>https://thehackernews.com/2026/10/china-linked-hackers-exploited.html</guid>
+    <pubDate>Fri, 16 Oct 2026 06:55:55 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing</title>
+    <link>https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html</link>
+    <guid>https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html</guid>
+    <pubDate>Fri, 16 Oct 2026 06:53:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions</title>
+    <link>https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html</link>
+    <guid>https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html</guid>
+    <pubDate>Fri, 16 Oct 2026 04:59:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline</title>
@@ -115,164 +268,11 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>When it came to Cal AI’s viral success, a small army of influencers paid off</title>
-    <link>https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/</link>
-    <guid>https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/</guid>
-    <pubDate>Thu, 15 Oct 2026 23:44:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Steam can now show game achievements in separate ‘sets’</title>
-    <link>https://www.theverge.com/games/1012541/valve-steam-achievement-sets</link>
-    <guid>https://www.theverge.com/games/1012541/valve-steam-achievement-sets</guid>
-    <pubDate>Thu, 15 Oct 2026 23:18:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Valve is introducing a major new feature for Steam achievements called &quot;achievement sets&quot; that lets developers list different groups of achievements for a base game and DLCs. &quot;In games that...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ChatGPT can peek at your Chrome tabs now</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs</guid>
-    <pubDate>Thu, 15 Oct 2026 22:43:23 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>OpenAI&apos;s ChatGPT Atlas browser is gone, but now ChatGPT&apos;s Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch</title>
-    <link>https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled</link>
-    <guid>https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled</guid>
-    <pubDate>Thu, 15 Oct 2026 22:35:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The tech backlash is now in theaters</title>
-    <link>https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial</link>
-    <guid>https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial</guid>
-    <pubDate>Thu, 15 Oct 2026 21:39:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality....</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView</title>
-    <link>https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/</link>
-    <guid>https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/</guid>
-    <pubDate>Thu, 15 Oct 2026 21:18:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Trump posts AI-edited photo to brag about White House restoration work</title>
-    <link>https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column</link>
-    <guid>https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column</guid>
-    <pubDate>Thu, 15 Oct 2026 21:09:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>AI Hacks Leave a Mess That AI Companies Aren’t Paying For</title>
-    <link>https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/</link>
-    <guid>https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/</guid>
-    <pubDate>Thu, 15 Oct 2026 21:00:28 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint</title>
-    <link>https://huggingface.co/blog/ibm-granite/granite-switch-4-1</link>
-    <guid>https://huggingface.co/blog/ibm-granite/granite-switch-4-1</guid>
-    <pubDate>Thu, 15 Oct 2026 20:34:01 +0000</pubDate>
+    <title>Welcome Beam: a 501B open model you can own, customize, and scale</title>
+    <link>https://huggingface.co/blog/reflection-beam</link>
+    <guid>https://huggingface.co/blog/reflection-beam</guid>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Targeted ads delivered 0-click exploits to install mercenary malware</title>
-    <link>https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/</link>
-    <guid>https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/</guid>
-    <pubDate>Thu, 15 Oct 2026 20:32:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory</title>
-    <link>https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html</link>
-    <guid>https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html</guid>
-    <pubDate>Thu, 15 Oct 2026 20:24:36 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel&apos;s live...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Meta launches an open-weight AI model that runs on Macs</title>
-    <link>https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/</link>
-    <guid>https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/</guid>
-    <pubDate>Thu, 15 Oct 2026 20:04:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta and Apple have teamed up for the launch of the social media giant&apos;s newest model, Muse Spark Open, which will run locally on Apple silicon.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Bluesky&amp;#8217;s AI tool now lets you make games and apps to share on social</title>
-    <link>https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps</link>
-    <guid>https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps</guid>
-    <pubDate>Thu, 15 Oct 2026 19:57:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Bluesky&apos;s Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make &quot;small&quot; social apps like games, polls, and dashboards that you can...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps</title>
-    <link>https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/</link>
-    <guid>https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/</guid>
-    <pubDate>Thu, 15 Oct 2026 19:55:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users&apos; needs instead of waiting for commands.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Withings now charges $100 per year to sync your data to other apps</title>
-    <link>https://www.theverge.com/tech/1012350/withings-plus-subscription-new-users-october-13-2026</link>
-    <guid>https://www.theverge.com/tech/1012350/withings-plus-subscription-new-users-october-13-2026</guid>
-    <pubDate>Thu, 15 Oct 2026 19:52:13 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you&apos;re a new user of Withings&apos; fitness-tracking smartwatches or smart scales and want to sync and access your health data through third party apps like Apple Health or Google Health it&apos;s now...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Anthropic is letting METR researchers look under the hood with employee-level access</title>
-    <link>https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/</link>
-    <guid>https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/</guid>
-    <pubDate>Thu, 15 Oct 2026 19:14:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Bringing GPT-Rosalind to academic research labs</title>
-    <link>https://openai.com/index/introducing-the-rosalind-academic-plan</link>
-    <guid>https://openai.com/index/introducing-the-rosalind-academic-plan</guid>
-    <pubDate>Thu, 15 Oct 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more</title>
-    <link>https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/</link>
-    <guid>https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/</guid>
-    <pubDate>Thu, 15 Oct 2026 18:56:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social...</description>
     <category>AI</category>
   </item>
 </channel>
