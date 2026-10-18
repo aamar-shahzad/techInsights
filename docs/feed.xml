@@ -5,97 +5,133 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 18 Oct 2026 04:34:03 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 12:36:44 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>FollowUp Local: a Gemma model on your laptop that tells you why the customer went quiet</title>
-    <link>https://dev.to/dongweipolyred/followup-local-a-gemma-model-on-your-laptop-that-tells-you-why-the-customer-went-quiet-o9d</link>
-    <guid>https://dev.to/dongweipolyred/followup-local-a-gemma-model-on-your-laptop-that-tells-you-why-the-customer-went-quiet-o9d</guid>
-    <pubDate>Sun, 18 Oct 2026 04:28:06 +0000</pubDate>
+    <title>LLM access controls and monitoring: where the control belongs in the request path</title>
+    <link>https://dev.to/resk/llm-access-controls-and-monitoring-where-the-control-belongs-in-the-request-path-1cnn</link>
+    <guid>https://dev.to/resk/llm-access-controls-and-monitoring-where-the-control-belongs-in-the-request-path-1cnn</guid>
+    <pubDate>Sun, 18 Oct 2026 12:30:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built Most small sales don&apos;t die with a &quot;no&quot;. They die with &quot;let me check with her and get back to...</description>
+    <description>Access control for LLM applications is usually discussed as a model problem. It is not. It is a request path problem. The model proposes an action, and something downstream either authorizes it or...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How Much Does an AI Agent Cost a Small Business?</title>
-    <link>https://dev.to/chenwengui23/how-much-does-an-ai-agent-cost-a-small-business-48co</link>
-    <guid>https://dev.to/chenwengui23/how-much-does-an-ai-agent-cost-a-small-business-48co</guid>
-    <pubDate>Sun, 18 Oct 2026 04:28:00 +0000</pubDate>
+    <title>A Practical Guide to SQL Joins, Subqueries, CTEs, and Window Functions.</title>
+    <link>https://dev.to/esther_njihia/a-practical-guide-to-sql-joins-subqueries-ctes-and-window-functions-4jaj</link>
+    <guid>https://dev.to/esther_njihia/a-practical-guide-to-sql-joins-subqueries-ctes-and-window-functions-4jaj</guid>
+    <pubDate>Sun, 18 Oct 2026 12:30:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The monthly fee on the quote is one of four cost lines. Here is the full structure — including the two that show up on no invoice — and a worksheet to price it from your own inputs. A five-person...</description>
+    <description>A hospital database rarely stores every useful detail in one table. Patient details may be stored separately from visit records. Doctor, department, ward, diagnosis, and procedure information may...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Designing APIs for Massive Datasets (Cursor Pagination, Sparse Fields, Caching)</title>
-    <link>https://dev.to/tejaswipandava/designing-apis-for-massive-datasets-cursor-pagination-sparse-fields-caching-1dh3</link>
-    <guid>https://dev.to/tejaswipandava/designing-apis-for-massive-datasets-cursor-pagination-sparse-fields-caching-1dh3</guid>
-    <pubDate>Sun, 18 Oct 2026 04:28:00 +0000</pubDate>
+    <title>InvoicePilot AI: Local-First Invoice Extraction with Open-Weight AI</title>
+    <link>https://dev.to/pyla_neeraja_7c1a2a759925/invoicepilot-ai-local-first-invoice-extraction-with-open-weight-ai-3dee</link>
+    <guid>https://dev.to/pyla_neeraja_7c1a2a759925/invoicepilot-ai-local-first-invoice-extraction-with-open-weight-ai-3dee</guid>
+    <pubDate>Sun, 18 Oct 2026 12:29:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The scenario: Your API returns a list of 2 million products. A mobile app needs to display them. How do you design this so the app doesn&apos;t crash and the server doesn&apos;t melt? The naive answer —...</description>
+    <description>🧾 InvoicePilot AI — Local-First Invoice Extraction with Open-Weight AI What I Built I built InvoicePilot AI, a local-first AI invoice extraction MVP designed to help freelancers and small...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What a week of agent-run Dependabot triage and AI code review taught me (karasu weekly)</title>
-    <link>https://dev.to/kompiro/what-a-week-of-agent-run-dependabot-triage-and-ai-code-review-taught-me-karasu-weekly-41af</link>
-    <guid>https://dev.to/kompiro/what-a-week-of-agent-run-dependabot-triage-and-ai-code-review-taught-me-karasu-weekly-41af</guid>
-    <pubDate>Sun, 18 Oct 2026 04:27:45 +0000</pubDate>
+    <title>Your TypeScript Is Lying to You, and These 5 Places Hide Real Bugs</title>
+    <link>https://dev.to/anas_sheikh_2/your-typescript-is-lying-to-you-and-these-5-places-hide-real-bugs-5c3p</link>
+    <guid>https://dev.to/anas_sheikh_2/your-typescript-is-lying-to-you-and-these-5-places-hide-real-bugs-5c3p</guid>
+    <pubDate>Sun, 18 Oct 2026 12:29:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>karasu is a text modeling language for system architecture, inspired by the C4 model. You describe your system in .krs files and karasu draws the views: system, deployment, and team structure. I...</description>
+    <description>TypeScript&apos;s most dangerous keyword is two letters long. as does not convert anything. It does not check anything. It tells the compiler &quot;trust me&quot;, and the compiler does. If you are wrong, the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>ChaosProxy: Bulletproof Your Microservices with Automated Fault Injection and Network Chaos Testing</title>
-    <link>https://dev.to/alessio99xx/chaosproxy-bulletproof-your-microservices-with-automated-fault-injection-and-network-chaos-testing-ini</link>
-    <guid>https://dev.to/alessio99xx/chaosproxy-bulletproof-your-microservices-with-automated-fault-injection-and-network-chaos-testing-ini</guid>
-    <pubDate>Sun, 18 Oct 2026 04:26:57 +0000</pubDate>
+    <title>A docs assistant a small business can run on its own laptop, built with open-weight AI</title>
+    <link>https://dev.to/naowal/a-docs-assistant-a-small-business-can-run-on-its-own-laptop-built-with-open-weight-ai-1a4h</link>
+    <guid>https://dev.to/naowal/a-docs-assistant-a-small-business-can-run-on-its-own-laptop-built-with-open-weight-ai-1a4h</guid>
+    <pubDate>Sun, 18 Oct 2026 12:28:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Modern distributed architectures are inherently fragile. Microservices, multi-region database clusters, third-party payment gateways, and external SaaS dependencies fail continuously,...</description>
+    <description>*This is a submission for the [Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle] hacktoberfest-week2-2026-10-12 What I Built PumpGuard assistant: a question-and-answer assistant that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The trust account invariant: one bank balance, many owners, and the check that catches commingling</title>
-    <link>https://dev.to/zerabooks/the-trust-account-invariant-one-bank-balance-many-owners-and-the-check-that-catches-commingling-3p50</link>
-    <guid>https://dev.to/zerabooks/the-trust-account-invariant-one-bank-balance-many-owners-and-the-check-that-catches-commingling-3p50</guid>
-    <pubDate>Sun, 18 Oct 2026 04:25:47 +0000</pubDate>
+    <title>why pg‑bouncer can still choke your service under burst load</title>
+    <link>https://dev.to/lucyreeves/why-pg-bouncer-can-still-choke-your-service-under-burst-load-2ogn</link>
+    <guid>https://dev.to/lucyreeves/why-pg-bouncer-can-still-choke-your-service-under-burst-load-2ogn</guid>
+    <pubDate>Sun, 18 Oct 2026 12:28:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A property manager&apos;s trust account obeys one invariant: bank balance = every owner&apos;s balance + every security deposit held, at every moment. A second rule catches quieter commingling: no single...</description>
+    <description>problem statement in a typical microservice, each instance opens its own pg client pool. during a traffic spike the aggregate connection count can exceed the postgres max_connections limit,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>One Prometheus for unRaid, a Synology NAS, and a VPS: What I Got Wrong</title>
-    <link>https://dev.to/hoelee/one-prometheus-for-unraid-a-synology-nas-and-a-vps-what-i-got-wrong-2g4g</link>
-    <guid>https://dev.to/hoelee/one-prometheus-for-unraid-a-synology-nas-and-a-vps-what-i-got-wrong-2g4g</guid>
-    <pubDate>Sun, 18 Oct 2026 04:25:24 +0000</pubDate>
+    <title>One Command, 18 Generated Files: Inside TDK CLI&apos;s Local Stack</title>
+    <link>https://dev.to/mynameis0d3c53a3/one-command-18-generated-files-inside-tdk-clis-local-stack-29fa</link>
+    <guid>https://dev.to/mynameis0d3c53a3/one-command-18-generated-files-inside-tdk-clis-local-stack-29fa</guid>
+    <pubDate>Sun, 18 Oct 2026 12:28:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Originally published on my blog — read it there with the full context, code and updates. Why this matters A homelab is not a toy when it&apos;s running other people&apos;s websites, mail and files. The...</description>
+    <description>I ran TDK CLI on a scratch project to count what it generates. The answer is 18 files per frontend service, not 17. I checked the count on the CLI version I had installed (1.3.178). The setup...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Samsung&apos;s First Smart Glasses at 41g: Where the Weight Has to Go</title>
-    <link>https://dev.to/asher_hu_42c5945e09721211/samsungs-first-smart-glasses-at-41g-where-the-weight-has-to-go-3on4</link>
-    <guid>https://dev.to/asher_hu_42c5945e09721211/samsungs-first-smart-glasses-at-41g-where-the-weight-has-to-go-3on4</guid>
-    <pubDate>Sun, 18 Oct 2026 04:24:29 +0000</pubDate>
+    <title>PhotoCraft Review: I Tested the Free, Open-Source Photoshop Alternative With 4 Real Edits</title>
+    <link>https://dev.to/rainytechlab/photocraft-review-i-tested-the-free-open-source-photoshop-alternative-with-4-real-edits-28j1</link>
+    <guid>https://dev.to/rainytechlab/photocraft-review-i-tested-the-free-open-source-photoshop-alternative-with-4-real-edits-28j1</guid>
+    <pubDate>Sun, 18 Oct 2026 12:27:24 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Start with the conclusion: 41 grams is only the entry ticket. What decides whether a pair of smart glasses can be worn all day is where those grams sit — how much loads the nose bridge, how much...</description>
+    <description>Photoshop costs $22.99 a month. PhotoCraft costs $0, it&apos;s open source, and in under three weeks it passed 66,000 stars on GitHub. So I put it to work on my Mac mini M4 with four real edits, the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SQuAD&apos;s answer normalizer can mark a wrong answer correct: three verified hazards</title>
-    <link>https://dev.to/munimv2/squads-answer-normalizer-can-mark-a-wrong-answer-correct-three-verified-hazards-4d97</link>
-    <guid>https://dev.to/munimv2/squads-answer-normalizer-can-mark-a-wrong-answer-correct-three-verified-hazards-4d97</guid>
-    <pubDate>Sun, 18 Oct 2026 04:24:06 +0000</pubDate>
+    <title>Stratum - AI Security Triage Agent (Graph Based)</title>
+    <link>https://dev.to/jayanthh1524/stratum-ai-security-triage-agent-graph-based-3h5k</link>
+    <guid>https://dev.to/jayanthh1524/stratum-ai-security-triage-agent-graph-based-3h5k</guid>
+    <pubDate>Sun, 18 Oct 2026 12:27:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The exact-match and F1 scores in most question-answering and many open-ended LLM evals run every answer through one tiny, famous function first: SQuAD&apos;s normalize_answer. It lowercases, strips...</description>
+    <description>Stratum: the agent that finds the route, closes it, and proves it By Jayanth A. Nandeesh · Graph Hacks: Context for AI Agents · Track 1, Agents That Act on Connected Data Live...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>FP16 Quantization Quality Loss: We Blamed the Architecture, the Bug Was One Overflowed Tensor</title>
-    <link>https://dev.to/sharksevenro/fp16-quantization-quality-loss-we-blamed-the-architecture-the-bug-was-one-overflowed-tensor-5e47</link>
-    <guid>https://dev.to/sharksevenro/fp16-quantization-quality-loss-we-blamed-the-architecture-the-bug-was-one-overflowed-tensor-5e47</guid>
-    <pubDate>Sun, 18 Oct 2026 04:23:18 +0000</pubDate>
+    <title>Local Stacks for Agents: What TDK CLI Is Changing</title>
+    <link>https://dev.to/mynameis0d3c53a3/local-stacks-for-agents-what-tdk-cli-is-changing-3i5m</link>
+    <guid>https://dev.to/mynameis0d3c53a3/local-stacks-for-agents-what-tdk-cli-is-changing-3i5m</guid>
+    <pubDate>Sun, 18 Oct 2026 12:26:50 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Our fp16 quantization post-mortem was wrong in the expensive direction: it told anyone with a mask-gated model to give up on half-precision, and that verdict would have kept a 52%-smaller download...</description>
+    <description>Trend: Local Stacks for AI Agents Developers are asking one question more often: how do you let an AI agent start and check a multi-service stack on your own machine without it guessing at config?...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Cities want to put the boot on robotaxis</title>
+    <link>https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws</link>
+    <guid>https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws</guid>
+    <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty</title>
+    <link>https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/</link>
+    <guid>https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/</guid>
+    <pubDate>Sun, 18 Oct 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Data Centers Have a New PR Plan: Your Kid’s Field Trip</title>
+    <link>https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/</link>
+    <guid>https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/</guid>
+    <pubDate>Sun, 18 Oct 2026 10:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Amid a wave of backlash, some industry-friendly groups are employing creative and time-tested strategies to woo the youth.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants</title>
+    <link>https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</link>
+    <guid>https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</guid>
+    <pubDate>Sun, 18 Oct 2026 08:23:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Meta removes language that raised scraping and AI training concerns</title>
@@ -206,15 +242,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Apple’s HomeView is just the latest threat to online recipe writers</title>
-    <link>https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting</link>
-    <guid>https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting</guid>
-    <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>When Apple revealed the HomeView to the world, it did so with an unusual ad for the company: Instead of pristine, polished tech in immaculate rooms, it&apos;s a three-minute look at the messy, frantic...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>MALFEX npm Package &apos;imgdecode&apos; Hides Shellcode Loader in Windows Native Addon</title>
     <link>https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html</link>
     <guid>https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html</guid>
@@ -249,33 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
     <description>New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds</title>
-    <link>https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/</link>
-    <guid>https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/</guid>
-    <pubDate>Fri, 16 Oct 2026 20:05:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How Itaú is building generative AI for its entire customer base</title>
-    <link>https://openai.com/index/itau-generative-ai</link>
-    <guid>https://openai.com/index/itau-generative-ai</guid>
-    <pubDate>Fri, 16 Oct 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Roundtables: A Conversation With the Creator of AI-Designed Viruses</title>
-    <link>https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/</link>
-    <guid>https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/</guid>
-    <pubDate>Fri, 16 Oct 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to...</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
