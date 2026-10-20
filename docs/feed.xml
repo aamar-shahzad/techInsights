@@ -5,275 +5,277 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 20 Oct 2026 19:59:56 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 23:10:56 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>git fetch --depth 1 breaks your self-updater</title>
-    <link>https://dev.to/vainamoinen/git-fetch-depth-1-breaks-your-self-updater-1pm9</link>
-    <guid>https://dev.to/vainamoinen/git-fetch-depth-1-breaks-your-self-updater-1pm9</guid>
-    <pubDate>Tue, 20 Oct 2026 19:51:08 +0000</pubDate>
+    <title>Ticket keys in Firestore: issued once, never reused after delete</title>
+    <link>https://dev.to/panthpatel/ticket-keys-in-firestore-issued-once-never-reused-after-delete-4h4n</link>
+    <guid>https://dev.to/panthpatel/ticket-keys-in-firestore-issued-once-never-reused-after-delete-4h4n</guid>
+    <pubDate>Tue, 20 Oct 2026 23:10:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>If your installer ships as a shallow git clone and updates itself, deleting one flag from the fetch keeps it updating release after release, small and shallow. Below: why --depth 1 on the fetch...</description>
+    <description>I split the ticket id from the ticket key so that tickets could move between boards, and then I took moving tickets out of the product. The split stayed. A key like ENG-42 gets pasted into...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Inside VOICE-RAG: From Speech to Grounded Answers</title>
-    <link>https://dev.to/the_infernix/inside-voice-rag-from-speech-to-grounded-answers-1khn</link>
-    <guid>https://dev.to/the_infernix/inside-voice-rag-from-speech-to-grounded-answers-1khn</guid>
-    <pubDate>Tue, 20 Oct 2026 19:50:59 +0000</pubDate>
+    <title>How I Automated China High-Speed Rail Ticket Booking (And What I Learned)</title>
+    <link>https://dev.to/jun_liu_ca219b73a8f1489b5/how-i-automated-china-high-speed-rail-ticket-booking-and-what-i-learned-51f2</link>
+    <guid>https://dev.to/jun_liu_ca219b73a8f1489b5/how-i-automated-china-high-speed-rail-ticket-booking-and-what-i-learned-51f2</guid>
+    <pubDate>Tue, 20 Oct 2026 23:09:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Pavan Ganesh Indupudi (Infernix) · Originally published at the-infernix.github.io Ask most RAG demos &quot;Who is the Prime Minister of India?&quot; and they will happily hallucinate an answer from whatever...</description>
+    <description>How I Automated China High-Speed Rail Ticket Booking (And What I Learned) I needed to book a high-speed rail ticket from Beijing to Shanghai for a friend visiting from abroad. The official app...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Make Background Jobs Retry-Safe for Healthtech Webhook Digests — Backoff and DLQ</title>
-    <link>https://dev.to/evanshepherd5623/how-to-make-background-jobs-retry-safe-for-healthtech-webhook-digests-backoff-and-dlq-59fa</link>
-    <guid>https://dev.to/evanshepherd5623/how-to-make-background-jobs-retry-safe-for-healthtech-webhook-digests-backoff-and-dlq-59fa</guid>
-    <pubDate>Tue, 20 Oct 2026 19:50:39 +0000</pubDate>
+    <title>A Hidden Waveform Can Still Spend Your Frame Budget</title>
+    <link>https://dev.to/keith_azodeh/a-hidden-waveform-can-still-spend-your-frame-budget-14kb</link>
+    <guid>https://dev.to/keith_azodeh/a-hidden-waveform-can-still-spend-your-frame-budget-14kb</guid>
+    <pubDate>Tue, 20 Oct 2026 23:06:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: For a Node.js background job queue, retry failed jobs with capped exponential backoff, persist an idempotency key before the webhook side effect, and move exhausted attempts to a DLQ...</description>
+    <description>A player can scroll out of view while its waveform keeps asking for fresh audio samples. The user sees a different part of the app, but the visual feature still has work to do. My recent BibleDept...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>For a planned U.S. power plant, the construction stage says more than the calendar</title>
-    <link>https://dev.to/munimv2/for-a-planned-us-power-plant-the-construction-stage-says-more-than-the-calendar-58ha</link>
-    <guid>https://dev.to/munimv2/for-a-planned-us-power-plant-the-construction-stage-says-more-than-the-calendar-58ha</guid>
-    <pubDate>Tue, 20 Oct 2026 19:50:33 +0000</pubDate>
+    <title>Missing alt vs empty alt: a one-minute image check for landing pages</title>
+    <link>https://dev.to/mercerk17/missing-alt-vs-empty-alt-a-one-minute-image-check-for-landing-pages-41fg</link>
+    <guid>https://dev.to/mercerk17/missing-alt-vs-empty-alt-a-one-minute-image-check-for-landing-pages-41fg</guid>
+    <pubDate>Tue, 20 Oct 2026 23:05:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every month, EIA&apos;s survey of planned generators (EIA-860M) lists each project&apos;s status (planned, approvals pending, approved, under construction, more than half built) and the month it expects to...</description>
+    <description>Landing pages are full of images: hero shots, icons, dividers, screenshots. Two different mistakes with alt are easy to make, and a quick look at the source finds both. The check View the page...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>JSON-RPC batch responses: match by id, not array position</title>
-    <link>https://dev.to/blockvectra/json-rpc-batch-responses-match-by-id-not-array-position-595d</link>
-    <guid>https://dev.to/blockvectra/json-rpc-batch-responses-match-by-id-not-array-position-595d</guid>
-    <pubDate>Tue, 20 Oct 2026 19:48:26 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>By BlockVectra, with AI-assisted drafting. A JSON-RPC batch puts several calls in one request. The reply array is not a positional mirror of the request array. Treating payload[i] as the answer to...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>I called the market bottom perfectly and still lost $55,000</title>
-    <link>https://dev.to/ghostdev_7e2a1dd0d19f7016/i-called-the-market-bottom-perfectly-and-still-lost-55000-3p51</link>
-    <guid>https://dev.to/ghostdev_7e2a1dd0d19f7016/i-called-the-market-bottom-perfectly-and-still-lost-55000-3p51</guid>
-    <pubDate>Tue, 20 Oct 2026 19:47:08 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Bug report Title: User waits for the perfect moment to invest. Gets it. Still loses. Severity: Expensive Reproducible: Every market cycle Status: Won&apos;t fix (it&apos;s a human bug) You probably know...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Google has joined Amazon in attacking Nvidia&apos;s stronghold with AI app developers</title>
-    <link>https://dev.to/chandan_kumar_1afaffcf991/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers-4mpj</link>
-    <guid>https://dev.to/chandan_kumar_1afaffcf991/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers-4mpj</guid>
-    <pubDate>Tue, 20 Oct 2026 19:47:02 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The most useful detail in Google&apos;s new developer tool for moving PyTorch workloads onto its own silicon is that Google is now competing on porting cost instead of benchmark charts. As Julie Bort...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>What&apos;s a Platform?</title>
-    <link>https://dev.to/michaelbutak/whats-a-platform-18hh</link>
-    <guid>https://dev.to/michaelbutak/whats-a-platform-18hh</guid>
-    <pubDate>Tue, 20 Oct 2026 19:45:54 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Ask ten people in tech what a &quot;platform&quot; is and you&apos;ll get ten answers, or a shrug. The word is everywhere: platform teams, platform strategy, platform engineering, &quot;our new customer platform.&quot;...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Node.js Search Analytics Export: Track Queries That Return Nothing</title>
-    <link>https://dev.to/celthyrdusk7341/nodejs-search-analytics-export-track-queries-that-return-nothing-2d1g</link>
-    <guid>https://dev.to/celthyrdusk7341/nodejs-search-analytics-export-track-queries-that-return-nothing-2d1g</guid>
-    <pubDate>Tue, 20 Oct 2026 19:45:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The page says the internal clinical knowledge bot&apos;s zero-hit ratio has crossed its limit. On-call sees a tenant-safe dashboard built from a Node.js search analytics export, which can track the...</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>Transitioning from Core Java to Spring Boot: How did you handle the mental shift?</title>
-    <link>https://dev.to/beching123/transitioning-from-core-java-to-spring-boot-how-did-you-handle-the-mental-shift-3lf7</link>
-    <guid>https://dev.to/beching123/transitioning-from-core-java-to-spring-boot-how-did-you-handle-the-mental-shift-3lf7</guid>
-    <pubDate>Tue, 20 Oct 2026 19:45:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>After spending 8 months getting my hands dirty with core Java fundamentals—multithreading, generic data structures, and OOP—I&apos;m officially stepping into Spring Boot, Spring MVC, and Thymeleaf....</description>
-    <category>Developer Tools</category>
-  </item>
-  <item>
-    <title>DJI’s Osmo Pocket 3 vlogging camera is a good deal at under $400</title>
-    <link>https://www.theverge.com/gadgets/1014456/dji-osmo-pocket-3-switch-sports-resort-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1014456/dji-osmo-pocket-3-switch-sports-resort-deal-sale</guid>
-    <pubDate>Tue, 20 Oct 2026 19:09:35 +0000</pubDate>
+    <title>Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed</guid>
+    <pubDate>Tue, 20 Oct 2026 23:04:19 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>If you’re the kind of person who likes to document everything, either for professional and/or personal reasons, and your phone’s camera isn’t cutting it, you might be considering a dedicated...</description>
+    <description>On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood....</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Xbox CEO is reportedly planning three more rounds of layoffs</title>
-    <link>https://www.theverge.com/games/1014700/xbox-ceo-asha-sharma-layoffs</link>
-    <guid>https://www.theverge.com/games/1014700/xbox-ceo-asha-sharma-layoffs</guid>
-    <pubDate>Tue, 20 Oct 2026 19:06:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Xbox CEO Asha Sharma is planning new rounds of layoffs for sometime this month, November, and January, according to Fortune. In July, as part of an organizational &quot;reset,&quot; Sharma announced planned...</description>
-    <category>Tech Industry</category>
+    <title>How to build a website AI agent with Claude that qualifies leads and books meetings</title>
+    <link>https://dev.to/kimolsen/how-to-build-a-website-ai-agent-with-claude-that-qualifies-leads-and-books-meetings-27o9</link>
+    <guid>https://dev.to/kimolsen/how-to-build-a-website-ai-agent-with-claude-that-qualifies-leads-and-books-meetings-27o9</guid>
+    <pubDate>Tue, 20 Oct 2026 23:02:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Most chat bubbles on company websites are a FAQ page with a speech balloon. They match keywords, show a canned answer, and hand you a form. A website AI agent is different. It reads what the...</description>
+    <category>Developer Tools</category>
   </item>
   <item>
-    <title>Amazon is phasing out Fire HD tablets, but not without some big discounts first</title>
-    <link>https://www.theverge.com/gadgets/1014565/amazon-fire-hd-10-tablet-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1014565/amazon-fire-hd-10-tablet-deal-sale</guid>
-    <pubDate>Tue, 20 Oct 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon recently announced it’s phasing out its Fire HD tablets in favor of much pricier Alexa Tablets. While the days of getting an affordable, but good tablet from Amazon seem to be coming to an...</description>
-    <category>Tech Industry</category>
+    <title>AWS Shipped a DynamoDB API That Stores Everything in Postgres. Read the Tables It Writes</title>
+    <link>https://dev.to/gabrielanhaia/aws-shipped-a-dynamodb-api-that-stores-everything-in-postgres-read-the-tables-it-writes-3kfc</link>
+    <guid>https://dev.to/gabrielanhaia/aws-shipped-a-dynamodb-api-that-stores-everything-in-postgres-read-the-tables-it-writes-3kfc</guid>
+    <pubDate>Tue, 20 Oct 2026 23:01:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Book: Database Playbook Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who...</description>
+    <category>Developer Tools</category>
   </item>
   <item>
-    <title>JustWatch now streams TV shows and movies, too</title>
-    <link>https://www.theverge.com/entertainment/1014640/justwatch-tv-plus-free-store-streaming-service-movie-rental</link>
-    <guid>https://www.theverge.com/entertainment/1014640/justwatch-tv-plus-free-store-streaming-service-movie-rental</guid>
-    <pubDate>Tue, 20 Oct 2026 18:56:50 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After announcing plans to introduce its own streaming service last month, JustWatch, a popular guide and search engine for finding things to watch on existing platforms like Disney Plus and...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Microsoft reportedly plans Xbox handheld in 2027, next-gen console in 2028</title>
-    <link>https://www.theverge.com/news/1014666/xbox-project-helix-launch-2028-rumor</link>
-    <guid>https://www.theverge.com/news/1014666/xbox-project-helix-launch-2028-rumor</guid>
-    <pubDate>Tue, 20 Oct 2026 18:45:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Microsoft is reportedly planning to launch an Xbox &quot;next-generation handheld device&quot; for the holiday season of 2027. The Xbox next-gen console, codename Project Helix, would then launch in the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers</title>
-    <link>https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/</link>
-    <guid>https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/</guid>
-    <pubDate>Tue, 20 Oct 2026 18:38:24 +0000</pubDate>
+    <title>Anthropic pitches AI safety bill that may block a model if 50+ people could be killed</title>
+    <link>https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/</link>
+    <guid>https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/</guid>
+    <pubDate>Tue, 20 Oct 2026 23:01:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.</description>
+    <description>The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model&apos;s release without the permission of a judge.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>ChatGPT now lets you lock your chats</title>
-    <link>https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/</link>
-    <guid>https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/</guid>
-    <pubDate>Tue, 20 Oct 2026 18:36:53 +0000</pubDate>
+    <title>A leak notice arrived. What to do today, this week, and in 30 days</title>
+    <link>https://dev.to/sunnydachs/a-leak-notice-arrived-what-to-do-today-this-week-and-in-30-days-4e8a</link>
+    <guid>https://dev.to/sunnydachs/a-leak-notice-arrived-what-to-do-today-this-week-and-in-30-days-4e8a</guid>
+    <pubDate>Tue, 20 Oct 2026 23:01:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>You get an email: &quot;We are writing to inform you that your personal data may have been leaked.&quot; Do you know what to do next — and by when? Earlier this year, Japan&apos;s government asked citizens to...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Backing Up 39 Products And Their CSVs On A 2 GB Single-Core Server</title>
+    <link>https://dev.to/revanzart/backing-up-39-products-and-their-csvs-on-a-2-gb-single-core-server-1mim</link>
+    <guid>https://dev.to/revanzart/backing-up-39-products-and-their-csvs-on-a-2-gb-single-core-server-1mim</guid>
+    <pubDate>Tue, 20 Oct 2026 23:01:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I lost an evening last March because I assumed my host&apos;s backups covered me. They didn&apos;t. The nightly snapshot on my 1 vCPU / 2 GB RAM box only kept seven days, and I needed a CSV from eleven days...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>DentaNote: dental clinical notes with local Gemma, no audio leaves the operatory</title>
+    <link>https://dev.to/adalbertobrant/dentanote-dental-clinical-notes-with-local-gemma-no-audio-leaves-the-operatory-1fpl</link>
+    <guid>https://dev.to/adalbertobrant/dentanote-dental-clinical-notes-with-local-gemma-no-audio-leaves-the-operatory-1fpl</guid>
+    <pubDate>Tue, 20 Oct 2026 23:00:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>I see patients, dictate the visit note, and still lose time building the structured record — fields, tooth numbers, the whole drill. DentaNote is the tool I wrote to cut that step: audio in,...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Our coding agent prompts live in the ticket, reviewed like PRs</title>
+    <link>https://dev.to/panthpatel/our-coding-agent-prompts-live-in-the-ticket-reviewed-like-prs-4f2g</link>
+    <guid>https://dev.to/panthpatel/our-coding-agent-prompts-live-in-the-ticket-reviewed-like-prs-4f2g</guid>
+    <pubDate>Tue, 20 Oct 2026 23:00:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
+    <description>Every prompt my team writes to our coding agent is stored in the ticket that asked for it. The ticket thread is the only way a developer can talk to the agent, so there is nowhere else for a...</description>
+    <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate</title>
+    <link>https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/</link>
+    <guid>https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/</guid>
+    <pubDate>Tue, 20 Oct 2026 22:24:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their...</description>
+    <description>Before you share the Netflix documentary &quot;AI Gone Rogue&quot; take note. Clem Delangue, Hugging Face&apos;s co-founder who is featured in the film, says it went &quot;full doomer mode&quot; and isn&apos;t accurate.</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Can you see everything?</title>
-    <link>https://www.theverge.com/policy/1014687/fielder-holmes-you-can-see-everything</link>
-    <guid>https://www.theverge.com/policy/1014687/fielder-holmes-you-can-see-everything</guid>
-    <pubDate>Tue, 20 Oct 2026 18:30:00 +0000</pubDate>
+    <title>Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program</title>
+    <link>https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers</link>
+    <guid>https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers</guid>
+    <pubDate>Tue, 20 Oct 2026 22:20:11 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This review contains spoilers. I have heard it said that of all the drugs, fame is the most addictive. For Elizabeth Holmes, at least, I am willing to believe that is true. It is the only...</description>
+    <description>Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation</title>
-    <link>https://huggingface.co/blog/nvidia/cosmos3-h-dreams</link>
-    <guid>https://huggingface.co/blog/nvidia/cosmos3-h-dreams</guid>
-    <pubDate>Tue, 20 Oct 2026 18:17:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Meta pauses Muse sharing after researchers find AI chats on the web</title>
-    <link>https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats</link>
-    <guid>https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats</guid>
-    <pubDate>Tue, 20 Oct 2026 18:07:34 +0000</pubDate>
+    <title>Google’s more personalized Gemini AI is heading to your car</title>
+    <link>https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto</link>
+    <guid>https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto</guid>
+    <pubDate>Tue, 20 Oct 2026 22:11:34 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report...</description>
+    <description>Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps,...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei</title>
-    <link>https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/</link>
-    <guid>https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/</guid>
-    <pubDate>Tue, 20 Oct 2026 17:55:12 +0000</pubDate>
+    <title>Tesla and SpaceX are discussing a possible merger, Musk says</title>
+    <link>https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees</link>
+    <guid>https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees</guid>
+    <pubDate>Tue, 20 Oct 2026 21:30:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter&apos;s third quarter earnings call Tuesday. Musk, who serves as CEO of both companies,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Anthropic’s cloud partnerships are getting messy</title>
+    <link>https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/</link>
+    <guid>https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:25:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.</description>
+    <description>Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November...</description>
     <category>AI</category>
   </item>
   <item>
-    <title>The $20,000 Voxel bot will help you find misplaced things around your home</title>
-    <link>https://www.theverge.com/tech/1014533/tuesday-labs-voxel-series-1-home-robot-reservation</link>
-    <guid>https://www.theverge.com/tech/1014533/tuesday-labs-voxel-series-1-home-robot-reservation</guid>
-    <pubDate>Tue, 20 Oct 2026 17:49:55 +0000</pubDate>
+    <title>SpaceX will try catching Starship and its booster for first time, Musk says</title>
+    <link>https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says</link>
+    <guid>https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says</guid>
+    <pubDate>Tue, 20 Oct 2026 21:02:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Tuesday Labs, a New York City-based robotics lab and design studio, has opened reservations for Voxel, its new bi-pedal robot designed to learn and take over routine tasks throughout your home....</description>
+    <description>SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful,...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>French Government Calls Emergency Meetings With Platforms Over Protests</title>
-    <link>https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/</link>
-    <guid>https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/</guid>
-    <pubDate>Tue, 20 Oct 2026 17:41:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.</description>
+    <title>It’s a bird, it’s a plane … it’s a robo-puffin?</title>
+    <link>https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/</link>
+    <guid>https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Given that water is 1,000 times denser than air, moving through those two mediums requires very different mechanics—or so one might assume. Yet birds like gulls and puffins can plunge into the...</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps</title>
-    <link>https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/</link>
-    <guid>https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/</guid>
-    <pubDate>Tue, 20 Oct 2026 17:12:48 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Meta&apos;s AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at...</description>
+    <title>Here’s the tea</title>
+    <link>https://www.technologyreview.com/2026/10/20/1145274/heres-the-tea/</link>
+    <guid>https://www.technologyreview.com/2026/10/20/1145274/heres-the-tea/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>When Tristan Brown, an associate professor of history at MIT, first examined a Chinese tea chest label displayed at Old South Meeting House, he had no reason to doubt its story. Descendants of the...</description>
     <category>AI</category>
   </item>
   <item>
-    <title>Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software</title>
-    <link>https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html</link>
-    <guid>https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html</guid>
-    <pubDate>Tue, 20 Oct 2026 17:09:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google&apos;s Chrome Root Program confirms on October 20. An intermediate CA signs...</description>
-    <category>Security</category>
+    <title>Melt it, spin it, use it again</title>
+    <link>https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/</link>
+    <guid>https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn....</description>
+    <category>AI</category>
   </item>
   <item>
-    <title>Chrome will now show a warning before you visit ‘suspicious’ sites</title>
-    <link>https://www.theverge.com/tech/1014446/google-chrome-suspicious-website-warning</link>
-    <guid>https://www.theverge.com/tech/1014446/google-chrome-suspicious-website-warning</guid>
-    <pubDate>Tue, 20 Oct 2026 17:00:00 +0000</pubDate>
+    <title>A reason to eat carbs</title>
+    <link>https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/</link>
+    <guid>https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>A high-fat, low-carbohydrate diet can help some people lose weight, and some research has shown that it may protect against colon cancer. But a new study suggests that such a ketogenic diet may...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Robotic therapy for stroke patients</title>
+    <link>https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/</link>
+    <guid>https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Strokes leave 5 million people with long-term impairments each year, and a growing shortage of physical therapists makes it hard for them to get the care they need. A new approach tries to solve...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Taking a swing at a pickleball startup</title>
+    <link>https://www.technologyreview.com/2026/10/20/1145287/taking-a-swing-at-a-pickleball-startup/</link>
+    <guid>https://www.technologyreview.com/2026/10/20/1145287/taking-a-swing-at-a-pickleball-startup/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>In corporate America, Stanley Anderson ’79 says, executives often assume that their peers grew up in privileged circumstances. He did not. “I spent my early years trying not to get recruited into...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A good TA: priceless</title>
+    <link>https://www.technologyreview.com/2026/10/20/1145291/a-good-ta-priceless/</link>
+    <guid>https://www.technologyreview.com/2026/10/20/1145291/a-good-ta-priceless/</guid>
+    <pubDate>Tue, 20 Oct 2026 21:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>These are images of quizzes I took in 3.091, Introduction to Solid-State Chemistry, in the fall of 1980. One is my very first exam at MIT, and getting 49 out of 100 was a soul-crushing experience....</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Netflix is telling investors not to worry, even though you&amp;#8217;re watching less and less</title>
+    <link>https://www.theverge.com/streaming/1014826/netflix-earnings-q3-2026-viewing-time</link>
+    <guid>https://www.theverge.com/streaming/1014826/netflix-earnings-q3-2026-viewing-time</guid>
+    <pubDate>Tue, 20 Oct 2026 20:52:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google is launching a new browser safety feature for Chrome that aims to keep you better informed about how malicious a website might be before you open it. The new suspicious site warnings,...</description>
+    <description>Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>AMD is bringing FSR 4.1 to Xbox consoles and handhelds</title>
-    <link>https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops</link>
-    <guid>https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops</guid>
-    <pubDate>Tue, 20 Oct 2026 16:21:18 +0000</pubDate>
+    <title>Snap is paying Robert Downey Jr. to do the Iron Man thing</title>
+    <link>https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr</link>
+    <guid>https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr</guid>
+    <pubDate>Tue, 20 Oct 2026 20:32:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>AMD has just revealed that it&apos;s bringing its latest upscaling technology, FSR 4.1, to the Xbox Series S and X consoles, as well as laptops, 6000-series GPUs, and handhelds like the Xbox Ally X...</description>
+    <description>Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs&apos; &quot;Chief Customer Experience Officer&quot; and has published several...</description>
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>FairStress: A deeper evaluation of fairness in LLM decision-making</title>
-    <link>https://huggingface.co/blog/allenai/fairstress</link>
-    <guid>https://huggingface.co/blog/allenai/fairstress</guid>
-    <pubDate>Tue, 20 Oct 2026 16:09:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
+    <title>SpaceX says big AI growth fueled revenue jump</title>
+    <link>https://www.theverge.com/science/1014150/spacex-q3-2026-earnings</link>
+    <guid>https://www.theverge.com/science/1014150/spacex-q3-2026-earnings</guid>
+    <pubDate>Tue, 20 Oct 2026 20:26:58 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year &quot;fueled by our Super Intelligence (SI) segment and accelerated...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Plants can speak using electricity, so this startup built an AI model to decipher their language</title>
-    <link>https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/</link>
-    <guid>https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/</guid>
-    <pubDate>Tue, 20 Oct 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.</description>
-    <category>AI</category>
+    <title>Oura adds two new cardiovascular health tracking features to its smart rings</title>
+    <link>https://www.theverge.com/tech/1014712/oura-smart-rings-track-cardio-effort-vo2-max-cardiovascular</link>
+    <guid>https://www.theverge.com/tech/1014712/oura-smart-rings-track-cardio-effort-vo2-max-cardiovascular</guid>
+    <pubDate>Tue, 20 Oct 2026 20:26:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Oura is introducing two new cardiovascular-focused health tracking features to its smart rings designed to help users better understand the effect regular workouts and exercise are having on their...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
-    <title>Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution</title>
-    <link>https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html</link>
-    <guid>https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html</guid>
-    <pubDate>Tue, 20 Oct 2026 15:38:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution....</description>
-    <category>Security</category>
+    <title>TikTok has started censoring searches for popular peptides</title>
+    <link>https://www.theverge.com/science/1014825/peptide-tiktok-search-ban</link>
+    <guid>https://www.theverge.com/science/1014825/peptide-tiktok-search-ban</guid>
+    <pubDate>Tue, 20 Oct 2026 20:16:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Trying to pull up information for certain peptides on TikTok is now returning a &quot;no results found&quot; page when searching for terms like semaglutide, BPC-157, retratutide, and others. That hasn&apos;t...</description>
+    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
