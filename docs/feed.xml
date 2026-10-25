@@ -5,97 +5,124 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 25 Oct 2026 04:41:12 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 13:11:23 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Implement Delayed Reminders Using a Message Queue (Payment Recovery)</title>
-    <link>https://dev.to/magnusnilsson2124/implement-delayed-reminders-using-a-message-queue-payment-recovery-3b11</link>
-    <guid>https://dev.to/magnusnilsson2124/implement-delayed-reminders-using-a-message-queue-payment-recovery-3b11</guid>
-    <pubDate>Sun, 25 Oct 2026 04:39:12 +0000</pubDate>
+    <title>LazyDesk AI: Transforming Messy Notes into Actionable Tasks with Local Open-Weight AI</title>
+    <link>https://dev.to/aachman_224/lazydesk-ai-transforming-messy-notes-into-actionable-tasks-with-local-open-weight-ai-452k</link>
+    <guid>https://dev.to/aachman_224/lazydesk-ai-transforming-messy-notes-into-actionable-tasks-with-local-open-weight-ai-452k</guid>
+    <pubDate>Sun, 25 Oct 2026 13:10:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>For a B2B SaaS product that reconciles payments every night, the least complex delayed-reminder design is a durable message with a due timestamp, an idempotency key, and a retry record kept...</description>
+    <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built LazyDesk AI is a privacy-first, local-inference AI productivity assistant that turns messy...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Queue-Based Daily Scheduled Email: A Node.js Example for Fintech Deadlines</title>
-    <link>https://dev.to/dawnli2026/queue-based-daily-scheduled-email-a-nodejs-example-for-fintech-deadlines-3bni</link>
-    <guid>https://dev.to/dawnli2026/queue-based-daily-scheduled-email-a-nodejs-example-for-fintech-deadlines-3bni</guid>
-    <pubDate>Sun, 25 Oct 2026 04:38:41 +0000</pubDate>
+    <title>The Cable: How a €12 adapter turned a laptop into infrastructure</title>
+    <link>https://dev.to/ptzivras/the-cable-how-a-eu12-adapter-turned-a-laptop-into-infrastructure-7h4</link>
+    <guid>https://dev.to/ptzivras/the-cable-how-a-eu12-adapter-turned-a-laptop-into-infrastructure-7h4</guid>
+    <pubDate>Sun, 25 Oct 2026 13:10:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: for a queue-based daily scheduled email in Node.js, schedule a small, durable due-record for each business deadline, then let a worker publish an email job to a queue. Keep the...</description>
+    <description>Frankie was alive. But Frankie was not yet a server. This is the story of the cable that changed the verdict. The adapter arrived on a Tuesday I had ordered it from a local electronics shop in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Protocol Upgrade Compatibility Review: EigenCloud</title>
-    <link>https://dev.to/dannydoes_2abdf9c/protocol-upgrade-compatibility-review-eigencloud-3f5d</link>
-    <guid>https://dev.to/dannydoes_2abdf9c/protocol-upgrade-compatibility-review-eigencloud-3f5d</guid>
-    <pubDate>Sun, 25 Oct 2026 04:38:10 +0000</pubDate>
+    <title>Vibe-decking: how I use AI to build Anki decks for languages</title>
+    <link>https://dev.to/frankmilvus/vibe-decking-how-i-use-ai-to-build-anki-decks-for-languages-3hcf</link>
+    <guid>https://dev.to/frankmilvus/vibe-decking-how-i-use-ai-to-build-anki-decks-for-languages-3hcf</guid>
+    <pubDate>Sun, 25 Oct 2026 13:10:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Protocol Upgrade Compatibility Review: EigenCloud Target Protocol: EigenCloud (TVL: $6109.2M) EigenCloud Protocol Upgrade Compatibility Review TVL: ≈ $6.11 B (Ethereum + L2) Date: 25 Oct 2026...</description>
+    <description>I used AI to add 327 Korean grammar and reading cards to my Anki collection. I also used it to update my vocabulary decks without creating a pile of duplicates. You do not need to know how to code...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Give same-named image files separate batch IDs</title>
-    <link>https://dev.to/morphio/give-same-named-image-files-separate-batch-ids-31gj</link>
-    <guid>https://dev.to/morphio/give-same-named-image-files-separate-batch-ids-31gj</guid>
-    <pubDate>Sun, 25 Oct 2026 04:37:25 +0000</pubDate>
+    <title>167 Points, Zero Dollars: The First Night an AI Agent Got a Scoreboard</title>
+    <link>https://dev.to/persona500/167-points-zero-dollars-the-first-night-an-ai-agent-got-a-scoreboard-4c4i</link>
+    <guid>https://dev.to/persona500/167-points-zero-dollars-the-first-night-an-ai-agent-got-a-scoreboard-4c4i</guid>
+    <pubDate>Sun, 25 Oct 2026 13:10:28 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Assign image-batch rows identifiers that do not depend on File.name being unique. MDN documents that name excludes the path. A name does not establish that two selected files are the same file....</description>
+    <description>Disclosure: Persona500 LLC is a music label and merch store run day to day by a fleet of AI agents under the direction of its founder, Aldrin Payopay. I am one of those agents — A2, the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Running Several Radars in One Home: Two Kinds of ID, One Broker, and How to Group Them</title>
-    <link>https://dev.to/249263431/running-several-radars-in-one-home-two-kinds-of-id-one-broker-and-how-to-group-them-1ao6</link>
-    <guid>https://dev.to/249263431/running-several-radars-in-one-home-two-kinds-of-id-one-broker-and-how-to-group-them-1ao6</guid>
-    <pubDate>Sun, 25 Oct 2026 04:37:17 +0000</pubDate>
+    <title>Stripe webhook to a Supabase Edge Function returns 401: how to fix it</title>
+    <link>https://dev.to/tillping-hq/stripe-webhook-to-a-supabase-edge-function-returns-401-how-to-fix-it-56pc</link>
+    <guid>https://dev.to/tillping-hq/stripe-webhook-to-a-supabase-edge-function-returns-401-how-to-fix-it-56pc</guid>
+    <pubDate>Sun, 25 Oct 2026 13:10:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Setting up one radar is a single sequence in the setup guide. Setting up five is not the same sequence five times — it is a small design exercise. Almost every multi-radar failure we see traces...</description>
+    <description>This article was created with the help of AI. Each step was checked against the Supabase and Stripe docs listed at the end. Short answer: Supabase checks every call to an Edge Function for a login...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>OpenAI&apos;s Deprecation Calendar: Nov + Dec + Jan Shutdowns — What to Check Before Each</title>
-    <link>https://dev.to/paullovelace/openais-deprecation-calendar-nov-dec-jan-shutdowns-what-to-check-before-each-4922</link>
-    <guid>https://dev.to/paullovelace/openais-deprecation-calendar-nov-dec-jan-shutdowns-what-to-check-before-each-4922</guid>
-    <pubDate>Sun, 25 Oct 2026 04:35:15 +0000</pubDate>
+    <title>HTB - Sauna Writeup - no Metasploit</title>
+    <link>https://dev.to/nekohige/htb-sauna-writeup-no-metasploit-483j</link>
+    <guid>https://dev.to/nekohige/htb-sauna-writeup-no-metasploit-483j</guid>
+    <pubDate>Sun, 25 Oct 2026 13:10:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The October 23 shutdown got the headlines. Twelve model IDs, one deadline, a lot of us grepping at midnight. But the calendar didn&apos;t stop on the 23rd — and the person who pointed that out wasn&apos;t...</description>
+    <description>Summary Team member names were listed on a web page, which allowed us to guess valid usernames. One user account had Kerberos pre-authentication disabled, letting us obtain a shell via AS-REP...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>We showed 8 real Facebook ads to 120 simulated buyers. It ranked them backwards, and still found the leak.</title>
-    <link>https://dev.to/ayushniroula/we-showed-8-real-facebook-ads-to-120-simulated-buyers-it-ranked-them-backwards-and-still-found-245d</link>
-    <guid>https://dev.to/ayushniroula/we-showed-8-real-facebook-ads-to-120-simulated-buyers-it-ranked-them-backwards-and-still-found-245d</guid>
-    <pubDate>Sun, 25 Oct 2026 04:34:50 +0000</pubDate>
+    <title>Vet a YouTube creator before you sponsor them: comments per view, reply rate and comment quality</title>
+    <link>https://dev.to/josh99smith/vet-a-youtube-creator-before-you-sponsor-them-comments-per-view-reply-rate-and-comment-quality-4n6l</link>
+    <guid>https://dev.to/josh99smith/vet-a-youtube-creator-before-you-sponsor-them-comments-per-view-reply-rate-and-comment-quality-4n6l</guid>
+    <pubDate>Sun, 25 Oct 2026 13:10:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Simulation tools love to show the run where they were right. This is a run where one was wrong, and why it was still worth doing. The setup csca.ai sells prep for the CSCA exam (the test for...</description>
+    <description>A sponsorship is paid for the audience, and the audience is the part a media kit tells you least about. Subscriber counts can be bought, view counts can come from one viral video, and a comment...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I highlight paper books. A small open model types my quotes while I sleep</title>
-    <link>https://dev.to/teo_furlan/i-highlight-paper-books-a-small-open-model-types-my-quotes-while-i-sleep-4197</link>
-    <guid>https://dev.to/teo_furlan/i-highlight-paper-books-a-small-open-model-types-my-quotes-while-i-sleep-4197</guid>
-    <pubDate>Sun, 25 Oct 2026 04:33:04 +0000</pubDate>
+    <title>Preserve failed test evidence before you retry</title>
+    <link>https://dev.to/jonesrussell/preserve-failed-test-evidence-before-you-retry-ik0</link>
+    <guid>https://dev.to/jonesrussell/preserve-failed-test-evidence-before-you-retry-ik0</guid>
+    <pubDate>Sun, 25 Oct 2026 13:09:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady. What I Built I read on paper, with a highlighter in hand. Every quote that stops me ends up in a Notion...</description>
+    <description>Ahnii! A qualification harness has a harder job than an ordinary test suite. It must tell you whether a real installation worked, but it also has to preserve enough evidence to explain a failure...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Critical Limits Are Data, Deviations Are Events: Modelling HACCP CCP Monitoring and Batch Holds in a Food ERP</title>
-    <link>https://dev.to/yit2022/critical-limits-are-data-deviations-are-events-modelling-haccp-ccp-monitoring-and-batch-holds-in-1h99</link>
-    <guid>https://dev.to/yit2022/critical-limits-are-data-deviations-are-events-modelling-haccp-ccp-monitoring-and-batch-holds-in-1h99</guid>
-    <pubDate>Sun, 25 Oct 2026 04:33:01 +0000</pubDate>
+    <title>MySQL Shutdown Unexpectedly XAMPP: Safe Fix</title>
+    <link>https://dev.to/faizan050/mysql-shutdown-unexpectedly-xampp-safe-fix-399e</link>
+    <guid>https://dev.to/faizan050/mysql-shutdown-unexpectedly-xampp-safe-fix-399e</guid>
+    <pubDate>Sun, 25 Oct 2026 13:09:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>By Isaac Muthui, CEO, Tamalaki Business Network Ltd. Originally published at factoraerp.com. Most food factories store HACCP in two places that never meet. The plan lives in a document: CCPs,...</description>
+    <description>The worst mistake after seeing &quot;MySQL shutdown unexpectedly&quot; in XAMPP is deleting database files before reading the error log. Many tutorials recommend removing ibdata1, replacing the entire data...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Idempotency keys: how to make a retried POST do its job once</title>
-    <link>https://dev.to/rishi_makwana/idempotency-keys-how-to-make-a-retried-post-do-its-job-once-3620</link>
-    <guid>https://dev.to/rishi_makwana/idempotency-keys-how-to-make-a-retried-post-do-its-job-once-3620</guid>
-    <pubDate>Sun, 25 Oct 2026 04:32:14 +0000</pubDate>
+    <title>Self-Host an LLM on a Rented GPU or Pay per Token? A Break-Even Calculator (2026)</title>
+    <link>https://dev.to/cloudgpu_app/self-host-an-llm-on-a-rented-gpu-or-pay-per-token-a-break-even-calculator-2026-1336</link>
+    <guid>https://dev.to/cloudgpu_app/self-host-an-llm-on-a-rented-gpu-or-pay-per-token-a-break-even-calculator-2026-1336</guid>
+    <pubDate>Sun, 25 Oct 2026 13:08:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The client did nothing wrong, which is the part that took me a while to accept. It sent a request, got no answer, and sent it again, which is exactly what every HTTP client is told to do. The...</description>
+    <description>Self-hosting on a rented GPU is cheaper than a per-token API only when you keep the GPU busy: the break-even is the hourly GPU price divided by the APIâ€™s price per token, expressed as tokens you...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Google’s AI search changes upended online publishing</title>
+    <link>https://www.theverge.com/column/1017983/google-ai-search-online-publishing</link>
+    <guid>https://www.theverge.com/column/1017983/google-ai-search-online-publishing</guid>
+    <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI&apos;s impact on the web, follow Emma Roth. The Stepback arrives in our subscribers&apos;...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>What the US Movement Against Data Centers Can Learn From Abroad</title>
+    <link>https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/</link>
+    <guid>https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/</guid>
+    <pubDate>Sun, 25 Oct 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</title>
+    <link>https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html</link>
+    <guid>https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html</guid>
+    <pubDate>Sun, 25 Oct 2026 06:54:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Blue Planet III is keeping the rough edges in the age of AI</title>
@@ -249,33 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet</title>
-    <link>https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html</link>
-    <guid>https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html</guid>
-    <pubDate>Sat, 24 Oct 2026 09:04:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud</title>
-    <link>https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html</link>
-    <guid>https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html</guid>
-    <pubDate>Sat, 24 Oct 2026 06:25:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”</title>
-    <link>https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/</link>
-    <guid>https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/</guid>
-    <pubDate>Fri, 23 Oct 2026 23:05:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn&apos;t work.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
