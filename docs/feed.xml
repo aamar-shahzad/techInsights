@@ -5,97 +5,142 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 25 Oct 2026 19:03:12 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 22:33:23 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Said It: Gemma finds the 6 promises I forgot, offline, in 17 seconds</title>
-    <link>https://dev.to/ayush_01/said-it-gemma-finds-the-6-promises-i-forgot-offline-in-17-seconds-2hob</link>
-    <guid>https://dev.to/ayush_01/said-it-gemma-finds-the-6-promises-i-forgot-offline-in-17-seconds-2hob</guid>
-    <pubDate>Sun, 25 Oct 2026 19:01:54 +0000</pubDate>
+    <title>Your Python script&apos;s print() output is useless at 3 a.m. Here is how to switch to logging in 10 lines</title>
+    <link>https://dev.to/renev3408/your-python-scripts-print-output-is-useless-at-3-am-here-is-how-to-switch-to-logging-in-10-4mnh</link>
+    <guid>https://dev.to/renev3408/your-python-scripts-print-output-is-useless-at-3-am-here-is-how-to-switch-to-logging-in-10-4mnh</guid>
+    <pubDate>Sun, 25 Oct 2026 22:29:42 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built &quot;Kal bhej dunga&quot; is the most broken promise in India, and I&apos;ve said it in every group chat...</description>
+    <description>You wrote a script, put it on a cron job, and one night it fails. You open the output and find a wall of print() lines with no timestamps, no severity, and no idea which line came from which step....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>inbox-triage: Out of 100 emails, only a few matter. I built a tool that finds them.</title>
-    <link>https://dev.to/bhoomikac/inbox-triage-out-of-100-emails-only-a-few-matter-i-built-a-tool-that-finds-them-5e1d</link>
-    <guid>https://dev.to/bhoomikac/inbox-triage-out-of-100-emails-only-a-few-matter-i-built-a-tool-that-finds-them-5e1d</guid>
-    <pubDate>Sun, 25 Oct 2026 19:01:20 +0000</pubDate>
+    <title>Conversation Management &amp; Context Window</title>
+    <link>https://dev.to/ramya_perumal/conversation-management-context-window-3j01</link>
+    <guid>https://dev.to/ramya_perumal/conversation-management-context-window-3j01</guid>
+    <pubDate>Sun, 25 Oct 2026 22:29:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Out of 100 emails in my inbox, a few matter: an internship offer, a hackathon, a reply from a repo...</description>
+    <description>All models, including large models such as Claude Sonnet, can have a limited context window. The context window is nothing but everything the model can see in one call. Larger models can have a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Aria Operations answers 3,440 and vRealize Operations answers 5,492: a rename that splits your own inventory</title>
-    <link>https://dev.to/jeffreyciend/aria-operations-answers-3440-and-vrealize-operations-answers-5492-a-rename-that-splits-your-own-a0b</link>
-    <guid>https://dev.to/jeffreyciend/aria-operations-answers-3440-and-vrealize-operations-answers-5492-a-rename-that-splits-your-own-a0b</guid>
-    <pubDate>Sun, 25 Oct 2026 19:01:02 +0000</pubDate>
+    <title>Browser Tab Hygiene: The System I Actually Use</title>
+    <link>https://dev.to/weatherclockdash/browser-tab-hygiene-the-system-i-actually-use-5816</link>
+    <guid>https://dev.to/weatherclockdash/browser-tab-hygiene-the-system-i-actually-use-5816</guid>
+    <pubDate>Sun, 25 Oct 2026 22:29:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Aria Operations answers 3,440 and vRealize Operations answers 5,492: a rename that splits your own inventory When VMware renamed vRealize Operations to Aria Operations, it did not change the page...</description>
+    <description>The number of browser tabs you can reasonably manage depends more on workflow discipline than on any software feature. Here&apos;s how I think about tab hygiene, and the minimal tooling I use. The Tab...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>NVIDIA Launches Minerva and Measures Observability in Factory Yield</title>
-    <link>https://dev.to/echakiri/nvidia-launches-minerva-and-measures-observability-in-factory-yield-5g24</link>
-    <guid>https://dev.to/echakiri/nvidia-launches-minerva-and-measures-observability-in-factory-yield-5g24</guid>
-    <pubDate>Sun, 25 Oct 2026 19:00:02 +0000</pubDate>
+    <title>Handling Failure in AI Document Extraction: Beyond Simple Parsing</title>
+    <link>https://dev.to/renato_marinho/handling-failure-in-ai-document-extraction-beyond-simple-parsing-pkh</link>
+    <guid>https://dev.to/renato_marinho/handling-failure-in-ai-document-extraction-beyond-simple-parsing-pkh</guid>
+    <pubDate>Sun, 25 Oct 2026 22:29:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR NVIDIA Minerva is an AIOps platform NVIDIA launched on 22 October 2026 to collect telemetry from an AI factory and turn it into incident intelligence, and an AI factory is the building full...</description>
+    <description>When we build AI agents to interact with unstructured documents, we often focus on the extraction logic—the prompts, the schema definitions, and the LLM temperature. But as anyone who has moved a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The EXIF Editor Handbook: How to Fix, Not Fake, Your Photo Metadata</title>
-    <link>https://dev.to/emma50/the-exif-editor-handbook-how-to-fix-not-fake-your-photo-metadata-ph8</link>
-    <guid>https://dev.to/emma50/the-exif-editor-handbook-how-to-fix-not-fake-your-photo-metadata-ph8</guid>
-    <pubDate>Sun, 25 Oct 2026 19:00:00 +0000</pubDate>
+    <title>Firefox Dark Mode: OS Level, prefers-color-scheme, Extensions, and New Tab</title>
+    <link>https://dev.to/weatherclockdash/firefox-dark-mode-os-level-prefers-color-scheme-extensions-and-new-tab-3jdh</link>
+    <guid>https://dev.to/weatherclockdash/firefox-dark-mode-os-level-prefers-color-scheme-extensions-and-new-tab-3jdh</guid>
+    <pubDate>Sun, 25 Oct 2026 22:29:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Last March, a real estate client called me in a small panic. One of her listing photos had her seller&apos;s exact home coordinates baked into it. Not the neighborhood. The house. Latitude and...</description>
+    <description>Dark mode has become a mainstream expectation — most apps support it, most operating systems default to it or offer it prominently. Firefox has several layers of dark mode support, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Manual Execution to Intelligent ETL Process Orchestration</title>
-    <link>https://dev.to/pcabreram1234/from-manual-execution-to-intelligent-etl-process-orchestration-5cpc</link>
-    <guid>https://dev.to/pcabreram1234/from-manual-execution-to-intelligent-etl-process-orchestration-5cpc</guid>
-    <pubDate>Sun, 25 Oct 2026 18:58:53 +0000</pubDate>
+    <title>The agent sorted the JSON body keys to tidy it up, and the request signature stopped matching</title>
+    <link>https://dev.to/jeff_pdc/the-agent-sorted-the-json-body-keys-to-tidy-it-up-and-the-request-signature-stopped-matching-3552</link>
+    <guid>https://dev.to/jeff_pdc/the-agent-sorted-the-json-body-keys-to-tidy-it-up-and-the-request-signature-stopped-matching-3552</guid>
+    <pubDate>Sun, 25 Oct 2026 22:29:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How to design an orchestration layer to coordinate data processes, validate dependencies, and improve operational traceability. The Problem: Processes That Relied Too Heavily on Human Intervention...</description>
+    <description>We handed the agent a webhook client that signs each outbound payload with HMAC before sending. It read the integration guide, built the serializer, and the local tests passed against a stub that...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>LATER: A Local-First AI Assistant for Digital Clutter</title>
-    <link>https://dev.to/kshama1888/later-a-local-first-ai-assistant-for-digital-clutter-4c2a</link>
-    <guid>https://dev.to/kshama1888/later-a-local-first-ai-assistant-for-digital-clutter-4c2a</guid>
-    <pubDate>Sun, 25 Oct 2026 18:58:12 +0000</pubDate>
+    <title>Why I Switched to Firefox as My Primary Development Browser</title>
+    <link>https://dev.to/weatherclockdash/why-i-switched-to-firefox-as-my-primary-development-browser-1cfi</link>
+    <guid>https://dev.to/weatherclockdash/why-i-switched-to-firefox-as-my-primary-development-browser-1cfi</guid>
+    <pubDate>Sun, 25 Oct 2026 22:28:30 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>HacktoberFest Open-Source AI Challenge — Week 3: Slow and Steady. The problem isn&apos;t always that we have too much information. Sometimes, it&apos;s that we never find the time to organize it. We...</description>
+    <description>The best browser for developers is whichever one lets you do your work with the least friction. For me, that&apos;s Firefox. Here&apos;s why, after trying Chrome and Arc for extended periods. Developer...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>[Boost]</title>
-    <link>https://dev.to/luceam/-gd9</link>
-    <guid>https://dev.to/luceam/-gd9</guid>
-    <pubDate>Sun, 25 Oct 2026 18:57:21 +0000</pubDate>
+    <title>How I Reduced Browser Friction to Spend More Time Working</title>
+    <link>https://dev.to/weatherclockdash/how-i-reduced-browser-friction-to-spend-more-time-working-3dd5</link>
+    <guid>https://dev.to/weatherclockdash/how-i-reduced-browser-friction-to-spend-more-time-working-3dd5</guid>
+    <pubDate>Sun, 25 Oct 2026 22:28:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Keeping a coding-agent client fast when sessions get huge pascal andre pascal andre pascal andre Follow Oct 24 Keeping a coding-agent client fast when sessions get huge #performance #ai...</description>
+    <description>Most productivity advice assumes the problem is what you do with your time. A lot of the time, the problem is the environment you work in — the friction and interruptions built into the tools you...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Bulk redirect checker in Python: 301 vs 302, redirect chains and site-migration QA (2026)</title>
-    <link>https://dev.to/datawrightlabs/bulk-redirect-checker-in-python-301-vs-302-redirect-chains-and-site-migration-qa-2026-5g00</link>
-    <guid>https://dev.to/datawrightlabs/bulk-redirect-checker-in-python-301-vs-302-redirect-chains-and-site-migration-qa-2026-5g00</guid>
-    <pubDate>Sun, 25 Oct 2026 18:56:46 +0000</pubDate>
+    <title>Broadletter: my newsletters, read to me as one news broadcast by a local Gemma 🦥</title>
+    <link>https://dev.to/virien84/broadletter-my-newsletters-read-to-me-as-one-news-broadcast-by-a-local-gemma-39eb</link>
+    <guid>https://dev.to/virien84/broadletter-my-newsletters-read-to-me-as-one-news-broadcast-by-a-local-gemma-39eb</guid>
+    <pubDate>Sun, 25 Oct 2026 22:28:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Redirects are invisible until they go wrong. A migration ships, someone maps 2,000 old URLs to new ones, and three months later you find out that half of them go through three hops, a few land on...</description>
+    <description>This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built I subscribe to newsletters the way some people buy gym memberships: with the best...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>MatchGrind - Football Data API</title>
-    <link>https://dev.to/saletise_/matchgrind-football-data-api-1kcl</link>
-    <guid>https://dev.to/saletise_/matchgrind-football-data-api-1kcl</guid>
-    <pubDate>Sun, 25 Oct 2026 18:56:07 +0000</pubDate>
+    <title>How to Run a Unified LLM API with One Key: OpenAI Catalog Failures</title>
+    <link>https://dev.to/ironspiredraven77/how-to-run-a-unified-llm-api-with-one-key-openai-catalog-failures-2j4m</link>
+    <guid>https://dev.to/ironspiredraven77/how-to-run-a-unified-llm-api-with-one-key-openai-catalog-failures-2j4m</guid>
+    <pubDate>Sun, 25 Oct 2026 22:28:17 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>About MatchGrind Football data API with live scores, fixtures, standings, club data and match analytics from 60 competitions. Free tier, no card. Get your key on RapidAPI. Key capabilities Who got...</description>
+    <description>Short answer: use a unified LLM API with one key in front of product-catalog enrichment, discover available model IDs before sending traffic, and estimate token cost before routing a large batch....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>iFixit&amp;#8217;s look inside the iPhone Duo may explain those broken screens and hinges</title>
+    <link>https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge</link>
+    <guid>https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge</guid>
+    <pubDate>Sun, 25 Oct 2026 21:40:27 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo&apos;s folding screen...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Grok releases the first seven minutes of its AI-generated ‘Odyssey’</title>
+    <link>https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</link>
+    <guid>https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/</guid>
+    <pubDate>Sun, 25 Oct 2026 21:31:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The footage looks okay, as long as you&apos;re not seeking artistry, inspiration, or human interest.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Scott Walker’s The Drift will get under your skin</title>
+    <link>https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review</link>
+    <guid>https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review</guid>
+    <pubDate>Sun, 25 Oct 2026 21:08:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>In my mind, Spooky Season music comes in two distinct flavors. There are the fun, occasionally goofy songs like &quot;The Monster Mash&quot; and John Carpenter&apos;s &quot;Halloween Theme.&quot; Then there is the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate</title>
+    <link>https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen</link>
+    <guid>https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen</guid>
+    <pubDate>Sun, 25 Oct 2026 20:16:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Social media and the iPhone Duo subreddit are filled with reports of Apple&apos;s foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Zen Browser is the Arc replacement I was looking for</title>
+    <link>https://www.theverge.com/tech/1018275/zen-browser-arc-replacement</link>
+    <guid>https://www.theverge.com/tech/1018275/zen-browser-arc-replacement</guid>
+    <pubDate>Sun, 25 Oct 2026 19:24:50 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I know many of you are mourning the loss of the Arc browser, and I get it. It felt like the first app in a long time to really offer a new approach to browser design. Atlassian bought the company...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers</title>
@@ -231,51 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>A new study found Grok&apos;s AI overwhelmingly recommends Republican candidates while OpenAI&apos;s GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>Fielded is obsessed with scammers and unhinged Japanese cyberpunk</title>
-    <link>https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview</link>
-    <guid>https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview</guid>
-    <pubDate>Sat, 24 Oct 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Lindsay Powell, who releases records under the name Fielded, has spent most of her career subverting expectations and genre conventions. According to their Bandcamp page, Fielded started as an...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday</title>
-    <link>https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale</guid>
-    <pubDate>Sat, 24 Oct 2026 15:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Black Friday is still over a month away, but if you’re hoping to upgrade your TV, you don’t need to wait until November. LG has already kicked off its early Black Friday sale, letting you save on...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>What to expect from Apple’s ‘Pro and tell’ event</title>
-    <link>https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro</link>
-    <guid>https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro</guid>
-    <pubDate>Sat, 24 Oct 2026 14:15:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It feels like Apple&apos;s Welcome Home event just happened. And the iPhone Duo announcement isn&apos;t all that far in our rearview mirror, either. Yet, the company is back with another launch, focused on...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Here are the top AI agents that can live in your text messages</title>
-    <link>https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/</link>
-    <guid>https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/</guid>
-    <pubDate>Sat, 24 Oct 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop</title>
-    <link>https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis</link>
-    <guid>https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis</guid>
-    <pubDate>Sat, 24 Oct 2026 14:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia&apos;s RTX Spark platform, it got me thinking:...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
