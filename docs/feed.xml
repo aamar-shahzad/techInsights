@@ -5,97 +5,241 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 04 Nov 2026 19:45:12 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 00:53:55 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>How to Keep Secrets in Python Without Pushing Them to GitHub</title>
-    <link>https://dev.to/sergio_gmez_9533652d3b3c/how-to-keep-secrets-in-python-without-pushing-them-to-github-174j</link>
-    <guid>https://dev.to/sergio_gmez_9533652d3b3c/how-to-keep-secrets-in-python-without-pushing-them-to-github-174j</guid>
-    <pubDate>Wed, 04 Nov 2026 19:36:13 +0000</pubDate>
+    <title>Walk-forward testing, explained honestly</title>
+    <link>https://dev.to/dronpancholi/walk-forward-testing-explained-honestly-mpl</link>
+    <guid>https://dev.to/dronpancholi/walk-forward-testing-explained-honestly-mpl</guid>
+    <pubDate>Thu, 05 Nov 2026 00:52:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>How to Keep Secrets in Python Without Pushing Them to GitHub In Python application development it’s common to work with API keys, access tokens, or database credentials. Accidentally publishing...</description>
+    <description>Walk-forward analysis is called the gold standard of strategy validation — but two different things share the name. Know which one you are actually getting. Ask a quant how they validate a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>XSS: the most common web vulnerability, explained with examples</title>
-    <link>https://dev.to/sergio_gmez_9533652d3b3c/xss-the-most-common-web-vulnerability-explained-with-examples-3mgh</link>
-    <guid>https://dev.to/sergio_gmez_9533652d3b3c/xss-the-most-common-web-vulnerability-explained-with-examples-3mgh</guid>
-    <pubDate>Wed, 04 Nov 2026 19:35:47 +0000</pubDate>
+    <title>How to Keep an AI Product Online When Your Model Provider Goes Down: LLM Failover, Gateways, and Fallback Models</title>
+    <link>https://dev.to/noahcontrolplane/how-to-keep-an-ai-product-online-when-your-model-provider-goes-down-llm-failover-gateways-and-5bo0</link>
+    <guid>https://dev.to/noahcontrolplane/how-to-keep-an-ai-product-online-when-your-model-provider-goes-down-llm-failover-gateways-and-5bo0</guid>
+    <pubDate>Thu, 05 Nov 2026 00:51:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>XSS: the most common web vulnerability, explained with examples Cross‑Site Scripting (XSS) attacks continue to top the lists of web vulnerabilities. The reason is simple: a single point where the...</description>
+    <description>Keep an AI product online by putting an OpenAI-compatible gateway in front of every model call, configuring fallback chains across providers, regions, and a self-hosted open-weight model, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Evaluating Auth0 FGA? Four questions to ask before the Enterprise call</title>
-    <link>https://dev.to/authbyexample1/evaluating-auth0-fga-four-questions-to-ask-before-the-enterprise-call-5335</link>
-    <guid>https://dev.to/authbyexample1/evaluating-auth0-fga-four-questions-to-ask-before-the-enterprise-call-5335</guid>
-    <pubDate>Wed, 04 Nov 2026 19:35:36 +0000</pubDate>
+    <title>Kubernetes Secrets Are Distribution, Not Custody</title>
+    <link>https://dev.to/zenmesh/kubernetes-secrets-are-distribution-not-custody-5000</link>
+    <guid>https://dev.to/zenmesh/kubernetes-secrets-are-distribution-not-custody-5000</guid>
+    <pubDate>Thu, 05 Nov 2026 00:50:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I work at Permit, and a colleague just published our comparison of Auth0 FGA and Permit. We compete with Auth0 FGA, so treat this as a vendor&apos;s read. I&apos;ve tried to pull out the questions that...</description>
+    <description>This is article 4 of 10 in Beyond Kubernetes Defaults. Read article 3: A Kubernetes Lease Is Not a Fencing Token first, or start with article 1: When Kubernetes Primitives Aren’t Enough. Later...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Open Source AI Booms: Hugging Face on Who Really Profits</title>
-    <link>https://dev.to/chandan_kumar_1afaffcf991/open-source-ai-booms-hugging-face-on-who-really-profits-58nd</link>
-    <guid>https://dev.to/chandan_kumar_1afaffcf991/open-source-ai-booms-hugging-face-on-who-really-profits-58nd</guid>
-    <pubDate>Wed, 04 Nov 2026 19:34:32 +0000</pubDate>
+    <title>How to Run an App Across Multiple Regions: Routing, Databases, and Failover for Stateful Workloads</title>
+    <link>https://dev.to/noahcontrolplane/how-to-run-an-app-across-multiple-regions-routing-databases-and-failover-for-stateful-workloads-236f</link>
+    <guid>https://dev.to/noahcontrolplane/how-to-run-an-app-across-multiple-regions-routing-databases-and-failover-for-stateful-workloads-236f</guid>
+    <pubDate>Thu, 05 Nov 2026 00:50:15 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The insight that changes how you think about building with open source AI: the model itself is rarely where the money is made. As Hugging Face recently detailed, the boom in open source AI models...</description>
+    <description>Run an app across regions by deploying the same stateless services from one definition to every region, putting a health-checked global routing layer in front that sends each user to the nearest...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>More than half of developers are worried about their careers due to artificial intelligence</title>
-    <link>https://dev.to/hacksgr/more-than-half-of-developers-are-worried-about-their-careers-due-to-artificial-intelligence-lom</link>
-    <guid>https://dev.to/hacksgr/more-than-half-of-developers-are-worried-about-their-careers-due-to-artificial-intelligence-lom</guid>
-    <pubDate>Wed, 04 Nov 2026 19:33:30 +0000</pubDate>
+    <title>How to Test Failover Without Taking Production Down: Game Days, Chaos Experiments, and a Region-Failure Drill</title>
+    <link>https://dev.to/noahcontrolplane/how-to-test-failover-without-taking-production-down-game-days-chaos-experiments-and-a-mem</link>
+    <guid>https://dev.to/noahcontrolplane/how-to-test-failover-without-taking-production-down-game-days-chaos-experiments-and-a-mem</guid>
+    <pubDate>Thu, 05 Nov 2026 00:48:25 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>New research from Adaptavist explores developer sentiment around artificial intelligence, revealing that 54% of software developers feel anxious about their long-term career prospects. The report...</description>
+    <description>Test failover safely by climbing a ladder from tabletop exercises and staging tests to small, reversible production experiments with a limited blast radius, explicit abort conditions, and a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Clean Diff, Broken Prod: Why Line-by-Line Review Isn’t Enough for AI Code</title>
-    <link>https://dev.to/parsam/clean-diff-broken-prod-why-line-by-line-review-isnt-enough-for-ai-code-31he</link>
-    <guid>https://dev.to/parsam/clean-diff-broken-prod-why-line-by-line-review-isnt-enough-for-ai-code-31he</guid>
-    <pubDate>Wed, 04 Nov 2026 19:32:49 +0000</pubDate>
+    <title>LogCarverGuard, an MCP proxy between an AI agent and SQL Server</title>
+    <link>https://dev.to/caiderek/logcarverguard-an-mcp-proxy-between-an-ai-agent-and-sql-server-143n</link>
+    <guid>https://dev.to/caiderek/logcarverguard-an-mcp-proxy-between-an-ai-agent-and-sql-server-143n</guid>
+    <pubDate>Thu, 05 Nov 2026 00:48:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>most &quot;best AI code review tool&quot; lists put CodeRabbit and Tomosu in the same row. they look at the same pull request, but they&apos;re answering different questions about it, and the difference matters...</description>
+    <description>I am a SQL Server DBA and I also write C# and .NET. Many people now let an AI coding agent like Claude Code or Cursor run SQL on a real database. I wanted something between the agent and the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title># React Tree Node View – A Customizable Tree View for React 🌳</title>
-    <link>https://dev.to/hossein_najafi81/-react-tree-node-view-a-customizable-tree-view-for-react-3kia</link>
-    <guid>https://dev.to/hossein_najafi81/-react-tree-node-view-a-customizable-tree-view-for-react-3kia</guid>
-    <pubDate>Wed, 04 Nov 2026 19:32:17 +0000</pubDate>
+    <title>Cheapest per token is not cheapest per finished job: what 2,400 runs show</title>
+    <link>https://dev.to/grain64/cheapest-per-token-is-not-cheapest-per-finished-job-what-2400-runs-show-1484</link>
+    <guid>https://dev.to/grain64/cheapest-per-token-is-not-cheapest-per-finished-job-what-2400-runs-show-1484</guid>
+    <pubDate>Thu, 05 Nov 2026 00:47:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>#showdev #react #opensource #typescript Hey everyone! 👋 I&apos;d like to introduce my new React component: React Tree Node View. It&apos;s a lightweight and customizable tree view component built with React...</description>
+    <description>A model with a 33% pass rate turned out to be the cheapest way to finish a task in a recent 10-model benchmark. The same benchmark shows why that result is less of a free lunch than it looks. Here...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>WooCommerce Abandoned Cart: Why Shoppers Leave and How to Find the Step</title>
-    <link>https://dev.to/opti-behavior/woocommerce-abandoned-cart-why-shoppers-leave-and-how-to-find-the-step-4a8d</link>
-    <guid>https://dev.to/opti-behavior/woocommerce-abandoned-cart-why-shoppers-leave-and-how-to-find-the-step-4a8d</guid>
-    <pubDate>Wed, 04 Nov 2026 19:30:52 +0000</pubDate>
+    <title>I Let an AI Agent Prep My Workshop. Prep Took 20 Minutes.</title>
+    <link>https://dev.to/keofung/i-let-an-ai-agent-prep-my-workshop-prep-took-20-minutes-59dh</link>
+    <guid>https://dev.to/keofung/i-let-an-ai-agent-prep-my-workshop-prep-took-20-minutes-59dh</guid>
+    <pubDate>Thu, 05 Nov 2026 00:46:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Disclosure: we build Opti-Behavior, the WordPress plugin shown in the last section. The method works with any analytics tool. A WooCommerce abandoned cart is a cart a shopper filled and never...</description>
+    <description>Series: How to Run a Workshop People Remember (7/10) Workshop prep is the part nobody teaches and everybody dreads: read the run sheet, list the props, check print specs, build the sign-up and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>CVE-2026-93363: CVE-2026-93363: Improper Access Control in Payload CMS Storage Upload Route</title>
-    <link>https://dev.to/cverports/cve-2026-93363-cve-2026-93363-improper-access-control-in-payload-cms-storage-upload-route-71f</link>
-    <guid>https://dev.to/cverports/cve-2026-93363-cve-2026-93363-improper-access-control-in-payload-cms-storage-upload-route-71f</guid>
-    <pubDate>Wed, 04 Nov 2026 19:30:49 +0000</pubDate>
+    <title>Keyword Research in Python: Ideas, Search Volume, Difficulty and Intent for ~$3 per 1,000 Keywords</title>
+    <link>https://dev.to/steadyscrape/keyword-research-in-python-ideas-search-volume-difficulty-and-intent-for-3-per-1000-keywords-37j1</link>
+    <guid>https://dev.to/steadyscrape/keyword-research-in-python-ideas-search-volume-difficulty-and-intent-for-3-per-1000-keywords-37j1</guid>
+    <pubDate>Thu, 05 Nov 2026 00:46:54 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>CVE-2026-93363: Improper Access Control in Payload CMS Storage Upload Route Vulnerability ID: CVE-2026-93363 CVSS Score: 4.3 Published: 2026-11-04 Payload CMS contains a missing authorization...</description>
+    <description>Most keyword research comes down to one loop: start from a few seed terms, expand them into everything people actually search, then keep the ones with real volume and a difficulty you can win....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SQL Injection Explained for Beginners: How It Works and How to Prevent It</title>
-    <link>https://dev.to/sergio_gmez_9533652d3b3c/sql-injection-explained-for-beginners-how-it-works-and-how-to-prevent-it-45c6</link>
-    <guid>https://dev.to/sergio_gmez_9533652d3b3c/sql-injection-explained-for-beginners-how-it-works-and-how-to-prevent-it-45c6</guid>
-    <pubDate>Wed, 04 Nov 2026 19:30:31 +0000</pubDate>
+    <title>SilentMind: IA que censura e gera polêmica nas buscas</title>
+    <link>https://dev.to/leojulieta/silentmind-ia-que-censura-e-gera-polemica-nas-buscas-3kfj</link>
+    <guid>https://dev.to/leojulieta/silentmind-ia-que-censura-e-gera-polemica-nas-buscas-3kfj</guid>
+    <pubDate>Thu, 05 Nov 2026 00:46:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>SQL Injection Explained for Beginners: How It Works and How to Prevent It SQL injection (SQLi) is one of the oldest and most dangerous attacks against web applications that handle databases....</description>
+    <description>SilentMind: o modelo censurador que está bombando nas buscas e gerando polêmica Introdução Em 15 de outubro de 2024 a Tencent lançou o SilentMind, um modelo de IA que bloqueia automaticamente...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>X says its updated web app is way faster</title>
+    <link>https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster</link>
+    <guid>https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster</guid>
+    <pubDate>Thu, 05 Nov 2026 00:25:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>X is introducing a new version of its web app that it says is much faster than before, and it&apos;s now rolling out the updated app &quot;one country at a time&quot; for signed-in users. &quot;Open a profile on...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>The Blue Wave Has Tech Bros Scrambling for Data Centers in Space</title>
+    <link>https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/</link>
+    <guid>https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/</guid>
+    <pubDate>Wed, 04 Nov 2026 23:13:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>After Democrats won big in Texas and other AI infrastructure hot spots on Tuesday, data center enthusiasts looked for comfort in low Earth orbit.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI PACs spent millions trying to shape Congress — here’s how they fared</title>
+    <link>https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/</link>
+    <guid>https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/</guid>
+    <pubDate>Wed, 04 Nov 2026 22:45:09 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Qualcomm is betting big on data centers as smartphone sales sink</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers</guid>
+    <pubDate>Wed, 04 Nov 2026 22:42:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Hackers exploited iOS and Android flaws to infect phones</title>
+    <link>https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/</link>
+    <guid>https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/</guid>
+    <pubDate>Wed, 04 Nov 2026 22:26:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Nothing CEO says company’s mysterious AI-first device is dropping next month</title>
+    <link>https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/</link>
+    <guid>https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/</guid>
+    <pubDate>Wed, 04 Nov 2026 22:13:16 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>While it&apos;s not yet clear what kind of product the smartphone startup is cooking up, Nothing&apos;s CEO said the product is designed to leverage AI for productivity gains.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Almost no one uses AI agents to book their Uber, company says</title>
+    <link>https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/</link>
+    <guid>https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/</guid>
+    <pubDate>Wed, 04 Nov 2026 21:56:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>17 better ways Elon Musk could have wasted $446 million</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich</guid>
+    <pubDate>Wed, 04 Nov 2026 21:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>VMware releases vSphere Express for virtualization on up to 128 cores</title>
+    <link>https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/</link>
+    <guid>https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/</guid>
+    <pubDate>Wed, 04 Nov 2026 21:38:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
+    <description>“We started listening to a lot of our lower-end customers,&quot; VMware exec says.</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>How I learned to love an obnoxious phone grip</title>
+    <link>https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case</link>
+    <guid>https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case</guid>
+    <pubDate>Wed, 04 Nov 2026 21:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Much like a great recipe, it started with a stick of butter. This wasn&apos;t real butter; it was a friend&apos;s new phone grip, complemented by a phone case with bold stripes. Butter is in vogue now, or...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI is already trying to shape the 2028 election</title>
+    <link>https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/</link>
+    <guid>https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/</guid>
+    <pubDate>Wed, 04 Nov 2026 21:25:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Bose’s QuietComfort Headphones are more than half off</title>
+    <link>https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale</guid>
+    <pubDate>Wed, 04 Nov 2026 21:13:11 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Meta acquires AI coding startup Conductor</title>
+    <link>https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/</link>
+    <guid>https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/</guid>
+    <pubDate>Wed, 04 Nov 2026 21:10:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms</title>
+    <link>https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/</link>
+    <guid>https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/</guid>
+    <pubDate>Wed, 04 Nov 2026 20:41:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Gemini for Home now plugs into AT&amp;#038;T’s smart security system</title>
+    <link>https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system</link>
+    <guid>https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system</guid>
+    <pubDate>Wed, 04 Nov 2026 20:23:24 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>AT&amp;T&apos;s smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the &quot;first&quot; home security product to integrate with Google Home Premium,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out</title>
+    <link>https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/</link>
+    <guid>https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/</guid>
+    <pubDate>Wed, 04 Nov 2026 20:06:21 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Google is tying up AI Overviews with traditional search, angering parents and educators who worry that easy, machine-generated answers are leaving kids less capable.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Open source AI is booming. Hugging Face explains who profits.</title>
@@ -116,15 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’</title>
-    <link>https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/</link>
-    <guid>https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/</guid>
-    <pubDate>Wed, 04 Nov 2026 19:16:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.</description>
-    <category>AI</category>
-  </item>
-  <item>
     <title>Google’s Pixel 11 phones are up to 27 percent off</title>
     <link>https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale</link>
     <guid>https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale</guid>
@@ -141,140 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
     <description>I revealed yesterday that the new Xbox Nano controller supports a Wi-Fi connection directly to Xbox Cloud Gaming, and now Microsoft is making it official today. Two new Xbox previews will let...</description>
     <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Texas was the new epicenter of the AI data center buildout. That might be kaput.</title>
-    <link>https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/</link>
-    <guid>https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/</guid>
-    <pubDate>Wed, 04 Nov 2026 18:50:55 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position....</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs</title>
-    <link>https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/</link>
-    <guid>https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/</guid>
-    <pubDate>Wed, 04 Nov 2026 18:44:57 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nothing teases a screen-free AI device ahead of launch next month</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei</guid>
-    <pubDate>Wed, 04 Nov 2026 18:26:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nothing CEO Carl Pei said in a post on X that the company&apos;s launching its first AI device in December. That&apos;s just a little over a year after Pei announced plans for &quot;AI-native&quot; devices and an AI...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Apple will check shared iCloud links for ‘harmful content’</title>
-    <link>https://www.theverge.com/tech/1026604/apple-icloud-links-harmful-content-27-3</link>
-    <guid>https://www.theverge.com/tech/1026604/apple-icloud-links-harmful-content-27-3</guid>
-    <pubDate>Wed, 04 Nov 2026 18:23:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Apple will start checking iCloud items that are accessible to anyone who has the link for &quot;harmful content&quot; starting with iOS 27.3 and other 27.3 updates, the company says. &quot;When you share an item...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Roundtables: Inside the Quest for Cognitive Immortality</title>
-    <link>https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/</link>
-    <guid>https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/</guid>
-    <pubDate>Wed, 04 Nov 2026 18:21:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>My therapist thinks I should chuck the Amazon Bee Frontier out a window</title>
-    <link>https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables</link>
-    <guid>https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables</guid>
-    <pubDate>Wed, 04 Nov 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&apos;re going to change your life. Opt in...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ChatGPT will now make you animated GIFs</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6</guid>
-    <pubDate>Wed, 04 Nov 2026 18:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI&apos;s new Images 2.6 model, allows you to adjust the GIF&apos;s animation...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Dharma Field Extractor: Any Document In, Structured Fields in JSON Out</title>
-    <link>https://huggingface.co/blog/Dharma-AI/dharma-field-extractor</link>
-    <guid>https://huggingface.co/blog/Dharma-AI/dharma-field-extractor</guid>
-    <pubDate>Wed, 04 Nov 2026 17:50:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>God of War Laufey delayed until May</title>
-    <link>https://www.theverge.com/games/1026448/sony-playstation-god-of-war-laufey-delay</link>
-    <guid>https://www.theverge.com/games/1026448/sony-playstation-god-of-war-laufey-delay</guid>
-    <pubDate>Wed, 04 Nov 2026 17:10:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>God of War Laufey&apos;s release date is being delayed to May 20th, 2027, developer Santa Monica Studio announced today. It was set to launch on PlayStation 5 on February 16th. Here is Santa Monica...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>What’s next for US energy policy after the midterm elections?</title>
-    <link>https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/</link>
-    <guid>https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/</guid>
-    <pubDate>Wed, 04 Nov 2026 17:08:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nintendo is losing a Switch cartridge supplier</title>
-    <link>https://www.theverge.com/games/1026426/nintendo-switch-cartridges-rom-supplier-data-center</link>
-    <guid>https://www.theverge.com/games/1026426/nintendo-switch-cartridges-rom-supplier-data-center</guid>
-    <pubDate>Wed, 04 Nov 2026 17:03:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nintendo is about to lose a major memory supplier for its Switch cartridges. The supplier, Macronix, announced during a recent quarterly earnings call that it would be gradually phasing out ROM...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root</title>
-    <link>https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html</link>
-    <guid>https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html</guid>
-    <pubDate>Wed, 04 Nov 2026 17:00:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker&apos;s code then runs as root,...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>SonicWall Won&apos;t Patch EoL GMS Flaws That Could Expose Files, Alter Database Records</title>
-    <link>https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html</link>
-    <guid>https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html</guid>
-    <pubDate>Wed, 04 Nov 2026 17:00:38 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>The Results Are In: Voters Hate Data Centers</title>
-    <link>https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/</link>
-    <guid>https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/</guid>
-    <pubDate>Wed, 04 Nov 2026 16:56:17 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling</title>
-    <link>https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/</link>
-    <guid>https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/</guid>
-    <pubDate>Wed, 04 Nov 2026 16:51:35 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Apple&apos;s AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there&apos;s still room for improvement.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
