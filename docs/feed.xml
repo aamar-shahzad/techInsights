@@ -5,97 +5,259 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 05 Nov 2026 00:53:55 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 12:20:41 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Walk-forward testing, explained honestly</title>
-    <link>https://dev.to/dronpancholi/walk-forward-testing-explained-honestly-mpl</link>
-    <guid>https://dev.to/dronpancholi/walk-forward-testing-explained-honestly-mpl</guid>
-    <pubDate>Thu, 05 Nov 2026 00:52:15 +0000</pubDate>
+    <title>Isolando perfis de navegador com Python e Playwright (e quando usar um anti-detect)</title>
+    <link>https://dev.to/nuvemdev/isolando-perfis-de-navegador-com-python-e-playwright-e-quando-usar-um-anti-detect-87h</link>
+    <guid>https://dev.to/nuvemdev/isolando-perfis-de-navegador-com-python-e-playwright-e-quando-usar-um-anti-detect-87h</guid>
+    <pubDate>Thu, 05 Nov 2026 12:09:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Walk-forward analysis is called the gold standard of strategy validation — but two different things share the name. Know which one you are actually getting. Ask a quant how they validate a...</description>
+    <description>Quando você tem várias contas (lojas, clientes), o primeiro passo é isolar o ambiente de cada uma. Um anti-detect faz isso com interface pronta. Mas dá pra entender o princípio em 30 linhas de...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Keep an AI Product Online When Your Model Provider Goes Down: LLM Failover, Gateways, and Fallback Models</title>
-    <link>https://dev.to/noahcontrolplane/how-to-keep-an-ai-product-online-when-your-model-provider-goes-down-llm-failover-gateways-and-5bo0</link>
-    <guid>https://dev.to/noahcontrolplane/how-to-keep-an-ai-product-online-when-your-model-provider-goes-down-llm-failover-gateways-and-5bo0</guid>
-    <pubDate>Thu, 05 Nov 2026 00:51:05 +0000</pubDate>
+    <title>OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run</title>
+    <link>https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html</link>
+    <guid>https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html</guid>
+    <pubDate>Thu, 05 Nov 2026 12:08:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Erlang Actors vs Java Virtual Threads: What Staroletov (2026) Teaches Us About Concurrency Design</title>
+    <link>https://dev.to/matheuscamarques/erlang-actors-vs-java-virtual-threads-what-staroletov-2026-teaches-us-about-concurrency-design-5e5p</link>
+    <guid>https://dev.to/matheuscamarques/erlang-actors-vs-java-virtual-threads-what-staroletov-2026-teaches-us-about-concurrency-design-5e5p</guid>
+    <pubDate>Thu, 05 Nov 2026 12:08:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Keep an AI product online by putting an OpenAI-compatible gateway in front of every model call, configuring fallback chains across providers, regions, and a self-hosted open-weight model, and...</description>
+    <description>Erlang Actors vs Java Virtual Threads: What Staroletov (2026) Teaches Us About Concurrency Design Java finally has lightweight threads. Erlang has had them since 1986. But the gap between the two...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Kubernetes Secrets Are Distribution, Not Custody</title>
-    <link>https://dev.to/zenmesh/kubernetes-secrets-are-distribution-not-custody-5000</link>
-    <guid>https://dev.to/zenmesh/kubernetes-secrets-are-distribution-not-custody-5000</guid>
-    <pubDate>Thu, 05 Nov 2026 00:50:22 +0000</pubDate>
+    <title>Google Antigravity vs Moontors, two ways to run coding agents</title>
+    <link>https://dev.to/roidayan/google-antigravity-vs-moontors-two-ways-to-run-coding-agents-5f2m</link>
+    <guid>https://dev.to/roidayan/google-antigravity-vs-moontors-two-ways-to-run-coding-agents-5f2m</guid>
+    <pubDate>Thu, 05 Nov 2026 12:07:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is article 4 of 10 in Beyond Kubernetes Defaults. Read article 3: A Kubernetes Lease Is Not a Fencing Token first, or start with article 1: When Kubernetes Primitives Aren’t Enough. Later...</description>
+    <description>Running several coding agents at once has gone from a trick to a product category, and Google Antigravity is now the biggest name in it. It&apos;s a good moment to compare it with something built...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Run an App Across Multiple Regions: Routing, Databases, and Failover for Stateful Workloads</title>
-    <link>https://dev.to/noahcontrolplane/how-to-run-an-app-across-multiple-regions-routing-databases-and-failover-for-stateful-workloads-236f</link>
-    <guid>https://dev.to/noahcontrolplane/how-to-run-an-app-across-multiple-regions-routing-databases-and-failover-for-stateful-workloads-236f</guid>
-    <pubDate>Thu, 05 Nov 2026 00:50:15 +0000</pubDate>
+    <title>I built a 3D survival game in a weekend and shipped it from my own PC</title>
+    <link>https://dev.to/uumuse/i-built-a-3d-survival-game-in-a-weekend-and-shipped-it-from-my-own-pc-4l9i</link>
+    <guid>https://dev.to/uumuse/i-built-a-3d-survival-game-in-a-weekend-and-shipped-it-from-my-own-pc-4l9i</guid>
+    <pubDate>Thu, 05 Nov 2026 12:07:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Run an app across regions by deploying the same stateless services from one definition to every region, putting a health-checked global routing layer in front that sends each user to the nearest...</description>
+    <description>I wanted to see how far a weekend build could go, so I made a 3D survival game — dodge incoming fire, and don’t get sandwiched by enemies. The whole thing runs on a bare Node HTTP server on my...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How to Test Failover Without Taking Production Down: Game Days, Chaos Experiments, and a Region-Failure Drill</title>
-    <link>https://dev.to/noahcontrolplane/how-to-test-failover-without-taking-production-down-game-days-chaos-experiments-and-a-mem</link>
-    <guid>https://dev.to/noahcontrolplane/how-to-test-failover-without-taking-production-down-game-days-chaos-experiments-and-a-mem</guid>
-    <pubDate>Thu, 05 Nov 2026 00:48:25 +0000</pubDate>
+    <title>Postman silently installed AI plugins in its own update. I built a one-command diff for your dev-tool trust surface</title>
+    <link>https://dev.to/techdevfun/postman-silently-installed-ai-plugins-in-its-own-update-i-built-a-one-command-diff-for-your-3487</link>
+    <guid>https://dev.to/techdevfun/postman-silently-installed-ai-plugins-in-its-own-update-i-built-a-one-command-diff-for-your-3487</guid>
+    <pubDate>Thu, 05 Nov 2026 12:07:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Test failover safely by climbing a ladder from tabletop exercises and staging tests to small, reversible production experiments with a limited blast radius, explicit abort conditions, and a...</description>
+    <description>Postman 12.33.4 shipped an update that silently auto-installed Claude Code and Codex AI plugins, wrote a trusted hash for its own SessionStart hook, and opened a remote MCP connection. Users found...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>LogCarverGuard, an MCP proxy between an AI agent and SQL Server</title>
-    <link>https://dev.to/caiderek/logcarverguard-an-mcp-proxy-between-an-ai-agent-and-sql-server-143n</link>
-    <guid>https://dev.to/caiderek/logcarverguard-an-mcp-proxy-between-an-ai-agent-and-sql-server-143n</guid>
-    <pubDate>Thu, 05 Nov 2026 00:48:10 +0000</pubDate>
+    <title>How we cut image weight on a Next.js store product grid without losing quality</title>
+    <link>https://dev.to/elias_0549e0e2ef8cf6ad89a/how-we-cut-image-weight-on-a-nextjs-store-product-grid-without-losing-quality-m54</link>
+    <guid>https://dev.to/elias_0549e0e2ef8cf6ad89a/how-we-cut-image-weight-on-a-nextjs-store-product-grid-without-losing-quality-m54</guid>
+    <pubDate>Thu, 05 Nov 2026 12:06:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I am a SQL Server DBA and I also write C# and .NET. Many people now let an AI coding agent like Claude Code or Cursor run SQL on a real database. I wanted something between the agent and the...</description>
+    <description>Our product grid was the heaviest page on the store. Category pages showed 24 tools at once, and on a mid-range phone over 4G the largest image took almost four seconds to show up. We run our...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Cheapest per token is not cheapest per finished job: what 2,400 runs show</title>
-    <link>https://dev.to/grain64/cheapest-per-token-is-not-cheapest-per-finished-job-what-2400-runs-show-1484</link>
-    <guid>https://dev.to/grain64/cheapest-per-token-is-not-cheapest-per-finished-job-what-2400-runs-show-1484</guid>
-    <pubDate>Thu, 05 Nov 2026 00:47:31 +0000</pubDate>
+    <title>Cosmos ATOM unbonding period: what happens after 21 days?</title>
+    <link>https://dev.to/botlab/cosmos-atom-unbonding-period-what-happens-after-21-days-4p3n</link>
+    <guid>https://dev.to/botlab/cosmos-atom-unbonding-period-what-happens-after-21-days-4p3n</guid>
+    <pubDate>Thu, 05 Nov 2026 12:06:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A model with a 33% pass rate turned out to be the cheapest way to finish a task in a recent 10-model benchmark. The same benchmark shows why that result is less of a free lunch than it looks. Here...</description>
+    <description>If you are asking about the Cosmos ATOM unbonding period and what happens after 21 days, the short answer is that the chain moves your tokens back to your available balance automatically. On the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Let an AI Agent Prep My Workshop. Prep Took 20 Minutes.</title>
-    <link>https://dev.to/keofung/i-let-an-ai-agent-prep-my-workshop-prep-took-20-minutes-59dh</link>
-    <guid>https://dev.to/keofung/i-let-an-ai-agent-prep-my-workshop-prep-took-20-minutes-59dh</guid>
-    <pubDate>Thu, 05 Nov 2026 00:46:54 +0000</pubDate>
+    <title>Azure Databricks + Snowflake Catalog Federation Over Private Link: The Two-Hostname Trap</title>
+    <link>https://dev.to/bhkbdbhatt/azure-databricks-snowflake-catalog-federation-over-private-link-the-two-hostname-trap-3npi</link>
+    <guid>https://dev.to/bhkbdbhatt/azure-databricks-snowflake-catalog-federation-over-private-link-the-two-hostname-trap-3npi</guid>
+    <pubDate>Thu, 05 Nov 2026 12:05:58 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Series: How to Run a Workshop People Remember (7/10) Workshop prep is the part nobody teaches and everybody dreads: read the run sheet, list the props, check print specs, build the sign-up and...</description>
+    <description>The Problem You&apos;ve got Azure Databricks and Snowflake in the same region. Your security team mandates no public internet egress from the compute plane. You set up Private Link. You create the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Keyword Research in Python: Ideas, Search Volume, Difficulty and Intent for ~$3 per 1,000 Keywords</title>
-    <link>https://dev.to/steadyscrape/keyword-research-in-python-ideas-search-volume-difficulty-and-intent-for-3-per-1000-keywords-37j1</link>
-    <guid>https://dev.to/steadyscrape/keyword-research-in-python-ideas-search-volume-difficulty-and-intent-for-3-per-1000-keywords-37j1</guid>
-    <pubDate>Thu, 05 Nov 2026 00:46:54 +0000</pubDate>
+    <title>&quot;Image too small&quot; in Merchant Center: fix Shopify product images before Google&apos;s 500 px rule</title>
+    <link>https://dev.to/muhammad_inshaalshahid_a/image-too-small-in-merchant-center-fix-shopify-product-images-before-googles-500-px-rule-35a1</link>
+    <guid>https://dev.to/muhammad_inshaalshahid_a/image-too-small-in-merchant-center-fix-shopify-product-images-before-googles-500-px-rule-35a1</guid>
+    <pubDate>Thu, 05 Nov 2026 12:05:31 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most keyword research comes down to one loop: start from a few seed terms, expand them into everything people actually search, then keep the ones with real volume and a difficulty you can win....</description>
+    <description>You open Google Merchant Center and see a new warning on some of your products: &quot;Image too small for upcoming enforcement&quot;. Nothing is disapproved yet, and your ads still run. But the warning has...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>SilentMind: IA que censura e gera polêmica nas buscas</title>
-    <link>https://dev.to/leojulieta/silentmind-ia-que-censura-e-gera-polemica-nas-buscas-3kfj</link>
-    <guid>https://dev.to/leojulieta/silentmind-ia-que-censura-e-gera-polemica-nas-buscas-3kfj</guid>
-    <pubDate>Thu, 05 Nov 2026 00:46:06 +0000</pubDate>
+    <title>Your Benchmark&apos;s Grader Is the Weakest Link — And an Item-Response Fix for Judge Panels</title>
+    <link>https://dev.to/felipe0liveira/your-benchmarks-grader-is-the-weakest-link-and-an-item-response-fix-for-judge-panels-43f7</link>
+    <guid>https://dev.to/felipe0liveira/your-benchmarks-grader-is-the-weakest-link-and-an-item-response-fix-for-judge-panels-43f7</guid>
+    <pubDate>Thu, 05 Nov 2026 12:04:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>SilentMind: o modelo censurador que está bombando nas buscas e gerando polêmica Introdução Em 15 de outubro de 2024 a Tencent lançou o SilentMind, um modelo de IA que bloqueia automaticamente...</description>
+    <description>This digest covers evals and observability news from 2026-10-29 through 2026-11-05: new arXiv work on benchmark grading integrity and judge aggregation, fresh benchmarks and tracing tooling from...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>AI’s Next Trick? Speaking Dolphin</title>
+    <link>https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/</link>
+    <guid>https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>He Trolls AI Labs for a Living. Now They All Want to Work With Him</title>
+    <link>https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/</link>
+    <guid>https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/</guid>
+    <pubDate>Thu, 05 Nov 2026 11:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Discord is ditching Electron and its new app uses less RAM</title>
+    <link>https://www.theverge.com/news/1027379/discord-ditching-electron-web-app</link>
+    <guid>https://www.theverge.com/news/1027379/discord-ditching-electron-web-app</guid>
+    <pubDate>Thu, 05 Nov 2026 11:39:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Discord is finally giving up on Electron, the cross-platform framework that lets developers build desktop apps using web technologies. Electron web apps are notoriously heavy on system resources,...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Playstation and Spider-Man performance see Sony profits surge</title>
+    <link>https://www.theverge.com/tech/1027358/sony-q2-2026-earnings-spider-man-playstation</link>
+    <guid>https://www.theverge.com/tech/1027358/sony-q2-2026-earnings-spider-man-playstation</guid>
+    <pubDate>Thu, 05 Nov 2026 11:00:15 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sony is enjoying a sharp profit spike in its latest quarterly financials, largely driven by its PlayStation business and the blockbuster success of Spider-Man: Brand New Day. According to the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon is getting back into restaurant delivery with Uber Eats team-up</title>
+    <link>https://www.theverge.com/tech/1026716/amazon-uber-eats-prime-restaurant-delivery-partnership</link>
+    <guid>https://www.theverge.com/tech/1026716/amazon-uber-eats-prime-restaurant-delivery-partnership</guid>
+    <pubDate>Thu, 05 Nov 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Amazon and Uber are teaming up to make Uber Eats the official restaurant delivery partner for Prime subscribers in the US. The news comes as Uber faces a drastically reshaped competitive landscape...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Big Tech’s big AI buildout will not end until someone stops it</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3</guid>
+    <pubDate>Thu, 05 Nov 2026 10:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>5 Active Cyber Threats That Put US Enterprises at Risk in October 2026</title>
+    <link>https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html</link>
+    <guid>https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html</guid>
+    <pubDate>Thu, 05 Nov 2026 10:06:19 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>A new bill could change how the US builds energy infrastructure</title>
+    <link>https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/</link>
+    <guid>https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/</guid>
+    <pubDate>Thu, 05 Nov 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content</title>
+    <link>https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html</link>
+    <guid>https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html</guid>
+    <pubDate>Thu, 05 Nov 2026 09:13:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access</title>
+    <link>https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html</link>
+    <guid>https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html</guid>
+    <pubDate>Thu, 05 Nov 2026 08:42:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking,...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution</title>
+    <link>https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html</link>
+    <guid>https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html</guid>
+    <pubDate>Thu, 05 Nov 2026 07:06:33 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Zyxel GS1900 network switches that received the vendor&apos;s earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says</title>
+    <link>https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html</link>
+    <guid>https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html</guid>
+    <pubDate>Thu, 05 Nov 2026 05:17:04 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time</title>
+    <link>https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi</link>
+    <guid>https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi</guid>
+    <pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Ocarina of Time remake on the Switch 2 smashes together the past and present. The game retains much of the original N64 experience while updating it with modern graphics and gameplay that make...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Want to Rent an Internet Address at the White House?</title>
+    <link>https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/</link>
+    <guid>https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/</guid>
+    <pubDate>Thu, 05 Nov 2026 04:36:17 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Krebs on Security</source>
+    <description>Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Setting a new standard for responsible AI infrastructure</title>
+    <link>https://openai.com/index/setting-new-standard-responsible-ai-infrastructure</link>
+    <guid>https://openai.com/index/setting-new-standard-responsible-ai-infrastructure</guid>
+    <pubDate>Thu, 05 Nov 2026 02:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Apple is reportedly cutting budgets for its internal AI usage</title>
+    <link>https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/</link>
+    <guid>https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/</guid>
+    <pubDate>Thu, 05 Nov 2026 01:26:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>The company is said to be significantly dropping the amount it&apos;s spending on AI for its engineering teams.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>After the midterms, a bigger clash over data centers could be coming</title>
+    <link>https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/</link>
+    <guid>https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/</guid>
+    <pubDate>Thu, 05 Nov 2026 01:02:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Data center opposition crossed party lines in Tuesday’s midterms.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>X says its updated web app is way faster</title>
@@ -107,175 +269,12 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>The Blue Wave Has Tech Bros Scrambling for Data Centers in Space</title>
-    <link>https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/</link>
-    <guid>https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/</guid>
-    <pubDate>Wed, 04 Nov 2026 23:13:14 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>After Democrats won big in Texas and other AI infrastructure hot spots on Tuesday, data center enthusiasts looked for comfort in low Earth orbit.</description>
+    <title>A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.</title>
+    <link>https://huggingface.co/blog/phonon-tts</link>
+    <guid>https://huggingface.co/blog/phonon-tts</guid>
+    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hugging Face Blog</source>
     <category>AI</category>
-  </item>
-  <item>
-    <title>AI PACs spent millions trying to shape Congress — here’s how they fared</title>
-    <link>https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/</link>
-    <guid>https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/</guid>
-    <pubDate>Wed, 04 Nov 2026 22:45:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Qualcomm is betting big on data centers as smartphone sales sink</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers</guid>
-    <pubDate>Wed, 04 Nov 2026 22:42:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Hackers exploited iOS and Android flaws to infect phones</title>
-    <link>https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/</link>
-    <guid>https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/</guid>
-    <pubDate>Wed, 04 Nov 2026 22:26:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nothing CEO says company’s mysterious AI-first device is dropping next month</title>
-    <link>https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/</link>
-    <guid>https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/</guid>
-    <pubDate>Wed, 04 Nov 2026 22:13:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>While it&apos;s not yet clear what kind of product the smartphone startup is cooking up, Nothing&apos;s CEO said the product is designed to leverage AI for productivity gains.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Almost no one uses AI agents to book their Uber, company says</title>
-    <link>https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/</link>
-    <guid>https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/</guid>
-    <pubDate>Wed, 04 Nov 2026 21:56:01 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>17 better ways Elon Musk could have wasted $446 million</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich</guid>
-    <pubDate>Wed, 04 Nov 2026 21:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>VMware releases vSphere Express for virtualization on up to 128 cores</title>
-    <link>https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/</link>
-    <guid>https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/</guid>
-    <pubDate>Wed, 04 Nov 2026 21:38:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>“We started listening to a lot of our lower-end customers,&quot; VMware exec says.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>How I learned to love an obnoxious phone grip</title>
-    <link>https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case</link>
-    <guid>https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case</guid>
-    <pubDate>Wed, 04 Nov 2026 21:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Much like a great recipe, it started with a stick of butter. This wasn&apos;t real butter; it was a friend&apos;s new phone grip, complemented by a phone case with bold stripes. Butter is in vogue now, or...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>OpenAI is already trying to shape the 2028 election</title>
-    <link>https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/</link>
-    <guid>https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/</guid>
-    <pubDate>Wed, 04 Nov 2026 21:25:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Bose’s QuietComfort Headphones are more than half off</title>
-    <link>https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale</guid>
-    <pubDate>Wed, 04 Nov 2026 21:13:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Meta acquires AI coding startup Conductor</title>
-    <link>https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/</link>
-    <guid>https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/</guid>
-    <pubDate>Wed, 04 Nov 2026 21:10:56 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms</title>
-    <link>https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/</link>
-    <guid>https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/</guid>
-    <pubDate>Wed, 04 Nov 2026 20:41:29 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Gemini for Home now plugs into AT&amp;#038;T’s smart security system</title>
-    <link>https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system</link>
-    <guid>https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system</guid>
-    <pubDate>Wed, 04 Nov 2026 20:23:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>AT&amp;T&apos;s smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the &quot;first&quot; home security product to integrate with Google Home Premium,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out</title>
-    <link>https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/</link>
-    <guid>https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/</guid>
-    <pubDate>Wed, 04 Nov 2026 20:06:21 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>Google is tying up AI Overviews with traditional search, angering parents and educators who worry that easy, machine-generated answers are leaving kids less capable.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Open source AI is booming. Hugging Face explains who profits.</title>
-    <link>https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/</link>
-    <guid>https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/</guid>
-    <pubDate>Wed, 04 Nov 2026 19:30:04 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy</title>
-    <link>https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/</link>
-    <guid>https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/</guid>
-    <pubDate>Wed, 04 Nov 2026 19:29:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>DuckDuckGo is courting schools frustrated by Google&apos;s AI restrictions, pointing educators to its search engine and options to disable AI features.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google’s Pixel 11 phones are up to 27 percent off</title>
-    <link>https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale</guid>
-    <pubDate>Wed, 04 Nov 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>You can save a heck of lot of money on Google’s Pixel 11 phones through November 8th, whether you want the best-for-the-least Pixel 11, or the slightly pricier Pixel 11 Pro that takes better...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Xbox previews two new ways to control cloud games</title>
-    <link>https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller</link>
-    <guid>https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller</guid>
-    <pubDate>Wed, 04 Nov 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>I revealed yesterday that the new Xbox Nano controller supports a Wi-Fi connection directly to Xbox Cloud Gaming, and now Microsoft is making it official today. Two new Xbox previews will let...</description>
-    <category>Tech Industry</category>
   </item>
 </channel>
 </rss>
