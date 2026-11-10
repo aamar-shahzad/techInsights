@@ -5,97 +5,268 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 10 Nov 2026 02:44:11 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 12:39:17 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Rollback-Safe Delivery Failure Alerts: Wiring Node.js Error Events to Email</title>
-    <link>https://dev.to/paswkeria/rollback-safe-delivery-failure-alerts-wiring-nodejs-error-events-to-email-58jn</link>
-    <guid>https://dev.to/paswkeria/rollback-safe-delivery-failure-alerts-wiring-nodejs-error-events-to-email-58jn</guid>
-    <pubDate>Tue, 10 Nov 2026 02:40:01 +0000</pubDate>
+    <title>Can an 8 GB Edge Device Run a 2 GB Model? Budget Memory at Peak Concurrency</title>
+    <link>https://dev.to/zediot/can-an-8-gb-edge-device-run-a-2-gb-model-budget-memory-at-peak-concurrency-4e92</link>
+    <guid>https://dev.to/zediot/can-an-8-gb-edge-device-run-a-2-gb-model-budget-memory-at-peak-concurrency-4e92</guid>
+    <pubDate>Tue, 10 Nov 2026 12:20:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>TL;DR: Put email behind a durable, deduplicated alert queue, and make the rollback decision from metrics and traces rather than from an inbox. For a logistics notification service, the smallest...</description>
+    <description>Eight gigabytes of RAM minus a 2 GB model file is not 6 GB of usable inference memory. Calculate the KV cache, then test the longest request and peak concurrency. That subtraction cannot approve a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Sentinel-IR in 30 seconds: what&apos;s new in 0.4</title>
-    <link>https://dev.to/jackymencz/sentinel-ir-in-30-seconds-whats-new-in-04-1pjm</link>
-    <guid>https://dev.to/jackymencz/sentinel-ir-in-30-seconds-whats-new-in-04-1pjm</guid>
-    <pubDate>Tue, 10 Nov 2026 02:39:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>description: &quot;Python, native-code detection, an audit log for your AI agent, a browser playground, and now on GitHub, Glama and the official MCP Registry.&quot; series: &quot;Sentinel-IR: what&apos;s new&quot;...</description>
+    <title>AlphaProof Code</title>
+    <link>https://deepmind.google/blog/introducing-alphaproof-code/</link>
+    <guid>https://deepmind.google/blog/introducing-alphaproof-code/</guid>
+    <pubDate>Tue, 10 Nov 2026 12:11:12 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Hacker News</source>
+    <description>Article URL: https://deepmind.google/blog/introducing-alphaproof-code/ Comments URL: https://news.ycombinator.com/item?id=50439193 Points: 35 # Comments: 13</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Receipt Image Replacement Cleanup: Prefix Batch Delete Before One-Day Lifecycle</title>
-    <link>https://dev.to/sunspirevalerius59/receipt-image-replacement-cleanup-prefix-batch-delete-before-one-day-lifecycle-26pg</link>
-    <guid>https://dev.to/sunspirevalerius59/receipt-image-replacement-cleanup-prefix-batch-delete-before-one-day-lifecycle-26pg</guid>
-    <pubDate>Tue, 10 Nov 2026 02:39:31 +0000</pubDate>
+    <title>New OpenSSH Vulnerability</title>
+    <link>https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html</guid>
+    <pubDate>Tue, 10 Nov 2026 12:02:38 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>It’s a bad one, and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Helping caregivers use AI in everyday life</title>
+    <link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
+    <guid>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</guid>
+    <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Building a Lightweight Kubernetes Environment on K3s and the kubectl command on WSL2 Windows 11</title>
+    <link>https://dev.to/tak0122/building-a-lightweight-kubernetes-environment-on-k3s-and-the-kubectl-command-on-wsl2-windows-11-9pc</link>
+    <guid>https://dev.to/tak0122/building-a-lightweight-kubernetes-environment-on-k3s-and-the-kubectl-command-on-wsl2-windows-11-9pc</guid>
+    <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: on receipt image replacement, write the new original and thumbnails under new keys, commit the active generation in the database, then list the old thumbnail prefix and batch delete...</description>
+    <description>Table of Contents Introduction Step 1: Installation of K3s on Google Cloud Step 2: Installation of kubectl command on WSL2 Windows 11 Step 3: kubectl commands gets the response from K3s Conclusion...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A slow WordPress admin: capture one request before changing plugins</title>
-    <link>https://dev.to/wpshieldpro-notes/a-slow-wordpress-admin-capture-one-request-before-changing-plugins-2g9g</link>
-    <guid>https://dev.to/wpshieldpro-notes/a-slow-wordpress-admin-capture-one-request-before-changing-plugins-2g9g</guid>
-    <pubDate>Tue, 10 Nov 2026 02:38:06 +0000</pubDate>
+    <title>One person, 10+ repos: where each of my apps came from</title>
+    <link>https://dev.to/kenji_sakuramoto_d72920b2/one-person-10-repos-where-each-of-my-apps-came-from-29da</link>
+    <guid>https://dev.to/kenji_sakuramoto_d72920b2/one-person-10-repos-where-each-of-my-apps-came-from-29da</guid>
+    <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The public homepage loads quickly, but an editor waits after clicking Save. That observation gives you two different paths to investigate. A visitor may receive a cached page; an authenticated...</description>
+    <description>I&apos;m Kenji Sakuramoto. I run ｋｅｎｓａｕｒｕｓ LLC, a studio in Shibuya, Tokyo, founded in June 2025, and I run more than ten repos on my own. Most of what I&apos;ve shipped started with a problem in my own...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Firefox RSS Reader: Get News Headlines on Your New Tab Without a Subscription</title>
-    <link>https://dev.to/weatherclockdash/firefox-rss-reader-get-news-headlines-on-your-new-tab-without-a-subscription-3665</link>
-    <guid>https://dev.to/weatherclockdash/firefox-rss-reader-get-news-headlines-on-your-new-tab-without-a-subscription-3665</guid>
-    <pubDate>Tue, 10 Nov 2026 02:38:06 +0000</pubDate>
+    <title>Best mobile app deployment platforms for solo developers in 2026 (with real prices)</title>
+    <link>https://dev.to/torichancapgo/best-mobile-app-deployment-platforms-for-solo-developers-in-2026-with-real-prices-5297</link>
+    <guid>https://dev.to/torichancapgo/best-mobile-app-deployment-platforms-for-solo-developers-in-2026-with-real-prices-5297</guid>
+    <pubDate>Tue, 10 Nov 2026 11:46:23 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>RSS (Really Simple Syndication) has been around since 1999. Most major websites still publish RSS feeds. And yet, most people have abandoned RSS readers for social media feeds and news apps. Here...</description>
+    <description>If you ship mobile apps alone, the best deployment platform in 2026 is Capgo: it builds signed iOS and Android apps in the cloud, uploads them to the stores, and pushes live updates, starting at...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Firefox WebExtensions API: What Makes a Browser Extension Tick</title>
-    <link>https://dev.to/weatherclockdash/firefox-webextensions-api-what-makes-a-browser-extension-tick-1c4e</link>
-    <guid>https://dev.to/weatherclockdash/firefox-webextensions-api-what-makes-a-browser-extension-tick-1c4e</guid>
-    <pubDate>Tue, 10 Nov 2026 02:38:00 +0000</pubDate>
+    <title>Building Keeva: Client-Side Encryption and Persistent Vault State with Tatum and Walrus Memory</title>
+    <link>https://dev.to/notg0d/building-keeva-client-side-encryption-and-persistent-vault-state-with-tatum-and-walrus-memory-2i2f</link>
+    <guid>https://dev.to/notg0d/building-keeva-client-side-encryption-and-persistent-vault-state-with-tatum-and-walrus-memory-2i2f</guid>
+    <pubDate>Tue, 10 Nov 2026 11:46:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Every Firefox extension is built on the WebExtensions API — a standard that also powers Chrome and Edge extensions. Here is a plain-language explanation of how it works. What a Firefox extension...</description>
+    <description>A technical walkthrough of a credential vault built for the Total Recall - Tatum × Walrus Memory Hackathon. Remembering a user is not the same as securely restoring their private data. For a...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Nepse Paper Trading Engine: The Beginning</title>
-    <link>https://dev.to/sauravdhakal12/nepse-paper-trading-engine-the-beginning-2a4f</link>
-    <guid>https://dev.to/sauravdhakal12/nepse-paper-trading-engine-the-beginning-2a4f</guid>
-    <pubDate>Tue, 10 Nov 2026 02:36:43 +0000</pubDate>
+    <title>A Smaller Instance in the Wrong Family Is Still Waste</title>
+    <link>https://dev.to/sherdilcloud/a-smaller-instance-in-the-wrong-family-is-still-waste-7jo</link>
+    <guid>https://dev.to/sherdilcloud/a-smaller-instance-in-the-wrong-family-is-still-waste-7jo</guid>
+    <pubDate>Tue, 10 Nov 2026 11:45:57 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>For a while now, I&apos;ve been working on a paper trading app for NEPSE. Virtual money, real prices, and the freedom to make awful trades without it costing a single rupee. Like most side projects, it...</description>
+    <description>TL;DR: Right-sizing conversations default to &quot;bigger or smaller,&quot; because that&apos;s what usage-history tools measure cleanly. A third category of mismatch gets skipped almost every time: wrong...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Is semantic chunking actually better than rule-based splitting for RAG retrieval?</title>
-    <link>https://dev.to/shenao_yu_e15c14815264a44/is-semantic-chunking-actually-better-than-rule-based-splitting-for-rag-retrieval-d42</link>
-    <guid>https://dev.to/shenao_yu_e15c14815264a44/is-semantic-chunking-actually-better-than-rule-based-splitting-for-rag-retrieval-d42</guid>
-    <pubDate>Tue, 10 Nov 2026 02:35:55 +0000</pubDate>
+    <title>How to Use DevTools Event Listener Breakpoints to Trace Hard-to-Find Bugs</title>
+    <link>https://dev.to/mspk97/how-to-use-devtools-event-listener-breakpoints-to-trace-hard-to-find-bugs-9k</link>
+    <guid>https://dev.to/mspk97/how-to-use-devtools-event-listener-breakpoints-to-trace-hard-to-find-bugs-9k</guid>
+    <pubDate>Tue, 10 Nov 2026 11:45:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The claim that needs examining A common framing in RAG tutorials goes like this: fixed-size splitting is a naive baseline, semantic chunking is the smarter upgrade, and agent-based (propositional)...</description>
+    <description>You know that moment when your UI behaves strangely but the console shows no errors, and stepping through code with regular breakpoints feels like hunting ghosts? Maybe a button click triggers...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Firefox Personal Knowledge Management: Building a Browser-Native PKM Setup</title>
-    <link>https://dev.to/weatherclockdash/firefox-personal-knowledge-management-building-a-browser-native-pkm-setup-1ldc</link>
-    <guid>https://dev.to/weatherclockdash/firefox-personal-knowledge-management-building-a-browser-native-pkm-setup-1ldc</guid>
-    <pubDate>Tue, 10 Nov 2026 02:35:52 +0000</pubDate>
+    <title>A track record nobody can edit: SHA-256, git and Bitcoin timestamps</title>
+    <link>https://dev.to/quantooo/a-track-record-nobody-can-edit-sha-256-git-and-bitcoin-timestamps-3fmn</link>
+    <guid>https://dev.to/quantooo/a-track-record-nobody-can-edit-sha-256-git-and-bitcoin-timestamps-3fmn</guid>
+    <pubDate>Tue, 10 Nov 2026 11:45:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Personal knowledge management (PKM) tools — Notion, Obsidian, Roam Research — are powerful but add another application to manage. For users who want a lighter-weight setup that lives in the...</description>
+    <description>Anyone can show an impressive track record after the fact. The question is whether the predictions existed before the outcomes. We wanted a way to prove that, cheaply, without asking anyone to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Firefox Extensions That Use AI Locally: No Cloud, No Account, No Data Sharing</title>
-    <link>https://dev.to/weatherclockdash/firefox-extensions-that-use-ai-locally-no-cloud-no-account-no-data-sharing-1bhg</link>
-    <guid>https://dev.to/weatherclockdash/firefox-extensions-that-use-ai-locally-no-cloud-no-account-no-data-sharing-1bhg</guid>
-    <pubDate>Tue, 10 Nov 2026 02:35:46 +0000</pubDate>
+    <title>NestJS Core Architecture &amp; Dependency Injection</title>
+    <link>https://dev.to/sai_swaroopbijinapalli_5/nestjs-core-architecture-dependency-injection-3ohl</link>
+    <guid>https://dev.to/sai_swaroopbijinapalli_5/nestjs-core-architecture-dependency-injection-3ohl</guid>
+    <pubDate>Tue, 10 Nov 2026 11:45:35 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Most AI tools in the browser send your content to external servers: Grammarly, Copilot, ChatGPT browser extensions, and similar tools process your text via cloud APIs. Here are Firefox extensions...</description>
+    <description>NestJS Core Architecture &amp; Dependency Injection 1. Introduction NestJS is a Node.js framework that follows a modular architecture to build scalable and maintainable backend applications. It...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Beyond the Alert: The Case for Rich Network Data</title>
+    <link>https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html</link>
+    <guid>https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html</guid>
+    <pubDate>Tue, 10 Nov 2026 11:38:13 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Seagate’s FireCuda Forge moves your data between a hard drive and SSD for better performance</title>
+    <link>https://www.theverge.com/tech/1029665/seagate-firecuda-forge-hybrid-ssd-hard-drive-storage-alkemi-technology</link>
+    <guid>https://www.theverge.com/tech/1029665/seagate-firecuda-forge-hybrid-ssd-hard-drive-storage-alkemi-technology</guid>
+    <pubDate>Tue, 10 Nov 2026 11:01:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Seagate announced a new external storage solution, called the FireCuda Forge, that combines the speed benefits of an SSD with the affordability of a higher-capacity hard drive. The Forge is the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers</title>
+    <link>https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/</link>
+    <guid>https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/</guid>
+    <pubDate>Tue, 10 Nov 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The “abliterators” are flooding the internet with AI models that never say no, making it easier for people to improve their cyberdefenses—or build a bomb.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are</title>
+    <link>https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/</link>
+    <guid>https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/</guid>
+    <pubDate>Tue, 10 Nov 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>The risk of nuclear catastrophe is real, as is the fallout of the China–US domination game (hi there, spies). But no need to panic about Skynet.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Real Motors’ Project Ares is a cyberpunk fantasy made real</title>
+    <link>https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride</link>
+    <guid>https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride</guid>
+    <pubDate>Tue, 10 Nov 2026 11:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities</title>
+    <link>https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html</link>
+    <guid>https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html</guid>
+    <pubDate>Tue, 10 Nov 2026 10:16:51 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers</title>
+    <link>https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html</link>
+    <guid>https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html</guid>
+    <pubDate>Tue, 10 Nov 2026 10:07:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that&apos;s used to break into victims&apos; Microsoft...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution</title>
+    <link>https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html</link>
+    <guid>https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html</guid>
+    <pubDate>Tue, 10 Nov 2026 10:02:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Four flaws that attackers could exploit without logging in were fixed today as part of SAP&apos;s monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites</title>
+    <link>https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html</link>
+    <guid>https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html</guid>
+    <pubDate>Tue, 10 Nov 2026 09:08:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran&apos;s Islamic Revolutionary Guard Corps (IRGC), the French government said...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Closing the AI guidance gap in education</title>
+    <link>https://openai.com/index/closing-ai-guidance-gap-education</link>
+    <guid>https://openai.com/index/closing-ai-guidance-gap-education</guid>
+    <pubDate>Tue, 10 Nov 2026 09:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic&apos;s Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark</title>
+    <link>https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html</link>
+    <guid>https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html</guid>
+    <pubDate>Tue, 10 Nov 2026 08:16:14 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Otter AI can now follow conversations across 30+ languages</title>
+    <link>https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/</link>
+    <guid>https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/</guid>
+    <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information</title>
+    <link>https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/</link>
+    <guid>https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/</guid>
+    <pubDate>Tue, 10 Nov 2026 07:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>A researcher’s trawl through publicly available code found private information was at risk across multiple departments.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026</title>
+    <link>https://thehackernews.com/2026/11/google-issues-chrome-security-update.html</link>
+    <guid>https://thehackernews.com/2026/11/google-issues-chrome-security-update.html</guid>
+    <pubDate>Tue, 10 Nov 2026 06:52:54 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits</title>
+    <link>https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html</link>
+    <guid>https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html</guid>
+    <pubDate>Tue, 10 Nov 2026 06:44:36 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws</title>
+    <link>https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html</link>
+    <guid>https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html</guid>
+    <pubDate>Tue, 10 Nov 2026 06:31:42 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure</title>
+    <link>https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/</link>
+    <guid>https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/</guid>
+    <pubDate>Tue, 10 Nov 2026 05:01:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Anthropic reportedly plans to move forward with IPO plans</title>
@@ -104,177 +275,6 @@
     <pubDate>Tue, 10 Nov 2026 01:27:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>The AI company is expected to set its valuation range this week, the Wall Street Journal reported.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>David Ellison says AI could be the ‘biggest creative unlock in modern history’</title>
-    <link>https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai</link>
-    <guid>https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai</guid>
-    <pubDate>Tue, 10 Nov 2026 00:28:49 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>During Paramount Skydance&apos;s latest earnings call, CEO David Ellison said &quot;it&apos;s hard to imagine&quot; AI won&apos;t have a bigger impact on the film industry than CGI. In response to a question about the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Jensen Huang’s Troubles Leave the AI Industry Reeling</title>
-    <link>https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/</link>
-    <guid>https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/</guid>
-    <pubDate>Tue, 10 Nov 2026 00:18:19 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>With a big checkbook and sought-after chips, Nvidia’s CEO had his thumb on the world of AI. An extramarital affair with a suspected Chinese spy may put all of that at risk.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>What could China get from Jensen Huang?</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang</guid>
-    <pubDate>Mon, 09 Nov 2026 23:51:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>It&apos;s difficult to overstate Nvidia&apos;s power in today&apos;s AI landscape. The company&apos;s chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Here’s what Trump said he knew about Jensen Huang</title>
-    <link>https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference</link>
-    <guid>https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference</guid>
-    <pubDate>Mon, 09 Nov 2026 23:47:46 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang&apos;s affair with an alleged Chinese spy. Huang said...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago</title>
-    <link>https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/</link>
-    <guid>https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/</guid>
-    <pubDate>Mon, 09 Nov 2026 23:28:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang&apos;s business dealings with Jensen Huang, Wired reported.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang</guid>
-    <pubDate>Mon, 09 Nov 2026 23:07:59 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal</title>
-    <link>https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/</link>
-    <guid>https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/</guid>
-    <pubDate>Mon, 09 Nov 2026 22:46:09 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Six months before Nvidia&apos;s spy scandal erupted, Culper Research was already questioning Jensen Huang&apos;s unusually close relationship with a Chinese executive.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The race is on to sue Nvidia</title>
-    <link>https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/</link>
-    <guid>https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/</guid>
-    <pubDate>Mon, 09 Nov 2026 22:23:42 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>MSI’s refurbished QD-OLED gaming monitor is on sale for under $300</title>
-    <link>https://www.theverge.com/gadgets/1030262/msi-mag-272qp-qd-oled-x24-monitor-woot-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1030262/msi-mag-272qp-qd-oled-x24-monitor-woot-deal-sale</guid>
-    <pubDate>Mon, 09 Nov 2026 21:43:41 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the best upgrades you can make to your PC gaming setup is an OLED monitor. Fortunately, MSI’s factory-reconditioned Mag 272QP X24 is on sale at Woot through November 18th with a 180-day...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The global pledge to use AI for climate good is a cruel joke</title>
-    <link>https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31</link>
-    <guid>https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31</guid>
-    <pubDate>Mon, 09 Nov 2026 21:13:16 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>At this point, reading through the latest splashy pledge to use AI for the good of the environment feels like downing a nonalcoholic beer. Admittedly, I&apos;m suspicious from the onset. How can this...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy</title>
-    <link>https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/</link>
-    <guid>https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/</guid>
-    <pubDate>Mon, 09 Nov 2026 20:09:06 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The Nvidia CEO also pulled out of an Anthropic event earlier.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Vulnerability that lets hackers SSH into Linux devices is under active exploitation</title>
-    <link>https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/</link>
-    <guid>https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/</guid>
-    <pubDate>Mon, 09 Nov 2026 19:41:34 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Ars Technica</source>
-    <description>&quot;*sshole&quot; poses a serious threat to Internet security.</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The backlash about data centers might really just be about electricity</title>
-    <link>https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/</link>
-    <guid>https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/</guid>
-    <pubDate>Mon, 09 Nov 2026 19:35:33 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Anthropic releases new Mythos and Fable models amid RSI concerns</title>
-    <link>https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/</link>
-    <guid>https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/</guid>
-    <pubDate>Mon, 09 Nov 2026 19:24:51 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Anthropic says the new models &quot;show improvements in areas like coding, reasoning, and vision,&quot; as well as in communicating more clearly with users.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Apple’s $50 Intelligence Usage Packs extend access to some AI features</title>
-    <link>https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro</link>
-    <guid>https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro</guid>
-    <pubDate>Mon, 09 Nov 2026 19:09:58 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to &quot;Buy More Usage&quot; for a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>ChatGPT Enterprise now available in AWS Marketplace</title>
-    <link>https://openai.com/index/chatgpt-enterprise-aws-marketplace</link>
-    <guid>https://openai.com/index/chatgpt-enterprise-aws-marketplace</guid>
-    <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Anthropic launches new Claude Fable and Mythos 5.2 models</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2</guid>
-    <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on &quot;daunting&quot; technical challenges. The company claims the new models show...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>You can grab three months of Game Pass Ultimate for under $20 per month</title>
-    <link>https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale</guid>
-    <pubDate>Mon, 09 Nov 2026 18:35:25 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The price of Xbox Game Pass Ultimate has fluctuated between $20 and $30 per month over the last year, but you can get three months of the top plan for around $19 per month. At Newegg, using the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny</title>
-    <link>https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/</link>
-    <guid>https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/</guid>
-    <pubDate>Mon, 09 Nov 2026 18:09:52 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.</description>
     <category>AI</category>
   </item>
 </channel>
