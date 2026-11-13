@@ -5,97 +5,187 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 13 Nov 2026 01:04:41 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 12:12:07 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Jetson AGX Orin and LangChain: Remote Access and AI Agent Projects on the MIC-733</title>
-    <link>https://dev.to/_0cccebaf70edea099acc7/jetson-agx-orin-and-langchain-remote-access-and-ai-agent-projects-on-the-mic-733-24hn</link>
-    <guid>https://dev.to/_0cccebaf70edea099acc7/jetson-agx-orin-and-langchain-remote-access-and-ai-agent-projects-on-the-mic-733-24hn</guid>
-    <pubDate>Fri, 13 Nov 2026 01:00:00 +0000</pubDate>
+    <title>AI Doesn’t Have to Go Rogue to Break the World</title>
+    <link>https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html</link>
+    <guid>https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html</guid>
+    <pubDate>Fri, 13 Nov 2026 12:03:30 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
+    <description>This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop. I want to talk about AI hacking....</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>From an empty account to your first player QoE numbers: Open Analytics with the Web SDK</title>
+    <link>https://dev.to/video/from-an-empty-account-to-your-first-player-qoe-numbers-open-analytics-with-the-web-sdk-ic5</link>
+    <guid>https://dev.to/video/from-an-empty-account-to-your-first-player-qoe-numbers-open-analytics-with-the-web-sdk-ic5</guid>
+    <pubDate>Fri, 13 Nov 2026 12:02:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This Jetson AGX Orin LangChain tutorial demonstrates how to operate an Advantech MIC-733 remotely from a laptop and run Jupyter Notebook examples for Grove board control, voice interaction, news...</description>
+    <description>This is the hands-on companion to Your first playback-quality numbers, in minutes on Medium, which covers the same run for product owners. Most streaming teams read their player quality numbers in...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>n8n Expressions: Why $json.Name Works and a Form Question With a Space Doesn&apos;t (Bracket Notation, Items and a Safe Default)</title>
-    <link>https://dev.to/robert_breen_d96e41ecd765/n8n-expressions-why-jsonname-works-and-a-form-question-with-a-space-doesnt-bracket-notation-c2c</link>
-    <guid>https://dev.to/robert_breen_d96e41ecd765/n8n-expressions-why-jsonname-works-and-a-form-question-with-a-space-doesnt-bracket-notation-c2c</guid>
-    <pubDate>Fri, 13 Nov 2026 01:00:00 +0000</pubDate>
+    <title>Pulling the audio out of an MP4 lecture or podcast recording</title>
+    <link>https://dev.to/convertola/pulling-the-audio-out-of-an-mp4-lecture-or-podcast-recording-ga1</link>
+    <guid>https://dev.to/convertola/pulling-the-audio-out-of-an-mp4-lecture-or-podcast-recording-ga1</guid>
+    <pubDate>Fri, 13 Nov 2026 12:02:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The first n8n workflow I teach is two nodes and no other apps: On form submission hosts a form with two questions: Name and What do you need help with? Edit Fields (Set) writes a one-line summary...</description>
+    <description>A lot of what we &quot;watch&quot; is really just listening: recorded lectures, webinar replays, a podcast someone uploaded as a video, a talk from a conference stream. Keeping those as MP4 wastes space and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Hybrid retrieval is decided by your tokeniser, not your fusion weights</title>
-    <link>https://dev.to/williamshi666/hybrid-retrieval-is-decided-by-your-tokeniser-not-your-fusion-weights-28nl</link>
-    <guid>https://dev.to/williamshi666/hybrid-retrieval-is-decided-by-your-tokeniser-not-your-fusion-weights-28nl</guid>
-    <pubDate>Fri, 13 Nov 2026 01:00:00 +0000</pubDate>
+    <title>PrestaShop Debug Mode Writes Attacker-Controlled PHP Into Its Runtime Configuration</title>
+    <link>https://dev.to/johnettagaweraks/prestashop-debug-mode-writes-attacker-controlled-php-into-its-runtime-configuration-4g2p</link>
+    <guid>https://dev.to/johnettagaweraks/prestashop-debug-mode-writes-attacker-controlled-php-into-its-runtime-configuration-4g2p</guid>
+    <pubDate>Fri, 13 Nov 2026 12:02:03 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Semantic search looks like it works until someone pastes a part number into the box. Ask a vector index for HS-2841-B and it returns &quot;related&quot; chunks about heating systems, because embeddings...</description>
+    <description>PrestaShop Debug Mode Writes Attacker-Controlled PHP Into Its Runtime Configuration PrestaShop&apos;s Debug mode is a development convenience in the back office. It can also change how the application...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Everyone&apos;s Worried About Code That Runs at Install Time. I Checked 25 Top Packages: 0 Install Hooks.</title>
-    <link>https://dev.to/aheadkit/everyones-worried-about-code-that-runs-at-install-time-i-checked-25-top-packages-0-install-hooks-5h22</link>
-    <guid>https://dev.to/aheadkit/everyones-worried-about-code-that-runs-at-install-time-i-checked-25-top-packages-0-install-hooks-5h22</guid>
-    <pubDate>Fri, 13 Nov 2026 01:00:00 +0000</pubDate>
+    <title>Render-Blocking Requests in Next.js: What the Insight Measures</title>
+    <link>https://dev.to/kausarraza/render-blocking-requests-in-nextjs-what-the-insight-measures-4a1m</link>
+    <guid>https://dev.to/kausarraza/render-blocking-requests-in-nextjs-what-the-insight-measures-4a1m</guid>
+    <pubDate>Fri, 13 Nov 2026 12:01:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This week&apos;s developer news had a story with a shape I can&apos;t stop thinking about: Postman reportedly shipped an update that auto-installed plugins into people&apos;s AI coding tools — Claude Code,...</description>
+    <description>My site scores 100 in PageSpeed Insights on mobile, and Lighthouse still lists three render-blocking requests on every page. On one run each row said 474 ms. The estimated saving for fixing all...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>I Built 49 Websites for My Music Roster With No Budget — Here&apos;s the System</title>
-    <link>https://dev.to/zoneatl/i-built-49-websites-for-my-music-roster-with-no-budget-heres-the-system-2g0g</link>
-    <guid>https://dev.to/zoneatl/i-built-49-websites-for-my-music-roster-with-no-budget-heres-the-system-2g0g</guid>
-    <pubDate>Fri, 13 Nov 2026 00:59:51 +0000</pubDate>
+    <title>Charge a Saved Card by API With Manual Capture (Before the Hold Quietly Expires)</title>
+    <link>https://dev.to/jafaronpayments/charge-a-saved-card-by-api-with-manual-capture-before-the-hold-quietly-expires-1p5h</link>
+    <guid>https://dev.to/jafaronpayments/charge-a-saved-card-by-api-with-manual-capture-before-the-hold-quietly-expires-1p5h</guid>
+    <pubDate>Fri, 13 Nov 2026 12:01:32 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m Zone ATL — Kevin T. Drummond Jr. — a music manager and five-time published author out of Mission, Texas. No label budget, no dev team. So I built the infrastructure myself: 49 live websites...</description>
+    <description>It&apos;s late afternoon and an order has just come in from a returning customer. Their card is already saved from last time, but the stock check won&apos;t finish until tomorrow, so you don&apos;t want to take...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI video budgets: calculate the cost of usable clips</title>
-    <link>https://dev.to/matintellect/ai-video-budgets-calculate-the-cost-of-usable-clips-269p</link>
-    <guid>https://dev.to/matintellect/ai-video-budgets-calculate-the-cost-of-usable-clips-269p</guid>
-    <pubDate>Fri, 13 Nov 2026 00:59:48 +0000</pubDate>
+    <title>Gemini 4 Hydrogen, xhigh Thinking, and Native Orchestrator Mode in Google Antigravity</title>
+    <link>https://dev.to/evgenii_zinner/gemini-4-hydrogen-xhigh-thinking-and-native-orchestrator-mode-in-google-antigravity-2699</link>
+    <guid>https://dev.to/evgenii_zinner/gemini-4-hydrogen-xhigh-thinking-and-native-orchestrator-mode-in-google-antigravity-2699</guid>
+    <pubDate>Fri, 13 Nov 2026 12:01:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A video API can return a successful job and still give you a clip you cannot use. If you only record the price of the final render, you miss the experiments and failed takes that got you there....</description>
+    <description>When Gemini 4 Argon first landed in Google Antigravity a few weeks ago, I wrote about the manual workflow you had to adopt if you wanted to survive a full workday without hitting a quota wall....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Delete Semantics in Claims Retrieval — A Practical RAG Architecture Guide</title>
-    <link>https://dev.to/linusholm3764/delete-semantics-in-claims-retrieval-a-practical-rag-architecture-guide-4858</link>
-    <guid>https://dev.to/linusholm3764/delete-semantics-in-claims-retrieval-a-practical-rag-architecture-guide-4858</guid>
-    <pubDate>Fri, 13 Nov 2026 00:57:58 +0000</pubDate>
+    <title>Supplier Price History in Laravel: Effective Dates and Variance Alerts for RFQ Quotes</title>
+    <link>https://dev.to/developertugrul/supplier-price-history-in-laravel-effective-dates-and-variance-alerts-for-rfq-quotes-32kb</link>
+    <guid>https://dev.to/developertugrul/supplier-price-history-in-laravel-effective-dates-and-variance-alerts-for-rfq-quotes-32kb</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:52 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Insurance claims intake is a bad place for “eventually consistent enough” search. A claimant can withdraw a document, an adjuster can replace a policy excerpt, and an answer generated from...</description>
+    <description>A buyer approves a supplier quote. Two weeks later, finance asks a simple question: &quot;We paid 14.20 per unit last spring. Why are we paying 16.80 now, and who noticed?&quot; Nobody noticed, because the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Node.js Schedule for Daily Email — Cloud Cron Examples with Retry State</title>
-    <link>https://dev.to/thatchercole8235/nodejs-schedule-for-daily-email-cloud-cron-examples-with-retry-state-4pee</link>
-    <guid>https://dev.to/thatchercole8235/nodejs-schedule-for-daily-email-cloud-cron-examples-with-retry-state-4pee</guid>
-    <pubDate>Fri, 13 Nov 2026 00:57:29 +0000</pubDate>
+    <title>Backstage Scaffolder 2026: From Template to Self-Service Platform</title>
+    <link>https://dev.to/saaro_net/backstage-scaffolder-2026-from-template-to-self-service-platform-4kkh</link>
+    <guid>https://dev.to/saaro_net/backstage-scaffolder-2026-from-template-to-self-service-platform-4kkh</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:36 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Short answer: use cloud cron to create one idempotent daily run, then let a durable queue and leased Node.js workers drain the email jobs with bounded retries. A daily report email is easy to...</description>
+    <description>The Backstage Scaffolder is the heart of any Developer Portal: It enables developer teams to create new projects, services, and components via self-service – without having to wait for a platform...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I built memory for Claude Code and Codex: inject little, let them pull the rest</title>
-    <link>https://dev.to/dinesh_rajendran_46fc29b4/how-i-built-memory-for-claude-code-and-codex-inject-little-let-them-pull-the-rest-3la0</link>
-    <guid>https://dev.to/dinesh_rajendran_46fc29b4/how-i-built-memory-for-claude-code-and-codex-inject-little-let-them-pull-the-rest-3la0</guid>
-    <pubDate>Fri, 13 Nov 2026 00:56:18 +0000</pubDate>
+    <title>Asking an LLM &quot;are these two tickets duplicates?&quot; costs $111 for 1,000 tickets and $11,130 for 10,000</title>
+    <link>https://dev.to/altrouter/asking-an-llm-are-these-two-tickets-duplicates-costs-111-for-1000-tickets-and-11130-for-4k7m</link>
+    <guid>https://dev.to/altrouter/asking-an-llm-are-these-two-tickets-duplicates-costs-111-for-1000-tickets-and-11130-for-4k7m</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Agent memory works best when it&apos;s on a diet: inject only what the agent can&apos;t find out for itself, and let it ask for the rest. Key findings Inject only what a coding agent can&apos;t find out for...</description>
+    <description>You have a pile of support tickets and want to find the ones that describe the same problem. Models are good at this: show one two tickets, ask &quot;same issue, yes or no?&quot;, and the answer is usually...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>From Curious to Confident: How I Use AI APIs Without Being a Machine Learning Expert</title>
-    <link>https://dev.to/shadie_ai/from-curious-to-confident-how-i-use-ai-apis-without-being-a-machine-learning-expert-423p</link>
-    <guid>https://dev.to/shadie_ai/from-curious-to-confident-how-i-use-ai-apis-without-being-a-machine-learning-expert-423p</guid>
-    <pubDate>Fri, 13 Nov 2026 00:56:08 +0000</pubDate>
+    <title>Small Language Models 2026: Why Small AI Models Are Taking Over Production</title>
+    <link>https://dev.to/saaro_net/small-language-models-2026-why-small-ai-models-are-taking-over-production-1pa9</link>
+    <guid>https://dev.to/saaro_net/small-language-models-2026-why-small-ai-models-are-taking-over-production-1pa9</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>It’s a strange paradox, isn’t it? We live in an era where the most powerful AI models are available to literally anyone with a credit card, yet most developers I talk to feel a twinge of impostor...</description>
+    <description>In 2026, a quiet paradigm shift has taken place in the AI landscape. While headlines continue to be dominated by ever-larger frontier models with trillions of parameters, more and more production...</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Let’s talk about Jensen Huang’s many affairs!</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow</link>
+    <guid>https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Usually, we&apos;d be offering to answer your questions about a news event, but honestly we don&apos;t really have any answers about what the hell is going on over at Nvidia. I can&apos;t speak for Nilay but at...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>When an AI Agent Goes Wrong, Can You Stop It?</title>
+    <link>https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html</link>
+    <guid>https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html</guid>
+    <pubDate>Fri, 13 Nov 2026 11:52:31 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood</title>
+    <link>https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/</link>
+    <guid>https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/</guid>
+    <pubDate>Fri, 13 Nov 2026 11:45:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
+    <description>Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users</title>
+    <link>https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html</link>
+    <guid>https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html</guid>
+    <pubDate>Fri, 13 Nov 2026 11:10:40 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins</title>
+    <link>https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html</link>
+    <guid>https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html</guid>
+    <pubDate>Fri, 13 Nov 2026 10:55:03 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials</title>
+    <link>https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/</link>
+    <guid>https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/</guid>
+    <pubDate>Fri, 13 Nov 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Silicon Valley claims to know the future. So why did it get the midterms so wrong?</title>
+    <link>https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/</link>
+    <guid>https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/</guid>
+    <pubDate>Fri, 13 Nov 2026 10:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
+    <description>The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is...</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files</title>
+    <link>https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html</link>
+    <guid>https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html</guid>
+    <pubDate>Fri, 13 Nov 2026 08:05:49 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local...</description>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2</title>
+    <link>https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html</link>
+    <guid>https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html</guid>
+    <pubDate>Fri, 13 Nov 2026 05:43:28 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
+    <description>N-able on Thursday said it&apos;s taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. &quot;We are restricting certain N-central...</description>
+    <category>Security</category>
   </item>
   <item>
     <title>Donald Trump really wants Tim Cook to run Nvidia</title>
@@ -139,7 +229,7 @@
     <guid>https://www.theverge.com/tech/1032226/microsoft-outlook-is-down</guid>
     <pubDate>Thu, 12 Nov 2026 23:24:13 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Since just before 1PM ET on Thursday, reports have come in from around the world that people can&apos;t access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the...</description>
+    <description>Microsoft Outlook continues to be unavailable for people, businesses, and public services across the globe, leaving people unable to access their email, either through the web or apps. Reports...</description>
     <category>Tech Industry</category>
   </item>
   <item>
@@ -185,96 +275,6 @@
     <pubDate>Thu, 12 Nov 2026 22:14:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
     <description>In a special episode of “Uncanny Valley,” we break down Jensen Huang’s resignation from Nvidia, what comes next for the company, and where the AI industry goes from here.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Google’s new Gemini model is better at understanding complicated questions</title>
-    <link>https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen</link>
-    <guid>https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen</guid>
-    <pubDate>Thu, 12 Nov 2026 21:55:32 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including &quot;questions with multiple parts, hard-to-understand typos, or highly specific requests.&quot;...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation</title>
-    <link>https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions</link>
-    <guid>https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions</guid>
-    <pubDate>Thu, 12 Nov 2026 21:45:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Nvidia announced this morning that Jensen Huang has resigned as CEO following reports of two affairs, including one with an alleged Chinese spy and one with a direct report. The situation...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The unfolding Jensen Huang scandal: a timeline</title>
-    <link>https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/</link>
-    <guid>https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/</guid>
-    <pubDate>Thu, 12 Nov 2026 21:35:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>The Oura Ring 4 is almost as good as the newer model, but $150 cheaper</title>
-    <link>https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale</link>
-    <guid>https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale</guid>
-    <pubDate>Thu, 12 Nov 2026 21:28:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>The previous-generation Oura Ring 4 is on sale for as low as $249 at Amazon, Best Buy, and Target, $100 off the retail price, and the first big discount on the device since July. The price varies...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Nebius tests the neocloud playbook with $40 billion in planned spending</title>
-    <link>https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/</link>
-    <guid>https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/</guid>
-    <pubDate>Thu, 12 Nov 2026 21:27:10 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Here are the 25 original Xbox games you can now play on PC</title>
-    <link>https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility</link>
-    <guid>https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility</guid>
-    <pubDate>Thu, 12 Nov 2026 21:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>For the 25th anniversary of Xbox, Microsoft is beginning to make good on its paid &quot;next-gen game preservation&quot; promise. Starting today, you can play 25 different original Xbox games on your...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women</title>
-    <link>https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/</link>
-    <guid>https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/</guid>
-    <pubDate>Thu, 12 Nov 2026 20:35:11 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Jensen Huang was having a third affair, Reuters reports</title>
-    <link>https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/</link>
-    <guid>https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/</guid>
-    <pubDate>Thu, 12 Nov 2026 20:26:47 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility</title>
-    <link>https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/</link>
-    <guid>https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/</guid>
-    <pubDate>Thu, 12 Nov 2026 20:16:24 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">MIT Tech Review</source>
-    <description>Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
-    <link>https://openai.com/business/customer-stories/amplitude</link>
-    <guid>https://openai.com/business/customer-stories/amplitude</guid>
-    <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
-    <description>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</description>
     <category>AI</category>
   </item>
 </channel>
