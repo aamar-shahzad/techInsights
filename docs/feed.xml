@@ -5,97 +5,169 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 15 Nov 2026 21:01:41 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 06:29:47 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Hear Every Change: We Built an AI Coding Agent You Can Supervise Without Seeing the Screen</title>
-    <link>https://dev.to/12k_avery/hear-every-change-we-built-an-ai-coding-agent-you-can-supervise-without-seeing-the-screen-217n</link>
-    <guid>https://dev.to/12k_avery/hear-every-change-we-built-an-ai-coding-agent-you-can-supervise-without-seeing-the-screen-217n</guid>
-    <pubDate>Sun, 15 Nov 2026 20:59:45 +0000</pubDate>
+    <title>Why Your &apos;Run Once&apos; Trigger Guard Silently Skips Records</title>
+    <link>https://dev.to/apexcraftstudio/why-your-run-once-trigger-guard-silently-skips-records-4507</link>
+    <guid>https://dev.to/apexcraftstudio/why-your-run-once-trigger-guard-silently-skips-records-4507</guid>
+    <pubDate>Mon, 16 Nov 2026 06:24:20 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>This is a submission for the MLH x DEV Writing Challenge What I Built Close your eyes and try to review a diff. That&apos;s the everyday reality for blind developers using AI coding tools. Through a...</description>
+    <description>If your trigger handler uses a static boolean to &quot;run once&quot;, it is probably skipping records in production, and nothing tells you. No error, no failed test, just records that never got processed....</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Direct Browser Image Uploads Need CORS and Retention Boundaries (3 Layers)</title>
-    <link>https://dev.to/vespasianblack3884/direct-browser-image-uploads-need-cors-and-retention-boundaries-3-layers-2ep6</link>
-    <guid>https://dev.to/vespasianblack3884/direct-browser-image-uploads-need-cors-and-retention-boundaries-3-layers-2ep6</guid>
-    <pubDate>Sun, 15 Nov 2026 20:58:04 +0000</pubDate>
+    <title>Stop your MQL5 EA from firing orders into a closed market</title>
+    <link>https://dev.to/omaisali/stop-your-mql5-ea-from-firing-orders-into-a-closed-market-bc5</link>
+    <guid>https://dev.to/omaisali/stop-your-mql5-ea-from-firing-orders-into-a-closed-market-bc5</guid>
+    <pubDate>Mon, 16 Nov 2026 06:24:18 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Direct browser uploads look like a storage selection problem. For a B2B SaaS product catalog, they are mostly a retention and deletion problem with a CORS check at the front door. The durable...</description>
+    <description>If your EA has ever filled its log with retcode 10018 (TRADE_RETCODE_MARKET_CLOSED), you know the pattern. A signal appears during the daily break, on a holiday, or a few seconds before the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>How I keep a multiplayer browser city alive with zero players online</title>
-    <link>https://dev.to/balakcity/how-i-keep-a-multiplayer-browser-city-alive-with-zero-players-online-5073</link>
-    <guid>https://dev.to/balakcity/how-i-keep-a-multiplayer-browser-city-alive-with-zero-players-online-5073</guid>
-    <pubDate>Sun, 15 Nov 2026 20:57:59 +0000</pubDate>
+    <title>Test an avatar camera in Discord before an event</title>
+    <link>https://dev.to/yj_66d7294df017caf0384e3/test-an-avatar-camera-in-discord-before-an-event-29cl</link>
+    <guid>https://dev.to/yj_66d7294df017caf0384e3/test-an-avatar-camera-in-discord-before-an-event-29cl</guid>
+    <pubDate>Mon, 16 Nov 2026 06:23:44 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I&apos;m a solo dev from Uruguay building Balak City, a multiplayer open-world city that runs in the browser: one shared city where everyone walks, drives, runs missions and buys businesses at the same...</description>
+    <description>A private Discord voice channel is a convenient place to verify an avatar-camera setup before a community event. Join a test channel alone or with a colleague, open the camera preview, and confirm...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>resilient_ws: WebSocket and SSE clients for Dart that survive bad networks</title>
-    <link>https://dev.to/abdeldjalilchougui/resilientws-websocket-and-sse-clients-for-dart-that-survive-bad-networks-4dnn</link>
-    <guid>https://dev.to/abdeldjalilchougui/resilientws-websocket-and-sse-clients-for-dart-that-survive-bad-networks-4dnn</guid>
-    <pubDate>Sun, 15 Nov 2026 20:57:15 +0000</pubDate>
+    <title>Three more tools, three more countries: Brunei&apos;s new pension fund, Mongolia&apos;s salary tax and a Punjabi calendar that starts in March</title>
+    <link>https://dev.to/zaidi617796/three-more-tools-three-more-countries-bruneis-new-pension-fund-mongolias-salary-tax-and-a-6mo</link>
+    <guid>https://dev.to/zaidi617796/three-more-tools-three-more-countries-bruneis-new-pension-fund-mongolias-salary-tax-and-a-6mo</guid>
+    <pubDate>Mon, 16 Nov 2026 06:23:33 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Opening a WebSocket is one line of code. Keeping it open on a phone is the hard part. The user walks into a lift, the phone switches from Wi-Fi to mobile data, the app goes to the background, the...</description>
+    <description>Some weeks the new tools are all about money. This week two of them are — and the third one is about time itself. I added three more to RozKaTool — free, no sign-up, everything runs in your...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>reorderable_wrap: drag-to-reorder Wrap, grid, table, Row and Column in Flutter</title>
-    <link>https://dev.to/abdeldjalilchougui/reorderablewrap-drag-to-reorder-wrap-grid-table-row-and-column-in-flutter-mog</link>
-    <guid>https://dev.to/abdeldjalilchougui/reorderablewrap-drag-to-reorder-wrap-grid-table-row-and-column-in-flutter-mog</guid>
-    <pubDate>Sun, 15 Nov 2026 20:57:10 +0000</pubDate>
+    <title>Choose avatar expressions that read well in webinars</title>
+    <link>https://dev.to/yj_66d7294df017caf0384e3/choose-avatar-expressions-that-read-well-in-webinars-508n</link>
+    <guid>https://dev.to/yj_66d7294df017caf0384e3/choose-avatar-expressions-that-read-well-in-webinars-508n</guid>
+    <pubDate>Mon, 16 Nov 2026 06:23:07 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Flutter ships a good widget for reordering: ReorderableListView. It does one thing, a single-column scrolling list, and does it well. The trouble is that many things users want to drag around are...</description>
+    <description>Webinars often place the speaker in a small tile beside slides, so expressions need to stay readable without competing with the material. Before the event, list the moments when your face adds...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>🔎 Python Project Scanner Architecture: Static Analysis, Multi-Ecosystem Dependencies, and Technical Mapping</title>
-    <link>https://dev.to/palks_studio/python-project-scanner-architecture-static-analysis-multi-ecosystem-dependencies-and-technical-1a51</link>
-    <guid>https://dev.to/palks_studio/python-project-scanner-architecture-static-analysis-multi-ecosystem-dependencies-and-technical-1a51</guid>
-    <pubDate>Sun, 15 Nov 2026 20:56:43 +0000</pubDate>
+    <title>Easy agent skills that have proven useful in fixing bugs</title>
+    <link>https://dev.to/kalletolonen/easy-agent-skills-that-have-proven-useful-in-fixing-bugs-1fje</link>
+    <guid>https://dev.to/kalletolonen/easy-agent-skills-that-have-proven-useful-in-fixing-bugs-1fje</guid>
+    <pubDate>Mon, 16 Nov 2026 06:23:02 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Taking over an existing software project often begins with the same questions. Which technologies does it use? What libraries does it depend on? Which external services are integrated? How do its...</description>
+    <description>What are agent skills? They&apos;re files that determine how an agent should behave and what tooling and workflows they should use. I think some are useful for now, but they will eventually be consumed...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>mock_api_assets: backend وهمي من ملفات JSON لتطبيقات Dart و Flutter</title>
-    <link>https://dev.to/abdeldjalilchougui/mockapiassets-backend-whmy-mn-mlft-json-lttbyqt-dart-w-flutter-40od</link>
-    <guid>https://dev.to/abdeldjalilchougui/mockapiassets-backend-whmy-mn-mlft-json-lttbyqt-dart-w-flutter-40od</guid>
-    <pubDate>Sun, 15 Nov 2026 20:56:38 +0000</pubDate>
+    <title>Add ChatGPT-style AI chat to your Expo app in 5 minutes</title>
+    <link>https://dev.to/yogesh_senior_dev/add-chatgpt-style-ai-chat-to-your-expo-app-in-5-minutes-15fd</link>
+    <guid>https://dev.to/yogesh_senior_dev/add-chatgpt-style-ai-chat-to-your-expo-app-in-5-minutes-15fd</guid>
+    <pubDate>Mon, 16 Nov 2026 06:22:39 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>العمل على الواجهة يبدأ غالبًا قبل أن يجهز الـ backend. الـ API ما يزال قيد التصميم، أو موجود لكنك في القطار، أو عليك عرض التطبيق ولا تستطيع الاعتماد على خادم. الجواب المعتاد بضع قوائم مكتوبة...</description>
+    <description>Almost every app wants an &quot;Ask AI&quot; screen now. Building one in React Native sounds easy until you hit the details: Text stutters while the response streams in, token by token Half-written markdown...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>mock_api_assets: a fake backend from JSON fixtures for Dart and Flutter</title>
-    <link>https://dev.to/abdeldjalilchougui/mockapiassets-a-fake-backend-from-json-fixtures-for-dart-and-flutter-2oa6</link>
-    <guid>https://dev.to/abdeldjalilchougui/mockapiassets-a-fake-backend-from-json-fixtures-for-dart-and-flutter-2oa6</guid>
-    <pubDate>Sun, 15 Nov 2026 20:56:38 +0000</pubDate>
+    <title>Archshaper vs GenAnywhere: Site Data That Survives the Handoff</title>
+    <link>https://dev.to/future_built_ai/archshaper-vs-genanywhere-site-data-that-survives-the-handoff-21od</link>
+    <guid>https://dev.to/future_built_ai/archshaper-vs-genanywhere-site-data-that-survives-the-handoff-21od</guid>
+    <pubDate>Mon, 16 Nov 2026 06:22:26 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Front-end work often starts before the backend is ready. The API is still being designed, or it exists but you are on a train, or you have to demo the app and cannot depend on a server. The usual...</description>
+    <description>The lodge sits at 2,300 meters and the lift company wants a new base building. My job was the site package: existing conditions that a structural engineer, a civil consultant, and a snow...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What I&apos;d check before scaling an app built with Lovable, Bolt or Cursor</title>
-    <link>https://dev.to/dhairya_purohit/what-id-check-before-scaling-an-app-built-with-lovable-bolt-or-cursor-4hj3</link>
-    <guid>https://dev.to/dhairya_purohit/what-id-check-before-scaling-an-app-built-with-lovable-bolt-or-cursor-4hj3</guid>
-    <pubDate>Sun, 15 Nov 2026 20:54:34 +0000</pubDate>
+    <title>Rounding money in Uniface ProcScript - why the modulo operator was the wrong tool</title>
+    <link>https://dev.to/f345345dfg/rounding-money-in-uniface-procscript-why-the-modulo-operator-was-the-wrong-tool-4b3g</link>
+    <guid>https://dev.to/f345345dfg/rounding-money-in-uniface-procscript-why-the-modulo-operator-was-the-wrong-tool-4b3g</guid>
+    <pubDate>Mon, 16 Nov 2026 06:22:10 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>When a first version of an app works, it can be tempting to spend the next week on whatever feature users ask for most. Before opening access to a bigger group, I&apos;d pick one ordinary customer...</description>
+    <description>The customer app from the series Building a customer app in Uniface 10 got a credit module in stage 31. One operation suggests a credit limit per customer: two months of revenue, rounded down to...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>n8n vs Make vs Zapier vs custom code: how to pick an automation backbone</title>
-    <link>https://dev.to/amazeai/n8n-vs-make-vs-zapier-vs-custom-code-how-to-pick-an-automation-backbone-552c</link>
-    <guid>https://dev.to/amazeai/n8n-vs-make-vs-zapier-vs-custom-code-how-to-pick-an-automation-backbone-552c</guid>
-    <pubDate>Sun, 15 Nov 2026 20:53:19 +0000</pubDate>
+    <title>Deploying a Containerized Web Application on AWS ECS Fargate using Terraform and AWS CodeBuild</title>
+    <link>https://dev.to/aws-builders/deploying-a-containerized-web-application-on-aws-ecs-fargate-using-terraform-and-aws-codebuild-18dk</link>
+    <guid>https://dev.to/aws-builders/deploying-a-containerized-web-application-on-aws-ecs-fargate-using-terraform-and-aws-codebuild-18dk</guid>
+    <pubDate>Mon, 16 Nov 2026 06:22:01 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>I run AmazeAI, where we build workflow automation for service businesses, so I have a stake in this. This is a short version of a longer piece with sources, linked at the bottom. The pricing units...</description>
+    <description>Table of Contents Introduction Business Requirements Architecture Pre-requisites Implementation Steps in Words Technical Implementation Steps Pipeline Configuration Key Benefits Conclusion 1....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>Apple launches new app to study how people use AI for health</title>
+    <link>https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/</link>
+    <guid>https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/</guid>
+    <pubDate>Mon, 16 Nov 2026 01:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Apple&apos;s new app for a study will answer everyday medical questions</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Apple’s new study looks to improve the effectiveness of AI health tools</title>
+    <link>https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools</link>
+    <guid>https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools</guid>
+    <pubDate>Mon, 16 Nov 2026 01:26:56 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market</title>
+    <link>https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/</link>
+    <guid>https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/</guid>
+    <pubDate>Sun, 15 Nov 2026 23:30:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A step toward defining the Standard Model on a lattice</title>
+    <link>https://openai.com/index/step-toward-defining-the-standard-model</link>
+    <guid>https://openai.com/index/step-toward-defining-the-standard-model</guid>
+    <pubDate>Sun, 15 Nov 2026 22:00:01 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Our new blog for science</title>
+    <link>https://openai.com/index/our-new-blog-for-science</link>
+    <guid>https://openai.com/index/our-new-blog-for-science</guid>
+    <pubDate>Sun, 15 Nov 2026 22:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Is bad news for Jensen Huang also bad news for the AI industry?</title>
+    <link>https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/</link>
+    <guid>https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/</guid>
+    <pubDate>Sun, 15 Nov 2026 21:56:35 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>&quot;Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.&quot;</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Listen to this: Armand Hammer’s Snakes &amp;#038; Ladders</title>
+    <link>https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review</link>
+    <guid>https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review</guid>
+    <pubDate>Sun, 15 Nov 2026 21:49:22 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>I open with this caveat: I haven&apos;t had a ton of time to digest the surprise Armand Hammer record that dropped this week. Billy Woods and Elucid rarely miss, though, and my initial reaction is that...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Vulcan rocket fails, destroying 40 Amazon Leo satellites</title>
+    <link>https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites</link>
+    <guid>https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites</guid>
+    <pubDate>Sun, 15 Nov 2026 21:05:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon&apos;s competitor to...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Jensen Huang might be plotting a return and more of the latest Nvidia drama</title>
@@ -170,15 +242,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>An overview of Jensen Huang’s messy days</title>
-    <link>https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation</link>
-    <guid>https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation</guid>
-    <pubDate>Sun, 15 Nov 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang&apos;s resignation and the fallout from Nvidia&apos;s leadership crisis, follow...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>AI DJs Completely Kill My Groove</title>
     <link>https://www.wired.com/story/ai-djs-completely-kill-my-groove/</link>
     <guid>https://www.wired.com/story/ai-djs-completely-kill-my-groove/</guid>
@@ -213,69 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
     <description>The compromise of Anthropic&apos;s official Claude Code extension on Cursor&apos;s extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting...</description>
     <category>Security</category>
-  </item>
-  <item>
-    <title>Where was Nvidia’s security team?</title>
-    <link>https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/</link>
-    <guid>https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/</guid>
-    <pubDate>Sun, 15 Nov 2026 00:08:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to...</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship</title>
-    <link>https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch</link>
-    <guid>https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch</guid>
-    <pubDate>Sat, 14 Nov 2026 21:44:44 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>After aborting a planned catch of Starship Flight 15&apos;s booster, SpaceX successfully captured Starship with its &quot;Mechazilla&quot; launch and catch tower for the first time. The company has performed...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang</title>
-    <link>https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/</link>
-    <guid>https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/</guid>
-    <pubDate>Sat, 14 Nov 2026 21:41:22 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>The petition had attracted more than 115,000 signatures as of Saturday afternoon.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Magic: The Gathering is getting a Netflix animated series. For real this time.</title>
-    <link>https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series</link>
-    <guid>https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series</guid>
-    <pubDate>Sat, 14 Nov 2026 19:47:40 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>&quot;It&apos;s really happening. I promise. For real.&quot; Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The AI graveyard: a running list of projects and startups that didn’t make it</title>
-    <link>https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/</link>
-    <guid>https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/</guid>
-    <pubDate>Sat, 14 Nov 2026 17:30:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>From Apple&apos;s repeatedly delayed Siri AI to OpenAI&apos;s messy &quot;super app&quot; launch, here&apos;s a look at the AI projects that shut down or missed expectations.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Upcoming Speaking Engagements</title>
-    <link>https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html</link>
-    <guid>https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html</guid>
-    <pubDate>Sat, 14 Nov 2026 17:02:39 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Schneier on Security</source>
-    <description>This is a current list of where and when I am scheduled to speak: I’m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I’m speaking at QT Qonference...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Asian governments react to Nvidia CEO Jensen Huang’s exit</title>
-    <link>https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/</link>
-    <guid>https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/</guid>
-    <pubDate>Sat, 14 Nov 2026 16:34:15 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
-    <description>Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.</description>
-    <category>AI</category>
   </item>
 </channel>
 </rss>
