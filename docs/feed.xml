@@ -5,97 +5,160 @@
   <link>https://aamar-shahzad.github.io/techInsights/</link>
   <description>Daily curated news on AI, developer tools, and the tech industry</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 22 Nov 2026 16:16:23 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 00:53:00 +0000</lastBuildDate>
   <atom:link href="https://aamar-shahzad.github.io/techInsights/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>InfiniBand Troubleshooting Explained: Using ibqueryerrors to Identify Network Problems</title>
-    <link>https://dev.to/zubairakbar/infiniband-troubleshooting-explained-using-ibqueryerrors-to-identify-network-problems-1hp</link>
-    <guid>https://dev.to/zubairakbar/infiniband-troubleshooting-explained-using-ibqueryerrors-to-identify-network-problems-1hp</guid>
-    <pubDate>Sun, 22 Nov 2026 16:09:49 +0000</pubDate>
+    <title>Avatar Upload Explained: 4 Steps to Avoid Old Object File Overwrite</title>
+    <link>https://dev.to/noahhayes7250/avatar-upload-explained-4-steps-to-avoid-old-object-file-overwrite-6g5</link>
+    <guid>https://dev.to/noahhayes7250/avatar-upload-explained-4-steps-to-avoid-old-object-file-overwrite-6g5</guid>
+    <pubDate>Mon, 23 Nov 2026 00:51:12 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Introduction Imagine submitting an MPI job to an HPC cluster. It starts normally, but something does not feel right. A job that usually finishes in 20 minutes is now taking 45 minutes. Some MPI...</description>
+    <description>Use a new object key for every avatar revision, switch the database pointer only after the upload succeeds, then delete the old object. That four-step sequence is the practical answer when object...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AI Agent Attackers Bring Patience, Not Genius: A Defender Checklist From the Cairn Case</title>
-    <link>https://dev.to/jamilxt/ai-agent-attackers-bring-patience-not-genius-a-defender-checklist-from-the-cairn-case-3e4l</link>
-    <guid>https://dev.to/jamilxt/ai-agent-attackers-bring-patience-not-genius-a-defender-checklist-from-the-cairn-case-3e4l</guid>
-    <pubDate>Sun, 22 Nov 2026 16:09:20 +0000</pubDate>
+    <title>Getting code into a sandbox and results out: files, folders and change lists</title>
+    <link>https://dev.to/sandscale/getting-code-into-a-sandbox-and-results-out-files-folders-and-change-lists-2ldf</link>
+    <guid>https://dev.to/sandscale/getting-code-into-a-sandbox-and-results-out-files-folders-and-change-lists-2ldf</guid>
+    <pubDate>Mon, 23 Nov 2026 00:50:38 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>The instruction was three words long: &quot;obtain shell access.&quot; That was the goal an attacker gave to a set of AI agents in September, according to Amazon Threat Intelligence. The agents planned...</description>
+    <description>Starting a sandbox is the easy part. The first real question in any agent integration is how to get the code in, and how to get the result out. Copying a repository one file at a time is slow and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>LTX 2 lip sync plus a cloned voice: building a talking shot from two workflows</title>
-    <link>https://dev.to/ai-ksk/ltx-2-lip-sync-plus-a-cloned-voice-building-a-talking-shot-from-two-workflows-p7o</link>
-    <guid>https://dev.to/ai-ksk/ltx-2-lip-sync-plus-a-cloned-voice-building-a-talking-shot-from-two-workflows-p7o</guid>
-    <pubDate>Sun, 22 Nov 2026 16:08:48 +0000</pubDate>
+    <title>Automating Zerodha Kite Orders with Python: What to Plan Before You Code</title>
+    <link>https://dev.to/iamkazi2050/automating-zerodha-kite-orders-with-python-what-to-plan-before-you-code-4fmj</link>
+    <guid>https://dev.to/iamkazi2050/automating-zerodha-kite-orders-with-python-what-to-plan-before-you-code-4fmj</guid>
+    <pubDate>Mon, 23 Nov 2026 00:50:22 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Two workflows, one result. The first clones a voice from a sample with Qwen3 TTS. The second drives lip movement with LTX 2. Together they make a talking shot where both the face and the voice are...</description>
+    <description>Indian traders often start automation with a short Python script and the Kite Connect API. The first order goes through in an afternoon. The problems show up later: the token that expires every...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>AnyLight: precise relighting as a technical control problem</title>
-    <link>https://dev.to/ai-ksk/anylight-precise-relighting-as-a-technical-control-problem-51i0</link>
-    <guid>https://dev.to/ai-ksk/anylight-precise-relighting-as-a-technical-control-problem-51i0</guid>
-    <pubDate>Sun, 22 Nov 2026 16:08:44 +0000</pubDate>
+    <title>Parsing Telegram Trading Signals: The Edge Cases That Break Copiers</title>
+    <link>https://dev.to/iamkazi2050/parsing-telegram-trading-signals-the-edge-cases-that-break-copiers-3ilm</link>
+    <guid>https://dev.to/iamkazi2050/parsing-telegram-trading-signals-the-edge-cases-that-break-copiers-3ilm</guid>
+    <pubDate>Mon, 23 Nov 2026 00:49:41 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Relighting usually means &quot;describe the light and hope&quot;. This episode is about treating it as a control problem: AnyLight is a LoRA that takes a light direction and applies it, and the workflow...</description>
+    <description>If you have ever tried to turn Telegram trading signals into orders, you know the first version takes an evening. A regex finds BUY or SELL, a symbol, an entry, a stop loss and a take profit. It...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>A Card Tap Finishes in 400ms. Why Moving Actual Money Still Takes Days: The Three Laws of Payment Physics</title>
-    <link>https://dev.to/digbijoylabs/a-card-tap-finishes-in-400ms-why-moving-actual-money-still-takes-days-the-three-laws-of-payment-39dj</link>
-    <guid>https://dev.to/digbijoylabs/a-card-tap-finishes-in-400ms-why-moving-actual-money-still-takes-days-the-three-laws-of-payment-39dj</guid>
-    <pubDate>Sun, 22 Nov 2026 16:07:32 +0000</pubDate>
+    <title>I typed 30 ordinary sentences into my own search box. 13 returned nothing.</title>
+    <link>https://dev.to/li_yi_dcec96bf2647dec1b7e/i-typed-30-ordinary-sentences-into-my-own-search-box-13-returned-nothing-1jnp</link>
+    <guid>https://dev.to/li_yi_dcec96bf2647dec1b7e/i-typed-30-ordinary-sentences-into-my-own-search-box-13-returned-nothing-1jnp</guid>
+    <pubDate>Mon, 23 Nov 2026 00:48:59 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>People often ask why, in an era when fiber-optic packets cross oceans in 60 milliseconds, retail card settlements, B2B payouts, and cross-border FX transfers still involve multi-day clearing...</description>
+    <description>I run an AI tool directory: 4,323 listings, no login, no personalisation. The search box is the only conversation I have with a visitor, so today I stopped trusting it and measured it. Method. I...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Passwordless Magic Link API: How to Gate Node.js Signup in 3 Steps</title>
-    <link>https://dev.to/sullivanreed1247/passwordless-magic-link-api-how-to-gate-nodejs-signup-in-3-steps-7cf</link>
-    <guid>https://dev.to/sullivanreed1247/passwordless-magic-link-api-how-to-gate-nodejs-signup-in-3-steps-7cf</guid>
-    <pubDate>Sun, 22 Nov 2026 16:06:55 +0000</pubDate>
+    <title>Opening messages at local midnight in every time zone</title>
+    <link>https://dev.to/wish_tree_app/opening-messages-at-local-midnight-in-every-time-zone-jm4</link>
+    <guid>https://dev.to/wish_tree_app/opening-messages-at-local-midnight-in-every-time-zone-jm4</guid>
+    <pubDate>Mon, 23 Nov 2026 00:48:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Use a captcha gate before passwordless signup, then verify the learner&apos;s email before creating a session. For a Node.js edtech backend choosing a simple magic link sign-in API, the deciding...</description>
+    <description>How we seal wishes until the right day with Intl, a stored time zone and one integer in D1 To open something at local midnight for a user, store their IANA time zone next to the date. When the...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>What X does to a new, honest AI account: 20 hours of measurements</title>
-    <link>https://dev.to/4aisinaroom/what-x-does-to-a-new-honest-ai-account-20-hours-of-measurements-dlp</link>
-    <guid>https://dev.to/4aisinaroom/what-x-does-to-a-new-honest-ai-account-20-hours-of-measurements-dlp</guid>
-    <pubDate>Sun, 22 Nov 2026 16:06:53 +0000</pubDate>
+    <title>Agent CLIs, NGINX Security, Windows Telemetry, MCP Speed, and App Compliance</title>
+    <link>https://dev.to/karleeov/agent-clis-nginx-security-windows-telemetry-mcp-speed-and-app-compliance-2maa</link>
+    <guid>https://dev.to/karleeov/agent-clis-nginx-security-windows-telemetry-mcp-speed-and-app-compliance-2maa</guid>
+    <pubDate>Mon, 23 Nov 2026 00:48:06 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Written by four Claude Opus 5.5 agents (this data section mostly by a3, edited by a1). Views come from FxTwitter&apos;s public API, timestamps from our own write log. Nothing here is estimated. Day one...</description>
+    <description>The most useful trend in this week’s tools is not that agents can replace entire workflows. It is that each project makes a testable claim: agents can operate existing software, NGINX...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Error 5408 is a design review: check the limit before you send it</title>
-    <link>https://dev.to/vectle/error-5408-is-a-design-review-check-the-limit-before-you-send-it-3ka5</link>
-    <guid>https://dev.to/vectle/error-5408-is-a-design-review-check-the-limit-before-you-send-it-3ka5</guid>
-    <pubDate>Sun, 22 Nov 2026 16:06:51 +0000</pubDate>
+    <title>Are We Becoming Better Developers with AI, or Just Faster at Writing Code?</title>
+    <link>https://dev.to/sreehari_bandi_dcbe172a76/are-we-becoming-better-developers-with-ai-or-just-faster-at-writing-code-37jg</link>
+    <guid>https://dev.to/sreehari_bandi_dcbe172a76/are-we-becoming-better-developers-with-ai-or-just-faster-at-writing-code-37jg</guid>
+    <pubDate>Mon, 23 Nov 2026 00:48:05 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>United&apos;s agent ban, one more time, but from the builder&apos;s chair. Since November 11, an unauthorized AI agent cannot book, change or service a United ticket, even with the passenger supervising....</description>
+    <description>AI tools like ChatGPT, Claude, Cursor, and Gemini are changing the way we build software. Today, developers can: Build applications in hours instead of days. Generate APIs, database schemas, and...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>The Hard Part of a Browser SSH Terminal Is Closing It</title>
-    <link>https://dev.to/hoagminh/the-hard-part-of-a-browser-ssh-terminal-is-closing-it-1en8</link>
-    <guid>https://dev.to/hoagminh/the-hard-part-of-a-browser-ssh-terminal-is-closing-it-1en8</guid>
-    <pubDate>Sun, 22 Nov 2026 16:05:58 +0000</pubDate>
+    <title>A Guide to Go SMS OTP for a Beginner SaaS 2FA Login Stack</title>
+    <link>https://dev.to/liraelvex6403/a-guide-to-go-sms-otp-for-a-beginner-saas-2fa-login-stack-3p00</link>
+    <guid>https://dev.to/liraelvex6403/a-guide-to-go-sms-otp-for-a-beginner-saas-2fa-login-stack-3p00</guid>
+    <pubDate>Mon, 23 Nov 2026 00:47:09 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>A browser terminal looks like a straightforward UI feature: xterm.js in browser &lt;──WebSocket──&gt; SSH PTY on VPS Most tutorials implement it in fifty lines. Upgrade a WebSocket, connect an SSH...</description>
+    <description>Payment settlement and identity verification need separate state, even when the receipt and the login challenge reach the same customer within seconds. TL;DR: for a beginner US/EU SaaS workflow,...</description>
     <category>Developer Tools</category>
   </item>
   <item>
-    <title>Treat PowerPanel Business as privileged infrastructure, not background UPS software</title>
-    <link>https://dev.to/onaeiuspkz/treat-powerpanel-business-as-privileged-infrastructure-not-background-ups-software-2fk5</link>
-    <guid>https://dev.to/onaeiuspkz/treat-powerpanel-business-as-privileged-infrastructure-not-background-ups-software-2fk5</guid>
-    <pubDate>Sun, 22 Nov 2026 16:05:48 +0000</pubDate>
+    <title>Stackin API REST: NF-e e NFS-e</title>
+    <link>https://dev.to/stackin/stackin-api-rest-nf-e-e-nfs-e-hgj</link>
+    <guid>https://dev.to/stackin/stackin-api-rest-nf-e-e-nfs-e-hgj</guid>
+    <pubDate>Mon, 23 Nov 2026 00:46:53 +0000</pubDate>
     <source url="https://aamar-shahzad.github.io/techInsights/">Dev.to</source>
-    <description>Treat PowerPanel Business as privileged infrastructure, not background UPS software PowerPanel Business sits beside the power infrastructure many organizations treat as facilities equipment. The...</description>
+    <description>Stackin API REST: NF-e e NFS-e Emita e gerencie documentos fiscais com HTTP e JSON. A API REST do Stackin atende às mesmas operações dos SDKs oficiais — sem depender de uma biblioteca cliente....</description>
     <category>Developer Tools</category>
+  </item>
+  <item>
+    <title>We haven’t seen the last of the major tech outages</title>
+    <link>https://www.theverge.com/tech/1039851/major-tech-outages</link>
+    <guid>https://www.theverge.com/tech/1039851/major-tech-outages</guid>
+    <pubDate>Sun, 22 Nov 2026 22:48:02 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>OpenAI’s chief scientist has thoughts on how to limit AI development</title>
+    <link>https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/</link>
+    <guid>https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/</guid>
+    <pubDate>Sun, 22 Nov 2026 21:14:07 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>To establish a speed limit on AI development, you need to agree on how to measure speed.</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Why data centers are at the center of the Big Tech backlash</title>
+    <link>https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/</link>
+    <guid>https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/</guid>
+    <pubDate>Sun, 22 Nov 2026 18:08:43 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
+    <description>Journalist Paris Marx unpacks his new book &quot;Hyperscale.&quot;</description>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Delta flights in and out of Atlanta delayed due to system outage</title>
+    <link>https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage</link>
+    <guid>https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage</guid>
+    <pubDate>Sun, 22 Nov 2026 17:46:44 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane&apos;s weight and balance. Hartsfield-Jackson Atlanta...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Binding of Isaac developer removes AI music from Repentance Plus</title>
+    <link>https://www.theverge.com/games/1039770/binding-of-isaac-ai-music</link>
+    <guid>https://www.theverge.com/games/1039770/binding-of-isaac-ai-music</guid>
+    <pubDate>Sun, 22 Nov 2026 17:25:20 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user...</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Some of our favorite Switch 2 games are cheaper through Black Friday</title>
+    <link>https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale</link>
+    <guid>https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale</guid>
+    <pubDate>Sun, 22 Nov 2026 17:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well....</description>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</title>
+    <link>https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review</link>
+    <guid>https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review</guid>
+    <pubDate>Sun, 22 Nov 2026 16:33:29 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
+    <description>Sheherazaad started making ripples in the music world a few years ago with her EP Qasr, which was produced by Grammy Award winner Arooj Aftab. Now she&apos;s back with Khudgarzi, her reverb-drenched...</description>
+    <category>Tech Industry</category>
   </item>
   <item>
     <title>Protesters storm Meta offices in India</title>
@@ -143,15 +206,6 @@
     <category>Tech Industry</category>
   </item>
   <item>
-    <title>The vibe-coding revolution is coming to all the gadgets</title>
-    <link>https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera</link>
-    <guid>https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera</guid>
-    <pubDate>Sun, 22 Nov 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Banks Have Had It Up to Here With Your AI Agent</title>
     <link>https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/</link>
     <guid>https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/</guid>
@@ -179,13 +233,13 @@
     <category>Security</category>
   </item>
   <item>
-    <title>Amazon is complaining about NYC Council on shipping labels, too</title>
-    <link>https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label</link>
-    <guid>https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label</guid>
-    <pubDate>Sat, 21 Nov 2026 21:59:31 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could...</description>
-    <category>Tech Industry</category>
+    <title>Perplexity and Intelligence</title>
+    <link>https://openai.com/index/perplexity-and-intelligence</link>
+    <guid>https://openai.com/index/perplexity-and-intelligence</guid>
+    <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    <source url="https://aamar-shahzad.github.io/techInsights/">OpenAI Blog</source>
+    <description>How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.</description>
+    <category>AI</category>
   </item>
   <item>
     <title>Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance</title>
@@ -206,24 +260,6 @@
     <category>AI</category>
   </item>
   <item>
-    <title>The UN fails to agree on rules regulating ‘killer robots’</title>
-    <link>https://www.theverge.com/tech/1039554/un-regulations-killer-robots</link>
-    <guid>https://www.theverge.com/tech/1039554/un-regulations-killer-robots</guid>
-    <pubDate>Sat, 21 Nov 2026 20:03:37 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called &quot;killer robots.&quot; Eventually,...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The FBI and USDA were reportedly hacked</title>
-    <link>https://www.theverge.com/tech/1039543/fbi-usda-hacked</link>
-    <guid>https://www.theverge.com/tech/1039543/fbi-usda-hacked</guid>
-    <pubDate>Sat, 21 Nov 2026 17:42:27 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
     <title>Here are the top AI agents that can live in your text messages</title>
     <link>https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/</link>
     <guid>https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/</guid>
@@ -240,42 +276,6 @@
     <source url="https://aamar-shahzad.github.io/techInsights/">TechCrunch AI</source>
     <description>An actor has licensed his face to a microdrama startup — in a trend that&apos;s already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.</description>
     <category>AI</category>
-  </item>
-  <item>
-    <title>John Roberts, the voice of Linda Belcher, is just happy to finish a thing</title>
-    <link>https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview</link>
-    <guid>https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview</guid>
-    <pubDate>Sat, 21 Nov 2026 16:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Verge</source>
-    <description>You probably know John Roberts best as the voice of Linda Belcher on Bob&apos;s Burgers. The show just wrapped up its 16th season and shows no signs of slowing down anytime soon. The show remains a...</description>
-    <category>Tech Industry</category>
-  </item>
-  <item>
-    <title>The Outages Are Just Getting Started</title>
-    <link>https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/</link>
-    <guid>https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/</guid>
-    <pubDate>Sat, 21 Nov 2026 13:00:00 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">Wired AI</source>
-    <description>AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.</description>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats</title>
-    <link>https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html</link>
-    <guid>https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html</guid>
-    <pubDate>Sat, 21 Nov 2026 11:53:07 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A malicious webpage could extract a Meta Muse user&apos;s private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack...</description>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys</title>
-    <link>https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html</link>
-    <guid>https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html</guid>
-    <pubDate>Sat, 21 Nov 2026 11:05:53 +0000</pubDate>
-    <source url="https://aamar-shahzad.github.io/techInsights/">The Hacker News</source>
-    <description>A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday...</description>
-    <category>Security</category>
   </item>
 </channel>
 </rss>
